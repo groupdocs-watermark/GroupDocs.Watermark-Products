@@ -316,7 +316,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
           product: "GroupDocs.Watermark"
           platform: "Java"
-          link: "/watermark/java"
+          link: "/watermark/java/"
 
 ############################# Back to top ###############################
 back_to_top:

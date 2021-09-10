@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Watermark On Premise APIs Include"
-      link: "/watermark"
+      link: "/watermark/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/watermark/net"
+        - link: "/watermark/net/"
           img_alt: "GroupDocs.Watermark for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
           product: "GroupDocs.Watermark for"
@@ -31,7 +31,7 @@ apis:
           content: "Search, add or remove text or image watermarks from multitude of file formats within your .NET applications."
 
         # api_product loop
-        - link: "/watermark/java"
+        - link: "/watermark/java/"
           img_alt: "GroupDocs.Watermark for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
           product: "GroupDocs.Watermark for"
