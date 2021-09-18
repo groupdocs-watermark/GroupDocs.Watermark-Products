@@ -306,7 +306,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
           product: "GroupDocs.Watermark"
           platform: ".NET"
-          link: "/watermark/net"
+          link: "/watermark/net/"
 
 ############################# Back to top ###############################
 back_to_top:
