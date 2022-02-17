@@ -15,7 +15,7 @@ head_description: "Java document watermarking API – Generate, search & remove 
 
 ############################# Header ############################
 title: "Java API to Manipulate Watermarks"
-description: "‎‎Develop Java Applications to Perform Image & Text Watermarking Operations with Smart Search & Robust Security."
+description: "Develop Java Applications to Perform Image & Text Watermarking Operations with Smart Search & Robust Security."
 button:
     enable: true
 
@@ -285,7 +285,7 @@ features:
           ```
       # more_feature_loop
       - title: "Add Watermark to Files of Different Formats in a Go"
-        content: "With GroupDocs.Watermark for Java API you can add or remove watermark of all documents present in a particular folder in batch mode. It does not matter, if the documents are of different format, GroupDocs.Watermark for Java will apply watermark to all the files accurately.‎‎"
+        content: "With GroupDocs.Watermark for Java API you can add or remove watermark of all documents present in a particular folder in batch mode. It does not matter, if the documents are of different format, GroupDocs.Watermark for Java will apply watermark to all the files accurately."
 
       # more_feature_loop
       - title: "Assign Foolproof Security to your Watermarks"
