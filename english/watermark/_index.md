@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Watermark On Premise APIs Include"
+    - title: "GroupDocs.Watermark High Code APIs Include"
       link: "/watermark/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/watermark/net/"
@@ -39,9 +39,9 @@ apis:
           content: "On Premise APIs for Java based applications to manipulate watermarks for MS Office, OpenOffice, portable documents, image, drawings and more."
 
     # api loop
-    - title: "GroupDocs.Watermark Cloud APIs Include"
+    - title: "GroupDocs.Watermark Low Code APIs Include"
       link: "https://products.groupdocs.cloud/watermark"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/net"
@@ -60,9 +60,9 @@ apis:
           content: "Empower your Java applications with flexible watermarks management features using watermark SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Watermark Cross Platform Apps Include"
+    - title: "GroupDocs.Watermark No Code Apps Include"
       link: "https://products.groupdocs.app/watermark"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/total"
