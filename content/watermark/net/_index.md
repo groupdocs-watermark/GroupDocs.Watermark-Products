@@ -15,7 +15,7 @@ head_description: "C# .NET API to add, search and remove image & text-based wate
 
 ############################# Header ############################
 title: ".NET API for Watermark Manipulation"
-description: "‎Build .NET Applications to Operate Text & Image Based Watermarks with Smart Search & Strong Security Features.‎"
+description: "Build .NET Applications to Operate Text & Image Based Watermarks with Smart Search & Strong Security Features."
 button:
     enable: true
 
