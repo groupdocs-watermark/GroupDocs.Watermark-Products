@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Cari Tanda Air dari VDX di Jawa"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen VDX.
         * Inisialisasi **ImageSearchCriteria** untuk melakukan pencarian tanda air.

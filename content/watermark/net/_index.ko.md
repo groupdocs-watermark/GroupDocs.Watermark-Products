@@ -82,7 +82,7 @@ overview:
           table:
             - title: "마이크로 소프트 오피스"
               content: |
-                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **엑셀:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **파워포인트:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
@@ -119,7 +119,7 @@ overview:
 
       tab_three:
         description: |
-          .NET용 GroupDocs.Watermark는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.‎
+          .NET용 GroupDocs.Watermark는 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.
         
         left:
           enable: true
@@ -185,7 +185,7 @@ features:
         content: "이메일 또는 PDF 문서의 모든 첨부 파일에서 지원되는 파일에 워터마크 사용"
 
       - icon: "fas fa-comment-slash"
-        content: "PDF 문서에서 XObject, 인공물 및 주석으로 워터마크 적용 또는 제거‎"
+        content: "PDF 문서에서 XObject, 인공물 및 주석으로 워터마크 적용 또는 제거"
 
       - icon: "fas fa-location-arrow"
         content: "특정 형식의 텍스트가 포함된 워터마크 제거"
@@ -250,7 +250,7 @@ features:
           }
           ```
       - title: "Go에서 다양한 형식의 파일에 워터마크 적용"
-        content: "GroupDocs.Watermark API를 사용하면 워터마크를 적용하거나 특정 폴더에 있는 모든 파일의 워터마크를 한 번에 삭제할 수 있습니다. 파일 형식이 다를 수 있지만 워터마크는 모든 파일에 정확하게 적용됩니다.‎"
+        content: "GroupDocs.Watermark API를 사용하면 워터마크를 적용하거나 특정 폴더에 있는 모든 파일의 워터마크를 한 번에 삭제할 수 있습니다. 파일 형식이 다를 수 있지만 워터마크는 모든 파일에 정확하게 적용됩니다."
 
       - title: "워터마크를 위한 완벽한 보안"
         content: "단 한 줄의 코드로 모든 도구가 PDF 파일에서 워터마크를 제거하는 것을 매우 어렵게 만들 수 있습니다. 이것은 원본 품질을 그대로 유지하면서 PDF 문서의 모든 페이지를 래스터 이미지로 변환함으로써 달성됩니다.."

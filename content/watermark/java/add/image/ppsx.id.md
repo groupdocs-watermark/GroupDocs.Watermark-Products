@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Tambahkan Tanda Air Gambar ke File PPSX di Java"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen PPSX.
         * Gunakan jalur tanda air gambar sebagai parameter konstruktor kelas **ImageWatermark**.

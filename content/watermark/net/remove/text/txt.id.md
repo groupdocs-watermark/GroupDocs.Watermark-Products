@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Hapus Tanda Air dari File TXT di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk mencari dan menghapus tanda air dengan pemformatan teks dari aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mencari dan menghapus tanda air dengan pemformatan teks dari aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen TXT.
         * Inisialisasi **TextFormattingSearchCriteria** untuk menemukan tanda air teks.

@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Cari Tanda Air dari DOCX di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk mencari tanda air secara cerdas dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mencari tanda air secara cerdas dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen DOCX.
         * Inisialisasi **PossibleWatermarkCollection** untuk melakukan pencarian tanda air.

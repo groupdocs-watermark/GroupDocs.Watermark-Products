@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Edit Tanda Air Teks dalam File DOC di Jawa"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk mengedit tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mengedit tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen DOC.
         * Inisialisasi **TextSearchCriteria** untuk mencari tanda air teks.

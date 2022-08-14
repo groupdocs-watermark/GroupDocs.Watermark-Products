@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Edit Tanda Air Gambar dalam File DOCX di Jawa"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk mengedit tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mengedit tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen DOCX.
         * Inisialisasi **SearchCriteria** untuk menemukan watermark gambar.

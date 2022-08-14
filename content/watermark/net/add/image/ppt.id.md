@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Tambahkan Tanda Air Gambar ke File PPT di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah .
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah .
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen PPT.
         * Gunakan jalur tanda air gambar sebagai parameter konstruktor kelas **ImageWatermark**.

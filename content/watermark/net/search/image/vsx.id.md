@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Cari Tanda Air dari VSX di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen VSX.
         * Inisialisasi **ImageSearchCriteria** untuk melakukan pencarian tanda air.

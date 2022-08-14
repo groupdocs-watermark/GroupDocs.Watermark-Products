@@ -8,7 +8,7 @@ product_tag: "watermark"
 platform: ".NET"
 platform_tag: "net"
 
-head_title: "..NET API untuk Menambahkan Pencarian Hapus Tanda Air ke Word Excel Gambar PDF"
+head_title: ".NET API untuk Menambahkan Pencarian Hapus Tanda Air ke Word Excel Gambar PDF"
 head_description: "C# .NET API untuk menambahkan, mencari, dan menghapus gambar & tanda air berbasis teks dari dokumen: PDF, Word, Excel, presentasi, Visio, email, dan format file gambar."
 
 title: ".NET API untuk Manipulasi Tanda Air"

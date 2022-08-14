@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Tambahkan IMAGE Watermark ke IMAGE File di Java"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air IMAGE (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air IMAGE (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen IMAGE.
         * Gunakan jalur tanda air IMAGE sebagai parameter konstruktor kelas **ImageWatermark**.

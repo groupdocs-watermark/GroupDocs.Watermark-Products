@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Edit Tanda Air Gambar dalam File VTX di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk mengedit tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah .
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mengedit tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah .
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen VTX.
         * Inisialisasi **SearchCriteria** untuk menemukan watermark gambar.

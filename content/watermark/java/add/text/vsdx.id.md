@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Tambahkan Tanda Air Teks ke File VSDX di Java"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen VSDX.
         * Inisialisasi **TextWatermarker** dengan teks watermark, ukuran font dan gaya.

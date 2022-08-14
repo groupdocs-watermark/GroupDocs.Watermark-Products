@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Edit Tanda Air Teks dalam File DOTX di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk mengedit tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mengedit tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen DOTX.
         * Inisialisasi **TextSearchCriteria** untuk menemukan tanda air teks.

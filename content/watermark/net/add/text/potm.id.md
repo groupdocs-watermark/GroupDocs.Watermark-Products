@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Tambahkan Tanda Air Teks ke File POTM di .NET"
     content_left: |
-        [GroupDocs.Watermark](watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen POTM.
         * Inisialisasi **Font** yang akan digunakan untuk tanda air.

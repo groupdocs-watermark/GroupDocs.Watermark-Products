@@ -25,7 +25,7 @@ steps:
     enable: true
     title_left: "Cari Tanda Air dari XLS di Jawa"
     content_left: |
-        [GroupDocs.Watermark](watermark/java/) memudahkan pengembang Java untuk mencari tanda air secara cerdas dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mencari tanda air secara cerdas dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
         * Instansiasi **Watermarker** dengan memasukkan dokumen XLS.
         * Inisialisasi **PossibleWatermarkCollection** untuk melakukan pencarian tanda air.

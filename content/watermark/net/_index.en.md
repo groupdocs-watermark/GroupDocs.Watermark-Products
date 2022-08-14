@@ -95,7 +95,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
@@ -136,7 +136,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Watermark for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Watermark for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -215,7 +215,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Apply or Remove Watermark as XObjects, Artifacts & Annotations in PDF Documents‎"
+        content: "Apply or Remove Watermark as XObjects, Artifacts & Annotations in PDF Documents"
 
       # feature loop
       - icon: "fas fa-location-arrow"
@@ -295,7 +295,7 @@ features:
           ```
       # more_feature_loop
       - title: "Apply Watermark to Files of Different Formats in a Go"
-        content: "GroupDocs.Watermark API allows you to apply watermark or delete watermark of all files in a specific folder in one go. The files can even be of different format and yet the watermark will be applied to all of them accurately.‎"
+        content: "GroupDocs.Watermark API allows you to apply watermark or delete watermark of all files in a specific folder in one go. The files can even be of different format and yet the watermark will be applied to all of them accurately."
 
       # more_feature_loop
       - title: "Foolproof Security for Watermark"
