@@ -82,7 +82,7 @@ overview:
           table:
             - title: "마이크로 소프트 오피스"
               content: |
-                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **단어:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **엑셀:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **파워포인트:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
@@ -119,7 +119,7 @@ overview:
 
       tab_three:
         description: |
-          Java용 GroupDocs.Watermark는 다음 운영 체제, 프레임워크 및 패키지 ‎관리자:‎를 지원합니다.
+          Java용 GroupDocs.Watermark는 다음 운영 체제, 프레임워크 및 패키지 관리자:를 지원합니다.
         
         left:
           enable: true
@@ -163,7 +163,7 @@ features:
         content: "특정 섹션 또는 전체 문서에서 워터마크 사용 또는 삭제"
 
       - icon: "fas fa-bolt"
-        content: "특정 섹션, 페이지, 슬라이드 또는 문서의 모든 이미지에 워터마크 적용‎"
+        content: "특정 섹션, 페이지, 슬라이드 또는 문서의 모든 이미지에 워터마크 적용"
       
       - icon: "fas fa-file-powerpoint"
         content: "다중 프레임 이미지의 선택된 프레임에 워터마크 첨부"
@@ -243,7 +243,7 @@ features:
         content: "GroupDocs.Watermark for Java API를 사용하면 배치 모드에서 특정 폴더에 있는 모든 문서의 워터마크를 추가하거나 제거할 수 있습니다. 문서 형식이 다른 경우 중요하지 않습니다. Java용 GroupDocs.Watermark는 모든 파일에 워터마크를 정확하게 적용합니다.."
 
       - title: "워터마크에 완벽한 보안 할당"
-        content: "최소한의 코드로 워터마크에 완벽한 보안을 할당하고 제3자 도구가 PDF 파일에서 할당된 워터마크를 수정하거나 제거하는 것을 극도로 어렵게 만들 수 있습니다. Java용 GroupDocs.Watermark를 사용하면 PDF 파일의 모든 페이지를 래스터화된 이미지로 변환할 수 있기 때문입니다. 이 접근 방식을 사용하면 원본에 가까운 품질을 유지하면서 디지털 워터마크를 안전하게 보호할 수 있습니다.‎"
+        content: "최소한의 코드로 워터마크에 완벽한 보안을 할당하고 제3자 도구가 PDF 파일에서 할당된 워터마크를 수정하거나 제거하는 것을 극도로 어렵게 만들 수 있습니다. Java용 GroupDocs.Watermark를 사용하면 PDF 파일의 모든 페이지를 래스터화된 이미지로 변환할 수 있기 때문입니다. 이 접근 방식을 사용하면 원본에 가까운 품질을 유지하면서 디지털 워터마크를 안전하게 보호할 수 있습니다."
 
 support:
     enable: true
