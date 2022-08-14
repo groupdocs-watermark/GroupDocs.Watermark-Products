@@ -95,7 +95,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
@@ -136,7 +136,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Watermark for Java supports following Operating Systems, Frameworks & Package ‎Managers:‎
+          GroupDocs.Watermark for Java supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -188,7 +188,7 @@ features:
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Apply Watermark to all Images in a Particular Section, Page, Slide, or Document‎"
+        content: "Apply Watermark to all Images in a Particular Section, Page, Slide, or Document"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
@@ -289,7 +289,7 @@ features:
 
       # more_feature_loop
       - title: "Assign Foolproof Security to your Watermarks"
-        content: "With minimal code you can assign foolproof security to your watermarks and make it extremely difficult for any 3rd party tool to modify or remove your assigned watermark from PDF file. It is so because GroupDocs.Watermark for Java allows you to convert all pages of a PDF file into Rasterized images. This approach makes your digital watermarks secure while keeping their quality near to original.‎"
+        content: "With minimal code you can assign foolproof security to your watermarks and make it extremely difficult for any 3rd party tool to modify or remove your assigned watermark from PDF file. It is so because GroupDocs.Watermark for Java allows you to convert all pages of a PDF file into Rasterized images. This approach makes your digital watermarks secure while keeping their quality near to original."
 
 ############################# Support ############################
 support:

@@ -10,7 +10,7 @@ head_description: "Add watermark to PDF, images and documents. Watermarking Solu
 
 ############################# Header ############################
 title: "Watermark Solution for Documents"
-description: "Quickly apply & manipulate text and image based watermarks of your documents and images with smart search.‎"
+description: "Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
 
 ############################# APIs ###############################
 apis:

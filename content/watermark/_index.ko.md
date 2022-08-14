@@ -7,7 +7,7 @@ head_title: "워터마크 솔루션 | 온프레미스 API 및 무료 앱 - Group
 head_description: "PDF, 이미지 및 문서에 워터마크를 추가합니다. Microsoft Office, PDF, OpenDocument, 이미지 파일 형식 등을 위한 워터마킹 솔루션."
 
 title: "문서용 워터마크 솔루션"
-description: "스마트 검색으로 문서와 이미지의 텍스트와 이미지 기반 워터마크를 빠르게 적용하고 조작하세요.‎"
+description: "스마트 검색으로 문서와 이미지의 텍스트와 이미지 기반 워터마크를 빠르게 적용하고 조작하세요."
 
 apis:
   enable: true
