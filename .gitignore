@@ -1,1 +1,6 @@
 deploy_key
+
+[Bb]in/
+[Oo]bj/
+
+*.lic
