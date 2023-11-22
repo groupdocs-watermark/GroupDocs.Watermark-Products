@@ -4,3 +4,4 @@ deploy_key
 [Oo]bj/
 
 *.lic
+/.vs
