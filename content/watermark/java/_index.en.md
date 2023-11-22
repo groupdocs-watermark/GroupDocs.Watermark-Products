@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-10-23T14:58:09
 draft: false
 
 product: "Watermark"
@@ -10,305 +10,227 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java API to Add Search Remove Watermarks to PDF Word Excel Images"
-head_description: "Java document watermarking API – Generate, search & remove watermarks from documents: PDF, Word, Excel, presentations, Visio, email and image file formats."
+head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
+head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
 
 ############################# Header ############################
-title: "Java API to Manipulate Watermarks"
-description: "Develop Java Applications to Perform Image & Text Watermarking Operations with Smart Search & Robust Security."
-button:
-    enable: true
+title: "Sign documents<br>via Java API"
+description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "Free Maven Download"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Watermark features for free or request a license"
+
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+
+code:
+  title: "Sign PDF files in Java"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-watermark</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Select PDF document
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Watermark for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-        product: "GroupDocs.Watermark"
-        platform: "Java"
+    // Provide text
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
-
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Sign document and save to file
+    signature.sign("signed.pdf", options);
+    
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark for Java allows you to make business applications that enable your end-users to apply new watermarks, search and delete existing watermarks in files of supported formats. You can programmatically assign digital watermarks to lots of file formats and utilize its powerful smart search abilities. GroupDocs.Watermark for Java provides various built-in security measures that can be employed to avoid misuse of digital documents that contain sensitive information or intellectual property content.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Watermark for Java:
+  enable: true
+  title: "GroupDocs.Watermark Overview"
+  description: "API for performing document signing and related operations in Java applications"
+  features:
+    # feature loop
+    - title: "Improved business documents with digital signatures in Java"
+      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
 
-        rright:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Add & Remove Watermark
-            * Search & Replace Watermark
-            * Search by Formatting
-            * Search by Image Comparison
-            * Work with Headers & Footers
-            * Work with Background Images
-            * Work with Attachments
-            * Rasterize Pages
-            * Apply Editing Restrictions
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Supported [document formats and watermark type](https://docs.groupdocs.com/watermark/java/supported-document-formats/) for each format is listed below:
+    # feature loop
+    - title: "Manipulating signed documents"
+      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+    # feature loop
+    - title: "Variety of output choices"
+      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
 
-            # table loop
-            - title: "Adding Watermark"
-              content: |
-                * **PDF**: XObject, Artifact, Annotation
-                * **Word**: Shape
-                * **Excel**: Shape, Header & Footer
-                * **PowerPoint**: Shape
-                * **Visio**: Shape
-                * **Raster Image**: Text, Image
-                * **Multi-page Tiff**: Text, Image
-                * **Animated Gif**: Text, Image
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Watermark for Java supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF and Image documents"
-              content: |
-                * **Portable Document Format**: PDF
-                * **Open Document**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Images**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Removing Watermark"
-              content: |
-                * **PDF**: XObject, Artifact, Annotation, Regular Text
-                * **Word**: Shape, Regular Text
-                * **Excel**: Shape, Header & Footer, Background Image, Text and formulas in cells
-                * **PowerPoint**: Shape
-                * **Visio**: Shape, Diagram Comments
-                * **Email**: Attached and embedded images, Subject and body text fragments
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for Java supports following Operating Systems, Frameworks & Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * Java 7 (1.7) and above
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Development Environments"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Build Automation Tool"
-              content: |
-                * Maven
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Watermark for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Watermark for Java Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Pull all Documents of Various Formats from a Folder and Apply or Remove Watermarks"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Employ or Delete Watermark from a Particular Section or Complete Document"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Apply Watermark to all Images in a Particular Section, Page, Slide, or Document"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Attach Watermark to Selected Frames of a Multi-Framed Image"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Apply Hidden Watermark to PDF to Appear when Printing Document"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Employ Watermark to Attachments in an Excel Document & all Image Shapes in Slides"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Place Watermark or Delete it from the Background Images of Slides or Excel Sheet"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Set Watermark to Supported Files in Attachments of an Email or PDF File"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Add or Delete Watermark as XObject, Artifacts & Annotations in PDF Filese"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Delete Watermark matching Text with Particular Formatting"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Find Image Watermarks resembling a Particular Image"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Identify Text Watermark even if there are Unreadable Characters between Letters"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Look for Watermarks based on Specific Parameters or by Assigning Multiple Criteria"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Specify Font Formatting to locate Matching Text Watermark"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Get Page, Slide, Cell Dimensions for Absolute Size & Positioning of Watermark"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Apply Watermark to Images inside any Header & Footer in Supported Document Formats"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Add Watermark to Image Shapes in a Word Document & Restrict Editing of Watermarks"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Secure Text Watermark in Presentations using Unreadable Characters"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Protect PDF Document Watermarks by Rasterizing Single Page or Whole Document"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Modify Text Formatting when Replacing Current Text Watermark"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Align Watermark to Bleed Box, Art Box, Crop Box, or Trim Box in PDF File"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Employ Watermarks"
-        content: |
-          GroupDocs.Watermark for Java allows you to work with numerous kinds of watermarks. It is only a matter of few lines of code to add watermark of any type. Following example shares, how you can add an image watermark in a Word document using Java:
-          
-          ```java
-          Document doc = Document.load(Common.mapSourceFilePath("D://test.docx"));
-          Font font = new Font("Times New Roman", 12);
-          TextWatermark watermark = new TextWatermark("Test watermark", font);
-
-          // Set sizing type
-          watermark.setSizingType(SizingType.ScaleToParentDimensions);
-
-          // Set watermark scale
-          watermark.setScaleFactor(0.5);
-
-          doc.addWatermark(watermark);
-          doc.save(Common.mapOutputFilePath("D://test.docx"));
-          doc.close();
-          ```
-      # more_feature_loop
-      - title: "Add Watermark to Files of Different Formats in a Go"
-        content: "With GroupDocs.Watermark for Java API you can add or remove watermark of all documents present in a particular folder in batch mode. It does not matter, if the documents are of different format, GroupDocs.Watermark for Java will apply watermark to all the files accurately."
-
-      # more_feature_loop
-      - title: "Assign Foolproof Security to your Watermarks"
-        content: "With minimal code you can assign foolproof security to your watermarks and make it extremely difficult for any 3rd party tool to modify or remove your assigned watermark from PDF file. It is so because GroupDocs.Watermark for Java allows you to convert all pages of a PDF file into Rasterized images. This approach makes your digital watermarks secure while keeping their quality near to original."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-          product: "GroupDocs.Watermark"
-          platform: ".NET"
-          link: "/watermark/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Watermark features"
+  description: "Signing PDFs, Office Documents, and images with digital signatures"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "Adding Watermark"
+      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+
+    # feature loop
+    - icon: "custom"
+      title: "Customizing results"
+      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+
+    # feature loop
+    - icon: "password"
+      title: "Securing documents with password"
+      content: "For many supported document types, you can protect the signed document with a password."
+
+    # feature loop
+    - icon: "protect"
+      title: "Preventing unauthorized changes"
+      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
+
+    # feature loop
+    - icon: "convert"
+      title: "Obtaining results in desired formats"
+      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+
+    # feature loop
+    - icon: "preview"
+      title: "Document preview"
+      content: "Save any page of a document as an image for future processing."
+
+    # feature loop
+    - icon: "search"
+      title: "Searching for signatures"
+      content: "It is possible to get information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validating documents"
+      content: "Validate the correctness of signatures on any signed document."
+
+    # feature loop
+    - icon: "update"
+      title: "Managing signatures"
+      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Watermark for Java operations"
+  items:
+    # code sample loop
+    - title: "Enchance PDF document with QR-code"
+      content: |
+        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/watermark/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
+        {{< landing/code title="Enchance PDF document with QR-code">}}
+        ```java {style=abap}
+        // Load the document to sign
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Create QR code options with predefined text
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // Configure QR code encoding type and position on the page
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // Sign the document and save it as the result file
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Use digital signature to protect a DOCX"
+      content: |
+        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
+        {{< landing/code title="Use digital signature to protect a DOCX">}}
+        ```java {style=abap}   
+        // Load the document to be digitally signed
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // Specify digital signing options and provide the path to the certificate file
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // Set the certificate password
+        options.setPassword("1234567890");
+
+        // Sign the document and save it to the desired path
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
 ---

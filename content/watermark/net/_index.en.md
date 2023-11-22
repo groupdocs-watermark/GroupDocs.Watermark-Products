@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-10-23T14:58:09
 draft: false
 
 product: "Watermark"
@@ -10,315 +10,226 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET API to Add Search Remove Watermarks to Word Excel PDF Images"
-head_description: "C# .NET API to add, search and remove image & text-based watermarks from documents: PDF, Word, Excel, presentations, Visio, email and image file formats."
+head_title: ".NET, Java, Cloud APIs & Online Document Watermark Apps"
+head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
 
 ############################# Header ############################
-title: ".NET API for Watermark Manipulation"
-description: "Build .NET Applications to Operate Text & Image Based Watermarks with Smart Search & Strong Security Features."
-button:
-    enable: true
+title: "Sign documents<br>via .NET API"
+description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "Free NuGet Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Watermark features for free or request a license"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
+code:
+  title: "Sign PDF files in C#"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
+  install: "dotnet add package GroupDocs.Watermark"
+  content: |
+    ```csharp {style=abap}   
+    // Select PDF document
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // Provide text
+        var options = new TextSignOptions("John Smith")
+        {
+            // Set color
+            ForeColor = Color.Red
+        };
+        // Sign document and save to file
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark for .NET enables you to build ready-to-market business applications in C#, ASP.NET and other .NET related technologies, which let your end-users, add new watermarks, search and remove existing watermarks in supported file formats. Using GroupDocs.Watermark for .NET, you can programmatically apply digital watermarks to multitude of file formats and discourage unauthorized use of intellectual property and securely label documents of sensitive nature by employing various built-in security measures offered by this API.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Watermark for .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Overview"
-          content: |
-            * Add & Remove Watermark
-            * Search & Replace Watermark
-            * Search by Formatting
-            * Search by Image Comparison
-            * Work with Headers & Footers
-            * Work with Background Images
-            * Work with Attachments
-            * Rasterize Pages
-            * Apply Editing Restrictions
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Supported [document formats and watermark type](https://docs.groupdocs.com/watermark/net/supported-document-formats/) for each format is listed below:
+  enable: true
+  title: "GroupDocs.Watermark Overview"
+  description: "API for performing document signing and related operations in .NET applications"
+  features:
+    # feature loop
+    - title: "Adding signatures to business documents in C#"
+      content: "Documents signing: With GroupDocs.Signature for .NET, you can add various types of signatures, such as text, images, barcodes, and digital certificates, to PDF and Office documents. This API allows you to sign your documents with nearly any data type, including hidden metadata."
 
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+    # feature loop
+    - title: "Processing signed documents"
+      content: "Additional processing: You can perform powerful operations on signed documents using GroupDocs.Signature. This includes searching for existing signatures within business documents and verifying them using specific criteria. Additionally, you can retrieve document information and preview pages through this .NET API."
 
-            # table loop
-            - title: "Adding Watermark"
-              content: |
-                * **PDF**: XObject, Artifact, Annotation
-                * **Word**: Shape
-                * **Excel**: Shape, Header & Footer
-                * **PowerPoint**: Shape
-                * **Visio**: Shape
-                * **Raster Image**: Text, Image
-                * **Multi-page Tiff**: Text, Image
-                * **Animated Gif**: Text, Image
+    # feature loop
+    - title: "Customizing results"
+      content: "GroupDocs.Signature for .NET offers extensive customization options. You can precisely position signatures anywhere on a document page and adjust their appearance using a variety of settings. Furthermore, this API supports saving processed documents in a wide range of supported formats."
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF and Image documents"
-              content: |
-                * **Portable Document Format**: PDF
-                * **Open Document**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Images**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform independence"
+  description: "GroupDocs.Signature for .NET supports the following operating systems, frameworks and package managers"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
 
-            # table loop
-            - title: "Removing Watermark"
-              content: |
-                * **PDF**: XObject, Artifact, Annotation, Regular Text
-                * **Word**: Shape, Regular Text
-                * **Excel**: Shape, Header & Footer, Background Image, Text and formulas in cells
-                * **PowerPoint**: Shape
-                * **Visio**: Shape, Diagram Comments
-                * **Email**: Attached and embedded images, Subject and body text fragments
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for .NET supports following Operating Systems, Frameworks & Package Managers:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Watermark for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office formats
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Images & Other Formats
+        * **Portable:** PDF
+        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### Other formats
+        * **Web:** HTML, MHTML
+        * **Archives:** ZIP, TAR, 7Z
+        * **Certificates:** PFX
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Watermark for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Add or Remove Watermarks from a Particular Section or whole Document of Various File Formats"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Attach Watermark to all Images in a Particular Section, Page, Slide, or Document"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Assign Watermark to only Particular Frames of a Multi-Framed Image"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Allocate Hidden Watermark to PDF that only Appears when Printing Document"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Set Watermark to all Attachments in an Excel Document & all Image Shapes in Slides"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Place Watermark or Remove it from the Background Images of Spreadsheet or Slides"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Employ Watermark to Supported Files in all Attachments of an Email or PDF Document"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Apply or Remove Watermark as XObjects, Artifacts & Annotations in PDF Documents"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Eliminate Watermark Containing Text with Particular Formatting"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Look for Image Watermarks that Resemble a Particular Image"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Identify Text Watermark Even if there are Unreadable Characters between Letters"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Search Watermarks Based on Specific Parameters or by Combining Multiple Criteria"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Specify Font Formatting to Look for Matching Text Watermark"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Programmatically Extract Page Setup & Other Information for Supported Formats"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Add Watermark to Images inside any Header & Footer in Supported Document Formats"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Add Watermark to Image Shapes in a Word Document & Lock Watermarks to Restrict Editing"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Protect Text Watermark using Unreadable Characters in Presentations"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Rasterize Particular Page or Whole PDF Document to Protect Added Watermarks"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Change Text Formatting While Replacing Existing Text Watermark"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Align Watermark to Bleed Box, Art Box, Crop Box, or Trim Box in PDF Document"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Edit Shape Properties in Microsoft Visio Documents"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Adding Watermarks"
-        content: |
-          GroupDocs.Watermark for .NET supports multiple types of watermarks. Adding watermarks of any type is only a matter of few lines of code. Following example demonstrates, applying an image watermark to Word document using C#:
-
-          ```cs
-          // Load the document
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                    // Use path to the image as constructor's parameter
-                    using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                      {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-                }
-                // Save the resultant document
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      # more_feature_loop
-      - title: "Apply Watermark to Files of Different Formats in a Go"
-        content: "GroupDocs.Watermark API allows you to apply watermark or delete watermark of all files in a specific folder in one go. The files can even be of different format and yet the watermark will be applied to all of them accurately."
-
-      # more_feature_loop
-      - title: "Foolproof Security for Watermark"
-        content: "With only one line of code you can make it very difficult for any tool to remove your watermark from PDF files. This is achieved by converting all pages of a PDF document to raster images while keeping the original quality intact."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Watermark features"
+  description: "Signing PDFs, Office Documents, and Images swiftly and accurately"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "Document signing"
+      content: "Add one or multiple supported types of signatures accurately at any specified position on business documents."
+
+    # feature loop
+    - icon: "custom"
+      title: "Customize signatures"
+      content: "Utilize features such as color, font, border, rotation, etc., to configure the appearance of signatures."
+
+    # feature loop
+    - icon: "password"
+      title: "Document password protection"
+      content: "Secure certain document types by setting a password after signing."
+
+    # feature loop
+    - icon: "protect"
+      title: "Protection from changes"
+      content: "Prevent changes to important business documents after appending a signature with a digital certificate."
+
+    # feature loop
+    - icon: "convert"
+      title: "Convert signed files to other formats"
+      content: "Convert signed files to desired formats, such as saving a Word document as a PDF."
+
+    # feature loop
+    - icon: "preview"
+      title: "Extract page previews"
+      content: "Extract pages from signed documents as individual images for future processing."
+
+    # feature loop
+    - icon: "search"
+      title: "Signature search in documents"
+      content: "Retrieve information about previously added signatures in specific documents."
+
+    # feature loop
+    - icon: "validate"
+      title: "Validate signed documents"
+      content: "Verify the proper signing of documents using validation features."
+
+    # feature loop
+    - icon: "update"
+      title: "Update or delete signatures"
+      content: "Easily reposition specific signatures on a page, modify their text, or delete them without any issues."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Watermark for .NET operations"
+  items:
+    # code sample loop
+    - title: "Add QR-code to PDF"
+      content: |
+        Adding [QR-codes](https://docs.groupdocs.com/signature/net/esign-document-with-qr-code-signature/) to specific pages of PDF documents can enhance business processes. Below is an example of how to add a QR code using GroupDocs.Signature.
+        {{< landing/code title="How to put QR code to PDF.">}}
+        ```csharp {style=abap}
+        // Load the document to sign
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Create QR code options with predefined text
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // Configure QR code encoding type and position on the page
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // Sign the document and save it as the result file
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Protecting a DOCX document using a digital certificate"
+      content: |
+        You can [Protect a Document](https://docs.groupdocs.com/signature/net/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Such protected documents cannot be modified without invalidating the signature.
+        {{< landing/code title="Here is how to ensure document integrity.">}}
+        ```csharp {style=abap}   
+        // Load the document to be digitally signed
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // Specify digital signing options and provide the path to the certificate file
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // Set the certificate password
+                Password = "1234567890"
+            };
+            // Sign the document and save it to the desired path
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---
