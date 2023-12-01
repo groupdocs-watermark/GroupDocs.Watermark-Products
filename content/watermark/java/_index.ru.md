@@ -1,306 +1,236 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "API Java для добавления поиска, удаления водяных знаков в PDF, Word, Excel, изображения"
-head_description: "API водяных знаков документов Java — создание, поиск и удаление водяных знаков из документов: форматы PDF, Word, Excel, презентации, Visio, электронная почта и файлы изображений."
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
 ############################# Header ############################
-title: "Java API для управления водяными знаками"
-description: "Разрабатывайте Java-приложения для выполнения операций добавления водяных знаков к изображениям и тексту с помощью интеллектуального поиска и надежной защиты."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-java.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{index-content-java.actions_main}"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
+
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
+
+code:
+  title: "{index-content-java.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // {index-content.code_comment_1}
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Watermark for Java"
-        image: "/border/groupdocs-watermark-java.svg"
-        product: "GroupDocs.Watermark"
-        platform: "Java"
+    // {index-content.code_comment_2}
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Обзор"
+    // {index-content.code_comment_4}
+    signature.sign("signed.pdf", options);
+    
+    ```
 
-            # button loop
-            - link: "#features"
-              text: "Функции"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/java"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Обзор ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark для Java позволяет создавать бизнес-приложения, позволяющие вашим конечным пользователям применять новые водяные знаки, искать и удалять существующие водяные знаки в файлах поддерживаемых форматов. Вы можете программно назначать цифровые водяные знаки множеству форматов файлов и использовать его мощные возможности интеллектуального поиска. GroupDocs.Watermark для Java предоставляет различные встроенные меры безопасности, которые можно использовать для предотвращения неправомерного использования цифровых документов, содержащих конфиденциальную информацию или содержимое интеллектуальной собственности.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ниже приводится обзор GroupDocs.Watermark для Java:
-
-        правильно:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Обзор"
-          content: |
-            * Добавить и удалить водяной знак
-            * Поиск и замена водяного знака
-            * Поиск по форматированию
-            * Поиск по сравнению изображений
-            * Работа с верхними и нижними колонтитулами
-            * Работа с фоновыми изображениями
-            * Работа с вложениями
-            * Растеризовать страницы
-            * Применить ограничения редактирования
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Поддерживаемые [форматы документов и тип водяного знака](https://docs.groupdocs.com/watermark/java/supported-document-formats/) для каждого формата перечислены ниже:
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "Добавление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация
-                * **Слово**: Форма
-                * **Excel**: форма, верхний и нижний колонтитулы
-                * **PowerPoint**: Форма
-                * **Visio**: Форма
-                * **Растровое изображение**: текст, изображение
-                * **Многостраничный Tiff**: текст, изображение
-                * **Анимированный Gif**: текст, изображение
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF и графические документы"
-              content: |
-                * **Переносимый формат документа**: PDF
-                * **Открыть документ**: ODT
-                * **Электронная почта**: EML, MSG, EMLX, OFT
-                * **Изображения**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Удаление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация, обычный текст
-                * **Word**: Фигура, обычный текст
-                * **Excel**: форма, верхний и нижний колонтитулы, фоновое изображение, текст и формулы в ячейках
-                * **PowerPoint**: Форма
-                * **Visio**: форма, комментарии к диаграмме
-                * **Электронная почта**: прикрепленные и встроенные изображения, фрагменты темы и основного текста
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for Java поддерживает следующие Операционные системы, Фреймворки и менеджеры пакетов:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Операционные системы"
-              content: |
-                * Рабочий стол Microsoft Windows
-                * Сервер Microsoft Windows
-                * линукс
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Поддерживаемые платформы"
-              content: |
-                * Java 7 (1.7) и выше
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Среды разработки"
-              content: |
-                * NetBeans
-                * IntelliJ ИДЕЯ
-                * Затмение
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Инструмент автоматизации сборки"
-              content: |
-                * Мавен
-
-############################# Функции ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for Java Функции"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Извлеките все документы различных форматов из папки и нанесите или удалите водяные знаки"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Использование или удаление водяного знака из определенного раздела или всего документа"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Добавление водяного знака к выбранным кадрам мультикадрового изображения"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Примените скрытый водяной знак к PDF, чтобы он отображался при печати документа"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Используйте водяной знак для вложений в документе Excel и всех фигурах изображений в слайдах"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Поместите водяной знак или удалите его из фоновых изображений слайдов или листа Excel"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Установите водяной знак для поддерживаемых файлов во вложениях электронной почты или PDF-файла"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Добавить или удалить водяной знак как XObject, артефакты и аннотации в PDF-файлах"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Удалить водяной знак, соответствующий тексту с определенным форматированием"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Найдите водяные знаки изображения, напоминающие определенное изображение"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Определите текстовый водяной знак, даже если между буквами есть нечитаемые символы"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Ищите водяные знаки на основе определенных параметров или путем назначения нескольких критериев"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Укажите форматирование шрифта, чтобы найти совпадающий текстовый водяной знак"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Получить размеры страницы, слайда, ячейки для абсолютного размера и положения водяного знака"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Добавить водяной знак к фигурам изображения в документе Word и ограничить редактирование водяных знаков"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Защитный текстовый водяной знак в презентациях с использованием нечитаемых символов"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Защита водяных знаков PDF-документа путем растрирования отдельной страницы или всего документа"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Изменить форматирование текста при замене текущего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Выравнивание водяного знака по окну за обрез, художественному окну, окну обрезки или окну обрезки в файле PDF"
-
-    больше_функций:
-      # more_feature_loop
-      - title: "Используйте водяные знаки"
-        content: |
-          GroupDocs.Watermark для Java позволяет работать с многочисленными видами водяных знаков. Чтобы добавить водяной знак любого типа, достаточно всего нескольких строк кода. В следующем примере показано, как добавить водяной знак изображения в документ Word с помощью Java:
-          
-          ```java
-          Document doc = Document.load(Common.mapSourceFilePath("D://test.docx"));
-          Font font = new Font("Times New Roman", 12);
-          TextWatermark watermark = new TextWatermark("Test watermark", font);
-
-          // Установить тип размера
-          watermark.setSizingType(SizingType.ScaleToParentDimensions);
-
-          // Установить масштаб водяного знака
-          watermark.setScaleFactor(0.5);
-
-          doc.addWatermark(watermark);
-          doc.save(Common.mapOutputFilePath("D://test.docx"));
-          doc.close();
-          ```
-      # more_feature_loop
-      - title: "Добавляйте водяные знаки в файлы разных форматов за один раз"
-        content: "С помощью API GroupDocs.Watermark для Java вы можете добавлять или удалять водяные знаки всех документов, присутствующих в определенной папке, в пакетном режиме. Не имеет значения, если документы имеют разный формат, GroupDocs.Watermark для Java точно применит водяной знак ко всем файлам.."
-
-      # more_feature_loop
-      - title: "Назначьте надежную защиту своим водяным знакам"
-        content: "С помощью минимального кода вы можете назначить надежную защиту своим водяным знакам и затруднить для любого стороннего инструмента изменение или удаление назначенного вам водяного знака из файла PDF. Это связано с тем, что GroupDocs.Watermark для Java позволяет конвертировать все страницы PDF-файла в растровые изображения. Такой подход делает ваши цифровые водяные знаки безопасными, сохраняя при этом их качество близким к оригинальному."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark предлагает API для просмотра документов для других популярных сред разработки."
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for .NET"
-          image: "/border/groupdocs-watermark-net.svg"
-          product: "GroupDocs.Watermark"
-          platform: ".NET"
-          link: "/watermark/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-java.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-java.overview_feature_1.title}"
+      content: "{index-content-java.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-java.overview_feature_2.title}"
+      content: "{index-content-java.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-java.overview_feature_3.title}"
+      content: "{index-content-java.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-java.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-java.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-java.features.title}"
+  description: "{index-content-java.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-java.features.feature_1.title}"
+      content: "{index-content-java.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-java.features.feature_2.title}"
+      content: "{index-content-java.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-java.features.feature_3.title}"
+      content: "{index-content-java.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-java.features.feature_4.title}"
+      content: "{index-content-java.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-java.features.feature_5.title}"
+      content: "{index-content-java.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-java.features.feature_6.title}"
+      content: "{index-content-java.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-java.features.feature_7.title}"
+      content: "{index-content-java.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-java.features.feature_8.title}"
+      content: "{index-content-java.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-java.features.feature_9.title}"
+      content: "{index-content-java.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-java.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_1}"
+      content: |
+        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        ```java {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_1.comment_2}
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // {index-content.code_samples.sample_1.comment_3}
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // {index-content.code_samples.sample_1.comment_4}
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_2}"
+      content: |
+        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        ```java {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_2.comment_2}
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // {index-content.code_samples.sample_2.comment_3}
+        options.setPassword("1234567890");
+
+        // {index-content.code_samples.sample_2.comment_4}
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
 ---
+

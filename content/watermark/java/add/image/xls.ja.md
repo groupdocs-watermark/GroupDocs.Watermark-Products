@@ -1,64 +1,72 @@
+
 ---
+############################# Static ############################
 layout: "autogen"
+date: 2023-12-01T17:51:39
 draft: false
 path: "watermark/java/add/image/xls/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-head_title: "JavaのXLSに画像透かしを追加する"
-head_description: "Java用のGroupDocs.WatermarkAPIを使用して、JavaおよびJ2SEアプリケーションのXLSファイルに画像透かしを追加するJavaライブラリ."
+############################# Head ############################
+head_title: "{java_image.head.title}"
+head_description: "{java_image.head.description}"
 
-title: "JavaのXLSに画像透かしを追加する"
-description: "JavaおよびJ2SEアプリケーションのXLSファイルに画像透かしを追加します。ドキュメントにBMP、PNG、GIF、JPEG画像の透かしを追加します。また、必要に応じて、透かしのサイズ、配置、回転角度、およびドキュメントページ上の透かしの位置を管理します。"
+############################# Header ############################
+title: "{java_image.header.title}"
+description: "{java_image.header.description}"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java API"
+    title: "{java_image.about.title}"
     content: |
-        GroupDocs.Watermark for Javaは、Javaアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
+        {java_image.about.content1}
         
-        GroupDocs.Watermark APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        {java_image.about.content2}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaのXLSファイルに画像透かしを追加する"
+    title_left: "{java_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/）を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーションに画像（BMP、PNG、GIF、またはJPEG)の透かしを簡単に追加できます。
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
 
-        * 力XLSドキュメントを使用して* Watermarker* をインスタンス化します。
-        * * ImageWatermark* クラスのコンストラクターパラメーターとして画像透かしパスを使用します。
-        * かしのプロパティ（サイズ、配置、色など）を設定します。
-        * かし入れに透かしを追加し、出力ドキュメントを生成します。
+        *   {java_image.steps.content_left.step_1}
+        *   {java_image.steps.content_left.step_2}
+        *   {java_image.steps.content_left.step_3}
+        *   {java_image.steps.content_left.step_4}
         
-    title_right: "システム要求"
+    title_right: "{java_image.steps.title_right}"
     content_right: |
-        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {java_image.steps.content_right.description}
 
-        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 発環境: NetBeans、IntelliJ IDEA、Eclipse
-        * レームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)から最新バージョンのGroupDocs.WatermarkforJavaをダウンロードします。
+        *   {java_image.steps.content_right.step_1}
+        *   {java_image.steps.content_right.step_2}
+        *   {java_image.steps.content_right.step_3}
+        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        //JavaアプリケーションのXLSに画像透かしを追加します
-        //入力XLSドキュメントを使用してウォーターマーカーをインスタンス化します
-        Watermarker watermarker = new Watermarker(input.xls)
+        // {java_image.example.coment1}
+        // {java_image.example.coment2}
+        Watermarker watermarker = new Watermarker("input.xls")
         
-        //ImageWatermarkクラスのコンストラクターパラメーターとして画像透かしパスを使用します
-        ImageWatermark watermark = new ImageWatermark(watermark.png)
+        // {java_image.example.coment3}
+        ImageWatermark watermark = new ImageWatermark("watermark.png")
         
-        //透かしのプロパティ（幅、高さ、配置）を設定します
+        // {java_image.example.coment4}
         watermark.Width = 140;
         watermark.Height = 140;
         watermark.HorizontalAlignment = HorizontalAlignment.Center;
         watermark.VerticalAlignment = VerticalAlignment.Center;
 
-        //透かしを透かし入れに追加し、出力ドキュメントを生成します
+        // {example.coment5}
         watermarker.add(watermark);
-        watermarker.save(output.xls);
+        watermarker.save("output.xls");
 
         watermark.close();
         watermarker.close();

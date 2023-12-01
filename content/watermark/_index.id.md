@@ -1,79 +1,94 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2022-07-07T12:44:18+03:00
+date:  2023-12-01T17:51:42
 draft: false
 
-head_title: "Solusi Tanda Air | API Lokal dan Aplikasi Gratis - GroupDocs"
-head_description: "Tambahkan tanda air ke PDF, gambar, dan dokumen. Solusi Watermarking untuk Microsoft Office, PDF, OpenDocument, Format File Gambar dan banyak lagi."
+############################# Head ############################
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
-title: "Solusi Tanda Air untuk Dokumen"
-description: "Terapkan & manipulasi dengan cepat tanda air berbasis teks dan gambar dari dokumen dan gambar Anda dengan pencarian cerdas."
+############################# Header ############################
+title: "{index-content.title}"
+description: "{index-content.description}"
 
+############################# APIs ###############################
 apis:
   enable: true
 
   api:
-    - title: "API Kode Tinggi GroupDocs.Watermark Termasuk"
+    # api loop
+    - title: "{index-content.api_high_title}"
       link: "/watermark/"
-      label: "Lihat Semua API Kode Tinggi"
+      label: "{index-content.api_high_label}"
       api_product:
+        # api_product loop
         - link: "/watermark/net/"
           img_alt: "GroupDocs.Watermark for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
           product: "GroupDocs.Watermark for"
           platform: ".NET"
-          content: "Cari, tambahkan, atau hapus tanda air teks atau gambar dari banyak format file dalam aplikasi .NET Anda."
+          content: "{index-content.api_high_1_content}"
 
+        # api_product loop
         - link: "/watermark/java/"
           img_alt: "GroupDocs.Watermark for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
           product: "GroupDocs.Watermark for"
           platform: "Java"
-          content: "On Premise API untuk aplikasi berbasis Java untuk memanipulasi tanda air untuk MS Office, OpenOffice, dokumen portabel, gambar, gambar, dan lainnya."
+          content: "{index-content.api_high_2_content}"
 
-    - title: "API Kode Rendah GroupDocs.Watermark Termasuk"
+    # api loop
+    - title: "{index-content.api_low_title}"
       link: "https://products.groupdocs.cloud/watermark"
-      label: "Lihat Semua API Kode Rendah"
+      label: "{index-content.api_low_label}"
       api_product:
+        # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/net"
           img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for .NET"
-          content: "Gunakan watermark REST API dengan .NET SDK untuk menerapkan, menemukan, mengedit, dan menghapus watermark dari format dokumen dalam aplikasi .NET."
+          content: "{index-content.api_low_1_content}"
 
+        # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/java"
           img_alt: "GroupDocs.Watermark Cloud SDK for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for Java"
-          content: "Berdayakan aplikasi Java Anda dengan fitur pengelolaan tanda air yang fleksibel menggunakan SDK tanda air untuk Java."
+          content: "{index-content.api_low_2_content}"
 
-    - title: "GroupDocs.Watermark Tidak Ada Aplikasi Kode Termasuk"
+    # api loop
+    - title: "{index-content.api_nocode_title}"
       link: "https://products.groupdocs.app/watermark"
-      label: "Lihat Semua Aplikasi Tanpa Kode"
+      label: "{index-content.api_nocodelabel}"
       api_product:
+        # api_product loop
         - link: "https://products.groupdocs.app/watermark/total"
           img_alt: "GroupDocs.Watermark Total"
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
           product: "GroupDocs.Watermark"
           platform: "Total"
-          content: "Aplikasi online gratis untuk menambahkan tanda air ke Word, PowerPoint, Excel, PDF, dan 40+ format file lainnya."
+          content: "{index-content.api_nocode_1_content}"
 
+        # api_product loop
         - link: "https://products.groupdocs.app/watermark/docx"
           img_alt: "GroupDocs.Watermark DOCX"
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Watermark"
           platform: "DOCX"
-          content: "Tambahkan tanda air berbasis teks ke dokumen Microsoft Word secara online."
+          content: "{index-content.api_nocode_2_content}"
 
+        # api_product loop
         - link: "https://products.groupdocs.app/watermark/pdf"
           img_alt: "GroupDocs.Watermark PDF"
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Watermark"
           platform: "PDF"
-          content: "Aplikasi gratis online yang menyediakan kemampuan untuk menandai dokumen PDF dengan air."
+          content: "{index-content.api_nocode_3_content}"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

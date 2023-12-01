@@ -1,274 +1,234 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
-head_title: ".検索を追加するNETAPIWordExcelPDF画像に透かしを削除"
-head_description: "ドキュメントから画像およびテキストベースの透かしを追加、検索、および削除するC＃.NET API：PDF、Word、Excel、プレゼンテーション、Visio、電子メール、および画像ファイル形式."
+############################# Head ############################
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
-title: ".透かし操作用のNETAPI"
-description: "スマート検索と強力なセキュリティ機能を備えたテキストおよび画像ベースの透かしを操作するための.NETアプリケーションを構築する."
-button:
-    enable: true
+############################# Header ############################
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "概要"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            - link: "#features"
-              text: "特徴"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        var options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
-            - link: "#support"
-              text: "サポート"
-
-            - link: "https://products.groupdocs.app/watermark"
-              text: "ライブデモ"
-
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "価格設定"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark for .NETを使用すると、C＃、ASP.NET、およびその他の.NET関連テクノロジですぐに使用できるビジネスアプリケーションを構築できます。これにより、エンドユーザーは、サポートされているファイル形式で新しい透かしを追加したり、既存の透かしを検索および削除したりできます。 。 GroupDocs.Watermark for .NETを使用すると、このAPIが提供するさまざまな組み込みのセキュリティ対策を採用することで、プログラムで電子透かしを多数のファイル形式に適用し、知的財産の不正使用を阻止し、機密性の高いドキュメントに安全にラベルを付けることができます。
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          以下は、GroupDocs.Watermarkfor.NETの概要です。
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概要"
-          content: |
-            *透かしの追加と削除
-            *透かしの検索と置換
-            *フォーマットによる検索
-            *画像比較による検索
-            *ヘッダーとフッターを操作する
-            *背景画像を操作する
-            *添付ファイルを操作する
-            *ページをラスタライズ
-            *編集制限を適用する
-      
-      tab_two:
-        description: |
-          各形式でサポートされている[ドキュメント形式と透かしの種類]（https://docs.groupdocs.com/watermark/net/supported-document-formats/）を以下に示します。
-
-        left:
-          enable: true
-          table:
-            - title: "マイクロソフトオフィス"
-              content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** Visio：** VSD、VDX、VSS、VSSX、VSX、VST、VSTX、VTX、VSDX、VDW、VSTM、VSSM、VSDM
-
-            - title: "透かしの追加"
-              content: |
-                * ** PDF **：XObject、Artifact、Annotation
-                * **単語**：形
-                * ** Excel **：形状、ヘッダー、フッター
-                * ** PowerPoint **：形状
-                * ** Visio **：形状
-                * **ラスター画像**：テキスト、画像
-                * **複数ページのTiff**：テキスト、画像
-                * **アニメーションGIF**：テキスト、画像
-
-        right:
-          enable: true
-          table:
-            - title: "PDFおよび画像ドキュメント"
-              content: |
-                * **ポータブルドキュメントフォーマット**：PDF
-                * **オープンドキュメント**：ODT
-                * **メール**：EML、MSG、EMLX、OFT
-                * **画像**：PNG、BMP、GIF、JPG、JPEG、JP2、TIF、TIFF、WebP
-
-            - title: "透かしの削除"
-              content: |
-                * ** PDF **：XObject、アーティファクト、注釈、通常のテキスト
-                * **単語**：形状、通常のテキスト
-                * ** Excel **：セル内の形状、ヘッダーとフッター、背景画像、テキスト、数式
-                * ** PowerPoint **：形状
-                * ** Visio **：形状、図のコメント
-                * **メール**：添付および埋め込み画像、件名と本文のテキストフラグメント
-
-      tab_three:
-        description: |
-          GroupDocs.Watermark for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "オペレーティングシステム"
-              content: |
-                *Windowsデスクトップ
-                * WindowsServer
-                * Windows Azure
-                * Linux
-
-            - icon: "fas fa-code"
-              title: "サポートされているフレームワーク"
-              content: |
-                * .NETFramework2.0以降
-                * MonoFramework1.2以降
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "パッケージマネージャー"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "開発環境"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Watermarkfor.NET機能"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "さまざまなファイル形式の特定のセクションまたはドキュメント全体から透かしを追加または削除する"
-
-      - icon: "fas fa-eye"
-        content: "特定のセクション、ページ、スライド、またはドキュメント内のすべての画像に透かしを添付する"
-
-      - icon: "fas fa-bolt"
-        content: "マルチフレーム画像の特定のフレームにのみ透かしを割り当てる"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "ドキュメントの印刷時にのみ表示される隠し透かしをPDFに割り当てます"
-
-      - icon: "fas fa-code"
-        content: "Excelドキュメントのすべての添付ファイルとスライドのすべての画像形状に透かしを設定します"
-
-      - icon: "fas fa-cloud"
-        content: "透かしを配置するか、スプレッドシートまたはスライドの背景画像から透かしを削除します"
-
-      - icon: "fas fa-remove-format"
-        content: "電子メールまたはPDFドキュメントのすべての添付ファイルでサポートされているファイルに透かしを使用する"
-
-      - icon: "fas fa-comment-slash"
-        content: "PDFドキュメントのXObjects、Artifacts、Annotationsとして透かしを適用または削除する"
-
-      - icon: "fas fa-location-arrow"
-        content: "特定のフォーマットでテキストを含む透かしを削除します"
-
-      - icon: "fas fa-border-all"
-        content: "特定の画像に似た画像透かしを探す"
-
-      - icon: "fas fa-wrench"
-        content: "文字の間に判読できない文字がある場合でも、テキストの透かしを特定する"
-
-      - icon: "fas fa-columns"
-        content: "特定のパラメータに基づいて、または複数の基準を組み合わせて透かしを検索する"
-
-      - icon: "fas fa-file-word"
-        content: "一致するテキスト透かしを探すためのフォントフォーマットを指定する"
-
-      - icon: "fas fa-envelope"
-        content: "サポートされている形式のページ設定とその他の情報をプログラムで抽出します"
-
-      - icon: "fas fa-print"
-        content: "サポートされているドキュメント形式のヘッダーとフッター内の画像に透かしを追加する"
-
-      - icon: "fas fa-file-archive"
-        content: "Word文書の画像形状に透かしを追加し、透かしをロックして編集を制限する"
-
-      - icon: "fas fa-lock"
-        content: "プレゼンテーションで判読できない文字を使用してテキスト透かしを保護する"
-
-      - icon: "fas fa-file-code"
-        content: "追加された透かしを保護するために特定のページまたはPDFドキュメント全体をラスタライズする"
-      
-      - icon: "fas fa-fill-drip"
-        content: "既存のテキスト透かしを置き換えながらテキストの書式を変更する"
-
-      - icon: "fas fa-file-excel"
-        content: "PDFドキュメントのブリードボックス、アートボックス、クロップボックス、またはトリムボックスに透かしを配置します"
-
-      - icon: "fas fa-heading"
-        content: "MicrosoftVisioドキュメントで図形のプロパティを編集する"
-
-    more_feature:
-      - title: "透かしの追加"
-        content: |
-          GroupDocs.Watermark for .NETは、複数のタイプの透かしをサポートしています。任意のタイプの透かしを追加するのは、数行のコードの問題です。次の例は、C＃を使用してWord文書に画像透かしを適用する方法を示しています。
-
-          ```cs
-          //ドキュメントをロードします
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                    //コンストラクタのパラメータとして画像へのパスを使用します
-                    using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                      {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-                }
-                //結果のドキュメントを保存します
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      - title: "外出先でさまざまな形式のファイルに透かしを適用する"
-        content: "GroupDocs.Watermark APIを使用すると、特定のフォルダー内のすべてのファイルの透かしを一度に適用または削除できます。ファイルの形式を変えることもできますが、透かしはすべてのファイルに正確に適用されます。"
-
-      - title: "透かしのための絶対確実なセキュリティ"
-        content: "1行のコードだけで、どのツールでもPDFファイルから透かしを削除することを非常に困難にすることができます。これは、元の品質を維持したまま、PDFドキュメントのすべてのページをラスターイメージに変換することで実現されます。."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Watermarkは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
-
-    solution:
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-net.features.title}"
+  description: "{index-content-net.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-net.features.feature_1.title}"
+      content: "{index-content-net.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-net.features.feature_2.title}"
+      content: "{index-content-net.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-net.features.feature_3.title}"
+      content: "{index-content-net.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-net.features.feature_4.title}"
+      content: "{index-content-net.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-net.features.feature_5.title}"
+      content: "{index-content-net.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-net.features.feature_6.title}"
+      content: "{index-content-net.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-net.features.feature_7.title}"
+      content: "{index-content-net.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-net.features.feature_8.title}"
+      content: "{index-content-net.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-net.features.feature_9.title}"
+      content: "{index-content-net.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-net.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_1}"
+      content: |
+        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_2}"
+      content: |
+        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

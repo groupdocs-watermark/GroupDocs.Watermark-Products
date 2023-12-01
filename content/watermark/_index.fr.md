@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date:  2023-12-01T17:51:42
 draft: false
 
 ############################# Head ############################
-head_title: "Watermark Solution | API sur site et application gratuite - GroupDocs"
-head_description: "Ajouter un filigrane au PDF, aux images et aux documents. Solution de filigrane pour Microsoft Office, PDF, OpenDocument, formats de fichiers image et plus."
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
 ############################# Header ############################
-title: "Solution de filigrane pour les documents"
-description: "Appliquez et manipulez rapidement des filigranes à base de texte et d'image de vos documents et images avec une recherche intelligente."
+title: "{index-content.title}"
+description: "{index-content.description}"
 
 ############################# APIs ###############################
 apis:
@@ -18,75 +18,75 @@ apis:
 
   api:
     # api loop
-    - title: "Les API GroupDocs.Watermark High Code incluent"
+    - title: "{index-content.api_high_title}"
       link: "/watermark/"
-      label: "Afficher toutes les API High Code"
+      label: "{index-content.api_high_label}"
       api_product:
         # api_product loop
         - link: "/watermark/net/"
           img_alt: "GroupDocs.Watermark for .NET"
-          image: "/border/groupdocs-watermark-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
           product: "GroupDocs.Watermark for"
           platform: ".NET"
-          content: "Recherchez, ajoutez ou supprimez des filigranes de texte ou d'image à partir d'une multitude de formats de fichiers dans vos applications .NET."
+          content: "{index-content.api_high_1_content}"
 
         # api_product loop
         - link: "/watermark/java/"
           img_alt: "GroupDocs.Watermark for Java"
-          image: "/border/groupdocs-watermark-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
           product: "GroupDocs.Watermark for"
           platform: "Java"
-          content: "API sur site pour les applications basées sur Java permettant de manipuler des filigranes pour MS Office, OpenOffice, des documents portables, des images, des dessins, etc.."
+          content: "{index-content.api_high_2_content}"
 
     # api loop
-    - title: "Les API GroupDocs.Watermark Low Code incluent"
+    - title: "{index-content.api_low_title}"
       link: "https://products.groupdocs.cloud/watermark"
-      label: "Afficher toutes les API Low Code"
+      label: "{index-content.api_low_label}"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/net"
           img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
-          image: "/sdk/groupdocs_watermark-for-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for .NET"
-          content: "Utilisez l'API REST de filigrane avec le SDK .NET pour appliquer, rechercher, modifier et supprimer les filigranes des formats de document dans les applications .NET."
+          content: "{index-content.api_low_1_content}"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/java"
           img_alt: "GroupDocs.Watermark Cloud SDK for Java"
-          image: "/sdk/groupdocs_watermark-for-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for Java"
-          content: "Renforcez vos applications Java avec des fonctionnalités flexibles de gestion des filigranes à l'aide du SDK de filigrane pour Java."
+          content: "{index-content.api_low_2_content}"
 
     # api loop
-    - title: "GroupDocs.Watermark Les applications sans code incluent"
+    - title: "{index-content.api_nocode_title}"
       link: "https://products.groupdocs.app/watermark"
-      label: "Voir toutes les applications sans code"
+      label: "{index-content.api_nocodelabel}"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/total"
           img_alt: "GroupDocs.Watermark Total"
-          image: "/app/groupdocs_watermark-app.svg"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
           product: "GroupDocs.Watermark"
           platform: "Total"
-          content: "Application en ligne gratuite pour ajouter des filigranes à Word, PowerPoint, Excel, PDF et plus de 40 autres formats de fichiers."
+          content: "{index-content.api_nocode_1_content}"
 
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/docx"
           img_alt: "GroupDocs.Watermark DOCX"
-          image: "/app/groupdocs_words-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Watermark"
           platform: "DOCX"
-          content: "Ajouter des filigranes textuels aux documents Microsoft Word en ligne."
+          content: "{index-content.api_nocode_2_content}"
 
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/pdf"
           img_alt: "GroupDocs.Watermark PDF"
-          image: "/app/groupdocs_pdf-app.svg"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Watermark"
           platform: "PDF"
-          content: "Application gratuite en ligne offrant la possibilité de filigraner des documents PDF."
+          content: "{index-content.api_nocode_3_content}"
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,314 +1,236 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java API 为 PDF Word Excel 图像添加搜索删除水印"
-head_description: "Java 文档水印 API – 从文档中生成、搜索和删除水印：PDF、Word、Excel、演示文稿、Visio、电子邮件和图像文件格式."
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
 ############################# Header ############################
-title: "用于处理水印的 Java API"
-description: "开发 Java 应用程序以通过智能搜索和强大的安全性执行图像和文本水印操作."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-java.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
+actions:
+  main: "{index-content-java.actions_main}"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
+
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
+
+code:
+  title: "{index-content-java.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-signature</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // {index-content.code_comment_1}
+    Signature signature = new Signature("sample.pdf");
     
-    left:
-        img_alt: "GroupDocs.Watermark for Java"
-        image: "/border/groupdocs-watermark-java.svg"
-        product: "GroupDocs.Watermark"
-        platform: "Java"
+    // {index-content.code_comment_2}
+    TextSignOptions options = new TextSignOptions("John Smith");
+    options.setForeColor(Color.RED);
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "概述"
+    // {index-content.code_comment_4}
+    signature.sign("signed.pdf", options);
+    
+    ```
 
-            # button loop
-            - link: "#features"
-              text: "特征"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/java"
-              text: "价钱"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# 概述 ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark for Java 允许您制作业务应用程序，使您的最终用户能够应用新水印、搜索和删除支持格式文件中的现有水印。您可以以编程方式将数字水印分配给许多文件格式，并利用其强大的智能搜索功能。 GroupDocs.Watermark for Java 提供了各种内置的安全措施，可用于避免滥用包含敏感信息或知识产权内容的数字文档。
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          以下是 Java 的 GroupDocs.Watermark 的概述：
-
-        rright:
-          enable: true
-          icon: "fab fa-html5"
-          title: "概述"
-          content: |
-            * 添加和删除水印
-            * 搜索和替换水印
-            * 按格式搜索
-            * 按图像比较搜索
-            * 使用页眉和页脚
-            * 使用背景图像
-            * 使用附件
-            * 光栅化页面
-            * 应用编辑限制
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          下面列出了每种格式支持的[文档格式和水印类型](https://docs.groupdocs.com/watermark/java/supported-document-formats/)：
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "微软办公软件"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "添加水印"
-              content: |
-                * **PDF**：XObject、工件、注释
-                * **字**：形状
-                * **Excel**：形状、页眉和页脚
-                * **PowerPoint**：形状
-                * **Visio**：形状
-                * **光栅图像**：文本、图像
-                * **多页 Tiff**：文本、图像
-                * **动画 Gif**：文本、图像
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF 和图像文件"
-              content: |
-                * **便携式文档格式**：PDF
-                * **打开文档**：ODT
-                * **电子邮件**：EML、MSG、EMLX、OFT
-                * **图像**：PNG、BMP、GIF、JPG、JPEG、JP2、TIF、TIFF、WebP
-
-            # table loop
-            - title: "去除水印"
-              content: |
-                * **PDF**：XObject、工件、注释、常规文本
-                * **字**：形状，常规文本
-                * **Excel**：单元格中的形状、页眉和页脚、背景图像、文本和公式
-                * **PowerPoint**：形状
-                * **Visio**：形状、图表注释
-                * **电子邮件**：附加和嵌入的图像、主题和正文片段
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for Java 支持以下操作系统、框架和包管理器：
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "操作系统"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "支持的框架"
-              content: |
-                * Java 7 (1.7) 及更高版本
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "开发环境"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            # table loop
-            - icon: "fas fa-tools"
-              title: "构建自动化工具"
-              content: |
-                * Maven
-
-############################# 特征 ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for Java 特征"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "从文件夹中提取各种格式的所有文档并应用或删除水印"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "从特定部分或完整文档中使用或删除水印"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "应用水印到特定部分、页面、幻灯片或文档中的所有图像"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "将水印附加到多帧图像的选定帧"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "将隐藏的水印应用到 PDF 以在打印文档时出现"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "在 Excel 文档中的附件和幻灯片中的所有图像形状中使用水印"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "在幻灯片或 Excel 工作表的背景图像中放置水印或将其删除"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "在电子邮件或 PDF 文件的附件中为支持的文件设置水印"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "在 PDF 文件中添加或删除水印作为 XObject、工件和注释"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "删除具有特定格式的匹配文本的水印"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "查找类似于特定图像的图像水印"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "即使字母之间有不可读的字符，也能识别文本水印"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "根据特定参数或通过分配多个条件查找水印"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "指定字体格式以定位匹配的文本水印"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "获取水印绝对尺寸和定位的页面、幻灯片、单元格尺寸"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "应用水印到支持文档格式的任何页眉和页脚内的图像"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "将水印添加到 Word 文档中的图像形状并限制水印的编辑"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "使用不可读字符在演示文稿中保护文本水印"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "通过光栅化单页或整个文档来保护 PDF 文档水印"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "替换当前文本水印时修改文本格式"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "将水印与 PDF 文件中的出血框、艺术框、裁剪框或裁切框对齐"
-
-    more_feature:
-      # more_feature_loop
-      - title: "使用水印"
-        content: |
-          GroupDocs.Watermark for Java 允许您使用多种水印。添加任何类型的水印只需几行代码。以下示例分享，如何使用 Java 在 Word 文档中添加图像水印：
-          
-          ```java
-          Document doc = Document.load(Common.mapSourceFilePath("D://test.docx"));
-          Font font = new Font("Times New Roman", 12);
-          TextWatermark watermark = new TextWatermark("Test watermark", font);
-
-          // 设置尺寸类型
-          watermark.setSizingType(SizingType.ScaleToParentDimensions);
-
-          // 设置水印比例
-          watermark.setScaleFactor(0.5);
-
-          doc.addWatermark(watermark);
-          doc.save(Common.mapOutputFilePath("D://test.docx"));
-          doc.close();
-          ```
-      # more_feature_loop
-      - title: "在 Go 中为不同格式的文件添加水印"
-        content: "使用 GroupDocs.Watermark for Java API，您可以在批处理模式下添加或删除特定文件夹中存在的所有文档的水印。没关系，如果文档格式不同，GroupDocs.Watermark for Java 会准确地将水印应用于所有文件."
-
-      # more_feature_loop
-      - title: "为您的水印分配万无一失的安全性"
-        content: "使用最少的代码，您可以为您的水印分配万无一失的安全性，并使任何第三方工具都很难从 PDF 文件中修改或删除您分配的水印。之所以如此，是因为 GroupDocs.Watermark for Java 允许您将 PDF 文件的所有页面转换为光栅化图像。这种方法使您的数字水印安全，同时保持其质量接近原始。"
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark 为其他流行的开发环境提供文档查看 API"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for .NET"
-          image: "/border/groupdocs-watermark-net.svg"
-          product: "GroupDocs.Watermark"
-          platform: ".NET"
-          link: "/watermark/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-java.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-java.overview_feature_1.title}"
+      content: "{index-content-java.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-java.overview_feature_2.title}"
+      content: "{index-content-java.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-java.overview_feature_3.title}"
+      content: "{index-content-java.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-java.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-java.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-java.features.title}"
+  description: "{index-content-java.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-java.features.feature_1.title}"
+      content: "{index-content-java.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-java.features.feature_2.title}"
+      content: "{index-content-java.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-java.features.feature_3.title}"
+      content: "{index-content-java.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-java.features.feature_4.title}"
+      content: "{index-content-java.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-java.features.feature_5.title}"
+      content: "{index-content-java.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-java.features.feature_6.title}"
+      content: "{index-content-java.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-java.features.feature_7.title}"
+      content: "{index-content-java.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-java.features.feature_8.title}"
+      content: "{index-content-java.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-java.features.feature_9.title}"
+      content: "{index-content-java.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-java.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_1}"
+      content: |
+        {index-content-java.code_samples_sample_1_content_1} {index-content-java.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_1}">}}
+        ```java {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_1.comment_2}
+        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
+        
+        // {index-content.code_samples.sample_1.comment_3}
+        options.setEncodeType(QrCodeTypes.QR);
+        options.setLeft(100);
+        options.setTop(100);
+
+        // {index-content.code_samples.sample_1.comment_4}
+        signature.sign("file_with_QR.pdf", options);
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-java.code_title_sample_2}"
+      content: |
+        {index-content-java.code_samples_sample_2_content_1} {index-content-java.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content-java.code_title_sample_2}">}}
+        ```java {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        Signature signature = new Signature("file_to_sign.pdf");
+        
+        // {index-content.code_samples.sample_2.comment_2}
+        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+
+        // {index-content.code_samples.sample_2.comment_3}
+        options.setPassword("1234567890");
+
+        // {index-content.code_samples.sample_2.comment_4}
+        signature.sign("digitally_signed.pdf", options);
+        ```
+        {{< /landing/code >}}
+
 ---
+

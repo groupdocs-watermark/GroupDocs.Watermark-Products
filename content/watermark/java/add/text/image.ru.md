@@ -1,64 +1,87 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-01T17:51:40
 draft: false
 path: "watermark/java/add/text/image/"
-otherformats: PDF WORD EXCEL VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+
 ############################# Head ############################
-head_title: "Добавить текстовый водяной знак в ИЗОБРАЖЕНИЕ в Java"
-head_description: "Библиотека Java для добавления текстового водяного знака в файл IMAGE в приложениях Java и J2SE с использованием API GroupDocs.Watermark для Java"
+head_title: "{java_text.head.title}"
+head_description: "{java_text.head.description}"
+
 ############################# Header ############################
-title: "Добавить текстовый водяной знак в ИЗОБРАЖЕНИЕ в Java"
-description: "Добавление текстового водяного знака в файл IMAGE в приложениях Java и J2SE. Управляйте размером водяного знака, типом шрифта, углом поворота и положением водяного знака на страницах документа, как вам может понадобиться."
+title: "{java_text.header.title}"
+description: "{java_text.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для Java API"
+    title: "{java_text.about.title}"
     content: |
-        GroupDocs.Watermark for Java — это комплексное решение для управления водяными знаками для приложений Java. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются во всех основных операционных системах и версиях Java, включая J2SE 7.0 (1.7), J2SE 8.0 (1.8) и Java 10.
+        {java_text.about.content1}
+        
+        {java_text.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Добавить текстовый водяной знак в файл IMAGE в Java"
+    title_left: "{java_text.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark] (/ru/watermark/java/) позволяет разработчикам Java легко добавлять текстовые водяные знаки в свои приложения, выполняя несколько простых шагов.
-        * Создайте **Watermarker** с входным документом IMAGE.
-        * Инициализируйте **TextWatermarker** с текстом водяного знака, размером и стилем шрифта.
-        * Установите свойства водяного знака (выравнивание, цвет и т. д.).
-        * Добавьте водяной знак к водяному знаку и сгенерируйте выходной документ.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_text.steps.content_left.description}
+
+        *   {java_text.steps.content_left.step_1}
+        *   {java_text.steps.content_left.step_2}
+        *   {java_text.steps.content_left.step_3}
+        *   {java_text.steps.content_left.step_4}
+        
+    title_right: "{java_text.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
-        * Фреймворки: Java 7 (1.7) и выше
-        * Загрузите последнюю версию GroupDocs.Watermark для Java с [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        {java_text.steps.content_right.description}
+
+        *   {java_text.steps.content_right.step_1}
+        *   {java_text.steps.content_right.step_2}
+        *   {java_text.steps.content_right.step_3}
+        *   {java_text.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        
     code: |
         ```cs
-        // Добавляем текстовый водяной знак к ИЗОБРАЖЕНИЮ в Java
-        // Создаем водяной маркер с входным документом IMAGE
-        (Watermarker watermarker = new Watermarker(input.image));
-        // Создаем TextWatermarker с текстом водяного знака, размером и стилем шрифта
+        // {java_text.example.coment1}
+        // {java_text.example.coment2}
+        (Watermarker watermarker = new Watermarker("input.image"))
+        
+        // {java_text.example.coment3}
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
-        // Установить свойства водяного знака
+            
+        // {java_text.example.coment4}
         watermark.setForegroundColor(Color.getRed());
         watermark.setHorizontalAlignment(HorizontalAlignment.Center);
         watermark.setVerticalAlignment(VerticalAlignment.Center);
-        // Добавляем водяной знак и сохраняем изображение с водяным знаком
+
+        // {java_text.example.coment5}
         watermarker.add(watermark);
-        watermarker.save(output.image);
+        watermarker.save("output.image");
+        
         watermarker.close();
         ```        
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---

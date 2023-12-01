@@ -1,21 +1,20 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-23T14:58:09
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Watermark Apps"
-head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
+head_title: "#Watermark Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
 
 ############################# Header ############################
 title: "Sign documents<br>via .NET API"
-description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
 words:
   for: "for"
 
@@ -25,7 +24,7 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Watermark features for free or request a license"
+  description: "Try GroupDocs.Signature features for free or request a license"
 
 release:
   title: "Version {0} released"
@@ -36,7 +35,7 @@ code:
   title: "Sign PDF files in C#"
   more: "More examples"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
-  install: "dotnet add package GroupDocs.Watermark"
+  install: "dotnet add package GroupDocs.Signature"
   content: |
     ```csharp {style=abap}   
     // Select PDF document
@@ -56,7 +55,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Watermark Overview"
+  title: "GroupDocs.Signature Overview"
   description: "API for performing document signing and related operations in .NET applications"
   features:
     # feature loop
@@ -107,7 +106,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Watermark for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
+    GroupDocs.Signature for .NET supports operations with the following [file formats](https://docs.groupdocs.com/signature/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -134,7 +133,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Watermark features"
+  title: "GroupDocs.Signature features"
   description: "Signing PDFs, Office Documents, and Images swiftly and accurately"
 
   items:
@@ -187,7 +186,7 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Watermark for .NET operations"
+  description: "Some use cases of typical GroupDocs.Signature for .NET operations"
   items:
     # code sample loop
     - title: "Add QR-code to PDF"

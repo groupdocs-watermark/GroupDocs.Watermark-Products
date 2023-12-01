@@ -1,324 +1,234 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET-API zum Hinzufügen von Suchen und Entfernen von Wasserzeichen zu Word-Excel-PDF-Bildern"
-head_description: "C# .NET API zum Hinzufügen, Suchen und Entfernen von bild- und textbasierten Wasserzeichen aus Dokumenten: PDF, Word, Excel, Präsentationen, Visio, E-Mail und Bilddateiformate."
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
 ############################# Header ############################
-title: ".NET-API für die Wasserzeichenbearbeitung"
-description: "Erstellen Sie .NET-Anwendungen, um text- und bildbasierte Wasserzeichen mit intelligenter Suche und starken Sicherheitsmerkmalen zu betreiben."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "/border/groupdocs-watermark-net.svg"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Merkmale"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        var options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Überblick ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark für .NET ermöglicht es Ihnen, marktreife Geschäftsanwendungen C#, ASP.NET und anderen .NET-bezogenen Technologien zu erstellen, mit denen Ihre Endbenutzer neue Wasserzeichen hinzufügen und vorhandene Wasserzeichen in unterstützten Dateiformaten suchen und entfernen können . Mit GroupDocs.Watermark für .NET können Sie digitale Wasserzeichen programmgesteuert auf eine Vielzahl von Dateiformaten anwenden und die unbefugte Nutzung von geistigem Eigentum verhindern und vertrauliche Dokumente sicher kennzeichnen, indem Sie verschiedene integrierte Sicherheitsmaßnahmen anwenden, die von dieser API angeboten werden.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Nachfolgend finden Sie eine Übersicht über GroupDocs.Watermark für .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Überblick"
-          content: |
-            * Wasserzeichen hinzufügen und entfernen
-            * Wasserzeichen suchen & ersetzen
-            * Suche nach Formatierung
-            * Suche nach Bildvergleich
-            * Arbeiten Sie mit Kopf- und Fußzeilen
-            * Arbeiten Sie mit Hintergrundbildern
-            * Mit Anhängen arbeiten
-            * Seiten rastern
-            * Wenden Sie Bearbeitungsbeschränkungen an
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Unterstützte [Dokumentformate und Wasserzeichentyp](https://docs.groupdocs.com/watermark/net/supported-document-formats/) für jedes Format sind unten aufgeführt:
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "Wasserzeichen hinzufügen"
-              content: |
-                * **PDF**: XObject, Artefakt, Anmerkung
-                * **Wort**: Form
-                * **Excel**: Form, Kopf- und Fußzeile
-                * **PowerPoint**: Form
-                * **Visio**: Form
-                * **Rasterbild**: Text, Bild
-                * **Mehrseitiges TIFF**: Text, Bild
-                * **Animiertes Gif**: Text, Bild
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF- und Bilddokumente"
-              content: |
-                * **Portables Dokumentenformat**: PDF
-                * **Open Document**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Images**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Wasserzeichen entfernen"
-              content: |
-                * **PDF**: XObject, Artefakt, Anmerkung, normaler Text
-                * **Wort**: Form, normaler Text
-                * **Excel**: Form, Kopf- und Fußzeile, Hintergrundbild, Text und Formeln in Zellen
-                * **PowerPoint**: Form
-                * **Visio**: Form, Diagrammkommentare
-                * **E-Mail**: Angehängte und eingebettete Bilder, Betreff- und Textfragmente
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for .NET unterstützt das Folgen Betriebssysteme, Frameworks & Paket-Manager:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * .NET Framework 2.0 oder höher
-                * Mono Framework 1.2 oder höher
-                * .NET-Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Paket-Manager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-############################# Merkmale ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for .NET Merkmale"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Hinzufügen oder Entfernen von Wasserzeichen aus einem bestimmten Abschnitt oder einem ganzen Dokument in verschiedenen Dateiformaten"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Fügen Sie allen Bildern in einem bestimmten Abschnitt, einer Seite, einer Folie oder einem Dokument ein Wasserzeichen hinzu"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Weisen Sie Wasserzeichen nur bestimmten Frames eines Bildes mit mehreren Frames zu"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "PDF verstecktes Wasserzeichen zuweisen, das nur beim Drucken des Dokuments erscheint"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Legen Sie Wasserzeichen für alle Anhänge in einem Excel-Dokument und alle Bildformen in Folien fest"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Platzieren Sie Wasserzeichen oder entfernen Sie es aus den Hintergrundbildern von Tabellenkalkulationen oder Folien"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Verwenden Sie Wasserzeichen für unterstützte Dateien in allen Anhängen einer E-Mail oder eines PDF-Dokuments"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Anwenden oder Entfernen von Wasserzeichen als XObjects, Artefakte und Anmerkungen in PDF-Dokumenten"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Beseitigen Sie Wasserzeichen, die Text mit einer bestimmten Formatierung enthalten"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Suchen Sie nach Bildwasserzeichen, die einem bestimmten Bild ähneln"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Identifizieren Sie Textwasserzeichen, selbst wenn zwischen Buchstaben unlesbare Zeichen stehen"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Suchen Sie Wasserzeichen basierend auf bestimmten Parametern oder durch Kombination mehrerer Kriterien"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Geben Sie die Schriftartformatierung an, um nach passendem Textwasserzeichen zu suchen"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Seiteneinrichtung und andere Informationen für unterstützte Formate programmgesteuert extrahieren"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Fügen Sie Wasserzeichen zu Bildern in jeder Kopf- und Fußzeile in unterstützten Dokumentformaten hinzu"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Fügen Sie Wasserzeichen zu Bildformen in einem Word-Dokument hinzu und sperren Sie Wasserzeichen, um die Bearbeitung einzuschränken"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Schützen Sie Textwasserzeichen mit unlesbaren Zeichen in Präsentationen"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Rastern Sie eine bestimmte Seite oder ein ganzes PDF-Dokument, um hinzugefügte Wasserzeichen zu schützen"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Ändern Sie die Textformatierung, während Sie das vorhandene Textwasserzeichen ersetzen"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Richten Sie das Wasserzeichen im PDF-Dokument am Anschnitt-, Art-, Zuschneide- oder Beschnittrahmen aus"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Formeigenschaften in Microsoft Visio-Dokumenten bearbeiten"
-
-    more_feature:
-      # more_feature_loop
-      - title: "Wasserzeichen hinzufügens"
-        content: |
-          GroupDocs.Watermark für .NET unterstützt mehrere Arten von Wasserzeichen. Das Hinzufügen von Wasserzeichen jeglicher Art ist nur eine Frage weniger Codezeilen. Das folgende Beispiel zeigt das Anwenden eines Bildwasserzeichens auf ein Word-Dokument mit C#:
-
-          ```cs
-          // Legen Sie das Dokument ein
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                // Verwenden Sie den Pfad zum Bild als Parameter des Konstruktors
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                  watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                  watermark.VerticalAlignment = VerticalAlignment.Center;
-                  watermarker.Add(watermark);
-                }
-                // Speichern Sie das resultierende Dokument
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      # more_feature_loop
-      - title: "Wasserzeichen anwenden to Files of Different Formats in a Go"
-        content: "Mit der GroupDocs.Watermark-API können Sie Wasserzeichen auf alle Dateien in einem bestimmten Ordner auf einmal anwenden oder Wasserzeichen löschen. Die Dateien können sogar unterschiedliche Formate haben und dennoch wird das Wasserzeichen auf alle genau angewendet."
-
-      # more_feature_loop
-      - title: "Kinderleichte Sicherheit für Wasserzeichen"
-        content: "Mit nur einer Codezeile können Sie es jedem Tool sehr schwer machen, Ihr Wasserzeichen aus PDF-Dateien zu entfernen. Dies wird erreicht, indem alle Seiten eines PDF-Dokuments in Rasterbilder konvertiert werden, während die ursprüngliche Qualität erhalten bleibt."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "/border/groupdocs-watermark-java.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-net.features.title}"
+  description: "{index-content-net.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-net.features.feature_1.title}"
+      content: "{index-content-net.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-net.features.feature_2.title}"
+      content: "{index-content-net.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-net.features.feature_3.title}"
+      content: "{index-content-net.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-net.features.feature_4.title}"
+      content: "{index-content-net.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-net.features.feature_5.title}"
+      content: "{index-content-net.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-net.features.feature_6.title}"
+      content: "{index-content-net.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-net.features.feature_7.title}"
+      content: "{index-content-net.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-net.features.feature_8.title}"
+      content: "{index-content-net.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-net.features.feature_9.title}"
+      content: "{index-content-net.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-net.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_1}"
+      content: |
+        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_2}"
+      content: |
+        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

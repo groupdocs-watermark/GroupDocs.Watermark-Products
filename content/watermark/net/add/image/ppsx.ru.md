@@ -1,68 +1,88 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-01T17:51:41
 draft: false
 path: "watermark/net/add/image/ppsx/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+
 ############################# Head ############################
-head_title: "Добавить водяной знак изображения в PPSX в C#, ASP.NET, VB.NET"
-head_description: ".NET для добавления водяного знака изображения в файл PPSX в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
+head_title: "{net_image.head.title}"
+head_description: "{net_image.head.description}"
+
 ############################# Header ############################
-title: "Добавление водяного знака изображения в PPSX в C# .NET"
-description: "Добавление водяного знака изображения в файл PPSX в приложениях C#, ASP.NET, VB.NET и .NET Core. Добавляйте в документы водяные знаки изображений BMP, PNG, GIF и JPEG. Также управляйте размером водяного знака, выравниванием, углом поворота и положением водяного знака на страницах документа, как вам может понадобиться."
+title: "{net_image.header.title}"
+description: "{net_image.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для .NET API"
+    title: "{net_image.about.title}"
     content: |
-        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        {net_image.about.content1}
+        
+        {net_image.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Добавить водяной знак изображения в файл PPSX в .NET"
+    title_left: "{net_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко добавлять водяные знаки изображений (BMP, PNG, GIF или JPEG) в свои приложения, выполняя несколько простых шагов.
-        * Создайте экземпляр **Watermarker** с входным документом PPSX.
-        * Используйте путь водяного знака изображения в качестве параметра конструктора класса **ImageWatermark**.
-        * Установите свойства водяного знака (размер, выравнивание, цвет и т. д.).
-        * Добавьте водяной знак к водяному знаку и сгенерируйте выходной документ.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+
+        *   {net_image.steps.content_left.step_1}
+        *   {net_image.steps.content_left.step_2}
+        *   {net_image.steps.content_left.step_3}
+        *   {net_image.steps.content_left.step_4}
+        
+    title_right: "{net_image.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
+        {net_image.steps.content_right.description}
+
+        *   {net_image.steps.content_right.step_1}
+        *   {net_image.steps.content_right.step_2}
+        *   {net_image.steps.content_right.step_3}
+        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        
     code: |
         ```cs
-        // Добавляем водяной знак изображения в PPSX в приложениях C#, ASP.NET, VB.NET и .NET Core
-        // Создаем водяной маркер с входным документом PPSX
-        using (Watermarker watermarker = new Watermarker(input.ppsx));
+        // {net_image.example.coment1}
+        // {net_image.example.coment2}
+        using (Watermarker watermarker = new Watermarker("input.ppsx")
           {
-            // Использовать путь к водяному знаку изображения в качестве параметра конструктора класса ImageWatermark
+            // {net_image.example.coment3}
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
-                // Установка свойств водяного знака (ширина, высота, выравнивание)
+                // {net_image.example.coment4}
                 watermark.Width = 140;
                 watermark.Height = 140;
                 watermark.HorizontalAlignment = HorizontalAlignment.Center;
                 watermark.VerticalAlignment = VerticalAlignment.Center;
-                // Добавляем водяной знак к водяному знаку и генерируем выходной документ
+
+                // {net_image.example.coment5}
                 watermarker.Add(watermark);
-                watermarker.Save(output.ppsx);
+                watermarker.Save("output.ppsx");
             }
           }
         ```        
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---

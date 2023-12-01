@@ -1,69 +1,91 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-01T17:51:42
 draft: false
 path: "watermark/net/add/text/pps/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+
 ############################# Head ############################
-head_title: "Добавить текстовый водяной знак в PPS в C#, ASP.NET, VB.NET"
-head_description: ".NET для добавления текстового водяного знака в файл PPS в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
+head_title: "{net_text.head.title}"
+head_description: "{net_text.head.description}"
+
 ############################# Header ############################
-title: "Добавить текстовый водяной знак в PPS в C# .NET"
-description: "Добавление текстового водяного знака в файл PPS в приложениях C#, ASP.NET, VB.NET и .NET Core. Управляйте размером водяного знака, типом шрифта, углом поворота и положением водяного знака на страницах документа, как вам может понадобиться."
+title: "{net_text.header.title}"
+description: "{net_text.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для .NET API"
+    title: "{net_text.about.title}"
     content: |
-        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        {net_text.about.content1}
+        
+        {net_text.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Добавить текстовый водяной знак в файл PPS в .NET"
+    title_left: "{net_text.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко добавлять текстовые водяные знаки в свои приложения, выполняя несколько простых шагов.
-        * Создайте экземпляр **Watermarker** с входным документом PPS.
-        * Инициализируйте **Font**, который будет использоваться для водяного знака.
-        * Создайте объект **TextWatermark**.
-        * Установите свойства водяного знака (выравнивание, цвет и т. д.).
-        * Добавьте водяной знак к водяному знаку и сгенерируйте выходной документ.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
+
+        *   {net_text.steps.content_left.step_1}
+        *   {net_text.steps.content_left.step_2}
+        *   {net_text.steps.content_left.step_3}
+        *   {net_text.steps.content_left.step_4}
+        *   {net_text.steps.content_left.step_5}
+        
+    title_right: "{net_text.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
+        {net_text.steps.content_right.description}
+
+        *   {net_text.steps.content_right.step_1}
+        *   {net_text.steps.content_right.step_2}
+        *   {net_text.steps.content_right.step_3}
+        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        
     code: |
         ```cs
-        // Добавляем текстовый водяной знак в PPS в приложениях C#, ASP.NET, VB.NET и .NET Core
-        // Создание водяного маркера с входным документом PPS
-        using (Watermarker watermarker = new Watermarker(input.pps));
+        // {net_text.example.coment1}
+        // {net_text.example.coment2}
+        using (Watermarker watermarker = new Watermarker("input.pps"))
           {
-            // Инициализируем шрифт, который будет использоваться для водяного знака
+            // {net_text.example.coment3}
             Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-            // Создаем объект TextWatermark
+            
+            // {net_text.example.coment4}
             TextWatermark watermark = new TextWatermark("my watermark", font);
-            // Установить свойства водяного знака
+
+            // {net_text.example.coment5}
             watermark.ForegroundColor = Color.Red;
             watermark.BackgroundColor = Color.Blue;
             watermark.TextAlignment = TextAlignment.Right;
             watermark.Opacity = 0.5;
-            // Добавляем водяной знак и сохраняем изображение с водяным знаком
+
+            // {net_text.example.coment6}
             watermarker.Add(watermark);
-            watermarker.Save(output.pps);
+            watermarker.Save("output.pps");
           }
-        ```        
+        ```      
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---

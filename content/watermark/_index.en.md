@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date:  2023-12-01T17:51:42
 draft: false
 
 ############################# Head ############################
-head_title: "Watermark Solution | On Premise APIs and Free App - GroupDocs"
-head_description: "Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
+head_title: "#Watermark Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
 
 ############################# Header ############################
-title: "Watermark Solution for Documents"
-description: "Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
+title: "#Watermark Solution for Documents"
+description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
 
 ############################# APIs ###############################
 apis:
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Watermark High Code APIs Include"
+    - title: "#GroupDocs.Watermark High Code APIs Include"
       link: "/watermark/"
-      label: "View All High Code APIs"
+      label: "#View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/watermark/net/"
@@ -28,7 +28,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
           product: "GroupDocs.Watermark for"
           platform: ".NET"
-          content: "Search, add or remove text or image watermarks from multitude of file formats within your .NET applications."
+          content: "#Search, add or remove text or image watermarks from multitude of file formats within your .NET applications."
 
         # api_product loop
         - link: "/watermark/java/"
@@ -36,12 +36,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
           product: "GroupDocs.Watermark for"
           platform: "Java"
-          content: "On Premise APIs for Java based applications to manipulate watermarks for MS Office, OpenOffice, portable documents, image, drawings and more."
+          content: "#On Premise APIs for Java based applications to manipulate watermarks for MS Office, OpenOffice, portable documents, image, drawings and more."
 
     # api loop
-    - title: "GroupDocs.Watermark Low Code APIs Include"
+    - title: "#GroupDocs.Watermark Low Code APIs Include"
       link: "https://products.groupdocs.cloud/watermark"
-      label: "View All Low Code APIs"
+      label: "#View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/net"
@@ -49,7 +49,7 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for .NET"
-          content: "Use watermark REST API with .NET SDK to apply, find, edit and remove watermarks from document formats within .NET applications."
+          content: "#Use watermark REST API with .NET SDK to apply, find, edit and remove watermarks from document formats within .NET applications."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/watermark/java"
@@ -57,12 +57,12 @@ apis:
           image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
           product: "GroupDocs.Watermark"
           platform: "Cloud SDK for Java"
-          content: "Empower your Java applications with flexible watermarks management features using watermark SDK for Java."
+          content: "#Empower your Java applications with flexible watermarks management features using watermark SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Watermark No Code Apps Include"
+    - title: "#GroupDocs.Watermark No Code Apps Include"
       link: "https://products.groupdocs.app/watermark"
-      label: "View All No Code Apps"
+      label: "#View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/total"
@@ -70,7 +70,7 @@ apis:
           image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
           product: "GroupDocs.Watermark"
           platform: "Total"
-          content: "Free online app to add watermarks to Word, PowerPoint, Excel, PDF and 40+ other file formats."
+          content: "#Free on-line app to add watermarks to Word, PowerPoint, Excel, PDF and 40+ other file formats."
 
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/docx"
@@ -78,7 +78,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
           product: "GroupDocs.Watermark"
           platform: "DOCX"
-          content: "Add text-based watermarks to Microsoft Word documents online."
+          content: "#Add text-based watermarks to Microsoft Word documents on-line."
 
         # api_product loop
         - link: "https://products.groupdocs.app/watermark/pdf"
@@ -86,7 +86,7 @@ apis:
           image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
           product: "GroupDocs.Watermark"
           platform: "PDF"
-          content: "Online free app providing the capability to watermark PDF documents."
+          content: "#Online free app providing the capability to watermark PDF documents."
 
 ############################# Back to top ###############################
 back_to_top:

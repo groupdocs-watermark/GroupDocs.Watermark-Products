@@ -1,0 +1,7 @@
+inherits: ..\\products_java.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+
+outputPath: "watermark\\{product}\\_index.{lang}.md"

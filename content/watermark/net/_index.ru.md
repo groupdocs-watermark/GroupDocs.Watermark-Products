@@ -1,324 +1,234 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ".NET API для добавления поиска и удаления водяных знаков в изображения Word Excel PDF"
-head_description: "C# .NET API для добавления, поиска и удаления графических и текстовых водяных знаков из документов: PDF, Word, Excel, презентации, Visio, электронная почта и форматы файлов изображений."
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
 ############################# Header ############################
-title: ".NET API для управления водяными знаками"
-description: "Создавайте приложения .NET для работы с текстовыми и графическими водяными знаками с функциями интеллектуального поиска и надежной защиты."
-button:
-    enable: true
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "/border/groupdocs-watermark-net.svg"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Обзор"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            # button loop
-            - link: "#features"
-              text: "Функции"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        var options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Обзор ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark для .NET позволяет создавать готовые к продаже бизнес-приложения на C#, ASP.NET и других технологиях, связанных с .NET, которые позволяют вашим конечным пользователям добавлять новые водяные знаки, искать и удалять существующие водяные знаки в поддерживаемых форматах файлов. . Используя GroupDocs.Watermark для .NET, вы можете программно применять цифровые водяные знаки к множеству форматов файлов и препятствовать несанкционированному использованию интеллектуальной собственности, а также надежно маркировать документы конфиденциального характера с помощью различных встроенных мер безопасности, предлагаемых этим API.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ниже приведен обзор GroupDocs.Watermark для .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Обзор"
-          content: |
-            * Добавить и удалить водяной знак
-            * Поиск и замена водяного знака
-            * Поиск по форматированию
-            * Поиск по сравнению изображений
-            * Работа с верхними и нижними колонтитулами
-            * Работа с фоновыми изображениями
-            * Работа с вложениями
-            * Растеризовать страницы
-            * Применить ограничения редактирования
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Поддерживаемые [форматы документов и тип водяного знака](https://docs.groupdocs.com/watermark/net/supported-document-formats/) для каждого формата перечислены ниже:
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "Добавление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация
-                * **Слово**: Форма
-                * **Excel**: форма, верхний и нижний колонтитулы
-                * **PowerPoint**: Форма
-                * **Visio**: Форма
-                * **Растровое изображение**: текст, изображение
-                * **Многостраничный Tiff**: текст, изображение
-                * **Анимированный Gif**: текст, изображение
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF и графические документы"
-              content: |
-                * **Portable Document Format**: PDF
-                * **Open Document**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Images**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Удаление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация, обычный текст
-                * **Word**: Фигура, обычный текст
-                * **Excel**: форма, верхний и нижний колонтитулы, фоновое изображение, текст и формулы в ячейках
-                * **PowerPoint**: Форма
-                * **Visio**: форма, комментарии к диаграмме
-                * **Электронная почта**: прикрепленные и встроенные изображения, фрагменты темы и основного текста
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for .NET поддерживает следующие Операционные системы, Frameworks & Менеджер пакетовs:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Операционные системы"
-              content: |
-                * Рабочий стол Windows
-                * Windows-сервер
-                * Windows Azure
-                * линукс
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Поддерживаемые платформы"
-              content: |
-                * .NET Framework 2.0 или выше
-                * Монофреймворк 1.2 или выше
-                * .NET Стандарт 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Менеджер пакетов"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Среды разработки"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * МоноДевелопмент
-
-############################# Функции ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for .NET Функции"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Добавление или удаление водяных знаков из определенного раздела или всего документа различных форматов файлов"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Прикрепите водяной знак ко всем изображениям в определенном разделе, странице, слайде или документе"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Назначить водяной знак только определенным кадрам многокадрового изображения"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Выделить скрытый водяной знак для PDF, который появляется только при печати документа"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Установите водяной знак на все вложения в документе Excel и на все формы изображений в слайдах"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Поместите водяной знак или удалите его с фоновых изображений электронной таблицы или слайдов"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Используйте водяной знак для поддерживаемых файлов во всех вложениях электронного письма или документа PDF"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Применение или удаление водяных знаков в качестве объектов XObject, артефактов и аннотаций в документах PDF"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Удалите водяной знак, содержащий текст с определенным форматированием"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Ищите водяные знаки изображения, которые напоминают определенное изображение"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Определите текстовый водяной знак, даже если между буквами есть нечитаемые символы"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Поиск водяных знаков по определенным параметрам или по нескольким критериям"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Укажите форматирование шрифта для поиска соответствующего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Программное извлечение параметров страницы и другой информации для поддерживаемых форматов"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Добавляйте водяные знаки к изображениям внутри любых верхних и нижних колонтитулов в поддерживаемых форматах документов"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Добавьте водяной знак к фигурам изображения в документе Word и заблокируйте водяные знаки, чтобы ограничить редактирование"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Защита текстового водяного знака с помощью нечитаемых символов в презентациях"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Растеризация отдельной страницы или всего PDF-документа для защиты добавленных водяных знаков"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Изменить форматирование текста при замене существующего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Выровнять водяной знак по окну выпуска за обрез, художественному окну, окну обрезки или окну обрезки в документе PDF"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Редактирование свойств фигуры в документах Microsoft Visio"
-
-    больше_функций:
-      # more_feature_loop
-      - title: "Добавление водяного знакаs"
-        content: |
-          GroupDocs.Watermark для .NET поддерживает несколько типов водяных знаков. Добавление водяных знаков любого типа — это всего лишь несколько строк кода. В следующем примере показано применение водяного знака изображения к документу Word с помощью C#:
-
-          ```cs
-          // Загрузите документ
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                // Использовать путь к изображению в качестве параметра конструктора
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                    watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                    watermark.VerticalAlignment = VerticalAlignment.Center;
-                    watermarker.Add(watermark);
-                }
-                // Сохраните полученный документ
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      # more_feature_loop
-      - title: "Применить водяной знак to Files of Different Formats in a Go"
-        content: "API GroupDocs.Watermark позволяет применить водяной знак или удалить водяной знак для всех файлов в определенной папке за один раз. Файлы могут быть даже разного формата, но водяной знак будет применен ко всем им точно."
-
-      # more_feature_loop
-      - title: "Надежная защита для водяных знаков"
-        content: "С помощью всего одной строки кода вы можете затруднить удаление водяного знака из PDF-файлов любым инструментом. Это достигается за счет преобразования всех страниц PDF-документа в растровые изображения с сохранением исходного качества.."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark предлагает API для просмотра документов для других популярных сред разработки."
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "/border/groupdocs-watermark-java.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-net.features.title}"
+  description: "{index-content-net.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-net.features.feature_1.title}"
+      content: "{index-content-net.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-net.features.feature_2.title}"
+      content: "{index-content-net.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-net.features.feature_3.title}"
+      content: "{index-content-net.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-net.features.feature_4.title}"
+      content: "{index-content-net.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-net.features.feature_5.title}"
+      content: "{index-content-net.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-net.features.feature_6.title}"
+      content: "{index-content-net.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-net.features.feature_7.title}"
+      content: "{index-content-net.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-net.features.feature_8.title}"
+      content: "{index-content-net.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-net.features.feature_9.title}"
+      content: "{index-content-net.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-net.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_1}"
+      content: |
+        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_2}"
+      content: |
+        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

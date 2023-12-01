@@ -1,21 +1,20 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-23T14:58:09
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
-head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
+head_title: "#Watermark Solution | On Premise APIs and Free App - GroupDocs"
+head_description: "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more."
 
 ############################# Header ############################
 title: "Sign documents<br>via Java API"
-description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+description: "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search."
 words:
   for: "for"
 
@@ -25,7 +24,7 @@ actions:
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
   title: "Ready to get started?"
-  description: "Try GroupDocs.Watermark features for free or request a license"
+  description: "Try GroupDocs.Signature features for free or request a license"
 
 release:
   title: "Version {0} released"
@@ -39,7 +38,7 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-watermark</artifactId>
+      <artifactId>groupdocs-signature</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
@@ -59,7 +58,7 @@ code:
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Watermark Overview"
+  title: "GroupDocs.Signature Overview"
   description: "API for performing document signing and related operations in Java applications"
   features:
     # feature loop
@@ -78,7 +77,7 @@ overview:
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Watermark for Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Amazon"
@@ -110,7 +109,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Watermark for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
+    GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -137,13 +136,13 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Watermark features"
+  title: "GroupDocs.Signature features"
   description: "Signing PDFs, Office Documents, and images with digital signatures"
 
   items:
     # feature loop
     - icon: "sign"
-      title: "Adding Watermark"
+      title: "Adding Signatures"
       content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
 
     # feature loop
@@ -190,12 +189,12 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Watermark for Java operations"
+  description: "Some use cases of typical GroupDocs.Signature for Java operations"
   items:
     # code sample loop
     - title: "Enchance PDF document with QR-code"
       content: |
-        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/watermark/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
+        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
         {{< landing/code title="Enchance PDF document with QR-code">}}
         ```java {style=abap}
         // Load the document to sign
@@ -234,3 +233,4 @@ code_samples:
         {{< /landing/code >}}
 
 ---
+

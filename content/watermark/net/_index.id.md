@@ -1,274 +1,234 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2023-12-01T17:51:42
 draft: false
-
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
-head_title: ".NET API untuk Menambahkan Pencarian Hapus Tanda Air ke Word Excel Gambar PDF"
-head_description: "C# .NET API untuk menambahkan, mencari, dan menghapus gambar & tanda air berbasis teks dari dokumen: PDF, Word, Excel, presentasi, Visio, email, dan format file gambar."
+############################# Head ############################
+head_title: "{index-content.head_title}"
+head_description: "{index-content.head_description}"
 
-title: ".NET API untuk Manipulasi Tanda Air"
-description: "Bangun Aplikasi .NET untuk Mengoperasikan Tanda Air Berbasis Teks & Gambar dengan Pencarian Cerdas & Fitur Keamanan Kuat."
-button:
-    enable: true
+############################# Header ############################
+title: "{index-content.title_1}<br>{index-content-net.title_2}"
+description: "{index-content.description}"
+words:
+  for: "{index-content.words_for}"
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "{index-content-net.actions_main}"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "{index-content.actions_alt}"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net"
+  title: "{index-content.actions_title}"
+  description: "{index-content.actions_description}"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+release:
+  title: "{index-content.release_title}"
+  notes: "{index-content.release_notes}"
+  downloads: "{index-content.release_downloads}"
 
-            - link: "#features"
-              text: "Fitur"
+code:
+  title: "{index-content-net.code_title}"
+  more: "{index-content.code_more}"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
+  install: "dotnet add package GroupDocs.Signature"
+  content: |
+    ```csharp {style=abap}   
+    // {index-content.code_comment_1}
+    using (Signature signature = new Signature("sample.pdf"))
+    {
+        // {index-content.code_comment_2}
+        var options = new TextSignOptions("John Smith")
+        {
+            // {index-content.code_comment_3}
+            ForeColor = Color.Red
+        };
+        // {index-content.code_comment_4}
+        signature.Sign("signed.pdf", options);
+    }
+    ```
 
-            - link: "#support"
-              text: "Mendukung"
-
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Demo Langsung"
-
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark untuk .NET memungkinkan Anda membangun aplikasi bisnis yang siap dipasarkan di C#, ASP.NET dan teknologi terkait .NET lainnya, yang memungkinkan pengguna akhir Anda, menambahkan tanda air baru, mencari dan menghapus tanda air yang ada dalam format file yang didukung . Dengan menggunakan GroupDocs.Watermark untuk .NET, Anda dapat menerapkan tanda air digital secara terprogram ke banyak format file dan mencegah penggunaan kekayaan intelektual yang tidak sah dan secara aman memberi label dokumen yang bersifat sensitif dengan menggunakan berbagai langkah keamanan bawaan yang ditawarkan oleh API ini.
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Watermark untuk .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Tambah & Hapus Tanda Air
-            * Cari & Ganti Tanda Air
-            * Cari berdasarkan Format
-            * Cari berdasarkan Perbandingan Gambar
-            * Bekerja dengan Header & Footer
-            * Bekerja dengan Gambar Latar Belakang
-            * Bekerja dengan Lampiran
-            * Rasterisasi Halaman
-            * Terapkan Pembatasan Pengeditan
-      
-      tab_two:
-        description: |
-          [Format dokumen dan jenis tanda air](https://docs.groupdocs.com/watermark/net/supported-document-formats/) yang didukung untuk setiap format tercantum di bawah ini:
-
-        left:
-          enable: true
-          table:
-            - title: "Microsoft Office"
-              content: |
-                * **Kata:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visi:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            - title: "Menambahkan Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi
-                * **Kata**: Bentuk
-                * **Excel**: Bentuk, Header & Footer
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk
-                * **Gambar Raster**: Teks, Gambar
-                * **Tiff Multi-halaman**: Teks, Gambar
-                * **Gif Animasi**: Teks, Gambar
-
-        right:
-          enable: true
-          table:
-            - title: "Dokumen PDF dan Gambar"
-              content: |
-                * **Format Dokumen Portabel**: PDF
-                * **Buka Dokumen**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Gambar**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            - title: "Menghapus Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi, Teks Biasa
-                * **Kata**: Bentuk, Teks Biasa
-                * **Excel**: Bentuk, Header & Footer, Gambar Latar Belakang, Teks dan rumus dalam sel
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk, Diagram Komentar
-                * **Email**: Gambar yang dilampirkan dan disematkan, Subjek dan fragmen teks isi
-
-      tab_three:
-        description: |
-          GroupDocs.Watermark untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Desktop Windows
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi
-                * Kerangka Mono 1.2 atau lebih tinggi
-                * .NET Standar 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Watermark untuk .NET Fitur"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Tambah atau Hapus Tanda Air dari Bagian Tertentu atau seluruh Dokumen dari Berbagai Format File"
-
-      - icon: "fas fa-eye"
-        content: "Lampirkan Tanda Air ke semua Gambar di Bagian, Halaman, Slide, atau Dokumen Tertentu"
-
-      - icon: "fas fa-bolt"
-        content: "Tetapkan Tanda Air hanya untuk Bingkai Tertentu dari Gambar Multi-Frame"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Alokasikan Tanda Air Tersembunyi ke PDF yang hanya Muncul saat Mencetak Dokumen"
-
-      - icon: "fas fa-code"
-        content: "Setel Tanda Air ke semua Lampiran dalam Dokumen Excel & semua Bentuk Gambar di Slide"
-
-      - icon: "fas fa-cloud"
-        content: "Tempatkan Tanda Air atau Hapus dari Gambar Latar Belakang Spreadsheet atau Slide"
-
-      - icon: "fas fa-remove-format"
-        content: "Gunakan Tanda Air ke File yang Didukung di semua Lampiran Email atau Dokumen PDF"
-
-      - icon: "fas fa-comment-slash"
-        content: "Terapkan atau Hapus Tanda Air sebagai XObjects, Artefak & Anotasi dalam Dokumen PDF"
-
-      - icon: "fas fa-location-arrow"
-        content: "Hilangkan Tanda Air yang Mengandung Teks dengan Pemformatan Tertentu"
-
-      - icon: "fas fa-border-all"
-        content: "Cari Tanda Air Gambar yang Menyerupai Gambar Tertentu"
-
-      - icon: "fas fa-wrench"
-        content: "Identifikasi Tanda Air Teks Bahkan jika ada Karakter yang Tidak Dapat Dibaca di antara Huruf"
-
-      - icon: "fas fa-columns"
-        content: "Cari Tanda Air Berdasarkan Parameter Tertentu atau dengan Menggabungkan Beberapa Kriteria"
-
-      - icon: "fas fa-file-word"
-        content: "Tentukan Pemformatan Font untuk Mencari Tanda Air Teks yang Cocok"
-
-      - icon: "fas fa-envelope"
-        content: "Ekstrak Pengaturan Halaman & Informasi Lain Secara Terprogram untuk Format yang Didukung"
-
-      - icon: "fas fa-print"
-        content: "Tambahkan Tanda Air ke Gambar di dalam Header & Footer mana pun dalam Format Dokumen yang Didukung"
-
-      - icon: "fas fa-file-archive"
-        content: "Tambahkan Tanda Air ke Bentuk Gambar di Dokumen Word & Kunci Tanda Air untuk Membatasi Pengeditan"
-
-      - icon: "fas fa-lock"
-        content: "Lindungi Tanda Air Teks menggunakan Karakter yang Tidak Dapat Dibaca dalam Presentasi"
-
-      - icon: "fas fa-file-code"
-        content: "Rasterisasi Halaman Tertentu atau Seluruh Dokumen PDF untuk Melindungi Tanda Air yang Ditambahkan"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Ubah Pemformatan Teks Saat Mengganti Tanda Air Teks Yang Ada"
-
-      - icon: "fas fa-file-excel"
-        content: "Sejajarkan Tanda Air ke Bleed Box, Art Box, Crop Box, atau Trim Box dalam Dokumen PDF"
-
-      - icon: "fas fa-heading"
-        content: "Edit Properti Bentuk di Dokumen Microsoft Visio"
-
-    more_feature:
-      - title: "Menambahkan Tanda Air"
-        content: |
-          GroupDocs.Watermark untuk .NET mendukung beberapa jenis tanda air. Menambahkan tanda air jenis apa pun hanya masalah beberapa baris kode. Contoh berikut menunjukkan, menerapkan tanda air gambar ke dokumen Word menggunakan C#:
-
-          ```cs
-          // Muat dokumen
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                    // Gunakan jalur ke gambar sebagai parameter konstruktor
-                    using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                      {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-                }
-                // Simpan dokumen yang dihasilkan
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      - title: "Terapkan Tanda Air ke File dengan Format Berbeda dalam Sekali Jalan"
-        content: "GroupDocs.Watermark API memungkinkan Anda menerapkan tanda air atau menghapus tanda air semua file dalam folder tertentu sekaligus. File bahkan dapat memiliki format yang berbeda namun tanda air akan diterapkan ke semuanya secara akurat."
-
-      - title: "Keamanan Sangat Mudah untuk Tanda Air"
-        content: "Dengan hanya satu baris kode, Anda dapat mempersulit alat apa pun untuk menghapus tanda air Anda dari file PDF. Ini dicapai dengan mengonversi semua halaman dokumen PDF ke gambar raster sambil menjaga kualitas aslinya tetap utuh."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-back_to_top:
   enable: true
+  title: "{index-content.overview_title}"
+  description: "{index-content-net.overview_description}"
+  features:
+    # feature loop
+    - title: "{index-content-net.overview_feature_1.title}"
+      content: "{index-content-net.overview_feature_1.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_2.title}"
+      content: "{index-content-net.overview_feature_2.description}"
+
+    # feature loop
+    - title: "{index-content-net.overview_feature_3.title}"
+      content: "{index-content-net.overview_feature_3.description}"
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "{index-content.platforms_title}"
+  description: "{index-content-net.platforms_description}"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "{index-content.formats_title}"
+  description: |
+    {index-content-net.formats_description}
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### {index-content.formats_groups.title_1}
+        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
+        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+    # group loop
+    - color: "blue"
+      content: |
+        ### {index-content.formats_groups.title_2}
+        * **{index-content.formats_groups.format_portable}:** PDF
+        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
+        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+      # group loop
+    - color: "red"
+      content: |
+        ### {index-content.formats_groups.title_3}
+        * **{index-content.formats_groups.format_web}:** HTML, MHTML
+        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
+        * **{index-content.formats_groups.format_certificates}:** PFX
+
+############################# Features ############################
+features:
+  enable: true
+  title: "{index-content-net.features.title}"
+  description: "{index-content-net.features.description}"
+
+  items:
+    # feature loop
+    - icon: "sign"
+      title: "{index-content-net.features.feature_1.title}"
+      content: "{index-content-net.features.feature_1.content}"
+
+    # feature loop
+    - icon: "custom"
+      title: "{index-content-net.features.feature_2.title}"
+      content: "{index-content-net.features.feature_2.content}"
+
+    # feature loop
+    - icon: "password"
+      title: "{index-content-net.features.feature_3.title}"
+      content: "{index-content-net.features.feature_3.content}"
+
+    # feature loop
+    - icon: "protect"
+      title: "{index-content-net.features.feature_4.title}"
+      content: "{index-content-net.features.feature_4.content}"
+
+    # feature loop
+    - icon: "convert"
+      title: "{index-content-net.features.feature_5.title}"
+      content: "{index-content-net.features.feature_5.content}"
+
+    # feature loop
+    - icon: "preview"
+      title: "{index-content-net.features.feature_6.title}"
+      content: "{index-content-net.features.feature_6.content}"
+
+    # feature loop
+    - icon: "search"
+      title: "{index-content-net.features.feature_7.title}"
+      content: "{index-content-net.features.feature_7.content}"
+
+    # feature loop
+    - icon: "validate"
+      title: "{index-content-net.features.feature_8.title}"
+      content: "{index-content-net.features.feature_8.content}"
+
+    # feature loop
+    - icon: "update"
+      title: "{index-content-net.features.feature_9.title}"
+      content: "{index-content-net.features.feature_9.content}"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "{index-content.code_samples.title}"
+  description: "{index-content-net.code_samples_description}"
+  items:
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_1}"
+      content: |
+        {index-content-net.code_samples_sample_1_content_1} {index-content-net.code_samples_sample_1_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
+        ```csharp {style=abap}
+        // {index-content.code_samples.sample_1.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_1.comment_2}
+            QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith")
+            {
+                // {index-content.code_samples.sample_1.comment_3}
+                EncodeType = QrCodeTypes.QR,
+                Left = 100,
+                Top = 100
+            };
+            // {index-content.code_samples.sample_1.comment_4}
+            signature.Sign("file_with_QR.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "{index-content-net.code_title_sample_2}"
+      content: |
+        {index-content-net.code_samples_sample_2_content_1} {index-content-net.code_samples_sample_2_content_2}
+        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
+        ```csharp {style=abap}   
+        // {index-content.code_samples.sample_2.comment_1}
+        using (Signature signature = new Signature("file_to_sign.pdf"))
+        {
+            // {index-content.code_samples.sample_2.comment_2}
+            DigitalSignOptions options = new DigitalSignOptions("certificate.pfx")
+            {
+                // {index-content.code_samples.sample_2.comment_3}
+                Password = "1234567890"
+            };
+            // {index-content.code_samples.sample_2.comment_4}
+            signature.Sign("digitally_signed.pdf", options);
+        }
+        ```
+        {{< /landing/code >}}
+
 ---
