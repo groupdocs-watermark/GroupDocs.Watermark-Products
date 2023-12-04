@@ -1,75 +1,94 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-04T15:21:05
 draft: false
 path: "watermark/net/edit/image/docx/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+
 ############################# Head ############################
-head_title: "Редактировать водяной знак изображения в DOCX на C#, ASP.NET, VB.NET"
-head_description: ".NET для редактирования водяного знака найденного изображения в файле DOCX в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
+head_title: "{net_image.head.title}"
+head_description: "{net_image.head.description}"
+
 ############################# Header ############################
-title: "Редактировать водяной знак изображения в DOCX на C# .NET"
-description: "Найдите и измените водяной знак найденного изображения в документе DOCX в приложениях C#, ASP.NET, VB.NET и .NET Core. Добавляйте в документы водяные знаки изображений BMP, PNG, GIF и JPEG. Также управляйте размером водяного знака, типом шрифта, углом поворота и положением водяного знака на страницах документа, как вам может понадобиться."
+title: "{net_image.header.title}"
+description: "{net_image.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для .NET API"
+    title: "{net_image.about.title}"
     content: |
-        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        {net_image.about.content1}
+        
+        {net_image.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Редактировать водяной знак изображения в файле DOCX в .NET"
+    title_left: "{net_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко редактировать водяные знаки изображений (BMP, PNG, GIF или JPEG) в своих приложениях, выполняя несколько простых шагов.
-        * Создайте **Watermarker** с входным документом DOCX.
-        * Инициализируйте **SearchCriteria**, чтобы найти водяные знаки изображения.
-        * Заменить найденный водяной знак.
-        * Сохраните новый документ с водяным знаком.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+
+        *   {net_image.steps.content_left.step_1}
+        *   {net_image.steps.content_left.step_2}
+        *   {net_image.steps.content_left.step_3}
+        *   {net_image.steps.content_left.step_4}
+        
+    title_right: "{net_image.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
+        {net_image.steps.content_right.description}
+
+        *   {net_image.steps.content_right.step_1}
+        *   {net_image.steps.content_right.step_2}
+        *   {net_image.steps.content_right.step_3}
+        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        
     code: |
         ```cs
-        // Поиск и замена водяного знака изображения в DOCX в приложениях C#, ASP.NET, VB.NET и .NET Core
-        // Создаем водяной знак с входным документом DOCX
-        using (Watermarker watermarker = new Watermarker(input.docx));
-          {
-            // Инициализируем SearchCriteria для соответствия конкретному изображению
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
+        // {net_image.example.coment1}
+        // {net_image.example.coment2}
+        using (Watermarker watermarker = new Watermarker("input.docx"))
+        {
+            // {net_image.example.coment3}
+            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             foreach (PossibleWatermark watermark in watermarks)
+            {
+                try
                 {
-                    try
-                        {
-                            // Заменяем найденное изображение
-                            watermark.ImageData = imageData;
-                        }
-                    catch (Exception e)
-                    {
-                        // Найденный объект может не поддерживать редактирование текста
-                        // Передаваемые аргументы могут иметь недопустимое значение
-                        // Обрабатываем такие случаи здесь
-                    }
+                    // {net_image.example.coment4}
+                    watermark.ImageData = imageData;
                 }
-            // Сохраняем документ с водяным знаком
-            watermarker.Save(output.docx);
-          }
+                catch (Exception e)
+                {
+                    // {net_image.example.coment5}
+                    // {net_image.example.coment6}
+                    // {net_image.example.coment7}
+                }
+            }
+            // {net_image.example.coment8}
+            watermarker.Save("output.docx");
+        }
         ```        
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---

@@ -1,73 +1,81 @@
+
 ---
+############################# Static ############################
 layout: "autogen"
+date: 2023-12-04T15:21:04
 draft: false
 path: "watermark/java/edit/image/xlsb/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
 
-head_title: "JavaのXLSBで画像透かしを編集する"
-head_description: "Java用のGroupDocs.WatermarkAPIを使用して、JavaおよびJ2SEアプリケーションのXLSBファイルで見つかった画像透かしを編集するJavaライブラリ."
+############################# Head ############################
+head_title: "{java_image.head.title}"
+head_description: "{java_image.head.description}"
 
-title: "JavaのXLSBで画像透かしを編集する"
-description: "JavaおよびJ2SEアプリケーション内のXLSBドキュメントで見つかった画像透かしを検索して変更します。ドキュメントにBMP、PNG、GIF、JPEG画像の透かしを追加します。また、必要に応じて、透かしのサイズ、フォントタイプ、回転角度、およびドキュメントページ上の透かしの位置を管理します。"
+############################# Header ############################
+title: "{java_image.header.title}"
+description: "{java_image.header.description}"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java API"
+    title: "{java_image.about.title}"
     content: |
-        GroupDocs.Watermark for Javaは、Javaアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
+        {java_image.about.content1}
         
-        GroupDocs.Watermark APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        {java_image.about.content2}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでXLSBファイルの画像透かしを編集する"
+    title_left: "{java_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/）を使用すると、Java開発者は、いくつかの簡単な手順を実行することで、アプリケーションの画像（BMP、PNG、GIF、またはJPEG)透かしを簡単に編集できます。
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
 
-        * 力XLSBドキュメントを使用して* Watermarker* をインスタンス化します。
-        * 像の透かしを見つけるために* SearchCriteria* を初期化します。
-        * つかった透かしを置き換えます。
-        * しく透かしを入れたドキュメントを保存します。
+        *   {java_image.steps.content_left.step_1}
+        *   {java_image.steps.content_left.step_2}
+        *   {java_image.steps.content_left.step_3}
+        *   {java_image.steps.content_left.step_4}
         
-    title_right: "システム要求"
+    title_right: "{java_image.steps.title_right}"
     content_right: |
-        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {java_image.steps.content_right.description}
 
-        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 発環境: NetBeans、IntelliJ IDEA、Eclipse
-        * レームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)から最新バージョンのGroupDocs.WatermarkforJavaをダウンロードします。
+        *   {java_image.steps.content_right.step_1}
+        *   {java_image.steps.content_right.step_2}
+        *   {java_image.steps.content_right.step_3}
+        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        //JavaアプリケーションのXLSBで画像透かしを検索して置換します
-        //入力XLSBドキュメントを使用してウォーターマーカーをインスタンス化します
-        Watermarker watermarker = new Watermarker(input.xlsb)
+        // {java_image.example.coment1}
+        // {java_image.example.coment2}
+        Watermarker watermarker = new Watermarker("input.xlsb")
         
-        //特定の画像に一致するようにSearchCriteriaを初期化します
-        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
+        // {java_image.example.coment3}
+        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         for (PossibleWatermark watermark : watermarks)
             {
                 try
                 {
-                    //見つかった画像を置き換えます
+                    // {java_image.example.coment4}
                     watermark.setImageData(imageData);
                 }
                 
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    //見つかったエンティティはテキスト編集をサポートしていない可能性があります
-                    //渡された引数は不適切な値を持つ可能性があります
-                    //このようなケースをここで処理します
+                    // {java_image.example.coment5}
+                    // {java_image.example.coment6}
+                    // {java_image.example.coment7}
                 }
             }
             
-            //透かし入りのドキュメントを保存します
-            watermarker.save(output.xlsb);
+            // {java_image.example.coment8}
+            watermarker.save("output.xlsb");
 
             watermarker.close();
         ```        
