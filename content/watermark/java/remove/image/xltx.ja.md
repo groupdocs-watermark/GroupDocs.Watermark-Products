@@ -1,64 +1,72 @@
+
 ---
+############################# Static ############################
 layout: "autogen"
+date: 2023-12-05T14:00:15
 draft: false
 path: "watermark/java/remove/image/xltx/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
 
-head_title: "JavaのXLTXから画像透かしを削除する"
-head_description: "Java用のGroupDocs.WatermarkAPIを使用したJavaおよびJ2SEアプリケーション内のスマート検索を使用して、XLTXドキュメントから画像透かしを検索して削除するJavaライブラリ."
+############################# Head ############################
+head_title: "{java_image.head.title}"
+head_description: "{java_image.head.description}"
 
-title: "JavaのXLTXから画像透かしを削除する"
-description: "スマート検索を使用して、JavaおよびJ2SEアプリケーション内からXLTXドキュメントから画像透かしを見つけて削除します。ドキュメントから指定された透かしを検索および削除するための検索基準を定義します."
+############################# Header ############################
+title: "{java_image.header.title}"
+description: "{java_image.header.description}"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java API"
+    title: "{java_image.about.title}"
     content: |
-        GroupDocs.Watermark for Javaは、Javaアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
+        {java_image.about.content1}
         
-        GroupDocs.Watermark APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        {java_image.about.content2}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでXLTXファイルから透かしを削除する"
+    title_left: "{java_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーションからテキスト形式の透かしを簡単に検索して削除できます。
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
 
-        * 力XLTXドキュメントを使用して* Watermarker* をインスタンス化します。
-        * 像の透かしを見つけるために* PossibleWatermarkCollection* を初期化します。
-        * 定された透かしをドキュメントから削除します。
-        * 更したドキュメントを保存します。
+        *   {java_image.steps.content_left.step_1}
+        *   {java_image.steps.content_left.step_2}
+        *   {java_image.steps.content_left.step_3}
+        *   {java_image.steps.content_left.step_4}
         
-    title_right: "システム要求"
+    title_right: "{java_image.steps.title_right}"
     content_right: |
-        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {java_image.steps.content_right.description}
 
-        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 発環境: NetBeans、IntelliJ IDEA、Eclipse
-        * レームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)から最新バージョンのGroupDocs.WatermarkforJavaをダウンロードします。
+        *   {java_image.steps.content_right.step_1}
+        *   {java_image.steps.content_right.step_2}
+        *   {java_image.steps.content_right.step_3}
+        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        //JavaアプリケーションでXLTXドキュメントから画像透かしを検索して削除します
-        //入力XLTXドキュメントを使用してウォーターマーカーをインスタンス化します
-        Watermarker watermarker = new Watermarker(input.xltx)
+        // {java_image.example.coment1}
+        // {java_image.example.coment2}
+        Watermarker watermarker = new Watermarker("input.xltx")
         
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
 
-        //ドキュメントの指定されたインデックス位置から透かしを削除します
+        // {java_image.example.coment3}
         possibleWatermarks.removeAt(0);
 
-        //指定された可能性のある透かしをドキュメントから削除します
+        // {java_image.example.coment4}
         possibleWatermarks.remove(possibleWatermarks.get_Item(0);
 
-        //変更したドキュメントを保存します
-        watermarker.save(output.xltx);
+        // {java_image.example.coment5}
+        watermarker.save("output.doc");
 
-        watermarker.close();        
+        watermarker.close();   
         ```        
 
 demos:

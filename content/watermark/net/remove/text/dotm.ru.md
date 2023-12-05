@@ -1,49 +1,61 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-05T14:00:16
 draft: false
 path: "watermark/net/remove/text/dotm/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+
 ############################# Head ############################
-head_title: "Удалить водяной знак из DOTM в C#, ASP.NET, VB.NET"
-head_description: ".NET для поиска и удаления водяных знаков из документа DOTM с помощью интеллектуального поиска в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
+head_title: "{net_text.head.title}"
+head_description: "{net_text.head.description}"
+
 ############################# Header ############################
-title: "Удалить водяной знак из DOTM в C# .NET"
-description: "Используйте интеллектуальный поиск, чтобы найти и удалить водяной знак из документа DOTM с форматированием текста в приложениях C#, ASP.NET, VB.NET и .NET Core. Определите критерий поиска для поиска и удаления водяных знаков на основе определенного имени шрифта, цвета, размера и других соответствующих свойств."
+title: "{net_text.header.title}"
+description: "{net_text.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для .NET API"
+    title: "{net_text.about.title}"
     content: |
-        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
+        {net_text.about.content1}
+        
+        {net_text.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Удалить водяной знак из файла DOTM в .NET"
+    title_left: "{net_text.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко находить и удалять водяные знаки с форматированием текста из своих приложений, выполняя несколько простых шагов.
-        * Создайте экземпляр **Watermarker** с входным документом DOTM.
-        * Инициализируйте **TextFormattingSearchCriteria**, чтобы найти текстовые водяные знаки.
-        * Инициализировать определенные критерии поиска, чтобы найти и удалить водяные знаки.
-        * Сохраните измененный документ.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
+
+        *   {net_text.steps.content_left.step_1}
+        *   {net_text.steps.content_left.step_2}
+        *   {net_text.steps.content_left.step_3}
+        *   {net_text.steps.content_left.step_4}
+        
+    title_right: "{net_text.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
+        {net_text.steps.content_right.description}
+
+        *   {net_text.steps.content_right.step_1}
+        *   {net_text.steps.content_right.step_2}
+        *   {net_text.steps.content_right.step_3}
+        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        
     code: |
         ```cs
-        // Поиск и удаление водяных знаков с форматированием текста из документа DOTM в приложениях C#, ASP.NET, VB.NET и .NET Core
-        // Создаем водяной маркер с входным документом DOTM
-        using (Watermarker watermarker = new Watermarker(input.dotm));
-          {
-            // Инициализируем TextFormattingSearchCriteria для определения водяных знаков для поиска
+        // {net_text.example.coment1}
+        // {net_text.example.coment2}
+        using (Watermarker watermarker = new Watermarker("input.dotm"))
+        {
+            // {net_text.example.coment3}
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.ForegroundColorRange.MinHue = -5;
@@ -56,18 +68,27 @@ steps:
             criteria.MinFontSize = 19;
             criteria.MaxFontSize = 42;
             criteria.FontBold = true;
+
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
-            // Сохраняем измененный документ
-            watermarker.Save(output.dotm);
-          }
+
+            // {net_text.example.coment4}
+            watermarker.Save("output.doc");
+        }
         ```        
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---
