@@ -1,0 +1,156 @@
+{
+  "java_image": {
+    "head": {
+      "title": "Search Image Watermarks from {{FileformatUpper}} in Java",
+      "description": "Java library to search image watermarks from {{FileformatUpper}} document using smart search features within Java & J2SE applications using GroupDocs.Watermark APIs for Java."
+    },
+    "header": {
+      "title": "Search Image Watermarks from {{FileformatUpper}} in Java",
+      "description": "Use smart search to find all possible image watermarks from {{FileformatUpper}} file from within Java & J2SE applications. Define search criteria to find all matching image watermarks from the whole or specific pages of the source document."
+    },
+    "about": {
+      "title": "GroupDocs.Watermark for Java API",
+      "content1": "GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.",
+      "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
+    },
+    "steps": {
+      "title_left": "Search Watermarks from {{FileformatUpper}} in Java",
+      "content_left": {
+        "description": "makes it easy for Java developers to intelligently search image watermarks from within their documents by implementing a few easy steps.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_2": "Initialize **ImageSearchCriteria** to perform watermark search.",
+        "step_3": "Set maximum allowed difference between images.",
+        "step_4": "Display the possible matching watermarks."
+      },
+      "title_right": "System Requirements",
+      "content_right": {
+        "description": "Before executing the code example below, please make sure that you have the following prerequisites installed on your system.",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environments: NetBeans, IntelliJ IDEA, Eclipse",
+        "step_3": "Frameworks: Java 7 (1.7) and above",
+        "step_4": "Download the latest version of GroupDocs.Watermark for Java from"
+      }
+    },
+    "example": {
+      "coment1": "Search possible IMAGE watermarks in {{FileformatUpper}} document using Java.",
+      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment3": "Initialize ImageSearchCriteria to start watermark search",
+      "coment4": "Set maximum allowed difference between sample image and the possible watermark"
+    }
+  },
+  "java_text": {
+    "head": {
+      "title": "Search Watermarks from {{FileformatUpper}} in Java",
+      "description": "Java library to search watermarks from {{FileformatUpper}} document using smart search features within Java applications using GroupDocs.Watermark APIs for Java."
+    },
+    "header": {
+      "title": "Search Watermarks from {{FileformatUpper}} in Java",
+      "description": "Use smart search to find all possible watermarks from {{FileformatUpper}} file from within Java & J2SE applications. Define search criteria based on text, regular expressions (RegEx), images, hyperlinks, characters and different search objects to find watermarks from the whole or specific pages of the source document."
+    },
+    "about": {
+      "title": "GroupDocs.Watermark for Java API",
+      "content1": "GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.",
+      "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
+    },
+    "steps": {
+      "title_left": "Search Watermarks from {{FileformatUpper}} in Java",
+      "content_left": {
+        "description": "makes it easy for Java developers to intelligently search watermarks from within their applications by implementing a few easy steps.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_2": "Initialize **PossibleWatermarkCollection** to perform watermark search.",
+        "step_3": "Defined search criteria to find possible watermarks."
+      },
+      "title_right": "System Requirements",
+      "content_right": {
+        "description": "Before executing the code example below, please make sure that you have the following prerequisites installed on your system.",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environments: NetBeans, IntelliJ IDEA, Eclipse",
+        "step_3": "Frameworks: Java 7 (1.7) and above",
+        "step_4": "Download the latest version of GroupDocs.Watermark for Java from"
+      }
+    },
+    "example": {
+      "coment1": "Search possible watermarks in {{FileformatUpper}} document using Java.",
+      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment3": "Initialize PossibleWatermarkCollection to start watermark search",
+      "coment4": "Defined search criteria to find possible watermarks"
+    }
+  },
+  "net_image": {
+    "head": {
+      "title": "Search Image Watermarks from {{FileformatUpper}} in C# ASP.NET VB.NET",
+      "description": ".NET library to search image watermarks from {{FileformatUpper}} document using smart search features within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+    },
+    "header": {
+      "title": "Search Image Watermarks from {{FileformatUpper}} in C#",
+      "description": "Use smart search to find all possible image watermarks from {{FileformatUpper}} file from within C#, ASP.NET, VB.NET & .NET Core applications. Define search criteria tp find all matching image watermarks from the whole or specific pages of the source document."
+    },
+    "about": {
+      "title": "GroupDocs.Watermark for .NET API",
+      "content1": "GroupDocs.Watermark for .NET is a complete watermarks management solution for .NET applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.",
+      "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
+    },
+    "steps": {
+      "title_left": "Search Watermarks from {{FileformatUpper}} in .NET",
+      "content_left": {
+        "description": "makes it easy for .NET developers to intelligently search image watermarks from within their documents by implementing a few easy steps.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_2": "Initialize **ImageSearchCriteria** to perform watermark search.",
+        "step_3": "Set maximum allowed difference between images.",
+        "step_4": "Display the possible matching watermarks."
+      },
+      "title_right": "System Requirements",
+      "content_right": {
+        "description": "Before executing the code example below, please make sure that you have the following prerequisites installed on your system.",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environments: Visual Studio, Xamarin, MonoDevelop",
+        "step_3": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Download the latest version of GroupDocs.Watermark for .NET from"
+      }
+    },
+    "example": {
+      "coment1": "Search possible IMAGE watermarks in {{FileformatUpper}} document using C#, ASP.NET, VB.NET & .NET Core.",
+      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment3": "Initialize ImageSearchCriteria to start watermark search",
+      "coment4": "Set maximum allowed difference between sample image and the possible watermark"
+    }
+  },
+  "net_text": {
+    "head": {
+      "title": "Search Watermarks from {{FileformatUpper}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to search watermarks from {{FileformatUpper}} document using smart search features within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+    },
+    "header": {
+      "title": "Search Watermarks from {{FileformatUpper}} in C#, ASP.NET, VB.NET",
+      "description": "Use smart search to find all possible watermarks from {{FileformatUpper}} file from within C#, ASP.NET, VB.NET & .NET Core applications. Define search criteria based on text, regular expressions (RegEx), images, hyperlinks, characters and different search objects to find watermarks from the whole or specific pages of the source document."
+    },
+    "about": {
+      "title": "GroupDocs.Watermark for .NET API",
+      "content1": "GroupDocs.Watermark for .NET is a complete watermarks management solution for .NET applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.",
+      "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
+    },
+    "steps": {
+      "title_left": "Search Watermarks from {{FileformatUpper}} in .NET",
+      "content_left": {
+        "description": "makes it easy for .NET developers to intelligently search watermarks from within their applications by implementing a few easy steps.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_2": "Initialize **PossibleWatermarkCollection** to perform watermark search.",
+        "step_3": "Defined search criteria to find possible watermarks."
+      },
+      "title_right": "System Requirements",
+      "content_right": {
+        "description": "Before executing the code example below, please make sure that you have the following prerequisites installed on your system.",
+        "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+        "step_2": "Development Environments: Visual Studio, Xamarin, MonoDevelop",
+        "step_3": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+        "step_4": "Download the latest version of GroupDocs.Watermark for .NET from"
+      }
+    },
+    "example": {
+      "coment1": "Search possible watermarks in DOC document using C#, ASP.NET, VB.NET & .NET Core.",
+      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment3": "Initialize PossibleWatermarkCollection to start watermark search",
+      "coment4": "Defined search criteria to find possible watermarks"
+    }
+  }
+}

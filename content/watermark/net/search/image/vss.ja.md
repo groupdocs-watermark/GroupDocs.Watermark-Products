@@ -1,60 +1,68 @@
+
 ---
+############################# Static ############################
 layout: "autogen"
+date: 2023-12-05T16:03:05
 draft: false
 path: "watermark/net/search/image/vss/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
 
-head_title: "C＃ASP.NETVB.NETでVSSから画像透かしを検索"
-head_description: ".GroupDocs.Watermark API for .NETを使用してC＃、ASP.NET、VB.NET、および.NETCoreアプリケーション内のスマート検索機能を使用してVSSドキュメントから画像透かしを検索するNETライブラリ."
+############################# Head ############################
+head_title: "{net_image.head.title}"
+head_description: "{net_image.head.description}"
 
-title: "C＃でVSSから画像透かしを検索"
-description: "スマート検索を使用して、C＃、ASP.NET、VB.NET、および.NETCoreアプリケーション内からVSSファイルから可能なすべての画像透かしを検索します。検索基準を定義し、ソースドキュメントのページ全体または特定のページから一致するすべての画像透かしを検索します."
+############################# Header ############################
+title: "{net_image.header.title}"
+description: "{net_image.header.description}"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET API"
+    title: "{net_image.about.title}"
     content: |
-        GroupDocs.Watermark for .NETは、.NETアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
+        {net_image.about.content1}
         
-        GroupDocs.Watermark APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
+        {net_image.about.content2}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: ".NETでVSSから透かしを検索"
+    title_left: "{net_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、ドキュメント内から画像の透かしをインテリジェントに検索できます。
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
 
-        * 力VSSドキュメントを使用して* Watermarker* をインスタンス化します。
-        * ォーターマーク検索を実行するには、* ImageSearchCriteria* を初期化します。
-        * 像間の最大許容差を設定します。
-        * 致する可能性のある透かしを表示します。
+        *   {net_image.steps.content_left.step_1}
+        *   {net_image.steps.content_left.step_2}
+        *   {net_image.steps.content_left.step_3}
+        *   {net_image.steps.content_left.step_4}
         
-    title_right: "システム要求"
+    title_right: "{net_image.steps.title_right}"
     content_right: |
-        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {net_image.steps.content_right.description}
 
-        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 発環境: Visual Studio、Xamarin、MonoDevelop
-        * レームワーク: .NET Framework、.NET Standard、.NET Core、Mono
-        * [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)から最新バージョンのGroupDocs.Watermarkfor.NETをダウンロードします。
+        *   {net_image.steps.content_right.step_1}
+        *   {net_image.steps.content_right.step_2}
+        *   {net_image.steps.content_right.step_3}
+        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // C＃、ASP.NET、VB.NET、および.NET Coreを使用して、VSSドキュメントで可能なIMAGE透かしを検索します。
-        //入力VSSドキュメントを使用してウォーターマーカーをインスタンス化します
-        using (Watermarker watermarker = new Watermarker(input.vss))
-          {
-            // ImageSearchCriteriaを初期化して、透かし検索を開始します
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
+        // {net_image.example.coment1}
+        // {net_image.example.coment2}
+        using (Watermarker watermarker = new Watermarker("input.vss"))
+        {
+            // {net_image.example.coment3}
+            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
 
-            //サンプル画像と可能な透かしの間の最大許容差を設定します
+            // {net_image.example.coment4}
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
-          }
+        }
         ```        
 
 demos:

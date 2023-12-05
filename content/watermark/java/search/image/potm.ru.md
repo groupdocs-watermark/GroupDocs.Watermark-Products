@@ -1,61 +1,83 @@
+
 ---
 ############################# Static ############################
-layout: "autogen-child"
+layout: "autogen"
+date: 2023-12-05T16:03:04
 draft: false
 path: "watermark/java/search/image/potm/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+
 ############################# Head ############################
-head_title: "Поиск водяных знаков изображения из POTM в Java"
-head_description: "Библиотека Java для поиска водяных знаков изображений в документе POTM с использованием функций интеллектуального поиска в приложениях Java и J2SE с использованием API-интерфейсов GroupDocs.Watermark для Java."
+head_title: "{java_image.head.title}"
+head_description: "{java_image.head.description}"
+
 ############################# Header ############################
-title: "Поиск водяных знаков изображения из POTM в Java"
-description: "Используйте интеллектуальный поиск, чтобы найти все возможные водяные знаки изображения из файла POTM из приложений Java и J2SE. Определите критерии поиска, чтобы найти все совпадающие водяные знаки изображения на всех или определенных страницах исходного документа."
+title: "{java_image.header.title}"
+description: "{java_image.header.description}"
+
 ############################# SubMenu ############################
 submenu:
-    enable: false
+    enable: true
+
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark для Java API"
+    title: "{java_image.about.title}"
     content: |
-        GroupDocs.Watermark for Java — это комплексное решение для управления водяными знаками для приложений Java. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
-        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются во всех основных операционных системах и версиях Java, включая J2SE 7.0 (1.7), J2SE 8.0 (1.8) и Java 10.
+        {java_image.about.content1}
+        
+        {java_image.about.content2}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Поиск водяных знаков от POTM в Java"
+    title_left: "{java_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](/ru/watermark/java/) позволяет разработчикам Java легко выполнять интеллектуальный поиск водяных знаков изображений в своих документах, выполняя несколько простых шагов.
-        * Создайте экземпляр **Watermarker** с входным документом POTM.
-        * Инициализируйте **ImageSearchCriteria** для поиска водяных знаков.
-        * Установите максимально допустимую разницу между изображениями.
-        * Отображение возможных совпадающих водяных знаков.
-    title_right: "Системные Требования"
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
+
+        *   {java_image.steps.content_left.step_1}
+        *   {java_image.steps.content_left.step_2}
+        *   {java_image.steps.content_left.step_3}
+        *   {java_image.steps.content_left.step_4}
+        
+    title_right: "{java_image.steps.title_right}"
     content_right: |
-        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
-        * Фреймворки: Java 7 (1.7) и выше
-        * Загрузите последнюю версию GroupDocs.Watermark для Java с [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        {java_image.steps.content_right.description}
+
+        *   {java_image.steps.content_right.step_1}
+        *   {java_image.steps.content_right.step_2}
+        *   {java_image.steps.content_right.step_3}
+        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        
     code: |
         ```cs
-        // поиск возможных водяных знаков IMAGE в документе POTM с использованием Java.
-        // Создание водяного маркера с входным документом POTM
-        Watermarker watermarker = new Watermarker(input.potm);
-        // Инициализируем ImageSearchCriteria для запуска поиска водяных знаков
-        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
-        // Установить максимально допустимую разницу между образцом изображения и возможным водяным знаком
+        // {java_image.example.coment1}
+        // {java_image.example.coment2}
+        Watermarker watermarker = new Watermarker("input.potm")
+        
+        // {java_image.example.coment3}
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+
+        // {java_image.example.coment4}
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
+
         watermarker.close();        
         ```        
+
 demos:
-    enable: false
+    enable: true
+        
+
 about_formats:
-    enable: false
+    enable: true
+
+
 more_formats:
     enable: true
+
+
 back_to_top:
     enable: true
 ---

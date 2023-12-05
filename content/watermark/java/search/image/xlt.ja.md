@@ -1,56 +1,64 @@
+
 ---
+############################# Static ############################
 layout: "autogen"
+date: 2023-12-05T16:03:04
 draft: false
 path: "watermark/java/search/image/xlt/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
 
-head_title: "JavaでXLTから画像透かしを検索"
-head_description: "Java用のGroupDocs.WatermarkAPIを使用してJavaおよびJ2SEアプリケーション内のスマート検索機能を使用してXLTドキュメントから画像透かしを検索するJavaライブラリ."
+############################# Head ############################
+head_title: "{java_image.head.title}"
+head_description: "{java_image.head.description}"
 
-title: "JavaでXLTから画像透かしを検索"
-description: "スマート検索を使用して、JavaおよびJ2SEアプリケーション内のXLTファイルから可能なすべての画像透かしを検索します。ソースドキュメントのページ全体または特定のページから一致するすべての画像透かしを検索するための検索条件を定義します."
+############################# Header ############################
+title: "{java_image.header.title}"
+description: "{java_image.header.description}"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java API"
+    title: "{java_image.about.title}"
     content: |
-        GroupDocs.Watermark for Javaは、Javaアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
+        {java_image.about.content1}
         
-        GroupDocs.Watermark APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
+        {java_image.about.content2}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでXLTから透かしを検索する"
+    title_left: "{java_image.steps.title_left}"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、ドキュメント内から画像の透かしをインテリジェントに検索できます。
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
 
-        * 力XLTドキュメントを使用して* Watermarker* をインスタンス化します。
-        * ォーターマーク検索を実行するには、* ImageSearchCriteria* を初期化します。
-        * 像間の最大許容差を設定します。
-        * 致する可能性のある透かしを表示します。
+        *   {java_image.steps.content_left.step_1}
+        *   {java_image.steps.content_left.step_2}
+        *   {java_image.steps.content_left.step_3}
+        *   {java_image.steps.content_left.step_4}
         
-    title_right: "システム要求"
+    title_right: "{java_image.steps.title_right}"
     content_right: |
-        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {java_image.steps.content_right.description}
 
-        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
-        * 発環境: NetBeans、IntelliJ IDEA、Eclipse
-        * レームワーク: Java 7（1.7）以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)から最新バージョンのGroupDocs.WatermarkforJavaをダウンロードします。
+        *   {java_image.steps.content_right.step_1}
+        *   {java_image.steps.content_right.step_2}
+        *   {java_image.steps.content_right.step_3}
+        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        //Javaを使用してXLTドキュメントで可能なIMAGE透かしを検索します。
-        //入力XLTドキュメントを使用してウォーターマーカーをインスタンス化します
-        Watermarker watermarker = new Watermarker(input.xlt);
+        // {java_image.example.coment1}
+        // {java_image.example.coment2}
+        Watermarker watermarker = new Watermarker("input.xlt")
         
-        // ImageSearchCriteriaを初期化して、透かし検索を開始します
-        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
+        // {java_image.example.coment3}
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
 
-        //サンプル画像と可能な透かしの間の最大許容差を設定します
+        // {java_image.example.coment4}
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
