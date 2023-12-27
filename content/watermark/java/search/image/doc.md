@@ -11,7 +11,7 @@ head_description: "Java library to search image watermarks from DOC document usi
 
 ############################# Header ############################
 title: "Search Image Watermarks from DOC in Java"
-description: "Use smart search to find all possible image watermarks from DOC file from within Java & J2SE applications. Define search criteria to find all matching image watermarks from the whole or specific pages of the source document."
+description: "Utilize a smart search function to locate all image watermarks in DOC files within Java & J2SE applications. Establish search criteria to identify matching image watermarks on any or specific pages of the source document."
 
 ############################# SubMenu ############################
 submenu:
@@ -22,9 +22,9 @@ about:
     enable: true
     title: "GroupDocs.Watermark for Java API"
     content: |
-        GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
-        
-        GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
+        GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks in Java applications. It enables developers to easily perform various watermark manipulation operations such as adding, editing, searching, and deleting different types of watermarks in documents of various popular file formats. It supports working with text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email, and image formats.
+
+        GroupDocs.Watermark API supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8), and Java 10.
 
 ############################# Steps ############################
 steps:
@@ -34,13 +34,13 @@ steps:
         [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to intelligently search image watermarks from within their documents by implementing a few easy steps.
 
         *   Instantiate **Watermarker** with input DOC document.
-        *   Initialize **ImageSearchCriteria** to perform watermark search.
+        *   Initialize **ImageSearchCriteria** to perform a watermark search.
         *   Set maximum allowed difference between images.
         *   Display the possible matching watermarks.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse
@@ -49,14 +49,14 @@ steps:
         
     code: |
         ```cs
-        // search possible IMAGE watermarks in DOC document using Java.
+        // search for possible image watermarks in a DOC document using Java.
         // Instantiate Watermarker with input DOC document
         Watermarker watermarker = new Watermarker(input.doc);
         
         // Initialize ImageSearchCriteria to start watermark search
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
 
-        // Set maximum allowed difference between sample image and the possible watermark
+        // Set the maximum allowed difference between the sample image and the possible watermark
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");

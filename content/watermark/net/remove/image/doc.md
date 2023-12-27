@@ -22,7 +22,7 @@ about:
     enable: true
     title: "GroupDocs.Watermark for .NET API"
     content: |
-        GroupDocs.Watermark for .NET is a complete watermarks management solution for .NET applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
+        GroupDocs.Watermark for .NET is a complete watermark management solution for .NET applications. Developers can quickly perform watermark manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
         
         GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -35,12 +35,12 @@ steps:
 
         *   Instantiate **Watermarker** with input DOC document.
         *   Initialize **SearchCriteria** to find the image watermarks.
-        *   Remove defined watermark from the document.
+        *   Remove the defined watermark from the document.
         *   Save the modified document.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
@@ -57,7 +57,7 @@ steps:
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
-            // Remove specified watermark from the document
+            // Remove the specified watermark from the document
             possibleWatermarks.Remove(possibleWatermarks[0]);
 
             // Save the modified document

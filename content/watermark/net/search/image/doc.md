@@ -22,7 +22,7 @@ about:
     enable: true
     title: "GroupDocs.Watermark for .NET API"
     content: |
-        GroupDocs.Watermark for .NET is a complete watermarks management solution for .NET applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
+        GroupDocs.Watermark for .NET is a complete watermark management solution for .NET applications. Developers can quickly perform watermark manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
         
         GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -34,13 +34,13 @@ steps:
         [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) makes it easy for .NET developers to intelligently search image watermarks from within their documents by implementing a few easy steps.
 
         *   Instantiate **Watermarker** with input DOC document.
-        *   Initialize **ImageSearchCriteria** to perform watermark search.
+        *   Initialize **ImageSearchCriteria** to perform a watermark search.
         *   Set maximum allowed difference between images.
         *   Display the possible matching watermarks.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
@@ -49,7 +49,7 @@ steps:
         
     code: |
         ```cs
-        // search possible IMAGE watermarks in DOC document using C#, ASP.NET, VB.NET & .NET Core.
+        // search for possible image watermarks in DOC document using C#, ASP.NET, VB.NET & .NET Core.
         // Instantiate Watermarker with input DOC document
         using (Watermarker watermarker = new Watermarker(input.doc))
           {

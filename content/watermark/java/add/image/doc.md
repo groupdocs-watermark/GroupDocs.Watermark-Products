@@ -11,7 +11,7 @@ head_description: "Java library to add image watermark to DOC file in Java & J2S
 
 ############################# Header ############################
 title: "Add Image Watermark to DOC in Java"
-description: "Adding image watermark to DOC file in Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
+description: "Adding image watermark to DOC files in Java & J2SE applications. Add BMP, PNG, GIF, and JPEG images as watermarks to your documents. You can also manage the watermark's size, alignment, rotation angle, and position on the document pages as per your requirements."
 
 ############################# SubMenu ############################
 submenu:
@@ -22,9 +22,9 @@ about:
     enable: true
     title: "GroupDocs.Watermark for Java API"
     content: |
-        GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
+        GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks in Java applications. With this tool, developers can easily perform operations such as adding, editing, searching, and deleting different types of watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats.
         
-        GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
+        GroupDocs.Watermark API supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8), and Java 10.
 
 ############################# Steps ############################
 steps:
@@ -34,13 +34,13 @@ steps:
         [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
 
         *   Instantiate **Watermarker** with input DOC document.
-        *   Use image watermark path as constructor parameter of **ImageWatermark** class.
+        *   Use the image watermark path as the constructor parameter of the **ImageWatermark** class.
         *   Set watermark properties (size, alignment, color etc).
-        *   Add watermark to the watermarker and generate output document.
+        *   Add watermark to the watermarker object and generate the output document.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse
@@ -62,7 +62,7 @@ steps:
         watermark.HorizontalAlignment = HorizontalAlignment.Center;
         watermark.VerticalAlignment = VerticalAlignment.Center;
 
-        //Add watermark to the watermarker and generate output document
+        //Add watermark to the watermarker object and generate an output document
         watermarker.add(watermark);
         watermarker.save(output.doc);
 

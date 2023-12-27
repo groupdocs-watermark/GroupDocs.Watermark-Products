@@ -22,7 +22,7 @@ about:
     enable: true
     title: "GroupDocs.Watermark for .NET API"
     content: |
-        GroupDocs.Watermark for .NET is a complete watermarks management solution for .NET applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
+        GroupDocs.Watermark for .NET is a complete watermark management solution for .NET applications. Developers can quickly perform watermark manipulation operations like adding, editing, searching and deleting different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
         
         GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin.
 
@@ -34,13 +34,13 @@ steps:
         [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) makes it easy for .NET developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
 
         *   Instantiate **Watermarker** with input DOC document.
-        *   Use image watermark path as constructor parameter of **ImageWatermark** class.
+        *   Use the image watermark path as the constructor parameter of the **ImageWatermark** class.
         *   Set watermark properties (size, alignment, color etc).
-        *   Add watermark to the watermarker and generate output document.
+        *   Add watermark to the watermarker object and generate an output document.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
@@ -53,7 +53,7 @@ steps:
         // Instantiate Watermarker with input DOC document
         using (Watermarker watermarker = new Watermarker(input.doc))
           {
-            // Use image watermark path as constructor parameter of ImageWatermark class
+            // Use image watermark path as the constructor parameter of ImageWatermark class
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 // Set watermark properties (width, height, alignment)
@@ -62,7 +62,7 @@ steps:
                 watermark.HorizontalAlignment = HorizontalAlignment.Center;
                 watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                //Add watermark to the watermarker and generate output document
+                //Add watermark to the watermarker object and generate an output document
                 watermarker.Add(watermark);
                 watermarker.Save(output.doc);
             }

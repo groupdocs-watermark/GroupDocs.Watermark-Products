@@ -11,7 +11,7 @@ head_description: "Java library to edit a found image watermark in a DOC file in
 
 ############################# Header ############################
 title: "Edit Image Watermark in DOC in Java"
-description: "Find & modify a found image watermark in a DOC document within Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+description: "Search for and edit image watermarks in DOC documents in Java and J2SE applications. You can also add watermarks to the documents in BMP, PNG, GIF, and JPEG formats. You have the flexibility to control the size, font, rotation angle, and position of the watermark on the document pages as per your requirements."
 
 ############################# SubMenu ############################
 submenu:
@@ -22,9 +22,9 @@ about:
     enable: true
     title: "GroupDocs.Watermark for Java API"
     content: |
-        GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
-        
-        GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
+        GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks in Java applications. It enables developers to easily perform various watermark manipulation operations such as adding, editing, searching, and deleting different types of watermarks in documents of various popular file formats. It supports working with text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email, and image formats.
+
+        GroupDocs.Watermark API supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8), and Java 10.
 
 ############################# Steps ############################
 steps:
@@ -40,7 +40,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse

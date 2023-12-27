@@ -11,7 +11,7 @@ head_description: "Java library to search watermarks from DOC document using sma
 
 ############################# Header ############################
 title: "Search Watermarks from DOC in Java"
-description: "Use smart search to find all possible watermarks from DOC file from within Java & J2SE applications. Define search criteria based on text, regular expressions (RegEx), images, hyperlinks, characters and different search objects to find watermarks from the whole or specific pages of the source document."
+description: "You can use smart search to locate all watermarks in a DOC file from within Java and J2SE applications. You can define your search criteria based on text, regular expressions (RegEx), images, hyperlinks, characters, and various search objects to locate watermarks throughout the entire document or specific pages."
 
 ############################# SubMenu ############################
 submenu:
@@ -22,9 +22,9 @@ about:
     enable: true
     title: "GroupDocs.Watermark for Java API"
     content: |
-        GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
-        
-        GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
+        GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks in Java applications. It enables developers to easily perform various watermark manipulation operations such as adding, editing, searching, and deleting different types of watermarks in documents of various popular file formats. It supports working with text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email, and image formats.
+
+        GroupDocs.Watermark API supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8), and Java 10.
 
 ############################# Steps ############################
 steps:
@@ -34,12 +34,12 @@ steps:
         [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to intelligently search watermarks from within their applications by implementing a few easy steps.
 
         *   Instantiate **Watermarker** with input DOC document.
-        *   Initialize **PossibleWatermarkCollection** to perform watermark search.
+        *   Initialize **PossibleWatermarkCollection** to perform a watermark search.
         *   Defined search criteria to find possible watermarks.
         
     title_right: "System Requirements"
     content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installled on your system.
+        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse
@@ -48,7 +48,7 @@ steps:
         
     code: |
         ```cs
-        // search possible watermarks in DOC document using Java.
+        // search for possible watermarks in a DOC document using Java.
         // Instantiate Watermarker with input DOC document
         Watermarker watermarker = new Watermarker(input.doc))
 
