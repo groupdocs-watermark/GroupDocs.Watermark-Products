@@ -1,66 +1,145 @@
 {
   "index-content": {
-    "head_title": "#Watermark Solution | On Premise APIs and Free App - GroupDocs",
-    "head_description": "#Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Image File Formats and more.",
-    "title": "#Watermark Solution for Documents",
-    "description": "#Quickly apply & manipulate text and image based watermarks of your documents and images with smart search.",
-    "api_high_title": "#GroupDocs.Watermark High Code APIs Include",
-    "api_high_label": "#View All High Code APIs",
-    "api_high_1_content": "#Search, add or remove text or image watermarks from multitude of file formats within your .NET applications.",
-    "api_high_2_content": "#On Premise APIs for Java based applications to manipulate watermarks for MS Office, OpenOffice, portable documents, image, drawings and more.",
-    "api_low_title": "#GroupDocs.Watermark Low Code APIs Include",
-    "api_low_label": "#View All Low Code APIs",
-    "api_low_1_content": "#Use watermark REST API with .NET SDK to apply, find, edit and remove watermarks from document formats within .NET applications.",
-    "api_low_2_content": "#Empower your Java applications with flexible watermarks management features using watermark SDK for Java.",
-    "api_nocode_title": "#GroupDocs.Watermark No Code Apps Include",
-    "api_nocodelabel": "#View All No Code Apps",
-    "api_nocode_1_content": "#Free on-line app to add watermarks to Word, PowerPoint, Excel, PDF and 40+ other file formats.",
-    "api_nocode_2_content": "#Add text-based watermarks to Microsoft Word documents on-line.",
-    "api_nocode_3_content": "#Online free app providing the capability to watermark PDF documents.",
-    "title_1": "Sign documents",
-    "words_for": "for",
-    "actions_alt": "Licensing",
-    "actions_title": "Ready to get started?",
-    "actions_description": "Try GroupDocs.Signature features for free or request a license",
-    "release_title": "Version {0} released",
-    "release_notes": "See what’s new",
-    "release_downloads": "Downloads",
-    "code_more": "More examples",
-    "code_comment_1": "Select PDF document",
-    "code_comment_2": "Provide text",
-    "code_comment_3": "Set color",
-    "code_comment_4": "Sign document and save to file",
-    "overview_title": "GroupDocs.Signature Overview",
-    "platforms_title": "Platform independence",
-    "formats_title": "Supported file formats",
-    "formats_groups": {
-      "title_1": "Microsoft Office formats",
-      "title_2": "Images & Other Formats",
-      "title_3": "Other formats",
-      "format_portable": "Portable",
-      "format_other_office": "Other office formats",
-      "format_images": "Images",
-      "format_web": "Web",
-      "format_archives": "Archives",
-      "format_certificates": "Certificates"
+    "head_title": "Documents Watermark Solution C# Java & Node.js | add document watermark  | watermark library | Put text & image watermarks on documents",
+    "head_description": "Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Images and etc.",
+    "title": "Documents Watermark Solution",
+    "description_1": "Add text and image watermarks for your documents and images.",
+    "description_2": "Search and modify document watermarks in convenient way.",
+    "description_3": "Get info about watermarks which are presented in your documents.",
+    "platforms": {
+      "title": "Platform independence",
+      "head_title": "Choose your platform",
+      "description": "GroupDocs.Watermark library supports the following operating systems and frameworks:",
+      "learn_more": "Learn more",
+      "any_other_text_editor": "Any other text editor"
+    },
+    "features": {
+      "title": "GroupDocs.Watermark features review",
+      "description": "The library designed to add, search and update various watermark types for popular document formats.",
+      "feature_1": {
+        "title": "Protect files with watermarks",
+        "content": "Append text and image watermarks to your business documents."
+      },
+      "feature_2": {
+        "title": "Search for existing watermarks",
+        "content": "Get detailed information about watermarks placed in document previously."
+      },
+      "feature_3": {
+        "title": "Manipulate document watermarks",
+        "content": "Control text, style, image and other watermark features."
+      },
+      "feature_4": {
+        "title": "Various additional features",
+        "content": "Get document info, update hyper-links or pages background etc."
+      }
+    },
+    "formats": {
+      "title": "50+ file formats supported",
+      "description": "GroupDocs.Watermark provides watermarking for popular document and file formats."
     },
     "code_samples": {
       "title": "Code samples",
+      "index_title": "Protect documents by watermarks",
+      "index_description": "GroupDocs.Watermark typical operations code examples.",
+      "more_examples": "More examples",
+      "sample_index": {
+        "title": "Creating a watermark.",
+        "content": "To append a watermark to a document, provide path to target file. You have many options to choose in order to get a customized watermark on a specific page.",
+        "comment_1": "Specify the document to be watermarked",
+        "comment_2": "Create watermark object",
+        "comment_3": "Set watermark options",
+        "comment_4": "Add watermark and save processed file"
+      },
       "sample_1": {
-        "code_title": "How to put QR code to PDF.",
-        "comment_1": "Load the document to sign",
-        "comment_2": "Create QR code options with predefined text",
-        "comment_3": "Configure QR code encoding type and position on the page",
-        "comment_4": "Sign the document and save it as the result file"
+        "code_title": "How to compare password-protected documents.",
+        "comment_1": "Load the source document and specify its password",
+        "comment_2": "Load the target document and specify its password",
+        "comment_3": "Save comparison result to a specified file"
       },
       "sample_2": {
-        "code_title": "Here is how to ensure document integrity.",
-        "comment_1": "Load the document to be digitally signed",
-        "comment_2": "Specify digital signing options and provide the path to the certificate file",
-        "comment_3": "Set the certificate password",
-        "comment_4": "Sign the document and save it to the desired path"
+        "code_title": "How to compare three or more documents.",
+        "comment_1": "Load the source document",
+        "comment_2": "Specify the second file for comparison",
+        "comment_3": "Specify the third file for comparison",
+        "comment_4": "Save comparison result to a specified file"
+      }
+    },
+    "metrics": {
+      "title": "Our library statistical data",
+      "description": "Dive deep into key metrics, revealing insights into our achievements, impact, and growth.",
+      "item_1": {
+        "title": "Supported formats",
+        "description": "The Library is able to process more than 50 of the most popular file formats."
+      },
+      "item_2": {
+        "title": "NuGet downloads",
+        "description": "GroupDocs.Watermark for .NET is a popular library with over 800,000 downloads on NuGet."
+      },
+      "item_3": {
+        "title": "Maven downloads",
+        "description": "With over 15K downloads on Maven, GroupDocs.Watermark is a popular choice for Java developers."
+      },
+      "item_4": {
+        "title": "Happy customers",
+        "description": "Individual developers and top companies worldwide prefer our libraries to build innovative solutions."
+      }
+    },
+    "customers": {
+      "title": "Our happy customers",
+      "description": "GroupDocs libraries are employed by globally renowned and distinguished brands across the world."
+    },
+    "actions": {
+      "alt": "Licensing",
+      "title": "Ready to get started?",
+      "description": "Try GroupDocs.Watermark features for free or request a license",
+      "description_index": "Try GroupDocs.Watermark features for free on your platform"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Check out our Frequently Asked Questions",
+      "item_1": {
+        "question": "Are external libraries required by GroupDocs.Watermark for document manipulation?",
+        "answer": "GroupDocs.Watermark works independently, no need for third-party software like Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "Can I test GroupDocs.Watermark features before buying?",
+        "answer": "Yes, GroupDocs.Watermark offers a free trial! Install it and try it out, but keep in mind: Trial versions add 'trial badges' to your documents, only the first 3 pages are processed. Want the full experience? Get a free 30-day temporary license for full functionality. See details under [temporary license](https://purchase.groupdocs.com/temporary-license/)."
+      },
+      "item_3": {
+        "question": "What license types are provided?",
+        "answer": "Need a GroupDocs.Watermark license? We've got options! Choose from licenses based on many options. Number of developers in your team. Deployment locations like single office or remote workplaces. Does end-customer distribution need to share the SDK/API with clients? Alternatively, there's a license for monthly usage: Pay only for what you use with metered plans. Dive deeper and find the perfect [price](https://purchase.groupdocs.com/pricing/watermark/net/)."
+      }
+    },
+    "cloud_links": {
+      "title": "GroupDocs.Watermark low code APIs",
+      "description": "Add watermarks to files by your application using our cloud-based REST API.",
+      "item_1": {
+        "content": "Use cURL RESTful API to watermark PDF, Word, Excel, PowerPoint, JPEG and other popular file formats."
+      },
+      "item_2": {
+        "content": "Empower your .NET applications with documents watermarking features by Cloud SDK for .NET. Protect business documents on your own."
+      },
+      "item_3": {
+        "content": "GroupDocs.Watermark SDK designed for Java grants new possibilities for your Java applications and business files."
+      }
+    },
+    "app_links": {
+      "title": "GroupDocs.Watermark Web apps",
+      "description": "GroupDocs grants access to web application for adding watermarks to your documents. More than 50 popular file formats could be watermarked in your favorite browser FOR FREE.",
+      "item_1": {
+        "content": "On-line tool to add watermarks to documents from any device."
+      },
+      "item_2": {
+        "content": "Watermark MS Word DOCX on-line."
+      },
+      "item_3": {
+        "content": "Protect PDF documents on-line."
       }
     }
+
+
+
+
   },
   "index-content-net": {
     "title": "Native .NET API for Electronic Signatures",
@@ -131,6 +210,74 @@
     "code_samples_sample_2_content_2": "Such protected documents cannot be modified without invalidating the signature."
   },
   "index-content-java": {
+    "title": "Java API to Manage Digital Signatures",
+    "title_2": "via Java API",
+    "actions_main": "Free Maven Download",
+    "code_title": "Sign PDF files in Java",
+    "overview_description": "API for performing document signing and related operations in Java applications",
+    "overview_feature_1": {
+      "title": "Improved business documents with digital signatures in Java",
+      "description": "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+    },
+    "overview_feature_2": {
+      "title": "Manipulating signed documents",
+      "description": "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+    },
+    "overview_feature_3": {
+      "title": "Variety of output choices",
+      "description": "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+    },
+    "features": {
+      "title": "GroupDocs.Signature features",
+      "description": "Signing PDFs, Office Documents, and images with digital signatures",
+      "feature_1": {
+        "title": "Adding Signatures",
+        "content": "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+      },
+      "feature_2": {
+        "title": "Customizing results",
+        "content": "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+      },
+      "feature_3": {
+        "title": "Securing documents with password",
+        "content": "For many supported document types, you can protect the signed document with a password."
+      },
+      "feature_4": {
+        "title": "Preventing unauthorized changes",
+        "content": "Protect important business documents signed with a digital certificate from unauthorized modifications."
+      },
+      "feature_5": {
+        "title": "Obtaining results in desired formats",
+        "content": "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+      },
+      "feature_6": {
+        "title": "Document preview",
+        "content": "Save any page of a document as an image for future processing."
+      },
+      "feature_7": {
+        "title": "Searching for signatures",
+        "content": "It is possible to get information about previously added signatures in specific documents."
+      },
+      "feature_8": {
+        "title": "Validating documents",
+        "content": "Validate the correctness of signatures on any signed document."
+      },
+      "feature_9": {
+        "title": "Managing signatures",
+        "content": "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+      }
+    },
+    "platforms_description": "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers",
+    "formats_description": "GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).",
+    "code_samples_description": "Some use cases of typical GroupDocs.Signature for Java operations",
+    "code_title_sample_1": "Enchance PDF document with QR-code",
+    "code_samples_sample_1_content_1": "Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable.",
+    "code_samples_sample_1_content_2": "There is an example of how to add a QR code using GroupDocs.Signature for Java.",
+    "code_title_sample_2": "Use digital signature to protect a DOCX",
+    "code_samples_sample_2_content_1": "You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates.",
+    "code_samples_sample_2_content_2": "Documents secured with certificate cannot be altered without invalidating the signature."
+  },
+  "index-content-nodejs-java": {
     "title": "Java API to Manage Digital Signatures",
     "title_2": "via Java API",
     "actions_main": "Free Maven Download",

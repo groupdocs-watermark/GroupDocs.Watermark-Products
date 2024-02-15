@@ -1,7 +1,0 @@
-inherits: ..\\products.yml
-
-dimensions:  
-- alias:  operation
-  values: [index] 
-
-outputPath: "watermark\\new\\_index.{lang}.md"

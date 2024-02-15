@@ -1,0 +1,7 @@
+inherits: languages.yml
+
+dimensions: 
+- alias: product
+  values: [nodejs-java]
+
+dictionaries: [ ..\\data\\products.json ]
