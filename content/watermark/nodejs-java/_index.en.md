@@ -1,84 +1,113 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-15T17:06:03
+date: 2024-02-16T13:08:06
 draft: false
+
+lang: en
 product: "Watermark"
 product_tag: "watermark"
-platform: "Java"
-platform_tag: "java"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Documents Watermark Solution C# Java & Node.js | add document watermark  | watermark library | Put text & image watermarks on documents"
-head_description: "Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Images and etc."
+head_title: "Node.js Watermarking Library | add watermarks to files | remove watermark | watermark files"
+head_description: "Node.js-based solution allows users to protect business documents by adding text and image watermarks. Many popular formats like PDF, Word, Excel, PowerPoint are supported."
 
 ############################# Header ############################
-title: "{index-content.title_1}<br>via Java API"
-description: "{index-content.description}"
+title: "Access to watermarking technology in Node.js via Java solutions"
+description: "Protect your intellectual property and prevent unauthorized copying with this Node.js solution. It allows users to easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images etc."
 words:
-  for: "{index-content.words_for}"
+  for: "for"
 
 actions:
-  main: "Free Maven Download"
-  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
-  alt: "{index-content.actions_alt}"
-  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
-  title: "{index-content.actions_title}"
-  description: "{index-content.actions_description}"
+  main: "Use NPM to download for free"
+  main_link: ""
+  alt: "Licensing"
+  alt_link: ""
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Watermark features for free or request a license"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
+  link: "{products.nodejs-java.release_downloads}"
 
 code:
-  title: "Sign PDF files in Java"
-  more: "{index-content.code_more}"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
-  install: |
-    <dependency>
-      <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-signature</artifactId>
-      <version>{0}</version>
-    </dependency>
+  title: "Add watermark to MS Word DOCX with TypeScript"
+  more: "More examples"
+  more_link: ""
+  install: "npm i @groupdocs/groupdocs.comparison"
   content: |
-    ```java {style=abap}  
-    // {index-content.code_comment_1}
-    Signature signature = new Signature("sample.pdf");
-    
-    // {index-content.code_comment_2}
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    ```javascript {style=abap}
 
-    // {index-content.code_comment_4}
-    signature.sign("signed.pdf", options);
-    
+    // Instantiate Watermarker
+    let comparer = new Comparer("source.bmp");
+
+    // Set up watermark options
+    comparer.add("target.bmp");
+
+    // Save protected document
+    comparer.compare("result.bmp"); 
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "API for performing document signing and related operations in Java applications"
+  title: "GroupDocs.Comparison at a glance"
+  description: "Node.js TypeScript library for watermarking"
   features:
     # feature loop
-    - title: "Improved business documents with digital signatures in Java"
-      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+    - title: "Detailed output reports"
+      content: "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
 
     # feature loop
-    - title: "Manipulating signed documents"
-      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+    - title: "Most popular file and document formats are supported"
+      content: "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
 
     # feature loop
-    - title: "Variety of output choices"
-      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+    - title: "Documentation and examples"
+      content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
+
+    # feature loop
+    - title: "Comparison summary report"
+      content: "Generate a summary report that lists all changes in the compared documents."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms_title}"
-  description: "GroupDocs.Signature for Java supports the following operating systems, frameworks and package managers"
+  title: "Platform independence"
+  description: "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers"
   items:
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "macOS"
+      image: "finder"      
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NPM"
+      image: "npm"  
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"      
     # platform loop
     - title: "Amazon"
       image: "amazon"
@@ -89,148 +118,155 @@ platforms:
     - title: "Azure"
       image: "azure"
     # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
     - title: "Eclipse"
       image: "eclipse"
     # platform loop
     - title: "IntelliJ"
       image: "intellij"
-    # platform loop
-    - title: "Windows"
-      image: "windows"
-    # platform loop
-    - title: "Linux"
-      image: "linux"
-    # platform loop
-    - title: "Maven"
-      image: "maven"
 
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Supported file formats"
   description: |
-    GroupDocs.Signature for Java supports operations with the following [file formats](https://docs.groupdocs.com/signature/java/supported-document-formats/).
+    GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### Microsoft Office & OpenDocument formats
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
+        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
+        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
+        * **Outlook:** EML, EMLX, MSG
+        * **OneNote:** ONE
+        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
+        * **Fixed Page Layout:** PDF        
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_portable}:** PDF
-        * **{index-content.formats_groups.format_images}:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **{index-content.formats_groups.format_other_office}:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images, Graphics & Diagrams
+        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
+        * **Medical Imaging:** DICOM
+        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
+        * **AutoCAD Drawing:** DWG, DXF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_web}:** HTML, MHTML
-        * **{index-content.formats_groups.format_archives}:** ZIP, TAR, 7Z
-        * **{index-content.formats_groups.format_certificates}:** PFX
+        ### Other
+        * **Text:** TXT
+        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
+        * **Web:** HTM, HTML, MHT, MHTML
+        * **e-Books:** MOBI, DjVu
+        * **Delimiter-Separated Values:** CSV
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Signature features"
-  description: "Signing PDFs, Office Documents, and images with digital signatures"
+  title: "GroupDocs.Comparison for Node.js features"
+  description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "Adding Signatures"
-      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+    - icon: "compare"
+      title: "Easy to use document comparison"
+      content: "Analyze and identify differences within two documents."
 
     # feature loop
-    - icon: "custom"
-      title: "Customizing results"
-      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+    - icon: "note-stack"
+      title: "Compare multiple documents"
+      content: "Analyze and identify differences within multiple documents simultaneously."
 
     # feature loop
-    - icon: "password"
-      title: "Securing documents with password"
-      content: "For many supported document types, you can protect the signed document with a password."
+    - icon: "stacks"
+      title: "Supported formats"
+      content: "Supports more than 50 popular document formats from various categories."
 
     # feature loop
-    - icon: "protect"
-      title: "Preventing unauthorized changes"
-      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
-
-    # feature loop
-    - icon: "convert"
-      title: "Obtaining results in desired formats"
-      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+    - icon: "rule"
+      title: "Accept or reject changes"
+      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
 
     # feature loop
     - icon: "preview"
-      title: "Document preview"
-      content: "Save any page of a document as an image for future processing."
+      title: "Generate previews"
+      content: "Save the results of the comparison as images."
 
     # feature loop
-    - icon: "search"
-      title: "Searching for signatures"
-      content: "It is possible to get information about previously added signatures in specific documents."
+    - icon: "two-pager"
+      title: "Content comparison"
+      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
 
     # feature loop
-    - icon: "validate"
-      title: "Validating documents"
-      content: "Validate the correctness of signatures on any signed document."
+    - icon: "format_color_text"
+      title: "Style comparison"
+      content: "Detect changes in formatting and styles."
 
     # feature loop
-    - icon: "update"
-      title: "Managing signatures"
-      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+    - icon: "folder-managed"
+      title: "Set metadata"
+      content: "Keep metadata from either the source or target files or allow it to be specified by users."
+
+    # feature loop
+    - icon: "lock"
+      title: "Password protection"
+      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+
+    # feature loop
+    - icon: "select"
+      title: "Compare specific pages"
+      content: "Load just the particular sections or pages of the document."
+
+    # feature loop
+    - icon: "speaker-notes"
+      title: "Display comments"
+      content: "When loading the source document you can choose whether to hide or show comments."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Signature for Java operations"
+  description: "Some use cases of typical GroupDocs.Comparison for .NET operations"
   items:
     # code sample loop
-    - title: "Enchance PDF document with QR-code"
+    - title: "Comparing password-protected documents."
       content: |
-        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/signature/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
-        {{< landing/code title="Enchance PDF document with QR-code">}}
-        ```java {style=abap}
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
+        {{< landing/code title="How to compare password-protected documents.">}}
+        ```csharp {style=abap}
         // Load the source document and specify its password
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // Load the target document and specify its password
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // Save comparison result to a specified file
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
+        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
+        {
+            // Load the target document and specify its password
+            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
 
-        // {index-content.code_samples.sample_1.comment_4}
-        signature.sign("file_with_QR.pdf", options);
+            // Save comparison result to a specified file
+            comparer.Compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Use digital signature to protect a DOCX"
+    - title: "Comparing multiple PDF documents."
       content: |
-        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
-        {{< landing/code title="Use digital signature to protect a DOCX">}}
-        ```java {style=abap}   
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        {{< landing/code title="How to compare three or more documents.">}}
+        ```csharp {style=abap}   
         // Load the source document
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // Specify the second file for comparison
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
-
-        // Specify the third file for comparison
-        options.setPassword("1234567890");
-
-        // Save comparison result to a specified file
-        signature.sign("digitally_signed.pdf", options);
+        using(Comparer comparer = new Comparer("source.docx") 
+        {
+            // Specify the second file for comparison
+            comparer.Add("target2.docx");
+            
+            // Specify the third file for comparison
+            comparer.Add("target3.docx");
+            
+            // Save comparison result to a specified file
+            comparer.Compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
 
 ---
-
