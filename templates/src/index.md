@@ -1,4 +1,5 @@
 <% configRef "..\\configs\\index\\index.yml" %>
+<% include "..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
 layout: "family"

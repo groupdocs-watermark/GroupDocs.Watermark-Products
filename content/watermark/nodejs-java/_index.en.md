@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:06
+date: 2024-02-19T11:27:09
 draft: false
 
 lang: en
@@ -35,9 +35,9 @@ words:
 
 actions:
   main: "Use NPM to download for free"
-  main_link: ""
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
   alt: "Licensing"
-  alt_link: ""
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
   title: "Ready to get started?"
   description: "Try GroupDocs.Watermark features for free or request a license"
 
@@ -50,7 +50,7 @@ release:
 code:
   title: "Add watermark to MS Word DOCX with TypeScript"
   more: "More examples"
-  more_link: ""
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
   install: "npm i @groupdocs/groupdocs.comparison"
   content: |
     ```javascript {style=abap}
@@ -132,7 +132,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).
+    GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

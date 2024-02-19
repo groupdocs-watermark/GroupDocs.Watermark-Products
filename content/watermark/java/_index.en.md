@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:05
+date: 2024-02-19T11:27:09
 draft: false
 
 lang: en
@@ -131,7 +131,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/).
+    GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -233,7 +233,7 @@ code_samples:
     # code sample loop
     - title: "Comparing password-protected documents."
       content: |
-        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), you need to specify it then loading the documents:
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
         {{< landing/code title="How to compare password-protected documents.">}}
         ```java {style=abap}
         // Load the source document and specify its password
@@ -250,7 +250,7 @@ code_samples:
     # code sample loop
     - title: "Comparing multiple PDF documents."
       content: |
-        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
         {{< landing/code title="How to compare three or more documents.">}}
         ```java {style=abap}   
         // Load the source document

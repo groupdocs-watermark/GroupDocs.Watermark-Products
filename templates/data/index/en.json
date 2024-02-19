@@ -113,11 +113,11 @@
       },
       "item_2": {
         "question": "Can I test GroupDocs.Watermark features before buying?",
-        "answer": "Yes, GroupDocs.Watermark offers a free trial! Install it and try it out, but keep in mind: Trial versions add 'trial badges' to your documents, only the first 3 pages are processed. Want the full experience? Get a free 30-day temporary license for full functionality. See details under [temporary license](https://purchase.groupdocs.com/temporary-license/)."
+        "answer": "Yes, GroupDocs.Watermark offers a free trial! Install it and try it out, but keep in mind: Trial versions add 'trial badges' to your documents, only the first 3 pages are processed. Want the full experience? Get a free 30-day temporary license for full functionality. See details under [temporary license]({{LicensingUrl}})."
       },
       "item_3": {
         "question": "What license types are provided?",
-        "answer": "Need a GroupDocs.Watermark license? We've got options! Choose from licenses based on many options. Number of developers in your team. Deployment locations like single office or remote workplaces. Does end-customer distribution need to share the SDK/API with clients? Alternatively, there's a license for monthly usage: Pay only for what you use with metered plans. Dive deeper and find the perfect [price](https://purchase.groupdocs.com/pricing/watermark/net/)."
+        "answer": "Need a GroupDocs.Watermark license? We've got options! Choose from licenses based on many options. Number of developers in your team. Deployment locations like single office or remote workplaces. Does end-customer distribution need to share the SDK/API with clients? Alternatively, there's a license for monthly usage: Pay only for what you use with metered plans. Dive deeper and find the perfect [price]({{PricingUrl}})."
       }
     },
     "cloud_links": {
@@ -238,12 +238,12 @@
       }
     },
     "platforms_description": "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).",
+    "formats_description": "GroupDocs.Comparison for .NET supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical GroupDocs.Comparison for .NET operations",
     "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
   },
   "index-content-java": {
     "head_title": "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents",
@@ -318,12 +318,12 @@
       }
     },
     "platforms_description": "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Comparison for Java supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical GroupDocs.Comparison for Java operations",
     "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/java/load-password-protected-documents/), you need to specify it then loading the documents:",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/java/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
   },
   "index-content-nodejs-java": {
     "head_title": "Node.js Watermarking Library | add watermarks to files | remove watermark | watermark files",
@@ -398,12 +398,12 @@
       }
     },
     "platforms_description": "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/comparison/nodejs-java/supported-document-formats/).",
+    "formats_description": "GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical GroupDocs.Comparison for .NET operations",
     "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:",
+    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
     "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
 
   }
 }

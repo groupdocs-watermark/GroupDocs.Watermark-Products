@@ -1,4 +1,5 @@
 <% configRef "..\\configs\\index\\index_net.yml" %>
+<% include "..\\data\\platform_data.md" %>
 ---
 ############################# Static ############################
 layout: "landing"

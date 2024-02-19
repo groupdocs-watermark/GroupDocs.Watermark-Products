@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:05
+date: 2024-02-19T11:27:09
 draft: false
 
 lang: en
@@ -126,7 +126,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/).
+    GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
