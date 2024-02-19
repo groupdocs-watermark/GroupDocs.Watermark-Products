@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-19T11:27:09
+date: 2024-02-19T15:37:55
 draft: false
 
 lang: en
@@ -37,7 +37,7 @@ actions:
   main: "Free Download from Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Watermark features for free or request a license"
 

@@ -37,9 +37,9 @@ words:
 
 actions:
   main: "<% "{index-content-java.actions_main}" %>"
-  main_link: "<% dict "products.java.main_link" %>"
+  main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions.alt}" %>"
-  alt_link: "<% dict "products.java.alt_link" %>"
+  alt_link: "<% get "PricesUrl" %>"
   title: "<% "{index-content.actions.title}" %>"
   description: "<% "{index-content.actions.description}" %>"
 

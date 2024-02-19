@@ -1,29 +1,12 @@
 <% configRef "..\\configs\\add\\config_java_text.yml" %>
-<% set "Operation" (capitalize (get "operation")) %>
-<% set "Watermarktype" (capitalize (get "watermarktype")) %>
-<% set "WatermarktypeLow" (lower (get "watermarktype")) %>
-<% set "Fileformat" (capitalize (get "fileformat")) %>
-<% set "FileformatLow" (lower (get "fileformat")) %>
-<% set "FileformatUpper" (upper (get "fileformat")) %>
-<% set "ProductName" (dict "products.{product}.name") %>
-<% set "ProductFullName" (dict "products.{product}.fullName") %>
-<% set "ProductCode" (dict "products.{product}.code") %>
-<% set "ProductUrl" (dict "products.{product}.url") %>
-<% set "ProgLang" (dict "products.{product}.progLang") %>
-<% set "SrcFileExt" (dict "products.{product}.srcFileExt") %>
-<% set "DevEnv" (dict "products.{product}.devEnv") %>
-<% set "Runtime" (dict "products.{product}.runtime") %>
-<% set "RepoName" (dict "products.{product}.repoName") %>
-<% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats_add.text") %>
+<% include "..\\data\\format_data.md" %>
 
 ---
 ############################# Static ############################
 layout: "autogen"
 date: <% date "utcnow" %>
 draft: false
-path: "watermark/<% lower (get "ProductCode") %>/<% lower (get "Operation") %>/<% (get "WatermarktypeLow") %>/<% lower (get "Fileformat") %>/"
-otherformats: <% get "OtherFormats" %>
+path: "watermark/<% lower (get "ProdCode") %>/<% lower (get "Operation") %>/<% (get "WatermarktypeLow") %>/<% lower (get "Fileformat") %>/"
 
 ############################# Head ############################
 head_title: "<% "{java_text.head.title}" %>"
@@ -71,7 +54,7 @@ steps:
         ```cs
         // <% "{java_text.example.coment1}" %>
         // <% "{java_text.example.coment2}" %>
-        (Watermarker watermarker = new Watermarker("input.<% (get "FileformatLow") %>"))
+        (Watermarker watermarker = new Watermarker("input.<% (get "FileFormat") %>"))
         
         // <% "{java_text.example.coment3}" %>
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
@@ -83,7 +66,7 @@ steps:
 
         // <% "{java_text.example.coment5}" %>
         watermarker.add(watermark);
-        watermarker.save("output.<% (get "FileformatLow") %>");
+        watermarker.save("output.<% (get "FileFormat") %>");
         
         watermarker.close();
         ```        

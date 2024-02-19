@@ -1,29 +1,12 @@
 <% configRef "..\\configs\\search\\config_java_image.yml" %>
-<% set "Operation" (capitalize (get "operation")) %>
-<% set "Watermarktype" (capitalize (get "watermarktype")) %>
-<% set "WatermarktypeLow" (lower (get "watermarktype")) %>
-<% set "Fileformat" (capitalize (get "fileformat")) %>
-<% set "FileformatLow" (lower (get "fileformat")) %>
-<% set "FileformatUpper" (upper (get "fileformat")) %>
-<% set "ProductName" (dict "products.{product}.name") %>
-<% set "ProductFullName" (dict "products.{product}.fullName") %>
-<% set "ProductCode" (dict "products.{product}.code") %>
-<% set "ProductUrl" (dict "products.{product}.url") %>
-<% set "ProgLang" (dict "products.{product}.progLang") %>
-<% set "SrcFileExt" (dict "products.{product}.srcFileExt") %>
-<% set "DevEnv" (dict "products.{product}.devEnv") %>
-<% set "Runtime" (dict "products.{product}.runtime") %>
-<% set "RepoName" (dict "products.{product}.repoName") %>
-<% set "RepoUrl" (dict "products.{product}.repoUrl") %>
-<% set "OtherFormats" (dict "otherformats_search.image") %>
+<% include "..\\data\\format_data.md" %>
 
 ---
 ############################# Static ############################
 layout: "autogen"
 date: <% date "utcnow" %>
 draft: false
-path: "watermark/<% lower (get "ProductCode") %>/<% lower (get "Operation") %>/<% (get "WatermarktypeLow") %>/<% lower (get "Fileformat") %>/"
-otherformats: <% get "OtherFormats" %>
+path: "watermark/<% lower (get "ProdCode") %>/<% lower (get "Operation") %>/<% (get "WatermarktypeLow") %>/<% lower (get "Fileformat") %>/"
 
 ############################# Head ############################
 head_title: "<% "{java_image.head.title}" %>"
@@ -71,7 +54,7 @@ steps:
         ```cs
         // <% "{java_image.example.coment1}" %>
         // <% "{java_image.example.coment2}" %>
-        Watermarker watermarker = new Watermarker("input.<% (get "FileformatLow") %>")
+        Watermarker watermarker = new Watermarker("input.<% (get "FileFormat") %>")
         
         // <% "{java_image.example.coment3}" %>
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");

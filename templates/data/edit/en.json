@@ -1,12 +1,12 @@
 {
   "java_image": {
     "head": {
-      "title": "Edit Image Watermark in {{FileformatUpper}} using Java",
-      "description": "Java library to edit a found image watermark in a {{FileformatUpper}} file in Java & J2SE applications using GroupDocs.Watermark APIs for Java."
+      "title": "Edit Image Watermark in {{FileformatUp}} using Java",
+      "description": "Java library to edit a found image watermark in a {{FileformatUp}} file in Java & J2SE applications using GroupDocs.Watermark APIs for Java."
     },
     "header": {
-      "title": "Edit Image Watermark in {{FileformatUpper}} with Java",
-      "description": "Find & modify a found image watermark in a {{FileformatUpper}} document within Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Edit Image Watermark in {{FileformatUp}} with Java",
+      "description": "Find & modify a found image watermark in a {{FileformatUp}} document within Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -14,10 +14,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Edit Image Watermarks in {{FileformatUpper}} File in Java",
+      "title_left": "Edit Image Watermarks in {{FileformatUp}} File in Java",
       "content_left": {
         "description": "makes it easy for Java developers to edit image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **SearchCriteria** to find the image watermarks.",
         "step_3": "Replace the found watermark.",
         "step_4": "Save the newly watermarked document."
@@ -32,8 +32,8 @@
       }
     },
     "example": {
-      "coment1": "Find & replace image watermark in a {{FileformatUpper}} in Java applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Find & replace image watermark in a {{FileformatUp}} in Java applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the SearchCriteria to match a particular image",
       "coment4": "Replace image which was found",
       "coment5": "Found entity may not support text editing",
@@ -44,12 +44,12 @@
   },
   "java_text": {
     "head": {
-      "title": "Edit Text Watermark in {{FileformatUpper}} in Java",
-      "description": "Java library to edit a found text watermark in a {{FileformatUpper}} file in Java applications using GroupDocs.Watermark API for Java."
+      "title": "Edit Text Watermark in {{FileformatUp}} in Java",
+      "description": "Java library to edit a found text watermark in a {{FileformatUp}} file in Java applications using GroupDocs.Watermark API for Java."
     },
     "header": {
-      "title": "Edit Text Watermark in {{FileformatUpper}} in Java",
-      "description": "Search & modify a found text watermark in a {{FileformatUpper}} document with formatting within Java & J2SE applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Edit Text Watermark in {{FileformatUp}} in Java",
+      "description": "Search & modify a found text watermark in a {{FileformatUp}} document with formatting within Java & J2SE applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -57,10 +57,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Edit Text Watermark in {{FileformatUpper}} File in Java",
+      "title_left": "Edit Text Watermark in {{FileformatUp}} File in Java",
       "content_left": {
         "description": "makes it easy for Java developers to edit text watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **TextSearchCriteria** to search the text watermarks.",
         "step_3": "Edit text of the found watermarks.",
         "step_4": "Set watermark properties (font style, color etc).",
@@ -76,8 +76,8 @@
       }
     },
     "example": {
-      "coment1": "Find & update text watermark with formatting in a {{FileformatUpper}} in Java applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Find & update text watermark with formatting in a {{FileformatUp}} in Java applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the TextSearchCriteria to find the text watermarks",
       "coment4": "Edit text and set watermark properties",
       "coment5": "Found entity may not support text editing",
@@ -88,12 +88,12 @@
   },
   "net_image": {
     "head": {
-      "title": "Edit Image Watermark in {{FileformatUpper}} in C#, ASP.NET, VB.NET",
-      "description": ".NET library to edit a found image watermark in a {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Edit Image Watermark in {{FileformatUp}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to edit a found image watermark in a {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Edit Image Watermark in {{FileformatUpper}} in C# .NET",
-      "description": "Find & modify a found image watermark in a {{FileformatUpper}} document within C#, ASP.NET, VB.NET & .NET Core applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Edit Image Watermark in {{FileformatUp}} in C# .NET",
+      "description": "Find & modify a found image watermark in a {{FileformatUp}} document within C#, ASP.NET, VB.NET & .NET Core applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -101,10 +101,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Edit Image Watermark in {{FileformatUpper}} File in .NET",
+      "title_left": "Edit Image Watermark in {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to edit image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **SearchCriteria** to find the image watermarks.",
         "step_3": "Replace the found watermark.",
         "step_4": "Save the newly watermarked document."
@@ -119,8 +119,8 @@
       }
     },
     "example": {
-      "coment1": "Find & replace image watermark in a {{FileformatUpper}} in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Find & replace image watermark in a {{FileformatUp}} in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the SearchCriteria to match a particular image",
       "coment4": "Replace the found image",
       "coment5": "Found entity may not support text editing",
@@ -131,12 +131,12 @@
   },
   "net_text": {
     "head": {
-      "title": "Edit Text Watermark in {{FileformatUpper}} in C#, ASP.NET, VB.NET",
-      "description": ".NET library to edit a found text watermark in a {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Edit Text Watermark in {{FileformatUp}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to edit a found text watermark in a {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Edit Text Watermark in {{FileformatUpper}} in C# .NET",
-      "description": "Find & modify a found text watermark in a {{FileformatUpper}} document with formatting within C#, ASP.NET, VB.NET & .NET Core applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Edit Text Watermark in {{FileformatUp}} in C# .NET",
+      "description": "Find & modify a found text watermark in a {{FileformatUp}} document with formatting within C#, ASP.NET, VB.NET & .NET Core applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -144,10 +144,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Edit Text Watermark in {{FileformatUpper}} File in .NET",
+      "title_left": "Edit Text Watermark in {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to edit text watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **TextSearchCriteria** to find the text watermarks.",
         "step_3": "Edit text of the found watermarks",
         "step_4": "Edit and set watermark properties (font style, color etc).",
@@ -163,8 +163,8 @@
       }
     },
     "example": {
-      "coment1": "Find & replace text watermark with formatting in a {{FileformatUpper}} in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Find & replace text watermark with formatting in a {{FileformatUp}} in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the TextSearchCriteria to find the text watermarks",
       "coment4": "Edit text and set watermark properties",
       "coment5": "Found entity may not support text editing",

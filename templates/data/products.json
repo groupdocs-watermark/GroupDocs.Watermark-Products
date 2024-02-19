@@ -1,68 +1,58 @@
 {
   "products": {
+    "nameProduct": "Watermark",
+    "productShortName": "GroupDocs.Watermark",
     "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
     "pricingUrl": "https://purchase.groupdocs.com/pricing/watermark/net/",
     "net": {
-      "name": ".NET",
-      "fullName": "GroupDocs.Watermark for .NET",
-      "code": "net",
-      "progLang": "C#",
+      "environmentName": ".NET",
+      "productCode": "net",
+      "productFullName": "GroupDocs.Watermark for .NET",
+
+      "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "devEnv": "Microsoft Visual Studio, Xamarin, MonoDevelop",
+      "developmentEnvironment": "Microsoft Visual Studio, Xamarin, MonoDevelop",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
-      "repoName": "Nuget",
-      "repoUrl": "https://www.nuget.org/packages/groupdocs.watermark",
-      "url": "https://products.groupdocs.com/watermark/net/",
-      "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png",
-      "main_link": "https://www.nuget.org/packages/GroupDocs.Watermark",
-      "alt_link": "https://purchase.groupdocs.com/pricing/watermark/net",
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET",
 
+      "productUrl": "https://products.groupdocs.com/watermark/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Watermark",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/net/",
+      "docsUrl": "https://docs.groupdocs.com/watermark/net/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
-      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/"
+      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
+
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET",
+      "release_downloads": "https://releases.groupdocs.com/watermark/net/"
 
     },
     "java": {
-      "name": "Java",
-      "fullName": "GroupDocs.Watermark for Java",
-      "code": "java",
-      "progLang": "Java",
+      "environmentName": "Java",
+      "productCode": "java",
+      "productFullName": "GroupDocs.Watermark for Java",
+
+      "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
+      "developmentEnvironment": "NetBeans, Intellij IDEA, Eclipse, etc.",
       "runtime": "Java runtime: J2SE 6.0 and above",
-      "repoName": "Maven",
-      "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark",
-      "url": "https://products.groupdocs.com/watermark/java/",
-      "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png",
-      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/watermark/java",
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
 
+      "productUrl": "https://products.groupdocs.com/watermark/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/java/",
+      "docsUrl": "https://docs.groupdocs.com/watermark/java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
-      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/"
+      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
+
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
+      "release_downloads": "https://releases.groupdocs.com/watermark/java/"
 
     },
     "nodejs-java": {
-      "name": "Java",
-      "fullName": "GroupDocs.Watermark for Java",
-      "code": "java",
-      "progLang": "Java",
-      "srcFileExt": ".java",
-      "syntax": "java",
-      "devEnv": "NetBeans, Intellij IDEA, Eclipse, etc.",
-      "runtime": "Java runtime: J2SE 6.0 and above",
-      "repoName": "Maven",
-      "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark",
-      "url": "https://products.groupdocs.com/watermark/java/",
-      "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png",
-      "main_link": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/",
-      "alt_link": "https://purchase.groupdocs.com/pricing/watermark/java",
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
-
       "environmentName": "Node.js via Java",
       "productCode": "nodejs-java",
       "productFullName": "GroupDocs.Watermark for Node.js via Java",
@@ -73,9 +63,17 @@
       "developmentEnvironment": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
       "runtime": "Node.js",
 
+      "productUrl": "https://products.groupdocs.com/watermark/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/java/",
+      "docsUrl": "https://docs.groupdocs.com/watermark/nodejs-java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
-      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/"
+      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
+
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
+      "release_downloads": "https://releases.groupdocs.com/watermark/nodejs-java/"
 
     }
   }

@@ -1,12 +1,12 @@
 {
   "java_image": {
     "head": {
-      "title": "Add Image Watermark to {{FileformatUpper}} in Java",
-      "description": "Java library to add image watermark to {{FileformatUpper}} file in Java & J2SE applications using GroupDocs.Watermark APIs for Java."
+      "title": "Add Image Watermark to {{FileformatUp}} in Java",
+      "description": "Java library to add image watermark to {{FileformatUp}} file in Java & J2SE applications using GroupDocs.Watermark APIs for Java."
     },
     "header": {
-      "title": "Add Image Watermark to {{FileformatUpper}} using Java",
-      "description": "Adding image watermark to {{FileformatUpper}} file in Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Add Image Watermark to {{FileformatUp}} using Java",
+      "description": "Adding image watermark to {{FileformatUp}} file in Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -14,10 +14,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Add Image Watermark to {{FileformatUpper}} File via Java",
+      "title_left": "Add Image Watermark to {{FileformatUp}} File via Java",
       "content_left": {
         "description": "makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Use image watermark path as constructor parameter of **ImageWatermark** class.",
         "step_3": "Set watermark properties (size, alignment, color etc).",
         "step_4": "Add watermark to the watermarker and generate output document."
@@ -32,8 +32,8 @@
       }
     },
     "example": {
-      "coment1": "Add image watermark to {{FileformatUpper}} in Java applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Add image watermark to {{FileformatUp}} in Java applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Use image watermark path as constructor parameter of ImageWatermark class",
       "coment4": "Set watermark properties (width, height, alignment)",
       "coment5": "Add watermark to the watermarker and generate output document"
@@ -41,12 +41,12 @@
   },
   "java_text": {
     "head": {
-      "title": "Add Text Watermark to {{FileformatUpper}} using Java",
-      "description": "Java library to add text watermark to {{FileformatUpper}} file in Java & J2SE applications using GroupDocs.Watermark API for Java"
+      "title": "Add Text Watermark to {{FileformatUp}} using Java",
+      "description": "Java library to add text watermark to {{FileformatUp}} file in Java & J2SE applications using GroupDocs.Watermark API for Java"
     },
     "header": {
-      "title": "Add Text Watermark to {{FileformatUpper}} in Java",
-      "description": "Adding text watermark to {{FileformatUpper}} file in Java & J2SE applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Add Text Watermark to {{FileformatUp}} in Java",
+      "description": "Adding text watermark to {{FileformatUp}} file in Java & J2SE applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -54,10 +54,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Add Text Watermark to {{FileformatUpper}} File via Java",
+      "title_left": "Add Text Watermark to {{FileformatUp}} File via Java",
       "content_left": {
         "description": "makes it easy for Java developers to add text watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **TextWatermarker** with watermark text, font size and style.",
         "step_3": "Set watermark properties (alignment, color etc).",
         "step_4": "Add watermark to the watermarker and generate output document."
@@ -72,8 +72,8 @@
       }
     },
     "example": {
-      "coment1": "Add text watermark to {{FileformatUpper}} in Java",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Add text watermark to {{FileformatUp}} in Java",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Instantiate TextWatermarker with watermark text, font size and style",
       "coment4": "Set watermark properties",
       "coment5": "Add watermark and save watermarked image"
@@ -81,12 +81,12 @@
   },
   "net_image": {
     "head": {
-      "title": "Add Image Watermark to {{FileformatUpper}} in C#, ASP.NET, VB.NET",
-      "description": ".NET library to add image watermark to {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Add Image Watermark to {{FileformatUp}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to add image watermark to {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Add Image Watermark to {{FileformatUpper}} in C# .NET",
-      "description": "Adding image watermark to {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Add Image Watermark to {{FileformatUp}} in C# .NET",
+      "description": "Adding image watermark to {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -94,10 +94,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Add Image Watermark to {{FileformatUpper}} File in .NET",
+      "title_left": "Add Image Watermark to {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Use image watermark path as constructor parameter of **ImageWatermark** class.",
         "step_3": "Set watermark properties (size, alignment, color etc).",
         "step_4": "Add watermark to the watermarker and generate output document."
@@ -112,8 +112,8 @@
       }
     },
     "example": {
-      "coment1": "Add image watermark to {{FileformatUpper}} in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Add image watermark to {{FileformatUp}} in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Use image watermark path as constructor parameter of ImageWatermark class",
       "coment4": "Set watermark properties (width, height, alignment)",
       "coment5": "Add watermark to the watermarker and generate output document"
@@ -121,12 +121,12 @@
   },
   "net_text": {
     "head": {
-      "title": "Add Text Watermark to {{FileformatUpper}} in C#, ASP.NET, VB.NET",
-      "description": ".NET library to add text watermark to {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Add Text Watermark to {{FileformatUp}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to add text watermark to {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Add Text Watermark to {{FileformatUpper}} in C# .NET",
-      "description": "Adding text watermark to {{FileformatUpper}} file in C#, ASP.NET, VB.NET & .NET Core applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
+      "title": "Add Text Watermark to {{FileformatUp}} in C# .NET",
+      "description": "Adding text watermark to {{FileformatUp}} file in C#, ASP.NET, VB.NET & .NET Core applications. Manage the watermark size, font type, rotation angle and position of the watermark on the document pages, as you may need."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -134,10 +134,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Add Text Watermark to {{FileformatUpper}} File in .NET",
+      "title_left": "Add Text Watermark to {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to add text watermarks in their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize the **Font** to be used for watermark.",
         "step_3": "Create the **TextWatermark** object",
         "step_4": "Set watermark properties (alignment, color etc).",
@@ -153,8 +153,8 @@
       }
     },
     "example": {
-      "coment1": "Add text watermark to {{FileformatUpper}} in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Add text watermark to {{FileformatUp}} in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the Font to be used for watermark",
       "coment4": "Create the TextWatermark object",
       "coment5": "Set watermark properties",

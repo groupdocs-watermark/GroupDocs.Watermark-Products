@@ -1,12 +1,12 @@
 {
   "java_image": {
     "head": {
-      "title": "Remove Image Watermark from {{FileformatUpper}} with Java",
-      "description": "Java library to find and remove image watermark from {{FileformatUpper}} document using smart search within Java & J2SE applications using GroupDocs.Watermark APIs for Java."
+      "title": "Remove Image Watermark from {{FileformatUp}} with Java",
+      "description": "Java library to find and remove image watermark from {{FileformatUp}} document using smart search within Java & J2SE applications using GroupDocs.Watermark APIs for Java."
     },
     "header": {
-      "title": "Remove Image Watermark from {{FileformatUpper}} using Java",
-      "description": "Use smart search to find & remove image watermark from a {{FileformatUpper}} document from within Java & J2SE applications. Define a search criterion to search & delete the specified watermarks from the document."
+      "title": "Remove Image Watermark from {{FileformatUp}} using Java",
+      "description": "Use smart search to find & remove image watermark from a {{FileformatUp}} document from within Java & J2SE applications. Define a search criterion to search & delete the specified watermarks from the document."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -14,10 +14,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Delete Watermark from {{FileformatUpper}} File in Java",
+      "title_left": "Delete Watermark from {{FileformatUp}} File in Java",
       "content_left": {
         "description": "makes it easy for Java developers to search and remove watermarks with text formatting from their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **PossibleWatermarkCollection** to find the image watermarks.",
         "step_3": "Remove specified watermark(s) from the document.",
         "step_4": "Save the modified document."
@@ -32,8 +32,8 @@
       }
     },
     "example": {
-      "coment1": "Search & remove image watermark from a {{FileformatUpper}} document in Java applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Search & remove image watermark from a {{FileformatUp}} document in Java applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Remove watermark from a specified index position from the document",
       "coment4": "Remove specified possible watermark from the document",
       "coment5": "Save the modified document"
@@ -41,12 +41,12 @@
   },
   "java_text": {
     "head": {
-      "title": "Remove Watermark from {{FileformatUpper}} in Java",
-      "description": "Java library to find and remove watermark from {{FileformatUpper}} document using smart search within Java applications using GroupDocs.Watermark APIs for Java."
+      "title": "Remove Watermark from {{FileformatUp}} in Java",
+      "description": "Java library to find and remove watermark from {{FileformatUp}} document using smart search within Java applications using GroupDocs.Watermark APIs for Java."
     },
     "header": {
-      "title": "Remove Watermark from {{FileformatUpper}} in Java",
-      "description": "Use smart search to find & remove watermark from a {{FileformatUpper}} document with text formatting from within Java & J2SE applications. Define a search criterion to search & delete the watermarks based on a specific font name, color, size and other matching properties."
+      "title": "Remove Watermark from {{FileformatUp}} in Java",
+      "description": "Use smart search to find & remove watermark from a {{FileformatUp}} document with text formatting from within Java & J2SE applications. Define a search criterion to search & delete the watermarks based on a specific font name, color, size and other matching properties."
     },
     "about": {
       "title": "GroupDocs.Watermark for Java API",
@@ -54,10 +54,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10."
     },
     "steps": {
-      "title_left": "Delete Watermark from {{FileformatUpper}} File in Java",
+      "title_left": "Delete Watermark from {{FileformatUp}} File in Java",
       "content_left": {
         "description": "makes it easy for Java developers to search and remove watermarks with text formatting from their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize the defined search criteria to find & remove watermarks.",
         "step_3": "Save the modified document."
       },
@@ -71,8 +71,8 @@
       }
     },
     "example": {
-      "coment1": "Search & remove watermark from a {{FileformatUpper}} document in Java applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Search & remove watermark from a {{FileformatUp}} document in Java applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Remove possible watermark at the specified index from the document",
       "coment4": "Remove specified possible watermark from the document",
       "coment5": "Save the modified document"
@@ -80,12 +80,12 @@
   },
   "net_image": {
     "head": {
-      "title": "Remove Image Watermark from {{FileformatUpper}} in C# .NET",
-      "description": ".NET library to find and remove image watermark from {{FileformatUpper}} document using smart search within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Remove Image Watermark from {{FileformatUp}} in C# .NET",
+      "description": ".NET library to find and remove image watermark from {{FileformatUp}} document using smart search within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Remove Image Watermark from {{FileformatUpper}} in C#",
-      "description": "Use smart search to find & remove image watermark from a {{FileformatUpper}} document from within C#, ASP.NET, VB.NET & .NET Core applications. Define a search criterion to search & delete the specified watermarks from the document."
+      "title": "Remove Image Watermark from {{FileformatUp}} in C#",
+      "description": "Use smart search to find & remove image watermark from a {{FileformatUp}} document from within C#, ASP.NET, VB.NET & .NET Core applications. Define a search criterion to search & delete the specified watermarks from the document."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -93,10 +93,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Delete Watermark from {{FileformatUpper}} File in .NET",
+      "title_left": "Delete Watermark from {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to search and remove watermarks with text formatting from their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **SearchCriteria** to find the image watermarks.",
         "step_3": "Remove defined watermark from the document.",
         "step_4": "Save the modified document."
@@ -111,8 +111,8 @@
       }
     },
     "example": {
-      "coment1": "Search & remove image watermark with from a {{FileformatUpper}} document in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Search & remove image watermark with from a {{FileformatUp}} document in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the SearchCriteria to match a particular image",
       "coment4": "Remove specified watermark from the document",
       "coment5": "Save the modified document"
@@ -120,12 +120,12 @@
   },
   "net_text": {
     "head": {
-      "title": "Remove Watermark from {{FileformatUpper}} in C#, ASP.NET, VB.NET",
-      "description": ".NET library to find and remove watermark from {{FileformatUpper}} document using smart search within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
+      "title": "Remove Watermark from {{FileformatUp}} in C#, ASP.NET, VB.NET",
+      "description": ".NET library to find and remove watermark from {{FileformatUp}} document using smart search within C#, ASP.NET, VB.NET & .NET Core applications using GroupDocs.Watermark APIs for .NET."
     },
     "header": {
-      "title": "Remove Watermark from {{FileformatUpper}} in C# .NET",
-      "description": "Use smart search to find & remove watermark from a {{FileformatUpper}} document with text formatting from within C#, ASP.NET, VB.NET & .NET Core applications. Define a search criterion to search & delete the watermarks based on a specific font name, color, size and other matching properties."
+      "title": "Remove Watermark from {{FileformatUp}} in C# .NET",
+      "description": "Use smart search to find & remove watermark from a {{FileformatUp}} document with text formatting from within C#, ASP.NET, VB.NET & .NET Core applications. Define a search criterion to search & delete the watermarks based on a specific font name, color, size and other matching properties."
     },
     "about": {
       "title": "GroupDocs.Watermark for .NET API",
@@ -133,10 +133,10 @@
       "content2": "GroupDocs.Watermark APIs are well supported on all major operating systems and platforms including .NET Framework, .NET Standard, .NET Core, Mono and Xamarin."
     },
     "steps": {
-      "title_left": "Delete Watermark from {{FileformatUpper}} File in .NET",
+      "title_left": "Delete Watermark from {{FileformatUp}} File in .NET",
       "content_left": {
         "description": "makes it easy for .NET developers to search and remove watermarks with text formatting from their applications by implementing a few easy steps.",
-        "step_1": "Instantiate **Watermarker** with input {{FileformatUpper}} document.",
+        "step_1": "Instantiate **Watermarker** with input {{FileformatUp}} document.",
         "step_2": "Initialize **TextFormattingSearchCriteria** to to find the text watermarks.",
         "step_3": "Initialize the defined search criteria to find & remove watermarks.",
         "step_4": "Save the modified document."
@@ -151,8 +151,8 @@
       }
     },
     "example": {
-      "coment1": "Search & remove watermark with text formatting from a {{FileformatUpper}} document in C#, ASP.NET, VB.NET & .NET Core applications",
-      "coment2": "Instantiate Watermarker with input {{FileformatUpper}} document",
+      "coment1": "Search & remove watermark with text formatting from a {{FileformatUp}} document in C#, ASP.NET, VB.NET & .NET Core applications",
+      "coment2": "Instantiate Watermarker with input {{FileformatUp}} document",
       "coment3": "Initialize the TextFormattingSearchCriteria to define the watermarks to search for",
       "coment4": "Save the modified document"
     }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-19T11:27:09
+date: 2024-02-19T15:37:55
 draft: false
 
 lang: en
@@ -35,9 +35,9 @@ words:
 
 actions:
   main: "Use NPM to download for free"
-  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Watermark features for free or request a license"
 
@@ -45,7 +45,7 @@ release:
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
-  link: "{products.nodejs-java.release_downloads}"
+  link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
   title: "Add watermark to MS Word DOCX with TypeScript"
