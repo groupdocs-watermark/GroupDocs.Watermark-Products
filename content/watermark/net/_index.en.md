@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-19T15:37:55
+date: 2024-02-22T16:22:41
 draft: false
 
 lang: en
@@ -47,54 +47,56 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Watermark DOCX files in C#"
+  title: "Watermark PDF files in C#"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET"
-  install: "dotnet add package GroupDocs.Comparison"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/"
+  install: "dotnet add package GroupDocs.Watermark"
   content: |
     ```csharp {style=abap}   
-    // Instantiate Watermarker
-    using (Comparer comparer = new Comparer("source.docx"))
+    // Instantiate Watermarker passing PDF path
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    using (Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions))
     {
-        // Set up watermark options
-        comparer.Add("target.docx");
+        // Customize watermark options
+        TextWatermark textWatermark = 
+            new TextWatermark("Approved", new Font("Arial", 8));
+        
+        // Apply watermark to PDF document
+        watermarker.Add(textWatermark);
 
-        // Save protected document
-        CompareOptions options = new CompareOptions() 
-        {ShowRevisions = false};
-
-        // {index-content.code_comment_4}
-        comparer.Compare("result.docx", options);
+        // Save result document
+        watermarker.Save("result.pdf");
     }
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
+  title: "GroupDocs.Watermark at a glance"
   description: "API to put watermarks on documents via .NET"
   features:
     # feature loop
-    - title: "File comparison in C#"
-      content: "Detect differences between source and target files for changes at paragraphs, words, and character levels. Identify styling and formatting changes like bold, italic, underlines, strike-troughs, font types, etc."
+    - title: "C# files watermark"
+      content: "Add watermarks to your business files using GroupDocs.Watermark. Use text, images, diagrams or email attachments."
 
     # feature loop
-    - title: "Most popular file and document formats are supported"
-      content: "GroupDocs.Comparison API allows for efficient document comparison across a wide range of formats, including PDF, HTML, emails, Microsoft Office documents (Word, Excel, PowerPoint, OneNote, Visio), various image types (JPEG, PNG, GIF, BMP), text files, and more."
+    - title: "Customize watermarks to your goals"
+      content: "GroupDocs.Watermark for .NET software allows to customize watermarks in various ways. Text styles like bold, italic, font types along with image properties like rotation etc. enrich watermarking process."
 
     # feature loop
-    - title: "Apply or reject changes easily"
-      content: "Each difference identified in the compared documents using the GroupDocs.Comparison API can be selectively applied or rejected, enabling customization before exporting to the final output document."
+    - title: "All popular file formats are supported"
+      content: "Many file and document formats are supported by GroupDocs.Watermark solution. PDF, Microsoft Office Word, Excel, PowerPoint, images like JPEG, PNG, GIF, BMP, Visio, emails etc. could be protected with our watermarks."
 
     # feature loop
-    - title: "Comparison summary report"
-      content: "Generate a summary report of differences, detailing all the changes found in the compared documents, and save it for reference."
+    - title: "Search and update watermarks"
+      content: "Watermarks which are already presented in a document may be found and processed again. Modify text, style, images or remove revealed watermarks without extra efforts."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Watermark for .NET supports operating systems, frameworks and package managers listed below"
   items:
     # platform loop
     - title: "Amazon"
@@ -126,139 +128,142 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for .NET supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for .NET provides processing of the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF        
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### Images, Graphics & Diagrams
-        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
-        * **Medical Imaging:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Images & Graphics
+        * **Popular image formats:** BMP, JPG, JPEG, PNG
+        * **Multi-page images:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
         ### Other
-        * **Text:** TXT
-        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **Web:** HTM, HTML, MHT, MHTML
-        * **e-Books:** MOBI, DjVu
-        * **Delimiter-Separated Values:** CSV
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison features"
-  description: "Easily compare PDF and Office documents, images and other formats"
+  title: "GroupDocs.Watermark features"
+  description: "Protect PDF, Office, Images and other formats by watermark"
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "Easy to use document comparison"
-      content: "Aanalyze and identify differences between two documents."
+    - icon: "watermark_add"
+      title: "Documents watermarking"
+      content: "Add or Remove Watermarks from a Particular Section or whole Document of Various File Formats."
 
     # feature loop
-    - icon: "note-stack"
-      title: "Compare multiple documents"
-      content: "Simultaneously analyze and identify differences across multiple documents."
+    - icon: "watermark_style"
+      title: "Style your watermark"
+      content: "Customize various watermark properties like color, font, rotation etc."
 
     # feature loop
-    - icon: "stacks"
-      title: "Supported formats"
-      content: "Compatible with over 50 widely-used document formats from various categories, ensuring broad applicability."
+    - icon: "hidden_print"
+      title: "PDF hidden printing watermark"
+      content: "Allocate Hidden Watermark to PDF that only Appears when Printing Document."
 
     # feature loop
-    - icon: "rule"
-      title: "Accept or reject changes"
-      content: "Сlear visual display of detected changes, complete with options to either accept or reject these modifications."
+    - icon: "image_only"
+      title: "Watermark only images in documents"
+      content: "Watermark all Images in a Particular Section, Page, Slide, or Document."
 
     # feature loop
-    - icon: "preview"
-      title: "Generate previews"
-      content: "Ability to save comparison results as image previews for easy reference and sharing."
+    - icon: "image_frame"
+      title: "Process selected image frames"
+      content: "Assign Watermark to only Particular Frames of a Multi-Framed Image."
 
     # feature loop
-    - icon: "two-pager"
-      title: "Content comparison"
-      content: "Conduct thorough text comparisons at various levels - including line-by-line, paragraph, word, and character - with highlighted differences for better clarity."
+    - icon: "attachments"
+      title: "Attachments & shapes"
+      content: "Set Watermark to all Attachments in an Excel Document & all Image Shapes in Slides."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "Style and formatting comparison"
-      content: "Detects and highlights alterations in document formatting and style, ensuring comprehensive review."
+    - icon: "pdf_objects"
+      title: "PDF objects"
+      content: "Align Watermark to Bleed Box, Art Box, Crop Box, or Trim Box in PDF Document."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "Flexible metadata settings"
-      content: "Preserve metadata from source or target files, or customize it according to user preferences."
+    - icon: "doc_background"
+      title: "Documents background"
+      content: "Place Watermark or Remove it from the Background Images of Spreadsheet or Slides."
 
     # feature loop
-    - icon: "lock"
-      title: "Password protection"
-      content: "Analyze password-protected documents and secure the output document with password encryption for added security."
+    - icon: "unreadable_characters"
+      title: "Unreadable Characters Protection"
+      content: "Protect Text Watermark using Unreadable Characters in Presentations."
 
     # feature loop
-    - icon: "select"
-      title: "Selective page comparison"
-      content: "Load and compare specific sections or pages of a document for targeted analysis."
+    - icon: "watermark_text_search"
+      title: "Search Watermarks in Documents"
+      content: "Search Watermarks Based on Specific Parameters or by Combining Multiple Criteria."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "Display comments"
-      content: "Choose to display or hide comments when loading the source document, offering greater control over the comparison process."
+    - icon: "watermark_image_search"
+      title: "Search similar image watermarks"
+      content: "Look for Image Watermarks that Resemble a Particular Image."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Get document information"
+      content: "Programmatically Extract Page Setup & Other Information for Supported Formats."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Comparison for .NET operations"
+  description: "Some use cases of typical GroupDocs.Watermark for .NET operations"
   items:
     # code sample loop
-    - title: "Comparing password-protected documents."
+    - title: "Search watermarks in a document."
       content: |
-        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
-        {{< landing/code title="How to compare password-protected documents.">}}
+        To get list of document watermarks you can use [regular expressions](https://docs.groupdocs.com/watermark/net/searching-watermarks/#regular-expression-search-criteria/):
+        {{< landing/code title="How use regular expression search criteria.">}}
         ```csharp {style=abap}
-        // Load the source document and specify its password
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
+        // Load the source document to Watermarker
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
         {
-            // Load the target document and specify its password
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+            // Specify regular expression to narrow result list
+            Regex regex = new Regex(@"^© \d{4}$");
+            TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
 
-            // Save comparison result to a specified file
-            comparer.Compare("result.docx");
+            // Obtain and process watermarks list
+            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
+            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Comparing multiple PDF documents."
+    - title: "Modify existing watermarks."
       content: |
-        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
-        {{< landing/code title="How to compare three or more documents.">}}
+        GroupDocs.Watermark is able to [modify watermarks](https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/) that are already presented in a document. Search for desired items and update their properties.
+        {{< landing/code title="Watermarks modification.">}}
         ```csharp {style=abap}   
         // Load the source document
-        using(Comparer comparer = new Comparer("source.docx") 
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
         {
-            // Specify the second file for comparison
-            comparer.Add("target2.docx");
-            
-            // Specify the third file for comparison
-            comparer.Add("target3.docx");
-            
-            // Save comparison result to a specified file
-            comparer.Compare("result.docx");
+            // Search for watermarks to be updated
+            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            foreach (PossibleWatermark watermark in watermarks)
+            {
+                // Update desired properties
+                watermark.Text = "New Text";
+            }
+
+            // Save modified document to a specified path
+            watermarker.Save("document.pdf");
         }
         ```
         {{< /landing/code >}}

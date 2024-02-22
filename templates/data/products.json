@@ -21,10 +21,10 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/net/",
       "docsUrl": "https://docs.groupdocs.com/watermark/net/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
-      "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/net/searching-watermarks/#regular-expression-search-criteria/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
 
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET",
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/watermark/net/"
 
     },
@@ -48,7 +48,7 @@
       "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
       "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/watermark/java/"
 
     },
@@ -72,7 +72,7 @@
       "sample1Url": "https://docs.groupdocs.com/comparison/net/load-password-protected-documents/",
       "sample2Url": "https://docs.groupdocs.com/comparison/net/compare-multiple-documents/",
 
-      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java",
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/watermark/nodejs-java/"
 
     }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-19T15:37:55
+date: 2024-02-22T16:22:41
 draft: false
 
 lang: en
@@ -48,31 +48,37 @@ release:
   link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
-  title: "Add watermark to MS Word DOCX with TypeScript"
+  title: "Add watermark to PDF with TypeScript"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
-  install: "npm i @groupdocs/groupdocs.comparison"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
-    // Instantiate Watermarker
-    let comparer = new Comparer("source.bmp");
+    // Instantiate Watermarker passing PDF path
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // Set up watermark options
-    comparer.add("target.bmp");
+    // Customize watermark options
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-    // Save protected document
-    comparer.compare("result.bmp"); 
+    // Apply watermark to PDF document
+    watermarker.add(textWatermark);
+
+    // Save result document
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
+  title: "GroupDocs.Watermark at a glance"
   description: "Node.js TypeScript library for watermarking"
   features:
     # feature loop
-    - title: "Detailed output reports"
+    - title: "Documents protection with watermarks"
       content: "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
 
     # feature loop
@@ -138,30 +144,23 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF        
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### Images, Graphics & Diagrams
-        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
-        * **Medical Imaging:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Images & Graphics
+        * **Popular image formats:** BMP, JPG, JPEG, PNG
+        * **Multi-page images:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
         ### Other
-        * **Text:** TXT
-        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **Web:** HTM, HTML, MHT, MHTML
-        * **e-Books:** MOBI, DjVu
-        * **Delimiter-Separated Values:** CSV
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
@@ -229,41 +228,41 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Comparison for .NET operations"
+  description: "Some use cases of typical GroupDocs.Watermark for Node.js via Java operations"
   items:
     # code sample loop
-    - title: "Comparing password-protected documents."
+    - title: "Search watermarks in a document."
       content: |
-        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
-        {{< landing/code title="How to compare password-protected documents.">}}
+        To get list of document watermarks you can use [regular expressions](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/):
+        {{< landing/code title="How use regular expression search criteria.">}}
         ```csharp {style=abap}
-        // Load the source document and specify its password
+        // Load the source document to Watermarker
         using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
         {
-            // Load the target document and specify its password
+            // Specify regular expression to narrow result list
             comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
 
-            // Save comparison result to a specified file
+            // Obtain and process watermarks list
             comparer.Compare("result.docx");
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Comparing multiple PDF documents."
+    - title: "Modify existing watermarks."
       content: |
-        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
-        {{< landing/code title="How to compare three or more documents.">}}
+        GroupDocs.Watermark is able to [modify watermarks](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/) that are already presented in a document. Search for desired items and update their properties.
+        {{< landing/code title="Watermarks modification.">}}
         ```csharp {style=abap}   
         // Load the source document
         using(Comparer comparer = new Comparer("source.docx") 
         {
-            // Specify the second file for comparison
+            // Search for watermarks to be updated
             comparer.Add("target2.docx");
             
-            // Specify the third file for comparison
+            // Update desired properties
             comparer.Add("target3.docx");
             
-            // Save comparison result to a specified file
+            // Save modified document to a specified path
             comparer.Compare("result.docx");
         }
         ```

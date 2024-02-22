@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-19T15:37:55
+date: 2024-02-22T16:22:40
 draft: false
 
 lang: en
@@ -47,40 +47,43 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Watermark MS Word DOCX via Java"
+  title: "Watermark PDFs via Java"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-comparison</artifactId>
+      <artifactId>groupdocs-watermark</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
     ```java {style=abap}  
-    // Instantiate Watermarker
-    try (Comparer comparer = new Comparer("source.docx"))
-    {    
-      // Set up watermark options
-      comparer.add("target.docx");
+    // Instantiate Watermarker passing PDF path
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-      // Save protected document
-      CompareOptions options = new CompareOptions();
-      options.setShowRevisions(false);
+    // Customize watermark options
+    TextWatermark textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-      // {index-content.code_comment_4}
-      final comparer.compare("result.docx", options);
-    }    
+    // Apply watermark to PDF document
+    watermarker.add(textWatermark);
+
+    // Save result document
+    watermarker.save("result.pdf");
+    watermarker.close();
+      
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Comparison at a glance"
+  title: "GroupDocs.Watermark at a glance"
   description: "Library designed for adding watermarks using Java technologies"
   features:
     # feature loop
-    - title: "File comparison in Java"
+    - title: "Files watermarking in Java"
       content: "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
 
     # feature loop
@@ -137,30 +140,23 @@ formats:
     - color: "green"
       content: |
         ### Microsoft Office & OpenDocument formats
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **Fixed Page Layout:** PDF        
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### Images, Graphics & Diagrams
-        * **Raster images:** BMP, GIF, JPG, JPEG, PNG
-        * **Medical Imaging:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Images & Graphics
+        * **Popular image formats:** BMP, JPG, JPEG, PNG
+        * **Multi-page images:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
         ### Other
-        * **Text:** TXT
-        * **Programming Languages:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **Web:** HTM, HTML, MHT, MHTML
-        * **e-Books:** MOBI, DjVu
-        * **Delimiter-Separated Values:** CSV
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
@@ -234,15 +230,15 @@ code_samples:
     - title: "Comparing password-protected documents."
       content: |
         To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
-        {{< landing/code title="How to compare password-protected documents.">}}
+        {{< landing/code title="How use regular expression search criteria.">}}
         ```java {style=abap}
-        // Load the source document and specify its password
+        // Load the source document to Watermarker
         try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
         {
-            // Load the target document and specify its password
+            // Specify regular expression to narrow result list
             comparer.add("target.docx", new LoadOptions("5678"));
         
-            // Save comparison result to a specified file
+            // Obtain and process watermarks list
             comparer.compare("result.docx");
         }
         ```
@@ -251,18 +247,18 @@ code_samples:
     - title: "Comparing multiple PDF documents."
       content: |
         GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
-        {{< landing/code title="How to compare three or more documents.">}}
+        {{< landing/code title="Watermarks modification.">}}
         ```java {style=abap}   
         // Load the source document
         try (Comparer comparer = new Comparer("source.docx") 
         {
-            // Specify the second file for comparison
+            // Search for watermarks to be updated
             comparer.add("target2.docx");
 
-            // Specify the third file for comparison
+            // Update desired properties
             comparer.add("target3.docx");
 
-            // Save comparison result to a specified file
+            // Save modified document to a specified path
             comparer.compare("result.docx");
         }
         ```

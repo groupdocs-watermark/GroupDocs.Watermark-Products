@@ -53,18 +53,24 @@ code:
   title: "<% "{index-content-nodejs-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.nodejs-java.more_link" %>"
-  install: "npm i @groupdocs/groupdocs.comparison"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
     // <% "{index-content.code_comment_1}" %>
-    let comparer = new Comparer("source.bmp");
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
     // <% "{index-content.code_comment_2}" %>
-    comparer.add("target.bmp");
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
     // <% "{index-content.code_comment_3}" %>
-    comparer.compare("result.bmp"); 
+    watermarker.add(textWatermark);
+
+    // <% "{index-content.code_comment_4}" %>
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
@@ -140,30 +146,23 @@ formats:
     - color: "green"
       content: |
         ### <% "{index-content.formats_groups.title_1}" %>
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **<% "{index-content.formats_groups.format_fixed_page_layout}" %>:** PDF        
+        * **<% "{index-content.formats_groups.format_portable}" %>:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
         ### <% "{index-content.formats_groups.title_2}" %>
-        * **<% "{index-content.formats_groups.format_raster_images}" %>:** BMP, GIF, JPG, JPEG, PNG
-        * **<% "{index-content.formats_groups.format_medical_imaging}" %>:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        * **<% "{index-content.formats_groups.format_popular_images}" %>:** BMP, JPG, JPEG, PNG
+        * **<% "{index-content.formats_groups.format_multi_images}" %>:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
         ### <% "{index-content.formats_groups.title_3}" %>
-        * **<% "{index-content.formats_groups.format_text}" %>:** TXT
-        * **<% "{index-content.formats_groups.format_programming_languages}" %>:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **<% "{index-content.formats_groups.format_web}" %>:** HTM, HTML, MHT, MHTML
-        * **<% "{index-content.formats_groups.format_e_books}" %>:** MOBI, DjVu
-        * **<% "{index-content.formats_groups.format_delimiter_separated_values}" %>:** CSV
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:

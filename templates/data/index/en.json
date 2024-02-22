@@ -11,20 +11,21 @@
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
     "code_more": "More examples",
-    "code_comment_1": "Instantiate Watermarker",
-    "code_comment_2": "Set up watermark options",
-    "code_comment_3": "Save protected document",
-    "overview_title": "GroupDocs.Comparison at a glance",
+    "code_comment_1": "Instantiate Watermarker passing PDF path",
+    "code_comment_2": "Customize watermark options",
+    "code_comment_3": "Apply watermark to PDF document",
+    "code_comment_4": "Save result document",
+    "overview_title": "{{ProdShortName}} at a glance",
     "formats_title": "Supported file formats",
     "platforms": {
       "title": "Platform independence",
       "head_title": "Choose your platform",
-      "description": "GroupDocs.Watermark library supports the following operating systems and frameworks:",
+      "description": "{{ProdShortName}} library supports the following operating systems and frameworks:",
       "learn_more": "Learn more",
       "any_other_text_editor": "Any other text editor"
     },
     "features": {
-      "title": "GroupDocs.Watermark features review",
+      "title": "{{ProdShortName}} features review",
       "description": "The library designed to add, search and update various watermark types for popular document formats.",
       "feature_1": {
         "title": "Protect files with watermarks",
@@ -45,12 +46,12 @@
     },
     "formats": {
       "title": "50+ file formats supported",
-      "description": "GroupDocs.Watermark provides watermarking for popular document and file formats."
+      "description": "{{ProdShortName}} provides watermarking for popular document and file formats."
     },
     "code_samples": {
       "title": "Code samples",
       "index_title": "Protect documents by watermarks",
-      "index_description": "GroupDocs.Watermark typical operations code examples.",
+      "index_description": "{{ProdShortName}} typical operations code examples.",
       "more_examples": "More examples",
       "sample_index": {
         "title": "Creating a watermark.",
@@ -61,17 +62,17 @@
         "comment_4": "Add watermark and save processed file"
       },
       "sample_1": {
-        "code_title": "How to compare password-protected documents.",
-        "comment_1": "Load the source document and specify its password",
-        "comment_2": "Load the target document and specify its password",
-        "comment_3": "Save comparison result to a specified file"
+        "code_title": "How use regular expression search criteria.",
+        "comment_1": "Load the source document to Watermarker",
+        "comment_2": "Specify regular expression to narrow result list",
+        "comment_3": "Obtain and process watermarks list"
       },
       "sample_2": {
-        "code_title": "How to compare three or more documents.",
+        "code_title": "Watermarks modification.",
         "comment_1": "Load the source document",
-        "comment_2": "Specify the second file for comparison",
-        "comment_3": "Specify the third file for comparison",
-        "comment_4": "Save comparison result to a specified file"
+        "comment_2": "Search for watermarks to be updated",
+        "comment_3": "Update desired properties",
+        "comment_4": "Save modified document to a specified path"
       }
     },
     "metrics": {
@@ -83,11 +84,11 @@
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "GroupDocs.Watermark for .NET is a popular library with over 800,000 downloads on NuGet."
+        "description": "{{ProdShortName}} for .NET is a popular library with over 800,000 downloads on NuGet."
       },
       "item_3": {
         "title": "Maven downloads",
-        "description": "With over 15K downloads on Maven, GroupDocs.Watermark is a popular choice for Java developers."
+        "description": "With over 15K downloads on Maven, {{ProdShortName}} is a popular choice for Java developers."
       },
       "item_4": {
         "title": "Happy customers",
@@ -101,27 +102,27 @@
     "actions": {
       "alt": "Licensing",
       "title": "Ready to get started?",
-      "description": "Try GroupDocs.Watermark features for free or request a license",
-      "description_index": "Try GroupDocs.Watermark features for free on your platform"
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "description_index": "Try {{ProdShortName}} features for free on your platform"
     },
     "faq": {
       "title": "Frequently asked questions",
       "description": "Check out our Frequently Asked Questions",
       "item_1": {
-        "question": "Are external libraries required by GroupDocs.Watermark for document manipulation?",
-        "answer": "GroupDocs.Watermark works independently, no need for third-party software like Adobe Acrobat, Microsoft Office, etc."
+        "question": "Are external libraries required by {{ProdShortName}} for document manipulation?",
+        "answer": "{{ProdShortName}} works independently, no need for third-party software like Adobe Acrobat, Microsoft Office, etc."
       },
       "item_2": {
-        "question": "Can I test GroupDocs.Watermark features before buying?",
-        "answer": "Yes, GroupDocs.Watermark offers a free trial! Install it and try it out, but keep in mind: Trial versions add 'trial badges' to your documents, only the first 3 pages are processed. Want the full experience? Get a free 30-day temporary license for full functionality. See details under [temporary license]({{LicensingUrl}})."
+        "question": "Can I test {{ProdShortName}} features before buying?",
+        "answer": "Yes, {{ProdShortName}} offers a free trial! Install it and try it out, but keep in mind: Trial versions add 'trial badges' to your documents, only the first 3 pages are processed. Want the full experience? Get a free 30-day temporary license for full functionality. See details under [temporary license]({{LicensingUrl}})."
       },
       "item_3": {
         "question": "What license types are provided?",
-        "answer": "Need a GroupDocs.Watermark license? We've got options! Choose from licenses based on many options. Number of developers in your team. Deployment locations like single office or remote workplaces. Does end-customer distribution need to share the SDK/API with clients? Alternatively, there's a license for monthly usage: Pay only for what you use with metered plans. Dive deeper and find the perfect [price]({{PricingUrl}})."
+        "answer": "Need a {{ProdShortName}} license? We've got options! Choose from licenses based on many options. Number of developers in your team. Deployment locations like single office or remote workplaces. Does end-customer distribution need to share the SDK/API with clients? Alternatively, there's a license for monthly usage: Pay only for what you use with metered plans. Dive deeper and find the perfect [price]({{PricingUrl}})."
       }
     },
     "cloud_links": {
-      "title": "GroupDocs.Watermark low code APIs",
+      "title": "{{ProdShortName}} low code APIs",
       "description": "Add watermarks to files by your application using our cloud-based REST API.",
       "item_1": {
         "content": "Use cURL RESTful API to watermark PDF, Word, Excel, PowerPoint, JPEG and other popular file formats."
@@ -130,11 +131,11 @@
         "content": "Empower your .NET applications with documents watermarking features by Cloud SDK for .NET. Protect business documents on your own."
       },
       "item_3": {
-        "content": "GroupDocs.Watermark SDK designed for Java grants new possibilities for your Java applications and business files."
+        "content": "{{ProdShortName}} SDK designed for Java grants new possibilities for your Java applications and business files."
       }
     },
     "app_links": {
-      "title": "GroupDocs.Watermark Web apps",
+      "title": "{{ProdShortName}} Web apps",
       "description": "GroupDocs grants access to web application for adding watermarks to your documents. More than 50 popular file formats could be watermarked in your favorite browser FOR FREE.",
       "item_1": {
         "content": "On-line tool to add watermarks to documents from any device."
@@ -148,113 +149,107 @@
     },
     "formats_groups": {
       "title_1": "Microsoft Office & OpenDocument formats",
-      "title_2": "Images, Graphics & Diagrams",
+      "title_2": "Images & Graphics",
       "title_3": "Other",
       "format_portable": "Portable",
-      "format_fixed_page_layout": "Fixed Page Layout",
-      "format_other_office": "Other office formats",
-      "format_images": "Images",
-      "format_web": "Web",
-      "format_text": "Text",
-      "format_archives": "Archives",
-      "format_certificates": "Certificates",
-      "format_raster_images": "Raster images",
-      "format_medical_imaging": "Medical Imaging",
-      "format_programming_languages": "Programming Languages",
-      "format_e_books": "e-Books",
-      "format_delimiter_separated_values": "Delimiter-Separated Values"
+      "format_popular_images": "Popular image formats",
+      "format_multi_images": "Multi-page images"
     }
   },
   "index-content-net": {
     "head_title": "C# .NET Document Watermark Software | add watermark library | remove watermark software | watermark office documents",
-    "head_description": "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio, email and image file formats.",
+    "head_description": "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats.",
     "title": "Watermark documents easily in your C# .NET applications",
     "description": "Empower your C# solutions with a flexible document watermarking API that provides adding customizable watermarks to all popular document formats.",
     "actions_main": "Free NuGet Download",
-    "code_title": "Watermark DOCX files in C#",
+    "code_title": "Watermark PDF files in C#",
     "overview_description": "API to put watermarks on documents via .NET",
     "overview_feature_1": {
-      "title": "File comparison in C#",
-      "description": "Detect differences between source and target files for changes at paragraphs, words, and character levels. Identify styling and formatting changes like bold, italic, underlines, strike-troughs, font types, etc."
+      "title": "C# files watermark",
+      "description": "Add watermarks to your business files using {{ProdShortName}}. Use text, images, diagrams or email attachments."
     },
     "overview_feature_2": {
-      "title": "Most popular file and document formats are supported",
-      "description": "GroupDocs.Comparison API allows for efficient document comparison across a wide range of formats, including PDF, HTML, emails, Microsoft Office documents (Word, Excel, PowerPoint, OneNote, Visio), various image types (JPEG, PNG, GIF, BMP), text files, and more."
+      "title": "Customize watermarks to your goals",
+      "description": "{{ProdFullName}} software allows to customize watermarks in various ways. Text styles like bold, italic, font types along with image properties like rotation etc. enrich watermarking process."
     },
     "overview_feature_3": {
-      "title": "Apply or reject changes easily",
-      "description": "Each difference identified in the compared documents using the GroupDocs.Comparison API can be selectively applied or rejected, enabling customization before exporting to the final output document."
+      "title": "All popular file formats are supported",
+      "description": "Many file and document formats are supported by {{ProdShortName}} solution. PDF, Microsoft Office Word, Excel, PowerPoint, images like JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. could be protected with our watermarks."
     },
     "overview_feature_4": {
-      "title": "Comparison summary report",
-      "description": "Generate a summary report of differences, detailing all the changes found in the compared documents, and save it for reference."
+      "title": "Search and update watermarks",
+      "description": "Watermarks which are already presented in a document may be found and processed again. Modify text, style, images or remove revealed watermarks without extra efforts."
     },
     "features": {
-      "title": "GroupDocs.Comparison features",
-      "description": "Easily compare PDF and Office documents, images and other formats",
+      "title": "{{ProdShortName}} features",
+      "description": "Protect PDF, Office, Images and other formats by watermark",
       "feature_1": {
-        "title": "Easy to use document comparison",
-        "content": "Aanalyze and identify differences between two documents."
+        "title": "Documents watermarking",
+        "content": "Add or Remove Watermarks from a Particular Section or whole Document of Various File Formats."
       },
       "feature_2": {
-        "title": "Compare multiple documents",
-        "content": "Simultaneously analyze and identify differences across multiple documents."
+        "title": "Style your watermark",
+        "content": "Customize various watermark properties like color, font, rotation etc."
       },
       "feature_3": {
-        "title": "Supported formats",
-        "content": "Compatible with over 50 widely-used document formats from various categories, ensuring broad applicability."
+        "title": "PDF hidden printing watermark",
+        "content": "Allocate Hidden Watermark to PDF that only Appears when Printing Document."
       },
       "feature_4": {
-        "title": "Accept or reject changes",
-        "content": "Сlear visual display of detected changes, complete with options to either accept or reject these modifications."
+        "title": "Watermark only images in documents",
+        "content": "Watermark all Images in a Particular Section, Page, Slide, or Document."
       },
       "feature_5": {
-        "title": "Generate previews",
-        "content": "Ability to save comparison results as image previews for easy reference and sharing."
+        "title": "Process selected image frames",
+        "content": "Assign Watermark to only Particular Frames of a Multi-Framed Image."
       },
       "feature_6": {
-        "title": "Content comparison",
-        "content": "Conduct thorough text comparisons at various levels - including line-by-line, paragraph, word, and character - with highlighted differences for better clarity."
+        "title": "Attachments & shapes",
+        "content": "Set Watermark to all Attachments in an Excel Document & all Image Shapes in Slides."
       },
       "feature_7": {
-        "title": "Style and formatting comparison",
-        "content": "Detects and highlights alterations in document formatting and style, ensuring comprehensive review."
+        "title": "PDF objects",
+        "content": "Align Watermark to Bleed Box, Art Box, Crop Box, or Trim Box in PDF Document."
       },
       "feature_8": {
-        "title": "Flexible metadata settings",
-        "content": "Preserve metadata from source or target files, or customize it according to user preferences."
+        "title": "Documents background",
+        "content": "Place Watermark or Remove it from the Background Images of Spreadsheet or Slides."
       },
       "feature_9": {
-        "title": "Password protection",
-        "content": "Analyze password-protected documents and secure the output document with password encryption for added security."
+        "title": "Unreadable Characters Protection",
+        "content": "Protect Text Watermark using Unreadable Characters in Presentations."
       },
       "feature_10": {
-        "title": "Selective page comparison",
-        "content": "Load and compare specific sections or pages of a document for targeted analysis."
+        "title": "Search Watermarks in Documents",
+        "content": "Search Watermarks Based on Specific Parameters or by Combining Multiple Criteria."
       },
       "feature_11": {
-        "title": "Display comments",
-        "content": "Choose to display or hide comments when loading the source document, offering greater control over the comparison process."
+        "title": "Search similar image watermarks",
+        "content": "Look for Image Watermarks that Resemble a Particular Image."
+      },
+      "feature_12": {
+        "title": "Get document information",
+        "content": "Programmatically Extract Page Setup & Other Information for Supported Formats."
       }
     },
-    "platforms_description": "GroupDocs.Comparison for .NET supports the following operating systems, frameworks and package managers",
-    "formats_description": "GroupDocs.Comparison for .NET supports operations with the following [file formats]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Some use cases of typical GroupDocs.Comparison for .NET operations",
-    "code_title_sample_1": "Comparing password-protected documents.",
-    "code_samples_sample_1_content": "To compare documents that are [protected with a password]({{Sample1Url}}), you need to specify it then loading the documents:",
-    "code_title_sample_2": "Comparing multiple PDF documents.",
-    "code_samples_sample_2_content": "GroupDocs.Comparison allows you to [compare more than two documents]({{Sample2Url}}). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class."
+    "platforms_description": "{{ProdFullName}} supports operating systems, frameworks and package managers listed below",
+    "formats_description": "{{ProdFullName}} provides processing of the following [file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_title_sample_1": "Search watermarks in a document.",
+    "code_samples_sample_1_content": "To get list of document watermarks you can use [regular expressions]({{Sample1Url}}):",
+    "code_title_sample_2": "Modify existing watermarks.",
+    "code_samples_sample_2_content": "{{ProdShortName}} is able to [modify watermarks]({{Sample2Url}}) that are already presented in a document. Search for desired items and update their properties."
   },
   "index-content-java": {
     "head_title": "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents",
-    "head_description": "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio, email and images files.",
+    "head_description": "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio diagrams, email and images files.",
     "title": "Implement documents watermarking in Java projects easily",
     "description": "Enhance your Java applications with the ability to watermark files using the GroupDocs.Watermark library. Our API offers customizable watermarks for a wide range of popular file formats.",
     "actions_main": "Free Download from Maven",
-    "code_title": "Watermark MS Word DOCX via Java",
+    "code_title": "Watermark PDFs via Java",
     "overview_description": "Library designed for adding watermarks using Java technologies",
     "overview_feature_1": {
-      "title": "File comparison in Java",
+      "title": "Files watermarking in Java",
       "description": "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
     },
     "overview_feature_2": {
@@ -331,10 +326,10 @@
     "title": "Access to watermarking technology in Node.js via Java solutions",
     "description": "Protect your intellectual property and prevent unauthorized copying with this Node.js solution. It allows users to easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images etc.",
     "actions_main": "Use NPM to download for free",
-    "code_title": "Add watermark to MS Word DOCX with TypeScript",
+    "code_title": "Add watermark to PDF with TypeScript",
     "overview_description": "Node.js TypeScript library for watermarking",
     "overview_feature_1": {
-      "title": "Detailed output reports",
+      "title": "Documents protection with watermarks",
       "description": "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
     },
     "overview_feature_2": {
