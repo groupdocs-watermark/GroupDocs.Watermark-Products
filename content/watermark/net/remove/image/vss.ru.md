@@ -1,84 +1,63 @@
-
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2023-12-05T14:00:16
+layout: "autogen-child"
 draft: false
 path: "watermark/net/remove/image/vss/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
-
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VST
 ############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
-
+head_title: "Удалить водяной знак изображения из VSS в C# .NET"
+head_description: ".NET для поиска и удаления водяного знака изображения из документа VSS с помощью интеллектуального поиска в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
 ############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
-
+title: "Удалить водяной знак изображения из VSS в C#"
+description: "Используйте интеллектуальный поиск, чтобы найти и удалить водяной знак изображения из документа VSS из приложений C#, ASP.NET, VB.NET и .NET Core. Определите критерий поиска для поиска и удаления указанных водяных знаков из документа."
 ############################# SubMenu ############################
 submenu:
-    enable: true
-
+    enable: false
 ############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark для .NET API"
     content: |
-        {net_image.about.content1}
-        
-        {net_image.about.content2}
-
+        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
+        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: "Удалить водяной знак из файла VSS в .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
-
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
-        
-    title_right: "{net_image.steps.title_right}"
+        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко находить и удалять водяные знаки с форматированием текста из своих приложений, выполняя несколько простых шагов.
+        * Создайте экземпляр **Watermarker** с входным документом VSS.
+        * Инициализируйте **SearchCriteria**, чтобы найти водяные знаки изображения.
+        * Удалить определенный водяной знак из документа.
+        * Сохраните измененный документ.
+    title_right: "Системные Требования"
     content_right: |
-        {net_image.steps.content_right.description}
-
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
-        
+        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.vss"))
-        {
-            // {net_image.example.coment3}
+        // Поиск и удаление водяного знака изображения из документа VSS в приложениях C#, ASP.NET, VB.NET и .NET Core
+        // Создание водяного знака с входным документом VSS
+        using (Watermarker watermarker = new Watermarker(input.vss));
+          {
+            // Инициализируем SearchCriteria для соответствия конкретному изображению
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-
-            // {net_image.example.coment4}
+            // Удалить указанный водяной знак из документа
             possibleWatermarks.Remove(possibleWatermarks[0]);
-
-            // {net_image.example.coment5}
-            watermarker.Save("output.vss");
-        }
+            // Сохраняем измененный документ
+            watermarker.Save(output.vss);
+          }
         ```        
-
 demos:
-    enable: true
-        
-
+    enable: false
 about_formats:
-    enable: true
-
-
+    enable: false
 more_formats:
     enable: true
-
-
 back_to_top:
     enable: true
 ---

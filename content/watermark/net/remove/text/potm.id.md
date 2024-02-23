@@ -1,61 +1,53 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T14:00:16
 draft: false
 path: "watermark/net/remove/text/potm/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_text.head.title}"
-head_description: "{net_text.head.description}"
+head_title: "Hapus Tanda Air dari POTM di C#, ASP.NET, VB.NET"
+head_description: ".Pustaka .NET untuk menemukan dan menghapus tanda air dari dokumen POTM menggunakan pencarian cerdas dalam aplikasi C#, ASP.NET, VB.NET & .NET Core menggunakan API GroupDocs.Watermark untuk .NET."
 
-############################# Header ############################
-title: "{net_text.header.title}"
-description: "{net_text.header.description}"
+title: "Hapus Tanda Air dari POTM di C# .NET"
+description: "Gunakan pencarian cerdas untuk menemukan & menghapus tanda air dari dokumen POTM dengan pemformatan teks dari dalam aplikasi C#, ASP.NET, VB.NET & .NET Core. Tentukan kriteria pencarian untuk mencari & menghapus tanda air berdasarkan nama font tertentu, warna, ukuran dan properti lain yang cocok."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_text.about.title}"
+    title: "GroupDocs.Watermark untuk .NET API"
     content: |
-        {net_text.about.content1}
+        GroupDocs.Watermark untuk .NET adalah solusi manajemen tanda air lengkap untuk aplikasi .NET. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {net_text.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_text.steps.title_left}"
+    title_left: "Hapus Tanda Air dari File POTM di .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mencari dan menghapus tanda air dengan pemformatan teks dari aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {net_text.steps.content_left.step_1}
-        *   {net_text.steps.content_left.step_2}
-        *   {net_text.steps.content_left.step_3}
-        *   {net_text.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen POTM.
+        * Inisialisasi **TextFormattingSearchCriteria** untuk menemukan tanda air teks.
+        * Inisialisasi kriteria pencarian yang ditentukan untuk menemukan & menghapus tanda air.
+        * Simpan dokumen yang dimodifikasi.
         
-    title_right: "{net_text.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {net_text.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {net_text.steps.content_right.step_1}
-        *   {net_text.steps.content_right.step_2}
-        *   {net_text.steps.content_right.step_3}
-        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Watermark untuk .NET dari [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // {net_text.example.coment1}
-        // {net_text.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.potm"))
-        {
-            // {net_text.example.coment3}
+        // Cari & hapus tanda air dengan pemformatan teks dari dokumen POTM di aplikasi C#, ASP.NET, VB.NET & .NET Core
+        // Instansiasi Watermarker dengan memasukkan dokumen POTM
+        using (Watermarker watermarker = new Watermarker(input.potm))
+          {
+            // Inisialisasi TextFormattingSearchCriteria untuk menentukan tanda air yang akan dicari
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.ForegroundColorRange.MinHue = -5;
@@ -72,9 +64,9 @@ steps:
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
 
-            // {net_text.example.coment4}
-            watermarker.Save("output.doc");
-        }
+            // Simpan dokumen yang dimodifikasi
+            watermarker.Save(output.potm);
+          }
         ```        
 
 demos:

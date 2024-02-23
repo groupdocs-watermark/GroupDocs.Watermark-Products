@@ -1,81 +1,73 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-04T15:21:04
 draft: false
 path: "watermark/java/edit/image/vsd/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{java_image.head.title}"
-head_description: "{java_image.head.description}"
+head_title: "Edit Tanda Air Gambar di VSD di Jawa"
+head_description: "Pustaka Java untuk mengedit tanda air gambar yang ditemukan dalam file VSD di aplikasi Java & J2SE menggunakan GroupDocs.Watermark API untuk Java."
 
-############################# Header ############################
-title: "{java_image.header.title}"
-description: "{java_image.header.description}"
+title: "Edit Tanda Air Gambar di VSD di Jawa"
+description: "Temukan & ubah tanda air gambar yang ditemukan dalam dokumen VSD dalam aplikasi Java & J2SE. Tambahkan tanda air gambar BMP, PNG, GIF & JPEG ke dokumen. Juga kelola ukuran tanda air, jenis font, sudut rotasi, dan posisi tanda air pada halaman dokumen, sesuai kebutuhan Anda."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_image.about.title}"
+    title: "GroupDocs.Watermark untuk Java API"
     content: |
-        {java_image.about.content1}
+        GroupDocs.Watermark for Java adalah solusi manajemen watermark lengkap untuk aplikasi Java. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {java_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi utama dan versi Java termasuk J2SE 7.0 (1.7), J2SE 8.0 (1.8) dan Java 10.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_image.steps.title_left}"
+    title_left: "Edit Tanda Air Gambar dalam File VSD di Jawa"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mengedit tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {java_image.steps.content_left.step_1}
-        *   {java_image.steps.content_left.step_2}
-        *   {java_image.steps.content_left.step_3}
-        *   {java_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen VSD.
+        * Inisialisasi **SearchCriteria** untuk menemukan watermark gambar.
+        * Ganti tanda air yang ditemukan.
+        * Simpan dokumen yang baru diberi watermark.
         
-    title_right: "{java_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {java_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {java_image.steps.content_right.step_1}
-        *   {java_image.steps.content_right.step_2}
-        *   {java_image.steps.content_right.step_3}
-        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Kerangka: Java 7 (1.7) dan di atasnya
+        * Unduh versi terbaru GroupDocs.Watermark untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        // {java_image.example.coment1}
-        // {java_image.example.coment2}
-        Watermarker watermarker = new Watermarker("input.vsd")
+        // Temukan & ganti tanda air gambar dalam VSD di aplikasi Java
+        // Instansiasi Watermarker dengan memasukkan dokumen VSD
+        Watermarker watermarker = new Watermarker(input.vsd)
         
-        // {java_image.example.coment3}
-        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
+        // Inisialisasi Kriteria Pencarian untuk mencocokkan gambar tertentu
+        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         for (PossibleWatermark watermark : watermarks)
             {
                 try
                 {
-                    // {java_image.example.coment4}
+                    // Ganti gambar yang ditemukan
                     watermark.setImageData(imageData);
                 }
                 
-                catch (Exception ex)
+                catch (Exception e)
                 {
-                    // {java_image.example.coment5}
-                    // {java_image.example.coment6}
-                    // {java_image.example.coment7}
+                    // Entitas yang ditemukan mungkin tidak mendukung pengeditan teks
+                    // Argumen yang diteruskan dapat memiliki nilai yang tidak sesuai
+                    // Proses kasus seperti itu di sini
                 }
             }
             
-            // {java_image.example.coment8}
-            watermarker.save("output.vsd");
+            // Simpan dokumen yang diberi watermark
+            watermarker.save(output.vsd);
 
             watermarker.close();
         ```        

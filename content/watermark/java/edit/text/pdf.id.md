@@ -1,82 +1,74 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-04T15:21:05
 draft: false
 path: "watermark/java/edit/text/pdf/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{java_text.head.title}"
-head_description: "{java_text.head.description}"
+head_title: "Edit Tanda Air Teks di PDF di Jawa"
+head_description: "Pustaka Java untuk mengedit tanda air teks yang ditemukan dalam file PDF di aplikasi Java menggunakan GroupDocs.Watermark API untuk Java."
 
-############################# Header ############################
-title: "{java_text.header.title}"
-description: "{java_text.header.description}"
+title: "Edit Tanda Air Teks di PDF di Jawa"
+description: "Cari & ubah tanda air teks yang ditemukan dalam dokumen PDF dengan pemformatan dalam aplikasi Java & J2SE. Kelola ukuran tanda air, jenis font, sudut rotasi, dan posisi tanda air pada halaman dokumen, sesuai kebutuhan Anda."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_text.about.title}"
+    title: "GroupDocs.Watermark untuk Java API"
     content: |
-        {java_text.about.content1}
+        GroupDocs.Watermark for Java adalah solusi manajemen watermark lengkap untuk aplikasi Java. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {java_text.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi utama dan versi Java termasuk J2SE 7.0 (1.7), J2SE 8.0 (1.8) dan Java 10.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_text.steps.title_left}"
+    title_left: "Edit Tanda Air Teks dalam File PDF di Jawa"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_text.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mengedit tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {java_text.steps.content_left.step_1}
-        *   {java_text.steps.content_left.step_2}
-        *   {java_text.steps.content_left.step_3}
-        *   {java_text.steps.content_left.step_4}
-        *   {java_text.steps.content_left.step_5}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen PDF.
+        * Inisialisasi **TextSearchCriteria** untuk mencari tanda air teks.
+        * Edit teks tanda air yang ditemukan.
+        * Atur properti tanda air (gaya font, warna, dll).
+        * Simpan dokumen yang baru diberi watermark.
         
-    title_right: "{java_text.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {java_text.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {java_text.steps.content_right.step_1}
-        *   {java_text.steps.content_right.step_2}
-        *   {java_text.steps.content_right.step_3}
-        *   {java_text.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Kerangka: Java 7 (1.7) dan di atasnya
+        * Unduh versi terbaru GroupDocs.Watermark untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        // {java_text.example.coment1}
-        // {java_text.example.coment2}
-        Watermarker watermarker = new Watermarker("input.pdf")
+        // Temukan & perbarui tanda air teks dengan pemformatan dalam PDF di aplikasi Java
+        // Instansiasi Watermarker dengan memasukkan dokumen PDF
+        Watermarker watermarker = new Watermarker(input.pdf))
         
-        // {java_text.example.coment3}
+        // Inisialisasi TextSearchCriteria untuk menemukan teks watermark
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         for (PossibleWatermark watermark : watermarks)
         {
             try
             {
-                // {java_text.example.coment4}
+                // Edit teks dan atur properti tanda air
                 watermark.getFormattedTextFragments().clear();
                 watermark.getFormattedTextFragments().add("passed", new Font("Calibri", 19, FontStyle.Bold), Color.getRed(), Color.getAqua());
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                // {java_text.example.coment5}
-                // {java_text.example.coment6}
-                // {java_text.example.coment7}
+                // Entitas yang ditemukan mungkin tidak mendukung pengeditan teks
+                // Argumen yang diteruskan dapat memiliki nilai yang tidak sesuai
+                // Proses kasus seperti itu di sini
             }
         }
             
-        // {java_text.example.coment8}
-        watermarker.save("output.pdf");
+        // Simpan dokumen yang diberi watermark
+        watermarker.save(output.pdf);
 
         watermarker.close();
         ```        

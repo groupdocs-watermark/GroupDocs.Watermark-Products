@@ -1,80 +1,73 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-04T15:21:05
 draft: false
 path: "watermark/net/edit/image/vsd/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "C＃、ASP.NET、VB.NETのVSDで画像透かしを編集する"
+head_description: ".GroupDocs.Watermark API for .NETを使用して、C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのVSDファイルで見つかった画像透かしを編集するためのNETライブラリ."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "C＃.NETのVSDで画像透かしを編集する"
+description: "C＃、ASP.NET、VB.NET、および.NET Coreアプリケーション内のVSDドキュメントで、見つかった画像の透かしを検索して変更します。ドキュメントにBMP、PNG、GIF、JPEG画像の透かしを追加します。また、必要に応じて、透かしのサイズ、フォントタイプ、回転角度、およびドキュメントページ上の透かしの位置を管理します。"
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark for .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark for .NETは、.NETアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
         
-        {net_image.about.content2}
+        GroupDocs.Watermark APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: ".NETのVSDファイルで画像透かしを編集する"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/）を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションの画像（BMP、PNG、GIF、またはJPEG)透かしを簡単に編集できます。 。
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * 力VSDドキュメントを使用して* Watermarker* をインスタンス化します。
+        * 像の透かしを見つけるために* SearchCriteria* を初期化します。
+        * つかった透かしを置き換えます。
+        * しく透かしを入れたドキュメントを保存します。
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "システム要求"
     content_right: |
-        {net_image.steps.content_right.description}
+        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 発環境: Visual Studio、Xamarin、MonoDevelop
+        * レームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)から最新バージョンのGroupDocs.Watermarkfor.NETをダウンロードします。
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.vsd"))
-        {
-            // {net_image.example.coment3}
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
+        // C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのVSDで画像透かしを検索して置換します
+        //入力VSDドキュメントを使用してウォーターマーカーをインスタンス化します
+        using (Watermarker watermarker = new Watermarker(input.vsd))
+          {
+            //特定の画像に一致するようにSearchCriteriaを初期化します
+            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             foreach (PossibleWatermark watermark in watermarks)
-            {
-                try
                 {
-                    // {net_image.example.coment4}
-                    watermark.ImageData = imageData;
+                    try
+                        {
+                            //見つかった画像を置き換えます
+                            watermark.ImageData = imageData;
+                        }
+                    catch (Exception e)
+                    {
+                        //見つかったエンティティはテキスト編集をサポートしていない可能性があります
+                        //渡された引数は不適切な値を持つ可能性があります
+                        //このようなケースをここで処理します
+                    }
                 }
-                catch (Exception e)
-                {
-                    // {net_image.example.coment5}
-                    // {net_image.example.coment6}
-                    // {net_image.example.coment7}
-                }
-            }
-            // {net_image.example.coment8}
-            watermarker.Save("output.vsd");
-        }
+            
+            //透かし入りのドキュメントを保存します
+            watermarker.Save(output.vsd);
+          }
         ```        
 
 demos:

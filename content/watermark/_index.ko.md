@@ -1,404 +1,79 @@
 ---
-############################# Static ############################
-layout: "family"
-date:  2024-02-16T13:08:05
+layout: "product"
+date: 2021-04-27T09:31:06+03:00
 draft: false
 
-product: "Watermark"
-product_tag: "watermark"
+head_title: "워터마크 솔루션 | 온프레미스 API 및 무료 앱 - GroupDocs"
+head_description: "PDF, 이미지 및 문서에 워터마크를 추가합니다. Microsoft Office, PDF, OpenDocument, 이미지 파일 형식 등을 위한 워터마킹 솔루션."
 
-lang: ko
+title: "문서용 워터마크 솔루션"
+description: "스마트 검색으로 문서와 이미지의 텍스트와 이미지 기반 워터마크를 빠르게 적용하고 조작하세요."
 
-############################# Head ############################
-head_title: "{index-content.head_title}"
-head_description: "{index-content.head_description}"
-
-############################# Header ############################
-title: "{index-content.title}"
-description:  |
-  {index-content.description_1}
-
-  {index-content.description_2}
-
-  {index-content.description_3}
-
-############################# Supported Platforms ###############################
-supported_platforms:
+apis:
   enable: true
-  head_title: "{index-content.platforms.head_title}"
-  title: "{index-content.platforms.title}"
-  description: "{index-content.platforms.description}"
-  details_link_title: "{index-content.platforms.learn_more}"
 
-  items:
-    # items loop
-    - title: ".NET"
-      description: GroupDocs.Watermark .NET 
-      color: "blue"
-      tag: "net"
-      link: "/watermark/net/"
-      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows <br> Linux <br> Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    Microsoft Visual Studio <br> JetBrains Rider
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
-      
+  api:
+    - title: "GroupDocs.Watermark 하이 코드 API 포함"
+      link: "/watermark/"
+      label: "모든 하이 코드 API 보기"
+      api_product:
+        - link: "/watermark/net/"
+          img_alt: "GroupDocs.Watermark for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
+          product: "GroupDocs.Watermark for"
+          platform: ".NET"
+          content: ".NET 애플리케이션 내의 다양한 파일 형식에서 텍스트 또는 이미지 워터마크 검색, 추가 또는 제거."
 
-    # items loop
-    - title: "Java"
-      description: GroupDocs.Watermark Java
-      color: "red"
-      tag: "java"
-      link: "/watermark/java/"
-      features_link: "https://docs.groupdocs.com/watermark/java/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    Java 8 or higher <br> Kotlin
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows <br> Linux <br> Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    IntelliJ IDEA <br> Eclipse <br> NetBeans
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
+        - link: "/watermark/java/"
+          img_alt: "GroupDocs.Watermark for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
+          product: "GroupDocs.Watermark for"
+          platform: "Java"
+          content: "MS Office, OpenOffice, 휴대용 문서, 이미지, 도면 등의 워터마크를 조작하기 위한 Java 기반 애플리케이션용 온프레미스 API."
 
-    # items loop
-    - title: "Node.js"
-      description: GroupDocs.Watermark Node.js
-      color: "green"
-      tag: "nodejs-java"
-      link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
-      features:
-          # features loop
-          - rows: "4"
-            content: |
-                    Node.js 16+ and J2SE 8.0 (1.8)+
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    Windows <br> Linux <br> Mac OS
-      
-          # features loop
-          - rows: "3"
-            content: |
-                    Atom <br> Visual Studio Code <br> {index-content.platforms.any_other_text_editor}
-      
-          # features loop
-          - rows: "1"
-            content: |
-                    50+ file formats
+    - title: "GroupDocs.Watermark 로우 코드 API 포함"
+      link: "https://products.groupdocs.cloud/watermark"
+      label: "모든 로우 코드 API 보기"
+      api_product:
+        - link: "https://products.groupdocs.cloud/watermark/net"
+          img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
+          product: "GroupDocs.Watermark"
+          platform: "Cloud SDK for .NET"
+          content: ".NET SDK와 함께 워터마크 REST API를 사용하여 .NET 애플리케이션 내의 문서 형식에서 워터마크를 적용, 찾기, 편집 및 제거합니다.."
 
-############################# Features ###############################
-features:
+        - link: "https://products.groupdocs.cloud/watermark/java"
+          img_alt: "GroupDocs.Watermark Cloud SDK for Java"
+          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
+          product: "GroupDocs.Watermark"
+          platform: "Cloud SDK for Java"
+          content: "Java용 워터마크 SDK를 사용하여 유연한 워터마크 관리 기능으로 Java 애플리케이션 강화."
+
+    - title: "GroupDocs.Watermark 코드 앱 포함 없음"
+      link: "https://products.groupdocs.app/watermark"
+      label: "코드 없음 앱 모두 보기"
+      api_product:
+        - link: "https://products.groupdocs.app/watermark/total"
+          img_alt: "GroupDocs.Watermark Total"
+          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
+          product: "GroupDocs.Watermark"
+          platform: "Total"
+          content: "Word, PowerPoint, Excel, PDF 및 40개 이상의 기타 파일 형식에 워터마크를 추가하는 무료 온라인 앱."
+
+        - link: "https://products.groupdocs.app/watermark/docx"
+          img_alt: "GroupDocs.Watermark DOCX"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          product: "GroupDocs.Watermark"
+          platform: "DOCX"
+          content: "온라인으로 Microsoft Word 문서에 텍스트 기반 워터마크 추가."
+
+        - link: "https://products.groupdocs.app/watermark/pdf"
+          img_alt: "GroupDocs.Watermark PDF"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          product: "GroupDocs.Watermark"
+          platform: "PDF"
+          content: "PDF 문서에 워터마크 기능을 제공하는 무료 온라인 앱."
+
+back_to_top:
   enable: true
-  title: "{index-content.features.title}"
-  description: "{index-content.features.description}"
-
-  items:
-    # items loop
-    - icon: "protect"
-      title: "{index-content.features.feature_1.title}"
-      content: "{index-content.features.feature_1.content}"
-
-    # items loop
-    - icon: "search"
-      title: "{index-content.features.feature_2.title}"
-      content: "{index-content.features.feature_2.content}"
-
-    # items loop
-    - icon: "manipulate"
-      title: "{index-content.features.feature_3.title}"
-      content: "{index-content.features.feature_3.content}"
-
-    # items loop
-    - icon: "additional"
-      title: "{index-content.features.feature_4.title}"
-      content: "{index-content.features.feature_4.content}"
-
-############################# Code Samples ###############################
-code_samples:
-  enable: true
-  title: "{index-content.code_samples.index_title}"
-  description: "{index-content.code_samples.index_description}"
-
-  items:
-    # items loop
-    - title: "{index-content.code_samples.sample_index.title}"
-      content: "{index-content.code_samples.sample_index.content}"
-      samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // {index-content.code_samples.sample_index.comment_1}
-
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // {index-content.code_samples.sample_index.comment_2}
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
-
-                          // {index-content.code_samples.sample_index.comment_3}
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
-
-                          // {index-content.code_samples.sample_index.comment_4}
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
-
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // {index-content.code_samples.sample_index.comment_1}
-
-                        Watermarker watermarker = new Watermarker("source.docx");
-
-                        // {index-content.code_samples.sample_index.comment_2}
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
-
-                        // {index-content.code_samples.sample_index.comment_3}
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
-
-                        // {index-content.code_samples.sample_index.comment_4}
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // {index-content.code_samples.sample_index.comment_1}
-
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // {index-content.code_samples.sample_index.comment_2}
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
-
-                        // {index-content.code_samples.sample_index.comment_3}
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
-
-                        // {index-content.code_samples.sample_index.comment_4}
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-############################# Supported Formats ###############################
-formats:
-  enable: true
-  title: "{index-content.formats.title}"
-  description: "{index-content.formats.description}"
-
-############################# Metrics ###############################
-metrics:
-  enable: true
-  title: "{index-content.metrics.title}"
-  description: "{index-content.metrics.description}"
-
-  items:
-    # items loop
-    - number: "50+"
-      title: "{index-content.metrics.item_1.title}"
-      content: "{index-content.metrics.item_1.description}"
-
-    # items loop
-    - number: "800k"
-      title: "{index-content.metrics.item_2.title}"
-      content: "{index-content.metrics.item_2.description}"
-
-    # items loop
-    - number: "15k"
-      title: "{index-content.metrics.item_3.title}"
-      content: "{index-content.metrics.item_3.description}"
-
-    # items loop
-    - number: "140+"
-      title: "{index-content.metrics.item_4.title}"
-      content: "{index-content.metrics.item_4.description}"
-
-
-############################# Customers ###############################
-customers:
-  enable: true
-  title: "{index-content.customers.title}"
-  description: "{index-content.customers.description}"
-
-  items:
-    # items loop
-    - title: "BenQ Corporation"
-      logo: "benq"
-      
-    # items loop
-    - title: "Nasdaq Stock Market"
-      logo: "nasdaq"
-      
-    # items loop
-    - title: "AT&T Inc."
-      logo: "att"
-      
-    # items loop
-    - title: "Customer logo AstraZeneca"
-      logo: "astrazeneca"
-      
-    # items loop
-    - title: "Central Bank of Argentina"
-      logo: "argentinacentralbank"
-      
-    # items loop
-    - title: "Roche Holding AG"
-      logo: "roche"
-      
-    # items loop
-    - title: "Capita"
-      logo: "capita"
-      
-    # items loop
-    - title: "Axa S.A."
-      logo: "axa"
-      
-    # items loop
-    - title: "Instructure Inc."
-      logo: "instructure"
-      
-    # items loop
-    - title: "Wipro"
-      logo: "wipro"
-
-
-############################# Actions ###############################
-actions:
-  enable: true
-  title: "{index-content.actions.title}"
-  description: "{index-content.actions.description_index}"
-
-  items:
-    # items loop
-    - title: ".NET"
-      color: "blue"
-      link: "/watermark/net/"
-
-    # items loop
-    - title: "Java"
-      color: "red"
-      link: "/watermark/java/"
-
-    # items loop
-    - title: "Node.js"
-      color: "green"
-      link: "/watermark/nodejs-java/"      
-
-############################# FAQ ###############################
-faq:
-  enable: true
-  title: "{index-content.faq.title}"
-  description: "{index-content.faq.description}"
-
-  items:
-    # items loop
-    - question: "{index-content.faq.item_1.question}"
-      answer: "{index-content.faq.item_1.answer}"
-
-    # items loop
-    - question: "{index-content.faq.item_2.question}"
-      answer: "{index-content.faq.item_2.answer}"
-
-    # items loop
-    - question: "{index-content.faq.item_3.question}"
-      answer: "{index-content.faq.item_3.answer}"
-
-############################# Cloud Links ###############################
-cloud_links:
-  enable: true
-  title: "{index-content.cloud_links.title}"
-  description: "{index-content.cloud_links.description}"
-  
-  items:
-    # items loop
-    - title: "GroupDocs.Watermark Cloud for cURL"
-      content: "{index-content.cloud_links.item_1.content}"
-      icon: "groupdocs_watermark-for-curl"
-      link: "https://products.groupdocs.cloud/watermark/curl"
-
-    # items loop
-    - title: "GroupDocs.Watermark Cloud for .NET"
-      content: "{index-content.cloud_links.item_2.content}"
-      icon: "groupdocs_watermark-for-net"
-      link: "https://products.groupdocs.cloud/watermark/net"
-
-    # items loop
-    - title: "GroupDocs.Watermark Cloud for Java"
-      content: "{index-content.cloud_links.item_3.content}"
-      icon: "groupdocs_watermark-for-java"
-      link: "https://products.groupdocs.cloud/watermark/java"
-
-############################# App links ###############################
-app_links:
-  enable: true
-  title: "{index-content.app_links.title}"
-  description: "{index-content.app_links.description}"
-
-  items:
-    # items loop
-    - title: "GroupDocs.Watermark Total"
-      content: "{index-content.app_links.item_1.content}"
-      icon: "groupdocs_watermark-app"
-      link: "https://products.groupdocs.app/watermark/total"
-
-    # items loop
-    - title: "GroupDocs.Watermark DOCX"
-      content: "{index-content.app_links.item_2.content}"
-      icon: "groupdocs_words-app"
-      link: "https://products.groupdocs.app/watermark/docx"
-
-    # items loop
-    - title: "GroupDocs.Watermark PDF"
-      content: "{index-content.app_links.item_3.content}"
-      icon: "groupdocs_pdf-app"
-      link: "https://products.groupdocs.app/watermark/pdf"
-
-
-      
-
-
 ---

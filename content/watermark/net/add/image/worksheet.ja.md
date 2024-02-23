@@ -1,72 +1,64 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-01T17:51:41
 draft: false
 path: "watermark/net/add/image/worksheet/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "C＃、ASP.NET、VB.NETのワークシートに画像透かしを追加する"
+head_description: ".GroupDocs.Watermark API for .NETを使用して、C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのWORKSHEETファイルに画像透かしを追加するNETライブラリ."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "C＃.NETのワークシートに画像透かしを追加する"
+description: "C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのWORKSHEETファイルに画像透かしを追加します。ドキュメントにBMP、PNG、GIF、JPEG画像の透かしを追加します。また、必要に応じて、透かしのサイズ、配置、回転角度、およびドキュメントページ上の透かしの位置を管理します。"
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark for .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark for .NETは、.NETアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
         
-        {net_image.about.content2}
+        GroupDocs.Watermark APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: ".NETのワークシートファイルに画像透かしを追加"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/）を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションに画像（BMP、PNG、GIF、またはJPEG)の透かしを簡単に追加できます。 。
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * 力ワークシートドキュメントを使用して* ウォーターマーカー* をインスタンス化します。
+        * * ImageWatermark* クラスのコンストラクターパラメーターとして画像透かしパスを使用します。
+        * かしのプロパティ（サイズ、配置、色など）を設定します。
+        * かし入れに透かしを追加し、出力ドキュメントを生成します。
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "システム要求"
     content_right: |
-        {net_image.steps.content_right.description}
+        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 発環境: Visual Studio、Xamarin、MonoDevelop
+        * レームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)から最新バージョンのGroupDocs.Watermarkfor.NETをダウンロードします。
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.worksheet")
+        // C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのワークシートに画像透かしを追加します
+        //入力ワークシートドキュメントを使用してウォーターマーカーをインスタンス化します
+        using (Watermarker watermarker = new Watermarker(input.worksheet))
           {
-            // {net_image.example.coment3}
+            //ImageWatermarkクラスのコンストラクターパラメーターとして画像透かしパスを使用します
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
-                // {net_image.example.coment4}
+                //透かしのプロパティ（幅、高さ、配置）を設定します
                 watermark.Width = 140;
                 watermark.Height = 140;
                 watermark.HorizontalAlignment = HorizontalAlignment.Center;
                 watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                // {net_image.example.coment5}
+                //透かしを透かし入れに追加し、出力ドキュメントを生成します
                 watermarker.Add(watermark);
-                watermarker.Save("output.worksheet");
+                watermarker.Save(output.worksheet);
             }
           }
         ```        

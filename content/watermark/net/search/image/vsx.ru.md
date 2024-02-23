@@ -1,82 +1,62 @@
-
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2023-12-05T16:03:06
+layout: "autogen-child"
 draft: false
 path: "watermark/net/search/image/vsx/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
-
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 ############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
-
+head_title: "Поиск водяных знаков изображения из VSX в C# ASP.NET VB.NET"
+head_description: ".NET для поиска водяных знаков изображений в документе VSX с использованием функций интеллектуального поиска в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
 ############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
-
+title: "Поиск водяных знаков изображения из VSX в C#"
+description: "Используйте интеллектуальный поиск, чтобы найти все возможные водяные знаки изображения из файла VSX в приложениях C#, ASP.NET, VB.NET и .NET Core. Определите критерии поиска, чтобы найти все совпадающие водяные знаки изображения со всех или определенных страниц исходного документа."
 ############################# SubMenu ############################
 submenu:
-    enable: true
-
+    enable: false
 ############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark для .NET API"
     content: |
-        {net_image.about.content1}
-        
-        {net_image.about.content2}
-
+        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
+        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: "Поиск водяных знаков из VSX в .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
-
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
-        
-    title_right: "{net_image.steps.title_right}"
+        [GroupDocs.Watermark](/ru/watermark/net/) упрощает разработчикам .NET интеллектуальный поиск водяных знаков изображений в своих документах, выполняя несколько простых шагов.
+        * Создайте экземпляр **Watermarker** с входным документом VSX.
+        * Инициализируйте **ImageSearchCriteria** для поиска водяных знаков.
+        * Установите максимально допустимую разницу между изображениями.
+        * Отображение возможных совпадающих водяных знаков.
+    title_right: "Системные Требования"
     content_right: |
-        {net_image.steps.content_right.description}
-
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
-        
+        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.vsx"))
-        {
-            // {net_image.example.coment3}
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-
-            // {net_image.example.coment4}
+        // поиск возможных водяных знаков IMAGE в документе VSX с использованием C#, ASP.NET, VB.NET и .NET Core.
+        // Создаем водяной знак с входным документом VSX
+        using (Watermarker watermarker = new Watermarker(input.vsx));
+          {
+            // Инициализируем ImageSearchCriteria для запуска поиска водяных знаков
+            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
+            // Установить максимально допустимую разницу между образцом изображения и возможным водяным знаком
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
-        }
+          }
         ```        
-
 demos:
-    enable: true
-        
-
+    enable: false
 about_formats:
-    enable: true
-
-
+    enable: false
 more_formats:
     enable: true
-
-
 back_to_top:
     enable: true
 ---

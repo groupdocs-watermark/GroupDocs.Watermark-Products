@@ -1,72 +1,64 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T14:00:15
 draft: false
 path: "watermark/java/remove/image/ppsx/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{java_image.head.title}"
-head_description: "{java_image.head.description}"
+head_title: "Hapus Tanda Air Gambar dari PPSX di Java"
+head_description: "Pustaka Java untuk menemukan dan menghapus tanda air gambar dari dokumen PPSX menggunakan pencarian cerdas dalam aplikasi Java & J2SE menggunakan GroupDocs.Watermark APIs for Java."
 
-############################# Header ############################
-title: "{java_image.header.title}"
-description: "{java_image.header.description}"
+title: "Hapus Tanda Air Gambar dari PPSX di Java"
+description: "Gunakan pencarian cerdas untuk menemukan & menghapus tanda air gambar dari dokumen PPSX dari dalam aplikasi Java & J2SE. Tentukan kriteria pencarian untuk mencari & menghapus tanda air yang ditentukan dari dokumen."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_image.about.title}"
+    title: "GroupDocs.Watermark untuk Java API"
     content: |
-        {java_image.about.content1}
+        GroupDocs.Watermark for Java adalah solusi manajemen watermark lengkap untuk aplikasi Java. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {java_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi utama dan versi Java termasuk J2SE 7.0 (1.7), J2SE 8.0 (1.8) dan Java 10.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_image.steps.title_left}"
+    title_left: "Hapus Tanda Air dari File PPSX di Java"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk mencari dan menghapus tanda air dengan pemformatan teks dari aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {java_image.steps.content_left.step_1}
-        *   {java_image.steps.content_left.step_2}
-        *   {java_image.steps.content_left.step_3}
-        *   {java_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen PPSX.
+        * Inisialisasi **PossibleWatermarkCollection** untuk menemukan tanda air gambar.
+        * Hapus tanda air yang ditentukan dari dokumen.
+        * Simpan dokumen yang dimodifikasi.
         
-    title_right: "{java_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {java_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {java_image.steps.content_right.step_1}
-        *   {java_image.steps.content_right.step_2}
-        *   {java_image.steps.content_right.step_3}
-        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Kerangka: Java 7 (1.7) dan di atasnya
+        * Unduh versi terbaru GroupDocs.Watermark untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        // {java_image.example.coment1}
-        // {java_image.example.coment2}
-        Watermarker watermarker = new Watermarker("input.ppsx")
+        // Cari & hapus tanda air gambar dari dokumen PPSX di aplikasi Java
+        // Instansiasi Watermarker dengan memasukkan dokumen PPSX
+        Watermarker watermarker = new Watermarker(input.ppsx)
         
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
 
-        // {java_image.example.coment3}
+        // Hapus tanda air dari posisi indeks tertentu dari dokumen
         possibleWatermarks.removeAt(0);
 
-        // {java_image.example.coment4}
+        // Hapus kemungkinan tanda air yang ditentukan dari dokumen
         possibleWatermarks.remove(possibleWatermarks.get_Item(0);
 
-        // {java_image.example.coment5}
-        watermarker.save("output.doc");
+        // Simpan dokumen yang dimodifikasi
+        watermarker.save(output.ppsx);
 
-        watermarker.close();   
+        watermarker.close();        
         ```        
 
 demos:

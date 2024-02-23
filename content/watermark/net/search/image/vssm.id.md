@@ -1,68 +1,60 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T16:03:05
 draft: false
 path: "watermark/net/search/image/vssm/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "Cari Tanda Air Gambar dari VSSM di C# ASP.NET VB.NET"
+head_description: ".Pustaka .NET untuk mencari tanda air gambar dari dokumen VSSM menggunakan fitur pencarian pintar dalam aplikasi C#, ASP.NET, VB.NET & .NET Core menggunakan API GroupDocs.Watermark untuk .NET."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "Cari Tanda Air Gambar dari VSSM di C#"
+description: "Gunakan pencarian cerdas untuk menemukan semua kemungkinan tanda air gambar dari file VSSM dari dalam aplikasi C#, ASP.NET, VB.NET & .NET Core. Tentukan kriteria pencarian tp temukan semua tanda air gambar yang cocok dari seluruh atau halaman tertentu dari dokumen sumber."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark untuk .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark untuk .NET adalah solusi manajemen tanda air lengkap untuk aplikasi .NET. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {net_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: "Cari Tanda Air dari VSSM di .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen VSSM.
+        * Inisialisasi **ImageSearchCriteria** untuk melakukan pencarian tanda air.
+        * Atur perbedaan maksimum yang diizinkan antara gambar.
+        * Tampilkan kemungkinan tanda air yang cocok.
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {net_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Watermark untuk .NET dari [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.vssm"))
-        {
-            // {net_image.example.coment3}
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+        // mencari kemungkinan tanda air GAMBAR dalam dokumen VSSM menggunakan C#, ASP.NET, VB.NET & .NET Core.
+        // Instansiasi Watermarker dengan memasukkan dokumen VSSM
+        using (Watermarker watermarker = new Watermarker(input.vssm))
+          {
+            // Inisialisasi ImageSearchCriteria untuk memulai pencarian tanda air
+            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
 
-            // {net_image.example.coment4}
+            // Tetapkan perbedaan maksimum yang diizinkan antara gambar sampel dan kemungkinan tanda air
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
-        }
+          }
         ```        
 
 demos:

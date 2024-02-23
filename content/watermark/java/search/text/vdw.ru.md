@@ -1,60 +1,47 @@
-
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2023-12-05T16:03:05
+layout: "autogen-child"
 draft: false
 path: "watermark/java/search/text/vdw/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
-
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VSS VST
 ############################# Head ############################
-head_title: "{java_text.head.title}"
-head_description: "{java_text.head.description}"
-
+head_title: "Поиск водяных знаков от VDW в Java"
+head_description: "Библиотека Java для поиска водяных знаков в документе VDW с использованием функций интеллектуального поиска в приложениях Java с использованием API-интерфейсов GroupDocs.Watermark для Java."
 ############################# Header ############################
-title: "{java_text.header.title}"
-description: "{java_text.header.description}"
-
+title: "Поиск водяных знаков от VDW в Java"
+description: "Используйте интеллектуальный поиск, чтобы найти все возможные водяные знаки из файла VDW в приложениях Java и J2SE. Определите критерии поиска на основе текста, регулярных выражений (RegEx), изображений, гиперссылок, символов и различных объектов поиска, чтобы найти водяные знаки на всех или определенных страницах исходного документа."
 ############################# SubMenu ############################
 submenu:
-    enable: true
-
+    enable: false
 ############################# About ############################
 about:
     enable: true
-    title: "{java_text.about.title}"
+    title: "GroupDocs.Watermark для Java API"
     content: |
-        {java_text.about.content1}
-        
-        {java_text.about.content2}
-
+        GroupDocs.Watermark for Java — это комплексное решение для управления водяными знаками для приложений Java. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
+        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются во всех основных операционных системах и версиях Java, включая J2SE 7.0 (1.7), J2SE 8.0 (1.8) и Java 10.
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_text.steps.title_left}"
+    title_left: "Поиск водяных знаков от VDW в Java"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_text.steps.content_left.description}
-
-        *   {java_text.steps.content_left.step_1}
-        *   {java_text.steps.content_left.step_2}
-        *   {java_text.steps.content_left.step_3}
-        
-    title_right: "{java_text.steps.title_right}"
+        [GroupDocs.Watermark](/ru/watermark/java/) позволяет разработчикам Java легко выполнять интеллектуальный поиск водяных знаков в своих приложениях, выполняя несколько простых шагов.
+        * Создайте экземпляр **Watermarker** с входным документом VDW.
+        * Инициализируйте **PossibleWatermarkCollection** для поиска водяных знаков.
+        * Определены критерии поиска возможных водяных знаков.
+    title_right: "Системные Требования"
     content_right: |
-        {java_text.steps.content_right.description}
-
-        *   {java_text.steps.content_right.step_1}
-        *   {java_text.steps.content_right.step_2}
-        *   {java_text.steps.content_right.step_3}
-        *   {java_text.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
-        
+        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Фреймворки: Java 7 (1.7) и выше
+        * Загрузите последнюю версию GroupDocs.Watermark для Java с [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
     code: |
         ```cs
-        // {java_text.example.coment1}
-        // {java_text.example.coment2}
-        Watermarker watermarker = new Watermarker("input.vdw")
-        
-        // {java_text.example.coment3}
+        // поиск возможных водяных знаков в документе VDW с помощью Java.
+        // Создаем водяной знак с входным документом VDW
+        Watermarker watermarker = new Watermarker(input.vdw));
+        // Инициализируем PossibleWatermarkCollection, чтобы начать поиск водяных знаков
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         for (PossibleWatermark possibleWatermark : possibleWatermarks)
         {
@@ -62,8 +49,7 @@ steps:
             {
                 System.out.println(possibleWatermark.getImageData().length);
             }
-
-            // {java_text.example.coment4}
+            // Определены критерии поиска для поиска возможных водяных знаков
             System.out.println(possibleWatermark.getText());
             System.out.println(possibleWatermark.getX());
             System.out.println(possibleWatermark.getY());
@@ -71,22 +57,14 @@ steps:
             System.out.println(possibleWatermark.getWidth());
             System.out.println(possibleWatermark.getHeight());
         }
-
         watermarker.close();
         ```        
-
 demos:
-    enable: true
-        
-
+    enable: false
 about_formats:
-    enable: true
-
-
+    enable: false
 more_formats:
     enable: true
-
-
 back_to_top:
     enable: true
 ---

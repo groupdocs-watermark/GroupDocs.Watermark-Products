@@ -1,64 +1,56 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T16:03:04
 draft: false
 path: "watermark/java/search/image/vstx/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{java_image.head.title}"
-head_description: "{java_image.head.description}"
+head_title: "Cari Tanda Air Gambar dari VSTX di Jawa"
+head_description: "Pustaka Java untuk mencari tanda air gambar dari dokumen VSTX menggunakan fitur pencarian cerdas dalam aplikasi Java & J2SE menggunakan GroupDocs.API Watermark untuk Java."
 
-############################# Header ############################
-title: "{java_image.header.title}"
-description: "{java_image.header.description}"
+title: "Cari Tanda Air Gambar dari VSTX di Jawa"
+description: "Gunakan pencarian cerdas untuk menemukan semua kemungkinan tanda air gambar dari file VSTX dari dalam aplikasi Java & J2SE. Tentukan kriteria pencarian untuk menemukan semua tanda air gambar yang cocok dari seluruh atau halaman tertentu dari dokumen sumber."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_image.about.title}"
+    title: "GroupDocs.Watermark untuk Java API"
     content: |
-        {java_image.about.content1}
+        GroupDocs.Watermark for Java adalah solusi manajemen watermark lengkap untuk aplikasi Java. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {java_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi utama dan versi Java termasuk J2SE 7.0 (1.7), J2SE 8.0 (1.8) dan Java 10.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_image.steps.title_left}"
+    title_left: "Cari Tanda Air dari VSTX di Jawa"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk secara cerdas mencari tanda air gambar dari dalam dokumen mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {java_image.steps.content_left.step_1}
-        *   {java_image.steps.content_left.step_2}
-        *   {java_image.steps.content_left.step_3}
-        *   {java_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen VSTX.
+        * Inisialisasi **ImageSearchCriteria** untuk melakukan pencarian tanda air.
+        * Atur perbedaan maksimum yang diizinkan antara gambar.
+        * Tampilkan kemungkinan tanda air yang cocok.
         
-    title_right: "{java_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {java_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {java_image.steps.content_right.step_1}
-        *   {java_image.steps.content_right.step_2}
-        *   {java_image.steps.content_right.step_3}
-        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Kerangka: Java 7 (1.7) dan di atasnya
+        * Unduh versi terbaru GroupDocs.Watermark untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        // {java_image.example.coment1}
-        // {java_image.example.coment2}
-        Watermarker watermarker = new Watermarker("input.vstx")
+        // mencari kemungkinan tanda air GAMBAR dalam dokumen VSTX menggunakan Java.
+        // Instansiasi Watermarker dengan memasukkan dokumen VSTX
+        Watermarker watermarker = new Watermarker(input.vstx);
         
-        // {java_image.example.coment3}
-        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+        // Inisialisasi ImageSearchCriteria untuk memulai pencarian tanda air
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria(watermark.jpeg);
 
-        // {java_image.example.coment4}
+        // Tetapkan perbedaan maksimum yang diizinkan antara gambar sampel dan kemungkinan tanda air
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");

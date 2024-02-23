@@ -1,70 +1,62 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T14:00:16
 draft: false
 path: "watermark/net/remove/image/pptm/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "C＃.NETのPPTMから画像透かしを削除します"
+head_description: ".GroupDocs.Watermark API for .NETを使用したC＃、ASP.NET、VB.NET、および.NET Coreアプリケーション内のスマート検索を使用して、PPTMドキュメントから画像の透かしを検索して削除するNETライブラリ."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "C＃でPPTMから画像透かしを削除します"
+description: "スマート検索を使用して、C＃、ASP.NET、VB.NET、および.NETCoreアプリケーション内からPPTMドキュメントから画像透かしを見つけて削除します。ドキュメントから指定された透かしを検索および削除するための検索基準を定義します."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark for .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark for .NETは、.NETアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
         
-        {net_image.about.content2}
+        GroupDocs.Watermark APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: ".NETのPPTMファイルから透かしを削除する"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションからテキスト形式の透かしを簡単に検索して削除できます。
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * 力PPTMドキュメントを使用して* Watermarker* をインスタンス化します。
+        * 像の透かしを見つけるために* SearchCriteria* を初期化します。
+        * キュメントから定義された透かしを削除します。
+        * 更したドキュメントを保存します。
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "システム要求"
     content_right: |
-        {net_image.steps.content_right.description}
+        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 発環境: Visual Studio、Xamarin、MonoDevelop
+        * レームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)から最新バージョンのGroupDocs.Watermarkfor.NETをダウンロードします。
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.pptm"))
-        {
-            // {net_image.example.coment3}
+        // C＃、ASP.NET、VB.NET、および.NETCoreアプリケーションのPPTMドキュメントから画像透かしを検索して削除します
+        //入力PPTMドキュメントを使用してウォーターマーカーをインスタンス化します
+        using (Watermarker watermarker = new Watermarker(input.pptm))
+          {
+            //特定の画像に一致するようにSearchCriteriaを初期化します
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
-            // {net_image.example.coment4}
+            //指定した透かしをドキュメントから削除します
             possibleWatermarks.Remove(possibleWatermarks[0]);
 
-            // {net_image.example.coment5}
-            watermarker.Save("output.pptm");
-        }
+            //変更したドキュメントを保存します
+            watermarker.Save(output.pptm);
+          }
         ```        
 
 demos:

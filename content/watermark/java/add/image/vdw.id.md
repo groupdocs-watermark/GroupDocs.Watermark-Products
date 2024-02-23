@@ -1,72 +1,64 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-01T17:51:39
 draft: false
 path: "watermark/java/add/image/vdw/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VSS VST
 
-############################# Head ############################
-head_title: "{java_image.head.title}"
-head_description: "{java_image.head.description}"
+head_title: "Tambahkan Tanda Air Gambar ke VDW di Java"
+head_description: "Pustaka Java untuk menambahkan tanda air gambar ke file VDW di aplikasi Java & J2SE menggunakan GroupDocs.Watermark API untuk Java."
 
-############################# Header ############################
-title: "{java_image.header.title}"
-description: "{java_image.header.description}"
+title: "Tambahkan Tanda Air Gambar ke VDW di Java"
+description: "Menambahkan watermark gambar ke file VDW di aplikasi Java & J2SE. Tambahkan tanda air gambar BMP, PNG, GIF & JPEG ke dokumen. Kelola juga ukuran tanda air, perataan, sudut rotasi, dan posisi tanda air pada halaman dokumen, sesuai kebutuhan Anda."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_image.about.title}"
+    title: "GroupDocs.Watermark untuk Java API"
     content: |
-        {java_image.about.content1}
+        GroupDocs.Watermark for Java adalah solusi manajemen watermark lengkap untuk aplikasi Java. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {java_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi utama dan versi Java termasuk J2SE 7.0 (1.7), J2SE 8.0 (1.8) dan Java 10.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_image.steps.title_left}"
+    title_left: "Tambahkan Tanda Air Gambar ke File VDW di Java"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/java/) memudahkan pengembang Java untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {java_image.steps.content_left.step_1}
-        *   {java_image.steps.content_left.step_2}
-        *   {java_image.steps.content_left.step_3}
-        *   {java_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen VDW.
+        * Gunakan jalur tanda air gambar sebagai parameter konstruktor kelas **ImageWatermark**.
+        * Atur properti tanda air (ukuran, perataan, warna, dll).
+        * Tambahkan tanda air ke penanda air dan hasilkan dokumen keluaran.
         
-    title_right: "{java_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {java_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {java_image.steps.content_right.step_1}
-        *   {java_image.steps.content_right.step_2}
-        *   {java_image.steps.content_right.step_3}
-        *   {java_image.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Kerangka: Java 7 (1.7) dan di atasnya
+        * Unduh versi terbaru GroupDocs.Watermark untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
         
     code: |
         ```cs
-        // {java_image.example.coment1}
-        // {java_image.example.coment2}
-        Watermarker watermarker = new Watermarker("input.vdw")
+        // Tambahkan tanda air gambar ke VDW di aplikasi Java
+        // Instansiasi Watermarker dengan memasukkan dokumen VDW
+        Watermarker watermarker = new Watermarker(input.vdw)
         
-        // {java_image.example.coment3}
-        ImageWatermark watermark = new ImageWatermark("watermark.png")
+        // Gunakan jalur watermark gambar sebagai parameter konstruktor kelas ImageWatermark
+        ImageWatermark watermark = new ImageWatermark(watermark.png)
         
-        // {java_image.example.coment4}
+        // Setel properti tanda air (lebar, tinggi, perataan)
         watermark.Width = 140;
         watermark.Height = 140;
         watermark.HorizontalAlignment = HorizontalAlignment.Center;
         watermark.VerticalAlignment = VerticalAlignment.Center;
 
-        // {example.coment5}
+        //Tambahkan tanda air ke penanda air dan hasilkan dokumen keluaran
         watermarker.add(watermark);
-        watermarker.save("output.vdw");
+        watermarker.save(output.vdw);
 
         watermark.close();
         watermarker.close();

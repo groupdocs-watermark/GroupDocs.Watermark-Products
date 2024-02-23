@@ -1,78 +1,70 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-01T17:51:42
 draft: false
 path: "watermark/net/add/text/potm/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_text.head.title}"
-head_description: "{net_text.head.description}"
+head_title: "Tambahkan Tanda Air Teks ke POTM di C#, ASP.NET, VB.NET"
+head_description: ".Pustaka .NET untuk menambahkan tanda air teks ke file POTM di aplikasi C#, ASP.NET, VB.NET & .NET Core menggunakan API GroupDocs.Watermark untuk .NET."
 
-############################# Header ############################
-title: "{net_text.header.title}"
-description: "{net_text.header.description}"
+title: "Tambahkan Tanda Air Teks ke POTM di C# .NET"
+description: "Menambahkan watermark teks ke file POTM di aplikasi C#, ASP.NET, VB.NET & .NET Core. Kelola ukuran tanda air, jenis font, sudut rotasi, dan posisi tanda air pada halaman dokumen, sesuai kebutuhan Anda."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_text.about.title}"
+    title: "GroupDocs.Watermark untuk .NET API"
     content: |
-        {net_text.about.content1}
+        GroupDocs.Watermark untuk .NET adalah solusi manajemen tanda air lengkap untuk aplikasi .NET. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {net_text.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_text.steps.title_left}"
+    title_left: "Tambahkan Tanda Air Teks ke File POTM di .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {net_text.steps.content_left.step_1}
-        *   {net_text.steps.content_left.step_2}
-        *   {net_text.steps.content_left.step_3}
-        *   {net_text.steps.content_left.step_4}
-        *   {net_text.steps.content_left.step_5}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen POTM.
+        * Inisialisasi **Font** yang akan digunakan untuk tanda air.
+        * Buat objek **TextWatermark**.
+        * Atur properti tanda air (perataan, warna, dll).
+        * Tambahkan tanda air ke penanda air dan hasilkan dokumen keluaran.
         
-    title_right: "{net_text.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {net_text.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {net_text.steps.content_right.step_1}
-        *   {net_text.steps.content_right.step_2}
-        *   {net_text.steps.content_right.step_3}
-        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Watermark untuk .NET dari [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // {net_text.example.coment1}
-        // {net_text.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.potm"))
+        // Tambahkan tanda air teks ke POTM di aplikasi C#, ASP.NET, VB.NET & .NET Core
+        // Instansiasi Watermarker dengan memasukkan dokumen POTM
+        using (Watermarker watermarker = new Watermarker(input.potm))
           {
-            // {net_text.example.coment3}
+            // Inisialisasi Font yang akan digunakan untuk watermark
             Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
             
-            // {net_text.example.coment4}
+            // Buat objek TextWatermark
             TextWatermark watermark = new TextWatermark("my watermark", font);
 
-            // {net_text.example.coment5}
+            // Setel properti tanda air
             watermark.ForegroundColor = Color.Red;
             watermark.BackgroundColor = Color.Blue;
             watermark.TextAlignment = TextAlignment.Right;
             watermark.Opacity = 0.5;
 
-            // {net_text.example.coment6}
+            // Tambahkan tanda air dan simpan gambar yang diberi tanda air
             watermarker.Add(watermark);
-            watermarker.Save("output.potm");
+            watermarker.Save(output.potm);
           }
-        ```      
+        ```        
 
 demos:
     enable: true

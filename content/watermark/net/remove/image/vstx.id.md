@@ -1,70 +1,62 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T14:00:16
 draft: false
 path: "watermark/net/remove/image/vstx/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "Hapus Tanda Air Gambar dari VSTX di C# .NET"
+head_description: ".Pustaka .NET untuk menemukan dan menghapus tanda air gambar dari dokumen VSTX menggunakan pencarian cerdas dalam aplikasi C#, ASP.NET, VB.NET & .NET Core menggunakan API GroupDocs.Watermark untuk .NET."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "Hapus Tanda Air Gambar dari VSTX di C#"
+description: "Gunakan pencarian cerdas untuk menemukan & menghapus tanda air gambar dari dokumen VSTX dari dalam aplikasi C#, ASP.NET, VB.NET & .NET Core. Tentukan kriteria pencarian untuk mencari & menghapus tanda air yang ditentukan dari dokumen."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark untuk .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark untuk .NET adalah solusi manajemen tanda air lengkap untuk aplikasi .NET. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {net_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: "Hapus Tanda Air dari File VSTX di .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk mencari dan menghapus tanda air dengan pemformatan teks dari aplikasi mereka dengan menerapkan beberapa langkah mudah.
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen VSTX.
+        * Inisialisasi **SearchCriteria** untuk menemukan watermark gambar.
+        * Hapus tanda air yang ditentukan dari dokumen.
+        * Simpan dokumen yang dimodifikasi.
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {net_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Watermark untuk .NET dari [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.vstx"))
-        {
-            // {net_image.example.coment3}
+        // Cari & hapus tanda air gambar dengan dari dokumen VSTX di aplikasi C#, ASP.NET, VB.NET & .NET Core
+        // Instansiasi Watermarker dengan memasukkan dokumen VSTX
+        using (Watermarker watermarker = new Watermarker(input.vstx))
+          {
+            // Inisialisasi Kriteria Pencarian untuk mencocokkan gambar tertentu
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
-            // {net_image.example.coment4}
+            // Hapus tanda air yang ditentukan dari dokumen
             possibleWatermarks.Remove(possibleWatermarks[0]);
 
-            // {net_image.example.coment5}
-            watermarker.Save("output.vstx");
-        }
+            // Simpan dokumen yang dimodifikasi
+            watermarker.Save(output.vstx);
+          }
         ```        
 
 demos:

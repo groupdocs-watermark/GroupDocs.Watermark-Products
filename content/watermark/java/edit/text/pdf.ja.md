@@ -1,82 +1,74 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-04T15:21:05
 draft: false
 path: "watermark/java/edit/text/pdf/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{java_text.head.title}"
-head_description: "{java_text.head.description}"
+head_title: "JavaでPDFのテキスト透かしを編集する"
+head_description: "GroupDocs.Watermark API for Javaを使用して、JavaアプリケーションでPDFファイルで見つかったテキスト透かしを編集するJavaライブラリ."
 
-############################# Header ############################
-title: "{java_text.header.title}"
-description: "{java_text.header.description}"
+title: "JavaでPDFのテキスト透かしを編集する"
+description: "JavaおよびJ2SEアプリケーション内でフォーマットを使用して、PDFドキュメントで見つかったテキスト透かしを検索および変更します。必要に応じて、透かしのサイズ、フォントタイプ、回転角度、およびドキュメントページ上の透かしの位置を管理します。"
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{java_text.about.title}"
+    title: "GroupDocs.Watermark for Java API"
     content: |
-        {java_text.about.content1}
+        GroupDocs.Watermark for Javaは、Javaアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
         
-        {java_text.about.content2}
+        GroupDocs.Watermark APIは、J2SE 7.0（1.7）、J2SE 8.0（1.8）、Java10を含むすべての主要なオペレーティングシステムとJavaバージョンで十分にサポートされています。
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{java_text.steps.title_left}"
+    title_left: "JavaでPDFファイルのテキスト透かしを編集する"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) {java_text.steps.content_left.description}
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーションのテキスト透かしを簡単に編集できます。
 
-        *   {java_text.steps.content_left.step_1}
-        *   {java_text.steps.content_left.step_2}
-        *   {java_text.steps.content_left.step_3}
-        *   {java_text.steps.content_left.step_4}
-        *   {java_text.steps.content_left.step_5}
+        * 力PDFドキュメントで* Watermarker* をインスタンス化します。
+        * *  TextSearchCriteria * を初期化して、テキストの透かしを検索します。
+        * つかった透かしのテキストを編集します。
+        * かしのプロパティ（フォントスタイル、色など）を設定します。
+        * しく透かしを入れたドキュメントを保存します。
         
-    title_right: "{java_text.steps.title_right}"
+    title_right: "システム要求"
     content_right: |
-        {java_text.steps.content_right.description}
+        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *   {java_text.steps.content_right.step_1}
-        *   {java_text.steps.content_right.step_2}
-        *   {java_text.steps.content_right.step_3}
-        *   {java_text.steps.content_right.step_4} [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
+        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 発環境: NetBeans、IntelliJ IDEA、Eclipse
+        * レームワーク: Java 7（1.7）以降
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)から最新バージョンのGroupDocs.WatermarkforJavaをダウンロードします。
         
     code: |
         ```cs
-        // {java_text.example.coment1}
-        // {java_text.example.coment2}
-        Watermarker watermarker = new Watermarker("input.pdf")
+        //JavaアプリケーションでPDF形式のテキスト透かしを検索して更新します
+        //入力PDFドキュメントでウォーターマーカーをインスタンス化します
+        Watermarker watermarker = new Watermarker(input.pdf))
         
-        // {java_text.example.coment3}
+        // TextSearchCriteriaを初期化して、テキストの透かしを検索します
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         for (PossibleWatermark watermark : watermarks)
         {
             try
             {
-                // {java_text.example.coment4}
+                //テキストを編集し、透かしのプロパティを設定します
                 watermark.getFormattedTextFragments().clear();
                 watermark.getFormattedTextFragments().add("passed", new Font("Calibri", 19, FontStyle.Bold), Color.getRed(), Color.getAqua());
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                // {java_text.example.coment5}
-                // {java_text.example.coment6}
-                // {java_text.example.coment7}
+                //見つかったエンティティはテキスト編集をサポートしていない可能性があります
+                //渡された引数は不適切な値を持つ可能性があります
+                //このようなケースをここで処理します
             }
         }
             
-        // {java_text.example.coment8}
-        watermarker.save("output.pdf");
+        //透かし入りのドキュメントを保存します
+        watermarker.save(output.pdf);
 
         watermarker.close();
         ```        

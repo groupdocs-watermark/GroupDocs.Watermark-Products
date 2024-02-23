@@ -1,72 +1,64 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-01T17:51:41
 draft: false
 path: "watermark/net/add/image/odt/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_image.head.title}"
-head_description: "{net_image.head.description}"
+head_title: "Tambahkan Tanda Air Gambar ke ODT di C#, ASP.NET, VB.NET"
+head_description: ".Pustaka .NET untuk menambahkan tanda air gambar ke file ODT di aplikasi C#, ASP.NET, VB.NET & .NET Core menggunakan API GroupDocs.Watermark untuk .NET."
 
-############################# Header ############################
-title: "{net_image.header.title}"
-description: "{net_image.header.description}"
+title: "Tambahkan Tanda Air Gambar ke ODT di C# .NET"
+description: "Menambahkan tanda air gambar ke file ODT di aplikasi C#, ASP.NET, VB.NET & .NET Core. Tambahkan tanda air gambar BMP, PNG, GIF & JPEG ke dokumen. Kelola juga ukuran tanda air, perataan, sudut rotasi, dan posisi tanda air pada halaman dokumen, sesuai kebutuhan Anda."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_image.about.title}"
+    title: "GroupDocs.Watermark untuk .NET API"
     content: |
-        {net_image.about.content1}
+        GroupDocs.Watermark untuk .NET adalah solusi manajemen tanda air lengkap untuk aplikasi .NET. Pengembang dapat dengan cepat melakukan operasi manipulasi tanda air seperti; tambahkan, edit, cari, dan hapus berbagai jenis tanda air dari dalam dokumen semua format file populer. Mendukung bekerja dengan teks dan tanda air gambar dalam berbagai dokumen termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, Email dan format gambar.
         
-        {net_image.about.content2}
+        GroupDocs.Watermark API didukung dengan baik di semua sistem operasi dan platform utama termasuk .NET Framework, .NET Standard, .NET Core, Mono, dan Xamarin.
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_image.steps.title_left}"
+    title_left: "Tambahkan Tanda Air Gambar ke File ODT di .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_image.steps.content_left.description}
+        [GroupDocs.Watermark](/watermark/net/) memudahkan pengembang .NET untuk menambahkan tanda air gambar (BMP, PNG, GIF, atau JPEG) dalam aplikasi mereka dengan menerapkan beberapa langkah mudah .
 
-        *   {net_image.steps.content_left.step_1}
-        *   {net_image.steps.content_left.step_2}
-        *   {net_image.steps.content_left.step_3}
-        *   {net_image.steps.content_left.step_4}
+        * Instansiasi **Watermarker** dengan memasukkan dokumen ODT.
+        * Gunakan jalur tanda air gambar sebagai parameter konstruktor kelas **ImageWatermark**.
+        * Atur properti tanda air (ukuran, perataan, warna, dll).
+        * Tambahkan tanda air ke penanda air dan hasilkan dokumen keluaran.
         
-    title_right: "{net_image.steps.title_right}"
+    title_right: "Persyaratan sistem"
     content_right: |
-        {net_image.steps.content_right.description}
+        Sebelum menjalankan contoh kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        *   {net_image.steps.content_right.step_1}
-        *   {net_image.steps.content_right.step_2}
-        *   {net_image.steps.content_right.step_3}
-        *   {net_image.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Watermark untuk .NET dari [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
         
     code: |
         ```cs
-        // {net_image.example.coment1}
-        // {net_image.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.odt")
+        // Tambahkan tanda air gambar ke ODT di aplikasi C#, ASP.NET, VB.NET & .NET Core
+        // Instansiasi Watermarker dengan memasukkan dokumen ODT
+        using (Watermarker watermarker = new Watermarker(input.odt))
           {
-            // {net_image.example.coment3}
+            // Gunakan jalur watermark gambar sebagai parameter konstruktor kelas ImageWatermark
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
-                // {net_image.example.coment4}
+                // Setel properti tanda air (lebar, tinggi, perataan)
                 watermark.Width = 140;
                 watermark.Height = 140;
                 watermark.HorizontalAlignment = HorizontalAlignment.Center;
                 watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                // {net_image.example.coment5}
+                //Tambahkan tanda air ke penanda air dan hasilkan dokumen keluaran
                 watermarker.Add(watermark);
-                watermarker.Save("output.odt");
+                watermarker.Save(output.odt);
             }
           }
         ```        

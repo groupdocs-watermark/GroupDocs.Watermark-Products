@@ -1,91 +1,69 @@
-
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2023-12-01T17:51:42
+layout: "autogen-child"
 draft: false
 path: "watermark/net/add/text/potx/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
-
+otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 ############################# Head ############################
-head_title: "{net_text.head.title}"
-head_description: "{net_text.head.description}"
-
+head_title: "Добавить текстовый водяной знак в POTX в C#, ASP.NET, VB.NET"
+head_description: ".NET для добавления текстового водяного знака в файл POTX в приложениях C#, ASP.NET, VB.NET и .NET Core с использованием API-интерфейсов GroupDocs.Watermark для .NET."
 ############################# Header ############################
-title: "{net_text.header.title}"
-description: "{net_text.header.description}"
-
+title: "Добавить текстовый водяной знак в POTX в C# .NET"
+description: "Добавление текстового водяного знака в файл POTX в приложениях C#, ASP.NET, VB.NET и .NET Core. Управляйте размером водяного знака, типом шрифта, углом поворота и положением водяного знака на страницах документа, как вам может понадобиться."
 ############################# SubMenu ############################
 submenu:
-    enable: true
-
+    enable: false
 ############################# About ############################
 about:
     enable: true
-    title: "{net_text.about.title}"
+    title: "GroupDocs.Watermark для .NET API"
     content: |
-        {net_text.about.content1}
-        
-        {net_text.about.content2}
-
+        GroupDocs.Watermark для .NET — это комплексное решение для управления водяными знаками для приложений .NET. Разработчики могут быстро выполнять такие операции с водяными знаками, как; добавлять, редактировать, искать и удалять различные типы водяных знаков в документах всех популярных форматов файлов. Он поддерживает работу с текстовыми и графическими водяными знаками в различных документах, включая PDF, Microsoft Word, Excel, PowerPoint, Visio, электронную почту и форматы изображений.
+        API-интерфейсы GroupDocs.Watermark хорошо поддерживаются на всех основных операционных системах и платформах, включая .NET Framework, .NET Standard, .NET Core, Mono и Xamarin.
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_text.steps.title_left}"
+    title_left: "Добавить текстовый водяной знак в файл POTX в .NET"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
-
-        *   {net_text.steps.content_left.step_1}
-        *   {net_text.steps.content_left.step_2}
-        *   {net_text.steps.content_left.step_3}
-        *   {net_text.steps.content_left.step_4}
-        *   {net_text.steps.content_left.step_5}
-        
-    title_right: "{net_text.steps.title_right}"
+        [GroupDocs.Watermark](/ru/watermark/net/) позволяет разработчикам .NET легко добавлять текстовые водяные знаки в свои приложения, выполняя несколько простых шагов.
+        * Создайте экземпляр **Watermarker** с входным документом POTX.
+        * Инициализируйте **Font**, который будет использоваться для водяного знака.
+        * Создайте объект **TextWatermark**.
+        * Установите свойства водяного знака (выравнивание, цвет и т. д.).
+        * Добавьте водяной знак к водяному знаку и сгенерируйте выходной документ.
+    title_right: "Системные Требования"
     content_right: |
-        {net_text.steps.content_right.description}
-
-        *   {net_text.steps.content_right.step_1}
-        *   {net_text.steps.content_right.step_2}
-        *   {net_text.steps.content_right.step_3}
-        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
-        
+        Перед выполнением приведенного ниже примера кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Watermark для .NET из [NuGet](https://www.nuget.org/packages/GroupDocs.Watermark).
     code: |
         ```cs
-        // {net_text.example.coment1}
-        // {net_text.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.potx"))
+        // Добавляем текстовый водяной знак в POTX в приложениях C#, ASP.NET, VB.NET и .NET Core
+        // Создаем водяной маркер с входным документом POTX
+        using (Watermarker watermarker = new Watermarker(input.potx));
           {
-            // {net_text.example.coment3}
+            // Инициализируем шрифт, который будет использоваться для водяного знака
             Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-            
-            // {net_text.example.coment4}
+            // Создаем объект TextWatermark
             TextWatermark watermark = new TextWatermark("my watermark", font);
-
-            // {net_text.example.coment5}
+            // Установить свойства водяного знака
             watermark.ForegroundColor = Color.Red;
             watermark.BackgroundColor = Color.Blue;
             watermark.TextAlignment = TextAlignment.Right;
             watermark.Opacity = 0.5;
-
-            // {net_text.example.coment6}
+            // Добавляем водяной знак и сохраняем изображение с водяным знаком
             watermarker.Add(watermark);
-            watermarker.Save("output.potx");
+            watermarker.Save(output.potx);
           }
-        ```      
-
+        ```        
 demos:
-    enable: true
-        
-
+    enable: false
 about_formats:
-    enable: true
-
-
+    enable: false
 more_formats:
     enable: true
-
-
 back_to_top:
     enable: true
 ---

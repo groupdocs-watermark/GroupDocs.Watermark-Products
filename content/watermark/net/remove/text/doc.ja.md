@@ -1,61 +1,53 @@
-
 ---
-############################# Static ############################
 layout: "autogen"
-date: 2023-12-05T14:00:16
 draft: false
 path: "watermark/net/remove/text/doc/"
-otherformats: PDF WORD EXCEL VISIO PRESENTATION SPREADSHEET WORKSHEET DOC DOCM DOCX DOT DOTM DOTX EXCEL ODT POT POTM POTX PPS PPSM PPSX PPT PPTM PPTX RTF SXC TXT VDW VDX VSD VSDM VSDX VSS VSSM VSSX VST VSTM VSTX VSX VTX WORD XLAM XLS XLSB XLSM XLSX XLT XLTM XLTX
+otherformats: PDF WORD EXCEL IMAGE VISIO DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT BMP GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
 
-############################# Head ############################
-head_title: "{net_text.head.title}"
-head_description: "{net_text.head.description}"
+head_title: "C＃、ASP.NET、VB.NETのDOCから透かしを削除します"
+head_description: ".GroupDocs.Watermark API for .NETを使用してC＃、ASP.NET、VB.NET、および.NET Coreアプリケーション内でスマート検索を使用してDOCドキュメントから透かしを検索し、削除するNETライブラリ."
 
-############################# Header ############################
-title: "{net_text.header.title}"
-description: "{net_text.header.description}"
+title: "C＃.NETのDOCから透かしを削除します"
+description: "スマート検索を使用して、C＃、ASP.NET、VB.NET、および.NETCoreアプリケーション内からテキスト形式のDOCドキュメントから透かしを見つけて削除します。特定のフォント名、色、サイズ、およびその他の一致するプロパティに基づいて透かしを検索および削除するための検索基準を定義します."
 
-############################# SubMenu ############################
 submenu:
     enable: true
 
-############################# About ############################
 about:
     enable: true
-    title: "{net_text.about.title}"
+    title: "GroupDocs.Watermark for .NET API"
     content: |
-        {net_text.about.content1}
+        GroupDocs.Watermark for .NETは、.NETアプリケーション用の完全な透かし管理ソリューションです。開発者は、次のような透かし操作操作をすばやく実行できます。すべての一般的なファイル形式のドキュメント内から、さまざまな種類の透かしを追加、編集、検索、および削除します。 PDF、Microsoft Word、Excel、PowerPoint、Visio、Eメール、画像形式など、さまざまなドキュメントのテキストと画像の透かしの操作をサポートしています。
         
-        {net_text.about.content2}
+        GroupDocs.Watermark APIは、.NET Framework、.NET Standard、.NET Core、Mono、Xamarinを含むすべての主要なオペレーティングシステムとプラットフォームで十分にサポートされています。
 
-############################# Steps ############################
 steps:
     enable: true
-    title_left: "{net_text.steps.title_left}"
+    title_left: ".NETのDOCファイルから透かしを削除します"
     content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) {net_text.steps.content_left.description}
+        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーションからテキスト形式の透かしを簡単に検索して削除できます。
 
-        *   {net_text.steps.content_left.step_1}
-        *   {net_text.steps.content_left.step_2}
-        *   {net_text.steps.content_left.step_3}
-        *   {net_text.steps.content_left.step_4}
+        * 力DOCドキュメントを使用して* Watermarker* をインスタンス化します。
+        * *  TextFormattingSearchCriteria * を初期化して、テキストの透かしを検索します。
+        * かしを見つけて削除するには、定義された検索条件を初期化します。
+        * 更したドキュメントを保存します。
         
-    title_right: "{net_text.steps.title_right}"
+    title_right: "システム要求"
     content_right: |
-        {net_text.steps.content_right.description}
+        以下のコード例を実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *   {net_text.steps.content_right.step_1}
-        *   {net_text.steps.content_right.step_2}
-        *   {net_text.steps.content_right.step_3}
-        *   {net_text.steps.content_right.step_4} [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)
+        * ペレーティングシステム: Microsoft Windows、Linux、MacOS
+        * 発環境: Visual Studio、Xamarin、MonoDevelop
+        * レームワーク: .NET Framework、.NET Standard、.NET Core、Mono
+        * [Nuget](https://www.nuget.org/packages/GroupDocs.Watermark)から最新バージョンのGroupDocs.Watermarkfor.NETをダウンロードします。
         
     code: |
         ```cs
-        // {net_text.example.coment1}
-        // {net_text.example.coment2}
-        using (Watermarker watermarker = new Watermarker("input.doc"))
-        {
-            // {net_text.example.coment3}
+        // C＃、ASP.NET、VB.NET、および.NET CoreアプリケーションのDOCドキュメントから、テキスト形式の透かしを検索して削除します
+        //入力DOCドキュメントを使用してウォーターマーカーをインスタンス化します
+        using (Watermarker watermarker = new Watermarker(input.doc))
+          {
+            // TextFormattingSearchCriteriaを初期化して、検索する透かしを定義します
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.ForegroundColorRange.MinHue = -5;
@@ -72,9 +64,9 @@ steps:
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
 
-            // {net_text.example.coment4}
-            watermarker.Save("output.doc");
-        }
+            //変更したドキュメントを保存します
+            watermarker.Save(output.doc);
+          }
         ```        
 
 demos:
