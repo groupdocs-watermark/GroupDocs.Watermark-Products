@@ -1,0 +1,7 @@
+inherits: ..\\products_nodejs.yml
+
+dimensions:  
+- alias:  operation
+  values: [index] 
+
+outputPath: "watermark\\{product}\\_index.{lang}.md"

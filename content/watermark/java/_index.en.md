@@ -1,29 +1,43 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2023-10-23T14:58:09
+date: 2024-02-22T16:22:40
 draft: false
 
+lang: en
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: ".NET, Java, Cloud APIs & Online Document Signature Apps"
-head_description: "Get all-in-one document e-signature solution for .NET, Java and cloud-based applications. Sign common document formats online using simple drag and drop feature"
+head_title: "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents"
+head_description: "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio, email and images files."
 
 ############################# Header ############################
-title: "Sign documents<br>via Java API"
-description: "Sign digital documents and images on any platform using our flexible APIs and app based solutions for programmers and end-users."
+title: "Implement documents watermarking in Java projects easily"
+description: "Enhance your Java applications with the ability to watermark files using the GroupDocs.Watermark library. Our API offers customizable watermarks for a wide range of popular file formats."
 words:
   for: "for"
 
 actions:
-  main: "Free Maven Download"
+  main: "Free Download from Maven"
   main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Watermark features for free or request a license"
 
@@ -33,9 +47,9 @@ release:
   downloads: "Downloads"
 
 code:
-  title: "Sign PDF files in Java"
+  title: "Watermark PDFs via Java"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
@@ -44,41 +58,51 @@ code:
     </dependency>
   content: |
     ```java {style=abap}  
-    // Select PDF document
-    Signature signature = new Signature("sample.pdf");
-    
-    // Provide text
-    TextSignOptions options = new TextSignOptions("John Smith");
-    options.setForeColor(Color.RED);
+    // Instantiate Watermarker passing PDF path
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // Sign document and save to file
-    signature.sign("signed.pdf", options);
-    
+    // Customize watermark options
+    TextWatermark textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
+
+    // Apply watermark to PDF document
+    watermarker.add(textWatermark);
+
+    // Save result document
+    watermarker.save("result.pdf");
+    watermarker.close();
+      
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "GroupDocs.Watermark Overview"
-  description: "API for performing document signing and related operations in Java applications"
+  title: "GroupDocs.Watermark at a glance"
+  description: "Library designed for adding watermarks using Java technologies"
   features:
     # feature loop
-    - title: "Improved business documents with digital signatures in Java"
-      content: "Swift and customizable signing: GroupDocs.Signature for Java offers a wide range of digital signature options for PDFs, images, and Office documents. You can use text, barcodes, QR-codes, digital certificates, pictures, or hidden metadata. The document processing is fast and efficient."
+    - title: "Files watermarking in Java"
+      content: "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
 
     # feature loop
-    - title: "Manipulating signed documents"
-      content: "Advanced document processing involves powerful operations on signed documents using GroupDocs.Signature for Java. You can search for and validate signatures that have been added to business documents using various useful criteria. Additionally, you can access detailed information about the document or obtain preview images of its pages."
+    - title: "Vast number of supported formats"
+      content: "With the GroupDocs.Comparison API, you can easily compare documents of multiple supported formats. This includes PDF, HTML, email, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images, as well as many other formats."
 
     # feature loop
-    - title: "Variety of output choices"
-      content: "Robust signing options allow you to customize the output for documents signed with GroupDocs.Signature for Java. You can precisely position any signature on any document page and configure its appearance in various ways. The Java API supports saving signed business documents in numerous supported formats and provides options for securing them with passwords."
+    - title: "Apply or reject changes easily"
+      content: "Every difference between the compared documents can be applied or rejected and then exported to the output document."
+
+    # feature loop
+    - title: "Comparison summary report"
+      content: "Generate a summary report that lists all changes in the compared documents."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Watermark for Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers"
   items:
     # platform loop
     - title: "Amazon"
@@ -110,126 +134,133 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Watermark for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
+    GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### Microsoft Office formats
-        * **Word:**  DOCX, DOC, DOCM, DOT, DOTX, DOTM, RTF
-        * **Excel:** XLSX, XLS, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        ### Microsoft Office & OpenDocument formats
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### Images & Other Formats
-        * **Portable:** PDF
-        * **Images:** JPG, BMP, PNG, TIFF, GIF, DICOM, WEBP
-        * **Other office formats:** ODT, OTT, OTS, ODS, ODP, OTP, ODG
+        ### Images & Graphics
+        * **Popular image formats:** BMP, JPG, JPEG, PNG
+        * **Multi-page images:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
-        ### Other formats
-        * **Web:** HTML, MHTML
-        * **Archives:** ZIP, TAR, 7Z
-        * **Certificates:** PFX
+        ### Other
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Watermark features"
-  description: "Signing PDFs, Office Documents, and images with digital signatures"
+  title: "GroupDocs.Comparison features"
+  description: "Easily compare PDF and Office documents, images and other formats"
 
   items:
     # feature loop
-    - icon: "sign"
-      title: "Adding Watermark"
-      content: "Sign a document using various supported signature types by placing a digital signature precisely at any position on any page."
+    - icon: "compare"
+      title: "Easy to use document comparison"
+      content: "Easily analyze and pinpoint differences between two documents."
 
     # feature loop
-    - icon: "custom"
-      title: "Customizing results"
-      content: "Customize the signature appearance by adjusting color, font, border, rotation, and other features to achieve the desired result."
+    - icon: "note-stack"
+      title: "Compare multiple documents"
+      content: "Simultaneously examine and highlight variances across multiple documents."
 
     # feature loop
-    - icon: "password"
-      title: "Securing documents with password"
-      content: "For many supported document types, you can protect the signed document with a password."
+    - icon: "stacks"
+      title: "Supported formats"
+      content: "Compatibility with over 50 widely-used document formats from diverse categories."
 
     # feature loop
-    - icon: "protect"
-      title: "Preventing unauthorized changes"
-      content: "Protect important business documents signed with a digital certificate from unauthorized modifications."
-
-    # feature loop
-    - icon: "convert"
-      title: "Obtaining results in desired formats"
-      content: "Easily obtain signed result files in any supported format. You can also convert MS Word documents to PDF effortlessly."
+    - icon: "rule"
+      title: "Accept or reject changes"
+      content: "Clear visualization of identified changes, with options to accept or reject modifications."
 
     # feature loop
     - icon: "preview"
-      title: "Document preview"
-      content: "Save any page of a document as an image for future processing."
+      title: "Generate previews"
+      content: "Capability to save comparison results as image previews."
 
     # feature loop
-    - icon: "search"
-      title: "Searching for signatures"
-      content: "It is possible to get information about previously added signatures in specific documents."
+    - icon: "two-pager"
+      title: "Content comparison"
+      content: "Thorough comparison of text content on various levels - including line-by-line, paragraph, word, and character analysis, with emphasis on alterations."
 
     # feature loop
-    - icon: "validate"
-      title: "Validating documents"
-      content: "Validate the correctness of signatures on any signed document."
+    - icon: "format_color_text"
+      title: "Style comparison"
+      content: "Ability to detect and highlight alterations in formatting and style elements."
 
     # feature loop
-    - icon: "update"
-      title: "Managing signatures"
-      content: "Once a signature is placed on a document page, it can be deleted, moved, or updated as needed."
+    - icon: "folder-managed"
+      title: "Set metadata"
+      content: "Option to retain metadata from source or target files, or permit user-defined metadata settings."
+
+    # feature loop
+    - icon: "lock"
+      title: "Password protection"
+      content: "Facilitates analysis of password-protected documents and enables password protection for the resultant documents."
+
+    # feature loop
+    - icon: "select"
+      title: "Compare specific pages"
+      content: "Load and compare specific sections or pages of a document as required."
+
+    # feature loop
+    - icon: "speaker-notes"
+      title: "Display comments"
+      content: "Flexibility to display or conceal comments when loading the source document."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Watermark for Java operations"
+  description: "Some use cases of typical GroupDocs.Comparison for Java operations"
   items:
     # code sample loop
-    - title: "Enchance PDF document with QR-code"
+    - title: "Comparing password-protected documents."
       content: |
-        Enhancing business processes by adding [QR-codes](https://docs.groupdocs.com/watermark/java/esign-document-with-qr-code-signature/) to specific pages of PDF documents can be valuable. There is an example of how to add a QR code using GroupDocs.Signature for Java.
-        {{< landing/code title="Enchance PDF document with QR-code">}}
+        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
+        {{< landing/code title="How use regular expression search criteria.">}}
         ```java {style=abap}
-        // Load the document to sign
-        Signature signature = new Signature("file_to_sign.pdf");
+        // Load the source document to Watermarker
+        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
+        {
+            // Specify regular expression to narrow result list
+            comparer.add("target.docx", new LoadOptions("5678"));
         
-        // Create QR code options with predefined text
-        QrCodeSignOptions options = new QrCodeSignOptions("The document is approved by John Smith");
-        
-        // Configure QR code encoding type and position on the page
-        options.setEncodeType(QrCodeTypes.QR);
-        options.setLeft(100);
-        options.setTop(100);
-
-        // Sign the document and save it as the result file
-        signature.sign("file_with_QR.pdf", options);
+            // Obtain and process watermarks list
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Use digital signature to protect a DOCX"
+    - title: "Comparing multiple PDF documents."
       content: |
-        You can [Safeguard a Document](https://docs.groupdocs.com/signature/java/esign-document-with-digital-signature/) using personal or corporate signatures stored as digital certificates. Documents secured with certificate cannot be altered without invalidating the signature.
-        {{< landing/code title="Use digital signature to protect a DOCX">}}
+        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
+        {{< landing/code title="Watermarks modification.">}}
         ```java {style=abap}   
-        // Load the document to be digitally signed
-        Signature signature = new Signature("file_to_sign.pdf");
-        
-        // Specify digital signing options and provide the path to the certificate file
-        DigitalSignOptions options = new DigitalSignOptions("certificate.pfx");
+        // Load the source document
+        try (Comparer comparer = new Comparer("source.docx") 
+        {
+            // Search for watermarks to be updated
+            comparer.add("target2.docx");
 
-        // Set the certificate password
-        options.setPassword("1234567890");
+            // Update desired properties
+            comparer.add("target3.docx");
 
-        // Sign the document and save it to the desired path
-        signature.sign("digitally_signed.pdf", options);
+            // Save modified document to a specified path
+            comparer.compare("result.docx");
+        }
         ```
         {{< /landing/code >}}
 
