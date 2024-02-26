@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-22T16:22:41
+date: 2024-02-26T19:06:43
 draft: false
 
 lang: en
@@ -25,7 +25,7 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: "C# .NET Document Watermark Software | add watermark library | remove watermark software | watermark office documents"
-head_description: "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio, email and image file formats."
+head_description: "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats."
 
 ############################# Header ############################
 title: "Watermark documents easily in your C# .NET applications"
@@ -86,7 +86,7 @@ overview:
 
     # feature loop
     - title: "All popular file formats are supported"
-      content: "Many file and document formats are supported by GroupDocs.Watermark solution. PDF, Microsoft Office Word, Excel, PowerPoint, images like JPEG, PNG, GIF, BMP, Visio, emails etc. could be protected with our watermarks."
+      content: "Many file and document formats are supported by GroupDocs.Watermark solution. PDF, Microsoft Office Word, Excel, PowerPoint, images like JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. could be protected with our watermarks."
 
     # feature loop
     - title: "Search and update watermarks"
@@ -226,31 +226,32 @@ code_samples:
   description: "Some use cases of typical GroupDocs.Watermark for .NET operations"
   items:
     # code sample loop
-    - title: "Search watermarks in a document."
+    - title: "Watermark by adding an image to a document."
       content: |
-        To get list of document watermarks you can use [regular expressions](https://docs.groupdocs.com/watermark/net/searching-watermarks/#regular-expression-search-criteria/):
-        {{< landing/code title="How use regular expression search criteria.">}}
+        To protect any document you can use [image watermarks](https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/):
+        {{< landing/code title="How to protect file by image watermark.">}}
         ```csharp {style=abap}
-        // Load the source document to Watermarker
+        // Load source document to Watermarker
         using (Watermarker watermarker = new Watermarker("document.pdf"))
         {
-            // Specify regular expression to narrow result list
-            Regex regex = new Regex(@"^© \d{4}$");
-            TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
+            // Specify path to a watermark image
+            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
+            {
+                // Protect the file and save it
+                watermarker.Add(watermark);
 
-            // Obtain and process watermarks list
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
-            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+                watermarker.Save("result.pdf");
+            }
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Modify existing watermarks."
+    - title: "Search and modify existing watermarks."
       content: |
         GroupDocs.Watermark is able to [modify watermarks](https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/) that are already presented in a document. Search for desired items and update their properties.
-        {{< landing/code title="Watermarks modification.">}}
+        {{< landing/code title="Watermarks search & modification.">}}
         ```csharp {style=abap}   
-        // Load the source document
+        // Load source document
         using (Watermarker watermarker = new Watermarker("document.pdf"))
         {
             // Search for watermarks to be updated

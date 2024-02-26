@@ -172,101 +172,115 @@ features:
 
   items:
     # feature loop
-    - icon: "compare"
+    - icon: "watermark_add"
       title: "<% "{index-content-nodejs-java.features.feature_1.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "note-stack"
+    - icon: "watermark_style"
       title: "<% "{index-content-nodejs-java.features.feature_2.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "stacks"
+    - icon: "hidden_print"
       title: "<% "{index-content-nodejs-java.features.feature_3.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "rule"
+    - icon: "image_only"
       title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "image_frame"
       title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "two-pager"
+    - icon: "attachments"
       title: "<% "{index-content-nodejs-java.features.feature_6.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "format_color_text"
+    - icon: "pdf_objects"
       title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "folder-managed"
+    - icon: "doc_background"
       title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "lock"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-nodejs-java.features.feature_9.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "select"
+    - icon: "watermark_text_search"
       title: "<% "{index-content-nodejs-java.features.feature_10.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "speaker-notes"
+    - icon: "watermark_image_search"
       title: "<% "{index-content-nodejs-java.features.feature_11.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_11.content}" %>"
+
+    # feature loop
+    - icon: "document_info"
+      title: "<% "{index-content-nodejs-java.features.feature_12.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_12.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.title}" %>"
-  description: "<% "{index-content-net.code_samples_description}" %>"
+  description: "<% "{index-content-java.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-net.code_title_sample_1}" %>"
+    - title: "<% "{index-content-java.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-net.code_samples_sample_1_content}" %>
+        <% "{index-content-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```csharp {style=abap}
+        ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        let watermarker = new Watermarker("document.pdf");
+        
+        // <% "{index-content.code_samples.sample_1.comment_2}" %>
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            comparer.Compare("result.docx");
-        }
+        // <% "{index-content.code_samples.sample_1.comment_3}" %>
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "<% "{index-content-net.code_title_sample_2}" %>"
+    - title: "<% "{index-content-java.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-net.code_samples_sample_2_content}" %>
+        <% "{index-content-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```csharp {style=abap}   
+        ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            comparer.Add("target2.docx");
-            
-            // <% "{index-content.code_samples.sample_2.comment_3}" %>
-            comparer.Add("target3.docx");
-            
-            // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            comparer.Compare("result.docx");
+        let watermarker = new Watermarker("document.pdf");
+
+        // <% "{index-content.code_samples.sample_2.comment_2}" %>
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // <% "{index-content.code_samples.sample_2.comment_3}" %>
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // <% "{index-content.code_samples.sample_2.comment_4}" %>
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

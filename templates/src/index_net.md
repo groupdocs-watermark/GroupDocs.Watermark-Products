@@ -237,12 +237,13 @@ code_samples:
         using (Watermarker watermarker = new Watermarker("document.pdf"))
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            Regex regex = new Regex(@"^© \d{4}$");
-            TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
+            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
+            {
+                // <% "{index-content.code_samples.sample_1.comment_3}" %>
+                watermarker.Add(watermark);
 
-            // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
-            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+                watermarker.Save("result.pdf");
+            }
         }
         ```
         {{< /landing/code >}}
