@@ -1,89 +1,254 @@
 
 ---
 ############################# Static ############################
-layout: "autogen"
-date: 2023-12-01T17:51:39
+layout: "format"
+date:  2024-03-07T13:11:48
 draft: false
-path: "watermark/java/add/image/xltm/"
-otherformats: PDF WORD EXCEL IMAGE VISIO DOC DOT DOCX DOCM DOTX DOTM RTF TXT XLSX XLSM XLTM XLT XLTX XLS XLSB XLAM SXC PPTX PPTM PPSX PPSM POTM POT POTX PPT PPS ODT GIF JPEG JP2 PNG TIFF WEBP VSD VDX VSDX VSTX VSX VSSX VSDM VSSM VSTM VTX VDW VSS VST
+lang: en
+format: Xltm
+product: "Watermark"
+product_tag: "watermark"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Add Image Watermark to XLTM in Java"
-head_description: "Java library to add image watermark to XLTM file in Java & J2SE applications using GroupDocs.Watermark APIs for Java."
+head_title: "Java GroupDocs.Watermark - Watermark Files XLTM with images"
+head_description: "Java library to add image watermark to XLTM file in Java, J2SE 7.0 (1.7) or above applications using GroupDocs.Watermark for Java."
 
 ############################# Header ############################
-title: "Add Image Watermark to XLTM using Java"
-description: "Adding image watermark to XLTM file in Java & J2SE applications. Add BMP, PNG, GIF & JPEG image watermarks to the documents. Also manage the watermark size, alignment, rotation angle and position of the watermark on the document pages, as you may need."
+title: "Add Image Watermark to XLTM in Java" 
+description: "Adding image watermark to XLTM files for Java J2SE applications. Add BMP, PNG, GIF, and JPEG images as watermarks to your documents. You can also manage the watermark's size, alignment, rotation angle, and position on the document pages as per your requirements."
+subtitle: "GroupDocs.Watermark for Java API" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Free Maven download"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java API"
+    title: "GroupDocs.Watermark for Java library"
+    link: "/watermark/java/"
+    link_title: "Learn more"
+    picture: "about_viewer.svg" # 480 X 400
     content: |
-        GroupDocs.Watermark for Java is a complete watermarks management solution for Java applications. Developers can quickly perform watermarks manipulation operations like; add, edit, search and delete different types of watermarks from within documents of all popular file formats. It supports working with text and image watermarks in a variety of documents including PDF, Microsoft Word, Excel, PowerPoint, Visio, Email and image formats.
-        
-        GroupDocs.Watermark APIs are well supported on all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) and Java 10.
+       GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks using Java. With this tool, developers can easily perform operations such as adding, editing, searching, and deleting different types of watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Add Image Watermark to XLTM File via Java"
-    content_left: |
-        [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+    title: "How to add image watermark in XLTM documents using Java"
+    content: |
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      
+      1. Instantiate **Watermarker** with input XLTM document
+      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
+      3. Set watermark properties (size, alignment, color etc)
+      4. Get output document
+   
+    code:
+      platform: "net"
+      copy_title: "Copy"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-watermark</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-        *   Instantiate **Watermarker** with input XLTM document.
-        *   Use image watermark path as constructor parameter of **ImageWatermark** class.
-        *   Set watermark properties (size, alignment, color etc).
-        *   Add watermark to the watermarker and generate output document.
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "click to copy"
+        copy_done: "copied"
+      links:
+        #  loop
+        - title: "More examples"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+        #  loop
+        - title: "Documentation"
+          link: "https://docs.groupdocs.com/watermark/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Add image watermark in your document
+
+        // Create a Watermarker object specifying a source file
+        try (Comparer comparer = new Comparer("source.xltm") 
+        {
+            // Set up watermark options
+        	comparer.add("target1.xltm");
+            comparer.add("target2.xltm");
+
+            // Get result file protected by watermark
+            final Path resultPath = comparer.compare("result.xltm"); 
+
+            System.out.println("\nDocuments compared successfully.");
+        }
         
-    title_right: "System Requirements"
-    content_right: |
-        Before executing the code example below, please make sure that you have the following prerequisites installed on your system.
+        ```            
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        *   Frameworks: Java 7 (1.7) and above
-        *   Download the latest version of GroupDocs.Watermark for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-watermark)
-        
-    code: |
-        ```cs
-        // Add image watermark to XLTM in Java applications
-        // Instantiate Watermarker with input XLTM document
-        Watermarker watermarker = new Watermarker("input.xltm")
-        
-        // Use image watermark path as constructor parameter of ImageWatermark class
-        ImageWatermark watermark = new ImageWatermark("watermark.png")
-        
-        // Set watermark properties (width, height, alignment)
-        watermark.Width = 140;
-        watermark.Height = 140;
-        watermark.HorizontalAlignment = HorizontalAlignment.Center;
-        watermark.VerticalAlignment = VerticalAlignment.Center;
+############################# Actions ############################
 
-        // {example.coment5}
-        watermarker.add(watermark);
-        watermarker.save("output.xltm");
-
-        watermark.close();
-        watermarker.close();
-        ```        
-
-demos:
-    enable: true
-        
-
-about_formats:
-    enable: true
+actions:
+  enable: true
+  title: "Ready to get started?"
+  description: "Try GroupDocs.Watermark features for free or request a license"
+  items:
+    #  loop
+    - title: "Maven download"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      color: "red"
+        #  loop
+    - title: "Licensing"
+      link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+      color: "light"
 
 
+############################# More Formats #####################
 more_formats:
     enable: true
+    title: "Use images as watermarks via Java"
+    exclude: "XLTM"
+    description: "Our Java solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+    items: 
+        # format loop 1
+        - name: "Watermark PDFs"
+          format: "PDF"
+          link: "/watermark/java/add/image/pdf/"
+          description: "Adobe Portable Document Format"
+
+        # format loop 2
+        - name: "Watermark DOCX"
+          format: "DOCX"
+          link: "/watermark/java/add/image/docx/"
+          description: "Microsoft Word Open XML Document"
+
+        # format loop 3
+        - name: "Watermark PPTX"
+          format: "PPTX"
+          link: "/watermark/java/add/image/pptx/"
+          description: "PowerPoint Open XML Presentation"
+
+        # format loop 4
+        - name: "Watermark XLSX"
+          format: "XLSX"
+          link: "/watermark/java/add/image/xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 5
+        - name: "Watermark JPEG"
+          format: "JPEG"
+          link: "/watermark/java/add/image/jpeg/"
+          description: "JPEG Image"
+
+        # format loop 6
+        - name: "Watermark PNG"
+          format: "PNG"
+          link: "/watermark/java/add/image/png/"
+          description: "Portable Network Graphic"
+
+        # format loop 7
+        - name: "Watermark GIF"
+          format: "GIF"
+          link: "/watermark/java/add/image/gif/"
+          description: "Graphical Interchange Format File"
+
+        # format loop 8
+        - name: "Watermark BMP"
+          format: "BMP"
+          link: "/watermark/java/add/image/bmp/"
+          description: "Bitmap File Format"
+
+        # format loop 9
+        - name: "Watermark TIFF"
+          format: "TIFF"
+          link: "/watermark/java/add/image/tiff/"
+          description: "Tag Image File Format"
+
+        # format loop 10
+        - name: "Watermark WEBP"
+          format: "WEBP"
+          link: "/watermark/java/add/image/webp/"
+          description: "WEB Picture"
+
+        # format loop 11
+        - name: "Watermark JP2"
+          format: "JP2"
+          link: "/watermark/java/add/image/jp2/"
+          description: "JPEG2000 Core Image File"
+
+        # format loop 12
+        - name: "Watermark DOC"
+          format: "DOC"
+          link: "/watermark/java/add/image/doc/"
+          description: "Microsoft Word 97 - 2007 Document"
+
+        # format loop 13
+        - name: "Watermark XLS"
+          format: "XLS"
+          link: "/watermark/java/add/image/xls/"
+          description: "Microsoft Excel Workbook 97-2003"
+
+        # format loop 14
+        - name: "Watermark PPT"
+          format: "PPT"
+          link: "/watermark/java/add/image/ppt/"
+          description: "PowerPoint Presentation 97-2003"
+
+        # format loop 15
+        - name: "Watermark ODT"
+          format: "ODT"
+          link: "/watermark/java/add/image/odt/"
+          description: "Open Document Text"
+
+        # format loop 16
+        - name: "Watermark DOTM"
+          format: "DOTM"
+          link: "/watermark/java/add/image/dotm/"
+          description: "Word Open XML Macro-Enabled Document "
+
+        # format loop 17
+        - name: "Watermark XLTM"
+          format: "XLTM"
+          link: "/watermark/java/add/image/xltm/"
+          description: "OOXML Macro Enabled Workbook Template"
+
+        # format loop 18
+        - name: "Watermark PPTM"
+          format: "PPTM"
+          link: "/watermark/java/add/image/pptm/"
+          description: "OOXML Macro Enabled Presentation"
+
+        # format loop 19
+        - name: "Watermark VSDX"
+          format: "VSDX"
+          link: "/watermark/java/add/image/vsdx/"
+          description: "Microsoft Visio Drawing"
+
+        # format loop 20
+        - name: "Watermark VSD"
+          format: "VSD"
+          link: "/watermark/java/add/image/vsd/"
+          description: "Microsoft Visio 2003-2010 Drawing"
+
+        # format loop 21
+        - name: "Watermark VSTM"
+          format: "VSTM"
+          link: "/watermark/java/add/image/vstm/"
+          description: "Visio Macro-Enabled Drawing Template"
 
 
-back_to_top:
-    enable: true
+
 ---

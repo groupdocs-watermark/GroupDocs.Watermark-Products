@@ -241,7 +241,7 @@
     "code_samples_sample_2_content": "{{ProdShortName}} is able to [modify watermarks]({{Sample2Url}}) that are already presented in a document. Search for desired items and update their properties."
   },
   "index-content-java": {
-    "head_title": "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents",
+    "head_title": "Java Watermark Library | add watermarks to documents",
     "head_description": "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio diagrams, email and images files.",
     "title": "Implement documents watermarking in Java projects easily",
     "description": "Enhance your Java applications with the ability to watermark files using the GroupDocs.Watermark library. Our API offers customizable watermarks for a wide range of popular file formats.",
