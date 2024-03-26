@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-02-16T13:08:05
+date:  2024-03-26T19:02:17
 draft: false
 
 product: "Watermark"
@@ -10,7 +10,7 @@ product_tag: "watermark"
 lang: en
 
 ############################# Head ############################
-head_title: "Documents Watermark Solution C# Java & Node.js | add document watermark  | watermark library | Put text & image watermarks on documents"
+head_title: "Document Watermark C# Java Node.js | add watermark"
 head_description: "Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Images and etc."
 
 ############################# Header ############################

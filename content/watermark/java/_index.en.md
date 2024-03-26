@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-22T16:22:40
+date: 2024-03-26T19:02:17
 draft: false
 
 lang: en
@@ -24,8 +24,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents"
-head_description: "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio, email and images files."
+head_title: "Java Watermark Library | add watermarks to documents"
+head_description: "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio diagrams, email and images files."
 
 ############################# Header ############################
 title: "Implement documents watermarking in Java projects easily"
@@ -83,26 +83,26 @@ overview:
   description: "Library designed for adding watermarks using Java technologies"
   features:
     # feature loop
-    - title: "Files watermarking in Java"
-      content: "Detect changes between source and target files at paragraph, word, and character levels. Identify styling and formatting changes such as bold, italic, underlines, strike-throughs, font types, and more."
+    - title: "Watermark Files via Java"
+      content: "Protect your business documents using GroupDocs.Watermark for Java. Add text, images, diagrams, or email attachments as watermarks to various file formats."
 
     # feature loop
-    - title: "Vast number of supported formats"
-      content: "With the GroupDocs.Comparison API, you can easily compare documents of multiple supported formats. This includes PDF, HTML, email, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images, as well as many other formats."
+    - title: "Customize Watermarks for Specific Needs"
+      content: "GroupDocs.Watermark for Java offers extensive customization options for watermarks. Adjust text styles (bold, italic, font) and image properties (rotation, etc.) to tailor the watermarking process to your specific goals."
 
     # feature loop
-    - title: "Apply or reject changes easily"
-      content: "Every difference between the compared documents can be applied or rejected and then exported to the output document."
+    - title: "Broad Format Support"
+      content: "GroupDocs.Watermark for Java seamlessly integrates with a wide range of file formats, including: PDF, Microsoft Office (Word, Excel, PowerPoint), images (JPEG, PNG, GIF, BMP), Visio diagrams, and emails. Enhance document security across diverse file types."
 
     # feature loop
-    - title: "Comparison summary report"
-      content: "Generate a summary report that lists all changes in the compared documents."
+    - title: "Effortless Watermark Search and Management"
+      content: "Efficiently manage existing watermarks within documents. Locate specific watermarks, modify their text, style, or images, or remove them entirely. GroupDocs.Watermark for Java simplifies the watermarking workflow."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for Java supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Watermark for Java supports various operating systems and package managers."
   items:
     # platform loop
     - title: "Amazon"
@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java enables processing of a wide range of file formats. [See the complete list](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -161,106 +161,120 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison features"
-  description: "Easily compare PDF and Office documents, images and other formats"
+  title: "GroupDocs.Watermark for Java : Features"
+  description: "Protect your files by adding watermarks. Supports various formats including PDF, Office documents, and images."
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "Easy to use document comparison"
-      content: "Easily analyze and pinpoint differences between two documents."
+    - icon: "watermark_add"
+      title: "Files Watermarking"
+      content: "Add or remove watermarks from specific sections or entire documents for various supported file formats."
 
     # feature loop
-    - icon: "note-stack"
-      title: "Compare multiple documents"
-      content: "Simultaneously examine and highlight variances across multiple documents."
+    - icon: "watermark_style"
+      title: "Watermark Customization"
+      content: "Customize your watermark's appearance with options like color, font, rotation, and more."
 
     # feature loop
-    - icon: "stacks"
-      title: "Supported formats"
-      content: "Compatibility with over 50 widely-used document formats from diverse categories."
+    - icon: "hidden_print"
+      title: "Hidden Printing Watermark for PDF"
+      content: "Add a watermark that only appears when printing a PDF document."
 
     # feature loop
-    - icon: "rule"
-      title: "Accept or reject changes"
-      content: "Clear visualization of identified changes, with options to accept or reject modifications."
+    - icon: "image_only"
+      title: "Selective Image Watermarking"
+      content: "Watermark all images within a specific section, page, slide, or entire document."
 
     # feature loop
-    - icon: "preview"
-      title: "Generate previews"
-      content: "Capability to save comparison results as image previews."
+    - icon: "image_frame"
+      title: "Watermarking Specific Image Frames"
+      content: "Apply watermarks to specific frames within a multi-framed image."
 
     # feature loop
-    - icon: "two-pager"
-      title: "Content comparison"
-      content: "Thorough comparison of text content on various levels - including line-by-line, paragraph, word, and character analysis, with emphasis on alterations."
+    - icon: "attachments"
+      title: "Watermarking Attachments and Shapes"
+      content: "Add watermarks to all attachments in Excel documents or all image shapes in Presentations."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "Style comparison"
-      content: "Ability to detect and highlight alterations in formatting and style elements."
+    - icon: "pdf_objects"
+      title: "Watermark Alignment in PDF"
+      content: "Align watermarks to different areas of a PDF document, including Bleed Box, Art Box, Crop Box, and Trim Box."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "Set metadata"
-      content: "Option to retain metadata from source or target files, or permit user-defined metadata settings."
+    - icon: "doc_background"
+      title: "Watermark by Background Images"
+      content: "Add or remove background image watermark to Spreadsheets or Presentations."
 
     # feature loop
-    - icon: "lock"
-      title: "Password protection"
-      content: "Facilitates analysis of password-protected documents and enables password protection for the resultant documents."
+    - icon: "unreadable_characters"
+      title: "Protection with Unreadable Characters"
+      content: "Protect Presentations using Text Watermark with Unreadable Characters."
 
     # feature loop
-    - icon: "select"
-      title: "Compare specific pages"
-      content: "Load and compare specific sections or pages of a document as required."
+    - icon: "watermark_text_search"
+      title: "Search for Watermarks"
+      content: "Get list of watermarks presented in file, using various parameters including regular expressions."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "Display comments"
-      content: "Flexibility to display or conceal comments when loading the source document."
+    - icon: "watermark_image_search"
+      title: "Find Similar Image Watermarks"
+      content: "Locate image watermarks that looks like a specific image."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Extract Document Information"
+      content: "Get various document data like page setup for supported file formats."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Comparison for Java operations"
+  description: "Explore code examples illustrating typical GroupDocs.Watermark for Java functionalities"
   items:
     # code sample loop
-    - title: "Comparing password-protected documents."
+    - title: "Watermark a Document Using an Image"
       content: |
-        To compare documents that are [protected with a password](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/), you need to specify it then loading the documents:
-        {{< landing/code title="How use regular expression search criteria.">}}
-        ```java {style=abap}
-        // Load the source document to Watermarker
-        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
-        {
-            // Specify regular expression to narrow result list
-            comparer.add("target.docx", new LoadOptions("5678"));
+        Utilize GroupDocs.Watermark for Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="How to protect file by image watermark.">}}
+        ```csharp {style=abap}
+        // Load source document to Watermarker
+        Watermarker watermarker = new Watermarker("document.pdf");
         
-            // Obtain and process watermarks list
-            comparer.compare("result.docx");
-        }
+        // Specify path to a watermark image
+        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+
+        // Protect the file and save it
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Comparing multiple PDF documents."
+    - title: "Modify Watermarks"
       content: |
-        GroupDocs.Comparison allows you to [compare more than two documents](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/). The operation is almost the same as when comparing two files. You just need to add more target files to the `comparer` class.
-        {{< landing/code title="Watermarks modification.">}}
-        ```java {style=abap}   
-        // Load the source document
-        try (Comparer comparer = new Comparer("source.docx") 
-        {
-            // Search for watermarks to be updated
-            comparer.add("target2.docx");
+        GroupDocs.Watermark for Java empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Watermarks search & modification.">}}
+        ```csharp {style=abap}   
+        // Load source document
+        Watermarker watermarker = new Watermarker("document.pdf");
 
-            // Update desired properties
-            comparer.add("target3.docx");
+        // Search for watermarks to be updated
+        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
 
-            // Save modified document to a specified path
-            comparer.compare("result.docx");
+        // Update desired properties
+        for (PossibleWatermark watermark : watermarks)                                                           
+        {  
+            watermark.setText("New Text");
         }
+
+        // Save modified document to a specified path
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

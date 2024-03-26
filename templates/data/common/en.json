@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "pdf": {
+        "name": "Watermark PDFs",
+        "description": "Adobe Portable Document Format"
+      },
+      "docx": {
+        "name": "Watermark DOCX",
+        "description": "Microsoft Word Open XML Document"
+      },
+      "pptx": {
+        "name": "Watermark PPTX",
+        "description": "PowerPoint Open XML Presentation"
+      },
+      "xlsx": {
+        "name": "Watermark XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "jpeg": {
+        "name": "Watermark JPEG",
+        "description": "JPEG Image"
+      },
+      "png": {
+        "name": "Watermark PNG",
+        "description": "Portable Network Graphic"
+      },
+      "gif": {
+        "name": "Watermark GIF",
+        "description": "Graphical Interchange Format File"
+      },
+      "bmp": {
+        "name": "Watermark BMP",
+        "description": "Bitmap File Format"
+      },
+      "tiff": {
+        "name": "Watermark TIFF",
+        "description": "Tag Image File Format"
+      },
+      "jp2": {
+        "name": "Watermark JP2",
+        "description": "JPEG2000 Core Image File"
+      },
+      "webp": {
+        "name": "Watermark WEBP",
+        "description": "WEB Picture"
+      },
+      "doc": {
+        "name": "Watermark DOC",
+        "description": "Microsoft Word 97 - 2007 Document"
+      },
+      "xls": {
+        "name": "Watermark XLS",
+        "description": "Microsoft Excel Workbook 97-2003"
+      },
+      "ppt": {
+        "name": "Watermark PPT",
+        "description": "PowerPoint Presentation 97-2003"
+      },
+      "odt": {
+        "name": "Watermark ODT",
+        "description": "Open Document Text"
+      },
+      "dotm": {
+        "name": "Watermark DOTM",
+        "description": "Word Open XML Macro-Enabled Document "
+      },
+      "xltm": {
+        "name": "Watermark XLTM",
+        "description": "OOXML Macro Enabled Workbook Template"
+      },
+      "pptm": {
+        "name": "Watermark PPTM",
+        "description": "OOXML Macro Enabled Presentation"
+      },
+      "vsdx": {
+        "name": "Watermark VSDX",
+        "description": "Microsoft Visio Drawing"
+      },
+      "vsd": {
+        "name": "Watermark VSD",
+        "description": "Microsoft Visio 2003-2010 Drawing"
+      },
+      "vstm": {
+        "name": "Watermark VSTM",
+        "description": "Visio Macro-Enabled Drawing Template"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-22T16:22:41
+date: 2024-03-26T19:02:17
 draft: false
 
 lang: en
@@ -24,8 +24,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js Watermarking Library | add watermarks to files | remove watermark | watermark files"
-head_description: "Node.js-based solution allows users to protect business documents by adding text and image watermarks. Many popular formats like PDF, Word, Excel, PowerPoint are supported."
+head_title: "Node.js Watermarking Library | document watermarks"
+head_description: "Node.js solution protect business documents with text and image watermarks. Popular formats like PDF, Word, Excel, PowerPoint are supported."
 
 ############################# Header ############################
 title: "Access to watermarking technology in Node.js via Java solutions"
@@ -50,7 +50,7 @@ release:
 code:
   title: "Add watermark to PDF with TypeScript"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
@@ -78,26 +78,26 @@ overview:
   description: "Node.js TypeScript library for watermarking"
   features:
     # feature loop
-    - title: "Documents protection with watermarks"
-      content: "GroupDocs.Comparison identifies changes in document content (characters, words, paragraphs, tables, charts), as well as, changes in document style. It provides customers with a resulting report that contains rich information about differences, their number, and type."
+    - title: "Node.js File Watermarking"
+      content: "Protect your business documents with GroupDocs.Watermark for Node.js via Java. Add text, images, diagrams, or email attachments as watermarks to various file formats."
 
     # feature loop
-    - title: "Most popular file and document formats are supported"
-      content: "With GroupDocs.Comparison API you can efficiently compare documents of any supported formats like PDF, HTML, e-mail, Microsoft Office Word documents, Excel spreadsheets, PowerPoint presentations, OneNote, Visio diagrams, texts, JPEG, PNG, GIF, and BMP images as well as many other formats."
+    - title: "Customize Watermarks for Your Needs"
+      content: "GroupDocs.Watermark for Node.js via Java provides extensive customization options for watermarks. Fine-tune text styles (bold, italic, font) and image properties (rotation, etc.) allow to customize documents processing."
 
     # feature loop
-    - title: "Documentation and examples"
-      content: "There is already a lot of documentation on using Comparison library on different platforms with code examples, so you don’t have to think hard about how to work with GroupDocs.Comparison API in your Node.js application."
+    - title: "Comprehensive Format Support"
+      content: "GroupDocs.Watermark for Node.js via Java seamlessly integrates with a wide range of file formats, including: PDF, MS Office like Word, Excel, PowerPoint, images such as JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. Empower documents processing to achieve business goals."
 
     # feature loop
-    - title: "Comparison summary report"
-      content: "Generate a summary report that lists all changes in the compared documents."
+    - title: "Powerful Watermark Search and Update"
+      content: "Get and update existing watermarks in watermarked documents. Modify text, style, image content, or remove them entirely. GroupDocs.Watermark for Node.js via Java provides wide range of the watermarks processing."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform independence"
-  description: "GroupDocs.Comparison for Node.js supports the following operating systems, frameworks and package managers"
+  description: "GroupDocs.Watermark for Node.js via Java readily integrates with various operating systems and package managers."
   items:
     # platform loop
     - title: "Windows"
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Comparison for Node.js via Java supports operations with the following [file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -165,106 +165,120 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Comparison for Node.js features"
-  description: "Easily compare PDF and Office documents, images and other formats"
+  title: "GroupDocs.Watermark for Node.js via Java: Feature Set"
+  description: "Empower robust document security through programmatic watermarking. Supports diverse file formats including: PDF, DOCX, XLSX, PPTX, and image formats (PNG, JPG, etc.)."
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "Easy to use document comparison"
-      content: "Analyze and identify differences within two documents."
+    - icon: "watermark_add"
+      title: "Precise Watermarking Control"
+      content: "Precisely manipulate watermarks by adding or removing them from specific sections, entire documents, or individual attachments and shapes within different file formats."
 
     # feature loop
-    - icon: "note-stack"
-      title: "Compare multiple documents"
-      content: "Analyze and identify differences within multiple documents simultaneously."
+    - icon: "watermark_style"
+      title: "Customization of Watermark Appearance"
+      content: "Exert fine-grained control over watermark aesthetics by modifying attributes like color, font, opacity, rotation, and positioning within the document."
 
     # feature loop
-    - icon: "stacks"
-      title: "Supported formats"
-      content: "Supports more than 50 popular document formats from various categories."
+    - icon: "hidden_print"
+      title: "Print PDF Watermarking"
+      content: "Deploy a stealthy watermark that remains invisible during regular document viewing but becomes apparent only during the printing process, enhancing document security discreetly."
 
     # feature loop
-    - icon: "rule"
-      title: "Accept or reject changes"
-      content: "Clear visual representation of identified changes, providing the option to accept or reject modifications."
+    - icon: "image_only"
+      title: "Specific Image Watermarking"
+      content: "Watermark specific images within a document using our solution. Choose to embed watermarks in a designated section (e.g., page, slide) or across the entire document."
 
     # feature loop
-    - icon: "preview"
-      title: "Generate previews"
-      content: "Save the results of the comparison as images."
+    - icon: "image_frame"
+      title: "Multi-Frame Images Watermarking"
+      content: "Apply watermarks selectively to specific frames within a multi-frame image format, ensuring granular control over watermark placement."
 
     # feature loop
-    - icon: "two-pager"
-      title: "Content comparison"
-      content: "Compare text content line-by-line, by paragraphs, by words, by characters. Highlight the changes."
+    - icon: "attachments"
+      title: "Comprehensive Content Protection"
+      content: "Extend protection to various document elements like attachments within Excel documents and image shapes within Presentations, providing an additional layer of security."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "Style comparison"
-      content: "Detect changes in formatting and styles."
+    - icon: "pdf_objects"
+      title: "Advanced Watermarking in PDF"
+      content: "Watermark different areas of PDFs, including Bleed Box, Art Box, Crop Box, Trim Box etc."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "Set metadata"
-      content: "Keep metadata from either the source or target files or allow it to be specified by users."
+    - icon: "doc_background"
+      title: "Background Image Watermarking"
+      content: "Manage watermarks within the background images of Spreadsheets and Presentations, offering additional customization options for visual security measures."
 
     # feature loop
-    - icon: "lock"
-      title: "Password protection"
-      content: "Analyze the encrypted documents, or secure the resulting document with a password."
+    - icon: "unreadable_characters"
+      title: "Text Watermark with Unreadable Characters"
+      content: "Employ unreadable characters within text watermarks embedded in Presentations, bolstering security by making unauthorized watermark extraction significantly more challenging."
 
     # feature loop
-    - icon: "select"
-      title: "Compare specific pages"
-      content: "Load just the particular sections or pages of the document."
+    - icon: "watermark_text_search"
+      title: "Advanced Watermark Search"
+      content: "Utilize comprehensive search capabilities to locate watermarks within documents based on specific parameters or by combining various criteria, enabling efficient retrieval and management."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "Display comments"
-      content: "When loading the source document you can choose whether to hide or show comments."
+    - icon: "watermark_image_search"
+      title: "Similar Image Watermark Detection"
+      content: "Find similar watermark images within documents that visually resemble an source image."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Programmatic Document Information Extraction"
+      content: "Extract valuable metadata programmatically, including page setup details and other document information for supported file formats."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Some use cases of typical GroupDocs.Watermark for Node.js via Java operations"
+  description: "Dive into code examples showcasing common GroupDocs.Watermark for Node.js via Java functionalities"
   items:
     # code sample loop
-    - title: "Search watermarks in a document."
+    - title: "Watermark a Document with an Image"
       content: |
-        To get list of document watermarks you can use [regular expressions](https://docs.groupdocs.com/comparison/net/load-password-protected-documents/):
-        {{< landing/code title="How use regular expression search criteria.">}}
-        ```csharp {style=abap}
-        // Load the source document to Watermarker
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // Specify regular expression to narrow result list
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        Leverage GroupDocs.Watermark for Node.js via Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="How to protect file by image watermark.">}}
+        ```javascript {style=abap}
+        // Load source document to Watermarker
+        let watermarker = new Watermarker("document.pdf");
+        
+        // Specify path to a watermark image
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // Obtain and process watermarks list
-            comparer.Compare("result.docx");
-        }
+        // Protect the file and save it
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Modify existing watermarks."
+    - title: "Search and Modify Existing Watermarks"
       content: |
-        GroupDocs.Watermark is able to [modify watermarks](https://docs.groupdocs.com/comparison/net/compare-multiple-documents/) that are already presented in a document. Search for desired items and update their properties.
-        {{< landing/code title="Watermarks modification.">}}
-        ```csharp {style=abap}   
-        // Load the source document
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // Search for watermarks to be updated
-            comparer.Add("target2.docx");
-            
-            // Update desired properties
-            comparer.Add("target3.docx");
-            
-            // Save modified document to a specified path
-            comparer.Compare("result.docx");
+        GroupDocs.Watermark for Node.js via Java empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Watermarks search & modification.">}}
+        ```javascript {style=abap}   
+        // Load source document
+        let watermarker = new Watermarker("document.pdf");
+
+        // Search for watermarks to be updated
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // Update desired properties
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // Save modified document to a specified path
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

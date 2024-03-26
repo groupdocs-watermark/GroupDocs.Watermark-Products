@@ -168,59 +168,64 @@ features:
 
   items:
     # feature loop
-    - icon: "compare"
+    - icon: "watermark_add"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "note-stack"
+    - icon: "watermark_style"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "stacks"
+    - icon: "hidden_print"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "rule"
+    - icon: "image_only"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "image_frame"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "two-pager"
+    - icon: "attachments"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "format_color_text"
+    - icon: "pdf_objects"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "folder-managed"
+    - icon: "doc_background"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "lock"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "select"
+    - icon: "watermark_text_search"
       title: "<% "{index-content-java.features.feature_10.title}" %>"
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "speaker-notes"
+    - icon: "watermark_image_search"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
+
+    # feature loop
+    - icon: "document_info"
+      title: "<% "{index-content-java.features.feature_12.title}" %>"
+      content: "<% "{index-content-java.features.feature_12.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
@@ -233,16 +238,20 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```java {style=abap}
+        ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        try (Comparer comparer = new Comparer("source.docx", new LoadOptions("1234")))
-        {
-            // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            comparer.add("target.docx", new LoadOptions("5678"));
+        Watermarker watermarker = new Watermarker("document.pdf");
         
-            // <% "{index-content.code_samples.sample_1.comment_3}" %>
-            comparer.compare("result.docx");
-        }
+        // <% "{index-content.code_samples.sample_1.comment_2}" %>
+        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+
+        // <% "{index-content.code_samples.sample_1.comment_3}" %>
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -250,19 +259,24 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```java {style=abap}   
+        ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        try (Comparer comparer = new Comparer("source.docx") 
-        {
-            // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            comparer.add("target2.docx");
+        Watermarker watermarker = new Watermarker("document.pdf");
 
-            // <% "{index-content.code_samples.sample_2.comment_3}" %>
-            comparer.add("target3.docx");
+        // <% "{index-content.code_samples.sample_2.comment_2}" %>
+        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
 
-            // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            comparer.compare("result.docx");
+        // <% "{index-content.code_samples.sample_2.comment_3}" %>
+        for (PossibleWatermark watermark : watermarks)                                                           
+        {  
+            watermark.setText("New Text");
         }
+
+        // <% "{index-content.code_samples.sample_2.comment_4}" %>
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 
