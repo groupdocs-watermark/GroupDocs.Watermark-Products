@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-26T19:06:43
+date: 2024-03-26T19:02:17
 draft: false
 
 lang: en
@@ -24,8 +24,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js Watermarking Library | add watermarks to files | remove watermark | watermark files"
-head_description: "Node.js-based solution allows users to protect business documents by adding text and image watermarks. Many popular formats like PDF, Word, Excel, PowerPoint are supported."
+head_title: "Node.js Watermarking Library | document watermarks"
+head_description: "Node.js solution protect business documents with text and image watermarks. Popular formats like PDF, Word, Excel, PowerPoint are supported."
 
 ############################# Header ############################
 title: "Access to watermarking technology in Node.js via Java solutions"
@@ -50,7 +50,7 @@ release:
 code:
   title: "Add watermark to PDF with TypeScript"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
   install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
@@ -233,12 +233,12 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Explore code examples illustrating typical GroupDocs.Watermark for Node.js via Java functionalities"
+  description: "Dive into code examples showcasing common GroupDocs.Watermark for Node.js via Java functionalities"
   items:
     # code sample loop
-    - title: "Watermark a Document Using an Image"
+    - title: "Watermark a Document with an Image"
       content: |
-        Utilize GroupDocs.Watermark for Node.js via Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        Leverage GroupDocs.Watermark for Node.js via Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="How to protect file by image watermark.">}}
         ```javascript {style=abap}
         // Load source document to Watermarker
@@ -257,9 +257,9 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Modify Watermarks"
+    - title: "Search and Modify Existing Watermarks"
       content: |
-        GroupDocs.Watermark for Node.js via Java empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        GroupDocs.Watermark for Node.js via Java empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Watermarks search & modification.">}}
         ```javascript {style=abap}   
         // Load source document

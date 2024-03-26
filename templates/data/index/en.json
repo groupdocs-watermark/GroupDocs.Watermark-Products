@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "Documents Watermark Solution C# Java & Node.js | add document watermark  | watermark library | Put text & image watermarks on documents",
+    "head_title": "Document Watermark C# Java Node.js | add watermark",
     "head_description": "Add watermark to PDF, images and documents. Watermarking Solution for Microsoft Office, PDF, OpenDocument, Images and etc.",
     "title": "Documents Watermark Solution",
     "description_1": "Add text and image watermarks for your documents and images.",
@@ -157,8 +157,8 @@
     }
   },
   "index-content-net": {
-    "head_title": "C# .NET Document Watermark Software | add watermark library | remove watermark software | watermark office documents",
-    "head_description": "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats.",
+    "head_title": "C# .NET Document Watermark Software | add watermark",
+    "head_description": "C# .NET Library to add, search and remove watermarks in documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats.",
     "title": "Watermark documents easily in your C# .NET applications",
     "description": "Empower your C# solutions with a flexible document watermarking API that provides adding customizable watermarks to all popular document formats.",
     "actions_main": "Free NuGet Download",
@@ -325,8 +325,8 @@
     "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties]({{Sample2Url}})."
   },
   "index-content-nodejs-java": {
-    "head_title": "Node.js Watermarking Library | add watermarks to files | remove watermark | watermark files",
-    "head_description": "Node.js-based solution allows users to protect business documents by adding text and image watermarks. Many popular formats like PDF, Word, Excel, PowerPoint are supported.",
+    "head_title": "Node.js Watermarking Library | document watermarks",
+    "head_description": "Node.js solution protect business documents with text and image watermarks. Popular formats like PDF, Word, Excel, PowerPoint are supported.",
     "title": "Access to watermarking technology in Node.js via Java solutions",
     "description": "Protect your intellectual property and prevent unauthorized copying with this Node.js solution. It allows users to easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images etc.",
     "actions_main": "Use NPM to download for free",
@@ -404,7 +404,7 @@
     "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Dive into code examples showcasing common {{ProdFullName}} functionalities",
     "code_title_sample_1": "Watermark a Document with an Image",
-    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).",
+    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).", 
     "code_title_sample_2": "Search and Modify Existing Watermarks",
     "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks]({{Sample2Url}})."
   }

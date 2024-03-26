@@ -235,12 +235,12 @@ features:
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.title}" %>"
-  description: "<% "{index-content-java.code_samples_description}" %>"
+  description: "<% "{index-content-nodejs-java.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-java.code_title_sample_1}" %>"
+    - title: "<% "{index-content-nodejs-java.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-java.code_samples_sample_1_content}" %>
+        <% "{index-content-nodejs-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
@@ -259,9 +259,9 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "<% "{index-content-java.code_title_sample_2}" %>"
+    - title: "<% "{index-content-nodejs-java.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-java.code_samples_sample_2_content}" %>
+        <% "{index-content-nodejs-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>

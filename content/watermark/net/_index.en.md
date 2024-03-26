@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-26T19:06:43
+date: 2024-03-26T19:02:17
 draft: false
 
 lang: en
@@ -24,8 +24,8 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "C# .NET Document Watermark Software | add watermark library | remove watermark software | watermark office documents"
-head_description: "C# .NET Library to add, search and remove image & text-based watermarks to documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats."
+head_title: "C# .NET Document Watermark Software | add watermark"
+head_description: "C# .NET Library to add, search and remove watermarks in documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats."
 
 ############################# Header ############################
 title: "Watermark documents easily in your C# .NET applications"

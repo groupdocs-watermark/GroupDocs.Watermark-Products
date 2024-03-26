@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-26T19:06:43
+date: 2024-03-26T19:02:17
 draft: false
 
 lang: en
@@ -24,7 +24,7 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Watermark Library | add watermarks to documents | remove watermark popular file formats | watermark office documents"
+head_title: "Java Watermark Library | add watermarks to documents"
 head_description: "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio diagrams, email and images files."
 
 ############################# Header ############################
