@@ -1,0 +1,13 @@
+inherits: ..\\products_net.yml
+
+dimensions:  
+- alias:  operation
+  values: [add] 
+- alias:  fileformat
+  values: [excel, word, images, photo, presentation, slides]
+
+generationRules:
+  include:
+  - fileformat[excel, word, images, photo, presentation, slides]
+  
+outputPath: "watermark\\{product}\\create\\{fileformat}.{lang}.md"

@@ -1,0 +1,13 @@
+inherits: ..\\products_nodejs.yml
+
+dimensions:  
+- alias:  operation
+  values: [add] 
+- alias:  fileformat
+  values: [excel, word, images, photo, presentation, slides]
+
+generationRules:
+  include:
+  - fileformat[excel, word, images, photo, presentation, slides]
+  
+outputPath: "watermark\\{product}\\add\\{fileformat}.{lang}.md"
