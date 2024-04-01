@@ -80,7 +80,7 @@
   "images": {
     "ext": "jpeg",
     "head": {
-      "title": "Generate Word Document Watermark",
+      "title": "Generate Watermark for Images",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
@@ -119,7 +119,7 @@
   "photo": {
     "ext": "png",
     "head": {
-      "title": "Generate Word Document Watermark",
+      "title": "Generate Watermark for Photos",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
@@ -158,7 +158,7 @@
   "presentation": {
     "ext": "pptx",
     "head": {
-      "title": "Generate Word Document Watermark",
+      "title": "Generate Watermark for Presentations",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
@@ -197,7 +197,7 @@
   "slides": {
     "ext": "pptx",
     "head": {
-      "title": "Generate Word Document Watermark",
+      "title": "Generate Watermark for Slides",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {

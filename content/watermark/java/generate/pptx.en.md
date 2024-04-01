@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-29T14:42:42
+date:  2024-04-01T15:14:56
 draft: false
 lang: en
 format: Pptx
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Generate Word Document Watermark"
+head_title: "Generate PPTX Document Watermark"
 head_description: "GroupDocs.Watermark for Java allows to generate Word Document watermarks in Java, J2SE 7.0 (1.7) or above applications."
 
 ############################# Header ############################

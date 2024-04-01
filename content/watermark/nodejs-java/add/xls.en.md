@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-29T14:42:44
+date:  2024-04-01T15:14:59
 draft: false
 lang: en
 format: Xls
@@ -12,11 +12,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Generate Word Document Watermark"
+head_title: "Add XLS Document Watermark"
 head_description: "GroupDocs.Watermark for Node.js via Java allows to generate Word Document watermarks in Node.js via Java, J2SE 7.0 (1.7) or above applications."
 
 ############################# Header ############################
-title: "Generate Watermark for Document of MS Word formats with Node.js via Java" 
+title: "Add Watermark for Document of MS Word formats with Node.js via Java" 
 description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-29T14:42:42
+date:  2024-04-01T15:14:56
 draft: false
 lang: en
 format: Excel
@@ -12,11 +12,11 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Generate Watermark for Excel Spreadsheets"
+head_title: "Add Watermark for Excel Spreadsheets"
 head_description: "GroupDocs.Watermark for Node.js via Java generates watermark for MS Excel files in applications based on Node.js via Java, J2SE 7.0 (1.7) or above."
 
 ############################# Header ############################
-title: "Generate Watermark for MS Excel Spreadsheets via Node.js via Java" 
+title: "Add Watermark for MS Excel Spreadsheets via Node.js via Java" 
 description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
 subtitle: "GroupDocs.Watermark for Node.js via Java API" 
 

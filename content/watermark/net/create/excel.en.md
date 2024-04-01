@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-29T14:42:42
+date:  2024-04-01T15:14:55
 draft: false
 lang: en
 format: Excel
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Generate Watermark for Excel Spreadsheets"
+head_title: "Create Watermark for Excel Spreadsheets"
 head_description: "GroupDocs.Watermark for .NET generates watermark for MS Excel files in applications based on .NET, J2SE 7.0 (1.7) or above."
 
 ############################# Header ############################
-title: "Generate Watermark for MS Excel Spreadsheets via .NET" 
+title: "Create Watermark for MS Excel Spreadsheets via .NET" 
 description: "Text and image watermark generation for MS Excel files using .NET J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
 subtitle: "GroupDocs.Watermark for .NET API" 
 

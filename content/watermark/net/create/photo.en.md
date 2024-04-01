@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-03-29T14:42:42
+date:  2024-04-01T15:14:55
 draft: false
 lang: en
 format: Photo
@@ -12,11 +12,11 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Generate Word Document Watermark"
+head_title: "Create Watermark for Photos"
 head_description: "GroupDocs.Watermark for .NET allows to generate Word Document watermarks in .NET, J2SE 7.0 (1.7) or above applications."
 
 ############################# Header ############################
-title: "Generate Watermark for Document of MS Word formats with .NET" 
+title: "Create Watermark for Document of MS Word formats with .NET" 
 description: "Text and image watermark generation for MS Excel files using .NET J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
 subtitle: "GroupDocs.Watermark for .NET" 
 
