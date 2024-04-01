@@ -1,8 +1,10 @@
-inherits: ..\\products_net.yml
+inherits: ..\\languages-family-formats.yml
 
-dimensions:  
+dimensions:
+- alias: product
+  values: [net]
 - alias:  operation
-  values: [add] 
+  values: [add]
 - alias:  fileformat
   values: [excel, word, images, photo, presentation, slides]
 
@@ -11,3 +13,5 @@ generationRules:
   - fileformat[excel, word, images, photo, presentation, slides]
   
 outputPath: "watermark\\{product}\\create\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\add\\config_java_format.yml" %>
+<% configRef "..\\configs\\add\\format_java.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -14,42 +14,42 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "<% (dict "{product}.{fileformat}.head.title") %>"
-head_description: "<% (dict "{product}.{fileformat}.head.description") %>"
+head_title: "<% (dict "{fileformat}.head.title") %>"
+head_description: "<% (dict "{fileformat}.head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "{product}.{fileformat}.header.title") %>" 
-description: "<% (dict "{product}.{fileformat}.header.description") %>"
-subtitle: "<% (dict "{product}.{fileformat}.header.subtitle") %>" 
+title: "<% (dict "{fileformat}.header.title") %>" 
+description: "<% (dict "{fileformat}.header.description") %>"
+subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{product}.{fileformat}.header.action_title") %>"
+    - title: "<% (dict "{fileformat}.header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "{product}.{fileformat}.about.title") %>"
+    title: "<% (dict "{fileformat}.about.title") %>"
     link: "/watermark/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       <% (dict "{product}.{fileformat}.about.content") %>
+       <% (dict "{fileformat}.about.content") %>
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "<% (dict "{product}.{fileformat}.steps.title") %>"
+    title: "<% (dict "{fileformat}.steps.title") %>"
     content: |
-      <% (dict "{product}.{fileformat}.steps.content.title") %>
+      <% (dict "{fileformat}.steps.content.title") %>
       
-      1. <% (dict "{product}.{fileformat}.steps.content.step_1") %>
-      2. <% (dict "{product}.{fileformat}.steps.content.step_2") %>
-      3. <% (dict "{product}.{fileformat}.steps.content.step_3") %>
-      4. <% (dict "{product}.{fileformat}.steps.content.step_4") %>
+      1. <% (dict "{fileformat}.steps.content.step_1") %>
+      2. <% (dict "{fileformat}.steps.content.step_2") %>
+      3. <% (dict "{fileformat}.steps.content.step_3") %>
+      4. <% (dict "{fileformat}.steps.content.step_4") %>
    
     code:
       platform: "net"
@@ -83,17 +83,17 @@ steps:
           
       content: |
         ```java {style=abap}
-        // <% (dict "{product}.{fileformat}.steps.code.comments.comment_1") %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
 
-        // <% (dict "{product}.{fileformat}.steps.code.comments.comment_2") %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
         Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>");
         
-        // <% (dict "{product}.{fileformat}.steps.code.comments.comment_3") %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
         ImageWatermark watermark = new ImageWatermark("watermark.png");
         watermark.setHorizontalAlignment(HorizontalAlignment.Center);
         watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // <% (dict "{product}.{fileformat}.steps.code.comments.comment_4") %>
+        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
         watermarker.add(watermark);
         watermarker.save("output.<% get "fileformat" %>");
         
@@ -119,9 +119,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "{product}.{fileformat}.formats.title") %>"
+    title: "<% (dict "{fileformat}.formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "{product}.{fileformat}.formats.description") %>"
+    description: "<% (dict "{fileformat}.formats.description") %>"
 <% include "..\\data\\format_others.md" %>
 
 ---

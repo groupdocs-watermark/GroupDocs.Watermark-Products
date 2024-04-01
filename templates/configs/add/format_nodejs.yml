@@ -1,8 +1,10 @@
-inherits: ..\\products_net.yml
+inherits: ..\\languages-formats.yml
 
-dimensions:  
+dimensions:
+- alias: product
+  values: [nodejs-java]
 - alias:  operation
-  values: [add] 
+  values: [add]
 - alias:  fileformat
   values: [doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
 
@@ -10,4 +12,6 @@ generationRules:
   include:
   - fileformat[doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
   
-outputPath: "watermark\\{product}\\create\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\add\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]
