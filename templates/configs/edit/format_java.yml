@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [edit]
 - alias:  fileformat
-  values: [doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
+  values: [doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
 
 generationRules:
   include:
-  - fileformat[doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
+  - fileformat[doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
   
 outputPath: "watermark\\{product}\\adjust\\{fileformat}.{lang}.md"
 

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-04-01T15:15:01
+date: 2024-04-02T16:48:51
 draft: false
 
 lang: en
@@ -37,7 +37,7 @@ actions:
   main: "Use NPM to download for free"
   main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
   title: "Ready to get started?"
   description: "Try GroupDocs.Watermark features for free or request a license"
 

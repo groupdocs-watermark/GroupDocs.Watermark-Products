@@ -1,0 +1,17 @@
+inherits: ..\\languages-family-formats.yml
+
+dimensions:
+- alias: product
+  values: [nodejs-java]
+- alias:  operation
+  values: [search]
+- alias:  fileformat
+  values: [excel, word, presentation, slides]
+
+generationRules:
+  include:
+  - fileformat[excel, word, presentation, slides]
+  
+outputPath: "watermark\\{product}\\get\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

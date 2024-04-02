@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-01T15:14:59
+date:  2024-04-02T16:48:49
 draft: false
 lang: en
 format: Jpg
@@ -96,7 +96,7 @@ actions:
       color: "red"
         #  loop
     - title: "Licensing"
-      link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+      link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
       color: "light"
 
 

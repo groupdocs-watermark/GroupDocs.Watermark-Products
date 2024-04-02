@@ -1,0 +1,17 @@
+inherits: ..\\languages-family-formats.yml
+
+dimensions:
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [remove]
+- alias:  fileformat
+  values: [excel, word, presentation, slides]
+
+generationRules:
+  include:
+  - fileformat[excel, word, presentation, slides]
+  
+outputPath: "watermark\\{product}\\remove\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

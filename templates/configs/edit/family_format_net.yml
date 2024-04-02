@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [edit]
 - alias:  fileformat
-  values: [excel, word, images, photo, presentation, slides]
+  values: [excel, word, presentation, slides]
 
 generationRules:
   include:
-  - fileformat[excel, word, images, photo, presentation, slides]
+  - fileformat[excel, word, presentation, slides]
   
 outputPath: "watermark\\{product}\\remake\\{fileformat}.{lang}.md"
 
