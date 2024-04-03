@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:49
+date:  2024-04-03T18:16:19
 draft: false
 lang: en
 format: Doc
@@ -67,17 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Add image watermark to DOC
 
-        // Pass source file to Watermarker
+        // Instantiate Watermarker passing source file
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
         
-        // Provide watermark options
+        // Construct watermark by providing image file
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // Get watermarked result file
+        // Get DOC result
         watermarker.add(watermark);
         watermarker.save("output.doc");
         

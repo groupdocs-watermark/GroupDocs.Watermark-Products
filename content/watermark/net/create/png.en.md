@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:47
+date:  2024-04-03T18:16:17
 draft: false
 lang: en
 format: Png
@@ -67,19 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Create image watermark in PNG file
 
-        // Pass source file to Watermarker
+        // Provide source file path to Watermarker constructor
         using (Watermarker watermarker = new Watermarker("input.png"))
         {
-            // Provide watermark options
+            // Create image watermark instance with image file
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
                 watermarker.Add(watermark);
             }
-            // Get watermarked result file
+            // Save watermarked PNG result
             watermarker.Save("output.png");
         }
         

@@ -84,18 +84,24 @@ steps:
       content: |
         ```java {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>");
-        
-        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-        watermarker.add(watermark);
+        // <% "{examples.comment_3}" %>
+        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
+        
+        // <% "{examples.comment_4}" %>
+        for (PossibleWatermark watermark : watermarks)
+        {
+            watermark.getFormattedTextFragments().clear();
+            watermark.getFormattedTextFragments().
+                add("passed", new Font("Calibri", 19, FontStyle.Bold), Color.getRed(), Color.getAqua());
+        }
+
+        // <% "{examples.comment_5}" %>
         watermarker.save("output.<% (dict "{fileformat}.ext") %>");
         
         ```            

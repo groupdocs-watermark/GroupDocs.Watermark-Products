@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:48
+date:  2024-04-03T18:16:18
 draft: false
 lang: en
 format: Doc
@@ -67,23 +67,26 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Remake image watermark in DOC doc
 
-        // Pass source file to Watermarker
+        // Initialize Watermarker by source file
         using (Watermarker watermarker = new Watermarker("input.doc"))
         {
-            // Provide watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
+            // Create SearchCriteria for image watermarks search
+            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+
+            foreach (PossibleWatermark watermark in watermarks)
             {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
+                // Remake image watermark
+                watermark.ImageData = imageData;
             }
-            // Get watermarked result file
+
+            // Save result DOC
             watermarker.Save("output.doc");
         }
         
-        ```  
+        ```     
 
 ############################# Actions ############################
 

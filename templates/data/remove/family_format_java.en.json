@@ -77,7 +77,7 @@
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
     }
   },
-  "images": {
+  "image": {
     "ext": "jpeg",
     "head": {
       "title": "Clear Watermark for Images",
@@ -155,7 +155,7 @@
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
     }
   },
-  "presentation": {
+  "powerpoint": {
     "ext": "pptx",
     "head": {
       "title": "Clear Watermark for Presentations",

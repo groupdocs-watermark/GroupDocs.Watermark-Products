@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:50
+date:  2024-04-03T18:16:20
 draft: false
 lang: en
 format: Rtf
@@ -67,18 +67,23 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Update image RTF watermark
 
-        // Pass source file to Watermarker
+        // Compose Watermarker for RTF file
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
-        
-        // Provide watermark options
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
+        // Use SearchCriteria to find a particular image
+        const searchCriteria = 
+            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
+        const watermarks = watermarker.search(searchCriteria);
+        
+        // Update image content
+        for (const watermark of watermarks.getInnerList().toArray())
+        {
+            watermark.setImageData(imageData);
+        }
+
+        // Save updated file
         watermarker.save("output.rtf");
         
         ```            

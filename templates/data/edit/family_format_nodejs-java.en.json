@@ -1,4 +1,11 @@
 {
+  "examples": {
+    "comment_1": "Update {{FileFormatUp}} text watermark",
+    "comment_2": "Provide Watermarker instance for {{FileFormatUp}} file",
+    "comment_3": "Use TextSearchCriteria to find text watermarks",
+    "comment_4": "Update text watermark",
+    "comment_5": "Enjoy the result"
+  },
   "excel": {
     "ext": "xslx",
     "head": {
@@ -23,14 +30,6 @@
         "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
         "step_3": "Set watermark properties (size, alignment, color etc)",
         "step_4": "Get output document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Add image watermark in your Excel Spreadsheet",
-          "comment_2": "Create a Watermarker object specifying a source file",
-          "comment_3": "Set up watermark options",
-          "comment_4": "Get result file protected by watermark"
-        }
       }
     },
     "formats": {
@@ -62,14 +61,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -77,7 +68,7 @@
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
     }
   },
-  "images": {
+  "image": {
     "ext": "jpeg",
     "head": {
       "title": "Update Watermark for Images",
@@ -101,14 +92,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -140,14 +123,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -155,7 +130,7 @@
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
     }
   },
-  "presentation": {
+  "powerpoint": {
     "ext": "pptx",
     "head": {
       "title": "Update Watermark for Presentations",
@@ -179,14 +154,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -218,14 +185,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {

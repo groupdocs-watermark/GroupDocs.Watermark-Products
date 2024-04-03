@@ -69,18 +69,23 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         const watermarker = new groupdocs.watermark.Watermarker("input.<% get "fileformat" %>");
-        
-        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-        watermarker.add(watermark);
+        // <% "{examples.comment_3}" %>
+        const searchCriteria = 
+            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
+        const watermarks = watermarker.search(searchCriteria);
+        
+        // <% "{examples.comment_4}" %>
+        for (const watermark of watermarks.getInnerList().toArray())
+        {
+            watermark.setImageData(imageData);
+        }
+
+        // <% "{examples.comment_5}" %>
         watermarker.save("output.<% get "fileformat" %>");
         
         ```            

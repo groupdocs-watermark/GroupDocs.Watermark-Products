@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:46
+date:  2024-04-03T18:16:16
 draft: false
 lang: en
 format: Pptx
@@ -81,18 +81,22 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Image watermarking for MS Word Documents
+        // Adjust PPTX image watermark
 
-        // Pass source file to Watermarker
+        // Instantiate Watermarker with PPTX
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // Provide watermark options
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Initialize the SearchCriteria to match a particular image
+        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
+        for (PossibleWatermark watermark : watermarks)
+        {
+            // Replace image which was found
+            watermark.setImageData(imageData);
+        }
+
+        // Save adjusted file
         watermarker.save("output.pptx");
         
         ```            

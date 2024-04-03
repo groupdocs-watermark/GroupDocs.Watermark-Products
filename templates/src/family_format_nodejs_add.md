@@ -69,17 +69,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         const watermarker = new groupdocs.watermark.Watermarker("input.<% (dict "{fileformat}.ext") %>");
         
-        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // <% "{examples.comment_3}" %>
+        const  watermark = new groupdocs.watermark.TextWatermark
+            ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
+        // <% "{examples.comment_4}" %>
         watermarker.add(watermark);
         watermarker.save("output.<% (dict "{fileformat}.ext") %>");
         

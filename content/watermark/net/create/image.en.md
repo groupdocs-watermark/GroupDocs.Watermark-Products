@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T14:23:00
+date:  2024-04-03T18:16:14
 draft: false
 lang: en
 format: Image
@@ -12,42 +12,42 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Create Watermark for Images"
+head_description: "GroupDocs.Watermark for .NET allows to generate Word Document watermarks in .NET, J2SE 7.0 (1.7) or above applications."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Create Watermark for Document of MS Word formats with .NET" 
+description: "Text and image watermark generation for MS Excel files using .NET J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+subtitle: "GroupDocs.Watermark for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Download at Nuget for free"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
+    title: "GroupDocs.Watermark for .NET"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       
+       GroupDocs.Watermark for .NET is designed for generation various Word watermarks using .NET. Our solution may enrich .NET apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and .NET J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: ""
+    title: "MS Word Document Watermarking via .NET"
     content: |
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
       
-      
-      1. 
-      2. 
-      3. 
-      4. 
+      1. Create **Watermarker** instance passing document path
+      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
+      3. Adjust watermark properties
+      4. Save watermarked document
    
     code:
       platform: "net"
@@ -67,20 +67,20 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // 
+        // Create text watermark in IMAGE file
 
-        // 
-        using (Watermarker watermarker = new Watermarker("input."))
+        // Provide file to be watermarked
+        using (Watermarker watermarker = new Watermarker("input.jpeg"))
         {
-            // 
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-            }
-            // 
-            watermarker.Save("output.");
+            // Create text watermark instance
+            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
+            TextWatermark watermark = new TextWatermark("my watermark", font);
+            watermark.ForegroundColor = Color.Red;
+            watermark.BackgroundColor = Color.Blue;
+            watermarker.Add(watermark);
+
+            // Save IMAGE result
+            watermarker.Save("output.jpeg");
         }
         
         ```            
@@ -105,9 +105,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: ""
+    title: "MS Word documents watermarking via C#"
     exclude: "IMAGE"
-    description: ""
+    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for .NET API to your business processes."
     items: 
         # format loop 1
         - name: "Watermark PDFs"

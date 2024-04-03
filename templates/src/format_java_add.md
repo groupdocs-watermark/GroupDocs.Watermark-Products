@@ -83,17 +83,15 @@ steps:
           
       content: |
         ```java {style=abap}
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>");
         
-        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
+        // <% "{examples.comment_3}" %>
         ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
+        // <% "{examples.comment_4}" %>
         watermarker.add(watermark);
         watermarker.save("output.<% get "fileformat" %>");
         
