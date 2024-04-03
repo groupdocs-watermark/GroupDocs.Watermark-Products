@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [remove]
 - alias:  fileformat
-  values: [excel, word, presentation, slides]
+  values: [excel, word, powerpoint]
 
 generationRules:
   include:
-  - fileformat[excel, word, presentation, slides]
+  - fileformat[excel, word, powerpoint]
   
 outputPath: "watermark\\{product}\\delete\\{fileformat}.{lang}.md"
 

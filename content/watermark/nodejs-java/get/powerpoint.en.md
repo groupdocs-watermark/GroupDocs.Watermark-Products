@@ -2,52 +2,52 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-02T16:48:45
+date:  2024-04-03T14:23:02
 draft: false
 lang: en
-format: Presentation
+format: Powerpoint
 product: "Watermark"
 product_tag: "watermark"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Get Watermark for Presentations"
-head_description: "GroupDocs.Watermark for Node.js via Java allows to generate Word Document watermarks in Node.js via Java, J2SE 7.0 (1.7) or above applications."
+head_title: ""
+head_description: ""
 
 ############################# Header ############################
-title: "Get Watermark for Document of MS Word formats with Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
-subtitle: "GroupDocs.Watermark for Node.js via Java" 
+title: "" 
+description: ""
+subtitle: "" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at NPM for free"
+    - title: ""
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Node.js via Java"
+    title: ""
     link: "/watermark/nodejs-java/"
     link_title: "Learn more"
     picture: "about_viewer.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is designed for generation various Word watermarks using Node.js via Java. Our solution may enrich Node.js via Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Node.js via Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: ""
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      
+      1. 
+      2. 
+      3. 
+      4. 
    
     code:
       platform: "net"
@@ -67,19 +67,19 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // 
 
-        // Pass source file to Watermarker
-        const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
+        // 
+        const watermarker = new groupdocs.watermark.Watermarker("input.");
         
-        // Provide watermark options
+        // 
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
         watermark.setHorizontalAlignment(HorizontalAlignment.Center);
         watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // Get watermarked result file
+        // 
         watermarker.add(watermark);
-        watermarker.save("output.pptx");
+        watermarker.save("output.");
         
         ```            
 
@@ -103,9 +103,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via JavaScript"
-    exclude: "PRESENTATION"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Node.js via Java API to your business processes."
+    title: ""
+    exclude: "POWERPOINT"
+    description: ""
     items: 
         # format loop 1
         - name: "Watermark PDFs"

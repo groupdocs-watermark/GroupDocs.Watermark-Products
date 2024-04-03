@@ -6,11 +6,11 @@ dimensions:
 - alias:  operation
   values: [add]
 - alias:  fileformat
-  values: [excel, word, images, photo, presentation, slides]
+  values: [excel, word, image, photo, powerpoint]
 
 generationRules:
   include:
-  - fileformat[excel, word, images, photo, presentation, slides]
+  - fileformat[excel, word, image, photo, powerpoint]
   
 outputPath: "watermark\\{product}\\generate\\{fileformat}.{lang}.md"
 
