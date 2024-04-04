@@ -1,7 +1,12 @@
-inherits: ..\\products_nodejs.yml
+inherits: ..\\languages-index.yml
 
 dimensions:  
 - alias:  operation
   values: [index] 
+
+- alias: product
+  values: [nodejs-java]
+
+dictionaries: [ ..\\..\\data\\products.json ]
 
 outputPath: "watermark\\{product}\\_index.{lang}.md"

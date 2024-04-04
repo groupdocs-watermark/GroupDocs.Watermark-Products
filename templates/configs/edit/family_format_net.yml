@@ -1,0 +1,17 @@
+inherits: ..\\languages-family-formats.yml
+
+dimensions:
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [edit]
+- alias:  fileformat
+  values: [excel, word, powerpoint]
+
+generationRules:
+  include:
+  - fileformat[excel, word, powerpoint]
+  
+outputPath: "watermark\\{product}\\remake\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

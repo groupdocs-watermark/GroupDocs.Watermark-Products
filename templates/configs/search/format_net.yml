@@ -1,0 +1,17 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [net]
+- alias:  operation
+  values: [search]
+- alias:  fileformat
+  values: [doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
+
+generationRules:
+  include:
+  - fileformat[doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
+  
+outputPath: "watermark\\{product}\\find\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

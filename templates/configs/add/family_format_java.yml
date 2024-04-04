@@ -1,0 +1,18 @@
+inherits: ..\\languages-family-formats.yml
+
+dimensions:
+- alias: product
+  values: [java]
+- alias:  operation
+  values: [add]
+- alias:  fileformat
+  values: [excel, word, image, photo, powerpoint]
+
+generationRules:
+  include:
+  - fileformat[excel, word, image, photo, powerpoint]
+  
+outputPath: "watermark\\{product}\\generate\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json]
+
