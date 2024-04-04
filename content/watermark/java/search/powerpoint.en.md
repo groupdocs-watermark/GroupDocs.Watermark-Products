@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:14
+date:  2024-04-04T13:37:49
 draft: false
 lang: en
 format: Powerpoint
@@ -82,19 +82,18 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Search text watermarks in POWERPOINT document
 
-        // Pass source file to Watermarker
+        // Get Watermarker instance for POWERPOINT document
         Watermarker watermarker = new Watermarker("input.pptx");
-        
-        // Provide watermark options
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
-        watermarker.save("output.pptx");
+        // Search watermarks by criteria
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+        imageSearchCriteria.setMaxDifference(0.9);
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
+
+        // Process watermarks
+        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```            
 

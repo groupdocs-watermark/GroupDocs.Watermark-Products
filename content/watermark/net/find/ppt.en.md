@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:19
+date:  2024-04-04T13:37:54
 draft: false
 lang: en
 format: Ppt
@@ -67,20 +67,18 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Find image watermarks placed in PPT
 
-        // Pass source file to Watermarker
+        // Construct Watermarker passing PPT path
         using (Watermarker watermarker = new Watermarker("input.ppt"))
         {
-            // Provide watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-            }
-            // Get watermarked result file
-            watermarker.Save("output.ppt");
+            // Find watermarks using search options
+            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+            imageSearchCriteria.MaxDifference = 0.9;
+            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
+
+            // Process watermarks info
+            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         
         ```  

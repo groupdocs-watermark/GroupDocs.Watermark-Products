@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:14
+date:  2024-04-04T13:37:49
 draft: false
 lang: en
 format: Excel
@@ -82,18 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Add image watermark in your Excel Spreadsheet
+        // Clear text watermark in EXCEL document
 
-        // Create a Watermarker object specifying a source file
+        // Instantiate Watermarker with EXCEL document
         Watermarker watermarker = new Watermarker("input.xslx");
         
-        // Set up watermark options
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Clear specific watermark
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search();
+        possibleWatermarks.removeAt(0);
 
-        // Get result file protected by watermark
-        watermarker.add(watermark);
+        // Save processed file
         watermarker.save("output.xslx");
         
         ```            

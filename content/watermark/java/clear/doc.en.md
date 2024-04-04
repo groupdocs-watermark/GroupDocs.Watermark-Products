@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:17
+date:  2024-04-04T13:37:52
 draft: false
 lang: en
 format: Doc
@@ -81,18 +81,16 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Image watermarking for MS Word Documents
+        // Clear image watermark DOC document
 
-        // Pass source file to Watermarker
+        // Pass DOC document path to Watermarker constructor
         Watermarker watermarker = new Watermarker("input.doc");
         
-        // Provide watermark options
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Clear the document by deleting a watermark
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search();
+        possibleWatermarks.removeAt(0);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
+        // Save cleared file
         watermarker.save("output.doc");
         
         ```            

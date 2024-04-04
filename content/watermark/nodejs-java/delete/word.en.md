@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-04T13:37:51
 draft: false
 lang: en
 format: Word
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Delete text watermark in WORD document
 
-        // Pass source file to Watermarker
+        // Instantiate Watermarker with WORD document
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Provide watermark options
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Clear text watermarks suit search conditions
+        const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
+        criteria.setFontBold(true);
+        const watermarks = watermarker.search(criteria);
+        watermarks.clear();
 
-        // Get watermarked result file
-        watermarker.add(watermark);
+        // Save processed file
         watermarker.save("output.docx");
         
         ```            

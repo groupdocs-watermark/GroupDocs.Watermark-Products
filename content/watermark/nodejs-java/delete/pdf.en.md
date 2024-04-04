@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:20
+date:  2024-04-04T13:37:56
 draft: false
 lang: en
 format: Pdf
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Delete image watermark in PDF document
 
-        // Pass source file to Watermarker
+        // Get Watermarker passing PDF path as an argument
         const watermarker = new groupdocs.watermark.Watermarker("input.pdf");
         
-        // Provide watermark options
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Clear image watermarks by search criteris
+        const searchCriteria = 
+            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
+        const watermarks = watermarker.search(searchCriteria);
+        watermarks.clear();
 
-        // Get watermarked result file
-        watermarker.add(watermark);
+        // Save processed file
         watermarker.save("output.pdf");
         
         ```            

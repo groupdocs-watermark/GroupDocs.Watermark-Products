@@ -69,20 +69,21 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
         {
-            // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
+            // <% "{examples.comment_3}" %>
+            PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
+
+            // <% "{examples.comment_4}" %>
+            foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
+                Console.WriteLine(possibleWatermark.Text);
+                Console.WriteLine(possibleWatermark.Width);
+                Console.WriteLine(possibleWatermark.Height);
             }
-            // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
         }
         
         ```            

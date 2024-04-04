@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-04T13:37:50
 draft: false
 lang: en
 format: Excel
@@ -67,20 +67,21 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Add image watermark in your Excel Spreadsheet
+        // Find text watermark in EXCEL
 
-        // Create a Watermarker object specifying a source file
+        // Create Watermarker with EXCEL path
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
-            // Set up watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
+            // Find watermarks
+            PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
+
+            // Use found watermarks info
+            foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
+                Console.WriteLine(possibleWatermark.Text);
+                Console.WriteLine(possibleWatermark.Width);
+                Console.WriteLine(possibleWatermark.Height);
             }
-            // Get result file protected by watermark
-            watermarker.Save("output.xslx");
         }
         
         ```            

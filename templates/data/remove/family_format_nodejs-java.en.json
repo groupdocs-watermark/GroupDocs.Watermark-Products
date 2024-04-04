@@ -1,4 +1,10 @@
 {
+  "examples": {
+    "comment_1": "Delete text watermark in {{FileFormatUp}} document",
+    "comment_2": "Instantiate Watermarker with {{FileFormatUp}} document",
+    "comment_3": "Clear text watermarks suit search conditions",
+    "comment_4": "Save processed file"
+  },
   "excel": {
     "ext": "xslx",
     "head": {
@@ -23,14 +29,6 @@
         "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
         "step_3": "Set watermark properties (size, alignment, color etc)",
         "step_4": "Get output document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Add image watermark in your Excel Spreadsheet",
-          "comment_2": "Create a Watermarker object specifying a source file",
-          "comment_3": "Set up watermark options",
-          "comment_4": "Get result file protected by watermark"
-        }
       }
     },
     "formats": {
@@ -62,14 +60,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -101,14 +91,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -140,14 +122,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -179,14 +153,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {
@@ -218,14 +184,6 @@
         "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
         "step_3": "Adjust watermark properties",
         "step_4": "Save watermarked document"
-      },
-      "code": {
-        "comments": {
-          "comment_1": "Image watermarking for MS Word Documents",
-          "comment_2": "Pass source file to Watermarker",
-          "comment_3": "Provide watermark options",
-          "comment_4": "Get watermarked result file"
-        }
       }
     },
     "formats": {

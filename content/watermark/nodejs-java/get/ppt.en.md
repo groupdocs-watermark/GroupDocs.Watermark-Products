@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:21
+date:  2024-04-04T13:37:56
 draft: false
 lang: en
 format: Ppt
@@ -67,19 +67,19 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Image watermarking for MS Word Documents
+        // Get image watermarks placed in PPT
 
-        // Pass source file to Watermarker
+        // Create Watermarker object with source path
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
         
-        // Provide watermark options
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Get watermarks by similar image hash
+        const imageSearchCriteria = 
+            new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
+        imageSearchCriteria.setMaxDifference(0.9);
+        const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
-        watermarker.save("output.ppt");
+        // Process watermarks as you wish
+        console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            
 

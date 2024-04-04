@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-04T13:37:51
 draft: false
 lang: en
 format: Excel
@@ -67,19 +67,17 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Add image watermark in your Excel Spreadsheet
+        // Get text watermark list for EXCEL
 
-        // Create a Watermarker object specifying a source file
+        // Instantiate Watermarker class
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
-        // Set up watermark options
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Get watermarks by text criteria
+        const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
+        const watermarks = watermarker.search(searchCriteria);
 
-        // Get result file protected by watermark
-        watermarker.add(watermark);
-        watermarker.save("output.xslx");
+        // Use watermarks info
+        console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            
 

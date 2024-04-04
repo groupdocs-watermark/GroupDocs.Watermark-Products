@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:18
+date:  2024-04-04T13:37:54
 draft: false
 lang: en
 format: Pptx
@@ -67,19 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Remove image watermark in PPTX document
 
-        // Pass source file to Watermarker
+        // Instantiate Watermarker passing PPTX document
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // Provide watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-            }
-            // Get watermarked result file
+            // Remove watermarks which were found in the document
+            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            possibleWatermarks.Remove(watermarks[0]);
+
+            // Save the document
             watermarker.Save("output.pptx");
         }
         

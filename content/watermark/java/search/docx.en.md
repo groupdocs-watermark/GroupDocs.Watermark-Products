@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:17
+date:  2024-04-04T13:37:52
 draft: false
 lang: en
 format: Docx
@@ -81,19 +81,18 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Image watermarking for MS Word Documents
+        // Search image watermarks in DOCX document
 
-        // Pass source file to Watermarker
+        // Compose Watermarker passing DOCX document
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // Provide watermark options
-        ImageWatermark watermark = new ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // Search watermarks by image hash
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+        imageSearchCriteria.setMaxDifference(0.9);
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Get watermarked result file
-        watermarker.add(watermark);
-        watermarker.save("output.docx");
+        // Process found watermarks
+        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```            
 

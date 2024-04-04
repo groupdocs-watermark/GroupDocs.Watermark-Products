@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-04T13:37:50
 draft: false
 lang: en
 format: Word
@@ -67,20 +67,21 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Find text watermark in WORD
 
-        // Pass source file to Watermarker
+        // Create Watermarker with WORD path
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Provide watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
+            // Find watermarks
+            PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
+
+            // Use found watermarks info
+            foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
+                Console.WriteLine(possibleWatermark.Text);
+                Console.WriteLine(possibleWatermark.Width);
+                Console.WriteLine(possibleWatermark.Height);
             }
-            // Get watermarked result file
-            watermarker.Save("output.docx");
         }
         
         ```            

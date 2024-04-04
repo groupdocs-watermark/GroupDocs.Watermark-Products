@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-04T13:37:50
 draft: false
 lang: en
 format: Powerpoint
@@ -67,19 +67,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Image watermarking for MS Word Documents
+        // Remove text watermark from POWERPOINT document
 
-        // Pass source file to Watermarker
+        // Provide Watermarker instance for document POWERPOINT source document
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // Provide watermark options
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-            }
-            // Get watermarked result file
+            // Remove selected watermarks from the document
+            TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
+            criteria.ForegroundColorRange = new ColorRange();
+            criteria.FontBold = true;
+            PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
+            watermarks.Clear();
+
+            // Save file to provided path
             watermarker.Save("output.pptx");
         }
         

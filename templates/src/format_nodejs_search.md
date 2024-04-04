@@ -69,19 +69,19 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_1") %>
+        // <% "{examples.comment_1}" %>
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_2") %>
+        // <% "{examples.comment_2}" %>
         const watermarker = new groupdocs.watermark.Watermarker("input.<% get "fileformat" %>");
         
-        // <% (dict "{fileformat}.steps.code.comments.comment_3") %>
-        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
-        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-        watermark.setVerticalAlignment(VerticalAlignment.Center);
+        // <% "{examples.comment_3}" %>
+        const imageSearchCriteria = 
+            new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
+        imageSearchCriteria.setMaxDifference(0.9);
+        const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // <% (dict "{fileformat}.steps.code.comments.comment_4") %>
-        watermarker.add(watermark);
-        watermarker.save("output.<% get "fileformat" %>");
+        // <% "{examples.comment_4}" %>
+        console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            
 
