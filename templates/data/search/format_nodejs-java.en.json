@@ -6,13 +6,13 @@
     "comment_4": "Process watermarks as you wish"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "Get image watermarks from {{FileformatCap}} files using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "Include [{{ProdShortName}}]({{ProductUrl}}) library to {{EnvName}} application in order to get image watermarks list from business documents.",
+      "step_1": "Input the path of a {{FileformatCap}} file into the **Watermarker** constructor",
+      "step_2": "Provide image file to find document watermarks",
+      "step_3": "Get the list of document watermarks",
+      "step_4": "Customize the watermark processing as needed"
     }
   },
   "doc": {

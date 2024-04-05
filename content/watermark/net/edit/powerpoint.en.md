@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:42
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "Edit Powerpoint document text watermarks using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) allows developers to edit text watermarks in .NET applications swiftly and easily
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Provide **Watermarker** object with Powerpoint document
+      2. Search for text watermarks in the document using **TextSearchCriteria**
+      3. Edit particular watermark options like size, alignment, color
+      4. Enjoy output result
    
     code:
       platform: "net"

@@ -6,13 +6,13 @@
     "comment_4": "Use found watermarks info"
   },
   "steps": {
-    "title": "How to generate image watermarks for MS Excel documents using {{EnvName}}",
+    "title": "Find text watermarks in {{FileformatCap}} documents using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-      "step_1": "Instantiate **Watermarker** with Excel document path",
-      "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
-      "step_3": "Set watermark properties (size, alignment, color etc)",
-      "step_4": "Get output document"
+      "title": "Empower {{EnvName}} application with [{{ProdShortName}}]({{ProductUrl}}) solution. Find text watermarks in business documents and process them in convenient way.",
+      "step_1": "Pass {{FileformatCap}} document path to **Watermarker**",
+      "step_2": "Use **TextSearchCriteria** and its options to narrow result list of watermarks",
+      "step_3": "Find all suitable text watermarks from the document",
+      "step_4": "Process found text watermarks"
     }
   },
   "excel": {

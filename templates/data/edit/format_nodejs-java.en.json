@@ -7,13 +7,13 @@
     "comment_5": "Save updated file"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "Update image watermarks in {{FileformatCap}} documents via {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "Empower {{EnvName}} solutions using [{{ProdShortName}}]({{ProductUrl}}) and update various image watermarks in business documents.",
+      "step_1": "Get **Watermarker** instance providing path to {{FileformatCap}} document",
+      "step_2": "Search for suitable image watermarks in the document",
+      "step_3": "Update watermarks properties",
+      "step_4": "Save updated document"
     }
   },
   "doc": {

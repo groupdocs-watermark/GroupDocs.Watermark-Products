@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:45
+date:  2024-04-05T13:59:17
 draft: false
 lang: en
 format: Tif
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "How to generate image watermarks in Tif docs via .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      Generate image watermarks (BMP, PNG, GIF or JPEG) using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) in .NET applications implementing a few easy steps.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Get **Watermarker** instance with Tif path
+      2. Pass image watermark path to **ImageWatermark** class constructor
+      3. Tune watermark properties like size or alignment
+      4. Generate new watermark and save result
    
     code:
       platform: "net"

@@ -6,13 +6,13 @@
     "comment_4": "Save the document"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "Remove image watermarks from {{FileformatCap}} documents using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "Use [{{ProdShortName}}]({{ProductUrl}}) along with {{EnvName}} to remove image watermarks from your business documents",
+      "step_1": "Get **Watermarker** with {{FileformatCap}} document path",
+      "step_2": "Search for image watermarks in the document",
+      "step_3": "Remove unnecessary watermarks",
+      "step_4": "Save updated document"
     }
   },
   "doc": {

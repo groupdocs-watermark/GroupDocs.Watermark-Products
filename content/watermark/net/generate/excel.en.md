@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:42
+date:  2024-04-05T13:59:14
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks for MS Excel documents using .NET"
+    title: "Generate text watermark for Excel via .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) makes it easy for .NET developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) to generate text watermarks and add them to Excel files in .NET applications.
       
-      1. Instantiate **Watermarker** with Excel document path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment, color etc)
-      4. Get output document
+      1. Create **Watermarker** with Excel file
+      2. Instantiate **TextWatermark**
+      3. Set up watermark size, alignment, color, font, etc.
+      4. Generate new watermark and save result file
    
     code:
       platform: "net"

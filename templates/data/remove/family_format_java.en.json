@@ -6,12 +6,12 @@
     "comment_4": "Save processed file"
   },
   "steps": {
-    "title": "How to generate image watermarks for MS Excel documents using {{EnvName}}",
+    "title": "Clear {{FileformatCap}} documents of text watermarks using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-      "step_1": "Instantiate **Watermarker** with Excel document path",
-      "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
-      "step_3": "Set watermark properties (size, alignment, color etc)",
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy to clear business documents of text watermarks using {{EnvName}} applications.",
+      "step_1": "Instantiate **Watermarker** with {{FileformatCap}} document",
+      "step_2": "Use **TextSearchCriteria** to search for appropriate watermarks in the document",
+      "step_3": "Clear particular text watermark",
       "step_4": "Get output document"
     }
   },

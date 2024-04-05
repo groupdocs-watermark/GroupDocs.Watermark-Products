@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:50
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "Remove text watermarks from Word files using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) and .NET to add possibility in your product to remove text watermarks from business documents.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Use **Watermarker** instance along with Word document
+      2. Use **TextSearchCriteria** to search for text watermarks 
+      3. Remove particular text watermark
+      4. Save cleared document
    
     code:
       platform: "net"

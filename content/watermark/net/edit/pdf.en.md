@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:46
+date:  2024-04-05T13:59:18
 draft: false
 lang: en
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "Edit image watermarks from Pdf documents using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      .NET developers can use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) features to empower their applications and edit image watermarks in popular document formats.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Instantiate **Watermarker** with path to Pdf document
+      2. Get list of suitable image watermarks in the document
+      3. Edit found watermarks properties like size or alignment
+      4. Re-save edited document
    
     code:
       platform: "net"

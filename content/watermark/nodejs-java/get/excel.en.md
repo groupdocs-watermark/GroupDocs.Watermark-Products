@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:51
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks for MS Excel documents using Node.js via Java"
+    title: "Get text watermarks list placed in Excel documents via Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) makes it easy for Node.js via Java developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      Empower Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) solution. Get watermarks from business documents and process them in convenient way.
       
-      1. Instantiate **Watermarker** with Excel document path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment, color etc)
-      4. Get output document
+      1. Provide Excel path for **Watermarker** counstructor
+      2. **TextSearchCriteria** helps us to get document watermarks
+      3. Get text watermarks from the document
+      4. Process list of text watermarks
    
     code:
       platform: "net"

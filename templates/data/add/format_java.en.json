@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Generate image watermark for {{FileFormatUp}}",
+    "comment_1": "Add image watermark to {{FileFormatUp}}",
     "comment_2": "Pass file to be watermarked to Watermarker",
     "comment_3": "Provide path to image with watermark",
     "comment_4": "Save result"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "How to add image watermarks to {{FileformatCap}} files using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
+      "step_1": "Instantiate **Watermarker** with {{FileformatCap}} file path",
+      "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
+      "step_3": "Set watermark properties (size, alignment etc) and add it to document",
+      "step_4": "Get watermarked document"
     }
   },
   "doc": {

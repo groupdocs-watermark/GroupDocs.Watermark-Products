@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:49
+date:  2024-04-05T13:59:14
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Java"
+    title: "Clear Powerpoint documents of text watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) helps Java developers to generate watermarks in Java applications with a few easy steps.
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy to clear business documents of text watermarks using Java applications.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Instantiate **Watermarker** with Powerpoint document
+      2. Use **TextSearchCriteria** to search for appropriate watermarks in the document
+      3. Clear particular text watermark
+      4. Get output document
    
     code:
       platform: "net"

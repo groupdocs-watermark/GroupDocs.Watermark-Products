@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:50
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks for MS Excel documents using .NET"
+    title: "Remove text watermarks from Excel files using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) makes it easy for .NET developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) and .NET to add possibility in your product to remove text watermarks from business documents.
       
-      1. Instantiate **Watermarker** with Excel document path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment, color etc)
-      4. Get output document
+      1. Use **Watermarker** instance along with Excel document
+      2. Use **TextSearchCriteria** to search for text watermarks 
+      3. Remove particular text watermark
+      4. Save cleared document
    
     code:
       platform: "net"

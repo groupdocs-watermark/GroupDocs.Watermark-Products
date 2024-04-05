@@ -7,13 +7,13 @@
     "comment_5": "Enjoy the result"
   },
   "steps": {
-    "title": "How to generate image watermarks for MS Excel documents using {{EnvName}}",
+    "title": "Update {{FileformatCap}} file text watermarks in {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.",
-      "step_1": "Instantiate **Watermarker** with Excel document path",
-      "step_2": "Use the image watermark path as the constructor parameter of the **ImageWatermark** class",
-      "step_3": "Set watermark properties (size, alignment, color etc)",
-      "step_4": "Get output document"
+      "title": "Use {{EnvName}} and [{{ProdShortName}}]({{ProductUrl}}) to develop applications that are able to update text watermarks swiftly and easily",
+      "step_1": "Make **Watermarker** passing {{FileformatCap}} path to cinstructor",
+      "step_2": "Extract document text watermarks to list using **TextSearchCriteria**",
+      "step_3": "Update watermarks properties like size, alignment, color",
+      "step_4": "Save result file"
     }
   },
   "excel": {

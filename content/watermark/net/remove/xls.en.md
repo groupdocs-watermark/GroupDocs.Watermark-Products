@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:54
+date:  2024-04-05T13:59:18
 draft: false
 lang: en
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "Remove image watermarks from Xls documents using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) along with .NET to remove image watermarks from your business documents
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Get **Watermarker** with Xls document path
+      2. Search for image watermarks in the document
+      3. Remove unnecessary watermarks
+      4. Save updated document
    
     code:
       platform: "net"

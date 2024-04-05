@@ -6,13 +6,13 @@
     "comment_4": "Save watermarked {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "How to generate image watermarks in {{FileformatCap}} docs via {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "Generate image watermarks (BMP, PNG, GIF or JPEG) using [{{ProdShortName}}]({{ProductUrl}}) in {{EnvName}} applications implementing a few easy steps.",
+      "step_1": "Get **Watermarker** instance with {{FileformatCap}} path",
+      "step_2": "Pass image watermark path to **ImageWatermark** class constructor",
+      "step_3": "Tune watermark properties like size or alignment",
+      "step_4": "Generate new watermark and save result"
     }
   },
   "doc": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:43
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Image
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: "Generate Image text watermark by Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
+      Generate text watermarks with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) and add watermarks to Image files using Node.js via Java applications.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Generate **Watermarker** passing Image file path or stream
+      2. Create **TextWatermark** instance
+      3. Set up text watermark properties like size, alignment, color, font, etc.
+      4. Save new watermarked file
    
     code:
       platform: "net"

@@ -7,13 +7,13 @@
     "comment_5": "Save adjusted file"
   },
   "steps": {
-    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "title": "Adjust image watermarks placed in {{FileformatCap}} documents by {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-      "step_1": "Create **Watermarker** instance passing document path",
-      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-      "step_3": "Adjust watermark properties",
-      "step_4": "Save watermarked document"
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) provides features for {{EnvName}} applications to adjust image watermarks in various document formats.",
+      "step_1": "Get **Watermarker** instance passing {{FileformatCap}} document",
+      "step_2": "Search for image watermarks in the document",
+      "step_3": "Adjust found watermarks properties like size or alignment",
+      "step_4": "Save result"
     }
   },
   "doc": {

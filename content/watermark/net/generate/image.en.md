@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:42
+date:  2024-04-05T13:59:14
 draft: false
 lang: en
 format: Image
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via .NET"
+    title: "Generate text watermark for Image via .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) helps .NET developers to generate watermarks in .NET applications with a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) to generate text watermarks and add them to Image files in .NET applications.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Create **Watermarker** with Image file
+      2. Instantiate **TextWatermark**
+      3. Set up watermark size, alignment, color, font, etc.
+      4. Generate new watermark and save result file
    
     code:
       platform: "net"

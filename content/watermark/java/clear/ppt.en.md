@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:52
+date:  2024-04-05T13:59:17
 draft: false
 lang: en
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Java"
+    title: "Clear Ppt documents of image watermarks by Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) helps Java developers to generate watermarks in Java applications with a few easy steps.
+      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) along with Java to clear your business documents of image watermarks.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Instantiate **Watermarker** by Ppt document path
+      2. Use image file to search for similar watermarks in the document
+      3. Clear document of unnecessary watermarks
+      4. Save result to output path
    
     code:
       platform: "net"

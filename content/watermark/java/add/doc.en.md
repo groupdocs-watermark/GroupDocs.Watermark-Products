@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T09:04:43
+date:  2024-04-05T13:59:16
 draft: false
 lang: en
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Java"
+    title: "How to add image watermarks to Doc files using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) helps Java developers to generate watermarks in Java applications with a few easy steps.
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Instantiate **Watermarker** with Doc file path
+      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
+      3. Set watermark properties (size, alignment etc) and add it to document
+      4. Get watermarked document
    
     code:
       platform: "net"
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Generate image watermark for DOC
+        // Add image watermark to DOC
 
         // Pass file to be watermarked to Watermarker
         Watermarker watermarker = new Watermarker("input.doc");
