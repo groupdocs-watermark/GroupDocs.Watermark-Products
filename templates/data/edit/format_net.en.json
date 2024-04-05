@@ -1,18 +1,28 @@
 {
   "examples": {
-    "comment_1": "Remake image watermark in {{FileFormatUp}} doc",
+    "comment_1": "Edit image watermark in {{FileFormatUp}} doc",
     "comment_2": "Initialize Watermarker by source file",
     "comment_3": "Create SearchCriteria for image watermarks search",
-    "comment_4": "Remake image watermark",
+    "comment_4": "Edit image watermark",
     "comment_5": "Save result {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Edit image watermarks from {{FileformatCap}} documents using {{EnvName}}",
+    "content": {
+      "title": "{{EnvName}} developers can use [{{ProdShortName}}]({{ProductUrl}}) features to empower their applications and edit image watermarks in popular document formats.",
+      "step_1": "Instantiate **Watermarker** with path to {{FileformatCap}} document",
+      "step_2": "Get list of suitable image watermarks in the document",
+      "step_3": "Edit found watermarks properties like size or alignment",
+      "step_4": "Re-save edited document"
+    }
   },
   "doc": {
     "head": {
-      "title": "Remake DOC Document Watermark",
+      "title": "Edit DOC Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -20,16 +30,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -38,11 +38,11 @@
   },
   "docx": {
     "head": {
-      "title": "Remake DOCX Document Watermark",
+      "title": "Edit DOCX Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -50,16 +50,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -68,11 +58,11 @@
   },
   "jpeg": {
     "head": {
-      "title": "Remake JPEG Document Watermark",
+      "title": "Edit JPEG Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -80,16 +70,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -98,11 +78,11 @@
   },
   "jpg": {
     "head": {
-      "title": "Remake JPG Document Watermark",
+      "title": "Edit JPG Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -110,16 +90,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -128,11 +98,11 @@
   },
   "pdf": {
     "head": {
-      "title": "Remake PDF Document Watermark",
+      "title": "Edit PDF Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -140,16 +110,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -158,11 +118,11 @@
   },
   "png": {
     "head": {
-      "title": "Remake PNG Document Watermark",
+      "title": "Edit PNG Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -170,16 +130,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -188,11 +138,11 @@
   },
   "ppt": {
     "head": {
-      "title": "Remake PPT Document Watermark",
+      "title": "Edit PPT Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -200,16 +150,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -218,11 +158,11 @@
   },
   "pptx": {
     "head": {
-      "title": "Remake PPTX Document Watermark",
+      "title": "Edit PPTX Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -230,16 +170,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -248,11 +178,11 @@
   },
   "rtf": {
     "head": {
-      "title": "Remake RTF Document Watermark",
+      "title": "Edit RTF Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -260,16 +190,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -278,11 +198,11 @@
   },
   "tif": {
     "head": {
-      "title": "Remake TIF Document Watermark",
+      "title": "Edit TIF Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -290,16 +210,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -308,11 +218,11 @@
   },
   "tiff": {
     "head": {
-      "title": "Remake TIFF Document Watermark",
+      "title": "Edit TIFF Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -320,16 +230,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -338,11 +238,11 @@
   },
   "webp": {
     "head": {
-      "title": "Remake WEBP Document Watermark",
+      "title": "Edit WEBP Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -350,16 +250,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -368,11 +258,11 @@
   },
   "xls": {
     "head": {
-      "title": "Remake XLS Document Watermark",
+      "title": "Edit XLS Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -380,16 +270,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -398,11 +278,11 @@
   },
   "xlsx": {
     "head": {
-      "title": "Remake XLSX Document Watermark",
+      "title": "Edit XLSX Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -410,16 +290,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:16
+date:  2024-04-05T13:59:16
 draft: false
 lang: en
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Java"
+    title: "Adjust image watermarks placed in Docx documents by Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) helps Java developers to generate watermarks in Java applications with a few easy steps.
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) provides features for Java applications to adjust image watermarks in various document formats.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Get **Watermarker** instance passing Docx document
+      2. Search for image watermarks in the document
+      3. Adjust found watermarks properties like size or alignment
+      4. Save result
    
     code:
       platform: "net"

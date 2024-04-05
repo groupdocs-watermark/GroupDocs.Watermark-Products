@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:51
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: "Delete text watermarks in Word documents with Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
+      Enrich your Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library. It makes easy to delete text watermarks from documents of popular formats.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Construct **Watermarker** object passing Word document
+      2. Search for watermarks in the document with **TextSearchCriteria**
+      3. Delete unnecessary watermarks
+      4. Save document to output path
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:51
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks for MS Excel documents using Node.js via Java"
+    title: "Delete text watermarks in Excel documents with Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) makes it easy for Node.js via Java developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      Enrich your Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library. It makes easy to delete text watermarks from documents of popular formats.
       
-      1. Instantiate **Watermarker** with Excel document path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment, color etc)
-      4. Get output document
+      1. Construct **Watermarker** object passing Excel document
+      2. Search for watermarks in the document with **TextSearchCriteria**
+      3. Delete unnecessary watermarks
+      4. Save document to output path
    
     code:
       platform: "net"

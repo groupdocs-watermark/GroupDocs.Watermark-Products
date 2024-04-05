@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:20
+date:  2024-04-05T13:59:20
 draft: false
 lang: en
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: "Update image watermarks in Xlsx documents via Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
+      Empower Node.js via Java solutions using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) and update various image watermarks in business documents.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Get **Watermarker** instance providing path to Xlsx document
+      2. Search for suitable image watermarks in the document
+      3. Update watermarks properties
+      4. Save updated document
    
     code:
       platform: "net"

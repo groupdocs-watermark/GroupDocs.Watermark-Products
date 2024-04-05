@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:49
+date:  2024-04-05T13:59:14
 draft: false
 lang: en
 format: Excel
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks for MS Excel documents using Java"
+    title: "Clear Excel documents of text watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to generate image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy to clear business documents of text watermarks using Java applications.
       
-      1. Instantiate **Watermarker** with Excel document path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment, color etc)
+      1. Instantiate **Watermarker** with Excel document
+      2. Use **TextSearchCriteria** to search for appropriate watermarks in the document
+      3. Clear particular text watermark
       4. Get output document
    
     code:

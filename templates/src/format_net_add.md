@@ -42,14 +42,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "<% (dict "{fileformat}.steps.title") %>"
+    title: "<% "{steps.title}" %>"
     content: |
-      <% (dict "{fileformat}.steps.content.title") %>
+      <% "{steps.content.title}" %>
       
-      1. <% (dict "{fileformat}.steps.content.step_1") %>
-      2. <% (dict "{fileformat}.steps.content.step_2") %>
-      3. <% (dict "{fileformat}.steps.content.step_3") %>
-      4. <% (dict "{fileformat}.steps.content.step_4") %>
+      1. <% "{steps.content.step_1}" %>
+      2. <% "{steps.content.step_2}" %>
+      3. <% "{steps.content.step_3}" %>
+      4. <% "{steps.content.step_4}" %>
    
     code:
       platform: "net"

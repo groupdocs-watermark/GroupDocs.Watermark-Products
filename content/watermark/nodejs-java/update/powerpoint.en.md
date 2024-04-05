@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-03T18:16:15
+date:  2024-04-05T13:59:15
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: "Update Powerpoint file text watermarks in Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
+      Use Node.js via Java and [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) to develop applications that are able to update text watermarks swiftly and easily
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Make **Watermarker** passing Powerpoint path to cinstructor
+      2. Extract document text watermarks to list using **TextSearchCriteria**
+      3. Update watermarks properties like size, alignment, color
+      4. Save result file
    
     code:
       platform: "net"

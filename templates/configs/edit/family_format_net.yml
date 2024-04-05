@@ -12,6 +12,6 @@ generationRules:
   include:
   - fileformat[excel, word, powerpoint]
   
-outputPath: "watermark\\{product}\\remake\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\edit\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:53
+date:  2024-04-05T13:59:17
 draft: false
 lang: en
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Java"
+    title: "Search for Ppt files image watermarks via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) helps Java developers to generate watermarks in Java applications with a few easy steps.
+      Include [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) library to your Java applications and search for image watermarks in business documents effortlessly.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Pass Ppt document **Watermarker** as a constructor argument
+      2. Use image file to search for similar watermarks
+      3. Get list of watermarks from the document
+      4. Process watermarks in your own way
    
     code:
       platform: "net"

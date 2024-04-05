@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-04T13:37:56
+date:  2024-04-05T13:59:21
 draft: false
 lang: en
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "MS Word Document Watermarking via Node.js via Java"
+    title: "Get image watermarks from Xls files using Node.js via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) helps Node.js via Java developers to generate watermarks in Node.js via Java applications with a few easy steps.
+      Include [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library to Node.js via Java application in order to get image watermarks list from business documents.
       
-      1. Create **Watermarker** instance passing document path
-      2. Provide path to watermark image at the constructor of the **ImageWatermark** class
-      3. Adjust watermark properties
-      4. Save watermarked document
+      1. Input the path of a Xls file into the **Watermarker** constructor
+      2. Provide image file to find document watermarks
+      3. Get the list of document watermarks
+      4. Customize the watermark processing as needed
    
     code:
       platform: "net"
