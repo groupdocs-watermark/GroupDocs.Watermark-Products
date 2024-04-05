@@ -5,6 +5,16 @@
     "comment_3": "Remove watermarks which were found in the document",
     "comment_4": "Save the document"
   },
+  "steps": {
+    "title": "MS Word Document Watermarking via {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
+      "step_1": "Create **Watermarker** instance passing document path",
+      "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
+      "step_3": "Adjust watermark properties",
+      "step_4": "Save watermarked document"
+    }
+  },
   "doc": {
     "head": {
       "title": "Remove DOC Document Watermark",
@@ -19,16 +29,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -50,16 +50,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -79,16 +69,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -110,16 +90,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -139,16 +109,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -170,16 +130,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -199,16 +149,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -230,16 +170,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -259,16 +189,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -290,16 +210,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -319,16 +229,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
@@ -350,16 +250,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -380,16 +270,6 @@
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
     },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
-    },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
       "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
@@ -409,16 +289,6 @@
     "about": {
       "title": "{{ProdFullName}}",
       "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
-    },
-    "steps": {
-      "title": "MS Word Document Watermarking via {{EnvName}}",
-      "content": {
-        "title": "[{{ProdShortName}}]({{ProductUrl}}) helps {{EnvName}} developers to generate watermarks in {{EnvName}} applications with a few easy steps.",
-        "step_1": "Create **Watermarker** instance passing document path",
-        "step_2": "Provide path to watermark image at the constructor of the **ImageWatermark** class",
-        "step_3": "Adjust watermark properties",
-        "step_4": "Save watermarked document"
-      }
     },
     "formats": {
       "title": "MS Word documents watermarking via {{ProgLang}}",
