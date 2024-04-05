@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Remake {{FileFormatUp}} text watermark",
+    "comment_1": "Edit {{FileFormatUp}} text watermark",
     "comment_2": "Make Watermarker providing {{FileFormatUp}} file",
     "comment_3": "Construct the TextSearchCriteria and get text watermarks",
-    "comment_4": "Remake text watermark",
+    "comment_4": "Edit text watermark",
     "comment_5": "Save the document"
   },
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Remake Watermark for Excel Spreadsheets",
+      "title": "Edit Watermark for Excel Spreadsheets",
       "description": "{{ProdFullName}} generates watermark for MS Excel files in applications based on {{EnvName}}, J2SE 7.0 (1.7) or above."
     },
     "header": {
-      "title": "Remake Watermark for MS Excel Spreadsheets via {{EnvName}}",
+      "title": "Edit Watermark for MS Excel Spreadsheets via {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
@@ -40,11 +40,11 @@
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Remake Word Document Watermark",
+      "title": "Edit Word Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -71,11 +71,11 @@
   "image": {
     "ext": "jpeg",
     "head": {
-      "title": "Remake Watermark for Images",
+      "title": "Edit Watermark for Images",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -102,11 +102,11 @@
   "photo": {
     "ext": "png",
     "head": {
-      "title": "Remake Watermark for Photos",
+      "title": "Edit Watermark for Photos",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -133,11 +133,11 @@
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Remake Watermark for Presentations",
+      "title": "Edit Watermark for Presentations",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -164,11 +164,11 @@
   "slides": {
     "ext": "pptx",
     "head": {
-      "title": "Remake Watermark for Slides",
+      "title": "Edit Watermark for Slides",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Remake Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Edit Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"

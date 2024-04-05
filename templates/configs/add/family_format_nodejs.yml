@@ -12,6 +12,6 @@ generationRules:
   include:
   - fileformat[excel, word, image, photo, powerpoint]
   
-outputPath: "watermark\\{product}\\add\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\generate\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

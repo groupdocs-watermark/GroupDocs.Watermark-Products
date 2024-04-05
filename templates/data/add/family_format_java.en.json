@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Generate {{FileFormatUp}} text watermark",
-    "comment_2": "Provide file to be watermarked to Watermarker",
+    "comment_1": "Add text watermark to {{FileFormatUp}}",
+    "comment_2": "Pass file to be watermarked to Watermarker",
     "comment_3": "Create text watermark and set up properties",
     "comment_4": "Save watermarked file"
   },
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Generate Watermark for Excel Spreadsheets",
+      "title": "Add Watermark for Excel Spreadsheets",
       "description": "{{ProdFullName}} generates watermark for MS Excel files in applications based on {{EnvName}}, J2SE 7.0 (1.7) or above."
     },
     "header": {
-      "title": "Generate Watermark for MS Excel Spreadsheets via {{EnvName}}",
+      "title": "Add Watermark for MS Excel Spreadsheets via {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
@@ -39,11 +39,11 @@
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Generate Word Document Watermark",
+      "title": "Add Word Document Watermark",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Add Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -70,11 +70,11 @@
   "image": {
     "ext": "jpeg",
     "head": {
-      "title": "Generate Watermark for Images",
+      "title": "Add Watermark for Images",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Add Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -101,11 +101,11 @@
   "photo": {
     "ext": "png",
     "head": {
-      "title": "Generate Watermark for Photos",
+      "title": "Add Watermark for Photos",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Add Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -132,11 +132,11 @@
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Generate Watermark for Presentations",
+      "title": "Add Watermark for Presentations",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Add Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -163,11 +163,11 @@
   "slides": {
     "ext": "pptx",
     "head": {
-      "title": "Generate Watermark for Slides",
+      "title": "Add Watermark for Slides",
       "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
+      "title": "Add Watermark for Document of MS Word formats with {{EnvName}}",
       "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
