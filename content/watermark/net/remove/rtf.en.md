@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T13:59:18
+date:  2024-04-08T14:33:46
 draft: false
 lang: en
 format: Rtf
@@ -108,131 +108,69 @@ more_formats:
     description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for .NET API to your business processes."
     items: 
         # format loop 1
-        - name: "Watermark PDFs"
+        - name: "Watermark PDF"
           format: "PDF"
           link: "/watermark/net/remove//pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop 2
+        - name: "Watermark Word"
+          format: "WORD"
+          link: "/watermark/net/remove//word/"
+          description: "MS Word and Open Office documents"
+          
+        # format loop 3
+        - name: "Watermark Excel"
+          format: "EXCEL"
+          link: "/watermark/net/remove//excel/"
+          description: "MS Excel and Open Office spreadsheets"
+
+        # format loop 4
+        - name: "Watermark PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/net/remove//powerpoint/"
+          description: "MS PowerPoint and Open Office presentations"
+
+        # format loop 5
         - name: "Watermark DOCX"
           format: "DOCX"
           link: "/watermark/net/remove//docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop 3
+          
+        # format loop 6
         - name: "Watermark PPTX"
           format: "PPTX"
           link: "/watermark/net/remove//pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop 4
+          
+        # format loop 7
         - name: "Watermark XLSX"
           format: "XLSX"
           link: "/watermark/net/remove//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
-        # format loop 5
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/watermark/net/remove//jpeg/"
-          description: "JPEG Image"
-
-        # format loop 6
-        - name: "Watermark PNG"
-          format: "PNG"
-          link: "/watermark/net/remove//png/"
-          description: "Portable Network Graphic"
-
-        # format loop 7
-        - name: "Watermark GIF"
-          format: "GIF"
-          link: "/watermark/net/remove//gif/"
-          description: "Graphical Interchange Format File"
-
         # format loop 8
-        - name: "Watermark BMP"
-          format: "BMP"
-          link: "/watermark/net/remove//bmp/"
-          description: "Bitmap File Format"
-
-        # format loop 9
-        - name: "Watermark TIFF"
-          format: "TIFF"
-          link: "/watermark/net/remove//tiff/"
-          description: "Tag Image File Format"
-
-        # format loop 10
-        - name: "Watermark WEBP"
-          format: "WEBP"
-          link: "/watermark/net/remove//webp/"
-          description: "WEB Picture"
-
-        # format loop 11
-        - name: "Watermark JP2"
-          format: "JP2"
-          link: "/watermark/net/remove//jp2/"
-          description: "JPEG2000 Core Image File"
-
-        # format loop 12
         - name: "Watermark DOC"
           format: "DOC"
           link: "/watermark/net/remove//doc/"
           description: "Microsoft Word 97 - 2007 Document"
 
-        # format loop 13
+        # format loop 9
         - name: "Watermark XLS"
           format: "XLS"
           link: "/watermark/net/remove//xls/"
           description: "Microsoft Excel Workbook 97-2003"
 
-        # format loop 14
+        # format loop 10
         - name: "Watermark PPT"
           format: "PPT"
           link: "/watermark/net/remove//ppt/"
           description: "PowerPoint Presentation 97-2003"
 
-        # format loop 15
-        - name: "Watermark ODT"
-          format: "ODT"
-          link: "/watermark/net/remove//odt/"
-          description: "Open Document Text"
-
-        # format loop 16
-        - name: "Watermark DOTM"
-          format: "DOTM"
-          link: "/watermark/net/remove//dotm/"
-          description: "Word Open XML Macro-Enabled Document "
-
-        # format loop 17
-        - name: "Watermark XLTM"
-          format: "XLTM"
-          link: "/watermark/net/remove//xltm/"
-          description: "OOXML Macro Enabled Workbook Template"
-
-        # format loop 18
-        - name: "Watermark PPTM"
-          format: "PPTM"
-          link: "/watermark/net/remove//pptm/"
-          description: "OOXML Macro Enabled Presentation"
-
-        # format loop 19
-        - name: "Watermark VSDX"
-          format: "VSDX"
-          link: "/watermark/net/remove//vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop 20
-        - name: "Watermark VSD"
-          format: "VSD"
-          link: "/watermark/net/remove//vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop 21
-        - name: "Watermark VSTM"
-          format: "VSTM"
-          link: "/watermark/net/remove//vstm/"
-          description: "Visio Macro-Enabled Drawing Template"
-
-
+        # format loop 11
+        - name: "Watermark RTF"
+          format: "RTF"
+          link: "/watermark/net/remove//rtf/"
+          description: "Rich Text Format"
 
 ---

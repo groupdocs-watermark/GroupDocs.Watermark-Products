@@ -5,6 +5,8 @@ dimensions:
   values: [net]
 - alias:  operation
   values: [edit]
+- alias:  url
+  values: [edit]
 - alias:  fileformat
   values: [doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
   
-outputPath: "watermark\\{product}\\edit\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

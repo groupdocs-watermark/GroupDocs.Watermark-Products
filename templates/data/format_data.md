@@ -1,5 +1,6 @@
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "OperationLow" (lower (get "operation")) %>
+<% set "OperationUrl" (lower (get "url")) %>
 <% set "Watermarktype" (capitalize (get "watermarktype")) %>
 <% set "WatermarktypeLow" (lower (get "watermarktype")) %>
 <% set "FileFormat" (get "fileformat") %>

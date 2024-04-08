@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T13:59:16
+date:  2024-04-08T14:33:44
 draft: false
 lang: en
 format: Rtf
@@ -120,131 +120,105 @@ more_formats:
     description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Java API to your business processes."
     items: 
         # format loop 1
-        - name: "Watermark PDFs"
+        - name: "Watermark PDF"
           format: "PDF"
           link: "/watermark/java/add//pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop 2
+        - name: "Watermark Word"
+          format: "WORD"
+          link: "/watermark/java/add//word/"
+          description: "MS Word and Open Office documents"
+          
+        # format loop 3
+        - name: "Watermark Excel"
+          format: "EXCEL"
+          link: "/watermark/java/add//excel/"
+          description: "MS Excel and Open Office spreadsheets"
+
+        # format loop 4
+        - name: "Watermark Image"
+          format: "IMAGE"
+          link: "/watermark/java/add//image/"
+          description: "Popular image formats"
+
+        # format loop 5
+        - name: "Watermark Photo"
+          format: "PHOTO"
+          link: "/watermark/java/add//photo/"
+          description: "Photo formats"
+
+        # format loop 6
+        - name: "Watermark PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/java/add//powerpoint/"
+          description: "MS PowerPoint and Open Office presentations"
+
+        # format loop 7
         - name: "Watermark DOCX"
           format: "DOCX"
           link: "/watermark/java/add//docx/"
           description: "Microsoft Word Open XML Document"
-
-        # format loop 3
+          
+        # format loop 8
         - name: "Watermark PPTX"
           format: "PPTX"
           link: "/watermark/java/add//pptx/"
           description: "PowerPoint Open XML Presentation"
-
-        # format loop 4
+          
+        # format loop 9
         - name: "Watermark XLSX"
           format: "XLSX"
           link: "/watermark/java/add//xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
-        # format loop 5
+        # format loop 10
         - name: "Watermark JPEG"
           format: "JPEG"
           link: "/watermark/java/add//jpeg/"
           description: "JPEG Image"
 
-        # format loop 6
+        # format loop 11
         - name: "Watermark PNG"
           format: "PNG"
           link: "/watermark/java/add//png/"
           description: "Portable Network Graphic"
 
-        # format loop 7
-        - name: "Watermark GIF"
-          format: "GIF"
-          link: "/watermark/java/add//gif/"
-          description: "Graphical Interchange Format File"
-
-        # format loop 8
-        - name: "Watermark BMP"
-          format: "BMP"
-          link: "/watermark/java/add//bmp/"
-          description: "Bitmap File Format"
-
-        # format loop 9
+        # format loop 12
         - name: "Watermark TIFF"
           format: "TIFF"
           link: "/watermark/java/add//tiff/"
           description: "Tag Image File Format"
 
-        # format loop 10
+        # format loop 13
         - name: "Watermark WEBP"
           format: "WEBP"
           link: "/watermark/java/add//webp/"
           description: "WEB Picture"
 
-        # format loop 11
-        - name: "Watermark JP2"
-          format: "JP2"
-          link: "/watermark/java/add//jp2/"
-          description: "JPEG2000 Core Image File"
-
-        # format loop 12
+        # format loop 14
         - name: "Watermark DOC"
           format: "DOC"
           link: "/watermark/java/add//doc/"
           description: "Microsoft Word 97 - 2007 Document"
 
-        # format loop 13
+        # format loop 15
         - name: "Watermark XLS"
           format: "XLS"
           link: "/watermark/java/add//xls/"
           description: "Microsoft Excel Workbook 97-2003"
 
-        # format loop 14
+        # format loop 16
         - name: "Watermark PPT"
           format: "PPT"
           link: "/watermark/java/add//ppt/"
           description: "PowerPoint Presentation 97-2003"
 
-        # format loop 15
-        - name: "Watermark ODT"
-          format: "ODT"
-          link: "/watermark/java/add//odt/"
-          description: "Open Document Text"
-
-        # format loop 16
-        - name: "Watermark DOTM"
-          format: "DOTM"
-          link: "/watermark/java/add//dotm/"
-          description: "Word Open XML Macro-Enabled Document "
-
         # format loop 17
-        - name: "Watermark XLTM"
-          format: "XLTM"
-          link: "/watermark/java/add//xltm/"
-          description: "OOXML Macro Enabled Workbook Template"
-
-        # format loop 18
-        - name: "Watermark PPTM"
-          format: "PPTM"
-          link: "/watermark/java/add//pptm/"
-          description: "OOXML Macro Enabled Presentation"
-
-        # format loop 19
-        - name: "Watermark VSDX"
-          format: "VSDX"
-          link: "/watermark/java/add//vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop 20
-        - name: "Watermark VSD"
-          format: "VSD"
-          link: "/watermark/java/add//vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop 21
-        - name: "Watermark VSTM"
-          format: "VSTM"
-          link: "/watermark/java/add//vstm/"
-          description: "Visio Macro-Enabled Drawing Template"
-
-
+        - name: "Watermark RTF"
+          format: "RTF"
+          link: "/watermark/java/add//rtf/"
+          description: "Rich Text Format"
 
 ---

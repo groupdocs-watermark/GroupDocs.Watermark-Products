@@ -5,6 +5,8 @@ dimensions:
   values: [net]
 - alias:  operation
   values: [remove]
+- alias:  url
+  values: [remove]
 - alias:  fileformat
   values: [excel, word, powerpoint]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[excel, word, powerpoint]
   
-outputPath: "watermark\\{product}\\remove\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

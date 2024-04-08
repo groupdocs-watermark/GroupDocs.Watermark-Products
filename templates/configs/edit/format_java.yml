@@ -5,6 +5,8 @@ dimensions:
   values: [java]
 - alias:  operation
   values: [edit]
+- alias:  url
+  values: [adjust]
 - alias:  fileformat
   values: [doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[doc, docx, pdf, ppt, pptx, rtf, xls, xlsx]
   
-outputPath: "watermark\\{product}\\adjust\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

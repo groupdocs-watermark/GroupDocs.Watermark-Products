@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-05T13:59:20
+date:  2024-04-08T14:33:48
 draft: false
 lang: en
 format: Rtf
@@ -108,131 +108,69 @@ more_formats:
     description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Node.js via Java API to your business processes."
     items: 
         # format loop 1
-        - name: "Watermark PDFs"
+        - name: "Watermark PDF"
           format: "PDF"
-          link: "/watermark/nodejs-java/remove//pdf/"
+          link: "/watermark/nodejs-java/delete//pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop 2
-        - name: "Watermark DOCX"
-          format: "DOCX"
-          link: "/watermark/nodejs-java/remove//docx/"
-          description: "Microsoft Word Open XML Document"
-
+        - name: "Watermark Word"
+          format: "WORD"
+          link: "/watermark/nodejs-java/delete//word/"
+          description: "MS Word and Open Office documents"
+          
         # format loop 3
-        - name: "Watermark PPTX"
-          format: "PPTX"
-          link: "/watermark/nodejs-java/remove//pptx/"
-          description: "PowerPoint Open XML Presentation"
+        - name: "Watermark Excel"
+          format: "EXCEL"
+          link: "/watermark/nodejs-java/delete//excel/"
+          description: "MS Excel and Open Office spreadsheets"
 
         # format loop 4
-        - name: "Watermark XLSX"
-          format: "XLSX"
-          link: "/watermark/nodejs-java/remove//xlsx/"
-          description: "Microsoft Excel Open XML Spreadsheet"
+        - name: "Watermark PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/nodejs-java/delete//powerpoint/"
+          description: "MS PowerPoint and Open Office presentations"
 
         # format loop 5
-        - name: "Watermark JPEG"
-          format: "JPEG"
-          link: "/watermark/nodejs-java/remove//jpeg/"
-          description: "JPEG Image"
-
+        - name: "Watermark DOCX"
+          format: "DOCX"
+          link: "/watermark/nodejs-java/delete//docx/"
+          description: "Microsoft Word Open XML Document"
+          
         # format loop 6
-        - name: "Watermark PNG"
-          format: "PNG"
-          link: "/watermark/nodejs-java/remove//png/"
-          description: "Portable Network Graphic"
-
+        - name: "Watermark PPTX"
+          format: "PPTX"
+          link: "/watermark/nodejs-java/delete//pptx/"
+          description: "PowerPoint Open XML Presentation"
+          
         # format loop 7
-        - name: "Watermark GIF"
-          format: "GIF"
-          link: "/watermark/nodejs-java/remove//gif/"
-          description: "Graphical Interchange Format File"
+        - name: "Watermark XLSX"
+          format: "XLSX"
+          link: "/watermark/nodejs-java/delete//xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop 8
-        - name: "Watermark BMP"
-          format: "BMP"
-          link: "/watermark/nodejs-java/remove//bmp/"
-          description: "Bitmap File Format"
-
-        # format loop 9
-        - name: "Watermark TIFF"
-          format: "TIFF"
-          link: "/watermark/nodejs-java/remove//tiff/"
-          description: "Tag Image File Format"
-
-        # format loop 10
-        - name: "Watermark WEBP"
-          format: "WEBP"
-          link: "/watermark/nodejs-java/remove//webp/"
-          description: "WEB Picture"
-
-        # format loop 11
-        - name: "Watermark JP2"
-          format: "JP2"
-          link: "/watermark/nodejs-java/remove//jp2/"
-          description: "JPEG2000 Core Image File"
-
-        # format loop 12
         - name: "Watermark DOC"
           format: "DOC"
-          link: "/watermark/nodejs-java/remove//doc/"
+          link: "/watermark/nodejs-java/delete//doc/"
           description: "Microsoft Word 97 - 2007 Document"
 
-        # format loop 13
+        # format loop 9
         - name: "Watermark XLS"
           format: "XLS"
-          link: "/watermark/nodejs-java/remove//xls/"
+          link: "/watermark/nodejs-java/delete//xls/"
           description: "Microsoft Excel Workbook 97-2003"
 
-        # format loop 14
+        # format loop 10
         - name: "Watermark PPT"
           format: "PPT"
-          link: "/watermark/nodejs-java/remove//ppt/"
+          link: "/watermark/nodejs-java/delete//ppt/"
           description: "PowerPoint Presentation 97-2003"
 
-        # format loop 15
-        - name: "Watermark ODT"
-          format: "ODT"
-          link: "/watermark/nodejs-java/remove//odt/"
-          description: "Open Document Text"
-
-        # format loop 16
-        - name: "Watermark DOTM"
-          format: "DOTM"
-          link: "/watermark/nodejs-java/remove//dotm/"
-          description: "Word Open XML Macro-Enabled Document "
-
-        # format loop 17
-        - name: "Watermark XLTM"
-          format: "XLTM"
-          link: "/watermark/nodejs-java/remove//xltm/"
-          description: "OOXML Macro Enabled Workbook Template"
-
-        # format loop 18
-        - name: "Watermark PPTM"
-          format: "PPTM"
-          link: "/watermark/nodejs-java/remove//pptm/"
-          description: "OOXML Macro Enabled Presentation"
-
-        # format loop 19
-        - name: "Watermark VSDX"
-          format: "VSDX"
-          link: "/watermark/nodejs-java/remove//vsdx/"
-          description: "Microsoft Visio Drawing"
-
-        # format loop 20
-        - name: "Watermark VSD"
-          format: "VSD"
-          link: "/watermark/nodejs-java/remove//vsd/"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop 21
-        - name: "Watermark VSTM"
-          format: "VSTM"
-          link: "/watermark/nodejs-java/remove//vstm/"
-          description: "Visio Macro-Enabled Drawing Template"
-
-
+        # format loop 11
+        - name: "Watermark RTF"
+          format: "RTF"
+          link: "/watermark/nodejs-java/delete//rtf/"
+          description: "Rich Text Format"
 
 ---
