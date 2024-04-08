@@ -5,6 +5,8 @@ dimensions:
   values: [net]
 - alias:  operation
   values: [add]
+- alias:  url
+  values: [generate]
 - alias:  fileformat
   values: [excel, word, image, photo, powerpoint]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[excel, word, image, photo, powerpoint]
   
-outputPath: "watermark\\{product}\\generate\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

@@ -1,21 +1,53 @@
 {
   "common-content": {
     "format-formats": {
+      "excel": {
+        "name": "Watermark Excel",
+        "description": "MS Excel and Open Office spreadsheets"
+      },
+      "word": {
+        "name": "Watermark Word",
+        "description": "MS Word and Open Office documents"
+      },
+      "powerpoint": {
+        "name": "Watermark PowerPoint",
+        "description": "MS PowerPoint and Open Office presentations"
+      },
+      "image": {
+        "name": "Watermark Image",
+        "description": "Popular image formats"
+      },
+      "photo": {
+        "name": "Watermark Photo",
+        "description": "Photo formats"
+      },
       "pdf": {
-        "name": "Watermark PDFs",
+        "name": "Watermark PDF",
         "description": "Adobe Portable Document Format"
+      },
+      "doc": {
+        "name": "Watermark DOC",
+        "description": "Microsoft Word 97 - 2007 Document"
       },
       "docx": {
         "name": "Watermark DOCX",
         "description": "Microsoft Word Open XML Document"
       },
-      "pptx": {
-        "name": "Watermark PPTX",
-        "description": "PowerPoint Open XML Presentation"
+      "xls": {
+        "name": "Watermark XLS",
+        "description": "Microsoft Excel Workbook 97-2003"
       },
       "xlsx": {
         "name": "Watermark XLSX",
         "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "ppt": {
+        "name": "Watermark PPT",
+        "description": "PowerPoint Presentation 97-2003"
+      },
+      "pptx": {
+        "name": "Watermark PPTX",
+        "description": "PowerPoint Open XML Presentation"
       },
       "jpeg": {
         "name": "Watermark JPEG",
@@ -25,65 +57,17 @@
         "name": "Watermark PNG",
         "description": "Portable Network Graphic"
       },
-      "gif": {
-        "name": "Watermark GIF",
-        "description": "Graphical Interchange Format File"
-      },
-      "bmp": {
-        "name": "Watermark BMP",
-        "description": "Bitmap File Format"
-      },
       "tiff": {
         "name": "Watermark TIFF",
         "description": "Tag Image File Format"
-      },
-      "jp2": {
-        "name": "Watermark JP2",
-        "description": "JPEG2000 Core Image File"
       },
       "webp": {
         "name": "Watermark WEBP",
         "description": "WEB Picture"
       },
-      "doc": {
-        "name": "Watermark DOC",
-        "description": "Microsoft Word 97 - 2007 Document"
-      },
-      "xls": {
-        "name": "Watermark XLS",
-        "description": "Microsoft Excel Workbook 97-2003"
-      },
-      "ppt": {
-        "name": "Watermark PPT",
-        "description": "PowerPoint Presentation 97-2003"
-      },
-      "odt": {
-        "name": "Watermark ODT",
-        "description": "Open Document Text"
-      },
-      "dotm": {
-        "name": "Watermark DOTM",
-        "description": "Word Open XML Macro-Enabled Document "
-      },
-      "xltm": {
-        "name": "Watermark XLTM",
-        "description": "OOXML Macro Enabled Workbook Template"
-      },
-      "pptm": {
-        "name": "Watermark PPTM",
-        "description": "OOXML Macro Enabled Presentation"
-      },
-      "vsdx": {
-        "name": "Watermark VSDX",
-        "description": "Microsoft Visio Drawing"
-      },
-      "vsd": {
-        "name": "Watermark VSD",
-        "description": "Microsoft Visio 2003-2010 Drawing"
-      },
-      "vstm": {
-        "name": "Watermark VSTM",
-        "description": "Visio Macro-Enabled Drawing Template"
+      "rtf": {
+        "name": "Watermark RTF",
+        "description": "Rich Text Format"
       }
     },
     "format-code": {

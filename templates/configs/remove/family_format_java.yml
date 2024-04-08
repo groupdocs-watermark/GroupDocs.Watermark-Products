@@ -5,6 +5,8 @@ dimensions:
   values: [java]
 - alias:  operation
   values: [remove]
+- alias:  url
+  values: [clear]
 - alias:  fileformat
   values: [excel, word, powerpoint]
 
@@ -12,7 +14,7 @@ generationRules:
   include:
   - fileformat[excel, word, powerpoint]
   
-outputPath: "watermark\\{product}\\clear\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
-dictionaries: [ ..\\..\\data\\products.json]
+dictionaries: [ ..\\..\\data\\products.json ]
 

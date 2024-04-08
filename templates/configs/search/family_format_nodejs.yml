@@ -5,6 +5,8 @@ dimensions:
   values: [nodejs-java]
 - alias:  operation
   values: [search]
+- alias:  url
+  values: [get]
 - alias:  fileformat
   values: [excel, word, powerpoint]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[excel, word, powerpoint]
   
-outputPath: "watermark\\{product}\\get\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]

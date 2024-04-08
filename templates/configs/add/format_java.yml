@@ -5,6 +5,8 @@ dimensions:
   values: [java]
 - alias:  operation
   values: [add]
+- alias:  url
+  values: [add]
 - alias:  fileformat
   values: [doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
 
@@ -12,6 +14,6 @@ generationRules:
   include:
   - fileformat[doc, docx, jpeg, jpg, pdf, png, ppt, pptx, rtf, tif, tiff, webp, xls, xlsx]
   
-outputPath: "watermark\\{product}\\add\\{fileformat}.{lang}.md"
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
 
 dictionaries: [ ..\\..\\data\\products.json ]
