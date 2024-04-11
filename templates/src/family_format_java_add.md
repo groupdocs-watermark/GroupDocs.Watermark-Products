@@ -147,32 +147,6 @@ more_features:
         ```
         {{< /landing/code >}}
 
-    # code sample loop
-    - title: "<% "{more_features.code_2.title}" %>"
-      content: |
-        <% "{more_features.code_2.content}" %>
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        
-        //  <% "{more_features.code_2.comment_1}" %>
-        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
-        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
-
-        //  <% "{more_features.code_2.comment_2}" %>
-        TextWatermark watermark = new TextWatermark("Watermark text", new Font("Arial", 19));
-        watermark.setForegroundColor(Color.getRed());
-
-        //  <% "{more_features.code_2.comment_3}" %>
-        WordProcessingWatermarkPagesOptions options = new WordProcessingWatermarkPagesOptions();
-        options.setLocked(true);
-        options.setLockType(WordProcessingLockType.AllowOnlyFormFields);
-
-        //  <% "{more_features.code_2.comment_4}" %>
-        watermarker.add(textWatermark, options);
-        watermarker.save("result.docx");
-        ```
-        {{< /landing/code >}}
-
 
 ############################# Actions ############################
 

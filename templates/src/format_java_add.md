@@ -97,6 +97,54 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  <% "{more_features.code_1.comment_1}" %>
+        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
+        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+
+        //  <% "{more_features.code_1.comment_2}" %>
+        TextWatermark watermark = new TextWatermark("Watermark text", new Font("Arial", 19));
+        watermark.setForegroundColor(Color.getRed());
+
+        //  <% "{more_features.code_1.comment_3}" %>
+        WordProcessingWatermarkPagesOptions options = new WordProcessingWatermarkPagesOptions();
+        options.setLocked(true);
+        options.setLockType(WordProcessingLockType.AllowOnlyFormFields);
+
+        //  <% "{more_features.code_1.comment_4}" %>
+        watermarker.add(textWatermark, options);
+        watermarker.save("result.docx");
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:29
+date:  2024-04-11T16:33:59
 draft: false
 lang: en
 format: Image
@@ -142,32 +142,6 @@ more_features:
         watermarker.add(textWatermark, options);
         watermarker.save("result.pdf");
 
-        ```
-        {{< /landing/code >}}
-
-    # code sample loop
-    - title: "MS Word locked watermark"
-      content: |
-        This example shows how to lock watermark in DOCX all pages
-        {{< landing/code title="Java">}}
-        ```java {style=abap}
-        
-        //  Load document as MS Word doc
-        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
-        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
-
-        //  Create a watermark
-        TextWatermark watermark = new TextWatermark("Watermark text", new Font("Arial", 19));
-        watermark.setForegroundColor(Color.getRed());
-
-        //  Tune native Word options
-        WordProcessingWatermarkPagesOptions options = new WordProcessingWatermarkPagesOptions();
-        options.setLocked(true);
-        options.setLockType(WordProcessingLockType.AllowOnlyFormFields);
-
-        //  Add watermark to result document pages
-        watermarker.add(textWatermark, options);
-        watermarker.save("result.docx");
         ```
         {{< /landing/code >}}
 

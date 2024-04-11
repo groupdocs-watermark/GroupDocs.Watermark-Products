@@ -38,14 +38,6 @@
       "comment_2": "Create watermark based on PDF annotation",
       "comment_3": "Set up watermark options",
       "comment_4": "Add text watermark to result document"
-    },
-    "code_2": {
-      "title": "MS Word locked watermark",
-      "content": "This example shows how to lock watermark in DOCX all pages",
-      "comment_1": "Load document as MS Word doc",
-      "comment_2": "Create a watermark",
-      "comment_3": "Tune native Word options",
-      "comment_4": "Add watermark to result document pages"
     }
   },
   "excel": {
