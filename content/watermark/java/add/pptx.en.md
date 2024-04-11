@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:31
+date:  2024-04-11T16:34:01
 draft: false
 lang: en
 format: Pptx
@@ -94,6 +94,54 @@ steps:
         watermarker.save("output.pptx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "MS Word locked watermark"
+      content: |
+        This example shows how to lock watermark in DOCX all pages
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load document as MS Word doc
+        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
+        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+
+        //  Create a watermark
+        TextWatermark watermark = new TextWatermark("Watermark text", new Font("Arial", 19));
+        watermark.setForegroundColor(Color.getRed());
+
+        //  Tune native Word options
+        WordProcessingWatermarkPagesOptions options = new WordProcessingWatermarkPagesOptions();
+        options.setLocked(true);
+        options.setLockType(WordProcessingLockType.AllowOnlyFormFields);
+
+        //  Add watermark to result document pages
+        watermarker.add(textWatermark, options);
+        watermarker.save("result.docx");
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 
