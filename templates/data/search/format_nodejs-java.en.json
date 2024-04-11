@@ -15,6 +15,31 @@
       "step_4": "Customize the watermark processing as needed"
     }
   },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "PDF annotation watermark",
+      "content": "This example shows how to add watermark annotation to a PDF document",
+      "comment_1": "Load document as PDF",
+      "comment_2": "Create watermark based on PDF annotation",
+      "comment_3": "Set up watermark options",
+      "comment_4": "Add text watermark to result document"
+    }
+  },
   "doc": {
     "head": {
       "title": "Get DOC Document Watermark",
