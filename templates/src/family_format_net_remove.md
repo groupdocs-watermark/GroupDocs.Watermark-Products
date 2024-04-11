@@ -35,7 +35,7 @@ about:
     title: "<% (dict "{fileformat}.about.title") %>"
     link: "/watermark/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_viewer.svg" # 480 X 400
+    picture: "about_watermark.svg" # 480 X 400
     content: |
        <% (dict "{fileformat}.about.content") %>
 
