@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-08T14:33:47
+date:  2024-04-11T14:07:35
 draft: false
 lang: en
 format: Xlsx
@@ -33,7 +33,7 @@ about:
     title: "GroupDocs.Watermark for Node.js via Java"
     link: "/watermark/nodejs-java/"
     link_title: "Learn more"
-    picture: "about_viewer.svg" # 480 X 400
+    picture: "about_watermark.svg" # 480 X 400
     content: |
        GroupDocs.Watermark for Node.js via Java is designed for generation various Word watermarks using Node.js via Java. Our solution may enrich Node.js via Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Node.js via Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
 
