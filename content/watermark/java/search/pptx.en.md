@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:33
+date:  2024-04-12T15:28:18
 draft: false
 lang: en
 format: Pptx
@@ -94,7 +94,53 @@ steps:
         // Process found watermarks
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
-        ```            
+        ```          
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Search in PDF attachments"
+      content: |
+        This example shows how to search for all the images attachments in a PDF document
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load document as PDF
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Consider only the attached images
+        watermarker.getSearchableObjects().setPdfSearchableObjects(PdfSearchableObjects.AttachedImages);
+
+        //  Search for similar images
+        WatermarkableImageCollection possibleWatermarks = watermarker.getImages();
+
+        //  Process result
+        System.out.println("Found " + possibleWatermarks.getCount() + " image(s).");
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

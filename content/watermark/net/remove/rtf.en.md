@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:34
+date:  2024-04-12T15:28:19
 draft: false
 lang: en
 format: Rtf
@@ -82,6 +82,52 @@ steps:
         }
         
         ```  
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Presentation background watermark remove"
+      content: |
+        This example shows how to remove the background image of a particular slide.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load presentation
+            var loadOptions = new PresentationLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
+            {
+                //  Get presentation content
+                PresentationContent content = watermarker.GetContent<PresentationContent>();
+
+                //  Remove slide background watermark
+                content.Slides[0].ImageFillFormat.BackgroundImage = null;
+
+                //  Save document
+                watermarker.save("result.pptx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

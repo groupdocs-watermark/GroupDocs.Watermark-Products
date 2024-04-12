@@ -87,6 +87,64 @@ steps:
         
         ```            
 
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  <% "{more_features.code_1.comment_1}" %>
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  <% "{more_features.code_1.comment_2}" %>
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
+                {
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  <% "{more_features.code_1.comment_3}" %>
+                    watermarker.Add(watermark, options);
+                }
+
+                //  <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.docx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

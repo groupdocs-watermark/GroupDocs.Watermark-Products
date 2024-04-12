@@ -87,6 +87,64 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  <% "{more_features.code_1.comment_1}" %>
+            var loadOptions = new SpreadsheetLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            {
+                //  <% "{more_features.code_1.comment_2}" %>
+                SpreadsheetContent content = watermarker.GetContent<SpreadsheetContent>();
+                foreach (SpreadsheetWorksheet section in content.Worksheets)
+                {
+                    for (int i = section.Shapes.Count - 1; i >= 0; i--)
+                    {
+                        foreach (FormattedTextFragment fragment in section.Shapes[i].FormattedTextFragments)
+                        {
+                            if (fragment.ForegroundColor.Equals(Color.Red) && fragment.Font.FamilyName == "Arial")
+                            {
+                                //  <% "{more_features.code_1.comment_3}" %>
+                                section.Shapes.RemoveAt(i);
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                //  <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.xlsx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

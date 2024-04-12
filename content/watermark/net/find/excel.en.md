@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-12T15:28:16
 draft: false
 lang: en
 format: Excel
@@ -85,6 +85,53 @@ steps:
         }
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Find text watermarks by regular expression"
+      content: |
+        This example shows how to use a regular expression to search for watermarks
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load DOCX document
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  Instantiate Regex object
+                Regex regex = new Regex(@"^© \d{4}$");
+
+                //  Find all suitable watermarks
+                TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
+                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
+
+                //  Process list of found watermarks
+                Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

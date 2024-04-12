@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:32
+date:  2024-04-12T15:28:17
 draft: false
 lang: en
 format: Ppt
@@ -99,7 +99,62 @@ steps:
         // Save adjusted file
         watermarker.save("output.ppt");
         
-        ```            
+        ```
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Adjust image watermark in Spreadsheets"
+      content: |
+        This examples shows how to adjust the image of the particular shapes in an Excel Worksheet.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load document as Spreadsheet
+        SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
+        Watermarker watermarker = new Watermarker("source.xlsx", loadOptions);
+
+        //  Get new watermark bytes
+        File file = new File("new_watermark.png");
+        byte[] imageBytes = new byte[(int) file.length()];
+        FileInputStream inputStream = new FileInputStream(file);
+        inputStream.read(imageBytes);
+        inputStream.close();
+
+        //  Adjust content of particular watermark
+        for (SpreadsheetShape shape : content.getWorksheets().get_Item(0).getShapes())
+        {
+            if (shape.getImage() != null)
+            {
+                shape.setImage(new SpreadsheetWatermarkableImage(imageBytes));
+            }
+        }
+
+        //  Save result document
+        watermarker.save("result.xlsx");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

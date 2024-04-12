@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:35
+date:  2024-04-12T15:28:19
 draft: false
 lang: en
 format: Ppt
@@ -82,6 +82,56 @@ steps:
         }
         
         ```  
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Find image watermarks in Excel attachments"
+      content: |
+        This example shows how to find all the images and watermarkable attachments in Excel spreadsheet
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load document as XLSX
+            var loadOptions = new SpreadsheetLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            {
+                //  Instantiate search criteria and find watermarks
+                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria(Constants.AttachmentPng);
+                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);
+
+                //  Process watermark which was found
+                foreach (PossibleWatermark watermark in watermarks)
+                {
+                    //...
+                }
+
+                //  Save result
+                watermarker.save("result.xlsx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

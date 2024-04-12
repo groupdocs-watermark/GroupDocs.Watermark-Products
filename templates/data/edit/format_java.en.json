@@ -33,12 +33,12 @@
       "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
     },
     "code_1": {
-      "title": "PDF annotation watermark",
-      "content": "This example shows how to add watermark annotation to a PDF document",
-      "comment_1": "Load document as PDF",
-      "comment_2": "Create watermark based on PDF annotation",
-      "comment_3": "Set up watermark options",
-      "comment_4": "Add text watermark to result document"
+      "title": "Adjust image watermark in Spreadsheets",
+      "content": "This examples shows how to adjust the image of the particular shapes in an Excel Worksheet.",
+      "comment_1": "Load document as Spreadsheet",
+      "comment_2": "Get new watermark bytes",
+      "comment_3": "Adjust content of particular watermark",
+      "comment_4": "Save result document"
     }
   },
   "doc": {

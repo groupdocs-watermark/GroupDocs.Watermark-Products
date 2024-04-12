@@ -32,12 +32,12 @@
       "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
     },
     "code_1": {
-      "title": "PDF annotation watermark",
-      "content": "This example shows how to add watermark annotation to a PDF document",
-      "comment_1": "Load document as PDF",
-      "comment_2": "Create watermark based on PDF annotation",
-      "comment_3": "Set up watermark options",
-      "comment_4": "Add text watermark to result document"
+      "title": "Generate PowerPoint watermark",
+      "content": "This example shows how to add watermark to the PPTX background images",
+      "comment_1": "Load PPTX presentation",
+      "comment_2": "Set up watermark properties",
+      "comment_3": "Watermark slides background",
+      "comment_4": "Save processed presentation"
     }
   },
   "doc": {

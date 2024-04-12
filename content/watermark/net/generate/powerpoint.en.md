@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-12T15:28:15
 draft: false
 lang: en
 format: Powerpoint
@@ -84,6 +84,64 @@ steps:
         }
         
         ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Generate image watermark for DOCX"
+      content: |
+        This example shows how to apply image effects to the shape watermarks.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load Word document
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  Set up watermark options
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
+                {
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  Generate watermark
+                    watermarker.Add(watermark, options);
+                }
+
+                //  Save updated document
+                watermarker.save("result.docx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

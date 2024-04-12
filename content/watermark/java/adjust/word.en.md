@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:29
+date:  2024-04-12T15:28:15
 draft: false
 lang: en
 format: Word
@@ -103,6 +103,57 @@ steps:
         watermarker.save("output.docx");
         
         ```            
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.jpg" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "PDF adjust text watermark"
+      content: |
+        This example shows how to adjust the text of the particular artifacts.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load PDF document
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Get document content
+        PdfContent pdfContent = watermarker.getContent(PdfContent.class);
+
+        //  Adjust particular watermark text
+        for (PdfArtifact artifact : pdfContent.getPages().get_Item(0).getArtifacts())
+        {
+            if (artifact.getText().contains("Test"))
+            {
+                artifact.setText("Passed");
+            }
+        }
+
+        //  Save the document
+        watermarker.save("result.pdf");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 
