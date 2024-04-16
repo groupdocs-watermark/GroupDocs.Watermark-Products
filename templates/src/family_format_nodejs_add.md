@@ -84,6 +84,63 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  <% "{more_features.code_1.comment_1}" %>
+            const loadOptions = new groupdocsWatermark.PdfLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf", loadOptions);
+            const pdfContent = watermarker.getContent(groupdocsWatermark.PdfContent.class);
+
+            //  <% "{more_features.code_1.comment_2}" %>
+            const watermark = new groupdocsWatermark.TextWatermark('WaterMark', new groupdocsWatermark.Font('Arial', 19));
+  
+            //  <% "{more_features.code_1.comment_3}" %>
+            for (const attachment of pdfContent.getAttachments().getInnerList().toArray()) {
+                const info = attachment.getDocumentInfo();
+                if (info.getFileType() !== groupdocsWatermark.FileType.Unknown && !info.isEncrypted()) {
+                    const attachedWatermarker = attachment.createWatermarker();
+                    attachedWatermarker.add(watermark);
+                    attachment.updateContent(attachedWatermarker);
+                    attachedWatermarker.close();
+                }
+            }
+
+            //  <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

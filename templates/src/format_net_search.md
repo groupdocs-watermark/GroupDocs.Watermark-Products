@@ -90,7 +90,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image: "/img/watermark/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -118,7 +118,7 @@ more_features:
             using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
             {
                 //  <% "{more_features.code_1.comment_2}" %>
-                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria(Constants.AttachmentPng);
+                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria("watermark.png");
                 PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);
 
                 //  <% "{more_features.code_1.comment_3}" %>

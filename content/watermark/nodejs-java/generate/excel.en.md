@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:31
+date:  2024-04-16T15:52:17
 draft: false
 lang: en
 format: Excel
@@ -81,6 +81,63 @@ steps:
         watermarker.save("output.xslx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Generate watermark for PDF attachments"
+      content: |
+        This example shows how to generate watermarks in all PDF attachments
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load PDF document
+            const loadOptions = new groupdocsWatermark.PdfLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf", loadOptions);
+            const pdfContent = watermarker.getContent(groupdocsWatermark.PdfContent.class);
+
+            //  Generate text watermark
+            const watermark = new groupdocsWatermark.TextWatermark('WaterMark', new groupdocsWatermark.Font('Arial', 19));
+  
+            //  Add watermark to suitable attachments
+            for (const attachment of pdfContent.getAttachments().getInnerList().toArray()) {
+                const info = attachment.getDocumentInfo();
+                if (info.getFileType() !== groupdocsWatermark.FileType.Unknown && !info.isEncrypted()) {
+                    const attachedWatermarker = attachment.createWatermarker();
+                    attachedWatermarker.add(watermark);
+                    attachment.updateContent(attachedWatermarker);
+                    attachedWatermarker.close();
+                }
+            }
+
+            //  Save processed PDF
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

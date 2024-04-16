@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:35
+date:  2024-04-16T15:52:21
 draft: false
 lang: en
 format: Jpg
@@ -80,6 +80,63 @@ steps:
         watermarker.save("output.jpg");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Generate PDF image watermark"
+      content: |
+        Generate image watermarks for all images presented inside a PDF document
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load document as PDF
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Create watermark based on PDF annotation
+            const imageWatermark = new groupdocsWatermark.ImageWatermark("watermark.jpg");
+            imageWatermark.setHorizontalAlignment(groupdocsWatermark.HorizontalAlignment.Center);
+            imageWatermark.setVerticalAlignment(groupdocsWatermark.VerticalAlignment.Center);
+            imageWatermark.setRotateAngle(-45);
+            imageWatermark.setSizingType(groupdocsWatermark.SizingType.ScaleToParentDimensions);
+            imageWatermark.setScaleFactor(1);
+  
+            //  Set up watermark options
+            const images = watermarker.getImages();
+            for (let i = 0; i < images.getCount(); i++) {
+                if (images.get_Item(i).getWidth() > 100 && images.get_Item(i).getHeight() > 100) {
+                    images.get_Item(i).add(imageWatermark);
+                }
+            }
+
+            //  Add text watermark to result document
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

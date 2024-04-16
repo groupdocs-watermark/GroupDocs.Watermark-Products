@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-12T15:28:15
+date:  2024-04-16T15:52:16
 draft: false
 lang: en
 format: Word
@@ -102,7 +102,7 @@ more_features:
   enable: true
   title: "Deep dive into adding Watermark"
   description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
-  image: "/img/watermark/features_edit.jpg" # 500x500 px
+  image: "/img/watermark/features_search.webp" # 500x500 px
   image_description: "Add Watermark"
   features:
     # feature loop

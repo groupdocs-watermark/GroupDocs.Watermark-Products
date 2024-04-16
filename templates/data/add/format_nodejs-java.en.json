@@ -32,8 +32,8 @@
       "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
     },
     "code_1": {
-      "title": "PDF annotation watermark",
-      "content": "This example shows how to add watermark annotation to a PDF document",
+      "title": "Generate PDF image watermark",
+      "content": "Generate image watermarks for all images presented inside a PDF document",
       "comment_1": "Load document as PDF",
       "comment_2": "Create watermark based on PDF annotation",
       "comment_3": "Set up watermark options",

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:36
+date:  2024-04-16T15:52:21
 draft: false
 lang: en
 format: Pptx
@@ -82,6 +82,59 @@ steps:
         watermarker.save("output.pptx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Delete spreadsheet header watermarks"
+      content: |
+        This example shows how to delete watermarks which were put into XLSX headers
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load Spreadsheet workbook
+            const loadOptions = new groupdocsWatermark.SpreadsheetLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.xlsx", loadOptions);
+
+            //  Get list of header sections
+            const content = watermarker.getContent(groupdocsWatermark.SpreadsheetContent.class);
+            const sections = content.getWorksheets().get_Item(0).getHeadersFooters()
+                .getByOfficeHeaderFooterType(groupdocsWatermark.OfficeHeaderFooterType.HeaderPrimary).getSections();
+  
+            //  Delete watermarks from headers
+            for (const section of sections.getInnerList().toArray()) {
+                section.setScript(null);
+                section.setImage(null);
+            }
+
+            //  Save cleared workbook
+            watermarker.save("result.xlsx");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

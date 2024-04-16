@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:37
+date:  2024-04-16T15:52:22
 draft: false
 lang: en
 format: Docx
@@ -82,6 +82,70 @@ steps:
         console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Get various file format watermarks"
+      content: |
+        This example shows us how to get watermarks from different documents 
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            const files = ["source.docx", "source.xlsx", "source.pptx", "source.vsdx"];
+            for (const file of files) {
+                //  Create search settings for required document types
+                const settings = new groupdocsWatermark.WatermarkerSettings();
+                settings.setSearchableObjects(new groupdocsWatermark.SearchableObjects());
+                settings.getSearchableObjects().setWordProcessingSearchableObjects(
+                    groupdocsWatermark.WordProcessingSearchableObjects.Hyperlinks | 
+                    groupdocsWatermark.WordProcessingSearchableObjects.Text
+                );
+                settings.getSearchableObjects().setSpreadsheetSearchableObjects(
+                    groupdocsWatermark.SpreadsheetSearchableObjects.HeadersFooters
+                );
+                settings.getSearchableObjects().setPresentationSearchableObjects(
+                    groupdocsWatermark.PresentationSearchableObjects.SlidesBackgrounds |
+                    groupdocsWatermark.PresentationSearchableObjects.Shapes
+                );
+                settings.getSearchableObjects().setDiagramSearchableObjects(groupdocsWatermark.DiagramSearchableObjects.None);
+                settings.getSearchableObjects().setPdfSearchableObjects(groupdocsWatermark.PdfSearchableObjects.All);
+
+                //  Create Watermarker for current file
+                const watermarker = new groupdocsWatermark.Watermarker(file, settings);
+
+                //  Get watermarks from the file
+                const watermarks = watermarker.search();
+
+                //  Process list of watermarks
+                console.log(`In ${documentPath} found ${watermarks.getCount()} possible watermark(s).`);
+                watermarker.close();
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

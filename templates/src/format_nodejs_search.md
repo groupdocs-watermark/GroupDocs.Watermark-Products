@@ -85,6 +85,70 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            const files = ["source.docx", "source.xlsx", "source.pptx", "source.vsdx"];
+            for (const file of files) {
+                //  <% "{more_features.code_1.comment_1}" %>
+                const settings = new groupdocsWatermark.WatermarkerSettings();
+                settings.setSearchableObjects(new groupdocsWatermark.SearchableObjects());
+                settings.getSearchableObjects().setWordProcessingSearchableObjects(
+                    groupdocsWatermark.WordProcessingSearchableObjects.Hyperlinks | 
+                    groupdocsWatermark.WordProcessingSearchableObjects.Text
+                );
+                settings.getSearchableObjects().setSpreadsheetSearchableObjects(
+                    groupdocsWatermark.SpreadsheetSearchableObjects.HeadersFooters
+                );
+                settings.getSearchableObjects().setPresentationSearchableObjects(
+                    groupdocsWatermark.PresentationSearchableObjects.SlidesBackgrounds |
+                    groupdocsWatermark.PresentationSearchableObjects.Shapes
+                );
+                settings.getSearchableObjects().setDiagramSearchableObjects(groupdocsWatermark.DiagramSearchableObjects.None);
+                settings.getSearchableObjects().setPdfSearchableObjects(groupdocsWatermark.PdfSearchableObjects.All);
+
+                //  <% "{more_features.code_1.comment_2}" %>
+                const watermarker = new groupdocsWatermark.Watermarker(file, settings);
+
+                //  <% "{more_features.code_1.comment_3}" %>
+                const watermarks = watermarker.search();
+
+                //  <% "{more_features.code_1.comment_4}" %>
+                console.log(`In ${documentPath} found ${watermarks.getCount()} possible watermark(s).`);
+                watermarker.close();
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:
