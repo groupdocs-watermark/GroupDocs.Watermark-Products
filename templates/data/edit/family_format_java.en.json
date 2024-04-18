@@ -7,13 +7,38 @@
     "comment_5": "Save the updated document"
   },
   "steps": {
-    "title": "Adjust text watermarks in {{FileformatCap}} documents with {{EnvName}}",
+    "title": "Adjust watermarks in {{FileformatCap}} documents with {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to adjust text watermarks in their applications by implementing a few easy steps.",
-      "step_1": "Create **Watermarker** with {{FileformatCap}} document",
-      "step_2": "Use **TextSearchCriteria** to search for text watermarks in the document",
-      "step_3": "Set found watermarks properties (size, alignment, color etc)",
-      "step_4": "Save result to output document"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** makes it easy for {{EnvName}} developers to adjust text watermarks in their applications by implementing a few easy steps:",
+      "step_1": "Load your {{FileformatCap}} file to the main object of our API called **Watermarker**. You can provide file for the further processing as stream or as a path on a local disk.",
+      "step_2": "Next step is locating watermarks which must be adjusted. **SearchCriteria** helps as to identify watermarks with right properties which were previously added to a document.",
+      "step_3": "Get list of suitable watermarks as a result of the **Search** procedure. Adjust found watermarks properties such as size, page alignment, text, color, image content, etc. There are a lot of ways to customize your data.",
+      "step_4": "After completion of watermarks adjustment process you need to save updated document. Use local file path, file or byte stream to store result."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "PDF adjust text watermark",
+      "content": "This example shows how to adjust the text of the particular artifacts.",
+      "comment_1": "Load PDF document",
+      "comment_2": "Get document content",
+      "comment_3": "Adjust particular watermark text",
+      "comment_4": "Save the document"
     }
   },
   "excel": {

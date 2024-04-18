@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:29
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Clear Excel documents of text watermarks using Java"
+    title: "Clear Excel documents of watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy to clear business documents of text watermarks using Java applications.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** makes it easy to clear business documents of previously added watermarks. Empower your Java application by installing our library and do it in a few simple steps:
       
-      1. Instantiate **Watermarker** with Excel document
-      2. Use **TextSearchCriteria** to search for appropriate watermarks in the document
-      3. Clear particular text watermark
-      4. Get output document
+      1. First of all instantiate the main class called **Watermarker** with Excel document. Our API supports passing a document to be processed as stream or a local path.
+      2. Use **SearchCriteria** to limit set of watermarks to be processed. It is possible to use an image as search parameter as well as text or formating features. Then more specific search parameters you provide, then more precise result you obtain.
+      3. Process list of the document watermarks that you have obtained as a search result. Clear the document.
+      4. After clearing the document save result as a local file or a byte stream.
    
     code:
       platform: "net"
@@ -94,7 +94,61 @@ steps:
         // Save processed file
         watermarker.save("output.xslx");
         
-        ```            
+        ```    
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "PDF clear text watermark"
+      content: |
+        This example shows how to find and remove all annotations containing text with a particular formatting from a PDF document.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load PDF document
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Get document content
+        PdfContent pdfContent = watermarker.getContent(PdfContent.class);
+
+        //  Clear text watermarks with particular font
+        for (PdfPage page : pdfContent.getPages()){
+            for (int i = page.getAnnotations().getCount() - 1; i >= 0; i--){
+                for (FormattedTextFragment fragment : page.getAnnotations().get_Item(i).getFormattedTextFragments()){
+                    if (fragment.getFont().getFamilyName() == "Verdana"){
+                        page.getAnnotations().removeAt(i);
+                        break;
+                    }
+                }
+            }
+        }
+
+        //  Save the document
+        watermarker.save("result.pdf");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

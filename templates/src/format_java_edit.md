@@ -101,7 +101,62 @@ steps:
         // <% "{examples.comment_5}" %>
         watermarker.save("output.<% get "fileformat" %>");
         
-        ```            
+        ```
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  <% "{more_features.code_1.comment_1}" %>
+        SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
+        Watermarker watermarker = new Watermarker("source.xlsx", loadOptions);
+
+        //  <% "{more_features.code_1.comment_2}" %>
+        File file = new File("new_watermark.png");
+        byte[] imageBytes = new byte[(int) file.length()];
+        FileInputStream inputStream = new FileInputStream(file);
+        inputStream.read(imageBytes);
+        inputStream.close();
+
+        //  <% "{more_features.code_1.comment_3}" %>
+        for (SpreadsheetShape shape : content.getWorksheets().get_Item(0).getShapes())
+        {
+            if (shape.getImage() != null)
+            {
+                shape.setImage(new SpreadsheetWatermarkableImage(imageBytes));
+            }
+        }
+
+        //  <% "{more_features.code_1.comment_4}" %>
+        watermarker.save("result.xlsx");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Find text watermarks in Powerpoint documents using .NET"
+    title: "Find Watermarks in Powerpoint Files Using .NET"
     content: |
-      Empower .NET application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) solution. Find text watermarks in business documents and process them in convenient way.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** streamlines the process of finding watermarks within business documents. Integrate our package into your .NET applications to unlock its advantages.
       
-      1. Pass Powerpoint document path to **Watermarker**
-      2. Use **TextSearchCriteria** and its options to narrow result list of watermarks
-      3. Find all suitable text watermarks from the document
-      4. Process found text watermarks
+      1. To leverage our library features, load the Powerpoint file into a **Watermarker** class instance. You can provide a file path, file stream, or byte stream.
+      2. To refine the list of potential watermarks, use the **SearchCriteria object**. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.
+      3. Use the **Search** method of the **Watermarker** object to retrieve watermarks placed within the document. You will receive a collection of objects representing potential watermarks for further processing.
+      4. Finally, you have the flexibility to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text.
    
     code:
       platform: "net"
@@ -85,6 +85,53 @@ steps:
         }
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Find text watermarks by regular expression"
+      content: |
+        This example shows how to use a regular expression to search for watermarks
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load DOCX document
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  Instantiate Regex object
+                Regex regex = new Regex(@"^© \d{4}$");
+
+                //  Find all suitable watermarks
+                TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
+                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
+
+                //  Process list of found watermarks
+                Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

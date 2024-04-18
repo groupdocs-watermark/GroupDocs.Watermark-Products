@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edit Excel document text watermarks using .NET"
+    title: "Edit watermarks in Excel documents using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) allows developers to edit text watermarks in .NET applications swiftly and easily
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** empowers .NET developers to effortlessly edit watermarks within various Excel documents. Here's a simplified guide how to use our API in your application:
       
-      1. Provide **Watermarker** object with Excel document
-      2. Search for text watermarks in the document using **TextSearchCriteria**
-      3. Edit particular watermark options like size, alignment, color
-      4. Enjoy output result
+      1. Begin by passing your Excel file as a parameter to the **Watermarker** class constructor. You can provide the file either as a byte stream, a file stream, or a local disk path.
+      2. Next, locate the specific watermarks that require editing. Utilize the **SearchCriteria** to identify watermarks with the corresponding properties previously added to the document.
+      3. Following the search, you'll obtain a list of relevant watermarks. You can then customize their properties, such as size, page alignment, text, color, image content, and more. This grants you extensive control over your data.
+      4. Once you've completed editing the watermarks, save the updated document. You can utilize a local file path or a stream to store the final result.
    
     code:
       platform: "net"
@@ -89,6 +89,58 @@ steps:
         }
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Excel watermark text edit"
+      content: |
+        This example shows how to edit text for particular watermarks in Excel Worksheets
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load XLSX spreadsheet
+            var loadOptions = new SpreadsheetLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            {
+                //  Load spreadsheet content
+                SpreadsheetContent content = watermarker.GetContent<SpreadsheetContent>();
+
+                //  Edit watermark inner text
+                foreach (SpreadsheetShape shape in content.Worksheets[0].Shapes)
+                {
+                    if (shape.Text == "GroupDocs 2016")
+                    {
+                        shape.Text = "GroupDocs 2017";
+                    }
+                }
+
+                //  Save output result
+                watermarker.save("result.xlsx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:35
+date:  2024-04-18T15:29:28
 draft: false
 lang: en
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Generate image watermarks for Docx files using Node.js via Java"
+    title: "Protect Business Documents: Generate Docx Watermarks with Node.js via Java"
     content: |
-      Generate image watermarks using different image formats and [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/). Empower Node.js via Java applications by watermarks generation.
+      Strengthen Document Security with **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - A Powerful Watermark Generation Solution for Node.js via Java.
       
-      1. Provide **Watermarker** instance passing Docx file
-      2. Use image file to create **ImageWatermark** object
-      3. Update watermark options like size or alignment
-      4. Generate watermark and save document
+      1. **Streamline Secure Watermarking in Your Node.js via Java Applications:** The **Watermarker** class acts as the core component of the GroupDocs.Watermark API. This library simplifies watermarks generation various document formats, including Docx. To get started, create a Watermarker instance before processing your document. Provide the Docx file path or a stream object to the constructor during initialization.
+      2. **Generate Watermarks for Enhanced Protection:** Empower watermarks that perfectly align with your security needs. Construct a **Watermark** object specifying the desired type. Unlike traditional page placement, you can embed watermarks within native document elements like headers or attachments, fortifying document security and adding a professional touch.
+      3. **Fine-Tune Watermark Appearance for Optimal Impact:** Control the visual aspects of your watermarks. Customize properties such as height, width, alignment (top, left, center, etc.), font families, and colors to achieve a visually effective and consistent outcome that reinforces document legitimacy.
+      4. **Watermark Application and Secure Storage**: Incorporate your watermarks using the **Watermarker's** method. The library allows you to add multiple watermarks if necessary for enhanced protection. It's recommended to save the modified Docx document to a separate, secure location to preserve the original file and safeguard your watermarked documents.
    
     code:
       platform: "net"
@@ -80,6 +80,63 @@ steps:
         watermarker.save("output.docx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Generate PDF image watermark"
+      content: |
+        Generate image watermarks for all images presented inside a PDF document
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load document as PDF
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Create watermark based on PDF annotation
+            const imageWatermark = new groupdocsWatermark.ImageWatermark("watermark.jpg");
+            imageWatermark.setHorizontalAlignment(groupdocsWatermark.HorizontalAlignment.Center);
+            imageWatermark.setVerticalAlignment(groupdocsWatermark.VerticalAlignment.Center);
+            imageWatermark.setRotateAngle(-45);
+            imageWatermark.setSizingType(groupdocsWatermark.SizingType.ScaleToParentDimensions);
+            imageWatermark.setScaleFactor(1);
+  
+            //  Set up watermark options
+            const images = watermarker.getImages();
+            for (let i = 0; i < images.getCount(); i++) {
+                if (images.get_Item(i).getWidth() > 100 && images.get_Item(i).getHeight() > 100) {
+                    images.get_Item(i).add(imageWatermark);
+                }
+            }
+
+            //  Add text watermark to result document
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

@@ -6,13 +6,38 @@
     "comment_4": "Save cleared file"
   },
   "steps": {
-    "title": "Clear {{FileformatCap}} documents of image watermarks by {{EnvName}}",
+    "title": "Clear Watermarks from {{FileformatCap}} Documents using {{EnvName}}",
     "content": {
-      "title": "Use [{{ProdShortName}}]({{ProductUrl}}) along with {{EnvName}} to clear your business documents of image watermarks.",
-      "step_1": "Instantiate **Watermarker** by {{FileformatCap}} document path",
-      "step_2": "Use image file to search for similar watermarks in the document",
-      "step_3": "Clear document of unnecessary watermarks",
-      "step_4": "Save result to output path"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the process of clearing watermarks from your business documents within {{EnvName}} applications. Integrate our library and follow these steps:",
+      "step_1": "Begin by initializing the **Watermarker** class with your {{FileformatCap}} document. The API accepts the document either as a stream or a local file path for processing.",
+      "step_2": "Leverage the **SearchCriteria** object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.",
+      "step_3": "Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.",
+      "step_4": "Once the watermarks are cleared, save the final document using a local file path or a stream object."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Clear DOCX of shape watermark",
+      "content": "This example shows how to clear Word document of a particular shape.",
+      "comment_1": "Load Word document",
+      "comment_2": "Remove shape by index",
+      "comment_3": "Remove shape by reference",
+      "comment_4": "Save the DOCX"
     }
   },
   "doc": {

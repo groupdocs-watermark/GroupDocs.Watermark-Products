@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:33
+date:  2024-04-18T15:29:27
 draft: false
 lang: en
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Clear Doc documents of image watermarks by Java"
+    title: "Clear Watermarks from Doc Documents using Java"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) along with Java to clear your business documents of image watermarks.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifies the process of clearing watermarks from your business documents within Java applications. Integrate our library and follow these steps:
       
-      1. Instantiate **Watermarker** by Doc document path
-      2. Use image file to search for similar watermarks in the document
-      3. Clear document of unnecessary watermarks
-      4. Save result to output path
+      1. Begin by initializing the **Watermarker** class with your Doc document. The API accepts the document either as a stream or a local file path for processing.
+      2. Leverage the **SearchCriteria** object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.
+      3. Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.
+      4. Once the watermarks are cleared, save the final document using a local file path or a stream object.
    
     code:
       platform: "net"
@@ -93,7 +93,55 @@ steps:
         // Save cleared file
         watermarker.save("output.doc");
         
-        ```            
+        ```        
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Clear DOCX of shape watermark"
+      content: |
+        This example shows how to clear Word document of a particular shape.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load Word document
+        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
+        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+
+        WordProcessingContent content = watermarker.getContent(WordProcessingContent.class);
+
+        //  Remove shape by index
+        content.getSections().get_Item(0).getShapes().removeAt(0);
+
+        //  Remove shape by reference
+        content.getSections().get_Item(0).getShapes().
+            remove(content.getSections().get_Item(0).getShapes().get_Item(0));
+
+        //  Save the DOCX
+        watermarker.save("result.docx");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

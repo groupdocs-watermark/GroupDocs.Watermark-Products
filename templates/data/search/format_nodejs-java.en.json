@@ -6,13 +6,38 @@
     "comment_4": "Process watermarks as you wish"
   },
   "steps": {
-    "title": "Get image watermarks from {{FileformatCap}} files using {{EnvName}}",
+    "title": "Get Watermarks from {{FileformatCap}} Files Using {{ProdShortName}}",
     "content": {
-      "title": "Include [{{ProdShortName}}]({{ProductUrl}}) library to {{EnvName}} application in order to get image watermarks list from business documents.",
-      "step_1": "Input the path of a {{FileformatCap}} file into the **Watermarker** constructor",
-      "step_2": "Provide image file to find document watermarks",
-      "step_3": "Get the list of document watermarks",
-      "step_4": "Customize the watermark processing as needed"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers a comprehensive solution for getting watermarks placed in popular business document formats. By integrating our library into your {{EnvName}} applications, you can equip them with powerful watermark searching capabilities.",
+      "step_1": "To access the functionalities provided by {{ProdShortName}}, instantiate the **Watermarker** class and provide the {{FileformatCap}} file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.",
+      "step_2": "To achieve targeted watermark identification, create the **SearchCriteria** object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.",
+      "step_3": "Call the **Get** method (or a similar naming convention) of the **Watermarker** object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.",
+      "step_4": "The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Get various file format watermarks",
+      "content": "This example shows us how to get watermarks from different documents ",
+      "comment_1": "Create search settings for required document types",
+      "comment_2": "Create Watermarker for current file",
+      "comment_3": "Get watermarks from the file",
+      "comment_4": "Process list of watermarks"
     }
   },
   "doc": {

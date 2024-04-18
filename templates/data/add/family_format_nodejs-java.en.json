@@ -6,13 +6,38 @@
     "comment_4": "Obtain {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Generate {{FileformatCap}} text watermark by {{EnvName}}",
+    "title": "Secure Your Business Documents: Generate Watermarks for {{FileformatCap}} Files using {{EnvName}}",
     "content": {
-      "title": "Generate text watermarks with [{{ProdShortName}}]({{ProductUrl}}) and add watermarks to {{FileformatCap}} files using {{EnvName}} applications.",
-      "step_1": "Generate **Watermarker** passing {{FileformatCap}} file path or stream",
-      "step_2": "Create **TextWatermark** instance",
-      "step_3": "Set up text watermark properties like size, alignment, color, font, etc.",
-      "step_4": "Save new watermarked file"
+      "title": "Boost Your Document Security with **[{{ProdFullName}}]({{ProductUrl}}):** Inject our API to your applications and generate watermarks for many supported file formats.",
+      "step_1": "**Initiate Watermarking:** Start document processing with the **Watermarker** class providing our main features. Instantiate it by passing to the constructor the {{FileformatCap}} file which is supposed to be secured by generated watermarks.",
+      "step_2": "**Create main Watermark object:** Elevate your documents by sculpting bespoke **Watermark** objects. Beyond mere pages, they seamlessly integrate into native elements like attachments or headers, adding layers of security and professionalism.",
+      "step_3": "**Refine Watermark Attributes:** Fine-tune your watermarks with precision, adjusting dimensions, alignment, and color schemes. Every detail enhances document integrity, making your files unmistakably yours.",
+      "step_4": "**Implement with Precision:** Utilize the **Watermarker** method to apply your customized watermarks flawlessly. Whether singular or multiple, each watermark adds an extra layer of protection. For added security, consider storing your processed documents in a separate, secure location."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Generate watermark for PDF attachments",
+      "content": "This example shows how to generate watermarks in all PDF attachments",
+      "comment_1": "Load PDF document",
+      "comment_2": "Generate text watermark",
+      "comment_3": "Add watermark to suitable attachments",
+      "comment_4": "Save processed PDF"
     }
   },
   "excel": {

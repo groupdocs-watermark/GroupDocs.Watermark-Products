@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:31
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Delete text watermarks in Powerpoint documents with Node.js via Java"
+    title: "Powerpoint Watermarks Deletion using Node.js via Java"
     content: |
-      Enrich your Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library. It makes easy to delete text watermarks from documents of popular formats.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** furnishes Node.js via Java developers with a comprehensive API for the programmatic deletion of specific watermarks embedded within various Powerpoint documents. This guide delves into the technical process:
       
-      1. Construct **Watermarker** object passing Powerpoint document
-      2. Search for watermarks in the document with **TextSearchCriteria**
-      3. Delete unnecessary watermarks
-      4. Save document to output path
+      1. Initiate the workflow by instantiating the **Watermarker** class and providing your Powerpoint file as a constructor argument. The file can be supplied as a byte stream, a file stream, or a path reference to a local disk location.
+      2. To achieve precise watermark targeting, leverage the capabilities of the **SearchCriteria** object. This object facilitates the construction of intricate filters based on properties previously embedded within the document. You can utilize an image as a search parameter alongside text or formatting attributes to enable a highly granular selection process.
+      3. Following the execution of the search, you'll receive a collection of identified watermarks. These watermarks may be deleted easily.
+      4. Upon successful watermark deletion, persist the modified document. The API provides storage flexibility, allowing you to utilize either a local file path or a stream object for final output.
    
     code:
       platform: "net"
@@ -82,6 +82,59 @@ steps:
         watermarker.save("output.pptx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Delete PDF hyper-link watermarks"
+      content: |
+        This example shows how to delete all watermarks with proper hyper-link from a PDF
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load PDF in Watermarker
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Search for watermarks with hyper-link
+            const searchCriteria = new groupdocsWatermark.TextSearchCriteria('someurl.com');
+            const watermarks = watermarker.search(searchCriteria);
+  
+            //  Delete selected watermarks
+            for (let i = watermarks.getCount() - 1; i >= 0; i--) {
+                if (watermarks.get_Item(i) instanceof groupdocsWatermark.HyperlinkPossibleWatermark) {
+                    console.log(watermarks.get_Item(i).getText());
+                    watermarks.removeAt(i);
+                }
+            }
+
+            //  Save changes in the document
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

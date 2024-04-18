@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:36
+date:  2024-04-18T15:29:29
 draft: false
 lang: en
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Update image watermarks in Pdf documents via Node.js via Java"
+    title: "Dynamic Watermark Edit for Pdf in Node.js via Java"
     content: |
-      Empower Node.js via Java solutions using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) and update various image watermarks in business documents.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offers Node.js via Java developers a powerful API for editing watermarks across diverse Pdf documents. Here's a comprehensive guide to streamline your workflow:
       
-      1. Get **Watermarker** instance providing path to Pdf document
-      2. Search for suitable image watermarks in the document
-      3. Update watermarks properties
-      4. Save updated document
+      1. **Start the Process:** Begin by providing your Pdf file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.
+      2. **Pinpoint Watermarks:** Use the **SearchCriteria** object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.
+      3. **Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.
+      4. **Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object.
    
     code:
       platform: "net"
@@ -87,6 +87,56 @@ steps:
         watermarker.save("output.pdf");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Update Presentation watermark content"
+      content: |
+        This example shows how to update text content of Presentation watermarks
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load a presentation for processing
+            const watermarker = new groupdocsWatermark.Watermarker("source.pptx");
+
+            //  Get list of appropriate watermarks using search
+            const searchCriteria = new groupdocsWatermark.TextSearchCriteria("denied", false);
+            const watermarks = watermarker.search(searchCriteria);
+  
+            //  Update watermark text
+            for (const watermark of watermarks.getInnerList().toArray()) {
+                watermark.setText("accepted");
+            }
+
+            //  Save updated presentation to local disk or stream
+            watermarker.save("result.pptx");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

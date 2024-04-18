@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:33
+date:  2024-04-18T15:29:27
 draft: false
 lang: en
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Search for Pdf files image watermarks via Java"
+    title: "Pdf Watermarks Search via Java"
     content: |
-      Include [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) library to your Java applications and search for image watermarks in business documents effortlessly.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifies the process of locating watermarks within business documents. Install our package into your Java applications to take advantage of its benefits.
       
-      1. Pass Pdf document **Watermarker** as a constructor argument
-      2. Use image file to search for similar watermarks
-      3. Get list of watermarks from the document
-      4. Process watermarks in your own way
+      1. To utilize our library features, load the Pdf file into an instance of the **Watermarker** class. You can provide a file path, file stream, or byte stream.
+      2. To narrow down the list of potential watermarks, utilize the **SearchCriteria** object. For example, provide an image to search for similar image watermarks. If searching for textual watermarks, provide text, font, color, and other relevant options.
+      3. Retrieve watermarks placed within the document using the **Search** method of the **Watermarker** object. You will receive a collection of objects representing potential watermarks for further processing.
+      4. Finally, you have the freedom to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text.
    
     code:
       platform: "net"
@@ -94,7 +94,53 @@ steps:
         // Process found watermarks
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
-        ```            
+        ```          
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Search in PDF attachments"
+      content: |
+        This example shows how to search for all the images attachments in a PDF document
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load document as PDF
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Consider only the attached images
+        watermarker.getSearchableObjects().setPdfSearchableObjects(PdfSearchableObjects.AttachedImages);
+
+        //  Search for similar images
+        WatermarkableImageCollection possibleWatermarks = watermarker.getImages();
+
+        //  Process result
+        System.out.println("Found " + possibleWatermarks.getCount() + " image(s).");
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

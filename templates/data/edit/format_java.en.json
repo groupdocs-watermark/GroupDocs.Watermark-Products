@@ -7,13 +7,38 @@
     "comment_5": "Save adjusted file"
   },
   "steps": {
-    "title": "Adjust image watermarks placed in {{FileformatCap}} documents by {{EnvName}}",
+    "title": "Adjust {{FileformatCap}} document watermarks using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) provides features for {{EnvName}} applications to adjust image watermarks in various document formats.",
-      "step_1": "Get **Watermarker** instance passing {{FileformatCap}} document",
-      "step_2": "Search for image watermarks in the document",
-      "step_3": "Adjust found watermarks properties like size or alignment",
-      "step_4": "Save result"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** allows {{EnvName}} developers to easily adjust watermarks in many documents using their applications. Here's a quick guide:",
+      "step_1": "Firstly, you need to pass {{FileformatCap}} file as parameter of the **Watermarker** class constructor. Provide byte or file stream or a local disk path.",
+      "step_2": "Secondly, locate the watermarks that need to be adjusted. Use **SearchCriteria** to identify watermarks with the specific properties previously added to the document.",
+      "step_3": "Following the search, you'll receive a list of relevant watermarks. You can then adjust their properties, including size, page alignment, text, color, image content, and more. This offers a high degree of customization for your data.",
+      "step_4": "Once you've finished adjusting the watermarks, save the updated document. You can use a local file path, or stream to store the result."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Adjust image watermark in Spreadsheets",
+      "content": "This examples shows how to adjust the image of the particular shapes in an Excel Worksheet.",
+      "comment_1": "Load document as Spreadsheet",
+      "comment_2": "Get new watermark bytes",
+      "comment_3": "Adjust content of particular watermark",
+      "comment_4": "Save result document"
     }
   },
   "doc": {

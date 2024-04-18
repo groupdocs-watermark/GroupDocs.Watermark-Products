@@ -85,6 +85,59 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  <% "{more_features.code_1.comment_1}" %>
+            const loadOptions = new groupdocsWatermark.SpreadsheetLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.xlsx", loadOptions);
+
+            //  <% "{more_features.code_1.comment_2}" %>
+            const content = watermarker.getContent(groupdocsWatermark.SpreadsheetContent.class);
+            const sections = content.getWorksheets().get_Item(0).getHeadersFooters()
+                .getByOfficeHeaderFooterType(groupdocsWatermark.OfficeHeaderFooterType.HeaderPrimary).getSections();
+  
+            //  <% "{more_features.code_1.comment_3}" %>
+            for (const section of sections.getInnerList().toArray()) {
+                section.setScript(null);
+                section.setImage(null);
+            }
+
+            //  <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("result.xlsx");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

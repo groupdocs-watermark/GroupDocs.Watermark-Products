@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:34
+date:  2024-04-18T15:29:28
 draft: false
 lang: en
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remove image watermarks from Rtf documents using .NET"
+    title: "Programmatically Remove Watermarks from Rtf Documents using .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) along with .NET to remove image watermarks from your business documents
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** empowers .NET developers to programmatically remove watermarks from various Rtf documents. This guide outlines the process:
       
-      1. Get **Watermarker** with Rtf document path
-      2. Search for image watermarks in the document
-      3. Remove unnecessary watermarks
-      4. Save updated document
+      1. Initiate the workflow by supplying your Rtf file as an argument to the **Watermarker** class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.
+      2. Leverage the power of the **SearchCriteria** object to identify the specific watermarks requiring removal. This object enables the filtering of watermarks based on properties previously embedded within the document. You can utilize an image as a search parameter alongside text or formatting attributes for a highly granular search.
+      3. Following a successful search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to perform the removal operation.
+      4. Upon completion of watermark removal, persist the modified document. The API facilitates storage using either a local file path or a stream object.
    
     code:
       platform: "net"
@@ -82,6 +82,52 @@ steps:
         }
         
         ```  
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Presentation background watermark remove"
+      content: |
+        This example shows how to remove the background image of a particular slide.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load presentation
+            var loadOptions = new PresentationLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
+            {
+                //  Get presentation content
+                PresentationContent content = watermarker.GetContent<PresentationContent>();
+
+                //  Remove slide background watermark
+                content.Slides[0].ImageFillFormat.BackgroundImage = null;
+
+                //  Save document
+                watermarker.save("result.pptx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

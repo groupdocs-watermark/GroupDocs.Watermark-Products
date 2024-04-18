@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remove text watermarks from Powerpoint files using .NET"
+    title: "Remove Watermarks from Powerpoint Documents Using .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) and .NET to add possibility in your product to remove text watermarks from business documents.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifies the task of removing watermarks from business documents. Empower your .NET application by integrating our library and follow these simple steps:
       
-      1. Use **Watermarker** instance along with Powerpoint document
-      2. Use **TextSearchCriteria** to search for text watermarks 
-      3. Remove particular text watermark
-      4. Save cleared document
+      1. Begin by instantiating the main class, **Watermarker**, with the Powerpoint document. Our API supports processing documents provided as either a stream or a local path.
+      2. Utilize **SearchCriteria** to narrow down the set of watermarks to be processed. You can use various parameters such as images, text, or formatting features. The more specific the search parameters you provide, the more precise the results you obtain.
+      3. Process the list of document watermarks obtained as a search result and remove them from the document.
+      4. After removing the watermarks, save the resulting document as a local file or a byte stream.
    
     code:
       platform: "net"
@@ -84,6 +84,64 @@ steps:
         }
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Remove spreadsheets text watermark"
+      content: |
+        How to remove text watermarks with special formatting in Excel docs.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load Excel workbook
+            var loadOptions = new SpreadsheetLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            {
+                //  Get content and find appropriate watermark
+                SpreadsheetContent content = watermarker.GetContent<SpreadsheetContent>();
+                foreach (SpreadsheetWorksheet section in content.Worksheets)
+                {
+                    for (int i = section.Shapes.Count - 1; i >= 0; i--)
+                    {
+                        foreach (FormattedTextFragment fragment in section.Shapes[i].FormattedTextFragments)
+                        {
+                            if (fragment.ForegroundColor.Equals(Color.Red) && fragment.Font.FamilyName == "Arial")
+                            {
+                                //  Remove text watermark
+                                section.Shapes.RemoveAt(i);
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                //  Save processed XLSX
+                watermarker.save("result.xlsx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

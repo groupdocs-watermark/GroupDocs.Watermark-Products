@@ -6,13 +6,38 @@
     "comment_4": "Process found watermarks"
   },
   "steps": {
-    "title": "Search for {{FileformatCap}} files image watermarks via {{EnvName}}",
+    "title": "{{FileformatCap}} Watermarks Search via {{EnvName}}",
     "content": {
-      "title": "Include [{{ProdShortName}}]({{ProductUrl}}) library to your {{EnvName}} applications and search for image watermarks in business documents effortlessly.",
-      "step_1": "Pass {{FileformatCap}} document **Watermarker** as a constructor argument",
-      "step_2": "Use image file to search for similar watermarks",
-      "step_3": "Get list of watermarks from the document",
-      "step_4": "Process watermarks in your own way"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the process of locating watermarks within business documents. Install our package into your {{EnvName}} applications to take advantage of its benefits.",
+      "step_1": "To utilize our library features, load the {{FileformatCap}} file into an instance of the **Watermarker** class. You can provide a file path, file stream, or byte stream.",
+      "step_2": "To narrow down the list of potential watermarks, utilize the **SearchCriteria** object. For example, provide an image to search for similar image watermarks. If searching for textual watermarks, provide text, font, color, and other relevant options.",
+      "step_3": "Retrieve watermarks placed within the document using the **Search** method of the **Watermarker** object. You will receive a collection of objects representing potential watermarks for further processing.",
+      "step_4": "Finally, you have the freedom to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Search in PDF attachments",
+      "content": "This example shows how to search for all the images attachments in a PDF document",
+      "comment_1": "Load document as PDF",
+      "comment_2": "Consider only the attached images",
+      "comment_3": "Search for similar images",
+      "comment_4": "Process result"
     }
   },
   "doc": {

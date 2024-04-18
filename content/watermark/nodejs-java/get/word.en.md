@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:31
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Get text watermarks list placed in Word documents via Node.js via Java"
+    title: "Efficiently Get Watermarks in Word Files with GroupDocs.Watermark"
     content: |
-      Empower Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) solution. Get watermarks from business documents and process them in convenient way.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** streamlines the process of retrieving watermarks embedded within various business document formats. Seamlessly integrate GroupDocs.Watermark into your Node.js via Java applications to empower them with robust watermark detection capabilities.
       
-      1. Provide Word path for **Watermarker** counstructor
-      2. **TextSearchCriteria** helps us to get document watermarks
-      3. Get text watermarks from the document
-      4. Process list of text watermarks
+      1. To take advantage of GroupDocs.Watermark functionalities, instantiate the **Watermarker** class and provide the Word file path, file stream, or byte stream as input. This action loads the document for watermark analysis.
+      2. For targeted watermark identification, utilize the **SearchCriteria** object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria.
+      3. Use the **Get** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
+      4. The retrieved collection of watermark objects grants you a lot of possibilities. You can remove unwanted watermarks or modify their properties. Change content, move a watermark on a page, and many others.
    
     code:
       platform: "net"
@@ -80,6 +80,62 @@ steps:
         console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Get particularly formatted watermarks"
+      content: |
+        This example shows how to get list of PDF watermarks with special formatting
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Instantiate Watermarker with PDF
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Set formatting criteria for search
+            const criteria = new groupdocsWatermark.TextFormattingSearchCriteria();
+            criteria.setForegroundColorRange(new groupdocsWatermark.ColorRange());
+            criteria.getForegroundColorRange().setMinHue(-5);
+            criteria.getForegroundColorRange().setMaxHue(10);
+            criteria.setBackgroundColorRange(new groupdocsWatermark.ColorRange());
+            criteria.getBackgroundColorRange().setEmpty(true);
+            criteria.setFontName("Arial");
+            criteria.setMinFontSize(19);
+            criteria.setMaxFontSize(42);
+            criteria.setFontBold(true);
+  
+            //  Get list of suitable watermarks
+            const watermarks = watermarker.search(criteria);
+
+            //  Process selected watermarks
+            console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

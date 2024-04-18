@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:32
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Adjust image watermarks placed in Docx documents by Java"
+    title: "Adjust Docx document watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) provides features for Java applications to adjust image watermarks in various document formats.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** allows Java developers to easily adjust watermarks in many documents using their applications. Here's a quick guide:
       
-      1. Get **Watermarker** instance passing Docx document
-      2. Search for image watermarks in the document
-      3. Adjust found watermarks properties like size or alignment
-      4. Save result
+      1. Firstly, you need to pass Docx file as parameter of the **Watermarker** class constructor. Provide byte or file stream or a local disk path.
+      2. Secondly, locate the watermarks that need to be adjusted. Use **SearchCriteria** to identify watermarks with the specific properties previously added to the document.
+      3. Following the search, you'll receive a list of relevant watermarks. You can then adjust their properties, including size, page alignment, text, color, image content, and more. This offers a high degree of customization for your data.
+      4. Once you've finished adjusting the watermarks, save the updated document. You can use a local file path, or stream to store the result.
    
     code:
       platform: "net"
@@ -99,7 +99,62 @@ steps:
         // Save adjusted file
         watermarker.save("output.docx");
         
-        ```            
+        ```
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Adjust image watermark in Spreadsheets"
+      content: |
+        This examples shows how to adjust the image of the particular shapes in an Excel Worksheet.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load document as Spreadsheet
+        SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
+        Watermarker watermarker = new Watermarker("source.xlsx", loadOptions);
+
+        //  Get new watermark bytes
+        File file = new File("new_watermark.png");
+        byte[] imageBytes = new byte[(int) file.length()];
+        FileInputStream inputStream = new FileInputStream(file);
+        inputStream.read(imageBytes);
+        inputStream.close();
+
+        //  Adjust content of particular watermark
+        for (SpreadsheetShape shape : content.getWorksheets().get_Item(0).getShapes())
+        {
+            if (shape.getImage() != null)
+            {
+                shape.setImage(new SpreadsheetWatermarkableImage(imageBytes));
+            }
+        }
+
+        //  Save result document
+        watermarker.save("result.xlsx");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

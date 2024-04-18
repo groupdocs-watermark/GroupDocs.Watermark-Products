@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:29
+date:  2024-04-18T15:29:24
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Adjust text watermarks in Excel documents with Java"
+    title: "Adjust watermarks in Excel documents with Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to adjust text watermarks in their applications by implementing a few easy steps.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** makes it easy for Java developers to adjust text watermarks in their applications by implementing a few easy steps:
       
-      1. Create **Watermarker** with Excel document
-      2. Use **TextSearchCriteria** to search for text watermarks in the document
-      3. Set found watermarks properties (size, alignment, color etc)
-      4. Save result to output document
+      1. Load your Excel file to the main object of our API called **Watermarker**. You can provide file for the further processing as stream or as a path on a local disk.
+      2. Next step is locating watermarks which must be adjusted. **SearchCriteria** helps as to identify watermarks with right properties which were previously added to a document.
+      3. Get list of suitable watermarks as a result of the **Search** procedure. Adjust found watermarks properties such as size, page alignment, text, color, image content, etc. There are a lot of ways to customize your data.
+      4. After completion of watermarks adjustment process you need to save updated document. Use local file path, file or byte stream to store result.
    
     code:
       platform: "net"
@@ -103,6 +103,57 @@ steps:
         watermarker.save("output.xslx");
         
         ```            
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "PDF adjust text watermark"
+      content: |
+        This example shows how to adjust the text of the particular artifacts.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Load PDF document
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Get document content
+        PdfContent pdfContent = watermarker.getContent(PdfContent.class);
+
+        //  Adjust particular watermark text
+        for (PdfArtifact artifact : pdfContent.getPages().get_Item(0).getArtifacts())
+        {
+            if (artifact.getText().contains("Test"))
+            {
+                artifact.setText("Passed");
+            }
+        }
+
+        //  Save the document
+        watermarker.save("result.pdf");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

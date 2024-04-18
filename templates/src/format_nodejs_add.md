@@ -83,6 +83,63 @@ steps:
         
         ```            
 
+############################# More features ############################
+more_features:
+  enable: true
+  title: "<% "{more_features.title}" %>"
+  description: "<% "{more_features.description}" %>"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "<% "{more_features.image_description}" %>"
+  features:
+    # feature loop
+    - title: "<% "{more_features.feature_1.title}" %>"
+      content: "<% "{more_features.feature_1.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_2.title}" %>"
+      content: "<% "{more_features.feature_2.content}" %>"
+
+    # feature loop
+    - title: "<% "{more_features.feature_3.title}" %>"
+      content: "<% "{more_features.feature_3.content}" %>"
+      
+  code_samples:
+    # code sample loop
+    - title: "<% "{more_features.code_1.title}" %>"
+      content: |
+        <% "{more_features.code_1.content}" %>
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  <% "{more_features.code_1.comment_1}" %>
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  <% "{more_features.code_1.comment_2}" %>
+            const imageWatermark = new groupdocsWatermark.ImageWatermark("watermark.jpg");
+            imageWatermark.setHorizontalAlignment(groupdocsWatermark.HorizontalAlignment.Center);
+            imageWatermark.setVerticalAlignment(groupdocsWatermark.VerticalAlignment.Center);
+            imageWatermark.setRotateAngle(-45);
+            imageWatermark.setSizingType(groupdocsWatermark.SizingType.ScaleToParentDimensions);
+            imageWatermark.setScaleFactor(1);
+  
+            //  <% "{more_features.code_1.comment_3}" %>
+            const images = watermarker.getImages();
+            for (let i = 0; i < images.getCount(); i++) {
+                if (images.get_Item(i).getWidth() > 100 && images.get_Item(i).getHeight() > 100) {
+                    images.get_Item(i).add(imageWatermark);
+                }
+            }
+
+            //  <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
+
 ############################# Actions ############################
 
 actions:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:30
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Image
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Generate text watermark for Image via .NET"
+    title: "Enhance Your Documents: Generate Image Files Watermarks using .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) to generate text watermarks and add them to Image files in .NET applications.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** is a library that simplifies adding watermarks to various business file formats for .NET developers. Integrate our library into your application and effortlessly watermark documents using these following steps:
       
-      1. Create **Watermarker** with Image file
-      2. Instantiate **TextWatermark**
-      3. Set up watermark size, alignment, color, font, etc.
-      4. Generate new watermark and save result file
+      1. **Initiating Your Watermarking Journey:** Start by acquainting yourself with the **Watermarker** class, the cornerstone of our API. To begin the process, ensure you instantiate it prior to document processing. Don't overlook the importance of providing the Image file to the constructor, whether it's a path or a stream object.
+      2. **Crafting Custom Watermarks:** Move on to the next phase by creating a **Watermark** object tailored to your specifications. This versatile tool isn't limited to specific document pages; it can also be seamlessly integrated into native document elements like attachments or headers.
+      3. **Fine-tuning Watermark Attributes:** Refine your watermarking experience by adjusting properties such as height, width, page alignment, font family, and color. This level of customization ensures your watermarks blend seamlessly with your documents.
+      4. **Applying Your Watermarks:** Utilize the **Watermarker** method to effortlessly apply your custom watermarks to your documents. Whether you need to add one or multiple watermarks, this process offers flexibility. For added security, consider saving your processed documents in a separate location.
    
     code:
       platform: "net"
@@ -84,6 +84,64 @@ steps:
         }
         
         ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for .NET developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Generate image watermark for DOCX"
+      content: |
+        This example shows how to apply image effects to the shape watermarks.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Load Word document
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  Set up watermark options
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
+                {
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  Generate watermark
+                    watermarker.Add(watermark, options);
+                }
+
+                //  Save updated document
+                watermarker.save("result.docx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

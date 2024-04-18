@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:36
+date:  2024-04-18T15:29:29
 draft: false
 lang: en
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Delete image watermarks from Pdf files by Node.js via Java"
+    title: "Effortlessly Delete Watermarks from Pdf by Node.js via Java"
     content: |
-      Using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) with Node.js via Java allows to delete image watermarks from documents of popular formats
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** streamlines the process of removing watermarks from business documents. Elevate your Node.js via Java application by seamlessly integrating our library and following these straightforward steps:
       
-      1. Construct **Watermarker** object passing Pdf path
-      2. Get list of image watermarks placed in the document
-      3. Remove all unnecessary watermarks
-      4. Save result file
+      1. Initiate the process by instantiating the core class, **Watermarker**, with the Pdf document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.
+      2. Leverage **SearchCriteria** to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.
+      3. Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.
+      4. Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity.
    
     code:
       platform: "net"
@@ -82,6 +82,59 @@ steps:
         watermarker.save("output.pdf");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Delete spreadsheet header watermarks"
+      content: |
+        This example shows how to delete watermarks which were put into XLSX headers
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load Spreadsheet workbook
+            const loadOptions = new groupdocsWatermark.SpreadsheetLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.xlsx", loadOptions);
+
+            //  Get list of header sections
+            const content = watermarker.getContent(groupdocsWatermark.SpreadsheetContent.class);
+            const sections = content.getWorksheets().get_Item(0).getHeadersFooters()
+                .getByOfficeHeaderFooterType(groupdocsWatermark.OfficeHeaderFooterType.HeaderPrimary).getSections();
+  
+            //  Delete watermarks from headers
+            for (const section of sections.getInnerList().toArray()) {
+                section.setScript(null);
+                section.setImage(null);
+            }
+
+            //  Save cleared workbook
+            watermarker.save("result.xlsx");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

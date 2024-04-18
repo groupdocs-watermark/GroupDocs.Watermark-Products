@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T14:07:31
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Update Excel file text watermarks in Node.js via Java"
+    title: "Update Watermarks in Excel via Node.js via Java"
     content: |
-      Use Node.js via Java and [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) to develop applications that are able to update text watermarks swiftly and easily
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equips Node.js via Java developers with a robust API for programmatically updating watermarks within various Excel documents. This guide outlines the process:
       
-      1. Make **Watermarker** passing Excel path to cinstructor
-      2. Extract document text watermarks to list using **TextSearchCriteria**
-      3. Update watermarks properties like size, alignment, color
-      4. Save result file
+      1. Start the process by supplying your Excel file as an argument to the **Watermarker** class constructor. Depending no your demands the file can be provided as either a stream or a reference to a local disk location.
+      2. Subsequently, leverage the **SearchCriteria** object to identify the specific watermarks requiring modification. This object enables the pinpointing of watermarks based on the desired properties.
+      3. Upon successful execution of the search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to update properties such as dimensions, page positioning, text content, color scheme, image data, and more.
+      4. Following the completion of watermark updates, persist the modified document. The API facilitates storage using either a local file path or a stream object.
    
     code:
       platform: "net"
@@ -87,6 +87,59 @@ steps:
         watermarker.save("output.xslx");
         
         ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Deep dive into adding Watermark"
+  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Add Watermark"
+  features:
+    # feature loop
+    - title: "Watermark your documents easily."
+      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+
+    # feature loop
+    - title: "Customize watermarks for your goals."
+      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+
+    # feature loop
+    - title: "Use native document objects"
+      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      
+  code_samples:
+    # code sample loop
+    - title: "Update PDF watermark format"
+      content: |
+        This example shows how to update formatting in watermarks placed to a PDF document
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Load document for processing
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Search for appropriate watermarks in the document
+            const searchCriteria = new groupdocsWatermark.TextSearchCriteria("test", false);
+            const watermarks = watermarker.search(searchCriteria);
+  
+            //  Update watermark features
+            for (const watermark of watermarks.getInnerList().toArray()) {
+                watermark.getFormattedTextFragments().clear();
+                watermark.getFormattedTextFragments().add("passed", 
+                    new groupdocsWatermark.Font("Calibri", 19, groupdocsWatermark.FontStyle.Bold), 
+                    groupdocsWatermark.Color.getRed(), groupdocsWatermark.Color.getAqua());
+            }
+
+            //  Save processed document to local disk or stream
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 
 ############################# Actions ############################
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-11T16:34:01
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Webp
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to add image watermarks to Webp files using Java"
+    title: "Advanced Techniques: Adding Watermarks to Webp Documents via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to add image (BMP, PNG, GIF or JPEG) watermarks in their applications by implementing a few easy steps.
+      Exploring Advanced Watermarking Techniques for Webp Documents with **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. Instantiate **Watermarker** with Webp file path
-      2. Use the image watermark path as the constructor parameter of the **ImageWatermark** class
-      3. Set watermark properties (size, alignment etc) and add it to document
-      4. Get watermarked document
+      1. Kickstart your watermarking process by initializing the **Watermarker** class. This foundational step sets the stage for enhancing Webp documents with watermarks. Provide the Webp file to the constructor, either as a path or a stream object.
+      2. Progress to the next level by crafting **Watermark** objects tailored to your specifications. These versatile entities offer precise placement not only on designated document pages but also within native elements like attachments or headers.
+      3. Refine your watermarking process by fine-tuning properties such as dimensions, alignment, font styles, and colors. This level of customization empowers you to create watermarks that perfectly complement your document aesthetics.
+      4. Utilize the **Watermarker** method to apply the newly created watermarks onto your documents. Enjoy the flexibility of adding multiple watermarks as per your requirements. To preserve documents, consider saving them in a secure location.
    
     code:
       platform: "net"
@@ -100,7 +100,7 @@ more_features:
   enable: true
   title: "Deep dive into adding Watermark"
   description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
-  image: "/img/watermark/features_add.jpg" # 500x500 px
+  image: "/img/watermark/features_add.webp" # 500x500 px
   image_description: "Add Watermark"
   features:
     # feature loop

@@ -7,13 +7,38 @@
     "comment_5": "Save updated file"
   },
   "steps": {
-    "title": "Update image watermarks in {{FileformatCap}} documents via {{EnvName}}",
+    "title": "Dynamic Watermark Edit for {{FileformatCap}} in {{EnvName}}",
     "content": {
-      "title": "Empower {{EnvName}} solutions using [{{ProdShortName}}]({{ProductUrl}}) and update various image watermarks in business documents.",
-      "step_1": "Get **Watermarker** instance providing path to {{FileformatCap}} document",
-      "step_2": "Search for suitable image watermarks in the document",
-      "step_3": "Update watermarks properties",
-      "step_4": "Save updated document"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers {{EnvName}} developers a powerful API for editing watermarks across diverse {{FileformatCap}} documents. Here's a comprehensive guide to streamline your workflow:",
+      "step_1": "**Start the Process:** Begin by providing your {{FileformatCap}} file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.",
+      "step_2": "**Pinpoint Watermarks:** Use the **SearchCriteria** object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.",
+      "step_3": "**Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.",
+      "step_4": "**Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object."
+    }
+  },
+  "more_features": {
+    "title": "Deep dive into adding Watermark",
+    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
+    "image_description": "Add Watermark",
+    "feature_1": {
+      "title": "Watermark your documents easily.",
+      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+    },
+    "feature_2": {
+      "title": "Customize watermarks for your goals.",
+      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    },
+    "feature_3": {
+      "title": "Use native document objects",
+      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    },
+    "code_1": {
+      "title": "Update Presentation watermark content",
+      "content": "This example shows how to update text content of Presentation watermarks",
+      "comment_1": "Load a presentation for processing",
+      "comment_2": "Get list of appropriate watermarks using search",
+      "comment_3": "Update watermark text",
+      "comment_4": "Save updated presentation to local disk or stream"
     }
   },
   "doc": {
