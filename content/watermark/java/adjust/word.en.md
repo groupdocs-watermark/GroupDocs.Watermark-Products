@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:16
+date:  2024-04-18T15:29:24
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Adjust text watermarks in Word documents with Java"
+    title: "Adjust watermarks in Word documents with Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for Java developers to adjust text watermarks in their applications by implementing a few easy steps.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** makes it easy for Java developers to adjust text watermarks in their applications by implementing a few easy steps:
       
-      1. Create **Watermarker** with Word document
-      2. Use **TextSearchCriteria** to search for text watermarks in the document
-      3. Set found watermarks properties (size, alignment, color etc)
-      4. Save result to output document
+      1. Load your Word file to the main object of our API called **Watermarker**. You can provide file for the further processing as stream or as a path on a local disk.
+      2. Next step is locating watermarks which must be adjusted. **SearchCriteria** helps as to identify watermarks with right properties which were previously added to a document.
+      3. Get list of suitable watermarks as a result of the **Search** procedure. Adjust found watermarks properties such as size, page alignment, text, color, image content, etc. There are a lot of ways to customize your data.
+      4. After completion of watermarks adjustment process you need to save updated document. Use local file path, file or byte stream to store result.
    
     code:
       platform: "net"

@@ -6,13 +6,13 @@
     "comment_4": "Save processed file"
   },
   "steps": {
-    "title": "Clear {{FileformatCap}} documents of text watermarks using {{EnvName}}",
+    "title": "Clear {{FileformatCap}} documents of watermarks using {{EnvName}}",
     "content": {
-      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy to clear business documents of text watermarks using {{EnvName}} applications.",
-      "step_1": "Instantiate **Watermarker** with {{FileformatCap}} document",
-      "step_2": "Use **TextSearchCriteria** to search for appropriate watermarks in the document",
-      "step_3": "Clear particular text watermark",
-      "step_4": "Get output document"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** makes it easy to clear business documents of previously added watermarks. Empower your {{EnvName}} application by installing our library and do it in a few simple steps:",
+      "step_1": "First of all instantiate the main class called **Watermarker** with {{FileformatCap}} document. Our API supports passing a document to be processed as stream or a local path.",
+      "step_2": "Use **SearchCriteria** to limit set of watermarks to be processed. It is possible to use an image as search parameter as well as text or formating features. Then more specific search parameters you provide, then more precise result you obtain.",
+      "step_3": "Process list of the document watermarks that you have obtained as a search result. Clear the document.",
+      "step_4": "After clearing the document save result as a local file or a byte stream."
     }
   },
   "more_features": {

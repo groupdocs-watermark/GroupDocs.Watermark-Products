@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:18
+date:  2024-04-18T15:29:27
 draft: false
 lang: en
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Clear Xlsx documents of image watermarks by Java"
+    title: "Clear Watermarks from Xlsx Documents using Java"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) along with Java to clear your business documents of image watermarks.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifies the process of clearing watermarks from your business documents within Java applications. Integrate our library and follow these steps:
       
-      1. Instantiate **Watermarker** by Xlsx document path
-      2. Use image file to search for similar watermarks in the document
-      3. Clear document of unnecessary watermarks
-      4. Save result to output path
+      1. Begin by initializing the **Watermarker** class with your Xlsx document. The API accepts the document either as a stream or a local file path for processing.
+      2. Leverage the **SearchCriteria** object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.
+      3. Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.
+      4. Once the watermarks are cleared, save the final document using a local file path or a stream object.
    
     code:
       platform: "net"

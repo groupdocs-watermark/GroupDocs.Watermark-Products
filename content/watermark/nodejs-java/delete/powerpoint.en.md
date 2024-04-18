@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:17
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Delete text watermarks in Powerpoint documents with Node.js via Java"
+    title: "Powerpoint Watermarks Deletion using Node.js via Java"
     content: |
-      Enrich your Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library. It makes easy to delete text watermarks from documents of popular formats.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** furnishes Node.js via Java developers with a comprehensive API for the programmatic deletion of specific watermarks embedded within various Powerpoint documents. This guide delves into the technical process:
       
-      1. Construct **Watermarker** object passing Powerpoint document
-      2. Search for watermarks in the document with **TextSearchCriteria**
-      3. Delete unnecessary watermarks
-      4. Save document to output path
+      1. Initiate the workflow by instantiating the **Watermarker** class and providing your Powerpoint file as a constructor argument. The file can be supplied as a byte stream, a file stream, or a path reference to a local disk location.
+      2. To achieve precise watermark targeting, leverage the capabilities of the **SearchCriteria** object. This object facilitates the construction of intricate filters based on properties previously embedded within the document. You can utilize an image as a search parameter alongside text or formatting attributes to enable a highly granular selection process.
+      3. Following the execution of the search, you'll receive a collection of identified watermarks. These watermarks may be deleted easily.
+      4. Upon successful watermark deletion, persist the modified document. The API provides storage flexibility, allowing you to utilize either a local file path or a stream object for final output.
    
     code:
       platform: "net"

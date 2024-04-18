@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:21
+date:  2024-04-18T15:29:29
 draft: false
 lang: en
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Update image watermarks in Pptx documents via Node.js via Java"
+    title: "Dynamic Watermark Edit for Pptx in Node.js via Java"
     content: |
-      Empower Node.js via Java solutions using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) and update various image watermarks in business documents.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offers Node.js via Java developers a powerful API for editing watermarks across diverse Pptx documents. Here's a comprehensive guide to streamline your workflow:
       
-      1. Get **Watermarker** instance providing path to Pptx document
-      2. Search for suitable image watermarks in the document
-      3. Update watermarks properties
-      4. Save updated document
+      1. **Start the Process:** Begin by providing your Pptx file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.
+      2. **Pinpoint Watermarks:** Use the **SearchCriteria** object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.
+      3. **Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.
+      4. **Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object.
    
     code:
       platform: "net"

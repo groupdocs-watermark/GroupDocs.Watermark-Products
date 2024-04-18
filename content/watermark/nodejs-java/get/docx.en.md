@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:22
+date:  2024-04-18T15:29:29
 draft: false
 lang: en
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Get image watermarks from Docx files using Node.js via Java"
+    title: "Get Watermarks from Docx Files Using GroupDocs.Watermark"
     content: |
-      Include [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) library to Node.js via Java application in order to get image watermarks list from business documents.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offers a comprehensive solution for getting watermarks placed in popular business document formats. By integrating our library into your Node.js via Java applications, you can equip them with powerful watermark searching capabilities.
       
-      1. Input the path of a Docx file into the **Watermarker** constructor
-      2. Provide image file to find document watermarks
-      3. Get the list of document watermarks
-      4. Customize the watermark processing as needed
+      1. To access the functionalities provided by GroupDocs.Watermark, instantiate the **Watermarker** class and provide the Docx file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.
+      2. To achieve targeted watermark identification, create the **SearchCriteria** object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.
+      3. Call the **Get** method (or a similar naming convention) of the **Watermarker** object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.
+      4. The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs.
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:16
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Search for text watermarks in Excel files using Java"
+    title: "Search for watermarks in Excel files using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy to search for text watermarks in business documents with Java applications.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** makes it easy to search for watermarks already placed in business documents. Download our package and involve it into your Java application to take advantage of its benefits.
       
-      1. Instantiate **Watermarker** by Excel document path
-      2. Create and set up options of **TextSearchCriteria**
-      3. Search for watermarks in the document
-      4. Use list of found text watermarks
+      1. In order to use our library features you need to load Excel file to the **Watermarker** class instance. It is possible to provide just a file path, file stream or a byte stream.
+      2. To narrow list of possible watermarks use **SearchCriteria** object. Provide image as an example to get similar image watermark. If you want to search for textual watermark provide text, font, color and other options.
+      3. To get watermarks placed in the document use method **Search** of the **Watermarker** object. You will be provided with collection of objects which may be processed as watermarks.
+      4. Finally, you are free to do with result of search whatever you want. It is completely possible, to delete found watermarks or edit their properties. Change size or text, for example.
    
     code:
       platform: "net"

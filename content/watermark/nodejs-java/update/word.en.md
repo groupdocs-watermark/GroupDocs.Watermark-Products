@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:17
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Update Word file text watermarks in Node.js via Java"
+    title: "Update Watermarks in Word via Node.js via Java"
     content: |
-      Use Node.js via Java and [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) to develop applications that are able to update text watermarks swiftly and easily
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equips Node.js via Java developers with a robust API for programmatically updating watermarks within various Word documents. This guide outlines the process:
       
-      1. Make **Watermarker** passing Word path to cinstructor
-      2. Extract document text watermarks to list using **TextSearchCriteria**
-      3. Update watermarks properties like size, alignment, color
-      4. Save result file
+      1. Start the process by supplying your Word file as an argument to the **Watermarker** class constructor. Depending no your demands the file can be provided as either a stream or a reference to a local disk location.
+      2. Subsequently, leverage the **SearchCriteria** object to identify the specific watermarks requiring modification. This object enables the pinpointing of watermarks based on the desired properties.
+      3. Upon successful execution of the search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to update properties such as dimensions, page positioning, text content, color scheme, image data, and more.
+      4. Following the completion of watermark updates, persist the modified document. The API facilitates storage using either a local file path or a stream object.
    
     code:
       platform: "net"

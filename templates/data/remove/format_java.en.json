@@ -6,13 +6,13 @@
     "comment_4": "Save cleared file"
   },
   "steps": {
-    "title": "Clear {{FileformatCap}} documents of image watermarks by {{EnvName}}",
+    "title": "Clear Watermarks from {{FileformatCap}} Documents using {{EnvName}}",
     "content": {
-      "title": "Use [{{ProdShortName}}]({{ProductUrl}}) along with {{EnvName}} to clear your business documents of image watermarks.",
-      "step_1": "Instantiate **Watermarker** by {{FileformatCap}} document path",
-      "step_2": "Use image file to search for similar watermarks in the document",
-      "step_3": "Clear document of unnecessary watermarks",
-      "step_4": "Save result to output path"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the process of clearing watermarks from your business documents within {{EnvName}} applications. Integrate our library and follow these steps:",
+      "step_1": "Begin by initializing the **Watermarker** class with your {{FileformatCap}} document. The API accepts the document either as a stream or a local file path for processing.",
+      "step_2": "Leverage the **SearchCriteria** object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.",
+      "step_3": "Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.",
+      "step_4": "Once the watermarks are cleared, save the final document using a local file path or a stream object."
     }
   },
   "more_features": {

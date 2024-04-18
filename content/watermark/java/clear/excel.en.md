@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:16
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Clear Excel documents of text watermarks using Java"
+    title: "Clear Excel documents of watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy to clear business documents of text watermarks using Java applications.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** makes it easy to clear business documents of previously added watermarks. Empower your Java application by installing our library and do it in a few simple steps:
       
-      1. Instantiate **Watermarker** with Excel document
-      2. Use **TextSearchCriteria** to search for appropriate watermarks in the document
-      3. Clear particular text watermark
-      4. Get output document
+      1. First of all instantiate the main class called **Watermarker** with Excel document. Our API supports passing a document to be processed as stream or a local path.
+      2. Use **SearchCriteria** to limit set of watermarks to be processed. It is possible to use an image as search parameter as well as text or formating features. Then more specific search parameters you provide, then more precise result you obtain.
+      3. Process list of the document watermarks that you have obtained as a search result. Clear the document.
+      4. After clearing the document save result as a local file or a byte stream.
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:20
+date:  2024-04-18T15:29:28
 draft: false
 lang: en
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Find image watermarks from Xls files using .NET"
+    title: "Efficiently Find Xls Watermarks with .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) solution in your .NET applications in order to find image watermarks placed in business documents.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** offers a robust solution for programmatically finding watermarks within various business document formats. Integrate our package into your .NET applications to empower them with watermark finding capabilities.
       
-      1. Provide Xls path to **Watermarker** constructor
-      2. Use similar image file to find document watermarks
-      3. Get document watermarks list
-      4. Process watermarks as you wish
+      1. To exploit the functionalities of our library, instantiate the **Watermarker** class and provide the Xls file path, file stream, or byte stream as input. This action loads the document for watermark analysis.
+      2. For targeted watermark identification, leverage the **SearchCriteria** object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other pertinent parameters to refine the search criteria.
+      3. Employ the **Search** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
+      4. The retrieved collection of watermark objects grants you precise control. You can programmatically remove unwanted watermarks or dynamically modify their properties, such as adjusting their size or text content, to suit your specific requirements.
    
     code:
       platform: "net"

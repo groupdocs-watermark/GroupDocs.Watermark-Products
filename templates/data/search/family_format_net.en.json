@@ -6,13 +6,13 @@
     "comment_4": "Use found watermarks info"
   },
   "steps": {
-    "title": "Find text watermarks in {{FileformatCap}} documents using {{EnvName}}",
+    "title": "Find Watermarks in {{FileformatCap}} Files Using {{EnvName}}",
     "content": {
-      "title": "Empower {{EnvName}} application with [{{ProdShortName}}]({{ProductUrl}}) solution. Find text watermarks in business documents and process them in convenient way.",
-      "step_1": "Pass {{FileformatCap}} document path to **Watermarker**",
-      "step_2": "Use **TextSearchCriteria** and its options to narrow result list of watermarks",
-      "step_3": "Find all suitable text watermarks from the document",
-      "step_4": "Process found text watermarks"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** streamlines the process of finding watermarks within business documents. Integrate our package into your {{EnvName}} applications to unlock its advantages.",
+      "step_1": "To leverage our library features, load the {{FileformatCap}} file into a **Watermarker** class instance. You can provide a file path, file stream, or byte stream.",
+      "step_2": "To refine the list of potential watermarks, use the **SearchCriteria object**. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.",
+      "step_3": "Use the **Search** method of the **Watermarker** object to retrieve watermarks placed within the document. You will receive a collection of objects representing potential watermarks for further processing.",
+      "step_4": "Finally, you have the flexibility to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text."
     }
   },
   "more_features": {

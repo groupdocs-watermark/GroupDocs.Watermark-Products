@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:20
+date:  2024-04-18T15:29:28
 draft: false
 lang: en
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remove image watermarks from Xls documents using .NET"
+    title: "Programmatically Remove Watermarks from Xls Documents using .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) along with .NET to remove image watermarks from your business documents
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** empowers .NET developers to programmatically remove watermarks from various Xls documents. This guide outlines the process:
       
-      1. Get **Watermarker** with Xls document path
-      2. Search for image watermarks in the document
-      3. Remove unnecessary watermarks
-      4. Save updated document
+      1. Initiate the workflow by supplying your Xls file as an argument to the **Watermarker** class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.
+      2. Leverage the power of the **SearchCriteria** object to identify the specific watermarks requiring removal. This object enables the filtering of watermarks based on properties previously embedded within the document. You can utilize an image as a search parameter alongside text or formatting attributes for a highly granular search.
+      3. Following a successful search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to perform the removal operation.
+      4. Upon completion of watermark removal, persist the modified document. The API facilitates storage using either a local file path or a stream object.
    
     code:
       platform: "net"

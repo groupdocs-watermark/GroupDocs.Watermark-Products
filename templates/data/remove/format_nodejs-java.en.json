@@ -6,13 +6,13 @@
     "comment_4": "Save processed file"
   },
   "steps": {
-    "title": "Delete image watermarks from {{FileformatCap}} files by {{EnvName}}",
+    "title": "Effortlessly Delete Watermarks from {{FileformatCap}} by {{EnvName}}",
     "content": {
-      "title": "Using [{{ProdShortName}}]({{ProductUrl}}) with {{EnvName}} allows to delete image watermarks from documents of popular formats",
-      "step_1": "Construct **Watermarker** object passing {{FileformatCap}} path",
-      "step_2": "Get list of image watermarks placed in the document",
-      "step_3": "Remove all unnecessary watermarks",
-      "step_4": "Save result file"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** streamlines the process of removing watermarks from business documents. Elevate your {{EnvName}} application by seamlessly integrating our library and following these straightforward steps:",
+      "step_1": "Initiate the process by instantiating the core class, **Watermarker**, with the {{FileformatCap}} document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.",
+      "step_2": "Leverage **SearchCriteria** to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.",
+      "step_3": "Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.",
+      "step_4": "Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity."
     }
   },
   "more_features": {

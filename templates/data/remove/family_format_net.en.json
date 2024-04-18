@@ -6,13 +6,13 @@
     "comment_4": "Save file to provided path"
   },
   "steps": {
-    "title": "Remove text watermarks from {{FileformatCap}} files using {{EnvName}}",
+    "title": "Remove Watermarks from {{FileformatCap}} Documents Using {{EnvName}}",
     "content": {
-      "title": "Use [{{ProdShortName}}]({{ProductUrl}}) and {{EnvName}} to add possibility in your product to remove text watermarks from business documents.",
-      "step_1": "Use **Watermarker** instance along with {{FileformatCap}} document",
-      "step_2": "Use **TextSearchCriteria** to search for text watermarks ",
-      "step_3": "Remove particular text watermark",
-      "step_4": "Save cleared document"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the task of removing watermarks from business documents. Empower your {{EnvName}} application by integrating our library and follow these simple steps:",
+      "step_1": "Begin by instantiating the main class, **Watermarker**, with the {{FileformatCap}} document. Our API supports processing documents provided as either a stream or a local path.",
+      "step_2": "Utilize **SearchCriteria** to narrow down the set of watermarks to be processed. You can use various parameters such as images, text, or formatting features. The more specific the search parameters you provide, the more precise the results you obtain.",
+      "step_3": "Process the list of document watermarks obtained as a search result and remove them from the document.",
+      "step_4": "After removing the watermarks, save the resulting document as a local file or a byte stream."
     }
   },
   "more_features": {

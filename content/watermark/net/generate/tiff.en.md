@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:19
+date:  2024-04-18T15:29:27
 draft: false
 lang: en
 format: Tiff
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to generate image watermarks in Tiff docs via .NET"
+    title: "Effortlessly Generate Watermarks for Tiff Documents with GroupDocs.Watermark for .NET"
     content: |
-      Generate image watermarks (BMP, PNG, GIF or JPEG) using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) in .NET applications implementing a few easy steps.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Advanced Watermarking library for .NET applications. Empower your solution and secure documents with watermarks just in time.
       
-      1. Get **Watermarker** instance with Tiff path
-      2. Pass image watermark path to **ImageWatermark** class constructor
-      3. Tune watermark properties like size or alignment
-      4. Generate new watermark and save result
+      1. **Core Class: Watermarker.** The main class of our API is **Watermarker**. You need to instantiate it before document processing. Do not forget to pass the Tiff file to the constructor as a path or a stream object.
+      2. **Crafting Your Watermark.** The next step is constructing a Watermark object of the desired type. It can be placed not only on a specific document page but also in native document parts like images or headers.
+      3. **Fine-Tuning Appearance.** Set watermark properties such as height and width, top, left, central alignments, fonts and colors, etc.
+      4. **Applying and Saving.** Use the **Watermarker** method to add a new watermark. Feel free to add as many watermarks as you need. You may save the watermarked document to any location.
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:17
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edit Powerpoint document text watermarks using .NET"
+    title: "Edit watermarks in Powerpoint documents using .NET"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) allows developers to edit text watermarks in .NET applications swiftly and easily
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** empowers .NET developers to effortlessly edit watermarks within various Powerpoint documents. Here's a simplified guide how to use our API in your application:
       
-      1. Provide **Watermarker** object with Powerpoint document
-      2. Search for text watermarks in the document using **TextSearchCriteria**
-      3. Edit particular watermark options like size, alignment, color
-      4. Enjoy output result
+      1. Begin by passing your Powerpoint file as a parameter to the **Watermarker** class constructor. You can provide the file either as a byte stream, a file stream, or a local disk path.
+      2. Next, locate the specific watermarks that require editing. Utilize the **SearchCriteria** to identify watermarks with the corresponding properties previously added to the document.
+      3. Following the search, you'll obtain a list of relevant watermarks. You can then customize their properties, such as size, page alignment, text, color, image content, and more. This grants you extensive control over your data.
+      4. Once you've completed editing the watermarks, save the updated document. You can utilize a local file path or a stream to store the final result.
    
     code:
       platform: "net"

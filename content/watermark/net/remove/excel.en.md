@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:17
+date:  2024-04-18T15:29:25
 draft: false
 lang: en
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remove text watermarks from Excel files using .NET"
+    title: "Remove Watermarks from Excel Documents Using .NET"
     content: |
-      Use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) and .NET to add possibility in your product to remove text watermarks from business documents.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifies the task of removing watermarks from business documents. Empower your .NET application by integrating our library and follow these simple steps:
       
-      1. Use **Watermarker** instance along with Excel document
-      2. Use **TextSearchCriteria** to search for text watermarks 
-      3. Remove particular text watermark
-      4. Save cleared document
+      1. Begin by instantiating the main class, **Watermarker**, with the Excel document. Our API supports processing documents provided as either a stream or a local path.
+      2. Utilize **SearchCriteria** to narrow down the set of watermarks to be processed. You can use various parameters such as images, text, or formatting features. The more specific the search parameters you provide, the more precise the results you obtain.
+      3. Process the list of document watermarks obtained as a search result and remove them from the document.
+      4. After removing the watermarks, save the resulting document as a local file or a byte stream.
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:21
+date:  2024-04-18T15:29:29
 draft: false
 lang: en
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Delete image watermarks from Xls files by Node.js via Java"
+    title: "Effortlessly Delete Watermarks from Xls by Node.js via Java"
     content: |
-      Using [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) with Node.js via Java allows to delete image watermarks from documents of popular formats
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** streamlines the process of removing watermarks from business documents. Elevate your Node.js via Java application by seamlessly integrating our library and following these straightforward steps:
       
-      1. Construct **Watermarker** object passing Xls path
-      2. Get list of image watermarks placed in the document
-      3. Remove all unnecessary watermarks
-      4. Save result file
+      1. Initiate the process by instantiating the core class, **Watermarker**, with the Xls document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.
+      2. Leverage **SearchCriteria** to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.
+      3. Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.
+      4. Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity.
    
     code:
       platform: "net"

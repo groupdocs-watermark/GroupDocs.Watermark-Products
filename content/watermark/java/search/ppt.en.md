@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:19
+date:  2024-04-18T15:29:27
 draft: false
 lang: en
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Search for Ppt files image watermarks via Java"
+    title: "Ppt Watermarks Search via Java"
     content: |
-      Include [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) library to your Java applications and search for image watermarks in business documents effortlessly.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifies the process of locating watermarks within business documents. Install our package into your Java applications to take advantage of its benefits.
       
-      1. Pass Ppt document **Watermarker** as a constructor argument
-      2. Use image file to search for similar watermarks
-      3. Get list of watermarks from the document
-      4. Process watermarks in your own way
+      1. To utilize our library features, load the Ppt file into an instance of the **Watermarker** class. You can provide a file path, file stream, or byte stream.
+      2. To narrow down the list of potential watermarks, utilize the **SearchCriteria** object. For example, provide an image to search for similar image watermarks. If searching for textual watermarks, provide text, font, color, and other relevant options.
+      3. Retrieve watermarks placed within the document using the **Search** method of the **Watermarker** object. You will receive a collection of objects representing potential watermarks for further processing.
+      4. Finally, you have the freedom to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text.
    
     code:
       platform: "net"

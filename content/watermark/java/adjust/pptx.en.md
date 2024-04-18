@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:18
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Adjust image watermarks placed in Pptx documents by Java"
+    title: "Adjust Pptx document watermarks using Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) provides features for Java applications to adjust image watermarks in various document formats.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** allows Java developers to easily adjust watermarks in many documents using their applications. Here's a quick guide:
       
-      1. Get **Watermarker** instance passing Pptx document
-      2. Search for image watermarks in the document
-      3. Adjust found watermarks properties like size or alignment
-      4. Save result
+      1. Firstly, you need to pass Pptx file as parameter of the **Watermarker** class constructor. Provide byte or file stream or a local disk path.
+      2. Secondly, locate the watermarks that need to be adjusted. Use **SearchCriteria** to identify watermarks with the specific properties previously added to the document.
+      3. Following the search, you'll receive a list of relevant watermarks. You can then adjust their properties, including size, page alignment, text, color, image content, and more. This offers a high degree of customization for your data.
+      4. Once you've finished adjusting the watermarks, save the updated document. You can use a local file path, or stream to store the result.
    
     code:
       platform: "net"

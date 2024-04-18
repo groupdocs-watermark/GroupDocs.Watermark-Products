@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:17
+date:  2024-04-18T15:29:26
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Get text watermarks list placed in Word documents via Node.js via Java"
+    title: "Efficiently Get Watermarks in Word Files with GroupDocs.Watermark"
     content: |
-      Empower Node.js via Java application with [GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/) solution. Get watermarks from business documents and process them in convenient way.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** streamlines the process of retrieving watermarks embedded within various business document formats. Seamlessly integrate GroupDocs.Watermark into your Node.js via Java applications to empower them with robust watermark detection capabilities.
       
-      1. Provide Word path for **Watermarker** counstructor
-      2. **TextSearchCriteria** helps us to get document watermarks
-      3. Get text watermarks from the document
-      4. Process list of text watermarks
+      1. To take advantage of GroupDocs.Watermark functionalities, instantiate the **Watermarker** class and provide the Word file path, file stream, or byte stream as input. This action loads the document for watermark analysis.
+      2. For targeted watermark identification, utilize the **SearchCriteria** object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria.
+      3. Use the **Get** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
+      4. The retrieved collection of watermark objects grants you a lot of possibilities. You can remove unwanted watermarks or modify their properties. Change content, move a watermark on a page, and many others.
    
     code:
       platform: "net"

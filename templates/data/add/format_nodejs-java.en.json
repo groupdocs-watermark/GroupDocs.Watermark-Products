@@ -6,13 +6,13 @@
     "comment_4": "Get {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Generate image watermarks for {{FileformatCap}} files using {{EnvName}}",
+    "title": "Protect Business Documents: Generate {{FileformatCap}} Watermarks with {{EnvName}}",
     "content": {
-      "title": "Generate image watermarks using different image formats and [{{ProdShortName}}]({{ProductUrl}}). Empower {{EnvName}} applications by watermarks generation.",
-      "step_1": "Provide **Watermarker** instance passing {{FileformatCap}} file",
-      "step_2": "Use image file to create **ImageWatermark** object",
-      "step_3": "Update watermark options like size or alignment",
-      "step_4": "Generate watermark and save document"
+      "title": "Strengthen Document Security with **[{{ProdFullName}}]({{ProductUrl}}):** - A Powerful Watermark Generation Solution for {{EnvName}}.",
+      "step_1": "**Streamline Secure Watermarking in Your {{EnvName}} Applications:** The **Watermarker** class acts as the core component of the {{ProdShortName}} API. This library simplifies watermarks generation various document formats, including {{FileformatCap}}. To get started, create a Watermarker instance before processing your document. Provide the {{FileformatCap}} file path or a stream object to the constructor during initialization.",
+      "step_2": "**Generate Watermarks for Enhanced Protection:** Empower watermarks that perfectly align with your security needs. Construct a **Watermark** object specifying the desired type. Unlike traditional page placement, you can embed watermarks within native document elements like headers or attachments, fortifying document security and adding a professional touch.",
+      "step_3": "**Fine-Tune Watermark Appearance for Optimal Impact:** Control the visual aspects of your watermarks. Customize properties such as height, width, alignment (top, left, center, etc.), font families, and colors to achieve a visually effective and consistent outcome that reinforces document legitimacy.",
+      "step_4": "**Watermark Application and Secure Storage**: Incorporate your watermarks using the **Watermarker's** method. The library allows you to add multiple watermarks if necessary for enhanced protection. It's recommended to save the modified {{FileformatCap}} document to a separate, secure location to preserve the original file and safeguard your watermarked documents."
     }
   },
   "more_features": {

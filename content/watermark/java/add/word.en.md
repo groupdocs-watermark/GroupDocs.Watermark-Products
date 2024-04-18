@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:16
+date:  2024-04-18T15:29:24
 draft: false
 lang: en
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Add text watermark to Word via Java"
+    title: "Add Watermark to Word Document via Java"
     content: |
-      [GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/) makes it easy for developers to add text watermarks in Java applications in a few easy steps.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** makes it easy for Java developers to add watermarks of various types to popular business file formats. Add our library to your application and watermark documents in a few easy steps as listed below.
       
-      1. Instantiate **Watermarker** with Word file
-      2. Construct **TextWatermark** object
-      3. Set watermark properties (size, alignment, color, font etc)
-      4. Add new watermark and save processed document
+      1. The main class of our API is **Watermarker**. You need to instantiate it before document processing. Do not forget to pass the Word file to the constructor as a path or a stream object.
+      2. The next step is constructing a **Watermark** object of the desired type. It can be placed not only on a specific document page but also in native document parts like attachments or headers.
+      3. Set watermark properties such as height and width, page alignment (top, left, central, etc.), font family and color, and many others.
+      4. Call the **Watermarker** method to add a new watermark. You can add as many watermarks as you need. It is recommended to save the processed document to another location.
    
     code:
       platform: "net"

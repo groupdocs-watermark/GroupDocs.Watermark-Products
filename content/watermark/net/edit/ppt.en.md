@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-16T15:52:20
+date:  2024-04-18T15:29:28
 draft: false
 lang: en
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edit image watermarks from Ppt documents using .NET"
+    title: "Programmatically Edit Watermarks in Ppt Documents with the .NET API"
     content: |
-      .NET developers can use [GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/) features to empower their applications and edit image watermarks in popular document formats.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** furnishes .NET developers with a robust API for programmatically manipulating watermarks within diverse Ppt documents. This guide outlines the process:
       
-      1. Instantiate **Watermarker** with path to Ppt document
-      2. Get list of suitable image watermarks in the document
-      3. Edit found watermarks properties like size or alignment
-      4. Re-save edited document
+      1. Initiate the workflow by supplying your Ppt file as an argument to the **Watermarker** class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.
+      2. Subsequently, leverage the **SearchCriteria** object to pinpoint the specific watermarks requiring modification. This object enables the identification of watermarks previously embedded within the document.
+      3. Upon successful execution of the search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to modify properties such as dimensions, page positioning, text content, color scheme, image data, and more.
+      4. Following the completion of watermark edits, persist the modified document. The API facilitates storage using either a local file path or a stream object.
    
     code:
       platform: "net"
