@@ -17,20 +17,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Learn more about watermarks modification",
+    "description": "Empower your {{EnvName}} applications with our library and add, edit, remove, or search for watermarks within various file formats.",
+    "image_description": "Edit Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Watermark Files for Your Business",
+      "content": "Use {{ProdFullName}} to watermark files and documents. Add and manage watermarks without extra efforts implementing our API in your applications. Search, edit and remove previously added watermarks."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Fine-Tune Watermarks for Your Requirements",
+      "content": "Our API offers a comprehensive set of customization options. Effortlessly modify aspects like size, orientation, color scheme, font family, and more to create the ideal watermark."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Leverage Document-Specific Features",
+      "content": "Depending on the file format you're using, you can incorporate built-in functionalities. These may include document background, annotations, headers, or other elements to serve as watermark containers."
     },
     "code_1": {
       "title": "Excel watermark text edit",
