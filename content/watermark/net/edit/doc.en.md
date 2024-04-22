@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:28
+date:  2024-04-22T14:58:29
 draft: false
 lang: en
 format: Doc
@@ -12,30 +12,30 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Edit DOC Document Watermark"
-head_description: "GroupDocs.Watermark for .NET allows to generate Word Document watermarks in .NET, J2SE 7.0 (1.7) or above applications."
+head_title: "Edit Doc Watermarks with Ease"
+head_description: "Edit Doc watermarks seamlessly with GroupDocs.Watermark for .NET API. Customize your documents with confidence and efficiency."
 
 ############################# Header ############################
-title: "Edit Watermark for Document of MS Word formats with .NET" 
-description: "Text and image watermark generation for MS Excel files using .NET J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Edit Doc Watermarks with .NET Easily" 
+description: "Simplify watermark management and protect your documents with GroupDocs.Watermark for .NET API. Achieve versatility and efficiency in your workflow."
 subtitle: "GroupDocs.Watermark for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at Nuget for free"
+    - title: "Download package from Nuget"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET"
+    title: "GroupDocs.Watermark for .NET Framework"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for .NET is designed for generation various Word watermarks using .NET. Our solution may enrich .NET apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and .NET J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       **Edit Watermarks with Ease:** Simplify watermark management across Doc documents with our .NET-friendly solution. Focus on your content while ensuring document security and integrity effortlessly.
 
 ############################# Steps ############################
 steps:
@@ -160,9 +160,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via C#"
+    title: "Manage Watermarks with Ease in Other Formats"
     exclude: "DOC"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for .NET API to your business processes."
+    description: "Simplify watermark editing across diverse document formats using GroupDocs.Watermark for .NET."
     items: 
         # format loop 1
         - name: "Watermark PDF"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:25
+date:  2024-04-22T14:58:27
 draft: false
 lang: en
 format: Word
@@ -12,12 +12,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Edit Word Document Watermark"
-head_description: "GroupDocs.Watermark for .NET allows to generate Word Document watermarks in .NET, J2SE 7.0 (1.7) or above applications."
+head_title: "Edit Watermarks in Word documents"
+head_description: "Refine watermark placement and ensure document security with GroupDocs.Watermark for .NET. Tailor Word watermarks in your solutions effortlessly."
 
 ############################# Header ############################
-title: "Edit Watermark for Document of MS Word formats with .NET" 
-description: "Text and image watermark generation for MS Excel files using .NET J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Enhance Word Watermarks: .NET Confidence" 
+description: "Ensure Word documents authenticity and brand integrity with GroupDocs.Watermark for .NET. Edit watermarks using our solution with confidence."
 subtitle: "GroupDocs.Watermark for .NET" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for .NET is designed for generation various Word watermarks using .NET. Our solution may enrich .NET apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and .NET J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       **Enhance Word Document Security:** GroupDocs.Watermark for .NET empowers developers to enhance document security with ease. Edit your watermarks to meet your specific requirements with confidence.
 
 ############################# Steps ############################
 steps:
@@ -162,9 +162,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via C#"
+    title: "Enhance Other Formats Security"
     exclude: "WORD"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for .NET API to your business processes."
+    description: "GroupDocs.Watermark for .NET offers efficient solutions to enhance document security across different formats."
     items: 
         # format loop 1
         - name: "Watermark PDF"
