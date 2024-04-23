@@ -16,20 +16,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Node.js API for Efficient Watermark Removal",
+    "description": "Leverage our Node.js API to seamlessly remove or clear watermarks from a variety of document formats including PDFs, images, and Office files. Designed for developers, this API integrates effortlessly with your Node.js applications, ensuring clean and clear documents.",
+    "image_description": "Remove Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Node.js Watermark Removal",
+      "content": "Use our Node.js API to remove watermarks with precision and ease. Perfect for applications requiring unmarked documents for presentation or further processing."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Batch Watermark removal processing",
+      "content": "Efficiently handle multiple documents with our bulk watermark removal feature. Save time and server resources by processing large batches of files simultaneously in your Node.js applications."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Edit out and Delete Watermarks Flexibly",
+      "content": "Our API allows for flexible editing and deletion of watermark elements, catering to various business needs and document types. Adapt your documents to maintain a professional appearance while ensuring content integrity."
     },
     "code_1": {
       "title": "Delete PDF hyper-link watermarks",
@@ -43,64 +43,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Delete Watermark for Excel Spreadsheets",
-      "description": "{{ProdFullName}} generates watermark for MS Excel files in applications based on {{EnvName}}, J2SE 7.0 (1.7) or above."
+      "title": "Node.js API for Excel Watermark Removal",
+      "description": "Integrate watermark removal capabilities in Excel files with our Node.js API, enhancing document clarity and data presentation."
     },
     "header": {
-      "title": "Delete Watermark for MS Excel Spreadsheets via {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Node.js API for Managing Excel Watermarks",
+      "description": "Utilize the GroupDocs.Watermark Node.js API to remove or alter watermarks in Excel documents, perfect for ensuring clean data sheets in automated workflows.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} is a comprehensive solution for managing watermarks using {{EnvName}}. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdShortName}} supports all major operating systems and {{EnvName}} versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "The {{ProdFullName}} Node.js library simplifies watermark management in Excel files, enabling developers to remove, adjust, or completely clear watermarks. This tool is essential for maintaining the integrity and presentation of financial and analytical data in Excel sheets, supporting a variety of business processes."
     },
     "formats": {
-      "title": "Use images as watermarks via {{ProgLang}}",
-      "description": "Our {{EnvName}} solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+      "title": "Enhancing Excel Files with Node.js",
+      "description": "Learn how the GroupDocs.Watermark Node.js API can help you manage and remove watermarks from Excel documents, ensuring unobstructed data visibility and professional document aesthetics."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Delete Word Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Remove Word Watermarks Efficiently with Node.js API",
+      "description": "Optimize your document workflows by integrating watermark removal for Word files using our Node.js API."
     },
     "header": {
-      "title": "Delete Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Node.js API for Word Watermark Removal",
+      "description": "Employ the GroupDocs.Watermark Node.js API to efficiently delete or edit out watermarks from Word documents, ideal for ensuring clean and professional document outputs.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Node.js library offers developers powerful tools to handle watermarks in Word documents. Whether you need to clear, edit, or remove watermarks, this API facilitates easy manipulation of document elements to maintain the visual quality and integrity of your documents, making it perfect for legal, academic, and corporate settings."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Effective Watermark Management in Word with Node.js",
+      "description": "Explore the capabilities of the GroupDocs.Watermark Node.js API to manage and remove watermarks in Word documents, ensuring clarity and readability for all your important files."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Delete Watermark for Presentations",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Node.js API for PowerPoint Watermark Removal",
+      "description": "Enhance presentation clarity by seamlessly removing watermarks from PowerPoint slides with our Node.js API."
     },
     "header": {
-      "title": "Delete Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Node.js PowerPoint Watermark Control",
+      "description": "Use the GroupDocs.Watermark Node.js API to effectively clear watermarks from PowerPoint presentations, ensuring unobstructed and professional slide visuals.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Node.js library enables developers to easily remove and manage watermarks in PowerPoint files. This robust tool supports precise control over text and image watermarks, allowing for the maintenance of high-quality presentations in business and educational environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Optimizing PowerPoint Slides with Node.js",
+      "description": "Discover how the GroupDocs.Watermark Node.js API can streamline the process of removing watermarks from PowerPoint slides, facilitating clearer and more impactful presentations."
     }
   }
 }

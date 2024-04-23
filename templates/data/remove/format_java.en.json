@@ -16,20 +16,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark",
+    "description": "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation.",
+    "image_description": "Remove Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Java-Based Watermark Removal",
+      "content": "Empower your Java applications with the ability to remove watermarks accurately. Whether it's official documentation or sensitive content, maintain the integrity and clarity of your documents effortlessly."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Efficient Bulk Deletion in Java",
+      "content": "Streamline the process of watermark removal across multiple documents with our Java API. This feature is especially useful for enterprises dealing with large volumes of files, enhancing productivity and document security."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Advanced Watermark Editing and Removal",
+      "content": "Our Java API not only removes watermarks but also offers advanced editing options to fine-tune or completely erase watermark elements. Tailor your documents to meet exact business specifications with precision and flexibility."
     },
     "code_1": {
       "title": "Clear DOCX of shape watermark",
@@ -42,162 +42,162 @@
   },
   "doc": {
     "head": {
-      "title": "Clear DOC Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for DOC Watermark Removal",
+      "description": "Remove watermarks from DOC files seamlessly with our Java API, ensuring document clarity and professionalism."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java API for Managing DOC Watermarks",
+      "description": "Implement the GroupDocs.Watermark Java API to efficiently clear watermarks from DOC documents, ideal for maintaining pristine text and formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Java library provides comprehensive tools for managing watermarks in DOC files. It supports operations such as removing, adjusting, and searching for watermarks, ensuring the integrity and readability of your documents. This tool is perfect for environments requiring high standards of document presentation, such as legal, educational, and corporate sectors."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing DOC Files with Java",
+      "description": "Learn how to use the GroupDocs.Watermark Java API to effectively manage and remove watermarks from DOC files, enhancing document security and visual clarity."
     }
   },
   "docx": {
     "head": {
-      "title": "Clear DOCX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for Efficient DOCX Watermark Removal",
+      "description": "Leverage our Java API to remove watermarks from DOCX documents, enhancing clarity and document integrity."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java DOCX Watermark Remover",
+      "description": "Utilize the GroupDocs.Watermark Java API for targeted removal of watermarks in DOCX files, perfect for achieving clean, professional documents.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "Empower your Java applications with the {{ProdFullName}} library to effortlessly handle watermark removal in DOCX documents. This powerful tool provides precise control over watermark adjustments and deletions, catering to a wide range of professional needs from legal paperwork to business reports, ensuring content remains unblemished and secure."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Mastering DOCX Watermark Removal with Java",
+      "description": "Explore advanced features of the GroupDocs.Watermark Java API to efficiently clear watermarks from DOCX files, maintaining the original quality and layout of your documents."
     }
   },
   "pdf": {
     "head": {
-      "title": "Clear PDF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for Clearing Watermarks in PDF Documents",
+      "description": "Enhance your PDFs by removing watermarks efficiently with our Java API, ensuring pristine and professional-looking documents."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java PDF Watermark Removal",
+      "description": "Deploy the GroupDocs.Watermark Java API to effectively remove watermarks from PDF files, ensuring document integrity and clarity for high-stakes documents.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Java library offers developers sophisticated tools to seamlessly edit out or delete watermarks from PDF documents. Whether you're handling legal documents, business contracts, or academic papers, this tool ensures your PDFs remain clean and unaltered, maintaining their original layout and formatting."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Optimizing PDF Documents with Java",
+      "description": "Discover how to utilize the GroupDocs.Watermark Java API for comprehensive watermark management in PDF documents, enhancing both security and aesthetics."
     }
   },
   "ppt": {
     "head": {
-      "title": "Clear PPT Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for Removing Watermarks in PowerPoint PPT",
+      "description": "Utilize our Java API to expertly remove watermarks from PPT files, ensuring your PowerPoint presentations are clear and impactful."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java PowerPoint Watermark Removal",
+      "description": "Master the art of watermark removal in PowerPoint presentations with the GroupDocs.Watermark Java API, designed to maintain the integrity and aesthetics of your slides.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "Harness the power of the {{ProdFullName}} Java library to manage watermarks in PowerPoint presentations. This tool allows for precise control over the removal and adjustment of both text and image watermarks, ensuring that your presentations remain professional and uncluttered. Ideal for business, educational, and professional settings where clear communication is key."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing PowerPoint Presentations with Java",
+      "description": "Explore the capabilities of the GroupDocs.Watermark Java API in managing and removing watermarks from PPT documents, helping you deliver clean, unmarked presentations."
     }
   },
   "pptx": {
     "head": {
-      "title": "Clear PPTX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for Clear out Watermarks in PowerPoint PPTX",
+      "description": "Utilize our Java API to expertly clear watermarks from PPTX files, ensuring your PowerPoint presentations are clear and impactful."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java PowerPoint Watermark Deletion",
+      "description": "Master the art of watermark removal in PowerPoint presentations with the GroupDocs.Watermark Java API, designed to maintain the integrity and aesthetics of your slides.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "Harness the power of the {{ProdFullName}} Java library to manage watermarks in PowerPoint presentations. This tool allows for precise control over the removal and adjustment of both text and image watermarks, ensuring that your presentations remain professional and uncluttered. Ideal for business, educational, and professional settings where clear communication is key."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing PowerPoint Presentations with Java",
+      "description": "Explore the capabilities of the GroupDocs.Watermark Java API in managing and removing watermarks from PPTX documents, helping you deliver clean, unmarked presentations."
     }
   },
   "rtf": {
     "head": {
-      "title": "Clear RTF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for RTF Watermark Removal",
+      "description": "Simplify watermark removal in RTF documents using our Java API, ensuring text clarity and document professionalism."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java RTF Watermark Remover",
+      "description": "Use the GroupDocs.Watermark Java API to effectively remove watermarks from RTF documents, enhancing readability and maintaining the original format.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Java library provides advanced functionality for managing watermarks in RTF files. This robust tool allows developers to seamlessly clear or adjust watermarks, ensuring that the textual integrity and layout of RTF documents are preserved. Ideal for legal, academic, and professional environments where document clarity is paramount."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Managing RTF Document Watermarks with Java",
+      "description": "Learn how to leverage the GroupDocs.Watermark Java API for effective watermark management in RTF documents, safeguarding content while enhancing document presentation."
     }
   },
   "xls": {
     "head": {
-      "title": "Clear XLS Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Java API for Watermark Removal in XLS Files",
+      "description": "Optimize your XLS documents by efficiently removing watermarks with our Java API, ensuring data clarity and visual appeal."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Java API for XLS Watermark Management",
+      "description": "Achieve pristine XLS files free of watermarks using the GroupDocs.Watermark Java API, perfect for financial reports and data analysis needing clear presentation.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Java library empowers users to manipulate watermarks in XLS documents seamlessly. This tool provides extensive capabilities to remove or alter watermarks without disrupting the document's integrity, ideal for maintaining the professionalism of business and accounting documents."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Refining XLS Documents with Java",
+      "description": "Explore the functionality of the GroupDocs.Watermark Java API for removing and managing watermarks in XLS files, ensuring unobstructed visibility of important data."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Clear XLSX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Watermark Removal in XLSX Files in Java",
+      "description": "Optimize your XLS documents by efficiently removing watermarks with our Java API, ensuring data clarity and visual appeal."
     },
     "header": {
-      "title": "Clear Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "XLSX Watermark Management",
+      "description": "Achieve pristine XLS files free of watermarks using the GroupDocs.Watermark Java API, perfect for financial reports and data analysis needing clear presentation.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} Java library empowers users to manipulate watermarks in XLSX documents seamlessly. This tool provides extensive capabilities to remove or alter watermarks without disrupting the document's integrity, ideal for maintaining the professionalism of business and accounting documents."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Refining XLSX Documents with Java",
+      "description": "Explore the functionality of the GroupDocs.Watermark Java API for removing and managing watermarks in XLSX files, ensuring unobstructed visibility of important data."
     }
   }
 }
