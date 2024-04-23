@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:28
+date:  2024-04-23T09:18:38
 draft: false
 lang: en
 format: Doc
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Generate DOC Document Watermark"
-head_description: "GroupDocs.Watermark for Node.js via Java allows to generate Word Document watermarks in Node.js via Java, J2SE 7.0 (1.7) or above applications."
+head_title: "Node.js Watermarks for DOC Files"
+head_description: "Incorporate watermarks into DOC documents using Node.js to enhance document security and branding."
 
 ############################# Header ############################
-title: "Generate Watermark for Document of MS Word formats with Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Node.js-Driven Watermarks in DOC" 
+description: "Apply watermarks dynamically to DOC files using Node.js, ensuring robust protection and professional presentation of your Word documents."
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is designed for generation various Word watermarks using Node.js via Java. Our solution may enrich Node.js via Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Node.js via Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       GroupDocs.Watermark for Node.js via Java offers Node.js developers an intuitive API to generate, implement, and manage watermarks within DOC files. This tool is perfect for applications requiring document security enhancements or corporate branding. With features that support text and image watermarks, developers can easily customize size, position, and opacity to suit specific needs. Ideal for securing business reports, legal documents, and other professional communications, GroupDocs.Watermark integrates seamlessly into modern Node.js environments and ensures that watermarks are applied efficiently and without compromising the document’s integrity.
 
 ############################# Steps ############################
 steps:
@@ -84,22 +84,22 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Deep dive into adding Watermark"
-  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  title: "Refined Watermark Integration"
+  description: "Our GroupDocs.Watermark API for .NET developers offers refined solutions for integrating watermarks seamlessly into any document. This tool is designed to create sophisticated, unobtrusive watermarks that ensure copyright protection while maintaining document aesthetics."
   image: "/img/watermark/features_add.webp" # 500x500 px
-  image_description: "Add Watermark"
+  image_description: "Precision Watermark Integration"
   features:
     # feature loop
-    - title: "Watermark your documents easily."
-      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+    - title: "Gradient Watermark Effects"
+      content: "Implement gradient watermarks that blend smoothly across your documents. This feature allows for linear or radial gradients, adding a modern look to security features that enhances both protection and visual engagement without overpowering the content."
 
     # feature loop
-    - title: "Customize watermarks for your goals."
-      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    - title: "Pattern Watermarks for Extra Security"
+      content: "Use pattern-based watermarking to add an extra layer of security. Our API supports various patterns that can be intricately designed and repeated across the document, making the watermark more resistant to tampering and removal."
 
     # feature loop
-    - title: "Use native document objects"
-      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    - title: "Document-Specific Watermarking"
+      content: "Tailor watermarks uniquely for different document types. Whether it's legal contracts, business plans, or scientific reports, customize watermarks to suit the document’s purpose and reader accessibility, ensuring optimal integration and security."
       
   code_samples:
     # code sample loop
@@ -158,9 +158,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via JavaScript"
+    title: "Applying Watermarks to DOC with Node.js"
     exclude: "DOC"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Node.js via Java API to your business processes."
+    description: "Utilize Node.js to add customizable, unobtrusive watermarks to DOC files, enhancing both the security and the aesthetic of your documents."
     items: 
         # format loop 1
         - name: "Watermark PDF"

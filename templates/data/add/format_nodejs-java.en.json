@@ -16,20 +16,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Refined Watermark Integration",
+    "description": "Our GroupDocs.Watermark API for .NET developers offers refined solutions for integrating watermarks seamlessly into any document. This tool is designed to create sophisticated, unobtrusive watermarks that ensure copyright protection while maintaining document aesthetics.",
+    "image_description": "Precision Watermark Integration",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Gradient Watermark Effects",
+      "content": "Implement gradient watermarks that blend smoothly across your documents. This feature allows for linear or radial gradients, adding a modern look to security features that enhances both protection and visual engagement without overpowering the content."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Pattern Watermarks for Extra Security",
+      "content": "Use pattern-based watermarking to add an extra layer of security. Our API supports various patterns that can be intricately designed and repeated across the document, making the watermark more resistant to tampering and removal."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Document-Specific Watermarking",
+      "content": "Tailor watermarks uniquely for different document types. Whether it's legal contracts, business plans, or scientific reports, customize watermarks to suit the document’s purpose and reader accessibility, ensuring optimal integration and security."
     },
     "code_1": {
       "title": "Generate PDF image watermark",
@@ -42,282 +42,282 @@
   },
   "doc": {
     "head": {
-      "title": "Generate DOC Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Node.js Watermarks for DOC Files",
+      "description": "Incorporate watermarks into DOC documents using Node.js to enhance document security and branding."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Node.js-Driven Watermarks in DOC",
+      "description": "Apply watermarks dynamically to DOC files using Node.js, ensuring robust protection and professional presentation of your Word documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} offers Node.js developers an intuitive API to generate, implement, and manage watermarks within DOC files. This tool is perfect for applications requiring document security enhancements or corporate branding. With features that support text and image watermarks, developers can easily customize size, position, and opacity to suit specific needs. Ideal for securing business reports, legal documents, and other professional communications, {{ProdShortName}} integrates seamlessly into modern Node.js environments and ensures that watermarks are applied efficiently and without compromising the document’s integrity."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Applying Watermarks to DOC with Node.js",
+      "description": "Utilize Node.js to add customizable, unobtrusive watermarks to DOC files, enhancing both the security and the aesthetic of your documents."
     }
   },
   "docx": {
     "head": {
-      "title": "Generate DOCX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Create Watermarks in DOCX with Node.js",
+      "description": "Harness Node.js to add robust watermarks to DOCX files, bolstering security and document integrity."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Generate Watermarks for DOCX Using Node.js",
+      "description": "Use Node.js to compose and implement sophisticated watermarks in DOCX files, perfect for securing sensitive Word documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} equips Node.js developers with the tools to create, add, and manage watermarks in DOCX documents efficiently. This API allows for the seamless integration of customizable watermarks that can significantly enhance document security. Whether adding company logos, text, or complex graphic overlays, the API provides full control over opacity, size, and placement. Tailored specifically for professional environments where document authenticity and copyright protection are critical, such as legal, financial, and governmental sectors, {{ProdShortName}} ensures that your DOCX files are not only secure but also maintain a high standard of presentation. Compatible with various Node.js environments, it supports synchronous and asynchronous operations to suit different application needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Add Watermarks to DOCX with Node.js",
+      "description": "Implement Node.js to dynamically generate and apply custom watermarks in DOCX files, securing and branding them effectively."
     }
   },
   "jpeg": {
     "head": {
-      "title": "Generate JPEG Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Generate Watermarks on JPEG with Node.js",
+      "description": "Create secure, invisible watermarks for JPEG images using Node.js, safeguarding copyrights."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Compose Watermarks for JPEGs via Node.js",
+      "description": "Utilize Node.js to add robust watermarks to JPEG files, ensuring your images are protected against unauthorized use and copyright infringement.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} provides Node.js developers with the capability to generate and implement custom watermarks in JPEG images. This powerful API enables the creation of both visible and invisible watermarks that help secure digital media from copyright theft and unauthorized distribution. Tailor watermark opacity, color, and position to blend seamlessly with the image content, or make them prominent for brand visibility. Ideal for photographers, graphic designers, and content creators who need to ensure their digital work remains safe and recognized as their own property. With {{ProdShortName}}, developers can efficiently safeguard images while maintaining their aesthetic integrity, all within the flexible and powerful Node.js environment."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Add Secure Watermarks to JPEG with Node.js",
+      "description": "Implement Node.js to embed customizable, secure watermarks into JPEG images, protecting and marking digital content effectively."
     }
   },
   "jpg": {
     "head": {
-      "title": "Generate JPG Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Add Watermarks to JPG with Node.js",
+      "description": "Use Node.js to seamlessly integrate watermarks into JPG images, enhancing copyright security."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for JPG Files via Node.js",
+      "description": "Implement Node.js to generate custom watermarks in JPG files, protecting your images from misuse and copyright breaches.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} enables Node.js developers to efficiently compose and apply watermarks on JPG images. This API facilitates the insertion of watermarks that are tailored to the content's needs, whether for personal use or professional display. Developers can customize watermark features including opacity, size, and placement to ensure they are effective yet unobtrusive. Ideal for securing photographic content, digital artwork, and other media assets against unauthorized reproduction, {{ProdShortName}} provides robust protection capabilities within a Node.js environment, ensuring that your intellectual property is both safe and visually intact."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Secure JPG Images with Node.js Watermarks",
+      "description": "Utilize Node.js to embed watermarks that safeguard your JPG images, maintaining their original quality while ensuring copyright protection."
     }
   },
   "pdf": {
     "head": {
-      "title": "Generate PDF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Secure PDFs with Node.js Watermarks",
+      "description": "Integrate watermarks into PDFs using Node.js to protect official documents and contracts."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for PDF Documents via Node.js",
+      "description": "Employ Node.js to add advanced watermarks to PDF files, safeguarding official documents, contracts, and sensitive information.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} offers Node.js developers a powerful tool to generate, compose, and manage watermarks specifically designed for PDF files. This API allows for the precise integration of watermarks into official documents, contracts, and any sensitive PDF files that require an added layer of security. Customize your watermarks to be visible or invisible, ensuring they do not interfere with the content's readability while providing effective copyright protection and fraud prevention. Ideal for use in legal, financial, and governmental sectors where document integrity is paramount, {{ProdShortName}} also supports batch processing of watermarks for large document sets, fully compatible with modern Node.js environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Implement Watermarks in PDF with Node.js",
+      "description": "Leverage Node.js to dynamically create and apply watermarks in PDF documents, crucial for the protection of legal and official content."
     }
   },
   "png": {
     "head": {
-      "title": "Generate PNG Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Embed Watermarks in PNG with Node.js",
+      "description": "Use Node.js to apply precise watermarks to PNG images, ensuring robust copyright protection."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for PNG Files via Node.js",
+      "description": "Implement Node.js to generate custom watermarks in PNG images, perfect for securing digital art and photographic content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} provides Node.js developers with advanced capabilities to add watermarks to PNG files. This API facilitates the creation of both visible and invisible watermarks that blend seamlessly with the image, enhancing security without compromising the visual quality. Tailor features like opacity, scale, and placement to meet specific needs, making it ideal for photographers, graphic designers, and content creators looking to protect their digital assets. Whether for personal use or commercial distribution, {{ProdShortName}} ensures that your images are marked securely, supporting a variety of Node.js environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Secure PNG Images with Node.js Watermarks",
+      "description": "Utilize Node.js to embed watermarks that safeguard your PNG images, maintaining their original quality while ensuring copyright protection."
     }
   },
   "ppt": {
     "head": {
-      "title": "Generate PPT Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Add Watermarks to PPT with Node.js",
+      "description": "Utilize Node.js to integrate watermarks into PowerPoint files, securing presentations effectively."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for PPT Presentations via Node.js",
+      "description": "Deploy Node.js to generate and apply custom watermarks in PowerPoint files, ideal for protecting corporate and educational presentations.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} enables Node.js developers to efficiently create, add, and manage watermarks within PowerPoint (PPT) files. This API allows for the seamless incorporation of watermarks into presentation materials, providing an additional layer of security for sensitive and proprietary information. Customize the watermark’s opacity, position, and size to ensure it complements the presentation’s design without obstructing key content. Perfect for business, academic, and training environments, {{ProdShortName}} ensures that your presentations are not only secure but also maintain professional appearance. Compatible with various Node.js environments, it offers flexible solutions for presentation security."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Implement Watermarks in PPT with Node.js",
+      "description": "Leverage Node.js to dynamically create and apply watermarks in PPT files, crucial for safeguarding important presentation content."
     }
   },
   "pptx": {
     "head": {
-      "title": "Generate PPTX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Secure PPTX with Node.js Watermarks",
+      "description": "Implement Node.js to embed watermarks into PPTX presentations, enhancing document security."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Generate Watermarks for PPTX via Node.js",
+      "description": "Use Node.js to create custom watermarks for PPTX files, perfect for protecting high-stakes presentations and proprietary data.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} provides Node.js developers with the tools to add, manage, and customize watermarks in PPTX files. This API is ideal for embedding watermarks that safeguard the integrity of business and educational presentations without disrupting their aesthetic. Developers can control watermark opacity, color, and placement, ensuring they are subtle yet effective. Suitable for securing strategic plans, financial reports, and educational materials, {{ProdShortName}} integrates seamlessly with modern Node.js environments, allowing for easy application in real-time presentation workflows."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Apply Watermarks to PPTX with Node.js",
+      "description": "Deploy Node.js to insert customizable, secure watermarks into PPTX files, preserving the professionalism and security of your presentations."
     }
   },
   "rtf": {
     "head": {
-      "title": "Generate RTF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Embed Watermarks in RTF with Node.js",
+      "description": "Utilize Node.js to integrate watermarks into RTF documents, protecting content with ease."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for RTF Documents via Node.js",
+      "description": "Implement Node.js to add custom watermarks to RTF files, ideal for securing MS Word and text documents against unauthorized use.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} equips Node.js developers with the ability to generate and manage watermarks specifically for RTF documents. This API allows for the precise embedding of text or image watermarks, enhancing document security and copyright protection. Customize watermarks to be visible or invisible based on the sensitivity of the information, adjusting for opacity, size, and location to ensure they blend naturally with the document content. Perfect for legal documents, corporate reports, and any sensitive written material, {{ProdShortName}} supports extensive customization to meet specific security needs within various Node.js environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Secure RTF Files with Node.js Watermarks",
+      "description": "Use Node.js to implement dynamic watermarks in RTF files, ensuring both security and integrity of your textual content."
     }
   },
   "tif": {
     "head": {
-      "title": "Generate TIF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Add Watermarks to TIF with Node.js",
+      "description": "Harness Node.js to dynamically embed watermarks in TIF images, safeguarding your digital assets."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Generate Watermarks for TIF Images via Node.js",
+      "description": "Utilize Node.js to create and apply precise watermarks to TIF files, perfect for protecting high-resolution images and archival content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} offers Node.js developers a powerful toolset to add, manage, and customize watermarks in TIF images. This API enables the integration of both visible and invisible watermarks, suitable for ensuring the security of photographic and scanned documents. Customize the size, opacity, and placement of watermarks to maintain the integrity and quality of the image. Ideal for photographers, archivists, and graphic designers, {{ProdShortName}} ensures that all TIF files are protected from unauthorized use and reproduction while supporting a range of Node.js environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Implement Watermarks in TIF with Node.js",
+      "description": "Deploy Node.js to insert custom, secure watermarks into TIF images, crucial for maintaining copyright and preventing data piracy."
     }
   },
   "tiff": {
     "head": {
-      "title": "Generate TIFF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Secure TIFF Images with Node.js",
+      "description": "Implement Node.js to apply watermarks in TIFF files, enhancing security for digital archives."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for TIFF via Node.js",
+      "description": "Use Node.js to generate custom watermarks for TIFF images, ideal for safeguarding archival quality photos and documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} provides Node.js developers the capability to create, add, and manage watermarks in TIFF files effectively. This API facilitates the embedding of watermarks that protect and assert the copyright of digital and scanned images. Developers can customize watermarks in terms of type, transparency, and placement, ensuring they are integrated subtly without compromising the image's original detail. Ideal for use in libraries, museums, and any institution needing to protect archival material, {{ProdShortName}} offers robust watermarking solutions that are compatible with contemporary Node.js environments."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Apply Watermarks to TIFF with Node.js",
+      "description": "Utilize Node.js to embed watermarks into TIFF files, providing enhanced security and copyright protection for archival content."
     }
   },
   "webp": {
     "head": {
-      "title": "Generate WEBP Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Embed Watermarks in WEBP with Node.js",
+      "description": "Use Node.js to apply advanced watermarks to WEBP images, enhancing protection and copyright."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Create Watermarks for WEBP Images via Node.js",
+      "description": "Implement Node.js to generate custom, secure watermarks for WEBP files, ideal for digital content creators looking to safeguard their visuals.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} equips Node.js developers with the tools to add, manage, and customize watermarks in WEBP images. This API allows for the integration of transparent or opaque watermarks that blend seamlessly with the image, ensuring that the artwork's integrity is maintained while protecting against unauthorized use. Tailor the watermark's size, opacity, and position to either highlight your brand or secure your digital assets discreetly. Suitable for photographers, graphic designers, and any professionals dealing with digital media, {{ProdShortName}} enhances the security of WEBP images through a flexible and powerful Node.js interface."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Secure WEBP Files with Node.js Watermarks",
+      "description": "Deploy Node.js to insert customizable, robust watermarks into WEBP images, ensuring copyright and brand visibility are protected."
     }
   },
   "xls": {
     "head": {
-      "title": "Generate XLS Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Create Watermarks in XLS with Node.js",
+      "description": "Use Node.js to generate watermarks in XLS files, enhancing the security of your Excel documents."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Generate Node.js Watermarks for XLS Files",
+      "description": "Implement robust watermarking in XLS spreadsheets with Node.js, tailored for protecting financial and personal data in Excel.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} equips Node.js developers with the tools to create, compose, and embed watermarks in XLS files effectively. This API is designed for seamless integration into Excel workflows, facilitating the addition of both visible and invisible watermarks that are customizable for opacity, text, and images. Ideal for securing sensitive information in financial spreadsheets, client reports, or any Excel document that requires confidentiality, {{ProdShortName}} offers advanced features such as conditional watermark placement based on content analysis. With support for all .NET environments, this solution ensures your documents are protected against unauthorized use and distribution."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Applying Watermarks to XLS with Node.js",
+      "description": "Utilize Node.js to dynamically generate and integrate custom watermarks into XLS files, safeguarding your Excel data effectively."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Generate XLSX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Embed Watermarks in XLSX with Node.js",
+      "description": "Leverage Node.js to generate and apply watermarks in XLSX files, securing your Excel documents."
     },
     "header": {
-      "title": "Generate Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Secure XLSX Sheets with Node.js",
+      "description": "Use Node.js API to create customizable watermarks for XLSX files, perfect for enhancing document integrity and protecting sensitive information.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "{{ProdFullName}} provides a powerful solution for Node.js developers to generate, add, and manage watermarks in XLSX files. This API is essential for maintaining the confidentiality and authenticity of Excel documents, especially in corporate, financial, and legal environments. Customize your watermarks with a variety of options, including text and image overlays, designed to be both functional and subtle. Additional features allow for automated watermarking based on document properties and user-defined conditions, ensuring that your watermarks are applied consistently and only where needed. {{ProdShortName}} is compatible with contemporary .NET platforms and supports advanced Excel functionalities."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Implementing Watermarks in XLSX with Node.js",
+      "description": "Deploy Node.js to efficiently add advanced, secure watermarks to XLSX files, safeguarding your professional Excel data."
     }
   }
 }

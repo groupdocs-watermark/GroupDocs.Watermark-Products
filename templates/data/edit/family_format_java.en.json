@@ -17,20 +17,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Deep dive into {{FileFormatUp}} Watermark adjustment",
+    "description": "Our API empowers {{EnvName}} applications to add, edit, remove, and search for watermarks across popular document formats.",
+    "image_description": "Adjust Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Effortlessly Watermark Your Documents",
+      "content": "{{ProdShortName}} simplifies watermarking for {{EnvName}} developers. Add diverse watermarks to various business documents and files. Not only can you apply watermarks, but you can also update or remove existing ones."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Customize Watermarks to Your Needs",
+      "content": "Our API provides extensive customization options. Easily adjust size, rotation, color, font, styles, and more to achieve the perfect watermark."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Use {{FileFormatUp}} Native Document Features",
+      "content": "Depending on the specific document format, you can utilize native functionalities. These might include document page background, annotations, headers, or other objects as watermark containers."
     },
     "code_1": {
       "title": "PDF adjust text watermark",
@@ -44,64 +44,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Adjust Watermark for Excel Spreadsheets",
-      "description": "{{ProdFullName}} generates watermark for MS Excel files in applications based on {{EnvName}}, J2SE 7.0 (1.7) or above."
+      "title": "Adjust Excel Watermark Tool - {{ProdShortName}}",
+      "description": "Adjust, update, and manage watermarks effortlessly with {{ProdShortName}}. Customize your documents with ease."
     },
     "header": {
-      "title": "Adjust Watermark for MS Excel Spreadsheets via {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Adjust SpreadSheets Watermarks Tool: Powerfully Simple",
+      "description": "Enhance your documents with our intuitive watermark editing tool. Simplify your workflow effortlessly.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} is a comprehensive solution for managing watermarks using {{EnvName}}. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdShortName}} supports all major operating systems and {{EnvName}} versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} API",
+      "content": "**Watermark Adjustment Tool**: Our watermarking tool offers a user-friendly solution to enhance and protect your documents. With intuitive editing features, managing watermarks becomes effortless, ensuring document security and authenticity."
     },
     "formats": {
-      "title": "Use images as watermarks via {{ProgLang}}",
-      "description": "Our {{EnvName}} solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+      "title": "Adjust Watermark via {{ProdFullName}} for other formats",
+      "description": "Customize watermarks across a wide range of document formats with ease. Enhance document security and authenticity effortlessly."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Adjust Word Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Adjust Word Watermarks Effortlessly - {{ProdShortName}}",
+      "description": "Seamlessly adjust watermarks across multiple document formats using {{ProdShortName}}. Enhance your document security."
     },
     "header": {
-      "title": "Adjust Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Adjust Word Watermarks: Effortlessly Secure",
+      "description": "Secure your documents effortlessly with our powerful watermark modification capabilities. Protect your content with confidence.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "content": "**Modify Watermarks**: {{ProdShortName}} empowers users to modify watermarks across various document formats seamlessly. With precise control and versatile options, customize your documents with confidence."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Adjust Watermarks using {{ProdFullName}} for popular formats",
+      "description": "GroupDocs.Watermark supports seamless modification of watermarks in various formats. Tailor your watermarking strategy to meet your specific needs."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Adjust Watermark for Presentations",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Adjust PowerPoint Watermarks with Ease - {{ProdShortName}}",
+      "description": "Effortlessly update watermarks in various document types with {{ProdShortName}}. Maintain document integrity effortlessly."
     },
     "header": {
-      "title": "Adjust Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "Adjust PowerPoint Watermarks: Precision Control",
+      "description": "Maintain precise control over your document integrity with our watermark update feature. Ensure authenticity with ease.",
+      "subtitle": "{{ProdFullName}} Library",
+      "action_title": "Download at {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} Library",
+      "content": "**Update Watermarks**: Stay in control of your document integrity with our update watermark feature. Effortlessly revise watermarks across different document types, maintaining authenticity and security."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Adjust Watermarks in business formats by {{ProdFullName}}",
+      "description": "Effortlessly update watermarks across different document types with precision control. Maintain document integrity and security seamlessly."
     }
   }
 }
