@@ -16,20 +16,20 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Advanced Watermark Removal with C# .NET API | GroupDocs.Watermark",
+    "description": "Unlock advanced watermark removal capabilities with our C# .NET API. Designed for seamless integration with .NET applications, this API facilitates the removal of watermarks from PDFs, images, and Office documents, ensuring high-quality, unmarked outputs for professional use.",
+    "image_description": "Remove Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Precision Watermark Removal in .NET",
+      "content": "Our C# API is engineered to provide precise watermark removal, ensuring that your documents retain their original quality and format. Ideal for legal, educational, and professional documents where clarity and authenticity are crucial."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Automate Watermark Deletion for .NET",
+      "content": "Enhance your application's efficiency with automated watermark deletion capabilities. Our API allows for the processing of extensive document batches, facilitating large-scale operations without compromising performance."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Edit and Clear Watermarks Dynamically",
+      "content": "Gain the flexibility to dynamically edit or completely remove watermarks as per your application's needs. This feature supports various customization options, enabling .NET developers to maintain document aesthetics and integrity under varying requirements."
     },
     "code_1": {
       "title": "Presentation background watermark remove",
@@ -42,162 +42,162 @@
   },
   "doc": {
     "head": {
-      "title": "Remove DOC Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Advanced DOC Watermark Removal with C# .NET",
+      "description": "Clear watermarks from DOC documents seamlessly using our C# .NET API, ensuring clean and professional-looking files."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for DOC Watermark Deletion",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively delete or edit out watermarks in DOC files, ideal for maintaining pristine document formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers robust tools for managing watermarks in DOC documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Mastering DOC File Watermark Removal with .NET",
+      "description": "Discover the capabilities of the GroupDocs.Watermark C# .NET API to manage and remove watermarks from DOC files, enhancing document security and presentation without compromising on quality."
     }
   },
   "docx": {
     "head": {
-      "title": "Remove DOCX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Efficient DOCX Watermark Removal with C# .NET",
+      "description": "Remove watermarks from DOCX documents seamlessly using our C# .NET API, ensuring clean and professional-looking files."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for DOCX Watermark Management",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively delete or edit out watermarks in DOCX files, ideal for maintaining pristine document formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers robust tools for managing watermarks in DOCX documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Mastering DOCX File Watermark Removal with .NET",
+      "description": "Discover the capabilities of the GroupDocs.Watermark C# .NET API to manage and remove watermarks from DOCX files, enhancing document security and presentation without compromising on quality."
     }
   },
   "pdf": {
     "head": {
-      "title": "Remove PDF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Clear Watermarks in PDF Documents with C# .NET",
+      "description": "Efficiently remove watermarks from PDF files using our C# .NET API, ensuring professional and unblemished documents."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for PDF Watermark Removal",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to seamlessly clear watermarks from PDF documents, perfect for maintaining document integrity and clarity.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library provides powerful tools for managing watermarks in PDF documents. From simple removals to advanced edits, this API offers precise control over watermark elements, ensuring that your PDFs maintain their original quality and layout."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing PDFs with C# .NET Watermark Removal",
+      "description": "Explore how the GroupDocs.Watermark C# .NET API can streamline the process of removing watermarks from PDF files, ensuring clear and professional document outputs."
     }
   },
   "ppt": {
     "head": {
-      "title": "Remove PPT Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Presentation Watermark Removal for PPT",
+      "description": "Efficiently clear watermarks from Presentation slideshow with C# .NET API, ensuring clear and professional presentations."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for Presentation Watermark Deletion",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively remove watermarks from PPTX files, perfect for maintaining the integrity and visual appeal of your presentations.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers comprehensive tools for managing watermarks in PowerPoint presentations. Whether you need to remove, edit, or adjust watermarks, this API provides precise control over slide elements, ensuring professional-quality presentations for business, education, and more."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing PowerPoint Presentations with C# .NET",
+      "description": "Explore how the GroupDocs.Watermark C# .NET API can help you manage and remove watermarks from PPTX files, ensuring impactful and professional presentations."
     }
   },
   "pptx": {
     "head": {
-      "title": "Remove PPTX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "C# .NET API for PowerPoint Watermark Removal",
+      "description": "Efficiently remove watermarks from PowerPoint slides using our C# .NET API, ensuring clear and professional presentations."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for PowerPoint Watermark Management",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively remove watermarks from PPTX files, perfect for maintaining the integrity and visual appeal of your presentations.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers comprehensive tools for managing watermarks in PowerPoint presentations. Whether you need to remove, edit, or adjust watermarks, this API provides precise control over slide elements, ensuring professional-quality presentations for business, education, and more."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Enhancing PowerPoint Presentations with C# .NET",
+      "description": "Explore how the GroupDocs.Watermark C# .NET API can help you manage and remove watermarks from PPTX files, ensuring impactful and professional presentations."
     }
   },
   "rtf": {
     "head": {
-      "title": "Remove RTF Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "RTF Watermark Removal with C# .NET",
+      "description": "Efficiently remove watermarks from RTF documents using our C# .NET API, ensuring clean and professional-looking files."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for RTF Watermark Management",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively delete or edit out watermarks in RTF files, ideal for maintaining pristine document formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers robust tools for managing watermarks in RTF documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Mastering RTF File Watermark Removal with .NET",
+      "description": "Discover the capabilities of the GroupDocs.Watermark C# .NET API to manage and remove watermarks from RTF files, enhancing document security and presentation without compromising on quality."
     }
   },
   "xls": {
     "head": {
-      "title": "Remove XLS Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Excel XLS Clear out watermark ",
+      "description": "Efficiently clear watermarks from XLS documents using our C# .NET API, ensuring clean and professional-looking files."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for XLS Watermark Management",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively delete or edit out watermarks in XLSX files, ideal for maintaining pristine document formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers robust tools for managing watermarks in XLS documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, finance, and data analysis needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Managing XLS File with Watermark clearing with .NET",
+      "description": "Discover the capabilities of the GroupDocs.Watermark C# .NET API to manage and remove watermarks from XLSX files, enhancing document security and presentation without compromising on quality."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Remove XLSX Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "C# .NET API for XLSX Watermark Removal",
+      "description": "Efficiently remove watermarks from XLSX documents using our C# .NET API, ensuring clean and professional-looking files."
     },
     "header": {
-      "title": "Remove Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "title": "C# .NET for XLSX Watermark Management",
+      "description": "Utilize the GroupDocs.Watermark C# .NET API to effectively delete or edit out watermarks in XLSX files, ideal for maintaining pristine document formatting.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} C# .NET library offers robust tools for managing watermarks in XLSX documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, finance, and data analysis needs."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Mastering XLSX File Watermark Removal with .NET",
+      "description": "Discover the capabilities of the GroupDocs.Watermark C# .NET API to manage and remove watermarks from XLSX files, enhancing document security and presentation without compromising on quality."
     }
   }
 }
