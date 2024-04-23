@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:26
+date:  2024-04-23T16:20:06
 draft: false
 lang: en
 format: Excel
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Update Watermark for Excel Spreadsheets"
-head_description: "GroupDocs.Watermark for Node.js via Java generates watermark for MS Excel files in applications based on Node.js via Java, J2SE 7.0 (1.7) or above."
+head_title: "Update Watermarks for Excel Spreadsheets"
+head_description: "Effortlessly update watermarks in spreadsheets of various formats using GroupDocs.Watermark for Node.js via Java. Enrich your Node.js via Java applications."
 
 ############################# Header ############################
-title: "Update Watermark for MS Excel Spreadsheets via Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Revolutionize Spreadsheets Watermarking using Node.js via Java" 
+description: "Experience the power of GroupDocs.Watermark for Node.js via Java. Secure your business documents with various watermarks. Update watermark size, alignment, rotation angle, position, etc."
 subtitle: "GroupDocs.Watermark for Node.js via Java API" 
 
 header_actions:
@@ -35,16 +35,16 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is a comprehensive solution for managing watermarks using Node.js via Java. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark supports all major operating systems and Node.js via Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       GroupDocs.Watermark for Node.js via Java is a comprehensive solution for managing watermarks using Node.js via Java environment. With this tool, developers can easily perform operations such as adding, editing, searching, and removing watermarks from documents in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark supports all major operating systems and Node.js versions.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Update Watermarks in Excel via Node.js via Java"
+    title: "Update Watermarks in EXCEL via Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equips Node.js via Java developers with a robust API for programmatically updating watermarks within various Excel documents. This guide outlines the process:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equips Node.js via Java developers with a robust API for programmatically updating watermarks within various EXCEL documents. This guide outlines the process:
       
-      1. Start the process by supplying your Excel file as an argument to the **Watermarker** class constructor. Depending no your demands the file can be provided as either a stream or a reference to a local disk location.
+      1. Start the process by supplying your EXCEL file as an argument to the **Watermarker** class constructor. Depending no your demands the file can be provided as either a stream or a reference to a local disk location.
       2. Subsequently, leverage the **SearchCriteria** object to identify the specific watermarks requiring modification. This object enables the pinpointing of watermarks based on the desired properties.
       3. Upon successful execution of the search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to update properties such as dimensions, page positioning, text content, color scheme, image data, and more.
       4. Following the completion of watermark updates, persist the modified document. The API facilitates storage using either a local file path or a stream object.
@@ -161,9 +161,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Use images as watermarks via JavaScript"
+    title: "Update Watermarks Across Supported File Formats"
     exclude: "EXCEL"
-    description: "Our Node.js via Java solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+    description: "Efficiently update watermarks in PDF, Word, Excel, and more with GroupDocs.Watermark for Node.js via Java. Watermarked documents may enrich your business processes."
     items: 
         # format loop 1
         - name: "Watermark PDF"

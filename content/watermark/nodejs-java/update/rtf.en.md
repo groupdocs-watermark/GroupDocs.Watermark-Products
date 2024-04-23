@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:29
+date:  2024-04-23T16:20:09
 draft: false
 lang: en
 format: Rtf
@@ -12,39 +12,39 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Update RTF Document Watermark"
-head_description: "GroupDocs.Watermark for Node.js via Java allows to generate Word Document watermarks in Node.js via Java, J2SE 7.0 (1.7) or above applications."
+head_title: "Update RTF Watermarks Effortlessly"
+head_description: "Effortlessly customize watermarks in RTF documents using GroupDocs.Watermark for Node.js via Java. Involve our solution to your business logic."
 
 ############################# Header ############################
-title: "Update Watermark for Document of MS Word formats with Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
-subtitle: "GroupDocs.Watermark for Node.js via Java" 
+title: "Update Watermarks in RTF Documents Effortlessly" 
+description: "Tailor watermarks to your precise requirements with GroupDocs.Watermark for Node.js via Java. Protect your corporate documents using diverse watermarks. Modify watermark elements such as size, alignment, rotation angle, and placement effortlessly."
+subtitle: "GroupDocs.Watermark for Node.js via Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at NPM for free"
+    - title: "Get package at NPM"
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Node.js via Java"
+    title: "About GroupDocs.Watermark for Node.js via Java"
     link: "/watermark/nodejs-java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is designed for generation various Word watermarks using Node.js via Java. Our solution may enrich Node.js via Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Node.js via Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       GroupDocs.Watermark for Node.js via Java offers seamless customization of watermarks in RTF documents. This flexible tool allows developers to easily customize and tailor watermarks according to specific requirements in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Dynamic Watermark Edit for Rtf in Node.js via Java"
+    title: "Dynamic Watermark Edit for RTF in Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offers Node.js via Java developers a powerful API for editing watermarks across diverse Rtf documents. Here's a comprehensive guide to streamline your workflow:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offers Node.js via Java developers a powerful API for editing watermarks across diverse RTF documents. Here's a comprehensive guide to streamline your workflow:
       
-      1. **Start the Process:** Begin by providing your Rtf file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.
+      1. **Start the Process:** Begin by providing your RTF file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.
       2. **Pinpoint Watermarks:** Use the **SearchCriteria** object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.
       3. **Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.
       4. **Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object.
@@ -158,9 +158,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via JavaScript"
+    title: "Update Watermarks in Many File Formats"
     exclude: "RTF"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Node.js via Java API to your business processes."
+    description: "Effortlessly customize watermarks in PDF, Word, Excel, and more with GroupDocs.Watermark for Node.js via Java. Polish your business logic."
     items: 
         # format loop 1
         - name: "Watermark PDF"
