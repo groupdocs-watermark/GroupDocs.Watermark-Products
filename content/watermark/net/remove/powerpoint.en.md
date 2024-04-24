@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:42
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Powerpoint
@@ -12,30 +12,30 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Clear Watermarks in PowerPoint with C# .NET API"
-head_description: "Easily remove and manage watermarks in PowerPoint slides using our C# .NET API, ensuring clear and professional presentations."
+head_title: "Clear Watermarks in Powerpoint with C# .NET API"
+head_description: "Easily remove and manage watermarks in Powerpoint slides using our C# .NET API, ensuring clear and professional presentations."
 
 ############################# Header ############################
-title: "C# .NET PowerPoint Watermark Remover" 
-description: "Harness the power of the GroupDocs.Watermark C# .NET API to efficiently remove watermarks from PowerPoint presentations, preserving slide aesthetics while maintaining content integrity."
-subtitle: "GroupDocs.Watermark for .NET API" 
+title: "C# .NET Powerpoint Watermark Remover" 
+description: "Harness the power of the GroupDocs.Watermark for .NET C# API to efficiently remove watermarks from Powerpoint presentations, preserving slide aesthetics while maintaining content integrity."
+subtitle: "GroupDocs.Watermark for .NET C# API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Nuget Download"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET library"
+    title: "GroupDocs.Watermark for .NET C# library"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for .NET C# .NET library offers sophisticated tools to remove watermarks from PowerPoint presentations. It provides functionalities for seamless watermark deletion, ensuring that your presentations remain impactful and uncluttered. Suitable for business, educational, and training environments where clean, clear visuals are essential.
+       The GroupDocs.Watermark for .NET C# library offers sophisticated tools to remove watermarks from Powerpoint presentations. It provides functionalities for seamless watermark deletion, ensuring that your presentations remain impactful and uncluttered. Suitable for business, educational, and training environments where clean, clear visuals are essential.
 
 ############################# Steps ############################
 steps:
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Remove text watermark from POWERPOINT document
+        // Remove text watermark from Powerpoint document
 
-        // Provide Watermarker instance for document POWERPOINT source document
+        // Provide Watermarker instance for document Powerpoint source document
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // Remove selected watermarks from the document
@@ -89,7 +89,7 @@ steps:
 more_features:
   enable: true
   title: "Streamline Watermark Removal with C# .NET API"
-  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs, images, and office documents efficiently while preserving the original file quality."
+  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs and office documents efficiently while preserving the original file quality."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -163,9 +163,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Optimizing PowerPoint Presentations in .NET"
+    title: "Optimizing Powerpoint Presentations in .NET"
     exclude: "POWERPOINT"
-    description: "Discover how to utilize the GroupDocs.Watermark C# .NET API for clean and professional PowerPoint presentations, free of distracting watermark elements."
+    description: "Discover how to utilize the GroupDocs.Watermark for .NET C# API for clean and professional Powerpoint presentations, free of distracting watermark elements."
     items: 
         # format loop 1
         - name: "Watermark PDF"

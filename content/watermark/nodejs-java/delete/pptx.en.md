@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:46
+date:  2024-04-24T14:27:47
 draft: false
 lang: en
 format: Pptx
@@ -12,12 +12,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js API for PPTX Watermark Removal"
-head_description: "Efficiently remove watermarks from PPTX presentations using our Node.js API, ensuring clean and professional slides."
+head_title: "Node.js via Java API for PPTX Watermark Removal"
+head_description: "Efficiently remove watermarks from PPTX presentations using our Node.js via Java API, ensuring clean and professional slides."
 
 ############################# Header ############################
-title: "Node.js for PPTX Watermark Management" 
-description: "Utilize the GroupDocs.Watermark Node.js API to effectively delete or edit out watermarks in PPTX files, ideal for maintaining pristine presentation formatting."
+title: "Node.js via Java for PPTX Watermark Management" 
+description: "Utilize the GroupDocs.Watermark for Node.js via Java API to effectively delete or edit out watermarks in PPTX files, ideal for maintaining pristine presentation formatting."
 subtitle: "GroupDocs.Watermark for Node.js via Java API" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for Node.js via Java Node.js library offers robust tools for managing watermarks in PPTX presentations. From simple removals to complex edits, this API enables developers to maintain slide aesthetics and integrity, catering to business, educational, and professional needs.
+       The GroupDocs.Watermark for Node.js via Java Node.js via Java library offers robust tools for managing watermarks in PPTX presentations. From simple removals to complex edits, this API enables developers to maintain slide aesthetics and integrity, catering to business, educational, and professional needs.
 
 ############################# Steps ############################
 steps:
@@ -86,22 +86,22 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js API for Seamless Watermark Removal | GroupDocs.Watermark"
-  description: "Integrate our Node.js API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
+  title: "Node.js via Java API for Seamless Watermark Removal | GroupDocs.Watermark"
+  description: "Integrate our Node.js via Java API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js via Java environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
     # feature loop
-    - title: "Streamlined Watermark Removal for Node.js"
-      content: "Our API offers streamlined watermark removal tools designed specifically for Node.js applications, enabling developers to enhance document readability and professional appearance without complex coding."
+    - title: "Streamlined Watermark Removal for Node.js via Java"
+      content: "Our API offers streamlined watermark removal tools designed specifically for Node.js via Java applications, enabling developers to enhance document readability and professional appearance without complex coding."
 
     # feature loop
-    - title: "Node.js Batch Watermark Cleanup"
+    - title: "Node.js via Java Batch Watermark Cleanup"
       content: "Capitalize on the ability to clear watermarks from multiple documents in one go with our batch processing feature. This is especially useful for applications that need to handle large document flows quickly and efficiently."
 
     # feature loop
-    - title: "Flexible Watermark Editing via Node.js"
-      content: "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows Node.js developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
+    - title: "Flexible Watermark Editing via Node.js via Java"
+      content: "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows Node.js via Java developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
       
   code_samples:
     # code sample loop
@@ -156,9 +156,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Mastering PPTX Slide Watermark Removal with Node.js"
+    title: "Mastering PPTX Slide Watermark Removal with Node.js via Java"
     exclude: "PPTX"
-    description: "Discover the capabilities of the GroupDocs.Watermark Node.js API to manage and remove watermarks from PPTX slides, enhancing presentation clarity and professionalism without compromising on quality."
+    description: "Discover the capabilities of the GroupDocs.Watermark for Node.js via Java API to manage and remove watermarks from PPTX slides, enhancing presentation clarity and professionalism without compromising on quality."
     items: 
         # format loop 1
         - name: "Watermark PDF"

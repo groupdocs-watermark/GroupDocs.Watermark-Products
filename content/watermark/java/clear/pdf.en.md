@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:43
+date:  2024-04-24T14:27:45
 draft: false
 lang: en
 format: Pdf
@@ -13,18 +13,18 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java API for Clearing Watermarks in PDF Documents"
-head_description: "Enhance your PDFs by removing watermarks efficiently with our Java API, ensuring pristine and professional-looking documents."
+head_description: "Enhance your PDF by removing watermarks efficiently with our Java API, ensuring pristine and professional-looking documents."
 
 ############################# Header ############################
 title: "Java PDF Watermark Removal" 
-description: "Deploy the GroupDocs.Watermark Java API to effectively remove watermarks from PDF files, ensuring document integrity and clarity for high-stakes documents."
+description: "Deploy the GroupDocs.Watermark for Java API to effectively remove watermarks from PDF files, ensuring document integrity and clarity for high-stakes documents."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Maven Download"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for Java Java library offers developers sophisticated tools to seamlessly edit out or delete watermarks from PDF documents. Whether you're handling legal documents, business contracts, or academic papers, this tool ensures your PDFs remain clean and unaltered, maintaining their original layout and formatting.
+       The GroupDocs.Watermark for Java library offers developers sophisticated tools to seamlessly edit out or delete watermarks from PDF documents. Whether you're handling legal documents, business contracts, or academic papers, this tool ensures your PDF remain clean and unaltered, maintaining their original layout and formatting.
 
 ############################# Steps ############################
 steps:
@@ -99,7 +99,7 @@ steps:
 more_features:
   enable: true
   title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation."
+  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Optimizing PDF Documents with Java"
     exclude: "PDF"
-    description: "Discover how to utilize the GroupDocs.Watermark Java API for comprehensive watermark management in PDF documents, enhancing both security and aesthetics."
+    description: "Discover how to utilize the GroupDocs.Watermark for Java API for comprehensive watermark management in PDF documents, enhancing both security and aesthetics."
     items: 
         # format loop 1
         - name: "Watermark PDF"

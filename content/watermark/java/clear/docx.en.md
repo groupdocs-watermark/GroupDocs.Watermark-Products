@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:43
+date:  2024-04-24T14:27:45
 draft: false
 lang: en
 format: Docx
@@ -17,14 +17,14 @@ head_description: "Leverage our Java API to remove watermarks from DOCX document
 
 ############################# Header ############################
 title: "Java DOCX Watermark Remover" 
-description: "Utilize the GroupDocs.Watermark Java API for targeted removal of watermarks in DOCX files, perfect for achieving clean, professional documents."
+description: "Utilize the GroupDocs.Watermark for Java API for targeted removal of watermarks in DOCX files, perfect for achieving clean, professional documents."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Free Maven package download"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
@@ -99,7 +99,7 @@ steps:
 more_features:
   enable: true
   title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation."
+  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Mastering DOCX Watermark Removal with Java"
     exclude: "DOCX"
-    description: "Explore advanced features of the GroupDocs.Watermark Java API to efficiently clear watermarks from DOCX files, maintaining the original quality and layout of your documents."
+    description: "Explore advanced features of the GroupDocs.Watermark for Java API to efficiently clear watermarks from DOCX files, maintaining the original quality and layout of your documents."
     items: 
         # format loop 1
         - name: "Watermark PDF"

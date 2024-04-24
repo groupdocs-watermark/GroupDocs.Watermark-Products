@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:42
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Excel
@@ -18,24 +18,24 @@ head_description: "Utilize our C# .NET API to efficiently remove and manage wate
 ############################# Header ############################
 title: "C# .NET for Excel Watermark Operations" 
 description: "Enhance your Excel document workflows in .NET environments by seamlessly removing or editing watermarks, with tools designed for precision and ease of use."
-subtitle: "GroupDocs.Watermark for .NET API" 
+subtitle: "GroupDocs.Watermark for .NET C# API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Free Nuget package download"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET library"
+    title: "GroupDocs.Watermark for .NET C# library"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for .NET library for C# .NET provides robust tools for managing watermarks in Excel files. From removing unwanted marks to editing existing ones, it facilitates comprehensive watermark control, ideal for businesses that prioritize document cleanliness and professionalism.
+       The GroupDocs.Watermark for .NET C# library provides robust tools for managing watermarks in Excel files. From removing unwanted marks to editing existing ones, it facilitates comprehensive watermark control, ideal for businesses that prioritize document cleanliness and professionalism.
 
 ############################# Steps ############################
 steps:
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Remove text watermark from EXCEL document
+        // Remove text watermark from Excel document
 
-        // Provide Watermarker instance for document EXCEL source document
+        // Provide Watermarker instance for document Excel source document
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
             // Remove selected watermarks from the document
@@ -89,7 +89,7 @@ steps:
 more_features:
   enable: true
   title: "Streamline Watermark Removal with C# .NET API"
-  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs, images, and office documents efficiently while preserving the original file quality."
+  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs and office documents efficiently while preserving the original file quality."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Streamlining Excel Watermark Removal in .NET"
     exclude: "EXCEL"
-    description: "Learn how to apply the GroupDocs.Watermark C# .NET API to efficiently remove watermarks from Excel sheets, ensuring pristine and presentable financial reports and data analyses."
+    description: "Learn how to apply the GroupDocs.Watermark for .NET C# API to efficiently remove watermarks from Excel sheets, ensuring pristine and presentable financial reports and data analyses."
     items: 
         # format loop 1
         - name: "Watermark PDF"

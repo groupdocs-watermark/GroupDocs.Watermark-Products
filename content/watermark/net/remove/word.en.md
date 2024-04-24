@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:42
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Word
@@ -16,21 +16,21 @@ head_title: "C# .NET API for Word Watermark Removal"
 head_description: "Efficiently clear, delete, or edit out watermarks from Word documents using our C# .NET API for flawless document presentation."
 
 ############################# Header ############################
-title: "C# .NET Word Watermark Remover" 
-description: "Use the GroupDocs.Watermark C# .NET API to remove watermarks from Word documents, perfect for maintaining the integrity and cleanliness of legal and corporate documents."
-subtitle: "GroupDocs.Watermark for .NET API" 
+title: "Word Watermark Remover for C# .NET" 
+description: "Use the GroupDocs.Watermark for .NET C# API to remove watermarks from Word documents, perfect for maintaining the integrity and cleanliness of legal and corporate documents."
+subtitle: "GroupDocs.Watermark for .NET C# API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Download at Nuget for free"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET library"
+    title: "GroupDocs.Watermark for .NET C# library"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Remove text watermark from WORD document
+        // Remove text watermark from Word document
 
-        // Provide Watermarker instance for document WORD source document
+        // Provide Watermarker instance for document Word source document
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Remove selected watermarks from the document
@@ -89,7 +89,7 @@ steps:
 more_features:
   enable: true
   title: "Streamline Watermark Removal with C# .NET API"
-  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs, images, and office documents efficiently while preserving the original file quality."
+  description: "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs and office documents efficiently while preserving the original file quality."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:

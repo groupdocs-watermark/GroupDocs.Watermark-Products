@@ -1,7 +1,7 @@
 {
   "examples": {
-    "comment_1": "Delete text watermark in {{FileFormatUp}} document",
-    "comment_2": "Instantiate Watermarker with {{FileFormatUp}} document",
+    "comment_1": "Delete text watermark in {{FileformatCap}} document",
+    "comment_2": "Instantiate Watermarker with {{FileformatCap}} document",
     "comment_3": "Clear text watermarks suit search conditions",
     "comment_4": "Save processed file"
   },
@@ -16,16 +16,16 @@
     }
   },
   "more_features": {
-    "title": "Node.js API for Efficient Watermark Removal",
-    "description": "Leverage our Node.js API to seamlessly remove or clear watermarks from a variety of document formats including PDFs, images, and Office files. Designed for developers, this API integrates effortlessly with your Node.js applications, ensuring clean and clear documents.",
+    "title": "{{EnvName}} API for Efficient Watermark Removal",
+    "description": "Leverage our {{EnvName}} API to seamlessly remove or clear watermarks from a variety of document formats including PDFs and Office files. Designed for developers, this API integrates effortlessly with your {{EnvName}} applications, ensuring clean and clear documents.",
     "image_description": "Remove Watermark",
     "feature_1": {
-      "title": "Node.js Watermark Removal",
-      "content": "Use our Node.js API to remove watermarks with precision and ease. Perfect for applications requiring unmarked documents for presentation or further processing."
+      "title": "{{EnvName}} Watermark Removal",
+      "content": "Use our {{EnvName}} API to remove watermarks with precision and ease. Perfect for applications requiring unmarked documents for presentation or further processing."
     },
     "feature_2": {
       "title": "Batch Watermark removal processing",
-      "content": "Efficiently handle multiple documents with our bulk watermark removal feature. Save time and server resources by processing large batches of files simultaneously in your Node.js applications."
+      "content": "Efficiently handle multiple documents with our bulk watermark removal feature. Save time and server resources by processing large batches of files simultaneously in your {{EnvName}} applications."
     },
     "feature_3": {
       "title": "Edit out and Delete Watermarks Flexibly",
@@ -43,64 +43,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Node.js API for Excel Watermark Removal",
-      "description": "Integrate watermark removal capabilities in Excel files with our Node.js API, enhancing document clarity and data presentation."
+      "title": "{{EnvName}} API for {{FileformatCap}} Watermark Removal",
+      "description": "Integrate watermark removal capabilities in {{FileformatCap}} files with our {{EnvName}} API, enhancing document clarity and data presentation."
     },
     "header": {
-      "title": "Node.js API for Managing Excel Watermarks",
-      "description": "Utilize the GroupDocs.Watermark Node.js API to remove or alter watermarks in Excel documents, perfect for ensuring clean data sheets in automated workflows.",
+      "title": "{{EnvName}} API for Managing {{FileformatCap}} Watermarks",
+      "description": "Utilize the {{ProdFullName}} API to remove or alter watermarks in {{FileformatCap}} documents, perfect for ensuring clean data sheets in automated workflows.",
       "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "action_title": "Free download at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} Node.js library simplifies watermark management in Excel files, enabling developers to remove, adjust, or completely clear watermarks. This tool is essential for maintaining the integrity and presentation of financial and analytical data in Excel sheets, supporting a variety of business processes."
+      "content": "The {{ProdFullName}} library simplifies watermark management in {{FileformatCap}} files, enabling developers to remove, adjust, or completely clear watermarks. This tool is essential for maintaining the integrity and presentation of financial and analytical data in {{FileformatCap}} sheets, supporting a variety of business processes."
     },
     "formats": {
-      "title": "Enhancing Excel Files with Node.js",
-      "description": "Learn how the GroupDocs.Watermark Node.js API can help you manage and remove watermarks from Excel documents, ensuring unobstructed data visibility and professional document aesthetics."
+      "title": "Enhancing {{FileformatCap}} Files with {{EnvName}}",
+      "description": "Learn how the {{ProdFullName}} API can help you manage and remove watermarks from {{FileformatCap}} documents, ensuring unobstructed data visibility and professional document aesthetics."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Remove Word Watermarks Efficiently with Node.js API",
-      "description": "Optimize your document workflows by integrating watermark removal for Word files using our Node.js API."
+      "title": "Remove {{FileformatCap}} Watermarks Efficiently with {{EnvName}} API",
+      "description": "Optimize your document workflows by integrating watermark removal for {{FileformatCap}} files using our {{EnvName}} API."
     },
     "header": {
-      "title": "Node.js API for Word Watermark Removal",
-      "description": "Employ the GroupDocs.Watermark Node.js API to efficiently delete or edit out watermarks from Word documents, ideal for ensuring clean and professional document outputs.",
+      "title": "{{EnvName}} API for {{FileformatCap}} Watermark Removal",
+      "description": "Employ the {{ProdFullName}} API to efficiently delete or edit out watermarks from {{FileformatCap}} documents, ideal for ensuring clean and professional document outputs.",
       "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} Node.js library offers developers powerful tools to handle watermarks in Word documents. Whether you need to clear, edit, or remove watermarks, this API facilitates easy manipulation of document elements to maintain the visual quality and integrity of your documents, making it perfect for legal, academic, and corporate settings."
+      "content": "The {{ProdFullName}} library offers developers powerful tools to handle watermarks in {{FileformatCap}} documents. Whether you need to clear, edit, or remove watermarks, this API facilitates easy manipulation of document elements to maintain the visual quality and integrity of your documents, making it perfect for legal, academic, and corporate settings."
     },
     "formats": {
-      "title": "Effective Watermark Management in Word with Node.js",
-      "description": "Explore the capabilities of the GroupDocs.Watermark Node.js API to manage and remove watermarks in Word documents, ensuring clarity and readability for all your important files."
+      "title": "Effective Watermark Management in {{FileformatCap}} with {{EnvName}}",
+      "description": "Explore the capabilities of the {{ProdFullName}} API to manage and remove watermarks in {{FileformatCap}} documents, ensuring clarity and readability for all your important files."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Node.js API for PowerPoint Watermark Removal",
-      "description": "Enhance presentation clarity by seamlessly removing watermarks from PowerPoint slides with our Node.js API."
+      "title": "{{EnvName}} API for {{FileformatCap}} Watermark Removal",
+      "description": "Enhance presentation clarity by seamlessly removing watermarks from {{FileformatCap}} slides with our {{EnvName}} API."
     },
     "header": {
-      "title": "Node.js PowerPoint Watermark Control",
-      "description": "Use the GroupDocs.Watermark Node.js API to effectively clear watermarks from PowerPoint presentations, ensuring unobstructed and professional slide visuals.",
+      "title": "{{EnvName}} {{FileformatCap}} Watermark Control",
+      "description": "Use the {{ProdFullName}} API to effectively clear watermarks from {{FileformatCap}} presentations, ensuring unobstructed and professional slide visuals.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} Node.js library enables developers to easily remove and manage watermarks in PowerPoint files. This robust tool supports precise control over text and image watermarks, allowing for the maintenance of high-quality presentations in business and educational environments."
+      "content": "The {{ProdFullName}} library enables developers to easily remove and manage watermarks in {{FileformatCap}} files. This robust tool supports precise control over text and image watermarks, allowing for the maintenance of high-quality presentations in business and educational environments."
     },
     "formats": {
-      "title": "Optimizing PowerPoint Slides with Node.js",
-      "description": "Discover how the GroupDocs.Watermark Node.js API can streamline the process of removing watermarks from PowerPoint slides, facilitating clearer and more impactful presentations."
+      "title": "Optimizing {{FileformatCap}} Slides with {{EnvName}}",
+      "description": "Discover how the {{ProdFullName}} API can streamline the process of removing watermarks from {{FileformatCap}} slides, facilitating clearer and more impactful presentations."
     }
   }
 }

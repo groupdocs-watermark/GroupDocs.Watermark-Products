@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:46
+date:  2024-04-24T14:27:47
 draft: false
 lang: en
 format: Xlsx
@@ -13,7 +13,7 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Automated XLSX Watermark Removal"
-head_description: "Streamline XLSX document workflows with GroupDocs.Watermark's automated watermark deletion."
+head_description: "Streamline XLSX document workflows with GroupDocs.Watermark automated watermark deletion."
 
 ############################# Header ############################
 title: "Automate XLSX Watermark Deletion" 
@@ -24,7 +24,7 @@ header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at NPM for free"
+    - title: "NPM Download"
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
@@ -86,22 +86,22 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js API for Seamless Watermark Removal | GroupDocs.Watermark"
-  description: "Integrate our Node.js API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
+  title: "Node.js via Java API for Seamless Watermark Removal | GroupDocs.Watermark"
+  description: "Integrate our Node.js via Java API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js via Java environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
     # feature loop
-    - title: "Streamlined Watermark Removal for Node.js"
-      content: "Our API offers streamlined watermark removal tools designed specifically for Node.js applications, enabling developers to enhance document readability and professional appearance without complex coding."
+    - title: "Streamlined Watermark Removal for Node.js via Java"
+      content: "Our API offers streamlined watermark removal tools designed specifically for Node.js via Java applications, enabling developers to enhance document readability and professional appearance without complex coding."
 
     # feature loop
-    - title: "Node.js Batch Watermark Cleanup"
+    - title: "Node.js via Java Batch Watermark Cleanup"
       content: "Capitalize on the ability to clear watermarks from multiple documents in one go with our batch processing feature. This is especially useful for applications that need to handle large document flows quickly and efficiently."
 
     # feature loop
-    - title: "Flexible Watermark Editing via Node.js"
-      content: "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows Node.js developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
+    - title: "Flexible Watermark Editing via Node.js via Java"
+      content: "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows Node.js via Java developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
       
   code_samples:
     # code sample loop

@@ -1,7 +1,7 @@
 {
   "examples": {
-    "comment_1": "Clear text watermark in {{FileFormatUp}} document",
-    "comment_2": "Instantiate Watermarker with {{FileFormatUp}} document",
+    "comment_1": "Clear text watermark in {{FileformatCap}} document",
+    "comment_2": "Instantiate Watermarker with {{FileformatCap}} document",
     "comment_3": "Clear specific watermark",
     "comment_4": "Save processed file"
   },
@@ -16,12 +16,12 @@
     }
   },
   "more_features": {
-    "title": "Efficient Watermark Removal via Java API",
-    "description": "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs, images, and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity.",
-    "image_description": "Remove Watermark",
+    "title": "Efficient Watermark Removal via {{EnvName}} API",
+    "description": "Explore our {{EnvName}} API's robust capabilities to remove or clear watermarks from various document types, including PDFs and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity.",
+    "image_description": "Clear Watermark",
     "feature_1": {
       "title": "Remove Watermarks with Precision",
-      "content": "Utilize our Java API to precisely target and delete watermarks without disrupting the original document layout. Ideal for sensitive or official documents where clarity and accuracy are paramount."
+      "content": "Utilize our {{EnvName}} API to precisely target and delete watermarks without disrupting the original document layout. Ideal for sensitive or official documents where clarity and accuracy are paramount."
     },
     "feature_2": {
       "title": "Batch Watermark Deletion",
@@ -43,64 +43,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Remove Watermarks from Excel with Java API",
-      "description": "Easily clear, delete, or edit out watermarks from Excel files using the GroupDocs.Watermark Java API. Enhance document integrity and presentation."
+      "title": "Remove Watermarks from {{FileformatCap}} with {{EnvName}} API",
+      "description": "Easily clear, delete, or edit out watermarks from {{FileformatCap}} files using the {{ProdFullName}} API. Enhance document integrity and presentation."
     },
     "header": {
-      "title": "Java Excel Watermark Management",
-      "description": "Utilize the GroupDocs.Watermark API in Java to remove or edit watermarks in Excel documents efficiently and with precision.",
+      "title": "{{EnvName}} {{FileformatCap}} Watermark Management",
+      "description": "Utilize the {{ProdFullName}} to remove or edit watermarks in {{FileformatCap}} spreadsheets efficiently and with precision.",
       "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "action_title": "Free download at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "With the {{ProdFullName}} Java library, developers can manage watermarks in Excel files seamlessly. This tool supports operations like removing, adjusting, and searching for both text and image watermarks. Ideal for applications requiring clean visual presentation of data without compromising the document's security or layout."
+      "content": "With the {{ProdFullName}} library, developers can manage watermarks in {{FileformatCap}} files seamlessly. This tool supports operations like removing, adjusting, and searching for both text and image watermarks. Ideal for applications requiring clean visual presentation of data without compromising the document's security or layout."
     },
     "formats": {
-      "title": "Managing Excel Watermarks in Java",
-      "description": "Learn how the GroupDocs.Watermark Java API simplifies watermark removal from Excel documents, maintaining file integrity and clarity."
+      "title": "Managing {{FileformatCap}} Watermarks in {{EnvName}}",
+      "description": "Learn how the {{FileformatCap}} API simplifies watermark removal from {{FileformatCap}} documents, maintaining file integrity and clarity."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Remove Word Watermarks with Java API",
-      "description": "Streamline watermark deletion, editing, and clarity for Word documents using the GroupDocs.Watermark Java API."
+      "title": "Remove {{FileformatCap}} Watermarks with {{EnvName}} API",
+      "description": "Streamline watermark deletion, editing, and clarity for {{FileformatCap}} documents using the {{ProdFullName}} API."
     },
     "header": {
-      "title": "Java Word Watermark Removal",
-      "description": "Master the removal of watermarks from Word documents using the GroupDocs.Watermark Java API, ensuring pristine document outputs.",
+      "title": "{{EnvName}} {{FileformatCap}} Watermark Removal",
+      "description": "Master the removal of watermarks from {{FileformatCap}} documents using the {{ProdFullName}} API, ensuring pristine document outputs.",
       "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "action_title": "{{PackageStoreName}} Download"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "Leverage the {{ProdFullName}} Java library to effectively manage and clear watermarks from Word documents. This powerful tool provides capabilities to remove, adjust, and search for both text and image watermarks, facilitating the protection and management of document authenticity and appearance."
+      "content": "Leverage the {{ProdFullName}} library to effectively manage and clear watermarks from {{FileformatCap}} documents. This powerful tool provides capabilities to remove, adjust, and search for both text and image watermarks, facilitating the protection and management of document authenticity and appearance."
     },
     "formats": {
-      "title": "Handling Word Watermarks with Java",
-      "description": "Explore how to efficiently manage and remove watermarks in Word files, enhancing document security and readability with the GroupDocs.Watermark Java API."
+      "title": "Handling {{FileformatCap}} Watermarks with {{EnvName}}",
+      "description": "Explore how to efficiently manage and remove watermarks in {{FileformatCap}} files, enhancing document security and readability with the {{ProdFullName}} API."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Java API for Clearing Watermarks in Presentations",
-      "description": "Optimize your presentations by removing watermarks with our Java API, ensuring clean slides for professional use."
+      "title": "{{EnvName}} API for Clearing Watermarks in Presentations",
+      "description": "Optimize your presentations by removing watermarks with our {{EnvName}} API, ensuring clean slides for professional use."
     },
     "header": {
-      "title": "Java Presentation Watermark Cleaner",
-      "description": "Deploy the GroupDocs.Watermark Java API to effectively remove watermarks from presentation slides, enhancing visual clarity and audience engagement.",
+      "title": "{{EnvName}} Presentation Watermark Cleaner",
+      "description": "Deploy the {{ProdFullName}} API to effectively remove watermarks from presentation slides, enhancing visual clarity and audience engagement.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} Java library empowers developers to manipulate and eliminate watermarks from presentation files easily. It supports comprehensive features for adjusting and clearing both text and image watermarks, ensuring that your presentations maintain a professional appearance while securing the content integrity."
+      "content": "The {{ProdFullName}} {{EnvName}} library empowers developers to manipulate and eliminate watermarks from presentation files easily. It supports comprehensive features for adjusting and clearing both text and image watermarks, ensuring that your presentations maintain a professional appearance while securing the content integrity."
     },
     "formats": {
-      "title": "Efficient Watermark Management in Java for Presentations",
-      "description": "Discover the ease of managing and removing watermarks from presentations using the GroupDocs.Watermark Java API, tailored for maintaining high-quality professional slides."
+      "title": "Efficient Watermark Management in {{EnvName}} for Presentations",
+      "description": "Discover the ease of managing and removing watermarks from presentations using the {{ProdFullName}} API, tailored for maintaining high-quality professional slides."
     }
   }
 }

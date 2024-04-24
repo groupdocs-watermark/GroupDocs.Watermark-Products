@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:43
+date:  2024-04-24T14:27:45
 draft: false
 lang: en
 format: Rtf
@@ -17,14 +17,14 @@ head_description: "Simplify watermark removal in RTF documents using our Java AP
 
 ############################# Header ############################
 title: "Java RTF Watermark Remover" 
-description: "Use the GroupDocs.Watermark Java API to effectively remove watermarks from RTF documents, enhancing readability and maintaining the original format."
+description: "Use the GroupDocs.Watermark for Java API to effectively remove watermarks from RTF documents, enhancing readability and maintaining the original format."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Download at Maven for free"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for Java Java library provides advanced functionality for managing watermarks in RTF files. This robust tool allows developers to seamlessly clear or adjust watermarks, ensuring that the textual integrity and layout of RTF documents are preserved. Ideal for legal, academic, and professional environments where document clarity is paramount.
+       The GroupDocs.Watermark for Java library provides advanced functionality for managing watermarks in RTF files. This robust tool allows developers to seamlessly clear or adjust watermarks, ensuring that the textual integrity and layout of RTF documents are preserved. Ideal for legal, academic, and professional environments where document clarity is paramount.
 
 ############################# Steps ############################
 steps:
@@ -99,7 +99,7 @@ steps:
 more_features:
   enable: true
   title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation."
+  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Managing RTF Document Watermarks with Java"
     exclude: "RTF"
-    description: "Learn how to leverage the GroupDocs.Watermark Java API for effective watermark management in RTF documents, safeguarding content while enhancing document presentation."
+    description: "Learn how to leverage the GroupDocs.Watermark for Java API for effective watermark management in RTF documents, safeguarding content while enhancing document presentation."
     items: 
         # format loop 1
         - name: "Watermark PDF"
