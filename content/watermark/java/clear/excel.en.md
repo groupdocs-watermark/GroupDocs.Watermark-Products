@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:41
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Excel
@@ -13,18 +13,18 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Remove Watermarks from Excel with Java API"
-head_description: "Easily clear, delete, or edit out watermarks from Excel files using the GroupDocs.Watermark Java API. Enhance document integrity and presentation."
+head_description: "Easily clear, delete, or edit out watermarks from Excel files using the GroupDocs.Watermark for Java API. Enhance document integrity and presentation."
 
 ############################# Header ############################
 title: "Java Excel Watermark Management" 
-description: "Utilize the GroupDocs.Watermark API in Java to remove or edit watermarks in Excel documents efficiently and with precision."
+description: "Utilize the GroupDocs.Watermark for Java to remove or edit watermarks in Excel spreadsheets efficiently and with precision."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Free download at Maven"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       With the GroupDocs.Watermark for Java Java library, developers can manage watermarks in Excel files seamlessly. This tool supports operations like removing, adjusting, and searching for both text and image watermarks. Ideal for applications requiring clean visual presentation of data without compromising the document's security or layout.
+       With the GroupDocs.Watermark for Java library, developers can manage watermarks in Excel files seamlessly. This tool supports operations like removing, adjusting, and searching for both text and image watermarks. Ideal for applications requiring clean visual presentation of data without compromising the document's security or layout.
 
 ############################# Steps ############################
 steps:
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Clear text watermark in EXCEL document
+        // Clear text watermark in Excel document
 
-        // Instantiate Watermarker with EXCEL document
+        // Instantiate Watermarker with Excel document
         Watermarker watermarker = new Watermarker("input.xslx");
         
         // Clear specific watermark
@@ -100,9 +100,9 @@ steps:
 more_features:
   enable: true
   title: "Efficient Watermark Removal via Java API"
-  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs, images, and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
+  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
   image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  image_description: "Clear Watermark"
   features:
     # feature loop
     - title: "Remove Watermarks with Precision"
@@ -172,7 +172,7 @@ more_formats:
     enable: true
     title: "Managing Excel Watermarks in Java"
     exclude: "EXCEL"
-    description: "Learn how the GroupDocs.Watermark Java API simplifies watermark removal from Excel documents, maintaining file integrity and clarity."
+    description: "Learn how the Excel API simplifies watermark removal from Excel documents, maintaining file integrity and clarity."
     items: 
         # format loop 1
         - name: "Watermark PDF"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:43
+date:  2024-04-24T14:27:45
 draft: false
 lang: en
 format: Pptx
@@ -17,7 +17,7 @@ head_description: "Utilize our Java API to expertly clear watermarks from PPTX f
 
 ############################# Header ############################
 title: "Java PowerPoint Watermark Deletion" 
-description: "Master the art of watermark removal in PowerPoint presentations with the GroupDocs.Watermark Java API, designed to maintain the integrity and aesthetics of your slides."
+description: "Master the art of watermark removal in PowerPoint presentations with the GroupDocs.Watermark for Java API, designed to maintain the integrity and aesthetics of your slides."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       Harness the power of the GroupDocs.Watermark for Java Java library to manage watermarks in PowerPoint presentations. This tool allows for precise control over the removal and adjustment of both text and image watermarks, ensuring that your presentations remain professional and uncluttered. Ideal for business, educational, and professional settings where clear communication is key.
+       Harness the power of the GroupDocs.Watermark for Java library to manage watermarks in PowerPoint presentations. This tool allows for precise control over the removal and adjustment of both text and image watermarks, ensuring that your presentations remain professional and uncluttered. Ideal for business, educational, and professional settings where clear communication is key.
 
 ############################# Steps ############################
 steps:
@@ -99,7 +99,7 @@ steps:
 more_features:
   enable: true
   title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation."
+  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Enhancing PowerPoint Presentations with Java"
     exclude: "PPTX"
-    description: "Explore the capabilities of the GroupDocs.Watermark Java API in managing and removing watermarks from PPTX documents, helping you deliver clean, unmarked presentations."
+    description: "Explore the capabilities of the GroupDocs.Watermark for Java API in managing and removing watermarks from PPTX documents, helping you deliver clean, unmarked presentations."
     items: 
         # format loop 1
         - name: "Watermark PDF"

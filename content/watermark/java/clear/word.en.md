@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:41
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Word
@@ -13,18 +13,18 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Remove Word Watermarks with Java API"
-head_description: "Streamline watermark deletion, editing, and clarity for Word documents using the GroupDocs.Watermark Java API."
+head_description: "Streamline watermark deletion, editing, and clarity for Word documents using the GroupDocs.Watermark for Java API."
 
 ############################# Header ############################
 title: "Java Word Watermark Removal" 
-description: "Master the removal of watermarks from Word documents using the GroupDocs.Watermark Java API, ensuring pristine document outputs."
+description: "Master the removal of watermarks from Word documents using the GroupDocs.Watermark for Java API, ensuring pristine document outputs."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Maven Download"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       Leverage the GroupDocs.Watermark for Java Java library to effectively manage and clear watermarks from Word documents. This powerful tool provides capabilities to remove, adjust, and search for both text and image watermarks, facilitating the protection and management of document authenticity and appearance.
+       Leverage the GroupDocs.Watermark for Java library to effectively manage and clear watermarks from Word documents. This powerful tool provides capabilities to remove, adjust, and search for both text and image watermarks, facilitating the protection and management of document authenticity and appearance.
 
 ############################# Steps ############################
 steps:
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Clear text watermark in WORD document
+        // Clear text watermark in Word document
 
-        // Instantiate Watermarker with WORD document
+        // Instantiate Watermarker with Word document
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Clear specific watermark
@@ -100,9 +100,9 @@ steps:
 more_features:
   enable: true
   title: "Efficient Watermark Removal via Java API"
-  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs, images, and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
+  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
   image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  image_description: "Clear Watermark"
   features:
     # feature loop
     - title: "Remove Watermarks with Precision"
@@ -172,7 +172,7 @@ more_formats:
     enable: true
     title: "Handling Word Watermarks with Java"
     exclude: "WORD"
-    description: "Explore how to efficiently manage and remove watermarks in Word files, enhancing document security and readability with the GroupDocs.Watermark Java API."
+    description: "Explore how to efficiently manage and remove watermarks in Word files, enhancing document security and readability with the GroupDocs.Watermark for Java API."
     items: 
         # format loop 1
         - name: "Watermark PDF"

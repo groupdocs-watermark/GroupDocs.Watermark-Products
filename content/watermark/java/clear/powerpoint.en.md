@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:41
+date:  2024-04-24T14:27:43
 draft: false
 lang: en
 format: Powerpoint
@@ -17,7 +17,7 @@ head_description: "Optimize your presentations by removing watermarks with our J
 
 ############################# Header ############################
 title: "Java Presentation Watermark Cleaner" 
-description: "Deploy the GroupDocs.Watermark Java API to effectively remove watermarks from presentation slides, enhancing visual clarity and audience engagement."
+description: "Deploy the GroupDocs.Watermark for Java API to effectively remove watermarks from presentation slides, enhancing visual clarity and audience engagement."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Clear text watermark in POWERPOINT document
+        // Clear text watermark in Powerpoint document
 
-        // Instantiate Watermarker with POWERPOINT document
+        // Instantiate Watermarker with Powerpoint document
         Watermarker watermarker = new Watermarker("input.pptx");
         
         // Clear specific watermark
@@ -100,9 +100,9 @@ steps:
 more_features:
   enable: true
   title: "Efficient Watermark Removal via Java API"
-  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs, images, and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
+  description: "Explore our Java API's robust capabilities to remove or clear watermarks from various document types, including PDFs and Office files. Perfect for developers looking to maintain clean visuals and protect document integrity."
   image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  image_description: "Clear Watermark"
   features:
     # feature loop
     - title: "Remove Watermarks with Precision"
@@ -172,7 +172,7 @@ more_formats:
     enable: true
     title: "Efficient Watermark Management in Java for Presentations"
     exclude: "POWERPOINT"
-    description: "Discover the ease of managing and removing watermarks from presentations using the GroupDocs.Watermark Java API, tailored for maintaining high-quality professional slides."
+    description: "Discover the ease of managing and removing watermarks from presentations using the GroupDocs.Watermark for Java API, tailored for maintaining high-quality professional slides."
     items: 
         # format loop 1
         - name: "Watermark PDF"

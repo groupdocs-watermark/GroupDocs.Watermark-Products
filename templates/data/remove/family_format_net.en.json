@@ -1,7 +1,7 @@
 {
   "examples": {
-    "comment_1": "Remove text watermark from {{FileFormatUp}} document",
-    "comment_2": "Provide Watermarker instance for document {{FileFormatUp}} source document",
+    "comment_1": "Remove text watermark from {{FileformatCap}} document",
+    "comment_2": "Provide Watermarker instance for document {{FileformatCap}} source document",
     "comment_3": "Remove selected watermarks from the document",
     "comment_4": "Save file to provided path"
   },
@@ -16,16 +16,16 @@
     }
   },
   "more_features": {
-    "title": "Streamline Watermark Removal with C# .NET API",
-    "description": "Discover the powerful watermark removal capabilities of our C# .NET API, designed to seamlessly integrate with your .NET applications. Remove or clear watermarks from PDFs, images, and office documents efficiently while preserving the original file quality.",
+    "title": "Streamline Watermark Removal with {{ProgLang}} {{EnvName}} API",
+    "description": "Discover the powerful watermark removal capabilities of our {{ProgLang}} {{EnvName}} API, designed to seamlessly integrate with your {{EnvName}} applications. Remove or clear watermarks from PDFs and office documents efficiently while preserving the original file quality.",
     "image_description": "Remove Watermark",
     "feature_1": {
       "title": "Precise Watermark Clearance",
-      "content": "Our .NET API provides precise tools to cleanly remove watermarks from any document. Tailored for developers, this feature ensures that removing watermarks does not compromise document quality or layout."
+      "content": "Our {{EnvName}} API provides precise tools to cleanly remove watermarks from any document. Tailored for developers, this feature ensures that removing watermarks does not compromise document quality or layout."
     },
     "feature_2": {
       "title": "Automate Bulk Watermark Removal",
-      "content": "Automate the process of removing watermarks from large document sets with our .NET API. Ideal for businesses that handle large volumes of documents, improving both efficiency and document security."
+      "content": "Automate the process of removing watermarks from large document sets with our {{EnvName}} API. Ideal for businesses that handle large volumes of documents, improving both efficiency and document security."
     },
     "feature_3": {
       "title": "Advanced Watermark Editing Features",
@@ -43,64 +43,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Excel Watermark Removal with C# .NET API ",
-      "description": "Utilize our C# .NET API to efficiently remove and manage watermarks in Excel documents, ensuring data clarity and sheet integrity."
+      "title": "{{FileformatCap}} Watermark Removal with {{ProgLang}} {{EnvName}} API ",
+      "description": "Utilize our {{ProgLang}} {{EnvName}} API to efficiently remove and manage watermarks in {{FileformatCap}} documents, ensuring data clarity and sheet integrity."
     },
     "header": {
-      "title": "C# .NET for Excel Watermark Operations",
-      "description": "Enhance your Excel document workflows in .NET environments by seamlessly removing or editing watermarks, with tools designed for precision and ease of use.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "title": "{{ProgLang}} {{EnvName}} for {{FileformatCap}} Watermark Operations",
+      "description": "Enhance your {{FileformatCap}} document workflows in {{EnvName}} environments by seamlessly removing or editing watermarks, with tools designed for precision and ease of use.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Free {{PackageStoreName}} package download"
     },
     "about": {
-      "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} library for C# .NET provides robust tools for managing watermarks in Excel files. From removing unwanted marks to editing existing ones, it facilitates comprehensive watermark control, ideal for businesses that prioritize document cleanliness and professionalism."
+      "title": "{{ProdFullName}} {{ProgLang}} library",
+      "content": "The {{ProdFullName}} {{ProgLang}} library provides robust tools for managing watermarks in {{FileformatCap}} files. From removing unwanted marks to editing existing ones, it facilitates comprehensive watermark control, ideal for businesses that prioritize document cleanliness and professionalism."
     },
     "formats": {
-      "title": "Streamlining Excel Watermark Removal in .NET",
-      "description": "Learn how to apply the GroupDocs.Watermark C# .NET API to efficiently remove watermarks from Excel sheets, ensuring pristine and presentable financial reports and data analyses."
+      "title": "Streamlining {{FileformatCap}} Watermark Removal in {{EnvName}}",
+      "description": "Learn how to apply the {{ProdFullName}} {{ProgLang}} API to efficiently remove watermarks from {{FileformatCap}} sheets, ensuring pristine and presentable financial reports and data analyses."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "C# .NET API for Word Watermark Removal",
-      "description": "Efficiently clear, delete, or edit out watermarks from Word documents using our C# .NET API for flawless document presentation."
+      "title": "{{ProgLang}} {{EnvName}} API for {{FileformatCap}} Watermark Removal",
+      "description": "Efficiently clear, delete, or edit out watermarks from {{FileformatCap}} documents using our {{ProgLang}} {{EnvName}} API for flawless document presentation."
     },
     "header": {
-      "title": "C# .NET Word Watermark Remover",
-      "description": "Use the GroupDocs.Watermark C# .NET API to remove watermarks from Word documents, perfect for maintaining the integrity and cleanliness of legal and corporate documents.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "title": "{{FileformatCap}} Watermark Remover for {{ProgLang}} {{EnvName}}",
+      "description": "Use the {{ProdFullName}} {{ProgLang}} API to remove watermarks from {{FileformatCap}} documents, perfect for maintaining the integrity and cleanliness of legal and corporate documents.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
-      "title": "{{ProdFullName}} library",
-      "content": "With the {{ProdFullName}} C# .NET library, developers can easily manage and remove watermarks in Microsoft Word files. This tool supports a wide range of watermark operations, including the detection, modification, and removal of both text and image watermarks, ensuring documents are free of unwanted marks while preserving layout and formatting."
+      "title": "{{ProdFullName}} {{ProgLang}} library",
+      "content": "With the {{ProdFullName}} {{ProgLang}} {{EnvName}} library, developers can easily manage and remove watermarks in Microsoft Word files. This tool supports a wide range of watermark operations, including the detection, modification, and removal of both text and image watermarks, ensuring documents are free of unwanted marks while preserving layout and formatting."
     },
     "formats": {
-      "title": "Managing Word Watermarks with .NET",
-      "description": "Explore powerful features for watermark management in Word documents using our C# .NET API, designed to enhance document security and presentation without compromising on quality."
+      "title": "Managing {{FileformatCap}} Watermarks with {{EnvName}}",
+      "description": "Explore powerful features for watermark management in {{FileformatCap}} documents using our {{ProgLang}} {{EnvName}} API, designed to enhance document security and presentation without compromising on quality."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Clear Watermarks in PowerPoint with C# .NET API",
-      "description": "Easily remove and manage watermarks in PowerPoint slides using our C# .NET API, ensuring clear and professional presentations."
+      "title": "Clear Watermarks in {{FileformatCap}} with {{ProgLang}} {{EnvName}} API",
+      "description": "Easily remove and manage watermarks in {{FileformatCap}} slides using our {{ProgLang}} {{EnvName}} API, ensuring clear and professional presentations."
     },
     "header": {
-      "title": "C# .NET PowerPoint Watermark Remover",
-      "description": "Harness the power of the GroupDocs.Watermark C# .NET API to efficiently remove watermarks from PowerPoint presentations, preserving slide aesthetics while maintaining content integrity.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "title": "{{ProgLang}} {{EnvName}} {{FileformatCap}} Watermark Remover",
+      "description": "Harness the power of the {{ProdFullName}} {{ProgLang}} API to efficiently remove watermarks from {{FileformatCap}} presentations, preserving slide aesthetics while maintaining content integrity.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} Download"
     },
     "about": {
-      "title": "{{ProdFullName}} library",
-      "content": "The {{ProdFullName}} C# .NET library offers sophisticated tools to remove watermarks from PowerPoint presentations. It provides functionalities for seamless watermark deletion, ensuring that your presentations remain impactful and uncluttered. Suitable for business, educational, and training environments where clean, clear visuals are essential."
+      "title": "{{ProdFullName}} {{ProgLang}} library",
+      "content": "The {{ProdFullName}} {{ProgLang}} library offers sophisticated tools to remove watermarks from {{FileformatCap}} presentations. It provides functionalities for seamless watermark deletion, ensuring that your presentations remain impactful and uncluttered. Suitable for business, educational, and training environments where clean, clear visuals are essential."
     },
     "formats": {
-      "title": "Optimizing PowerPoint Presentations in .NET",
-      "description": "Discover how to utilize the GroupDocs.Watermark C# .NET API for clean and professional PowerPoint presentations, free of distracting watermark elements."
+      "title": "Optimizing {{FileformatCap}} Presentations in {{EnvName}}",
+      "description": "Discover how to utilize the {{ProdFullName}} {{ProgLang}} API for clean and professional {{FileformatCap}} presentations, free of distracting watermark elements."
     }
   }
 }

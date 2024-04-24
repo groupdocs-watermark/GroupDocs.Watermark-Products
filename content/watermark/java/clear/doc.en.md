@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:43
+date:  2024-04-24T14:27:45
 draft: false
 lang: en
 format: Doc
@@ -17,7 +17,7 @@ head_description: "Remove watermarks from DOC files seamlessly with our Java API
 
 ############################# Header ############################
 title: "Java API for Managing DOC Watermarks" 
-description: "Implement the GroupDocs.Watermark Java API to efficiently clear watermarks from DOC documents, ideal for maintaining pristine text and formatting."
+description: "Implement the GroupDocs.Watermark for Java API to efficiently clear watermarks from DOC documents, ideal for maintaining pristine text and formatting."
 subtitle: "GroupDocs.Watermark for Java API" 
 
 header_actions:
@@ -99,7 +99,7 @@ steps:
 more_features:
   enable: true
   title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs, Office files, and images, ensuring pristine document presentation."
+  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Enhancing DOC Files with Java"
     exclude: "DOC"
-    description: "Learn how to use the GroupDocs.Watermark Java API to effectively manage and remove watermarks from DOC files, enhancing document security and visual clarity."
+    description: "Learn how to use the GroupDocs.Watermark for Java API to effectively manage and remove watermarks from DOC files, enhancing document security and visual clarity."
     items: 
         # format loop 1
         - name: "Watermark PDF"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:45
+date:  2024-04-24T14:27:46
 draft: false
 lang: en
 format: Pdf
@@ -16,26 +16,26 @@ head_title: "Clear Watermarks in PDF Documents with C# .NET"
 head_description: "Efficiently remove watermarks from PDF files using our C# .NET API, ensuring professional and unblemished documents."
 
 ############################# Header ############################
-title: "C# .NET for PDF Watermark Removal" 
-description: "Utilize the GroupDocs.Watermark C# .NET API to seamlessly clear watermarks from PDF documents, perfect for maintaining document integrity and clarity."
-subtitle: "GroupDocs.Watermark for .NET API" 
+title: "Watermarks Removal in PDF files using C# .NET" 
+description: "Utilize the GroupDocs.Watermark for .NET C# API to seamlessly clear watermarks from PDF documents, perfect for maintaining document integrity and clarity."
+subtitle: "GroupDocs.Watermark for .NET C# API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Free download at Nuget"
       link: "https://releases.groupdocs.com/watermark/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for .NET library"
+    title: "GroupDocs.Watermark for .NET C# library"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for .NET C# .NET library provides powerful tools for managing watermarks in PDF documents. From simple removals to advanced edits, this API offers precise control over watermark elements, ensuring that your PDFs maintain their original quality and layout.
+       The GroupDocs.Watermark for .NET C# library provides powerful tools for managing watermarks in PDF documents. From simple removals to advanced edits, this API offers precise control over watermark elements, ensuring that your PDF maintain their original quality and layout.
 
 ############################# Steps ############################
 steps:
@@ -87,7 +87,7 @@ steps:
 more_features:
   enable: true
   title: "Advanced Watermark Removal with C# .NET API | GroupDocs.Watermark"
-  description: "Unlock advanced watermark removal capabilities with our C# .NET API. Designed for seamless integration with .NET applications, this API facilitates the removal of watermarks from PDFs, images, and Office documents, ensuring high-quality, unmarked outputs for professional use."
+  description: "Unlock advanced watermark removal capabilities with our C# .NET API. Designed for seamless integration with .NET applications, this API facilitates the removal of watermarks from PDFs and Office documents, ensuring high-quality, unmarked outputs for professional use."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
@@ -96,7 +96,7 @@ more_features:
       content: "Our C# API is engineered to provide precise watermark removal, ensuring that your documents retain their original quality and format. Ideal for legal, educational, and professional documents where clarity and authenticity are crucial."
 
     # feature loop
-    - title: "Automate Watermark Deletion for .NET"
+    - title: "Automate Watermark Deletion by C#"
       content: "Enhance your application's efficiency with automated watermark deletion capabilities. Our API allows for the processing of extensive document batches, facilitating large-scale operations without compromising performance."
 
     # feature loop
@@ -149,9 +149,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Enhancing PDFs with C# .NET Watermark Removal"
+    title: "Enhancing PDF with C# .NET Watermark Removal"
     exclude: "PDF"
-    description: "Explore how the GroupDocs.Watermark C# .NET API can streamline the process of removing watermarks from PDF files, ensuring clear and professional document outputs."
+    description: "Explore how the GroupDocs.Watermark for .NET C# API can streamline the process of removing watermarks from PDF files, ensuring clear and professional document outputs."
     items: 
         # format loop 1
         - name: "Watermark PDF"

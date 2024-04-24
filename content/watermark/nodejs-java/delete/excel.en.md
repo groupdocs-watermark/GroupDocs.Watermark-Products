@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T17:30:42
+date:  2024-04-24T14:27:44
 draft: false
 lang: en
 format: Excel
@@ -12,19 +12,19 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js API for Excel Watermark Removal"
-head_description: "Integrate watermark removal capabilities in Excel files with our Node.js API, enhancing document clarity and data presentation."
+head_title: "Node.js via Java API for Excel Watermark Removal"
+head_description: "Integrate watermark removal capabilities in Excel files with our Node.js via Java API, enhancing document clarity and data presentation."
 
 ############################# Header ############################
-title: "Node.js API for Managing Excel Watermarks" 
-description: "Utilize the GroupDocs.Watermark Node.js API to remove or alter watermarks in Excel documents, perfect for ensuring clean data sheets in automated workflows."
+title: "Node.js via Java API for Managing Excel Watermarks" 
+description: "Utilize the GroupDocs.Watermark for Node.js via Java API to remove or alter watermarks in Excel documents, perfect for ensuring clean data sheets in automated workflows."
 subtitle: "GroupDocs.Watermark for Node.js via Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free NPM download"
+    - title: "Free download at NPM"
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
@@ -35,7 +35,7 @@ about:
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       The GroupDocs.Watermark for Node.js via Java Node.js library simplifies watermark management in Excel files, enabling developers to remove, adjust, or completely clear watermarks. This tool is essential for maintaining the integrity and presentation of financial and analytical data in Excel sheets, supporting a variety of business processes.
+       The GroupDocs.Watermark for Node.js via Java library simplifies watermark management in Excel files, enabling developers to remove, adjust, or completely clear watermarks. This tool is essential for maintaining the integrity and presentation of financial and analytical data in Excel sheets, supporting a variety of business processes.
 
 ############################# Steps ############################
 steps:
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Delete text watermark in EXCEL document
+        // Delete text watermark in Excel document
 
-        // Instantiate Watermarker with EXCEL document
+        // Instantiate Watermarker with Excel document
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
         // Clear text watermarks suit search conditions
@@ -86,18 +86,18 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js API for Efficient Watermark Removal"
-  description: "Leverage our Node.js API to seamlessly remove or clear watermarks from a variety of document formats including PDFs, images, and Office files. Designed for developers, this API integrates effortlessly with your Node.js applications, ensuring clean and clear documents."
+  title: "Node.js via Java API for Efficient Watermark Removal"
+  description: "Leverage our Node.js via Java API to seamlessly remove or clear watermarks from a variety of document formats including PDFs and Office files. Designed for developers, this API integrates effortlessly with your Node.js via Java applications, ensuring clean and clear documents."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"
   features:
     # feature loop
-    - title: "Node.js Watermark Removal"
-      content: "Use our Node.js API to remove watermarks with precision and ease. Perfect for applications requiring unmarked documents for presentation or further processing."
+    - title: "Node.js via Java Watermark Removal"
+      content: "Use our Node.js via Java API to remove watermarks with precision and ease. Perfect for applications requiring unmarked documents for presentation or further processing."
 
     # feature loop
     - title: "Batch Watermark removal processing"
-      content: "Efficiently handle multiple documents with our bulk watermark removal feature. Save time and server resources by processing large batches of files simultaneously in your Node.js applications."
+      content: "Efficiently handle multiple documents with our bulk watermark removal feature. Save time and server resources by processing large batches of files simultaneously in your Node.js via Java applications."
 
     # feature loop
     - title: "Edit out and Delete Watermarks Flexibly"
@@ -156,9 +156,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Enhancing Excel Files with Node.js"
+    title: "Enhancing Excel Files with Node.js via Java"
     exclude: "EXCEL"
-    description: "Learn how the GroupDocs.Watermark Node.js API can help you manage and remove watermarks from Excel documents, ensuring unobstructed data visibility and professional document aesthetics."
+    description: "Learn how the GroupDocs.Watermark for Node.js via Java API can help you manage and remove watermarks from Excel documents, ensuring unobstructed data visibility and professional document aesthetics."
     items: 
         # format loop 1
         - name: "Watermark PDF"
