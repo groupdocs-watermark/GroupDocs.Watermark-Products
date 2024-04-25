@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:36
+date:  2024-04-25T17:42:46
 draft: false
 lang: en
 format: Png
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Secure PNGs with .NET C# Watermarks"
+head_title: "Secure PNG with .NET C# Watermarks"
 head_description: "Embed watermarks into PNG files using .NET C#, perfect for image copyright and security."
 
 ############################# Header ############################

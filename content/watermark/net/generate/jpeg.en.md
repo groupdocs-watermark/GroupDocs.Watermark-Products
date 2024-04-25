@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:36
+date:  2024-04-25T17:42:46
 draft: false
 lang: en
 format: Jpeg
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Protect JPEGs with .NET C# Watermarks"
+head_title: "Protect JPEG with .NET C# Watermarks"
 head_description: "Embed advanced watermarks in JPEG images using .NET C#, ensuring copyright and content security."
 
 ############################# Header ############################

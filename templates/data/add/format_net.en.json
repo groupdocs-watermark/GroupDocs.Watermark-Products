@@ -42,72 +42,72 @@
   },
   "doc": {
     "head": {
-      "title": "Watermark DOC Files with .NET C#",
-      "description": "Implement .NET C# watermarks in DOC files to protect and manage your Word documents effectively."
+      "title": "Watermark {{FileFormatUp}} Files with .NET C#",
+      "description": "Implement .NET C# watermarks in {{FileFormatUp}} files to protect and manage your Word documents effectively."
     },
     "header": {
-      "title": "Enhance DOC Security with C# Watermarks",
-      "description": "Utilize .NET C# to embed secure watermarks in DOC files, perfect for safeguarding MS Word documents in legal and corporate settings.",
+      "title": "Enhance {{FileFormatUp}} Security with C# Watermarks",
+      "description": "Utilize .NET C# to embed secure watermarks in {{FileFormatUp}} files, perfect for safeguarding MS Word documents in legal and corporate settings.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} leverages .NET C# to provide a sophisticated watermarking solution for DOC files, commonly utilized in Microsoft Word. This API allows developers to insert both text and graphic watermarks that are customizable for opacity, color, and position. Enhance document security with watermarks that can include timestamps, logos, or confidential labels, effectively deterring unauthorized use and ensuring document authenticity. The API is engineered to integrate seamlessly with .NET frameworks, making it ideal for applications in legal documentation, corporate communications, and sensitive information management. Compatible with .NET C# environments, {{ProdShortName}} offers a robust toolset for comprehensive document protection."
+      "content": "{{ProdFullName}} leverages .NET C# to provide a sophisticated watermarking solution for {{FileFormatUp}} files, commonly utilized in Microsoft Word. This API allows developers to insert both text and graphic watermarks that are customizable for opacity, color, and position. Enhance document security with watermarks that can include timestamps, logos, or confidential labels, effectively deterring unauthorized use and ensuring document authenticity. The API is engineered to integrate seamlessly with .NET frameworks, making it ideal for applications in legal documentation, corporate communications, and sensitive information management. Compatible with .NET C# environments, {{ProdShortName}} offers a robust toolset for comprehensive document protection."
     },
     "formats": {
       "title": "C# Watermarking for Word Documents",
-      "description": "Deploy .NET C# to apply precise and customizable watermarks in DOC files, reinforcing the security and integrity of your MS Word documents."
+      "description": "Deploy .NET C# to apply precise and customizable watermarks in {{FileFormatUp}} files, reinforcing the security and integrity of your MS Word documents."
     }
   },
   "docx": {
     "head": {
-      "title": "C# Watermarking for DOCX Files",
-      "description": "Use .NET C# to integrate watermarks into DOCX files, enhancing the security of your Word documents."
+      "title": "C# Watermarking for {{FileFormatUp}} Files",
+      "description": "Use .NET C# to integrate watermarks into {{FileFormatUp}} files, enhancing the security of your Word documents."
     },
     "header": {
-      "title": "Secure DOCX with .NET C# Watermarks",
-      "description": "Apply advanced watermarking techniques in DOCX files using .NET C#, perfect for protecting intellectual property in Word documents across industries.",
+      "title": "Secure {{FileFormatUp}} with .NET C# Watermarks",
+      "description": "Apply advanced watermarking techniques in {{FileFormatUp}} files using .NET C#, perfect for protecting intellectual property in Word documents across industries.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} harnesses the power of .NET C# to add sophisticated watermarking capabilities to DOCX files. This tool is designed for seamless integration into Microsoft Word environments, enabling the application of watermarks that are dynamically scalable, transparent, and positioned according to document layout. It's ideal for legal documents, confidential reports, and corporate policies that require both visibility and protection. Features include custom text styles, image watermarking, and conditional placement based on document content. With support for the latest .NET frameworks, {{ProdShortName}} ensures that your document security measures are state-of-the-art."
+      "content": "{{ProdFullName}} harnesses the power of .NET C# to add sophisticated watermarking capabilities to {{FileFormatUp}} files. This tool is designed for seamless integration into Microsoft Word environments, enabling the application of watermarks that are dynamically scalable, transparent, and positioned according to document layout. It's ideal for legal documents, confidential reports, and corporate policies that require both visibility and protection. Features include custom text styles, image watermarking, and conditional placement based on document content. With support for the latest .NET frameworks, {{ProdShortName}} ensures that your document security measures are state-of-the-art."
     },
     "formats": {
-      "title": "Implementing Watermarks in DOCX with C#",
-      "description": "Master the application of custom, secure watermarks in DOCX files using .NET C#, essential for document integrity and copyright protection."
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Master the application of custom, secure watermarks in {{FileFormatUp}} files using .NET C#, essential for document integrity and copyright protection."
     }
   },
   "jpeg": {
     "head": {
-      "title": "Protect JPEGs with .NET C# Watermarks",
-      "description": "Embed advanced watermarks in JPEG images using .NET C#, ensuring copyright and content security."
+      "title": "Protect {{FileFormatUp}} with .NET C# Watermarks",
+      "description": "Embed advanced watermarks in {{FileFormatUp}} images using .NET C#, ensuring copyright and content security."
     },
     "header": {
-      "title": "Advanced C# Watermarking for JPEG Files",
-      "description": "Utilize .NET C# to apply secure, customizable watermarks to JPEG images, ideal for protecting digital art and photographic copyrights.",
+      "title": "Advanced C# Watermarking for {{FileFormatUp}} Files",
+      "description": "Utilize .NET C# to apply secure, customizable watermarks to {{FileFormatUp}} images, ideal for protecting digital art and photographic copyrights.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} offers .NET C# developers robust tools to watermark JPEG images effectively. This API integrates directly with digital image processing workflows, enabling the addition of watermarks that can be text-based, logo-centric, or patterned. Customization options include adjusting opacity, scaling size, and modifying rotation to ensure the watermark blends seamlessly without detracting from the image's original aesthetics. Ideal for photographers, graphic designers, and content creators, {{ProdShortName}} protects against unauthorized use while maintaining high image quality. Compatible with all major .NET versions, this solution is critical for anyone needing to secure visual content in a digital landscape."
+      "content": "{{ProdFullName}} offers .NET C# developers robust tools to watermark {{FileFormatUp}} images effectively. This API integrates directly with digital image processing workflows, enabling the addition of watermarks that can be text-based, logo-centric, or patterned. Customization options include adjusting opacity, scaling size, and modifying rotation to ensure the watermark blends seamlessly without detracting from the image's original aesthetics. Ideal for photographers, graphic designers, and content creators, {{ProdShortName}} protects against unauthorized use while maintaining high image quality. Compatible with all major .NET versions, this solution is critical for anyone needing to secure visual content in a digital landscape."
     },
     "formats": {
-      "title": "C# Watermark Solutions for JPEG Images",
-      "description": "Deploy .NET C# to create and manage watermarks in JPEG files, enhancing security for images across digital platforms."
+      "title": "C# Watermark Solutions for {{FileFormatUp}} Images",
+      "description": "Deploy .NET C# to create and manage watermarks in {{FileFormatUp}} files, enhancing security for images across digital platforms."
     }
   },
   "jpg": {
     "head": {
-      "title": "C# Watermarking for JPG Images",
-      "description": "Integrate watermarking into JPG files using .NET C#, safeguarding your digital images effectively."
+      "title": "C# Watermarking for {{FileFormatUp}} Images",
+      "description": "Integrate watermarking into {{FileFormatUp}} files using .NET C#, safeguarding your digital images effectively."
     },
     "header": {
-      "title": "Secure JPG Images with .NET C#",
-      "description": "Apply .NET C# to create robust watermarks for JPG images, ideal for copyright protection and preventing unauthorized use.",
+      "title": "Secure {{FileFormatUp}} Images with .NET C#",
+      "description": "Apply .NET C# to create robust watermarks for {{FileFormatUp}} images, ideal for copyright protection and preventing unauthorized use.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -116,48 +116,48 @@
       "content": "{{ProdFullName}} provides .NET C# developers with an advanced framework for adding watermarks to JPG images. This API allows for the precise embedding of text, logos, and graphic watermarks that are customizable in opacity, position, and size, perfect for digital media and professional photography. Enhance your images' security without sacrificing quality, with features designed to embed watermarks that deter piracy while maintaining the integrity of the original artwork. Suitable for a wide range of applications from personal photo protection to commercial use in advertising and media, {{ProdShortName}} ensures that your visual assets are uniquely marked and legally protected."
     },
     "formats": {
-      "title": "Implement Watermarks in JPG with C#",
-      "description": "Leverage .NET C# for embedding invisible or visible watermarks in JPG files, essential for secure and recognizable digital content."
+      "title": "Implement Watermarks in {{FileFormatUp}} with C#",
+      "description": "Leverage .NET C# for embedding invisible or visible watermarks in {{FileFormatUp}} files, essential for secure and recognizable digital content."
     }
   },
   "pdf": {
     "head": {
-      "title": "C# Watermarks for Secure PDF Documents",
-      "description": "Utilize .NET C# to embed watermarks in PDFs, securing official documents and sensitive information."
+      "title": "C# Watermarks for Secure {{FileFormatUp}} Documents",
+      "description": "Utilize .NET C# to embed watermarks in {{FileFormatUp}}, securing official documents and sensitive information."
     },
     "header": {
-      "title": "Enhance PDF Security with C# Watermarks",
-      "description": "Implement .NET C# to apply watermarks in PDF documents, ensuring protection for legal, financial, and official records.",
+      "title": "Enhance {{FileFormatUp}} Security with C# Watermarks",
+      "description": "Implement .NET C# to apply watermarks in {{FileFormatUp}} documents, ensuring protection for legal, financial, and official records.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} offers .NET C# developers a powerful API to insert watermarks into PDF files, an essential tool for document security in corporate, legal, and government sectors. This API supports comprehensive watermark customization options including text formatting, image integration, and dynamic placement to accommodate various document layouts. Whether securing confidential agreements, protecting copyright material, or marking proprietary information, {{ProdShortName}} ensures that all PDFs convey ownership clearly and professionally. Additional features include watermark rotation, transparency control, and layering capabilities, compatible with all modern .NET frameworks."
+      "content": "{{ProdFullName}} offers .NET C# developers a powerful API to insert watermarks into {{FileFormatUp}} files, an essential tool for document security in corporate, legal, and government sectors. This API supports comprehensive watermark customization options including text formatting, image integration, and dynamic placement to accommodate various document layouts. Whether securing confidential agreements, protecting copyright material, or marking proprietary information, {{ProdShortName}} ensures that all PDFs convey ownership clearly and professionally. Additional features include watermark rotation, transparency control, and layering capabilities, compatible with all modern .NET frameworks."
     },
     "formats": {
-      "title": "Securing PDF Files with .NET C# Watermarks",
-      "description": "Use .NET C# to embed secure, tailored watermarks in PDF documents, ideal for safeguarding official and sensitive information."
+      "title": "Securing {{FileFormatUp}} Files with .NET C# Watermarks",
+      "description": "Use .NET C# to embed secure, tailored watermarks in {{FileFormatUp}} documents, ideal for safeguarding official and sensitive information."
     }
   },
   "png": {
     "head": {
-      "title": "Secure PNGs with .NET C# Watermarks",
-      "description": "Embed watermarks into PNG files using .NET C#, perfect for image copyright and security."
+      "title": "Secure {{FileFormatUp}} with .NET C# Watermarks",
+      "description": "Embed watermarks into {{FileFormatUp}} files using .NET C#, perfect for image copyright and security."
     },
     "header": {
-      "title": "C# Watermarking for PNG Files",
-      "description": "Utilize .NET C# to apply advanced watermarks to PNG images, safeguarding artistic and digital content effectively.",
+      "title": "C# Watermarking for {{FileFormatUp}} Files",
+      "description": "Utilize .NET C# to apply advanced watermarks to {{FileFormatUp}} images, safeguarding artistic and digital content effectively.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a specialized .NET C# toolkit for embedding watermarks in PNG files, catering to artists, designers, and content creators who need to protect their visual assets. This API allows for the seamless addition of both transparent and opaque watermarks that can be intricately positioned and scaled to maintain the original image's integrity while ensuring legal protection. Features include custom text and image watermarks, precise control over watermark opacity, and the ability to add multi-layer watermarks for enhanced security. Whether for personal use or professional portfolios, {{ProdShortName}} ensures your PNG images are protected against unauthorized reproduction and use, fully supported on .NET environments."
+      "content": "{{ProdFullName}} provides a specialized .NET C# toolkit for embedding watermarks in {{FileFormatUp}} files, catering to artists, designers, and content creators who need to protect their visual assets. This API allows for the seamless addition of both transparent and opaque watermarks that can be intricately positioned and scaled to maintain the original image's integrity while ensuring legal protection. Features include custom text and image watermarks, precise control over watermark opacity, and the ability to add multi-layer watermarks for enhanced security. Whether for personal use or professional portfolios, {{ProdShortName}} ensures your PNG images are protected against unauthorized reproduction and use, fully supported on .NET environments."
     },
     "formats": {
-      "title": "Implementing Watermarks in PNG with C#",
-      "description": "Deploy .NET C# to create discreet or bold watermarks in PNG images, ensuring both aesthetic flexibility and robust copyright protection."
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Deploy .NET C# to create discreet or bold watermarks in {{FileFormatUp}} images, ensuring both aesthetic flexibility and robust copyright protection."
     }
   },
   "ppt": {
@@ -166,7 +166,7 @@
       "description": "Apply dynamic watermarks to PowerPoint files using .NET C#, enhancing presentation security."
     },
     "header": {
-      "title": "Protect PPTs with .NET C# Watermarks",
+      "title": "Protect {{FileFormatUp}} with .NET C# Watermarks",
       "description": "Utilize .NET C# to insert customizable watermarks into PowerPoint presentations, ideal for securing business and academic content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -176,78 +176,78 @@
       "content": "{{ProdFullName}} equips .NET C# developers with the tools to integrate watermarks seamlessly into PowerPoint (PPT) files. This API is perfect for adding both visible and invisible watermarks, ensuring presentations are protected against unauthorized use and distribution. With advanced features such as watermark customization for text style, size, color, and opacity, as well as image watermarking capabilities, {{ProdShortName}} enhances the security and professionalism of your slides. It is especially useful for corporate, educational, and training environments where document integrity is crucial. Fully compatible with all versions of .NET, including .NET Core and .NET Framework."
     },
     "formats": {
-      "title": "Securing PPT Files with C# Watermarks",
+      "title": "Securing {{FileFormatUp}} Files with C# Watermarks",
       "description": "Embed advanced watermarks into PowerPoint documents using .NET C#, safeguarding your presentations from misuse and copyright infringement."
     }
   },
   "pptx": {
     "head": {
-      "title": "Embed Watermarks in PPTX with C#",
-      "description": "Secure your PPTX presentations with .NET C# applied watermarks, protecting intellectual property."
+      "title": "Embed Watermarks in {{FileFormatUp}} with C#",
+      "description": "Secure your {{FileFormatUp}} presentations with .NET C# applied watermarks, protecting intellectual property."
     },
     "header": {
-      "title": "Advanced C# Watermarking for PPTX",
-      "description": "Implement .NET C# to create robust watermarks in PPTX files, perfect for enhancing security in corporate and educational presentations.",
+      "title": "Advanced C# Watermarking for {{FileFormatUp}}",
+      "description": "Implement .NET C# to create robust watermarks in {{FileFormatUp}} files, perfect for enhancing security in corporate and educational presentations.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive .NET C# solution for watermarking PPTX files, suitable for professionals needing to secure presentation materials. This API supports the integration of watermarks that are customizable and can include text, logos, or other graphics. It offers features such as adjusting transparency, size, and positioning, enabling watermarks to be both effective and subtle. Ideal for businesses, educators, and anyone presenting sensitive or proprietary information, {{ProdShortName}} ensures that your presentations are not only secure but also maintain their aesthetic quality. Compatible with .NET 5 and onwards, this tool extends robust support to modern Microsoft Office environments."
+      "content": "{{ProdFullName}} provides a comprehensive .NET C# solution for watermarking {{FileFormatUp}} files, suitable for professionals needing to secure presentation materials. This API supports the integration of watermarks that are customizable and can include text, logos, or other graphics. It offers features such as adjusting transparency, size, and positioning, enabling watermarks to be both effective and subtle. Ideal for businesses, educators, and anyone presenting sensitive or proprietary information, {{ProdShortName}} ensures that your presentations are not only secure but also maintain their aesthetic quality. Compatible with .NET 5 and onwards, this tool extends robust support to modern Microsoft Office environments."
     },
     "formats": {
-      "title": "C# Watermark Solutions for PPTX Files",
-      "description": "Leverage .NET C# to apply discrete watermarks in PPTX files, safeguarding your presentations from unauthorized distribution."
+      "title": "C# Watermark Solutions for {{FileFormatUp}} Files",
+      "description": "Leverage .NET C# to apply discrete watermarks in {{FileFormatUp}} files, safeguarding your presentations from unauthorized distribution."
     }
   },
   "rtf": {
     "head": {
-      "title": "C# Watermarking for RTF Documents",
-      "description": "Incorporate .NET C# watermarks into RTF files to enhance the security of your Word documents."
+      "title": "C# Watermarking for {{FileFormatUp}} Documents",
+      "description": "Incorporate .NET C# watermarks into {{FileFormatUp}} files to enhance the security of your Word documents."
     },
     "header": {
-      "title": "Secure RTF with .NET C# Watermarks",
-      "description": "Use .NET C# to apply secure, customizable watermarks to RTF files, perfect for maintaining document integrity within MS Word environments.",
+      "title": "Secure {{FileFormatUp}} with .NET C# Watermarks",
+      "description": "Use .NET C# to apply secure, customizable watermarks to {{FileFormatUp}} files, perfect for maintaining document integrity within MS Word environments.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} equips .NET C# developers with sophisticated tools to add watermarks to RTF documents effectively. This API enables the integration of both visible and transparent watermarks that can be customized in terms of font, color, size, and position, ensuring they blend seamlessly into the document without obstructing readability. Ideal for legal documents, intellectual property papers, and sensitive communication, {{ProdShortName}} provides essential protection against unauthorized copying and modification. The tool is designed to be compatible with all versions of .NET, facilitating a secure and adaptable solution for document watermarking."
+      "content": "{{ProdFullName}} equips .NET C# developers with sophisticated tools to add watermarks to {{FileFormatUp}} documents effectively. This API enables the integration of both visible and transparent watermarks that can be customized in terms of font, color, size, and position, ensuring they blend seamlessly into the document without obstructing readability. Ideal for legal documents, intellectual property papers, and sensitive communication, {{ProdShortName}} provides essential protection against unauthorized copying and modification. The tool is designed to be compatible with all versions of .NET, facilitating a secure and adaptable solution for document watermarking."
     },
     "formats": {
-      "title": "Implementing Watermarks in RTF with C#",
-      "description": "Deploy .NET C# to create robust and subtle watermarks in RTF documents, reinforcing the security and authenticity of your Word files."
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Deploy .NET C# to create robust and subtle watermarks in {{FileFormatUp}} documents, reinforcing the security and authenticity of your Word files."
     }
   },
   "tif": {
     "head": {
-      "title": "Generate C# Watermarks for TIF Images",
-      "description": "Utilize .NET C# to apply precise watermarks to TIF images, securing your photographic content."
+      "title": "Generate C# Watermarks for {{FileFormatUp}} Images",
+      "description": "Utilize .NET C# to apply precise watermarks to {{FileFormatUp}} images, securing your photographic content."
     },
     "header": {
-      "title": "Advanced Watermarking for TIF with C#",
-      "description": "Embed high-quality watermarks into TIF images using .NET C#, ideal for photographers and archivists who require enhanced copyright protection.",
+      "title": "Advanced Watermarking for {{FileFormatUp}} with C#",
+      "description": "Embed high-quality watermarks into {{FileFormatUp}} images using .NET C#, ideal for photographers and archivists who require enhanced copyright protection.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} offers a robust .NET C# framework for watermarking TIF files, tailored to the needs of professionals in photography and digital archiving. This API allows for the seamless addition of watermarks that are customizable for opacity, size, and position, perfectly blending with the high-resolution nature of TIF images. Features include the ability to apply both text and graphic watermarks, which are essential for asserting copyright, preventing unauthorized use, and enhancing image traceability. With advanced capabilities like batch processing and dynamic watermark placement, {{ProdShortName}} ensures your images are protected without compromising on quality. Compatible with all contemporary .NET platforms, this tool is a must-have for securing valuable image assets."
+      "content": "{{ProdFullName}} offers a robust .NET C# framework for watermarking {{FileFormatUp}} files, tailored to the needs of professionals in photography and digital archiving. This API allows for the seamless addition of watermarks that are customizable for opacity, size, and position, perfectly blending with the high-resolution nature of TIF images. Features include the ability to apply both text and graphic watermarks, which are essential for asserting copyright, preventing unauthorized use, and enhancing image traceability. With advanced capabilities like batch processing and dynamic watermark placement, {{ProdShortName}} ensures your images are protected without compromising on quality. Compatible with all contemporary .NET platforms, this tool is a must-have for securing valuable image assets."
     },
     "formats": {
-      "title": "Securing TIF Images with .NET C#",
-      "description": "Apply .NET C# to embed custom, unobtrusive watermarks in TIF images, safeguarding against unauthorized reproduction and ensuring copyright integrity."
+      "title": "Securing {{FileFormatUp}} Images with .NET C#",
+      "description": "Apply .NET C# to embed custom, unobtrusive watermarks in {{FileFormatUp}} images, safeguarding against unauthorized reproduction and ensuring copyright integrity."
     }
   },
   "tiff": {
     "head": {
-      "title": "Generate TIFF Watermarks with C#",
-      "description": "Compose and add precise watermarks to TIFF images using .NET C#, safeguarding your digital content."
+      "title": "Generate {{FileFormatUp}} Watermarks with C#",
+      "description": "Compose and add precise watermarks to {{FileFormatUp}} images using .NET C#, safeguarding your digital content."
     },
     "header": {
-      "title": "Compose Watermarks for TIFF with C#",
-      "description": "Generate robust, customized watermarks in TIFF files using .NET C#, essential for protecting and managing digital and archival images.",
+      "title": "Compose Watermarks for {{FileFormatUp}} with C#",
+      "description": "Generate robust, customized watermarks in {{FileFormatUp}} files using .NET C#, essential for protecting and managing digital and archival images.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -256,18 +256,18 @@
       "content": "{{ProdFullName}} provides a comprehensive .NET C# toolkit to generate, compose, and add watermarks to TIFF files. This solution caters to the unique needs of digital archives and professional photography, where maintaining image quality and copyright protection is paramount. Users can customize watermark opacity, scale, and location to ensure they are integrated seamlessly without detracting from the image. The ability to generate textual or graphical watermarks, coupled with advanced features like watermark layering and conditional formatting, makes {{ProdShortName}} an indispensable tool for anyone needing to safeguard their visual assets. Fully compatible with the latest .NET environments, this API enhances your ability to manage and secure TIFF images effectively."
     },
     "formats": {
-      "title": "Enhancing TIFF Security with C# Watermarks",
-      "description": "Use .NET C# to generate and integrate custom watermarks in TIFF files, adding a layer of security and copyright control to your images."
+      "title": "Enhancing {{FileFormatUp}} Security with C# Watermarks",
+      "description": "Use .NET C# to generate and integrate custom watermarks in {{FileFormatUp}} files, adding a layer of security and copyright control to your images."
     }
   },
   "webp": {
     "head": {
-      "title": "Add Watermarks to WEBP with C#",
-      "description": "Utilize .NET C# to dynamically generate and embed watermarks in WEBP images, ensuring comprehensive protection."
+      "title": "Add Watermarks to {{FileFormatUp}} with C#",
+      "description": "Utilize .NET C# to dynamically generate and embed watermarks in {{FileFormatUp}} images, ensuring comprehensive protection."
     },
     "header": {
-      "title": "Generate Watermarks for WEBP with C#",
-      "description": "Create and apply custom watermarks to WEBP files using .NET C#, perfect for digital artists and content creators needing to secure their work.",
+      "title": "Generate Watermarks for {{FileFormatUp}} with C#",
+      "description": "Create and apply custom watermarks to {{FileFormatUp}} files using .NET C#, perfect for digital artists and content creators needing to secure their work.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -276,18 +276,18 @@
       "content": "{{ProdFullName}} provides developers with the capabilities to generate, compose, and add sophisticated watermarks to WEBP images via .NET C#. This API allows for precise customization of watermarks including text, logos, and digital signatures. Tailor your watermark's opacity, size, and positioning to achieve perfect integration without compromising the image's aesthetics. Ideal for photographers, graphic designers, and any professional involved in producing and distributing digital images, {{ProdShortName}} ensures that your copyrights are securely embedded within your WEBP files. Compatible with all modern .NET frameworks, it enhances image security with minimal impact on the visual quality."
     },
     "formats": {
-      "title": "Securing WEBP Images with .NET C# Watermarks",
-      "description": "Embed advanced, customizable watermarks into WEBP images using .NET C#, providing robust protection and visual claim to your creative works."
+      "title": "Securing {{FileFormatUp}} Images with .NET C# Watermarks",
+      "description": "Embed advanced, customizable watermarks into {{FileFormatUp}} images using .NET C#, providing robust protection and visual claim to your creative works."
     }
   },
   "xls": {
     "head": {
-      "title": "Create Watermarks in XLS with C#",
-      "description": "Use .NET C# to add and manage watermarks in XLS files, enhancing the security of your Excel documents."
+      "title": "Create Watermarks in {{FileFormatUp}} with C#",
+      "description": "Use .NET C# to add and manage watermarks in {{FileFormatUp}} files, enhancing the security of your Excel documents."
     },
     "header": {
-      "title": "Generate C# Watermarks for XLS Files",
-      "description": "Implement robust watermarking in XLS spreadsheets with .NET C#, tailored for protecting financial and personal data in Excel.",
+      "title": "Generate C# Watermarks for {{FileFormatUp}} Files",
+      "description": "Implement robust watermarking in {{FileFormatUp}} spreadsheets with .NET C#, tailored for protecting financial and personal data in Excel.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -296,18 +296,18 @@
       "content": "{{ProdFullName}} equips .NET C# developers with the tools to create, compose, and embed watermarks in XLS files effectively. This API is designed for seamless integration into Excel workflows, facilitating the addition of both visible and invisible watermarks that are customizable for opacity, text, and images. Ideal for securing sensitive information in financial spreadsheets, client reports, or any Excel document that requires confidentiality, {{ProdShortName}} offers advanced features such as conditional watermark placement based on content analysis. With support for all .NET environments, this solution ensures your documents are protected against unauthorized use and distribution."
     },
     "formats": {
-      "title": "Applying Watermarks to XLS with C#",
-      "description": "Utilize .NET C# to dynamically generate and integrate custom watermarks into XLS files, safeguarding your Excel data effectively."
+      "title": "Applying Watermarks to {{FileFormatUp}} with C#",
+      "description": "Utilize .NET C# to dynamically generate and integrate custom watermarks into {{FileFormatUp}} files, safeguarding your Excel data effectively."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Embed Watermarks in XLSX with C#",
-      "description": "Leverage .NET C# to generate and apply watermarks in XLSX files, securing your Excel documents."
+      "title": "Embed Watermarks in {{FileFormatUp}} with C#",
+      "description": "Leverage .NET C# to generate and apply watermarks in {{FileFormatUp}} files, securing your Excel documents."
     },
     "header": {
-      "title": "Secure XLSX Sheets with .NET C#",
-      "description": "Use .NET C# to create customizable watermarks for XLSX files, perfect for enhancing document integrity and protecting sensitive information.",
+      "title": "Secure {{FileFormatUp}} Sheets with .NET C#",
+      "description": "Use .NET C# to create customizable watermarks for {{FileFormatUp}} files, perfect for enhancing document integrity and protecting sensitive information.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -316,8 +316,8 @@
       "content": "{{ProdFullName}} provides a powerful solution for .NET C# developers to generate, add, and manage watermarks in XLSX files. This API is essential for maintaining the confidentiality and authenticity of Excel documents, especially in corporate, financial, and legal environments. Customize your watermarks with a variety of options, including text and image overlays, designed to be both functional and subtle. Additional features allow for automated watermarking based on document properties and user-defined conditions, ensuring that your watermarks are applied consistently and only where needed. {{ProdShortName}} is compatible with contemporary .NET platforms and supports advanced Excel functionalities."
     },
     "formats": {
-      "title": "Implementing Watermarks in XLSX with C#",
-      "description": "Deploy .NET C# to efficiently add advanced, secure watermarks to XLSX files, safeguarding your professional Excel data."
+      "title": "Implementing Watermarks in {{FileFormatUp}} with C#",
+      "description": "Deploy .NET C# to efficiently add advanced, secure watermarks to {{FileFormatUp}} files, safeguarding your professional Excel data."
     }
   }
 }

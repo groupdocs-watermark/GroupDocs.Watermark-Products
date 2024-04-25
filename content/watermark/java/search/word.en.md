@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:25
+date:  2024-04-25T17:42:44
 draft: false
 lang: en
 format: Word
@@ -12,30 +12,30 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Search Word Document Watermark"
-head_description: "GroupDocs.Watermark for Java allows to generate Word Document watermarks in Java, J2SE 7.0 (1.7) or above applications."
+head_title: "Power of Word Documents Watermark Search"
+head_description: "Experience the unparalleled ability to search and manage watermarks across diverse document types with GroupDocs.Watermark for Java."
 
 ############################# Header ############################
-title: "Search Watermark for Document of MS Word formats with Java" 
-description: "Text and image watermark generation for MS Excel files using Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Discover Advanced Word Watermark Search" 
+description: "Embark on a journey to explore the cutting-edge watermark search features offered by GroupDocs.Watermark for Java."
 subtitle: "GroupDocs.Watermark for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at Maven for free"
+    - title: "Get from Maven"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java"
+    title: "About GroupDocs.Watermark for Java"
     link: "/watermark/java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Java is designed for generation various Word watermarks using Java. Our solution may enrich Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       GroupDocs.Watermark for Java provides a robust solution for managing watermarks using Java. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark for Java seamlessly integrates with all major operating systems and Java versions.
 
 ############################# Steps ############################
 steps:
@@ -165,9 +165,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via Java"
+    title: "Master Watermark Search Across Formats"
     exclude: "WORD"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Java API to your business processes."
+    description: "Unlock the potential of GroupDocs.Watermark for Java to search and manipulate watermarks in different supported file formats."
     items: 
         # format loop 1
         - name: "Watermark PDF"

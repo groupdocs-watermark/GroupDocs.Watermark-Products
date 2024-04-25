@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:25
+date:  2024-04-25T17:42:44
 draft: false
 lang: en
 format: Excel
@@ -12,30 +12,30 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Search Watermark for Excel Spreadsheets"
-head_description: "GroupDocs.Watermark for Java generates watermark for MS Excel files in applications based on Java, J2SE 7.0 (1.7) or above."
+head_title: "Explore Excel Spreadsheets Watermarks Search"
+head_description: "Discover how GroupDocs.Watermark for Java empowers you to effortlessly search, find, and manage watermarks in various document formats."
 
 ############################# Header ############################
-title: "Search Watermark for MS Excel Spreadsheets via Java" 
-description: "Text and image watermark generation for MS Excel files using Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
-subtitle: "GroupDocs.Watermark for Java API" 
+title: "Unveiling Excel Spreadsheets Watermarks Search Capabilities" 
+description: "Delve into the power of GroupDocs.Watermark for Java to search, edit, and manipulate watermarks with ease."
+subtitle: "GroupDocs.Watermark for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Download at Maven for free"
       link: "https://releases.groupdocs.com/watermark/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Java library"
+    title: "Base GroupDocs.Watermark for Java Information"
     link: "/watermark/java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Java is a comprehensive solution for managing watermarks using Java. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark supports all major operating systems and Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       GroupDocs.Watermark for Java is a comprehensive solution for managing Excel watermarks using Java. With this tool, developers can easily perform operations such as create, edit, search, and remove watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark for Java supports all major operating systems and Java versions.
 
 ############################# Steps ############################
 steps:
@@ -165,9 +165,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Use images as watermarks via Java"
+    title: "Unlock the Power of Watermark Search"
     exclude: "EXCEL"
-    description: "Our Java solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+    description: "Empower yourself to find and manage watermarks in various supported file formats with GroupDocs.Watermark for Java."
     items: 
         # format loop 1
         - name: "Watermark PDF"

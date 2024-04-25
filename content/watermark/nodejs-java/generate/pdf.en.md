@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:38
+date:  2024-04-25T17:42:48
 draft: false
 lang: en
 format: Pdf
@@ -12,8 +12,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Secure PDFs with Node.js Watermarks"
-head_description: "Integrate watermarks into PDFs using Node.js to protect official documents and contracts."
+head_title: "Secure PDF with Node.js Watermarks"
+head_description: "Integrate watermarks into PDF using Node.js to protect official documents and contracts."
 
 ############################# Header ############################
 title: "Create Watermarks for PDF Documents via Node.js" 

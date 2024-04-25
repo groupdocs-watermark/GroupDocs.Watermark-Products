@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:34
+date:  2024-04-25T17:42:45
 draft: false
 lang: en
 format: Pdf
@@ -12,11 +12,11 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Secure PDFs with Java Watermarks"
+head_title: "Secure PDF with Java Watermarks"
 head_description: "Enhance PDF document security using Java to apply robust, customizable watermarks."
 
 ############################# Header ############################
-title: "Java Watermark Integration for PDFs" 
+title: "Java Watermark Integration for PDF" 
 description: "Leverage Java to implement advanced watermarking in PDF documents. Ideal for protecting official records, legal documents, and sensitive information."
 subtitle: "GroupDocs.Watermark for Java" 
 
@@ -165,7 +165,7 @@ more_formats:
     enable: true
     title: "Watermarking PDF Documents with Java"
     exclude: "PDF"
-    description: "Utilize Java to add watermarks to PDFs efficiently. Ensure the confidentiality and integrity of your official documents with tailored watermarking solutions."
+    description: "Utilize Java to add watermarks to PDF efficiently. Ensure the confidentiality and integrity of your official documents with tailored watermarking solutions."
     items: 
         # format loop 1
         - name: "Watermark PDF"

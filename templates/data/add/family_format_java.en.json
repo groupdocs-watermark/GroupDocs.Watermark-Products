@@ -43,43 +43,43 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Generate Watermark in Excel Spreadsheets for Java",
-      "description": "Easily implement generation of text and image watermarks in Excel with Java to protect your Excel data spreadsheets"
+      "title": "Generate Watermark in {{FileformatCap}} Spreadsheets for Java",
+      "description": "Easily implement generation of text and image watermarks in {{FileformatCap}} with Java to protect your {{FileformatCap}} data spreadsheets"
     },
     "header": {
-      "title": "Automate Excel Watermarking with Java Code",
-      "description": "Implement custom text or image watermarks in Excel spreadsheets using Java. This guide offers step-by-step instructions for enhancing document security and branding, tailored for a variety of professional needs.",
+      "title": "Automate {{FileformatCap}} Watermarking with Java Code",
+      "description": "Implement custom text or image watermarks in {{FileformatCap}} spreadsheets using Java. This guide offers step-by-step instructions for enhancing document security and branding, tailored for a variety of professional needs.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} offers comprehensive watermark management in Excel spreadsheets, enabling developers to easily generate, adjust, and clear watermarks. It supports all popular Excel file formats, allowing the embedding of both text and image watermarks that can be customized in font, color, size, and position. GroupDocs.Watermark also includes features for watermark searching, ensuring that your watermarks are intact and tamper-proof. Ideal for applications requiring document security enhancements within Java environments."
+      "content": "{{ProdFullName}} offers comprehensive watermark management in {{FileformatCap}} spreadsheets, enabling developers to easily generate, adjust, and clear watermarks. It supports all popular Excel file formats, allowing the embedding of both text and image watermarks that can be customized in font, color, size, and position. GroupDocs.Watermark also includes features for watermark searching, ensuring that your watermarks are intact and tamper-proof. Ideal for applications requiring document security enhancements within Java environments."
     },
     "formats": {
-      "title": "{{ProgLang}} Techniques for Excel Watermarking",
-      "description": "Using GroupDocs.Watermark for Java, easily apply text or image-based watermarks to Excel spreadsheets, significantly boosting document security and branding as part of your business workflow."
+      "title": "{{ProgLang}} Techniques for {{FileformatCap}} Watermarking",
+      "description": "Using GroupDocs.Watermark for Java, easily apply text or image-based watermarks to {{FileformatCap}} spreadsheets, significantly boosting document security and branding as part of your business workflow."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Compose Tailored Watermarks for Word with Java",
-      "description": "Integrate custom watermarks in Word documents using Java. Enhance security and add a professional touch."
+      "title": "Compose Tailored Watermarks for {{FileformatCap}} with Java",
+      "description": "Integrate custom watermarks in {{FileformatCap}} documents using Java. Enhance security and add a professional touch."
     },
     "header": {
-      "title": "Create Custom Watermarks in Word Documents",
-      "description": "Secure your Word files with Java by embedding tailored text or image watermarks. This resource is ideal for those needing to enhance document security and visual appeal with minimal effort.",
+      "title": "Create Custom Watermarks in {{FileformatCap}} Documents",
+      "description": "Secure your {{FileformatCap}} files with Java by embedding tailored text or image watermarks. This resource is ideal for those needing to enhance document security and visual appeal with minimal effort.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} enables precise and flexible watermark creation in Word documents. This tool empowers Java developers to add customized watermarks that can include text, images, or logos, tailored to your specific branding needs. It supports all major Word document formats and provides comprehensive features for editing and removing watermarks, as well as searching through documents to verify watermark integrity. Compatible with all Java-supported operating systems, this API is perfect for businesses looking to reinforce their document security protocols."
+      "content": "{{ProdFullName}} enables precise and flexible watermark creation in {{FileformatCap}} documents. This tool empowers Java developers to add customized watermarks that can include text, images, or logos, tailored to your specific branding needs. It supports all major Word document formats and provides comprehensive features for editing and removing watermarks, as well as searching through documents to verify watermark integrity. Compatible with all Java-supported operating systems, this API is perfect for businesses looking to reinforce their document security protocols."
     },
     "formats": {
-      "title": "Personalize Your MS Word Files with {{ProgLang}} Watermarks generation.",
-      "description": "{{ProdFullName}} allows developers to easily insert tailored text or image watermarks into Word documents. These enhancements not only boost document security but also enrich business communications with a professional touch."
+      "title": "Personalize Your MS {{FileformatCap}} Files with {{ProgLang}} Watermarks generation.",
+      "description": "{{ProdFullName}} allows developers to easily insert tailored text or image watermarks into {{FileformatCap}} documents. These enhancements not only boost document security but also enrich business communications with a professional touch."
     }
   },
   "image": {

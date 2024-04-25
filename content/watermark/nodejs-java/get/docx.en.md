@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:29
+date:  2024-04-25T17:42:49
 draft: false
 lang: en
 format: Docx
@@ -12,30 +12,30 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Get DOCX Document Watermark"
-head_description: "GroupDocs.Watermark for Node.js via Java allows to generate Word Document watermarks in Node.js via Java, J2SE 7.0 (1.7) or above applications."
+head_title: "Extract Watermarks from DOCX Documents with Ease"
+head_description: "Easily extract watermarks from your documents using GroupDocs.Watermark."
 
 ############################# Header ############################
-title: "Get Watermark for Document of MS Word formats with Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
+title: "Access Watermarks in DOCX Files" 
+description: "Retrieve watermarks from your DOCX documents effortlessly with GroupDocs.Watermark for Node.js via Java."
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Download at NPM for free"
+    - title: "Download for Free on NPM"
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Node.js via Java"
+    title: "Discover GroupDocs.Watermark for Node.js via Java"
     link: "/watermark/nodejs-java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is designed for generation various Word watermarks using Node.js via Java. Our solution may enrich Node.js via Java apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. GroupDocs.Watermark available for many operating systems and Node.js via Java J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       Effortlessly manage watermarks within your Node.js via Java environment. GroupDocs.Watermark for Node.js via Java empowers you to perform various watermark operations like generating, updating, retrieving, and deleting watermarks across a wide range of file formats.
 
 ############################# Steps ############################
 steps:
@@ -167,9 +167,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "MS Word documents watermarking via JavaScript"
+    title: "Streamline Watermark Extraction"
     exclude: "DOCX"
-    description: "Protect MS Word business documents with image or text watermarks. Involve GroupDocs.Watermark for Node.js via Java API to your business processes."
+    description: "Simplify the process of extracting watermarks from different file formats using GroupDocs.Watermark for Node.js via Java."
     items: 
         # format loop 1
         - name: "Watermark PDF"

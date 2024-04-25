@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-18T15:29:26
+date:  2024-04-25T17:42:45
 draft: false
 lang: en
 format: Excel
@@ -12,30 +12,30 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Get Watermark for Excel Spreadsheets"
-head_description: "GroupDocs.Watermark for Node.js via Java generates watermark for MS Excel files in applications based on Node.js via Java, J2SE 7.0 (1.7) or above."
+head_title: "Unlock Excel Spreadsheets Watermarks Secrets"
+head_description: "Discover the power of GroupDocs.Watermark for Node.js via Java to effortlessly retrieve watermarks from documents."
 
 ############################# Header ############################
-title: "Get Watermark for MS Excel Spreadsheets via Node.js via Java" 
-description: "Text and image watermark generation for MS Excel files using Node.js via Java J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages."
-subtitle: "GroupDocs.Watermark for Node.js via Java API" 
+title: "Reveal Hidden Watermarks in Excel Spreadsheets" 
+description: "Uncover the hidden watermarks within your documents with GroupDocs.Watermark for Node.js via Java."
+subtitle: "GroupDocs.Watermark for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free NPM download"
+    - title: "Get from NPM"
       link: "https://releases.groupdocs.com/watermark/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Watermark for Node.js via Java library"
+    title: "Base GroupDocs.Watermark for Node.js via Java Information"
     link: "/watermark/nodejs-java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java is a comprehensive solution for managing watermarks using Node.js via Java. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. GroupDocs.Watermark supports all major operating systems and Node.js via Java versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above.
+       Unlock the potential of GroupDocs.Watermark for Node.js via Java in managing watermarks across Node.js via Java. Easily generate, update, get, and delete watermarks from various file formats including PDF, Word, Excel, PowerPoint, and more.
 
 ############################# Steps ############################
 steps:
@@ -157,9 +157,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Use images as watermarks via JavaScript"
+    title: "Explore Multiple Formats"
     exclude: "EXCEL"
-    description: "Our Node.js via Java solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+    description: "Discover, retrieve, and manage watermarks across different file formats with ease."
     items: 
         # format loop 1
         - name: "Watermark PDF"

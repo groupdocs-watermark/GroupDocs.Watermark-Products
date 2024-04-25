@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:34
+date:  2024-04-25T17:42:45
 draft: false
 lang: en
 format: Xls
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Watermark XLS Files with Java"
+head_title: "Watermark XLS SpreadSheets with Java"
 head_description: "Utilize Java to apply custom watermarks to XLS files, securing Excel and OpenOffice documents."
 
 ############################# Header ############################
