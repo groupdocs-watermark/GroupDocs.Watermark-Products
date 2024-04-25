@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:34
+date:  2024-04-25T17:42:45
 draft: false
 lang: en
 format: Jpeg
@@ -163,7 +163,7 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Securing JPEGs with Java Watermarks"
+    title: "Securing JPEG with Java Watermarks"
     exclude: "JPEG"
     description: "Apply secure and customizable watermarks to JPEG images using Java, perfect for photographers and content creators who need to protect their visual assets."
     items: 

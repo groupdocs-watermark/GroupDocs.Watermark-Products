@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-22T18:59:14
+date:  2024-04-25T17:42:44
 draft: false
 lang: en
 format: Word

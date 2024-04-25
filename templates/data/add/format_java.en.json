@@ -42,52 +42,52 @@
   },
   "doc": {
     "head": {
-      "title": "Generate Watermarks for DOC with Java",
-      "description": "Efficiently add, edit, and manage watermarks in DOC files using Java. Ideal for securing documents."
+      "title": "Generate Watermarks for {{FileFormatUp}} with Java",
+      "description": "Efficiently add, edit, and manage watermarks in {{FileFormatUp}} files using Java. Ideal for securing documents."
     },
     "header": {
-      "title": "Java Watermarking for DOC Files",
-      "description": "Explore how Java developers can utilize GroupDocs.Watermark to insert, modify, and remove watermarks in DOC documents quickly and effortlessly.",
+      "title": "Java Watermarking for {{FileFormatUp}} Files",
+      "description": "Explore how Java developers can utilize GroupDocs.Watermark to insert, modify, and remove watermarks in {{FileFormatUp}} documents quickly and effortlessly.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides Java developers with a robust set of tools to add, remove, search, and manage watermarks in DOC files. This API makes it simple to integrate comprehensive watermarking functionalities into any Java application, supporting a wide range of document management tasks. Whether you need to protect intellectual property, ensure document authenticity, or prevent unauthorized sharing, {{ProdShortName}} equips you with the necessary tools. It supports text and image watermarks and offers extensive customization options such as adjusting opacity, rotation, and scaling to fit various use cases. Compatible with all major operating systems that support Java 8 or above."
+      "content": "{{ProdFullName}} provides Java developers with a robust set of tools to add, remove, search, and manage watermarks in {{FileFormatUp}} files. This API makes it simple to integrate comprehensive watermarking functionalities into any Java application, supporting a wide range of document management tasks. Whether you need to protect intellectual property, ensure document authenticity, or prevent unauthorized sharing, {{ProdShortName}} equips you with the necessary tools. It supports text and image watermarks and offers extensive customization options such as adjusting opacity, rotation, and scaling to fit various use cases. Compatible with all major operating systems that support Java 8 or above."
     },
     "formats": {
-      "title": "Watermarking DOC Files Using Java",
-      "description": "Leverage Java to apply versatile watermarks on DOC files. Ideal for applications requiring document security and copyright protection."
+      "title": "Watermarking {{FileFormatUp}} Files Using Java",
+      "description": "Leverage Java to apply versatile watermarks on {{FileFormatUp}} files. Ideal for applications requiring document security and copyright protection."
     }
   },
   "docx": {
     "head": {
-      "title": "Enhance DOCX with Java Watermarks",
-      "description": "Add sophisticated watermarks to DOCX files via Java. Protect and stylize your documents effortlessly."
+      "title": "Enhance {{FileFormatUp}} with Java Watermarks",
+      "description": "Add sophisticated watermarks to {{FileFormatUp}} files via Java. Protect and stylize your documents effortlessly."
     },
     "header": {
-      "title": "Secure DOCX Files with Java Watermarks",
-      "description": "Discover the power of Java in embedding secure, customizable watermarks into DOCX files. Perfect for businesses needing to safeguard their intellectual content.",
+      "title": "Secure {{FileFormatUp}} Files with Java Watermarks",
+      "description": "Discover the power of Java in embedding secure, customizable watermarks into {{FileFormatUp}} files. Perfect for businesses needing to safeguard their intellectual content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} enables Java developers to seamlessly integrate advanced watermarking technologies into their DOCX document workflows. With capabilities to insert, modify, and remove watermarks, this API helps protect copyrights and enhance document security. Tailored for DOCX formats, it offers features like watermark automation based on content sensitivity, dynamic adjustment of watermark properties such as size, transparency, and rotation, and the application of watermarks on batch documents. Effective for ensuring compliance and preventing unauthorized document circulation, {{ProdShortName}} is compatible with Java environments from version 8 onwards."
+      "content": "{{ProdFullName}} enables Java developers to seamlessly integrate advanced watermarking technologies into their {{FileFormatUp}} document workflows. With capabilities to insert, modify, and remove watermarks, this API helps protect copyrights and enhance document security. Tailored for DOCX formats, it offers features like watermark automation based on content sensitivity, dynamic adjustment of watermark properties such as size, transparency, and rotation, and the application of watermarks on batch documents. Effective for ensuring compliance and preventing unauthorized document circulation, {{ProdShortName}} is compatible with Java environments from version 8 onwards."
     },
     "formats": {
-      "title": "Java-Based Watermarking for DOCX",
-      "description": "Utilize Java to implement dynamic and secure watermarks in DOCX files, ensuring comprehensive copyright protection."
+      "title": "Java-Based Watermarking for {{FileFormatUp}}",
+      "description": "Utilize Java to implement dynamic and secure watermarks in {{FileFormatUp}} files, ensuring comprehensive copyright protection."
     }
   },
   "jpeg": {
     "head": {
-      "title": "Embed Watermarks in JPEG with Java",
-      "description": "Utilize Java to add, customize, and manage watermarks in JPEG images, enhancing security and copyright control."
+      "title": "Embed Watermarks in {{FileFormatUp}} with Java",
+      "description": "Utilize Java to add, customize, and manage watermarks in {{FileFormatUp}} images, enhancing security and copyright control."
     },
     "header": {
-      "title": "Java-Controlled Watermarking for JPEG",
-      "description": "Master the art of watermarking JPEG images using Java. This API allows precise control over watermark opacity, position, and size to protect and brand your digital images.",
+      "title": "Java-Controlled Watermarking for {{FileFormatUp}}",
+      "description": "Master the art of watermarking {{FileFormatUp}} images using Java. This API allows precise control over watermark opacity, position, and size to protect and brand your digital images.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -96,77 +96,77 @@
       "content": "{{ProdFullName}} offers Java developers a sophisticated toolkit for embedding watermarks into JPEG files. This API excels in applying both visible and invisible watermarks that help safeguard copyright, deter unauthorized use, and promote brand visibility. Customize watermarks with a variety of options including pattern fills, shadow effects, and gradient styles tailored for digital artwork and photographs. Ensure your images are protected across all platforms with {{ProdShortName}}, supporting Java 8 and higher."
     },
     "formats": {
-      "title": "Securing JPEGs with Java Watermarks",
-      "description": "Apply secure and customizable watermarks to JPEG images using Java, perfect for photographers and content creators who need to protect their visual assets."
+      "title": "Securing {{FileFormatUp}} with Java Watermarks",
+      "description": "Apply secure and customizable watermarks to {{FileFormatUp}} images using Java, perfect for photographers and content creators who need to protect their visual assets."
     }
   },
   "jpg": {
     "head": {
-      "title": "Advanced JPG Watermarking with Java",
-      "description": "Streamline your JPG watermarking process using Java for enhanced image protection and copyright assertion."
+      "title": "Advanced {{FileFormatUp}} Watermarking with Java",
+      "description": "Streamline your {{FileFormatUp}} watermarking process using Java for enhanced image protection and copyright assertion."
     },
     "header": {
-      "title": "Java-Powered Watermarking for JPG Files",
-      "description": "Elevate the security of your JPG files with customizable watermarks. Utilize Java to integrate watermarks seamlessly, ensuring optimal protection and brand alignment.",
+      "title": "Java-Powered Watermarking for {{FileFormatUp}} Files",
+      "description": "Elevate the security of your {{FileFormatUp}} files with customizable watermarks. Utilize Java to integrate watermarks seamlessly, ensuring optimal protection and brand alignment.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} equips Java developers with powerful watermarking capabilities specifically designed for JPG images. This API allows the addition of multi-layered watermarks that combine text and graphics, ensuring robust copyright protection without compromising image quality. Features include flexible scaling, rotation, and transparency settings, enabling watermarks to be discreet or prominent based on user needs. Enhance the integrity and authenticity of your digital media with {{ProdShortName}}, fully compatible with Java 8 or later."
+      "content": "{{ProdFullName}} equips Java developers with powerful watermarking capabilities specifically designed for {{FileFormatUp}} images. This API allows the addition of multi-layered watermarks that combine text and graphics, ensuring robust copyright protection without compromising image quality. Features include flexible scaling, rotation, and transparency settings, enabling watermarks to be discreet or prominent based on user needs. Enhance the integrity and authenticity of your digital media with {{ProdShortName}}, fully compatible with Java 8 or later."
     },
     "formats": {
-      "title": "Protecting JPG Images via Java",
-      "description": "Harness Java to deploy sophisticated watermarks on JPG images. Tailor watermark characteristics to fortify your copyrights and enhance image security."
+      "title": "Protecting {{FileFormatUp}} Images via Java",
+      "description": "Harness Java to deploy sophisticated watermarks on {{FileFormatUp}} images. Tailor watermark characteristics to fortify your copyrights and enhance image security."
     }
   },
   "pdf": {
     "head": {
-      "title": "Secure PDFs with Java Watermarks",
-      "description": "Enhance PDF document security using Java to apply robust, customizable watermarks."
+      "title": "Secure {{FileFormatUp}} with Java Watermarks",
+      "description": "Enhance {{FileFormatUp}} document security using Java to apply robust, customizable watermarks."
     },
     "header": {
-      "title": "Java Watermark Integration for PDFs",
-      "description": "Leverage Java to implement advanced watermarking in PDF documents. Ideal for protecting official records, legal documents, and sensitive information.",
+      "title": "Java Watermark Integration for {{FileFormatUp}}",
+      "description": "Leverage Java to implement advanced watermarking in {{FileFormatUp}} documents. Ideal for protecting official records, legal documents, and sensitive information.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is tailored for Java developers looking to bolster the security of PDF documents through effective watermarking. This API facilitates the embedding of both visible and invisible watermarks that deter unauthorized sharing and ensure document authenticity. Capabilities include custom watermark creation, precise positioning, and conditional watermarking based on document content or security level. Perfect for governmental, legal, and corporate environments where document integrity is paramount, {{ProdShortName}} supports seamless integration with Java 8 and above."
+      "content": "{{ProdFullName}} is tailored for Java developers looking to bolster the security of {{FileFormatUp}} documents through effective watermarking. This API facilitates the embedding of both visible and invisible watermarks that deter unauthorized sharing and ensure document authenticity. Capabilities include custom watermark creation, precise positioning, and conditional watermarking based on document content or security level. Perfect for governmental, legal, and corporate environments where document integrity is paramount, {{ProdShortName}} supports seamless integration with Java 8 and above."
     },
     "formats": {
-      "title": "Watermarking PDF Documents with Java",
-      "description": "Utilize Java to add watermarks to PDFs efficiently. Ensure the confidentiality and integrity of your official documents with tailored watermarking solutions."
+      "title": "Watermarking {{FileFormatUp}} Documents with Java",
+      "description": "Utilize Java to add watermarks to {{FileFormatUp}} efficiently. Ensure the confidentiality and integrity of your official documents with tailored watermarking solutions."
     }
   },
   "png": {
     "head": {
-      "title": "Java Watermark Solutions for PNG Files",
-      "description": "Apply dynamic watermarks to PNG images using Java to protect and authenticate your digital assets."
+      "title": "Java Watermark Solutions for {{FileFormatUp}} Files",
+      "description": "Apply dynamic watermarks to {{FileFormatUp}} images using Java to protect and authenticate your digital assets."
     },
     "header": {
-      "title": "Secure and Customize PNGs with Java",
-      "description": "Utilize Java to embed secure, adaptable watermarks in PNG files, perfect for photographers and designers seeking to safeguard their creative works.",
+      "title": "Secure and Customize {{FileFormatUp}} with Java",
+      "description": "Utilize Java to embed secure, adaptable watermarks in {{FileFormatUp}} files, perfect for photographers and designers seeking to safeguard their creative works.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides Java developers with a sophisticated framework for applying watermarks to PNG images. This API is designed to integrate seamlessly into any Java-based application, allowing for the insertion of transparent or opaque watermarks that blend perfectly with the underlying image. Customize watermarks with text, logos, or copyright symbols to enhance security without detracting from image quality. With features such as pixel-perfect positioning and opacity control, {{ProdShortName}} ensures that your images are both visually appealing and legally protected. Suitable for use on e-commerce sites, online portfolios, and more, and is fully compatible with Java 8 or newer."
+      "content": "{{ProdFullName}} provides Java developers with a sophisticated framework for applying watermarks to {{FileFormatUp}} images. This API is designed to integrate seamlessly into any Java-based application, allowing for the insertion of transparent or opaque watermarks that blend perfectly with the underlying image. Customize watermarks with text, logos, or copyright symbols to enhance security without detracting from image quality. With features such as pixel-perfect positioning and opacity control, {{ProdShortName}} ensures that your images are both visually appealing and legally protected. Suitable for use on e-commerce sites, online portfolios, and more, and is fully compatible with Java 8 or newer."
     },
     "formats": {
-      "title": "Enhancing PNG Image Security with Java",
-      "description": "Embed robust watermarks into PNG files using Java. This feature is crucial for protecting visual content from unauthorized use while maintaining image clarity."
+      "title": "Enhancing {{FileFormatUp}} Image Security with Java",
+      "description": "Embed robust watermarks into {{FileFormatUp}} files using Java. This feature is crucial for protecting visual content from unauthorized use while maintaining image clarity."
     }
   },
   "ppt": {
     "head": {
-      "title": "Watermark PPT Files with Java",
-      "description": "Safeguard your presentations by embedding watermarks in PPT files using Java."
+      "title": "Watermark {{FileFormatUp}} Presentations with Java",
+      "description": "Safeguard your presentations by embedding watermarks in {{FileFormatUp}} files using Java."
     },
     "header": {
-      "title": "Java Enhancements for PPT Watermarks",
+      "title": "Java Enhancements for {{FileFormatUp}} Watermarks",
       "description": "Incorporate discrete or prominent watermarks into PowerPoint presentations using Java, ideal for securing business and educational content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -176,17 +176,17 @@
       "content": "{{ProdFullName}} enables Java developers to enhance the security and professional appearance of PowerPoint presentations through advanced watermarking techniques. This API supports the integration of text and image watermarks that can be customized to be visible or subtle depending on the intended use. Features include the ability to adjust size, transparency, and location, ensuring that watermarks do not obstruct important content while still providing effective copyright protection. Ideal for corporate, educational, and commercial presentations, {{ProdShortName}} is compatible with all systems that support Java 8 and above."
     },
     "formats": {
-      "title": "Securing PPT Presentations with Java",
+      "title": "Securing {{FileFormatUp}} Presentations with Java",
       "description": "Use Java to apply watermarks to PowerPoint files, enhancing document security and brand presence in professional and educational environments."
     }
   },
   "pptx": {
     "head": {
-      "title": "Watermark PPTX Files with Java",
-      "description": "Safeguard your presentations by embedding watermarks in PPTX files using Java."
+      "title": "Watermark {{FileFormatUp}} Files with Java",
+      "description": "Safeguard your presentations by embedding watermarks in {{FileFormatUp}} files using Java."
     },
     "header": {
-      "title": "Java Enhancements for PPTX Watermarks",
+      "title": "Java Enhancements for {{FileFormatUp}} Watermarks",
       "description": "Incorporate discrete or prominent watermarks into PowerPoint presentations using Java, ideal for securing business and educational content.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -196,38 +196,38 @@
       "content": "{{ProdFullName}} enables Java developers to enhance the security and professional appearance of PowerPoint presentations through advanced watermarking techniques. This API supports the integration of text and image watermarks that can be customized to be visible or subtle depending on the intended use. Features include the ability to adjust size, transparency, and location, ensuring that watermarks do not obstruct important content while still providing effective copyright protection. Ideal for corporate, educational, and commercial presentations, {{ProdShortName}} is compatible with all systems that support Java 8 and above."
     },
     "formats": {
-      "title": "Securing PPTX Presentations with Java",
+      "title": "Securing {{FileFormatUp}} Presentations with Java",
       "description": "Use Java to apply watermarks to PowerPoint files, enhancing document security and brand presence in professional and educational environments."
     }
   },
   "rtf": {
     "head": {
-      "title": "Java Watermarks for RTF Documents",
-      "description": "Utilize Java to insert watermarks in RTF files, enhancing document security and professionalism."
+      "title": "Java Watermarks for {{FileFormatUp}} Documents",
+      "description": "Utilize Java to insert watermarks in {{FileFormatUp}} files, enhancing document security and professionalism."
     },
     "header": {
-      "title": "Protect RTF Docs with Java Watermarks",
-      "description": "Embed watermarks seamlessly into RTF documents using Java. Ideal for securing sensitive information in professional Word environments.",
+      "title": "Protect {{FileFormatUp}} Docs with Java Watermarks",
+      "description": "Embed watermarks seamlessly into {{FileFormatUp}} documents using Java. Ideal for securing sensitive information in professional Word environments.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} offers Java developers comprehensive tools for watermarking RTF documents, commonly used in Microsoft Word environments. This API allows for the precise addition of text and image watermarks, customizable to ensure visibility or discretion as required. Enhance your document's security features without compromising on layout or readability. Features include variable opacity, scalable size, and adaptable positioning, making it suitable for legal, academic, and corporate documents. Effective for preventing unauthorized use and duplication, {{ProdShortName}} is fully compatible with Java 8 and higher."
+      "content": "{{ProdFullName}} offers Java developers comprehensive tools for watermarking {{FileFormatUp}} documents, commonly used in Microsoft Word environments. This API allows for the precise addition of text and image watermarks, customizable to ensure visibility or discretion as required. Enhance your document's security features without compromising on layout or readability. Features include variable opacity, scalable size, and adaptable positioning, making it suitable for legal, academic, and corporate documents. Effective for preventing unauthorized use and duplication, {{ProdShortName}} is fully compatible with Java 8 and higher."
     },
     "formats": {
-      "title": "Enhancing MS Word RTF Security with Java",
-      "description": "Apply advanced watermarking to RTF files using Java, ensuring document integrity and compliance in Microsoft Word and other word processing applications."
+      "title": "Enhancing MS Word {{FileFormatUp}} Security with Java",
+      "description": "Apply advanced watermarking to {{FileFormatUp}} files using Java, ensuring document integrity and compliance in Microsoft Word and other word processing applications."
     }
   },
   "tif": {
     "head": {
-      "title": "Embed Watermarks in TIF with Java",
-      "description": "Master Java to apply effective watermarks in TIF images, safeguarding copyrights and enhancing security."
+      "title": "Embed Watermarks in {{FileFormatUp}} with Java",
+      "description": "Master Java to apply effective watermarks in {{FileFormatUp}} images, safeguarding copyrights and enhancing security."
     },
     "header": {
-      "title": "Java Watermark Capabilities for TIF Files",
-      "description": "Enhance TIF images with Java-implemented watermarks for robust copyright protection and digital asset management.",
+      "title": "Java Watermark Capabilities for {{FileFormatUp}} Files",
+      "description": "Enhance {{FileFormatUp}} images with Java-implemented watermarks for robust copyright protection and digital asset management.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
@@ -236,64 +236,64 @@
       "content": "{{ProdFullName}} enables Java developers to fully exploit watermarking techniques tailored for TIF images, which are crucial in fields such as photography, document archiving, and digital publishing. This API allows the integration of transparent and solid watermarks that can be adjusted for opacity, size, and placement to meet diverse requirements. It includes features for batch watermarking, ensuring efficient processing of large image collections while maintaining high fidelity and image integrity. The tool is designed to be fully operational with Java environments from version 8 upwards, providing a reliable solution for copyright enforcement and unauthorized distribution prevention."
     },
     "formats": {
-      "title": "Implementing Watermarks in TIF Images via Java",
-      "description": "Utilize Java to insert custom watermarks into TIF images, perfect for securing and branding photographic and archival content."
+      "title": "Implementing Watermarks in {{FileFormatUp}} Images via Java",
+      "description": "Utilize Java to insert custom watermarks into {{FileFormatUp}} images, perfect for securing and branding photographic and archival content."
     }
   },
   "tiff": {
     "head": {
-      "title": "Secure TIFF Images with Java Watermarks",
-      "description": "Implement Java-based watermarks in TIFF files for enhanced copyright protection and image security."
+      "title": "Secure {{FileFormatUp}} Images with Java Watermarks",
+      "description": "Implement Java-based watermarks in {{FileFormatUp}} files for enhanced copyright protection and image security."
     },
     "header": {
-      "title": "Java-Enhanced Watermarking for TIFF Files",
-      "description": "Use Java to apply durable, customizable watermarks to TIFF images, essential for photographers and digital archives needing copyright security.",
+      "title": "Java-Enhanced Watermarking for {{FileFormatUp}} Files",
+      "description": "Use Java to apply durable, customizable watermarks to {{FileFormatUp}} images, essential for photographers and digital archives needing copyright security.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides Java developers with an efficient toolset for adding watermarks to TIFF images, a format widely used in photography and digital archiving. This API supports intricate watermark configurations, including multi-layered text and image-based watermarks. Customize your watermarks with options for opacity, rotation, and scale to ensure they are effective yet unobtrusive. Suitable for protecting high-resolution images and scanned documents, {{ProdShortName}} enhances image security without compromising quality, fully compatible with Java 8 or later."
+      "content": "{{ProdFullName}} provides Java developers with an efficient toolset for adding watermarks to {{FileFormatUp}} images, a format widely used in photography and digital archiving. This API supports intricate watermark configurations, including multi-layered text and image-based watermarks. Customize your watermarks with options for opacity, rotation, and scale to ensure they are effective yet unobtrusive. Suitable for protecting high-resolution images and scanned documents, {{ProdShortName}} enhances image security without compromising quality, fully compatible with Java 8 or later."
     },
     "formats": {
-      "title": "Protecting Copyrights in TIFF Files with Java",
-      "description": "Leverage Java to embed sophisticated watermarks in TIFF images. Optimize copyright protection with minimal impact on the original image quality."
+      "title": "Protecting Copyrights in {{FileFormatUp}} Files with Java",
+      "description": "Leverage Java to embed sophisticated watermarks in {{FileFormatUp}} images. Optimize copyright protection with minimal impact on the original image quality."
     }
   },
   "webp": {
     "head": {
-      "title": "Java Watermarks for WEBP Images",
-      "description": "Harness Java to inject watermarks into WEBP images, fortifying copyrights and media security."
+      "title": "Java Watermarks for {{FileFormatUp}} Images",
+      "description": "Harness Java to inject watermarks into {{FileFormatUp}} images, fortifying copyrights and media security."
     },
     "header": {
-      "title": "Custom WEBP Watermarking with Java",
-      "description": "Implement Java to create and manage watermarks in WEBP images, ensuring optimal protection and branding for digital content creators.",
+      "title": "Custom {{FileFormatUp}} Watermarking with Java",
+      "description": "Implement Java to create and manage watermarks in {{FileFormatUp}} images, ensuring optimal protection and branding for digital content creators.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a powerful Java toolkit for embedding watermarks in WEBP images, an increasingly popular format among web developers and digital marketers. This API facilitates the addition of both visible and invisible watermarks, tailored to protect copyrights and authenticate image origins. Customize your watermark settings to include text, logos, or digital signatures, all while preserving the high compression efficiency of WEBP files. Advanced features such as dynamic opacity control, watermark scaling, and precise positioning help maintain image aesthetics and clarity, ensuring seamless integration into various digital platforms. Compatible with Java 8 and newer, {{ProdShortName}} is essential for any developer looking to secure and monetize image assets effectively."
+      "content": "{{ProdFullName}} provides a powerful Java toolkit for embedding watermarks in {{FileFormatUp}} images, an increasingly popular format among web developers and digital marketers. This API facilitates the addition of both visible and invisible watermarks, tailored to protect copyrights and authenticate image origins. Customize your watermark settings to include text, logos, or digital signatures, all while preserving the high compression efficiency of WEBP files. Advanced features such as dynamic opacity control, watermark scaling, and precise positioning help maintain image aesthetics and clarity, ensuring seamless integration into various digital platforms. Compatible with Java 8 and newer, {{ProdShortName}} is essential for any developer looking to secure and monetize image assets effectively."
     },
     "formats": {
-      "title": "Securing WEBP Files with Java",
-      "description": "Apply advanced, discreet watermarks to WEBP images using Java. Tailor watermark attributes to protect and enhance digital copyrights efficiently."
+      "title": "Securing {{FileFormatUp}} Files with Java",
+      "description": "Apply advanced, discreet watermarks to {{FileFormatUp}} images using Java. Tailor watermark attributes to protect and enhance digital copyrights efficiently."
     }
   },
   "xls": {
     "head": {
-      "title": "Watermark XLS Files with Java",
-      "description": "Utilize Java to apply custom watermarks to XLS files, securing Excel and OpenOffice documents."
+      "title": "Watermark {{FileFormatUp}} SpreadSheets with Java",
+      "description": "Utilize Java to apply custom watermarks to {{FileFormatUp}} files, securing Excel and OpenOffice documents."
     },
     "header": {
       "title": "Java-Based Watermarking for Excel",
-      "description": "Implement watermarks in XLS files using Java to enhance document security for Excel and OpenOffice sheets, perfect for financial and confidential data.",
+      "description": "Implement watermarks in {{FileFormatUp}} files using Java to enhance document security for Excel and OpenOffice sheets, perfect for financial and confidential data.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides Java developers with the capability to integrate watermarking into XLS files, supporting both Excel and OpenOffice formats. This API allows for the embedding of watermarks that are both visible and subtle, ensuring that sensitive information is protected without altering the usability of the document. Key features include the ability to customize watermark text, image, and placement, which can be conditionally applied based on the document’s content or user permissions. This makes it ideal for applications in environments requiring rigorous data protection measures, such as banking, legal, and academic sectors. With support for Java 8 and higher, {{ProdShortName}} is equipped to handle complex watermarking needs across diverse operating systems."
+      "content": "{{ProdFullName}} provides Java developers with the capability to integrate watermarking into {{FileFormatUp}} files, supporting both Excel and OpenOffice formats. This API allows for the embedding of watermarks that are both visible and subtle, ensuring that sensitive information is protected without altering the usability of the document. Key features include the ability to customize watermark text, image, and placement, which can be conditionally applied based on the document’s content or user permissions. This makes it ideal for applications in environments requiring rigorous data protection measures, such as banking, legal, and academic sectors. With support for Java 8 and higher, {{ProdShortName}} is equipped to handle complex watermarking needs across diverse operating systems."
     },
     "formats": {
       "title": "Enhancing Excel Document Security with Java",
@@ -302,22 +302,22 @@
   },
   "xlsx": {
     "head": {
-      "title": "Advanced XLSX Watermarking with Java",
-      "description": "Elevate your document security by embedding watermarks into XLSX files using Java."
+      "title": "Advanced {{FileFormatUp}} Watermarking with Java",
+      "description": "Elevate your document security by embedding watermarks into {{FileFormatUp}} files using Java."
     },
     "header": {
       "title": "Java Watermarks for Advanced Excel Sheets",
-      "description": "Secure your Excel XLSX sheets with Java-driven watermarks. Tailor them for corporate, financial, and academic documents to safeguard sensitive data.",
+      "description": "Secure your Excel {{FileFormatUp}} sheets with Java-driven watermarks. Tailor them for corporate, financial, and academic documents to safeguard sensitive data.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} empowers Java developers to enforce data protection in XLSX formats with dynamic watermarking capabilities. Designed specifically for the modern needs of Excel users, this API integrates seamlessly to apply customized watermarks that complement the document's design without disrupting data visibility. Optimize watermarks for transparency, layering, or color blending to make them noticeable only when necessary. This tool is indispensable for professionals handling proprietary financial models, strategic planning documents, or any sensitive information requiring confidentiality. Compatible with Java 8 and above, {{ProdShortName}} extends robust watermarking support to both Microsoft Excel and compatible spreadsheet applications."
+      "content": "{{ProdFullName}} empowers Java developers to enforce data protection in {{FileFormatUp}} formats with dynamic watermarking capabilities. Designed specifically for the modern needs of Excel users, this API integrates seamlessly to apply customized watermarks that complement the document's design without disrupting data visibility. Optimize watermarks for transparency, layering, or color blending to make them noticeable only when necessary. This tool is indispensable for professionals handling proprietary financial models, strategic planning documents, or any sensitive information requiring confidentiality. Compatible with Java 8 and above, {{ProdShortName}} extends robust watermarking support to both Microsoft Excel and compatible spreadsheet applications."
     },
     "formats": {
-      "title": "Securing XLSX Files with Java Watermarks",
-      "description": "Incorporate subtle, effective watermarks into XLSX documents using Java, ideal for protecting Excel spreadsheets in high-stakes environments."
+      "title": "Securing {{FileFormatUp}} Files with Java Watermarks",
+      "description": "Incorporate subtle, effective watermarks into {{FileFormatUp}} documents using Java, ideal for protecting Excel spreadsheets in high-stakes environments."
     }
   }
 }

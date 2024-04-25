@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:34
+date:  2024-04-25T17:42:45
 draft: false
 lang: en
 format: Png
@@ -16,7 +16,7 @@ head_title: "Java Watermark Solutions for PNG Files"
 head_description: "Apply dynamic watermarks to PNG images using Java to protect and authenticate your digital assets."
 
 ############################# Header ############################
-title: "Secure and Customize PNGs with Java" 
+title: "Secure and Customize PNG with Java" 
 description: "Utilize Java to embed secure, adaptable watermarks in PNG files, perfect for photographers and designers seeking to safeguard their creative works."
 subtitle: "GroupDocs.Watermark for Java" 
 

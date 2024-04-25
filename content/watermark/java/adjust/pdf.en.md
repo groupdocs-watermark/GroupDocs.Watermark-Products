@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-19T19:26:57
+date:  2024-04-25T17:42:46
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Adjust Watermarks in PDFs - GroupDocs.Watermark"
+head_title: "Adjust Watermarks in PDF - GroupDocs.Watermark"
 head_description: "Adjust and refine watermarks across different document types effortlessly with GroupDocs.Watermark. Ensure document credibility."
 
 ############################# Header ############################

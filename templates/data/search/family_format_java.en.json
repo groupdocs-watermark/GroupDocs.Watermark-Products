@@ -43,64 +43,64 @@
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Search Watermark for Excel Spreadsheets",
-      "description": "{{ProdFullName}} generates watermark for MS Excel files in applications based on {{EnvName}}, J2SE 7.0 (1.7) or above."
+      "title": "Explore {{FileformatCap}} Spreadsheets Watermarks Search",
+      "description": "Discover how {{ProdFullName}} empowers you to effortlessly search, find, and manage watermarks in various document formats."
     },
     "header": {
-      "title": "Search Watermark for MS Excel Spreadsheets via {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "title": "Unveiling {{FileformatCap}} Spreadsheets Watermarks Search Capabilities",
+      "description": "Delve into the power of {{ProdFullName}} to search, edit, and manipulate watermarks with ease.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
-      "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} is a comprehensive solution for managing watermarks using {{EnvName}}. With this tool, developers can easily perform operations such as generation, adjust, search, and clear watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdShortName}} supports all major operating systems and {{EnvName}} versions including J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "Base {{ProdFullName}} Information",
+      "content": "{{ProdFullName}} is a comprehensive solution for managing {{FileformatCap}} watermarks using {{EnvName}}. With this tool, developers can easily perform operations such as create, edit, search, and remove watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} supports all major operating systems and {{EnvName}} versions."
     },
     "formats": {
-      "title": "Use images as watermarks via {{ProgLang}}",
-      "description": "Our {{EnvName}} solutions allows to protect various formats of business documents. Watermarked documents may enrich your business processes."
+      "title": "Unlock the Power of Watermark Search",
+      "description": "Empower yourself to find and manage watermarks in various supported file formats with {{ProdFullName}}."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Search Word Document Watermark",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Power of {{FileformatCap}} Documents Watermark Search",
+      "description": "Experience the unparalleled ability to search and manage watermarks across diverse document types with {{ProdFullName}}."
     },
     "header": {
-      "title": "Search Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Discover Advanced {{FileformatCap}} Watermark Search",
+      "description": "Embark on a journey to explore the cutting-edge watermark search features offered by {{ProdFullName}}.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Get from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "About {{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for managing watermarks using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Master Watermark Search Across Formats",
+      "description": "Unlock the potential of {{ProdFullName}} to search and manipulate watermarks in different supported file formats."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Search Watermark for Presentations",
-      "description": "{{ProdFullName}} allows to generate Word Document watermarks in {{EnvName}}, J2SE 7.0 (1.7) or above applications."
+      "title": "Search {{FileformatCap}} Presentations Watermark:",
+      "description": "Revamp your watermark management strategy with {{ProdFullName}} advanced search capabilities across various document formats."
     },
     "header": {
-      "title": "Search Watermark for Document of MS Word formats with {{EnvName}}",
-      "description": "Text and image watermark generation for MS Excel files using {{EnvName}} J2SE applications. Watermarks your business documents with BMP, PNG, GIF, and JPEG images or text. Adjust watermark size, alignment, rotation angle, and position on the document pages.",
+      "title": "Elevate Your Workflow with {{FileformatCap}} Presentations Watermark Search",
+      "description": "Enhance your productivity by leveraging {{ProdFullName}} state-of-the-art watermark search functionality.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Download {{PackageStoreName}} package"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed for generation various Word watermarks using {{EnvName}}. Our solution may enrich {{EnvName}} apps by performing generation, adjusting, search, and clearing various watermarks in Word documents. {{ProdShortName}} available for many operating systems and {{EnvName}} J2SE 7.0 (1.7), J2SE 8.0 (1.8) or above."
+      "title": "Learn more about {{ProdFullName}}",
+      "content": "{{ProdFullName}} offers a comprehensive solution for watermark management using {{EnvName}}. Developers can seamlessly create, edit, search, and remove watermarks from documents in various file formats. It supports text and image watermarks across a wide range of document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} is compatible with all major operating systems and {{EnvName}} versions."
     },
     "formats": {
-      "title": "MS Word documents watermarking via {{ProgLang}}",
-      "description": "Protect MS Word business documents with image or text watermarks. Involve {{ProdFullName}} API to your business processes."
+      "title": "Transform Your Workflow with Watermark Search",
+      "description": "Experience unparalleled efficiency in managing watermarks across different file formats with {{ProdFullName}}."
     }
   }
 }

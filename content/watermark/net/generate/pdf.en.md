@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:36
+date:  2024-04-25T17:42:46
 draft: false
 lang: en
 format: Pdf
@@ -13,7 +13,7 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "C# Watermarks for Secure PDF Documents"
-head_description: "Utilize .NET C# to embed watermarks in PDFs, securing official documents and sensitive information."
+head_description: "Utilize .NET C# to embed watermarks in PDF, securing official documents and sensitive information."
 
 ############################# Header ############################
 title: "Enhance PDF Security with C# Watermarks" 

@@ -43,11 +43,11 @@
   },
   "doc": {
     "head": {
-      "title": "Adjust DOC Watermarks Professionally - {{ProdShortName}}",
+      "title": "Adjust {{FileFormatUp}} Watermarks Professionally - {{ProdShortName}}",
       "description": "Manage and customize watermarks professionally with {{ProdShortName}}. Secure your documents with confidence."
     },
     "header": {
-      "title": "Adjust DOC Watermarks: Professional Assurance",
+      "title": "Adjust {{FileFormatUp}} Watermarks: Professional Assurance",
       "description": "Ensure professional standards with our watermark management solution. Safeguard your documents with reliability.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download package from {{PackageStoreName}}"
@@ -63,11 +63,11 @@
   },
   "docx": {
     "head": {
-      "title": "Adjust Watermarks Across DOCX Documents - {{ProdShortName}}",
+      "title": "Adjust Watermarks Across {{FileFormatUp}} Documents - {{ProdShortName}}",
       "description": "Edit watermarks efficiently across diverse document formats using {{ProdShortName}}. Enhance document authenticity."
     },
     "header": {
-      "title": "Adjust DOCX Watermarks: Seamless Customization",
+      "title": "Adjust {{FileFormatUp}} Watermarks: Seamless Customization",
       "description": "Seamlessly customize your documents with our efficient watermark editing tool. Enhance your brand image effortlessly.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Free {{PackageStoreName}} download"
@@ -83,11 +83,11 @@
   },
   "pdf": {
     "head": {
-      "title": "Adjust Watermarks in PDFs - {{ProdShortName}}",
+      "title": "Adjust Watermarks in {{FileFormatUp}} - {{ProdShortName}}",
       "description": "Adjust and refine watermarks across different document types effortlessly with {{ProdShortName}}. Ensure document credibility."
     },
     "header": {
-      "title": "Adjust PDF Watermarks: Versatile Protection",
+      "title": "Adjust {{FileFormatUp}} Watermarks: Versatile Protection",
       "description": "Protect your content across various formats with our versatile watermark adjustment features. Adapt to your needs seamlessly.",
       "subtitle": "{{ProdFullName}} Solution",
       "action_title": "Free {{PackageStoreName}} package"
@@ -103,11 +103,11 @@
   },
   "ppt": {
     "head": {
-      "title": "Adjust PPT Watermarks Seamlessly - {{ProdShortName}}",
+      "title": "Adjust {{FileFormatUp}} Watermarks Seamlessly - {{ProdShortName}}",
       "description": "Revise and customize watermarks seamlessly with {{ProdShortName}}. Protect your documents with precision."
     },
     "header": {
-      "title": "Revise PPT Watermarks: Tailored Security",
+      "title": "Revise {{FileFormatUp}} Watermarks: Tailored Security",
       "description": "Tailor your document security with our flexible watermark revision options. Ensure protection tailored to your requirements.",
       "subtitle": "{{ProdFullName}} Library",
       "action_title": "Download from {{PackageStoreName}}"
@@ -123,11 +123,11 @@
   },
   "pptx": {
     "head": {
-      "title": "Adjust PPTX Watermarks Effortlessly - {{ProdShortName}}",
+      "title": "Adjust {{FileFormatUp}} Watermarks Effortlessly - {{ProdShortName}}",
       "description": "Customize your documents effortlessly with {{ProdShortName}}. Edit and manage watermarks with ease."
     },
     "header": {
-      "title": "Customize PPTX Watermarks: Intuitive Branding",
+      "title": "Customize {{FileFormatUp}} Watermarks: Intuitive Branding",
       "description": "Brand your documents effectively with our customizable watermarking tool. Elevate your brand presence effortlessly.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download {{PackageStoreName}} package"
@@ -143,11 +143,11 @@
   },
   "rtf": {
     "head": {
-      "title": "Adjust Watermark in RTF - {{ProdShortName}}",
+      "title": "Adjust Watermark in {{FileFormatUp}} - {{ProdShortName}}",
       "description": "Polish your documents with precision using {{ProdShortName}}. Effortlessly adjust and update watermarks."
     },
     "header": {
-      "title": "Polish Your RTF Documents: Watermark Editing",
+      "title": "Polish Your {{FileFormatUp}} Documents: Watermark Editing",
       "description": "Refine your documents with our comprehensive watermark editing capabilities. Polish your content with precision.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Download at {{PackageStoreName}} for free"
@@ -163,11 +163,11 @@
   },
   "xls": {
     "head": {
-      "title": "Adjust Your XLS Watermarks - {{ProdShortName}}",
+      "title": "Adjust Your {{FileFormatUp}} Watermarks - {{ProdShortName}}",
       "description": "Refine your watermark placement with {{ProdShortName}}. Enhance document security and authenticity."
     },
     "header": {
-      "title": "Refine Your XLS Watermark Placement: Expert Precision",
+      "title": "Refine Your {{FileFormatUp}} Watermark Placement: Expert Precision",
       "description": "Achieve expert watermark placement with our precision tools. Enhance document security with accuracy.",
       "subtitle": "{{ProdFullName}} Solution",
       "action_title": "Free Download at {{PackageStoreName}}"
@@ -183,11 +183,11 @@
   },
   "xlsx": {
     "head": {
-      "title": "Adjust & Manage XLSX Watermarks - {{ProdShortName}}",
+      "title": "Adjust & Manage {{FileFormatUp}} Watermarks - {{ProdShortName}}",
       "description": "Streamline your watermark management process with {{ProdShortName}}. Simplify document protection and branding."
     },
     "header": {
-      "title": "Streamline XLSX Watermark Management: Simplified Control",
+      "title": "Streamline {{FileFormatUp}} Watermark Management: Simplified Control",
       "description": "Simplify your watermark management process with our streamlined solution. Focus on your content with ease.",
       "subtitle": "{{ProdFullName}} Library",
       "action_title": "Download at {{PackageStoreName}} for free"

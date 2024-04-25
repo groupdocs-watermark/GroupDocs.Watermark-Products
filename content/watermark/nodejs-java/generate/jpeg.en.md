@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:38
+date:  2024-04-25T17:42:48
 draft: false
 lang: en
 format: Jpeg
@@ -16,7 +16,7 @@ head_title: "Generate Watermarks on JPEG with Node.js"
 head_description: "Create secure, invisible watermarks for JPEG images using Node.js, safeguarding copyrights."
 
 ############################# Header ############################
-title: "Compose Watermarks for JPEGs via Node.js" 
+title: "Compose Watermarks for JPEG via Node.js" 
 description: "Utilize Node.js to add robust watermarks to JPEG files, ensuring your images are protected against unauthorized use and copyright infringement."
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-23T09:18:36
+date:  2024-04-25T17:42:46
 draft: false
 lang: en
 format: Ppt
@@ -16,7 +16,7 @@ head_title: "C# Watermarks for PowerPoint Files"
 head_description: "Apply dynamic watermarks to PowerPoint files using .NET C#, enhancing presentation security."
 
 ############################# Header ############################
-title: "Protect PPTs with .NET C# Watermarks" 
+title: "Protect PPT with .NET C# Watermarks" 
 description: "Utilize .NET C# to insert customizable watermarks into PowerPoint presentations, ideal for securing business and academic content."
 subtitle: "GroupDocs.Watermark for .NET" 
 
