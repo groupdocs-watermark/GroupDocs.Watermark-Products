@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:46
+date:  2024-04-26T10:23:28
 draft: false
 lang: en
 format: Png
@@ -40,7 +40,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Effortlessly Generate Watermarks for Png Documents with GroupDocs.Watermark for .NET"
+    title: "Effortlessly Generate Watermarks for Png Documents"
     content: |
       **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Advanced Watermarking library for .NET applications. Empower your solution and secure documents with watermarks just in time.
       

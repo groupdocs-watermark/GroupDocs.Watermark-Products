@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:47
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Xlsx
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Secure Xlsx Watermark Editing"
+head_title: "Secure Xlsx Watermark Editing Solution"
 head_description: "Ensure secure Xlsx watermarks editing with GroupDocs.Watermark for .NET Component. Protect your content and brand with confidence."
 
 ############################# Header ############################

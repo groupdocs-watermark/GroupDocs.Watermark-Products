@@ -43,7 +43,7 @@
   },
   "doc": {
     "head": {
-      "title": "Edit {{FileformatCap}} Watermarks with Ease",
+      "title": "Edit Watermarks in {{FileformatCap}} Format with Ease",
       "description": "Edit {{FileformatCap}} watermarks seamlessly with {{ProdFullName}} API. Customize your documents with confidence and efficiency."
     },
     "header": {
@@ -83,7 +83,7 @@
   },
   "pdf": {
     "head": {
-      "title": "{{FileformatCap}} Watermarks Edit Solution",
+      "title": "Edit {{FileformatCap}} Watermarks with {{ProdShortName}}",
       "description": "Edit {{FileformatCap}} watermarks in {{FileformatCap}} files using {{ProdFullName}} Framework. Adapt to your document needs with ease."
     },
     "header": {
@@ -143,7 +143,7 @@
   },
   "rtf": {
     "head": {
-      "title": "Edit {{FileformatCap}} Document Watermarks",
+      "title": "Edit Watermarks in {{FileformatCap}} Documents",
       "description": "Achieve polished {{FileformatCap}} document branding with {{ProdFullName}} SDK. Edit your watermarks ensuring security."
     },
     "header": {
@@ -183,7 +183,7 @@
   },
   "xlsx": {
     "head": {
-      "title": "Secure {{FileformatCap}} Watermark Editing",
+      "title": "Secure {{FileformatCap}} Watermark Editing Solution",
       "description": "Ensure secure {{FileformatCap}} watermarks editing with {{ProdFullName}} Component. Protect your content and brand with confidence."
     },
     "header": {

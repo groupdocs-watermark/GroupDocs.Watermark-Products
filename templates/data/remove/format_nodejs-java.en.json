@@ -16,7 +16,7 @@
     }
   },
   "more_features": {
-    "title": "{{EnvName}} API for Seamless Watermark Removal | {{ProdShortName}}",
+    "title": "{{EnvName}} API for Watermark Removal | {{ProdShortName}}",
     "description": "Integrate our {{EnvName}} API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for {{EnvName}} environments, this API is perfect for applications needing to process and present clean documents free of watermarks.",
     "image_description": "Remove Watermark",
     "feature_1": {
@@ -162,7 +162,7 @@
   },
   "xls": {
     "head": {
-      "title": "Precise {{FileFormatUp}} Watermark Removal",
+      "title": "Precise Watermarks Removal in {{FileFormatUp}} Spreadsheets",
       "description": "{{ProdShortName}} offers granular control over deleting specific watermarks."
     },
     "header": {

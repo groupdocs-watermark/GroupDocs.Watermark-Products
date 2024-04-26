@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-24T14:27:47
+date:  2024-04-26T10:23:30
 draft: false
 lang: en
 format: Pdf
@@ -86,7 +86,7 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js via Java API for Seamless Watermark Removal | GroupDocs.Watermark"
+  title: "Node.js via Java API for Watermark Removal | GroupDocs.Watermark"
   description: "Integrate our Node.js via Java API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js via Java environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"

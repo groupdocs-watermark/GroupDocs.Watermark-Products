@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-24T14:27:45
+date:  2024-04-26T10:23:28
 draft: false
 lang: en
 format: Rtf
@@ -98,7 +98,7 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Optimize Document Clarity with Java API for Watermark Removal | GroupDocs.Watermark"
+  title: "Optimize Documents with Java API for Watermark Removal"
   description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "Remove Watermark"

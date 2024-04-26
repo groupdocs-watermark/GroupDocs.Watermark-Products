@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:49
+date:  2024-04-26T10:23:31
 draft: false
 lang: en
 format: Pptx
@@ -86,28 +86,28 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Deep dive into adding Watermark"
-  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  title: "Leverage Node.js for Watermark Searching with GroupDocs.Watermark"
+  description: "Implement dynamic and efficient watermark search functionalities in your Node.js applications using GroupDocs.Watermark within the Node.js via Java platform."
   image: "/img/watermark/features_search.webp" # 500x500 px
-  image_description: "Add Watermark"
+  image_description: "Node.js Watermark Search"
   features:
     # feature loop
-    - title: "Watermark your documents easily."
-      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+    - title: "Node.js API for Flexible Watermark Search"
+      content: "Harness the flexibility of Node.js with GroupDocs.Watermark to search for watermarks across multiple document formats. Easily configure searches to match specific requirements like size, type, or content."
 
     # feature loop
-    - title: "Customize watermarks for your goals."
-      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    - title: "Enhanced Watermark Identification with Node.js"
+      content: "Improve your document processing by identifying watermarks accurately using Node.js. Utilize GroupDocs.Watermark's API to detect watermarks even within complex document structures."
 
     # feature loop
-    - title: "Use native document objects"
-      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    - title: "Scalable Watermark Search Solutions"
+      content: "Scale your document security solutions with Node.js. GroupDocs.Watermark allows for efficient processing of large document batches, making it ideal for enterprise-level applications."
       
   code_samples:
     # code sample loop
-    - title: "Get various file format watermarks"
+    - title: "Node.js Example: Search and Retrieve Watermarks"
       content: |
-        This example shows us how to get watermarks from different documents 
+        This Node.js example showcases how to use GroupDocs.Watermark for searching and retrieving watermarks, demonstrating efficient and scalable search operations.
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
@@ -115,7 +115,7 @@ more_features:
 
             const files = ["source.docx", "source.xlsx", "source.pptx", "source.vsdx"];
             for (const file of files) {
-                //  Create search settings for required document types
+                //  Set up the Node.js environment and load the necessary documents
                 const settings = new groupdocsWatermark.WatermarkerSettings();
                 settings.setSearchableObjects(new groupdocsWatermark.SearchableObjects());
                 settings.getSearchableObjects().setWordProcessingSearchableObjects(
@@ -132,13 +132,13 @@ more_features:
                 settings.getSearchableObjects().setDiagramSearchableObjects(groupdocsWatermark.DiagramSearchableObjects.None);
                 settings.getSearchableObjects().setPdfSearchableObjects(groupdocsWatermark.PdfSearchableObjects.All);
 
-                //  Create Watermarker for current file
+                //  Configure your search to identify watermarks based on varied criteria
                 const watermarker = new groupdocsWatermark.Watermarker(file, settings);
 
-                //  Get watermarks from the file
+                //  Execute the watermark search and collect data on identified watermarks
                 const watermarks = watermarker.search();
 
-                //  Process list of watermarks
+                //  Process the results to modify or remove watermarks as required by business needs
                 console.log(`In ${documentPath} found ${watermarks.getCount()} possible watermark(s).`);
                 watermarker.close();
             }

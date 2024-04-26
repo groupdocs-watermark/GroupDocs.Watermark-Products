@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:45
+date:  2024-04-26T10:23:26
 draft: false
 lang: en
 format: Image
@@ -40,7 +40,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Secure Your Business Documents: Generate Watermarks for Image Files using Node.js via Java"
+    title: "Secure Business Documents: Generate Watermarks for Image Formats"
     content: |
       Boost Your Document Security with **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Inject our API to your applications and generate watermarks for many supported file formats.
       

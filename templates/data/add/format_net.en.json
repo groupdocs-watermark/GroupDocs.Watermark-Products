@@ -6,7 +6,7 @@
     "comment_4": "Save watermarked {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Effortlessly Generate Watermarks for {{FileformatCap}} Documents with {{ProdFullName}}",
+    "title": "Effortlessly Generate Watermarks for {{FileformatCap}} Documents",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Advanced Watermarking library for {{EnvName}} applications. Empower your solution and secure documents with watermarks just in time.",
       "step_1": "**Core Class: Watermarker.** The main class of our API is **Watermarker**. You need to instantiate it before document processing. Do not forget to pass the {{FileformatCap}} file to the constructor as a path or a stream object.",

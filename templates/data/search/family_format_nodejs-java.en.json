@@ -6,7 +6,7 @@
     "comment_4": "Use watermarks info"
   },
   "steps": {
-    "title": "Efficiently Get Watermarks in {{FileformatCap}} Files with {{ProdShortName}}",
+    "title": "Efficiently Get Watermarks in {{FileformatCap}} Files by {{ProdShortName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** streamlines the process of retrieving watermarks embedded within various business document formats. Seamlessly integrate {{ProdShortName}} into your {{EnvName}} applications to empower them with robust watermark detection capabilities.",
       "step_1": "To take advantage of {{ProdShortName}} functionalities, instantiate the **Watermarker** class and provide the {{FileformatCap}} file path, file stream, or byte stream as input. This action loads the document for watermark analysis.",
@@ -16,28 +16,28 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Streamline Your Watermark Search with {{ProdShortName}} in Node.js",
+    "description": "Learn to implement advanced watermark search functionalities in your Node.js applications with {{ProdShortName}}, optimizing document management within {{EnvName}}.",
+    "image_description": "Search Watermarks in Node.js",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Advanced Watermark Detection in Node.js",
+      "content": "Utilize {{ProdShortName}} to enhance your ability to detect and identify watermarks in any document format. Search efficiently using sophisticated filtering options."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Node.js API for Custom Watermark Searches",
+      "content": "Customize your search operations with our Node.js API. Find watermarks by specifying detailed parameters such as location, opacity, and content type, optimizing your document workflows."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Efficient Watermark Retrieval and Analysis",
+      "content": "With {{ProdShortName}}, swiftly extract and analyze watermarks from various documents. Our API supports quick retrieval, helping you to maintain compliance and branding consistency."
     },
     "code_1": {
-      "title": "Get particularly formatted watermarks",
-      "content": "This example shows how to get list of PDF watermarks with special formatting",
-      "comment_1": "Instantiate Watermarker with PDF",
-      "comment_2": "Set formatting criteria for search",
-      "comment_3": "Get list of suitable watermarks",
-      "comment_4": "Process selected watermarks"
+      "title": "Node.js Example: Efficient Watermark Search",
+      "content": "Explore how to use Node.js with {{ProdShortName}} to search for watermarks across different document types, demonstrating the use of dynamic search criteria for precise results.",
+      "comment_1": "Initialize the Node.js environment and load the target document",
+      "comment_2": "Set up search queries using flexible criteria to find specific watermarks",
+      "comment_3": "Execute the search and collect watermarks meeting the criteria",
+      "comment_4": "Process and analyze the results to determine necessary actions"
     }
   },
   "excel": {

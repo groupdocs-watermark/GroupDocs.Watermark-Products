@@ -16,7 +16,7 @@
     }
   },
   "more_features": {
-    "title": "Optimize Document Clarity with {{EnvName}} API for Watermark Removal | {{ProdShortName}}",
+    "title": "Optimize Documents with {{EnvName}} API for Watermark Removal",
     "description": "Enhance document clarity by seamlessly integrating watermark removal capabilities into your {{EnvName}} applications. Our {{EnvName}} API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation.",
     "image_description": "Remove Watermark",
     "feature_1": {

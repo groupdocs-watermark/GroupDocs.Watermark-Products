@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:47
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Rtf
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Edit Rtf Document Watermarks"
+head_title: "Edit Watermarks in Rtf Documents"
 head_description: "Achieve polished Rtf document branding with GroupDocs.Watermark for .NET SDK. Edit your watermarks ensuring security."
 
 ############################# Header ############################

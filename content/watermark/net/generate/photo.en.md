@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:44
+date:  2024-04-26T10:23:26
 draft: false
 lang: en
 format: Photo
@@ -40,7 +40,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Enhance Your Documents: Generate Photo Files Watermarks using .NET"
+    title: "Enhance Your Documents: Generate Watermarks for Photo using .NET"
     content: |
       **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** is a library that simplifies adding watermarks to various business file formats for .NET developers. Integrate our library into your application and effortlessly watermark documents using these following steps:
       

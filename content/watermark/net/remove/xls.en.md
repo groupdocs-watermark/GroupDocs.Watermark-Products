@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-24T14:27:46
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Xls
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Excel XLS Clear out watermark "
+head_title: "Clear out watermarks in Excel XLS Spreadsheets"
 head_description: "Efficiently clear watermarks from XLS documents using our C# .NET API, ensuring clean and professional-looking files."
 
 ############################# Header ############################

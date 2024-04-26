@@ -6,7 +6,7 @@
     "comment_4": "Save {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Enhance Your Documents: Generate {{FileformatCap}} Files Watermarks using {{EnvName}}",
+    "title": "Enhance Your Documents: Generate Watermarks for {{FileformatCap}} using {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a library that simplifies adding watermarks to various business file formats for {{EnvName}} developers. Integrate our library into your application and effortlessly watermark documents using these following steps:",
       "step_1": "**Initiating Your Watermarking Journey:** Start by acquainting yourself with the **Watermarker** class, the cornerstone of our API. To begin the process, ensure you instantiate it prior to document processing. Don't overlook the importance of providing the {{FileformatCap}} file to the constructor, whether it's a path or a stream object.",
