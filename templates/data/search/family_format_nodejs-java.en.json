@@ -53,7 +53,7 @@
       "action_title": "Get from {{PackageStoreName}}"
     },
     "about": {
-      "title": "Base {{ProdFullName}} Information",
+      "title": "{{ProdFullName}} Base Information",
       "content": "Unlock the potential of {{ProdFullName}} in managing watermarks across {{EnvName}}. Easily generate, update, get, and delete watermarks from various file formats including PDF, Word, Excel, PowerPoint, and more."
     },
     "formats": {

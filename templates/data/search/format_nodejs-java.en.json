@@ -92,7 +92,7 @@
       "action_title": "Download {{PackageStoreName}} package"
     },
     "about": {
-      "title": "Base {{ProdFullName}} Information",
+      "title": "{{ProdFullName}} Base Information",
       "content": "{{ProdFullName}} provides a seamless solution for managing watermarks across {{EnvName}}. Simplify the process of watermark extraction and manipulation across various file formats."
     },
     "formats": {
@@ -192,7 +192,7 @@
       "action_title": "Download {{PackageStoreName}} package"
     },
     "about": {
-      "title": "Base {{ProdFullName}} Information",
+      "title": "{{ProdFullName}} Base Information",
       "content": "{{ProdFullName}} provides a streamlined solution for managing watermarks across {{EnvName}}. Simplify the process of watermark handling across various file formats."
     },
     "formats": {

@@ -112,7 +112,7 @@
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
-      "title": "Base {{ProdFullName}} Information",
+      "title": "{{ProdFullName}} Base Information",
       "content": "{{ProdFullName}} offers a robust solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. {{ProdFullName}} provides watermark management for your applications."
     },
     "formats": {
