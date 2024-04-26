@@ -1,0 +1,411 @@
+{
+  "index-content": {
+    "head_title": "Tanda Air Dokumen C# Java Node.js | tambahkan tanda air",
+    "head_description": "Tambahkan watermark ke PDF, gambar dan dokumen. Solusi Watermarking untuk Microsoft Office, PDF, OpenDocument, Gambar dan lain-lain.",
+    "title": "Solusi Watermark Dokumen",
+    "description_1": "Tambahkan tanda air teks dan gambar untuk dokumen dan gambar Anda.",
+    "description_2": "Cari dan ubah tanda air dokumen dengan cara yang nyaman.",
+    "description_3": "Dapatkan info tentang tanda air yang disajikan dalam dokumen Anda.",
+    "words_for": "untuk",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "code_comment_1": "Instantiate Watermarker melewati jalur PDF",
+    "code_comment_2": "Sesuaikan opsi tanda air",
+    "code_comment_3": "Terapkan tanda air ke dokumen PDF",
+    "code_comment_4": "Simpan dokumen hasil",
+    "overview_title": "Sekilas tentang {{ProdShortName}}",
+    "formats_title": "Format file yang didukung",
+    "platforms": {
+      "title": "Independensi platform",
+      "head_title": "Pilih platform Anda",
+      "description": "{{ProdShortName}} library mendukung sistem operasi dan kerangka kerja berikut:",
+      "learn_more": "Pelajari selengkapnya",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "features": {
+      "title": "{{ProdShortName}} ulasan fitur",
+      "description": "Perpustakaan dirancang untuk menambah, mencari, dan memperbarui berbagai jenis tanda air untuk format dokumen populer.",
+      "feature_1": {
+        "title": "Lindungi file dengan tanda air",
+        "content": "Tambahkan tanda air teks dan gambar ke dokumen bisnis Anda."
+      },
+      "feature_2": {
+        "title": "Cari tanda air yang ada",
+        "content": "Dapatkan informasi terperinci tentang tanda air yang ditempatkan dalam dokumen sebelumnya."
+      },
+      "feature_3": {
+        "title": "Memanipulasi tanda air dokumen",
+        "content": "Kontrol teks, gaya, gambar, dan fitur tanda air lainnya."
+      },
+      "feature_4": {
+        "title": "Berbagai fitur tambahan",
+        "content": "Dapatkan info dokumen, perbarui tautan hiper-atau halaman latar belakang dll."
+      }
+    },
+    "formats": {
+      "title": "50+ format file didukung",
+      "description": "{{ProdShortName}} menyediakan watermarking untuk dokumen populer dan format file."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "index_title": "Lindungi dokumen dengan tanda air",
+      "index_description": "{{ProdShortName}} contoh kode operasi tipikal.",
+      "more_examples": "Lebih banyak contoh",
+      "sample_index": {
+        "title": "Membuat tanda air.",
+        "content": "Untuk menambahkan tanda air ke dokumen, berikan jalur ke file target. Anda memiliki banyak opsi untuk dipilih untuk mendapatkan tanda air yang disesuaikan pada halaman tertentu.",
+        "comment_1": "Tentukan dokumen yang akan diberi tanda air",
+        "comment_2": "Buat objek watermark",
+        "comment_3": "Mengatur opsi tanda air",
+        "comment_4": "Tambahkan watermark dan simpan file yang diproses"
+      },
+      "sample_1": {
+        "code_title": "Cara melindungi file dengan tanda air gambar.",
+        "comment_1": "Muat dokumen sumber ke Watermarker",
+        "comment_2": "Tentukan jalur ke gambar tanda air",
+        "comment_3": "Lindungi file dan simpan"
+      },
+      "sample_2": {
+        "code_title": "Pencarian & modifikasi tanda air.",
+        "comment_1": "Muat dokumen sumber",
+        "comment_2": "Cari tanda air yang akan diperbarui",
+        "comment_3": "Perbarui properti yang diinginkan",
+        "comment_4": "Simpan dokumen yang dimodifikasi ke jalur yang ditentukan"
+      }
+    },
+    "metrics": {
+      "title": "Data statistik perpustakaan kami",
+      "description": "Selami metrik utama, ungkapkan wawasan tentang pencapaian, dampak, dan pertumbuhan kami.",
+      "item_1": {
+        "title": "Format yang didukung",
+        "description": "Perpustakaan dapat memproses lebih dari 50 format file paling populer."
+      },
+      "item_2": {
+        "title": "NuGet unduhan",
+        "description": "{{ProdShortName}} untuk .NET adalah perpustakaan populer dengan lebih dari 800.000 unduhan di NuGet."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "Dengan lebih dari 15K unduhan di Maven, {{ProdShortName}} adalah pilihan populer bagi Java pengembang."
+      },
+      "item_4": {
+        "title": "Pelanggan yang bahagia",
+        "description": "Pengembang individu dan perusahaan top di seluruh dunia lebih memilih perpustakaan kami untuk membangun solusi inovatif."
+      }
+    },
+    "customers": {
+      "title": "Pelanggan kami yang bahagia",
+      "description": "GroupDocs perpustakaan dipekerjakan oleh merek-merek terkenal dan terkemuka di seluruh dunia."
+    },
+    "actions": {
+      "alt": "Perizinan",
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "description_index": "Coba fitur {{ProdShortName}} secara gratis di platform Anda"
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "description": "Lihat Pertanyaan yang Sering Diajukan",
+      "item_1": {
+        "question": "Apakah perpustakaan eksternal diperlukan oleh {{ProdShortName}} untuk manipulasi dokumen?",
+        "answer": "{{ProdShortName}} bekerja secara independen, tidak perlu perangkat lunak pihak ketiga seperti Adobe Acrobat, Microsoft Office, dll."
+      },
+      "item_2": {
+        "question": "Dapatkah saya menguji fitur {{ProdShortName}} sebelum membeli?",
+        "answer": "Ya, {{ProdShortName}} menawarkan uji coba gratis! Instal dan coba, tetapi perlu diingat: Versi uji coba menambahkan 'lencana percoba' ke dokumen Anda, hanya 3 halaman pertama yang diproses. Ingin pengalaman penuh? Dapatkan lisensi sementara 30 hari gratis untuk fungsionalitas penuh. Lihat detail di bawah [lisensi sementara]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Jenis lisensi apa yang disediakan?",
+        "answer": "Butuh lisensi {{ProdShortName}}? Kami punya pilihan! Pilih dari lisensi berdasarkan banyak opsi. Jumlah pengembang dalam tim Anda. Lokasi penyebaran seperti kantor tunggal atau tempat kerja jarak jauh. Apakah distribusi pelanggan akhir perlu berbagi SDK/API dengan klien? Atau, ada lisensi untuk penggunaan bulanan: Bayar hanya untuk apa yang Anda gunakan dengan paket terukur. Selami lebih dalam dan temukan [harga]({{PricingUrl}}) yang sempurna."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API kode rendah",
+      "description": "Tambahkan tanda air ke file oleh aplikasi Anda menggunakan REST API berbasis cloud kami.",
+      "item_1": {
+        "content": "Gunakan cURL REST ful API untuk menandai PDF, Word, Excel, PowerPoint, JPEG dan format file populer lainnya."
+      },
+      "item_2": {
+        "content": "Berdayakan aplikasi .NET Anda dengan fitur watermarking dokumen oleh Cloud SDK untuk .NET. Lindungi dokumen bisnis Anda sendiri."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} SDK yang dirancang untuk Java memberikan kemungkinan baru untuk aplikasi Java dan file bisnis Anda."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Aplikasi web",
+      "description": "GroupDocs memberikan akses ke aplikasi web untuk menambahkan tanda air ke dokumen Anda. Lebih dari 50 format file populer dapat diberi tanda air di browser favorit Anda SECARA GRATIS.",
+      "item_1": {
+        "content": "Alat online untuk menambahkan tanda air ke dokumen dari perangkat apa pun."
+      },
+      "item_2": {
+        "content": "Watermark MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Lindungi PDF dokumen secara online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument format",
+      "title_2": "Gambar & Grafik",
+      "title_3": "Lainnya",
+      "format_portable": "Portable",
+      "format_popular_images": "Format gambar populer",
+      "format_multi_images": "Gambar multi-halaman"
+    }
+  },
+  "index-content-net": {
+    "head_title": "C# .NET Perangkat Lunak Watermark Dokumen | tambahkan tanda air",
+    "head_description": "C# .NET Library untuk menambahkan, mencari, dan menghapus tanda air dalam dokumen: PDF, Word, Excel, presentasi, diagram Visio, email dan format file gambar.",
+    "title": "Tanda air dokumen dengan mudah di aplikasi C # .NET Anda",
+    "description": "Berdayakan solusi C# Anda dengan API watermarking dokumen fleksibel yang menyediakan penambahan tanda air yang dapat disesuaikan ke semua format dokumen populer.",
+    "actions_main": "Gratis NuGet Unduh",
+    "code_title": "Tanda air PDF file dalam C #",
+    "overview_description": "API untuk menempatkan tanda air pada dokumen melalui .NET",
+    "overview_feature_1": {
+      "title": "Tanda air file C#",
+      "description": "Tambahkan tanda air ke file bisnis Anda menggunakan {{ProdShortName}}. Gunakan teks, gambar, diagram atau lampiran email."
+    },
+    "overview_feature_2": {
+      "title": "Sesuaikan tanda air dengan tujuan Anda",
+      "description": "{{ProdFullName}} perangkat lunak memungkinkan untuk menyesuaikan tanda air dengan berbagai cara. Gaya teks seperti tebal, miring, jenis font bersama dengan properti gambar seperti rotasi dll memperkaya proses watermarking."
+    },
+    "overview_feature_3": {
+      "title": "Semua format file populer didukung",
+      "description": "Banyak format file dan dokumen didukung oleh solusi {{ProdShortName}}. PDF, Microsoft Office Word, Excel, PowerPoint, gambar seperti JPEG, PNG, GIF, BMP, Visio diagram, email dll dapat dilindungi dengan tanda air kami."
+    },
+    "overview_feature_4": {
+      "title": "Cari dan perbarui tanda air",
+      "description": "Watermark yang sudah disajikan dalam dokumen dapat ditemukan dan diproses lagi. Ubah teks, gaya, gambar, atau hapus tanda air yang terungkap tanpa upaya ekstra."
+    },
+    "features": {
+      "title": "{{ProdShortName}} fitur",
+      "description": "Lindungi PDF, Office, Gambar, dan format lainnya dengan watermark",
+      "feature_1": {
+        "title": "Watermarking dokumen",
+        "content": "Tambahkan atau Hapus Watermark dari Bagian Tertentu atau seluruh Dokumen Berbagai Format File."
+      },
+      "feature_2": {
+        "title": "Tata tanda air Anda",
+        "content": "Sesuaikan berbagai properti watermark seperti warna, font, rotasi dll."
+      },
+      "feature_3": {
+        "title": "PDF tanda air cetak tersembunyi",
+        "content": "Alokasikan Tanda Air Tersembunyi ke PDF yang hanya Muncul saat Mencetak Dokumen."
+      },
+      "feature_4": {
+        "title": "Tanda air hanya gambar dalam dokumen",
+        "content": "Tandai semua Gambar di Bagian, Halaman, Slide, atau Dokumen Tertentu."
+      },
+      "feature_5": {
+        "title": "Memproses bingkai gambar yang dipilih",
+        "content": "Tetapkan Tanda Air hanya untuk Bingkai Khusus dari Gambar Multi-Bingkai."
+      },
+      "feature_6": {
+        "title": "Lampiran & bentuk",
+        "content": "Atur Watermark ke semua Lampiran dalam Dokumen Excel & semua Bentuk Gambar di Slide."
+      },
+      "feature_7": {
+        "title": "PDF objek",
+        "content": "Sejajarkan Watermark ke Bleed Box, Art Box, Crop Box, atau Trim Box di Dokumen PDF."
+      },
+      "feature_8": {
+        "title": "Latar belakang dokumen",
+        "content": "Tempatkan Watermark atau Hapus dari Gambar Latar Belakang Spreadsheet atau Slide."
+      },
+      "feature_9": {
+        "title": "Perlindungan Karakter yang Tidak Dapat Dibaca",
+        "content": "Lindungi Tanda Air Teks menggunakan Karakter yang Tidak Dapat Dibaca dalam Presentasi."
+      },
+      "feature_10": {
+        "title": "Cari Watermark di Dokumen",
+        "content": "Cari Watermark Berdasarkan Parameter Tertentu atau dengan Menggabungkan Beberapa Kriteria."
+      },
+      "feature_11": {
+        "title": "Cari tanda air gambar serupa",
+        "content": "Cari Watermark Gambar yang menyerupai gambar tertentu."
+      },
+      "feature_12": {
+        "title": "Dapatkan informasi dokumen",
+        "content": "Ekstrak Pengaturan Halaman & Informasi Lainnya secara Terprogram untuk Format yang Didukung."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket yang tercantum di bawah ini",
+    "formats_description": "{{ProdFullName}} menyediakan pemrosesan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
+    "code_title_sample_1": "Watermark dengan menambahkan gambar ke dokumen.",
+    "code_samples_sample_1_content": "Untuk melindungi dokumen apa pun, Anda dapat menggunakan [image watermarks]({{Sample1Url}}):",
+    "code_title_sample_2": "Cari dan ubah tanda air yang ada.",
+    "code_samples_sample_2_content": "{{ProdShortName}} mampu [memodifikasi tanda air]({{Sample2Url}}) yang sudah disajikan dalam dokumen. Cari item yang diinginkan dan perbarui propertinya."
+  },
+  "index-content-java": {
+    "head_title": "Java Perpustakaan Watermark | tambahkan tanda air ke dokumen",
+    "head_description": "Perangkat lunak asli Java untuk menambahkan dan memanipulasi teks dan tanda air gambar di PDF, Word, Excel, Presentasi, Visio diagram, email dan file gambar.",
+    "title": "Menerapkan watermark dokumen di Java proyek dengan mudah",
+    "description": "Tingkatkan aplikasi Java Anda dengan kemampuan untuk menandai file menggunakan perpustakaan GroupDocs.Watermark. API kami menawarkan tanda air yang dapat disesuaikan untuk berbagai format file populer.",
+    "actions_main": "Download Gratis dari Maven",
+    "code_title": "Tanda air PDF s melalui Java",
+    "overview_description": "Perpustakaan yang dirancang untuk menambahkan tanda air menggunakan teknologi Java",
+    "overview_feature_1": {
+      "title": "File Tanda Air melalui Java",
+      "description": "Lindungi dokumen bisnis Anda menggunakan {{ProdFullName}}. Tambahkan teks, gambar, diagram, atau lampiran email sebagai tanda air ke berbagai format file."
+    },
+    "overview_feature_2": {
+      "title": "Sesuaikan Watermark untuk Kebutuhan Khusus",
+      "description": "{{ProdFullName}} menawarkan opsi penyesuaian ekstensif untuk tanda air. Sesuaikan gaya teks (tebal, miring, font) dan properti gambar (rotasi, dll.) Untuk menyesuaikan proses watermark dengan tujuan spesifik Anda."
+    },
+    "overview_feature_3": {
+      "title": "Dukungan Format Luas",
+      "description": "{{ProdFullName}} terintegrasi dengan mulus dengan berbagai format file, termasuk: PDF, Microsoft Office (Word, Excel, PowerPoint), gambar (JPEG, PNG, GIF, BMP), Visio diagram, dan email. Tingkatkan keamanan dokumen di berbagai jenis file."
+    },
+    "overview_feature_4": {
+      "title": "Pencarian dan Manajemen Tanda Air yang Mudah",
+      "description": "Kelola tanda air yang ada secara efisien dalam dokumen. Temukan tanda air tertentu, ubah teks, gaya, atau gambarnya, atau hapus seluruhnya. {{ProdFullName}} menyederhanakan alur kerja watermarking."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Fitur",
+      "description": "Lindungi file Anda dengan menambahkan tanda air. Mendukung berbagai format termasuk PDF, dokumen Office, dan gambar.",
+      "feature_1": {
+        "title": "File Watermarking",
+        "content": "Tambahkan atau hapus tanda air dari bagian tertentu atau seluruh dokumen untuk berbagai format file yang didukung."
+      },
+      "feature_2": {
+        "title": "Kustomisasi Tanda Air",
+        "content": "Sesuaikan tampilan watermark Anda dengan opsi seperti warna, font, rotasi, dan banyak lagi."
+      },
+      "feature_3": {
+        "title": "Tanda Air Pencetakan Tersembunyi untuk PDF",
+        "content": "Tambahkan tanda air yang hanya muncul saat mencetak dokumen PDF."
+      },
+      "feature_4": {
+        "title": "Watermarking Gambar Selektif",
+        "content": "Tandai semua gambar dalam bagian, halaman, slide, atau seluruh dokumen tertentu."
+      },
+      "feature_5": {
+        "title": "Watermarking Bingkai Gambar Khusus",
+        "content": "Terapkan tanda air ke bingkai tertentu dalam gambar multi-bingkai."
+      },
+      "feature_6": {
+        "title": "Lampiran dan Bentuk Watermarking",
+        "content": "Tambahkan tanda air ke semua lampiran di Excel dokumen atau semua bentuk gambar di Presentasi."
+      },
+      "feature_7": {
+        "title": "Penyelarasan Tanda Air di PDF",
+        "content": "Sejajarkan tanda air ke berbagai area dokumen PDF, termasuk Bleed Box, Art Box, Crop Box, dan Trim Box."
+      },
+      "feature_8": {
+        "title": "Watermark dengan Gambar Latar Belakang",
+        "content": "Tambahkan atau hapus tanda air gambar latar belakang ke Spreadsheet atau Presentasi."
+      },
+      "feature_9": {
+        "title": "Perlindungan dengan Karakter yang Tidak Dapat Dibaca",
+        "content": "Lindungi Presentasi menggunakan Tanda Air Teks dengan Karakter yang Tidak Dapat Dibaca."
+      },
+      "feature_10": {
+        "title": "Cari Watermark",
+        "content": "Dapatkan daftar tanda air yang disajikan dalam file, menggunakan berbagai parameter termasuk ekspresi reguler."
+      },
+      "feature_11": {
+        "title": "Temukan Tanda Air Gambar Serupa",
+        "content": "Temukan tanda air gambar yang terlihat seperti gambar tertentu."
+      },
+      "feature_12": {
+        "title": "Ekstrak Informasi Dokumen",
+        "content": "Dapatkan berbagai data dokumen seperti pengaturan halaman untuk format file yang didukung."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung berbagai sistem operasi dan manajer paket.",
+    "formats_description": "{{ProdFullName}} memungkinkan pemrosesan berbagai format file. [Lihat daftar lengkapnya]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Jelajahi contoh kode yang menggambarkan fungsi {{ProdFullName}} tipikal",
+    "code_title_sample_1": "Tandai Dokumen Menggunakan Gambar",
+    "code_samples_sample_1_content": "Manfaatkan {{ProdFullName}} untuk meningkatkan keamanan dokumen dengan menambahkan tanda air gambar. Pelajari lebih lanjut: [Tanda air gambar]({{Sample1Url}}).",
+    "code_title_sample_2": "Ubah Tanda Air",
+    "code_samples_sample_2_content": "{{ProdFullName}} memberdayakan Anda untuk mengelola tanda air yang ada di dalam dokumen. Temukan tanda air tertentu dan [ubah propertinya]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Node.js Watermarking Library | tanda air dokumen",
+    "head_description": "Solusi Node.js melindungi dokumen bisnis dengan tanda air teks dan gambar. Format populer seperti PDF, Word, Excel, PowerPoint didukung.",
+    "title": "Akses ke teknologi watermarking di Node.js melalui solusi Java",
+    "description": "Lindungi kekayaan intelektual Anda dan cegah penyalinan yang tidak sah dengan solusi Node.js ini. Hal ini memungkinkan pengguna untuk dengan mudah menambahkan tanda air ke dokumen bisnis dalam berbagai format, termasuk PDF, Word, Excel, PowerPoint, gambar dll.",
+    "actions_main": "Gunakan NPM untuk mengunduh secara gratis",
+    "code_title": "Tambahkan watermark ke PDF dengan TypeScript",
+    "overview_description": "Pustaka TypeScript Node.js untuk watermarking",
+    "overview_feature_1": {
+      "title": "Tanda Air File Node.js",
+      "description": "Lindungi dokumen bisnis Anda dengan {{ProdFullName}}. Tambahkan teks, gambar, diagram, atau lampiran email sebagai tanda air ke berbagai format file."
+    },
+    "overview_feature_2": {
+      "title": "Sesuaikan Watermark untuk Kebutuhan Anda",
+      "description": "{{ProdFullName}} menyediakan opsi penyesuaian ekstensif untuk tanda air. Gaya teks yang disempurnakan (tebal, miring, font) dan properti gambar (rotasi, dll.) memungkinkan untuk menyesuaikan pemrosesan dokumen."
+    },
+    "overview_feature_3": {
+      "title": "Dukungan Format Komprehensif",
+      "description": "{{ProdFullName}} terintegrasi secara mulus dengan berbagai format file, termasuk: PDF, MS Office seperti Word, Excel, PowerPoint, gambar seperti JPEG, PNG, GIF, BMP, Visio, Visio diagram, email dll. Berdayakan pemrosesan dokumen untuk mencapai tujuan bisnis."
+    },
+    "overview_feature_4": {
+      "title": "Pencarian dan Pembaruan Tanda Air yang Kuat",
+      "description": "Dapatkan dan perbarui tanda air yang ada di dokumen yang diberi tanda air. Ubah teks, gaya, konten gambar, atau hapus seluruhnya. {{ProdFullName}} menyediakan berbagai pemrosesan tanda air."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Set Fitur",
+      "description": "Berdayakan keamanan dokumen yang kuat melalui watermarking terprogram. Mendukung beragam format file termasuk: PDF, DOCX, XLSX, PPTX, dan format gambar (PNG, JPG, dll.).",
+      "feature_1": {
+        "title": "Kontrol Watermarking yang Tepat",
+        "content": "Manipulasi tanda air secara tepat dengan menambahkan atau menghapusnya dari bagian tertentu, seluruh dokumen, atau lampiran dan bentuk individu dalam format file yang berbeda."
+      },
+      "feature_2": {
+        "title": "Kustomisasi Penampilan Watermark",
+        "content": "Berikan kontrol halus atas estetika tanda air dengan memodifikasi atribut seperti warna, font, opacity, rotasi, dan posisi di dalam dokumen."
+      },
+      "feature_3": {
+        "title": "Cetak PDF Watermarking",
+        "content": "Gunakan tanda air tersembunyi yang tetap tidak terlihat selama tampilan dokumen biasa tetapi menjadi jelas hanya selama proses pencetakan, meningkatkan keamanan dokumen secara diam-diam."
+      },
+      "feature_4": {
+        "title": "Watermarking Gambar Khusus",
+        "content": "Tandai gambar tertentu dalam dokumen menggunakan solusi kami. Pilih untuk menyematkan tanda air di bagian yang ditentukan (misalnya, halaman, slide) atau di seluruh dokumen."
+      },
+      "feature_5": {
+        "title": "Watermarking Gambar Multi-Bingkai",
+        "content": "Terapkan tanda air secara selektif ke bingkai tertentu dalam format gambar multi-bingkai, memastikan kontrol granular atas penempatan tanda air."
+      },
+      "feature_6": {
+        "title": "Perlindungan Konten Komprehensif",
+        "content": "Perluas perlindungan ke berbagai elemen dokumen seperti lampiran dalam Excel dokumen dan bentuk gambar dalam Presentasi, memberikan lapisan keamanan tambahan."
+      },
+      "feature_7": {
+        "title": "Watermarking Tingkat Lanjut di PDF",
+        "content": "Tandai area yang berbeda dari PDF s, termasuk Bleed Box, Art Box, Crop Box, Trim Box dll."
+      },
+      "feature_8": {
+        "title": "Watermarking Gambar Latar Belakang",
+        "content": "Kelola tanda air dalam gambar latar belakang Spreadsheet dan Presentasi, menawarkan opsi penyesuaian tambahan untuk langkah-langkah keamanan visual."
+      },
+      "feature_9": {
+        "title": "Tanda Air Teks dengan Karakter yang Tidak Dapat Dibaca",
+        "content": "Gunakan karakter yang tidak dapat dibaca dalam tanda air teks yang tertanam dalam Presentasi, meningkatkan keamanan dengan membuat ekstraksi tanda air yang tidak sah secara signifikan lebih menantang."
+      },
+      "feature_10": {
+        "title": "Pencarian Watermark Tingkat Lanjut",
+        "content": "Manfaatkan kemampuan pencarian komprehensif untuk menemukan tanda air dalam dokumen berdasarkan parameter tertentu atau dengan menggabungkan berbagai kriteria, memungkinkan pengambilan dan manajemen yang efisien."
+      },
+      "feature_11": {
+        "title": "Deteksi Watermark Gambar Mirip",
+        "content": "Temukan gambar tanda air serupa di dalam dokumen yang secara visual menyerupai gambar sumber."
+      },
+      "feature_12": {
+        "title": "Ekstraksi Informasi Dokumen Terprogram",
+        "content": "Ekstrak metadata berharga secara terprogram, termasuk detail pengaturan halaman dan informasi dokumen lainnya untuk format file yang didukung."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mudah terintegrasi dengan berbagai sistem operasi dan manajer paket.",
+    "formats_description": "{{ProdFullName}} memberdayakan Anda untuk memproses beragam format file. [Jelajahi daftar lengkapnya]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Selami contoh kode yang menampilkan fungsi {{ProdFullName}} umum",
+    "code_title_sample_1": "Tandai Dokumen dengan Gambar",
+    "code_samples_sample_1_content": "Manfaatkan {{ProdFullName}} untuk meningkatkan keamanan dokumen dengan menambahkan tanda air gambar. Pelajari lebih lanjut: [Tanda air gambar]({{Sample1Url}}).",
+    "code_title_sample_2": "Cari dan Ubah Watermark yang Ada",
+    "code_samples_sample_2_content": "{{ProdFullName}} memberdayakan Anda untuk mengelola tanda air dokumen. Pilih tanda air, ubah propertinya. Temukan caranya: [Ubah tanda air]({{Sample2Url}})."
+  }
+}

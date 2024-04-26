@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T10:23:26
+date:  2024-04-26T21:38:57
 draft: false
 lang: en
 format: Excel
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Base GroupDocs.Watermark for Java Information"
+    title: "GroupDocs.Watermark for Java Base Information"
     link: "/watermark/java/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400

@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Filigrane Excel",
+        "description": "MS Excel et feuilles de calcul Open Office"
+      },
+      "word": {
+        "name": "Filigrane Word",
+        "description": "MS Word et documents Open Office"
+      },
+      "powerpoint": {
+        "name": "Filigrane PowerPoint",
+        "description": "MS PowerPoint et présentations Open Office"
+      },
+      "image": {
+        "name": "Image en filigrane",
+        "description": "Formats d'image populaires"
+      },
+      "photo": {
+        "name": "Photo en filigrane",
+        "description": "Formats de photos"
+      },
+      "pdf": {
+        "name": "Filigrane PDF",
+        "description": "Format de document Adobe Portable"
+      },
+      "doc": {
+        "name": "Filigrane DOC",
+        "description": "Microsoft Word 97 - 2007 Documento"
+      },
+      "docx": {
+        "name": "Filigrane DOCX",
+        "description": "Microsoft Word Ouvrir un document XML"
+      },
+      "xls": {
+        "name": "Filigrane XLS",
+        "description": "Classeur Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Filigrane XLSX",
+        "description": "Feuille de calcul Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Filigrane PPT",
+        "description": "PowerPoint Présentation 97-2003"
+      },
+      "pptx": {
+        "name": "Filigrane PPTX",
+        "description": "PowerPoint Présentation Open XML"
+      },
+      "jpeg": {
+        "name": "Filigrane JPEG",
+        "description": "JPEG Photo"
+      },
+      "png": {
+        "name": "Filigrane PNG",
+        "description": "Portable Graphique du réseau"
+      },
+      "tiff": {
+        "name": "Filigrane TIFF",
+        "description": "Format de fichier d'image de balise"
+      },
+      "webp": {
+        "name": "Filigrane WEBP",
+        "description": "Photo WEB"
+      },
+      "rtf": {
+        "name": "Filigrane RTF",
+        "description": "Format de texte enrichi"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copier",
+      "copy_tip": "cliquez pour copier",
+      "copy_done": "copié",
+      "links": {
+        "title_1": "Plus d'exemples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Prêt à démarrer ?",
+      "description": "Essayez {{ProdShortName}} fonctionnalités gratuitement ou demandez une licence",
+      "comment_1": "{{PackageStoreName}} télécharger",
+      "comment_2": "Licences"
+    },
+    "texts": {
+      "learn_more": "En savoir plus"
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Hasilkan tanda air gambar dalam file {{FileFormatUp}}",
+    "comment_2": "Berikan jalur file sumber ke konstruktor Watermarker",
+    "comment_3": "Hasilkan contoh tanda air gambar dengan file gambar",
+    "comment_4": "Simpan hasil {{FileFormatUp}} yang ditandai dengan tanda air"
+  },
+  "steps": {
+    "title": "Menghasilkan Watermark dengan Mudah untuk {{FileformatCap}} Dokumen",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Pustaka Watermarking Tingkat Lanjut untuk aplikasi {{EnvName}}. Berdayakan solusi Anda dan amankan dokumen dengan tanda air tepat waktu.",
+      "step_1": "**Kelas Inti: Watermarker.** Kelas utama API kami adalah **Watermarker**. Anda perlu membuat instansiasinya sebelum pemrosesan dokumen. Jangan lupa untuk meneruskan file {{FileformatCap}} ke konstruktor sebagai jalur atau objek aliran.",
+      "step_2": "**Membuat Watermark Anda.** Langkah selanjutnya adalah membangun objek Watermark dari jenis yang diinginkan. Hal ini dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti gambar atau header.",
+      "step_3": "**Penampilan Penyetelan Sempurna.** Atur properti tanda air seperti tinggi dan lebar, atas, kiri, keselarasan tengah, font dan warna, dll.",
+      "step_4": "**Menerapkan dan Menyimpan.** Gunakan metode **Watermarker** untuk menambahkan tanda air baru. Jangan ragu untuk menambahkan tanda air sebanyak yang Anda butuhkan. Anda dapat menyimpan dokumen yang diberi tanda air ke lokasi mana pun."
+    }
+  },
+  "more_features": {
+    "title": "Tingkatkan Game Watermarking Anda",
+    "description": "Buka kemampuan watermarking tingkat lanjut dengan GroupDocs.Watermark API kami untuk .NET. Alat canggih ini memungkinkan penyesuaian dan penerapan tanda air yang tepat di berbagai jenis dokumen untuk memastikan keamanan maksimum dan kepatuhan hak cipta dengan gangguan visual minimal.",
+    "image_description": "Solusi Watermarking Komprehensif",
+    "feature_1": {
+      "title": "Opsi Ubin Canggih",
+      "content": "Perluas tanda air Anda ke seluruh dokumen dengan mulus dengan opsi ubin kami. Fitur ini memungkinkan tanda air untuk menutupi area dokumen lengkap, mencegah penghapusan dan memastikan perlindungan dokumen lengkap tanpa mengorbankan desain atau keterbacaan."
+    },
+    "feature_2": {
+      "title": "Kustomisasi Warna Cerah",
+      "content": "Tambahkan percikan warna ke tanda air Anda! API kami memungkinkan kustomisasi warna spektrum penuh, memungkinkan Anda menerapkan tanda air yang sangat cocok dengan merek perusahaan atau gaya dokumen Anda. Tingkatkan daya tarik visual sambil mempertahankan fitur keamanan yang kuat."
+    },
+    "feature_3": {
+      "title": "Pengaturan Keamanan yang Ditingkatkan",
+      "content": "Tingkatkan keamanan dokumen dengan pengaturan watermark tingkat lanjut. Konfigurasikan tanda air multi-layer, menggabungkan elemen yang terlihat dan tidak terlihat, untuk melindungi dari penyalinan yang tidak sah dan memastikan hanya penerima yang dituju yang dapat mengakses informasi penting."
+    },
+    "code_1": {
+      "title": "Hasilkan tanda air PowerPoint",
+      "content": "Contoh ini menunjukkan cara menambahkan watermark ke gambar latar belakang PPTX",
+      "comment_1": "Muat presentasi PPTX",
+      "comment_2": "Menyiapkan properti tanda air",
+      "comment_3": "Latar belakang slide tanda air",
+      "comment_4": "Simpan presentasi yang diproses"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Watermark {{FileFormatUp}} File dengan .NET C#",
+      "description": "Terapkan tanda air .NET C# dalam file {{FileFormatUp}} untuk melindungi dan mengelola dokumen Word Anda secara efektif."
+    },
+    "header": {
+      "title": "Tingkatkan Keamanan {{FileFormatUp}} dengan Watermark C#",
+      "description": "Gunakan .NET C# untuk menyematkan tanda air aman di {{FileFormatUp}} file, sempurna untuk melindungi MS Word dokumen dalam pengaturan hukum dan perusahaan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} memanfaatkan .NET C# untuk menyediakan solusi watermarking canggih untuk file {{FileFormatUp}}, yang biasa digunakan di Microsoft Word. API ini memungkinkan pengembang untuk menyisipkan tanda air teks dan grafik yang dapat disesuaikan untuk opacity, warna, dan posisi. Tingkatkan keamanan dokumen dengan tanda air yang dapat menyertakan cap waktu, logo, atau label rahasia, yang secara efektif mencegah penggunaan yang tidak sah dan memastikan keaslian dokumen. API direkayasa untuk terintegrasi secara mulus dengan kerangka kerja .NET, menjadikannya ideal untuk aplikasi dalam dokumentasi hukum, komunikasi perusahaan, dan manajemen informasi sensitif. Kompatibel dengan lingkungan .NET C #, {{ProdShortName}} menawarkan toolset yang kuat untuk perlindungan dokumen yang komprehensif."
+    },
+    "formats": {
+      "title": "C# Watermarking untuk Word Dokumen",
+      "description": "Terapkan .NET C# untuk menerapkan tanda air yang tepat dan dapat disesuaikan di {{FileFormatUp}} file, memperkuat keamanan dan integritas dokumen MS Word Anda."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "C# Watermarking untuk {{FileFormatUp}} File",
+      "description": "Gunakan .NET C# untuk mengintegrasikan tanda air ke dalam file {{FileFormatUp}}, meningkatkan keamanan dokumen Word Anda."
+    },
+    "header": {
+      "title": "Amankan {{FileFormatUp}} dengan .NET C# Watermark",
+      "description": "Terapkan teknik watermarking lanjutan di {{FileFormatUp}} file menggunakan .NET C#, sempurna untuk melindungi kekayaan intelektual dalam Word dokumen di seluruh industri.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} memanfaatkan kekuatan .NET C# untuk menambahkan kemampuan watermarking canggih ke file {{FileFormatUp}}. Alat ini dirancang untuk integrasi tanpa batas ke lingkungan Microsoft Word, memungkinkan penerapan tanda air yang dapat diskalakan secara dinamis, transparan, dan diposisikan sesuai dengan tata letak dokumen. Ini ideal untuk dokumen hukum, laporan rahasia, dan kebijakan perusahaan yang memerlukan visibilitas dan perlindungan. Fitur termasuk gaya teks khusus, watermark gambar, dan penempatan bersyarat berdasarkan konten dokumen. Dengan dukungan untuk kerangka kerja .NET terbaru, {{ProdShortName}} memastikan bahwa langkah-langkah keamanan dokumen Anda mutakhir."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Kuasai penerapan tanda air khusus dan aman dalam file {{FileFormatUp}} menggunakan .NET C #, penting untuk integritas dokumen dan perlindungan hak cipta."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Lindungi {{FileFormatUp}} dengan .NET C# Watermark",
+      "description": "Sematkan tanda air tingkat lanjut di {{FileFormatUp}} gambar menggunakan .NET C#, memastikan keamanan hak cipta dan konten."
+    },
+    "header": {
+      "title": "Watermarking C# Tingkat Lanjut untuk File {{FileFormatUp}}",
+      "description": "Gunakan .NET C# untuk menerapkan tanda air yang aman dan dapat disesuaikan ke {{FileFormatUp}} gambar, ideal untuk melindungi seni digital dan hak cipta fotografi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan alat tangguh kepada pengembang C# .NET untuk memberi tanda air pada gambar {{FileFormatUp}} secara efektif. API ini terintegrasi langsung dengan alur kerja pemrosesan gambar digital, memungkinkan penambahan tanda air yang dapat berbasis teks, berpusat pada logo, atau berpola. Opsi penyesuaian termasuk menyesuaikan opacity, ukuran penskalaan, dan memodifikasi rotasi untuk memastikan watermark menyatu dengan mulus tanpa mengurangi estetika asli gambar. Ideal untuk fotografer, desainer grafis, dan pembuat konten, {{ProdShortName}} melindungi dari penggunaan yang tidak sah sambil mempertahankan kualitas gambar yang tinggi. Kompatibel dengan semua versi .NET utama, solusi ini sangat penting bagi siapa saja yang perlu mengamankan konten visual dalam lanskap digital."
+    },
+    "formats": {
+      "title": "Solusi Watermark C# untuk {{FileFormatUp}} Gambar",
+      "description": "Terapkan .NET C# untuk membuat dan mengelola tanda air di {{FileFormatUp}} file, meningkatkan keamanan untuk gambar di seluruh platform digital."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "C# Watermarking untuk {{FileFormatUp}} Gambar",
+      "description": "Integrasikan watermarking ke dalam {{FileFormatUp}} file menggunakan .NET C #, menjaga gambar digital Anda secara efektif."
+    },
+    "header": {
+      "title": "Amankan {{FileFormatUp}} Gambar dengan .NET C#",
+      "description": "Terapkan .NET C# untuk membuat tanda air yang kuat untuk gambar {{FileFormatUp}}, ideal untuk perlindungan hak cipta dan mencegah penggunaan yang tidak sah.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan .NET pengembang C# dengan kerangka kerja lanjutan untuk menambahkan tanda air ke gambar JPG. API ini memungkinkan penyematan teks, logo, dan tanda air grafis yang tepat yang dapat disesuaikan dalam opacity, posisi, dan ukuran, sempurna untuk media digital dan fotografi profesional. Tingkatkan keamanan gambar Anda tanpa mengorbankan kualitas, dengan fitur yang dirancang untuk menyematkan tanda air yang mencegah pembajakan sambil menjaga integritas karya seni asli. Cocokan untuk berbagai aplikasi mulai dari perlindungan foto pribadi hingga penggunaan komersial dalam iklan dan media, {{ProdShortName}} memastikan bahwa aset visual Anda ditandai secara unik dan dilindungi secara hukum."
+    },
+    "formats": {
+      "title": "Terapkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Manfaatkan .NET C# untuk menyematkan tanda air yang tidak terlihat atau terlihat dalam file {{FileFormatUp}}, penting untuk konten digital yang aman dan dapat dikenali."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Tanda Air C# untuk Dokumen Aman {{FileFormatUp}}",
+      "description": "Gunakan .NET C# untuk menyematkan tanda air di {{FileFormatUp}}, mengamankan dokumen resmi dan informasi sensitif."
+    },
+    "header": {
+      "title": "Tingkatkan Keamanan {{FileFormatUp}} dengan Watermark C#",
+      "description": "Terapkan .NET C# untuk menerapkan tanda air di {{FileFormatUp}} dokumen, memastikan perlindungan untuk catatan hukum, keuangan, dan resmi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan .NET pengembang C# API yang kuat untuk memasukkan tanda air ke file {{FileFormatUp}}, alat penting untuk keamanan dokumen di sektor perusahaan, hukum, dan pemerintah. API ini mendukung opsi penyesuaian tanda air yang komprehensif termasuk pemformatan teks, integrasi gambar, dan penempatan dinamis untuk mengakomodasi berbagai tata letak dokumen. Baik mengamankan perjanjian rahasia, melindungi materi hak cipta, atau menandai informasi kepemilikan, {{ProdShortName}} memastikan bahwa semua PDF menyampaikan kepemilikan secara jelas dan profesional. Fitur tambahan termasuk rotasi tanda air, kontrol transparansi, dan kemampuan layering, kompatibel dengan semua kerangka kerja .NET modern."
+    },
+    "formats": {
+      "title": "Mengamankan {{FileFormatUp}} File dengan .NET C# Watermark",
+      "description": "Gunakan .NET C# untuk menyematkan tanda air yang aman dan disesuaikan dalam dokumen {{FileFormatUp}}, ideal untuk melindungi informasi resmi dan sensitif."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Amankan {{FileFormatUp}} dengan .NET C# Watermark",
+      "description": "Sematkan tanda air ke file {{FileFormatUp}} menggunakan .NET C #, sempurna untuk hak cipta gambar dan keamanan."
+    },
+    "header": {
+      "title": "C# Watermarking untuk {{FileFormatUp}} File",
+      "description": "Gunakan .NET C# untuk menerapkan tanda air tingkat lanjut ke {{FileFormatUp}} gambar, menjaga konten artistik dan digital secara efektif.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan toolkit khusus .NET C# untuk menyematkan tanda air di file {{FileFormatUp}}, melayani seniman, desainer, dan pembuat konten yang perlu melindungi aset visual mereka. API ini memungkinkan penambahan tanda air transparan dan buram tanpa batas yang dapat diposisikan dan diskalakan secara rumit untuk menjaga integritas gambar asli sambil memastikan perlindungan hukum. Fitur termasuk teks kustom dan tanda air gambar, kontrol yang tepat atas opacity watermark, dan kemampuan untuk menambahkan tanda air multi-layer untuk meningkatkan keamanan. Baik untuk penggunaan pribadi atau portofolio profesional, {{ProdShortName}} memastikan PNG gambar Anda dilindungi dari reproduksi dan penggunaan yang tidak sah, didukung sepenuhnya di lingkungan .NET."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Terapkan .NET C# untuk membuat tanda air yang tersembunyi atau tebal dalam gambar {{FileFormatUp}}, memastikan fleksibilitas estetika dan perlindungan hak cipta yang kuat."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Tanda Air C# untuk File PowerPoint",
+      "description": "Terapkan tanda air dinamis ke file PowerPoint menggunakan .NET C #, meningkatkan keamanan presentasi."
+    },
+    "header": {
+      "title": "Lindungi {{FileFormatUp}} dengan .NET C# Watermark",
+      "description": "Gunakan .NET C# untuk memasukkan tanda air yang dapat disesuaikan ke dalam presentasi PowerPoint, ideal untuk mengamankan konten bisnis dan akademik.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} melengkapi .NET pengembang C# dengan alat untuk mengintegrasikan tanda air dengan mulus ke dalam file PowerPoint (PPT). API ini sangat cocok untuk menambahkan tanda air yang terlihat dan tidak terlihat, memastikan presentasi dilindungi dari penggunaan dan distribusi yang tidak sah. Dengan fitur-fitur canggih seperti kustomisasi tanda air untuk gaya teks, ukuran, warna, dan opasitas, serta kemampuan watermark gambar, {{ProdShortName}} meningkatkan keamanan dan profesionalisme slide Anda. Ini sangat berguna untuk lingkungan perusahaan, pendidikan, dan pelatihan di mana integritas dokumen sangat penting. Sepenuhnya kompatibel dengan semua versi .NET, termasuk .NET Core dan .NET Framework."
+    },
+    "formats": {
+      "title": "Mengamankan {{FileFormatUp}} File dengan Watermark C#",
+      "description": "Sematkan tanda air tingkat lanjut ke dalam dokumen PowerPoint menggunakan .NET C#, melindungi presentasi Anda dari penyalahgunaan dan pelanggaran hak cipta."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Sematkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Amankan presentasi {{FileFormatUp}} Anda dengan tanda air yang diterapkan C# .NET, melindungi kekayaan intelektual."
+    },
+    "header": {
+      "title": "Watermarking C# Tingkat Lanjut untuk {{FileFormatUp}}",
+      "description": "Terapkan .NET C# untuk membuat tanda air yang kuat dalam file {{FileFormatUp}}, sempurna untuk meningkatkan keamanan dalam presentasi perusahaan dan pendidikan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi C# .NET yang komprehensif untuk watermarking file {{FileFormatUp}}, cocok untuk profesional yang perlu mengamankan materi presentasi. API ini mendukung integrasi tanda air yang dapat disesuaikan dan dapat mencakup teks, logo, atau grafik lainnya. Ini menawarkan fitur-fitur seperti menyesuaikan transparansi, ukuran, dan posisi, memungkinkan tanda air menjadi efektif dan halus. Ideal untuk bisnis, pendidik, dan siapa pun yang menyajikan informasi sensitif atau eksklusif, {{ProdShortName}} memastikan bahwa presentasi Anda tidak hanya aman tetapi juga menjaga kualitas estetika mereka. Kompatibel dengan .NET 5 dan seterusnya, alat ini memperluas dukungan kuat ke lingkungan Microsoft Office modern."
+    },
+    "formats": {
+      "title": "Solusi Watermark C# untuk File {{FileFormatUp}}",
+      "description": "Manfaatkan .NET C# untuk menerapkan tanda air diskrit di {{FileFormatUp}} file, melindungi presentasi Anda dari distribusi yang tidak sah."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "C# Watermarking untuk {{FileFormatUp}} Dokumen",
+      "description": "Masukkan tanda air .NET C# ke dalam file {{FileFormatUp}} untuk meningkatkan keamanan dokumen Word Anda."
+    },
+    "header": {
+      "title": "Amankan {{FileFormatUp}} dengan .NET C# Watermark",
+      "description": "Gunakan .NET C# untuk menerapkan tanda air yang aman dan dapat disesuaikan ke file {{FileFormatUp}}, sempurna untuk menjaga integritas dokumen dalam lingkungan MS Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} melengkapi .NET pengembang C# dengan alat canggih untuk menambahkan tanda air ke {{FileFormatUp}} dokumen secara efektif. API ini memungkinkan integrasi tanda air yang terlihat dan transparan yang dapat disesuaikan dalam hal font, warna, ukuran, dan posisi, memastikan mereka menyatu dengan mulus ke dalam dokumen tanpa menghalangi keterbacaan. Ideal untuk dokumen hukum, kertas kekayaan intelektual, dan komunikasi sensitif, {{ProdShortName}} memberikan perlindungan penting terhadap penyalinan dan modifikasi yang tidak sah. Alat ini dirancang agar kompatibel dengan semua versi .NET, memfasilitasi solusi yang aman dan mudah beradaptasi untuk watermarking dokumen."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Terapkan .NET C# untuk membuat tanda air yang kuat dan halus di dokumen {{FileFormatUp}}, memperkuat keamanan dan keaslian file Word Anda."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Hasilkan Watermark C# untuk {{FileFormatUp}} Gambar",
+      "description": "Gunakan .NET C# untuk menerapkan tanda air yang tepat ke {{FileFormatUp}} gambar, mengamankan konten fotografi Anda."
+    },
+    "header": {
+      "title": "Watermarking Tingkat Lanjut untuk {{FileFormatUp}} dengan C #",
+      "description": "Sematkan tanda air berkualitas tinggi ke {{FileFormatUp}} gambar menggunakan .NET C#, ideal untuk fotografer dan arsiparis yang membutuhkan perlindungan hak cipta yang ditingkatkan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan kerangka kerja .NET C# yang kuat untuk watermarking file {{FileFormatUp}}, disesuaikan dengan kebutuhan profesional dalam fotografi dan pengarsipan digital. API ini memungkinkan penambahan tanda air tanpa batas yang dapat disesuaikan untuk opasitas, ukuran, dan posisi, berpadu sempurna dengan sifat gambar TIF resolusi tinggi. Fitur termasuk kemampuan untuk menerapkan tanda air teks dan grafik, yang penting untuk menegaskan hak cipta, mencegah penggunaan yang tidak sah, dan meningkatkan keterlacakan gambar. Dengan kemampuan canggih seperti pemrosesan batch dan penempatan tanda air dinamis, {{ProdShortName}} memastikan gambar Anda terlindungi tanpa mengorbankan kualitas. Kompatibel dengan semua platform .NET kontemporer, alat ini harus dimiliki untuk mengamankan aset gambar yang berharga."
+    },
+    "formats": {
+      "title": "Mengamankan {{FileFormatUp}} Gambar dengan .NET C#",
+      "description": "Terapkan .NET C# untuk menyematkan tanda air khusus yang tidak mencolok dalam gambar {{FileFormatUp}}, melindungi dari reproduksi yang tidak sah dan memastikan integritas hak cipta."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Hasilkan {{FileFormatUp}} Watermark dengan C #",
+      "description": "Tulis dan tambahkan tanda air yang tepat ke {{FileFormatUp}} gambar menggunakan .NET C#, menjaga konten digital Anda."
+    },
+    "header": {
+      "title": "Tulis Watermark untuk {{FileFormatUp}} dengan C #",
+      "description": "Hasilkan tanda air yang kuat dan disesuaikan dalam file {{FileFormatUp}} menggunakan .NET C #, penting untuk melindungi dan mengelola gambar digital dan arsip.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan toolkit C# .NET yang komprehensif untuk menghasilkan, menyusun, dan menambahkan tanda air ke file TIFF. Solusi ini memenuhi kebutuhan unik arsip digital dan fotografi profesional, di mana menjaga kualitas gambar dan perlindungan hak cipta adalah yang terpenting. Pengguna dapat menyesuaikan opacity, skala, dan lokasi tanda air untuk memastikannya terintegrasi dengan mulus tanpa mengurangi gambar. Kemampuan untuk menghasilkan tanda air tekstual atau grafis, ditambah dengan fitur-fitur canggih seperti pelapisan tanda air dan pemformatan bersyarat, menjadikan {{ProdShortName}} alat yang sangat diperlukan bagi siapa saja yang perlu melindungi aset visual mereka. Sepenuhnya kompatibel dengan lingkungan .NET terbaru, API ini meningkatkan kemampuan Anda untuk mengelola dan mengamankan TIFF gambar secara efektif."
+    },
+    "formats": {
+      "title": "Meningkatkan Keamanan {{FileFormatUp}} dengan Watermark C#",
+      "description": "Gunakan .NET C# untuk menghasilkan dan mengintegrasikan tanda air khusus dalam file {{FileFormatUp}}, menambahkan lapisan keamanan dan kontrol hak cipta ke gambar Anda."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Tambahkan Watermark ke {{FileFormatUp}} dengan C #",
+      "description": "Manfaatkan .NET C# untuk secara dinamis menghasilkan dan menyematkan tanda air di {{FileFormatUp}} gambar, memastikan perlindungan komprehensif."
+    },
+    "header": {
+      "title": "Hasilkan Watermark untuk {{FileFormatUp}} dengan C #",
+      "description": "Buat dan terapkan tanda air khusus ke {{FileFormatUp}} file menggunakan .NET C#, sempurna untuk seniman digital dan pembuat konten yang perlu mengamankan karya mereka.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan pengembang dengan kemampuan untuk menghasilkan, menyusun, dan menambahkan tanda air canggih ke gambar WEBP melalui .NET C#. API ini memungkinkan penyesuaian tanda air yang tepat termasuk teks, logo, dan tanda tangan digital. Sesuaikan opasitas, ukuran, dan posisi watermark Anda untuk mencapai integrasi sempurna tanpa mengorbankan estetika gambar. Ideal untuk fotografer, desainer grafis, dan profesional yang terlibat dalam memproduksi dan mendistribusikan gambar digital, {{ProdShortName}} memastikan bahwa hak cipta Anda tertanam dengan aman dalam file WEBP Anda. Kompatibel dengan semua kerangka kerja .NET modern, ini meningkatkan keamanan gambar dengan dampak minimal pada kualitas visual."
+    },
+    "formats": {
+      "title": "Mengamankan {{FileFormatUp}} Gambar dengan .NET C# Watermark",
+      "description": "Sematkan tanda air canggih yang dapat disesuaikan ke {{FileFormatUp}} gambar menggunakan .NET C#, memberikan perlindungan yang kuat dan klaim visual untuk karya kreatif Anda."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Buat Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Gunakan .NET C# untuk menambahkan dan mengelola tanda air di {{FileFormatUp}} file, meningkatkan keamanan dokumen Excel Anda."
+    },
+    "header": {
+      "title": "Hasilkan Watermark C# untuk File {{FileFormatUp}}",
+      "description": "Terapkan watermarking yang kuat di lembar bentang {{FileFormatUp}} dengan .NET C#, dirancang untuk melindungi data keuangan dan pribadi di Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} melengkapi .NET pengembang C# dengan alat untuk membuat, menyusun, dan menyematkan tanda air di XLS file secara efektif. API ini dirancang untuk integrasi tanpa batas ke dalam alur kerja Excel, memfasilitasi penambahan tanda air yang terlihat dan tidak terlihat yang dapat disesuaikan untuk opacity, teks, dan gambar. Ideal untuk mengamankan informasi sensitif dalam spreadsheet keuangan, laporan klien, atau dokumen Excel apa pun yang memerlukan kerahasiaan, {{ProdShortName}} menawarkan fitur-fitur canggih seperti penempatan tanda air bersyarat berdasarkan analisis konten. Dengan dukungan untuk semua .NET lingkungan, solusi ini memastikan dokumen Anda terlindungi dari penggunaan dan distribusi yang tidak sah."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark ke {{FileFormatUp}} dengan C #",
+      "description": "Manfaatkan .NET C# untuk secara dinamis menghasilkan dan mengintegrasikan tanda air khusus ke dalam {{FileFormatUp}} file, menjaga Excel data Anda secara efektif."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Sematkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Manfaatkan .NET C# untuk menghasilkan dan menerapkan tanda air di {{FileFormatUp}} file, mengamankan Excel dokumen Anda."
+    },
+    "header": {
+      "title": "Amankan {{FileFormatUp}} Lembar dengan .NET C#",
+      "description": "Gunakan .NET C# untuk membuat tanda air yang dapat disesuaikan untuk file {{FileFormatUp}}, sempurna untuk meningkatkan integritas dokumen dan melindungi informasi sensitif.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi ampuh bagi pengembang .NET C# untuk menghasilkan, menambah, dan mengelola tanda air di XLSX file. API ini sangat penting untuk menjaga kerahasiaan dan keaslian dokumen Excel, terutama di lingkungan perusahaan, keuangan, dan hukum. Sesuaikan tanda air Anda dengan berbagai opsi, termasuk overlay teks dan gambar, yang dirancang agar fungsional dan halus. Fitur tambahan memungkinkan penandaan air otomatis berdasarkan properti dokumen dan kondisi yang ditentukan pengguna, memastikan bahwa tanda air Anda diterapkan secara konsisten dan hanya jika diperlukan. {{ProdShortName}} kompatibel dengan platform .NET kontemporer dan mendukung fungsionalitas Excel tingkat lanjut."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark di {{FileFormatUp}} dengan C #",
+      "description": "Terapkan .NET C# untuk menambahkan tanda air canggih dan aman secara efisien ke file {{FileFormatUp}}, melindungi data profesional Excel Anda."
+    }
+  }
+}

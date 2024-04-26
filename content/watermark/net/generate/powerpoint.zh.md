@@ -1,0 +1,272 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:38:58
+draft: false
+lang: zh
+format: Powerpoint
+product: "Watermark"
+product_tag: "watermark"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "为演示文稿创建高级水印功能"
+head_description: "使用高级技术为演示文稿创建有影响力的水印。无缝确保内容安全。"
+
+############################# Header ############################
+title: "使用 C# 中的高级水印来创新您的演示文稿" 
+description: "使用我们的 C# API 将尖端的文本和图像水印嵌入到您的 PowerPoint 张幻灯片中。非常适合增强演示文稿的安全性和专业吸引力。"
+subtitle: "GroupDocs.Watermark for .NET" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "在 Nuget 免费下载"
+      link: "https://releases.groupdocs.com/watermark/net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Watermark for .NET"
+    link: "/watermark/net/"
+    link_title: "了解更多"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       GroupDocs.Watermark for .NET 专为便于在 PowerPoint 演示文稿中高效插入高级水印而设计。无论您是处理机密信息，还是想在幻灯片上增强公司的品牌，我们的 API 都提供强大的水印解决方案，可以适应单张幻灯片或整个演示文稿。从简单的文字标记到精美的徽标，定制水印的外观和位置，以与幻灯片设计无缝集成，同时提供额外的安全层。
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "增强您的文档：使用 .NET 为 Powerpoint 生成水印"
+    content: |
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 是一个库，它为 .NET 开发人员简化了向各种业务文件格式添加水印的过程。使用以下步骤将我们的库集成到您的应用程序中，并毫不费力地为文档添加水印：
+      
+      1. **开启您的水印之旅：**首先熟悉**水印**课程，这是我们 API 的基石。要开始该过程，请确保在文档处理之前对其进行实例化。不要忽视向构造函数提供 Powerpoint 文件的重要性，无论它是路径还是流对象。
+      2. **制作自定义水印：**根据您的规格创建**水印**对象，进入下一阶段。这个多功能工具不仅限于特定的文档页面；它还可以无缝集成到附件或标题等本机文档元素中。
+      3. **微调水印属性：** 通过调整高度、宽度、页面对齐方式、字体系列和颜色等属性来优化您的水印体验。这种自定义级别可确保您的水印与文档无缝融合。
+      4. **应用您的水印：**利用**水印**方法，轻松地将自定义水印应用到您的文档中。无论您需要添加一个还是多个水印，此过程都提供了灵活性。为了提高安全性，可以考虑将处理过的文档保存在单独的位置。
+   
+    code:
+      platform: "net"
+      copy_title: "复制"
+      install:
+        command: |
+        command: "dotnet add package GroupDocs.Watermark"
+        copy_tip: "点击复制"
+        copy_done: "复制的"
+      links:
+        #  loop
+        - title: "更多例子"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/"
+        #  loop
+        - title: "文档"
+          link: "https://docs.groupdocs.com/watermark/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // 在 POWERPOINT 文件中生成文本水印
+
+        // 提供要加水印的文件
+        using (Watermarker watermarker = new Watermarker("input.pptx"))
+        {
+            // 生成文本水印实例
+            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
+            TextWatermark watermark = new TextWatermark("my watermark", font);
+            watermark.ForegroundColor = Color.Red;
+            watermark.BackgroundColor = Color.Blue;
+            watermarker.Add(watermark);
+
+            // 保存 POWERPOINT 条结果
+            watermarker.Save("output.pptx");
+        }
+        
+        ```            
+
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "深入了解添加水印"
+  description: "利用我们强大的 API 在 .NET 应用程序中呈现、显示、转换和管理文档、幻灯片、图表和其他各种文档类型。GroupDocs.Watermark 无缝集成水印功能，以增强文档安全和版权保护。"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "添加水印"
+  features:
+    # feature loop
+    - title: "毫不费力地为您的文档添加水印。"
+      content: "GroupDocs.Watermark 使 .NET 开发人员能够轻松地将水印集成到他们的应用程序中。毫不费力地为常用业务文档和文件添加文本、图像或动态水印，确保您的内容在所有平台上均安全且品牌一致。"
+
+    # feature loop
+    - title: "量身定制水印以满足您的需求。"
+      content: "使用 GroupDocs.Watermark 支持的广泛功能自定义水印以满足您的特定要求。调整大小、旋转、透明度、颜色和字体，确保您的水印不仅看起来完美，而且还能在不妨碍重要信息的情况下增强文档安全性。"
+
+    # feature loop
+    - title: "利用原生文档功能进行水印"
+      content: "利用文档格式的固有功能进行复杂的水印。无论是使用原生 PDF 批注、MS Word 背景还是 Excel 页眉和页脚，GroupDocs.Watermark 都与文档结构深度集成，应用既有效又微创的水印。"
+      
+  code_samples:
+    # code sample loop
+    - title: "为 DOCX 生成图像水印"
+      content: |
+        此示例说明如何将图像效果应用于形状水印。
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  加载 Word 个文档
+            var loadOptions = new WordProcessingLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
+            {
+                //  设置水印选项
+                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
+                {
+                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
+                    effects.Brightness = 0.7;
+                    effects.Contrast = 0.6;
+                    effects.ChromaKey = Color.Red;
+                    effects.BorderLineFormat.Enabled = true;
+                    effects.BorderLineFormat.Weight = 1;
+
+                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
+                    options.Effects = effects;
+
+                    //  生成水印
+                    watermarker.Add(watermark, options);
+                }
+
+                //  保存更新的文档
+                watermarker.save("result.docx");
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "准备好开始了吗？"
+  description: "免费试用 GroupDocs.Watermark 项功能或申请许可证"
+  items:
+    #  loop
+    - title: "Nuget 下载"
+      link: "https://releases.groupdocs.com/watermark/net/"
+      color: "red"
+        #  loop
+    - title: "许可"
+      link: "https://purchase.groupdocs.com/pricing/watermark/net/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "在 C# 中使用水印保护和个性化演示文稿"
+    exclude: "POWERPOINT"
+    description: "使用我们的 C# 工具包快速应用自定义水印，以保持 PowerPoint 演示文稿的完整性和美观性。非常适合专业和教育环境。"
+    items: 
+        # format loop 1
+        - name: "水印 PDF"
+          format: "PDF"
+          link: "/watermark/net/generate//pdf/"
+          description: "Adobe Portable 文档格式"
+
+        # format loop 2
+        - name: "水印 Word"
+          format: "WORD"
+          link: "/watermark/net/generate//word/"
+          description: "MS Word 和 Open Office 文档"
+          
+        # format loop 3
+        - name: "水印 Excel"
+          format: "EXCEL"
+          link: "/watermark/net/generate//excel/"
+          description: "MS Excel 和 Open Office 电子表格"
+
+        # format loop 4
+        - name: "水印图片"
+          format: "IMAGE"
+          link: "/watermark/net/generate//image/"
+          description: "流行的图像格式"
+
+        # format loop 5
+        - name: "水印照片"
+          format: "PHOTO"
+          link: "/watermark/net/generate//photo/"
+          description: "照片格式"
+
+        # format loop 6
+        - name: "水印 PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/net/generate//powerpoint/"
+          description: "MS PowerPoint 和开放办公室演示"
+
+        # format loop 7
+        - name: "水印 DOCX"
+          format: "DOCX"
+          link: "/watermark/net/generate//docx/"
+          description: "微软 Word 打开 XML 文档"
+          
+        # format loop 8
+        - name: "水印 PPTX"
+          format: "PPTX"
+          link: "/watermark/net/generate//pptx/"
+          description: "PowerPoint 打开 XML 演示文稿"
+          
+        # format loop 9
+        - name: "水印 XLSX"
+          format: "XLSX"
+          link: "/watermark/net/generate//xlsx/"
+          description: "微软 Excel 打开 XML 电子表格"
+
+        # format loop 10
+        - name: "水印 JPEG"
+          format: "JPEG"
+          link: "/watermark/net/generate//jpeg/"
+          description: "JPEG 图片"
+
+        # format loop 11
+        - name: "水印 PNG"
+          format: "PNG"
+          link: "/watermark/net/generate//png/"
+          description: "Portable 网络图形"
+
+        # format loop 12
+        - name: "水印 TIFF"
+          format: "TIFF"
+          link: "/watermark/net/generate//tiff/"
+          description: "标记图像文件格式"
+
+        # format loop 13
+        - name: "WEBP 水印"
+          format: "WEBP"
+          link: "/watermark/net/generate//webp/"
+          description: "网络图片"
+
+        # format loop 14
+        - name: "水印 DOC"
+          format: "DOC"
+          link: "/watermark/net/generate//doc/"
+          description: "微软 Word 97-2007 文档"
+
+        # format loop 15
+        - name: "水印 XLS"
+          format: "XLS"
+          link: "/watermark/net/generate//xls/"
+          description: "微软 Excel 工作簿 97-2003"
+
+        # format loop 16
+        - name: "水印 PPT"
+          format: "PPT"
+          link: "/watermark/net/generate//ppt/"
+          description: "PowerPoint 演示 97-2003"
+
+        # format loop 17
+        - name: "水印 RTF"
+          format: "RTF"
+          link: "/watermark/net/generate//rtf/"
+          description: "富文本格式"
+
+---

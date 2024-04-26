@@ -1,0 +1,411 @@
+{
+  "index-content": {
+    "head_title": "Marca de agua del documento C# Java Node.js | agregar marca de agua",
+    "head_description": "Añade una marca de agua a PDF, imágenes y documentos. Solución de marcas de agua para Microsoft Office, PDF, OpenDocument, imágenes, etc.",
+    "title": "Solución de marcas de agua para documentos",
+    "description_1": "Añada marcas de agua de texto e imágenes a sus documentos e imágenes.",
+    "description_2": "Busque y modifique las marcas de agua de los documentos de forma cómoda.",
+    "description_3": "Obtenga información sobre las marcas de agua que aparecen en sus documentos.",
+    "words_for": "por",
+    "release_title": "Publicada la versión {0}",
+    "release_notes": "Vea qué hay de nuevo",
+    "release_downloads": "Descargas",
+    "code_more": "Más ejemplos",
+    "code_comment_1": "Instanciar Watermarker que pase por la ruta PDF",
+    "code_comment_2": "Personalice las opciones de marca de agua",
+    "code_comment_3": "Aplicar marca de agua al documento PDF",
+    "code_comment_4": "Guardar documento de resultados",
+    "overview_title": "{{ProdShortName}} de un vistazo",
+    "formats_title": "Formatos de archivo compatibles",
+    "platforms": {
+      "title": "Independencia de la plataforma",
+      "head_title": "Elige tu plataforma",
+      "description": "La biblioteca {{ProdShortName}} admite los siguientes sistemas operativos y marcos:",
+      "learn_more": "Obtenga más información",
+      "any_other_text_editor": "Cualquier otro editor de texto"
+    },
+    "features": {
+      "title": "Revisión de funciones de {{ProdShortName}}",
+      "description": "La biblioteca diseñada para agregar, buscar y actualizar varios tipos de marcas de agua para formatos de documentos populares.",
+      "feature_1": {
+        "title": "Proteja los archivos con marcas de agua",
+        "content": "Añada marcas de agua de texto e imágenes a sus documentos empresariales."
+      },
+      "feature_2": {
+        "title": "Búsqueda de marcas de agua existentes",
+        "content": "Obtenga información detallada sobre las marcas de agua colocadas anteriormente en el documento."
+      },
+      "feature_3": {
+        "title": "Manipule las marcas de agua del documento",
+        "content": "Controla el texto, el estilo, la imagen y otras funciones de marca de agua."
+      },
+      "feature_4": {
+        "title": "Diversas funciones adicionales",
+        "content": "Obtenga información del documento, actualice los hipervínculos o el fondo de las páginas, etc."
+      }
+    },
+    "formats": {
+      "title": "Compatible con más de 50 formatos de archivo",
+      "description": "{{ProdShortName}} proporciona marcas de agua para los formatos populares de documentos y archivos."
+    },
+    "code_samples": {
+      "title": "Ejemplos de código",
+      "index_title": "Proteja los documentos mediante marcas de agua",
+      "index_description": "{{ProdShortName}} ejemplos de códigos de operaciones típicos.",
+      "more_examples": "Más ejemplos",
+      "sample_index": {
+        "title": "Crear una marca de agua.",
+        "content": "Para añadir una marca de agua a un documento, proporcione la ruta al archivo de destino. Tiene muchas opciones entre las que elegir para obtener una marca de agua personalizada en una página específica.",
+        "comment_1": "Especifique el documento al que desea añadir una marca de agua",
+        "comment_2": "Crear objeto de marca de agua",
+        "comment_3": "Definir las opciones de marca de agua",
+        "comment_4": "Agregue una marca de agua y guarde el archivo procesado"
+      },
+      "sample_1": {
+        "code_title": "Cómo proteger un archivo con una marca de agua de imagen.",
+        "comment_1": "Cargar el documento fuente en Watermarker",
+        "comment_2": "Especificar la ruta a una imagen con marca de agua",
+        "comment_3": "Proteja el archivo y guárdelo"
+      },
+      "sample_2": {
+        "code_title": "Búsqueda y modificación de marcas de agua.",
+        "comment_1": "Cargar documento fuente",
+        "comment_2": "Busca marcas de agua para actualizarlas",
+        "comment_3": "Actualizar las propiedades deseadas",
+        "comment_4": "Guardar el documento modificado en una ruta especificada"
+      }
+    },
+    "metrics": {
+      "title": "Datos estadísticos de nuestra biblioteca",
+      "description": "Sumérjase en las métricas clave y revele información sobre nuestros logros, impacto y crecimiento.",
+      "item_1": {
+        "title": "Formatos compatibles",
+        "description": "La biblioteca puede procesar más de 50 de los formatos de archivo más populares."
+      },
+      "item_2": {
+        "title": "NuGet descargas",
+        "description": "{{ProdShortName}} for .NET es una biblioteca popular con más de 800 000 descargas en NuGet."
+      },
+      "item_3": {
+        "title": "Descargas de Maven",
+        "description": "Con más de 15 000 descargas en Maven, {{ProdShortName}} es una opción popular entre Java desarrolladores."
+      },
+      "item_4": {
+        "title": "Clientes satisfechos",
+        "description": "Los desarrolladores individuales y las principales empresas de todo el mundo prefieren nuestras bibliotecas para crear soluciones innovadoras."
+      }
+    },
+    "customers": {
+      "title": "Nuestros clientes satisfechos",
+      "description": "GroupDocs bibliotecas son empleadas por marcas reconocidas y distinguidas de todo el mundo."
+    },
+    "actions": {
+      "alt": "Licencias",
+      "title": "¿Estás listo para empezar?",
+      "description": "Pruebe {{ProdShortName}} funciones de forma gratuita o solicite una licencia",
+      "description_index": "Prueba {{ProdShortName}} funciones gratis en tu plataforma"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Consulta nuestras preguntas frecuentes",
+      "item_1": {
+        "question": "¿{{ProdShortName}} necesita bibliotecas externas para manipular documentos?",
+        "answer": "{{ProdShortName}} funciona de forma independiente, sin necesidad de software de terceros como Adobe Acrobat, Microsoft Office, etc."
+      },
+      "item_2": {
+        "question": "¿Puedo probar {{ProdShortName}} funciones antes de comprar?",
+        "answer": "¡Sí, {{ProdShortName}} ofrece una prueba gratuita! Instálala y pruébala, pero ten en cuenta que las versiones de prueba añaden «insignias de prueba» a tus documentos y solo se procesan las 3 primeras páginas. ¿Quieres disfrutar de la experiencia completa? Obtenga una licencia temporal gratuita de 30 días para disfrutar de todas las funciones. Consulta los detalles en [licencia temporal]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "¿Qué tipos de licencia se proporcionan?",
+        "answer": "¿Necesitas una licencia {{ProdShortName}}? ¡Tenemos opciones! Elija entre las licencias en función de muchas opciones. Número de desarrolladores de tu equipo. Ubicaciones de implementación, como oficinas individuales o lugares de trabajo remotos. ¿La distribución para clientes finales necesita compartir el SDK/API con los clientes? Como alternativa, existe una licencia de uso mensual: paga solo por lo que usas con los planes con contador. Sumérgete más y encuentra el [precio] perfecto ({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API de bajo código",
+      "description": "Agregue marcas de agua a los archivos mediante su aplicación mediante nuestra API REST basada en la nube.",
+      "item_1": {
+        "content": "Usa la API cURL REST ful para añadir marcas de agua a PDF, Word, Excel, PowerPoint, JPEG y otros formatos de archivo populares."
+      },
+      "item_2": {
+        "content": "Potencie sus .NET aplicaciones con funciones de marca de agua de documentos de Cloud SDK para .NET. Proteja los documentos empresariales por su cuenta."
+      },
+      "item_3": {
+        "content": "El SDK {{ProdShortName}} diseñado para Java ofrece nuevas posibilidades para sus Java aplicaciones y archivos empresariales."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Aplicaciones web",
+      "description": "GroupDocs otorga acceso a la aplicación web para añadir marcas de agua a sus documentos. Puedes añadir marcas de agua a más de 50 formatos de archivo populares en tu navegador favorito DE FORMA GRATUITA.",
+      "item_1": {
+        "content": "Herramienta en línea para añadir marcas de agua a los documentos desde cualquier dispositivo."
+      },
+      "item_2": {
+        "content": "Watermark MS Word DOCX en línea."
+      },
+      "item_3": {
+        "content": "Proteja PDF documentos en línea."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formatos Microsoft Office y OpenDocument",
+      "title_2": "Imágenes y gráficos",
+      "title_3": "Otros",
+      "format_portable": "Portable",
+      "format_popular_images": "Formatos de imagen populares",
+      "format_multi_images": "Imágenes de varias páginas"
+    }
+  },
+  "index-content-net": {
+    "head_title": "Software de marcas de agua para documentos C# .NET | agregar marca de agua",
+    "head_description": "Biblioteca C# .NET para agregar, buscar y eliminar marcas de agua en documentos: PDF, Word, Excel, presentaciones, Visio diagramas, formatos de archivos de imagen y correo electrónico.",
+    "title": "Añade marcas de agua a los documentos fácilmente en tus aplicaciones de C# .NET",
+    "description": "Potencie sus soluciones de C# con una API flexible de marcas de agua de documentos que permite agregar marcas de agua personalizables a todos los formatos de documentos populares.",
+    "actions_main": "Descarga gratuita de NuGet",
+    "code_title": "Marca con marca de agua PDF archivos en C#",
+    "overview_description": "API para poner marcas de agua en los documentos a través de .NET",
+    "overview_feature_1": {
+      "title": "Marca de agua de archivos C#",
+      "description": "Añade marcas de agua a tus archivos empresariales con {{ProdShortName}}. Usa texto, imágenes, diagramas o archivos adjuntos de correo electrónico."
+    },
+    "overview_feature_2": {
+      "title": "Personaliza las marcas de agua según tus objetivos",
+      "description": "El software {{ProdFullName}} permite personalizar las marcas de agua de varias maneras. Los estilos de texto como la negrita, la cursiva y los tipos de fuente, junto con las propiedades de la imagen, como la rotación, etc., enriquecen el proceso de creación de marcas de agua."
+    },
+    "overview_feature_3": {
+      "title": "Se admiten todos los formatos de archivo populares",
+      "description": "La solución {{ProdShortName}} admite muchos formatos de archivos y documentos. PDF, Microsoft Office Word, Excel, PowerPoint, imágenes como JPEG, PNG, GIF, BMP, Visio diagramas, correos electrónicos, etc. podrían protegerse con nuestras marcas de agua."
+    },
+    "overview_feature_4": {
+      "title": "Búsqueda y actualización de marcas de agua",
+      "description": "Las marcas de agua que ya están presentadas en un documento se pueden encontrar y procesar de nuevo. Modifique el texto, el estilo, las imágenes o elimine las marcas de agua reveladas sin esfuerzo adicional."
+    },
+    "features": {
+      "title": "{{ProdShortName}} características",
+      "description": "Proteja PDF, Office, imágenes y otros formatos con una marca de agua",
+      "feature_1": {
+        "title": "Marcas de agua de documentos",
+        "content": "Agregue o elimine marcas de agua de una sección en particular o de un documento completo de varios formatos de archivo."
+      },
+      "feature_2": {
+        "title": "Dale estilo a tu marca de agua",
+        "content": "Personalice varias propiedades de marca de agua como el color, la fuente, la rotación, etc."
+      },
+      "feature_3": {
+        "title": "PDF filigrana de impresión oculta",
+        "content": "Asigne una marca de agua oculta a PDF que solo aparece al imprimir un documento."
+      },
+      "feature_4": {
+        "title": "Añade marcas de agua solo a las imágenes de los documentos",
+        "content": "Añade marcas de agua a todas las imágenes de una sección, página, diapositiva o documento en particular."
+      },
+      "feature_5": {
+        "title": "Procesar los marcos de imagen seleccionados",
+        "content": "Asigne marcas de agua solo a fotogramas particulares de una imagen con varios marcos."
+      },
+      "feature_6": {
+        "title": "Adjuntos y formas",
+        "content": "Establezca una marca de agua en todos los archivos adjuntos de un documento Excel y en todas las formas de imagen de las diapositivas."
+      },
+      "feature_7": {
+        "title": "PDF objetos",
+        "content": "Alinee Watermark con Bleed Box, Art Box, Crop Box o Trim Box en el documento PDF."
+      },
+      "feature_8": {
+        "title": "Antecedentes de los documentos",
+        "content": "Coloque una marca de agua o elimínela de las imágenes de fondo de la hoja de cálculo o las diapositivas."
+      },
+      "feature_9": {
+        "title": "Protección de caracteres ilegibles",
+        "content": "Proteja la marca de agua del texto con caracteres ilegibles en las presentaciones."
+      },
+      "feature_10": {
+        "title": "Buscar marcas de agua en documentos",
+        "content": "Busque marcas de agua en función de parámetros específicos o mediante la combinación de varios criterios."
+      },
+      "feature_11": {
+        "title": "Buscar marcas de agua de imágenes similares",
+        "content": "Busque marcas de agua de imagen que se parezcan a una imagen en particular."
+      },
+      "feature_12": {
+        "title": "Obtenga información del documento",
+        "content": "Extraiga programáticamente la configuración de la página y otra información para los formatos compatibles."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} admite los sistemas operativos, los marcos y los administradores de paquetes que se enumeran a continuación",
+    "formats_description": "{{ProdFullName}} permite procesar los siguientes [formatos de archivo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Algunos casos de uso de operaciones típicas de {{ProdFullName}}",
+    "code_title_sample_1": "Añade una marca de agua añadiendo una imagen a un documento.",
+    "code_samples_sample_1_content": "Para proteger cualquier documento, puedes usar [marcas de agua de imagen]({{Sample1Url}}):",
+    "code_title_sample_2": "Busca y modifica las marcas de agua existentes.",
+    "code_samples_sample_2_content": "{{ProdShortName}} puede [modificar las marcas de agua]({{Sample2Url}}) que ya están presentadas en un documento. Busque los elementos deseados y actualice sus propiedades."
+  },
+  "index-content-java": {
+    "head_title": "Java Biblioteca de marcas de agua | añadir marcas de agua a los documentos",
+    "head_description": "Software nativo Java para agregar y manipular marcas de agua de texto e imágenes en archivos PDF, Word, Excel, presentaciones, Visio diagramas, correo electrónico e imágenes.",
+    "title": "Implemente fácilmente la marca de agua de documentos en Java proyectos",
+    "description": "Mejore sus Java aplicaciones con la posibilidad de añadir marcas de agua a los archivos mediante la biblioteca GroupDocs.Watermark. Nuestra API ofrece marcas de agua personalizables para una amplia gama de formatos de archivo populares.",
+    "actions_main": "Descarga gratuita desde Maven",
+    "code_title": "Marca de agua PDF s a través de Java",
+    "overview_description": "Biblioteca diseñada para agregar marcas de agua mediante tecnologías Java",
+    "overview_feature_1": {
+      "title": "Archivos de marcas de agua mediante Java",
+      "description": "Proteja sus documentos empresariales con {{ProdFullName}}. Agregue texto, imágenes, diagramas o archivos adjuntos de correo electrónico como marcas de agua a varios formatos de archivo."
+    },
+    "overview_feature_2": {
+      "title": "Personalice las marcas de agua para necesidades específicas",
+      "description": "{{ProdFullName}} ofrece amplias opciones de personalización para las marcas de agua. Ajusta los estilos del texto (negrita, cursiva, fuente) y las propiedades de la imagen (rotación, etc.) para adaptar el proceso de creación de marcas de agua a tus objetivos específicos."
+    },
+    "overview_feature_3": {
+      "title": "Soporte de formato amplio",
+      "description": "{{ProdFullName}} se integra perfectamente con una amplia gama de formatos de archivo, incluidos: PDF, Microsoft Office (Word, Excel, PowerPoint), imágenes (JPEG, PNG, GIF, BMP), Visio diagramas y correos electrónicos. Mejore la seguridad de los documentos en diversos tipos de archivos."
+    },
+    "overview_feature_4": {
+      "title": "Búsqueda y gestión de marcas de agua sin esfuerzo",
+      "description": "Gestione de forma eficiente las marcas de agua existentes en los documentos. Localice marcas de agua específicas, modifique su texto, estilo o imágenes, o elimínelas por completo. {{ProdFullName}} simplifica el flujo de trabajo de las marcas de agua."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Características",
+      "description": "Proteja sus archivos añadiendo marcas de agua. Admite varios formatos, incluidos PDF, documentos de Office e imágenes.",
+      "feature_1": {
+        "title": "Marcas de agua de archivos",
+        "content": "Agregue o elimine marcas de agua de secciones específicas o documentos completos para varios formatos de archivo compatibles."
+      },
+      "feature_2": {
+        "title": "Personalización de marcas de agua",
+        "content": "Personaliza la apariencia de tu marca de agua con opciones como el color, la fuente, la rotación y más."
+      },
+      "feature_3": {
+        "title": "Marca de agua de impresión oculta para PDF",
+        "content": "Agregue una marca de agua que solo aparezca al imprimir un documento PDF."
+      },
+      "feature_4": {
+        "title": "Marca de agua selectiva de imágenes",
+        "content": "Añade marcas de agua a todas las imágenes de una sección, página, diapositiva o documento completo en concreto."
+      },
+      "feature_5": {
+        "title": "Añadir marcas de agua a marcos de imagen específicos",
+        "content": "Aplica marcas de agua a marcos específicos dentro de una imagen con varios marcos."
+      },
+      "feature_6": {
+        "title": "Marcar archivos adjuntos y formas",
+        "content": "Agregue marcas de agua a todos los archivos adjuntos de Excel documentos o a todas las formas de imagen en Presentations."
+      },
+      "feature_7": {
+        "title": "Alineación de marcas de agua en PDF",
+        "content": "Alinee las marcas de agua con diferentes áreas de un documento PDF, incluidas Bleed Box, Art Box, Crop Box y Trim Box."
+      },
+      "feature_8": {
+        "title": "Marca de agua por imágenes de fondo",
+        "content": "Agregue o elimine la marca de agua de la imagen de fondo a las hojas de cálculo o presentaciones."
+      },
+      "feature_9": {
+        "title": "Protección con caracteres ilegibles",
+        "content": "Proteja las presentaciones con marcas de agua de texto con caracteres ilegibles."
+      },
+      "feature_10": {
+        "title": "Búsqueda de marcas de agua",
+        "content": "Obtenga la lista de las marcas de agua presentadas en el archivo, utilizando varios parámetros, incluidas las expresiones regulares."
+      },
+      "feature_11": {
+        "title": "Encuentra marcas de agua de imágenes similares",
+        "content": "Localice las marcas de agua de la imagen que se parezcan a una imagen específica."
+      },
+      "feature_12": {
+        "title": "Extraer información del documento",
+        "content": "Obtenga varios datos de documentos, como la configuración de página para los formatos de archivo compatibles."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} admite varios sistemas operativos y gestores de paquetes.",
+    "formats_description": "{{ProdFullName}} permite procesar una amplia gama de formatos de archivo. [Ver la lista completa]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explore ejemplos de código que ilustran las funcionalidades típicas de {{ProdFullName}}",
+    "code_title_sample_1": "Añadir una marca de agua a un documento con una imagen",
+    "code_samples_sample_1_content": "Utilice {{ProdFullName}} para mejorar la seguridad de los documentos añadiendo marcas de agua a las imágenes. Más información: [Marcas de agua de imagen]({{Sample1Url}}).",
+    "code_title_sample_2": "Modificar marcas de agua",
+    "code_samples_sample_2_content": "{{ProdFullName}} le permite gestionar las marcas de agua existentes en los documentos. Localice marcas de agua específicas y [modifique sus propiedades]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Biblioteca de marcas de agua de Node.js | marcas de agua de documentos",
+    "head_description": "La solución Node.js protege los documentos empresariales con marcas de agua de texto e imágenes. Se admiten los formatos más populares, como PDF, Word, Excel y PowerPoint.",
+    "title": "Acceso a la tecnología de marcas de agua en Node.js a través de soluciones Java",
+    "description": "Proteja su propiedad intelectual y evite las copias no autorizadas con esta solución Node.js. Permite a los usuarios añadir fácilmente marcas de agua a los documentos empresariales en varios formatos, incluidos PDF, Word, Excel, PowerPoint, imágenes, etc.",
+    "actions_main": "Usa NPM para descargar gratis",
+    "code_title": "Agregue una marca de agua a PDF con TypeScript",
+    "overview_description": "Biblioteca TypeScript de Node.js para marcas de agua",
+    "overview_feature_1": {
+      "title": "Marcación de agua del archivo Node.js",
+      "description": "Proteja sus documentos empresariales con {{ProdFullName}}. Añada texto, imágenes, diagramas o archivos adjuntos de correo electrónico como marcas de agua a varios formatos de archivo."
+    },
+    "overview_feature_2": {
+      "title": "Personalice las marcas de agua según sus necesidades",
+      "description": "{{ProdFullName}} ofrece amplias opciones de personalización para las marcas de agua. Los estilos de texto (negrita, cursiva, fuente) y las propiedades de la imagen (rotación, etc.) permiten personalizar el procesamiento de los documentos."
+    },
+    "overview_feature_3": {
+      "title": "Soporte integral de formatos",
+      "description": "{{ProdFullName}} se integra perfectamente con una amplia gama de formatos de archivo, que incluyen: PDF, MS Office, como Word, Excel, PowerPoint, imágenes como JPEG, PNG, GIF, BMP, Visio diagramas, correos electrónicos, etc. Permita el procesamiento de documentos para alcanzar los objetivos empresariales."
+    },
+    "overview_feature_4": {
+      "title": "Potente búsqueda y actualización de marcas de agua",
+      "description": "Obtenga y actualice las marcas de agua existentes en los documentos con marca de agua. Modifique el texto, el estilo o el contenido de la imagen o elimínelos por completo. {{ProdFullName}} ofrece una amplia gama de procesamiento de marcas de agua."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Conjunto de funciones",
+      "description": "Potencie una seguridad sólida de los documentos mediante marcas de agua programáticas. Admite diversos formatos de archivo, incluidos: PDF, DOCX, XLSX, PPTX y formatos de imagen (PNG, JPG, etc.).",
+      "feature_1": {
+        "title": "Control preciso de marcas de agua",
+        "content": "Manipule con precisión las marcas de agua agregándolas o eliminándolas de secciones específicas, documentos completos o archivos adjuntos y formas individuales en diferentes formatos de archivo."
+      },
+      "feature_2": {
+        "title": "Personalización de la apariencia de la marca de agua",
+        "content": "Controle minuciosamente la estética de las marcas de agua modificando atributos como el color, la fuente, la opacidad, la rotación y la posición dentro del documento."
+      },
+      "feature_3": {
+        "title": "Imprimir PDF marcas de agua",
+        "content": "Implemente una marca de agua sigilosa que permanece invisible durante la visualización normal de los documentos, pero que solo se hace evidente durante el proceso de impresión, lo que mejora la seguridad de los documentos de forma discreta."
+      },
+      "feature_4": {
+        "title": "Marca de agua específica para imágenes",
+        "content": "Añade marcas de agua a imágenes específicas dentro de un documento con nuestra solución. Elige incrustar marcas de agua en una sección designada (por ejemplo, una página, una diapositiva) o en todo el documento."
+      },
+      "feature_5": {
+        "title": "Marcas de agua para imágenes de varios fotogramas",
+        "content": "Aplica marcas de agua de forma selectiva a fotogramas específicos dentro de un formato de imagen de varios fotogramas, lo que garantiza un control granular sobre la colocación de las marcas de agua."
+      },
+      "feature_6": {
+        "title": "Protección integral del contenido",
+        "content": "Amplíe la protección a varios elementos del documento, como los archivos adjuntos de Excel documentos y las formas de imagen de las presentaciones, lo que proporciona un nivel de seguridad adicional."
+      },
+      "feature_7": {
+        "title": "Marcas de agua avanzadas en PDF",
+        "content": "Marca con agua diferentes áreas de PDF s, incluidas Bleed Box, Art Box, Crop Box, Trim Box, etc."
+      },
+      "feature_8": {
+        "title": "Marca de agua de imagen de fondo",
+        "content": "Gestione las marcas de agua en las imágenes de fondo de las hojas de cálculo y las presentaciones, ofreciendo opciones de personalización adicionales para las medidas de seguridad visual."
+      },
+      "feature_9": {
+        "title": "Marca de agua de texto con caracteres ilegibles",
+        "content": "Utilice caracteres ilegibles en las marcas de agua de texto incrustadas en las presentaciones, lo que refuerza la seguridad al hacer que la extracción no autorizada de marcas de agua sea mucho más difícil."
+      },
+      "feature_10": {
+        "title": "Búsqueda avanzada de marcas de agua",
+        "content": "Utilice funciones de búsqueda integrales para localizar marcas de agua en los documentos en función de parámetros específicos o mediante la combinación de varios criterios, lo que permite una recuperación y una gestión eficientes."
+      },
+      "feature_11": {
+        "title": "Detección de marcas de agua de imágenes similares",
+        "content": "Busque imágenes de marcas de agua similares en documentos que se parezcan visualmente a una imagen de origen."
+      },
+      "feature_12": {
+        "title": "Extracción programática de información de documentos",
+        "content": "Extraiga metadatos valiosos mediante programación, incluidos los detalles de configuración de página y otra información del documento para los formatos de archivo compatibles."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} se integra fácilmente con varios sistemas operativos y gestores de paquetes.",
+    "formats_description": "{{ProdFullName}} le permite procesar una amplia gama de formatos de archivo. [Explore la lista completa]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Sumérjase en ejemplos de código que muestran funcionalidades comunes de {{ProdFullName}}",
+    "code_title_sample_1": "Añade una marca de agua a un documento con una imagen",
+    "code_samples_sample_1_content": "Aproveche {{ProdFullName}} para mejorar la seguridad de los documentos añadiendo marcas de agua a las imágenes. Más información: [Marcas de agua de imagen]({{Sample1Url}}).",
+    "code_title_sample_2": "Buscar y modificar marcas de agua existentes",
+    "code_samples_sample_2_content": "{{ProdFullName}} le permite gestionar las marcas de agua de los documentos. Seleccione las marcas de agua y modifique sus propiedades. Descubra cómo: [Modificar las marcas de agua]({{Sample2Url}})."
+  }
+}

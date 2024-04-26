@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Adicionar marca d'água de imagem a {{FileFormatUp}}",
+    "comment_2": "Passe o arquivo a ser marcado com marca d'água para o Watermarker",
+    "comment_3": "Forneça o caminho para a imagem com marca d'água",
+    "comment_4": "Salvar resultado"
+  },
+  "steps": {
+    "title": "Técnicas avançadas: Adicionar marcas d'água a {{FileformatCap}} documentos via {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "**Watermarker**. Essa etapa fundamental prepara o terreno para aprimorar {{FileformatCap}} documentos com marcas d'água. Forneça o arquivo {{FileformatCap}} ao construtor, seja como um caminho ou um objeto de fluxo.",
+      "step_2": "**Marca d'Água** personalizados de acordo com suas especificações. Essas entidades versáteis oferecem posicionamento preciso não apenas em páginas de documentos designadas, mas também em elementos nativos, como anexos ou cabeçalhos.",
+      "step_3": "Refine seu processo de marca d'água ajustando propriedades como dimensões, alinhamento, estilos de fonte e cores. Esse nível de personalização permite que você crie marcas d'água que complementam perfeitamente a estética do seu documento.",
+      "step_4": "**Watermarker** para aplicar as marcas d'água recém-criadas em seus documentos. Aproveite a flexibilidade de adicionar várias marcas d'água de acordo com seus requisitos. Para preservar documentos, considere salvá-los em um local seguro."
+    }
+  },
+  "more_features": {
+    "title": "Dominando marcas d'água de documentos",
+    "description": "Melhore seu gerenciamento de documentos com nossa sofisticada API de marca d'água, personalizada para .NET desenvolvedores. Essa ferramenta oferece soluções abrangentes para aplicar, personalizar e gerenciar marcas d'água em uma ampla variedade de formatos de documentos, garantindo apelo estético e maior segurança.",
+    "image_description": "Marca d'água avançada de documentos",
+    "feature_1": {
+      "title": "Rotação flexível da marca d'água",
+      "content": "Adapte suas marcas d'água para caber em qualquer orientação do documento com nossas configurações flexíveis de rotação. Independentemente de seu documento ser retrato ou paisagem, ajuste facilmente o ângulo da marca d'água para manter uma aparência consistente que complemente o layout do documento."
+    },
+    "feature_2": {
+      "title": "Controle de transparência perfeito",
+      "content": "Controle a transparência de suas marcas d'água com precisão, permitindo marcações sutis, mas seguras, que não sobrecarregam o conteúdo do documento. Esse recurso é ideal para manter a estética original de seus documentos e, ao mesmo tempo, adicionar uma camada de segurança."
+    },
+    "feature_3": {
+      "title": "Efeitos de sombra para dar ênfase",
+      "content": "Melhore a visibilidade de suas marcas d'água ou integre-as sutilmente em seus documentos com efeitos de sombra personalizáveis. Esse recurso permite sombras com desfoque, dispersão e cor variados, tornando a marca d'água mais distinta ou discreta, conforme necessário."
+    },
+    "code_1": {
+      "title": "MS Word marca d'água bloqueada",
+      "content": "Este exemplo mostra como bloquear a marca d'água em DOCX todas as páginas",
+      "comment_1": "Carregar documento como MS Word doc",
+      "comment_2": "Crie uma marca d'água",
+      "comment_3": "Ajuste as opções nativas de Word",
+      "comment_4": "Adicionar marca d'água às páginas do documento resultante"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Gere marcas d'água para {{FileFormatUp}} com Java",
+      "description": "Adicione, edite e gerencie marcas d'água com eficiência em {{FileFormatUp}} arquivos usando Java. Ideal para proteger documentos."
+    },
+    "header": {
+      "title": "Java Marca d'água para {{FileFormatUp}} arquivos",
+      "description": "Explore como Java desenvolvedores podem utilizar GroupDocs.Watermark para inserir, modificar e remover marcas d'água em {{FileFormatUp}} documentos de forma rápida e fácil.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece a Java desenvolvedores um conjunto robusto de ferramentas para adicionar, remover, pesquisar e gerenciar marcas d'água em {{FileFormatUp}} arquivos. Essa API simplifica a integração de funcionalidades abrangentes de marca d'água em qualquer aplicativo Java, suportando uma ampla variedade de tarefas de gerenciamento de documentos. Se você precisa proteger a propriedade intelectual, garantir a autenticidade do documento ou impedir o compartilhamento não autorizado, o {{ProdShortName}} fornece as ferramentas necessárias. Ele suporta marcas d'água de texto e imagem e oferece amplas opções de personalização, como ajuste de opacidade, rotação e escala para se adequar a vários casos de uso. Compatível com todos os principais sistemas operacionais que suportam Java 8 ou superior."
+    },
+    "formats": {
+      "title": "Marcar com marca d'água {{FileFormatUp}} arquivos usando Java",
+      "description": "Aproveite Java para aplicar marcas d'água versáteis em {{FileFormatUp}} arquivos. Ideal para aplicativos que exigem segurança de documentos e proteção de direitos autorais."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Melhore {{FileFormatUp}} com Java marcas d'água",
+      "description": "Adicione marcas d'água sofisticadas a {{FileFormatUp}} arquivos via Java. Proteja e estilize seus documentos sem esforço."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} arquivos com Java marcas d'água",
+      "description": "Descubra o poder de Java na incorporação de marcas d'água seguras e personalizáveis em {{FileFormatUp}} arquivos. Perfeito para empresas que precisam proteger seu conteúdo intelectual.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} permite que Java desenvolvedores integrem perfeitamente tecnologias avançadas de marca d'água em seus {{FileFormatUp}} fluxos de trabalho de documentos. Com recursos para inserir, modificar e remover marcas d'água, essa API ajuda a proteger os direitos autorais e aprimorar a segurança dos documentos. Personalizado para formatos DOCX, ele oferece recursos como automação de marca d'água com base na sensibilidade do conteúdo, ajuste dinâmico das propriedades da marca d'água, como tamanho, transparência e rotação, e a aplicação de marcas d'água em documentos em lote. Eficaz para garantir a conformidade e impedir a circulação não autorizada de documentos, o {{ProdShortName}} é compatível com Java ambientes a partir da versão 8."
+    },
+    "formats": {
+      "title": "Marca d'água baseada em Java para {{FileFormatUp}}",
+      "description": "Utilize Java para implementar marcas d'água dinâmicas e seguras em {{FileFormatUp}} arquivos, garantindo proteção abrangente de direitos autorais."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Incorpore marcas d'água em {{FileFormatUp}} com Java",
+      "description": "Utilize Java para adicionar, personalizar e gerenciar marcas d'água em {{FileFormatUp}} imagens, aprimorando a segurança e o controle de direitos autorais."
+    },
+    "header": {
+      "title": "Marca d'água controlada por Java para {{FileFormatUp}}",
+      "description": "Domine a arte de colocar marcas d'água em {{FileFormatUp}} imagens usando Java. Essa API permite um controle preciso sobre a opacidade, a posição e o tamanho da marca d'água para proteger e marcar suas imagens digitais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} oferece aos Java desenvolvedores um kit de ferramentas sofisticado para incorporar marcas d'água em JPEG arquivos. Essa API se destaca na aplicação de marcas d'água visíveis e invisíveis que ajudam a proteger os direitos autorais, impedir o uso não autorizado e promover a visibilidade da marca. Personalize marcas d'água com uma variedade de opções, incluindo preenchimentos de padrões, efeitos de sombra e estilos de gradiente personalizados para ilustrações e fotografias digitais. Garanta que suas imagens estejam protegidas em todas as plataformas com {{ProdShortName}}, compatível com Java 8 e superior."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} com Java marcas d'água",
+      "description": "Aplique marcas d'água seguras e personalizáveis em {{FileFormatUp}} imagens usando Java, perfeitas para fotógrafos e criadores de conteúdo que precisam proteger seus recursos visuais."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Marca d'água avançada {{FileFormatUp}} com Java",
+      "description": "Simplifique seu processo de marcação d'água {{FileFormatUp}} usando Java para melhorar a proteção da imagem e a afirmação de direitos autorais."
+    },
+    "header": {
+      "title": "Marca d'água com Java para {{FileFormatUp}} arquivos",
+      "description": "Aumente a segurança de seus {{FileFormatUp}} arquivos com marcas d'água personalizáveis. Utilize Java para integrar marcas d'água perfeitamente, garantindo a proteção ideal e o alinhamento da marca.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} equipa Java desenvolvedores com poderosos recursos de marca d'água projetados especificamente para {{FileFormatUp}} imagens. Essa API permite a adição de marcas d'água de várias camadas que combinam texto e gráficos, garantindo proteção robusta de direitos autorais sem comprometer a qualidade da imagem. Os recursos incluem configurações flexíveis de escala, rotação e transparência, permitindo que as marcas d'água sejam discretas ou proeminentes com base nas necessidades do usuário. Melhore a integridade e a autenticidade de sua mídia digital com {{ProdShortName}}, totalmente compatível com Java 8 ou posterior."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} imagens via Java",
+      "description": "Aproveite Java para implantar marcas d'água sofisticadas em {{FileFormatUp}} imagens. Personalize as características da marca d'água para fortalecer seus direitos autorais e aprimorar a segurança da imagem."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} com Java marcas d'água",
+      "description": "Melhore a segurança do documento {{FileFormatUp}} usando Java para aplicar marcas d'água robustas e personalizáveis."
+    },
+    "header": {
+      "title": "Java Integração de marca d'água para {{FileFormatUp}}",
+      "description": "Aproveite Java para implementar marcas d'água avançadas em {{FileFormatUp}} documentos. Ideal para proteger registros oficiais, documentos legais e informações confidenciais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} foi feito sob medida para Java desenvolvedores que desejam reforçar a segurança de {{FileFormatUp}} documentos por meio de marcas d'água eficazes. Essa API facilita a incorporação de marcas d'água visíveis e invisíveis que impedem o compartilhamento não autorizado e garantem a autenticidade do documento. Os recursos incluem criação de marca d'água personalizada, posicionamento preciso e marca d'água condicional com base no conteúdo do documento ou no nível de segurança. Perfeito para ambientes governamentais, jurídicos e corporativos em que a integridade dos documentos é fundamental, o {{ProdShortName}} oferece suporte à integração perfeita com Java 8 e versões superiores."
+    },
+    "formats": {
+      "title": "Marcar {{FileFormatUp}} documentos com marca d'água com Java",
+      "description": "Utilize Java para adicionar marcas d'água a {{FileFormatUp}} de forma eficiente. Garanta a confidencialidade e a integridade de seus documentos oficiais com soluções personalizadas de marca d'água."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Java Soluções de marca d'água para {{FileFormatUp}} arquivos",
+      "description": "Aplique marcas d'água dinâmicas em {{FileFormatUp}} imagens usando Java para proteger e autenticar seus ativos digitais."
+    },
+    "header": {
+      "title": "Proteja e personalize {{FileFormatUp}} com Java",
+      "description": "Utilize Java para incorporar marcas d'água seguras e adaptáveis em {{FileFormatUp}} arquivos, perfeitas para fotógrafos e designers que buscam proteger seus trabalhos criativos.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece aos Java desenvolvedores uma estrutura sofisticada para aplicar marcas d'água em {{FileFormatUp}} imagens. Essa API foi projetada para se integrar perfeitamente a qualquer aplicativo baseado em Java, permitindo a inserção de marcas d'água transparentes ou opacas que combinam perfeitamente com a imagem subjacente. Personalize marcas d'água com texto, logotipos ou símbolos de direitos autorais para aprimorar a segurança sem prejudicar a qualidade da imagem. Com recursos como posicionamento perfeito em pixels e controle de opacidade, o {{ProdShortName}} garante que suas imagens sejam visualmente atraentes e protegidas legalmente. Adequado para uso em sites de comércio eletrônico, portfólios on-line e muito mais, e é totalmente compatível com Java 8 ou versões mais recentes."
+    },
+    "formats": {
+      "title": "Aprimorando a segurança da imagem {{FileFormatUp}} com Java",
+      "description": "Incorpore marcas d'água robustas em {{FileFormatUp}} arquivos usando Java. Esse recurso é crucial para proteger o conteúdo visual contra o uso não autorizado e, ao mesmo tempo, manter a nitidez da imagem."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Marca d'água {{FileFormatUp}} Apresentações com Java",
+      "description": "Proteja suas apresentações incorporando marcas d'água em {{FileFormatUp}} arquivos usando Java."
+    },
+    "header": {
+      "title": "Java Aprimoramentos para {{FileFormatUp}} marcas d'água",
+      "description": "Incorpore marcas d'água discretas ou proeminentes em PowerPoint apresentações usando Java, ideais para proteger conteúdo comercial e educacional.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} permite que Java desenvolvedores aprimorem a segurança e a aparência profissional de PowerPoint apresentações por meio de técnicas avançadas de marcação d'água. Essa API suporta a integração de marcas d'água de texto e imagem que podem ser personalizadas para serem visíveis ou sutis, dependendo do uso pretendido. Os recursos incluem a capacidade de ajustar tamanho, transparência e localização, garantindo que as marcas d'água não obstruam conteúdos importantes e, ao mesmo tempo, ofereçam proteção efetiva de direitos autorais. Ideal para apresentações corporativas, educacionais e comerciais, o {{ProdShortName}} é compatível com todos os sistemas que suportam Java 8 e superiores."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} apresentações com Java",
+      "description": "Use Java para aplicar marcas d'água em PowerPoint arquivos, aprimorando a segurança dos documentos e a presença da marca em ambientes profissionais e educacionais."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Marcar {{FileFormatUp}} arquivos com Java",
+      "description": "Proteja suas apresentações incorporando marcas d'água em {{FileFormatUp}} arquivos usando Java."
+    },
+    "header": {
+      "title": "Java Aprimoramentos para {{FileFormatUp}} marcas d'água",
+      "description": "Incorpore marcas d'água discretas ou proeminentes em PowerPoint apresentações usando Java, ideais para proteger conteúdo comercial e educacional.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} permite que Java desenvolvedores aprimorem a segurança e a aparência profissional de PowerPoint apresentações por meio de técnicas avançadas de marcação d'água. Essa API suporta a integração de marcas d'água de texto e imagem que podem ser personalizadas para serem visíveis ou sutis, dependendo do uso pretendido. Os recursos incluem a capacidade de ajustar tamanho, transparência e localização, garantindo que as marcas d'água não obstruam conteúdos importantes e, ao mesmo tempo, ofereçam proteção efetiva de direitos autorais. Ideal para apresentações corporativas, educacionais e comerciais, o {{ProdShortName}} é compatível com todos os sistemas que suportam Java 8 e superiores."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} apresentações com Java",
+      "description": "Use Java para aplicar marcas d'água em PowerPoint arquivos, aprimorando a segurança dos documentos e a presença da marca em ambientes profissionais e educacionais."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Java Marcas d'água para {{FileFormatUp}} documentos",
+      "description": "Utilize Java para inserir marcas d'água em {{FileFormatUp}} arquivos, aprimorando a segurança e o profissionalismo dos documentos."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} documentos com Java marcas d'água",
+      "description": "Incorpore marcas d'água perfeitamente em {{FileFormatUp}} documentos usando Java. Ideal para proteger informações confidenciais em ambientes profissionais Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} oferece aos Java desenvolvedores ferramentas abrangentes para colocar marcas d'água em {{FileFormatUp}} documentos, comumente usadas em ambientes Microsoft Word. Essa API permite a adição precisa de marcas d'água de texto e imagem, personalizáveis para garantir visibilidade ou discrição, conforme necessário. Melhore os recursos de segurança do seu documento sem comprometer o layout ou a legibilidade. Os recursos incluem opacidade variável, tamanho escalável e posicionamento adaptável, tornando-o adequado para documentos jurídicos, acadêmicos e corporativos. Eficaz para evitar o uso não autorizado e a duplicação, o {{ProdShortName}} é totalmente compatível com o Java 8 e versões superiores."
+    },
+    "formats": {
+      "title": "Aprimorando a segurança de MS Word {{FileFormatUp}} com Java",
+      "description": "Aplique marcas d'água avançadas em {{FileFormatUp}} arquivos usando Java, garantindo a integridade e a conformidade do documento no Microsoft Word e em outros aplicativos de processamento de texto."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Incorpore marcas d'água em {{FileFormatUp}} com Java",
+      "description": "Domine Java para aplicar marcas d'água efetivas em {{FileFormatUp}} imagens, protegendo os direitos autorais e aprimorando a segurança."
+    },
+    "header": {
+      "title": "Java Recursos de marca d'água para {{FileFormatUp}} arquivos",
+      "description": "Melhore {{FileFormatUp}} imagens com marcas d'água implementadas por Java para proteção robusta de direitos autorais e gerenciamento de ativos digitais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} permite que Java desenvolvedores explorem totalmente as técnicas de marca d'água personalizadas para imagens TIF, que são cruciais em áreas como fotografia, arquivamento de documentos e publicação digital. Essa API permite a integração de marcas d'água transparentes e sólidas que podem ser ajustadas para opacidade, tamanho e posicionamento para atender a diversos requisitos. Ele inclui recursos para marcação d'água em lote, garantindo o processamento eficiente de grandes coleções de imagens e, ao mesmo tempo, mantendo a alta fidelidade e a integridade da imagem. A ferramenta foi projetada para ser totalmente operacional com Java ambientes da versão 8 em diante, fornecendo uma solução confiável para a aplicação de direitos autorais e prevenção de distribuição não autorizada."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água em {{FileFormatUp}} imagens via Java",
+      "description": "Utilize Java para inserir marcas d'água personalizadas em {{FileFormatUp}} imagens, perfeitas para proteger e marcar conteúdo fotográfico e de arquivo."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} imagens com Java marcas d'água",
+      "description": "Implemente marcas d'água baseadas em Java em {{FileFormatUp}} arquivos para melhorar a proteção de direitos autorais e a segurança da imagem."
+    },
+    "header": {
+      "title": "Java -Marca d'água aprimorada para {{FileFormatUp}} arquivos",
+      "description": "Use Java para aplicar marcas d'água duráveis e personalizáveis em {{FileFormatUp}} imagens, essenciais para fotógrafos e arquivos digitais que precisam de segurança de direitos autorais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece a Java desenvolvedores um conjunto de ferramentas eficiente para adicionar marcas d'água a {{FileFormatUp}} imagens, um formato amplamente usado em fotografia e arquivamento digital. Essa API oferece suporte a configurações complexas de marcas d'água, incluindo marcas d'água baseadas em imagens e texto em várias camadas. Personalize suas marcas d'água com opções de opacidade, rotação e escala para garantir que elas sejam eficazes e discretas. Adequado para proteger imagens de alta resolução e documentos digitalizados, o {{ProdShortName}} aprimora a segurança da imagem sem comprometer a qualidade, totalmente compatível com Java 8 ou posterior."
+    },
+    "formats": {
+      "title": "Protegendo Copyright s em {{FileFormatUp}} arquivos com Java",
+      "description": "Aproveite Java para incorporar marcas d'água sofisticadas em {{FileFormatUp}} imagens. Otimize a proteção de direitos autorais com impacto mínimo na qualidade da imagem original."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Java Marcas d'água para {{FileFormatUp}} imagens",
+      "description": "Aproveite Java para injetar marcas d'água em {{FileFormatUp}} imagens, fortalecendo os direitos autorais e a segurança da mídia."
+    },
+    "header": {
+      "title": "Marca d'água personalizada {{FileFormatUp}} com Java",
+      "description": "Implemente Java para criar e gerenciar marcas d'água em {{FileFormatUp}} imagens, garantindo proteção e identidade visual ideais para criadores de conteúdo digital.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece um poderoso kit de ferramentas Java para incorporar marcas d'água em {{FileFormatUp}} imagens, um formato cada vez mais popular entre desenvolvedores web e profissionais de marketing digital. Essa API facilita a adição de marcas d'água visíveis e invisíveis, personalizadas para proteger os direitos autorais e autenticar as origens das imagens. Personalize suas configurações de marca d'água para incluir texto, logotipos ou assinaturas digitais, preservando a alta eficiência de compressão dos arquivos WEBP. Recursos avançados, como controle dinâmico de opacidade, escala de marca d'água e posicionamento preciso, ajudam a manter a estética e a clareza da imagem, garantindo a integração perfeita em várias plataformas digitais. Compatível com Java 8 e versões mais recentes, {{ProdShortName}} é essencial para qualquer desenvolvedor que queira proteger e monetizar ativos de imagem de forma eficaz."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} arquivos com Java",
+      "description": "Aplique marcas d'água avançadas e discretas em {{FileFormatUp}} imagens usando Java. Personalize os atributos da marca d'água para proteger e aprimorar os direitos autorais digitais com eficiência."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Marcar {{FileFormatUp}} planilhas com marca d'água com Java",
+      "description": "Utilize Java para aplicar marcas d'água personalizadas a {{FileFormatUp}} arquivos, protegendo Excel e documentos do OpenOffice."
+    },
+    "header": {
+      "title": "Marca d'água baseada em Java para Excel",
+      "description": "Implemente marcas d'água em {{FileFormatUp}} arquivos usando Java para aprimorar a segurança de documentos para Excel e planilhas do OpenOffice, perfeitas para dados financeiros e confidenciais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece aos Java desenvolvedores a capacidade de integrar marcas d'água em {{FileFormatUp}} arquivos, suportando os formatos Excel e OpenOffice. Essa API permite a incorporação de marcas d'água visíveis e sutis, garantindo que as informações confidenciais sejam protegidas sem alterar a usabilidade do documento. Os principais recursos incluem a capacidade de personalizar texto, imagem e posicionamento da marca d'água, que podem ser aplicados condicionalmente com base no conteúdo do documento ou nas permissões do usuário. Isso o torna ideal para aplicações em ambientes que exigem medidas rigorosas de proteção de dados, como setores bancário, jurídico e acadêmico. Com suporte para Java 8 ou superior, o {{ProdShortName}} está equipado para lidar com necessidades complexas de marca d'água em diversos sistemas operacionais."
+    },
+    "formats": {
+      "title": "Aprimorando a segurança de documentos Excel com Java",
+      "description": "Proteja seus documentos Excel e do OpenOffice com marcas d'água personalizáveis implementadas pelo Java, garantindo a integridade dos dados e a proteção de direitos autorais."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Marca d'água avançada {{FileFormatUp}} com Java",
+      "description": "Aumente a segurança de seus documentos incorporando marcas d'água em {{FileFormatUp}} arquivos usando Java."
+    },
+    "header": {
+      "title": "Java Marcas d'água para planilhas avançadas Excel",
+      "description": "Proteja suas Excel {{FileFormatUp}} folhas com marcas d'água acionadas por Java. Personalize-os para documentos corporativos, financeiros e acadêmicos para proteger dados confidenciais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} capacita Java desenvolvedores a impor a proteção de dados em {{FileFormatUp}} formatos com recursos dinâmicos de marca d'água. Projetada especificamente para as necessidades modernas de Excel usuários, essa API se integra perfeitamente para aplicar marcas d'água personalizadas que complementam o design do documento sem interromper a visibilidade dos dados. Otimize as marcas d'água para obter transparência, camadas ou mesclagem de cores para torná-las visíveis somente quando necessário. Essa ferramenta é indispensável para profissionais que lidam com modelos financeiros proprietários, documentos de planejamento estratégico ou qualquer informação confidencial que exija confidencialidade. Compatível com Java 8 e versões superiores, o {{ProdShortName}} estende o suporte robusto de marcas d'água para aplicativos Microsoft Excel e de planilhas compatíveis."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} arquivos com Java marcas d'água",
+      "description": "Incorpore marcas d'água sutis e eficazes em {{FileFormatUp}} documentos usando Java, ideais para proteger Excel planilhas em ambientes de alto risco."
+    }
+  }
+}

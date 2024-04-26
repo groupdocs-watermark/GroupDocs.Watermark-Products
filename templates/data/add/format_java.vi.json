@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Thêm hình mờ hình ảnh vào {{FileFormatUp}}",
+    "comment_2": "Chuyển tệp để được đánh dấu vào Watermarker",
+    "comment_3": "Cung cấp đường dẫn đến hình ảnh với hình mờ",
+    "comment_4": "Lưu kết quả"
+  },
+  "steps": {
+    "title": "Kỹ thuật nâng cao: Thêm hình mờ vào tài liệu {{FileformatCap}} thông qua {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "**Watermarker**. Bước cơ bản này tạo tiền đề cho việc nâng cao {{FileformatCap}} tài liệu bằng hình mờ. Cung cấp tệp {{FileformatCap}} cho hàm tạo, dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "**Watermark** phù hợp với thông số kỹ thuật của bạn. Các thực thể đa năng này cung cấp vị trí chính xác không chỉ trên các trang tài liệu được chỉ định mà còn trong các yếu tố gốc như tệp đính kèm hoặc tiêu đề.",
+      "step_3": "Tinh chỉnh quy trình tạo hình mờ của bạn bằng cách tinh chỉnh các thuộc tính như kích thước, căn chỉnh, kiểu phông chữ và màu sắc. Mức độ tùy chỉnh này cho phép bạn tạo hình mờ bổ sung hoàn hảo cho tính thẩm mỹ tài liệu của bạn.",
+      "step_4": "**Watermarker** để áp dụng hình mờ mới được tạo lên tài liệu của bạn. Tận hưởng sự linh hoạt của việc thêm nhiều hình mờ theo yêu cầu của bạn. Để bảo quản tài liệu, hãy cân nhắc lưu chúng ở một vị trí an toàn."
+    }
+  },
+  "more_features": {
+    "title": "Làm chủ hình mờ tài liệu",
+    "description": "Nâng cao khả năng quản lý tài liệu của bạn với API hình mờ tinh vi của chúng tôi, được thiết kế riêng cho .NET nhà phát triển. Công cụ này cung cấp các giải pháp toàn diện để áp dụng, tùy chỉnh và quản lý hình mờ trên nhiều định dạng tài liệu, đảm bảo cả tính thẩm mỹ và bảo mật nâng cao.",
+    "image_description": "Hình mờ tài liệu nâng cao",
+    "feature_1": {
+      "title": "Xoay hình mờ linh hoạt",
+      "content": "Điều chỉnh hình mờ của bạn để phù hợp với bất kỳ hướng tài liệu nào với cài đặt xoay linh hoạt của chúng tôi. Cho dù tài liệu của bạn là dọc hay ngang, dễ dàng điều chỉnh góc hình mờ để duy trì giao diện nhất quán bổ sung cho bố cục tài liệu."
+    },
+    "feature_2": {
+      "title": "Kiểm soát độ trong suốt hoàn hảo",
+      "content": "Kiểm soát độ trong suốt của hình mờ của bạn một cách chính xác, cho phép đánh dấu tinh tế nhưng an toàn mà không làm lấn át nội dung của tài liệu. Tính năng này lý tưởng để duy trì tính thẩm mỹ ban đầu của tài liệu của bạn trong khi thêm một lớp bảo mật."
+    },
+    "feature_3": {
+      "title": "Hiệu ứng bóng tối để nhấn mạnh",
+      "content": "Tăng cường khả năng hiển thị hình mờ của bạn hoặc tích hợp chúng một cách tinh tế vào tài liệu của bạn với các hiệu ứng bóng có thể tùy chỉnh. Tính năng này cho phép tạo bóng mờ, lan rộng và màu sắc khác nhau, làm cho hình mờ trở nên đặc biệt hoặc kín đáo hơn theo yêu cầu."
+    },
+    "code_1": {
+      "title": "MS Word hình mờ bị khóa",
+      "content": "Ví dụ này cho thấy cách khóa hình mờ trong DOCX tất cả các trang",
+      "comment_1": "Tải tài liệu dưới dạng MS Word doc",
+      "comment_2": "Tạo hình mờ",
+      "comment_3": "Điều chỉnh tùy chọn gốc Word",
+      "comment_4": "Thêm hình mờ vào trang tài liệu kết quả"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} với Java",
+      "description": "Thêm, chỉnh sửa và quản lý hình mờ hiệu quả trong tệp {{FileFormatUp}} bằng cách sử dụng Java. Lý tưởng để bảo mật tài liệu."
+    },
+    "header": {
+      "title": "Java Đánh dấu hình mờ cho {{FileFormatUp}} tập tin",
+      "description": "Khám phá cách Java nhà phát triển có thể sử dụng GroupDocs.Watermark để chèn, sửa đổi và xóa hình mờ trong {{FileFormatUp}} tài liệu một cách nhanh chóng và dễ dàng.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển một bộ công cụ mạnh mẽ để thêm, xóa, tìm kiếm và quản lý hình mờ trong {{FileFormatUp}} tệp. API này giúp dễ dàng tích hợp các chức năng hình mờ toàn diện vào bất kỳ ứng dụng Java nào, hỗ trợ một loạt các tác vụ quản lý tài liệu. Cho dù bạn cần bảo vệ sở hữu trí tuệ, đảm bảo tính xác thực của tài liệu hoặc ngăn chặn việc chia sẻ trái phép, {{ProdShortName}} đều trang bị cho bạn các công cụ cần thiết. Nó hỗ trợ hình mờ văn bản và hình ảnh và cung cấp các tùy chọn tùy chỉnh mở rộng như điều chỉnh độ mờ, xoay và tỷ lệ để phù hợp với các trường hợp sử dụng khác nhau. Tương thích với tất cả các hệ điều hành chính hỗ trợ Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Đánh dấu tệp {{FileFormatUp}} bằng cách sử dụng Java",
+      "description": "Tận dụng Java để áp dụng hình mờ đa năng trên {{FileFormatUp}} tệp. Lý tưởng cho các ứng dụng yêu cầu bảo mật tài liệu và bảo vệ bản quyền."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Tăng cường {{FileFormatUp}} với Java hình mờ",
+      "description": "Thêm hình mờ tinh vi vào {{FileFormatUp}} tệp thông qua Java. Bảo vệ và cách điệu tài liệu của bạn một cách dễ dàng."
+    },
+    "header": {
+      "title": "Bảo mật tệp {{FileFormatUp}} với hình mờ Java",
+      "description": "Khám phá sức mạnh của Java trong việc nhúng hình mờ an toàn, có thể tùy chỉnh vào {{FileFormatUp}} tệp. Hoàn hảo cho các doanh nghiệp cần bảo vệ nội dung trí tuệ của họ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép Java nhà phát triển tích hợp liền mạch các công nghệ hình mờ tiên tiến vào quy trình làm việc tài liệu {{FileFormatUp}} của họ. Với khả năng chèn, sửa đổi và xóa hình mờ, API này giúp bảo vệ bản quyền và tăng cường bảo mật tài liệu. Được thiết kế riêng cho DOCX định dạng, nó cung cấp các tính năng như tự động hóa hình mờ dựa trên độ nhạy nội dung, điều chỉnh động các thuộc tính hình mờ như kích thước, độ trong suốt và xoay và áp dụng hình mờ trên các tài liệu hàng loạt. Có hiệu quả trong việc đảm bảo tuân thủ và ngăn chặn việc lưu hành tài liệu trái phép, {{ProdShortName}} tương thích với môi trường Java từ phiên bản 8 trở đi."
+    },
+    "formats": {
+      "title": "Hình mờ dựa trên Java cho {{FileFormatUp}}",
+      "description": "Sử dụng Java để triển khai hình mờ động và an toàn trong tệp {{FileFormatUp}}, đảm bảo bảo vệ bản quyền toàn diện."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Java",
+      "description": "Sử dụng Java để thêm, tùy chỉnh và quản lý hình mờ trong {{FileFormatUp}} hình ảnh, tăng cường bảo mật và kiểm soát bản quyền."
+    },
+    "header": {
+      "title": "Java -Đánh dấu mờ được kiểm soát cho {{FileFormatUp}}",
+      "description": "Nắm vững nghệ thuật đánh dấu hình ảnh {{FileFormatUp}} bằng cách sử dụng Java. API này cho phép kiểm soát chính xác độ mờ mờ, vị trí và kích thước hình mờ để bảo vệ và tạo thương hiệu cho hình ảnh kỹ thuật số của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển một bộ công cụ tinh vi để nhúng hình mờ vào JPEG tệp. API này xuất sắc trong việc áp dụng cả hình mờ hiển thị và vô hình giúp bảo vệ bản quyền, ngăn chặn việc sử dụng trái phép và thúc đẩy khả năng hiển thị thương hiệu. Tùy chỉnh hình mờ với nhiều tùy chọn bao gồm tô hoa văn, hiệu ứng bóng và kiểu gradient được thiết kế riêng cho tác phẩm nghệ thuật kỹ thuật số và ảnh. Đảm bảo hình ảnh của bạn được bảo vệ trên tất cả các nền tảng với {{ProdShortName}}, hỗ trợ Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Bảo vệ {{FileFormatUp}} bằng hình mờ Java",
+      "description": "Áp dụng hình mờ an toàn và có thể tùy chỉnh cho {{FileFormatUp}} hình ảnh bằng cách sử dụng Java, hoàn hảo cho các nhiếp ảnh gia và người sáng tạo nội dung cần bảo vệ tài sản hình ảnh của họ."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Nâng cao {{FileFormatUp}} Watermark với Java",
+      "description": "Hợp lý hóa quy trình tạo hình mờ {{FileFormatUp}} của bạn bằng cách sử dụng Java để tăng cường bảo vệ hình ảnh và khẳng định bản quyền."
+    },
+    "header": {
+      "title": "Java -Chữ mờ được hỗ trợ cho {{FileFormatUp}} Tệp",
+      "description": "Nâng cao tính bảo mật cho tệp {{FileFormatUp}} của bạn với hình mờ có thể tùy chỉnh. Sử dụng Java để tích hợp hình mờ một cách liền mạch, đảm bảo sự bảo vệ tối ưu và liên kết thương hiệu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho Java nhà phát triển khả năng tạo hình mờ mạnh mẽ được thiết kế đặc biệt cho {{FileFormatUp}} hình ảnh. API này cho phép bổ sung hình mờ nhiều lớp kết hợp văn bản và đồ họa, đảm bảo bảo vệ bản quyền mạnh mẽ mà không ảnh hưởng đến chất lượng hình ảnh. Các tính năng bao gồm cài đặt mở rộng, xoay và độ trong suốt linh hoạt, cho phép hình mờ kín đáo hoặc nổi bật dựa trên nhu cầu của người dùng. Tăng cường tính toàn vẹn và tính xác thực của phương tiện kỹ thuật số của bạn với {{ProdShortName}}, hoàn toàn tương thích với Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Bảo vệ {{FileFormatUp}} hình ảnh qua Java",
+      "description": "Khai thác Java để triển khai hình mờ tinh vi trên {{FileFormatUp}} hình ảnh. Điều chỉnh các đặc điểm hình mờ để củng cố bản quyền của bạn và tăng cường bảo mật hình ảnh."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} với Java hình mờ",
+      "description": "Tăng cường bảo mật tài liệu {{FileFormatUp}} bằng cách sử dụng Java để áp dụng hình mờ mạnh mẽ, có thể tùy chỉnh."
+    },
+    "header": {
+      "title": "Java Tích hợp hình mờ cho {{FileFormatUp}}",
+      "description": "Tận dụng Java để triển khai hình mờ nâng cao trong {{FileFormatUp}} tài liệu. Lý tưởng để bảo vệ hồ sơ chính thức, tài liệu pháp lý và thông tin nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} được thiết kế riêng cho Java nhà phát triển muốn tăng cường bảo mật của {{FileFormatUp}} tài liệu thông qua hình mờ hiệu quả. API này tạo điều kiện cho việc nhúng cả hình mờ hiển thị và vô hình để ngăn chặn việc chia sẻ trái phép và đảm bảo tính xác thực của tài liệu. Các khả năng bao gồm tạo hình mờ tùy chỉnh, định vị chính xác và hình mờ có điều kiện dựa trên nội dung tài liệu hoặc mức độ bảo mật. Hoàn hảo cho các môi trường chính phủ, pháp lý và doanh nghiệp nơi tính toàn vẹn của tài liệu là tối quan trọng, {{ProdShortName}} hỗ trợ tích hợp liền mạch với Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Hình mờ {{FileFormatUp}} Tài liệu với Java",
+      "description": "Sử dụng Java để thêm hình mờ vào {{FileFormatUp}} một cách hiệu quả. Đảm bảo tính bảo mật và toàn vẹn của các tài liệu chính thức của bạn với các giải pháp chấm mờ phù hợp."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Java Giải pháp hình mờ cho tập tin {{FileFormatUp}}",
+      "description": "Áp dụng hình mờ động cho {{FileFormatUp}} hình ảnh bằng cách sử dụng Java để bảo vệ và xác thực tài sản kỹ thuật số của bạn."
+    },
+    "header": {
+      "title": "Bảo mật và tùy chỉnh {{FileFormatUp}} với Java",
+      "description": "Sử dụng Java để nhúng hình mờ an toàn, có thể điều chỉnh trong tệp {{FileFormatUp}}, hoàn hảo cho các nhiếp ảnh gia và nhà thiết kế đang tìm cách bảo vệ các tác phẩm sáng tạo của họ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển một khuôn khổ tinh vi để áp dụng hình mờ cho {{FileFormatUp}} hình ảnh. API này được thiết kế để tích hợp liền mạch vào bất kỳ ứng dụng dựa trên Java nào, cho phép chèn hình mờ trong suốt hoặc mờ kết hợp hoàn hảo với hình ảnh bên dưới. Tùy chỉnh hình mờ bằng văn bản, logo hoặc biểu tượng bản quyền để tăng cường bảo mật mà không làm giảm chất lượng hình ảnh. Với các tính năng như định vị điểm ảnh hoàn hảo và kiểm soát độ mờ, {{ProdShortName}} đảm bảo rằng hình ảnh của bạn vừa hấp dẫn về mặt thị giác vừa được bảo vệ hợp pháp. Thích hợp để sử dụng trên các trang web thương mại điện tử, danh mục đầu tư trực tuyến, v.v., và hoàn toàn tương thích với Java 8 hoặc mới hơn."
+    },
+    "formats": {
+      "title": "Tăng cường bảo mật hình ảnh {{FileFormatUp}} với Java",
+      "description": "Nhúng hình mờ mạnh mẽ vào {{FileFormatUp}} tệp bằng Java. Tính năng này rất quan trọng để bảo vệ nội dung trực quan khỏi việc sử dụng trái phép trong khi vẫn duy trì hình ảnh rõ nét."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Hình mờ {{FileFormatUp}} Bài thuyết trình với Java",
+      "description": "Bảo vệ bản trình bày của bạn bằng cách nhúng hình mờ vào tệp {{FileFormatUp}} bằng cách sử dụng Java."
+    },
+    "header": {
+      "title": "Java Cải tiến cho {{FileFormatUp}} Hình mờ",
+      "description": "Kết hợp các hình mờ rời rạc hoặc nổi bật vào PowerPoint bài thuyết trình bằng cách sử dụng Java, lý tưởng để bảo mật nội dung kinh doanh và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép Java nhà phát triển nâng cao tính bảo mật và giao diện chuyên nghiệp của PowerPoint bài thuyết trình thông qua các kỹ thuật hình mờ nâng cao. API này hỗ trợ tích hợp hình mờ văn bản và hình ảnh có thể được tùy chỉnh để hiển thị hoặc tinh tế tùy thuộc vào mục đích sử dụng. Các tính năng bao gồm khả năng điều chỉnh kích thước, độ trong suốt và vị trí, đảm bảo rằng hình mờ không cản trở nội dung quan trọng trong khi vẫn cung cấp bảo vệ bản quyền hiệu quả. Lý tưởng cho các bài thuyết trình của công ty, giáo dục và thương mại, {{ProdShortName}} tương thích với tất cả các hệ thống hỗ trợ Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} bài thuyết trình với Java",
+      "description": "Sử dụng Java để áp dụng hình mờ cho tệp PowerPoint, tăng cường bảo mật tài liệu và sự hiện diện thương hiệu trong môi trường chuyên nghiệp và giáo dục."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Hình mờ {{FileFormatUp}} Tệp với Java",
+      "description": "Bảo vệ bản trình bày của bạn bằng cách nhúng hình mờ vào tệp {{FileFormatUp}} bằng cách sử dụng Java."
+    },
+    "header": {
+      "title": "Java Cải tiến cho {{FileFormatUp}} Hình mờ",
+      "description": "Kết hợp các hình mờ rời rạc hoặc nổi bật vào PowerPoint bài thuyết trình bằng cách sử dụng Java, lý tưởng để bảo mật nội dung kinh doanh và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép Java nhà phát triển nâng cao tính bảo mật và giao diện chuyên nghiệp của PowerPoint bài thuyết trình thông qua các kỹ thuật hình mờ nâng cao. API này hỗ trợ tích hợp hình mờ văn bản và hình ảnh có thể được tùy chỉnh để hiển thị hoặc tinh tế tùy thuộc vào mục đích sử dụng. Các tính năng bao gồm khả năng điều chỉnh kích thước, độ trong suốt và vị trí, đảm bảo rằng hình mờ không cản trở nội dung quan trọng trong khi vẫn cung cấp bảo vệ bản quyền hiệu quả. Lý tưởng cho các bài thuyết trình của công ty, giáo dục và thương mại, {{ProdShortName}} tương thích với tất cả các hệ thống hỗ trợ Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} bài thuyết trình với Java",
+      "description": "Sử dụng Java để áp dụng hình mờ cho tệp PowerPoint, tăng cường bảo mật tài liệu và sự hiện diện thương hiệu trong môi trường chuyên nghiệp và giáo dục."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Java Hình mờ cho {{FileFormatUp}} Tài liệu",
+      "description": "Sử dụng Java để chèn hình mờ vào {{FileFormatUp}} tệp, tăng cường bảo mật và tính chuyên nghiệp của tài liệu."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} Tài liệu bằng hình mờ Java",
+      "description": "Nhúng hình mờ liền mạch vào {{FileFormatUp}} tài liệu bằng Java. Lý tưởng để bảo mật thông tin nhạy cảm trong môi trường chuyên nghiệp Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển các công cụ toàn diện để đánh dấu {{FileFormatUp}} tài liệu, thường được sử dụng trong môi trường Microsoft Word. API này cho phép bổ sung chính xác hình mờ văn bản và hình ảnh, có thể tùy chỉnh để đảm bảo khả năng hiển thị hoặc tùy ý theo yêu cầu. Nâng cao tính năng bảo mật của tài liệu mà không ảnh hưởng đến bố cục hoặc khả năng đọc. Các tính năng bao gồm độ mờ thay đổi, kích thước có thể mở rộng và định vị thích ứng, làm cho nó phù hợp với các tài liệu pháp lý, học thuật và công ty. Hiệu quả để ngăn chặn việc sử dụng trái phép và sao chép, {{ProdShortName}} hoàn toàn tương thích với Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Tăng cường bảo mật MS Word {{FileFormatUp}} với Java",
+      "description": "Áp dụng hình mờ nâng cao cho tệp {{FileFormatUp}} bằng cách sử dụng Java, đảm bảo tính toàn vẹn và tuân thủ tài liệu trong Microsoft Word và các ứng dụng xử lý văn bản khác."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Java",
+      "description": "Làm chủ Java để áp dụng hình mờ hiệu quả trong {{FileFormatUp}} hình ảnh, bảo vệ bản quyền và tăng cường bảo mật."
+    },
+    "header": {
+      "title": "Java Khả năng hình mờ cho {{FileFormatUp}} Tệp",
+      "description": "Nâng cao {{FileFormatUp}} hình ảnh với hình mờ được triển khai Java để bảo vệ bản quyền mạnh mẽ và quản lý tài sản kỹ thuật số.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép Java nhà phát triển khai thác đầy đủ các kỹ thuật hình mờ phù hợp với hình ảnh TIF, rất quan trọng trong các lĩnh vực như nhiếp ảnh, lưu trữ tài liệu và xuất bản kỹ thuật số. API này cho phép tích hợp các hình mờ trong suốt và rắn có thể được điều chỉnh độ mờ, kích thước và vị trí để đáp ứng các yêu cầu đa dạng. Nó bao gồm các tính năng để tạo hình mờ hàng loạt, đảm bảo xử lý hiệu quả các bộ sưu tập hình ảnh lớn trong khi vẫn duy trì độ trung thực cao và tính toàn vẹn hình ảnh. Công cụ này được thiết kế để hoạt động đầy đủ với Java môi trường từ phiên bản 8 trở lên, cung cấp một giải pháp đáng tin cậy để thực thi bản quyền và ngăn chặn phân phối trái phép."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} Hình ảnh qua Java",
+      "description": "Sử dụng Java để chèn hình mờ tùy chỉnh vào {{FileFormatUp}} hình ảnh, hoàn hảo để bảo mật và xây dựng thương hiệu cho nội dung ảnh và lưu trữ."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với Java Hình mờ",
+      "description": "Triển khai hình mờ dựa trên Java trong tệp {{FileFormatUp}} để tăng cường bảo vệ bản quyền và bảo mật hình ảnh."
+    },
+    "header": {
+      "title": "Java -Nâng cao hình mờ cho tập tin {{FileFormatUp}}",
+      "description": "Sử dụng Java để áp dụng hình mờ bền, có thể tùy chỉnh cho {{FileFormatUp}} hình ảnh, cần thiết cho các nhiếp ảnh gia và kho lưu trữ kỹ thuật số cần bảo mật bản quyền.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển một bộ công cụ hiệu quả để thêm hình mờ vào {{FileFormatUp}} hình ảnh, một định dạng được sử dụng rộng rãi trong nhiếp ảnh và lưu trữ kỹ thuật số. API này hỗ trợ các cấu hình hình mờ phức tạp, bao gồm văn bản nhiều lớp và hình mờ dựa trên hình ảnh. Tùy chỉnh hình mờ của bạn với các tùy chọn về độ mờ đục, xoay và tỷ lệ để đảm bảo chúng hiệu quả nhưng không phô trương. Thích hợp để bảo vệ hình ảnh độ phân giải cao và tài liệu được quét, {{ProdShortName}} tăng cường bảo mật hình ảnh mà không ảnh hưởng đến chất lượng, hoàn toàn tương thích với Java 8 trở lên."
+    },
+    "formats": {
+      "title": "Bảo vệ Copyright s trong {{FileFormatUp}} tập tin với Java",
+      "description": "Tận dụng Java để nhúng hình mờ tinh vi vào {{FileFormatUp}} hình ảnh. Tối ưu hóa bảo vệ bản quyền với tác động tối thiểu đến chất lượng hình ảnh gốc."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Java Hình mờ cho {{FileFormatUp}} Hình ảnh",
+      "description": "Khai thác Java để chèn hình mờ vào {{FileFormatUp}} hình ảnh, tăng cường bản quyền và bảo mật phương tiện truyền thông."
+    },
+    "header": {
+      "title": "Tùy chỉnh {{FileFormatUp}} Watermark với Java",
+      "description": "Triển khai Java để tạo và quản lý hình mờ trong {{FileFormatUp}} hình ảnh, đảm bảo bảo vệ và xây dựng thương hiệu tối ưu cho người sáng tạo nội dung kỹ thuật số.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp bộ công cụ Java mạnh mẽ để nhúng hình mờ trong {{FileFormatUp}} hình ảnh, một định dạng ngày càng phổ biến trong các nhà phát triển web và nhà tiếp thị kỹ thuật số. API này tạo điều kiện cho việc bổ sung cả hình mờ hiển thị và vô hình, được thiết kế để bảo vệ bản quyền và xác thực nguồn gốc hình ảnh. Tùy chỉnh cài đặt hình mờ của bạn để bao gồm văn bản, logo hoặc chữ ký kỹ thuật số, tất cả trong khi vẫn giữ được hiệu quả nén cao của các tệp WEBP. Các tính năng nâng cao như kiểm soát độ mờ động, tỷ lệ hình mờ và định vị chính xác giúp duy trì tính thẩm mỹ và độ rõ nét của hình ảnh, đảm bảo tích hợp liền mạch vào các nền tảng kỹ thuật số khác nhau. Tương thích với Java 8 trở lên, {{ProdShortName}} là điều cần thiết cho bất kỳ nhà phát triển nào muốn bảo mật và kiếm tiền từ tài sản hình ảnh một cách hiệu quả."
+    },
+    "formats": {
+      "title": "Bảo mật tệp {{FileFormatUp}} với Java",
+      "description": "Áp dụng hình mờ cao cấp, kín đáo cho {{FileFormatUp}} hình ảnh bằng cách sử dụng Java. Điều chỉnh các thuộc tính hình mờ để bảo vệ và nâng cao bản quyền kỹ thuật số một cách hiệu quả."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Hình mờ {{FileFormatUp}} Bảng tính với Java",
+      "description": "Sử dụng Java để áp dụng hình mờ tùy chỉnh cho tệp {{FileFormatUp}}, bảo mật tài liệu Excel và OpenOffice."
+    },
+    "header": {
+      "title": "Hình mờ dựa trên Java cho Excel",
+      "description": "Triển khai hình mờ trong {{FileFormatUp}} tệp bằng cách sử dụng Java để tăng cường bảo mật tài liệu cho trang tính Excel và OpenOffice, hoàn hảo cho dữ liệu tài chính và bí mật.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho Java nhà phát triển khả năng tích hợp hình mờ vào {{FileFormatUp}} tệp, hỗ trợ cả định dạng Excel và OpenOffice. API này cho phép nhúng hình mờ vừa hiển thị vừa tinh tế, đảm bảo rằng thông tin nhạy cảm được bảo vệ mà không làm thay đổi khả năng sử dụng của tài liệu. Các tính năng chính bao gồm khả năng tùy chỉnh văn bản, hình ảnh và vị trí hình mờ, có thể được áp dụng có điều kiện dựa trên nội dung của tài liệu hoặc quyền của người dùng. Điều này làm cho nó trở nên lý tưởng cho các ứng dụng trong môi trường yêu cầu các biện pháp bảo vệ dữ liệu nghiêm ngặt, chẳng hạn như lĩnh vực ngân hàng, pháp lý và học thuật. Với sự hỗ trợ cho Java 8 trở lên, {{ProdShortName}} được trang bị để xử lý các nhu cầu hình mờ phức tạp trên các hệ điều hành đa dạng."
+    },
+    "formats": {
+      "title": "Tăng cường bảo mật tài liệu Excel với Java",
+      "description": "Bảo mật tài liệu Excel và OpenOffice của bạn bằng hình mờ được triển khai Java có thể tùy chỉnh, đảm bảo tính toàn vẹn dữ liệu và bảo vệ bản quyền."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Nâng cao {{FileFormatUp}} Watermark với Java",
+      "description": "Nâng cao bảo mật tài liệu của bạn bằng cách nhúng hình mờ vào {{FileFormatUp}} tệp bằng Java."
+    },
+    "header": {
+      "title": "Java Hình mờ cho trang tính nâng cao Excel",
+      "description": "Bảo vệ giấy tờ Excel {{FileFormatUp}} của bạn bằng hình mờ điều khiển Java. Điều chỉnh chúng cho các tài liệu doanh nghiệp, tài chính và học thuật để bảo vệ dữ liệu nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trao quyền cho Java nhà phát triển thực thi bảo vệ dữ liệu ở {{FileFormatUp}} định dạng với khả năng tạo hình mờ động. Được thiết kế đặc biệt cho nhu cầu hiện đại của Excel người dùng, API này tích hợp liền mạch để áp dụng hình mờ tùy chỉnh bổ sung cho thiết kế của tài liệu mà không làm gián đoạn khả năng hiển thị dữ liệu. Tối ưu hóa hình mờ cho độ trong suốt, phân lớp hoặc pha trộn màu sắc để làm cho chúng chỉ đáng chú ý khi cần thiết. Công cụ này không thể thiếu đối với các chuyên gia xử lý các mô hình tài chính độc quyền, tài liệu lập kế hoạch chiến lược hoặc bất kỳ thông tin nhạy cảm nào yêu cầu bảo mật. Tương thích với Java 8 trở lên, {{ProdShortName}} mở rộng hỗ trợ hình mờ mạnh mẽ cho cả Microsoft Excel và các ứng dụng bảng tính tương thích."
+    },
+    "formats": {
+      "title": "Bảo mật tệp {{FileFormatUp}} bằng hình mờ Java",
+      "description": "Kết hợp hình mờ tinh tế, hiệu quả vào {{FileFormatUp}} tài liệu bằng cách sử dụng Java, lý tưởng để bảo vệ Excel bảng tính trong môi trường có mức độ rủi ro cao."
+    }
+  }
+}

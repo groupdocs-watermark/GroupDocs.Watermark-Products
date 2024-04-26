@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Bildwasserzeichen zu {{FileFormatUp}} hinzufügen",
+    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an Watermarker",
+    "comment_3": "Pfad zum Bild mit Wasserzeichen angeben",
+    "comment_4": "Ergebnis speichern"
+  },
+  "steps": {
+    "title": "Fortgeschrittene Techniken: Hinzufügen von Wasserzeichen zu {{FileformatCap}} Dokumenten über {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "**Watermarker** initialisieren. Dieser grundlegende Schritt bereitet die Voraussetzungen für die Erweiterung von {{FileformatCap}} Dokumenten mit Wasserzeichen. Stellen Sie dem Konstruktor die Datei {{FileformatCap}} entweder als Pfad- oder Stream-Objekt zur Verfügung.",
+      "step_2": "**Wasserzeichen**-Objekte herstellen, die auf Ihre Spezifikationen zugeschnitten sind. Diese vielseitigen Entitäten ermöglichen eine präzise Platzierung nicht nur auf bestimmten Dokumentseiten, sondern auch innerhalb systemeigener Elemente wie Anlagen oder Überschriften.",
+      "step_3": "Verfeinern Sie Ihren Wasserzeichenprozess, indem Sie Eigenschaften wie Abmessungen, Ausrichtung, Schriftstile und Farben optimieren. Dieser Grad der Anpassung ermöglicht es Ihnen, Wasserzeichen zu erstellen, die perfekt zu Ihrer Dokumentästhetik passen.",
+      "step_4": "**Watermarker**-Methode, um die neu erstellten Wasserzeichen auf Ihre Dokumente anzuwenden. Genießen Sie die Flexibilität, je nach Ihren Anforderungen mehrere Wasserzeichen hinzuzufügen. Um Dokumente aufzubewahren, sollten Sie erwägen, sie an einem sicheren Ort zu speichern."
+    }
+  },
+  "more_features": {
+    "title": "Beherrschen von Wasserzeichen in Dokumenten",
+    "description": "Verbessern Sie Ihr Dokumentenmanagement mit unserer ausgeklügelten Wasserzeichen-API, die auf .NET Entwickler zugeschnitten ist. Dieses Tool bietet umfassende Lösungen für das Anbringen, Anpassen und Verwalten von Wasserzeichen in einer Vielzahl von Dokumentformaten und sorgt so sowohl für ein ansprechendes Design als auch für mehr Sicherheit.",
+    "image_description": "Erweitertes Wasserzeichen für Dokumente",
+    "feature_1": {
+      "title": "Flexible Wasserzeichen-Rotation",
+      "content": "Passen Sie Ihre Wasserzeichen mit unseren flexiblen Rotationseinstellungen an jede Dokumentausrichtung an. Egal, ob Ihr Dokument im Hoch- oder Querformat ist, passen Sie den Winkel des Wasserzeichens einfach an, um ein einheitliches Erscheinungsbild zu erhalten, das zum Dokumentlayout passt."
+    },
+    "feature_2": {
+      "title": "Perfekte Transparenzkontrolle",
+      "content": "Kontrollieren Sie die Transparenz Ihrer Wasserzeichen präzise und ermöglichen Sie subtile und dennoch sichere Markierungen, die den Inhalt des Dokuments nicht überfordern. Diese Funktion ist ideal, um die ursprüngliche Ästhetik Ihrer Dokumente beizubehalten und gleichzeitig eine zusätzliche Sicherheitsebene hinzuzufügen."
+    },
+    "feature_3": {
+      "title": "Schatteneffekte zur Betonung",
+      "content": "Verbessern Sie die Sichtbarkeit Ihrer Wasserzeichen oder integrieren Sie sie mit anpassbaren Schatteneffekten subtil in Ihre Dokumente. Diese Funktion ermöglicht Schatten mit unterschiedlicher Unschärfe, Streuung und Farbe, wodurch das Wasserzeichen je nach Bedarf markanter oder unauffälliger wird."
+    },
+    "code_1": {
+      "title": "MS Word gesperrtes Wasserzeichen",
+      "content": "Dieses Beispiel zeigt, wie das Wasserzeichen in DOCX allen Seiten gesperrt wird",
+      "comment_1": "Dokument als MS Word doc laden",
+      "comment_2": "Erstellen Sie ein Wasserzeichen",
+      "comment_3": "Tune native Word Optionen",
+      "comment_4": "Fügen Sie den Seiten des Ergebnisdokuments ein Wasserzeichen hinzu"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Generieren Sie Wasserzeichen für {{FileFormatUp}} mit Java",
+      "description": "Effizientes Hinzufügen, Bearbeiten und Verwalten von Wasserzeichen in {{FileFormatUp}} Dateien mithilfe von Java. Ideal zum Sichern von Dokumenten."
+    },
+    "header": {
+      "title": "Java Wasserzeichen für {{FileFormatUp}} Dateien",
+      "description": "Erfahren Sie, wie Java Entwickler GroupDocs.Watermark verwenden können, um Wasserzeichen in {{FileFormatUp}} Dokumenten schnell und mühelos einzufügen, zu ändern und zu entfernen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern eine Reihe robuster Tools zum Hinzufügen, Entfernen, Suchen und Verwalten von Wasserzeichen in {{FileFormatUp}} Dateien. Diese API macht es einfach, umfassende Wasserzeichenfunktionen in jede Java Anwendung zu integrieren und unterstützt eine Vielzahl von Dokumentenverwaltungsaufgaben. Ganz gleich, ob Sie geistiges Eigentum schützen, die Echtheit von Dokumenten sicherstellen oder die unbefugte Weitergabe verhindern müssen, {{ProdShortName}} stattet Sie mit den erforderlichen Tools aus. Es unterstützt Text- und Bildwasserzeichen und bietet umfangreiche Anpassungsoptionen wie die Anpassung von Opazität, Drehung und Skalierung an verschiedene Anwendungsfälle. Kompatibel mit allen gängigen Betriebssystemen, die Java 8 oder höher unterstützen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Dateien mit Java mit einem Wasserzeichen versehen",
+      "description": "Nutze Java, um vielseitige Wasserzeichen auf {{FileFormatUp}} Dateien anzubringen. Ideal für Anwendungen, die Dokumentensicherheit und Urheberrechtsschutz erfordern."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} mit Java Wasserzeichen erweitern",
+      "description": "Fügen Sie über Java raffinierte Wasserzeichen zu {{FileFormatUp}} Dateien hinzu. Schützen und stilisieren Sie Ihre Dokumente mühelos."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Dateien mit Java Wasserzeichen sichern",
+      "description": "Entdecken Sie das Potenzial von Java beim Einbetten sicherer, anpassbarer Wasserzeichen in {{FileFormatUp}} Dateien. Perfekt für Unternehmen, die ihre geistigen Inhalte schützen müssen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Java Entwicklern, fortschrittliche Wasserzeichen-Technologien nahtlos in ihre {{FileFormatUp}} Dokumenten-Workflows zu integrieren. Mit Funktionen zum Einfügen, Ändern und Entfernen von Wasserzeichen trägt diese API zum Schutz von Urheberrechten und zur Verbesserung der Dokumentensicherheit bei. Sie ist auf DOCX Formate zugeschnitten und bietet Funktionen wie die Automatisierung von Wasserzeichen auf der Grundlage der Inhaltsempfindlichkeit, die dynamische Anpassung von Wasserzeicheneigenschaften wie Größe, Transparenz und Drehung sowie das Anbringen von Wasserzeichen auf Stapeldokumente. {{ProdShortName}} ist wirksam, um die Einhaltung gesetzlicher Vorschriften sicherzustellen und die unbefugte Weitergabe von Dokumenten zu verhindern. Es ist ab Version 8 mit Java Umgebungen kompatibel."
+    },
+    "formats": {
+      "title": "Java -basiertes Wasserzeichen für {{FileFormatUp}}",
+      "description": "Verwenden Sie Java, um dynamische und sichere Wasserzeichen in {{FileFormatUp}} Dateien zu implementieren und so einen umfassenden Urheberrechtsschutz zu gewährleisten."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Wasserzeichen in {{FileFormatUp}} mit Java einbetten",
+      "description": "Verwenden Sie Java, um Wasserzeichen in {{FileFormatUp}} Bildern hinzuzufügen, anzupassen und zu verwalten und so die Sicherheit und Copyright-Kontrolle zu verbessern."
+    },
+    "header": {
+      "title": "Java -Kontrolliertes Wasserzeichen für {{FileFormatUp}}",
+      "description": "Meistere die Kunst, {{FileFormatUp}} Bilder mit einem Wasserzeichen zu versehen, indem du Java verwendest. Diese API ermöglicht eine präzise Steuerung der Opazität, Position und Größe von Wasserzeichen, um Ihre digitalen Bilder zu schützen und zu kennzeichnen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern ein ausgeklügeltes Toolkit zum Einbetten von Wasserzeichen in JPEG Dateien. Diese API zeichnet sich durch die Verwendung sowohl sichtbarer als auch unsichtbarer Wasserzeichen aus, die dazu beitragen, das Urheberrecht zu schützen, unbefugte Nutzung zu verhindern und die Sichtbarkeit der Marke zu fördern. Passen Sie Wasserzeichen mit einer Vielzahl von Optionen an, darunter Musterfüllungen, Schatteneffekte und Verlaufsstile, die auf digitale Kunstwerke und Fotos zugeschnitten sind. Stellen Sie sicher, dass Ihre Bilder auf allen Plattformen mit {{ProdShortName}} geschützt sind und Java 8 und höher unterstützt werden."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} mit Java Wasserzeichen sichern",
+      "description": "Bringen Sie mit Java sichere und anpassbare Wasserzeichen auf {{FileFormatUp}} Bilder an. Perfekt für Fotografen und Inhaltsersteller, die ihre visuellen Ressourcen schützen müssen."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Erweitertes {{FileFormatUp}} Wasserzeichen mit Java",
+      "description": "Optimieren Sie Ihren {{FileFormatUp}} Wasserzeichenprozess mit Java für einen verbesserten Bildschutz und die Durchsetzung des Urheberrechts."
+    },
+    "header": {
+      "title": "Java -gestütztes Wasserzeichen für {{FileFormatUp}} Dateien",
+      "description": "Erhöhen Sie die Sicherheit Ihrer {{FileFormatUp}} Dateien mit anpassbaren Wasserzeichen. Verwenden Sie Java, um Wasserzeichen nahtlos zu integrieren und so einen optimalen Schutz und eine optimale Markenausrichtung zu gewährleisten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} stattet Java Entwickler mit leistungsstarken Wasserzeichenfunktionen aus, die speziell für {{FileFormatUp}} Bilder entwickelt wurden. Diese API ermöglicht das Hinzufügen von mehrschichtigen Wasserzeichen, die Text und Grafiken kombinieren, wodurch ein robuster Urheberrechtsschutz gewährleistet wird, ohne die Bildqualität zu beeinträchtigen. Zu den Funktionen gehören flexible Skalierungs-, Rotations- und Transparenzeinstellungen, sodass Wasserzeichen je nach Benutzeranforderungen diskret oder deutlich sichtbar dargestellt werden können. Verbessern Sie die Integrität und Authentizität Ihrer digitalen Medien mit {{ProdShortName}}, das vollständig kompatibel mit Java 8 oder höher ist."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Bilder über Java schützen",
+      "description": "Nutze Java, um raffinierte Wasserzeichen auf {{FileFormatUp}} Bildern anzubringen. Passen Sie die Eigenschaften von Wasserzeichen an, um Ihre Urheberrechte zu schützen und die Bildsicherheit zu erhöhen."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} mit Java Wasserzeichen sichern",
+      "description": "Verbessern Sie die Sicherheit von {{FileFormatUp}} Dokumenten, indem Sie Java verwenden, um robuste, anpassbare Wasserzeichen anzubringen."
+    },
+    "header": {
+      "title": "Java Wasserzeichen-Integration für {{FileFormatUp}}",
+      "description": "Nutzen Sie Java, um erweiterte Wasserzeichen in {{FileFormatUp}} Dokumenten zu implementieren. Ideal für den Schutz offizieller Aufzeichnungen, Rechtsdokumente und vertraulicher Informationen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist maßgeschneidert für Java Entwickler, die die Sicherheit von {{FileFormatUp}} Dokumenten durch effektive Wasserzeichen erhöhen möchten. Diese API erleichtert das Einbetten von sichtbaren und unsichtbaren Wasserzeichen, die das unbefugte Teilen verhindern und die Echtheit von Dokumenten sicherstellen. Zu den Funktionen gehören die Erstellung benutzerdefinierter Wasserzeichen, die präzise Positionierung und bedingte Wasserzeichen auf der Grundlage des Dokumentinhalts oder der Sicherheitsstufe. {{ProdShortName}} eignet sich perfekt für behördliche, juristische und Unternehmensumgebungen, in denen die Integrität von Dokumenten von größter Bedeutung ist. Es unterstützt die nahtlose Integration mit Java 8 und höher."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Dokumente mit Java mit einem Wasserzeichen versehen",
+      "description": "Verwenden Sie Java, um Wasserzeichen effizient zu {{FileFormatUp}} hinzuzufügen. Stellen Sie die Vertraulichkeit und Integrität Ihrer offiziellen Dokumente mit maßgeschneiderten Wasserzeichenlösungen sicher."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Java Watermark-Lösungen für {{FileFormatUp}} Dateien",
+      "description": "Wenden Sie dynamische Wasserzeichen auf {{FileFormatUp}} Bilder an und verwenden Sie Java, um Ihre digitalen Ressourcen zu schützen und zu authentifizieren."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} mit Java sichern und personalisieren",
+      "description": "Verwenden Sie Java, um sichere, anpassbare Wasserzeichen in {{FileFormatUp}} Dateien einzubetten. Perfekt für Fotografen und Designer, die ihre kreativen Arbeiten schützen möchten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern ein ausgeklügeltes Framework zum Anbringen von Wasserzeichen auf {{FileFormatUp}} Bilder. Diese API ist so konzipiert, dass sie sich nahtlos in jede Java -basierte Anwendung integrieren lässt und das Einfügen transparenter oder undurchsichtiger Wasserzeichen ermöglicht, die sich perfekt in das darunterliegende Bild einfügen. Passen Sie Wasserzeichen mit Text, Logos oder Copyright-Symbolen an, um die Sicherheit zu erhöhen, ohne die Bildqualität zu beeinträchtigen. Mit Funktionen wie pixelgenauer Positionierung und Opazitätskontrolle sorgt {{ProdShortName}} dafür, dass Ihre Bilder sowohl optisch ansprechend als auch rechtlich geschützt sind. Geeignet für E-Commerce-Websites, Online-Portfolios und mehr und ist voll kompatibel mit Java 8 oder neuer."
+    },
+    "formats": {
+      "title": "Verbesserung der {{FileFormatUp}} Bildsicherheit mit Java",
+      "description": "Betten Sie robuste Wasserzeichen mit Java in {{FileFormatUp}} Dateien ein. Diese Funktion ist entscheidend, um visuelle Inhalte vor unbefugter Nutzung zu schützen und gleichzeitig die Bildschärfe aufrechtzuerhalten."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} Präsentationen mit Java mit einem Wasserzeichen versehen",
+      "description": "Schützen Sie Ihre Präsentationen, indem Sie mit Java Wasserzeichen in {{FileFormatUp}} Dateien einbetten."
+    },
+    "header": {
+      "title": "Java Verbesserungen für {{FileFormatUp}} Wasserzeichen",
+      "description": "Integrieren Sie diskrete oder markante Wasserzeichen in PowerPoint Präsentationen mithilfe von Java, ideal für die Sicherung von Geschäfts- und Bildungsinhalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Java Entwicklern, die Sicherheit und das professionelle Erscheinungsbild von PowerPoint Präsentationen durch fortschrittliche Wasserzeichen-Techniken zu verbessern. Diese API unterstützt die Integration von Text- und Bildwasserzeichen, die je nach Verwendungszweck so angepasst werden können, dass sie sichtbar oder subtil sind. Zu den Funktionen gehören die Möglichkeit, Größe, Transparenz und Position anzupassen, um sicherzustellen, dass Wasserzeichen wichtige Inhalte nicht blockieren und gleichzeitig einen effektiven Urheberrechtsschutz bieten. {{ProdShortName}} ist ideal für Unternehmenspräsentationen, Bildungs- und Geschäftspräsentationen geeignet und mit allen Systemen kompatibel, die Java 8 und höher unterstützen."
+    },
+    "formats": {
+      "title": "Sichern von {{FileFormatUp}} Präsentationen mit Java",
+      "description": "Verwenden Sie Java, um Wasserzeichen auf PowerPoint Dateien anzubringen und so die Dokumentensicherheit und die Markenpräsenz in professionellen und schulischen Umgebungen zu verbessern."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} Dateien mit Java mit Wasserzeichen versehen",
+      "description": "Schützen Sie Ihre Präsentationen, indem Sie mit Java Wasserzeichen in {{FileFormatUp}} Dateien einbetten."
+    },
+    "header": {
+      "title": "Java Verbesserungen für {{FileFormatUp}} Wasserzeichen",
+      "description": "Integrieren Sie diskrete oder markante Wasserzeichen in PowerPoint Präsentationen mithilfe von Java, ideal für die Sicherung von Geschäfts- und Bildungsinhalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Java Entwicklern, die Sicherheit und das professionelle Erscheinungsbild von PowerPoint Präsentationen durch fortschrittliche Wasserzeichen-Techniken zu verbessern. Diese API unterstützt die Integration von Text- und Bildwasserzeichen, die je nach Verwendungszweck so angepasst werden können, dass sie sichtbar oder subtil sind. Zu den Funktionen gehören die Möglichkeit, Größe, Transparenz und Position anzupassen, um sicherzustellen, dass Wasserzeichen wichtige Inhalte nicht blockieren und gleichzeitig einen effektiven Urheberrechtsschutz bieten. {{ProdShortName}} ist ideal für Unternehmenspräsentationen, Bildungs- und Geschäftspräsentationen geeignet und mit allen Systemen kompatibel, die Java 8 und höher unterstützen."
+    },
+    "formats": {
+      "title": "Sichern von {{FileFormatUp}} Präsentationen mit Java",
+      "description": "Verwenden Sie Java, um Wasserzeichen auf PowerPoint Dateien anzubringen und so die Dokumentensicherheit und die Markenpräsenz in professionellen und schulischen Umgebungen zu verbessern."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Java Wasserzeichen für {{FileFormatUp}} Dokumente",
+      "description": "Verwenden Sie Java, um Wasserzeichen in {{FileFormatUp}} Dateien einzufügen und so die Sicherheit und Professionalität von Dokumenten zu verbessern."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Dokumente mit Java Wasserzeichen schützen",
+      "description": "Betten Sie Wasserzeichen mithilfe von Java nahtlos in {{FileFormatUp}} Dokumente ein. Ideal zum Schutz vertraulicher Informationen in professionellen Word Umgebungen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern umfassende Tools zum Wasserzeichen von {{FileFormatUp}} Dokumenten, die häufig in Microsoft Word -Umgebungen verwendet werden. Diese API ermöglicht das präzise Hinzufügen von Text- und Bildwasserzeichen, die je nach Bedarf angepasst werden können, um Sichtbarkeit oder Diskretion zu gewährleisten. Verbessern Sie die Sicherheitsfunktionen Ihres Dokuments, ohne Kompromisse beim Layout oder der Lesbarkeit einzugehen. Zu den Funktionen gehören eine variable Opazität, eine skalierbare Größe und eine anpassbare Positionierung, sodass es für juristische, akademische und Unternehmensdokumente geeignet ist. {{ProdShortName}} verhindert wirksam unbefugte Verwendung und Vervielfältigung und ist voll kompatibel mit Java 8 und höheren Versionen."
+    },
+    "formats": {
+      "title": "Verbesserung der Sicherheit von MS Word {{FileFormatUp}} mit Java",
+      "description": "Wenden Sie mithilfe von Java erweiterte Wasserzeichen auf {{FileFormatUp}} Dateien an, um die Integrität und Konformität der Dokumente in Microsoft Word und anderen Textverarbeitungsanwendungen sicherzustellen."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Wasserzeichen in {{FileFormatUp}} mit Java einbetten",
+      "description": "Master Java, um effektive Wasserzeichen in {{FileFormatUp}} Bildern anzubringen, Urheberrechte zu schützen und die Sicherheit zu erhöhen."
+    },
+    "header": {
+      "title": "Java Wasserzeichenfunktionen für {{FileFormatUp}} Dateien",
+      "description": "Verbessern Sie {{FileFormatUp}} Bilder mit Java -implementierten Wasserzeichen für einen zuverlässigen Urheberrechtsschutz und die Verwaltung digitaler Vermögenswerte.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Java Entwicklern, Wasserzeichen-Techniken voll auszuschöpfen, die auf TIF-Bilder zugeschnitten sind, die in Bereichen wie Fotografie, Dokumentenarchivierung und digitaler Veröffentlichung von entscheidender Bedeutung sind. Diese API ermöglicht die Integration transparenter und fester Wasserzeichen, die in Bezug auf Opazität, Größe und Platzierung angepasst werden können, um unterschiedlichen Anforderungen gerecht zu werden. Sie umfasst Funktionen für Batch-Wasserzeichen, die eine effiziente Verarbeitung großer Bildsammlungen gewährleisten und gleichzeitig eine hohe Wiedergabetreue und Bildintegrität gewährleisten. Das Tool ist so konzipiert, dass es in Java Umgebungen ab Version 8 voll funktionsfähig ist und eine zuverlässige Lösung zur Durchsetzung von Urheberrechten und zur Verhinderung unberechtigter Verbreitung bietet."
+    },
+    "formats": {
+      "title": "Implementierung von Wasserzeichen in {{FileFormatUp}} Bildern über Java",
+      "description": "Verwenden Sie Java, um benutzerdefinierte Wasserzeichen in {{FileFormatUp}} Bilder einzufügen, perfekt zum Sichern und Branding von Foto- und Archivinhalten."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "{{FileFormatUp}} Bilder mit Java Wasserzeichen sichern",
+      "description": "Implementieren Sie Java -basierte Wasserzeichen in {{FileFormatUp}} Dateien, um den Urheberrechtsschutz und die Bildsicherheit zu verbessern."
+    },
+    "header": {
+      "title": "Java -Verbessertes Wasserzeichen für {{FileFormatUp}} Dateien",
+      "description": "Verwenden Sie Java, um dauerhafte, anpassbare Wasserzeichen auf {{FileFormatUp}} Bilder anzubringen, unverzichtbar für Fotografen und digitale Archive, die urheberrechtlichen Schutz benötigen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern ein effizientes Toolset zum Hinzufügen von Wasserzeichen zu {{FileFormatUp}} Bildern, einem Format, das in der Fotografie und digitalen Archivierung weit verbreitet ist. Diese API unterstützt komplizierte Wasserzeichenkonfigurationen, einschließlich mehrschichtiger Text- und bildbasierter Wasserzeichen. Passen Sie Ihre Wasserzeichen mit Optionen für Opazität, Rotation und Skalierung an, um sicherzustellen, dass sie effektiv und dennoch unauffällig sind. {{ProdShortName}} eignet sich zum Schutz von Bildern mit hoher Auflösung und gescannten Dokumenten. Es verbessert die Bildsicherheit, ohne die Qualität zu beeinträchtigen. Es ist voll kompatibel mit Java 8 oder höher."
+    },
+    "formats": {
+      "title": "Copyright s in {{FileFormatUp}} Dateien mit Java schützen",
+      "description": "Nutze Java, um raffinierte Wasserzeichen in {{FileFormatUp}} Bilder einzubetten. Optimieren Sie den Urheberrechtsschutz mit minimalen Auswirkungen auf die ursprüngliche Bildqualität."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Java Wasserzeichen für {{FileFormatUp}} Bilder",
+      "description": "Nutze Java, um Wasserzeichen in {{FileFormatUp}} Bilder einzufügen und so Urheberrechte und Mediensicherheit zu stärken."
+    },
+    "header": {
+      "title": "Benutzerdefiniertes {{FileFormatUp}} Wasserzeichen mit Java",
+      "description": "Implementieren Sie Java, um Wasserzeichen in {{FileFormatUp}} Bildern zu erstellen und zu verwalten und so einen optimalen Schutz und ein optimales Branding für die Ersteller digitaler Inhalte zu gewährleisten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet ein leistungsstarkes Java Toolkit zum Einbetten von Wasserzeichen in {{FileFormatUp}} Bilder, ein Format, das bei Webentwicklern und digitalen Vermarktern immer beliebter wird. Diese API ermöglicht das Hinzufügen sowohl sichtbarer als auch unsichtbarer Wasserzeichen, die auf den Schutz von Urheberrechten und die Authentifizierung der Herkunft von Bildern zugeschnitten sind. Passen Sie Ihre Wasserzeicheneinstellungen so an, dass sie Text, Logos oder digitale Signaturen enthalten, und behalten Sie gleichzeitig die hohe Komprimierungseffizienz von WEBP-Dateien bei. Fortschrittliche Funktionen wie die dynamische Steuerung der Opazität, die Skalierung von Wasserzeichen und die präzise Positionierung tragen dazu bei, die Ästhetik und Klarheit des Bildes beizubehalten und eine nahtlose Integration in verschiedene digitale Plattformen zu gewährleisten. {{ProdShortName}} ist kompatibel mit Java 8 und neueren Versionen und ist unverzichtbar für jeden Entwickler, der Bildanlagen effektiv sichern und monetarisieren möchte."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Dateien mit Java sichern",
+      "description": "Wenden Sie mithilfe von Java erweiterte, diskrete Wasserzeichen auf {{FileFormatUp}} Bilder an. Passen Sie die Wasserzeichen-Attribute an, um digitale Urheberrechte effizient zu schützen und zu verbessern."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} SpreadSheets mit Java mit einem Wasserzeichen versehen",
+      "description": "Verwenden Sie Java, um benutzerdefinierte Wasserzeichen auf {{FileFormatUp}} Dateien anzuwenden und Excel und OpenOffice-Dokumente zu schützen."
+    },
+    "header": {
+      "title": "Java -basiertes Wasserzeichen für Excel",
+      "description": "Implementieren Sie Wasserzeichen in {{FileFormatUp}} Dateien mithilfe von Java, um die Dokumentensicherheit für Excel und OpenOffice-Blätter zu erhöhen, perfekt für finanzielle und vertrauliche Daten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Java Entwicklern die Möglichkeit, Wasserzeichen in {{FileFormatUp}} Dateien zu integrieren und unterstützt sowohl Excel als auch OpenOffice-Formate. Diese API ermöglicht das Einbetten von Wasserzeichen, die sowohl sichtbar als auch subtil sind, wodurch sichergestellt wird, dass vertrauliche Informationen geschützt sind, ohne die Nutzbarkeit des Dokuments zu beeinträchtigen. Zu den wichtigsten Funktionen gehört die Möglichkeit, Text, Bild und Platzierung des Wasserzeichens anzupassen. Dies kann je nach Inhalt oder Benutzerberechtigungen des Dokuments an bestimmte Bedingungen angepasst werden. Dadurch eignet es sich ideal für Anwendungen in Umgebungen, in denen strenge Datenschutzmaßnahmen erforderlich sind, wie z. B. im Bank-, Rechts- und Hochschulbereich. Mit der Unterstützung für Java 8 und höher ist {{ProdShortName}} für komplexe Wasserzeichenanforderungen auf verschiedenen Betriebssystemen gerüstet."
+    },
+    "formats": {
+      "title": "Verbesserung der Excel Dokumentensicherheit mit Java",
+      "description": "Schützen Sie Ihre Excel - und OpenOffice-Dokumente mit anpassbaren Java -implementierten Wasserzeichen, um Datenintegrität und Urheberrechtsschutz zu gewährleisten."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Erweitertes {{FileFormatUp}} Wasserzeichen mit Java",
+      "description": "Erhöhen Sie die Sicherheit Ihrer Dokumente, indem Sie mit Java Wasserzeichen in {{FileFormatUp}} Dateien einbetten."
+    },
+    "header": {
+      "title": "Java Wasserzeichen für erweiterte Excel Blätter",
+      "description": "Sichern Sie Ihre Excel {{FileFormatUp}} Blätter mit Java -gesteuerten Wasserzeichen. Passen Sie sie an Unternehmens-, Finanz- und Hochschuldokumente an, um sensible Daten zu schützen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Java Entwicklern, den Datenschutz in {{FileFormatUp}} Formaten mit dynamischen Wasserzeichenfunktionen durchzusetzen. Diese API wurde speziell für die modernen Bedürfnisse von Excel Benutzern entwickelt und lässt sich nahtlos integrieren, um benutzerdefinierte Wasserzeichen anzubringen, die das Design des Dokuments ergänzen, ohne die Sichtbarkeit der Daten zu beeinträchtigen. Optimieren Sie Wasserzeichen im Hinblick auf Transparenz, Überlagerung oder Farbmischung, damit sie nur bei Bedarf auffallen. Dieses Tool ist unverzichtbar für Fachleute, die mit firmeneigenen Finanzmodellen, strategischen Planungsdokumenten oder vertraulichen Informationen umgehen, die Vertraulichkeit erfordern. {{ProdShortName}} ist mit Java 8 und höher kompatibel und erweitert die robuste Unterstützung von Wasserzeichen sowohl auf Microsoft Excel als auch auf kompatible Tabellenkalkulationsanwendungen."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} Dateien mit Java Wasserzeichen sichern",
+      "description": "Integrieren Sie subtile, effektive Wasserzeichen in {{FileFormatUp}} Dokumente mithilfe von Java, ideal zum Schutz von Excel Tabellen in Umgebungen mit hohem Risiko."
+    }
+  }
+}

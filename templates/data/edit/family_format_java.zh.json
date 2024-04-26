@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "调整 {{FileFormatUp}} 文本水印",
+    "comment_2": "使用输入 {{FileFormatUp}} 文档实例化水印",
+    "comment_3": "初始化 TextSearchCriteria 并查找文本水印",
+    "comment_4": "调整文字水印属性",
+    "comment_5": "保存更新后的文档"
+  },
+  "steps": {
+    "title": "使用 {{EnvName}} 调整 {{FileformatCap}} 个文档中的水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 通过实施几个简单的步骤，让 {{EnvName}} 开发人员可以轻松调整其应用程序中的文本水印：",
+      "step_1": "**水印**的 API 的主对象中。您可以将文件作为流或本地磁盘上的路径提供以供进一步处理。",
+      "step_2": "**SearchCriteria**有助于识别之前添加到文档中的具有正确属性的水印。",
+      "step_3": "**搜索**程序获取合适的水印列表。调整已找到的水印属性，例如大小、页面对齐方式、文本、颜色、图像内容等。有很多方法可以自定义数据。",
+      "step_4": "水印调整过程完成后，您需要保存更新的文档。使用本地文件路径、文件或字节流来存储结果。"
+    }
+  },
+  "more_features": {
+    "title": "深入研究 {{FileFormatUp}} 水印调整",
+    "description": "我们的 API 使 {{EnvName}} 个应用程序能够在常见文档格式中添加、编辑、删除和搜索水印。",
+    "image_description": "调整水印",
+    "feature_1": {
+      "title": "毫不费力地为您的文档添加水印",
+      "content": "{{ProdShortName}} 简化了 {{EnvName}} 开发者的水印流程。为各种业务文档和文件添加不同的水印。您不仅可以应用水印，还可以更新或删除现有的水印。"
+    },
+    "feature_2": {
+      "title": "根据您的需求自定义水印",
+      "content": "我们的 API 提供了广泛的自定义选项。轻松调整大小、旋转、颜色、字体、样式等，以获得完美的水印。"
+    },
+    "feature_3": {
+      "title": "使用 {{FileFormatUp}} 原生文档功能",
+      "content": "根据具体的文档格式，您可以使用本机功能。其中可能包括文档页面背景、注释、标题或其他作为水印容器的对象。"
+    },
+    "code_1": {
+      "title": "PDF 调整文字水印",
+      "content": "此示例说明如何调整特定工件的文本。",
+      "comment_1": "加载 PDF 个文档",
+      "comment_2": "获取文档内容",
+      "comment_3": "调整特定的水印文本",
+      "comment_4": "保存文档"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "调整 Excel 水印工具-{{ProdShortName}}",
+      "description": "使用 {{ProdShortName}} 轻松调整、更新和管理水印。轻松自定义您的文档。"
+    },
+    "header": {
+      "title": "调整电子表格水印工具：非常简单",
+      "description": "使用我们直观的水印编辑工具增强您的文档。毫不费力地简化您的工作流程。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**水印调整工具**：我们的水印工具提供了一种用户友好的解决方案，以增强和保护您的文档。借助直观的编辑功能，管理水印变得毫不费力，从而确保文档的安全性和真实性。"
+    },
+    "formats": {
+      "title": "通过 {{ProdFullName}} 调整其他格式的水印",
+      "description": "轻松自定义各种文档格式的水印。毫不费力地增强文档的安全性和真实性。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "轻松调整 Word 水印-{{ProdShortName}}",
+      "description": "使用 {{ProdShortName}} 无缝调整多种文档格式的水印。增强您的文件安全性。"
+    },
+    "header": {
+      "title": "Adjust Word 水印：毫不费力地确保安全",
+      "description": "借助我们强大的水印修改功能，轻松保护您的文档。放心地保护您的内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**修改水印**：{{ProdShortName}} 使用户能够无缝修改各种文档格式的水印。借助精确的控制和多功能选项，您可以放心地自定义文档。"
+    },
+    "formats": {
+      "title": "使用 {{ProdFullName}} 调整常用格式的水印",
+      "description": "GroupDocs.Watermark 支持无缝修改各种格式的水印。量身定制水印策略以满足您的特定需求。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "轻松调整 PowerPoint 水印-{{ProdShortName}}",
+      "description": "使用 {{ProdShortName}} 轻松更新各种文档类型的水印。毫不费力地保持文档完整性。"
+    },
+    "header": {
+      "title": "调整 PowerPoint 水印：精确控制",
+      "description": "使用我们的水印更新功能，保持对文档完整性的精确控制。轻松确保真实性。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "在 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "**更新水印**：使用我们的更新水印功能控制文档的完整性。轻松修改不同文档类型的水印，保持真实性和安全性。"
+    },
+    "formats": {
+      "title": "按 {{ProdFullName}} 调整商业格式中的水印",
+      "description": "通过精确控制，轻松更新不同文档类型的水印。无缝维护文档的完整性和安全性。"
+    }
+  }
+}

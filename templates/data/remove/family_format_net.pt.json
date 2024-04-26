@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Remover marca d'água de texto do documento {{FileformatCap}}",
+    "comment_2": "Forneça uma instância Watermarker para o documento {{FileformatCap}} documento fonte",
+    "comment_3": "Remover marcas d'água selecionadas do documento",
+    "comment_4": "Salvar arquivo no caminho fornecido"
+  },
+  "steps": {
+    "title": "Remover marcas d'água de {{FileformatCap}} documentos usando {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica a tarefa de remover marcas d'água de documentos comerciais. Capacite seu aplicativo {{EnvName}} integrando nossa biblioteca e siga estas etapas simples:",
+      "step_1": "**Watermarker**, com o documento {{FileformatCap}}. Nossa API suporta o processamento de documentos fornecidos como um fluxo ou um caminho local.",
+      "step_2": "**SearchCriteria** para restringir o conjunto de marcas d'água a serem processadas. Você pode usar vários parâmetros, como imagens, texto ou recursos de formatação. Quanto mais específicos forem os parâmetros de pesquisa fornecidos, mais precisos serão os resultados obtidos.",
+      "step_3": "Processe a lista de marcas d'água do documento obtida como resultado da pesquisa e remova-as do documento.",
+      "step_4": "Depois de remover as marcas d'água, salve o documento resultante como um arquivo local ou um fluxo de bytes."
+    }
+  },
+  "more_features": {
+    "title": "Simplifique a remoção de marcas d'água com a API {{ProgLang}} {{EnvName}}",
+    "description": "Descubra os poderosos recursos de remoção de marcas d'água de nossa API {{ProgLang}} {{EnvName}}, projetada para se integrar perfeitamente aos seus {{EnvName}} aplicativos. Remova ou limpe marcas d'água de PDF s e documentos do Office de forma eficiente, preservando a qualidade do arquivo original.",
+    "image_description": "Remover marca d'água",
+    "feature_1": {
+      "title": "Liberação precisa da marca d'água",
+      "content": "Nossa API {{EnvName}} fornece ferramentas precisas para remover marcas d'água de qualquer documento de forma limpa. Feito sob medida para desenvolvedores, esse recurso garante que a remoção de marcas d'água não comprometa a qualidade ou o layout do documento."
+    },
+    "feature_2": {
+      "title": "Automatize a remoção de marcas d'água em massa",
+      "content": "Automatize o processo de remoção de marcas d'água de grandes conjuntos de documentos com nossa API {{EnvName}}. Ideal para empresas que lidam com grandes volumes de documentos, melhorando a eficiência e a segurança dos documentos."
+    },
+    "feature_3": {
+      "title": "Recursos avançados de edição de marca d'água",
+      "content": "Aproveite os recursos avançados para editar ou modificar seletivamente as marcas d'água. Nossa API suporta ajustes detalhados para garantir que seus documentos mantenham uma aparência profissional e, ao mesmo tempo, protejam informações confidenciais."
+    },
+    "code_1": {
+      "title": "Remover marca d'água de texto de planilhas",
+      "content": "Como remover marcas d'água de texto com formatação especial em Excel documentos.",
+      "comment_1": "Carregar pasta de trabalho Excel",
+      "comment_2": "Obtenha conteúdo e encontre a marca d'água apropriada",
+      "comment_3": "Remover marca d'água de texto",
+      "comment_4": "Salvar processado XLSX"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{FileformatCap}} Remoção de marca d'água com {{ProgLang}} {{EnvName}} API ",
+      "description": "Utilize nossa API {{ProgLang}} {{EnvName}} para remover e gerenciar com eficiência marcas d'água em {{FileformatCap}} documentos, garantindo a clareza dos dados e a integridade da planilha."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} para {{FileformatCap}} operações de marca d'água",
+      "description": "Melhore seus fluxos de trabalho de {{FileformatCap}} documentos em {{EnvName}} ambientes removendo ou editando marcas d'água sem problemas, com ferramentas projetadas para proporcionar precisão e facilidade de uso.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito do pacote {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "biblioteca {{ProdFullName}} {{ProgLang}}",
+      "content": "A biblioteca {{ProdFullName}} {{ProgLang}} fornece ferramentas robustas para gerenciar marcas d'água em {{FileformatCap}} arquivos. Desde a remoção de marcas indesejadas até a edição das existentes, ele facilita o controle abrangente de marcas d'água, ideal para empresas que priorizam a limpeza e o profissionalismo dos documentos."
+    },
+    "formats": {
+      "title": "Simplificando a remoção da marca d'água de {{FileformatCap}} em {{EnvName}}",
+      "description": "Saiba como aplicar a API {{ProdFullName}} {{ProgLang}} para remover com eficiência marcas d'água de {{FileformatCap}} planilhas, garantindo relatórios financeiros e análises de dados impecáveis e apresentáveis."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API para {{FileformatCap}} remoção de marca d'água",
+      "description": "Limpe, exclua ou edite com eficiência as marcas d'água de {{FileformatCap}} documentos usando nossa API {{ProgLang}} {{EnvName}} para uma apresentação perfeita do documento."
+    },
+    "header": {
+      "title": "{{FileformatCap}} Removedor de marca d'água para {{ProgLang}} {{EnvName}}",
+      "description": "Use a API {{ProdFullName}} {{ProgLang}} para remover marcas d'água de {{FileformatCap}} documentos, perfeita para manter a integridade e a limpeza de documentos legais e corporativos.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "biblioteca {{ProdFullName}} {{ProgLang}}",
+      "content": "Com a biblioteca {{ProdFullName}} {{ProgLang}} {{EnvName}}, os desenvolvedores podem gerenciar e remover facilmente marcas d'água nos arquivos Word da Microsoft. Essa ferramenta oferece suporte a uma ampla variedade de operações de marca d'água, incluindo a detecção, modificação e remoção de marcas d'água de texto e imagem, garantindo que os documentos estejam livres de marcas indesejadas e preservando o layout e a formatação."
+    },
+    "formats": {
+      "title": "Gerenciando {{FileformatCap}} marcas d'água com {{EnvName}}",
+      "description": "Explore recursos poderosos para o gerenciamento de marcas d'água em {{FileformatCap}} documentos usando nossa API {{ProgLang}} {{EnvName}}, projetada para aprimorar a segurança e a apresentação de documentos sem comprometer a qualidade."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Limpe marcas d'água em {{FileformatCap}} com a API {{ProgLang}} {{EnvName}}",
+      "description": "Remova e gerencie facilmente marcas d'água em {{FileformatCap}} slides usando nossa API {{ProgLang}} {{EnvName}}, garantindo apresentações claras e profissionais."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} {{FileformatCap}} Removedor de marca d'água",
+      "description": "Aproveite o poder da API {{ProdFullName}} {{ProgLang}} para remover com eficiência marcas d'água de {{FileformatCap}} apresentações, preservando a estética dos slides e mantendo a integridade do conteúdo.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} Baixar"
+    },
+    "about": {
+      "title": "biblioteca {{ProdFullName}} {{ProgLang}}",
+      "content": "A biblioteca {{ProdFullName}} {{ProgLang}} oferece ferramentas sofisticadas para remover marcas d'água de {{FileformatCap}} apresentações. Ele fornece funcionalidades para a exclusão perfeita de marcas d'água, garantindo que suas apresentações permaneçam impactantes e organizadas. Adequado para ambientes comerciais, educacionais e de treinamento, onde imagens claras e claras são essenciais."
+    },
+    "formats": {
+      "title": "Otimizando {{FileformatCap}} apresentações em {{EnvName}}",
+      "description": "Descubra como utilizar a API {{ProdFullName}} {{ProgLang}} para apresentações {{FileformatCap}} limpas e profissionais, sem elementos de marca d'água que distraem."
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Obtenir la liste des filigranes textuels pour {{FileFormatUp}}",
+    "comment_2": "Classe Instantiate Watermarker",
+    "comment_3": "Obtenir des filigranes selon des critères de texte",
+    "comment_4": "Utiliser les informations sur les filigranes"
+  },
+  "steps": {
+    "title": "Obtenez efficacement des filigranes dans {{FileformatCap}} fichiers en {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** rationalise le processus de récupération des filigranes intégrés dans différents formats de documents commerciaux. Intégrez {{ProdShortName}} de manière fluide à vos {{EnvName}} applications pour les doter de puissantes fonctionnalités de détection des filigranes.",
+      "step_1": "**Watermarker** et fournissez le chemin de fichier, le flux de fichiers ou le flux d'octets {{FileformatCap}} en entrée. Cette action charge le document pour analyse des filigranes.",
+      "step_2": "**SearchCriteria**. Spécifiez une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.",
+      "step_3": "**Get** de l'objet **Watermarker** pour lancer le processus de détection des filigranes dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui permet un traitement ultérieur.",
+      "step_4": "La collection d'objets en filigrane récupérée vous offre de nombreuses possibilités. Vous pouvez supprimer les filigranes indésirables ou modifier leurs propriétés. Modifiez le contenu, déplacez un filigrane sur une page et bien d'autres choses encore."
+    }
+  },
+  "more_features": {
+    "title": "Simplifiez votre recherche de filigranes avec {{ProdShortName}} dans Node.js",
+    "description": "Apprenez à implémenter des fonctionnalités avancées de recherche de filigranes dans vos applications Node.js avec {{ProdShortName}}, en optimisant la gestion des documents dans {{EnvName}}.",
+    "image_description": "Rechercher des filigranes dans Node.js",
+    "feature_1": {
+      "title": "Détection avancée des filigranes dans Node.js",
+      "content": "Utilisez {{ProdShortName}} pour améliorer votre capacité à détecter et à identifier les filigranes dans n'importe quel format de document. Effectuez des recherches efficacement à l'aide d'options de filtrage sophistiquées."
+    },
+    "feature_2": {
+      "title": "API Node.js pour les recherches personnalisées en filigrane",
+      "content": "Personnalisez vos opérations de recherche grâce à notre API Node.js. Trouvez des filigranes en spécifiant des paramètres détaillés tels que l'emplacement, l'opacité et le type de contenu, afin d'optimiser vos flux documentaires."
+    },
+    "feature_3": {
+      "title": "Récupération et analyse efficaces des filigranes",
+      "content": "Avec {{ProdShortName}}, extrayez et analysez rapidement les filigranes de divers documents. Notre API permet une récupération rapide, ce qui vous permet de maintenir la conformité et la cohérence de votre marque."
+    },
+    "code_1": {
+      "title": "Exemple Node.js : recherche efficace en filigrane",
+      "content": "Découvrez comment utiliser Node.js avec {{ProdShortName}} pour rechercher des filigranes dans différents types de documents, en démontrant l'utilisation de critères de recherche dynamiques pour des résultats précis.",
+      "comment_1": "Initialisez l'environnement Node.js et chargez le document cible",
+      "comment_2": "Configurez des requêtes de recherche à l'aide de critères flexibles pour trouver des filigranes spécifiques",
+      "comment_3": "Exécutez la recherche et collectez les filigranes répondant aux critères",
+      "comment_4": "Traiter et analyser les résultats pour déterminer les actions nécessaires"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Débloquez {{FileformatCap}} feuilles de calcul, filigranes et secrets",
+      "description": "Découvrez la puissance de {{ProdFullName}} pour récupérer facilement les filigranes des documents."
+    },
+    "header": {
+      "title": "Révélez les filigranes cachés dans {{FileformatCap}} feuilles de calcul",
+      "description": "Découvrez les filigranes cachés dans vos documents avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenir à partir de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informations de base",
+      "content": "Exploitez le potentiel de {{ProdFullName}} en matière de gestion des filigranes sur {{EnvName}}. Générez, mettez à jour, obtenez et supprimez facilement des filigranes à partir de différents formats de fichiers, notamment PDF, Word, Excel, PowerPoint, etc."
+    },
+    "formats": {
+      "title": "Explorez plusieurs formats",
+      "description": "Découvrez, récupérez et gérez facilement les filigranes dans différents formats de fichiers."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Extraction de filigranes principaux à partir de {{FileformatCap}} documents",
+      "description": "Devenez un pro de l'extraction de filigranes de documents à l'aide de {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Recherche de filigranes dans les documents Expert {{FileformatCap}}",
+      "description": "Bénéficiez de l'expertise nécessaire pour récupérer des filigranes à l'aide de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "Maîtrisez l'art de la gestion des filigranes avec {{ProdFullName}}. Gérez sans effort les tâches de filigrane dans plusieurs formats de fichiers, notamment PDF, Word, Excel, etc."
+    },
+    "formats": {
+      "title": "Gestion efficace des formats de fichiers",
+      "description": "Gérez efficacement les filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Découvrez {{FileformatCap}} Présentations et filigranes cachés",
+      "description": "Dévoilez les filigranes cachés dans les documents à l'aide de {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Dévoilez les filigranes placés dans {{FileformatCap}} présentations",
+      "description": "Découvrez et révélez les filigranes cachés dans vos documents avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger gratuitement {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "Explorez les capacités de {{ProdFullName}} pour gérer les filigranes de manière fluide sur {{EnvName}}. Gérez facilement les opérations de filigrane telles que la génération, la mise à jour, l'obtention et la suppression dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Découvrez les filigranes dans tous les formats",
+      "description": "Découvrez facilement les filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  }
+}

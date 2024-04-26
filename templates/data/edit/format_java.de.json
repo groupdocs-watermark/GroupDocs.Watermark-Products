@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} Bildwasserzeichen anpassen",
+    "comment_2": "Instanziiere Watermarker mit {{FileFormatUp}}",
+    "comment_3": "Initialisieren Sie die SearchCriteria so, dass sie einem bestimmten Bild entsprechen",
+    "comment_4": "Ersetze das gefundene Bild",
+    "comment_5": "Angepasste Datei speichern"
+  },
+  "steps": {
+    "title": "Passen Sie {{FileformatCap}} Dokumentwasserzeichen mit {{EnvName}} an",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ermöglicht es {{EnvName}} Entwicklern, Wasserzeichen in vielen Dokumenten mithilfe ihrer Anwendungen einfach anzupassen. Hier ist eine Kurzanleitung:",
+      "step_1": "**Watermarker** übergeben. Geben Sie einen Byte- oder Dateistream oder einen lokalen Festplattenpfad an.",
+      "step_2": "**SearchCriteria**, um Wasserzeichen mit den spezifischen Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.",
+      "step_3": "Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Sie können dann ihre Eigenschaften anpassen, einschließlich Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr. Dies bietet ein hohes Maß an Anpassungsfähigkeit für Ihre Daten.",
+      "step_4": "Wenn Sie mit dem Anpassen der Wasserzeichen fertig sind, speichern Sie das aktualisierte Dokument. Sie können einen lokalen Dateipfad oder Stream verwenden, um das Ergebnis zu speichern."
+    }
+  },
+  "more_features": {
+    "title": "Erweitertes {{FileFormatUp}} Wasserzeichenmanagement für {{EnvName}} Anwendungen",
+    "description": "Die {{ProdShortName}} API ermöglicht es Entwicklern, Wasserzeichenfunktionen nahtlos in ihre {{EnvName}} Anwendungen zu integrieren. Sie unterstützt das Hinzufügen, Bearbeiten, Entfernen und Suchen nach Wasserzeichen in einer Vielzahl von Dokumentformaten.",
+    "image_description": "Anpassung des Wasserzeichens",
+    "feature_1": {
+      "title": "Mühelose Integration von Wasserzeichen",
+      "content": "{{ProdShortName}} vereinfacht das Hinzufügen verschiedener Wasserzeichen zu verschiedenen Geschäftsdokumenten und Dateien in {{EnvName}} Anwendungen. Entwickler können Wasserzeichen nicht nur anbringen, sondern auch vorhandene programmgesteuert aktualisieren oder entfernen."
+    },
+    "feature_2": {
+      "title": "Granulare Anpassung von Wasserzeichen",
+      "content": "Die API bietet umfangreiche Anpassungsmöglichkeiten für Wasserzeichen. Entwickler können Größe, Drehung, Farbe, Schriftart, Stil und andere Eigenschaften einfach anpassen, um den gewünschten visuellen Effekt zu erzielen."
+    },
+    "feature_3": {
+      "title": "Nutzung der Funktionen von {{FileFormatUp}} nativen Dokumenten",
+      "content": "Je nach Zieldokumentformat können Entwickler native Funktionen für die Platzierung von Wasserzeichen nutzen. Diese Funktionen können den Hintergrund der Dokumentseite, Anmerkungen, Überschriften oder andere Objekte als Behälter für Wasserzeichen umfassen."
+    },
+    "code_1": {
+      "title": "Passen Sie das Bildwasserzeichen in Tabellenkalkulationen an",
+      "content": "Dieses Beispiel zeigt, wie das Bild der bestimmten Formen in einem Excel Arbeitsblatt angepasst wird.",
+      "comment_1": "Dokument als Tabelle laden",
+      "comment_2": "Holen Sie sich neue Wasserzeichen-Bytes",
+      "comment_3": "Passen Sie den Inhalt eines bestimmten Wasserzeichens an",
+      "comment_4": "Ergebnisdokument speichern"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} Wasserzeichen professionell anpassen - {{ProdShortName}}",
+      "description": "Verwalte und passe Wasserzeichen professionell an mit {{ProdShortName}}. Schützen Sie Ihre Dokumente mit Zuversicht."
+    },
+    "header": {
+      "title": "Passen Sie {{FileFormatUp}} Wasserzeichen an: Professional Assurance",
+      "description": "Stellen Sie mit unserer Wasserzeichen-Management-Lösung professionelle Standards sicher. Schützen Sie Ihre Dokumente zuverlässig.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Paket von {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Wasserzeichen verwalten**: Unsere professionelle Wasserzeichen-Management-Lösung bietet Sicherheit beim Schutz Ihrer Dokumente. Vereinfachen Sie Ihren Arbeitsablauf mit effizienten Tools zum Hinzufügen, Bearbeiten und Entfernen von Wasserzeichen."
+    },
+    "formats": {
+      "title": "Bearbeiten Sie Wasserzeichen in anderen Formaten über {{ProdFullName}}",
+      "description": "Vereinfachen Sie die Verwaltung von Wasserzeichen in verschiedenen Dokumentenformaten. Unsere Lösung bietet effiziente Tools zum einfachen Hinzufügen, Bearbeiten und Entfernen von Wasserzeichen."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Passen Sie Wasserzeichen in {{FileFormatUp}} Dokumenten an - {{ProdShortName}}",
+      "description": "Bearbeiten Sie Wasserzeichen effizient in verschiedenen Dokumentformaten mit {{ProdShortName}}. Verbessern Sie die Authentizität von Dokumenten."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichen anpassen: Nahtlose Anpassung",
+      "description": "Passen Sie Ihre Dokumente mit unserem effizienten Tool zur Bearbeitung von Wasserzeichen nahtlos an. Verbessern Sie mühelos Ihr Markenimage.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Wasserzeichen bearbeiten**: Passen Sie Ihre Dokumente mit unseren leistungsstarken Bearbeitungswerkzeugen nahtlos an. Egal, ob es darum geht, die Platzierung anzupassen oder den Inhalt zu ändern, erzielen Sie mühelos die gewünschten Wasserzeicheneffekte."
+    },
+    "formats": {
+      "title": "Ändern Sie Wasserzeichen in vielen Formaten mit {{ProdFullName}}",
+      "description": "Bearbeiten Sie Wasserzeichen nahtlos in mehreren Dokumentformaten. Passen Sie Ihre Dokumente mühelos an und sorgen Sie gleichzeitig für Schutz und Authentizität."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Passen Sie Wasserzeichen in {{FileFormatUp}} - {{ProdShortName}} an",
+      "description": "Passen Sie mit {{ProdShortName}} mühelos Wasserzeichen für verschiedene Dokumenttypen an und verfeinern Sie sie. Stellen Sie die Glaubwürdigkeit des Dokuments sicher."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichen anpassen: Vielseitiger Schutz",
+      "description": "Schützen Sie Ihre Inhalte in verschiedenen Formaten mit unseren vielseitigen Funktionen zur Anpassung von Wasserzeichen. Passen Sie sich nahtlos an Ihre Bedürfnisse an.",
+      "subtitle": "{{ProdFullName}} Lösung",
+      "action_title": "Kostenloses {{PackageStoreName}} -Paket"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Lösung",
+      "content": "**Wasserzeichen anpassen**: Schützen Sie Ihre Inhalte in verschiedenen Dokumentformaten mit unseren vielseitigen Funktionen zur Anpassung von Wasserzeichen. Passen Sie Ihre Wasserzeichen-Strategie mühelos an Ihre spezifischen Anforderungen an."
+    },
+    "formats": {
+      "title": "Verwalte Wasserzeichen in gängigen Formaten mit {{ProdFullName}}",
+      "description": "Schützen Sie Ihre Inhalte in verschiedenen Formaten mit unseren vielseitigen Funktionen zur Anpassung von Wasserzeichen. Passen Sie sich nahtlos an Ihre Bedürfnisse an."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Passen Sie {{FileFormatUp}} Wasserzeichen nahtlos an - {{ProdShortName}}",
+      "description": "Überarbeiten und passen Sie Wasserzeichen nahtlos mit {{ProdShortName}} an. Schützen Sie Ihre Dokumente mit Präzision."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichen überarbeiten: Maßgeschneiderte Sicherheit",
+      "description": "Passen Sie Ihre Dokumentensicherheit mit unseren flexiblen Optionen für die Revision von Wasserzeichen an. Sorgen Sie für einen auf Ihre Anforderungen zugeschnittenen Schutz.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "Von {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "**Wasserzeichen überarbeiten**: Verbessern Sie die Dokumentensicherheit mit unseren Revisionsoptionen. {{ProdShortName}} bietet maßgeschneiderte Lösungen für die Überarbeitung und Verfeinerung von Wasserzeichen, um Ihren Branding- und Schutzanforderungen gerecht zu werden."
+    },
+    "formats": {
+      "title": "Überarbeiten Sie Wasserzeichen in anderen unterstützten Formaten mit {{ProdFullName}}",
+      "description": "Sorgen Sie mit maßgeschneiderten Optionen für die Revision von Wasserzeichen für die Sicherheit Ihrer Dokumente. GroupDocs.Watermark bietet flexible Lösungen für die Überarbeitung und Verfeinerung von Wasserzeichen."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Passen Sie {{FileFormatUp}} Wasserzeichen mühelos an - {{ProdShortName}}",
+      "description": "Passen Sie Ihre Dokumente mühelos mit {{ProdShortName}} an. Bearbeiten und verwalten Sie Wasserzeichen mit Leichtigkeit."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichen anpassen: Intuitives Branding",
+      "description": "Versehen Sie Ihre Dokumente effektiv mit unserem anpassbaren Wasserzeichen-Tool. Erhöhen Sie mühelos Ihre Markenpräsenz.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} -Paket herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Wasserzeichen anpassen**: Verbessern Sie Ihr Markenimage mit unseren anpassbaren Wasserzeichen-Tools. Fügen Sie mühelos Branding-Elemente hinzu und sorgen Sie gleichzeitig für die Sicherheit und Authentizität von Dokumenten."
+    },
+    "formats": {
+      "title": "Passen Sie Wasserzeichen in anderen unterstützten Formaten mit {{ProdFullName}} an",
+      "description": "Erhöhen Sie Ihre Markenpräsenz mit anpassbaren Wasserzeichen-Tools. Versehen Sie Ihre Dokumente effektiv mit Ihrem Branding und wahren Sie gleichzeitig Sicherheit und Authentizität."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Passen Sie das Wasserzeichen in {{FileFormatUp}} - {{ProdShortName}} an",
+      "description": "Polieren Sie Ihre Dokumente präzise mit {{ProdShortName}}. Passen Sie Wasserzeichen mühelos an und aktualisieren Sie sie."
+    },
+    "header": {
+      "title": "Polieren Sie Ihre {{FileFormatUp}} Dokumente: Bearbeitung von Wasserzeichen",
+      "description": "Verfeinern Sie Ihre Dokumente mit unseren umfassenden Funktionen zur Bearbeitung von Wasserzeichen. Verfeinern Sie Ihre Inhalte mit Präzision.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Polieren Sie Ihre Dokumente**: Mit unseren umfassenden Funktionen zur Bearbeitung von Wasserzeichen können Sie Ihre Dokumente präzise verfeinern. Von geringfügigen Anpassungen bis hin zu vollständigen Transformationen — erzielen Sie mühelos ausgefeilte Ergebnisse."
+    },
+    "formats": {
+      "title": "Polnische Dokument-Wasserzeichen in anderen Formaten mit {{ProdFullName}}",
+      "description": "Verfeinern Sie Ihre Dokumente präzise mit unseren umfassenden Funktionen zur Bearbeitung von Wasserzeichen. Verbessern Sie mühelos die Authentizität von Dokumenten."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Passen Sie Ihre {{FileFormatUp}} Wasserzeichen an - {{ProdShortName}}",
+      "description": "Verfeinern Sie die Platzierung Ihres Wasserzeichens mit {{ProdShortName}}. Verbessern Sie die Sicherheit und Authentizität von Dokumenten."
+    },
+    "header": {
+      "title": "Verfeinern Sie Ihre {{FileFormatUp}} Wasserzeichen-Platzierung: Expert Precision",
+      "description": "Mit unseren Präzisionswerkzeugen können Sie Wasserzeichen fachgerecht platzieren. Verbessern Sie die Dokumentensicherheit mit Genauigkeit.",
+      "subtitle": "{{ProdFullName}} Lösung",
+      "action_title": "Kostenloser Download unter {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Lösung",
+      "content": "**Verfeinern Sie Ihre Wasserzeichen-Platzierung**: Mit unseren Präzisionswerkzeugen können Sie Wasserzeichen professionell platzieren. {{ProdShortName}} bietet intuitive Bedienelemente zur Feinabstimmung der Platzierung und zur Gewährleistung der Dokumentensicherheit."
+    },
+    "formats": {
+      "title": "Verfeinern Sie Wasserzeichen in anderen unterstützten Formaten mit {{ProdFullName}}",
+      "description": "Platzieren Sie Wasserzeichen wie von Experten mit intuitiven Bedienelementen. Sorgen Sie für die Sicherheit Ihrer Dokumente durch präzise Platzierung und Anpassung."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Wasserzeichen anpassen und verwalten - {{ProdShortName}}",
+      "description": "Optimieren Sie Ihren Wasserzeichen-Management-Prozess mit {{ProdShortName}}. Vereinfachen Sie den Schutz und das Branding von Dokumenten."
+    },
+    "header": {
+      "title": "Optimiertes {{FileFormatUp}} Wasserzeichenmanagement: Vereinfachte Steuerung",
+      "description": "Vereinfachen Sie Ihren Wasserzeichen-Management-Prozess mit unserer optimierten Lösung. Konzentrieren Sie sich mühelos auf Ihre Inhalte.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "**Optionen zum Anpassen von Wasserzeichen**: Verschieben Sie Wasserzeichen auf einer Seite mithilfe unserer Präzisionslösung. {{ProdShortName}} bietet viele Optionen zur Anpassung von Wasserzeichen und zur Gewährleistung der Dokumentensicherheit."
+    },
+    "formats": {
+      "title": "Verwenden Sie {{ProdFullName}} für die Bearbeitung von Wasserzeichen in anderen Dateiformaten",
+      "description": "Vereinfachen Sie den Verwaltungsprozess für Wasserzeichen in verschiedenen Dokumentenformaten. Konzentrieren Sie sich mühelos auf Ihre Inhalte und sorgen Sie gleichzeitig für Schutz und Markenbildung."
+    }
+  }
+}

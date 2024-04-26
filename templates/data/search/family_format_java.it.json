@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Cerca filigrane di testo nel documento {{FileFormatUp}}",
+    "comment_2": "Ottieni un'istanza Watermarker per il documento {{FileFormatUp}}",
+    "comment_3": "Cerca filigrane in base a criteri",
+    "comment_4": "Elabora filigrane"
+  },
+  "steps": {
+    "title": "Cerca filigrane nei file {{FileformatCap}} utilizzando {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica la ricerca di filigrane già inserite nei documenti aziendali. Scaricate il nostro pacchetto e inseritelo nella vostra applicazione {{EnvName}} per sfruttarne i vantaggi.",
+      "step_1": "**Watermarker**. È possibile fornire solo un percorso di file, un flusso di file o un flusso di byte.",
+      "step_2": "**SearchCriteria**. Fornisci un'immagine come esempio per ottenere una filigrana simile. Se desideri cercare una filigrana testuale, fornisci testo, carattere, colore e altre opzioni.",
+      "step_3": "**Search** dell'oggetto **Watermarker**. Ti verrà fornita una raccolta di oggetti che possono essere elaborati come filigrane.",
+      "step_4": "Infine, sei libero di fare con i risultati della ricerca quello che vuoi. È completamente possibile eliminare le filigrane trovate o modificarne le proprietà. Cambia le dimensioni o il testo, ad esempio."
+    }
+  },
+  "more_features": {
+    "title": "Sfrutta Java per la ricerca avanzata della filigrana con {{ProdShortName}}",
+    "description": "Utilizza l'API {{ProdShortName}} Java per eseguire ricerche sofisticate di filigrane nei documenti in diversi formati nel {{EnvName}}.",
+    "image_description": "Ricerca avanzata con filigrana",
+    "feature_1": {
+      "title": "Java -Tecniche di ricerca con filigrana migliorate",
+      "content": "Potenzia le tue Java applicazioni con tecniche di ricerca avanzate utilizzando {{ProdShortName}}. La nostra API consente ricerche approfondite di filigrane incorporate in vari tipi di documenti, offrendo precisione ed efficienza."
+    },
+    "feature_2": {
+      "title": "Identifica le filigrane con query personalizzate Java",
+      "content": "Personalizza le tue Java query per rilevare le filigrane in modo più efficace. Usa {{ProdShortName}} per ordinare e filtrare le filigrane in base a proprietà come trasparenza, metodo di incorporamento e contenuto di testo o immagine."
+    },
+    "feature_3": {
+      "title": "Gestione efficiente delle filigrane dei documenti",
+      "content": "Semplifica la gestione delle filigrane nelle tue Java applicazioni. Con {{ProdShortName}}, trova, rivedi e analizza rapidamente le filigrane per garantire l'integrità dei documenti e la conformità alle linee guida sul branding."
+    },
+    "code_1": {
+      "title": "Java Esempio di codice: Ricerca intelligente con filigrana",
+      "content": "Scopri come implementare una ricerca intelligente con filigrana utilizzando Java con {{ProdShortName}}, dimostrando la capacità dell'API di gestire operazioni di ricerca complesse e gestione dei risultati.",
+      "comment_1": "Configura l'ambiente Java e carica documenti da varie fonti",
+      "comment_2": "Definisci parametri di ricerca avanzati per individuare tipi specifici di filigrane",
+      "comment_3": "Esegui la ricerca ed elabora le filigrane trovate per una revisione dettagliata",
+      "comment_4": "Salva o aggiorna il documento in base ai risultati della ricerca con filigrana"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Esplora {{FileformatCap}} Spreadsheets Watermark Search",
+      "description": "Scopri come {{ProdFullName}} ti consente di cercare, trovare e gestire facilmente le filigrane in vari formati di documenti."
+    },
+    "header": {
+      "title": "Presentazione delle funzionalità di ricerca con filigrane di {{FileformatCap}} Spreadsheets",
+      "description": "Sfrutta la potenza di {{ProdFullName}} per cercare, modificare e manipolare le filigrane con facilità.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "Informazioni di base {{ProdFullName}}",
+      "content": "{{ProdFullName}} è una soluzione completa per la gestione delle filigrane {{FileformatCap}} utilizzando {{EnvName}}. Con questo strumento, gli sviluppatori possono eseguire facilmente operazioni come creare, modificare, cercare e rimuovere filigrane dai documenti nei formati di file più diffusi. Supporta l'utilizzo di filigrane di testo e immagini in una varietà di documenti, tra cui PDF, Microsoft Word, Excel, Excel, PowerPoint, Visio, e-mail e formati di immagine. {{ProdFullName}} supporta tutti i principali sistemi operativi e le {{EnvName}} versioni."
+    },
+    "formats": {
+      "title": "Sfrutta la potenza della ricerca con filigrana",
+      "description": "Permetti a te stesso di trovare e gestire le filigrane in vari formati di file supportati con {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "La potenza della ricerca con filigrana nei documenti {{FileformatCap}}",
+      "description": "Prova l'impareggiabile capacità di cercare e gestire le filigrane in diversi tipi di documenti con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Scopri la ricerca avanzata con filigrana {{FileformatCap}}",
+      "description": "Parti per un viaggio alla scoperta delle innovative funzionalità di ricerca con filigrana offerte da {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottieni da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Informazioni su {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce una soluzione robusta per la gestione delle filigrane utilizzando {{EnvName}}. Gli sviluppatori possono creare, modificare, cercare e rimuovere facilmente filigrane dai documenti nei formati di file più diffusi. Supporta filigrane di testo e immagini in vari tipi di documenti, tra cui PDF, Microsoft Word, Excel, Excel, PowerPoint, Visio, e-mail e formati di immagine. {{ProdFullName}} si integra perfettamente con tutti i principali sistemi operativi e {{EnvName}} versioni."
+    },
+    "formats": {
+      "title": "Ricerca principale della filigrana in tutti i formati",
+      "description": "Sblocca il potenziale di {{ProdFullName}} per cercare e manipolare le filigrane in diversi formati di file supportati."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Cerca {{FileformatCap}} Filigrana per presentazioni:",
+      "description": "Rinnova la tua strategia di gestione delle filigrane con {{ProdFullName}} funzionalità di ricerca avanzate in vari formati di documenti."
+    },
+    "header": {
+      "title": "Migliora il tuo flusso di lavoro con {{FileformatCap}} Presentations Watermark Search",
+      "description": "Migliora la tua produttività sfruttando la funzionalità di ricerca con filigrana all'avanguardia di {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica il pacchetto {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Scopri di più su {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre una soluzione completa per la gestione delle filigrane utilizzando {{EnvName}}. Gli sviluppatori possono creare, modificare, cercare e rimuovere facilmente filigrane dai documenti in vari formati di file. Supporta filigrane di testo e immagini in un'ampia gamma di tipi di documenti, tra cui PDF, Microsoft Word, Excel, Excel, PowerPoint, Visio, e-mail e formati di immagine. {{ProdFullName}} è compatibile con tutti i principali sistemi operativi e {{EnvName}} versioni."
+    },
+    "formats": {
+      "title": "Trasforma il tuo flusso di lavoro con Watermark Search",
+      "description": "Prova un'efficienza senza precedenti nella gestione delle filigrane in diversi formati di file con {{ProdFullName}}."
+    }
+  }
+}

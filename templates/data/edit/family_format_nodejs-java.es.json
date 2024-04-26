@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Actualizar marca de agua de texto {{FileFormatUp}}",
+    "comment_2": "Proporcione una instancia de Watermarker para el archivo {{FileFormatUp}}",
+    "comment_3": "Usa TextSearchCriteria para buscar marcas de agua de texto",
+    "comment_4": "Actualizar marca de agua de texto",
+    "comment_5": "Disfruta el resultado"
+  },
+  "steps": {
+    "title": "Actualiza las marcas de agua en {{FileFormatUp}} a través de {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** equipa a {{EnvName}} desarrolladores con una API sólida para actualizar mediante programación las marcas de agua de varios {{FileFormatUp}} documentos. Esta guía describe el proceso:",
+      "step_1": "**Watermarker**. En función de sus necesidades, el archivo se puede proporcionar como una transmisión o como referencia a una ubicación de disco local.",
+      "step_2": "**SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite localizar las marcas de agua en función de las propiedades deseadas.",
+      "step_3": "Al ejecutar correctamente la búsqueda, recibirás una colección de marcas de agua relevantes. Estas marcas de agua ofrecen un control detallado, lo que te permite actualizar propiedades como las dimensiones, el posicionamiento de la página, el contenido del texto, la combinación de colores, los datos de las imágenes, etc.",
+      "step_4": "Tras completar las actualizaciones de las marcas de agua, conserve el documento modificado. La API facilita el almacenamiento mediante una ruta de archivo local o un objeto de transmisión."
+    }
+  },
+  "more_features": {
+    "title": "Dominar la edición de marcas de agua en PDF s con {{ProdShortName}}",
+    "description": "Explore las funciones integrales de la API para ajustar y administrar las marcas de agua en PDF s dentro de {{EnvName}} aplicaciones.",
+    "image_description": "Editar marca de agua",
+    "feature_1": {
+      "title": "Edita marcas de agua sin esfuerzo en PDF s",
+      "content": "{{ProdShortName}} ofrece herramientas sólidas en {{EnvName}} para editar sin problemas las marcas de agua existentes en PDF documentos. Ajusta la posición, la transparencia y más con facilidad."
+    },
+    "feature_2": {
+      "title": "Refina los detalles de las marcas de agua para mayor precisión",
+      "content": "Toma el control de los detalles. Nuestra API te permite ajustar la apariencia de las marcas de agua, lo que permite modificar con precisión el tamaño, la opacidad y el color de tus PDF s."
+    },
+    "feature_3": {
+      "title": "Gestión simplificada de marcas de agua",
+      "content": "Nuestra API simplifica la administración de marcas de agua. Ya sea que actualices o elimines, puedes administrar las marcas de agua de manera eficiente, manteniendo la integridad de los documentos y, al mismo tiempo, satisfaciendo tus necesidades de marca."
+    },
+    "code_1": {
+      "title": "Java Ejemplo: Editar PDF Filigrana",
+      "content": "En este ejemplo de Java se muestra cómo editar una marca de agua existente en un documento PDF y se muestra cómo ajustar sus propiedades mediante programación.",
+      "comment_1": "Cargue el documento PDF para procesarlo",
+      "comment_2": "Busca marcas de agua específicas que cumplan tus criterios",
+      "comment_3": "Edita la configuración de la marca de agua, como el tamaño, el color y la posición",
+      "comment_4": "Guarde el documento actualizado en un sistema local o transfiéralo directamente"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Actualizar marcas de agua para hojas de cálculo Excel",
+      "description": "Actualice las marcas de agua en hojas de cálculo de varios formatos con {{ProdFullName}}. Enriquece tus {{EnvName}} aplicaciones."
+    },
+    "header": {
+      "title": "Revolucione la marca de agua de las hojas de cálculo con {{EnvName}}",
+      "description": "Experimenta el poder de {{ProdFullName}}. Proteja sus documentos empresariales con varias marcas de agua. Actualice el tamaño, la alineación, el ángulo de rotación, la posición, etc. de la marca de agua.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} es una solución integral para administrar marcas de agua mediante el entorno {{EnvName}}. Con esta herramienta, los desarrolladores pueden realizar fácilmente operaciones como agregar, editar, buscar y eliminar marcas de agua de documentos en varios formatos de archivo, incluidos los formatos PDF, Word, Excel, PowerPoint, Visio, correo electrónico e imagen de Microsoft. {{ProdShortName}} es compatible con los principales sistemas operativos y versiones de Node.js."
+    },
+    "formats": {
+      "title": "Actualice las marcas de agua en todos los formatos de archivo compatibles",
+      "description": "Actualiza eficazmente las marcas de agua en PDF, Word, Excel y más con {{ProdFullName}}. Los documentos con marcas de agua pueden enriquecer sus procesos empresariales."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Actualiza fácilmente las marcas de agua en {{FileFormatUp}}",
+      "description": "Simplifique la actualización de marcas de agua en formatos de documento {{FileFormatUp}} con {{ProdShortName}} utilizando {{EnvName}}. Potencie sus soluciones empresariales."
+    },
+    "header": {
+      "title": "Optimice la actualización de marcas de agua de documentos de {{FileFormatUp}}",
+      "description": "Desbloquee capacidades eficientes de actualización de marcas de agua con {{ProdFullName}}. Proteja sus documentos empresariales con una variedad de marcas de agua. Actualice los atributos de las marcas de agua, como el tamaño, la alineación, el ángulo de rotación y la posición, según sus necesidades.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} habilidades",
+      "content": "{{ProdFullName}} ofrece una solución perfecta para gestionar marcas de agua mediante aplicaciones {{EnvName}}. Esta versátil herramienta permite a los desarrolladores editar sin esfuerzo marcas de agua en documentos de varios formatos de archivo, incluidos PDF, Microsoft Word, Excel, PowerPoint, Visio, correo electrónico y formatos de imagen. {{ProdShortName}} es compatible con los principales sistemas operativos y versiones {{EnvName}}."
+    },
+    "formats": {
+      "title": "Actualizar marcas de agua en otros formatos de archivo",
+      "description": "Simplifica la edición de marcas de agua en PDF, Word, Excel y más con {{ProdFullName}}. Se admiten todos los formatos empresariales más populares."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Actualiza las marcas de agua en {{FileFormatUp}} sin esfuerzo",
+      "description": "Actualice eficazmente las marcas de agua en formatos de documento {{FileFormatUp}} con {{ProdFullName}}. Mejore sus procesos empresariales."
+    },
+    "header": {
+      "title": "Actualice sin esfuerzo {{FileFormatUp}} marcas de agua de documentos",
+      "description": "Disfrute de la eliminación de marcas de agua sin complicaciones con {{ProdFullName}}. Proteja sus documentos empresariales con diversas marcas de agua. Personalice las dimensiones, la alineación, el ángulo de rotación y la ubicación de las marcas de agua, etc.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenga desde {{PackageStoreName}} de forma gratuita"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "{{ProdFullName}} proporciona una solución fácil de usar para administrar {{FileFormatUp}} marcas de agua con {{EnvName}}. Con esta herramienta, los desarrolladores pueden actualizar eficazmente las marcas de agua en varios formatos de documentos y archivos, incluidos los formatos PDF, Word, Excel, PowerPoint, Visio y de correo electrónico. {{ProdShortName}} es compatible con los principales sistemas operativos y versiones {{EnvName}}."
+    },
+    "formats": {
+      "title": "Actualizar marcas de agua en otros formatos de archivo",
+      "description": "Actualiza eficazmente las marcas de agua en PDF, Word, Excel, etc. mediante {{ProdFullName}}. Admitimos todos los formatos comerciales más populares."
+    }
+  }
+}

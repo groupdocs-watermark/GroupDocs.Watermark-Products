@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Tạo hình mờ hình ảnh cho {{FileFormatUp}}",
+    "comment_2": "Instantiate Watermarker truyền tệp nguồn",
+    "comment_3": "Tạo hình mờ bằng cách cung cấp tệp hình ảnh",
+    "comment_4": "Nhận {{FileFormatUp}} kết quả"
+  },
+  "steps": {
+    "title": "Bảo vệ tài liệu kinh doanh: Tạo hình mờ {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** - Giải pháp tạo hình mờ mạnh mẽ cho {{EnvName}}.",
+      "step_1": "**Hợp lý hóa hình mờ an toàn trong ứng dụng {{EnvName}} của bạn:** Lớp **Watermarker** đóng vai trò là thành phần cốt lõi của {{ProdShortName}} API. Thư viện này đơn giản hóa việc tạo hình mờ các định dạng tài liệu khác nhau, bao gồm {{FileformatCap}}. Để bắt đầu, hãy tạo một phiên bản Watermarker trước khi xử lý tài liệu của bạn. Cung cấp đường dẫn tệp {{FileformatCap}} hoặc một đối tượng luồng cho hàm tạo trong quá trình khởi tạo.",
+      "step_2": "**Tạo hình mờ để bảo vệ nâng cao:** Tăng cường hình mờ phù hợp hoàn hảo với nhu cầu bảo mật của bạn. Xây dựng một đối tượng **Watermark** chỉ định loại mong muốn. Không giống như vị trí trang truyền thống, bạn có thể nhúng hình mờ trong các yếu tố tài liệu gốc như tiêu đề hoặc tệp đính kèm, tăng cường bảo mật tài liệu và thêm nét chuyên nghiệp.",
+      "step_3": "**Tinh chỉnh giao diện hình mờ để có tác động tối ưu:** Kiểm soát các khía cạnh trực quan của hình mờ của bạn. Tùy chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh (trên cùng, bên trái, giữa, v.v.), họ phông chữ và màu sắc để đạt được kết quả hiệu quả và nhất quán về mặt thị giác, củng cố tính hợp pháp của tài liệu.",
+      "step_4": "**Ứng dụng hình mờ và lưu trữ an toàn**: Kết hợp hình mờ của bạn bằng phương thức**WaterMarker's**. Thư viện cho phép bạn thêm nhiều hình mờ nếu cần thiết để tăng cường bảo vệ. Bạn nên lưu tài liệu {{FileformatCap}} đã sửa đổi vào một vị trí riêng biệt, an toàn để bảo tồn tệp gốc và bảo vệ các tài liệu có hình mờ của bạn."
+    }
+  },
+  "more_features": {
+    "title": "Tích hợp hình mờ tinh tế",
+    "description": "GroupDocs.Watermark API dành cho .NET nhà phát triển của chúng tôi cung cấp các giải pháp tinh tế để tích hợp hình mờ liền mạch vào bất kỳ tài liệu nào. Công cụ này được thiết kế để tạo ra các hình mờ tinh vi, không phô trương, đảm bảo bảo vệ bản quyền trong khi vẫn duy trì tính thẩm mỹ của tài liệu.",
+    "image_description": "Tích hợp hình mờ chính xác",
+    "feature_1": {
+      "title": "Hiệu ứng hình mờ Gradient",
+      "content": "Triển khai hình mờ gradient hòa quyện mượt mà trên các tài liệu của bạn. Tính năng này cho phép các gradient tuyến tính hoặc xuyên tâm, thêm giao diện hiện đại cho các tính năng bảo mật giúp tăng cường cả bảo vệ và tương tác trực quan mà không làm quá tải nội dung."
+    },
+    "feature_2": {
+      "title": "Hình mờ mẫu để tăng cường bảo mật",
+      "content": "Sử dụng hình mờ dựa trên mẫu để thêm một lớp bảo mật bổ sung. API của chúng tôi hỗ trợ các mẫu khác nhau có thể được thiết kế phức tạp và lặp lại trên toàn tài liệu, làm cho hình mờ có khả năng chống giả mạo và loại bỏ tốt hơn."
+    },
+    "feature_3": {
+      "title": "Hình mờ dành riêng cho tài liệu",
+      "content": "Điều chỉnh hình mờ độc đáo cho các loại tài liệu khác nhau. Cho dù đó là hợp đồng pháp lý, kế hoạch kinh doanh hay báo cáo khoa học, hãy tùy chỉnh hình mờ để phù hợp với mục đích của tài liệu và khả năng tiếp cận của người đọc, đảm bảo tích hợp và bảo mật tối ưu."
+    },
+    "code_1": {
+      "title": "Tạo hình mờ hình ảnh PDF",
+      "content": "Tạo hình mờ hình ảnh cho tất cả các hình ảnh được trình bày bên trong tài liệu PDF",
+      "comment_1": "Tải tài liệu dưới dạng PDF",
+      "comment_2": "Tạo hình mờ dựa trên chú thích PDF",
+      "comment_3": "Thiết lập tùy chọn hình mờ",
+      "comment_4": "Thêm hình mờ văn bản vào tài liệu kết quả"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Hình mờ Node.js cho tập tin {{FileFormatUp}}",
+      "description": "Kết hợp hình mờ vào {{FileFormatUp}} tài liệu bằng Node.js để tăng cường bảo mật tài liệu và xây dựng thương hiệu."
+    },
+    "header": {
+      "title": "Hình mờ do Node.js điều khiển trong {{FileFormatUp}}",
+      "description": "Áp dụng hình mờ tự động cho {{FileFormatUp}} tệp bằng Node.js, đảm bảo bảo vệ mạnh mẽ và trình bày chuyên nghiệp các tài liệu Word của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js một API trực quan để tạo, triển khai và quản lý hình mờ trong {{FileFormatUp}} tệp. Công cụ này hoàn hảo cho các ứng dụng yêu cầu cải tiến bảo mật tài liệu hoặc xây dựng thương hiệu công ty. Với các tính năng hỗ trợ hình mờ văn bản và hình ảnh, các nhà phát triển có thể dễ dàng tùy chỉnh kích thước, vị trí và độ mờ để phù hợp với nhu cầu cụ thể. Lý tưởng để bảo mật báo cáo kinh doanh, tài liệu pháp lý và các giao tiếp chuyên nghiệp khác, {{ProdShortName}} tích hợp liền mạch vào môi trường Node.js hiện đại và đảm bảo rằng hình mờ được áp dụng hiệu quả và không ảnh hưởng đến tính toàn vẹn của tài liệu."
+    },
+    "formats": {
+      "title": "Áp dụng hình mờ cho {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để thêm hình mờ tùy chỉnh, không phô trương vào tệp {{FileFormatUp}}, nâng cao cả tính bảo mật và thẩm mỹ của tài liệu của bạn."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Tạo hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Khai thác Node.js để thêm hình mờ mạnh mẽ vào tệp {{FileFormatUp}}, tăng cường bảo mật và tính toàn vẹn của tài liệu."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} bằng Node.js",
+      "description": "Sử dụng Node.js để soạn và triển khai hình mờ tinh vi trong tệp {{FileFormatUp}}, hoàn hảo để bảo mật các tài liệu nhạy cảm Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho các nhà phát triển Node.js các công cụ để tạo, thêm và quản lý hình mờ trong DOCX tài liệu một cách hiệu quả. API này cho phép tích hợp liền mạch các hình mờ có thể tùy chỉnh có thể tăng cường đáng kể bảo mật tài liệu. Cho dù thêm logo công ty, văn bản hay lớp phủ đồ họa phức tạp, API cung cấp toàn quyền kiểm soát độ mờ, kích thước và vị trí. Được thiết kế đặc biệt cho các môi trường chuyên nghiệp nơi tính xác thực tài liệu và bảo vệ bản quyền là rất quan trọng, chẳng hạn như các lĩnh vực pháp lý, tài chính và chính phủ, {{ProdShortName}} đảm bảo rằng tệp DOCX của bạn không chỉ bảo mật mà còn duy trì tiêu chuẩn trình bày cao. Tương thích với các môi trường Node.js khác nhau, nó hỗ trợ các hoạt động đồng bộ và không đồng bộ để phù hợp với các nhu cầu ứng dụng khác nhau."
+    },
+    "formats": {
+      "title": "Thêm hình mờ vào {{FileFormatUp}} bằng Node.js",
+      "description": "Triển khai Node.js để tự động tạo và áp dụng hình mờ tùy chỉnh trong {{FileFormatUp}} tệp, bảo mật và xây dựng thương hiệu chúng một cách hiệu quả."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Tạo hình mờ trên {{FileFormatUp}} với Node.js",
+      "description": "Tạo hình mờ an toàn, vô hình cho {{FileFormatUp}} hình ảnh bằng Node.js, bảo vệ bản quyền."
+    },
+    "header": {
+      "title": "Soạn hình mờ cho {{FileFormatUp}} thông qua Node.js",
+      "description": "Sử dụng Node.js để thêm hình mờ mạnh mẽ vào tệp {{FileFormatUp}}, đảm bảo hình ảnh của bạn được bảo vệ khỏi việc sử dụng trái phép và vi phạm bản quyền.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js khả năng tạo và triển khai hình mờ tùy chỉnh trong hình ảnh JPEG. API mạnh mẽ này cho phép tạo cả hình mờ hiển thị và vô hình giúp bảo mật phương tiện kỹ thuật số khỏi hành vi trộm cắp bản quyền và phân phối trái phép. Điều chỉnh độ mờ mờ, màu sắc và vị trí của hình mờ để kết hợp liền mạch với nội dung hình ảnh hoặc làm cho chúng nổi bật để hiển thị thương hiệu. Lý tưởng cho các nhiếp ảnh gia, nhà thiết kế đồ họa và người sáng tạo nội dung, những người cần đảm bảo công việc kỹ thuật số của họ vẫn an toàn và được công nhận là tài sản của riêng họ. Với {{ProdShortName}}, các nhà phát triển có thể bảo vệ hình ảnh một cách hiệu quả trong khi vẫn duy trì tính toàn vẹn thẩm mỹ của chúng, tất cả trong môi trường Node.js linh hoạt và mạnh mẽ."
+    },
+    "formats": {
+      "title": "Thêm hình mờ an toàn vào {{FileFormatUp}} với Node.js",
+      "description": "Triển khai Node.js để nhúng hình mờ an toàn, tùy chỉnh vào {{FileFormatUp}} hình ảnh, bảo vệ và đánh dấu nội dung kỹ thuật số một cách hiệu quả."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Thêm hình mờ vào {{FileFormatUp}} bằng Node.js",
+      "description": "Sử dụng Node.js để tích hợp hình mờ liền mạch vào {{FileFormatUp}} hình ảnh, tăng cường bảo mật bản quyền."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho tập tin {{FileFormatUp}} thông qua Node.js",
+      "description": "Triển khai Node.js để tạo hình mờ tùy chỉnh trong tệp {{FileFormatUp}}, bảo vệ hình ảnh của bạn khỏi lạm dụng và vi phạm bản quyền.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép các nhà phát triển Node.js soạn và áp dụng hình mờ hiệu quả trên {{FileFormatUp}} hình ảnh. API này tạo điều kiện cho việc chèn hình mờ phù hợp với nhu cầu của nội dung, cho dù cho mục đích sử dụng cá nhân hay hiển thị chuyên nghiệp. Các nhà phát triển có thể tùy chỉnh các tính năng hình mờ bao gồm độ mờ, kích thước và vị trí để đảm bảo chúng hiệu quả nhưng không phô trương. Lý tưởng để bảo vệ nội dung ảnh, tác phẩm nghệ thuật kỹ thuật số và các tài sản phương tiện khác chống lại việc sao chép trái phép, {{ProdShortName}} cung cấp khả năng bảo vệ mạnh mẽ trong môi trường Node.js, đảm bảo rằng tài sản trí tuệ của bạn vừa an toàn vừa nguyên vẹn về mặt thị giác."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với hình mờ Node.js",
+      "description": "Sử dụng Node.js để nhúng hình mờ bảo vệ {{FileFormatUp}} hình ảnh của bạn, duy trì chất lượng ban đầu của chúng trong khi đảm bảo bảo vệ bản quyền."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} với hình mờ Node.js",
+      "description": "Tích hợp hình mờ vào {{FileFormatUp}} bằng Node.js để bảo vệ các tài liệu và hợp đồng chính thức."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} Tài liệu thông qua Node.js",
+      "description": "Sử dụng Node.js để thêm hình mờ nâng cao vào {{FileFormatUp}} tệp, bảo vệ các tài liệu chính thức, hợp đồng và thông tin nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js một công cụ mạnh mẽ để tạo, soạn và quản lý hình mờ được thiết kế đặc biệt cho {{FileFormatUp}} tệp. API này cho phép tích hợp chính xác hình mờ vào các tài liệu chính thức, hợp đồng và bất kỳ tệp PDF nhạy cảm nào yêu cầu một lớp bảo mật bổ sung. Tùy chỉnh hình mờ của bạn để hiển thị hoặc vô hình, đảm bảo chúng không can thiệp vào khả năng đọc của nội dung đồng thời cung cấp bảo vệ bản quyền và ngăn chặn gian lận hiệu quả. Lý tưởng để sử dụng trong các lĩnh vực pháp lý, tài chính và chính phủ nơi tính toàn vẹn của tài liệu là tối quan trọng, {{ProdShortName}} cũng hỗ trợ xử lý hàng loạt hình mờ cho các bộ tài liệu lớn, hoàn toàn tương thích với môi trường Node.js hiện đại."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Tận dụng Node.js để tự động tạo và áp dụng hình mờ trong {{FileFormatUp}} tài liệu, rất quan trọng để bảo vệ nội dung pháp lý và chính thức."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để áp dụng hình mờ chính xác cho {{FileFormatUp}} hình ảnh, đảm bảo bảo vệ bản quyền mạnh mẽ."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho tập tin {{FileFormatUp}} thông qua Node.js",
+      "description": "Triển khai Node.js để tạo hình mờ tùy chỉnh trong {{FileFormatUp}} hình ảnh, hoàn hảo để bảo mật nghệ thuật kỹ thuật số và nội dung nhiếp ảnh.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js khả năng nâng cao để thêm hình mờ vào {{FileFormatUp}} tệp. API này tạo điều kiện tạo ra cả hình mờ hiển thị và vô hình kết hợp liền mạch với hình ảnh, tăng cường bảo mật mà không ảnh hưởng đến chất lượng hình ảnh. Điều chỉnh các tính năng như độ mờ đục, tỷ lệ và vị trí để đáp ứng các nhu cầu cụ thể, làm cho nó trở nên lý tưởng cho các nhiếp ảnh gia, nhà thiết kế đồ họa và người sáng tạo nội dung muốn bảo vệ tài sản kỹ thuật số của họ. Cho dù cho mục đích sử dụng cá nhân hay phân phối thương mại, {{ProdShortName}} đảm bảo rằng hình ảnh của bạn được đánh dấu an toàn, hỗ trợ nhiều môi trường Node.js khác nhau."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với hình mờ Node.js",
+      "description": "Sử dụng Node.js để nhúng hình mờ bảo vệ {{FileFormatUp}} hình ảnh của bạn, duy trì chất lượng ban đầu của chúng trong khi đảm bảo bảo vệ bản quyền."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Thêm hình mờ vào {{FileFormatUp}} bằng Node.js",
+      "description": "Sử dụng Node.js để tích hợp hình mờ vào PowerPoint tệp, bảo mật bản trình bày một cách hiệu quả."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} bài thuyết trình thông qua Node.js",
+      "description": "Triển khai Node.js để tạo và áp dụng hình mờ tùy chỉnh trong tệp PowerPoint, lý tưởng để bảo vệ các bài thuyết trình của công ty và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép các nhà phát triển Node.js tạo, thêm và quản lý hình mờ một cách hiệu quả trong các tệp PowerPoint (PPT). API này cho phép kết hợp liền mạch hình mờ vào tài liệu trình bày, cung cấp một lớp bảo mật bổ sung cho thông tin nhạy cảm và độc quyền. Tùy chỉnh độ mờ đục, vị trí và kích thước của hình mờ để đảm bảo nó bổ sung cho thiết kế của bản trình bày mà không cản trở nội dung chính. Hoàn hảo cho môi trường kinh doanh, học tập và đào tạo, {{ProdShortName}} đảm bảo rằng bài thuyết trình của bạn không chỉ an toàn mà còn duy trì vẻ ngoài chuyên nghiệp. Tương thích với các môi trường Node.js khác nhau, nó cung cấp các giải pháp linh hoạt cho bảo mật bản trình bày."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Tận dụng Node.js để tự động tạo và áp dụng hình mờ trong {{FileFormatUp}} tệp, rất quan trọng để bảo vệ nội dung bản trình bày quan trọng."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} với hình mờ Node.js",
+      "description": "Triển khai Node.js để nhúng hình mờ vào {{FileFormatUp}} bản trình bày, tăng cường bảo mật tài liệu."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} thông qua Node.js",
+      "description": "Sử dụng Node.js để tạo hình mờ tùy chỉnh cho {{FileFormatUp}} tệp, hoàn hảo để bảo vệ các bản trình bày có mức độ rủi ro cao và dữ liệu độc quyền.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js các công cụ để thêm, quản lý và tùy chỉnh hình mờ trong PPTX tệp. API này lý tưởng để nhúng hình mờ bảo vệ tính toàn vẹn của các bài thuyết trình kinh doanh và giáo dục mà không làm gián đoạn tính thẩm mỹ của chúng. Các nhà phát triển có thể kiểm soát độ mờ mờ, màu sắc và vị trí của hình mờ, đảm bảo chúng tinh tế nhưng hiệu quả. Thích hợp để bảo mật các kế hoạch chiến lược, báo cáo tài chính và tài liệu giáo dục, {{ProdShortName}} tích hợp liền mạch với môi trường Node.js hiện đại, cho phép ứng dụng dễ dàng trong quy trình trình bày thời gian thực."
+    },
+    "formats": {
+      "title": "Áp dụng hình mờ cho {{FileFormatUp}} với Node.js",
+      "description": "Triển khai Node.js để chèn hình mờ có thể tùy chỉnh, an toàn vào tệp {{FileFormatUp}}, giữ gìn tính chuyên nghiệp và bảo mật cho bản trình bày của bạn."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để tích hợp hình mờ vào {{FileFormatUp}} tài liệu, bảo vệ nội dung một cách dễ dàng."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} Tài liệu thông qua Node.js",
+      "description": "Triển khai Node.js để thêm hình mờ tùy chỉnh vào tệp {{FileFormatUp}}, lý tưởng để bảo mật MS Word và tài liệu văn bản chống lại việc sử dụng trái phép.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho các nhà phát triển Node.js khả năng tạo và quản lý hình mờ đặc biệt cho RTF tài liệu. API này cho phép nhúng chính xác hình mờ văn bản hoặc hình ảnh, tăng cường bảo mật tài liệu và bảo vệ bản quyền. Tùy chỉnh hình mờ để hiển thị hoặc vô hình dựa trên độ nhạy của thông tin, điều chỉnh độ mờ, kích thước và vị trí để đảm bảo chúng hòa quyện một cách tự nhiên với nội dung tài liệu. Hoàn hảo cho các tài liệu pháp lý, báo cáo công ty và bất kỳ tài liệu văn bản nhạy cảm nào, {{ProdShortName}} hỗ trợ tùy chỉnh rộng rãi để đáp ứng các nhu cầu bảo mật cụ thể trong các môi trường Node.js khác nhau."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} tệp bằng hình mờ Node.js",
+      "description": "Sử dụng Node.js để triển khai hình mờ động trong tệp {{FileFormatUp}}, đảm bảo cả bảo mật và tính toàn vẹn của nội dung văn bản của bạn."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Thêm hình mờ vào {{FileFormatUp}} bằng Node.js",
+      "description": "Khai thác Node.js để tự động nhúng hình mờ vào {{FileFormatUp}} hình ảnh, bảo vệ tài sản kỹ thuật số của bạn."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} hình ảnh thông qua Node.js",
+      "description": "Sử dụng Node.js để tạo và áp dụng hình mờ chính xác cho {{FileFormatUp}} tệp, hoàn hảo để bảo vệ hình ảnh độ phân giải cao và nội dung lưu trữ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js một bộ công cụ mạnh mẽ để thêm, quản lý và tùy chỉnh hình mờ trong hình ảnh TIF. API này cho phép tích hợp cả hình mờ hiển thị và vô hình, phù hợp để đảm bảo tính bảo mật của các tài liệu chụp ảnh và được quét. Tùy chỉnh kích thước, độ mờ đục và vị trí của hình mờ để duy trì tính toàn vẹn và chất lượng của hình ảnh. Lý tưởng cho các nhiếp ảnh gia, nhà lưu trữ và nhà thiết kế đồ họa, {{ProdShortName}} đảm bảo rằng tất cả các tệp TIF được bảo vệ khỏi việc sử dụng và tái tạo trái phép trong khi hỗ trợ một loạt các môi trường Node.js."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Triển khai Node.js để chèn hình mờ tùy chỉnh, an toàn vào {{FileFormatUp}} hình ảnh, rất quan trọng để duy trì bản quyền và ngăn chặn vi phạm bản quyền dữ liệu."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với Node.js",
+      "description": "Triển khai Node.js để áp dụng hình mờ trong tệp {{FileFormatUp}}, tăng cường bảo mật cho kho lưu trữ kỹ thuật số."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} thông qua Node.js",
+      "description": "Sử dụng Node.js để tạo hình mờ tùy chỉnh cho {{FileFormatUp}} hình ảnh, lý tưởng để bảo vệ ảnh và tài liệu chất lượng lưu trữ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển Node.js khả năng tạo, thêm và quản lý hình mờ trong TIFF tệp một cách hiệu quả. API này tạo điều kiện cho việc nhúng hình mờ để bảo vệ và khẳng định bản quyền của hình ảnh kỹ thuật số và hình ảnh được quét. Các nhà phát triển có thể tùy chỉnh hình mờ về loại, độ trong suốt và vị trí, đảm bảo chúng được tích hợp tinh tế mà không ảnh hưởng đến chi tiết ban đầu của hình ảnh. Lý tưởng để sử dụng trong thư viện, bảo tàng và bất kỳ tổ chức nào cần bảo vệ tài liệu lưu trữ, {{ProdShortName}} cung cấp các giải pháp hình mờ mạnh mẽ tương thích với môi trường Node.js hiện đại."
+    },
+    "formats": {
+      "title": "Áp dụng hình mờ cho {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để nhúng hình mờ vào tệp {{FileFormatUp}}, cung cấp bảo mật nâng cao và bảo vệ bản quyền cho nội dung lưu trữ."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để áp dụng hình mờ nâng cao cho {{FileFormatUp}} hình ảnh, tăng cường bảo vệ và bản quyền."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} hình ảnh qua Node.js",
+      "description": "Triển khai Node.js để tạo hình mờ tùy chỉnh, an toàn cho {{FileFormatUp}} tệp, lý tưởng cho những người sáng tạo nội dung kỹ thuật số muốn bảo vệ hình ảnh của họ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho các nhà phát triển Node.js các công cụ để thêm, quản lý và tùy chỉnh hình mờ trong hình ảnh WEBP. API này cho phép tích hợp các hình mờ trong suốt hoặc mờ kết hợp liền mạch với hình ảnh, đảm bảo rằng tính toàn vẹn của tác phẩm nghệ thuật được duy trì trong khi bảo vệ chống lại việc sử dụng trái phép. Điều chỉnh kích thước, độ mờ và vị trí của hình mờ để làm nổi bật thương hiệu của bạn hoặc bảo mật tài sản kỹ thuật số của bạn một cách kín đáo. Thích hợp cho các nhiếp ảnh gia, nhà thiết kế đồ họa và bất kỳ chuyên gia nào liên quan đến phương tiện kỹ thuật số, {{ProdShortName}} nâng cao tính bảo mật của hình ảnh WEBP thông qua giao diện Node.js linh hoạt và mạnh mẽ."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} tệp bằng hình mờ Node.js",
+      "description": "Triển khai Node.js để chèn hình mờ có thể tùy chỉnh, mạnh mẽ vào {{FileFormatUp}} hình ảnh, đảm bảo bản quyền và khả năng hiển thị thương hiệu được bảo vệ."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Tạo hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để tạo hình mờ trong tệp {{FileFormatUp}}, tăng cường bảo mật cho tài liệu Excel của bạn."
+    },
+    "header": {
+      "title": "Tạo hình mờ Node.js cho tập tin {{FileFormatUp}}",
+      "description": "Triển khai hình mờ mạnh mẽ trong bảng tính {{FileFormatUp}} với Node.js, được thiết kế để bảo vệ dữ liệu tài chính và cá nhân trong Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho các nhà phát triển Node.js các công cụ để tạo, soạn và nhúng hình mờ trong XLS tệp một cách hiệu quả. API này được thiết kế để tích hợp liền mạch vào Excel quy trình làm việc, tạo điều kiện bổ sung cả hình mờ hiển thị và vô hình có thể tùy chỉnh cho độ mờ, văn bản và hình ảnh. Lý tưởng để bảo mật thông tin nhạy cảm trong bảng tính tài chính, báo cáo khách hàng hoặc bất kỳ tài liệu Excel nào yêu cầu bảo mật, {{ProdShortName}} cung cấp các tính năng nâng cao như đặt hình mờ có điều kiện dựa trên phân tích nội dung. Với sự hỗ trợ cho tất cả .NET môi trường, giải pháp này đảm bảo tài liệu của bạn được bảo vệ khỏi việc sử dụng và phân phối trái phép."
+    },
+    "formats": {
+      "title": "Áp dụng hình mờ cho {{FileFormatUp}} với Node.js",
+      "description": "Sử dụng Node.js để tự động tạo và tích hợp hình mờ tùy chỉnh vào tệp {{FileFormatUp}}, bảo vệ dữ liệu Excel của bạn một cách hiệu quả."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Tận dụng Node.js để tạo và áp dụng hình mờ trong {{FileFormatUp}} tệp, bảo mật tài liệu Excel của bạn."
+    },
+    "header": {
+      "title": "Bảo mật {{FileFormatUp}} trang tính với Node.js",
+      "description": "Sử dụng API Node.js để tạo hình mờ tùy chỉnh cho {{FileFormatUp}} tệp, hoàn hảo để tăng cường tính toàn vẹn của tài liệu và bảo vệ thông tin nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Node.js để tạo, thêm và quản lý hình mờ trong XLSX tệp. API này rất cần thiết để duy trì tính bảo mật và tính xác thực của Excel tài liệu, đặc biệt là trong môi trường công ty, tài chính và pháp lý. Tùy chỉnh hình mờ của bạn với nhiều tùy chọn, bao gồm lớp phủ văn bản và hình ảnh, được thiết kế vừa có chức năng vừa tinh tế. Các tính năng bổ sung cho phép tạo hình mờ tự động dựa trên thuộc tính tài liệu và điều kiện do người dùng xác định, đảm bảo rằng hình mờ của bạn được áp dụng nhất quán và chỉ khi cần thiết. {{ProdShortName}} tương thích với các nền tảng .NET hiện đại và hỗ trợ các chức năng nâng cao Excel."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với Node.js",
+      "description": "Triển khai Node.js để thêm hiệu quả hình mờ nâng cao, an toàn vào tệp {{FileFormatUp}}, bảo vệ dữ liệu chuyên nghiệp Excel của bạn."
+    }
+  }
+}

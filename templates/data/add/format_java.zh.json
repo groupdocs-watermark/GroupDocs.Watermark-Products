@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "向 {{FileFormatUp}} 添加图像水印",
+    "comment_2": "将要添加水印的文件传递给 Watermarker",
+    "comment_3": "提供带水印的图像路径",
+    "comment_4": "保存结果"
+  },
+  "steps": {
+    "title": "高级技巧：通过 {{EnvName}} 向 {{FileformatCap}} 文档添加水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 探索 {{FileformatCap}} 文档的高级水印技术",
+      "step_1": "**水印器**类来启动水印过程。这一基本步骤为使用水印增强 {{FileformatCap}} 个文档奠定了基础。将 {{FileformatCap}} 文件作为路径或流对象提供给构造函数。",
+      "step_2": "**水印**物体，进入下一个级别。这些多功能实体不仅可以在指定的文档页面上精确定位，还可以在附件或标题等本机元素中精确定位。",
+      "step_3": "通过微调尺寸、对齐方式、字体样式和颜色等属性来完善水印流程。这种自定义级别使您能够创建水印，完美地补充您的文档美感。",
+      "step_4": "**水印**方法将新创建的水印应用到您的文档上。享受根据您的要求添加多个水印的灵活性。要保存文档，请考虑将其保存在安全的位置。"
+    }
+  },
+  "more_features": {
+    "title": "掌握文档水印",
+    "description": "使用我们为 .NET 开发人员量身定制的复杂水印 API 来提升您的文档管理。该工具为应用、自定义和管理各种文档格式的水印提供了全面的解决方案，确保了美观和增强的安全性。",
+    "image_description": "高级文档水印",
+    "feature_1": {
+      "title": "灵活的水印旋转",
+      "content": "使用我们灵活的旋转设置，调整您的水印以适应任何文档方向。无论您的文档是纵向还是横向，都可以轻松调整水印角度，以保持一致的外观，与文档布局相得益彰。"
+    },
+    "feature_2": {
+      "title": "完美的透明度控制",
+      "content": "精确控制水印的透明度，允许在不影响文档内容的情况下进行细致而安全的标记。此功能非常适合保持文档的原始美感，同时增加一层安全性。"
+    },
+    "feature_3": {
+      "title": "用于强调的阴影效果",
+      "content": "增强水印的可见性，或通过可自定义的阴影效果将其巧妙地集成到文档中。此功能允许使用不同的模糊、散布和颜色的阴影，从而根据需要使水印更加独特或隐蔽。"
+    },
+    "code_1": {
+      "title": "MS Word 锁定水印",
+      "content": "此示例说明如何锁定 DOCX 所有页面中的水印",
+      "comment_1": "以 MS Word doc 格式加载文档",
+      "comment_2": "创建水印",
+      "comment_3": "调整原生 Word 选项",
+      "comment_4": "为结果文档页面添加水印"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "使用 Java 为 {{FileFormatUp}} 生成水印",
+      "description": "使用 Java 高效添加、编辑和管理 {{FileFormatUp}} 文件中的水印。非常适合保护文件。"
+    },
+    "header": {
+      "title": "Java 为 {{FileFormatUp}} 个文件添加水印",
+      "description": "探索 Java 开发人员如何利用 GroupDocs.Watermark 快速轻松地在 {{FileFormatUp}} 文档中插入、修改和删除水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 开发人员提供了一组强大的工具，用于在 {{FileFormatUp}} 文件中添加、删除、搜索和管理水印。此 API 使您可以轻松地将全面的水印功能集成到任何 Java 应用程序中，从而支持各种文档管理任务。无论您是需要保护知识产权、确保文档真实性还是防止未经授权的共享，{{ProdShortName}} 都能为您提供必要的工具。它支持文本和图像水印，并提供广泛的自定义选项，例如调整不透明度、旋转和缩放以适应各种用例。与支持 Java 8 或更高版本的所有主要操作系统兼容。"
+    },
+    "formats": {
+      "title": "使用 Java 为 {{FileFormatUp}} 个文件加水印",
+      "description": "利用 Java 在 {{FileFormatUp}} 个文件上应用多功能水印。非常适合需要文档安全和版权保护的应用程序。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "使用 Java 水印增强 {{FileFormatUp}}",
+      "description": "通过 Java 向 {{FileFormatUp}} 文件添加复杂的水印。毫不费力地保护和设计您的文档。"
+    },
+    "header": {
+      "title": "使用 Java 个水印保护 {{FileFormatUp}} 个文件",
+      "description": "探索 Java 将安全、可自定义的水印嵌入到 {{FileFormatUp}} 文件中的强大功能。非常适合需要保护其知识内容的企业。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Java 开发人员能够将高级水印技术无缝集成到其 {{FileFormatUp}} 文档工作流程中。该API具有插入、修改和删除水印的功能，有助于保护版权和增强文档安全性。它专为 DOCX 格式量身定制，提供基于内容敏感度的水印自动化、大小、透明度和旋转等水印属性的动态调整以及在批处理文档上应用水印等功能。{{ProdShortName}} 可有效确保合规性并防止未经授权的文件流通，从版本 8 开始与 Java 环境兼容。"
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} 的基于 Java 的水印",
+      "description": "利用 Java 在 {{FileFormatUp}} 文件中实现动态和安全的水印，确保全面的版权保护。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "使用 Java 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "利用 Java 在 {{FileFormatUp}} 张图像中添加、自定义和管理水印，增强安全性和版权控制。"
+    },
+    "header": {
+      "title": "Java 控制的 {{FileFormatUp}} 水印",
+      "description": "掌握使用 Java 为 {{FileFormatUp}} 张图像加水印的技巧。该API允许精确控制水印的不透明度、位置和大小，以保护和标记您的数字图像。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 开发人员提供了一个复杂的工具包，用于将水印嵌入到 JPEG 文件中。该API擅长应用可见和不可见的水印，以帮助保护版权、阻止未经授权的使用和提高品牌知名度。使用各种选项自定义水印，包括为数字图稿和照片量身定制的图案填充、阴影效果和渐变样式。使用 {{ProdShortName}}，支持 Java 8 及更高版本，确保您的图像在所有平台上都受到保护。"
+    },
+    "formats": {
+      "title": "使用 Java 水印保护 {{FileFormatUp}}",
+      "description": "使用 Java 为 {{FileFormatUp}} 张图像应用安全和可自定义的水印，非常适合需要保护其视觉资产的摄影师和内容创作者。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "使用 Java 进行高级 {{FileFormatUp}} 水印",
+      "description": "使用 Java 简化您的 {{FileFormatUp}} 水印流程，以增强图像保护和版权声明。"
+    },
+    "header": {
+      "title": "Java-为 {{FileFormatUp}} 个文件添加水印",
+      "description": "使用可自定义的水印提升 {{FileFormatUp}} 文件的安全性。利用 Java 无缝集成水印，确保最佳保护和品牌一致性。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 名开发人员配备了专为 {{FileFormatUp}} 张图像设计的强大水印功能。该API允许添加将文本和图形结合在一起的多层水印，从而在不影响图像质量的情况下确保强大的版权保护。功能包括灵活的缩放、旋转和透明度设置，使水印可以根据用户需求隐蔽或突出。使用 {{ProdShortName}} 增强数字媒体的完整性和真实性，完全兼容 Java 8 或更高版本。"
+    },
+    "formats": {
+      "title": "通过 Java 保护 {{FileFormatUp}} 张图片",
+      "description": "利用 Java 在 {{FileFormatUp}} 张图像上部署复杂的水印。量身定制水印特征以强化您的版权并增强图像安全性。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "使用 Java 水印保护 {{FileFormatUp}}",
+      "description": "使用 Java 应用强大、可自定义的水印，增强 {{FileFormatUp}} 文档安全性。"
+    },
+    "header": {
+      "title": "Java 水印集成 {{FileFormatUp}}",
+      "description": "利用 Java 在 {{FileFormatUp}} 个文档中实现高级水印。非常适合保护官方记录、法律文件和敏感信息。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 专为 Java 名开发人员量身定制，他们希望通过有效的水印来增强 {{FileFormatUp}} 个文档的安全性。该API有助于嵌入可见和不可见的水印，以防止未经授权的共享并确保文档的真实性。功能包括创建自定义水印、精确定位以及基于文档内容或安全级别的条件水印。{{ProdShortName}} 支持与 Java 8 及更高版本的无缝集成，非常适合文档完整性至关重要的政府、法律和公司环境。"
+    },
+    "formats": {
+      "title": "使用 Java 为 {{FileFormatUp}} 个文档加水印",
+      "description": "利用 Java 有效地向 {{FileFormatUp}} 添加水印。使用量身定制的水印解决方案确保您的官方文件的机密性和完整性。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Java 个 {{FileFormatUp}} 个文件的水印解决方案",
+      "description": "使用 Java 对 {{FileFormatUp}} 张图像应用动态水印，以保护和验证您的数字资产。"
+    },
+    "header": {
+      "title": "使用 Java 保护和自定义 {{FileFormatUp}}",
+      "description": "利用 Java 在 {{FileFormatUp}} 文件中嵌入安全、适应性强的水印，非常适合寻求保护其创意作品的摄影师和设计师。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 名开发人员提供了一个复杂的框架，用于对 {{FileFormatUp}} 张图像应用水印。此 API 旨在无缝集成到任何基于 Java 的应用程序中，允许插入与底层图像完美融合的透明或不透明水印。使用文本、徽标或版权符号自定义水印，在不影响图像质量的情况下增强安全性。{{ProdShortName}} 具有像素完美定位和不透明度控制等功能，可确保您的图像既具有视觉吸引力，又受到法律保护。适用于电子商务网站、在线投资组合等，并且与 Java 8 或更高版本完全兼容。"
+    },
+    "formats": {
+      "title": "使用 Java 增强 {{FileFormatUp}} 图像安全",
+      "description": "使用 Java 将强大的水印嵌入到 {{FileFormatUp}} 文件中。此功能对于保护视觉内容免受未经授权的使用，同时保持图像清晰度至关重要。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "用 Java 为演示文稿添加水印 {{FileFormatUp}}",
+      "description": "使用 Java 在 {{FileFormatUp}} 文件中嵌入水印，保护您的演示文稿。"
+    },
+    "header": {
+      "title": "Java {{FileFormatUp}} 水印的增强功能",
+      "description": "使用 Java 在 PowerPoint 演示文稿中加入离散或醒目的水印，是保护商业和教育内容的理想之选。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Java 开发人员能够通过先进的水印技术增强 PowerPoint 演示文稿的安全性和专业外观。此 API 支持集成文本和图像水印，可以根据预期用途对这些水印进行自定义，使其可见或微妙。功能包括调整大小、透明度和位置的功能，确保水印不会阻碍重要内容，同时仍能提供有效的版权保护。{{ProdShortName}} 与支持 Java 8 及更高版本的所有系统兼容，是企业、教育和商业演示的理想之选。"
+    },
+    "formats": {
+      "title": "使用 Java 保护 {{FileFormatUp}} 场演示文稿",
+      "description": "使用 Java 为 PowerPoint 文件添加水印，从而增强专业和教育环境中的文档安全性和品牌知名度。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "用 Java 水印 {{FileFormatUp}} 个文件",
+      "description": "使用 Java 在 {{FileFormatUp}} 文件中嵌入水印，保护您的演示文稿。"
+    },
+    "header": {
+      "title": "Java {{FileFormatUp}} 水印的增强功能",
+      "description": "使用 Java 在 PowerPoint 演示文稿中加入离散或醒目的水印，是保护商业和教育内容的理想之选。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Java 开发人员能够通过先进的水印技术增强 PowerPoint 演示文稿的安全性和专业外观。此 API 支持集成文本和图像水印，可以根据预期用途对这些水印进行自定义，使其可见或微妙。功能包括调整大小、透明度和位置的功能，确保水印不会阻碍重要内容，同时仍能提供有效的版权保护。{{ProdShortName}} 与支持 Java 8 及更高版本的所有系统兼容，是企业、教育和商业演示的理想之选。"
+    },
+    "formats": {
+      "title": "使用 Java 保护 {{FileFormatUp}} 场演示文稿",
+      "description": "使用 Java 为 PowerPoint 文件添加水印，从而增强专业和教育环境中的文档安全性和品牌知名度。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 个文档的 Java 个水印",
+      "description": "利用 Java 在 {{FileFormatUp}} 文件中插入水印，增强文档安全性和专业性。"
+    },
+    "header": {
+      "title": "使用 Java 水印保护 {{FileFormatUp}} 个文档",
+      "description": "使用 Java 将水印无缝嵌入到 {{FileFormatUp}} 个文档中。非常适合在专业 Word 环境中保护敏感信息。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 名开发人员提供用于为 {{FileFormatUp}} 文档加水印的综合工具，通常用于微软 Word 环境。该API允许精确添加文本和图像水印，可根据需要进行自定义，以确保可见性或自由裁量权。在不影响布局或可读性的前提下增强文档的安全功能。功能包括可变的不透明度、可扩展的大小和可调整的定位，使其适用于法律、学术和公司文档。{{ProdShortName}} 与 Java 8 及更高版本完全兼容，可有效防止未经授权的使用和复制。"
+    },
+    "formats": {
+      "title": "使用 Java 增强 MS Word {{FileFormatUp}} 安全性",
+      "description": "使用 Java 对 {{FileFormatUp}} 文件应用高级水印，确保微软 Word 和其他文字处理应用程序中文档的完整性和合规性。"
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "使用 Java 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "掌握 Java 在 {{FileFormatUp}} 张图像中应用有效的水印，保护版权并增强安全性。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 个文件的 Java 水印功能",
+      "description": "使用 Java 实现的水印增强 {{FileFormatUp}} 张图像，实现强大的版权保护和数字资产管理。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Java 开发人员能够充分利用专为 TIF 图像量身定制的水印技术，这在摄影、文档存档和数字出版等领域至关重要。该API允许集成透明和纯色水印，这些水印可以调整不透明度、大小和位置，以满足不同的要求。它包括批量水印功能，可确保高效处理大型图像集合，同时保持高保真度和图像完整性。该工具旨在从版本 8 开始在 Java 个环境中全面运行，为版权执法和防止未经授权的分发提供可靠的解决方案。"
+    },
+    "formats": {
+      "title": "通过 Java 在 {{FileFormatUp}} 张图像中实现水印",
+      "description": "利用 Java 在 {{FileFormatUp}} 张图像中插入自定义水印，非常适合保护照片和档案内容并为其添加品牌标识。"
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "使用 Java 个水印保护 {{FileFormatUp}} 张图片",
+      "description": "在 {{FileFormatUp}} 个文件中实现基于 Java 的水印，以增强版权保护和图像安全。"
+    },
+    "header": {
+      "title": "Java-{{FileFormatUp}} 个文件的增强水印",
+      "description": "使用 Java 为 {{FileFormatUp}} 张图像添加耐用、可自定义的水印，这对于需要版权安全的摄影师和数字档案至关重要。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 名开发人员提供了一个高效的工具集，用于向 {{FileFormatUp}} 张图像添加水印，这种格式广泛用于摄影和数字存档。此 API 支持复杂的水印配置，包括多层文本和基于图像的水印。使用不透明度、旋转和缩放选项自定义水印，以确保它们有效且不显眼。{{ProdShortName}} 适用于保护高分辨率图像和扫描文档，可在不影响质量的情况下增强图像安全性，完全兼容 Java 8 或更高版本。"
+    },
+    "formats": {
+      "title": "使用 Java 保护 {{FileFormatUp}} 个文件中的 Copyright",
+      "description": "利用 Java 在 {{FileFormatUp}} 张图像中嵌入复杂的水印。优化版权保护，将对原始图像质量的影响降至最低。"
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "{{FileFormatUp}} 张图片的 Java 个水印",
+      "description": "利用 Java 向 {{FileFormatUp}} 张图像注入水印，加强版权和媒体安全。"
+    },
+    "header": {
+      "title": "使用 Java 自定义 {{FileFormatUp}} 水印",
+      "description": "实施 Java 在 {{FileFormatUp}} 张图像中创建和管理水印，确保为数字内容创作者提供最佳保护和品牌推广。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 提供了强大的 Java 工具包，用于在 {{FileFormatUp}} 张图像中嵌入水印，这种格式在网络开发人员和数字营销人员中越来越受欢迎。此 API 便于添加可见和不可见的水印，专为保护版权和验证图像来源而量身定制。自定义水印设置以包括文本、徽标或数字签名，同时保持 WEBP 文件的高压缩效率。动态不透明度控制、水印缩放和精确定位等高级功能有助于保持图像美感和清晰度，确保无缝集成到各种数字平台中。{{ProdShortName}} 兼容 Java 8 及更高版本，对于任何希望有效保护图像资产并从中获利的开发人员来说都是必不可少的。"
+    },
+    "formats": {
+      "title": "使用 Java 保护 {{FileFormatUp}} 个文件",
+      "description": "使用 Java 向 {{FileFormatUp}} 张图像应用高级、谨慎的水印。定制水印属性以有效保护和增强数字版权。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "用 Java 给 {{FileFormatUp}} 电子表格加水印",
+      "description": "利用 Java 向 {{FileFormatUp}} 文件应用自定义水印，保护 Excel 和 OpenOffice 文档。"
+    },
+    "header": {
+      "title": "Excel 的基于 Java 的水印",
+      "description": "使用 Java 在 {{FileFormatUp}} 个文件中添加水印，以增强 Excel 和 OpenOffice 表格的文档安全性，非常适合财务和机密数据。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Java 名开发人员提供了将水印集成到 {{FileFormatUp}} 文件中的功能，同时支持 Excel 和 OpenOffice 格式。该API允许嵌入既可见又微妙的水印，从而确保在不改变文档可用性的情况下保护敏感信息。主要功能包括自定义水印文本、图像和位置的功能，可以根据文档的内容或用户权限有条件地应用水印文本、图像和位置。这使其成为需要严格数据保护措施的环境中的应用的理想之选，例如银行、法律和学术部门。{{ProdShortName}} 支持 Java 8 及更高版本，能够处理不同操作系统的复杂水印需求。"
+    },
+    "formats": {
+      "title": "使用 Java 增强 Excel 文档安全性",
+      "description": "使用可自定义 Java 实现的水印保护您的 Excel 和 OpenOffice 文档，确保数据完整性和版权保护。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "使用 Java 进行高级 {{FileFormatUp}} 水印",
+      "description": "使用 Java 在 {{FileFormatUp}} 文件中嵌入水印，从而提高文档安全性。"
+    },
+    "header": {
+      "title": "Java 高级 Excel 表格的水印",
+      "description": "使用 Java 驱动的水印保护您的 Excel {{FileFormatUp}} 张页面。为公司、财务和学术文件量身定制，以保护敏感数据。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Java 名开发人员能够使用动态水印功能强制执行 {{FileFormatUp}} 格式的数据保护。该API专为满足 Excel 用户的现代需求而设计，可无缝集成，以应用自定义水印，在不影响数据可见性的情况下补充文档的设计。优化水印以实现透明度、分层或色彩混合，使其仅在必要时才引人注目。该工具对于处理专有财务模型、战略规划文件或任何需要保密的敏感信息的专业人员来说是必不可少的。{{ProdShortName}} 兼容 Java 8 及更高版本，将强大的水印支持扩展到微软 Excel 和兼容的电子表格应用程序。"
+    },
+    "formats": {
+      "title": "使用 Java 水印保护 {{FileFormatUp}} 个文件",
+      "description": "使用 Java 在 {{FileFormatUp}} 个文档中加入微妙而有效的水印，非常适合在高风险环境中保护 Excel 个电子表格。"
+    }
+  }
+}

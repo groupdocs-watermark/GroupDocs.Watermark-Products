@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Generieren Sie Textwasserzeichen für {{FileFormatUp}}",
+    "comment_2": "Quelldatei an Watermarker-Instanz übergeben",
+    "comment_3": "Generieren Sie ein Textwasserzeichen und legen Sie seine Optionen fest",
+    "comment_4": "{{FileFormatUp}} Ergebnis erhalten"
+  },
+  "steps": {
+    "title": "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für {{FileformatCap}} Formate",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.",
+      "step_1": "**Wasserzeichen einleiten:** Starten Sie die Dokumentenverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie die {{FileformatCap}} -Datei, die durch generierte Wasserzeichen gesichert werden soll, an den Konstruktor übergeben.",
+      "step_2": "**Haupt-Wasserzeichen-Objekt erstellen:** Verschönern Sie Ihre Dokumente, indem Sie maßgeschneiderte **Wasserzeichen**-Objekte formen. Sie sind nicht nur Seiten, sondern lassen sich auch nahtlos in systemeigene Elemente wie Anlagen oder Überschriften integrieren und sorgen so für Sicherheit und Professionalität.",
+      "step_3": "**Verfeinern Sie die Wasserzeichen-Attribute:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Integrität Ihrer Dokumente und macht Ihre Dateien unverkennbar zu Ihren eigenen.",
+      "step_4": "**Präzise Implementierung:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen einwandfrei anzubringen. Ob einzeln oder mehrfach, jedes Wasserzeichen bietet eine zusätzliche Schutzschicht. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten, sicheren Ort aufzubewahren."
+    }
+  },
+  "more_features": {
+    "title": "Fortgeschrittene Wasserzeichen-Techniken",
+    "description": "Entdecken Sie modernste Wassermarkierungstechniken mit unserer robusten API, die so konzipiert ist, dass sie sich nahtlos in .NET Umgebungen integrieren lässt. Perfekt zum Hinzufügen anspruchsvoller und sicherer Wasserzeichen zu einer Vielzahl von Dokumenttypen, einschließlich Präsentationen, Rechtsdokumenten und technischen Diagrammen.",
+    "image_description": "Raffiniertes Wasserzeichen",
+    "feature_1": {
+      "title": "Dynamische Platzierung von Wasserzeichen",
+      "content": "Unsere API bietet dynamische Platzierungsoptionen, die die Positionierung von Wasserzeichen an den Dokumentinhalt anpassen. Diese Funktion ist ideal für komplexe Layouts in Präsentationen und technischen Diagrammen und stellt sicher, dass Wasserzeichen immer optimal platziert werden, ohne die Lesbarkeit der zugrunde liegenden Informationen zu beeinträchtigen."
+    },
+    "feature_2": {
+      "title": "Verbesserte Sicherheit mit unsichtbaren Wasserzeichen",
+      "content": "Implementieren Sie unsichtbare Wasserzeichen, die einen robusten Schutz bieten, ohne das Erscheinungsbild Ihrer Dokumente zu verändern. Diese Wasserzeichen sind so konzipiert, dass sie nur durch bestimmte Softwaretools erkannt werden können. Daher eignen sie sich perfekt zum Schutz vertraulicher Informationen in Rechts- und Finanzdokumenten."
+    },
+    "feature_3": {
+      "title": "Automatisierte Wasserzeichen-Workflows",
+      "content": "Optimieren Sie Ihre Dokumentensicherheitsprozesse mit automatisierten Wasserzeichen-Workflows. Konfigurieren Sie Regeln, die auf Dokumenttyp, Inhaltssensibilität und Benutzerzugriffsebenen basieren, um Wasserzeichen automatisch anzubringen und sicherzustellen, dass konsistente Sicherheitsprotokolle für alle Dokumente eingehalten werden."
+    },
+    "code_1": {
+      "title": "Wasserzeichen für PDF Anlagen generieren",
+      "content": "Dieses Beispiel zeigt, wie Wasserzeichen in allen PDF Anhängen generiert werden",
+      "comment_1": "PDF Dokument laden",
+      "comment_2": "Textwasserzeichen generieren",
+      "comment_3": "Fügen Sie geeigneten Anhängen ein Wasserzeichen hinzu",
+      "comment_4": "Verarbeitet speichern PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Generieren Sie einzigartige Wasserzeichen für Excel Tabellen",
+      "description": "Automatisieren Sie dynamische Wasserzeichen in Excel mithilfe von Node.js. Wenden Sie konsistente Wasserzeichen einfach auf mehrere Dateien an."
+    },
+    "header": {
+      "title": "Node.js-gesteuerte Wasserzeichen in Tabellenkalkulationsdokumenten",
+      "description": "Verwenden Sie Node.js, um benutzerdefinierte Text- oder Bildwasserzeichen nahtlos in Excel Tabellen zu implementieren und so Ihre Finanz- und Analysedaten mühelos zu schützen.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "{{ProdFullName}} ist ein leistungsstarkes Tool für Backend-Entwickler, die einzigartige Wasserzeichen in Excel - und OpenOffice-Tabellen integrieren möchten. Diese vielseitige API ermöglicht das Einbetten von Text- und Bildwasserzeichen, die in Bezug auf Schriftart, Größe, Farbe und Opazität vollständig angepasst werden können. Das Tool ist mit einer Reihe von Tabellenkalkulationsformaten kompatibel, darunter XLS, XLSX und ODS. Es stellt sicher, dass Wasserzeichen präzise angebracht werden, wobei die Integrität und das Layout Ihrer Tabellen erhalten bleiben und gleichzeitig ein robuster Schutz vor unbefugter Verwendung geboten wird."
+    },
+    "formats": {
+      "title": "Node.js Techniken für Excel Wasserzeichen",
+      "description": "Verbessern Sie die Sicherheit und Datenintegrität von Tabellen mit unserer Node.js API. Fügen Sie Excel - und OpenOffice-Dateien schnell benutzerdefinierte Wasserzeichen hinzu und schützen Sie sich so vor unbefugten Änderungen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Erstellen Sie Wasserzeichen-Vorlagen für Word",
+      "description": "Erstellen Sie Node.js-gestützte Wasserzeichenvorlagen für Word, DOC und DOCX Dateien. Verbessern Sie die Dokumentensicherheit nahtlos."
+    },
+    "header": {
+      "title": "Benutzerdefinierte Wasserzeichenvorlagen für Word mit {{EnvName}} erstellen",
+      "description": "Stellen Sie mithilfe von Node.js erweiterte, benutzerdefinierte Wasserzeichenvorlagen in verschiedenen Word -kompatiblen Formaten bereit. Verbessern Sie die Dokumentenintegrität und die Unternehmensidentität mit minimalem Aufwand.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Entwicklern, anspruchsvolle Wasserzeichenvorlagen für Word Dokumente schnell und effizient zu erstellen. Diese API unterstützt eine Vielzahl von Dokumentformaten, darunter DOC, DOCX, und ist mit OpenOffice-Textdateien kompatibel. Passen Sie Ihre Wasserzeichen mit umfangreichen Designoptionen wie Textschriftarten, Bildskalierung und Transparenzstufen an. Wenden Sie diese Vorlagen dynamisch auf Ihre Dokumente an, um geistiges Eigentum zu schützen, die Echtheit zu bestätigen und die visuelle Attraktivität zu verbessern."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Powered Watermarks in Word",
+      "description": "Unser Node.js Toolkit bietet eine flexible Plattform für die Automatisierung der Wasserzeichenintegration in Word Dokumente. Passen Sie Wasserzeichen an und bringen Sie sie an, um Ihre Dokumente zu schützen und Ihre Markenpräsenz effektiv zu verbessern."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Dynamisches Wasserzeichen für den Schutz von Bildern",
+      "description": "Schützen Sie Ihre Bildrechte mit dem dynamischen Wasserzeichen von Node.js. Unterstützt JPG, PNG, WEBP und mehr."
+    },
+    "header": {
+      "title": "Dynamisches Wasserzeichen für den Bildschutz mit Node.js",
+      "description": "Verwenden Sie unser Toolkit Node.js, um dynamische, sichere Wasserzeichen für Ihre Bilder zu generieren. Dabei werden Formate wie JPG, PNG und WEBP unterstützt. Stellen Sie mit erweiterten Schutzfunktionen sicher, dass Ihre Bilder urheberrechtlich geschützt sind.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Mit {{ProdFullName}} ist das Anwenden von Wasserzeichen auf Bilder einfach und anpassbar. Dieses Toolkit unterstützt eine Vielzahl von Bildformaten, darunter herkömmliche Rasterbilder wie JPG und PNG sowie neuere Formate wie WEBP. Es ermöglicht Entwicklern, dynamisch Wasserzeichen hinzuzufügen, die nicht nur sicher sind, sondern sich auch auf natürliche Weise in den Bildinhalt einfügen und so einen robusten Schutz vor Urheberrechtsverletzungen bieten, ohne die ursprüngliche Attraktivität des Bildes zu beeinträchtigen."
+    },
+    "formats": {
+      "title": "Implementieren Sie tolle Wasserzeichen in Bildern über {{ProgLang}}",
+      "description": "Schützen Sie Ihre Bildrechte effektiv mit unserer Node.js API. Fügen Sie dynamisch Wasserzeichen zu JPG, PNG und WEBP-Dateien hinzu und stellen Sie so sicher, dass jedes Bild für seinen rechtmäßigen Besitzer gekennzeichnet ist."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Sichere Fotos mit erweitertem Wasserzeichen in Node.js",
+      "description": "Beschleunigen Sie den Wasserzeichenvorgang für Fotos mit Node.js. Implementieren Sie schnelle, benutzerfreundliche Codierungslösungen."
+    },
+    "header": {
+      "title": "Sichere Fotos mit erweitertem Wasserzeichen in {{EnvName}}",
+      "description": "Setzen Sie mit Node.js fortschrittliche Wasserzeichen-Strategien in Ihren Fotoverarbeitungs-Workflows ein. Unser Toolkit unterstützt umfangreiche Anpassungen für JPG, PNG und WEBP-Bilddateien.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Mit {{ProdFullName}} ist das Sichern Ihrer Fotos mit fortschrittlichen Wasserzeichen einfach und flexibel. Diese API ermöglicht das schnelle Anbringen von Text- oder Bildwasserzeichen, die an die Ästhetik des zugrunde liegenden Fotos angepasst werden können. Sie unterstützt verschiedene Bildformate und ermöglicht eine präzise Steuerung der Platzierung und des Aussehens von Wasserzeichen. Dies schützt vor unbefugter Verwendung und bewahrt gleichzeitig die Integrität des Fotos."
+    },
+    "formats": {
+      "title": "Schützendes Wasserzeichen in {{ProgLang}} für Fotos",
+      "description": "Verbessern Sie Ihre Fotosicherheit mit anpassbaren, fortschrittlichen Wasserzeichen-Techniken in Node.js. Schützen Sie Ihre Fotos in verschiedenen Formaten, einschließlich JPG, PNG und WEBP, ohne Abstriche bei der Qualität machen zu müssen."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Erstellen Sie professionelle Wasserzeichen für Diashows mit Node.js",
+      "description": "Entwerfen Sie raffinierte Wasserzeichen für Ihre Präsentationen. Verbessern Sie die Zuschauerbindung und die Dokumentensicherheit."
+    },
+    "header": {
+      "title": "Erstellen Sie professionelle Wasserzeichen für Diashows mit Node.js",
+      "description": "Implementieren Sie dynamische, benutzerdefinierte Text- oder Bildwasserzeichen in Ihren Diashow-Präsentationen mithilfe unserer robusten Node.js API. Diese Wasserzeichen eignen sich perfekt für PPTX Dateien und fügen sich nahtlos in Ihre Folien ein.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Mit {{ProdFullName}} wird das Erstellen von Wasserzeichen für Ihre Diashow-Präsentationen zu einem einfachen und effizienten Vorgang. Dieses leistungsstarke Tool ist mit PPTX Folien und anderen gängigen Präsentationsformaten kompatibel und bietet erweiterte Funktionen zum Einbetten von Wasserzeichen, die nicht vom Inhalt ablenken, sondern ihn aufwerten. Passen Sie Ihre Wasserzeichen so an, dass Text, Logos oder andere Grafiken angezeigt werden, die auf Eigentum hinweisen und Urheberrechtsdiebstahl verhindern, während Sie gleichzeitig die höchste Qualität Ihrer Folien beibehalten."
+    },
+    "formats": {
+      "title": "Node.js Powered Watermark Integration für Präsentationen",
+      "description": "Sichern und professionalisieren Sie Ihre Präsentationen mit Node.js. Unsere API ermöglicht es Ihnen, PPTX Dateien mit maßgeschneiderten Wasserzeichen zu versehen und so die Sicherheit und Markenpräsenz effektiv zu verbessern."
+    }
+  }
+}

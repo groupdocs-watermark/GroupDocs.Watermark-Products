@@ -1,0 +1,238 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:38:57
+draft: false
+lang: id
+format: Word
+product: "Watermark"
+product_tag: "watermark"
+platform: "Java"
+platform_tag: "java"
+
+############################# Head ############################
+head_title: "Kekuatan Pencarian Watermark Dokumen Word"
+head_description: "Rasakan kemampuan tak tertandingi untuk mencari dan mengelola tanda air di berbagai jenis dokumen dengan GroupDocs.Watermark for Java."
+
+############################# Header ############################
+title: "Temukan Pencarian Tanda Air Lanjutan Word" 
+description: "Mulailah perjalanan untuk menjelajahi fitur pencarian tanda air mutakhir yang ditawarkan oleh GroupDocs.Watermark for Java."
+subtitle: "GroupDocs.Watermark for Java" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Dapatkan dari Maven"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "Tentang GroupDocs.Watermark for Java"
+    link: "/watermark/java/"
+    link_title: "Pelajari selengkapnya"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       GroupDocs.Watermark for Java menyediakan solusi yang kuat untuk mengelola tanda air menggunakan Java. Pengembang dapat dengan mudah membuat, mengedit, mencari, dan menghapus tanda air dari dokumen dalam format file populer. Ini mendukung tanda air teks dan gambar di berbagai jenis dokumen, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. GroupDocs.Watermark for Java terintegrasi dengan mulus dengan semua sistem operasi utama dan versi Java.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Cari tanda air di Word file menggunakan Java"
+    content: |
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** memudahkan pencarian tanda air yang sudah ditempatkan dalam dokumen bisnis. Unduh paket kami dan libatkan ke dalam aplikasi Java Anda untuk memanfaatkan manfaatnya.
+      
+      1. **Watermarker**. Dimungkinkan untuk menyediakan hanya jalur file, aliran file atau aliran byte.
+      2. **SearchCriteria**. Berikan gambar sebagai contoh untuk mendapatkan watermark gambar serupa. Jika Anda ingin mencari tanda air tekstual berikan teks, font, warna dan opsi lainnya.
+      3. **Telusur** dari objek**Watermarker**. Anda akan diberikan koleksi objek yang dapat diproses sebagai tanda air.
+      4. Akhirnya, Anda bebas melakukan dengan hasil pencarian apa pun yang Anda inginkan. Sangat mungkin, untuk menghapus tanda air yang ditemukan atau mengedit propertinya. Ubah ukuran atau teks, misalnya.
+   
+    code:
+      platform: "net"
+      copy_title: "Salin"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-watermark</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "klik untuk menyalin"
+        copy_done: "menyalin"
+      links:
+        #  loop
+        - title: "Lebih banyak contoh"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/watermark/java/"
+          
+      content: |
+        ```java {style=abap}
+
+        // Cari tanda air teks di dokumen WORD
+
+        // Dapatkan instance Watermarker untuk dokumen WORD
+        Watermarker watermarker = new Watermarker("input.docx");
+
+        // Cari tanda air berdasarkan kriteria
+        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
+        imageSearchCriteria.setMaxDifference(0.9);
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
+
+        // Proses tanda air
+        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
+        
+        ```   
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Harness Java untuk Pencarian Watermark Lanjutan dengan GroupDocs.Watermark"
+  description: "Memanfaatkan GroupDocs.Watermark Java API untuk melakukan pencarian canggih untuk tanda air dalam dokumen di berbagai format di Java."
+  image: "/img/watermark/features_search.webp" # 500x500 px
+  image_description: "Pencarian Watermark Tingkat Lanjut"
+  features:
+    # feature loop
+    - title: "Java -Teknik Pencarian Watermark yang Ditingkatkan"
+      content: "Berdayakan Java aplikasi Anda dengan teknik pencarian lanjutan menggunakan GroupDocs.Watermark. API kami memungkinkan pencarian mendalam untuk tanda air tertanam di berbagai jenis dokumen, menawarkan presisi dan efisiensi."
+
+    # feature loop
+    - title: "Identifikasi Watermark dengan Kueri Kustom Java"
+      content: "Sesuaikan Java kueri Anda untuk mendeteksi tanda air dengan lebih efektif. Gunakan GroupDocs.Watermark untuk mengurutkan dan memfilter tanda air berdasarkan properti seperti transparansi, metode penyematan, dan konten teks atau gambar."
+
+    # feature loop
+    - title: "Manajemen Watermark Dokumen yang Efisien"
+      content: "Sederhanakan pengelolaan tanda air di aplikasi Java Anda. Dengan GroupDocs.Watermark, temukan, tinjau, dan analisis tanda air dengan cepat untuk memastikan integritas dokumen dan kepatuhan terhadap pedoman branding."
+      
+  code_samples:
+    # code sample loop
+    - title: "Java Contoh Kode: Pencarian Tanda Air Cerdas"
+      content: |
+        Pelajari cara menerapkan pencarian tanda air cerdas menggunakan Java dengan GroupDocs.Watermark, menunjukkan kemampuan API untuk menangani operasi pencarian yang kompleks dan manajemen hasil.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Siapkan lingkungan Java dan muat dokumen dari berbagai sumber
+        PdfLoadOptions loadOptions = new PdfLoadOptions();
+        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+
+        //  Tentukan parameter pencarian lanjutan untuk menemukan jenis tanda air tertentu
+        TextSearchCriteria textSearchCriteria = new TextSearchCriteria("Company Name");
+
+        //  Jalankan pencarian dan proses tanda air yang ditemukan untuk tinjauan terperinci
+        RotateAngleSearchCriteria rotateAngleSearchCriteria = new RotateAngleSearchCriteria(30, 60);
+        SearchCriteria combinedSearchCriteria = imageSearchCriteria.or(textSearchCriteria)
+                                                                   .and(rotateAngleSearchCriteria);
+
+        //  Simpan atau perbarui dokumen berdasarkan hasil pencarian watermark
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search(combinedSearchCriteria);
+        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Watermark secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Maven unduhan"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      color: "red"
+        #  loop
+    - title: "Perizinan"
+      link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Pencarian Tanda Air Utama di Seluruh Format"
+    exclude: "WORD"
+    description: "Membuka potensi GroupDocs.Watermark for Java untuk mencari dan memanipulasi tanda air dalam berbagai format file yang didukung."
+    items: 
+        # format loop 1
+        - name: "Tanda air PDF"
+          format: "PDF"
+          link: "/watermark/java/search//pdf/"
+          description: "Adobe Portable Format Dokumen"
+
+        # format loop 2
+        - name: "Tanda air Word"
+          format: "WORD"
+          link: "/watermark/java/search//word/"
+          description: "MS Word dan dokumen Open Office"
+          
+        # format loop 3
+        - name: "Tanda air Excel"
+          format: "EXCEL"
+          link: "/watermark/java/search//excel/"
+          description: "MS Excel dan spreadsheet Open Office"
+
+        # format loop 4
+        - name: "Tanda air PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/java/search//powerpoint/"
+          description: "MS PowerPoint dan presentasi Open Office"
+
+        # format loop 5
+        - name: "Tanda air DOCX"
+          format: "DOCX"
+          link: "/watermark/java/search//docx/"
+          description: "Microsoft Word Buka Dokumen XML"
+          
+        # format loop 6
+        - name: "Tanda air PPTX"
+          format: "PPTX"
+          link: "/watermark/java/search//pptx/"
+          description: "PowerPoint Presentasi XML Terbuka"
+          
+        # format loop 7
+        - name: "Tanda air XLSX"
+          format: "XLSX"
+          link: "/watermark/java/search//xlsx/"
+          description: "Microsoft Excel Buka Spreadsheet XML"
+
+        # format loop 8
+        - name: "Tanda air DOC"
+          format: "DOC"
+          link: "/watermark/java/search//doc/"
+          description: "Microsoft Word 97 - 2007 Dokumen"
+
+        # format loop 9
+        - name: "Tanda air XLS"
+          format: "XLS"
+          link: "/watermark/java/search//xls/"
+          description: "Microsoft Excel Buku Kerja 97-2003"
+
+        # format loop 10
+        - name: "Tanda air PPT"
+          format: "PPT"
+          link: "/watermark/java/search//ppt/"
+          description: "PowerPoint Presentasi 97-2003"
+
+        # format loop 11
+        - name: "Tanda air RTF"
+          format: "RTF"
+          link: "/watermark/java/search//rtf/"
+          description: "Format Teks Kaya"
+
+---

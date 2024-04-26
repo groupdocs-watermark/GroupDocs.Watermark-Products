@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Hasilkan tanda air teks untuk {{FileFormatUp}}",
+    "comment_2": "Berikan file sumber ke instance Watermarker",
+    "comment_3": "Hasilkan tanda air teks dan atur opsinya",
+    "comment_4": "Dapatkan hasil {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Dokumen Bisnis Aman: Hasilkan Watermark untuk Format {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Suntikkan API kami ke aplikasi Anda dan buat tanda air untuk banyak format file yang didukung.",
+      "step_1": "**Mulai Watermarking:** Mulai pemrosesan dokumen dengan kelas**Watermarker** yang menyediakan fitur utama kami. Buat instance dengan meneruskan ke konstruktor file {{FileformatCap}} yang seharusnya diamankan oleh tanda air yang dihasilkan.",
+      "step_2": "**Buat objek Watermark utama:** Tingkatkan dokumen Anda dengan memahat objek**Watermark** yang dipesan lebih dahulu. Di luar halaman belaka, mereka berintegrasi dengan mulus ke elemen asli seperti lampiran atau header, menambahkan lapisan keamanan dan profesionalisme.",
+      "step_3": "**Sempurnakan Atribut Tanda Air:** Sempurnakan tanda air Anda dengan presisi, sesuaikan dimensi, penyelarasan, dan skema warna. Setiap detail meningkatkan integritas dokumen, menjadikan file Anda jelas milik Anda.",
+      "step_4": "**Terapkan dengan Presisi:** Manfaatkan metode**Watermarker** untuk menerapkan tanda air khusus Anda dengan sempurna. Baik tunggal atau ganda, setiap tanda air menambahkan lapisan perlindungan ekstra. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah dan aman."
+    }
+  },
+  "more_features": {
+    "title": "Teknik Watermarking Tingkat Lanjut",
+    "description": "Temukan teknik watermarking mutakhir dengan API kami yang kuat, dirancang untuk diintegrasikan dengan mulus ke lingkungan .NET. Sempurna untuk menambahkan tanda air canggih dan aman ke beragam jenis dokumen termasuk presentasi, dokumen hukum, dan diagram teknis.",
+    "image_description": "Tanda Air yang Canggih",
+    "feature_1": {
+      "title": "Penempatan Tanda Air Dinamis",
+      "content": "API kami menawarkan opsi penempatan dinamis yang menyesuaikan posisi tanda air berdasarkan konten dokumen. Ideal untuk tata letak kompleks dalam presentasi dan diagram teknis, fitur ini memastikan bahwa tanda air selalu ditempatkan secara optimal tanpa mengganggu keterbacaan informasi yang mendasarinya."
+    },
+    "feature_2": {
+      "title": "Keamanan yang Ditingkatkan dengan Watermark Tak Terlihat",
+      "content": "Terapkan tanda air tak terlihat yang menawarkan perlindungan kuat tanpa mengubah tampilan dokumen Anda. Watermark ini dirancang untuk dideteksi hanya melalui alat perangkat lunak tertentu, menjadikannya sempurna untuk melindungi informasi sensitif dalam dokumen hukum dan keuangan."
+    },
+    "feature_3": {
+      "title": "Alur Kerja Watermarking Otomatis",
+      "content": "Sederhanakan proses keamanan dokumen Anda dengan alur kerja watermarking otomatis. Konfigurasikan aturan berdasarkan jenis dokumen, sensitivitas konten, dan tingkat akses pengguna untuk menerapkan tanda air secara otomatis, memastikan protokol keamanan yang konsisten dipertahankan di semua dokumen."
+    },
+    "code_1": {
+      "title": "Hasilkan tanda air untuk lampiran PDF",
+      "content": "Contoh ini menunjukkan cara menghasilkan tanda air di semua lampiran PDF",
+      "comment_1": "Muat dokumen PDF",
+      "comment_2": "Hasilkan tanda air teks",
+      "comment_3": "Tambahkan tanda air ke lampiran yang sesuai",
+      "comment_4": "Simpan diproses PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hasilkan Watermark unik untuk Excel Spreadsheet",
+      "description": "Otomatiskan watermarking dinamis di Excel menggunakan Node.js. Terapkan tanda air yang konsisten dengan mudah di beberapa file."
+    },
+    "header": {
+      "title": "Watermark yang digerakkan oleh Node.js dalam Dokumen Spreadsheet",
+      "description": "Manfaatkan Node.js untuk menerapkan teks kustom atau tanda air gambar secara mulus ke dalam lembar bentang Excel, mengamankan data keuangan dan analitis Anda dengan mudah.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "{{ProdFullName}} adalah alat canggih yang dirancang untuk pengembang backend yang ingin memasukkan tanda air unik ke dalam Excel dan spreadsheet OpenOffice. API serbaguna ini memungkinkan penyematan tanda air teks dan gambar yang dapat sepenuhnya disesuaikan dalam hal font, ukuran, warna, dan opasitas. Kompatibel dengan berbagai format spreadsheet termasuk XLS, XLSX, dan ODS, alat ini memastikan bahwa tanda air diterapkan dengan presisi, menjaga integritas dan tata letak spreadsheet Anda sambil menawarkan perlindungan yang kuat terhadap penggunaan yang tidak sah."
+    },
+    "formats": {
+      "title": "Teknik Node.js untuk Excel Watermarking",
+      "description": "Tingkatkan keamanan spreadsheet dan integritas data dengan API Node.js kami. Tambahkan tanda air khusus dengan cepat ke file Excel dan OpenOffice, melindungi dari perubahan yang tidak sah."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Buat Templat Watermark untuk Word",
+      "description": "Buat templat tanda air bertenaga Node.js untuk file Word, DOC, dan DOCX. Tingkatkan keamanan dokumen dengan mulus."
+    },
+    "header": {
+      "title": "Membuat Templat Tanda Air Kustom untuk Word dengan {{EnvName}}",
+      "description": "Terapkan templat tanda air khusus yang canggih di berbagai format yang kompatibel dengan Word menggunakan Node.js. Tingkatkan integritas dokumen dan identitas perusahaan dengan sedikit usaha.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} memberdayakan pengembang untuk membuat template watermark canggih untuk dokumen Word dengan cepat dan efisien. API ini mendukung beragam format dokumen, termasuk DOC, DOCX, dan kompatibilitas dengan file teks OpenOffice. Sesuaikan tanda air Anda dengan opsi desain yang luas seperti font teks, penskalaan gambar, dan tingkat transparansi. Terapkan template ini secara dinamis ke dokumen Anda untuk mengamankan kekayaan intelektual, mengonfirmasi keaslian, dan meningkatkan daya tarik visual."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Tanda Air Bertenaga di Word",
+      "description": "Toolkit Node.js kami menyediakan platform fleksibel untuk mengotomatiskan integrasi tanda air ke dalam dokumen Word. Sesuaikan dan terapkan tanda air yang melindungi dokumen Anda dan meningkatkan kehadiran merek Anda secara efektif."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Watermarking Dinamis untuk perlindungan Gambar",
+      "description": "Amankan hak cipta gambar Anda dengan watermarking dinamis Node.js. Mendukung JPG, PNG, WEBP dan banyak lagi."
+    },
+    "header": {
+      "title": "Watermarking Dinamis untuk Perlindungan Gambar dengan Node.js",
+      "description": "Gunakan toolkit Node.js kami untuk menghasilkan tanda air yang dinamis dan aman untuk gambar Anda, mendukung format seperti JPG, PNG, dan WEBP. Pastikan hak cipta gambar Anda dengan fitur perlindungan lanjutan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Dengan {{ProdFullName}}, menerapkan tanda air ke gambar mudah dan dapat disesuaikan. Toolkit ini mendukung berbagai format gambar, termasuk gambar raster tradisional seperti JPG dan PNG, serta format yang lebih baru seperti WEBP. Ini memungkinkan pengembang untuk secara dinamis menambahkan tanda air yang tidak hanya aman tetapi juga menyatu secara alami dengan konten gambar, memberikan perlindungan yang kuat terhadap pelanggaran hak cipta tanpa mengurangi daya tarik asli gambar."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark yang menakjubkan dalam Gambar melalui {{ProgLang}}",
+      "description": "Lindungi hak cipta gambar Anda secara efektif dengan API Node.js kami. Tambahkan tanda air secara dinamis ke file JPG, PNG, dan WEBP, memastikan setiap gambar ditandai untuk pemiliknya yang sah."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Amankan foto dengan Watermarking lanjutan di Node.js",
+      "description": "Percepat proses watermarking foto Anda dengan Node.js. Menerapkan solusi pengkodean yang cepat dan mudah digunakan."
+    },
+    "header": {
+      "title": "Amankan Foto dengan Watermarking Tingkat Lanjut di {{EnvName}}",
+      "description": "Terapkan strategi watermarking lanjutan dalam alur kerja pemrosesan foto Anda dengan Node.js. Toolkit kami mendukung penyesuaian ekstensif untuk file gambar JPG, PNG, dan WEBP.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Dengan {{ProdFullName}}, mengamankan foto Anda dengan tanda air canggih menjadi mudah dan fleksibel. API ini memungkinkan penerapan cepat teks atau tanda air berbasis gambar yang dapat disesuaikan agar sesuai dengan estetika foto yang mendasarinya. Ini mendukung beragam format gambar dan memberikan kontrol yang tepat atas penempatan dan penampilan tanda air, yang membantu melindungi dari penggunaan yang tidak sah sambil menjaga integritas foto."
+    },
+    "formats": {
+      "title": "Watermarking Pelindung di {{ProgLang}} untuk Foto",
+      "description": "Tingkatkan keamanan foto Anda dengan teknik watermarking canggih yang dapat disesuaikan di Node.js. Lindungi foto Anda di berbagai format, termasuk JPG, PNG, dan WEBP, tanpa mengorbankan kualitas."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Buat Watermark Profesional untuk tayangan slide dengan Node.js",
+      "description": "Rancang tanda air canggih untuk presentasi Anda. Tingkatkan keterlibatan pemirsa dan keamanan dokumen."
+    },
+    "header": {
+      "title": "Buat Watermark Profesional untuk Slideshow dengan Node.js",
+      "description": "Terapkan tanda air teks atau gambar kustom dinamis dalam presentasi tayangan slide Anda menggunakan API Node.js kami yang kuat. Sempurna untuk file PPTX, tanda air ini menyatu dengan mulus dengan slide Anda.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Dengan {{ProdFullName}}, membuat tanda air untuk presentasi slideshow Anda menjadi proses yang sederhana dan efisien. Alat canggih ini kompatibel dengan PPTX slide dan format presentasi populer lainnya, menawarkan fitur-fitur canggih untuk menyematkan tanda air yang tidak mengalihkan perhatian dari konten tetapi meningkatkannya. Sesuaikan tanda air Anda untuk menampilkan teks, logo, atau grafik lain yang menandakan kepemilikan dan mencegah pencurian hak cipta, sambil mempertahankan kualitas tertinggi slide Anda."
+    },
+    "formats": {
+      "title": "Integrasi Watermark Bertenaga Node.js untuk Presentasi",
+      "description": "Amankan dan profesionalisasikan presentasi Anda dengan Node.js. API kami memungkinkan Anda menambahkan tanda air yang disesuaikan ke file PPTX, meningkatkan keamanan dan kehadiran merek secara efektif."
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Dapatkan tanda air gambar ditempatkan di {{FileFormatUp}}",
+    "comment_2": "Buat objek Watermarker dengan jalur sumber",
+    "comment_3": "Dapatkan tanda air dengan hash gambar serupa",
+    "comment_4": "Memproses tanda air sesuai keinginan"
+  },
+  "steps": {
+    "title": "Dapatkan Watermark dari {{FileformatCap}} File Menggunakan {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** menawarkan solusi komprehensif untuk menempatkan tanda air dalam format dokumen bisnis populer. Dengan mengintegrasikan perpustakaan kami ke dalam {{EnvName}} aplikasi Anda, Anda dapat melengkapinya dengan kemampuan pencarian tanda air yang kuat.",
+      "step_1": "**Watermarker** dan berikan jalur file {{FileformatCap}}. Anda juga dapat menggunakan file yang disimpan sebagai aliran byte. Tindakan ini pada dasarnya memuat dokumen target untuk analisis watermark yang komprehensif.",
+      "step_2": "**SearchCriteria**. Anda dapat menentukan gambar untuk menemukan tanda air gambar serupa. Atau, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter relevan lainnya untuk menyempurnakan kriteria pencarian dan mencapai hasil yang lebih tepat.",
+      "step_3": "**Get** (atau konvensi penamaan serupa) dari objek**Watermarker** untuk memulai proses pengambilan tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili tanda air potensial, memfasilitasi pemrosesan lebih lanjut berdasarkan kebutuhan spesifik Anda.",
+      "step_4": "Kumpulan hasil tanda air memungkinkan Anda untuk mengontrol tanda air yang diidentifikasi dalam dokumen. Anda dapat menghapus tanda air yang tidak diinginkan atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran, posisi, atau konten teks, agar sesuai dengan kebutuhan Anda."
+    }
+  },
+  "more_features": {
+    "title": "Manfaatkan Node.js untuk Pencarian Watermark dengan {{ProdShortName}}",
+    "description": "Terapkan fungsi pencarian tanda air dinamis dan efisien dalam aplikasi Node.js Anda menggunakan {{ProdShortName}} dalam platform {{EnvName}}.",
+    "image_description": "Pencarian Tanda Air Node.js",
+    "feature_1": {
+      "title": "API Node.js untuk Pencarian Tanda Air Fleksibel",
+      "content": "Manfaatkan fleksibilitas Node.js dengan {{ProdShortName}} untuk mencari tanda air di berbagai format dokumen. Konfigurasikan pencarian dengan mudah agar sesuai dengan persyaratan tertentu seperti ukuran, jenis, atau konten."
+    },
+    "feature_2": {
+      "title": "Peningkatan Identifikasi Watermark dengan Node.js",
+      "content": "Tingkatkan pemrosesan dokumen Anda dengan mengidentifikasi tanda air secara akurat menggunakan Node.js. Manfaatkan API {{ProdShortName}} untuk mendeteksi tanda air bahkan dalam struktur dokumen yang kompleks."
+    },
+    "feature_3": {
+      "title": "Solusi Pencarian Watermark yang Dapat Diskalakan",
+      "content": "Skalakan solusi keamanan dokumen Anda dengan Node.js. {{ProdShortName}} memungkinkan pemrosesan kumpulan dokumen besar secara efisien, menjadikannya ideal untuk aplikasi tingkat perusahaan."
+    },
+    "code_1": {
+      "title": "Contoh Node.js: Cari dan Ambil Tanda Air",
+      "content": "Contoh Node.js ini menampilkan cara menggunakan {{ProdShortName}} untuk mencari dan mengambil tanda air, menunjukkan operasi pencarian yang efisien dan dapat diskalakan.",
+      "comment_1": "Siapkan lingkungan Node.js dan muat dokumen yang diperlukan",
+      "comment_2": "Konfigurasikan pencarian Anda untuk mengidentifikasi tanda air berdasarkan kriteria yang bervariasi",
+      "comment_3": "Jalankan pencarian tanda air dan kumpulkan data pada tanda air yang diidentifikasi",
+      "comment_4": "Memproses hasil untuk memodifikasi atau menghapus tanda air sesuai kebutuhan bisnis"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Ambil {{FileFormatUp}} Tanda Air Dokumen dengan Mudah",
+      "description": "Ambil tanda air dengan mudah dari dokumen dengan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Dapatkan Watermark dari {{FileFormatUp}} Dokumen",
+      "description": "Ambil tanda air dengan mudah menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Pelajari selengkapnya tentang {{ProdFullName}}",
+      "content": "Kelola tanda air dengan mudah di {{EnvName}} dengan kemampuan kuat {{ProdFullName}}. Sederhanakan operasi tanda air seperti menghasilkan, memperbarui, mendapatkan, dan menghapus di berbagai format file."
+    },
+    "formats": {
+      "title": "Sederhanakan Pengambilan Tanda Air",
+      "description": "Sederhanakan pengambilan tanda air di berbagai format file dengan {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Ekstrak Watermark dari {{FileFormatUp}} Dokumen dengan Mudah",
+      "description": "Ekstrak tanda air dari dokumen Anda dengan mudah menggunakan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Akses Watermark di {{FileFormatUp}} File",
+      "description": "Ambil tanda air dari dokumen {{FileFormatUp}} Anda dengan mudah dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Temukan {{ProdFullName}}",
+      "content": "Kelola tanda air dengan mudah dalam lingkungan {{EnvName}} Anda. {{ProdFullName}} memberdayakan Anda untuk melakukan berbagai operasi tanda air seperti membuat, memperbarui, mengambil, dan menghapus tanda air di berbagai format file."
+    },
+    "formats": {
+      "title": "Merampingkan Ekstraksi Tanda Air",
+      "description": "Sederhanakan proses mengekstraksi tanda air dari format file yang berbeda menggunakan {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Pengambilan Tanda Air Dokumen {{FileFormatUp}} yang Efisien",
+      "description": "Ambil tanda air secara efisien dari dokumen dengan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Ekstraksi Watermark yang Efisien dari {{FileFormatUp}} Dokumen",
+      "description": "Ekstrak tanda air secara efisien menggunakan pendekatan {{ProdFullName}} efisien.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh {{PackageStoreName}} paket"
+    },
+    "about": {
+      "title": "Informasi dasar {{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi tanpa batas untuk mengelola tanda air di {{EnvName}}. Sederhanakan proses ekstraksi dan manipulasi watermark di berbagai format file."
+    },
+    "formats": {
+      "title": "Merampingkan Penanganan Tanda Air",
+      "description": "Sederhanakan penanganan tanda air di berbagai format file dengan {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Manajemen Watermark Presentasi {{FileFormatUp}} yang mudah",
+      "description": "Kelola tanda air dalam dokumen dengan mudah dengan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Kontrol Watermark Sederhana untuk Presentasi {{FileFormatUp}}",
+      "description": "Kendalikan tanda air dengan mudah menggunakan pendekatan {{ProdFullName}} yang disederhanakan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratis {{PackageStoreName}} Unduh"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informasi",
+      "content": "Singkirkan kerumitan pengelolaan tanda air dengan {{ProdFullName}}. Tangani tugas watermark dengan mulus di berbagai format file dengan sedikit usaha."
+    },
+    "formats": {
+      "title": "Kontrol Watermark yang Mulus",
+      "description": "Kontrol tanda air dengan mulus di berbagai format file dengan {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Temukan Wawasan Watermark dalam {{FileFormatUp}} Presentasi",
+      "description": "Temukan wawasan berharga yang tersembunyi di dalam tanda air menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Temukan Wawasan Watermark Presentasi yang Berharga {{FileFormatUp}}",
+      "description": "Buka wawasan berharga yang tersembunyi di dalam tanda air menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} paket gratis"
+    },
+    "about": {
+      "title": "Dapatkan info {{ProdFullName}}",
+      "content": "Buka potensi {{ProdFullName}} dalam mengungkap wawasan berharga yang tersembunyi di dalam tanda air di {{EnvName}}. Ekstrak dan analisis tanda air dengan mudah dari berbagai format file."
+    },
+    "formats": {
+      "title": "Ekstrak Wawasan dari Tanda Air",
+      "description": "Ekstrak wawasan berharga dari tanda air di berbagai format file dengan {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Ekstraksi Watermark Dokumen {{FileFormatUp}} yang Efisien",
+      "description": "Ekstrak tanda air secara efisien dari dokumen menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Pengambilan Tanda Air Dokumen {{FileFormatUp}} yang efisien",
+      "description": "Ambil tanda air dengan mudah menggunakan pendekatan {{ProdFullName}} efisien.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Pelajari selengkapnya tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan kemampuan ekstraksi tanda air yang efisien untuk mengelola tanda air di {{EnvName}}. Merampingkan proses pengambilan tanda air di berbagai format file."
+    },
+    "formats": {
+      "title": "Ekstrak Tanda Air secara Efisien",
+      "description": "Ekstrak tanda air secara efisien dari format file yang berbeda dengan {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Mendapatkan Watermark dengan Mudah dari Dokumen {{FileFormatUp}}",
+      "description": "Dapatkan tanda air dengan cepat dari spreadsheet {{FileFormatUp}} Anda dengan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Akses & Dapatkan Watermark dari {{FileFormatUp}} Spreadsheet",
+      "description": "Ambil dan dapatkan tanda air dengan mudah dalam {{FileFormatUp}} dokumen Anda menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan {{ProdFullName}} Gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Buka Manajemen Tanda Air yang Kuat dengan {{ProdFullName}}",
+      "content": "Revolusi pengelolaan tanda air dalam alur kerja {{EnvName}} Anda. {{ProdFullName}} memberdayakan Anda untuk dengan mudah membuat, memperbarui, mengambil (mendapatkan), dan menghapus tanda air di berbagai format file, merampingkan pemrosesan dokumen Anda."
+    },
+    "formats": {
+      "title": "Mudah Mendapatkan Watermark dari Format File Apa Pun",
+      "description": "Sederhanakan pengambilan tanda air (get) di semua format file Anda dengan kekuatan {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Penanganan Watermark Spreadsheet {{FileFormatUp}} yang efisien",
+      "description": "Menangani tanda air secara efisien dalam dokumen dengan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Kontrol Watermark yang Efisien di {{FileFormatUp}} Spreadsheet",
+      "description": "Kendalikan tanda air secara efisien menggunakan pendekatan {{ProdFullName}} yang efisien.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh {{PackageStoreName}} paket"
+    },
+    "about": {
+      "title": "Informasi dasar {{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi efisien untuk mengelola tanda air di {{EnvName}}. Sederhanakan proses penanganan watermark di berbagai format file."
+    },
+    "formats": {
+      "title": "Merampingkan Kontrol Tanda Air",
+      "description": "Sederhanakan kontrol tanda air di berbagai format file dengan {{ProdFullName}}."
+    }
+  }
+}

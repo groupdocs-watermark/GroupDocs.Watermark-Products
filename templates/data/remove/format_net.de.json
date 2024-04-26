@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Bildwasserzeichen im {{FileFormatUp}} -Dokument entfernen",
+    "comment_2": "Instantiieren Sie einen Wassermarker, der ein {{FileFormatUp}} Dokument übergibt",
+    "comment_3": "Wasserzeichen entfernen, die im Dokument gefunden wurden",
+    "comment_4": "Speichern Sie das Dokument"
+  },
+  "steps": {
+    "title": "Programmgesteuertes Entfernen von Wasserzeichen aus {{FileformatCap}} Dokumenten mit {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** ermöglicht es {{EnvName}} Entwicklern, Wasserzeichen programmgesteuert aus verschiedenen {{FileformatCap}} Dokumenten zu entfernen. In diesem Handbuch wird der Prozess beschrieben:",
+      "step_1": "**Watermarker** angeben. Die Datei kann entweder als Bytestream, als Dateistream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
+      "step_2": "**SearchCriteria**-Objekts, um die spezifischen Wasserzeichen zu identifizieren, die entfernt werden müssen. Dieses Objekt ermöglicht das Filtern von Wasserzeichen auf der Grundlage von Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter zusammen mit Text- oder Formatierungsattributen für eine hochgranulare Suche verwenden.",
+      "step_3": "Nach einer erfolgreichen Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie den Entfernungsvorgang durchführen können.",
+      "step_4": "Wenn das Entfernen des Wasserzeichens abgeschlossen ist, behalten Sie das geänderte Dokument bei. Die API erleichtert die Speicherung entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts."
+    }
+  },
+  "more_features": {
+    "title": "Erweitertes Entfernen von Wasserzeichen mit {{ProgLang}} {{EnvName}} API | {{ProdShortName}}",
+    "description": "Nutzen Sie erweiterte Funktionen zum Entfernen von Wasserzeichen mit unserer {{ProgLang}} {{EnvName}} API. Diese API wurde für die nahtlose Integration mit {{EnvName}} Anwendungen entwickelt und erleichtert das Entfernen von Wasserzeichen aus PDF s- und Office-Dokumenten und gewährleistet so qualitativ hochwertige, nicht markierte Ausgaben für den professionellen Gebrauch.",
+    "image_description": "Wasserzeichen entfernen",
+    "feature_1": {
+      "title": "Präzises Entfernen von Wasserzeichen in {{EnvName}}",
+      "content": "Unsere {{ProgLang}} API ist so konzipiert, dass sie eine präzise Entfernung von Wasserzeichen ermöglicht und sicherstellt, dass Ihre Dokumente ihre ursprüngliche Qualität und ihr Originalformat behalten. Ideal für juristische, pädagogische und berufliche Dokumente, bei denen Klarheit und Authentizität entscheidend sind."
+    },
+    "feature_2": {
+      "title": "Automatisieren Sie das Löschen von Wasserzeichen durch {{ProgLang}}",
+      "content": "Steigern Sie die Effizienz Ihrer Anwendung mit Funktionen zum automatischen Löschen von Wasserzeichen. Unsere API ermöglicht die Verarbeitung umfangreicher Dokumentenstapel und erleichtert so umfangreiche Operationen, ohne die Leistung zu beeinträchtigen."
+    },
+    "feature_3": {
+      "title": "Dynamisches Bearbeiten und Löschen von Wasserzeichen",
+      "content": "Gewinnen Sie die Flexibilität, Wasserzeichen je nach den Anforderungen Ihrer Anwendung dynamisch zu bearbeiten oder vollständig zu entfernen. Diese Funktion unterstützt verschiedene Anpassungsoptionen, sodass {{EnvName}} Entwickler die Ästhetik und Integrität von Dokumenten auch bei unterschiedlichen Anforderungen beibehalten können."
+    },
+    "code_1": {
+      "title": "Wasserzeichen im Präsentationshintergrund entfernen",
+      "content": "Dieses Beispiel zeigt, wie das Hintergrundbild einer bestimmten Folie entfernt wird.",
+      "comment_1": "Präsentation laden",
+      "comment_2": "Holen Sie sich Präsentationsinhalte",
+      "comment_3": "Wasserzeichen für den Folienhintergrund entfernen",
+      "comment_4": "Dokument speichern"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Erweitertes Entfernen von {{FileFormatUp}} Wasserzeichen mit {{ProgLang}} {{EnvName}}",
+      "description": "Löschen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API nahtlos Wasserzeichen aus {{FileFormatUp}} Dokumenten und sorgen Sie so für saubere und professionell aussehende Dateien."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} für das Löschen von {{FileFormatUp}} Wasserzeichen",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen in {{FileFormatUp}} Dateien effektiv zu löschen oder zu bearbeiten — ideal, um eine makellose Dokumentformatierung beizubehalten.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet robuste Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu komplexen Änderungen — diese API ermöglicht es Entwicklern, die Ästhetik und Integrität von Dokumenten zu wahren und so den geschäftlichen, rechtlichen und akademischen Anforderungen gerecht zu werden."
+    },
+    "formats": {
+      "title": "Das Entfernen von Wasserzeichen in {{FileFormatUp}} -Dateien mit {{EnvName}} beherrschen",
+      "description": "Entdecken Sie die Funktionen der {{ProdFullName}} {{ProgLang}} API zum Verwalten und Entfernen von Wasserzeichen aus {{FileFormatUp}} Dateien, um die Sicherheit und Präsentation von Dokumenten zu verbessern, ohne Kompromisse bei der Qualität einzugehen."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Effizientes Entfernen von {{FileFormatUp}} Wasserzeichen mit {{ProgLang}} {{EnvName}}",
+      "description": "Entfernen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API nahtlos Wasserzeichen aus {{FileFormatUp}} Dokumenten und sorgen Sie so für saubere und professionell aussehende Dateien."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} für {{FileFormatUp}} Wasserzeichenmanagement",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen in {{FileFormatUp}} Dateien effektiv zu löschen oder zu bearbeiten — ideal, um eine makellose Dokumentformatierung beizubehalten.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} Herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet robuste Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu komplexen Änderungen — diese API ermöglicht es Entwicklern, die Ästhetik und Integrität von Dokumenten zu wahren und so den geschäftlichen, rechtlichen und akademischen Anforderungen gerecht zu werden."
+    },
+    "formats": {
+      "title": "Das Entfernen von Wasserzeichen in {{FileFormatUp}} -Dateien mit {{EnvName}} beherrschen",
+      "description": "Entdecken Sie die Funktionen der {{ProdFullName}} {{ProgLang}} API zum Verwalten und Entfernen von Wasserzeichen aus {{FileFormatUp}} Dateien, um die Sicherheit und Präsentation von Dokumenten zu verbessern, ohne Kompromisse bei der Qualität einzugehen."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Dokumenten mit {{ProgLang}} {{EnvName}} löschen",
+      "description": "Entfernen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API effizient Wasserzeichen aus {{FileFormatUp}} Dateien und sorgen Sie so für professionelle und makellose Dokumente."
+    },
+    "header": {
+      "title": "Entfernung von Wasserzeichen in {{FileFormatUp}} Dateien mit {{ProgLang}} {{EnvName}}",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen nahtlos aus {{FileFormatUp}} Dokumenten zu löschen — perfekt, um die Integrität und Klarheit von Dokumenten zu wahren.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenloser Download unter {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet leistungsstarke Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu fortgeschrittenen Bearbeitungen bietet diese API eine präzise Kontrolle über Wasserzeichenelemente und stellt sicher, dass Ihre {{FileFormatUp}} ihre ursprüngliche Qualität und ihr ursprüngliches Layout beibehalten."
+    },
+    "formats": {
+      "title": "Verbessern von {{FileFormatUp}} mit {{ProgLang}} {{EnvName}} Entfernung von Wasserzeichen",
+      "description": "Erfahren Sie, wie die {{ProdFullName}} {{ProgLang}} API den Prozess des Entfernens von Wasserzeichen aus {{FileFormatUp}} Dateien optimieren und so eine klare und professionelle Dokumentenausgabe gewährleisten kann."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Entfernung des Präsentationswasserzeichens für {{FileFormatUp}}",
+      "description": "Löschen Sie mit der {{ProgLang}} {{EnvName}} API effizient Wasserzeichen aus der Präsentationsdiashow und sorgen Sie so für klare und professionelle Präsentationen."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Löschen des Präsentationswasserzeichens {{ProgLang}} {{EnvName}}",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen effektiv aus {{FileFormatUp}} Dateien zu entfernen — perfekt, um die Integrität und visuelle Attraktivität Ihrer Präsentationen zu wahren.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenloser {{PackageStoreName}} Paket-Download"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet umfassende Tools für die Verwaltung von Wasserzeichen in PowerPoint Präsentationen. Ganz gleich, ob Sie Wasserzeichen entfernen, bearbeiten oder anpassen müssen, diese API bietet eine präzise Steuerung der Folienelemente und gewährleistet so Präsentationen in professioneller Qualität für Unternehmen, Bildung und mehr."
+    },
+    "formats": {
+      "title": "PowerPoint Präsentationen um {{ProgLang}} {{EnvName}} erweitern",
+      "description": "Erfahren Sie, wie die {{ProdFullName}} {{ProgLang}} API Ihnen helfen kann, Wasserzeichen aus {{FileFormatUp}} Dateien zu verwalten und zu entfernen, um wirkungsvolle und professionelle Präsentationen zu gewährleisten."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API zum Entfernen von PowerPoint Wasserzeichen",
+      "description": "Entfernen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API effizient Wasserzeichen von PowerPoint Folien und sorgen Sie so für klare und professionelle Präsentationen."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichen mit {{ProgLang}} {{EnvName}} entfernen",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen effektiv aus {{FileFormatUp}} Dateien zu entfernen — perfekt, um die Integrität und visuelle Attraktivität Ihrer Präsentationen zu wahren.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet umfassende Tools für die Verwaltung von Wasserzeichen in PowerPoint Präsentationen. Ganz gleich, ob Sie Wasserzeichen entfernen, bearbeiten oder anpassen müssen, diese API bietet eine präzise Steuerung der Folienelemente und gewährleistet so Präsentationen in professioneller Qualität für Unternehmen, Bildung und mehr."
+    },
+    "formats": {
+      "title": "PowerPoint Präsentationen um {{ProgLang}} {{EnvName}} erweitern",
+      "description": "Erfahren Sie, wie die {{ProdFullName}} {{ProgLang}} API Ihnen helfen kann, Wasserzeichen aus {{FileFormatUp}} Dateien zu verwalten und zu entfernen, um wirkungsvolle und professionelle Präsentationen zu gewährleisten."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} Entfernung von Wasserzeichen mit {{ProgLang}} {{EnvName}}",
+      "description": "Entfernen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API effizient Wasserzeichen aus {{FileFormatUp}} Dokumenten und sorgen Sie so für saubere und professionell aussehende Dateien."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Dokumenten von {{ProgLang}} {{EnvName}} verwalten",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen in {{FileFormatUp}} Dateien effektiv zu löschen oder zu bearbeiten — ideal, um eine makellose Dokumentformatierung beizubehalten.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet robuste Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu komplexen Änderungen — diese API ermöglicht es Entwicklern, die Ästhetik und Integrität von Dokumenten zu wahren und so den geschäftlichen, rechtlichen und akademischen Anforderungen gerecht zu werden."
+    },
+    "formats": {
+      "title": "Das Entfernen von Wasserzeichen in {{FileFormatUp}} -Dateien mit {{EnvName}} beherrschen",
+      "description": "Entdecken Sie die Funktionen der {{ProdFullName}} {{ProgLang}} API zum Verwalten und Entfernen von Wasserzeichen aus {{FileFormatUp}} Dateien, um die Sicherheit und Präsentation von Dokumenten zu verbessern, ohne Kompromisse bei der Qualität einzugehen."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Wasserzeichen in Excel {{FileFormatUp}} Tabellen löschen",
+      "description": "Löschen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API effizient Wasserzeichen aus {{FileFormatUp}} Dokumenten und sorgen Sie so für saubere und professionell aussehende Dateien."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Tabellen mit {{ProgLang}} {{EnvName}} entfernen",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen in {{FileFormatUp}} Dateien effektiv zu löschen oder zu bearbeiten — ideal, um eine makellose Dokumentformatierung beizubehalten.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet robuste Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu komplexen Änderungen — mit dieser API können Entwickler die Ästhetik und Integrität von Dokumenten wahren und so den geschäftlichen, finanziellen und Datenanalyseanforderungen gerecht werden."
+    },
+    "formats": {
+      "title": "Verwaltung einer {{FileFormatUp}} -Datei mit Löschen des Wasserzeichens mit {{EnvName}}",
+      "description": "Entdecken Sie die Funktionen der {{ProdFullName}} {{ProgLang}} API zum Verwalten und Entfernen von Wasserzeichen aus {{FileFormatUp}} Dateien, um die Sicherheit und Präsentation von Dokumenten zu verbessern, ohne Kompromisse bei der Qualität einzugehen."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API zum Entfernen von {{FileFormatUp}} Wasserzeichen",
+      "description": "Entfernen Sie mithilfe unserer {{ProgLang}} {{EnvName}} API effizient Wasserzeichen aus {{FileFormatUp}} Dokumenten und sorgen Sie so für saubere und professionell aussehende Dateien."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Wasserzeichenverwaltung mit {{ProgLang}} {{EnvName}}",
+      "description": "Verwenden Sie die {{ProdFullName}} {{ProgLang}} API, um Wasserzeichen in {{FileFormatUp}} Dateien effektiv zu löschen oder zu bearbeiten — ideal, um eine makellose Dokumentformatierung beizubehalten.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} Bibliothek",
+      "content": "Die {{ProdFullName}} {{ProgLang}} -Bibliothek bietet robuste Tools für die Verwaltung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Von einfachen Löschungen bis hin zu komplexen Änderungen — mit dieser API können Entwickler die Ästhetik und Integrität von Dokumenten wahren und so den geschäftlichen, finanziellen und Datenanalyseanforderungen gerecht werden."
+    },
+    "formats": {
+      "title": "Das Entfernen von Wasserzeichen in {{FileFormatUp}} -Dateien mit {{EnvName}} beherrschen",
+      "description": "Entdecken Sie die Funktionen der {{ProdFullName}} {{ProgLang}} API zum Verwalten und Entfernen von Wasserzeichen aus {{FileFormatUp}} Dateien, um die Sicherheit und Präsentation von Dokumenten zu verbessern, ohne Kompromisse bei der Qualität einzugehen."
+    }
+  }
+}

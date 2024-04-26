@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Thêm hình mờ văn bản vào {{FileFormatUp}}",
+    "comment_2": "Chuyển tệp để được đánh dấu vào Watermarker",
+    "comment_3": "Tạo hình mờ văn bản và thiết lập thuộc tính",
+    "comment_4": "Lưu tệp có hình mờ"
+  },
+  "steps": {
+    "title": "Thêm hình mờ vào tài liệu {{FileformatCap}} qua {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp các nhà phát triển {{EnvName}} dễ dàng thêm hình mờ các loại khác nhau vào các định dạng tệp doanh nghiệp phổ biến. Thêm thư viện của chúng tôi vào ứng dụng và tài liệu hình mờ của bạn trong một vài bước đơn giản như được liệt kê bên dưới.",
+      "step_1": "**Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "**Watermark** thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.",
+      "step_3": "Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, căn chỉnh trang (trên cùng, bên trái, trung tâm, v.v.), họ phông chữ và màu sắc, và nhiều thứ khác.",
+      "step_4": "**Watermarker** để thêm hình mờ mới. Bạn có thể thêm nhiều hình mờ như bạn cần. Nên lưu tài liệu đã xử lý vào một vị trí khác."
+    }
+  },
+  "more_features": {
+    "title": "Nâng cao hình mờ của bạn một cách dễ dàng",
+    "description": "Khai thác sức mạnh của GroupDocs.Watermark để tạo, soạn và thêm hình mờ trên nhiều định dạng tài liệu. API này không chỉ tăng cường bảo mật tài liệu mà còn bảo vệ tài sản trí tuệ của bạn bằng cách nhúng hình mờ có thể tùy chỉnh vừa linh hoạt vừa mạnh mẽ.",
+    "image_description": "Thêm hình mờ",
+    "feature_1": {
+      "title": "Tùy chọn hình mờ đa năng.",
+      "content": "Khám phá một loạt các tùy chọn hình mờ với GroupDocs.Watermark. Từ việc điều chỉnh độ mờ đục và xoay chuyển đến tỷ lệ kích thước theo tỷ lệ, API của chúng tôi cho phép bạn tùy chỉnh hình mờ chính xác theo nhu cầu của mình, đảm bảo rằng chúng kết hợp liền mạch với tài liệu của bạn trong khi vẫn duy trì tính toàn vẹn của nội dung."
+    },
+    "feature_2": {
+      "title": "Kiểu dáng hình mờ nâng cao.",
+      "content": "GroupDocs.Watermark cho phép bạn tạo kiểu hình mờ của mình với nhiều phông chữ, màu sắc và bóng khác nhau, làm cho chúng trở nên đặc biệt và khó xóa hơn. Nâng cao tính thẩm mỹ của các tài liệu và hình ảnh được bảo vệ của bạn với hình mờ thời trang phản ánh bản sắc và tính chuyên nghiệp của thương hiệu của bạn."
+    },
+    "feature_3": {
+      "title": "Ốp lát và định vị hình mờ",
+      "content": "Với GroupDocs.Watermark, triển khai các hiệu ứng ốp lát để bao phủ toàn bộ tài liệu của bạn, đảm bảo bảo vệ hoàn toàn. Đặt hình mờ chính xác ở vị trí bạn cần — vị trí trung tâm, góc hoặc tùy chỉnh. Các tùy chọn định vị linh hoạt của chúng tôi giúp bảo vệ tài liệu của bạn khỏi việc sử dụng và sao chép trái phép."
+    },
+    "code_1": {
+      "title": "PDF hình mờ chú thích",
+      "content": "Ví dụ này cho thấy cách thêm chú thích hình mờ vào tài liệu PDF",
+      "comment_1": "Tải tài liệu dưới dạng PDF",
+      "comment_2": "Tạo hình mờ dựa trên chú thích PDF",
+      "comment_3": "Thiết lập tùy chọn hình mờ",
+      "comment_4": "Thêm hình mờ văn bản vào tài liệu kết quả"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Tạo hình mờ trong {{FileformatCap}} Bảng tính cho Java",
+      "description": "Dễ dàng triển khai tạo hình mờ văn bản và hình ảnh trong {{FileformatCap}} với Java để bảo vệ bảng tính dữ liệu {{FileformatCap}} của bạn"
+    },
+    "header": {
+      "title": "Tự động hóa {{FileformatCap}} Watermarking với Java Code",
+      "description": "Triển khai hình mờ văn bản hoặc hình ảnh tùy chỉnh trong bảng tính {{FileformatCap}} bằng cách sử dụng Java. Hướng dẫn này cung cấp các hướng dẫn từng bước để tăng cường bảo mật tài liệu và xây dựng thương hiệu, phù hợp với nhiều nhu cầu chuyên nghiệp khác nhau.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} thư viện",
+      "content": "{{ProdFullName}} cung cấp quản lý hình mờ toàn diện trong {{FileformatCap}} bảng tính, cho phép các nhà phát triển dễ dàng tạo, điều chỉnh và xóa hình mờ. Nó hỗ trợ tất cả các định dạng tệp Excel phổ biến, cho phép nhúng cả hình mờ văn bản và hình ảnh có thể được tùy chỉnh theo phông chữ, màu sắc, kích thước và vị trí. GroupDocs.Watermark cũng bao gồm các tính năng để tìm kiếm hình mờ, đảm bảo rằng hình mờ của bạn còn nguyên vẹn và chống giả mạo. Lý tưởng cho các ứng dụng yêu cầu cải tiến bảo mật tài liệu trong môi trường Java."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Kỹ thuật đánh dấu hình mờ {{FileformatCap}}",
+      "description": "Sử dụng GroupDocs.Watermark for Java, dễ dàng áp dụng hình mờ dựa trên văn bản hoặc hình ảnh vào {{FileformatCap}} bảng tính, tăng đáng kể bảo mật tài liệu và xây dựng thương hiệu như một phần của quy trình làm việc kinh doanh của bạn."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Soạn hình mờ phù hợp cho {{FileformatCap}} với Java",
+      "description": "Tích hợp hình mờ tùy chỉnh trong {{FileformatCap}} tài liệu bằng cách sử dụng Java. Tăng cường bảo mật và thêm nét chuyên nghiệp."
+    },
+    "header": {
+      "title": "Tạo hình mờ tùy chỉnh trong {{FileformatCap}} Tài liệu",
+      "description": "Bảo mật tệp {{FileformatCap}} của bạn với Java bằng cách nhúng hình mờ văn bản hoặc hình ảnh phù hợp. Tài nguyên này lý tưởng cho những người cần tăng cường bảo mật tài liệu và sự hấp dẫn trực quan với nỗ lực tối thiểu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép tạo hình mờ chính xác và linh hoạt trong {{FileformatCap}} tài liệu. Công cụ này cho phép Java nhà phát triển thêm hình mờ tùy chỉnh có thể bao gồm văn bản, hình ảnh hoặc logo, phù hợp với nhu cầu xây dựng thương hiệu cụ thể của bạn. Nó hỗ trợ tất cả các định dạng tài liệu Word chính và cung cấp các tính năng toàn diện để chỉnh sửa và xóa hình mờ, cũng như tìm kiếm thông qua các tài liệu để xác minh tính toàn vẹn của hình mờ. Tương thích với tất cả các hệ điều hành được hỗ trợ Java, API này hoàn hảo cho các doanh nghiệp muốn củng cố các giao thức bảo mật tài liệu của họ."
+    },
+    "formats": {
+      "title": "Cá nhân hóa tệp MS {{FileformatCap}} của bạn bằng cách tạo hình mờ {{ProgLang}}.",
+      "description": "{{ProdFullName}} cho phép các nhà phát triển dễ dàng chèn hình mờ văn bản hoặc hình ảnh tùy chỉnh vào tài liệu {{FileformatCap}}. Những cải tiến này không chỉ tăng cường bảo mật tài liệu mà còn làm phong phú thêm giao tiếp kinh doanh với một nét chuyên nghiệp."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Tạo hình mờ hiệu quả cho hình ảnh với Java",
+      "description": "Sử dụng Java để tạo hình mờ tinh vi cho Hình ảnh. Bảo vệ tài liệu của bạn và khẳng định bản quyền một cách hiệu quả."
+    },
+    "header": {
+      "title": "Hình ảnh Watermark liền mạch trong Java",
+      "description": "Triển khai hình mờ động trong các tệp hình ảnh của bạn bằng cách sử dụng Java. Công cụ này cho phép điều chỉnh định vị chính xác, khả năng mở rộng và tính minh bạch để tăng cường bảo mật và nhận dạng thương hiệu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java cho phép các nhà phát triển tạo và quản lý hình mờ hiệu quả trên các tệp hình ảnh. Với sự hỗ trợ cho một loạt các định dạng hình ảnh, người dùng có thể triển khai cả hình mờ văn bản và đồ họa hoàn toàn có thể tùy chỉnh về vị trí, tỷ lệ và độ trong suốt. Chức năng này rất quan trọng đối với các ứng dụng trong phương tiện kỹ thuật số, quảng cáo và phân phối nội dung trực tuyến, nơi mà tính toàn vẹn của thương hiệu và bản quyền là tối quan trọng. Ngoài ra, GroupDocs.Watermark bao gồm các tính năng để tìm kiếm và xóa hình mờ hiện có, cung cấp một công cụ linh hoạt để quản lý và bảo mật hình ảnh."
+    },
+    "formats": {
+      "title": "Hợp lý hóa hình ảnh bảo mật với Watermarking trong {{ProgLang}}",
+      "description": "Bộ công cụ Java của chúng tôi cho phép tạo hình mờ được cá nhân hóa cho bất kỳ định dạng hình ảnh nào, tăng cường bảo mật và xây dựng thương hiệu. Hình mờ phù hợp đảm bảo hình ảnh của bạn được nhận dạng và bảo vệ trên nhiều phương tiện khác nhau."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Dễ dàng đánh dấu hình ảnh nhanh chóng trong Java",
+      "description": "Hợp lý hóa việc bảo vệ ảnh của bạn bằng hình mờ. Nhanh chóng và đáng tin cậy."
+    },
+    "header": {
+      "title": "Công cụ hiệu quả Java để đánh dấu ảnh",
+      "description": "Thêm hình mờ vào ảnh của bạn một cách nhanh chóng và hiệu quả bằng cách sử dụng API Java của chúng tôi. Hoàn hảo để đảm bảo hình ảnh kỹ thuật số và tăng cường khả năng hiển thị thương hiệu với nỗ lực tối thiểu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} được tối ưu hóa để tạo hình mờ nhanh chóng và hiệu quả cho các tệp ảnh. Công cụ này cho phép tích hợp nhanh chóng các hình mờ văn bản và hình ảnh vào một loạt các định dạng ảnh, bao gồm JPEG, PNG và BMP. Tùy chỉnh hình mờ của bạn với các tùy chọn phong cách, độ trong suốt và vị trí để đảm bảo chúng kết hợp liền mạch mà không làm giảm chất lượng ảnh. Thích hợp cho các hoạt động khối lượng lớn, nó hỗ trợ xử lý hàng loạt để áp dụng hình mờ cho nhiều ảnh cùng một lúc, lý tưởng cho các doanh nghiệp và người sáng tạo nội dung kỹ thuật số, những người cần bảo vệ và thương hiệu tài sản hình ảnh của họ một cách hiệu quả"
+    },
+    "formats": {
+      "title": "Tích hợp hình mờ nhanh cho ảnh qua {{ProgLang}}",
+      "description": "Tận dụng API Java của chúng tôi để nhanh chóng áp dụng hình mờ cho ảnh, tăng cường bảo mật và nhận diện thương hiệu. Các quy trình tự động cho phép ứng dụng hàng loạt, đảm bảo kết quả nhất quán và chuyên nghiệp."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Tạo hình mờ nâng cao cho bài thuyết trình",
+      "description": "Nâng cao bản trình bày của bạn với các tính năng hình mờ nâng cao trong Java."
+    },
+    "header": {
+      "title": "Kỹ thuật tạo hình mờ thuyết trình nâng cao",
+      "description": "Thực hiện các chiến lược tạo hình mờ phức tạp trong bài thuyết trình của bạn với bộ công cụ Java của chúng tôi. Tùy chỉnh hình mờ để tăng cường bảo mật và thẩm mỹ chuyên nghiệp.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} được thiết kế để hỗ trợ khả năng hình mờ nâng cao cho các bài thuyết trình. Nó cho phép người dùng tích hợp hình mờ văn bản và hình ảnh tùy chỉnh dễ dàng vào bất kỳ định dạng trình bày nào. Các tính năng bao gồm các kiểu hình mờ tinh vi, xử lý hàng loạt tự động cho các bộ tệp lớn và các công cụ để quản lý hình mờ như sửa đổi và xóa. Thư viện Java này đảm bảo rằng các bài thuyết trình của bạn không chỉ an toàn khỏi đạo văn mà còn mang một giao diện chuyên nghiệp phù hợp với thương hiệu tổ chức của bạn."
+    },
+    "formats": {
+      "title": "Tăng cường bảo mật bản trình bày với hình mờ nâng cao trong {{ProgLang}}",
+      "description": "Kết hợp hình mờ tiên tiến liền mạch vào bản trình bày của bạn để bảo vệ và nâng cao tài liệu của bạn. API Java của chúng tôi cho phép tùy chỉnh chi tiết và xử lý tự động, lý tưởng để duy trì vẻ ngoài chuyên nghiệp trong khi bảo mật thông tin."
+    }
+  }
+}

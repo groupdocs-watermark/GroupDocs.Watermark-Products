@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "为 {{FileFormatUp}} 生成图像水印",
+    "comment_2": "实例化 Watermarker 传递源文件",
+    "comment_3": "通过提供图像文件生成水印",
+    "comment_4": "获取 {{FileFormatUp}} 个结果"
+  },
+  "steps": {
+    "title": "保护业务文档：生成 {{FileformatCap}} 个水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) 增强文档安全性：**-适用于 {{EnvName}} 的强大水印生成解决方案。",
+      "step_1": "**简化您的 {{EnvName}} 个应用程序中的安全水印：** **水印**类作为 {{ProdShortName}} API 的核心组件。该库简化了各种文档格式的水印生成，包括 {{FileformatCap}}。首先，请在处理您的文档之前创建一个 Watermarker 实例。在初始化期间向构造函数提供 {{FileformatCap}} 文件路径或流对象。",
+      "step_2": "**生成水印以增强保护：** 增强水印，使其完全符合您的安全需求。构造一个指定所需类型的**水印**对象。与传统的页面放置方式不同，您可以在标题或附件等原生文档元素中嵌入水印，从而增强文档安全性并增添专业风格。",
+      "step_3": "**微调水印外观以获得最佳效果：**控制水印的视觉方面。自定义高度、宽度、对齐方式（上、左、居中等）、字体系列和颜色等属性，以获得视觉效果和一致的结果，增强文档的合法性。",
+      "step_4": "**水印应用程序和安全存储**：使用**水印工具**方法合并您的水印。该库允许您在必要时添加多个水印以增强保护。建议将修改后的 {{FileformatCap}} 文档保存到单独的安全位置，以保留原始文件并保护带水印的文档。"
+    }
+  },
+  "more_features": {
+    "title": "精细水印集成",
+    "description": "我们面向 .NET 开发人员的 GroupDocs.Watermark API 为将水印无缝集成到任何文档中提供了完善的解决方案。该工具旨在创建复杂、不显眼的水印，确保版权保护，同时保持文档美感。",
+    "image_description": "精确水印集成",
+    "feature_1": {
+      "title": "渐变水印效果",
+      "content": "实现渐变水印，在文档中顺畅融合。此功能允许采用线性或径向渐变，为安全功能增添现代外观，在不影响内容的情况下增强保护和视觉参与度。"
+    },
+    "feature_2": {
+      "title": "图案水印可增强安全性",
+      "content": "使用基于模式的水印来增加额外的安全层。我们的 API 支持各种模式，这些模式可以精心设计并在文档中重复，从而使水印更耐篡改和删除。"
+    },
+    "feature_3": {
+      "title": "特定文档的水印",
+      "content": "为不同的文档类型专门定制水印。无论是法律合同、商业计划还是科学报告，都可以根据文档的目的和读者的可访问性自定义水印，从而确保最佳的集成和安全性。"
+    },
+    "code_1": {
+      "title": "生成 PDF 图像水印",
+      "content": "为 PDF 文档中显示的所有图像生成图像水印",
+      "comment_1": "将文档加载为 PDF",
+      "comment_2": "基于 PDF 注解创建水印",
+      "comment_3": "设置水印选项",
+      "comment_4": "在结果文档中添加文本水印"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 个文件的 Node.js 水印",
+      "description": "使用 Node.js 将水印添加到 {{FileFormatUp}} 个文档中，以增强文档的安全性和品牌推广。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 中由 Node.js 驱动的水印",
+      "description": "使用 Node.js 对 {{FileFormatUp}} 个文件动态应用水印，确保您的 Word 文档得到强有力的保护和专业的呈现效果。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了一个直观的 API，用于生成、实现和管理 {{FileFormatUp}} 个文件中的水印。该工具非常适合需要增强文档安全性或公司品牌的应用程序。借助支持文本和图像水印的功能，开发人员可以轻松自定义大小、位置和不透明度以满足特定需求。{{ProdShortName}} 是保护业务报告、法律文件和其他专业通信的理想之选，它可以无缝集成到现代 Node.js 环境中，并确保在不影响文档完整性的情况下高效应用水印。"
+    },
+    "formats": {
+      "title": "使用 Node.js 对 {{FileFormatUp}} 应用水印",
+      "description": "利用 Node.js 向 {{FileFormatUp}} 文件添加可自定义、不显眼的水印，从而增强文档的安全性和美感。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中创建水印",
+      "description": "利用 Node.js 为 {{FileFormatUp}} 文件添加强大的水印，增强安全性和文档完整性。"
+    },
+    "header": {
+      "title": "使用 Node.js 为 {{FileFormatUp}} 生成水印",
+      "description": "使用 Node.js 在 {{FileFormatUp}} 个文件中撰写和实现复杂的水印，非常适合保护敏感 Word 个文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了在 DOCX 个文档中高效创建、添加和管理水印的工具。该API允许无缝集成可自定义的水印，从而显著增强文档安全性。无论是添加公司徽标、文本还是复杂的图形叠加层，API 都可以完全控制不透明度、大小和位置。{{ProdShortName}} 专为文档真实性和版权保护至关重要的专业环境（例如法律、金融和政府部门）量身定制，可确保您的 DOCX 文件不仅安全，而且还能保持较高的呈现标准。它与各种 Node.js 环境兼容，支持同步和异步操作以满足不同的应用程序需求。"
+    },
+    "formats": {
+      "title": "使用 Node.js 向 {{FileFormatUp}} 添加水印",
+      "description": "实现 Node.js 以在 {{FileFormatUp}} 文件中动态生成和应用自定义水印，从而有效地保护和标记它们。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 上生成水印",
+      "description": "使用 Node.js 为 {{FileFormatUp}} 张图像创建安全、不可见的水印，保护版权。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 撰写水印",
+      "description": "利用 Node.js 为 {{FileFormatUp}} 文件添加强大的水印，确保您的图像免受未经授权的使用和版权侵权。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了在 JPEG 张图像中生成和实现自定义水印的能力。这个强大的 API 可以创建可见和不可见的水印，帮助保护数字媒体免遭版权盗窃和未经授权的分发。调整水印的不透明度、颜色和位置，使其与图像内容无缝融合，或使其突出显示以提高品牌知名度。非常适合需要确保数字作品安全并被视为自己的财产的摄影师、平面设计师和内容创作者。使用 {{ProdShortName}}，开发人员可以在灵活而强大的 Node.js 环境中高效地保护图像，同时保持其美学完整性。"
+    },
+    "formats": {
+      "title": "使用 Node.js 向 {{FileFormatUp}} 添加安全水印",
+      "description": "使用 Node.js 将可自定义的安全水印嵌入到 {{FileFormatUp}} 张图像中，从而有效地保护和标记数字内容。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "使用 Node.js 向 {{FileFormatUp}} 添加水印",
+      "description": "使用 Node.js 将水印无缝集成到 {{FileFormatUp}} 张图像中，从而增强版权安全性。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 个文件创建水印",
+      "description": "实现 Node.js 在 {{FileFormatUp}} 文件中生成自定义水印，保护您的图像免遭滥用和版权侵害。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Node.js 开发人员能够高效地在 {{FileFormatUp}} 张图像上撰写和应用水印。此 API 便于插入根据内容需求量身定制的水印，无论是用于个人用途还是专业展示。开发人员可以自定义水印功能，包括不透明度、大小和位置，以确保它们有效且不显眼。{{ProdShortName}} 在 Node.js 环境中提供强大的保护功能，确保您的知识产权安全和视觉完好无损，是保护照片内容、数字艺术品和其他媒体资产免受未经授权的复制的理想之选。"
+    },
+    "formats": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}} 张图片",
+      "description": "利用 Node.js 嵌入水印，保护您的 {{FileFormatUp}} 张图像，在确保版权保护的同时保持其原始质量。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}}",
+      "description": "使用 Node.js 将水印集成到 {{FileFormatUp}} 中，以保护官方文件和合同。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 个文档创建水印",
+      "description": "使用 Node.js 为 {{FileFormatUp}} 文件添加高级水印，保护官方文档、合同和敏感信息。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了一个强大的工具，用于生成、撰写和管理专为 {{FileFormatUp}} 文件设计的水印。此 API 允许将水印精确集成到官方文档、合同和任何需要额外安全层的敏感 PDF 文件中。将您的水印自定义为可见或不可见，确保它们不会干扰内容的可读性，同时提供有效的版权保护和防欺诈。{{ProdShortName}} 还支持批量处理大型文档集的水印，与现代 Node.js 环境完全兼容，非常适合在文档完整性至关重要的法律、金融和政府部门中使用。"
+    },
+    "formats": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中实现水印",
+      "description": "利用 Node.js 在 {{FileFormatUp}} 个文档中动态创建和应用水印，这对于保护法律和官方内容至关重要。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "使用 Node.js 对 {{FileFormatUp}} 张图像应用精确的水印，确保强有力的版权保护。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 个文件创建水印",
+      "description": "实现 Node.js 在 {{FileFormatUp}} 张图像中生成自定义水印，非常适合保护数字艺术和摄影内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了向 {{FileFormatUp}} 文件添加水印的高级功能。该API有助于创建与图像无缝融合的可见和不可见水印，从而在不影响视觉质量的情况下增强安全性。量身定制不透明度、比例和位置等功能以满足特定需求，使其成为希望保护其数字资产的摄影师、平面设计师和内容创作者的理想之选。无论是用于个人用途还是商业分发，{{ProdShortName}} 都能确保您的图像得到安全标记，支持各种 Node.js 环境。"
+    },
+    "formats": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}} 张图片",
+      "description": "利用 Node.js 嵌入水印，保护您的 {{FileFormatUp}} 张图像，在确保版权保护的同时保持其原始质量。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "使用 Node.js 向 {{FileFormatUp}} 添加水印",
+      "description": "利用 Node.js 将水印集成到 PowerPoint 文件中，从而有效地保护演示文稿。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 个演示文稿创建水印",
+      "description": "部署 Node.js 以在 PowerPoint 文件中生成和应用自定义水印，是保护企业和教育演示文稿的理想之选。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Node.js 开发人员能够高效地创建、添加和管理 PowerPoint (PPT) 文件中的水印。该API允许将水印无缝整合到演示材料中，从而为敏感和专有信息提供额外的安全层。自定义水印的不透明度、位置和大小，以确保它与演示文稿的设计相得益彰，不会妨碍关键内容。{{ProdShortName}} 非常适合商业、学术和培训环境，可确保您的演示文稿不仅安全，而且还能保持专业外观。它与各种 Node.js 环境兼容，为演示安全提供了灵活的解决方案。"
+    },
+    "formats": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中实现水印",
+      "description": "利用 Node.js 在 {{FileFormatUp}} 个文件中动态创建和应用水印，这对于保护重要的演示内容至关重要。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}}",
+      "description": "使用 Node.js 将水印嵌入到 {{FileFormatUp}} 个演示文稿中，从而增强文档安全性。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 生成水印",
+      "description": "使用 Node.js 为 {{FileFormatUp}} 个文件创建自定义水印，非常适合保护高风险演示文稿和专有数据。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了在 PPTX 文件中添加、管理和自定义水印的工具。该API非常适合嵌入水印，以保护商业和教育演示文稿的完整性，而不会破坏其美感。开发人员可以控制水印的不透明度、颜色和位置，确保它们既微妙又有效。{{ProdShortName}} 适用于保护战略计划、财务报告和教育材料，可与现代 Node.js 环境无缝集成，便于在实时演示工作流程中应用。"
+    },
+    "formats": {
+      "title": "使用 Node.js 对 {{FileFormatUp}} 应用水印",
+      "description": "部署 Node.js，在 {{FileFormatUp}} 文件中插入可自定义的安全水印，从而保持演示文稿的专业性和安全性。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "利用 Node.js 将水印集成到 {{FileFormatUp}} 个文档中，轻松保护内容。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 个文档创建水印",
+      "description": "实现 Node.js 为 {{FileFormatUp}} 文件添加自定义水印，非常适合保护 MS Word 和文本文档免遭未经授权的使用。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使 Node.js 开发人员能够专门为 RTF 个文档生成和管理水印。该API允许精确嵌入文本或图像水印，从而增强文档安全性和版权保护。根据信息的敏感度将水印自定义为可见或不可见，调整不透明度、大小和位置以确保它们与文档内容自然融为一体。{{ProdShortName}} 非常适合存放法律文档、公司报告和任何敏感的书面材料，支持大量定制，以满足各种 Node.js 环境中的特定安全需求。"
+    },
+    "formats": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}} 个文件",
+      "description": "使用 Node.js 在 {{FileFormatUp}} 个文件中实现动态水印，确保文本内容的安全性和完整性。"
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "使用 Node.js 向 {{FileFormatUp}} 添加水印",
+      "description": "利用 Node.js 在 {{FileFormatUp}} 张图像中动态嵌入水印，保护您的数字资产。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 张图像生成水印",
+      "description": "利用 Node.js 创建精确的水印并将其应用于 {{FileFormatUp}} 个文件，非常适合保护高分辨率图像和档案内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了一个强大的工具集，用于添加、管理和自定义 TIF 图像中的水印。该API可以集成可见和不可见的水印，适用于确保照片和扫描文档的安全。自定义水印的大小、不透明度和位置，以保持图像的完整性和质量。{{ProdShortName}} 非常适合摄影师、档案管理员和平面设计师，可确保所有 TIF 文件免受未经授权的使用和复制，同时支持一系列 Node.js 环境。"
+    },
+    "formats": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中实现水印",
+      "description": "部署 Node.js，在 {{FileFormatUp}} 张图像中插入自定义、安全的水印，这对于维护版权和防止数据盗版至关重要。"
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "使用 Node.js 保护 {{FileFormatUp}} 张图像",
+      "description": "实现 Node.js 在 {{FileFormatUp}} 个文件中应用水印，从而增强数字档案的安全性。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 创建水印",
+      "description": "使用 Node.js 为 {{FileFormatUp}} 张图像生成自定义水印，非常适合保护档案质量的照片和文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供了在 TIFF 文件中有效创建、添加和管理水印的能力。该API便于嵌入水印，以保护和维护数字和扫描图像的版权。开发人员可以根据类型、透明度和位置自定义水印，确保在不影响图像原始细节的情况下巧妙地整合水印。{{ProdShortName}} 提供与当代 Node.js 环境兼容的强大水印解决方案，非常适合在图书馆、博物馆和任何需要保护档案材料的机构中使用。"
+    },
+    "formats": {
+      "title": "使用 Node.js 对 {{FileFormatUp}} 应用水印",
+      "description": "利用 Node.js 将水印嵌入到 {{FileFormatUp}} 文件中，为存档内容提供增强的安全性和版权保护。"
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "使用 Node.js 为 {{FileFormatUp}} 张图像应用高级水印，增强保护和版权。"
+    },
+    "header": {
+      "title": "通过 Node.js 为 {{FileFormatUp}} 张图片创建水印",
+      "description": "实现 Node.js 为 {{FileFormatUp}} 个文件生成自定义、安全的水印，非常适合希望保护其视觉效果的数字内容创作者。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员提供在 WEBP 图像中添加、管理和自定义 WEBP 图像水印的工具。该API允许集成与图像无缝融合的透明或不透明水印，从而确保保持艺术品的完整性，同时防止未经授权的使用。调整水印的大小、不透明度和位置，以突出您的品牌或谨慎地保护您的数字资产。{{ProdShortName}} 适用于摄影师、平面设计师和任何处理数字媒体的专业人士，通过灵活而强大的 Node.js 界面增强了 WEBP 图像的安全性。"
+    },
+    "formats": {
+      "title": "使用 Node.js 水印保护 {{FileFormatUp}} 个文件",
+      "description": "部署 Node.js，在 {{FileFormatUp}} 张图片中插入可自定义的强大水印，确保版权和品牌知名度受到保护。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中创建水印",
+      "description": "使用 Node.js 在 {{FileFormatUp}} 个文件中生成水印，从而增强您的 Excel 个文档的安全性。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 个文件生成 Node.js 水印",
+      "description": "使用 Node.js 在 {{FileFormatUp}} 个电子表格中实现强大的水印，该水印专为保护 Excel 中的财务和个人数据而量身定制。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员配备了在 XLS 文件中有效创建、撰写和嵌入水印的工具。此 API 专为无缝集成到 Excel 工作流程而设计，便于添加可针对不透明度、文本和图像进行自定义的可见和不可见水印。{{ProdShortName}} 提供高级功能，例如基于内容分析的条件水印放置，是保护财务电子表格、客户报告或任何需要保密的 Excel 文档中的敏感信息的理想之选。该解决方案支持所有 .NET 环境，可确保您的文档免遭未经授权的使用和分发。"
+    },
+    "formats": {
+      "title": "使用 Node.js 对 {{FileFormatUp}} 应用水印",
+      "description": "利用 Node.js 动态生成自定义水印并将其集成到 {{FileFormatUp}} 文件中，从而有效保护您的 Excel 数据。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "利用 Node.js 在 {{FileFormatUp}} 个文件中生成和应用水印，保护您的 Excel 个文档。"
+    },
+    "header": {
+      "title": "使用 Node.js 保护 {{FileFormatUp}} 张表格",
+      "description": "使用 Node.js API 为 {{FileFormatUp}} 个文件创建可自定义的水印，非常适合增强文档完整性和保护敏感信息。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 Node.js 开发人员在 XLSX 文件中生成、添加和管理水印提供了强大的解决方案。此 API 对于维护 Excel 份文档的机密性和真实性至关重要，尤其是在公司、财务和法律环境中。使用包括文字和图像叠加层在内的各种选项自定义水印，这些选项既实用又微妙。其他功能允许根据文档属性和用户定义的条件自动添加水印，从而确保您的水印始终如一且仅在需要时使用。{{ProdShortName}} 与现代 .NET 平台兼容，并支持高级 Excel 功能。"
+    },
+    "formats": {
+      "title": "使用 Node.js 在 {{FileFormatUp}} 中实现水印",
+      "description": "部署 Node.js，高效地向 {{FileFormatUp}} 文件添加高级安全水印，保护您的专业 Excel 数据。"
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Genera filigrana dell'immagine nel file {{FileFormatUp}}",
+    "comment_2": "Fornisci il percorso del file sorgente al costruttore Watermarker",
+    "comment_3": "Genera un'istanza di filigrana dell'immagine con il file di immagine",
+    "comment_4": "Salva il risultato con filigrana {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Genera facilmente filigrane per {{FileformatCap}} documenti",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Libreria avanzata di filigrana per applicazioni {{EnvName}}. Potenzia la tua soluzione e proteggi i documenti con filigrane appena in tempo.",
+      "step_1": "**Classe principale: Watermarker** La classe principale della nostra API è **Watermarker**. È necessario istanziarlo prima dell'elaborazione del documento. Non dimenticare di passare il file {{FileformatCap}} al costruttore come percorso o oggetto stream.",
+      "step_2": "**Creare la tua filigrana.** Il passo successivo è costruire un oggetto Watermark del tipo desiderato. Può essere inserito non solo su una pagina specifica del documento, ma anche in parti native del documento come immagini o intestazioni.",
+      "step_3": "**Ottimizzazione dell'aspetto.** Imposta le proprietà della filigrana come altezza e larghezza, allineamenti in alto, a sinistra, centrali, caratteri e colori, ecc.",
+      "step_4": "**Applicazione e salvamento.** Usa il metodo **Watermarker** per aggiungere una nuova filigrana. Sentiti libero di aggiungere tutte le filigrane di cui hai bisogno. Puoi salvare il documento con filigrana in qualsiasi posizione."
+    }
+  },
+  "more_features": {
+    "title": "Migliora il tuo gioco di filigrana",
+    "description": "Sblocca funzionalità avanzate di watermarking con la nostra API GroupDocs.Watermark per .NET. Questo potente strumento consente una personalizzazione precisa e l'applicazione di filigrane su vari tipi di documenti per garantire la massima sicurezza e rispetto del copyright con interruzioni visive minime.",
+    "image_description": "Soluzioni complete per la filigrana",
+    "feature_1": {
+      "title": "Sofisticate opzioni di piastrellatura",
+      "content": "Estendi le tue filigrane su interi documenti senza problemi con le nostre opzioni di piastrellatura. Questa funzione consente alle filigrane di coprire l'intera area del documento, impedendone la rimozione e garantendo una protezione completa del documento senza compromettere il design o la leggibilità."
+    },
+    "feature_2": {
+      "title": "Personalizzazione dei colori vivaci",
+      "content": "Aggiungi un tocco di colore alle tue filigrane! La nostra API consente la personalizzazione completa dei colori, consentendoti di applicare filigrane che si adattano perfettamente al marchio aziendale o allo stile del documento. Migliora l'appeal visivo mantenendo al contempo solide funzionalità di sicurezza."
+    },
+    "feature_3": {
+      "title": "Impostazioni di sicurezza avanzate",
+      "content": "Porta la sicurezza dei documenti a un livello superiore con le impostazioni avanzate della filigrana. Configura filigrane a più livelli, che incorporano elementi visibili e invisibili, per proteggerti da copie non autorizzate e garantire che solo i destinatari previsti possano accedere alle informazioni critiche."
+    },
+    "code_1": {
+      "title": "Genera filigrana PowerPoint",
+      "content": "Questo esempio mostra come aggiungere una filigrana alle immagini di sfondo PPTX",
+      "comment_1": "Carica la presentazione PPTX",
+      "comment_2": "Impostare le proprietà della filigrana",
+      "comment_3": "Sfondo di diapositive con filigrana",
+      "comment_4": "Salva la presentazione elaborata"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Filigrana {{FileFormatUp}} File con .NET C#",
+      "description": "Implementa le filigrane .NET C# nei file {{FileFormatUp}} per proteggere e gestire efficacemente i tuoi documenti Word."
+    },
+    "header": {
+      "title": "Migliora la sicurezza di {{FileFormatUp}} con le filigrane C#",
+      "description": "Utilizza .NET C# per incorporare filigrane sicure nei file {{FileFormatUp}}, perfette per salvaguardare i documenti MS Word in contesti legali e aziendali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} sfrutta .NET C# per fornire una sofisticata soluzione di watermarking per i file {{FileFormatUp}}, comunemente utilizzata in Microsoft Word. Questa API consente agli sviluppatori di inserire filigrane testuali e grafiche personalizzabili per opacità, colore e posizione. Migliora la sicurezza dei documenti con filigrane che possono includere timestamp, loghi o etichette riservate, scoraggiando efficacemente l'uso non autorizzato e garantendo l'autenticità dei documenti. L'API è progettata per integrarsi perfettamente con i framework .NET, rendendola ideale per applicazioni nella documentazione legale, nelle comunicazioni aziendali e nella gestione delle informazioni sensibili. Compatibile con gli ambienti .NET C#, {{ProdShortName}} offre un robusto set di strumenti per una protezione completa dei documenti."
+    },
+    "formats": {
+      "title": "Filigrana C# per documenti Word",
+      "description": "Implementa .NET C# per applicare filigrane precise e personalizzabili nei file {{FileFormatUp}}, rafforzando la sicurezza e l'integrità dei tuoi documenti MS Word."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Filigrana C# per file {{FileFormatUp}}",
+      "description": "Usa .NET C# per integrare le filigrane nei file {{FileFormatUp}}, migliorando la sicurezza dei tuoi documenti Word."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con .NET filigrane C#",
+      "description": "Applica tecniche avanzate di filigrana nei file {{FileFormatUp}} utilizzando .NET C#, perfetto per proteggere la proprietà intellettuale nei documenti Word in tutti i settori.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} sfrutta la potenza di .NET C# per aggiungere sofisticate funzionalità di filigrana ai file {{FileFormatUp}}. Questo strumento è progettato per una perfetta integrazione negli ambienti Microsoft Word, consentendo l'applicazione di filigrane scalabili dinamicamente, trasparenti e posizionate in base al layout del documento. È ideale per documenti legali, report riservati e politiche aziendali che richiedono visibilità e protezione. Le funzionalità includono stili di testo personalizzati, filigrana delle immagini e posizionamento condizionale in base al contenuto del documento. Grazie al supporto per i framework .NET più recenti, {{ProdShortName}} garantisce che le misure di sicurezza dei documenti siano all'avanguardia."
+    },
+    "formats": {
+      "title": "Implementazione delle filigrane in {{FileFormatUp}} con C#",
+      "description": "Padroneggia l'applicazione di filigrane personalizzate e sicure nei file {{FileFormatUp}} utilizzando .NET C#, essenziale per l'integrità dei documenti e la protezione del copyright."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Proteggi {{FileFormatUp}} con .NET filigrane C#",
+      "description": "Incorpora filigrane avanzate nelle {{FileFormatUp}} immagini utilizzando .NET C#, garantendo il copyright e la sicurezza dei contenuti."
+    },
+    "header": {
+      "title": "Filigrana avanzata in C# per file {{FileFormatUp}}",
+      "description": "Utilizza .NET C# per applicare filigrane sicure e personalizzabili a {{FileFormatUp}} immagini, ideali per proteggere l'arte digitale e i diritti d'autore fotografici.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori di .NET C# robusti strumenti per filigranare le {{FileFormatUp}} immagini in modo efficace. Questa API si integra direttamente con i flussi di lavoro di elaborazione delle immagini digitali, consentendo l'aggiunta di filigrane che possono essere basate su testo, incentrate sul logo o modellate. Le opzioni di personalizzazione includono la regolazione dell'opacità, il ridimensionamento delle dimensioni e la modifica della rotazione per garantire che la filigrana si fonda perfettamente senza compromettere l'estetica originale dell'immagine. Ideale per fotografi, grafici e creatori di contenuti, {{ProdShortName}} protegge dall'uso non autorizzato mantenendo un'elevata qualità dell'immagine. Compatibile con tutte le principali versioni .NET, questa soluzione è fondamentale per chiunque abbia bisogno di proteggere i contenuti visivi in un panorama digitale."
+    },
+    "formats": {
+      "title": "Soluzioni C# Watermark per {{FileFormatUp}} immagini",
+      "description": "Implementa .NET C# per creare e gestire filigrane nei file {{FileFormatUp}}, migliorando la sicurezza delle immagini su piattaforme digitali."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Filigrana C# per {{FileFormatUp}} immagini",
+      "description": "Integra la filigrana nei file {{FileFormatUp}} usando .NET C#, proteggendo efficacemente le tue immagini digitali."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} immagini con .NET C#",
+      "description": "Applica .NET C# per creare filigrane robuste per {{FileFormatUp}} immagini, ideali per proteggere il copyright e prevenire l'uso non autorizzato.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce agli sviluppatori .NET C# un framework avanzato per aggiungere filigrane a JPG immagini. Questa API consente l'incorporamento preciso di testo, loghi e filigrane grafiche personalizzabili in opacità, posizione e dimensioni, perfette per i media digitali e la fotografia professionale. Migliora la sicurezza delle tue immagini senza sacrificare la qualità, con funzionalità progettate per incorporare filigrane che scoraggiano la pirateria mantenendo l'integrità della grafica originale. Adatto per un'ampia gamma di applicazioni, dalla protezione fotografica personale all'uso commerciale nella pubblicità e nei media, {{ProdShortName}} garantisce che le tue risorse visive siano contrassegnate in modo univoco e protette legalmente."
+    },
+    "formats": {
+      "title": "Implementa le filigrane in {{FileFormatUp}} con C#",
+      "description": "Sfrutta .NET C# per incorporare filigrane invisibili o visibili nei file {{FileFormatUp}}, essenziali per contenuti digitali sicuri e riconoscibili."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Filigrane C# per documenti sicuri {{FileFormatUp}}",
+      "description": "Utilizza .NET C# per incorporare filigrane in {{FileFormatUp}}, proteggendo documenti ufficiali e informazioni sensibili."
+    },
+    "header": {
+      "title": "Migliora la sicurezza di {{FileFormatUp}} con le filigrane C#",
+      "description": "Implementa .NET C# per applicare filigrane nei documenti {{FileFormatUp}}, garantendo la protezione dei registri legali, finanziari e ufficiali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori .NET C# una potente API per inserire filigrane nei file {{FileFormatUp}}, uno strumento essenziale per la sicurezza dei documenti nei settori aziendale, legale e governativo. Questa API supporta opzioni complete di personalizzazione delle filigrane, tra cui la formattazione del testo, l'integrazione delle immagini e il posizionamento dinamico per adattarsi a vari layout di documenti. Che si tratti di garantire accordi riservati, proteggere il materiale protetto da copyright o contrassegnare informazioni proprietarie, {{ProdShortName}} garantisce che tutti i PDF trasmetta la proprietà in modo chiaro e professionale. Le funzionalità aggiuntive includono la rotazione della filigrana, il controllo della trasparenza e le funzionalità di stratificazione, compatibili con tutti i moderni framework .NET."
+    },
+    "formats": {
+      "title": "Protezione dei file {{FileFormatUp}} con filigrane C# .NET",
+      "description": "Usa .NET C# per incorporare filigrane sicure e personalizzate nei documenti {{FileFormatUp}}, ideali per salvaguardare informazioni ufficiali e sensibili."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Proteggi {{FileFormatUp}} con .NET filigrane C#",
+      "description": "Incorpora filigrane nei file {{FileFormatUp}} usando .NET C#, perfetto per il copyright e la sicurezza delle immagini."
+    },
+    "header": {
+      "title": "Filigrana C# per file {{FileFormatUp}}",
+      "description": "Utilizza .NET C# per applicare filigrane avanzate a {{FileFormatUp}} immagini, salvaguardando efficacemente i contenuti artistici e digitali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce un toolkit specializzato in .NET C# per incorporare filigrane nei file {{FileFormatUp}}, rivolto ad artisti, designer e creatori di contenuti che hanno bisogno di proteggere le proprie risorse visive. Questa API consente l'aggiunta senza soluzione di continuità di filigrane trasparenti e opache che possono essere posizionate e ridimensionate in modo complesso per mantenere l'integrità dell'immagine originale garantendo al contempo la protezione legale. Le funzionalità includono filigrane personalizzate per testo e immagini, controllo preciso sull'opacità della filigrana e la possibilità di aggiungere filigrane multistrato per una maggiore sicurezza. Sia per uso personale che per portfolio professionali, {{ProdShortName}} assicura che le PNG immagini siano protette dalla riproduzione e dall'uso non autorizzati e completamente supportate in ambienti .NET."
+    },
+    "formats": {
+      "title": "Implementazione delle filigrane in {{FileFormatUp}} con C#",
+      "description": "Utilizza .NET C# per creare filigrane discrete o in grassetto nelle {{FileFormatUp}} immagini, garantendo flessibilità estetica e una solida protezione del copyright."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Filigrane C# per file PowerPoint",
+      "description": "Applica filigrane dinamiche ai file PowerPoint utilizzando .NET C#, migliorando la sicurezza delle presentazioni."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con .NET filigrane C#",
+      "description": "Utilizza .NET C# per inserire filigrane personalizzabili in PowerPoint presentazioni, ideali per proteggere contenuti aziendali e accademici.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce agli sviluppatori .NET C# gli strumenti per integrare senza problemi le filigrane nei file PowerPoint (PPT). Questa API è perfetta per aggiungere filigrane visibili e garantire che le presentazioni siano protette dall'uso e dalla distribuzione non autorizzati. Con funzionalità avanzate come la personalizzazione della filigrana per lo stile, la dimensione, il colore e l'opacità del testo, nonché le funzionalità di filigrana delle immagini, {{ProdShortName}} migliora la sicurezza e la professionalità delle diapositive. È particolarmente utile per ambienti aziendali, educativi e formativi in cui l'integrità dei documenti è fondamentale. Pienamente compatibile con tutte le versioni di .NET, incluse .NET Core e .NET Framework."
+    },
+    "formats": {
+      "title": "Protezione dei file {{FileFormatUp}} con filigrane C#",
+      "description": "Incorpora filigrane avanzate nei documenti PowerPoint usando .NET C#, proteggendo le tue presentazioni da usi impropri e violazioni del copyright."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Incorpora filigrane in {{FileFormatUp}} con C#",
+      "description": "Proteggi le tue presentazioni {{FileFormatUp}} con filigrane applicate in C# .NET, proteggendo la proprietà intellettuale."
+    },
+    "header": {
+      "title": "Filigrana avanzata in C# per {{FileFormatUp}}",
+      "description": "Implementa .NET C# per creare filigrane robuste nei file {{FileFormatUp}}, perfette per migliorare la sicurezza nelle presentazioni aziendali e didattiche.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce una soluzione completa .NET C# per la filigrana dei file {{FileFormatUp}}, adatta ai professionisti che necessitano di proteggere i materiali di presentazione. Questa API supporta l'integrazione di filigrane personalizzabili e possono includere testo, loghi o altri elementi grafici. Offre funzionalità come la regolazione della trasparenza, delle dimensioni e del posizionamento, consentendo alle filigrane di essere efficaci e discrete. Ideale per aziende, insegnanti e chiunque presenti informazioni sensibili o proprietarie, {{ProdShortName}} garantisce che le presentazioni non solo siano sicure, ma mantengano anche la loro qualità estetica. Compatibile con .NET 5 e versioni successive, questo strumento estende un solido supporto ai moderni ambienti Microsoft Office."
+    },
+    "formats": {
+      "title": "Soluzioni C# Watermark per file {{FileFormatUp}}",
+      "description": "Sfrutta .NET C# per applicare filigrane discrete nei file {{FileFormatUp}}, proteggendo le tue presentazioni dalla distribuzione non autorizzata."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Filigrana C# per documenti {{FileFormatUp}}",
+      "description": "Incorpora filigrane .NET C# nei file {{FileFormatUp}} per migliorare la sicurezza dei tuoi documenti Word."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con .NET filigrane C#",
+      "description": "Usa .NET C# per applicare filigrane sicure e personalizzabili ai file {{FileFormatUp}}, perfette per mantenere l'integrità dei documenti all'interno di MS Word ambienti.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce agli sviluppatori .NET C# strumenti sofisticati per aggiungere filigrane ai documenti {{FileFormatUp}} in modo efficace. Questa API consente l'integrazione di filigrane visibili e trasparenti che possono essere personalizzate in termini di carattere, colore, dimensione e posizione, assicurando che si integrino perfettamente nel documento senza ostacolare la leggibilità. Ideale per documenti legali, documenti sulla proprietà intellettuale e comunicazioni sensibili, {{ProdShortName}} offre una protezione essenziale contro copie e modifiche non autorizzate. Lo strumento è progettato per essere compatibile con tutte le versioni di .NET, facilitando una soluzione sicura e adattabile per la filigrana dei documenti."
+    },
+    "formats": {
+      "title": "Implementazione delle filigrane in {{FileFormatUp}} con C#",
+      "description": "Usa .NET C# per creare filigrane robuste e discrete nei documenti {{FileFormatUp}}, rafforzando la sicurezza e l'autenticità dei tuoi file Word."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Genera filigrane C# per {{FileFormatUp}} immagini",
+      "description": "Utilizza .NET C# per applicare filigrane precise a {{FileFormatUp}} immagini, proteggendo i tuoi contenuti fotografici."
+    },
+    "header": {
+      "title": "Filigrana avanzata per {{FileFormatUp}} con C#",
+      "description": "Incorpora filigrane di alta qualità in {{FileFormatUp}} immagini usando .NET C#, ideale per fotografi e archivisti che richiedono una protezione avanzata del copyright.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} offre un robusto framework .NET C# per la filigrana dei file {{FileFormatUp}}, adattato alle esigenze dei professionisti della fotografia e dell'archiviazione digitale. Questa API consente di aggiungere facilmente filigrane personalizzabili in termini di opacità, dimensione e posizione, integrandosi perfettamente con la natura ad alta risoluzione delle immagini TIF. Le funzionalità includono la possibilità di applicare filigrane testuali e grafiche, essenziali per far valere il copyright, prevenire l'uso non autorizzato e migliorare la tracciabilità delle immagini. Grazie a funzionalità avanzate come l'elaborazione in batch e il posizionamento dinamico delle filigrane, {{ProdShortName}} garantisce la protezione delle immagini senza compromettere la qualità. Compatibile con tutte le piattaforme .NET contemporanee, questo strumento è indispensabile per proteggere preziose risorse di immagine."
+    },
+    "formats": {
+      "title": "Protezione delle {{FileFormatUp}} immagini con .NET C#",
+      "description": "Applica .NET C# per incorporare filigrane personalizzate e discrete nelle {{FileFormatUp}} immagini, proteggendole dalla riproduzione non autorizzata e garantendo l'integrità del copyright."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Genera filigrane {{FileFormatUp}} con C#",
+      "description": "Componi e aggiungi filigrane precise a {{FileFormatUp}} immagini usando .NET C#, salvaguardando i tuoi contenuti digitali."
+    },
+    "header": {
+      "title": "Componi filigrane per {{FileFormatUp}} con C#",
+      "description": "Genera filigrane robuste e personalizzate nei file {{FileFormatUp}} utilizzando .NET C#, essenziale per proteggere e gestire immagini digitali e di archivio.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce un toolkit completo .NET C# per generare, comporre e aggiungere filigrane ai file TIFF. Questa soluzione soddisfa le esigenze specifiche degli archivi digitali e della fotografia professionale, dove il mantenimento della qualità dell'immagine e la protezione del copyright sono fondamentali. Gli utenti possono personalizzare l'opacità, la scala e la posizione della filigrana per garantire che siano integrate senza problemi senza compromettere l'immagine. La capacità di generare filigrane testuali o grafiche, unita a funzionalità avanzate come la stratificazione delle filigrane e la formattazione condizionale, rende {{ProdShortName}} uno strumento indispensabile per chiunque abbia bisogno di salvaguardare le proprie risorse visive. Pienamente compatibile con i più recenti ambienti .NET, questa API migliora la capacità di gestire e proteggere le TIFF immagini in modo efficace."
+    },
+    "formats": {
+      "title": "Migliorare la sicurezza di {{FileFormatUp}} con filigrane C#",
+      "description": "Usa .NET C# per generare e integrare filigrane personalizzate nei file {{FileFormatUp}}, aggiungendo un livello di sicurezza e controllo del copyright alle tue immagini."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Aggiungi filigrane a {{FileFormatUp}} con C#",
+      "description": "Utilizza .NET C# per generare e incorporare filigrane in modo dinamico nelle {{FileFormatUp}} immagini, garantendo una protezione completa."
+    },
+    "header": {
+      "title": "Genera filigrane per {{FileFormatUp}} con C#",
+      "description": "Crea e applica filigrane personalizzate ai file {{FileFormatUp}} utilizzando .NET C#, perfetto per artisti digitali e creatori di contenuti che devono proteggere il proprio lavoro.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} offre agli sviluppatori le funzionalità per generare, comporre e aggiungere filigrane sofisticate alle immagini WEBP tramite .NET C#. Questa API consente una personalizzazione precisa delle filigrane, tra cui testo, loghi e firme digitali. Personalizza l'opacità, le dimensioni e il posizionamento della filigrana per ottenere un'integrazione perfetta senza compromettere l'estetica dell'immagine. Ideale per fotografi, grafici e qualsiasi professionista coinvolto nella produzione e distribuzione di immagini digitali, {{ProdShortName}} garantisce che i tuoi diritti d'autore siano incorporati in modo sicuro nei tuoi file WEBP. Compatibile con tutti i moderni framework .NET, migliora la sicurezza delle immagini con un impatto minimo sulla qualità visiva."
+    },
+    "formats": {
+      "title": "Protezione delle {{FileFormatUp}} immagini con filigrane C# .NET",
+      "description": "Incorpora filigrane avanzate e personalizzabili in {{FileFormatUp}} immagini usando .NET C#, fornendo una protezione robusta e una valenza visiva ai tuoi lavori creativi."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Crea filigrane in {{FileFormatUp}} con C#",
+      "description": "Usa .NET C# per aggiungere e gestire filigrane nei file {{FileFormatUp}}, migliorando la sicurezza dei tuoi documenti Excel."
+    },
+    "header": {
+      "title": "Genera filigrane C# per i file {{FileFormatUp}}",
+      "description": "Implementa una solida filigrana nei fogli di calcolo {{FileFormatUp}} con .NET C#, su misura per proteggere i dati finanziari e personali in Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce agli sviluppatori .NET C# gli strumenti per creare, comporre e incorporare filigrane nei file XLS in modo efficace. Questa API è progettata per una perfetta integrazione nei flussi di lavoro Excel, facilitando l'aggiunta di filigrane visibili e personalizzabili per opacità, testo e immagini. Ideale per proteggere le informazioni sensibili nei fogli di calcolo finanziari, nei report dei clienti o in qualsiasi documento Excel che richieda riservatezza, {{ProdShortName}} offre funzionalità avanzate come il posizionamento condizionale della filigrana basato sull'analisi del contenuto. Grazie al supporto per tutti i .NET ambienti, questa soluzione garantisce la protezione dei documenti dall'uso e dalla distribuzione non autorizzati."
+    },
+    "formats": {
+      "title": "Applicazione di filigrane a {{FileFormatUp}} con C#",
+      "description": "Utilizza .NET C# per generare e integrare dinamicamente filigrane personalizzate nei file {{FileFormatUp}}, salvaguardando efficacemente i tuoi dati Excel."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Incorpora filigrane in {{FileFormatUp}} con C#",
+      "description": "Sfrutta .NET C# per generare e applicare filigrane nei file {{FileFormatUp}}, proteggendo i tuoi documenti Excel."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} fogli con .NET C#",
+      "description": "Usa .NET C# per creare filigrane personalizzabili per i file {{FileFormatUp}}, perfette per migliorare l'integrità dei documenti e proteggere le informazioni sensibili.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce una potente soluzione per gli sviluppatori C# .NET per generare, aggiungere e gestire filigrane nei file XLSX. Questa API è essenziale per mantenere la riservatezza e l'autenticità dei documenti Excel, specialmente in ambienti aziendali, finanziari e legali. Personalizza le tue filigrane con una varietà di opzioni, tra cui sovrapposizioni di testo e immagini, progettate per essere sia funzionali che discrete. Le funzionalità aggiuntive consentono la filigrana automatica in base alle proprietà del documento e alle condizioni definite dall'utente, assicurando che le filigrane vengano applicate in modo coerente e solo dove necessario. {{ProdShortName}} è compatibile con le piattaforme .NET contemporanee e supporta funzionalità Excel avanzate."
+    },
+    "formats": {
+      "title": "Implementazione delle filigrane in {{FileFormatUp}} con C#",
+      "description": "Implementa .NET C# per aggiungere in modo efficiente filigrane avanzate e sicure ai file {{FileFormatUp}}, salvaguardando i tuoi dati professionali Excel."
+    }
+  }
+}

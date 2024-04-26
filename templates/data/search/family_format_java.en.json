@@ -53,7 +53,7 @@
       "action_title": "Download at {{PackageStoreName}} for free"
     },
     "about": {
-      "title": "Base {{ProdFullName}} Information",
+      "title": "{{ProdFullName}} Base Information",
       "content": "{{ProdFullName}} is a comprehensive solution for managing {{FileformatCap}} watermarks using {{EnvName}}. With this tool, developers can easily perform operations such as create, edit, search, and remove watermarks from documents in popular file formats. It supports working with both text and image watermarks in a variety of documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} supports all major operating systems and {{EnvName}} versions."
     },
     "formats": {

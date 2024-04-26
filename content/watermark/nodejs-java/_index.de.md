@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:06
+date: 2024-04-26T21:39:08
 draft: false
 
 lang: de
@@ -24,74 +24,80 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js Wasserzeichen-Bibliothek | Dokumentwasserzeichen"
+head_description: "Die Lösung Node.js schützt Geschäftsdokumente mit Text- und Bildwasserzeichen. Beliebte Formate wie PDF, Word, Excel, PowerPoint werden unterstützt."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Zugriff auf die Wasserzeichen-Technologie in Node.js über Java Lösungen"
+description: "Schützen Sie Ihr geistiges Eigentum und verhindern Sie unbefugtes Kopieren mit dieser Node.js Lösung. Es ermöglicht Benutzern das einfache Hinzufügen von Wasserzeichen zu Geschäftsdokumenten in verschiedenen Formaten, darunter PDF, Word, Excel, PowerPoint, Bilder usw."
 words:
-  for: "{index-content.words_for}"
+  for: "zum"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
-  main_link: ""
-  alt: "{index-content.actions.alt}"
-  alt_link: ""
-  title: "{index-content.actions.title}"
-  description: "{index-content.actions.description}"
+  main: "Verwenden Sie NPM zum kostenlosen Herunterladen"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+  title: "Bereit loszulegen?"
+  description: "Testen Sie GroupDocs.Watermark Funktionen kostenlos oder fordern Sie eine Lizenz an"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
-  link: "{products.nodejs-java.release_downloads}"
+  title: "Version {0} veröffentlicht"
+  notes: "Schau dir an, was es Neues gibt"
+  downloads: "herunterladbare"
+  link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content.code_more}"
-  more_link: ""
-  install: "npm i @groupdocs/groupdocs.comparison"
+  title: "Fügen Sie mit TypeScript ein Wasserzeichen zu PDF hinzu"
+  more: "Mehr Beispiele"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
-    // {index-content.code_comment_1}
-    let comparer = new Comparer("source.bmp");
+    // Instanziieren Sie den Wassermarker, der den PDF -Pfad übergibt
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // {index-content.code_comment_2}
-    comparer.add("target.bmp");
+    // Passen Sie die Wasserzeichenoptionen an
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-    // {index-content.code_comment_3}
-    comparer.compare("result.bmp"); 
+    // Wasserzeichen auf PDF Dokument anwenden
+    watermarker.add(textWatermark);
+
+    // Ergebnisdokument speichern
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Watermark auf einen Blick"
+  description: "Node.js TypeScript-Bibliothek für Wasserzeichen"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Wasserzeichen in der Datei Node.js"
+      content: "Schützen Sie Ihre Geschäftsdokumente mit GroupDocs.Watermark for Node.js via Java. Fügen Sie Text, Bilder, Diagramme oder E-Mail-Anhänge als Wasserzeichen zu verschiedenen Dateiformaten hinzu."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Passen Sie Wasserzeichen an Ihre Bedürfnisse an"
+      content: "GroupDocs.Watermark for Node.js via Java bietet umfangreiche Anpassungsoptionen für Wasserzeichen. Durch die Feinabstimmung von Textstilen (fett, kursiv, Schriftart) und Bildeigenschaften (Drehung usw.) können Sie die Verarbeitung von Dokumenten individuell anpassen."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Umfassende Formatunterstützung"
+      content: "GroupDocs.Watermark for Node.js via Java lässt sich nahtlos in eine Vielzahl von Dateiformaten integrieren, darunter: PDF, MS Office wie Word, Excel, PowerPoint, Bilder wie JPEG, PNG, GIF, BMP, Visio, Visio, E-Mails usw. Ermöglichen Sie die Dokumentenverarbeitung, um Geschäftsziele zu erreichen."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_4.title}"
-      content: "{index-content-nodejs-java.overview_feature_4.description}"
+    - title: "Leistungsstarke Suche und Aktualisierung von Wasserzeichen"
+      content: "Abrufen und aktualisieren Sie vorhandene Wasserzeichen in Dokumenten mit Wasserzeichen. Ändern Sie Text, Stil, Bildinhalt oder entfernen Sie sie vollständig. GroupDocs.Watermark for Node.js via Java bietet eine breite Palette der Verarbeitung von Wasserzeichen."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms.title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Watermark for Node.js via Java lässt sich problemlos in verschiedene Betriebssysteme und Paketmanager integrieren."
   items:
     # platform loop
     - title: "Windows"
@@ -130,142 +136,149 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Unterstützte Dateiformate"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Watermark for Node.js via Java ermöglicht es Ihnen, eine Vielzahl von Dateiformaten zu verarbeiten. [Erkunden Sie die vollständige Liste](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content.formats_groups.format_fixed_page_layout}:** PDF        
+        ### Microsoft Office & OpenDocument Formate
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_raster_images}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content.formats_groups.format_medical_imaging}:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Bilder & Grafiken
+        * **Beliebte Bildformate:** BMP, JPG, JPEG, PNG
+        * **Mehrseitige Bilder:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_text}:** TXT
-        * **{index-content.formats_groups.format_programming_languages}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content.formats_groups.format_web}:** HTM, HTML, MHT, MHTML
-        * **{index-content.formats_groups.format_e_books}:** MOBI, DjVu
-        * **{index-content.formats_groups.format_delimiter_separated_values}:** CSV
+        ### Andere
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Watermark for Node.js via Java: Funktionsumfang"
+  description: "Sorgen Sie für eine robuste Dokumentensicherheit durch programmatisches Wasserzeichen. Unterstützt verschiedene Dateiformate, darunter: PDF, DOCX, XLSX, PPTX und Bildformate (PNG, JPG usw.)."
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "watermark_add"
+      title: "Präzise Steuerung von Wasserzeichen"
+      content: "Bearbeiten Sie Wasserzeichen präzise, indem Sie sie bestimmten Abschnitten, ganzen Dokumenten oder einzelnen Anhängen und Formen in verschiedenen Dateiformaten hinzufügen oder daraus entfernen."
 
     # feature loop
-    - icon: "note-stack"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "watermark_style"
+      title: "Anpassung des Aussehens von Wasserzeichen"
+      content: "Übernehmen Sie eine präzise Kontrolle über die Ästhetik von Wasserzeichen, indem Sie Attribute wie Farbe, Schriftart, Deckkraft, Drehung und Positionierung innerhalb des Dokuments ändern."
 
     # feature loop
-    - icon: "stacks"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "hidden_print"
+      title: "PDF Wasserzeichen drucken"
+      content: "Setzen Sie ein unsichtbares Wasserzeichen ein, das beim normalen Anzeigen von Dokumenten unsichtbar bleibt, aber erst während des Druckvorgangs sichtbar wird, wodurch die Dokumentensicherheit unauffällig erhöht wird."
 
     # feature loop
-    - icon: "rule"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "image_only"
+      title: "Spezifisches Bild-Wasserzeichen"
+      content: "Verwenden Sie unsere Lösung, um bestimmte Bilder in einem Dokument mit einem Wasserzeichen zu versehen. Wählen Sie, ob Sie Wasserzeichen in einen bestimmten Abschnitt (z. B. Seite, Folie) oder in das gesamte Dokument einbetten möchten."
 
     # feature loop
-    - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "image_frame"
+      title: "Wasserzeichen für Bilder mit mehreren Frames"
+      content: "Wenden Sie Wasserzeichen selektiv auf bestimmte Frames in einem Bildformat mit mehreren Frames an und sorgen Sie so für eine detaillierte Kontrolle über die Platzierung von Wasserzeichen."
 
     # feature loop
-    - icon: "two-pager"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "attachments"
+      title: "Umfassender Inhaltsschutz"
+      content: "Erweitern Sie den Schutz auf verschiedene Dokumentelemente wie Anlagen in Excel Dokumenten und Bildformen in Präsentationen und bieten Sie so eine zusätzliche Sicherheitsebene."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "pdf_objects"
+      title: "Erweitertes Wasserzeichen in PDF"
+      content: "Markieren Sie verschiedene Bereiche von PDF s mit Wasserzeichen, einschließlich Bleed Box, Art Box, Crop Box, Trim Box usw."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "doc_background"
+      title: "Wasserzeichen für das Hintergrundbild"
+      content: "Verwalte Wasserzeichen in den Hintergrundbildern von Tabellen und Präsentationen und biete zusätzliche Anpassungsoptionen für visuelle Sicherheitsmaßnahmen."
 
     # feature loop
-    - icon: "lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "unreadable_characters"
+      title: "Textwasserzeichen mit unlesbaren Zeichen"
+      content: "Verwenden Sie unlesbare Zeichen in Textwasserzeichen, die in Präsentationen eingebettet sind, und erhöhen Sie so die Sicherheit, indem Sie die unbefugte Extraktion von Wasserzeichen erheblich erschweren."
 
     # feature loop
-    - icon: "select"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "watermark_text_search"
+      title: "Erweiterte Wasserzeichensuche"
+      content: "Nutzen Sie umfassende Suchfunktionen, um Wasserzeichen in Dokumenten anhand bestimmter Parameter oder durch Kombination verschiedener Kriterien zu finden und so ein effizientes Abrufen und Verwalten zu ermöglichen."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "watermark_image_search"
+      title: "Wasserzeichenerkennung mit ähnlichem Bild"
+      content: "Finden Sie ähnliche Wasserzeichenbilder in Dokumenten, die optisch einem Quellbild ähneln."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Programmatische Extraktion von Dokumentinformationen"
+      content: "Extrahieren Sie programmgesteuert wertvolle Metadaten, einschließlich Details zur Seiteneinrichtung und anderer Dokumentinformationen für unterstützte Dateiformate."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Codebeispiele"
+  description: "Tauchen Sie ein in Codebeispiele, die allgemeine GroupDocs.Watermark for Node.js via Java Funktionen zeigen"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Ein Dokument mit einem Bild mit einem Wasserzeichen versehen"
       content: |
-        {index-content-net.code_samples_sample_1_content}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
-        ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // {index-content.code_samples.sample_1.comment_2}
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        Nutzen Sie GroupDocs.Watermark for Node.js via Java, um die Dokumentensicherheit zu erhöhen, indem Sie Bildwasserzeichen hinzufügen. Weitere Informationen: [Bild-Wasserzeichen](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="So schützen Sie eine Datei mit einem Bildwasserzeichen.">}}
+        ```javascript {style=abap}
+        // Quelldokument in Watermarker laden
+        let watermarker = new Watermarker("document.pdf");
+        
+        // Pfad zu einem Wasserzeichenbild angeben
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // {index-content.code_samples.sample_1.comment_3}
-            comparer.Compare("result.docx");
-        }
+        // Schützen Sie die Datei und speichern Sie sie
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Suchen und ändern Sie vorhandene Wasserzeichen"
       content: |
-        {index-content-net.code_samples_sample_2_content}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
-        ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // {index-content.code_samples.sample_2.comment_2}
-            comparer.Add("target2.docx");
-            
-            // {index-content.code_samples.sample_2.comment_3}
-            comparer.Add("target3.docx");
-            
-            // {index-content.code_samples.sample_2.comment_4}
-            comparer.Compare("result.docx");
+        GroupDocs.Watermark for Node.js via Java ermöglicht es Ihnen, Dokumentwasserzeichen zu verwalten. Wählen Sie Wasserzeichen aus und ändern Sie ihre Eigenschaften. Erfahre wie: [Wasserzeichen ändern](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Suche und Änderung von Wasserzeichen.">}}
+        ```javascript {style=abap}   
+        // Quelldokument laden
+        let watermarker = new Watermarker("document.pdf");
+
+        // Suchen Sie nach Wasserzeichen, die aktualisiert werden sollen
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // Gewünschte Eigenschaften aktualisieren
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // Speichern Sie das geänderte Dokument in einem angegebenen Pfad
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

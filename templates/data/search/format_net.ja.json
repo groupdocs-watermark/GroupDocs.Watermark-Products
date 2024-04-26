@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} にある画像のウォーターマークを検索",
+    "comment_2": "{{FileFormatUp}} パスを通過するウォーターマーカーを作成",
+    "comment_3": "検索オプションを使用してウォーターマークを検索する",
+    "comment_4": "ウォーターマーク情報の処理"
+  },
+  "steps": {
+    "title": "{{EnvName}} で {{FileformatCap}} 個のウォーターマークを効率的に検索",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**は、さまざまなビジネス文書形式のウォーターマークをプログラムで検索するための堅牢なソリューションです。当社のパッケージをお使いの {{EnvName}} アプリケーションに統合すると、ウォーターマーク検索機能が強化されます。",
+      "step_1": "**Watermarker**クラスをインスタンス化し、{{FileformatCap}} ファイルパス、ファイルストリーム、またはバイトストリームを入力として指定します。このアクションにより、ウォーターマーク分析用のドキュメントが読み込まれます。",
+      "step_2": "**SearchCriteria**オブジェクトを活用してください。類似の画像ウォーターマークを検索するための画像を指定してください。または、テキストウォーターマークの場合は、テキストコンテンツ、フォントプロパティ、色属性、およびその他の関連パラメーターを定義して、検索条件を絞り込みます。",
+      "step_3": "**Watermarker**オブジェクトの**Search**メソッドを使用して、ロードされたドキュメント内でウォーターマーク検出プロセスを開始します。この関数はウォーターマークの可能性があることを示すオブジェクトのコレクションを返し、さらに処理を進めることができます。",
+      "step_4": "取得したウォーターマークオブジェクトのコレクションにより、正確な制御が可能になります。不要なウォーターマークをプログラムで削除したり、サイズやテキストの内容を調整するなど、特定の要件に合わせてウォーターマークのプロパティを動的に変更したりできます。"
+    }
+  },
+  "more_features": {
+    "title": "C# と {{ProdShortName}} を使った高度なウォーターマーク検索テクニック",
+    "description": "{{EnvName}} プラットフォームの開発者向けにカスタマイズされた {{ProdShortName}} C# APIを使用して、強力なウォーターマーク検索機能を詳しく調べてください。",
+    "image_description": "C# ウォーターマーク検索",
+    "feature_1": {
+      "title": "C# でのウォーターマーク検出の効率化",
+      "content": "{{ProdShortName}} を活用して、C# アプリケーション内で効率的なウォーターマーク検出を実装してください。高度な検索機能を利用すると、ウォーターマークをすばやく正確に特定できます。"
+    },
+    "feature_2": {
+      "title": "C# による正確なウォーターマーク検索",
+      "content": "C# でウォーターマークを正確に検索して、ドキュメントのセキュリティプロトコルを強化しましょう。サイズ、色、配置などの特定の特性に基づいてウォーターマークを検索するように {{ProdShortName}} を構成してください。"
+    },
+    "feature_3": {
+      "title": "効果的なウォーターマーク管理のための C# 統合",
+      "content": "{{ProdShortName}} を C# プロジェクトに統合して、ドキュメントウォーターマークを効果的に管理しましょう。当社の API には、ウォーターマークの使用状況を検索、分析、レポートするための強力なツールが用意されており、コンプライアンスとブランドの一貫性を確保できます。"
+    },
+    "code_1": {
+      "title": "C# の例:包括的なウォーターマーク検索",
+      "content": "C# を {{ProdShortName}} とともに使用して、複数のドキュメントタイプや複雑な検索条件の処理を含む包括的なウォーターマーク検索機能を実現する方法の詳細な例をご覧ください。",
+      "comment_1": "C# アプリケーションを初期化し、ドキュメントロードメカニズムを準備します",
+      "comment_2": "特定のウォーターマーク属性を対象とする検索パラメーターの設定",
+      "comment_3": "複数のドキュメントを検索し、ウォーターマークの詳細を収集します",
+      "comment_4": "さらなる管理措置またはコンプライアンス措置のためのウォーターマークデータの分析と処理"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 件のシークレットウォーターマークを公開",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に見つけることができます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 文書内の隠しウォーターマークを簡単に検索",
+      "description": "{{ProdFullName}} で隠されたウォーターマークをすばやく見つけて管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} パッケージをダウンロード"
+    },
+    "about": {
+      "title": "情報を取得 {{ProdFullName}}",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための強力なソリューションです。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使えば簡単にウォーターマーク管理をアプリケーションに組み込むことができます。"
+    },
+    "formats": {
+      "title": "ウォーターマーク検索でサポートされている形式を見る",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に検索して識別できます。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 文書内の隠しウォーターマークを発見",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に見つけることができます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 文書内の隠しウォーターマークを簡単に見つける",
+      "description": "{{ProdFullName}} で隠されたウォーターマークをすばやく見つけて管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料 {{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} についてもっと知る",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための包括的なソリューションを提供します。PDF、Microsoft Word、Excel など、さまざまなドキュメント形式からウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使うと、ウォーターマーク管理をアプリケーションにシームレスに統合できます。"
+    },
+    "formats": {
+      "title": "複数のファイル形式のウォーターマークを検索",
+      "description": "サポートされている複数のファイル形式のウォーターマークを簡単に識別して管理できます。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} 件の文書の隠しウォーターマークを表示",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に見つけることができます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 件の文書の隠しウォーターマークを即座に発見",
+      "description": "{{ProdFullName}} で隠しウォーターマークをすばやく確認して管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} パッケージ無料"
+    },
+    "about": {
+      "title": "{{ProdFullName}} について",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための包括的なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使ってウォーターマーク検索をアプリケーションに組み込んでください。"
+    },
+    "formats": {
+      "title": "対応しているフォーマットのウォーターマークを特定",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に検索して識別できます。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} 件のプレゼンテーションの隠しウォーターマークを見る",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に調べることができます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 個のプレゼンテーションの隠しウォーターマークを簡単に探索",
+      "description": "{{ProdFullName}} で隠されたウォーターマークをすばやく探索して管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} で無料でダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 基本情報",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための堅牢なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使用すると、アプリケーションのウォーターマーク管理が可能になります。"
+    },
+    "formats": {
+      "title": "複数のフォーマットのウォーターマークを探す",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に識別して管理できます。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} 個のプレゼンテーションで隠しウォーターマークを表示",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠されたウォーターマークを簡単に表示できます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 個のプレゼンテーションで非表示のウォーターマークを即座に表示",
+      "description": "{{ProdFullName}} で隠されたウォーターマークをすばやく表示して管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} から取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための包括的なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使用してアプリケーションにウォーターマーク検索を組み込んでください。"
+    },
+    "formats": {
+      "title": "サポートされているフォーマットでウォーターマークを表示",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に検索して識別できます。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} ドキュメント内の隠しウォーターマークを検出",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に検出できます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 文書内の隠しウォーターマークの検出と管理",
+      "description": "{{ProdFullName}} を使用すると、隠れたウォーターマークをすばやく検出して管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} パッケージをダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 情報",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための堅牢なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使用してウォーターマーク管理をアプリケーションに簡単に統合できます。"
+    },
+    "formats": {
+      "title": "複数の形式のウォーターマークを検出",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に識別して管理できます。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "スポット非表示 {{FileFormatUp}} スプレッドシートウォーターマーク",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に見つけることができます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} スプレッドシートの隠しウォーターマークを見つけて管理",
+      "description": "{{ProdFullName}} で隠れたウォーターマークをすばやく見つけて管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料 {{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "情報を取得 {{ProdFullName}}",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための包括的なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使用してアプリケーションにウォーターマーク検索機能を追加してください。"
+    },
+    "formats": {
+      "title": "対応しているフォーマットでウォーターマークを特定",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に検索して識別できます。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "非表示の {{FileFormatUp}} スプレッドシートウォーターマークのマスクを解除",
+      "description": "{{ProdFullName}} を使用すると、ドキュメント内の隠れたウォーターマークを簡単に解除できます。"
+    },
+    "header": {
+      "title": "非表示の {{FileFormatUp}} スプレッドシートのウォーターマークを即座に解除",
+      "description": "{{ProdFullName}} を使えば、隠しウォーターマークのマスクをすばやく解除して管理できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} パッケージ無料"
+    },
+    "about": {
+      "title": "{{ProdFullName}} についてもっと知る",
+      "content": "{{ProdFullName}} は {{EnvName}} を使用してウォーターマークを管理するための包括的なソリューションを提供します。PDF、Microsoft Word、Excel などのさまざまなドキュメント形式のウォーターマークを簡単に生成、編集、検索、削除できます。{{ProdFullName}} を使用すると、ウォーターマーク管理をアプリケーションに統合できます。"
+    },
+    "formats": {
+      "title": "サポートされているフォーマットでウォーターマークのマスクを解除する",
+      "description": "サポートされているさまざまなファイル形式のウォーターマークを簡単に検索して識別できます。"
+    }
+  }
+}

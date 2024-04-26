@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} 中查找文字水印",
+    "comment_2": "使用 {{FileFormatUp}} 路径创建水印",
+    "comment_3": "查找水印",
+    "comment_4": "使用找到的水印信息"
+  },
+  "steps": {
+    "title": "使用 {{EnvName}} 在 {{FileformatCap}} 个文件中查找水印",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在业务文档中查找水印的过程。将我们的软件包集成到您的 {{EnvName}} 应用程序中以释放其优势。",
+      "step_1": "**Watermarker**类实例中。您可以提供文件路径、文件流或字节流。",
+      "step_2": "**搜索条件对象**。例如，提供图像以查找相似的图像水印。如果要查找文字水印，请提供文本、字体、颜色和其他相关选项。",
+      "step_3": "**水印**对象的**搜索**方法检索文档中放置的水印。您将收到一组代表潜在水印的对象，以供进一步处理。",
+      "step_4": "最后，您可以根据需要灵活地操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProdShortName}} 高效搜索和查找水印",
+    "description": "利用 {{ProdShortName}} 的强大功能，在 {{EnvName}} 中使用 C# 在任何文档类型中搜索和定位水印。",
+    "image_description": "搜索水印",
+    "feature_1": {
+      "title": "使用高级搜索发现水印",
+      "content": "使用 {{ProdShortName}} 可以毫不费力地在多种文档类型中查找水印。我们的工具允许您按内容、大小和不透明度等参数进行搜索。"
+    },
+    "feature_2": {
+      "title": "通过自定义参数查找水印",
+      "content": "使用 {{ProdShortName}} 定制您的搜索条件，根据特定属性查找水印，确保您可以有效地管理和查看它们。"
+    },
+    "feature_3": {
+      "title": "高效检索和管理水印",
+      "content": "通过快速检索文档中的所有水印，简化文档管理流程。我们的API允许快速识别和分析水印。"
+    },
+    "code_1": {
+      "title": "C# 示例：搜索水印",
+      "content": "此 C# 示例演示如何使用 {{ProdShortName}} 在任何文档中搜索水印，并说明如何利用参数获得精确结果。",
+      "comment_1": "从本地或网络来源加载文档进行处理",
+      "comment_2": "定义水印搜索的参数，例如类型或可见性",
+      "comment_3": "检索所有符合指定条件的水印",
+      "comment_4": "查看和管理找到的水印清单以评估其影响"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "查找不可见的 {{FileformatCap}} 电子表格水印",
+      "description": "使用 {{ProdShortName}} 轻松发现文档中不可见的水印。"
+    },
+    "header": {
+      "title": "立即查找 {{FileformatCap}} 电子表格水印",
+      "description": "使用 {{ProdFullName}} 轻松揭开和管理隐藏的水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "获取信息 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 为使用 {{EnvName}} 管理水印提供了全面的解决方案。轻松生成、编辑、查找和删除各种文档格式的水印，例如 PDF、微软 Word、Excel 等。使用 {{ProdFullName}} 将水印管理无缝集成到您的应用程序中。"
+    },
+    "formats": {
+      "title": "发现各种格式的水印",
+      "description": "轻松搜索和识别各种支持的文件格式中的水印。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "在 {{FileformatCap}} 个文档中找到隐藏的水印",
+      "description": "使用 {{ProdShortName}} 轻松找到文档中隐藏的水印。"
+    },
+    "header": {
+      "title": "毫不费力地在 {{FileformatCap}} 个文档中找到隐藏的水印",
+      "description": "使用 {{ProdFullName}} 快速识别和管理隐藏的水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 免费套餐"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 信息",
+      "content": "{{ProdFullName}} 为使用 {{EnvName}} 管理水印提供了全面的解决方案。轻松生成、编辑、查找和删除各种文档格式中的水印，包括 PDF、微软 Word、Excel 等。使用 {{ProdFullName}} 查找应用程序的水印。"
+    },
+    "formats": {
+      "title": "探索支持格式的水印",
+      "description": "快速查找和管理各种支持的文件格式的水印。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "发掘 {{FileformatCap}} 演示文稿隐藏的水印",
+      "description": "使用 {{ProdShortName}} 轻松发掘文档中隐藏的水印。"
+    },
+    "header": {
+      "title": "毫不费力地发现 {{FileformatCap}} 个演示文稿隐藏的水印",
+      "description": "使用 {{ProdFullName}} 快速显示和管理隐藏的水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为使用 {{EnvName}} 管理水印提供了强大的解决方案。轻松生成、编辑、查找和删除各种文档格式的水印，例如 PDF、微软 Word、Excel 等。使用 {{ProdFullName}} 将水印查找功能集成到您的应用程序中。"
+    },
+    "formats": {
+      "title": "发现多种格式的水印",
+      "description": "轻松识别和管理多种支持的文件格式中的水印。"
+    }
+  }
+}

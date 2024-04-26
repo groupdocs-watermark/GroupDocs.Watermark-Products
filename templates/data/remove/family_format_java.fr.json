@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Effacer le filigrane du texte dans le document {{FileformatCap}}",
+    "comment_2": "Instanciez un filigrane avec le document {{FileformatCap}}",
+    "comment_3": "Effacer un filigrane spécifique",
+    "comment_4": "Enregistrer le fichier traité"
+  },
+  "steps": {
+    "title": "Effacer les filigranes des documents {{FileformatCap}} à l'aide de {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** permet d'effacer facilement les filigranes ajoutés précédemment aux documents commerciaux. Renforcez votre application {{EnvName}} en installant notre bibliothèque et en procédant en quelques étapes simples :",
+      "step_1": "**Watermarker** avec le document {{FileformatCap}}. Notre API permet de transmettre un document à traiter sous forme de flux ou de chemin local.",
+      "step_2": "**SearchCriteria** pour limiter le nombre de filigranes à traiter. Il est possible d'utiliser une image comme paramètre de recherche ainsi que des fonctionnalités de texte ou de mise en forme. Ensuite, vous fournissez des paramètres de recherche plus spécifiques, puis vous obtenez un résultat plus précis.",
+      "step_3": "Traitez la liste des filigranes de documents que vous avez obtenus en tant que résultat de recherche. Effacez le document.",
+      "step_4": "Après avoir effacé le document, enregistrez le résultat sous forme de fichier local ou de flux d'octets."
+    }
+  },
+  "more_features": {
+    "title": "Suppression efficace des filigranes via l'API {{EnvName}}",
+    "description": "Explorez les fonctionnalités robustes de notre API {{EnvName}} pour supprimer ou effacer les filigranes de différents types de documents, y compris les PDF et les fichiers Office. Idéal pour les développeurs qui souhaitent conserver des visuels nets et protéger l'intégrité des documents.",
+    "image_description": "Filigrane transparent",
+    "feature_1": {
+      "title": "Supprimez les filigranes avec précision",
+      "content": "Utilisez notre API {{EnvName}} pour cibler et supprimer avec précision les filigranes sans perturber la mise en page d'origine du document. Idéal pour les documents sensibles ou officiels où la clarté et la précision sont primordiales."
+    },
+    "feature_2": {
+      "title": "Suppression des filigranes par lots",
+      "content": "Améliorez l'efficacité de votre traitement de documents en supprimant les filigranes de plusieurs fichiers simultanément. Notre API prend en charge les opérations par lots, ce qui permet d'économiser du temps et des ressources pour les tâches à grande échelle."
+    },
+    "feature_3": {
+      "title": "Modifier les éléments du filigrane",
+      "content": "Nos outils d'édition avancés vous permettent de modifier de manière sélective les composants des filigranes, offrant ainsi une flexibilité dans la gestion des présentations de documents tout en garantissant la sécurité du contenu."
+    },
+    "code_1": {
+      "title": "PDF filigrane de texte transparent",
+      "content": "Cet exemple montre comment rechercher et supprimer toutes les annotations contenant du texte avec une mise en forme particulière dans un document PDF.",
+      "comment_1": "Charger le document PDF",
+      "comment_2": "Obtenir le contenu du document",
+      "comment_3": "Effacer les filigranes de texte avec une police particulière",
+      "comment_4": "Enregistrez le document"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Supprimer les filigranes de {{FileformatCap}} avec l'API {{EnvName}}",
+      "description": "Effacez, supprimez ou modifiez facilement les filigranes des fichiers {{FileformatCap}} à l'aide de l'API {{ProdFullName}}. Améliorez l'intégrité et la présentation des documents."
+    },
+    "header": {
+      "title": "{{EnvName}} {{FileformatCap}} Gestion des filigranes",
+      "description": "Utilisez le {{ProdFullName}} pour supprimer ou modifier les filigranes des feuilles de calcul {{FileformatCap}} de manière efficace et précise.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "Grâce à la bibliothèque {{ProdFullName}}, les développeurs peuvent gérer les filigranes des fichiers {{FileformatCap}} de manière fluide. Cet outil prend en charge des opérations telles que la suppression, l'ajustement et la recherche de filigranes de texte et d'image. Idéal pour les applications nécessitant une présentation visuelle claire des données sans compromettre la sécurité ou la mise en page du document."
+    },
+    "formats": {
+      "title": "Gestion de {{FileformatCap}} filigranes dans {{EnvName}}",
+      "description": "Découvrez comment l'API {{FileformatCap}} simplifie la suppression des filigranes des documents {{FileformatCap}}, tout en préservant l'intégrité et la clarté des fichiers."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Supprimer les filigranes {{FileformatCap}} avec l'API {{EnvName}}",
+      "description": "Simplifiez la suppression, la modification et la clarté des filigranes pour {{FileformatCap}} documents à l'aide de l'API {{ProdFullName}}."
+    },
+    "header": {
+      "title": "{{EnvName}} {{FileformatCap}} Suppression du filigrane",
+      "description": "Maîtrisez la suppression des filigranes sur {{FileformatCap}} documents à l'aide de l'API {{ProdFullName}}, afin de garantir des sorties de documents impeccables.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} Télécharger"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "Tirez parti de la bibliothèque {{ProdFullName}} pour gérer et effacer efficacement les filigranes des {{FileformatCap}} documents. Cet outil puissant permet de supprimer, d'ajuster et de rechercher des filigranes de texte et d'image, facilitant ainsi la protection et la gestion de l'authenticité et de l'apparence des documents."
+    },
+    "formats": {
+      "title": "Gestion des filigranes {{FileformatCap}} avec {{EnvName}}",
+      "description": "Découvrez comment gérer et supprimer efficacement les filigranes dans les fichiers {{FileformatCap}}, en améliorant la sécurité et la lisibilité des documents grâce à l'API {{ProdFullName}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{EnvName}} API pour effacer les filigranes dans les présentations",
+      "description": "Optimisez vos présentations en supprimant les filigranes grâce à notre API {{EnvName}}, qui garantit des diapositives propres pour un usage professionnel."
+    },
+    "header": {
+      "title": "{{EnvName}} Nettoyeur de filigranes de présentation",
+      "description": "Déployez l'API {{ProdFullName}} pour supprimer efficacement les filigranes des diapositives de présentation, améliorant ainsi la clarté visuelle et l'engagement du public.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "La bibliothèque {{ProdFullName}} {{EnvName}} permet aux développeurs de manipuler et d'éliminer facilement les filigranes des fichiers de présentation. Il prend en charge des fonctionnalités complètes pour ajuster et effacer les filigranes du texte et des images, garantissant ainsi à vos présentations une apparence professionnelle tout en garantissant l'intégrité du contenu."
+    },
+    "formats": {
+      "title": "Gestion efficace des filigranes dans {{EnvName}} pour les présentations",
+      "description": "Découvrez la facilité de gestion et de suppression des filigranes des présentations à l'aide de l'API {{ProdFullName}}, conçue pour conserver des diapositives professionnelles de haute qualité."
+    }
+  }
+}

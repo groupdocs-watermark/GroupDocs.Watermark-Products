@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 텍스트 워터마크 조정",
+    "comment_2": "입력 {{FileFormatUp}} 문서로 워터마커 인스턴스화",
+    "comment_3": "텍스트 검색 기준 초기화 및 텍스트 워터마크 찾기",
+    "comment_4": "텍스트 워터마크 속성 조정",
+    "comment_5": "업데이트된 문서 저장"
+  },
+  "steps": {
+    "title": "{{EnvName}} 을 사용하여 {{FileformatCap}} 문서의 워터마크를 조정합니다.",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**를 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 텍스트 워터마크를 쉽게 조정할 수 있습니다.",
+      "step_1": "**워터마커**라는 API의 메인 오브젝트에 로드하세요.추가 처리를 위한 파일을 스트림 또는 로컬 디스크의 경로로 제공할 수 있습니다.",
+      "step_2": "**SearchCriteria**는 이전에 문서에 추가된 올바른 속성을 가진 워터마크를 식별하는 데 도움이 됩니다.",
+      "step_3": "**검색** 절차의 결과로 적합한 워터마크 목록을 가져옵니다.크기, 페이지 정렬, 텍스트, 색상, 이미지 내용 등과 같은 찾은 워터마크 속성을 조정하세요. 데이터를 사용자 지정할 수 있는 다양한 방법이 있습니다.",
+      "step_4": "워터마크 조정 프로세스를 완료한 후에는 업데이트된 문서를 저장해야 합니다.로컬 파일 경로, 파일 또는 바이트 스트림을 사용하여 결과를 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{FileFormatUp}} 워터마크 조정 심층 분석",
+    "description": "우리의 API는 {{EnvName}} 애플리케이션이 널리 사용되는 문서 형식에서 워터마크를 추가, 편집, 제거 및 검색할 수 있도록 합니다.",
+    "image_description": "워터마크 조정",
+    "feature_1": {
+      "title": "문서에 손쉽게 워터마크 추가",
+      "content": "{{ProdShortName}} 는 {{EnvName}} 명의 개발자를 위한 워터마킹을 간소화합니다.다양한 비즈니스 문서 및 파일에 다양한 워터마크를 추가합니다.워터마크를 적용할 수 있을 뿐만 아니라 기존 워터마크를 업데이트하거나 제거할 수도 있습니다."
+    },
+    "feature_2": {
+      "title": "필요에 맞게 워터마크를 사용자 지정하세요",
+      "content": "API는 광범위한 사용자 지정 옵션을 제공합니다.크기, 회전, 색상, 글꼴, 스타일 등을 쉽게 조정하여 완벽한 워터마크를 얻을 수 있습니다."
+    },
+    "feature_3": {
+      "title": "{{FileFormatUp}} 개의 기본 문서 기능 사용",
+      "content": "특정 문서 형식에 따라 기본 기능을 활용할 수 있습니다.여기에는 문서 페이지 배경, 주석, 헤더 또는 워터마크 컨테이너로 사용되는 기타 개체가 포함될 수 있습니다."
+    },
+    "code_1": {
+      "title": "PDF 텍스트 워터마크 조정",
+      "content": "이 예제에서는 특정 아티팩트의 텍스트를 조정하는 방법을 보여줍니다.",
+      "comment_1": "PDF 문서 불러오기",
+      "comment_2": "문서 콘텐츠 가져오기",
+      "comment_3": "특정 워터마크 텍스트 조정",
+      "comment_4": "문서 저장"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "애드저스트 Excel 워터마크 툴 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 워터마크를 손쉽게 조정, 업데이트 및 관리할 수 있습니다.문서를 쉽게 사용자 지정할 수 있습니다."
+    },
+    "header": {
+      "title": "스프레드시트 워터마크 조정 도구: 매우 간단함",
+      "description": "직관적인 워터마크 편집 도구를 사용하여 문서를 개선하세요.워크플로를 손쉽게 간소화하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**워터마크 조정 도구**: 워터마크 도구는 문서를 개선하고 보호할 수 있는 사용자 친화적인 솔루션을 제공합니다.직관적인 편집 기능을 사용하면 워터마크를 쉽게 관리할 수 있어 문서 보안과 신뢰성이 보장됩니다."
+    },
+    "formats": {
+      "title": "다른 포맷의 경우 {{ProdFullName}} 를 통해 워터마크를 조정합니다.",
+      "description": "다양한 문서 형식에서 워터마크를 쉽게 사용자 지정할 수 있습니다.문서 보안 및 신뢰성을 손쉽게 강화하세요."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Word 개의 워터마크를 손쉽게 조정하세요 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 여러 문서 형식에서 워터마크를 원활하게 조정합니다.문서 보안을 강화하세요."
+    },
+    "header": {
+      "title": "Word 개의 워터마크 조정: 간편한 보안",
+      "description": "강력한 워터마크 수정 기능으로 문서를 손쉽게 보호할 수 있습니다.안심하고 콘텐츠를 보호하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**워터마크 수정**: {{ProdShortName}} 는 사용자가 다양한 문서 형식에서 워터마크를 원활하게 수정할 수 있도록 합니다.정밀한 제어와 다양한 옵션을 통해 안심하고 문서를 사용자 지정할 수 있습니다."
+    },
+    "formats": {
+      "title": "인기 있는 포맷의 경우 {{ProdFullName}} 를 사용하여 워터마크를 조정합니다.",
+      "description": "GroupDocs.Watermark 은 다양한 형식의 워터마크를 원활하게 수정할 수 있도록 지원합니다.특정 요구 사항에 맞게 워터마킹 전략을 조정하세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "PowerPoint 개의 워터마크를 쉽게 조정하세요 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 다양한 문서 유형의 워터마크를 손쉽게 업데이트할 수 있습니다.문서 무결성을 손쉽게 유지할 수 있습니다."
+    },
+    "header": {
+      "title": "PowerPoint 워터마크 조정: 정밀 제어",
+      "description": "워터마크 업데이트 기능으로 문서 무결성을 정밀하게 관리할 수 있습니다.간편하게 신뢰성을 보장하세요.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}} 에서 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "**워터마크 업데이트**: 워터마크 업데이트 기능으로 문서 무결성을 관리할 수 있습니다.다양한 문서 유형에 걸쳐 워터마크를 손쉽게 수정하여 신뢰성과 보안을 유지할 수 있습니다."
+    },
+    "formats": {
+      "title": "비즈니스 형식의 워터마크를 {{ProdFullName}} 로 조정",
+      "description": "정밀 제어를 통해 다양한 문서 유형에서 워터마크를 손쉽게 업데이트할 수 있습니다.문서 무결성과 보안을 원활하게 유지합니다."
+    }
+  }
+}

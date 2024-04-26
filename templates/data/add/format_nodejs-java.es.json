@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Generar marca de agua de imagen para {{FileFormatUp}}",
+    "comment_2": "Instanciar el archivo fuente de Watermarker pasando",
+    "comment_3": "Genere una marca de agua proporcionando un archivo de imagen",
+    "comment_4": "Obtenga un resultado de {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Proteja los documentos empresariales: genere {{FileformatCap}} marcas de agua",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :**: una potente solución de generación de marcas de agua para {{EnvName}}.",
+      "step_1": "**Optimice la creación de marcas de agua seguras en sus aplicaciones {{EnvName}}:** La clase **Watermarker** actúa como el componente principal de la API {{ProdShortName}}. Esta biblioteca simplifica la generación de marcas de agua en varios formatos de documentos, incluido el {{FileformatCap}}. Para empezar, crea una instancia de Watermarker antes de procesar tu documento. Proporcione la ruta del archivo {{FileformatCap}} o un objeto de flujo al constructor durante la inicialización.",
+      "step_2": "**Genere marcas de agua para mejorar la protección:** Habilite marcas de agua que se adapten perfectamente a sus necesidades de seguridad. Construya un objeto **Watermark** especificando el tipo deseado. A diferencia de la colocación tradicional de las páginas, puedes incrustar marcas de agua en los elementos nativos del documento, como los encabezados o los archivos adjuntos, lo que refuerza la seguridad de los documentos y añade un toque profesional.",
+      "step_3": "**Ajusta la apariencia de las marcas de agua para lograr un impacto óptimo:** Controla los aspectos visuales de tus marcas de agua. Personalice propiedades como la altura, el ancho, la alineación (superior, izquierda, centro, etc.), las familias de fuentes y los colores para lograr un resultado visualmente efectivo y coherente que refuerce la legitimidad del documento.",
+      "step_4": "**Aplicación de marcas de agua y almacenamiento seguro**: incorpore sus marcas de agua mediante el método**Watermarker**. La biblioteca le permite agregar varias marcas de agua si es necesario para mejorar la protección. Se recomienda guardar el documento {{FileformatCap}} modificado en una ubicación separada y segura para conservar el archivo original y proteger los documentos con marcas de agua."
+    }
+  },
+  "more_features": {
+    "title": "Integración refinada de marcas de agua",
+    "description": "Nuestra API GroupDocs.Watermark para desarrolladores de .NET ofrece soluciones refinadas para integrar marcas de agua sin problemas en cualquier documento. Esta herramienta está diseñada para crear marcas de agua sofisticadas y discretas que garanticen la protección de los derechos de autor y, al mismo tiempo, mantengan la estética del documento.",
+    "image_description": "Integración de Precision Watermark",
+    "feature_1": {
+      "title": "Efectos de marca de agua de gradiente",
+      "content": "Implemente marcas de agua con degradado que se mezclen sin problemas en sus documentos. Esta función permite utilizar degradados lineales o radiales, lo que añade un aspecto moderno a las funciones de seguridad y mejora tanto la protección como la interacción visual sin sobrecargar el contenido."
+    },
+    "feature_2": {
+      "title": "Marcas de agua con patrones para mayor seguridad",
+      "content": "Usa marcas de agua basadas en patrones para agregar una capa adicional de seguridad. Nuestra API admite varios patrones que pueden diseñarse de forma compleja y repetirse en todo el documento, lo que hace que la marca de agua sea más resistente a la manipulación y la eliminación."
+    },
+    "feature_3": {
+      "title": "Marcas de agua específicas del documento",
+      "content": "Personalice las marcas de agua de forma exclusiva para los diferentes tipos de documentos. Ya se trate de contratos legales, planes de negocios o informes científicos, personalice las marcas de agua para que se adapten al propósito del documento y a la accesibilidad del lector, garantizando una integración y una seguridad óptimas."
+    },
+    "code_1": {
+      "title": "Generar marca de agua de imagen PDF",
+      "content": "Genere marcas de agua para todas las imágenes presentadas dentro de un documento PDF",
+      "comment_1": "Cargar documento como PDF",
+      "comment_2": "Crear marca de agua basada en la anotación PDF",
+      "comment_3": "Configurar las opciones de marca de agua",
+      "comment_4": "Añadir marca de agua de texto al documento de resultados"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Marcas de agua Node.js para archivos {{FileFormatUp}}",
+      "description": "Incorpore marcas de agua en {{FileFormatUp}} documentos con Node.js para mejorar la seguridad y la marca de los documentos."
+    },
+    "header": {
+      "title": "Marcas de agua impulsadas por Node.js en {{FileFormatUp}}",
+      "description": "Aplica marcas de agua de forma dinámica a {{FileFormatUp}} archivos con Node.js, garantizando una protección sólida y una presentación profesional de tus Word documentos.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece a los desarrolladores de Node.js una API intuitiva para generar, implementar y gestionar marcas de agua en archivos {{FileFormatUp}}. Esta herramienta es perfecta para aplicaciones que requieren mejoras en la seguridad de los documentos o la marca corporativa. Gracias a las funciones que admiten marcas de agua en texto e imágenes, los desarrolladores pueden personalizar fácilmente el tamaño, la posición y la opacidad para adaptarlos a necesidades específicas. Ideal para proteger informes empresariales, documentos legales y otras comunicaciones profesionales, {{ProdShortName}} se integra perfectamente en los entornos modernos de Node.js y garantiza que las marcas de agua se apliquen de manera eficiente y sin comprometer la integridad del documento."
+    },
+    "formats": {
+      "title": "Aplicación de marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para añadir marcas de agua discretas y personalizables a {{FileFormatUp}} archivos, lo que mejora la seguridad y la estética de sus documentos."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Crea marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Aproveche Node.js para añadir marcas de agua sólidas a {{FileFormatUp}} archivos, lo que refuerza la seguridad y la integridad de los documentos."
+    },
+    "header": {
+      "title": "Genere marcas de agua para {{FileFormatUp}} mediante Node.js",
+      "description": "Utilice Node.js para crear e implementar marcas de agua sofisticadas en archivos {{FileFormatUp}}, lo que resulta perfecto para proteger documentos confidenciales de Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js las herramientas necesarias para crear, añadir y gestionar marcas de agua en DOCX documentos de forma eficiente. Esta API permite la integración perfecta de marcas de agua personalizables que pueden mejorar significativamente la seguridad de los documentos. Ya sea que añada logotipos de empresas, texto o superposiciones gráficas complejas, la API proporciona un control total sobre la opacidad, el tamaño y la ubicación. Diseñada específicamente para entornos profesionales en los que la autenticidad de los documentos y la protección de los derechos de autor son fundamentales, como los sectores legal, financiero y gubernamental, {{ProdShortName}} garantiza que sus DOCX archivos no solo estén protegidos, sino que también mantengan un alto nivel de presentación. Compatible con varios entornos de Node.js, admite operaciones sincrónicas y asincrónicas para adaptarse a las diferentes necesidades de las aplicaciones."
+    },
+    "formats": {
+      "title": "Agregue marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Implemente Node.js para generar y aplicar de forma dinámica marcas de agua personalizadas en {{FileFormatUp}} archivos, asegurándolos y personalizándolos de forma eficaz."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Genere marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Cree marcas de agua seguras e invisibles para {{FileFormatUp}} imágenes con Node.js, salvaguardando los derechos de autor."
+    },
+    "header": {
+      "title": "Redacte marcas de agua para {{FileFormatUp}} mediante Node.js",
+      "description": "Utilice Node.js para añadir marcas de agua sólidas a {{FileFormatUp}} archivos y garantizar que sus imágenes estén protegidas contra el uso no autorizado y la infracción de los derechos de autor.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js la capacidad de generar e implementar marcas de agua personalizadas en JPEG imágenes. Esta potente API permite la creación de marcas de agua visibles e invisibles que ayudan a proteger los medios digitales contra el robo de derechos de autor y la distribución no autorizada. Personalice la opacidad, el color y la posición de las marcas de agua para que se combinen perfectamente con el contenido de la imagen o destaquen para que sean más visibles para la marca. Ideal para fotógrafos, diseñadores gráficos y creadores de contenido que necesitan asegurarse de que su trabajo digital permanezca seguro y reconocido como de su propiedad. Con {{ProdShortName}}, los desarrolladores pueden proteger las imágenes de manera eficiente y, al mismo tiempo, mantener su integridad estética, todo ello dentro del entorno flexible y potente de Node.js."
+    },
+    "formats": {
+      "title": "Agregue marcas de agua seguras a {{FileFormatUp}} con Node.js",
+      "description": "Implemente Node.js para incrustar marcas de agua seguras y personalizables en {{FileFormatUp}} imágenes, protegiendo y marcando el contenido digital de forma eficaz."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Agregue marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para integrar sin problemas las marcas de agua en {{FileFormatUp}} imágenes, lo que mejora la seguridad de los derechos de autor."
+    },
+    "header": {
+      "title": "Creación de marcas de agua para archivos {{FileFormatUp}} mediante Node.js",
+      "description": "Implemente Node.js para generar marcas de agua personalizadas en archivos {{FileFormatUp}} y proteger sus imágenes contra el uso indebido y las infracciones de derechos de autor.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permite a los desarrolladores de Node.js componer y aplicar marcas de agua de manera eficiente en {{FileFormatUp}} imágenes. Esta API facilita la inserción de marcas de agua que se adaptan a las necesidades del contenido, ya sea para uso personal o para una visualización profesional. Los desarrolladores pueden personalizar las funciones de las marcas de agua, como la opacidad, el tamaño y la ubicación, para garantizar que sean eficaces y discretas. Ideal para proteger el contenido fotográfico, las obras de arte digitales y otros activos multimedia contra la reproducción no autorizada, {{ProdShortName}} proporciona sólidas capacidades de protección en un entorno de Node.js, lo que garantiza que su propiedad intelectual esté segura y visualmente intacta."
+    },
+    "formats": {
+      "title": "Proteja {{FileFormatUp}} imágenes con marcas de agua de Node.js",
+      "description": "Utilice Node.js para incrustar marcas de agua que protejan sus {{FileFormatUp}} imágenes, manteniendo su calidad original y garantizando la protección de los derechos de autor."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} con marcas de agua de Node.js",
+      "description": "Integre marcas de agua en {{FileFormatUp}} mediante Node.js para proteger los documentos y contratos oficiales."
+    },
+    "header": {
+      "title": "Cree marcas de agua para {{FileFormatUp}} documentos mediante Node.js",
+      "description": "Utilice Node.js para añadir marcas de agua avanzadas a {{FileFormatUp}} archivos y proteger así los documentos oficiales, los contratos y la información confidencial.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece a los desarrolladores de Node.js una potente herramienta para generar, componer y gestionar marcas de agua diseñadas específicamente para {{FileFormatUp}} archivos. Esta API permite la integración precisa de las marcas de agua en los documentos oficiales, los contratos y cualquier archivo confidencial PDF que requiera una capa adicional de seguridad. Personalice sus marcas de agua para que sean visibles o invisibles, asegurándose de que no interfieran con la legibilidad del contenido y, al mismo tiempo, proteja eficazmente los derechos de autor y prevenga el fraude. Ideal para su uso en los sectores legal, financiero y gubernamental, donde la integridad de los documentos es primordial, {{ProdShortName}} también admite el procesamiento por lotes de marcas de agua para conjuntos de documentos de gran tamaño, lo que es totalmente compatible con los entornos modernos de Node.js."
+    },
+    "formats": {
+      "title": "Implemente marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Aproveche Node.js para crear y aplicar marcas de agua de forma dinámica en {{FileFormatUp}} documentos, algo crucial para la protección del contenido legal y oficial."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Inserte marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para aplicar marcas de agua precisas a {{FileFormatUp}} imágenes, lo que garantiza una protección sólida de los derechos de autor."
+    },
+    "header": {
+      "title": "Creación de marcas de agua para archivos {{FileFormatUp}} mediante Node.js",
+      "description": "Implemente Node.js para generar marcas de agua personalizadas en {{FileFormatUp}} imágenes, lo que resulta perfecto para proteger el arte digital y el contenido fotográfico.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js funciones avanzadas para añadir marcas de agua a los archivos {{FileFormatUp}}. Esta API facilita la creación de marcas de agua visibles e invisibles que se combinan perfectamente con la imagen, lo que mejora la seguridad sin comprometer la calidad visual. Personalice funciones como la opacidad, la escala y la ubicación para satisfacer necesidades específicas, por lo que es ideal para fotógrafos, diseñadores gráficos y creadores de contenido que desean proteger sus activos digitales. Ya sea para uso personal o para distribución comercial, {{ProdShortName}} garantiza que las imágenes se marquen de forma segura y es compatible con una variedad de entornos de Node.js."
+    },
+    "formats": {
+      "title": "Proteja {{FileFormatUp}} imágenes con marcas de agua de Node.js",
+      "description": "Utilice Node.js para incrustar marcas de agua que protejan sus {{FileFormatUp}} imágenes, manteniendo su calidad original y garantizando la protección de los derechos de autor."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Agregue marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para integrar marcas de agua en PowerPoint archivos y proteger las presentaciones de forma eficaz."
+    },
+    "header": {
+      "title": "Cree marcas de agua para {{FileFormatUp}} presentaciones a través de Node.js",
+      "description": "Implemente Node.js para generar y aplicar marcas de agua personalizadas en PowerPoint archivos, lo que resulta ideal para proteger las presentaciones corporativas y educativas.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permite a los desarrolladores de Node.js crear, añadir y gestionar de forma eficiente marcas de agua en archivos PowerPoint (PPT). Esta API permite incorporar sin problemas las marcas de agua en los materiales de presentación, lo que proporciona un nivel adicional de seguridad para la información confidencial y confidencial. Personalice la opacidad, la posición y el tamaño de la marca de agua para garantizar que complemente el diseño de la presentación sin obstruir el contenido clave. Perfecto para entornos empresariales, académicos y de formación, {{ProdShortName}} garantiza que sus presentaciones no solo sean seguras, sino que también mantengan un aspecto profesional. Compatible con varios entornos de Node.js, ofrece soluciones flexibles para la seguridad de las presentaciones."
+    },
+    "formats": {
+      "title": "Implemente marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Aproveche Node.js para crear y aplicar marcas de agua de forma dinámica en {{FileFormatUp}} archivos, algo crucial para proteger el contenido importante de las presentaciones."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} con marcas de agua de Node.js",
+      "description": "Implemente Node.js para incrustar marcas de agua en {{FileFormatUp}} presentaciones, lo que mejora la seguridad de los documentos."
+    },
+    "header": {
+      "title": "Genere marcas de agua para {{FileFormatUp}} mediante Node.js",
+      "description": "Utilice Node.js para crear marcas de agua personalizadas para {{FileFormatUp}} archivos, perfectas para proteger presentaciones de alto nivel y datos privados.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js las herramientas para agregar, administrar y personalizar marcas de agua en archivos PPTX. Esta API es ideal para incrustar marcas de agua que salvaguarden la integridad de las presentaciones empresariales y educativas sin alterar su estética. Los desarrolladores pueden controlar la opacidad, el color y la ubicación de las marcas de agua, asegurándose de que sean sutiles pero eficaces. Apto para proteger planes estratégicos, informes financieros y materiales educativos, {{ProdShortName}} se integra perfectamente con los entornos modernos de Node.js, lo que permite una fácil aplicación en los flujos de trabajo de presentación en tiempo real."
+    },
+    "formats": {
+      "title": "Aplica marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Implemente Node.js para insertar marcas de agua seguras y personalizables en {{FileFormatUp}} archivos, preservando la profesionalidad y la seguridad de sus presentaciones."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Inserte marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para integrar marcas de agua en {{FileFormatUp}} documentos y proteger el contenido con facilidad."
+    },
+    "header": {
+      "title": "Cree marcas de agua para {{FileFormatUp}} documentos mediante Node.js",
+      "description": "Implemente Node.js para añadir marcas de agua personalizadas a {{FileFormatUp}} archivos, lo que resulta ideal para proteger MS Word y documentos de texto contra el uso no autorizado.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js la capacidad de generar y gestionar marcas de agua específicas para RTF documentos. Esta API permite la incrustación precisa de marcas de agua de texto o imágenes, lo que mejora la seguridad de los documentos y la protección de los derechos de autor. Personalice las marcas de agua para que sean visibles o invisibles en función de la sensibilidad de la información, ajustando la opacidad, el tamaño y la ubicación para garantizar que se combinen de forma natural con el contenido del documento. Perfecto para documentos legales, informes corporativos y cualquier material escrito confidencial, {{ProdShortName}} admite una amplia personalización para satisfacer las necesidades de seguridad específicas en varios entornos de Node.js."
+    },
+    "formats": {
+      "title": "Proteja {{FileFormatUp}} archivos con marcas de agua Node.js",
+      "description": "Utilice Node.js para implementar marcas de agua dinámicas en archivos {{FileFormatUp}}, garantizando la seguridad y la integridad del contenido textual."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Agregue marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Aproveche Node.js para incrustar marcas de agua de forma dinámica en {{FileFormatUp}} imágenes y, de este modo, proteger sus activos digitales."
+    },
+    "header": {
+      "title": "Genere marcas de agua para {{FileFormatUp}} imágenes a través de Node.js",
+      "description": "Utilice Node.js para crear y aplicar marcas de agua precisas a {{FileFormatUp}} archivos, lo que resulta perfecto para proteger imágenes de alta resolución y contenido archivado.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece a los desarrolladores de Node.js un potente conjunto de herramientas para añadir, gestionar y personalizar marcas de agua en imágenes TIF. Esta API permite la integración de marcas de agua visibles e invisibles, lo que resulta adecuado para garantizar la seguridad de los documentos fotográficos y escaneados. Personalice el tamaño, la opacidad y la ubicación de las marcas de agua para mantener la integridad y la calidad de la imagen. Ideal para fotógrafos, archiveros y diseñadores gráficos, {{ProdShortName}} garantiza que todos los archivos TIF estén protegidos contra el uso y la reproducción no autorizados y, al mismo tiempo, es compatible con una variedad de entornos de Node.js."
+    },
+    "formats": {
+      "title": "Implemente marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Implemente Node.js para insertar marcas de agua seguras y personalizadas en {{FileFormatUp}} imágenes, algo crucial para mantener los derechos de autor y prevenir la piratería de datos."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} imágenes con Node.js",
+      "description": "Implemente Node.js para aplicar marcas de agua en {{FileFormatUp}} archivos, lo que mejora la seguridad de los archivos digitales."
+    },
+    "header": {
+      "title": "Crea marcas de agua para {{FileFormatUp}} mediante Node.js",
+      "description": "Utilice Node.js para generar marcas de agua personalizadas para {{FileFormatUp}} imágenes, ideales para proteger fotografías y documentos con calidad de archivo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js la capacidad de crear, añadir y gestionar marcas de agua en TIFF archivos de forma eficaz. Esta API facilita la incrustación de marcas de agua que protegen y hacen valer los derechos de autor de las imágenes digitales y escaneadas. Los desarrolladores pueden personalizar las marcas de agua en términos de tipo, transparencia y ubicación, asegurándose de que se integren sutilmente sin comprometer los detalles originales de la imagen. Ideal para su uso en bibliotecas, museos y cualquier institución que necesite proteger el material de archivo, {{ProdShortName}} ofrece soluciones sólidas de creación de marcas de agua que son compatibles con los entornos actuales de Node.js."
+    },
+    "formats": {
+      "title": "Aplica marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para incrustar marcas de agua en archivos {{FileFormatUp}}, lo que mejora la seguridad y la protección de los derechos de autor del contenido archivado."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Inserte marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para aplicar marcas de agua avanzadas a {{FileFormatUp}} imágenes, lo que mejora la protección y los derechos de autor."
+    },
+    "header": {
+      "title": "Cree marcas de agua para {{FileFormatUp}} imágenes mediante Node.js",
+      "description": "Implemente Node.js para generar marcas de agua seguras y personalizadas para {{FileFormatUp}} archivos, algo ideal para los creadores de contenido digital que desean proteger sus imágenes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js las herramientas para agregar, administrar y personalizar marcas de agua en imágenes WEBP. Esta API permite la integración de marcas de agua transparentes u opacas que se combinan perfectamente con la imagen, lo que garantiza que se mantenga la integridad de la ilustración y, al mismo tiempo, la proteja contra el uso no autorizado. Personalice el tamaño, la opacidad y la posición de la marca de agua para resaltar su marca o proteger sus activos digitales de forma discreta. Apto para fotógrafos, diseñadores gráficos y cualquier profesional que trabaje con medios digitales, {{ProdShortName}} mejora la seguridad de las imágenes WEBP a través de una interfaz Node.js flexible y potente."
+    },
+    "formats": {
+      "title": "Proteja {{FileFormatUp}} archivos con marcas de agua Node.js",
+      "description": "Implemente Node.js para insertar marcas de agua sólidas y personalizables en {{FileFormatUp}} imágenes, garantizando así la protección de los derechos de autor y la visibilidad de la marca."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Crea marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Usa Node.js para generar marcas de agua en {{FileFormatUp}} archivos, lo que mejora la seguridad de tus Excel documentos."
+    },
+    "header": {
+      "title": "Genere marcas de agua Node.js para archivos {{FileFormatUp}}",
+      "description": "Implemente marcas de agua sólidas en {{FileFormatUp}} hojas de cálculo con Node.js, diseñadas para proteger los datos financieros y personales en Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona a los desarrolladores de Node.js las herramientas necesarias para crear, componer e incrustar marcas de agua en XLS archivos de forma eficaz. Esta API está diseñada para una integración perfecta en los flujos de trabajo de Excel, lo que facilita la adición de marcas de agua visibles e invisibles que se pueden personalizar en cuanto a opacidad, texto e imágenes. Ideal para proteger la información confidencial en hojas de cálculo financieras, informes de clientes o cualquier documento Excel que requiera confidencialidad, {{ProdShortName}} ofrece funciones avanzadas, como la colocación condicional de marcas de agua en función del análisis del contenido. Al ser compatible con todos los entornos .NET, esta solución garantiza que sus documentos estén protegidos contra el uso y la distribución no autorizados."
+    },
+    "formats": {
+      "title": "Aplicación de marcas de agua a {{FileFormatUp}} con Node.js",
+      "description": "Utilice Node.js para generar e integrar dinámicamente marcas de agua personalizadas en archivos {{FileFormatUp}}, a fin de proteger sus Excel datos de forma eficaz."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Inserte marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Aproveche Node.js para generar y aplicar marcas de agua en {{FileFormatUp}} archivos y proteger sus Excel documentos."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} hojas con Node.js",
+      "description": "Utilice la API Node.js para crear marcas de agua personalizables para {{FileFormatUp}} archivos, perfectas para mejorar la integridad de los documentos y proteger la información confidencial.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona una solución eficaz para que los desarrolladores de Node.js generen, añadan y gestionen marcas de agua en archivos XLSX. Esta API es esencial para mantener la confidencialidad y la autenticidad de los Excel documentos, especialmente en entornos corporativos, financieros y legales. Personalice sus marcas de agua con una variedad de opciones, incluidas las superposiciones de texto e imágenes, diseñadas para ser tanto funcionales como sutiles. Las funciones adicionales permiten crear marcas de agua automatizadas en función de las propiedades del documento y las condiciones definidas por el usuario, lo que garantiza que las marcas de agua se apliquen de forma coherente y solo cuando sea necesario. {{ProdShortName}} es compatible con las plataformas .NET actuales y admite Excel funcionalidades avanzadas."
+    },
+    "formats": {
+      "title": "Implementación de marcas de agua en {{FileFormatUp}} con Node.js",
+      "description": "Implemente Node.js para añadir de manera eficiente marcas de agua avanzadas y seguras a {{FileFormatUp}} archivos, protegiendo así sus Excel datos profesionales."
+    }
+  }
+}

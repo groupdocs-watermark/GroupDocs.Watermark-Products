@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Ajouter un filigrane d'image à {{FileFormatUp}}",
+    "comment_2": "Transmettre le fichier à filigraner au filigrane",
+    "comment_3": "Fournir un chemin vers l'image avec un filigrane",
+    "comment_4": "Enregistrer le résultat"
+  },
+  "steps": {
+    "title": "Techniques avancées : ajout de filigranes à {{FileformatCap}} documents via {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "**Watermarker**. Cette étape fondamentale ouvre la voie à l'amélioration des documents {{FileformatCap}} avec des filigranes. Fournissez le fichier {{FileformatCap}} au constructeur, sous forme de chemin ou d'objet de flux.",
+      "step_2": "**Watermark** adaptés à vos spécifications. Ces entités polyvalentes offrent un positionnement précis non seulement sur les pages de document désignées, mais également dans les éléments natifs tels que les pièces jointes ou les en-têtes.",
+      "step_3": "Affinez votre processus de filigrane en ajustant des propriétés telles que les dimensions, l'alignement, les styles de police et les couleurs. Ce niveau de personnalisation vous permet de créer des filigranes qui complètent parfaitement l'esthétique de votre document.",
+      "step_4": "**Watermarker** pour appliquer les filigranes nouvellement créés sur vos documents. Profitez de la flexibilité d'ajouter plusieurs filigranes selon vos besoins. Pour conserver les documents, pensez à les enregistrer dans un endroit sécurisé."
+    }
+  },
+  "more_features": {
+    "title": "Maîtriser les filigranes des documents",
+    "description": "Améliorez la gestion de vos documents grâce à notre API de filigrane sophistiquée, conçue pour .NET développeurs. Cet outil propose des solutions complètes pour appliquer, personnaliser et gérer des filigranes dans un large éventail de formats de documents, garantissant à la fois un attrait esthétique et une sécurité renforcée.",
+    "image_description": "Filigrane de documents avancé",
+    "feature_1": {
+      "title": "Rotation flexible du filigrane",
+      "content": "Adaptez vos filigranes à l'orientation de n'importe quel document grâce à nos paramètres de rotation flexibles. Que votre document soit en mode portrait ou paysage, ajustez facilement l'angle du filigrane pour conserver une apparence uniforme qui complète la mise en page du document."
+    },
+    "feature_2": {
+      "title": "Contrôle de transparence parfait",
+      "content": "Contrôlez la transparence de vos filigranes avec précision, en permettant des marquages subtils mais sûrs qui ne surchargent pas le contenu du document. Cette fonctionnalité est idéale pour conserver l'esthétique d'origine de vos documents tout en ajoutant une couche de sécurité."
+    },
+    "feature_3": {
+      "title": "Effets d'ombre pour accentuer",
+      "content": "Améliorez la visibilité de vos filigranes ou intégrez-les subtilement dans vos documents grâce à des effets d'ombre personnalisables. Cette fonction permet d'obtenir des ombres dont le flou, la répartition et la couleur varient, ce qui rend le filigrane plus distinctif ou plus discret selon les besoins."
+    },
+    "code_1": {
+      "title": "MS Word filigrane verrouillé",
+      "content": "Cet exemple montre comment verrouiller le filigrane sur DOCX toutes les pages",
+      "comment_1": "Charger le document en tant que MS Word doc",
+      "comment_2": "Créer un filigrane",
+      "comment_3": "Régler les options natives Word",
+      "comment_4": "Ajouter un filigrane aux pages du document de résultats"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Générez des filigranes pour {{FileFormatUp}} avec Java",
+      "description": "Ajoutez, modifiez et gérez efficacement des filigranes dans {{FileFormatUp}} fichiers à l'aide de Java. Idéal pour sécuriser des documents."
+    },
+    "header": {
+      "title": "Java Filigrane pour {{FileFormatUp}} fichiers",
+      "description": "Découvrez comment Java développeurs peuvent utiliser GroupDocs.Watermark pour insérer, modifier et supprimer des filigranes dans {{FileFormatUp}} documents rapidement et sans effort.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit à Java développeurs un ensemble complet d'outils leur permettant d'ajouter, de supprimer, de rechercher et de gérer des filigranes dans {{FileFormatUp}} fichiers. Cette API facilite l'intégration de fonctionnalités complètes de filigrane dans n'importe quelle application Java, prenant en charge un large éventail de tâches de gestion de documents. Que vous ayez besoin de protéger la propriété intellectuelle, de garantir l'authenticité des documents ou d'empêcher tout partage non autorisé, {{ProdShortName}} vous fournit les outils nécessaires. Il prend en charge les filigranes de texte et d'image et offre de nombreuses options de personnalisation telles que le réglage de l'opacité, de la rotation et de la mise à l'échelle pour s'adapter à divers cas d'utilisation. Compatible avec tous les principaux systèmes d'exploitation prenant en charge Java 8 ou une version ultérieure."
+    },
+    "formats": {
+      "title": "Filigrane {{FileFormatUp}} fichiers à l'aide de Java",
+      "description": "Tirez parti de Java pour appliquer des filigranes polyvalents aux fichiers {{FileFormatUp}}. Idéal pour les applications nécessitant la sécurité des documents et la protection des droits d'auteur."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Améliorez {{FileFormatUp}} avec Java filigranes",
+      "description": "Ajoutez des filigranes sophistiqués aux fichiers {{FileFormatUp}} via Java. Protégez et stylisez vos documents sans effort."
+    },
+    "header": {
+      "title": "Fichiers {{FileFormatUp}} sécurisés avec Java filigranes",
+      "description": "Découvrez la puissance de Java pour intégrer des filigranes sécurisés et personnalisables dans {{FileFormatUp}} fichiers. Parfait pour les entreprises qui ont besoin de protéger leur contenu intellectuel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs d'intégrer de manière fluide des technologies de filigrane avancées dans leurs {{FileFormatUp}} flux documentaires. Avec des fonctionnalités permettant d'insérer, de modifier et de supprimer des filigranes, cette API permet de protéger les droits d'auteur et d'améliorer la sécurité des documents. Adapté aux formats DOCX, il propose des fonctionnalités telles que l'automatisation des filigranes en fonction de la sensibilité du contenu, le réglage dynamique des propriétés des filigranes telles que la taille, la transparence et la rotation, et l'application de filigranes sur des documents par lots. Efficace pour garantir la conformité et empêcher la circulation non autorisée de documents, {{ProdShortName}} est compatible avec les environnements Java à partir de la version 8."
+    },
+    "formats": {
+      "title": "Filigrane basé sur Java pour {{FileFormatUp}}",
+      "description": "Utilisez Java pour implémenter des filigranes dynamiques et sécurisés dans les fichiers {{FileFormatUp}}, garantissant ainsi une protection complète des droits d'auteur."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Intégrer des filigranes dans {{FileFormatUp}} avec Java",
+      "description": "Utilisez Java pour ajouter, personnaliser et gérer des filigranes dans {{FileFormatUp}} images, améliorant ainsi la sécurité et le contrôle des droits d'auteur."
+    },
+    "header": {
+      "title": "Java -Filigrane contrôlé pour {{FileFormatUp}}",
+      "description": "Maîtrisez l'art du filigrane {{FileFormatUp}} images à l'aide de Java. Cette API permet de contrôler avec précision l'opacité, la position et la taille des filigranes afin de protéger et de personnaliser vos images numériques.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} propose à Java développeurs une boîte à outils sophistiquée pour intégrer des filigranes dans JPEG fichiers. Cette API excelle dans l'application de filigranes visibles et invisibles qui contribuent à protéger les droits d'auteur, à décourager les utilisations non autorisées et à promouvoir la visibilité de la marque. Personnalisez les filigranes à l'aide de nombreuses options, notamment des motifs de remplissage, des effets d'ombre et des styles de dégradé adaptés aux illustrations numériques et aux photographies. Assurez-vous que vos images sont protégées sur toutes les plateformes avec {{ProdShortName}}, compatible avec Java 8 et versions supérieures."
+    },
+    "formats": {
+      "title": "Sécurisation de {{FileFormatUp}} avec des filigranes Java",
+      "description": "Appliquez des filigranes sécurisés et personnalisables à {{FileFormatUp}} images à l'aide de Java, idéal pour les photographes et les créateurs de contenu qui ont besoin de protéger leurs ressources visuelles."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Filigrane avancé {{FileFormatUp}} avec Java",
+      "description": "Simplifiez votre processus de filigrane {{FileFormatUp}} en utilisant Java pour améliorer la protection de l'image et l'affirmation des droits d'auteur."
+    },
+    "header": {
+      "title": "Filigrane alimenté par Java pour {{FileFormatUp}} fichiers",
+      "description": "Renforcez la sécurité de vos {{FileFormatUp}} fichiers grâce à des filigranes personnalisables. Utilisez Java pour intégrer les filigranes de manière fluide, garantissant ainsi une protection optimale et un alignement de la marque.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit à Java développeurs de puissantes fonctionnalités de filigrane spécialement conçues pour {{FileFormatUp}} images. Cette API permet d'ajouter des filigranes multicouches combinant du texte et des graphiques, garantissant ainsi une protection robuste des droits d'auteur sans compromettre la qualité de l'image. Les fonctionnalités incluent des paramètres flexibles de mise à l'échelle, de rotation et de transparence, permettant aux filigranes d'être discrets ou visibles en fonction des besoins de l'utilisateur. Améliorez l'intégrité et l'authenticité de vos supports numériques avec {{ProdShortName}}, entièrement compatible avec Java 8 ou version ultérieure."
+    },
+    "formats": {
+      "title": "Protection de {{FileFormatUp}} images via Java",
+      "description": "Exploitez Java pour déployer des filigranes sophistiqués sur {{FileFormatUp}} images. Personnalisez les caractéristiques des filigranes pour renforcer vos droits d'auteur et améliorer la sécurité des images."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Sécurisez {{FileFormatUp}} avec Java filigranes",
+      "description": "Améliorez la sécurité des documents {{FileFormatUp}} en utilisant Java pour appliquer des filigranes robustes et personnalisables."
+    },
+    "header": {
+      "title": "Java Intégration de filigranes pour {{FileFormatUp}}",
+      "description": "Tirez parti de Java pour implémenter un filigrane avancé dans {{FileFormatUp}} documents. Idéal pour protéger les documents officiels, les documents juridiques et les informations sensibles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est conçu pour Java développeurs qui souhaitent renforcer la sécurité de {{FileFormatUp}} documents grâce à un filigrane efficace. Cette API facilite l'intégration de filigranes visibles et invisibles qui empêchent le partage non autorisé et garantissent l'authenticité des documents. Les fonctionnalités incluent la création de filigranes personnalisés, le positionnement précis et le filigrane conditionnel en fonction du contenu du document ou du niveau de sécurité. Parfait pour les environnements gouvernementaux, juridiques et d'entreprise où l'intégrité des documents est primordiale, {{ProdShortName}} permet une intégration fluide avec Java 8 et versions ultérieures."
+    },
+    "formats": {
+      "title": "Filigrane {{FileFormatUp}} documents avec Java",
+      "description": "Utilisez Java pour ajouter des filigranes à {{FileFormatUp}} de manière efficace. Garantissez la confidentialité et l'intégrité de vos documents officiels grâce à des solutions de filigrane personnalisées."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Java Solutions de filigrane pour les fichiers {{FileFormatUp}}",
+      "description": "Appliquez des filigranes dynamiques à {{FileFormatUp}} images à l'aide de Java pour protéger et authentifier vos actifs numériques."
+    },
+    "header": {
+      "title": "Sécurisez et personnalisez {{FileFormatUp}} avec Java",
+      "description": "Utilisez Java pour intégrer des filigranes sécurisés et adaptables dans les fichiers {{FileFormatUp}}, idéal pour les photographes et les designers qui souhaitent protéger leurs œuvres créatives.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit à Java développeurs un cadre sophistiqué pour appliquer des filigranes à {{FileFormatUp}} images. Cette API est conçue pour s'intégrer parfaitement à toute application basée sur Java, permettant l'insertion de filigranes transparents ou opaques qui se fondent parfaitement dans l'image sous-jacente. Personnalisez les filigranes avec du texte, des logos ou des symboles de copyright pour renforcer la sécurité sans nuire à la qualité de l'image. Grâce à des fonctionnalités telles que le positionnement parfait au pixel près et le contrôle de l'opacité, {{ProdShortName}} garantit que vos images sont à la fois visuellement attrayantes et protégées par la loi. Convient aux sites de commerce électronique, aux portfolios en ligne, etc., et est entièrement compatible avec Java 8 ou une version ultérieure."
+    },
+    "formats": {
+      "title": "Améliorer la sécurité des images de {{FileFormatUp}} avec Java",
+      "description": "Intégrez des filigranes robustes dans {{FileFormatUp}} fichiers à l'aide de Java. Cette fonctionnalité est essentielle pour protéger le contenu visuel contre toute utilisation non autorisée tout en préservant la clarté de l'image."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Filigrane {{FileFormatUp}} Présentations avec Java",
+      "description": "Protégez vos présentations en incorporant des filigranes dans {{FileFormatUp}} fichiers à l'aide de Java."
+    },
+    "header": {
+      "title": "Java Améliorations apportées aux filigranes {{FileFormatUp}}",
+      "description": "Intégrez des filigranes discrets ou visibles dans PowerPoint présentations à l'aide de Java, idéal pour sécuriser le contenu professionnel et éducatif.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs d'améliorer la sécurité et l'aspect professionnel de PowerPoint présentations grâce à des techniques avancées de filigrane. Cette API prend en charge l'intégration de filigranes de texte et d'image qui peuvent être personnalisés pour être visibles ou subtils en fonction de l'utilisation prévue. Les fonctionnalités incluent la possibilité d'ajuster la taille, la transparence et l'emplacement, afin de garantir que les filigranes n'obstruent pas le contenu important tout en offrant une protection efficace des droits d'auteur. Idéal pour les présentations d'entreprise, éducatives et commerciales, {{ProdShortName}} est compatible avec tous les systèmes prenant en charge Java 8 et versions supérieures."
+    },
+    "formats": {
+      "title": "Sécurisation de {{FileFormatUp}} présentations avec Java",
+      "description": "Utilisez Java pour appliquer des filigranes aux fichiers PowerPoint, améliorant ainsi la sécurité des documents et la présence de la marque dans les environnements professionnels et éducatifs."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Filigrane {{FileFormatUp}} fichiers avec Java",
+      "description": "Protégez vos présentations en incorporant des filigranes dans {{FileFormatUp}} fichiers à l'aide de Java."
+    },
+    "header": {
+      "title": "Java Améliorations apportées aux filigranes {{FileFormatUp}}",
+      "description": "Intégrez des filigranes discrets ou visibles dans PowerPoint présentations à l'aide de Java, idéal pour sécuriser le contenu professionnel et éducatif.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs d'améliorer la sécurité et l'aspect professionnel de PowerPoint présentations grâce à des techniques avancées de filigrane. Cette API prend en charge l'intégration de filigranes de texte et d'image qui peuvent être personnalisés pour être visibles ou subtils en fonction de l'utilisation prévue. Les fonctionnalités incluent la possibilité d'ajuster la taille, la transparence et l'emplacement, afin de garantir que les filigranes n'obstruent pas le contenu important tout en offrant une protection efficace des droits d'auteur. Idéal pour les présentations d'entreprise, éducatives et commerciales, {{ProdShortName}} est compatible avec tous les systèmes prenant en charge Java 8 et versions supérieures."
+    },
+    "formats": {
+      "title": "Sécurisation de {{FileFormatUp}} présentations avec Java",
+      "description": "Utilisez Java pour appliquer des filigranes aux fichiers PowerPoint, améliorant ainsi la sécurité des documents et la présence de la marque dans les environnements professionnels et éducatifs."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Java Filigranes pour {{FileFormatUp}} documents",
+      "description": "Utilisez Java pour insérer des filigranes dans les fichiers {{FileFormatUp}}, améliorant ainsi la sécurité et le professionnalisme des documents."
+    },
+    "header": {
+      "title": "Protégez {{FileFormatUp}} documents avec Java filigranes",
+      "description": "Intégrez des filigranes de manière fluide dans {{FileFormatUp}} documents à l'aide de Java. Idéal pour sécuriser les informations sensibles dans les environnements professionnels Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} propose à Java développeurs des outils complets pour le filigrane de {{FileFormatUp}} documents, couramment utilisés dans les environnements Microsoft Word. Cette API permet l'ajout précis de filigranes de texte et d'image, personnalisables pour garantir la visibilité ou la discrétion selon les besoins. Améliorez les fonctionnalités de sécurité de votre document sans compromettre la mise en page ou la lisibilité. Les fonctionnalités incluent une opacité variable, une taille évolutive et un positionnement adaptable, ce qui le rend adapté aux documents juridiques, universitaires et d'entreprise. Efficace pour empêcher toute utilisation non autorisée et toute duplication, {{ProdShortName}} est entièrement compatible avec Java 8 et versions supérieures."
+    },
+    "formats": {
+      "title": "Améliorer la sécurité MS Word {{FileFormatUp}} avec Java",
+      "description": "Appliquez un filigrane avancé aux fichiers {{FileFormatUp}} à l'aide de Java, afin de garantir l'intégrité et la conformité des documents dans Microsoft Word et d'autres applications de traitement de texte."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Intégrer des filigranes dans {{FileFormatUp}} avec Java",
+      "description": "Master Java permet d'appliquer des filigranes efficaces sur {{FileFormatUp}} images, afin de protéger les droits d'auteur et de renforcer la sécurité."
+    },
+    "header": {
+      "title": "Java Fonctionnalités de filigrane pour les fichiers {{FileFormatUp}}",
+      "description": "Améliorez {{FileFormatUp}} images avec des filigranes implémentés par Java pour une protection efficace des droits d'auteur et une gestion des actifs numériques.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs d'exploiter pleinement les techniques de filigrane adaptées aux images TIF, qui sont cruciales dans des domaines tels que la photographie, l'archivage de documents et la publication numérique. Cette API permet l'intégration de filigranes transparents et solides dont l'opacité, la taille et le placement peuvent être ajustés pour répondre à diverses exigences. Il inclut des fonctionnalités de filigrane par lots, garantissant un traitement efficace de grandes collections d'images tout en préservant la haute fidélité et l'intégrité de l'image. L'outil est conçu pour être pleinement opérationnel avec Java environnements à partir de la version 8, fournissant une solution fiable pour l'application des droits d'auteur et la prévention des distributions non autorisées."
+    },
+    "formats": {
+      "title": "Implémentation de filigranes dans {{FileFormatUp}} images via Java",
+      "description": "Utilisez Java pour insérer des filigranes personnalisés dans {{FileFormatUp}} images, ce qui est idéal pour sécuriser et personnaliser le contenu photographique et archivistique."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Sécurisez {{FileFormatUp}} Images avec Java filigranes",
+      "description": "Implémentez des filigranes basés sur Java dans les fichiers {{FileFormatUp}} pour améliorer la protection des droits d'auteur et la sécurité des images."
+    },
+    "header": {
+      "title": "Java -Filigrane amélioré pour {{FileFormatUp}} fichiers",
+      "description": "Utilisez Java pour appliquer des filigranes durables et personnalisables à {{FileFormatUp}} images, ce qui est essentiel pour les photographes et les archives numériques nécessitant la protection des droits d'auteur.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit à Java développeurs un ensemble d'outils efficaces pour ajouter des filigranes à {{FileFormatUp}} images, un format largement utilisé en photographie et en archivage numérique. Cette API prend en charge des configurations de filigranes complexes, notamment du texte multicouche et des filigranes basés sur des images. Personnalisez vos filigranes avec des options d'opacité, de rotation et d'échelle pour garantir leur efficacité tout en restant discrets. Adapté à la protection des images haute résolution et des documents numérisés, {{ProdShortName}} améliore la sécurité des images sans compromettre la qualité. Il est entièrement compatible avec Java 8 ou version ultérieure."
+    },
+    "formats": {
+      "title": "Protéger Copyright s dans {{FileFormatUp}} fichiers avec Java",
+      "description": "Tirez parti de Java pour intégrer des filigranes sophistiqués dans {{FileFormatUp}} images. Optimisez la protection des droits d'auteur avec un impact minimal sur la qualité de l'image d'origine."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Java Filigranes pour {{FileFormatUp}} images",
+      "description": "Exploitez Java pour injecter des filigranes dans {{FileFormatUp}} images, renforçant ainsi les droits d'auteur et la sécurité des médias."
+    },
+    "header": {
+      "title": "Filigrane personnalisé {{FileFormatUp}} avec Java",
+      "description": "Mettez en œuvre Java pour créer et gérer des filigranes dans {{FileFormatUp}} images, garantissant ainsi une protection et une image de marque optimales aux créateurs de contenu numérique.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit une puissante boîte à outils Java pour intégrer des filigranes dans {{FileFormatUp}} images, un format de plus en plus populaire auprès des développeurs Web et des spécialistes du marketing numérique. Cette API facilite l'ajout de filigranes visibles et invisibles, conçus pour protéger les droits d'auteur et authentifier l'origine des images. Personnalisez vos paramètres de filigrane pour inclure du texte, des logos ou des signatures numériques, tout en préservant l'efficacité de compression élevée des fichiers WEBP. Des fonctionnalités avancées telles que le contrôle dynamique de l'opacité, la mise à l'échelle des filigranes et le positionnement précis contribuent à préserver l'esthétique et la clarté de l'image, garantissant ainsi une intégration parfaite dans diverses plateformes numériques. Compatible avec Java 8 et les versions ultérieures, {{ProdShortName}} est essentiel pour tout développeur souhaitant sécuriser et monétiser efficacement ses ressources d'images."
+    },
+    "formats": {
+      "title": "Sécurisation de {{FileFormatUp}} fichiers avec Java",
+      "description": "Appliquez des filigranes discrets et avancés à {{FileFormatUp}} images à l'aide de Java. Personnalisez les attributs des filigranes pour protéger et améliorer efficacement les droits d'auteur numériques."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Filigrane {{FileFormatUp}} feuilles de calcul avec Java",
+      "description": "Utilisez Java pour appliquer des filigranes personnalisés aux fichiers {{FileFormatUp}}, en sécurisant Excel et les documents OpenOffice."
+    },
+    "header": {
+      "title": "Filigrane basé sur Java pour Excel",
+      "description": "Implémentez des filigranes dans {{FileFormatUp}} fichiers en utilisant Java pour améliorer la sécurité des documents pour Excel et les feuilles OpenOffice, ce qui est parfait pour les données financières et confidentielles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs d'intégrer le filigrane dans les fichiers {{FileFormatUp}}, prenant en charge à la fois les formats Excel et OpenOffice. Cette API permet d'intégrer des filigranes à la fois visibles et subtils, garantissant ainsi la protection des informations sensibles sans altérer la facilité d'utilisation du document. Les principales fonctionnalités incluent la possibilité de personnaliser le texte, l'image et l'emplacement du filigrane, qui peuvent être appliqués de manière conditionnelle en fonction du contenu du document ou des autorisations de l'utilisateur. Il est donc idéal pour les applications dans des environnements nécessitant des mesures de protection des données rigoureuses, tels que les secteurs bancaire, juridique et universitaire. Avec la prise en charge de Java 8 et des versions supérieures, {{ProdShortName}} est équipé pour répondre aux besoins complexes en matière de filigrane sur divers systèmes d'exploitation."
+    },
+    "formats": {
+      "title": "Améliorer la sécurité des documents Excel avec Java",
+      "description": "Sécurisez vos documents Excel et OpenOffice à l'aide de filigranes personnalisables implémentés par Java, garantissant ainsi l'intégrité des données et la protection des droits d'auteur."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Filigrane avancé {{FileFormatUp}} avec Java",
+      "description": "Améliorez la sécurité de vos documents en incorporant des filigranes dans {{FileFormatUp}} fichiers à l'aide de Java."
+    },
+    "header": {
+      "title": "Java Filigranes pour feuilles avancées Excel",
+      "description": "Sécurisez vos Excel {{FileFormatUp}} feuilles avec des filigranes pilotés par Java. Adaptez-les aux documents d'entreprise, financiers et universitaires afin de protéger les données sensibles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet à Java développeurs de renforcer la protection des données dans les formats {{FileFormatUp}} dotés de fonctionnalités de filigrane dynamique. Conçue spécifiquement pour répondre aux besoins modernes de Excel utilisateurs, cette API s'intègre parfaitement pour appliquer des filigranes personnalisés qui complètent la conception du document sans perturber la visibilité des données. Optimisez les filigranes pour la transparence, la superposition ou le mélange des couleurs afin de les rendre visibles uniquement lorsque cela est nécessaire. Cet outil est indispensable pour les professionnels qui gèrent des modèles financiers propriétaires, des documents de planification stratégique ou toute information sensible nécessitant la confidentialité. Compatible avec Java 8 et versions ultérieures, {{ProdShortName}} étend la prise en charge robuste du filigrane à Microsoft Excel et aux tableurs compatibles."
+    },
+    "formats": {
+      "title": "Sécurisation de {{FileFormatUp}} fichiers avec des filigranes Java",
+      "description": "Intégrez des filigranes subtils et efficaces dans {{FileFormatUp}} documents à l'aide de Java, idéal pour protéger Excel feuilles de calcul dans des environnements à enjeux élevés."
+    }
+  }
+}

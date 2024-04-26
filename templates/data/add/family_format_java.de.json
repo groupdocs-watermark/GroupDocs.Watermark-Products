@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Fügt ein Textwasserzeichen zu {{FileFormatUp}} hinzu",
+    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an Watermarker",
+    "comment_3": "Textwasserzeichen erstellen und Eigenschaften einrichten",
+    "comment_4": "Datei mit Wasserzeichen speichern"
+  },
+  "steps": {
+    "title": "Wasserzeichen zu {{FileformatCap}} Dokument hinzufügen über {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** macht es {{EnvName}} Entwicklern leicht, Wasserzeichen verschiedener Typen zu gängigen Geschäftsdateiformaten hinzuzufügen. Fügen Sie in wenigen einfachen Schritten unsere Bibliothek zu Ihrer Anwendung hinzu und versehen Sie Dokumente mit Wasserzeichen, wie unten aufgeführt.",
+      "step_1": "**Watermarker**. Sie müssen es vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, die Datei {{FileformatCap}} als Pfad- oder Stream-Objekt an den Konstruktor zu übergeben.",
+      "step_2": "**Watermark**-Objekts des gewünschten Typs. Es kann nicht nur auf einer bestimmten Dokumentseite platziert werden, sondern auch in systemeigenen Dokumentteilen wie Anhängen oder Kopfzeilen.",
+      "step_3": "Stellen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Seitenausrichtung (oben, links, mittig usw.), Schriftfamilie und Farbe und viele andere ein.",
+      "step_4": "**Watermarker** auf, um ein neues Wasserzeichen hinzuzufügen. Sie können so viele Wasserzeichen hinzufügen, wie Sie benötigen. Es wird empfohlen, das verarbeitete Dokument an einem anderen Ort zu speichern."
+    }
+  },
+  "more_features": {
+    "title": "Verbessern Sie Ihre Wasserzeichen ganz einfach",
+    "description": "Nutzen Sie die Leistungsfähigkeit von GroupDocs.Watermark, um Wasserzeichen in mehreren Dokumentformaten zu generieren, zu verfassen und hinzuzufügen. Diese API verbessert nicht nur die Dokumentensicherheit, sondern schützt auch Ihr geistiges Eigentum, indem anpassbare Wasserzeichen eingebettet werden, die sowohl vielseitig als auch robust sind.",
+    "image_description": "Wasserzeichen hinzufügen",
+    "feature_1": {
+      "title": "Vielseitige Wasserzeichen-Optionen.",
+      "content": "Erkunden Sie mit GroupDocs.Watermark eine Vielzahl von Wasserzeichenoptionen. Von der Anpassung der Opazität und Drehung bis hin zur proportionalen Skalierung der Größe — mit unserer API können Sie Wasserzeichen genau an Ihre Bedürfnisse anpassen und so sicherstellen, dass sie sich nahtlos in Ihre Dokumente einfügen und gleichzeitig die Integrität des Inhalts gewahrt bleibt."
+    },
+    "feature_2": {
+      "title": "Erweitertes Wasserzeichen-Styling.",
+      "content": "GroupDocs.Watermark ermöglicht es Ihnen, Ihre Wasserzeichen mit verschiedenen Schriftarten, Farben und Schatten zu gestalten, sodass sie unverwechselbar und schwieriger zu entfernen sind. Verbessern Sie die Ästhetik Ihrer geschützten Dokumente und Bilder mit stilvollen Wasserzeichen, die die Identität und Professionalität Ihrer Marke widerspiegeln."
+    },
+    "feature_3": {
+      "title": "Kachelung und Positionierung von Wasserzeichen",
+      "content": "Implementieren Sie mit GroupDocs.Watermark Kacheleffekte, um Ihr gesamtes Dokument abzudecken und so einen vollständigen Schutz zu gewährleisten. Platzieren Sie Wasserzeichen genau dort, wo Sie sie benötigen — in der Mitte, in der Ecke oder an einer benutzerdefinierten Stelle. Unsere flexiblen Positionierungsoptionen tragen dazu bei, Ihre Dokumente vor unbefugter Verwendung und Vervielfältigung zu schützen."
+    },
+    "code_1": {
+      "title": "PDF Annotationswasserzeichen",
+      "content": "Dieses Beispiel zeigt, wie einem PDF -Dokument eine Wasserzeichen-Anmerkung hinzugefügt wird",
+      "comment_1": "Dokument laden als PDF",
+      "comment_2": "Erstellen Sie ein Wasserzeichen auf der Grundlage der PDF -Annotation",
+      "comment_3": "Wasserzeichenoptionen einrichten",
+      "comment_4": "Textwasserzeichen zum Ergebnisdokument hinzufügen"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Wasserzeichen in {{FileformatCap}} Tabellen für Java generieren",
+      "description": "Implementieren Sie einfach die Generierung von Text- und Bildwasserzeichen in {{FileformatCap}} mit Java, um Ihre {{FileformatCap}} Datentabellen zu schützen"
+    },
+    "header": {
+      "title": "Automatisieren Sie {{FileformatCap}} Wasserzeichen mit Java Code",
+      "description": "Implementieren Sie benutzerdefinierte Text- oder Bildwasserzeichen in {{FileformatCap}} Tabellen mithilfe von Java. Dieses Handbuch enthält schrittweise Anleitungen zur Verbesserung der Dokumentensicherheit und des Brandings, zugeschnitten auf eine Vielzahl beruflicher Anforderungen.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "{{ProdFullName}} bietet eine umfassende Wasserzeichenverwaltung in {{FileformatCap}} Tabellen, sodass Entwickler Wasserzeichen einfach generieren, anpassen und löschen können. Es unterstützt alle gängigen Excel Dateiformate und ermöglicht das Einbetten von Text- und Bildwasserzeichen, die in Schriftart, Farbe, Größe und Position angepasst werden können. GroupDocs.Watermark enthält auch Funktionen für die Suche nach Wasserzeichen, die sicherstellen, dass Ihre Wasserzeichen intakt und manipulationssicher sind. Ideal für Anwendungen, die Verbesserungen der Dokumentensicherheit in Java Umgebungen erfordern."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Techniken für {{FileformatCap}} Wasserzeichen",
+      "description": "Mit GroupDocs.Watermark for Java können Sie einfach Text- oder bildbasierte Wasserzeichen auf {{FileformatCap}} Tabellenkalkulationen anwenden und so die Dokumentensicherheit und das Branding als Teil Ihres Geschäftsablaufs erheblich verbessern."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Erstellen Sie maßgeschneiderte Wasserzeichen für {{FileformatCap}} mit Java",
+      "description": "Integrieren Sie benutzerdefinierte Wasserzeichen in {{FileformatCap}} Dokumente mithilfe von Java. Erhöhen Sie die Sicherheit und fügen Sie eine professionelle Note hinzu."
+    },
+    "header": {
+      "title": "Erstellen Sie benutzerdefinierte Wasserzeichen in {{FileformatCap}} Dokumenten",
+      "description": "Sichern Sie Ihre {{FileformatCap}} Dateien mit Java, indem Sie maßgeschneiderte Text- oder Bildwasserzeichen einbetten. Diese Ressource ist ideal für alle, die die Dokumentensicherheit und die visuelle Attraktivität mit minimalem Aufwand verbessern möchten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht die präzise und flexible Erstellung von Wasserzeichen in {{FileformatCap}} Dokumenten. Mit diesem Tool können Java Entwickler benutzerdefinierte Wasserzeichen hinzufügen, die Text, Bilder oder Logos enthalten können und auf Ihre spezifischen Branding-Anforderungen zugeschnitten sind. Es unterstützt alle wichtigen Word Dokumentformate und bietet umfassende Funktionen zum Bearbeiten und Entfernen von Wasserzeichen sowie zum Durchsuchen von Dokumenten, um die Integrität von Wasserzeichen zu überprüfen. Diese API ist mit allen von Java unterstützten Betriebssystemen kompatibel und eignet sich perfekt für Unternehmen, die ihre Sicherheitsprotokolle für Dokumente verbessern möchten."
+    },
+    "formats": {
+      "title": "Personalisieren Sie Ihre MS {{FileformatCap}} -Dateien mit der Generierung von {{ProgLang}} Wasserzeichen.",
+      "description": "{{ProdFullName}} ermöglicht Entwicklern das einfache Einfügen maßgeschneiderter Text- oder Bildwasserzeichen in {{FileformatCap}} Dokumente. Diese Verbesserungen erhöhen nicht nur die Dokumentensicherheit, sondern verleihen der Geschäftskommunikation auch eine professionelle Note."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Generieren Sie effektive Wasserzeichen für Bilder mit Java",
+      "description": "Verwenden Sie Java, um raffinierte Wasserzeichen für Bilder zu erstellen. Schützen Sie Ihre Dokumente und setzen Sie das Urheberrecht effektiv durch."
+    },
+    "header": {
+      "title": "Bilder nahtlos mit Wasserzeichen versehen in Java",
+      "description": "Implementieren Sie dynamische Wasserzeichen in Ihren Bilddateien mit Java. Dieses Tool ermöglicht präzise Anpassungen der Positionierung, Skalierbarkeit und Transparenz, um die Sicherheit und den Wiedererkennungswert der Marke zu verbessern.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java ermöglicht es Entwicklern, Wasserzeichen auf Bilddateien effektiv zu generieren und zu verwalten. Dank der Unterstützung einer Vielzahl von Bildformaten können Benutzer sowohl Text- als auch Grafikwasserzeichen implementieren, die in Position, Maßstab und Transparenz vollständig anpassbar sind. Diese Funktionalität ist entscheidend für Anwendungen in digitalen Medien, Werbung und der Verbreitung von Online-Inhalten, bei denen Markenbildung und Copyright-Integrität von größter Bedeutung sind. Darüber hinaus enthält GroupDocs.Watermark Funktionen zum Suchen und Entfernen vorhandener Wasserzeichen und bietet damit ein vielseitiges Tool für Bildverwaltung und Sicherheit."
+    },
+    "formats": {
+      "title": "Optimieren Sie Sicherheitsbilder mit Wasserzeichen in {{ProgLang}}",
+      "description": "Unser Java Toolkit ermöglicht die Generierung personalisierter Wasserzeichen für jedes Bildformat und verbessert so die Sicherheit und das Branding. Maßgeschneiderte Wasserzeichen sorgen dafür, dass Ihre Bilder auf verschiedenen Medien wiedererkannt und geschützt werden."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Schnelles Wasserzeichen für Fotos leicht gemacht in Java",
+      "description": "Optimieren Sie Ihren Fotoschutz mit Wasserzeichen. Schnell und zuverlässig."
+    },
+    "header": {
+      "title": "Effiziente Java Tools für das Wasserzeichen von Fotos",
+      "description": "Fügen Sie Ihren Fotos mithilfe unserer Java API schnell und effizient Wasserzeichen hinzu. Perfekt, um digitale Bilder zu sichern und die Sichtbarkeit der Marke mit minimalem Aufwand zu verbessern.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist für das schnelle und effektive Wasserzeichen von Fotodateien optimiert. Dieses Tool ermöglicht die schnelle Integration von Text- und Bildwasserzeichen in eine Vielzahl von Fotoformaten, darunter JPEG, PNG und BMP. Passen Sie Ihre Wasserzeichen mit umfangreichen Optionen für Stil, Transparenz und Platzierung an, um sicherzustellen, dass sie sich nahtlos einfügen, ohne die Fotoqualität zu beeinträchtigen. Es eignet sich für großvolumige Operationen und unterstützt die Stapelverarbeitung, um Wasserzeichen auf mehrere Fotos gleichzeitig anzubringen. Somit ist es ideal für Unternehmen und Ersteller digitaler Inhalte, die ihre visuellen Ressourcen effizient schützen und kennzeichnen müssen"
+    },
+    "formats": {
+      "title": "Schnelle Wasserzeichen-Integration für Fotos über {{ProgLang}}",
+      "description": "Nutzen Sie unsere Java API, um Fotos schnell mit Wasserzeichen zu versehen und so die Sicherheit und Markenidentität zu verbessern. Automatisierte Prozesse ermöglichen eine Massenanwendung und sorgen so für konsistente und professionelle Ergebnisse."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Erstellen Sie erweiterte Wasserzeichen für Präsentationen",
+      "description": "Verbessern Sie Ihre Präsentationen mit den erweiterten Wasserzeichenfunktionen in Java."
+    },
+    "header": {
+      "title": "Fortgeschrittene Wasserzeichen-Techniken für Präsentationen",
+      "description": "Implementieren Sie komplexe Wasserzeichen-Strategien in Ihren Präsentationen mit unserem Java Toolkit. Passen Sie Wasserzeichen an, um die Sicherheit zu erhöhen und eine professionelle Ästhetik zu erzielen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} wurde entwickelt, um erweiterte Wasserzeichenfunktionen für Präsentationen zu unterstützen. Es ermöglicht Benutzern, benutzerdefinierte Text- und Bildwasserzeichen einfach in jedes Präsentationsformat zu integrieren. Zu den Funktionen gehören ausgefeilte Wasserzeichenstile, automatische Stapelverarbeitung für große Dateisätze und Tools für die Verwaltung von Wasserzeichen, z. B. zum Ändern und Entfernen. Diese Java Bibliothek stellt sicher, dass Ihre Präsentationen nicht nur vor Plagiaten geschützt sind, sondern auch ein professionelles Aussehen haben, das zu Ihrem Unternehmens-Branding passt."
+    },
+    "formats": {
+      "title": "Verbessern Sie die Präsentationssicherheit mit erweiterten Wasserzeichen in {{ProgLang}}",
+      "description": "Integrieren Sie fortschrittliche Wasserzeichen nahtlos in Ihre Präsentationen, um Ihre Materialien zu schützen und aufzuwerten. Unsere Java API ermöglicht eine detaillierte Anpassung und automatische Verarbeitung — ideal, um ein professionelles Erscheinungsbild beizubehalten und gleichzeitig Informationen zu schützen."
+    }
+  }
+}

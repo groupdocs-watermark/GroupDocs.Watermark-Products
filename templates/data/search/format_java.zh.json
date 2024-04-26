@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} 文档中搜索图像水印",
+    "comment_2": "通过 {{FileFormatUp}} 文档撰写水印",
+    "comment_3": "按图像哈希搜索水印",
+    "comment_4": "处理找到的水印"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} 水印通过 {{EnvName}} 搜索",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在业务文档中定位水印的过程。将我们的软件包安装到您的 {{EnvName}} 应用程序中以充分利用其优势。",
+      "step_1": "**Watermarker**类的实例中。您可以提供文件路径、文件流或字节流。",
+      "step_2": "**SearchCriteria**对象。例如，提供一张图片来搜索相似的图像水印。如果要搜索文本水印，请提供文本、字体、颜色和其他相关选项。",
+      "step_3": "**水印**对象的**搜索**方法检索放置在文档中的水印。您将收到一组代表潜在水印的对象，以供进一步处理。",
+      "step_4": "最后，您可以根据需要自由操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProdShortName}} API 优化文档中的水印搜索",
+    "description": "在 {{EnvName}} 环境中使用强大的 {{ProdShortName}} API 使用 Java 在任何文档中掌握水印搜索的技巧。",
+    "image_description": "Java 水印搜索",
+    "feature_1": {
+      "title": "Java 强大的水印搜索工具",
+      "content": "使用 {{ProdShortName}} 在 Java 中增强您的文档处理能力。我们的 API 提供了大量工具，可根据多个参数搜索和识别水印。"
+    },
+    "feature_2": {
+      "title": "使用 Java 精确定位水印检索",
+      "content": "在 Java 中精确定位特定的水印。将搜索配置为按大小、日期和内容等特征进行筛选，确保您准确找到所需的内容。"
+    },
+    "feature_3": {
+      "title": "全面的水印分析",
+      "content": "利用 Java 对发现的水印进行全面分析。使用 {{ProdShortName}} 有效地评估和管理水印，增强文档中的安全性和合规性措施。"
+    },
+    "code_1": {
+      "title": "Java 示例：动态水印搜索",
+      "content": "此示例演示如何使用 Java 和 {{ProdShortName}} 来动态搜索文档中的水印，说明如何以编程方式处理搜索结果。",
+      "comment_1": "初始化 Java 环境并准备加载文档",
+      "comment_2": "根据用户定义的动态条件配置搜索过滤器",
+      "comment_3": "使用 Java API 执行水印搜索",
+      "comment_4": "处理和处理搜索结果，为进一步的行动或报告做准备"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "探索 {{FileFormatUp}} 水印搜索：游戏规则改变者",
+      "description": "发现 G {{ProdFullName}} 高级搜索功能在各种文档类型中管理水印所具有的改变游戏规则的潜力。"
+    },
+    "header": {
+      "title": "使用 {{FileFormatUp}} 个文档水印搜索最大限度地提高效率",
+      "description": "使用 {{ProdFullName}} 创新的水印搜索功能优化您的工作流程效率。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 免费套餐"
+    },
+    "about": {
+      "title": "获取信息 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供强大的解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除常用文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索增强您的工作流程",
+      "description": "使用 {{ProdFullName}} 高级功能，让自己能够搜索和管理不同文件格式的水印。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "发现 {{FileFormatUp}} 水印搜索的潜力",
+      "description": "探索 {{ProdFullName}} 强大的搜索功能如何彻底改变各种文档格式的水印管理。"
+    },
+    "header": {
+      "title": "解锁 {{FileFormatUp}} 个文档水印搜索功能",
+      "description": "发挥 {{ProdFullName}} 搜索功能的全部潜力，简化水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 信息",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供全面的解决方案。开发人员可以无缝地创建、编辑、搜索和删除各种文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本兼容。"
+    },
+    "formats": {
+      "title": "使用水印搜索彻底改变您的工作流程",
+      "description": "利用 {{ProdFullName}} 高级搜索功能管理不同文件格式的水印，彻底改变您的工作流程。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "使用水印搜索加强 {{FileFormatUp}} 处理",
+      "description": "使用 {{ProdFullName}} 让自己能够高效地搜索和管理各种文档格式的水印。"
+    },
+    "header": {
+      "title": "使用 {{FileFormatUp}} 个文档水印搜索提高工作效率",
+      "description": "利用 {{ProdFullName}} 强大的搜索功能进行 {{FileFormatUp}} 水印管理，提高工作效率。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "从 {{PackageStoreName}} 获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供强大的解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除常用文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索简化工作流程",
+      "description": "使用 {{ProdFullName}} 高级搜索功能来管理不同文件格式的水印，简化您的工作流程。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "使用 {{FileFormatUp}} 水印搜索提升您的工作流程",
+      "description": "使用 {{ProdFullName}} 强大的搜索功能来管理各种文件格式的水印，提升您的文档管理工作流程。"
+    },
+    "header": {
+      "title": "探索高级 {{FileFormatUp}} 演示文稿水印搜索",
+      "description": "探索 {{ProdFullName}} 搜索功能的高级功能，简化水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "下载 {{PackageStoreName}} 软件包"
+    },
+    "about": {
+      "title": "基本 {{ProdFullName}} 信息",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供全面的解决方案。开发人员可以无缝地创建、编辑、搜索和删除各种文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本兼容。"
+    },
+    "formats": {
+      "title": "使用水印搜索优化您的工作流程",
+      "description": "使用 {{ProdFullName}} 高级搜索功能来管理不同文件格式的水印，优化您的工作流程。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "揭开 {{FileFormatUp}} 水印搜索的力量",
+      "description": "揭开 {{ProdFullName}} 高级搜索功能的强大功能，可有效管理各种文档格式的水印。"
+    },
+    "header": {
+      "title": "解锁 {{FileFormatUp}} 演示文稿水印搜索功能",
+      "description": "发挥 {{ProdFullName}} 搜索功能的全部潜力，简化水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供强大的解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除常用文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索增强您的工作流程",
+      "description": "使用 {{ProdFullName}} 让自己能够高效地搜索和管理各种文档格式的水印。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "探索 {{FileFormatUp}} 个文档水印搜索",
+      "description": "探索 {{ProdFullName}} 强大搜索功能的精髓，以有效管理不同文档类型的水印。"
+    },
+    "header": {
+      "title": "赋能 {{FileFormatUp}} 文档水印搜索流程",
+      "description": "发挥 {{ProdFullName}} 搜索功能的全部潜力，简化水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 免费套餐"
+    },
+    "about": {
+      "title": "了解有关 {{ProdFullName}} 的更多信息",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供强大的解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除常用文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索增强您的工作流程",
+      "description": "使用 {{ProdFullName}} 让自己能够高效地搜索和管理各种文档格式的水印。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "增强您的 {{FileFormatUp}} 电子表格水印搜索能力",
+      "description": "使用 {{ProdFullName}} 高级搜索为您的文档管理工作流程提供支持，从而对各种文件格式进行有效的水印管理。"
+    },
+    "header": {
+      "title": "在 {{FileFormatUp}} 电子表格中探索高级水印搜索",
+      "description": "探索 {{ProdFullName}} 搜索功能的高级功能，简化水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "获取信息 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使用 {{EnvName}} 为水印管理提供强大的解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除常用文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索优化您的工作流程",
+      "description": "使用 {{ProdFullName}} 高级搜索功能来管理不同文件格式的水印，优化您的工作流程。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} 使用水印搜索处理电子表格",
+      "description": "利用 {{ProdFullName}} 高级搜索功能管理各种文档格式的水印，最大限度地提高效率。"
+    },
+    "header": {
+      "title": "释放水印的力量搜索 {{FileFormatUp}} 电子表格",
+      "description": "发挥 {{ProdFullName}} 搜索功能的全部潜力，彻底改变您的水印管理流程。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "从 {{PackageStoreName}} 获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 信息",
+      "content": "{{ProdFullName}} 是使用 {{EnvName}} 进行水印管理的创新解决方案。开发人员可以毫不费力地创建、编辑、搜索和删除各种文件格式的文档中的水印。它支持各种文档类型的文本和图像水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 与所有主要操作系统和 {{EnvName}} 版本无缝集成。"
+    },
+    "formats": {
+      "title": "使用水印搜索增强您的工作流程",
+      "description": "使用 {{ProdFullName}} 强大的搜索功能来管理不同文件格式的水印，增强您的文档管理工作流程。"
+    }
+  }
+}

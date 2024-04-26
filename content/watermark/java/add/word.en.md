@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T10:23:25
+date:  2024-04-26T21:38:56
 draft: false
 lang: en
 format: Word
@@ -107,11 +107,11 @@ more_features:
   image_description: "Add Watermark"
   features:
     # feature loop
-    - title: "Versatile Watermark Options."
+    - title: "Versatile Watermark Options"
       content: "Explore a wide range of watermarking options with GroupDocs.Watermark. From adjusting opacity and rotation to scaling size proportionally, our API lets you customize watermarks precisely to your needs, ensuring that they blend seamlessly with your documents while maintaining content integrity."
 
     # feature loop
-    - title: "Advanced Watermark Styling."
+    - title: "Advanced Watermark Styling"
       content: "GroupDocs.Watermark allows you to style your watermarks with various fonts, colors, and shadows, making them distinctive and harder to remove. Enhance the aesthetic appeal of your protected documents and images with stylish watermarks that reflect your brand's identity and professionalism."
 
     # feature loop
@@ -166,7 +166,7 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Personalize Your MS Word Files with Java Watermarks generation."
+    title: "Personalize Your MS Word Files with Java Watermarks generation"
     exclude: "WORD"
     description: "GroupDocs.Watermark for Java allows developers to easily insert tailored text or image watermarks into Word documents. These enhancements not only boost document security but also enrich business communications with a professional touch."
     items: 

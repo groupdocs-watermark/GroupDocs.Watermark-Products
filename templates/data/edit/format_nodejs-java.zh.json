@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "更新图片 {{FileFormatUp}} 水印",
+    "comment_2": "为 {{FileFormatUp}} 文件撰写水印",
+    "comment_3": "使用 SearchCriteria 查找特定图片",
+    "comment_4": "更新图片内容",
+    "comment_5": "保存更新的文件"
+  },
+  "steps": {
+    "title": "在 {{EnvName}} 中编辑 {{FileFormatUp}} 的动态水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 为 {{EnvName}} 开发人员提供了一个强大的 API，用于编辑各种 {{FileFormatUp}} 文档的水印。以下是简化工作流程的综合指南：",
+      "step_1": "**开始流程：** 首先将您的 {{FileFormatUp}} 文件作为参数提供给 **Watermarker** 类构造函数。根据您的要求，该文件可以以流形式获取，也可以从本地磁盘位置获取。",
+      "step_2": "**精确定位水印：** 使用**SearchCriteria**对象识别需要修改的水印。这个多功能工具允许根据特定属性进行有针对性的水印选择。",
+      "step_3": "**精确优化：** 成功执行搜索后，即可访问一系列相关水印。享受对每个元素的精细控制，并能够更新尺寸、页面定位、文本内容、颜色、图像数据等。",
+      "step_4": "**无缝保存：** 水印更新完成后，安全地存储修改后的文档。API 提供灵活的存储选项，允许您保存到本地文件路径或另存为流对象。"
+    }
+  },
+  "more_features": {
+    "title": "深入了解如何添加水印",
+    "description": "用于在 .NET 应用程序中呈现、显示、转换文档、幻灯片、图表和许多其他文档类型的 API",
+    "image_description": "添加水印",
+    "feature_1": {
+      "title": "在 PDF 秒内轻松编辑水印",
+      "content": "{{ProdShortName}} 在 {{EnvName}} 中提供了强大的工具，可无缝编辑 PDF 文档中的现有水印。轻松调整位置、透明度等。"
+    },
+    "feature_2": {
+      "title": "优化水印细节以提高精度",
+      "content": "控制细节。我们的 API 允许您微调水印的外观，从而可以精确修改 PDF 的大小、不透明度和颜色。"
+    },
+    "feature_3": {
+      "title": "简化的水印管理",
+      "content": "我们的 API 简化了水印管理。无论是更新还是删除，您都可以高效地管理水印，保持文档完整性，同时满足您的品牌需求。"
+    },
+    "code_1": {
+      "title": "更新演示水印内容",
+      "content": "此示例说明如何更新演示文稿水印的文本内容",
+      "comment_1": "加载 PDF 文档进行处理",
+      "comment_2": "搜索符合您条件的特定水印",
+      "comment_3": "编辑水印的设置，例如大小、颜色和位置",
+      "comment_4": "将更新后的文档保存到本地系统或直接流式传输"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "简化 {{FileFormatUp}} 水印更新",
+      "description": "通过 {{ProdFullName}} 库简化 {{FileFormatUp}} 个文档中水印的更新流程。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 个文档的高效水印更新",
+      "description": "使用 {{ProdFullName}} 简化和加速水印更新。通过一系列水印确保公司文件的安全。轻松修改水印属性，如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} 解决方案",
+      "action_title": "从 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 个功能",
+      "content": "{{ProdFullName}} 提供了高效的工具来简化更新文档中水印的过程。借助这种高级解决方案，开发人员可以轻松更新和修改各种文件格式的水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdShortName}} 支持所有主要操作系统和 {{EnvName}} 版本。"
+    },
+    "formats": {
+      "title": "简化支持格式的水印更新",
+      "description": "使用 {{ProdFullName}} 简化常用格式（如 PDF、Word、Excel 等）的水印处理。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "无缝更新 {{FileFormatUp}} 中的水印",
+      "description": "使用 {{ProdFullName}} 无缝更新 {{FileFormatUp}} 文档中的水印。将我们的库安装到您的应用程序中。"
+    },
+    "header": {
+      "title": "处理 {{FileFormatUp}} 个文档中的水印",
+      "description": "使用 {{ProdFullName}} 轻松精确调整水印。通过应用不同的水印来保护公司文件的机密性。根据您的要求定制水印功能，包括大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "调查 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 使开发人员能够轻松更新 {{FileFormatUp}} 个文档中的水印。这个强大的工具可以精确调整各种文件格式的水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 可以在许多流行的平台上使用。"
+    },
+    "formats": {
+      "title": "更新其他格式的水印",
+      "description": "使用 {{ProdFullName}} 无缝调整 PDF、Word、Excel 等中的水印。支持许多其他格式。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "轻松增强 {{FileFormatUp}} 个文档中的水印",
+      "description": "通过 {{ProdFullName}} API 轻松更新 {{FileFormatUp}} 个文档中的水印。确保您的文件安全。"
+    },
+    "header": {
+      "title": "轻松更新 {{FileFormatUp}} 个文档水印",
+      "description": "使用 {{FileFormatUp}} 轻松提升水印的质量。使用一系列水印增强对商业资料的保护。根据需要微调水印特征，例如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 信息",
+      "content": "{{ProdFullName}} 提供高级功能，可轻松更新文档中的水印。使用此工具，开发人员可以增强各种文件格式水印的外观和可见性，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。支持所有流行的操作系统和 {{EnvName}} 版本。"
+    },
+    "formats": {
+      "title": "水印更新适用于多种格式",
+      "description": "使用 {{ProdFullName}} 轻松增强 PDF、Word、Excel 等中的水印。支持 50 多种文件格式。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "精确更新 {{FileFormatUp}} 个水印",
+      "description": "使用 {{ProdFullName}} 精确优化演示文稿中的水印。确保您的业务数据安全。"
+    },
+    "header": {
+      "title": "精确更新 {{FileFormatUp}} 演示文稿水印",
+      "description": "使用 {{ProdFullName}} 实现无与伦比的水印细化精度。使用各种水印强化您的业务记录。根据您的要求更新水印属性，例如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "免费从 {{PackageStoreName}} 获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为开发人员提供了更新文档中水印的精确工具。这个复杂的工具允许微调和细化各种文件格式的水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。我们的解决方案支持所有主要的操作系统和流行的框架。"
+    },
+    "formats": {
+      "title": "更新支持格式的水印",
+      "description": "使用 {{ProdFullName}} 精确优化 PDF、Word、Excel 等中的水印。支持所有业务格式。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "无缝更新 {{FileFormatUp}} 个文档中的水印",
+      "description": "通过 {{ProdFullName}} 无缝修改 {{FileFormatUp}} 演示文稿中的水印。将我们的库整合到您的应用程序中。"
+    },
+    "header": {
+      "title": "更新 {{FileFormatUp}} 演示文稿中的水印",
+      "description": "使用 {{ProdFullName}} 轻松高效地修改水印。使用精选的水印保护您的业务文档的安全。轻松自定义水印属性，如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "{{PackageStoreName}} 软件包下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 解决方案",
+      "content": "{{ProdFullName}} 支持无缝修改文档中的水印。使用这种多功能工具，开发人员可以轻松修改和更新各种文件格式的水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。{{ProdFullName}} 可用于所有流行的操作系统。"
+    },
+    "formats": {
+      "title": "更新支持的文件格式水印",
+      "description": "使用 {{ProdFullName}} 无缝修改 PDF、Word、Excel 等中的水印。增强您的文档品牌知名度。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "毫不费力地更新 {{FileFormatUp}} 水印",
+      "description": "使用 {{ProdFullName}} 轻松自定义 {{FileFormatUp}} 文档中的水印。让我们的解决方案融入您的业务逻辑。"
+    },
+    "header": {
+      "title": "轻松更新 {{FileFormatUp}} 个文档中的水印",
+      "description": "使用 {{ProdFullName}} 根据您的精确要求定制水印。使用不同的水印保护您的公司文档。轻松修改水印元素，例如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在 {{PackageStoreName}} 获取包裹"
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 在 {{FileFormatUp}} 文档中提供水印的无缝定制。这种灵活的工具允许开发人员根据各种文件格式的特定要求轻松自定义和定制水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。"
+    },
+    "formats": {
+      "title": "更新多种文件格式的水印",
+      "description": "使用 {{ProdFullName}} 轻松自定义 PDF、Word、Excel 等中的水印。完善您的业务逻辑。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "在 {{FileFormatUp}} 个电子表格中更新和编辑水印",
+      "description": "使用 {{ProdFullName}} 更新和编辑各种文档格式的水印。扩展应用程序的功能。"
+    },
+    "header": {
+      "title": "高效管理 {{FileFormatUp}} 张电子表格水印",
+      "description": "使用 {{ProdFullName}} 简化水印管理。通过应用各种水印来确保业务文件的安全。根据自己的喜好定制水印规格，例如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 一般信息",
+      "content": "{{ProdFullName}} 提供了更新和编辑多种文件格式的水印的有效工具。借助这一全面的解决方案，开发人员可以无缝管理各种文档中的水印，包括 PDF、微软 Word、Excel、PowerPoint、Visio、电子邮件和图像格式。支持所有主要的操作系统和平台。"
+    },
+    "formats": {
+      "title": "更新和编辑其他格式的水印",
+      "description": "使用 {{ProdFullName}} 轻松更新和编辑 PDF、Word、Excel 等中的水印。丰富您的文档内容。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "根据您的需求更新 {{FileFormatUp}} 个水印",
+      "description": "使用 {{ProdFullName}} 根据您的精确要求定制水印。增强应用程序中的业务逻辑。"
+    },
+    "header": {
+      "title": "根据您的需求更新 {{FileFormatUp}} 电子表格水印",
+      "description": "使用 {{ProdFullName}} 轻松自定义水印。使用不同的水印保护贵公司的敏感文档。根据需要调整水印功能，例如大小、对齐方式、旋转角度和位置。",
+      "subtitle": "{{ProdFullName}} 解决方案",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "了解有关 {{ProdFullName}} 的更多信息",
+      "content": "{{ProdFullName}} 使开发人员能够根据其特定需求量身定制水印。使用这种多功能工具，开发人员可以根据各种文件格式的精确要求轻松自定义和调整文档中的水印，包括 PDF、Microsoft Word、Excel、PowerPoint、Visio、电子邮件和图像格式。支持主要操作系统和开发平台。"
+    },
+    "formats": {
+      "title": "更新以其他格式放置的水印",
+      "description": "使用 {{ProdFullName}}、Word、Excel 等根据您的需求定制水印。将我们的产品纳入您的解决方案并获得宝贵的收益。"
+    }
+  }
+}

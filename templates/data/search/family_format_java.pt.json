@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Pesquisar marcas d'água de texto no documento {{FileFormatUp}}",
+    "comment_2": "Obtenha a instância Watermarker para o documento {{FileFormatUp}}",
+    "comment_3": "Pesquise marcas d'água por critérios",
+    "comment_4": "Marcas d'água do processo"
+  },
+  "steps": {
+    "title": "Pesquise marcas d'água em {{FileformatCap}} arquivos usando {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilita a busca por marcas d'água já colocadas em documentos comerciais. Baixe nosso pacote e envolva-o em seu aplicativo {{EnvName}} para aproveitar seus benefícios.",
+      "step_1": "**Watermarker**. É possível fornecer apenas um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.",
+      "step_2": "**SearchCriteria**. Forneça uma imagem como exemplo para obter uma marca d'água de imagem semelhante. Se você quiser pesquisar por marca d'água textual, forneça texto, fonte, cor e outras opções.",
+      "step_3": "**Pesquisa** do objeto **Marcador d'água**. Você receberá uma coleção de objetos que podem ser processados como marcas d'água.",
+      "step_4": "Finalmente, você está livre para fazer com o resultado da pesquisa o que quiser. É completamente possível excluir marcas d'água encontradas ou editar suas propriedades. Altere o tamanho ou o texto, por exemplo."
+    }
+  },
+  "more_features": {
+    "title": "Aproveite Java para pesquisa avançada de marcas d'água com {{ProdShortName}}",
+    "description": "Utilize a API {{ProdShortName}} Java para realizar pesquisas sofisticadas por marcas d'água em documentos em diversos formatos no {{EnvName}}.",
+    "image_description": "Pesquisa avançada de marca d'água",
+    "feature_1": {
+      "title": "Java - Técnicas aprimoradas de pesquisa de marcas d'água",
+      "content": "Capacite seus Java aplicativos com técnicas avançadas de pesquisa usando {{ProdShortName}}. Nossa API permite pesquisas profundas por marcas d'água incorporadas em vários tipos de documentos, oferecendo precisão e eficiência."
+    },
+    "feature_2": {
+      "title": "Identifique marcas d'água com consultas personalizadas Java",
+      "content": "Personalize suas Java consultas para detectar marcas d'água com mais eficiência. Use {{ProdShortName}} para classificar e filtrar marcas d'água por propriedades como transparência, método de incorporação e conteúdo de texto ou imagem."
+    },
+    "feature_3": {
+      "title": "Gerenciamento eficiente de marcas d'água de documentos",
+      "content": "Simplifique o gerenciamento de marcas d'água em seus Java aplicativos. Com {{ProdShortName}}, encontre, revise e analise marcas d'água rapidamente para garantir a integridade do documento e a conformidade com as diretrizes de marca."
+    },
+    "code_1": {
+      "title": "Java Exemplo de código: Pesquisa inteligente de marca d'água",
+      "content": "Aprenda a implementar uma pesquisa inteligente de marca d'água usando Java com {{ProdShortName}}, demonstrando a capacidade da API de lidar com operações complexas de pesquisa e gerenciamento de resultados.",
+      "comment_1": "Configure o ambiente Java e carregue documentos de várias fontes",
+      "comment_2": "Defina parâmetros de pesquisa avançada para localizar tipos específicos de marcas d'água",
+      "comment_3": "Execute a pesquisa e processe as marcas d'água encontradas para uma análise detalhada",
+      "comment_4": "Salve ou atualize o documento com base nos resultados da pesquisa de marca d'água"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Explore {{FileformatCap}} planilhas e pesquisa de marcas d'água",
+      "description": "Descubra como o {{ProdFullName}} permite que você pesquise, encontre e gerencie marcas d'água sem esforço em vários formatos de documentos."
+    },
+    "header": {
+      "title": "Revelando os recursos de pesquisa de marcas d'água de {{FileformatCap}} planilhas",
+      "description": "Explore o poder de {{ProdFullName}} para pesquisar, editar e manipular marcas d'água com facilidade.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "Informações básicas {{ProdFullName}}",
+      "content": "{{ProdFullName}} é uma solução abrangente para gerenciar {{FileformatCap}} marcas d'água usando {{EnvName}}. Com essa ferramenta, os desenvolvedores podem realizar facilmente operações como criar, editar, pesquisar e remover marcas d'água de documentos em formatos de arquivo populares. Ele suporta o trabalho com marcas d'água de texto e imagem em vários documentos, incluindo PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail e formatos de imagem. O {{ProdFullName}} suporta todos os principais sistemas operacionais e {{EnvName}} versões."
+    },
+    "formats": {
+      "title": "Descubra o poder da pesquisa de marcas d'água",
+      "description": "Capacite-se para encontrar e gerenciar marcas d'água em vários formatos de arquivo compatíveis com {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "O poder de {{FileformatCap}} documentos Pesquisa por marca d'água",
+      "description": "Experimente a capacidade incomparável de pesquisar e gerenciar marcas d'água em diversos tipos de documentos com {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Descubra a pesquisa avançada de marcas d'água {{FileformatCap}}",
+      "description": "Embarque em uma jornada para explorar os recursos de pesquisa de marcas d'água de ponta oferecidos pelo {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenha a partir de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Sobre {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornece uma solução robusta para gerenciar marcas d'água usando {{EnvName}}. Os desenvolvedores podem facilmente criar, editar, pesquisar e remover marcas d'água de documentos em formatos de arquivo populares. Ele suporta marcas d'água de texto e imagem em vários tipos de documentos, incluindo PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail e formatos de imagem. O {{ProdFullName}} se integra perfeitamente a todos os principais sistemas operacionais e {{EnvName}} versões."
+    },
+    "formats": {
+      "title": "Domine a pesquisa de marcas d'água em todos os formatos",
+      "description": "Libere o potencial de {{ProdFullName}} para pesquisar e manipular marcas d'água em diferentes formatos de arquivo suportados."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Pesquisar {{FileformatCap}} Presentations Watermark:",
+      "description": "Renove sua estratégia de gerenciamento de marcas d'água com {{ProdFullName}} recursos avançados de pesquisa em vários formatos de documentos."
+    },
+    "header": {
+      "title": "Eleve seu fluxo de trabalho com {{FileformatCap}} Presentations Watermark Search",
+      "description": "Aumente sua produtividade aproveitando a funcionalidade de pesquisa de marcas d'água de última geração {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe o pacote {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Saiba mais sobre {{ProdFullName}}",
+      "content": "{{ProdFullName}} oferece uma solução abrangente para gerenciamento de marcas d'água usando {{EnvName}}. Os desenvolvedores podem facilmente criar, editar, pesquisar e remover marcas d'água de documentos em vários formatos de arquivo. Ele suporta marcas d'água de texto e imagem em uma ampla variedade de tipos de documentos, incluindo PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail e formatos de imagem. {{ProdFullName}} é compatível com todos os principais sistemas operacionais e {{EnvName}} versões."
+    },
+    "formats": {
+      "title": "Transforme seu fluxo de trabalho com a pesquisa por marca d'água",
+      "description": "Experimente uma eficiência incomparável no gerenciamento de marcas d'água em diferentes formatos de arquivo com {{ProdFullName}}."
+    }
+  }
+}

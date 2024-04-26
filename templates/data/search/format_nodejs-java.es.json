@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Consigue que las marcas de agua de las imágenes se coloquen en {{FileFormatUp}}",
+    "comment_2": "Crea un objeto Watermarker con una ruta de origen",
+    "comment_3": "Obtenga marcas de agua mediante un hash de imagen similar",
+    "comment_4": "Procesa las marcas de agua como desees"
+  },
+  "steps": {
+    "title": "Obtenga marcas de agua de {{FileformatCap}} archivos con {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ofrece una solución integral para colocar marcas de agua en los formatos de documentos comerciales más populares. Al integrar nuestra biblioteca en sus {{EnvName}} aplicaciones, puede equiparlas con potentes funciones de búsqueda de marcas de agua.",
+      "step_1": "**Watermarker** y proporcione la ruta del archivo {{FileformatCap}}. También puede usar el archivo guardado como flujo de bytes. Esta acción básicamente carga el documento de destino para un análisis exhaustivo de las marcas de agua.",
+      "step_2": "**SearchCriteria**. Puede especificar una imagen para localizar marcas de agua de imágenes similares. Como alternativa, en el caso de las marcas de agua textuales, defina el contenido del texto, las propiedades de la fuente, los atributos de color y otros parámetros relevantes para refinar los criterios de búsqueda y lograr resultados más precisos.",
+      "step_3": "**Get** (o una convención de nomenclatura similar) del objeto**Watermarker** para iniciar el proceso de obtención de marcas de agua en el documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que facilita el procesamiento posterior en función de sus requisitos específicos.",
+      "step_4": "La colección resultante de marcas de agua le permite controlar las marcas de agua identificadas en el documento. Puede eliminar las marcas de agua no deseadas o modificar dinámicamente sus propiedades, por ejemplo, ajustando su tamaño, posición o contenido del texto, según sus necesidades."
+    }
+  },
+  "more_features": {
+    "title": "Aproveche Node.js para buscar marcas de agua con {{ProdShortName}}",
+    "description": "Implemente funciones de búsqueda de marcas de agua dinámicas y eficientes en sus aplicaciones de Node.js utilizando {{ProdShortName}} dentro de la plataforma {{EnvName}}.",
+    "image_description": "Búsqueda de marcas de agua en Node.js",
+    "feature_1": {
+      "title": "API Node.js para una búsqueda flexible de marcas de agua",
+      "content": "Aproveche la flexibilidad de Node.js con {{ProdShortName}} para buscar marcas de agua en varios formatos de documentos. Configure fácilmente las búsquedas para que coincidan con requisitos específicos, como el tamaño, el tipo o el contenido."
+    },
+    "feature_2": {
+      "title": "Identificación mejorada de marcas de agua con Node.js",
+      "content": "Mejore el procesamiento de sus documentos identificando las marcas de agua con precisión mediante Node.js. Utilice la API de {{ProdShortName}} para detectar marcas de agua incluso en estructuras de documentos complejas."
+    },
+    "feature_3": {
+      "title": "Soluciones escalables de búsqueda de marcas de agua",
+      "content": "Amplíe sus soluciones de seguridad de documentos con Node.js. {{ProdShortName}} permite el procesamiento eficiente de grandes lotes de documentos, lo que lo hace ideal para aplicaciones de nivel empresarial."
+    },
+    "code_1": {
+      "title": "Ejemplo de Node.js: buscar y recuperar marcas de agua",
+      "content": "Este ejemplo de Node.js muestra cómo usar {{ProdShortName}} para buscar y recuperar marcas de agua, lo que demuestra que las operaciones de búsqueda son eficientes y escalables.",
+      "comment_1": "Configure el entorno Node.js y cargue los documentos necesarios",
+      "comment_2": "Configure su búsqueda para identificar marcas de agua en función de diversos criterios",
+      "comment_3": "Ejecute la búsqueda de marcas de agua y recopile datos sobre las marcas de agua identificadas",
+      "comment_4": "Procese los resultados para modificar o eliminar las marcas de agua según lo requieran las necesidades empresariales"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Recupera {{FileFormatUp}} marcas de agua de documentos sin esfuerzo",
+      "description": "Recupere fácilmente las marcas de agua de los documentos con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Obtenga una marca de agua de {{FileFormatUp}} documentos",
+      "description": "Recupera marcas de agua sin esfuerzo con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Más información sobre {{ProdFullName}}",
+      "content": "Gestione sin esfuerzo las marcas de agua en {{EnvName}} con las potentes funciones de {{ProdFullName}}. Simplifique las operaciones de creación de marcas de agua, como la generación, la actualización, la obtención y la eliminación en varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Simplifique la recuperación de marcas de agua",
+      "description": "Simplifique la recuperación de marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Extraiga marcas de agua de {{FileFormatUp}} documentos con facilidad",
+      "description": "Extraiga fácilmente las marcas de agua de sus documentos con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Acceder a marcas de agua en archivos {{FileFormatUp}}",
+      "description": "Recupera las marcas de agua de tus {{FileFormatUp}} documentos sin esfuerzo con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Descubre {{ProdFullName}}",
+      "content": "Gestione sin esfuerzo las marcas de agua en su entorno {{EnvName}}. {{ProdFullName}} le permite realizar diversas operaciones con marcas de agua, como generar, actualizar, recuperar y eliminar marcas de agua en una amplia gama de formatos de archivo."
+    },
+    "formats": {
+      "title": "Optimice la extracción de marcas de agua",
+      "description": "Simplifique el proceso de extracción de marcas de agua de diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Recuperación eficiente de marcas de agua de {{FileFormatUp}} documentos",
+      "description": "Recupere de forma eficiente las marcas de agua de los documentos con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Extracción simplificada de marcas de agua de {{FileFormatUp}} documentos",
+      "description": "Extraiga marcas de agua de manera eficiente con un enfoque simplificado de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar el paquete {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Información básica {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona una solución perfecta para gestionar las marcas de agua en {{EnvName}}. Simplifique el proceso de extracción y manipulación de marcas de agua en varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Optimice el manejo de marcas de agua",
+      "description": "Optimice la gestión de marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Gestión sencilla de marcas de agua para presentaciones {{FileFormatUp}}",
+      "description": "Gestione sin esfuerzo las marcas de agua en los documentos con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Control simplificado de marcas de agua para presentaciones de {{FileFormatUp}}",
+      "description": "Tome el control de las marcas de agua con facilidad mediante el enfoque simplificado de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Información",
+      "content": "Elimine las complicaciones de la gestión de marcas de agua con {{ProdFullName}}. Gestione sin problemas las tareas de creación de marcas de agua en varios formatos de archivo con un mínimo esfuerzo."
+    },
+    "formats": {
+      "title": "Control perfecto de marcas de agua",
+      "description": "Controle sin problemas las marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Descubra Watermark Insights en {{FileFormatUp}} presentaciones",
+      "description": "Descubra información valiosa escondida en las marcas de agua con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Descubra información valiosa sobre {{FileFormatUp}} presentaciones Watermark",
+      "description": "Descubra información valiosa escondida en las marcas de agua con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Paquete {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "Obtenga información {{ProdFullName}}",
+      "content": "Descubra el potencial de {{ProdFullName}} para descubrir información valiosa escondida en las marcas de agua de {{EnvName}}. Extraiga y analice fácilmente marcas de agua de varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Extraiga información de las marcas de agua",
+      "description": "Extraiga información valiosa de las marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Extracción eficiente de marcas de agua de {{FileFormatUp}} documentos",
+      "description": "Extraiga de manera eficiente las marcas de agua de los documentos con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Recuperación simplificada de marcas de agua de {{FileFormatUp}} documentos",
+      "description": "Recupere marcas de agua sin esfuerzo con el enfoque simplificado de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Más información sobre {{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece capacidades eficientes de extracción de marcas de agua para gestionar las marcas de agua en {{EnvName}}. Optimice el proceso de recuperación de marcas de agua en varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Extraiga marcas de agua de manera eficiente",
+      "description": "Extraiga marcas de agua de diferentes formatos de archivo de forma eficiente con {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Obtenga marcas de agua de cualquier documento {{FileFormatUp}} sin esfuerzo",
+      "description": "Obtén rápidamente marcas de agua de tus {{FileFormatUp}} hojas de cálculo con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Acceda y obtenga marcas de agua de {{FileFormatUp}} hojas de cálculo",
+      "description": "Recupera y obtén marcas de agua en tus {{FileFormatUp}} documentos sin esfuerzo con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Consigue {{ProdFullName}} gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libere una potente gestión de marcas de agua con {{ProdFullName}}",
+      "content": "Revolucione la administración de marcas de agua en su flujo de trabajo de {{EnvName}}. {{ProdFullName}} le permite generar, actualizar, recuperar (obtener) y eliminar marcas de agua sin esfuerzo en varios formatos de archivo, lo que agiliza el procesamiento de documentos."
+    },
+    "formats": {
+      "title": "Obtenga marcas de agua sin esfuerzo desde cualquier formato de archivo",
+      "description": "Simplifique la recuperación (obtenga) de marcas de agua en todos sus formatos de archivo con la potencia de {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Manejo eficiente de {{FileFormatUp}} hojas de cálculo y marcas de agua",
+      "description": "Gestione de forma eficaz las marcas de agua en los documentos con {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Control simplificado de marcas de agua en hojas de cálculo {{FileFormatUp}}",
+      "description": "Tome el control de las marcas de agua de manera eficiente con el enfoque simplificado de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar el paquete {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Información básica {{ProdFullName}}",
+      "content": "{{ProdFullName}} proporciona una solución simplificada para gestionar las marcas de agua en {{EnvName}}. Simplifique el proceso de gestión de marcas de agua en varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Optimice el control de marcas de agua",
+      "description": "Optimice el control de marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  }
+}

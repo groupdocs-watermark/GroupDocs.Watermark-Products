@@ -1,79 +1,404 @@
 ---
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+############################# Static ############################
+layout: "family"
+date:  2024-04-26T21:39:08
 draft: false
 
-head_title: "透かしソリューション|オンプレミスAPIと無料アプリ-GroupDocs"
-head_description: "PDF、画像、ドキュメントに透かしを追加します。 Microsoft Office、PDF、OpenDocument、画像ファイル形式などの透かしソリューション."
+product: "Watermark"
+product_tag: "watermark"
 
-title: "ドキュメントの透かしソリューション"
-description: "スマート検索を使用して、ドキュメントや画像のテキストや画像ベースの透かしをすばやく適用して操作します。"
+lang: ja
 
-apis:
+############################# Head ############################
+head_title: "ドキュメントウォーターマーク C# Java Node.js | ウォーターマークを追加"
+head_description: "PDF、画像、文書にウォーターマークを追加します。Microsoft Office、PDF、OpenDocument、画像などのウォーターマークソリューション"
+
+############################# Header ############################
+title: "ドキュメントウォーターマークソリューション"
+description:  |
+  文書や画像にテキストや画像の透かしを追加します。
+
+  便利な方法でドキュメントのウォーターマークを検索して変更します。
+
+  ドキュメントに表示されるウォーターマークに関する情報を取得します。
+
+############################# Supported Platforms ###############################
+supported_platforms:
   enable: true
+  head_title: "プラットフォームを選択してください"
+  title: "プラットフォーム独立性"
+  description: "GroupDocs.Watermark ライブラリは、以下のオペレーティングシステムとフレームワークをサポートしています。"
+  details_link_title: "さらに詳しく"
 
-  api:
-    - title: "GroupDocs.WatermarkハイコードAPIには次のものが含まれます"
-      link: "/watermark/"
-      label: "すべてのハイコードAPIを表示"
-      api_product:
-        - link: "/watermark/net/"
-          img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-          product: "GroupDocs.Watermark for"
-          platform: ".NET"
-          content: ".NETアプリケーション内の多数のファイル形式からテキストまたは画像の透かしを検索、追加、または削除します."
+  items:
+    # items loop
+    - title: ".NET"
+      description: GroupDocs.Watermark .NET 
+      color: "blue"
+      tag: "net"
+      link: "/watermark/net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Microsoft Visual Studio <br> JetBrains Rider
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+      
 
-        - link: "/watermark/java/"
-          img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-          product: "GroupDocs.Watermark for"
-          platform: "Java"
-          content: "MS Office、OpenOffice、ポータブルドキュメント、画像、図面などの透かしを操作するJavaベースのアプリケーション用のオンプレミスAPI."
+    # items loop
+    - title: "Java"
+      description: GroupDocs.Watermark Java
+      color: "red"
+      tag: "java"
+      link: "/watermark/java/"
+      features_link: "https://docs.groupdocs.com/watermark/java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Java 8 or higher <br> Kotlin
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IntelliJ IDEA <br> Eclipse <br> NetBeans
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
-    - title: "GroupDocs.WatermarkローコードAPIには次のものが含まれます"
-      link: "https://products.groupdocs.cloud/watermark"
-      label: "すべてのローコードAPIを表示"
-      api_product:
-        - link: "https://products.groupdocs.cloud/watermark/net"
-          img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-net.png"
-          product: "GroupDocs.Watermark"
-          platform: "Cloud SDK for .NET"
-          content: ".NETSDKで透かしRESTAPIを使用して、.NETアプリケーション内のドキュメント形式から透かしを適用、検索、編集、および削除します."
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Watermark Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/watermark/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> その他のテキストエディター
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
-        - link: "https://products.groupdocs.cloud/watermark/java"
-          img_alt: "GroupDocs.Watermark Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_watermark-for-java.png"
-          product: "GroupDocs.Watermark"
-          platform: "Cloud SDK for Java"
-          content: "透かしSDKforJavaを使用して、柔軟な透かし管理機能でJavaアプリケーションを強化します。."
-
-    - title: "GroupDocs.Watermarkコードアプリは含まれていません"
-      link: "https://products.groupdocs.app/watermark"
-      label: "すべてのノーコードアプリを表示"
-      api_product:
-        - link: "https://products.groupdocs.app/watermark/total"
-          img_alt: "GroupDocs.Watermark Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_watermark-app.png"
-          product: "GroupDocs.Watermark"
-          platform: "Total"
-          content: "Word、PowerPoint、Excel、PDF、その他40以上のファイル形式に透かしを追加する無料のオンラインアプリ."
-
-        - link: "https://products.groupdocs.app/watermark/docx"
-          img_alt: "GroupDocs.Watermark DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
-          product: "GroupDocs.Watermark"
-          platform: "DOCX"
-          content: "オンラインでMicrosoftWord文書にテキストベースの透かしを追加する."
-
-        - link: "https://products.groupdocs.app/watermark/pdf"
-          img_alt: "GroupDocs.Watermark PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
-          product: "GroupDocs.Watermark"
-          platform: "PDF"
-          content: "PDFドキュメントに透かしを入れる機能を提供するオンライン無料アプリ."
-
-back_to_top:
+############################# Features ###############################
+features:
   enable: true
+  title: "GroupDocs.Watermark 機能レビュー"
+  description: "このライブラリは、一般的なドキュメント形式のさまざまなウォーターマークタイプを追加、検索、更新できるように設計されています。"
+
+  items:
+    # items loop
+    - icon: "protect"
+      title: "ウォーターマークでファイルを保護する"
+      content: "ビジネス文書にテキストと画像のウォーターマークを追加します。"
+
+    # items loop
+    - icon: "search"
+      title: "既存のウォーターマークを検索する"
+      content: "以前にドキュメントに配置されたウォーターマークに関する詳細情報を取得します。"
+
+    # items loop
+    - icon: "manipulate"
+      title: "ドキュメントウォーターマークの操作"
+      content: "テキスト、スタイル、画像、その他のウォーターマーク機能を制御します。"
+
+    # items loop
+    - icon: "additional"
+      title: "さまざまな追加機能"
+      content: "ドキュメント情報の取得、ハイパーリンクやページの背景の更新など"
+
+############################# Code Samples ###############################
+code_samples:
+  enable: true
+  title: "ウォーターマークで文書を保護"
+  description: "GroupDocs.Watermark 一般的な操作コードの例。"
+
+  items:
+    # items loop
+    - title: "ウォーターマークの作成。"
+      content: "ドキュメントにウォーターマークを追加するには、ターゲットファイルへのパスを指定します。特定のページにカスタマイズしたウォーターマークを適用するには、さまざまな選択肢があります。"
+      samples:
+          # samples loop
+          - language: "C#"
+            color: "blue"
+            content: |
+                    <code class="language-csharp" data-lang="csharp">
+                        // 透かしを入れる文書を指定してください
+
+                        using (Watermarker watermarker = new Watermarker("source.docx"))
+                        {
+                          // ウォーターマークオブジェクトを作成
+                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                          // ウォーターマークオプションを設定する
+                          watermark.ForegroundColor = Color.Red;
+                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                          watermark.VerticalAlignment = VerticalAlignment.Center;
+
+                          // ウォーターマークを追加して処理済みファイルを保存する
+                          watermarker.Add(watermark);
+                          watermarker.Save("result.docx");
+                        }                    
+                    </code>
+
+          # samples loop
+          - language: "Java"
+            color: "red"
+            content: |
+                    <code class="language-java" data-lang="java">
+                        // 透かしを入れる文書を指定してください
+
+                        Watermarker watermarker = new Watermarker("source.docx");
+
+                        // ウォーターマークオブジェクトを作成
+                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                        // ウォーターマークオプションを設定する
+                        watermark.setForegroundColor(Color.getRed());
+                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+
+                        // ウォーターマークを追加して処理済みファイルを保存する
+                        watermarker.add(watermark);
+                        watermarker.save("result.docx");
+                        watermarker.close();
+
+                    </code>
+
+          # samples loop
+          - language: "TypeScript"
+            color: "green"
+            content: |
+                    <code class="language-java" data-lang="javascript">
+                        // 透かしを入れる文書を指定してください
+
+                        const watermarker = new Watermarker("source.docx");
+    
+                        // ウォーターマークオブジェクトを作成
+                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                        // ウォーターマークオプションを設定する
+                        watermark.setForegroundColor(Color.getRed());
+                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+
+                        // ウォーターマークを追加して処理済みファイルを保存する
+                        watermarker.add(watermark);
+                        watermarker.save("result.docx");                        
+
+                    </code>
+
+############################# Supported Formats ###############################
+formats:
+  enable: true
+  title: "50種類以上のファイルフォーマットに対応"
+  description: "GroupDocs.Watermark は、一般的なドキュメントおよびファイル形式にウォーターマークを提供します。"
+
+############################# Metrics ###############################
+metrics:
+  enable: true
+  title: "当館統計データ"
+  description: "主要な指標を深く掘り下げて、当社の業績、影響、成長に関する洞察を明らかにしてください。"
+
+  items:
+    # items loop
+    - number: "50+"
+      title: "対応フォーマット"
+      content: "ライブラリは、50種類以上の最も一般的なファイル形式を処理できます。"
+
+    # items loop
+    - number: "800k"
+      title: "NuGet ダウンロード"
+      content: ".NET の GroupDocs.Watermark は NuGet で80万回以上ダウンロードされている人気のライブラリです。"
+
+    # items loop
+    - number: "15k"
+      title: "Maven のダウンロード"
+      content: "Mavenでのダウンロード数は15,000を超え、GroupDocs.Watermark は Java 人の開発者に人気があります。"
+
+    # items loop
+    - number: "140+"
+      title: "幸せな顧客"
+      content: "世界中の個人開発者やトップ企業が、革新的なソリューションを構築するために私たちのライブラリを好んでいます。"
+
+
+############################# Customers ###############################
+customers:
+  enable: true
+  title: "私たちの幸せな顧客"
+  description: "GroupDocs の図書館は、世界中の世界的に有名で著名なブランドに採用されています。"
+
+  items:
+    # items loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+      
+    # items loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+      
+    # items loop
+    - title: "AT&T Inc."
+      logo: "att"
+      
+    # items loop
+    - title: "Customer logo AstraZeneca"
+      logo: "astrazeneca"
+      
+    # items loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+      
+    # items loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+      
+    # items loop
+    - title: "Capita"
+      logo: "capita"
+      
+    # items loop
+    - title: "Axa S.A."
+      logo: "axa"
+      
+    # items loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+      
+    # items loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "始める準備はできましたか?"
+  description: "お使いのプラットフォームで GroupDocs.Watermark の機能を無料でお試しください"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/watermark/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/watermark/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/watermark/nodejs-java/"      
+
+############################# FAQ ###############################
+faq:
+  enable: true
+  title: "よく寄せられる質問"
+  description: "よくある質問をご覧ください"
+
+  items:
+    # items loop
+    - question: "GroupDocs.Watermark は文書操作に外部ライブラリを必要としていますか？"
+      answer: "GroupDocs.Watermark は独立して動作するため、Adobe Acrobat、Microsoft Office などのサードパーティ製ソフトウェアは必要ありません。"
+
+    # items loop
+    - question: "購入前に GroupDocs.Watermark 個の機能をテストできますか？"
+      answer: "はい、GroupDocs.Watermark は無料トライアルを提供しています！インストールして試してみてください。ただし、試用版では文書に「トライアルバッジ」が追加され、最初の 3 ページのみが処理されることに注意してください。すべての体験をしてみたいですか？すべての機能を利用するには、30 日間無料の一時ライセンスを入手してください。詳細は [一時ライセンス](https://purchase.groupdocs.com/temporary-license/) をご覧ください。"
+
+    # items loop
+    - question: "どのような種類のライセンスが提供されていますか?"
+      answer: "GroupDocs.Watermark ライセンスが必要ですか?選択肢があります！さまざまなオプションからライセンスを選択できます。チーム内の開発者の数。1 つのオフィスやリモートワークプレイスなどの導入場所。エンドカスタマーディストリビューションでは SDK/API をクライアントと共有する必要がありますか?また、月単位の使用ライセンスもあります。従量制プランでは、使用した分のみお支払いいただきます。さらに掘り下げて、最適な [価格](https://purchase.groupdocs.com/pricing/watermark/net/) を見つけてください。"
+
+############################# Cloud Links ###############################
+cloud_links:
+  enable: true
+  title: "GroupDocs.Watermark ローコード API"
+  description: "クラウドベースの REST API を使用して、アプリケーションでファイルにウォーターマークを追加します。"
+  
+  items:
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for cURL"
+      content: "cURL REST ful API を使用して、PDF、Word、Excel、PowerPoint、JPEG などの一般的なファイル形式にウォーターマークを付けます。"
+      icon: "groupdocs_watermark-for-curl"
+      link: "https://products.groupdocs.cloud/watermark/curl"
+
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for .NET"
+      content: ".NET 用のCloud SDKによるドキュメントウォーターマーク機能で .NET 個のアプリケーションを強化します。ビジネス文書はご自身で保護してください。"
+      icon: "groupdocs_watermark-for-net"
+      link: "https://products.groupdocs.cloud/watermark/net"
+
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for Java"
+      content: "Java 向けに設計された GroupDocs.Watermark SDKは、Java 個のアプリケーションとビジネスファイルに新しい可能性をもたらします。"
+      icon: "groupdocs_watermark-for-java"
+      link: "https://products.groupdocs.cloud/watermark/java"
+
+############################# App links ###############################
+app_links:
+  enable: true
+  title: "GroupDocs.Watermark ウェブアプリ"
+  description: "GroupDocs は、ドキュメントにウォーターマークを追加するためのウェブアプリケーションへのアクセスを許可します。50 種類以上の一般的なファイル形式に、お好きなブラウザで無料で透かしを入れることができます。"
+
+  items:
+    # items loop
+    - title: "GroupDocs.Watermark Total"
+      content: "どのデバイスからでもドキュメントにウォーターマークを追加できるオンラインツール。"
+      icon: "groupdocs_watermark-app"
+      link: "https://products.groupdocs.app/watermark/total"
+
+    # items loop
+    - title: "GroupDocs.Watermark DOCX"
+      content: "ウォーターマーク MS Word DOCX オンライン。"
+      icon: "groupdocs_words-app"
+      link: "https://products.groupdocs.app/watermark/docx"
+
+    # items loop
+    - title: "GroupDocs.Watermark PDF"
+      content: "PDF 件の文書をオンラインで保護します。"
+      icon: "groupdocs_pdf-app"
+      link: "https://products.groupdocs.app/watermark/pdf"
+
+
+      
+
+
 ---

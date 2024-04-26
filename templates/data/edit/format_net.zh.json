@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} doc 中编辑图像水印",
+    "comment_2": "通过源文件初始化 Watermarker",
+    "comment_3": "为图像水印搜索创建搜索条件",
+    "comment_4": "编辑图像水印",
+    "comment_5": "保存结果 {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "使用 {{EnvName}} API 以编程方式编辑 {{FileformatCap}} 个文档中的水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 为 {{EnvName}} 开发人员提供了一个强大的 API，用于以编程方式操作各种 {{FileformatCap}} 文档中的水印。本指南概述了流程：",
+      "step_1": "**Watermarker** 类构造函数来启动工作流程。该文件可以作为字节流、文件流或对本地磁盘位置的引用提供。",
+      "step_2": "**SearchCriteria**对象来精确定位需要修改的特定水印。此对象可以识别先前嵌入在文档中的水印。",
+      "step_3": "成功执行搜索后，您将收到一系列相关的水印。这些水印提供精细控制，允许您修改尺寸、页面定位、文本内容、配色方案、图像数据等属性。",
+      "step_4": "水印编辑完成后，保留修改后的文档。该 API 使用本地文件路径或流对象来促进存储。"
+    }
+  },
+  "more_features": {
+    "title": "使用水印管理增强您的工作流程",
+    "description": "使用我们强大的库，简化 {{EnvName}} 应用程序中不同文件格式的水印。轻松添加、编辑、搜索或删除水印，以增强文档安全性和品牌推广。",
+    "image_description": "无缝水印编辑",
+    "feature_1": {
+      "title": "简化应用程序中的水印流程",
+      "content": "利用 {{ProdFullName}} 的强大功能将水印功能无缝集成到您的 {{EnvName}} 应用程序中。我们直观的 API 简化了水印的创建、管理、搜索和编辑，无需复杂的手动流程。"
+    },
+    "feature_2": {
+      "title": "粒度水印自定义",
+      "content": "借助我们全面的 API，释放水印定制的全部潜力。微调每个细节，包括大小、方向、配色方案和字体选择，以创建完全符合您的品牌和安全要求的水印。"
+    },
+    "feature_3": {
+      "title": "利用文档特定功能实现灵活的水印",
+      "content": "在各种文档格式中释放本机功能的力量。利用文档背景、注释、标题或其他对象等元素作为独特的水印容器，满足不同的文档类型和安全需求。"
+    },
+    "code_1": {
+      "title": "PDF 图像水印编辑",
+      "content": "此示例说明如何编辑图像水印的内容",
+      "comment_1": "将文档加载为 PDF",
+      "comment_2": "加载内容",
+      "comment_3": "编辑图像水印",
+      "comment_4": "享受输出结果"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "轻松编辑 {{FileformatCap}} 格式的水印",
+      "description": "使用 {{ProdFullName}} API 无缝编辑 {{FileformatCap}} 个水印。自信而高效地自定义您的文档。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 轻松编辑 {{FileformatCap}} 水印",
+      "description": "使用 {{ProdFullName}} API 简化水印管理并保护您的文档。实现工作流程的多功能性和效率。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "从 {{PackageStoreName}} 下载软件包"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 框架",
+      "content": "**轻松编辑水印：** 使用我们的 {{EnvName}} 友好型解决方案，简化 {{FileformatCap}} 个文档的水印管理。专注于您的内容，同时毫不费力地确保文档的安全性和完整性。"
+    },
+    "formats": {
+      "title": "轻松管理其他格式的水印",
+      "description": "使用 {{ProdFullName}} 简化不同文档格式的水印编辑。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "在 {{FileformatCap}} 个文件中编辑水印",
+      "description": "使用 {{ProdFullName}} 个应用程序编辑 {{FileformatCap}} 个文件上的水印。毫不费力地增强文档的真实性。"
+    },
+    "header": {
+      "title": "编辑文件中的 {{FileformatCap}} 个水印：{{EnvName}} 多功能性",
+      "description": "使用 {{ProdFullName}} 个应用程序放心地自定义您的文档。轻松编辑各种文件格式的水印。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**编辑 {{FileformatCap}} 个文件上的水印：** 使用 {{ProdFullName}} 个应用程序无缝编辑各种文件格式的水印。自信而高效地自定义您的文档。"
+    },
+    "formats": {
+      "title": "编辑文件间的水印",
+      "description": "使用由 {{ProdFullName}} 提供支持的应用程序，跨多种文件格式无缝编辑水印。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "使用 {{ProdShortName}} 编辑 {{FileformatCap}} 个水印",
+      "description": "使用 {{ProdFullName}} 框架编辑 {{FileformatCap}} 个文件中的 {{FileformatCap}} 个水印。轻松适应您的文档需求。"
+    },
+    "header": {
+      "title": "编辑 {{FileformatCap}} 中的水印：{{EnvName}} 适应性",
+      "description": "使用 {{ProdFullName}} 框架无缝适应您的文档需求。轻松编辑多种格式的水印。",
+      "subtitle": "{{ProdFullName}} 解决方案",
+      "action_title": "免费 {{PackageStoreName}} 套餐"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 解决方案",
+      "content": "**在 PDF s 中编辑水印：** 使用 {{ProdFullName}} 框架保护多种格式的内容。使用我们的多功能工具无缝适应您的文档需求。"
+    },
+    "formats": {
+      "title": "调整多种格式的水印",
+      "description": "使用 {{ProdFullName}} 框架保护您的各种文档格式的内容。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "轻松编辑 {{FileformatCap}} 个水印",
+      "description": "使用 {{ProdFullName}} 库轻松更新 {{FileformatCap}} 个水印。无缝维护文档完整性和安全性。"
+    },
+    "header": {
+      "title": "轻松编辑 {{FileformatCap}} 个水印：{{EnvName}} 控制",
+      "description": "使用 {{ProdFullName}} 库轻松维护文档的完整性和安全性。精确控制地编辑水印。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "从 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "**轻松编辑 {{FileformatCap}} 水印：** 使用 {{ProdFullName}} .NET 库轻松维护文档的完整性和安全性。精确而可控地编辑不同文件类型的水印。"
+    },
+    "formats": {
+      "title": "轻松更新其他格式的水印",
+      "description": "使用 {{ProdFullName}} 库轻松维护文档的完整性和安全性。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "编辑 {{FileformatCap}} 水印解决方案 ",
+      "description": "使用 {{ProdFullName}} 解决方案根据您的要求编辑 {{FileformatCap}} 个水印。精确地增强您的文件。"
+    },
+    "header": {
+      "title": "适用于 {{FileformatCap}} 水印编辑的灵活的 {{EnvName}} 解决方案",
+      "description": "使用我们的 {{ProdFullName}} 解决方案编辑您的水印以满足您的特定要求。轻松增强您的业务文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "下载 {{PackageStoreName}} 软件包"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**在您的解决方案中编辑 {{FileformatCap}} 水印：** 与 {{ProdFullName}} 开发人员一起根据您的特定要求定制水印解决方案。增强您的品牌知名度，同时轻松确保文档安全。"
+    },
+    "formats": {
+      "title": "定制其他格式的水印",
+      "description": "使用 {{ProdFullName}} 编辑解决方案中的水印以满足您的特定要求。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "编辑 {{FileformatCap}} 个文档中的水印",
+      "description": "使用 {{ProdFullName}} 软件开发工具包实现精美的 {{FileformatCap}} 文档品牌推广。编辑水印以确保安全。"
+    },
+    "header": {
+      "title": "抛光的 {{FileformatCap}} 水印编辑：{{EnvName}} 复杂性",
+      "description": "使用 {{ProdFullName}} SDK 实现复杂的文档品牌推广。精确、自信地编辑文档水印。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**精美水印编辑：** 使用 {{ProdFullName}} SDK 实现复杂的 {{FileformatCap}} 文档品牌推广。精确、自信地完善您的文档，确保品牌一致性和保护。"
+    },
+    "formats": {
+      "title": "其他格式处理",
+      "description": "使用 {{ProdFullName}} SDK 以复杂的方式编辑文档水印。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "简化的 {{FileformatCap}} 水印编辑",
+      "description": "使用 {{ProdShortName}} 简化 {{EnvName}} 项目中的 {{FileformatCap}} 水印编辑。专注于您的内容。"
+    },
+    "header": {
+      "title": "简化的 {{FileformatCap}} 水印编辑：{{EnvName}} 优化",
+      "description": "使用 {{ProdShortName}} 在 {{EnvName}} 个项目中编辑和优化您的水印。简化工作流程，轻松专注于内容。",
+      "subtitle": "{{ProdFullName}} 解决方案",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 软件开发工具包",
+      "content": "**编辑 {{FileformatCap}} 水印：** 使用 {{ProdShortName}} 优化 {{EnvName}} 项目中的水印控制。简化工作流程，专注于内容，同时毫不费力地确保文档安全。"
+    },
+    "formats": {
+      "title": "简化了其他格式的水印控制",
+      "description": "使用 {{ProdShortName}} 优化 {{EnvName}} 个项目中的水印控制。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "安全 {{FileformatCap}} 水印编辑解决方案",
+      "description": "确保使用 {{ProdFullName}} 组件编辑 {{FileformatCap}} 个水印的安全。放心地保护您的内容和品牌。"
+    },
+    "header": {
+      "title": "安全 {{FileformatCap}} 水印编辑：{{EnvName}} 保障",
+      "description": "使用 {{ProdFullName}} 组件确保文档安全和品牌保护。放心地安全地编辑您的水印。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 解决方案",
+      "content": "**{{FileformatCap}} 水印编辑工具：** 使用 {{ProdShortName}} 优化 {{EnvName}} 项目中的水印编辑。简化业务流程，专注于内容，同时毫不费力地确保文档安全。"
+    },
+    "formats": {
+      "title": "其他格式水印编辑",
+      "description": "使用 {{ProdFullName}} 组件确保文档安全和品牌保护。"
+    }
+  }
+}

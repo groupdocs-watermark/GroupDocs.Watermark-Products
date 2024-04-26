@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T10:23:29
+date:  2024-04-26T21:39:05
 draft: false
 lang: en
 format: Ppt
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "Base GroupDocs.Watermark for .NET Information"
+    title: "GroupDocs.Watermark for .NET Base Information"
     link: "/watermark/net/"
     link_title: "Learn more"
     picture: "about_watermark.svg" # 480 X 400

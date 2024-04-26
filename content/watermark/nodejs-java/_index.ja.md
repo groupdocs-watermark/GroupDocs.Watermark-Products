@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:06
+date: 2024-04-26T21:39:08
 draft: false
 
 lang: ja
@@ -24,74 +24,80 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Node.js ウォーターマークライブラリ | ドキュメントウォーターマーク"
+head_description: "Node.js ソリューションは、テキストと画像のウォーターマークでビジネス文書を保護します。PDF、Word、Excel、PowerPoint などの一般的な形式がサポートされています。"
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Java ソリューションによる Node.js のウォーターマーキングテクノロジーへのアクセス"
+description: "この Node.js ソリューションで知的財産を保護し、不正コピーを防止してください。これにより、ユーザーは PDF、Word、Excel、PowerPoint、画像など、さまざまな形式のビジネス文書にウォーターマークを簡単に追加できます。"
 words:
-  for: "{index-content.words_for}"
+  for: "にとって"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
-  main_link: ""
-  alt: "{index-content.actions.alt}"
-  alt_link: ""
-  title: "{index-content.actions.title}"
-  description: "{index-content.actions.description}"
+  main: "NPM を使用して無料でダウンロードする"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
+  alt: "ライセンス"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+  title: "始める準備はできましたか?"
+  description: "GroupDocs.Watermark の機能を無料で試すか、ライセンスをリクエストしてください"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
-  link: "{products.nodejs-java.release_downloads}"
+  title: "バージョン {0} がリリースされました"
+  notes: "新機能を見る"
+  downloads: "ダウンロード"
+  link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content.code_more}"
-  more_link: ""
-  install: "npm i @groupdocs/groupdocs.comparison"
+  title: "タイプスクリプトで PDF にウォーターマークを追加"
+  more: "その他の例"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
-    // {index-content.code_comment_1}
-    let comparer = new Comparer("source.bmp");
+    // PDF パスを渡すウォーターマーカーをインスタンス化
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // {index-content.code_comment_2}
-    comparer.add("target.bmp");
+    // ウォーターマークオプションのカスタマイズ
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-    // {index-content.code_comment_3}
-    comparer.compare("result.bmp"); 
+    // PDF ドキュメントにウォーターマークを適用
+    watermarker.add(textWatermark);
+
+    // 結果文書を保存
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Watermark 一目でわかる"
+  description: "ウォーターマーク用 Node.js タイプスクリプトライブラリ"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Node.js ファイルウォーターマーキング"
+      content: "GroupDocs.Watermark for Node.js via Java でビジネス文書を保護してください。テキスト、画像、図、メールの添付ファイルをウォーターマークとしてさまざまなファイル形式に追加できます。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "必要に応じてウォーターマークをカスタマイズ"
+      content: "GroupDocs.Watermark for Node.js via Java には、ウォーターマークの幅広いカスタマイズオプションが用意されています。テキストスタイル (太字、斜体、フォント) と画像プロパティ (回転など) を微調整することで、文書処理をカスタマイズできます。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "包括的なフォーマットサポート"
+      content: "GroupDocs.Watermark for Node.js via Java は、Word、Excel、PowerPoint などの PDF、MS Office、JPEG、PNG、GIF、BMP、Visio 図などの画像、電子メールなどを含む幅広いファイル形式とシームレスに統合し、ビジネス目標を達成するための文書処理を強化します。"
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_4.title}"
-      content: "{index-content-nodejs-java.overview_feature_4.description}"
+    - title: "強力なウォーターマーク検索と更新"
+      content: "ウォーターマークの付いたドキュメント内の既存のウォーターマークを取得して更新します。テキスト、スタイル、画像コンテンツを変更したり、完全に削除したりできます。GroupDocs.Watermark for Node.js via Java は幅広いウォーターマーク処理を提供します。"
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms.title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "プラットフォーム独立性"
+  description: "GroupDocs.Watermark for Node.js via Java は、さまざまなオペレーティングシステムやパッケージマネージャーと簡単に統合できます。"
   items:
     # platform loop
     - title: "Windows"
@@ -130,142 +136,149 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "対応ファイル形式"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Watermark for Node.js via Java を使用すると、さまざまなファイル形式を処理できます。[全リストを見る](https://docs.groupdocs.com/watermark/net/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content.formats_groups.format_fixed_page_layout}:** PDF        
+        ### Microsoft Office および OpenDocument フォーマット
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_raster_images}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content.formats_groups.format_medical_imaging}:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### イメージとグラフィックス
+        * **人気の画像フォーマット:** BMP, JPG, JPEG, PNG
+        * **複数ページの画像:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_text}:** TXT
-        * **{index-content.formats_groups.format_programming_languages}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content.formats_groups.format_web}:** HTM, HTML, MHT, MHTML
-        * **{index-content.formats_groups.format_e_books}:** MOBI, DjVu
-        * **{index-content.formats_groups.format_delimiter_separated_values}:** CSV
+        ### その他
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Watermark for Node.js via Java: フィーチャセット"
+  description: "プログラムによるウォーターマーキングにより、強固な文書セキュリティを強化します。PDF、DOCX、XLSX、PPTX、および画像形式 (PNG、JPG など) を含むさまざまなファイル形式をサポートします。"
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "watermark_add"
+      title: "正確なウォーターマーク制御"
+      content: "ウォーターマークを特定のセクション、ドキュメント全体、またはさまざまなファイル形式内の個々の添付ファイルや図形に追加したり削除したりすることで、ウォーターマークを正確に操作できます。"
 
     # feature loop
-    - icon: "note-stack"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "watermark_style"
+      title: "ウォーターマークの外観のカスタマイズ"
+      content: "ドキュメント内の色、フォント、不透明度、回転、位置などの属性を変更することで、ウォーターマークの美観をきめ細かく制御できます。"
 
     # feature loop
-    - icon: "stacks"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "hidden_print"
+      title: "PDF ウォーターマークを印刷"
+      content: "通常の文書表示では見えず、印刷プロセス中にのみ表示されるステルスウォーターマークを導入することで、文書のセキュリティを目立たなく強化できます。"
 
     # feature loop
-    - icon: "rule"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "image_only"
+      title: "特定の画像ウォーターマーキング"
+      content: "当社のソリューションを使用して、文書内の特定の画像に透かしを入れます。ウォーターマークを指定のセクション (ページ、スライドなど) に埋め込むか、ドキュメント全体に埋め込むかを選択できます。"
 
     # feature loop
-    - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "image_frame"
+      title: "マルチフレーム画像の透かし"
+      content: "マルチフレーム画像フォーマット内の特定のフレームにウォーターマークを選択的に適用することで、ウォーターマークの配置をきめ細かく制御できます。"
 
     # feature loop
-    - icon: "two-pager"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "attachments"
+      title: "包括的なコンテンツ保護"
+      content: "Excel 文書内の添付ファイルやプレゼンテーション内の画像図形など、さまざまな文書要素に保護を拡張し、セキュリティをさらに強化します。"
 
     # feature loop
-    - icon: "format_color_text"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "pdf_objects"
+      title: "PDF の高度なウォーターマーキング"
+      content: "ブリードボックス、アートボックス、クロップボックス、トリムボックスなど、PDF のさまざまな領域に透かしを入れます。"
 
     # feature loop
-    - icon: "folder-managed"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "doc_background"
+      title: "背景画像のウォーターマーク"
+      content: "スプレッドシートとプレゼンテーションの背景画像内のウォーターマークを管理し、視覚的なセキュリティ対策のための追加のカスタマイズオプションを提供します。"
 
     # feature loop
-    - icon: "lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "unreadable_characters"
+      title: "読めない文字を含むテキストウォーターマーク"
+      content: "プレゼンテーションに埋め込まれたテキストウォーターマークに判読できない文字を使用することにより、不正なウォーターマーク抽出がはるかに困難になるため、セキュリティが強化されます。"
 
     # feature loop
-    - icon: "select"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "watermark_text_search"
+      title: "高度なウォーターマーク検索"
+      content: "包括的な検索機能を活用して、特定のパラメータに基づいて、またはさまざまな基準を組み合わせて文書内のウォーターマークを検索し、効率的な検索と管理を可能にします。"
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "watermark_image_search"
+      title: "類似画像ウォーターマーク検出"
+      content: "ソース画像と視覚的に似ている文書内の類似のウォーターマーク画像を検索します。"
+
+    # feature loop
+    - icon: "document_info"
+      title: "プログラムによる文書情報抽出"
+      content: "サポートされているファイル形式のページ設定の詳細やその他の文書情報など、貴重なメタデータをプログラムで抽出します。"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "コードサンプル"
+  description: "一般的な GroupDocs.Watermark for Node.js via Java の機能を紹介するコード例を見てみましょう"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "画像で文書にウォーターマークを付ける"
       content: |
-        {index-content-net.code_samples_sample_1_content}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
-        ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // {index-content.code_samples.sample_1.comment_2}
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        GroupDocs.Watermark for Node.js via Java を活用して、画像ウォーターマークを追加してドキュメントのセキュリティを強化してください。詳細:[画像透かし](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/)
+        {{< landing/code title="画像ウォーターマークでファイルを保護する方法">}}
+        ```javascript {style=abap}
+        // ソースドキュメントをウォーターマーカーに読み込み
+        let watermarker = new Watermarker("document.pdf");
+        
+        // ウォーターマーク画像へのパスを指定
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // {index-content.code_samples.sample_1.comment_3}
-            comparer.Compare("result.docx");
-        }
+        // ファイルを保護して保存する
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "既存のウォーターマークの検索と変更"
       content: |
-        {index-content-net.code_samples_sample_2_content}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
-        ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // {index-content.code_samples.sample_2.comment_2}
-            comparer.Add("target2.docx");
-            
-            // {index-content.code_samples.sample_2.comment_3}
-            comparer.Add("target3.docx");
-            
-            // {index-content.code_samples.sample_2.comment_4}
-            comparer.Compare("result.docx");
+        GroupDocs.Watermark for Node.js via Java ではドキュメントのウォーターマークを管理できます。ウォーターマークを選択し、そのプロパティを変更します。その方法をご覧ください:[ウォーターマークの変更](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/)
+        {{< landing/code title="ウォーターマークの検索と変更。">}}
+        ```javascript {style=abap}   
+        // ソースドキュメントをロード
+        let watermarker = new Watermarker("document.pdf");
+
+        // 更新するウォーターマークを検索する
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // 必要なプロパティを更新
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // 変更したドキュメントを指定したパスに保存
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

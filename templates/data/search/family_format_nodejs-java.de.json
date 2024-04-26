@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Ruft die Textwasserzeichenliste für {{FileFormatUp}} ab",
+    "comment_2": "Watermarker-Klasse instantiieren",
+    "comment_3": "Holen Sie sich Wasserzeichen nach Textkriterien",
+    "comment_4": "Informationen zu Wasserzeichen verwenden"
+  },
+  "steps": {
+    "title": "Effizientes Abrufen von Wasserzeichen in {{FileformatCap}} Dateien von {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** optimiert den Prozess des Abrufs von Wasserzeichen, die in verschiedene Geschäftsdokumentformate eingebettet sind. Integrieren Sie {{ProdShortName}} nahtlos in Ihre {{EnvName}} Anwendungen, um sie mit robusten Funktionen zur Erkennung von Wasserzeichen auszustatten.",
+      "step_1": "**Watermarker** und geben Sie den {{FileformatCap}} -Dateipfad, den Dateistream oder den Bytestream als Eingabe an. Diese Aktion lädt das Dokument für die Wasserzeichenanalyse.",
+      "step_2": "**SearchCriteria**. Geben Sie ein Bild an, um ähnliche Bildwasserzeichen zu finden. Definieren Sie für Textwasserzeichen alternativ den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter, um die Suchkriterien zu verfeinern.",
+      "step_3": "**Get**-Methode des **Watermarker**-Objekts, um den Prozess zur Erkennung von Wasserzeichen innerhalb des geladenen Dokuments einzuleiten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.",
+      "step_4": "Die abgerufene Sammlung von Wasserzeichenobjekten bietet Ihnen viele Möglichkeiten. Sie können unerwünschte Wasserzeichen entfernen oder ihre Eigenschaften ändern. Ändern Sie den Inhalt, verschieben Sie ein Wasserzeichen auf einer Seite und vieles mehr."
+    }
+  },
+  "more_features": {
+    "title": "Optimieren Sie Ihre Wasserzeichensuche mit {{ProdShortName}} in Node.js",
+    "description": "Erfahren Sie, wie Sie mit {{ProdShortName}} erweiterte Funktionen zur Suche nach Wasserzeichen in Ihren Node.js Anwendungen implementieren und so die Dokumentenverwaltung in {{EnvName}} optimieren.",
+    "image_description": "Suche nach Wasserzeichen in Node.js",
+    "feature_1": {
+      "title": "Erweiterte Wasserzeichenerkennung in Node.js",
+      "content": "Verwenden Sie {{ProdShortName}}, um Ihre Fähigkeit zu verbessern, Wasserzeichen in jedem Dokumentformat zu erkennen und zu identifizieren. Suchen Sie effizient mithilfe ausgeklügelter Filteroptionen."
+    },
+    "feature_2": {
+      "title": "Node.js API für benutzerdefinierte Wasserzeichensuchen",
+      "content": "Passen Sie Ihre Suchvorgänge mit unserer Node.js API an. Finden Sie Wasserzeichen, indem Sie detaillierte Parameter wie Standort, Opazität und Inhaltstyp angeben und so Ihre Dokumenten-Workflows optimieren."
+    },
+    "feature_3": {
+      "title": "Effizientes Abrufen und Analysieren von Wasserzeichen",
+      "content": "Mit {{ProdShortName}} können Sie schnell Wasserzeichen aus verschiedenen Dokumenten extrahieren und analysieren. Unsere API unterstützt den schnellen Abruf und hilft Ihnen dabei, die Einhaltung gesetzlicher Vorschriften und die Konsistenz Ihrer Markenkennzeichnung zu gewährleisten."
+    },
+    "code_1": {
+      "title": "Beispiel für Node.js: Effiziente Wasserzeichensuche",
+      "content": "Erfahren Sie, wie Sie Node.js mit {{ProdShortName}} verwenden, um in verschiedenen Dokumenttypen nach Wasserzeichen zu suchen, und demonstrieren Sie die Verwendung dynamischer Suchkriterien für präzise Ergebnisse.",
+      "comment_1": "Initialisieren Sie die Umgebung von Node.js und laden Sie das Zieldokument",
+      "comment_2": "Richten Sie Suchanfragen mit flexiblen Kriterien ein, um bestimmte Wasserzeichen zu finden",
+      "comment_3": "Führen Sie die Suche aus und sammeln Sie Wasserzeichen, die den Kriterien entsprechen",
+      "comment_4": "Verarbeiten und analysieren Sie die Ergebnisse, um die erforderlichen Maßnahmen zu ermitteln"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Entsperren Sie {{FileformatCap}} Spreadsheets Watermarks Secrets",
+      "description": "Entdecken Sie die Möglichkeiten von {{ProdFullName}}, um mühelos Wasserzeichen aus Dokumenten abzurufen."
+    },
+    "header": {
+      "title": "Versteckte Wasserzeichen in {{FileformatCap}} Tabellenkalkulationen aufdecken",
+      "description": "Entdecken Sie die versteckten Wasserzeichen in Ihren Dokumenten mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Holen Sie sich von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Basisinformationen",
+      "content": "Erschließen Sie das Potenzial von {{ProdFullName}} bei der Verwaltung von Wasserzeichen in {{EnvName}}. Generieren, aktualisieren, abrufen und löschen Sie ganz einfach Wasserzeichen aus verschiedenen Dateiformaten, darunter PDF, Word, Excel, PowerPoint und mehr."
+    },
+    "formats": {
+      "title": "Erkunden Sie mehrere Formate",
+      "description": "Entdecken, Abrufen und Verwalten von Wasserzeichen in verschiedenen Dateiformaten mit Leichtigkeit."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Master-Wasserzeichen-Extraktion aus {{FileformatCap}} Dokumenten",
+      "description": "Werden Sie ein Profi beim Extrahieren von Wasserzeichen aus Dokumenten mit {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Expert {{FileformatCap}} Dokumente zum Abrufen von Wasserzeichen",
+      "description": "Machen Sie sich mit dem Fachwissen vertraut, um Wasserzeichen mithilfe von {{ProdFullName}} abzurufen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} -Paket herunterladen"
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "Meistern Sie die Kunst des Wasserzeichenmanagements mit {{ProdFullName}}. Erledigen Sie mühelos Wasserzeichen-Aufgaben in verschiedenen Dateiformaten, darunter PDF, Word, Excel und mehr."
+    },
+    "formats": {
+      "title": "Effizienter Umgang mit Dateiformaten",
+      "description": "Behandeln Sie Wasserzeichen in verschiedenen Dateiformaten effizient mit {{ProdFullName}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Entdecke {{FileformatCap}} Präsentationen Versteckte Wasserzeichen",
+      "description": "Enthülle versteckte Wasserzeichen in Dokumenten mit {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Enthülle Wasserzeichen in {{FileformatCap}} Präsentationen",
+      "description": "Entdecken und enthüllen Sie versteckte Wasserzeichen in Ihren Dokumenten mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos {{PackageStoreName}} Herunterladen"
+    },
+    "about": {
+      "title": "Erfahre mehr über {{ProdFullName}}",
+      "content": "Erkunden Sie die Funktionen von {{ProdFullName}} zur nahtlosen Verwaltung von Wasserzeichen in {{EnvName}}. Einfache Handhabung von Wasserzeichenoperationen wie Generieren, Aktualisieren, Abrufen und Löschen in verschiedenen Dateiformaten."
+    },
+    "formats": {
+      "title": "Entdecken Sie Wasserzeichen in allen Formaten",
+      "description": "Entdecken Sie mühelos Wasserzeichen in verschiedenen Dateiformaten mit {{ProdFullName}}."
+    }
+  }
+}

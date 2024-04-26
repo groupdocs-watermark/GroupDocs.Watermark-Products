@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Filigrana Excel",
+        "description": "MS Excel e fogli di calcolo Open Office"
+      },
+      "word": {
+        "name": "Filigrana Word",
+        "description": "MS Word e documenti Open Office"
+      },
+      "powerpoint": {
+        "name": "Filigrana PowerPoint",
+        "description": "MS PowerPoint e presentazioni Open Office"
+      },
+      "image": {
+        "name": "Immagine con filigrana",
+        "description": "Formati di immagine più diffusi"
+      },
+      "photo": {
+        "name": "Foto con filigrana",
+        "description": "Formati fotografici"
+      },
+      "pdf": {
+        "name": "Filigrana PDF",
+        "description": "Formato documento Adobe Portable"
+      },
+      "doc": {
+        "name": "Filigrana DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Filigrana DOCX",
+        "description": "Documento XML aperto Microsoft Word"
+      },
+      "xls": {
+        "name": "Filigrana XLS",
+        "description": "Cartella di lavoro Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Filigrana XLSX",
+        "description": "Foglio di calcolo Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Filigrana PPT",
+        "description": "PowerPoint Presentazione 97-2003"
+      },
+      "pptx": {
+        "name": "Filigrana PPTX",
+        "description": "PowerPoint Presentazione XML aperta"
+      },
+      "jpeg": {
+        "name": "Filigrana JPEG",
+        "description": "JPEG Immagine"
+      },
+      "png": {
+        "name": "Filigrana PNG",
+        "description": "Portable Grafica di rete"
+      },
+      "tiff": {
+        "name": "Filigrana TIFF",
+        "description": "Formato del file di immagine per tag"
+      },
+      "webp": {
+        "name": "Filigrana WEBP",
+        "description": "Immagine WEB"
+      },
+      "rtf": {
+        "name": "Filigrana RTF",
+        "description": "Formato RTF"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copia",
+      "copy_tip": "clicca per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto per iniziare?",
+      "description": "Prova le funzioni {{ProdShortName}} gratuitamente o richiedi una licenza",
+      "comment_1": "{{PackageStoreName}} scarica",
+      "comment_2": "Licenze"
+    },
+    "texts": {
+      "learn_more": "Scopri di più"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "examples": {
+    "comment_1": "Temukan tanda air teks di {{FileFormatUp}}",
+    "comment_2": "Buat Watermarker dengan jalur {{FileFormatUp}}",
+    "comment_3": "Temukan tanda air",
+    "comment_4": "Gunakan info tanda air yang ditemukan"
+  },
+  "steps": {
+    "title": "Temukan Watermark di {{FileformatCap}} File Menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** merampingkan proses menemukan tanda air dalam dokumen bisnis. Integrasikan paket kami ke dalam aplikasi {{EnvName}} Anda untuk membuka keuntungannya.",
+      "step_1": "**Watermarker**. Anda dapat menyediakan jalur file, aliran file, atau aliran byte.",
+      "step_3": "**Pencarian** dari objek**Watermarker** untuk mengambil tanda air yang ditempatkan di dalam dokumen. Anda akan menerima kumpulan objek yang mewakili tanda air potensial untuk diproses lebih lanjut.",
+      "step_4": "Akhirnya, Anda memiliki fleksibilitas untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks."
+    }
+  },
+  "more_features": {
+    "title": "Cari dan Temukan Watermark secara Efisien dengan {{ProdShortName}}",
+    "description": "Manfaatkan kekuatan {{ProdShortName}} untuk mencari dan menemukan tanda air dalam jenis dokumen apa pun menggunakan C # dalam {{EnvName}}.",
+    "image_description": "Cari Watermark",
+    "feature_1": {
+      "title": "Temukan Watermark dengan Pencarian Lanjutan",
+      "content": "Gunakan {{ProdShortName}} untuk menemukan tanda air dengan mudah di beberapa jenis dokumen. Alat kami memungkinkan Anda untuk mencari berdasarkan parameter seperti konten, ukuran, dan opasitas."
+    },
+    "feature_2": {
+      "title": "Temukan Watermark dengan Parameter Kustom",
+      "content": "Sesuaikan kriteria pencarian Anda dengan {{ProdShortName}} untuk menemukan tanda air berdasarkan properti tertentu, memastikan Anda dapat mengelola dan meninjaunya secara efektif."
+    },
+    "feature_3": {
+      "title": "Ambil dan Kelola Watermark secara Efisien",
+      "content": "Sederhanakan proses manajemen dokumen Anda dengan mengambil semua tanda air dalam dokumen dengan cepat. API kami memungkinkan identifikasi dan analisis tanda air yang cepat."
+    },
+    "code_1": {
+      "title": "Contoh C#: Cari Watermark",
+      "content": "Contoh C# ini menunjukkan cara mencari tanda air dalam dokumen apa pun menggunakan {{ProdShortName}}, menggambarkan cara memanfaatkan parameter untuk temuan yang tepat.",
+      "comment_1": "Muat dokumen dari sumber lokal atau jaringan untuk diproses",
+      "comment_2": "Tentukan parameter untuk pencarian watermark, seperti jenis atau visibilitas",
+      "comment_3": "Ambil semua tanda air yang cocok dengan kriteria yang ditentukan",
+      "comment_4": "Tinjau dan kelola daftar tanda air yang ditemukan untuk menilai dampaknya"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Temukan Watermark Spreadsheet {{FileformatCap}} Tak Terlihat",
+      "description": "Mudah menemukan tanda air tak terlihat dalam dokumen menggunakan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Temukan {{FileformatCap}} Tanda Air Spreadsheet Seketika",
+      "description": "Buka dan kelola tanda air tersembunyi dengan mudah dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratis {{PackageStoreName}} Unduh"
+    },
+    "about": {
+      "title": "Dapatkan info {{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi komprehensif untuk mengelola tanda air menggunakan {{EnvName}}. Buat, edit, temukan, dan hapus tanda air dengan mudah dari berbagai format dokumen seperti PDF, Microsoft Word, Excel, dan lainnya. Integrasikan manajemen tanda air dengan mulus ke dalam aplikasi Anda dengan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Temukan Tanda Air di Seluruh Format",
+      "description": "Dengan mudah mencari dan mengidentifikasi tanda air dalam berbagai format file yang didukung."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Temukan Watermark Tersembunyi di {{FileformatCap}} Dokumen",
+      "description": "Temukan tanda air tersembunyi di dalam dokumen dengan mudah dengan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Menemukan Watermark Tersembunyi dengan Mudah di {{FileformatCap}} Dokumen",
+      "description": "Identifikasi dan kelola tanda air tersembunyi dengan cepat dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} paket gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informasi",
+      "content": "{{ProdFullName}} menawarkan solusi komprehensif untuk mengelola tanda air menggunakan {{EnvName}}. Buat, edit, temukan, dan hapus tanda air dengan mudah dari berbagai format dokumen termasuk PDF, Microsoft Word, Excel, dan lainnya. Temukan tanda air dengan aplikasi Anda menggunakan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Temukan Watermark di Seluruh Format yang Didukung",
+      "description": "Temukan dan kelola tanda air dengan cepat di berbagai format file yang didukung."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Temukan {{FileformatCap}} Presentasi Tanda Air Tersembunyi",
+      "description": "Gali tanda air tersembunyi dalam dokumen dengan mudah dengan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Mudah Mengungkap {{FileformatCap}} Presentasi Tanda Air Tersembunyi",
+      "description": "Ungkap dan kelola tanda air tersembunyi dengan cepat dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan solusi yang kuat untuk mengelola tanda air menggunakan {{EnvName}}. Buat, edit, temukan, dan hapus tanda air dengan mudah dari berbagai format dokumen seperti PDF, Microsoft Word, Excel, dan lainnya. Integrasikan pencarian tanda air ke dalam aplikasi Anda dengan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Temukan Tanda Air dalam Berbagai Format",
+      "description": "Dengan mudah mengidentifikasi dan mengelola tanda air dalam berbagai format file yang didukung."
+    }
+  }
+}

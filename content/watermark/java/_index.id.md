@@ -1,264 +1,281 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-04-26T21:39:08
 draft: false
 
+lang: id
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "Java API untuk Menambahkan Pencarian Hapus Tanda Air ke Gambar PDF Word Excel"
-head_description: "API watermarking dokumen Java – Menghasilkan, mencari & menghapus watermark dari dokumen: PDF, Word, Excel, presentasi, Visio, email dan format file gambar."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
-title: "Java API untuk Memanipulasi Tanda Air"
-description: "Kembangkan Aplikasi Java untuk Melakukan Operasi Watermarking Gambar & Teks dengan Pencarian Cerdas & Keamanan yang Kuat."
-button:
-    enable: true
+############################# Head ############################
+head_title: "Java Perpustakaan Watermark | tambahkan tanda air ke dokumen"
+head_description: "Perangkat lunak asli Java untuk menambahkan dan memanipulasi teks dan tanda air gambar di PDF, Word, Excel, Presentasi, Visio diagram, email dan file gambar."
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-        product: "GroupDocs.Watermark"
-        platform: "Java"
+############################# Header ############################
+title: "Menerapkan watermark dokumen di Java proyek dengan mudah"
+description: "Tingkatkan aplikasi Java Anda dengan kemampuan untuk menandai file menggunakan perpustakaan GroupDocs.Watermark. API kami menawarkan tanda air yang dapat disesuaikan untuk berbagai format file populer."
+words:
+  for: "untuk"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+actions:
+  main: "Download Gratis dari Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Watermark secara gratis atau minta lisensi"
 
-            - link: "#features"
-              text: "Fitur"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            - link: "#support"
-              text: "Mendukung"
+code:
+  title: "Tanda air PDF s melalui Java"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-watermark</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Instantiate Watermarker melewati jalur PDF
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Demo Langsung"
+    // Sesuaikan opsi tanda air
+    TextWatermark textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-            - link: "https://purchase.groupdocs.com/pricing/watermark/java"
-              text: "Harga"
+    // Terapkan tanda air ke dokumen PDF
+    watermarker.add(textWatermark);
 
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/java/"
-        link_buy: "https://purchase.groupdocs.com"
+    // Simpan dokumen hasil
+    watermarker.save("result.pdf");
+    watermarker.close();
+      
+    ```
 
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark untuk Java memungkinkan Anda membuat aplikasi bisnis yang memungkinkan pengguna akhir Anda menerapkan tanda air baru, mencari dan menghapus tanda air yang ada dalam file dengan format yang didukung. Anda dapat secara terprogram menetapkan tanda air digital ke banyak format file dan memanfaatkan kemampuan pencarian cerdasnya yang kuat. GroupDocs.Watermark for Java menyediakan berbagai langkah keamanan bawaan yang dapat digunakan untuk menghindari penyalahgunaan dokumen digital yang berisi informasi sensitif atau konten kekayaan intelektual.
-    tabs:
-      enable: true     
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Watermark untuk Java:
-
-        rright:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Tambah & Hapus Tanda Air
-            * Cari & Ganti Tanda Air
-            * Cari berdasarkan Format
-            * Cari berdasarkan Perbandingan Gambar
-            * Bekerja dengan Header & Footer
-            * Bekerja dengan Gambar Latar Belakang
-            * Bekerja dengan Lampiran
-            * Rasterisasi Halaman
-            * Terapkan Pembatasan Pengeditan
-      
-      tab_two:
-        description: |
-          [Format dokumen dan jenis tanda air](https://docs.groupdocs.com/watermark/java/supported-document-formats/) yang didukung untuk setiap format tercantum di bawah ini:
-
-        left:
-          enable: true
-          table:
-            - title: "Microsoft Office"
-              content: |
-                * **Kata:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visi:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            - title: "Menambahkan Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi
-                * **Kata**: Bentuk
-                * **Excel**: Bentuk, Header & Footer
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk
-                * **Gambar Raster**: Teks, Gambar
-                * **Tiff Multi-halaman**: Teks, Gambar
-                * **Gif Animasi**: Teks, Gambar
-
-        right:
-          enable: true
-          table:
-            - title: "Dokumen PDF dan Gambar"
-              content: |
-                * **Format Dokumen Portabel**: PDF
-                * **Buka Dokumen**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Gambar**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            - title: "Menghapus Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi, Teks Biasa
-                * **Kata**: Bentuk, Teks Biasa
-                * **Excel**: Bentuk, Header & Footer, Gambar Latar Belakang, Teks dan rumus dalam sel
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk, Diagram Komentar
-                * **Email**: Gambar yang dilampirkan dan disematkan, Subjek dan fragmen teks isi
-
-      tab_three:
-        description: |
-          GroupDocs.Watermark untuk Java mendukung Sistem Operasi, Kerangka & Manajer Paket berikut:
-        
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
-
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * Java 7 (1.7) ke atas
-
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-cogs"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
-            - icon: "fas fa-tools"
-              title: "Bangun Alat Otomatisasi"
-              content: |
-                * Maven
-
-features:
-    enable: true
-    title: "GroupDocs.Watermark untuk Fitur Java"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Tarik semua Dokumen dari Berbagai Format dari Folder dan Terapkan atau Hapus Tanda Air"
-
-      - icon: "fas fa-eye"
-        content: "Gunakan atau Hapus Tanda Air dari Bagian Tertentu atau Dokumen Lengkap"
-
-      - icon: "fas fa-bolt"
-        content: "Menerapkan Tanda Air ke semua Gambar di Bagian, Halaman, Slide, atau Dokumen Tertentu"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Lampirkan Tanda Air ke Bingkai yang Dipilih dari Gambar Multi-Frame"
-
-      - icon: "fas fa-code"
-        content: "Terapkan Tanda Air Tersembunyi ke PDF untuk Muncul saat Mencetak Dokumen"
-
-      - icon: "fas fa-cloud"
-        content: "Gunakan Tanda Air untuk Lampiran dalam Dokumen Excel & semua Bentuk Gambar di Slide"
-
-      - icon: "fas fa-remove-format"
-        content: "Tempatkan Tanda Air atau Hapus dari Gambar Latar Belakang Slide atau Lembar Excel"
-
-      - icon: "fas fa-comment-slash"
-        content: "Setel Tanda Air ke File yang Didukung di Lampiran Email atau File PDF"
-
-      - icon: "fas fa-location-arrow"
-        content: "Tambahkan atau Hapus Tanda Air sebagai XObject, Artefak & Anotasi dalam File PDF"
-
-      - icon: "fas fa-border-all"
-        content: "Hapus Teks yang cocok dengan Tanda Air dengan Pemformatan Tertentu"
-
-      - icon: "fas fa-wrench"
-        content: "Temukan Tanda Air Gambar yang menyerupai Gambar Tertentu"
-
-      - icon: "fas fa-columns"
-        content: "Identifikasi Tanda Air Teks bahkan jika ada Karakter yang Tidak Dapat Dibaca di antara Huruf"
-
-      - icon: "fas fa-file-word"
-        content: "Cari Tanda Air berdasarkan Parameter Tertentu atau dengan Menetapkan Beberapa Kriteria"
-
-      - icon: "fas fa-envelope"
-        content: "Tentukan Pemformatan Font untuk menemukan Tanda Air Teks yang Cocok"
-
-      - icon: "fas fa-print"
-        content: "Dapatkan Halaman, Geser, Dimensi Sel untuk Ukuran Absolut & Penempatan Tanda Air"
-
-      - icon: "fas fa-file-archive"
-        content: "Terapkan Tanda Air ke Gambar di dalam Header & Footer mana pun dalam Format Dokumen yang Didukung"
-
-      - icon: "fas fa-lock"
-        content: "Tambahkan Tanda Air ke Bentuk Gambar di Dokumen Word & Batasi Pengeditan Tanda Air"
-
-      - icon: "fas fa-file-code"
-        content: "Tanda Air Teks Aman dalam Presentasi menggunakan Karakter yang Tidak Dapat Dibaca"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Lindungi Tanda Air Dokumen PDF dengan Raster Satu Halaman atau Seluruh Dokumen"
-
-      - icon: "fas fa-file-excel"
-        content: "Ubah Pemformatan Teks saat Mengganti Tanda Air Teks Saat Ini"
-
-      - icon: "fas fa-heading"
-        content: "Sejajarkan Tanda Air ke Bleed Box, Art Box, Crop Box, atau Trim Box dalam File PDF"
-
-    more_feature:
-      - title: "Gunakan Tanda Air"
-        content: |
-          GroupDocs.Watermark untuk Java memungkinkan Anda bekerja dengan berbagai jenis tanda air. Hanya masalah beberapa baris kode untuk menambahkan tanda air jenis apa pun. Berikut contoh yang dibagikan, bagaimana Anda dapat menambahkan tanda air gambar dalam dokumen Word menggunakan Java:
-          
-          ```java
-          Document doc = Document.load(Common.mapSourceFilePath("D://test.docx"));
-          Font font = new Font("Times New Roman", 12);
-          TextWatermark watermark = new TextWatermark("Test watermark", font);
-
-          // Setel jenis ukuran
-          watermark.setSizingType(SizingType.ScaleToParentDimensions);
-
-          // Setel skala tanda air
-          watermark.setScaleFactor(0.5);
-
-          doc.addWatermark(watermark);
-          doc.save(Common.mapOutputFilePath("D://test.docx"));
-          doc.close();
-          ```
-      - title: "Tambahkan Tanda Air ke File dengan Format Berbeda dalam Sekali Jalan"
-        content: "Dengan GroupDocs.Watermark for Java API Anda dapat menambahkan atau menghapus tanda air dari semua dokumen yang ada di folder tertentu dalam mode batch. Tidak masalah, jika dokumen dalam format yang berbeda, GroupDocs.Watermark untuk Java akan menerapkan tanda air ke semua file secara akurat."
-
-      - title: "Tetapkan Keamanan yang Sangat Mudah untuk Tanda Air Anda"
-        content: "Dengan kode minimal, Anda dapat menetapkan keamanan yang sangat mudah untuk tanda air Anda dan mempersulit alat pihak ketiga mana pun untuk memodifikasi atau menghapus tanda air yang Anda tetapkan dari file PDF. Hal ini karena GroupDocs.Watermark untuk Java memungkinkan Anda untuk mengonversi semua halaman file PDF menjadi gambar Raster. Pendekatan ini membuat tanda air digital Anda aman sekaligus menjaga kualitasnya mendekati aslinya."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Watermark for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-          product: "GroupDocs.Watermark"
-          platform: ".NET"
-          link: "/watermark/net/"
-
-back_to_top:
   enable: true
+  title: "Sekilas tentang GroupDocs.Watermark"
+  description: "Perpustakaan yang dirancang untuk menambahkan tanda air menggunakan teknologi Java"
+  features:
+    # feature loop
+    - title: "File Tanda Air melalui Java"
+      content: "Lindungi dokumen bisnis Anda menggunakan GroupDocs.Watermark for Java. Tambahkan teks, gambar, diagram, atau lampiran email sebagai tanda air ke berbagai format file."
+
+    # feature loop
+    - title: "Sesuaikan Watermark untuk Kebutuhan Khusus"
+      content: "GroupDocs.Watermark for Java menawarkan opsi penyesuaian ekstensif untuk tanda air. Sesuaikan gaya teks (tebal, miring, font) dan properti gambar (rotasi, dll.) Untuk menyesuaikan proses watermark dengan tujuan spesifik Anda."
+
+    # feature loop
+    - title: "Dukungan Format Luas"
+      content: "GroupDocs.Watermark for Java terintegrasi dengan mulus dengan berbagai format file, termasuk: PDF, Microsoft Office (Word, Excel, PowerPoint), gambar (JPEG, PNG, GIF, BMP), Visio diagram, dan email. Tingkatkan keamanan dokumen di berbagai jenis file."
+
+    # feature loop
+    - title: "Pencarian dan Manajemen Tanda Air yang Mudah"
+      content: "Kelola tanda air yang ada secara efisien dalam dokumen. Temukan tanda air tertentu, ubah teks, gaya, atau gambarnya, atau hapus seluruhnya. GroupDocs.Watermark for Java menyederhanakan alur kerja watermarking."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Watermark for Java mendukung berbagai sistem operasi dan manajer paket."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Watermark for Java memungkinkan pemrosesan berbagai format file. [Lihat daftar lengkapnya](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office & OpenDocument format
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar & Grafik
+        * **Format gambar populer:** BMP, JPG, JPEG, PNG
+        * **Gambar multi-halaman:** GIF, WEBP, TIFF
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Watermark for Java: Fitur"
+  description: "Lindungi file Anda dengan menambahkan tanda air. Mendukung berbagai format termasuk PDF, dokumen Office, dan gambar."
+
+  items:
+    # feature loop
+    - icon: "watermark_add"
+      title: "File Watermarking"
+      content: "Tambahkan atau hapus tanda air dari bagian tertentu atau seluruh dokumen untuk berbagai format file yang didukung."
+
+    # feature loop
+    - icon: "watermark_style"
+      title: "Kustomisasi Tanda Air"
+      content: "Sesuaikan tampilan watermark Anda dengan opsi seperti warna, font, rotasi, dan banyak lagi."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Tanda Air Pencetakan Tersembunyi untuk PDF"
+      content: "Tambahkan tanda air yang hanya muncul saat mencetak dokumen PDF."
+
+    # feature loop
+    - icon: "image_only"
+      title: "Watermarking Gambar Selektif"
+      content: "Tandai semua gambar dalam bagian, halaman, slide, atau seluruh dokumen tertentu."
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Watermarking Bingkai Gambar Khusus"
+      content: "Terapkan tanda air ke bingkai tertentu dalam gambar multi-bingkai."
+
+    # feature loop
+    - icon: "attachments"
+      title: "Lampiran dan Bentuk Watermarking"
+      content: "Tambahkan tanda air ke semua lampiran di Excel dokumen atau semua bentuk gambar di Presentasi."
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Penyelarasan Tanda Air di PDF"
+      content: "Sejajarkan tanda air ke berbagai area dokumen PDF, termasuk Bleed Box, Art Box, Crop Box, dan Trim Box."
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Watermark dengan Gambar Latar Belakang"
+      content: "Tambahkan atau hapus tanda air gambar latar belakang ke Spreadsheet atau Presentasi."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Perlindungan dengan Karakter yang Tidak Dapat Dibaca"
+      content: "Lindungi Presentasi menggunakan Tanda Air Teks dengan Karakter yang Tidak Dapat Dibaca."
+
+    # feature loop
+    - icon: "watermark_text_search"
+      title: "Cari Watermark"
+      content: "Dapatkan daftar tanda air yang disajikan dalam file, menggunakan berbagai parameter termasuk ekspresi reguler."
+
+    # feature loop
+    - icon: "watermark_image_search"
+      title: "Temukan Tanda Air Gambar Serupa"
+      content: "Temukan tanda air gambar yang terlihat seperti gambar tertentu."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Ekstrak Informasi Dokumen"
+      content: "Dapatkan berbagai data dokumen seperti pengaturan halaman untuk format file yang didukung."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Jelajahi contoh kode yang menggambarkan fungsi GroupDocs.Watermark for Java tipikal"
+  items:
+    # code sample loop
+    - title: "Tandai Dokumen Menggunakan Gambar"
+      content: |
+        Manfaatkan GroupDocs.Watermark for Java untuk meningkatkan keamanan dokumen dengan menambahkan tanda air gambar. Pelajari lebih lanjut: [Tanda air gambar](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="Cara melindungi file dengan tanda air gambar.">}}
+        ```csharp {style=abap}
+        // Muat dokumen sumber ke Watermarker
+        Watermarker watermarker = new Watermarker("document.pdf");
+        
+        // Tentukan jalur ke gambar tanda air
+        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+
+        // Lindungi file dan simpan
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Ubah Tanda Air"
+      content: |
+        GroupDocs.Watermark for Java memberdayakan Anda untuk mengelola tanda air yang ada di dalam dokumen. Temukan tanda air tertentu dan [ubah propertinya](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Pencarian & modifikasi tanda air.">}}
+        ```csharp {style=abap}   
+        // Muat dokumen sumber
+        Watermarker watermarker = new Watermarker("document.pdf");
+
+        // Cari tanda air yang akan diperbarui
+        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
+
+        // Perbarui properti yang diinginkan
+        for (PossibleWatermark watermark : watermarks)                                                           
+        {  
+            watermark.setText("New Text");
+        }
+
+        // Simpan dokumen yang dimodifikasi ke jalur yang ditentukan
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 ---

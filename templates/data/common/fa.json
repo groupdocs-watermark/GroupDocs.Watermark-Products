@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "واترمارک Excel",
+        "description": "MS Excel و صفحات گسترده آفیس باز"
+      },
+      "word": {
+        "name": "واترمارک Word",
+        "description": "MS Word و اسناد آفیس باز"
+      },
+      "powerpoint": {
+        "name": "واترمارک PowerPoint",
+        "description": "MS PowerPoint و ارائه های آفیس باز"
+      },
+      "image": {
+        "name": "تصویر واترمارک",
+        "description": "فرمت های تصویر محبوب"
+      },
+      "photo": {
+        "name": "عکس واترمارک",
+        "description": "فرمت های عکس"
+      },
+      "pdf": {
+        "name": "واترمارک PDF",
+        "description": "ادوبی Portable فرمت سند"
+      },
+      "doc": {
+        "name": "واترمارک DOC",
+        "description": "سند مایکروسافت Word 97 - 2007"
+      },
+      "docx": {
+        "name": "واترمارک DOCX",
+        "description": "مایکروسافت Word سند XML باز"
+      },
+      "xls": {
+        "name": "واترمارک XLS",
+        "description": "مایکروسافت Excel کتاب کار 97-2003"
+      },
+      "xlsx": {
+        "name": "واترمارک XLSX",
+        "description": "مایکروسافت Excel صفحه گسترده XML باز"
+      },
+      "ppt": {
+        "name": "واترمارک PPT",
+        "description": "PowerPoint ارائه ۹۷—۲۰۰۳"
+      },
+      "pptx": {
+        "name": "واترمارک PPTX",
+        "description": "PowerPoint ارائه اکس‌ام‌ال باز"
+      },
+      "jpeg": {
+        "name": "واترمارک JPEG",
+        "description": "JPEG تصویر"
+      },
+      "png": {
+        "name": "واترمارک PNG",
+        "description": "Portable گرافیک شبکه"
+      },
+      "tiff": {
+        "name": "واترمارک TIFF",
+        "description": "برچسب فرمت فایل تصویر"
+      },
+      "webp": {
+        "name": "واترمارک WEBP",
+        "description": "تصویر WEB"
+      },
+      "rtf": {
+        "name": "واترمارک RTF",
+        "description": "فرمت متن غنی"
+      }
+    },
+    "format-code": {
+      "copy_title": "کپی کردن",
+      "copy_tip": "برای کپی کلیک کنید",
+      "copy_done": "کپی شده",
+      "links": {
+        "title_1": "نمونه های بیشتر",
+        "title_2": "مستندات"
+      }
+    },
+    "format-actions": {
+      "title": "آماده شروع هستید؟",
+      "description": "ویژگی های {{ProdShortName}} را به صورت رایگان امتحان کنید یا مجوز درخواست کنید",
+      "comment_1": "{{PackageStoreName}} دانلود",
+      "comment_2": "صدور مجوز"
+    },
+    "texts": {
+      "learn_more": "بیشتر بدانید"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Xóa hình mờ hình ảnh trong tài liệu {{FileFormatUp}}",
+    "comment_2": "Thực hiện Watermarker đi qua tài liệu {{FileFormatUp}}",
+    "comment_3": "Xóa hình mờ được tìm thấy trong tài liệu",
+    "comment_4": "Lưu tài liệu"
+  },
+  "steps": {
+    "title": "Xóa hình mờ theo chương trình từ {{FileformatCap}} Tài liệu bằng cách sử dụng {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** trao quyền cho {{EnvName}} nhà phát triển xóa hình mờ theo chương trình khỏi các tài liệu {{FileformatCap}} khác nhau. Hướng dẫn này phác thảo quy trình:",
+      "step_1": "**Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.",
+      "step_2": "**SearchCriteria** để xác định các hình mờ cụ thể cần loại bỏ. Đối tượng này cho phép lọc hình mờ dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với văn bản hoặc thuộc tính định dạng cho tìm kiếm chi tiết cao.",
+      "step_3": "Sau khi tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát dạng hạt, cho phép bạn thực hiện thao tác loại bỏ.",
+      "step_4": "Sau khi hoàn thành xóa hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng."
+    }
+  },
+  "more_features": {
+    "title": "Loại bỏ hình mờ nâng cao với {{ProgLang}} {{EnvName}} API | {{ProdShortName}}",
+    "description": "Mở khóa khả năng xóa hình mờ nâng cao với API {{ProgLang}} {{EnvName}} của chúng tôi. Được thiết kế để tích hợp liền mạch với {{EnvName}} ứng dụng, API này tạo điều kiện cho việc loại bỏ hình mờ khỏi PDF s và tài liệu Office, đảm bảo đầu ra chất lượng cao, không được đánh dấu để sử dụng chuyên nghiệp.",
+    "image_description": "Xóa hình mờ",
+    "feature_1": {
+      "title": "Loại bỏ hình mờ chính xác trong {{EnvName}}",
+      "content": "API {{ProgLang}} của chúng tôi được thiết kế để cung cấp khả năng xóa hình mờ chính xác, đảm bảo rằng tài liệu của bạn vẫn giữ được chất lượng và định dạng ban đầu của chúng. Lý tưởng cho các tài liệu pháp lý, giáo dục và chuyên nghiệp, nơi sự rõ ràng và xác thực là rất quan trọng."
+    },
+    "feature_2": {
+      "title": "Tự động xóa hình mờ bằng {{ProgLang}}",
+      "content": "Nâng cao hiệu quả của ứng dụng của bạn với khả năng xóa hình mờ tự động. API của chúng tôi cho phép xử lý các lô tài liệu mở rộng, tạo điều kiện thuận lợi cho các hoạt động quy mô lớn mà không ảnh hưởng đến hiệu suất."
+    },
+    "feature_3": {
+      "title": "Chỉnh sửa và xóa hình mờ một cách linh hoạt",
+      "content": "Có được sự linh hoạt để chỉnh sửa tự động hoặc loại bỏ hoàn toàn hình mờ theo nhu cầu của ứng dụng của bạn. Tính năng này hỗ trợ các tùy chọn tùy chỉnh khác nhau, cho phép {{EnvName}} nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu theo các yêu cầu khác nhau."
+    },
+    "code_1": {
+      "title": "Xóa hình mờ nền bản trình bày",
+      "content": "Ví dụ này cho thấy cách xóa hình nền của một slide cụ thể.",
+      "comment_1": "Tải bản trình bày",
+      "comment_2": "Nhận nội dung thuyết trình",
+      "comment_3": "Xóa hình mờ nền slide",
+      "comment_4": "Lưu tài liệu"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Loại bỏ hình mờ nâng cao {{FileFormatUp}} với {{ProgLang}} {{EnvName}}",
+      "description": "Xóa hình mờ từ {{FileFormatUp}} tài liệu một cách liền mạch bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tệp trông sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} để xóa hình mờ {{FileFormatUp}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hoặc chỉnh sửa hiệu quả hình mờ trong tệp {{FileFormatUp}}, lý tưởng để duy trì định dạng tài liệu nguyên sơ.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc loại bỏ đơn giản đến các chỉnh sửa phức tạp, API này cho phép các nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu, phục vụ nhu cầu kinh doanh, pháp lý và học thuật."
+    },
+    "formats": {
+      "title": "Làm chủ {{FileFormatUp}} Loại bỏ hình mờ tệp với {{EnvName}}",
+      "description": "Khám phá khả năng của {{ProdFullName}} {{ProgLang}} API để quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Loại bỏ hình mờ hiệu quả {{FileFormatUp}} với {{ProgLang}} {{EnvName}}",
+      "description": "Xóa hình mờ khỏi tài liệu {{FileFormatUp}} một cách liền mạch bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tệp trông sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} cho {{FileFormatUp}} Quản lý hình mờ",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hoặc chỉnh sửa hiệu quả hình mờ trong tệp {{FileFormatUp}}, lý tưởng để duy trì định dạng tài liệu nguyên sơ.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "{{PackageStoreName}} Tải về"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc loại bỏ đơn giản đến các chỉnh sửa phức tạp, API này cho phép các nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu, phục vụ nhu cầu kinh doanh, pháp lý và học thuật."
+    },
+    "formats": {
+      "title": "Làm chủ {{FileFormatUp}} Loại bỏ hình mờ tệp với {{EnvName}}",
+      "description": "Khám phá khả năng của {{ProdFullName}} {{ProgLang}} API để quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Xóa hình mờ trong {{FileFormatUp}} Tài liệu với {{ProgLang}} {{EnvName}}",
+      "description": "Xóa hiệu quả hình mờ khỏi tệp {{FileFormatUp}} bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tài liệu chuyên nghiệp và không bị tì vết."
+    },
+    "header": {
+      "title": "Xóa hình mờ trong {{FileFormatUp}} tệp bằng {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hình mờ từ {{FileFormatUp}} tài liệu, hoàn hảo để duy trì tính toàn vẹn và rõ ràng của tài liệu.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc xóa đơn giản đến chỉnh sửa nâng cao, API này cung cấp khả năng kiểm soát chính xác các phần tử hình mờ, đảm bảo rằng {{FileFormatUp}} của bạn duy trì chất lượng và bố cục ban đầu của chúng."
+    },
+    "formats": {
+      "title": "Tăng cường {{FileFormatUp}} với {{ProgLang}} {{EnvName}} Loại bỏ hình mờ",
+      "description": "Khám phá cách {{ProdFullName}} {{ProgLang}} API có thể hợp lý hóa quá trình xóa hình mờ khỏi tệp {{FileFormatUp}}, đảm bảo đầu ra tài liệu rõ ràng và chuyên nghiệp."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Loại bỏ hình mờ bản trình bày cho {{FileFormatUp}}",
+      "description": "Xóa hình mờ hiệu quả từ trình chiếu Bản trình bày với {{ProgLang}} {{EnvName}} API, đảm bảo các bài thuyết trình rõ ràng và chuyên nghiệp."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Xóa hình mờ bản trình bày {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để loại bỏ hiệu quả hình mờ khỏi tệp {{FileFormatUp}}, hoàn hảo để duy trì tính toàn vẹn và hấp dẫn trực quan của bản trình bày của bạn.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ toàn diện để quản lý hình mờ trong PowerPoint bản trình bày. Cho dù bạn cần xóa, chỉnh sửa hoặc điều chỉnh hình mờ, API này cung cấp quyền kiểm soát chính xác đối với các phần tử slide, đảm bảo các bản trình bày chất lượng chuyên nghiệp cho doanh nghiệp, giáo dục và hơn thế nữa."
+    },
+    "formats": {
+      "title": "Tăng cường bài thuyết trình PowerPoint với {{ProgLang}} {{EnvName}}",
+      "description": "Khám phá cách {{ProdFullName}} {{ProgLang}} API có thể giúp bạn quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, đảm bảo các bài thuyết trình có tác động và chuyên nghiệp."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API để loại bỏ hình mờ PowerPoint",
+      "description": "Xóa hiệu quả hình mờ khỏi PowerPoint trang trình bày bằng {{ProgLang}} {{EnvName}} API của chúng tôi, đảm bảo các bài thuyết trình rõ ràng và chuyên nghiệp."
+    },
+    "header": {
+      "title": "Xóa hình mờ {{FileFormatUp}} bằng cách sử dụng {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để loại bỏ hiệu quả hình mờ khỏi tệp {{FileFormatUp}}, hoàn hảo để duy trì tính toàn vẹn và hấp dẫn trực quan của bản trình bày của bạn.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ toàn diện để quản lý hình mờ trong PowerPoint bản trình bày. Cho dù bạn cần xóa, chỉnh sửa hoặc điều chỉnh hình mờ, API này cung cấp quyền kiểm soát chính xác đối với các phần tử slide, đảm bảo các bản trình bày chất lượng chuyên nghiệp cho doanh nghiệp, giáo dục và hơn thế nữa."
+    },
+    "formats": {
+      "title": "Tăng cường bài thuyết trình PowerPoint với {{ProgLang}} {{EnvName}}",
+      "description": "Khám phá cách {{ProdFullName}} {{ProgLang}} API có thể giúp bạn quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, đảm bảo các bài thuyết trình có tác động và chuyên nghiệp."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} Loại bỏ hình mờ với {{ProgLang}} {{EnvName}}",
+      "description": "Xóa hiệu quả hình mờ khỏi tài liệu {{FileFormatUp}} bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tệp trông sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "Quản lý hình mờ trong {{FileFormatUp}} Tài liệu bằng {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hoặc chỉnh sửa hiệu quả hình mờ trong tệp {{FileFormatUp}}, lý tưởng để duy trì định dạng tài liệu nguyên sơ.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc loại bỏ đơn giản đến các chỉnh sửa phức tạp, API này cho phép các nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu, phục vụ nhu cầu kinh doanh, pháp lý và học thuật."
+    },
+    "formats": {
+      "title": "Làm chủ {{FileFormatUp}} Loại bỏ hình mờ tệp với {{EnvName}}",
+      "description": "Khám phá khả năng của {{ProdFullName}} {{ProgLang}} API để quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Xóa hình mờ trong Excel {{FileFormatUp}} Bảng tính",
+      "description": "Xóa hiệu quả hình mờ từ {{FileFormatUp}} tài liệu bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tệp trông sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "Xóa hình mờ trong {{FileFormatUp}} Bảng tính bằng {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hoặc chỉnh sửa hiệu quả hình mờ trong tệp {{FileFormatUp}}, lý tưởng để duy trì định dạng tài liệu nguyên sơ.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc loại bỏ đơn giản đến các chỉnh sửa phức tạp, API này cho phép các nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu, phục vụ nhu cầu kinh doanh, tài chính và phân tích dữ liệu."
+    },
+    "formats": {
+      "title": "Quản lý tập tin {{FileFormatUp}} bằng cách xóa hình mờ với {{EnvName}}",
+      "description": "Khám phá khả năng của {{ProdFullName}} {{ProgLang}} API để quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API để loại bỏ hình mờ {{FileFormatUp}}",
+      "description": "Xóa hiệu quả hình mờ khỏi tài liệu {{FileFormatUp}} bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các tệp trông sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Quản lý hình mờ sử dụng {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hoặc chỉnh sửa hiệu quả hình mờ trong tệp {{FileFormatUp}}, lý tưởng để duy trì định dạng tài liệu nguyên sơ.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileFormatUp}} tài liệu. Từ việc loại bỏ đơn giản đến các chỉnh sửa phức tạp, API này cho phép các nhà phát triển duy trì tính thẩm mỹ và tính toàn vẹn của tài liệu, phục vụ nhu cầu kinh doanh, tài chính và phân tích dữ liệu."
+    },
+    "formats": {
+      "title": "Làm chủ {{FileFormatUp}} Loại bỏ hình mờ tệp với {{EnvName}}",
+      "description": "Khám phá khả năng của {{ProdFullName}} {{ProgLang}} API để quản lý và xóa hình mờ khỏi tệp {{FileFormatUp}}, tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  }
+}

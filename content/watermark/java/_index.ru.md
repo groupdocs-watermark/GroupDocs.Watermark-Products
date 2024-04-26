@@ -1,306 +1,281 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-04-26T21:39:08
 draft: false
 
+lang: ru
 product: "Watermark"
 product_tag: "watermark"
 platform: "Java"
 platform_tag: "java"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: "API Java для добавления поиска, удаления водяных знаков в PDF, Word, Excel, изображения"
-head_description: "API водяных знаков документов Java — создание, поиск и удаление водяных знаков из документов: форматы PDF, Word, Excel, презентации, Visio, электронная почта и файлы изображений."
+head_title: "Java Библиотека водяных знаков | добавление водяных знаков к документам"
+head_description: "Встроенное программное обеспечение Java для добавления и обработки текстовых и графических водяных знаков в PDF, Word, Excel, презентациях, Visio диаграммах, электронных письмах и файлах изображений."
 
 ############################# Header ############################
-title: "Java API для управления водяными знаками"
-description: "Разрабатывайте Java-приложения для выполнения операций добавления водяных знаков к изображениям и тексту с помощью интеллектуального поиска и надежной защиты."
-button:
-    enable: true
+title: "Легко внедряйте водяные знаки на документы в Java проектах"
+description: "Усовершенствуйте свои приложения Java, предоставив возможность нанесения водяных знаков на файлы с помощью библиотеки GroupDocs.Watermark. Наш API предлагает настраиваемые водяные знаки для широкого спектра популярных форматов файлов."
+words:
+  for: "для"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for Java"
-        image: "/border/groupdocs-watermark-java.svg"
-        product: "GroupDocs.Watermark"
-        platform: "Java"
+actions:
+  main: "Бесплатная загрузка с Maven"
+  main_link: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/"
+  alt: "Лицензирование"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Watermark бесплатно или запросите лицензию"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Обзор"
+release:
+  title: "Выпущена версия {0}"
+  notes: "Узнайте, что нового"
+  downloads: "Загрузки"
 
-            # button loop
-            - link: "#features"
-              text: "Функции"
+code:
+  title: "Водяной знак PDF s через Java"
+  more: "Больше примеров"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+  install: |
+    <dependency>
+      <groupId>com.groupdocs</groupId>
+      <artifactId>groupdocs-watermark</artifactId>
+      <version>{0}</version>
+    </dependency>
+  content: |
+    ```java {style=abap}  
+    // Создайте экземпляр Watermarker, передающий путь PDF
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+    // Настройте параметры водяных знаков
+    TextWatermark textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
+    // Применить водяной знак к документу PDF
+    watermarker.add(textWatermark);
 
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/java"
-              text: "Pricing"
+    // Сохранить документ с результатами
+    watermarker.save("result.pdf");
+    watermarker.close();
+      
+    ```
 
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/java/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Обзор ############################
+############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark для Java позволяет создавать бизнес-приложения, позволяющие вашим конечным пользователям применять новые водяные знаки, искать и удалять существующие водяные знаки в файлах поддерживаемых форматов. Вы можете программно назначать цифровые водяные знаки множеству форматов файлов и использовать его мощные возможности интеллектуального поиска. GroupDocs.Watermark для Java предоставляет различные встроенные меры безопасности, которые можно использовать для предотвращения неправомерного использования цифровых документов, содержащих конфиденциальную информацию или содержимое интеллектуальной собственности.
-    tabs:
-      enable: true     
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ниже приводится обзор GroupDocs.Watermark для Java:
-
-        правильно:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Обзор"
-          content: |
-            * Добавить и удалить водяной знак
-            * Поиск и замена водяного знака
-            * Поиск по форматированию
-            * Поиск по сравнению изображений
-            * Работа с верхними и нижними колонтитулами
-            * Работа с фоновыми изображениями
-            * Работа с вложениями
-            * Растеризовать страницы
-            * Применить ограничения редактирования
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Поддерживаемые [форматы документов и тип водяного знака](https://docs.groupdocs.com/watermark/java/supported-document-formats/) для каждого формата перечислены ниже:
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "Добавление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация
-                * **Слово**: Форма
-                * **Excel**: форма, верхний и нижний колонтитулы
-                * **PowerPoint**: Форма
-                * **Visio**: Форма
-                * **Растровое изображение**: текст, изображение
-                * **Многостраничный Tiff**: текст, изображение
-                * **Анимированный Gif**: текст, изображение
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF и графические документы"
-              content: |
-                * **Переносимый формат документа**: PDF
-                * **Открыть документ**: ODT
-                * **Электронная почта**: EML, MSG, EMLX, OFT
-                * **Изображения**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Удаление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация, обычный текст
-                * **Word**: Фигура, обычный текст
-                * **Excel**: форма, верхний и нижний колонтитулы, фоновое изображение, текст и формулы в ячейках
-                * **PowerPoint**: Форма
-                * **Visio**: форма, комментарии к диаграмме
-                * **Электронная почта**: прикрепленные и встроенные изображения, фрагменты темы и основного текста
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for Java поддерживает следующие Операционные системы, Фреймворки и менеджеры пакетов:
-        
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Операционные системы"
-              content: |
-                * Рабочий стол Microsoft Windows
-                * Сервер Microsoft Windows
-                * линукс
-                * MacOS
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Поддерживаемые платформы"
-              content: |
-                * Java 7 (1.7) и выше
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-cogs"
-              title: "Среды разработки"
-              content: |
-                * NetBeans
-                * IntelliJ ИДЕЯ
-                * Затмение
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Инструмент автоматизации сборки"
-              content: |
-                * Мавен
-
-############################# Функции ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for Java Функции"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Извлеките все документы различных форматов из папки и нанесите или удалите водяные знаки"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Использование или удаление водяного знака из определенного раздела или всего документа"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Добавление водяного знака к выбранным кадрам мультикадрового изображения"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Примените скрытый водяной знак к PDF, чтобы он отображался при печати документа"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Используйте водяной знак для вложений в документе Excel и всех фигурах изображений в слайдах"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Поместите водяной знак или удалите его из фоновых изображений слайдов или листа Excel"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Установите водяной знак для поддерживаемых файлов во вложениях электронной почты или PDF-файла"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Добавить или удалить водяной знак как XObject, артефакты и аннотации в PDF-файлах"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Удалить водяной знак, соответствующий тексту с определенным форматированием"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Найдите водяные знаки изображения, напоминающие определенное изображение"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Определите текстовый водяной знак, даже если между буквами есть нечитаемые символы"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Ищите водяные знаки на основе определенных параметров или путем назначения нескольких критериев"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Укажите форматирование шрифта, чтобы найти совпадающий текстовый водяной знак"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Получить размеры страницы, слайда, ячейки для абсолютного размера и положения водяного знака"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Добавить водяной знак к фигурам изображения в документе Word и ограничить редактирование водяных знаков"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Защитный текстовый водяной знак в презентациях с использованием нечитаемых символов"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Защита водяных знаков PDF-документа путем растрирования отдельной страницы или всего документа"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Изменить форматирование текста при замене текущего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Выравнивание водяного знака по окну за обрез, художественному окну, окну обрезки или окну обрезки в файле PDF"
-
-    больше_функций:
-      # more_feature_loop
-      - title: "Используйте водяные знаки"
-        content: |
-          GroupDocs.Watermark для Java позволяет работать с многочисленными видами водяных знаков. Чтобы добавить водяной знак любого типа, достаточно всего нескольких строк кода. В следующем примере показано, как добавить водяной знак изображения в документ Word с помощью Java:
-          
-          ```java
-          Document doc = Document.load(Common.mapSourceFilePath("D://test.docx"));
-          Font font = new Font("Times New Roman", 12);
-          TextWatermark watermark = new TextWatermark("Test watermark", font);
-
-          // Установить тип размера
-          watermark.setSizingType(SizingType.ScaleToParentDimensions);
-
-          // Установить масштаб водяного знака
-          watermark.setScaleFactor(0.5);
-
-          doc.addWatermark(watermark);
-          doc.save(Common.mapOutputFilePath("D://test.docx"));
-          doc.close();
-          ```
-      # more_feature_loop
-      - title: "Добавляйте водяные знаки в файлы разных форматов за один раз"
-        content: "С помощью API GroupDocs.Watermark для Java вы можете добавлять или удалять водяные знаки всех документов, присутствующих в определенной папке, в пакетном режиме. Не имеет значения, если документы имеют разный формат, GroupDocs.Watermark для Java точно применит водяной знак ко всем файлам.."
-
-      # more_feature_loop
-      - title: "Назначьте надежную защиту своим водяным знакам"
-        content: "С помощью минимального кода вы можете назначить надежную защиту своим водяным знакам и затруднить для любого стороннего инструмента изменение или удаление назначенного вам водяного знака из файла PDF. Это связано с тем, что GroupDocs.Watermark для Java позволяет конвертировать все страницы PDF-файла в растровые изображения. Такой подход делает ваши цифровые водяные знаки безопасными, сохраняя при этом их качество близким к оригинальному."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark предлагает API для просмотра документов для других популярных сред разработки."
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for .NET"
-          image: "/border/groupdocs-watermark-net.svg"
-          product: "GroupDocs.Watermark"
-          platform: ".NET"
-          link: "/watermark/net/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Watermark с первого взгляда"
+  description: "Библиотека, предназначенная для добавления водяных знаков с использованием технологий Java"
+  features:
+    # feature loop
+    - title: "Файлы водяных знаков через Java"
+      content: "Защитите свои деловые документы с помощью GroupDocs.Watermark for Java. Добавляйте текст, изображения, диаграммы или вложения электронной почты в качестве водяных знаков к файлам различных форматов."
+
+    # feature loop
+    - title: "Настройка водяных знаков в соответствии с конкретными потребностями"
+      content: "GroupDocs.Watermark for Java предлагает широкие возможности настройки водяных знаков. Настройте стили текста (полужирный шрифт, курсив, шрифт) и свойства изображения (поворот и т. д.), чтобы настроить процесс нанесения водяных знаков в соответствии с вашими конкретными целями."
+
+    # feature loop
+    - title: "Поддержка широкого формата"
+      content: "GroupDocs.Watermark for Java легко интегрируется с широким спектром форматов файлов, включая: PDF, Microsoft Office (Word, Excel, PowerPoint), изображения (JPEG, PNG, GIF, BMP), Visio диаграммы и электронные письма. Повысьте безопасность документов различных типов файлов."
+
+    # feature loop
+    - title: "Простой поиск и управление водяными знаками"
+      content: "Эффективно управляйте существующими водяными знаками в документах. Найдите определенные водяные знаки, измените их текст, стиль или изображения или полностью удалите их. GroupDocs.Watermark for Java упрощает рабочий процесс создания водяных знаков."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Независимость платформы"
+  description: "GroupDocs.Watermark for Java поддерживает различные операционные системы и менеджеры пакетов."
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "Eclipse"
+      image: "eclipse"
+    # platform loop
+    - title: "IntelliJ"
+      image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "Maven"
+      image: "maven"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Поддерживаемые форматы файлов"
+  description: |
+    GroupDocs.Watermark for Java позволяет обрабатывать широкий спектр форматов файлов. [См. полный список](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### форматы Microsoft Office и OpenDocument
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Изображения и графика
+        * **Популярные форматы изображений:** BMP, JPG, JPEG, PNG
+        * **Многостраничные изображения:** GIF, WEBP, TIFF
+      # group loop
+    - color: "red"
+      content: |
+        ### Другой
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Watermark for Java: Характеристики"
+  description: "Защитите свои файлы, добавив водяные знаки. Поддерживает различные форматы, включая PDF, офисные документы и изображения."
+
+  items:
+    # feature loop
+    - icon: "watermark_add"
+      title: "Водяные знаки файлов"
+      content: "Добавляйте или удаляйте водяные знаки из определенных разделов или целых документов для различных поддерживаемых форматов файлов."
+
+    # feature loop
+    - icon: "watermark_style"
+      title: "Настройка водяных знаков"
+      content: "Настройте внешний вид водяного знака с помощью таких параметров, как цвет, шрифт, поворот и многое другое."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Скрытый водяной знак для печати для PDF"
+      content: "Добавьте водяной знак, который появляется только при печати документа PDF."
+
+    # feature loop
+    - icon: "image_only"
+      title: "Выборочные водяные маркировки изображений"
+      content: "Наносите водяные знаки на все изображения в определенном разделе, странице, слайде или во всем документе."
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Нанесение водяных знаков на определенные рамки изображений"
+      content: "Применяйте водяные знаки к определенным кадрам многорамочного изображения."
+
+    # feature loop
+    - icon: "attachments"
+      title: "Насадки и формы для нанесения водяных знаков"
+      content: "Добавьте водяные знаки ко всем вложениям в Excel документах или ко всем фигурам изображений в презентациях."
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Выравнивание водяных знаков в PDF"
+      content: "Совместите водяные знаки с различными областями документа PDF, включая Bleed Box, Art Box, Crop Box и Trim Box."
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Водяной знак на фоновых изображениях"
+      content: "Добавьте или удалите водяной знак фонового изображения в электронных таблицах или презентациях."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Защита нечитаемыми символами"
+      content: "Защитите презентации с помощью текстовых водяных знаков с нечитаемыми символами."
+
+    # feature loop
+    - icon: "watermark_text_search"
+      title: "Поиск водяных знаков"
+      content: "Получите список водяных знаков, представленных в файле, используя различные параметры, включая регулярные выражения."
+
+    # feature loop
+    - icon: "watermark_image_search"
+      title: "Найдите похожие водяные знаки на изображениях"
+      content: "Найдите водяные знаки на изображении, похожие на конкретное изображение."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Извлечь информацию о документе"
+      content: "Получите различные данные документа, например настройку страницы для поддерживаемых форматов файлов."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Образцы кода"
+  description: "Изучите примеры кода, иллюстрирующие типичные функции GroupDocs.Watermark for Java"
+  items:
+    # code sample loop
+    - title: "Нанесение водяных знаков на документ с помощью изображения"
+      content: |
+        Используйте GroupDocs.Watermark for Java для повышения безопасности документов, добавляя водяные знаки изображений. Подробнее: [Водяные знаки на изображениях](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="Как защитить файл водяным знаком изображения.">}}
+        ```csharp {style=abap}
+        // Загрузить исходный документ в Watermarker
+        Watermarker watermarker = new Watermarker("document.pdf");
+        
+        // Укажите путь к изображению водяного знака
+        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+
+        // Защитите файл и сохраните его
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Изменить водяные знаки"
+      content: |
+        GroupDocs.Watermark for Java позволяет управлять существующими водяными знаками в документах. Найдите определенные водяные знаки и [измените их свойства](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Поиск и модификация водяных знаков.">}}
+        ```csharp {style=abap}   
+        // Загрузить исходный документ
+        Watermarker watermarker = new Watermarker("document.pdf");
+
+        // Поиск водяных знаков, подлежащих обновлению
+        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
+        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
+
+        // Обновите нужные свойства
+        for (PossibleWatermark watermark : watermarks)                                                           
+        {  
+            watermark.setText("New Text");
+        }
+
+        // Сохранить измененный документ по указанному пути
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
 ---

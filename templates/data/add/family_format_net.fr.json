@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Générer un filigrane de texte dans le fichier {{FileFormatUp}}",
+    "comment_2": "Fournir le fichier à filigraner",
+    "comment_3": "Générer une instance de filigrane de texte",
+    "comment_4": "Enregistrer {{FileFormatUp}} résultat"
+  },
+  "steps": {
+    "title": "Améliorez vos documents : générez des filigranes pour {{FileformatCap}} à l'aide de {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** est une bibliothèque qui simplifie l'ajout de filigranes à divers formats de fichiers professionnels pour les développeurs {{EnvName}}. Intégrez notre bibliothèque à votre application et filigranez facilement les documents en suivant les étapes suivantes :",
+      "step_1": "**Initiez votre parcours de filigrane :** Commencez par vous familiariser avec la classe **Watermarker**, la pierre angulaire de notre API. Pour démarrer le processus, assurez-vous de l'instancier avant le traitement du document. Ne négligez pas l'importance de fournir le fichier {{FileformatCap}} au constructeur, qu'il s'agisse d'un chemin ou d'un objet de flux.",
+      "step_2": "**Création de filigranes personnalisés :** Passez à la phase suivante en créant un objet **Filigrane** adapté à vos spécifications. Cet outil polyvalent n'est pas limité à des pages de document spécifiques ; il peut également être intégré de manière fluide à des éléments de document natifs tels que des pièces jointes ou des en-têtes.",
+      "step_3": "**Régler les attributs du filigrane :** Améliorez votre expérience de filigrane en ajustant des propriétés telles que la hauteur, la largeur, l'alignement des pages, la famille de polices et la couleur. Ce niveau de personnalisation garantit que vos filigranes s'intègrent parfaitement à vos documents.",
+      "step_4": "**Application de vos filigranes :** Utilisez la méthode **Watermarker** pour appliquer sans effort vos filigranes personnalisés à vos documents. Que vous deviez ajouter un ou plusieurs filigranes, ce processus offre de la flexibilité. Pour plus de sécurité, pensez à enregistrer vos documents traités dans un emplacement distinct."
+    }
+  },
+  "more_features": {
+    "title": "En savoir plus sur l'ajout de filigranes",
+    "description": "Tirez parti de notre puissante API pour afficher, convertir et gérer des documents, des diapositives, des diagrammes et divers autres types de documents dans .NET applications. GroupDocs.Watermark intègre de manière fluide des fonctionnalités de filigrane pour améliorer la sécurité des documents et la protection des droits d'auteur.",
+    "image_description": "Ajouter un filigrane",
+    "feature_1": {
+      "title": "Ajoutez des filigranes à vos documents sans effort.",
+      "content": "{{ProdShortName}} permet à .NET développeurs d'intégrer facilement le filigrane dans leurs applications. Ajoutez sans effort du texte, des images ou des filigranes dynamiques à des documents et fichiers professionnels populaires, afin de garantir la sécurité de votre contenu et la cohérence de votre marque sur toutes les plateformes."
+    },
+    "feature_2": {
+      "title": "Personnalisez les filigranes en fonction de vos besoins.",
+      "content": "Personnalisez les filigranes en fonction de vos besoins spécifiques grâce aux fonctionnalités étendues prises en charge par GroupDocs.Watermark. Ajustez la taille, la rotation, la transparence, la couleur et la police pour que votre filigrane soit non seulement parfait, mais renforce également la sécurité des documents sans obstruer les informations importantes."
+    },
+    "feature_3": {
+      "title": "Exploitez les fonctionnalités natives des documents pour le filigrane",
+      "content": "Utilisez les caractéristiques inhérentes aux formats de documents pour un filigrane sophistiqué. Qu'il s'agisse d'utiliser des annotations natives PDF, des arrière-plans MS Word ou des en-têtes et pieds de page Excel, GroupDocs.Watermark s'intègre parfaitement aux structures des documents pour appliquer des filigranes à la fois efficaces et peu invasifs."
+    },
+    "code_1": {
+      "title": "Générer un filigrane d'image pour DOCX",
+      "content": "Cet exemple montre comment appliquer des effets d'image aux filigranes de forme.",
+      "comment_1": "Charger le document Word",
+      "comment_2": "Configurer les options de filigrane",
+      "comment_3": "Générer un filigrane",
+      "comment_4": "Enregistrer le document mis à jour"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Générer un filigrane pour Excel feuilles de calcul",
+      "description": "Automatisez le filigrane des images avec .NET C# pour une sécurité constante. Gérez efficacement de grands lots d'images."
+    },
+    "header": {
+      "title": "Ajouter des filigranes dynamiques dans Excel en utilisant .NET C#",
+      "description": "Automatisez l'application de filigranes dynamiques de texte ou d'image sur vos fichiers Excel à l'aide de C#. Nos didacticiels vous montrent comment maintenir la cohérence et le professionnalisme tout en minimisant les interventions manuelles.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "{{ProdFullName}} permet une intégration fluide des filigranes dans Excel feuilles de calcul, fournissant ainsi aux entreprises les outils nécessaires pour sécuriser et personnaliser leurs documents. Cette bibliothèque C# prend en charge différents types de filigranes et permet une personnalisation détaillée, notamment des ajustements d'opacité, de rotation et d'alignement. En outre, il est doté de fonctionnalités de recherche avancées pour détecter et gérer les filigranes existants, garantissant ainsi la protection de vos feuilles de calcul contre les falsifications et les divulgations non autorisées."
+    },
+    "formats": {
+      "title": "Intégrer des filigranes de texte et d'image dans Excel à l'aide de {{ProgLang}}",
+      "description": "Utilisez l'API C# GroupDocs.Watermark pour ajouter efficacement des filigranes personnalisés à Excel feuilles de calcul. Améliorez la sécurité des documents et l'image de marque de l'entreprise grâce à des outils conçus pour une intégration rapide et flexible des filigranes."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Générer un filigrane de document Word",
+      "description": "Simplifiez les flux de travail de Word documents à l'aide de filigranes. Représentez l'intégrité de votre marque de manière professionnelle."
+    },
+    "header": {
+      "title": "Créez des filigranes dynamiques dans Word et OpenOffice avec C#",
+      "description": "Déployez des filigranes de manière stratégique dans vos Word documents à l'aide de notre robuste boîte à outils C#. Personnalisez-le pour répondre facilement aux normes de la marque ou aux exigences de sécurité.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} transforme votre capacité à apposer un filigrane sur les documents Microsoft Word. Cette API polyvalente s'intègre parfaitement à votre environnement de développement, permettant l'ajout de filigranes de texte et d'image sophistiqués qui peuvent être positionnés de manière absolue ou relative dans le document. Il prend en charge les formats DOC, DOCX et RTF, offrant une flexibilité entre plusieurs versions Word. Améliorez vos documents avec des filigranes qui sont non seulement sécurisés, mais qui se fondent subtilement dans le contenu, préservant ainsi la lisibilité et l'intégrité de la mise en page."
+    },
+    "formats": {
+      "title": "Filigrane alimenté par C# dans Word et OpenOffice via {{ProgLang}}",
+      "description": "Maximisez l'impact de vos documents MS Word et OpenOffice grâce à des filigranes personnalisés qui offrent à la fois protection et professionnalisme. Notre API C# facilite l'application de filigranes précis et attrayants."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Filigraner des images avec .NET C#",
+      "description": "Apprenez à appliquer des filigranes fluides sur les images en utilisant .NET C#. Protégez vos actifs sans compromettre la qualité."
+    },
+    "header": {
+      "title": "Filigrane personnalisé rapide pour les images utilisant {{EnvName}}",
+      "description": "Notre outil C# .NET fournit une solution rapide pour intégrer des filigranes dans les images. La prise en charge de nombreux formats d'image garantit une couverture complète, des photos aux illustrations numériques.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est conçu pour automatiser le processus de filigrane des images et prend en charge un large éventail de formats tels que JPEG, PNG, BMP et TIFF. Cette API robuste permet d'insérer rapidement des filigranes de texte et d'image dont l'opacité, la taille et la position peuvent être ajustées en fonction de vos besoins spécifiques. Qu'il s'agisse de protéger les droits d'auteur ou d'améliorer les supports marketing, notre boîte à outils garantit que les filigranes sont appliqués avec une haute fidélité et un impact minimal sur la qualité de l'image d'origine."
+    },
+    "formats": {
+      "title": "Implémentez rapidement des filigranes dans tous les formats d'image via {{ProgLang}}",
+      "description": "Améliorez la protection de vos images grâce à notre boîte à outils C# .NET, capable de gérer rapidement et efficacement différents formats d'image. Personnalisez vos filigranes pour qu'ils s'intègrent parfaitement à votre contenu visuel."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Ajoutez un filigrane à vos photos rapidement et facilement",
+      "description": "Sécurisez et revendiquez rapidement les droits d'auteur de vos photos avec .NET filigranes C#. Commencez à protéger votre travail dès aujourd'hui."
+    },
+    "header": {
+      "title": "Filigrane photo rapide et facile avec {{EnvName}}",
+      "description": "Notre puissante bibliothèque C# permet de filigraner rapidement vos photos, ce qui vous permet de protéger les droits d'auteur et d'améliorer l'identité de votre marque sans compromettre la qualité de l'image.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} offre une solution puissante pour les services de photographes qui cherchent à protéger leurs droits d'auteur et leur identité de marque. Cette API permet d'ajouter rapidement du texte ou des filigranes graphiques aux photos dans différents formats, notamment JPEG, PNG et RAW. Personnalisez vos filigranes en termes de transparence, de taille et de position pour qu'ils s'intègrent parfaitement à la photo, tout en préservant la qualité esthétique tout en faisant valoir vos droits légaux et en dissuadant toute utilisation non autorisée."
+    },
+    "formats": {
+      "title": "Protégez vos photos avec des filigranes efficaces {{ProgLang}}",
+      "description": "Sécurisez et stylisez votre contenu photographique avec des filigranes personnalisables à l'aide de notre API .NET C#, conçue pour s'intégrer parfaitement et préserver la qualité de l'image."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Création de fonctionnalités avancées de filigrane pour les présentations",
+      "description": "Utilisez des techniques avancées pour créer des filigranes percutants pour les présentations. Assurez la sécurité du contenu de manière fluide."
+    },
+    "header": {
+      "title": "Innovez vos présentations grâce à un filigrane avancé en C#",
+      "description": "Intégrez des filigranes de texte et d'image de pointe dans vos PowerPoint diapositives à l'aide de notre API C#. Parfait pour renforcer la sécurité et l'attrait professionnel des présentations.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est conçu pour faciliter l'insertion efficace de filigranes avancés dans PowerPoint présentations. Qu'il s'agisse d'informations confidentielles ou que vous cherchiez à améliorer l'image de marque de votre entreprise sur des diapositives, notre API propose des solutions de filigrane robustes qui peuvent être adaptées à des diapositives individuelles ou à des présentations complètes. Qu'il s'agisse de simples marques de texte ou de logos élaborés, personnalisez l'apparence et l'emplacement de votre filigrane pour l'intégrer parfaitement à la conception de vos diapositives tout en offrant un niveau de sécurité supplémentaire."
+    },
+    "formats": {
+      "title": "Protégez et personnalisez les présentations avec des filigranes dans {{ProgLang}}",
+      "description": "Utilisez notre boîte à outils C# pour appliquer rapidement des filigranes personnalisés qui préservent l'intégrité et l'esthétique de vos présentations PowerPoint. Idéal pour les environnements professionnels et éducatifs."
+    }
+  }
+}

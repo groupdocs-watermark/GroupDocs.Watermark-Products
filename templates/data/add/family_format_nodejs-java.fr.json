@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Générer un filigrane de texte pour {{FileFormatUp}}",
+    "comment_2": "Transmettre le fichier source à l'instance Watermarker",
+    "comment_3": "Générez un filigrane de texte et définissez ses options",
+    "comment_4": "Obtenir le résultat {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Documents commerciaux sécurisés : générez des filigranes pour les formats {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Injectez notre API dans vos applications et générez des filigranes pour de nombreux formats de fichiers pris en charge.",
+      "step_1": "**Lancer le filigrane :** Démarrez le traitement des documents avec la classe **Watermarker** fournissant nos principales fonctionnalités. Instanciez-le en passant au constructeur le fichier {{FileformatCap}} qui est censé être sécurisé par des filigranes générés.",
+      "step_2": "**Créez un objet filigrane principal :** Améliorez vos documents en sculptant des objets **Filigrane** sur mesure. Au-delà de simples pages, ils s'intègrent parfaitement aux éléments natifs tels que les pièces jointes ou les en-têtes, ajoutant ainsi des niveaux de sécurité et de professionnalisme.",
+      "step_3": "**Affiner les attributs des filigranes :** Affinez vos filigranes avec précision, en ajustant les dimensions, l'alignement et les combinaisons de couleurs. Chaque détail améliore l'intégrité des documents, faisant de vos fichiers les vôtres sans aucun doute.",
+      "step_4": "**Implémentez avec précision :** Utilisez la méthode **Watermarker** pour appliquer parfaitement vos filigranes personnalisés. Qu'il soit unique ou multiple, chaque filigrane ajoute une couche de protection supplémentaire. Pour plus de sécurité, pensez à stocker vos documents traités dans un endroit distinct et sécurisé."
+    }
+  },
+  "more_features": {
+    "title": "Techniques de filigrane avancées",
+    "description": "Découvrez des techniques de filigrane de pointe grâce à notre API robuste, conçue pour s'intégrer parfaitement dans .NET environnements. Parfait pour ajouter des filigranes sophistiqués et sécurisés à un large éventail de types de documents, notamment des présentations, des documents juridiques et des diagrammes techniques.",
+    "image_description": "Filigrane sophistiqué",
+    "feature_1": {
+      "title": "Placement dynamique des filigranes",
+      "content": "Notre API propose des options de placement dynamiques qui adaptent le positionnement des filigranes en fonction du contenu du document. Idéale pour les mises en page complexes dans les présentations et les diagrammes techniques, cette fonctionnalité garantit que les filigranes sont toujours placés de manière optimale sans nuire à la lisibilité des informations sous-jacentes."
+    },
+    "feature_2": {
+      "title": "Sécurité renforcée grâce à des filigranes invisibles",
+      "content": "Implémentez des filigranes invisibles qui offrent une protection robuste sans altérer l'apparence de vos documents. Ces filigranes sont conçus pour être détectés uniquement par le biais d'outils logiciels spécifiques, ce qui les rend parfaits pour protéger les informations sensibles contenues dans les documents juridiques et financiers."
+    },
+    "feature_3": {
+      "title": "Flux de travail de filigrane automatisés",
+      "content": "Rationalisez vos processus de sécurité des documents grâce à des flux de travail de filigrane automatisés. Configurez des règles en fonction du type de document, de la sensibilité du contenu et des niveaux d'accès des utilisateurs pour appliquer automatiquement des filigranes, garantissant ainsi la cohérence des protocoles de sécurité sur tous les documents."
+    },
+    "code_1": {
+      "title": "Générer un filigrane pour PDF pièces jointes",
+      "content": "Cet exemple montre comment générer des filigranes dans toutes les pièces jointes PDF",
+      "comment_1": "Charger le document PDF",
+      "comment_2": "Générer un filigrane de texte",
+      "comment_3": "Ajouter un filigrane aux pièces jointes appropriées",
+      "comment_4": "Sauvegarde traitée PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Générez des filigranes uniques pour Excel feuilles de calcul",
+      "description": "Automatisez le filigrane dynamique dans Excel à l'aide de Node.js. Appliquez facilement des filigranes cohérents sur plusieurs fichiers."
+    },
+    "header": {
+      "title": "Filigranes pilotés par Node.js dans les feuilles de calcul",
+      "description": "Utilisez Node.js pour intégrer facilement des filigranes de texte ou d'image personnalisés dans Excel feuilles de calcul, sécurisant ainsi vos données financières et analytiques en toute simplicité.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "{{ProdFullName}} est un outil puissant conçu pour les développeurs backend qui souhaitent intégrer des filigranes uniques dans les feuilles de calcul Excel et OpenOffice. Cette API polyvalente permet d'intégrer des filigranes de texte et d'image qui peuvent être entièrement personnalisés en termes de police, de taille, de couleur et d'opacité. Compatible avec de nombreux formats de feuilles de calcul, notamment XLS, XLSX et ODS, cet outil garantit que les filigranes sont appliqués avec précision, préservant ainsi l'intégrité et la mise en page de vos feuilles de calcul tout en offrant une protection robuste contre toute utilisation non autorisée."
+    },
+    "formats": {
+      "title": "Techniques Node.js pour le filigrane Excel",
+      "description": "Améliorez la sécurité des feuilles de calcul et l'intégrité des données grâce à notre API Node.js. Ajoutez rapidement des filigranes personnalisés à Excel et aux fichiers OpenOffice, afin de vous protéger contre les modifications non autorisées."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Créez des modèles de filigranes pour Word",
+      "description": "Créez des modèles de filigrane alimentés par Node.js pour les fichiers Word, DOC et DOCX. Améliorez la sécurité des documents de manière fluide."
+    },
+    "header": {
+      "title": "Création de modèles de filigrane personnalisés pour Word avec {{EnvName}}",
+      "description": "Déployez des modèles de filigrane personnalisés avancés dans différents formats compatibles avec Word à l'aide de Node.js. Améliorez l'intégrité des documents et l'identité de l'entreprise avec un minimum d'effort.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet aux développeurs de créer des modèles de filigranes sophistiqués pour les documents Word rapidement et efficacement. Cette API prend en charge un large éventail de formats de documents, notamment DOC, DOCX, et est compatible avec les fichiers texte OpenOffice. Personnalisez vos filigranes grâce à de nombreuses options de conception telles que les polices de texte, la mise à l'échelle de l'image et les niveaux de transparence. Appliquez ces modèles de manière dynamique à vos documents pour sécuriser la propriété intellectuelle, confirmer l'authenticité et améliorer l'attrait visuel."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Filigranes alimentés en Word",
+      "description": "Notre boîte à outils Node.js fournit une plate-forme flexible pour automatiser l'intégration des filigranes dans Word documents. Personnalisez et appliquez des filigranes pour protéger vos documents et améliorer efficacement la présence de votre marque."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Filigrane dynamique pour la protection des images",
+      "description": "Protégez les droits d'auteur de vos images avec le filigrane dynamique Node.js. Supporte JPG, PNG, WEBP et plus encore."
+    },
+    "header": {
+      "title": "Filigrane dynamique pour la protection des images avec Node.js",
+      "description": "Utilisez notre boîte à outils Node.js pour générer des filigranes dynamiques et sécurisés sur vos images, en prenant en charge des formats tels que JPG, PNG et WEBP. Garantissez les droits d'auteur de vos images grâce à des fonctionnalités de protection avancées.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Avec {{ProdFullName}}, l'application de filigranes aux images est simple et personnalisable. Cette boîte à outils prend en charge un large éventail de formats d'image, y compris les images matricielles traditionnelles telles que JPG et PNG, ainsi que des formats plus récents tels que WEBP. Il permet aux développeurs d'ajouter dynamiquement des filigranes qui sont non seulement sécurisés, mais qui se fondent également naturellement dans le contenu de l'image, offrant ainsi une protection robuste contre les violations du droit d'auteur sans nuire à l'attrait original de l'image."
+    },
+    "formats": {
+      "title": "Implémentation de superbes filigranes dans les images via {{ProgLang}}",
+      "description": "Protégez efficacement les droits d'auteur de vos images grâce à notre API Node.js. Ajoutez dynamiquement des filigranes aux fichiers JPG, PNG et WEBP, en vous assurant que chaque image est marquée pour son propriétaire légitime."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Photos sécurisées avec filigrane avancé dans Node.js",
+      "description": "Accélérez le processus de filigrane de vos photos avec Node.js. Mettez en œuvre des solutions de codage rapides et faciles à utiliser."
+    },
+    "header": {
+      "title": "Photos sécurisées avec filigrane avancé dans {{EnvName}}",
+      "description": "Déployez des stratégies de filigrane avancées dans vos flux de travail de traitement photo avec Node.js. Notre boîte à outils permet une personnalisation complète des fichiers image JPG, PNG et WEBP.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Avec {{ProdFullName}}, la sécurisation de vos photos à l'aide de filigranes avancés est simple et flexible. Cette API permet d'appliquer rapidement des filigranes basés sur du texte ou des images, personnalisables pour correspondre à l'esthétique de la photo sous-jacente. Il prend en charge divers formats d'image et permet un contrôle précis du placement et de l'apparence des filigranes, ce qui permet de se protéger contre toute utilisation non autorisée tout en préservant l'intégrité de la photo."
+    },
+    "formats": {
+      "title": "Filigrane protecteur en {{ProgLang}} pour photos",
+      "description": "Améliorez la sécurité de vos photos grâce à des techniques de filigrane avancées et personnalisables dans Node.js. Protégez vos photos dans différents formats, notamment JPG, PNG et WEBP, sans sacrifier la qualité."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Créez des filigranes professionnels pour les diaporamas avec Node.js",
+      "description": "Créez des filigranes sophistiqués pour vos présentations. Améliorez l'engagement des spectateurs et la sécurité des documents."
+    },
+    "header": {
+      "title": "Créez des filigranes professionnels pour les diaporamas avec Node.js",
+      "description": "Implémentez des filigranes de texte ou d'image dynamiques et personnalisés dans vos présentations de diaporamas à l'aide de notre robuste API Node.js. Parfaits pour PPTX fichiers, ces filigranes se fondent parfaitement dans vos diapositives.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Avec {{ProdFullName}}, la création de filigranes pour vos présentations de diaporamas devient un processus simple et efficace. Ce puissant outil est compatible avec PPTX diapositives et autres formats de présentation courants, et propose des fonctionnalités avancées pour intégrer des filigranes qui ne détournent pas l'attention du contenu mais le mettent en valeur. Personnalisez vos filigranes pour afficher du texte, des logos ou d'autres éléments graphiques indiquant la propriété et empêchant le vol de droits d'auteur, tout en préservant la plus haute qualité de vos diapositives."
+    },
+    "formats": {
+      "title": "Intégration de filigranes optimisée par Node.js pour les présentations",
+      "description": "Sécurisez et professionnalisez vos présentations avec Node.js. Notre API vous permet d'ajouter des filigranes personnalisés aux fichiers PPTX, améliorant ainsi la sécurité et la présence de la marque de manière efficace."
+    }
+  }
+}

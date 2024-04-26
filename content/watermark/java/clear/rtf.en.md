@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T10:23:28
+date:  2024-04-26T21:39:01
 draft: false
 lang: en
 format: Rtf

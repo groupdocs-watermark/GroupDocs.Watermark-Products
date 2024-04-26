@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} docの画像ウォーターマークを編集",
+    "comment_2": "ウォーターマーカーをソースファイルで初期化",
+    "comment_3": "画像ウォーターマーク検索の検索条件の作成",
+    "comment_4": "画像ウォーターマークを編集",
+    "comment_5": "結果 {{FileFormatUp}} を保存"
+  },
+  "steps": {
+    "title": "{{EnvName}} API を使用して {{FileformatCap}} ドキュメントのウォーターマークをプログラムで編集",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** は {{EnvName}} の開発者に、さまざまな {{FileformatCap}} ドキュメント内のウォーターマークをプログラムで操作するための堅牢な API を提供します。このガイドではプロセスの概要を説明します。",
+      "step_1": "**Watermarker** クラスコンストラクターの引数として {{FileformatCap}} ファイルを指定してワークフローを開始します。ファイルは、バイトストリーム、ファイルストリーム、またはローカルディスクの場所への参照のいずれかとして提供できます。",
+      "step_2": "**SearchCriteria** オブジェクトを利用して、変更が必要な特定のウォーターマークを特定します。このオブジェクトにより、以前に文書に埋め込まれたウォーターマークを識別できます。",
+      "step_3": "検索が正常に実行されると、関連するウォーターマークのコレクションが表示されます。これらのウォーターマークはきめ細かな制御が可能で、サイズ、ページの位置、テキストコンテンツ、配色、画像データなどのプロパティを変更できます。",
+      "step_4": "ウォーターマークの編集が完了したら、変更した文書を保存します。API を使用すると、ローカルファイルパスまたはストリームオブジェクトを使用して簡単に保存できます。"
+    }
+  },
+  "more_features": {
+    "title": "ウォーターマーク管理でワークフローを強化",
+    "description": "当社の堅牢なライブラリを使用すると、{{EnvName}} アプリケーション内のさまざまなファイル形式のウォーターマークを簡単に行うことができます。ウォーターマークの追加、編集、検索、削除が簡単に行え、文書のセキュリティとブランディングを強化できます。",
+    "image_description": "シームレスなウォーターマーク編集",
+    "feature_1": {
+      "title": "アプリケーションのウォーターマーキングを効率化",
+      "content": "{{ProdFullName}} の機能を活用して、ウォーターマーク機能を {{EnvName}} アプリケーションにシームレスに統合してください。直感的な API により、ウォーターマークの作成、管理、検索、編集が簡単になり、複雑な手動処理が不要になります。"
+    },
+    "feature_2": {
+      "title": "きめ細かなウォーターマークのカスタマイズ",
+      "content": "包括的な API でウォーターマークカスタマイズの可能性を最大限に引き出しましょう。サイズ、向き、配色、フォントの選択など細部まで微調整して、ブランディングやセキュリティ要件に完全に合致するウォーターマークを作成できます。"
+    },
+    "feature_3": {
+      "title": "ハーネス文書固有の機能を活用してフレキシブルウォーターマーキングを実現",
+      "content": "さまざまなドキュメント形式のネイティブ機能を最大限に活用できます。文書の背景、注釈、ヘッダー、その他のオブジェクトなどの要素を独自のウォーターマークコンテナとして利用し、さまざまな文書タイプやセキュリティニーズに対応します。"
+    },
+    "code_1": {
+      "title": "PDF 画像ウォーターマーク編集",
+      "content": "この例は、画像ウォーターマークの内容を編集する方法を示しています",
+      "comment_1": "PDF としてドキュメントをロード",
+      "comment_2": "コンテンツを読み込む",
+      "comment_3": "画像ウォーターマークを編集",
+      "comment_4": "出力結果をお楽しみください"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileformatCap}} 形式のウォーターマークを簡単に編集",
+      "description": "{{FileformatCap}} ウォーターマークを {{ProdFullName}} API でシームレスに編集できます。自信を持って効率的に文書をカスタマイズできます。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} のウォーターマークを {{EnvName}} で簡単に編集",
+      "description": "{{ProdFullName}} API でウォーターマーク管理を簡素化し、文書を保護しましょう。ワークフローの多様性と効率性を実現しましょう。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} からパッケージをダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} フレームワーク",
+      "content": "**ウォーターマークを簡単に編集:** {{EnvName}} フレンドリーなソリューションで、{{FileformatCap}} 件のドキュメントにわたるウォーターマーク管理を簡素化します。文書のセキュリティと整合性を簡単に確保しながら、コンテンツに集中できます。"
+    },
+    "formats": {
+      "title": "他のフォーマットでも簡単にウォーターマークを管理",
+      "description": "{{ProdFullName}} を使用して、さまざまなドキュメント形式のウォーターマーク編集を簡素化します。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileformatCap}} ファイル全体のウォーターマークを編集",
+      "description": "{{ProdFullName}} アプリケーションで {{FileformatCap}} ファイル全体のウォーターマークを編集します。文書の信頼性を簡単に強化できます。"
+    },
+    "header": {
+      "title": "ファイル全体で {{FileformatCap}} ウォーターマークを編集:{{EnvName}} 汎用性",
+      "description": "{{ProdFullName}} アプリケーションを使用して、自信を持って文書をカスタマイズできます。さまざまなファイル形式のウォーターマークを簡単に編集できます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "無料 {{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**{{FileformatCap}} ファイルにわたるウォーターマークの編集:** {{ProdFullName}} アプリケーションを使用すると、さまざまなファイル形式のウォーターマークをシームレスに編集できます。自信を持って効率的に文書をカスタマイズできます。"
+    },
+    "formats": {
+      "title": "複数のファイルにわたるウォーターマークの編集",
+      "description": "{{ProdFullName}} を搭載したアプリケーションで、複数のファイル形式のウォーターマークをシームレスに編集できます。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileformatCap}} のウォーターマークを {{ProdShortName}} で編集",
+      "description": "{{ProdFullName}} フレームワークを使用して {{FileformatCap}} ファイルの {{FileformatCap}} ウォーターマークを編集します。文書のニーズに合わせて簡単に調整できます。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} のウォーターマークの編集:{{EnvName}} の適応性",
+      "description": "{{ProdFullName}} Frameworkでドキュメントのニーズにシームレスに対応します。複数の形式のウォーターマークを簡単に編集できます。",
+      "subtitle": "{{ProdFullName}} ソリューション",
+      "action_title": "無料 {{PackageStoreName}} パッケージ"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ソリューション",
+      "content": "**PDF 秒でウォーターマークを編集:** {{ProdFullName}} Frameworkで複数の形式のコンテンツを保護しましょう。当社の多彩なツールで、文書のニーズにシームレスに対応できます。"
+    },
+    "formats": {
+      "title": "複数の形式のウォーターマークを調整",
+      "description": "{{ProdFullName}} Frameworkを使用して、さまざまなドキュメント形式のコンテンツを保護します。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileformatCap}} のウォーターマークを簡単に編集",
+      "description": "{{ProdFullName}} ライブラリで {{FileformatCap}} ウォーターマークを簡単に更新できます。文書の整合性とセキュリティをシームレスに維持できます。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} ウォーターマークを簡単に編集:{{EnvName}} コントロール",
+      "description": "{{ProdFullName}} Libraryを使用すると、文書の整合性とセキュリティを簡単に維持できます。ウォーターマークを正確かつコントロールしながら編集できます。",
+      "subtitle": "{{ProdFullName}} ライブラリ",
+      "action_title": "{{PackageStoreName}} からダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "**{{FileformatCap}} ウォーターマークを簡単に編集:** {{ProdFullName}} .NET ライブラリを使用すると、文書の整合性とセキュリティを簡単に維持できます。さまざまなファイルタイプのウォーターマークを正確かつ制御しながら編集できます。"
+    },
+    "formats": {
+      "title": "ウォーターマークを他のフォーマットでも簡単に更新",
+      "description": "{{ProdFullName}} Libraryを使用すると、文書の整合性とセキュリティを簡単に維持できます。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileformatCap}} ウォーターマークソリューションの編集 ",
+      "description": "{{ProdFullName}} ソリューションを使用して、{{FileformatCap}} ウォーターマークを要件に合わせて編集します。ファイルを正確に強化しましょう。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} ウォーターマーク編集用の柔軟な {{EnvName}} ソリューション",
+      "description": "当社の {{ProdFullName}} ソリューションで特定の要件に合わせてウォーターマークを編集してください。ビジネス文書を簡単に強化できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} パッケージをダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**ソリューション内の {{FileformatCap}} ウォーターマークを編集:** {{ProdFullName}} の開発者とともに、特定の要件に合わせてウォーターマークソリューションをカスタマイズできます。文書のセキュリティを簡単に確保しながら、ブランドの存在感を高めましょう。"
+    },
+    "formats": {
+      "title": "ウォーターマークを他のフォーマットにカスタマイズ",
+      "description": "{{ProdFullName}} を使用して、特定の要件を満たすようにソリューションのウォーターマークを編集します。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileformatCap}} ドキュメントのウォーターマークを編集",
+      "description": "{{ProdFullName}} SDKで洗練された {{FileformatCap}} ドキュメントブランディングを実現します。ウォーターマークを編集してセキュリティを確保してください。"
+    },
+    "header": {
+      "title": "ポリッシュ加工 {{FileformatCap}} ウォーターマーク編集:{{EnvName}} 洗練",
+      "description": "{{ProdFullName}} SDKで高度なドキュメントブランディングを実現します。文書のウォーターマークを正確かつ確実に編集できます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} で無料でダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**洗練されたウォーターマーク編集:** {{ProdFullName}} SDKで高度な {{FileformatCap}} ドキュメントブランディングを実現します。正確かつ自信を持って文書を磨き、ブランドの一貫性と保護を確保しましょう。"
+    },
+    "formats": {
+      "title": "その他のフォーマット処理",
+      "description": "{{ProdFullName}} SDK を使用して高度な方法でドキュメントウォーターマークを編集します。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "効率化された {{FileformatCap}} ウォーターマーク編集",
+      "description": "{{ProdShortName}} で {{EnvName}} プロジェクトの {{FileformatCap}} ウォーターマーク編集を効率化します。コンテンツに集中しましょう。"
+    },
+    "header": {
+      "title": "効率化された {{FileformatCap}} ウォーターマーク編集:{{EnvName}} 最適化",
+      "description": "{{ProdShortName}} を使用して {{EnvName}} プロジェクトのウォーターマークを編集および最適化します。ワークフローを合理化し、コンテンツに集中するのも簡単です。",
+      "subtitle": "{{ProdFullName}} ソリューション",
+      "action_title": "{{PackageStoreName}} で無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**{{FileformatCap}} ウォーターマークの編集:** {{ProdShortName}} を使用して {{EnvName}} プロジェクトのウォーターマーク管理を最適化してください。ドキュメントのセキュリティを簡単に確保しながら、ワークフローを簡素化し、コンテンツに集中できます。"
+    },
+    "formats": {
+      "title": "他の形式のウォーターマークコントロールの効率化",
+      "description": "{{ProdShortName}} で {{EnvName}} プロジェクトのウォーターマーク管理を最適化しましょう。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "セキュア {{FileformatCap}} ウォーターマーク編集ソリューション",
+      "description": "{{ProdFullName}} コンポーネントで {{FileformatCap}} ウォーターマークを安全に編集してください。コンテンツとブランドを安心して保護しましょう。"
+    },
+    "header": {
+      "title": "セキュア {{FileformatCap}} ウォーターマーク編集:{{EnvName}} 保証",
+      "description": "{{ProdFullName}} Componentで文書のセキュリティとブランド保護を確保してください。ウォーターマークは確実に安全に編集できます。",
+      "subtitle": "{{ProdFullName}} ライブラリ",
+      "action_title": "{{PackageStoreName}} で無料でダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ソリューション",
+      "content": "**{{FileformatCap}} ウォーターマーク編集ツール:** {{ProdShortName}} を使用して {{EnvName}} プロジェクトのウォーターマーク編集を最適化してください。文書のセキュリティを簡単に確保しながら、ビジネスプロセスを簡素化し、コンテンツに集中できます。"
+    },
+    "formats": {
+      "title": "その他のフォーマットウォーターマーク編集",
+      "description": "{{ProdFullName}} Componentで文書のセキュリティとブランド保護を確保してください。"
+    }
+  }
+}

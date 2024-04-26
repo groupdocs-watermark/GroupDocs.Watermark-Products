@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 에 이미지 워터마크 추가",
+    "comment_2": "워터마킹할 파일을 워터마커로 전달",
+    "comment_3": "워터마크가 포함된 이미지 경로 제공",
+    "comment_4": "결과 저장"
+  },
+  "steps": {
+    "title": "고급 기법: {{EnvName}} 을 통해 {{FileformatCap}} 문서에 워터마크 추가",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**가 포함된 {{FileformatCap}} 문서에 대한 고급 워터마킹 기법 살펴보기",
+      "step_1": "**Watermarker** 클래스를 초기화하여 워터마킹 프로세스를 시작하십시오.이 기본 단계는 {{FileformatCap}} 문서에 워터마크를 추가하기 위한 단계를 설정합니다.{{FileformatCap}} 파일을 경로 또는 스트림 객체로 생성자에 제공하십시오.",
+      "step_2": "**워터마크** 오브젝트를 제작하여 다음 단계로 나아가세요.이러한 다용도 엔티티를 사용하면 지정된 문서 페이지뿐만 아니라 첨부 파일이나 머리글과 같은 기본 요소에도 정확하게 배치할 수 있습니다.",
+      "step_3": "치수, 정렬, 글꼴 스타일 및 색상과 같은 속성을 미세 조정하여 워터마킹 프로세스를 개선합니다.이 수준의 사용자 지정을 통해 문서의 미학을 완벽하게 보완하는 워터마크를 만들 수 있습니다.",
+      "step_4": "**워터마커** 방법을 사용하여 새로 만든 워터마크를 문서에 적용하십시오.요구 사항에 따라 여러 워터마크를 유연하게 추가할 수 있습니다.문서를 보존하려면 안전한 장소에 보관하는 것이 좋습니다."
+    }
+  },
+  "more_features": {
+    "title": "문서 워터마크 마스터링",
+    "description": ".NET 명의 개발자를 위해 맞춤화된 정교한 워터마킹 API로 문서 관리를 향상시키세요.이 도구는 다양한 문서 형식에 워터마크를 적용, 사용자 지정 및 관리할 수 있는 포괄적인 솔루션을 제공하여 미적 매력과 향상된 보안을 모두 보장합니다.",
+    "image_description": "고급 문서 워터마킹",
+    "feature_1": {
+      "title": "유연한 워터마크 회전",
+      "content": "유연한 회전 설정으로 모든 문서 방향에 맞게 워터마크를 조정할 수 있습니다.세로 문서든 가로 문서든 관계없이 워터마크 각도를 쉽게 조정하여 문서 레이아웃을 보완하는 일관된 모양을 유지할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "완벽한 투명성 제어",
+      "content": "워터마크의 투명도를 정밀하게 제어하여 문서 내용에 부담을 주지 않으면서도 섬세하면서도 안전한 마킹을 할 수 있습니다.이 기능은 보안을 강화하는 동시에 문서의 원래 미관을 유지하는 데 이상적입니다."
+    },
+    "feature_3": {
+      "title": "강조를 위한 그림자 효과",
+      "content": "워터마크의 가시성을 높이거나 사용자 지정 가능한 그림자 효과를 사용하여 문서에 섬세하게 통합할 수 있습니다.이 기능을 사용하면 다양한 흐림, 퍼짐 및 색상의 그림자를 만들 수 있으므로 필요에 따라 워터마크를 더욱 뚜렷하거나 눈에 잘 띄지 않게 만들 수 있습니다."
+    },
+    "code_1": {
+      "title": "MS Word 개의 잠긴 워터마크",
+      "content": "이 예에서는 DOCX 개의 모든 페이지에서 워터마크를 잠그는 방법을 보여줍니다.",
+      "comment_1": "문서를 MS Word 문서로 불러오기",
+      "comment_2": "워터마크 만들기",
+      "comment_3": "네이티브 Word 개의 옵션 조정",
+      "comment_4": "결과 문서 페이지에 워터마크 추가"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Java 을 사용하여 {{FileFormatUp}} 에 대한 워터마크 생성",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 워터마크를 효율적으로 추가, 편집 및 관리합니다.문서 보안에 적합합니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 개의 파일에 대한 Java 개의 워터마킹",
+      "description": "Java 개발자가 GroupDocs.Watermark 을 활용하여 {{FileFormatUp}} 문서에서 워터마크를 빠르고 쉽게 삽입, 수정 및 제거할 수 있는 방법을 살펴보세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개발자에게 {{FileFormatUp}} 파일에서 워터마크를 추가, 제거, 검색 및 관리할 수 있는 강력한 도구 세트를 제공합니다.이 API를 사용하면 포괄적인 워터마킹 기능을 모든 Java 애플리케이션에 간단하게 통합하여 광범위한 문서 관리 작업을 지원할 수 있습니다.지적 재산의 보호, 문서 신뢰성 보장 또는 무단 공유 방지가 필요한 경우 {{ProdShortName}} 은 필요한 도구를 제공합니다.텍스트 및 이미지 워터마크를 지원하며 다양한 사용 사례에 맞게 불투명도, 회전 및 크기 조정과 같은 광범위한 사용자 지정 옵션을 제공합니다.Java 8 이상을 지원하는 모든 주요 운영 체제와 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 사용하여 {{FileFormatUp}} 개의 파일에 워터마킹",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 파일에 다양한 워터마크를 적용할 수 있습니다.문서 보안 및 저작권 보호가 필요한 애플리케이션에 적합합니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Java 개의 워터마크로 {{FileFormatUp}} 을 (를) 강화하세요",
+      "description": "Java 을 통해 {{FileFormatUp}} 파일에 정교한 워터마크를 추가합니다.문서를 손쉽게 보호하고 스타일을 지정할 수 있습니다."
+    },
+    "header": {
+      "title": "Java 개의 워터마크가 있는 {{FileFormatUp}} 개의 파일 보호",
+      "description": "안전하고 사용자 지정 가능한 워터마크를 {{FileFormatUp}} 파일에 임베드하는 Java 의 힘을 확인해 보십시오.지적 콘텐츠를 보호해야 하는 기업에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 를 통해 Java 개발자는 고급 워터마킹 기술을 {{FileFormatUp}} 문서 워크플로우에 원활하게 통합할 수 있습니다.워터마크를 삽입, 수정 및 제거하는 기능을 갖춘 이 API는 저작권을 보호하고 문서 보안을 강화하는 데 도움이 됩니다.DOCX 형식에 맞게 조정된 이 제품은 콘텐츠 민감도를 기반으로 한 워터마크 자동화, 크기, 투명도, 회전과 같은 워터마크 속성의 동적 조정, 일괄 문서에 워터마크 적용 등의 기능을 제공합니다.{{ProdShortName}} 은 규정 준수를 보장하고 문서의 무단 유포를 방지하는 데 효과적이며 버전 8부터 Java 환경과 호환됩니다."
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} 에 대한 Java 기반 워터마킹",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 파일에 동적이고 안전한 워터마크를 구현하여 포괄적인 저작권 보호를 보장합니다."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Java 을 사용하여 {{FileFormatUp}} 에 워터마크 삽입하기",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 이미지에 워터마크를 추가, 사용자 지정 및 관리하여 보안 및 저작권 제어를 강화합니다."
+    },
+    "header": {
+      "title": "Java - {{FileFormatUp}} 에 대한 제어형 워터마킹",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 개의 이미지를 워터마킹하는 기술을 마스터하세요.이 API를 사용하면 워터마크 불투명도, 위치 및 크기를 정밀하게 제어하여 디지털 이미지를 보호하고 브랜딩할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개발자에게 JPEG 파일에 워터마크를 삽입하기 위한 정교한 툴킷을 제공합니다.이 API는 저작권을 보호하고 무단 사용을 방지하며 브랜드 가시성을 높이는 데 도움이 되는 가시적 워터마크와 보이지 않는 워터마크를 모두 적용하는 데 탁월합니다.디지털 아트워크 및 사진에 적합한 패턴 채우기, 그림자 효과, 그라디언트 스타일 등 다양한 옵션을 사용하여 워터마크를 사용자 정의할 수 있습니다.Java 8 이상을 지원하는 {{ProdShortName}} 을 사용하여 모든 플랫폼에서 이미지를 보호하세요."
+    },
+    "formats": {
+      "title": "Java 개의 워터마크로 {{FileFormatUp}} 개의 보안",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 개의 이미지에 안전하고 사용자 지정 가능한 워터마크를 적용할 수 있습니다. 시각적 자산을 보호해야 하는 사진작가 및 콘텐츠 제작자에게 적합합니다."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Java 을 사용한 고급 {{FileFormatUp}} 워터마킹",
+      "description": "이미지 보호 및 저작권 주장을 강화하기 위해 Java 을 사용하여 {{FileFormatUp}} 워터마킹 프로세스를 간소화하십시오."
+    },
+    "header": {
+      "title": "Java - {{FileFormatUp}} 개의 파일을 위한 파워 워터마킹",
+      "description": "사용자 지정 가능한 워터마크를 사용하여 {{FileFormatUp}} 파일의 보안을 강화하세요.Java 을 활용하여 워터마크를 원활하게 통합하여 최적의 보호 및 브랜드 정렬을 보장하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개의 개발자에게 {{FileFormatUp}} 개의 이미지를 위해 특별히 설계된 강력한 워터마킹 기능을 제공합니다.이 API를 사용하면 텍스트와 그래픽이 결합된 다중 레이어 워터마크를 추가할 수 있으므로 이미지 품질 저하 없이 강력한 저작권 보호를 보장할 수 있습니다.기능에는 유연한 크기 조정, 회전 및 투명도 설정이 포함되어 있어 사용자 요구에 따라 워터마크를 눈에 잘 띄지 않거나 눈에 잘 띄게 표시할 수 있습니다.Java 8 이상과 완벽하게 호환되는 {{ProdShortName}} 을 사용하여 디지털 미디어의 무결성과 신뢰성을 향상시키십시오."
+    },
+    "formats": {
+      "title": "Java 을 통해 {{FileFormatUp}} 개의 이미지 보호",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 이미지에 정교한 워터마크를 배포하세요.워터마크 특성을 맞춤화하여 저작권을 강화하고 이미지 보안을 강화하세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Java 개의 워터마크를 사용하여 {{FileFormatUp}} 를 보호합니다",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 문서 보안을 강화하여 강력하고 사용자 지정 가능한 워터마크를 적용합니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 에 대한 Java 워터마크 통합",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 문서에 고급 워터마킹을 구현하십시오.공식 기록, 법률 문서 및 민감한 정보를 보호하는 데 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 효과적인 워터마킹을 통해 {{FileFormatUp}} 문서의 보안을 강화하려는 Java 명의 개발자에게 적합합니다.이 API를 사용하면 눈에 보이는 워터마크와 보이지 않는 워터마크를 모두 쉽게 삽입할 수 있어 무단 공유를 방지하고 문서의 신뢰성을 보장할 수 있습니다.기능에는 사용자 지정 워터마크 생성, 정확한 위치 지정, 문서 내용이나 보안 수준에 따른 조건부 워터마킹이 포함됩니다.문서 무결성이 가장 중요한 정부, 법률 및 기업 환경에 적합한 {{ProdShortName}} 은 Java 8 이상과의 원활한 통합을 지원합니다."
+    },
+    "formats": {
+      "title": "Java 으로 {{FileFormatUp}} 문서에 워터마킹",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 에 워터마크를 효율적으로 추가할 수 있습니다.맞춤형 워터마킹 솔루션으로 공식 문서의 기밀성과 무결성을 보장하세요."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 파일을 위한 Java 개의 워터마크 솔루션",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 이미지에 동적 워터마크를 적용하여 디지털 자산을 보호하고 인증합니다."
+    },
+    "header": {
+      "title": "Java 을 통한 {{FileFormatUp}} 보안 및 사용자 지정",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 파일에 안전하고 조정 가능한 워터마크를 삽입하세요. 창작물을 보호하려는 사진작가와 디자이너에게 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 명의 개발자에게 {{FileFormatUp}} 개의 이미지에 워터마크를 적용할 수 있는 정교한 프레임워크를 제공합니다.이 API는 모든 Java 기반 애플리케이션에 원활하게 통합되도록 설계되었으므로 기본 이미지와 완벽하게 조화를 이루는 투명하거나 불투명한 워터마크를 삽입할 수 있습니다.텍스트, 로고 또는 저작권 기호로 워터마크를 사용자 지정하여 이미지 품질 저하 없이 보안을 강화하세요.완벽한 픽셀 포지셔닝 및 불투명도 제어와 같은 기능을 통해 {{ProdShortName}} 은 이미지가 시각적으로 매력적이고 법적으로 보호되도록 합니다.전자 상거래 사이트, 온라인 포트폴리오 등에서 사용하기에 적합하며 Java 8 이상과 완벽하게 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 통한 {{FileFormatUp}} 이미지 보안 강화",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 강력한 워터마크를 삽입합니다.이 기능은 이미지 선명도를 유지하면서 시각적 콘텐츠를 무단으로 사용하지 못하도록 보호하는 데 매우 중요합니다."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Java 으로 {{FileFormatUp}} 개의 프레젠테이션에 워터마크 추가",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 워터마크를 삽입하여 프레젠테이션을 보호하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 워터마크에 대한 Java 개선 사항",
+      "description": "Java 을 사용하여 눈에 잘 띄지 않는 워터마크를 PowerPoint 프레젠테이션에 통합하여 비즈니스 및 교육 콘텐츠를 보호하는 데 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 를 사용하면 Java 개발자는 고급 워터마킹 기술을 통해 PowerPoint 프레젠테이션의 보안과 전문적인 모습을 향상시킬 수 있습니다.이 API는 텍스트와 이미지 워터마크의 통합을 지원합니다. 이 워터마크는 용도에 따라 눈에 보이거나 섬세하게 사용자 지정할 수 있습니다.기능에는 크기, 투명도 및 위치를 조정할 수 있는 기능이 포함되어 있어 워터마크가 중요한 콘텐츠를 가리지 않도록 하는 동시에 효과적인 저작권 보호를 제공합니다.기업, 교육 및 상업 프레젠테이션에 적합한 {{ProdShortName}} 은 Java 8 이상을 지원하는 모든 시스템과 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 통한 {{FileFormatUp}} 개의 프레젠테이션 보안",
+      "description": "Java 을 (를) 사용하여 PowerPoint 파일에 워터마크를 적용하여 전문적이고 교육적인 환경에서 문서 보안과 브랜드 인지도를 높일 수 있습니다."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Java 으로 {{FileFormatUp}} 개의 파일을 워터마킹하세요",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 워터마크를 삽입하여 프레젠테이션을 보호하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 워터마크에 대한 Java 개선 사항",
+      "description": "Java 을 사용하여 눈에 잘 띄지 않는 워터마크를 PowerPoint 프레젠테이션에 통합하여 비즈니스 및 교육 콘텐츠를 보호하는 데 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 를 사용하면 Java 개발자는 고급 워터마킹 기술을 통해 PowerPoint 프레젠테이션의 보안과 전문적인 모습을 향상시킬 수 있습니다.이 API는 텍스트와 이미지 워터마크의 통합을 지원합니다. 이 워터마크는 용도에 따라 눈에 보이거나 섬세하게 사용자 지정할 수 있습니다.기능에는 크기, 투명도 및 위치를 조정할 수 있는 기능이 포함되어 있어 워터마크가 중요한 콘텐츠를 가리지 않도록 하는 동시에 효과적인 저작권 보호를 제공합니다.기업, 교육 및 상업 프레젠테이션에 적합한 {{ProdShortName}} 은 Java 8 이상을 지원하는 모든 시스템과 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 통한 {{FileFormatUp}} 개의 프레젠테이션 보안",
+      "description": "Java 을 (를) 사용하여 PowerPoint 파일에 워터마크를 적용하여 전문적이고 교육적인 환경에서 문서 보안과 브랜드 인지도를 높일 수 있습니다."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 문서에 대한 Java 개의 워터마크",
+      "description": "Java 을 (를) 활용하여 {{FileFormatUp}} 파일에 워터마크를 삽입하여 문서 보안 및 전문성을 강화합니다."
+    },
+    "header": {
+      "title": "Java 개의 워터마크로 {{FileFormatUp}} 개의 문서를 보호하세요",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 문서에 워터마크를 원활하게 삽입할 수 있습니다.전문적인 Word 환경에서 민감한 정보를 보호하는 데 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개발자에게 Microsoft Word 환경에서 일반적으로 사용되는 {{FileFormatUp}} 개의 문서를 워터마킹할 수 있는 포괄적인 도구를 제공합니다.이 API를 사용하면 텍스트와 이미지 워터마크를 정밀하게 추가할 수 있으며 필요에 따라 가시성 또는 식별성을 보장하도록 사용자 지정할 수 있습니다.레이아웃이나 가독성을 떨어뜨리지 않으면서 문서의 보안 기능을 향상시키세요.다양한 불투명도, 크기 조정 가능, 위치 조정 가능 등의 기능이 있어 법률, 학술 및 기업 문서에 적합합니다.무단 사용 및 복제를 방지하는 데 효과적인 {{ProdShortName}} 은 Java 8 이상과 완벽하게 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 통한 MS Word {{FileFormatUp}} 보안 강화",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 고급 워터마킹을 적용하여 Microsoft Word 및 기타 워드 프로세싱 애플리케이션에서 문서 무결성과 규정 준수를 보장합니다."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Java 을 사용하여 {{FileFormatUp}} 에 워터마크 삽입하기",
+      "description": "Java 을 마스터하여 {{FileFormatUp}} 개의 이미지에 효과적인 워터마크를 적용하여 저작권을 보호하고 보안을 강화하십시오."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 개의 파일에 대한 Java 개의 워터마크 기능",
+      "description": "강력한 저작권 보호 및 디지털 자산 관리를 위해 Java 으로 구현된 워터마크를 사용하여 {{FileFormatUp}} 개의 이미지를 개선합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 를 통해 Java 개발자는 사진, 문서 보관 및 디지털 출판과 같은 분야에서 중요한 TIF 이미지에 맞게 조정된 워터마킹 기술을 최대한 활용할 수 있습니다.이 API를 사용하면 투명하고 단단한 워터마크를 통합할 수 있으며 다양한 요구 사항에 맞게 불투명도, 크기 및 배치를 조정할 수 있습니다.여기에는 일괄 워터마킹 기능이 포함되어 있어 높은 충실도와 이미지 무결성을 유지하면서 대규모 이미지 컬렉션을 효율적으로 처리할 수 있습니다.이 도구는 버전 8부터 Java 환경에서 완벽하게 작동하도록 설계되어 저작권 집행 및 무단 배포 방지를 위한 신뢰할 수 있는 솔루션을 제공합니다."
+    },
+    "formats": {
+      "title": "Java 을 통해 {{FileFormatUp}} 이미지에 워터마크 구현",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 이미지에 사용자 지정 워터마크를 삽입할 수 있습니다. 이는 사진 및 아카이브 콘텐츠를 보호하고 브랜딩하는 데 적합합니다."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Java 개의 워터마크가 있는 {{FileFormatUp}} 개의 이미지 보호",
+      "description": "저작권 보호 및 이미지 보안을 강화하기 위해 {{FileFormatUp}} 파일에 Java 기반 워터마크를 구현합니다."
+    },
+    "header": {
+      "title": "Java - {{FileFormatUp}} 개의 파일에 대한 향상된 워터마킹",
+      "description": "저작권 보안이 필요한 사진가 및 디지털 아카이브에 필수적인 {{FileFormatUp}} 개의 이미지에 내구성 있고 사용자 지정 가능한 워터마크를 적용하려면 Java 을 사용하십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 명의 개발자에게 사진 및 디지털 아카이빙에서 널리 사용되는 형식인 {{FileFormatUp}} 개의 이미지에 워터마크를 추가할 수 있는 효율적인 도구 세트를 제공합니다.이 API는 다중 레이어 텍스트 및 이미지 기반 워터마크를 비롯한 복잡한 워터마크 구성을 지원합니다.불투명도, 회전, 크기 조정 옵션을 사용하여 워터마크를 사용자 지정하여 효과적이면서도 눈에 거슬리지 않도록 하세요.고해상도 이미지와 스캔한 문서를 보호하는 데 적합한 {{ProdShortName}} 은 (는) 품질 저하 없이 이미지 보안을 강화하며 Java 8 이상과 완벽하게 호환됩니다."
+    },
+    "formats": {
+      "title": "Java 을 사용하여 {{FileFormatUp}} 개의 파일에 있는 Copyright 개의 파일을 보호합니다.",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 이미지에 정교한 워터마크를 삽입할 수 있습니다.원본 이미지 품질에 미치는 영향을 최소화하면서 저작권 보호를 최적화합니다."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "{{FileFormatUp}} 개 이미지에 대한 Java 개의 워터마크",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 이미지에 워터마크를 삽입하여 저작권과 미디어 보안을 강화합니다."
+    },
+    "header": {
+      "title": "Java 을 사용한 사용자 지정 {{FileFormatUp}} 워터마킹",
+      "description": "Java 을 구현하여 {{FileFormatUp}} 개의 이미지에서 워터마크를 생성하고 관리하여 디지털 콘텐츠 제작자를 위한 최적의 보호 및 브랜딩을 보장합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{FileFormatUp}} 이미지에 워터마크를 삽입하기 위한 강력한 Java 툴킷을 제공합니다. 이는 웹 개발자와 디지털 마케터 사이에서 점점 인기를 얻고 있는 형식입니다.이 API를 사용하면 저작권을 보호하고 이미지 출처를 인증하도록 맞춤화된 가시적 워터마크와 보이지 않는 워터마크를 모두 쉽게 추가할 수 있습니다.WEBP 파일의 높은 압축 효율성을 유지하면서 텍스트, 로고 또는 디지털 서명을 포함하도록 워터마크 설정을 사용자 지정합니다.동적 불투명도 제어, 워터마크 스케일링 및 정확한 위치 지정과 같은 고급 기능은 이미지의 미학과 선명도를 유지하여 다양한 디지털 플랫폼과의 원활한 통합을 보장합니다.Java 8 이상과 호환되는 {{ProdShortName}} 은 이미지 자산을 효과적으로 보호하고 수익을 창출하려는 개발자에게 필수적입니다."
+    },
+    "formats": {
+      "title": "Java 을 (를) 사용하여 {{FileFormatUp}} 개의 파일 보호",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 개의 이미지에 눈에 잘 띄지 않는 고급 워터마크를 적용합니다.워터마크 속성을 맞춤화하여 디지털 저작권을 효율적으로 보호하고 강화하세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} 스프레드시트 워터마크 Java",
+      "description": "Java 을 활용하여 {{FileFormatUp}} 개의 파일에 사용자 지정 워터마크를 적용하여 Excel 및 OpenOffice 문서를 보호합니다."
+    },
+    "header": {
+      "title": "Excel 에 대한 Java 기반 워터마킹",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 워터마크를 구현하면 Excel 및 OpenOffice 시트의 문서 보안을 강화할 수 있습니다. 이는 재무 및 기밀 데이터에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개발자에게 워터마킹을 {{FileFormatUp}} 파일에 통합할 수 있는 기능을 제공하며, Excel 형식과 오픈오피스 형식을 모두 지원합니다.이 API를 사용하면 눈에 잘 띄면서도 눈에 잘 띄지 않는 워터마크를 임베드할 수 있으므로 문서의 유용성을 그대로 유지하면서 중요한 정보를 보호할 수 있습니다.주요 기능으로는 워터마크 텍스트, 이미지 및 배치를 사용자 지정하는 기능이 있으며, 문서의 내용이나 사용자 권한에 따라 조건부로 적용할 수 있습니다.따라서 은행, 법률 및 학계와 같이 엄격한 데이터 보호 조치가 필요한 환경의 애플리케이션에 적합합니다.Java 8 이상을 지원하므로 {{ProdShortName}} 은 다양한 운영 체제에서 복잡한 워터마킹 요구 사항을 처리할 수 있습니다."
+    },
+    "formats": {
+      "title": "Java 을 통한 Excel 문서 보안 강화",
+      "description": "사용자 지정 가능한 Java 으로 구현된 워터마크로 Excel 및 OpenOffice 문서를 보호하여 데이터 무결성과 저작권 보호를 보장합니다."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Java 을 사용한 고급 {{FileFormatUp}} 워터마킹",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 파일에 워터마크를 임베드하여 문서 보안을 강화하십시오."
+    },
+    "header": {
+      "title": "Java 어드밴스드 Excel 시트용 워터마크",
+      "description": "Java 기반 워터마크로 Excel {{FileFormatUp}} 시트를 보호하십시오.기업, 재무 및 학술 문서에 맞게 조정하여 민감한 데이터를 보호하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 Java 개발자가 동적 워터마킹 기능을 사용하여 {{FileFormatUp}} 형식의 데이터 보호를 적용할 수 있도록 합니다.Excel 사용자의 현대적 요구에 맞게 특별히 설계된 이 API는 원활하게 통합되어 데이터 가시성을 방해하지 않으면서 문서 디자인을 보완하는 맞춤형 워터마크를 적용할 수 있습니다.투명도, 레이어링 또는 색상 혼합을 위해 워터마크를 최적화하여 필요한 경우에만 눈에 띄도록 하세요.이 도구는 독점 재무 모델, 전략 계획 문서 또는 기밀 유지가 필요한 민감한 정보를 다루는 전문가에게 없어서는 안 될 도구입니다.Java 8 이상과 호환되는 {{ProdShortName}} 은 강력한 워터마킹 지원을 Microsoft Excel 및 호환되는 스프레드시트 애플리케이션 모두로 확장합니다."
+    },
+    "formats": {
+      "title": "Java 개의 워터마크로 {{FileFormatUp}} 개의 파일 보호",
+      "description": "Java 을 사용하여 {{FileFormatUp}} 문서에 미묘하고 효과적인 워터마크를 통합할 수 있습니다. 이는 위험도가 높은 환경에서 Excel 스프레드시트를 보호하는 데 적합합니다."
+    }
+  }
+}

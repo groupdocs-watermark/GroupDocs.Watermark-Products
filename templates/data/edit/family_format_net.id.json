@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Mengedit {{FileFormatUp}} tanda air teks",
+    "comment_2": "Buat Watermarker menyediakan file {{FileFormatUp}}",
+    "comment_3": "Bangun TextSearchCriteria dan dapatkan tanda air teks",
+    "comment_4": "Edit tanda air teks",
+    "comment_5": "Simpan dokumen"
+  },
+  "steps": {
+    "title": "Edit tanda air di dokumen {{FileformatCap}} menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memberdayakan {{EnvName}} pengembang untuk mengedit tanda air dengan mudah dalam berbagai dokumen {{FileformatCap}}. Berikut panduan sederhana cara menggunakan API kami di aplikasi Anda:",
+      "step_1": "**Watermarker**. Anda dapat menyediakan file baik sebagai aliran byte, aliran file, atau jalur disk lokal.",
+      "step_2": "**Kriteria pencari** untuk mengidentifikasi tanda air dengan properti terkait yang sebelumnya ditambahkan ke dokumen.",
+      "step_3": "Setelah pencarian, Anda akan mendapatkan daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, seperti ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini memberi Anda kontrol yang luas atas data Anda.",
+      "step_4": "Setelah Anda selesai mengedit tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal atau aliran untuk menyimpan hasil akhir."
+    }
+  },
+  "more_features": {
+    "title": "Pelajari lebih lanjut tentang modifikasi tanda air",
+    "description": "Berdayakan aplikasi {{EnvName}} Anda dengan perpustakaan kami dan tambahkan, edit, hapus, atau cari tanda air dalam berbagai format file.",
+    "image_description": "Edit Tanda Air",
+    "feature_1": {
+      "title": "File Watermark untuk Bisnis Anda",
+      "content": "Gunakan {{ProdFullName}} untuk menandai file dan dokumen. Tambahkan dan kelola tanda air tanpa upaya ekstra menerapkan API kami di aplikasi Anda. Cari, edit, dan hapus tanda air yang ditambahkan sebelumnya."
+    },
+    "feature_2": {
+      "title": "Sempurnakan Watermark untuk Kebutuhan Anda",
+      "content": "API kami menawarkan serangkaian opsi penyesuaian yang komprehensif. Ubah aspek seperti ukuran, orientasi, skema warna, keluarga font, dan banyak lagi dengan mudah untuk membuat tanda air yang ideal."
+    },
+    "feature_3": {
+      "title": "Manfaatkan Fitur Khusus Dokumen",
+      "content": "Tergantung pada format file yang Anda gunakan, Anda dapat memasukkan fungsionalitas bawaan. Ini mungkin termasuk latar belakang dokumen, anotasi, header, atau elemen lain untuk berfungsi sebagai wadah tanda air."
+    },
+    "code_1": {
+      "title": "Excel pengeditan teks tanda air",
+      "content": "Contoh ini menunjukkan cara mengedit teks untuk tanda air tertentu di Excel Lembar Kerja",
+      "comment_1": "Muat lembar bentang XLSX",
+      "comment_2": "Muat konten spreadsheet",
+      "comment_3": "Edit teks bagian dalam tanda air",
+      "comment_4": "Simpan hasil keluaran"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Edit Watermark dalam format {{FileformatCap}}",
+      "description": "Sesuaikan dan amankan dokumen Anda dengan mudah dengan {{ProdFullName}}. Tingkatkan integritas dokumen dan edit {{FileformatCap}} tanda air dengan mudah."
+    },
+    "header": {
+      "title": "Edit Tanda Air Spreadsheet {{FileformatCap}} Anda: Efisiensi {{EnvName}}",
+      "description": "Tingkatkan keamanan dokumen Anda dengan alat watermarking kami yang dapat disesuaikan yang dirancang untuk efisiensi {{EnvName}}. Edit tanda air Excel dengan mudah.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Perpustakaan",
+      "content": "**Edit {{FileformatCap}} Tanda Air Dengan Alat Kami:** Alat {{ProdFullName}} kami menawarkan strategi yang efisien untuk meningkatkan dan melindungi dokumen Anda. Dengan berbagai fitur untuk {{EnvName}} pengembang, mengelola tanda air menjadi mudah, memastikan keamanan dan keaslian dokumen."
+    },
+    "formats": {
+      "title": "Sesuaikan Watermark Anda dalam Format Lain",
+      "description": "Tandai berbagai format dokumen sesuai kebutuhan Anda dengan {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Edit Watermark di {{FileformatCap}} dokumen",
+      "description": "Perbaiki penempatan tanda air dan pastikan keamanan dokumen dengan {{ProdFullName}}. Sesuaikan {{FileformatCap}} tanda air dalam solusi Anda dengan mudah."
+    },
+    "header": {
+      "title": "Tingkatkan {{FileformatCap}} Watermark: {{EnvName}} Keyakinan",
+      "description": "Pastikan {{FileformatCap}} dokumen keaslian dan integritas merek dengan {{ProdFullName}}. Edit tanda air menggunakan solusi kami dengan percaya diri.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Tingkatkan {{FileformatCap}} Keamanan Dokumen:** {{ProdFullName}} memberdayakan pengembang untuk meningkatkan keamanan dokumen dengan mudah. Edit tanda air Anda untuk memenuhi persyaratan spesifik Anda dengan percaya diri."
+    },
+    "formats": {
+      "title": "Tingkatkan Keamanan Format Lain",
+      "description": "{{ProdFullName}} menawarkan solusi efisien untuk meningkatkan keamanan dokumen di berbagai format."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Edit Watermark di {{FileformatCap}} dokumen",
+      "description": "Sederhanakan pengeditan tanda air {{FileformatCap}} dan lindungi dokumen Anda dengan {{ProdFullName}} Library. Mencapai kontrol dan keserbagunaan yang tepat."
+    },
+    "header": {
+      "title": "Edit {{FileformatCap}} Penempatan Tanda Air: {{EnvName}} Presisi",
+      "description": "Dapatkan kontrol yang tepat atas penempatan tanda air dan keamanan dokumen dengan Solusi {{ProdFullName}}. Edit {{FileformatCap}} Watermark dengan tepat.",
+      "subtitle": "{{ProdFullName}} Perpustakaan",
+      "action_title": "Unduh di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Edit {{FileformatCap}} Penempatan Tanda Air:** Dapatkan kontrol presisi atas penempatan tanda air dan keamanan dokumen dengan {{ProdFullName}} Pengembang. Sederhanakan alur kerja Anda dan pastikan keaslian dengan mudah."
+    },
+    "formats": {
+      "title": "Sempurnakan Watermark dalam Format Lain",
+      "description": "Edit tanda air dalam berbagai format dokumen dengan {{ProdFullName}}."
+    }
+  }
+}

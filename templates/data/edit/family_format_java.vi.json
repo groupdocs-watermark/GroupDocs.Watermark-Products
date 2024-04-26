@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Điều chỉnh hình mờ văn bản {{FileFormatUp}}",
+    "comment_2": "Thực hiện Watermarker với tài liệu đầu vào {{FileFormatUp}}",
+    "comment_3": "Khởi tạo TextSearchCriteria và tìm hình mờ văn bản",
+    "comment_4": "Điều chỉnh thuộc tính hình mờ văn bản",
+    "comment_5": "Lưu tài liệu đã cập nhật"
+  },
+  "steps": {
+    "title": "Điều chỉnh hình mờ trong {{FileformatCap}} tài liệu với {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp các nhà phát triển {{EnvName}} dễ dàng điều chỉnh hình mờ văn bản trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản:",
+      "step_1": "**Watermarker**. Bạn có thể cung cấp tệp để xử lý tiếp theo dưới dạng luồng hoặc dưới dạng đường dẫn trên đĩa cục bộ.",
+      "step_2": "**Tiêu chí tìm kiếm** giúp xác định hình mờ có thuộc tính phù hợp đã được thêm vào tài liệu trước đó.",
+      "step_3": "**Tìm kiếm**. Điều chỉnh các thuộc tính hình mờ tìm thấy như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v... Có rất nhiều cách để tùy chỉnh dữ liệu của bạn.",
+      "step_4": "Sau khi hoàn thành quá trình điều chỉnh hình mờ, bạn cần lưu tài liệu cập nhật. Sử dụng đường dẫn tệp cục bộ, tệp hoặc luồng byte để lưu trữ kết quả."
+    }
+  },
+  "more_features": {
+    "title": "Tìm hiểu sâu về {{FileFormatUp}} điều chỉnh hình mờ",
+    "description": "API của chúng tôi cho phép {{EnvName}} ứng dụng thêm, chỉnh sửa, xóa và tìm kiếm hình mờ trên các định dạng tài liệu phổ biến.",
+    "image_description": "Điều chỉnh hình mờ",
+    "feature_1": {
+      "title": "Dễ dàng tô mờ tài liệu của bạn",
+      "content": "{{ProdShortName}} đơn giản hóa việc tạo hình mờ cho {{EnvName}} nhà phát triển. Thêm hình mờ đa dạng vào các tài liệu và tệp kinh doanh khác nhau. Bạn không chỉ có thể áp dụng hình mờ mà còn có thể cập nhật hoặc xóa các hình mờ hiện có."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh hình mờ theo nhu cầu của bạn",
+      "content": "API của chúng tôi cung cấp các tùy chọn tùy chỉnh mở rộng. Dễ dàng điều chỉnh kích thước, xoay, màu sắc, phông chữ, kiểu dáng và hơn thế nữa để đạt được hình mờ hoàn hảo."
+    },
+    "feature_3": {
+      "title": "Sử dụng các tính năng tài liệu gốc {{FileFormatUp}}",
+      "content": "Tùy thuộc vào định dạng tài liệu cụ thể, bạn có thể sử dụng các chức năng gốc. Chúng có thể bao gồm nền trang tài liệu, chú thích, tiêu đề hoặc các đối tượng khác làm vùng chứa hình mờ."
+    },
+    "code_1": {
+      "title": "PDF điều chỉnh hình mờ văn bản",
+      "content": "Ví dụ này cho thấy cách điều chỉnh văn bản của các hiện vật cụ thể.",
+      "comment_1": "Tải tài liệu PDF",
+      "comment_2": "Nhận nội dung tài liệu",
+      "comment_3": "Điều chỉnh văn bản hình mờ cụ thể",
+      "comment_4": "Lưu tài liệu"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Điều chỉnh công cụ hình mờ Excel - {{ProdShortName}}",
+      "description": "Điều chỉnh, cập nhật và quản lý hình mờ dễ dàng với {{ProdShortName}}. Tùy chỉnh tài liệu của bạn một cách dễ dàng."
+    },
+    "header": {
+      "title": "Công cụ điều chỉnh hình mờ bảng tính: Đơn giản mạnh mẽ",
+      "description": "Nâng cao tài liệu của bạn với công cụ chỉnh sửa hình mờ trực quan của chúng tôi. Đơn giản hóa quy trình làm việc của bạn dễ dàng.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} CÁ",
+      "content": "**Công cụ điều chỉnh hình mở**: Công cụ đánh dấu hình mờ của chúng tôi cung cấp giải pháp thân thiện với người dùng để nâng cao và bảo vệ tài liệu của bạn. Với các tính năng chỉnh sửa trực quan, việc quản lý hình mờ trở nên dễ dàng, đảm bảo tính bảo mật và tính xác thực của tài liệu."
+    },
+    "formats": {
+      "title": "Điều chỉnh Hình mờ qua {{ProdFullName}} cho các định dạng khác",
+      "description": "Tùy chỉnh hình mờ trên nhiều định dạng tài liệu một cách dễ dàng. Nâng cao tính xác thực và bảo mật tài liệu một cách dễ dàng."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Điều chỉnh hình mờ Word dễ dàng - {{ProdShortName}}",
+      "description": "Điều chỉnh liền mạch hình mờ trên nhiều định dạng tài liệu bằng cách sử dụng {{ProdShortName}}. Tăng cường bảo mật tài liệu của bạn."
+    },
+    "header": {
+      "title": "Điều chỉnh hình mờ Word: Bảo mật dễ dàng",
+      "description": "Bảo mật tài liệu của bạn một cách dễ dàng với khả năng sửa đổi hình mờ mạnh mẽ của chúng tôi. Bảo vệ nội dung của bạn một cách tự tin.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Sửa đổi hình màu**: {{ProdShortName}} cho phép người dùng sửa đổi hình mờ trên các định dạng tài liệu khác nhau một cách liền mạch. Với khả năng kiểm soát chính xác và các tùy chọn linh hoạt, tùy chỉnh tài liệu của bạn một cách tự tin."
+    },
+    "formats": {
+      "title": "Điều chỉnh hình mờ bằng {{ProdFullName}} cho các định dạng phổ biến",
+      "description": "GroupDocs.Watermark hỗ trợ sửa đổi liền mạch hình mờ ở các định dạng khác nhau. Điều chỉnh chiến lược đánh dấu mờ của bạn để đáp ứng nhu cầu cụ thể của bạn."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Điều chỉnh hình mờ PowerPoint một cách dễ dàng - {{ProdShortName}}",
+      "description": "Dễ dàng cập nhật hình mờ trong các loại tài liệu khác nhau với {{ProdShortName}}. Duy trì tính toàn vẹn của tài liệu dễ dàng."
+    },
+    "header": {
+      "title": "Điều chỉnh hình mờ PowerPoint: Kiểm soát chính xác",
+      "description": "Duy trì kiểm soát chính xác tính toàn vẹn tài liệu của bạn với tính năng cập nhật hình mờ của chúng tôi. Đảm bảo tính xác thực một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Tải về tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thư viện",
+      "content": "**Cập nhật hình mước**: Giữ quyền kiểm soát tính toàn vẹn tài liệu của bạn với tính năng hình mờ cập nhật của chúng tôi. Dễ dàng sửa đổi hình mờ trên các loại tài liệu khác nhau, duy trì tính xác thực và bảo mật."
+    },
+    "formats": {
+      "title": "Điều chỉnh hình mờ trong định dạng doanh nghiệp bằng {{ProdFullName}}",
+      "description": "Dễ dàng cập nhật hình mờ trên các loại tài liệu khác nhau với kiểm soát chính xác. Duy trì tính toàn vẹn và bảo mật tài liệu một cách liền mạch."
+    }
+  }
+}

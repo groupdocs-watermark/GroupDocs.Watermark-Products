@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Generieren Sie ein Textwasserzeichen in der Datei {{FileFormatUp}}",
+    "comment_2": "Datei angeben, die mit einem Wasserzeichen versehen werden soll",
+    "comment_3": "Generieren Sie eine Textwasserzeichen-Instanz",
+    "comment_4": "{{FileFormatUp}} Ergebnis speichern"
+  },
+  "steps": {
+    "title": "Verbessern Sie Ihre Dokumente: Generieren Sie Wasserzeichen für {{FileformatCap}} mit {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu verschiedenen Geschäftsdateiformaten für {{EnvName}} Entwickler vereinfacht. Integrieren Sie unsere Bibliothek in Ihre Anwendung und versehen Sie Dokumente mühelos mit Wasserzeichen, indem Sie die folgenden Schritte ausführen:",
+      "step_1": "**Initiieren Sie Ihre Watermarking-Reise:** Machen Sie sich zunächst mit der Klasse **Watermarker** vertraut, dem Eckpfeiler unserer API. Um den Prozess zu starten, stellen Sie sicher, dass Sie ihn vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, wie wichtig es ist, dem Konstruktor die Datei {{FileformatCap}} zur Verfügung zu stellen, unabhängig davon, ob es sich um einen Pfad oder ein Stream-Objekt handelt.",
+      "step_2": "**Erstellung benutzerdefinierter Wasserzeichen:** Fahren Sie mit der nächsten Phase fort, indem Sie ein **Wasserzeichen**-Objekt erstellen, das auf Ihre Spezifikationen zugeschnitten ist. Dieses vielseitige Tool ist nicht auf bestimmte Dokumentseiten beschränkt. Es kann auch nahtlos in native Dokumentelemente wie Anlagen oder Kopfzeilen integriert werden.",
+      "step_3": "**Feinabstimmung der Wasserzeichen-Attribute:** Verfeinern Sie Ihr Wasserzeichenerlebnis, indem Sie Eigenschaften wie Höhe, Breite, Seitenausrichtung, Schriftfamilie und Farbe anpassen. Dieser Grad der Anpassung stellt sicher, dass sich Ihre Wasserzeichen nahtlos in Ihre Dokumente einfügen.",
+      "step_4": "**Wasserzeichen anbringen:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen mühelos auf Ihre Dokumente anzuwenden. Unabhängig davon, ob Sie ein oder mehrere Wasserzeichen hinzufügen müssen, bietet dieses Verfahren Flexibilität. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten Ort zu speichern."
+    }
+  },
+  "more_features": {
+    "title": "Tauchen Sie tief in das Hinzufügen von Wasserzeichen ein",
+    "description": "Nutzen Sie unsere leistungsstarke API, um Dokumente, Folien, Diagramme und verschiedene andere Dokumenttypen in .NET Anwendungen zu rendern, anzuzeigen, zu konvertieren und zu verwalten. GroupDocs.Watermark integriert nahtlos Wasserzeichenfunktionen, um die Dokumentensicherheit und den Urheberrechtsschutz zu verbessern.",
+    "image_description": "Wasserzeichen hinzufügen",
+    "feature_1": {
+      "title": "Versehen Sie Ihre Dokumente mühelos mit einem Wasserzeichen.",
+      "content": "{{ProdShortName}} ermöglicht es .NET Entwicklern, Wasserzeichen einfach in ihre Anwendungen zu integrieren. Fügen Sie mühelos Text-, Bild- oder dynamische Wasserzeichen zu beliebten Geschäftsdokumenten und Dateien hinzu und stellen Sie so sicher, dass Ihre Inhalte auf allen Plattformen sicher sind und ein einheitliches Branding aufweisen."
+    },
+    "feature_2": {
+      "title": "Passen Sie Wasserzeichen an Ihre Bedürfnisse an.",
+      "content": "Passen Sie Wasserzeichen mit umfangreichen Funktionen an, die von GroupDocs.Watermark unterstützt werden, an Ihre spezifischen Anforderungen. Passen Sie Größe, Drehung, Transparenz, Farbe und Schriftart an, um sicherzustellen, dass Ihr Wasserzeichen nicht nur perfekt aussieht, sondern auch die Dokumentensicherheit erhöht, ohne wichtige Informationen zu blockieren."
+    },
+    "feature_3": {
+      "title": "Nutzen Sie native Dokumentfunktionen für Wasserzeichen",
+      "content": "Nutzen Sie die inhärenten Funktionen von Dokumentformaten für anspruchsvolle Wasserzeichen. Egal, ob native PDF Anmerkungen, MS Word Hintergründe oder Excel Kopf- und Fußzeilen verwendet werden, GroupDocs.Watermark lässt sich perfekt in die Dokumentstrukturen integrieren, um Wasserzeichen anzubringen, die sowohl effektiv als auch minimalinvasiv sind."
+    },
+    "code_1": {
+      "title": "Bild-Wasserzeichen für DOCX generieren",
+      "content": "Dieses Beispiel zeigt, wie Bildeffekte auf die Wasserzeichen der Form angewendet werden.",
+      "comment_1": "Word Dokument laden",
+      "comment_2": "Wasserzeichenoptionen einrichten",
+      "comment_3": "Wasserzeichen generieren",
+      "comment_4": "Aktualisiertes Dokument speichern"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Wasserzeichen für Excel Tabellen generieren",
+      "description": "Automatisieren Sie das Wasserzeichen von Bildern mit .NET C# für konsistente Sicherheit. Verarbeiten Sie große Mengen von Bildern effizient."
+    },
+    "header": {
+      "title": "Fügen Sie dynamische Wasserzeichen in Excel mit .NET C# hinzu",
+      "description": "Automatisieren Sie die Anwendung dynamischer Text- oder Bildwasserzeichen in Ihren Excel -Dateien mithilfe von C#. Unsere Tutorials zeigen Ihnen, wie Sie Konsistenz und Professionalität mit minimalem manuellem Eingriff aufrechterhalten können.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "{{ProdFullName}} ermöglicht die nahtlose Integration von Wasserzeichen in Excel Tabellen und bietet Unternehmen so die Tools, die sie benötigen, um ihre Dokumente zu sichern und zu personalisieren. Diese C#-Bibliothek unterstützt eine Vielzahl von Wasserzeichentypen und ermöglicht detaillierte Anpassungen, einschließlich Anpassungen der Opazität, Rotation und Ausrichtung. Darüber hinaus ist sie mit erweiterten Suchfunktionen zur Erkennung und Verwaltung vorhandener Wasserzeichen ausgestattet, um sicherzustellen, dass Ihre Tabellen vor Manipulationen und unbefugter Offenlegung geschützt sind."
+    },
+    "formats": {
+      "title": "Einbetten von Text- und Bild-Wasserzeichen in Excel mithilfe von {{ProgLang}}",
+      "description": "Verwenden Sie die GroupDocs.Watermark C#-API, um effizient benutzerdefinierte Wasserzeichen zu Excel -Tabellen hinzuzufügen. Verbessern Sie die Dokumentensicherheit und das Unternehmensbranding mit Tools, die für die schnelle und flexible Integration von Wasserzeichen entwickelt wurden."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Word Dokumentwasserzeichen generieren",
+      "description": "Optimieren Sie Word Dokumenten-Workflows mit Wasserzeichen. Bringen Sie die Integrität Ihrer Marke professionell zum Ausdruck."
+    },
+    "header": {
+      "title": "Erstellen Sie dynamische Wasserzeichen in Word und OpenOffice mit C#",
+      "description": "Setzen Sie Wasserzeichen strategisch in Ihren Word Dokumenten ein, indem Sie unser robustes C#-Toolkit verwenden. Passen Sie es mühelos an Markenstandards oder Sicherheitsanforderungen an.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} transformiert Ihre Fähigkeit, Microsoft Word -Dokumente mit Wasserzeichen zu versehen. Diese vielseitige API lässt sich nahtlos in Ihre Entwicklungsumgebung integrieren und ermöglicht das Hinzufügen anspruchsvoller Text- und Bildwasserzeichen, die absolut oder relativ innerhalb des Dokuments positioniert werden können. Sie unterstützt die Formate DOC, DOCX und RTF und bietet so Flexibilität für mehrere Word Versionen. Verschönern Sie Ihre Dokumente mit Wasserzeichen, die nicht nur sicher sind, sondern sich auch subtil in den Inhalt einfügen, sodass die Lesbarkeit und Layoutintegrität erhalten bleiben."
+    },
+    "formats": {
+      "title": "C#-gestütztes Wasserzeichen in Word und OpenOffice über {{ProgLang}}",
+      "description": "Maximieren Sie die Wirkung Ihrer MS Word - und OpenOffice-Dokumente mit maßgeschneiderten Wasserzeichen, die sowohl Schutz als auch Professionalität bieten. Unsere C#-API macht es einfach, präzise und ansprechende Wasserzeichen anzubringen."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Bilder mit .NET C# mit Wasserzeichen versehen",
+      "description": "Erfahren Sie, wie Sie mit .NET C# nahtlose Wasserzeichen auf Bilder anwenden. Schützen Sie Ihre Ressourcen, ohne Kompromisse bei der Qualität einzugehen."
+    },
+    "header": {
+      "title": "Schnelles benutzerdefiniertes Wasserzeichen für Bilder mit {{EnvName}}",
+      "description": "Unser .NET C#-Tool bietet eine schnelle Lösung für das Einbetten von Wasserzeichen in Bilder. Die Unterstützung umfangreicher Bildformate gewährleistet eine vollständige Abdeckung von Fotos bis hin zu digitalen Kunstwerken.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} wurde entwickelt, um den Wasserzeichenvorgang für Bilder zu automatisieren und unterstützt eine Vielzahl von Formaten wie JPEG, PNG, BMP und TIFF. Diese robuste API ermöglicht das schnelle Einfügen von Text- und Bildwasserzeichen, deren Deckkraft, Größe und Position an Ihre spezifischen Anforderungen angepasst werden können. Egal, ob es um den Schutz von Urheberrechten oder die Verbesserung von Marketingmaterial geht, unser Toolkit stellt sicher, dass Wasserzeichen mit hoher Genauigkeit und minimaler Beeinträchtigung der ursprünglichen Bildqualität angebracht werden."
+    },
+    "formats": {
+      "title": "Implementieren Sie Wasserzeichen schnell in allen Bildformaten über {{ProgLang}}",
+      "description": "Verbessern Sie Ihren Bildschutz mit unserem .NET C#-Toolkit, das verschiedene Bildformate schnell und effizient verarbeiten kann. Passen Sie Ihre Wasserzeichen so an, dass sie perfekt zu Ihren visuellen Inhalten passen."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Versehen Sie Ihre Fotos schnell und einfach mit einem Wasserzeichen",
+      "description": "Mit .NET C#-Wasserzeichen können Sie Ihre Fotos schnell sichern und urheberrechtlich schützen. Fangen Sie noch heute an, Ihre Arbeit zu schützen."
+    },
+    "header": {
+      "title": "Schnelles und einfaches Wasserzeichen für Fotos mit {{EnvName}}",
+      "description": "Unsere leistungsstarke C#-Bibliothek ermöglicht das schnelle Hinzufügen von Wasserzeichen auf Ihren Fotos. So können Sie das Urheberrecht schützen und die Markenidentität verbessern, ohne die Bildqualität zu beeinträchtigen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine leistungsstarke Lösung für Dienstleistungen von Fotografen, die ihr Urheberrecht und ihre Markenidentität schützen möchten. Diese API ermöglicht das schnelle Hinzufügen von Text- oder Grafikwasserzeichen zu Fotos in einer Vielzahl von Formaten, darunter JPEG, PNG und RAW. Passen Sie Ihre Wasserzeichen hinsichtlich Transparenz, Größe und Position so an, dass sie sich nahtlos in das Foto einfügen. So bleibt die ästhetische Qualität erhalten, während Sie gleichzeitig Ihre gesetzlichen Rechte geltend machen und unbefugte Verwendung verhindern."
+    },
+    "formats": {
+      "title": "Schützen Sie Ihre Fotos mit effektiven Wasserzeichen {{ProgLang}}",
+      "description": "Schützen und stilisieren Sie Ihre fotografischen Inhalte mit anpassbaren Wasserzeichen mithilfe unserer .NET C#-API, die so konzipiert ist, dass sie sich nahtlos integrieren und die Bildqualität erhalten bleibt."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Erstellen Sie erweiterte Wasserzeichenfunktionen für Präsentationen",
+      "description": "Verwenden Sie fortgeschrittene Techniken, um wirkungsvolle Wasserzeichen für Präsentationen zu erstellen. Sorgen Sie nahtlos für die Sicherheit Ihrer Inhalte."
+    },
+    "header": {
+      "title": "Innovieren Sie Ihre Präsentationen mit fortschrittlichen Wasserzeichen in C#",
+      "description": "Betten Sie mithilfe unserer C#-API modernste Text- und Bildwasserzeichen in Ihre PowerPoint Folien ein. Perfekt, um die Sicherheit und das professionelle Erscheinungsbild von Präsentationen zu erhöhen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} wurde entwickelt, um das effiziente Einfügen fortgeschrittener Wasserzeichen in PowerPoint Präsentationen zu erleichtern. Ganz gleich, ob Sie es mit vertraulichen Informationen zu tun haben oder das Branding Ihres Unternehmens auf Folien verstärken möchten, unsere API bietet robuste Wasserzeichenlösungen, die an einzelne Folien oder ganze Präsentationen angepasst werden können. Von einfachen Textmarken bis hin zu aufwändigen Logos — passen Sie das Aussehen und die Platzierung Ihres Wasserzeichens so an, dass es sich nahtlos in Ihre Foliendesigns integrieren lässt und gleichzeitig eine zusätzliche Sicherheitsebene bietet."
+    },
+    "formats": {
+      "title": "Schützen und personalisieren Sie Präsentationen mit Wasserzeichen in {{ProgLang}}",
+      "description": "Verwenden Sie unser C#-Toolkit, um schnell benutzerdefinierte Wasserzeichen anzubringen, die die Integrität und Ästhetik Ihrer PowerPoint Präsentationen bewahren. Ideal für professionelle und pädagogische Umgebungen."
+    }
+  }
+}

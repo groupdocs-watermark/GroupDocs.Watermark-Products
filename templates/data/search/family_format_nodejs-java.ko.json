@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 에 대한 텍스트 워터마크 목록 가져오기",
+    "comment_2": "워터마커 클래스 인스턴스화",
+    "comment_3": "텍스트 기준으로 워터마크 가져오기",
+    "comment_4": "워터마크 정보 사용"
+  },
+  "steps": {
+    "title": "{{ProdShortName}} 을 통해 {{FileformatCap}} 개 파일의 워터마크를 효율적으로 가져오기",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**는 다양한 비즈니스 문서 형식에 포함된 워터마크를 검색하는 프로세스를 간소화합니다.{{ProdShortName}} 을 (를) {{EnvName}} 애플리케이션에 원활하게 통합하여 강력한 워터마크 감지 기능을 제공합니다.",
+      "step_1": "**Watermarker** 클래스를 인스턴스화하고 {{FileformatCap}} 파일 경로, 파일 스트림 또는 바이트 스트림을 입력으로 제공하십시오.이 작업은 워터마크 분석을 위해 문서를 로드합니다.",
+      "step_2": "**SearchCriteria** 객체를 활용하십시오.유사한 이미지 워터마크를 찾기 위한 이미지를 지정하십시오.또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개 변수를 정의하여 검색 기준을 세분화할 수 있습니다.",
+      "step_3": "**Watermarker** 객체의 **Get** 메서드를 사용하여 로드된 문서 내에서 워터마크 감지 프로세스를 시작합니다.이 함수는 잠재적 워터마크를 나타내는 개체 컬렉션을 반환하므로 추가 처리가 가능합니다.",
+      "step_4": "검색된 워터마크 개체 컬렉션을 사용하면 많은 가능성을 얻을 수 있습니다.원하지 않는 워터마크를 제거하거나 워터마크의 속성을 수정할 수 있습니다.콘텐츠 변경, 페이지의 워터마크 이동 등 다양한 작업을 수행할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "Node.js 파일에서 {{ProdShortName}} 를 사용하여 워터마크 검색을 간소화하세요",
+    "description": "{{ProdShortName}} 를 사용하여 Node.js 애플리케이션에서 고급 워터마크 검색 기능을 구현하여 {{EnvName}} 내에서 문서 관리를 최적화하는 방법을 알아보십시오.",
+    "image_description": "Node.js 내 워터마크 검색하기",
+    "feature_1": {
+      "title": "Node.js 기반의 고급 워터마크 감지",
+      "content": "{{ProdShortName}} 를 활용하여 모든 문서 형식의 워터마크를 탐지하고 식별하는 기능을 향상시키십시오.정교한 필터링 옵션을 사용하여 효율적으로 검색하세요."
+    },
+    "feature_2": {
+      "title": "사용자 지정 워터마크 검색을 위한 Node.js API",
+      "content": "Node.js API를 사용하여 검색 작업을 사용자 지정합니다.위치, 불투명도, 콘텐츠 유형과 같은 세부 매개변수를 지정하여 워터마크를 찾고 문서 워크플로를 최적화하세요."
+    },
+    "feature_3": {
+      "title": "효율적인 워터마크 검색 및 분석",
+      "content": "{{ProdShortName}} 를 사용하면 다양한 문서에서 워터마크를 신속하게 추출하고 분석할 수 있습니다.API는 빠른 검색을 지원하므로 규정 준수 및 브랜드 일관성을 유지할 수 있습니다."
+    },
+    "code_1": {
+      "title": "Node.js 예제: 효율적인 워터마크 검색",
+      "content": "정확한 결과를 얻기 위해 동적 검색 기준을 사용하는 방법을 설명하면서 Node.js 를 {{ProdShortName}} 와 함께 사용하여 다양한 문서 유형에서 워터마크를 검색하는 방법을 살펴보세요.",
+      "comment_1": "Node.js 환경을 초기화하고 대상 문서를 로드합니다.",
+      "comment_2": "유연한 기준을 사용하여 특정 워터마크를 찾기 위한 검색 쿼리를 설정합니다.",
+      "comment_3": "검색을 실행하고 기준에 맞는 워터마크를 수집합니다.",
+      "comment_4": "결과를 처리하고 분석하여 필요한 조치를 결정합니다."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "스프레드시트 워터마크 비밀 {{FileformatCap}} 개 잠금 해제",
+      "description": "문서에서 워터마크를 손쉽게 검색할 수 있는 {{ProdFullName}} 의 기능을 알아보세요."
+    },
+    "header": {
+      "title": "{{FileformatCap}} 스프레드시트의 숨겨진 워터마크 드러내기",
+      "description": "{{ProdFullName}} 를 사용하여 문서에 숨겨진 워터마크를 찾아보세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 가져오기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 기본 정보",
+      "content": "{{EnvName}} 전반에서 워터마크를 관리할 때 {{ProdFullName}} 의 잠재력을 활용하십시오.PDF, Word, Excel, PowerPoint 등을 비롯한 다양한 파일 형식에서 워터마크를 쉽게 생성, 업데이트, 가져오기 및 삭제할 수 있습니다."
+    },
+    "formats": {
+      "title": "다양한 형식 살펴보기",
+      "description": "다양한 파일 형식에서 워터마크를 쉽게 검색, 검색 및 관리할 수 있습니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}} 문서에서 마스터 워터마크 추출",
+      "description": "{{ProdShortName}} 를 사용하여 문서에서 워터마크를 추출하는 전문가가 되십시오."
+    },
+    "header": {
+      "title": "전문가 {{FileformatCap}} 문서 워터마크 검색",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크를 검색할 수 있는 전문 지식을 익히십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해",
+      "content": "{{ProdFullName}} 로 워터마크 관리 기술을 마스터하세요.PDF, Word, Excel 등을 비롯한 여러 파일 형식에서 워터마크 작업을 손쉽게 처리할 수 있습니다."
+    },
+    "formats": {
+      "title": "효율적인 파일 형식 처리",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 파일 형식의 워터마크를 효율적으로 처리합니다."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{FileformatCap}} 개의 프레젠테이션 숨겨진 워터마크를 찾아보세요",
+      "description": "{{ProdShortName}} 를 사용하여 문서 내에 숨겨진 워터마크를 찾아내십시오."
+    },
+    "header": {
+      "title": "{{FileformatCap}} 개의 프레젠테이션에 삽입된 워터마크 공개",
+      "description": "{{ProdFullName}} 를 사용하여 문서 내에 숨겨진 워터마크를 발견하고 찾아내세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해 더 알아보기",
+      "content": "{{EnvName}} 전반에서 워터마크를 원활하게 관리하는 {{ProdFullName}} 의 기능을 살펴보세요.다양한 파일 형식에서 생성, 업데이트, 가져오기, 삭제와 같은 워터마크 작업을 쉽게 처리할 수 있습니다."
+    },
+    "formats": {
+      "title": "다양한 형식의 워터마크 알아보기",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 파일 형식에서 워터마크를 손쉽게 찾을 수 있습니다."
+    }
+  }
+}

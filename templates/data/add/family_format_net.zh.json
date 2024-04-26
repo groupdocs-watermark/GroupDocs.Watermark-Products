@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} 文件中生成文本水印",
+    "comment_2": "提供要加水印的文件",
+    "comment_3": "生成文本水印实例",
+    "comment_4": "保存 {{FileFormatUp}} 条结果"
+  },
+  "steps": {
+    "title": "增强您的文档：使用 {{EnvName}} 为 {{FileformatCap}} 生成水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 是一个库，它为 {{EnvName}} 开发人员简化了向各种业务文件格式添加水印的过程。使用以下步骤将我们的库集成到您的应用程序中，并毫不费力地为文档添加水印：",
+      "step_1": "**开启您的水印之旅：**首先熟悉**水印**课程，这是我们 API 的基石。要开始该过程，请确保在文档处理之前对其进行实例化。不要忽视向构造函数提供 {{FileformatCap}} 文件的重要性，无论它是路径还是流对象。",
+      "step_2": "**制作自定义水印：**根据您的规格创建**水印**对象，进入下一阶段。这个多功能工具不仅限于特定的文档页面；它还可以无缝集成到附件或标题等本机文档元素中。",
+      "step_3": "**微调水印属性：** 通过调整高度、宽度、页面对齐方式、字体系列和颜色等属性来优化您的水印体验。这种自定义级别可确保您的水印与文档无缝融合。",
+      "step_4": "**应用您的水印：**利用**水印**方法，轻松地将自定义水印应用到您的文档中。无论您需要添加一个还是多个水印，此过程都提供了灵活性。为了提高安全性，可以考虑将处理过的文档保存在单独的位置。"
+    }
+  },
+  "more_features": {
+    "title": "深入了解添加水印",
+    "description": "利用我们强大的 API 在 .NET 应用程序中呈现、显示、转换和管理文档、幻灯片、图表和其他各种文档类型。GroupDocs.Watermark 无缝集成水印功能，以增强文档安全和版权保护。",
+    "image_description": "添加水印",
+    "feature_1": {
+      "title": "毫不费力地为您的文档添加水印。",
+      "content": "{{ProdShortName}} 使 .NET 开发人员能够轻松地将水印集成到他们的应用程序中。毫不费力地为常用业务文档和文件添加文本、图像或动态水印，确保您的内容在所有平台上均安全且品牌一致。"
+    },
+    "feature_2": {
+      "title": "量身定制水印以满足您的需求。",
+      "content": "使用 GroupDocs.Watermark 支持的广泛功能自定义水印以满足您的特定要求。调整大小、旋转、透明度、颜色和字体，确保您的水印不仅看起来完美，而且还能在不妨碍重要信息的情况下增强文档安全性。"
+    },
+    "feature_3": {
+      "title": "利用原生文档功能进行水印",
+      "content": "利用文档格式的固有功能进行复杂的水印。无论是使用原生 PDF 批注、MS Word 背景还是 Excel 页眉和页脚，GroupDocs.Watermark 都与文档结构深度集成，应用既有效又微创的水印。"
+    },
+    "code_1": {
+      "title": "为 DOCX 生成图像水印",
+      "content": "此示例说明如何将图像效果应用于形状水印。",
+      "comment_1": "加载 Word 个文档",
+      "comment_2": "设置水印选项",
+      "comment_3": "生成水印",
+      "comment_4": "保存更新的文档"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "为 Excel 电子表格生成水印",
+      "description": "使用 .NET C# 自动为图像添加水印，以实现一致的安全性。高效处理大批量图像。"
+    },
+    "header": {
+      "title": "使用 .NET C# 在 Excel 中添加动态水印",
+      "description": "使用 C# 自动在 Excel 文件上应用动态文本或图像水印。我们的教程向您展示如何保持一致性和专业性，同时最大限度地减少人工干预。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 支持将水印无缝集成到 Excel 电子表格中，为企业提供保护和个性化文档所需的工具。此 C# 库支持多种水印类型，并允许进行详细自定义，包括不透明度、旋转和对齐调整。此外，它还配备了高级搜索功能，可以检测和管理现有水印，确保您的电子表格免遭篡改和未经授权的披露。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 在 Excel 中嵌入文本和图像水印",
+      "description": "利用 GroupDocs.Watermark C# API 向 Excel 电子表格高效添加自定义水印。使用专为快速灵活的水印集成而设计的工具，增强文档安全性和企业品牌推广。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "生成 Word 文档水印",
+      "description": "使用水印简化 Word 文档工作流程。专业地反映您品牌的完整性。"
+    },
+    "header": {
+      "title": "使用 C# 在 Word 和 OpenOffice 中创建动态水印",
+      "description": "使用我们强大的 C# 工具包，在您的 Word 文档中策略性地部署水印。轻松进行定制以符合品牌标准或安全要求。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 改变了你为微软 Word 文档添加水印的能力。这种多功能 API 可以无缝集成到您的开发环境中，从而可以添加复杂的文本和图像水印，这些水印可以在文档中绝对或相对放置。它支持 DOC、DOCX 和 RTF 格式，为多个 Word 版本提供了灵活性。使用水印增强您的文档，这些水印不仅安全，而且可以巧妙地与内容融为一体，保持可读性和布局完整性。"
+    },
+    "formats": {
+      "title": "通过 {{ProgLang}} 在 Word 和 OpenOffice 中使用 C# 提供水印",
+      "description": "使用定制设计的水印，最大限度地提高您的 MS Word 和 OpenOffice 文档的影响力，这些水印既能提供保护，又能提供专业性。我们的 C# API 使应用精确而有吸引力的水印变得简单。"
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用 .NET C# 为图像加水印",
+      "description": "学习使用 .NET C# 在图像上应用无缝水印。在不影响质量的情况下保护您的资产。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 对图像进行快速自定义水印",
+      "description": "我们的 .NET C# 工具为将水印嵌入图像提供了快速的解决方案。对多种图像格式的支持可确保从照片到数字艺术品的全面覆盖。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 旨在自动化图像的水印过程，支持多种格式，例如 JPEG、PNG、BMP 和 TIFF。这个强大的API允许快速插入文本和图像水印，这些水印的不透明度、大小和位置可根据您的特定要求进行调整。无论是保护版权还是增强营销材料，我们的工具包都可确保以高保真度应用水印，并最大限度地减少对原始图像质量的影响。"
+    },
+    "formats": {
+      "title": "通过 {{ProgLang}} 快速实现跨图像格式的水印",
+      "description": "使用我们的 .NET C# 工具包增强您的图像保护，该工具包能够快速高效地处理各种图像格式。量身定制水印，使其与视觉内容完美融合。"
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "快速轻松地为照片添加水印",
+      "description": "使用 .NET C# 水印快速保护照片并声明其版权。立即开始保护您的工作。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 快速轻松地为照片添加水印",
+      "description": "我们强大的 C# 库允许对照片进行快速水印，帮助您在不影响图像质量的情况下保护版权和增强品牌标识。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为希望保护其版权和品牌标识的摄影师服务提供了强大的解决方案。此 API 允许快速向照片添加各种格式的文本或图形水印，包括 JPEG、PNG 和 RAW。自定义水印以提高透明度、大小和位置，使其与照片无缝融合，保持美学品质，同时维护您的合法权利并阻止未经授权的使用。"
+    },
+    "formats": {
+      "title": "使用有效的水印保护您的照片 {{ProgLang}}",
+      "description": "使用我们的 .NET C# API，使用可自定义的水印保护您的照片内容并使其风格化，该API旨在无缝集成并保持图像质量。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "为演示文稿创建高级水印功能",
+      "description": "使用高级技术为演示文稿创建有影响力的水印。无缝确保内容安全。"
+    },
+    "header": {
+      "title": "使用 C# 中的高级水印来创新您的演示文稿",
+      "description": "使用我们的 C# API 将尖端的文本和图像水印嵌入到您的 PowerPoint 张幻灯片中。非常适合增强演示文稿的安全性和专业吸引力。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 专为便于在 PowerPoint 演示文稿中高效插入高级水印而设计。无论您是处理机密信息，还是想在幻灯片上增强公司的品牌，我们的 API 都提供强大的水印解决方案，可以适应单张幻灯片或整个演示文稿。从简单的文字标记到精美的徽标，定制水印的外观和位置，以与幻灯片设计无缝集成，同时提供额外的安全层。"
+    },
+    "formats": {
+      "title": "在 {{ProgLang}} 中使用水印保护和个性化演示文稿",
+      "description": "使用我们的 C# 工具包快速应用自定义水印，以保持 PowerPoint 演示文稿的完整性和美观性。非常适合专业和教育环境。"
+    }
+  }
+}

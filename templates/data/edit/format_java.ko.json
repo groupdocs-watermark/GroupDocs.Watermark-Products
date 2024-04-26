@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 이미지 워터마크 조정",
+    "comment_2": "{{FileFormatUp}} 로 워터마커 인스턴스화",
+    "comment_3": "특정 이미지와 일치하도록 검색 조건을 초기화합니다.",
+    "comment_4": "찾은 이미지 바꾸기",
+    "comment_5": "조정된 파일 저장"
+  },
+  "steps": {
+    "title": "{{EnvName}} 을 사용하여 {{FileformatCap}} 문서 워터마크를 조정합니다.",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**를 사용하면 {{EnvName}} 개발자는 응용 프로그램을 사용하여 많은 문서의 워터마크를 쉽게 조정할 수 있습니다.다음은 간단한 가이드입니다.",
+      "step_1": "**Watermarker** 클래스 생성자의 매개 변수로 전달해야 합니다.바이트나 파일 스트림 또는 로컬 디스크 경로를 제공하십시오.",
+      "step_2": "**SearchCriteria**를 사용하여 이전에 문서에 추가된 특정 속성을 가진 워터마크를 식별할 수 있습니다.",
+      "step_3": "검색 후 관련 워터마크 목록을 받게 됩니다.그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등을 포함한 속성을 조정할 수 있습니다.이를 통해 데이터에 대한 높은 수준의 사용자 지정이 가능합니다.",
+      "step_4": "워터마크 조정을 완료한 후 업데이트된 문서를 저장합니다.로컬 파일 경로 또는 스트림을 사용하여 결과를 저장할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "{{EnvName}} 애플리케이션을 위한 고급 {{FileFormatUp}} 워터마크 관리",
+    "description": "{{ProdShortName}} API는 개발자가 워터마킹 기능을 {{EnvName}} 애플리케이션에 원활하게 통합할 수 있도록 합니다.광범위한 문서 형식에서 워터마크를 추가, 편집, 제거 및 검색할 수 있습니다.",
+    "image_description": "워터마크 조정",
+    "feature_1": {
+      "title": "간편한 워터마크 통합",
+      "content": "{{ProdShortName}} 는 {{EnvName}} 애플리케이션 내의 다양한 비즈니스 문서 및 파일에 다양한 워터마크를 추가하는 프로세스를 간소화합니다.개발자는 워터마크를 적용할 수 있을 뿐만 아니라 프로그래밍 방식으로 기존 워터마크를 업데이트하거나 제거할 수도 있습니다."
+    },
+    "feature_2": {
+      "title": "세분화된 워터마크 커스터마이징",
+      "content": "API는 워터마크에 대한 광범위한 사용자 지정 옵션을 제공합니다.개발자는 크기, 회전, 색상, 글꼴, 스타일 및 기타 속성을 쉽게 조정하여 원하는 시각적 효과를 얻을 수 있습니다."
+    },
+    "feature_3": {
+      "title": "{{FileFormatUp}} 개의 기본 문서 기능 활용",
+      "content": "개발자는 대상 문서 형식에 따라 워터마크 배치를 위한 기본 기능을 활용할 수 있습니다.이러한 기능에는 문서 페이지 배경, 주석, 헤더 또는 워터마크 컨테이너인 기타 개체가 포함될 수 있습니다."
+    },
+    "code_1": {
+      "title": "스프레드시트에서 이미지 워터마크 조정",
+      "content": "이 예제에서는 Excel 워크시트에서 특정 도형의 이미지를 조정하는 방법을 보여줍니다.",
+      "comment_1": "문서를 스프레드시트로 불러오기",
+      "comment_2": "새 워터마크 바이트 가져오기",
+      "comment_3": "특정 워터마크의 내용 조정",
+      "comment_4": "결과 문서 저장"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크를 전문적으로 조정하세요 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 워터마크를 전문적으로 관리하고 사용자 지정할 수 있습니다.안심하고 문서를 보호하세요."
+    },
+    "header": {
+      "title": "애드저스트 {{FileFormatUp}} 워터마크: 프로페셔널 어슈어런스",
+      "description": "워터마크 관리 솔루션으로 전문적인 표준을 보장하세요.문서를 안정적으로 보호하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 패키지 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**워터마크 관리**: 당사의 전문 워터마크 관리 솔루션은 문서 보호를 보장합니다.워터마크를 추가, 편집, 제거할 수 있는 효율적인 도구를 사용하여 워크플로우를 간소화하세요."
+    },
+    "formats": {
+      "title": "{{ProdFullName}} 를 통해 다른 형식의 워터마크 편집",
+      "description": "다양한 문서 형식에서 워터마크 관리를 간소화합니다.당사 솔루션은 워터마크를 쉽게 추가, 편집 및 제거할 수 있는 효율적인 도구를 제공합니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서의 워터마크 조정 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 다양한 문서 형식에서 워터마크를 효율적으로 편집합니다.문서 신뢰성을 향상시키세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 워터마크 조정: 원활한 커스터마이징",
+      "description": "효율적인 워터마크 편집 도구를 사용하여 문서를 원활하게 사용자 지정할 수 있습니다.브랜드 이미지를 손쉽게 개선하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**워터마크 편집**: 강력한 편집 도구를 사용하여 문서를 원활하게 사용자 지정할 수 있습니다.배치를 조정하든 콘텐츠를 변경하든 원하는 워터마크 효과를 손쉽게 얻을 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProdFullName}} 를 사용하여 다양한 형식의 워터마크 수정",
+      "description": "다양한 문서 형식의 워터마크를 원활하게 편집할 수 있습니다.보호와 신뢰성을 보장하면서 문서를 손쉽게 사용자 정의할 수 있습니다."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} - {{ProdShortName}} 에서 워터마크를 조정하세요",
+      "description": "{{ProdShortName}} 를 사용하여 다양한 문서 유형에서 워터마크를 손쉽게 조정하고 다듬을 수 있습니다.문서의 신뢰성을 보장하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 개의 워터마크 조정: 다양한 보호",
+      "description": "다양한 워터마크 조정 기능을 사용하여 다양한 형식의 콘텐츠를 보호하세요.필요에 맞게 원활하게 조정하세요.",
+      "subtitle": "{{ProdFullName}} 솔루션",
+      "action_title": "무료 {{PackageStoreName}} 패키지"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 솔루션",
+      "content": "**워터마크 조정**: 다양한 워터마크 조정 기능을 사용하여 다양한 문서 형식에서 콘텐츠를 보호합니다.특정 요구 사항을 쉽게 충족하도록 워터마킹 전략을 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProdFullName}} 를 사용하여 인기 있는 형식의 워터마크 관리",
+      "description": "다양한 워터마크 조정 기능을 사용하여 다양한 형식의 콘텐츠를 보호하세요.필요에 맞게 원활하게 조정하세요."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 워터마크를 원활하게 조정 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 워터마크를 원활하게 수정하고 사용자 지정할 수 있습니다.문서를 정밀하게 보호하세요."
+    },
+    "header": {
+      "title": "워터마크 {{FileFormatUp}} 개 수정: 맞춤형 보안",
+      "description": "유연한 워터마크 수정 옵션을 사용하여 문서 보안을 조정하십시오.요구 사항에 맞는 맞춤형 보호를 보장하세요.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}} 에서 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "**워터마크 수정**: 수정 옵션을 사용하여 문서 보안을 강화하세요. {{ProdShortName}} 는 브랜딩 및 보호 요구 사항에 맞게 워터마크를 수정하고 다듬을 수 있는 맞춤형 솔루션을 제공합니다."
+    },
+    "formats": {
+      "title": "{{ProdFullName}} 를 사용하여 지원되는 다른 형식의 워터마크 수정",
+      "description": "맞춤형 워터마크 수정 옵션으로 문서 보안을 보장합니다. GroupDocs.Watermark 은 워터마크를 수정하고 다듬을 수 있는 유연한 솔루션을 제공합니다."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 워터마크를 손쉽게 조정 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 문서를 손쉽게 사용자 지정할 수 있습니다.워터마크를 쉽게 편집하고 관리할 수 있습니다."
+    },
+    "header": {
+      "title": "워터마크 사용자 지정 {{FileFormatUp}} 개: 직관적인 브랜딩",
+      "description": "맞춤형 워터마킹 도구를 사용하여 문서를 효과적으로 브랜딩하세요.브랜드 인지도를 손쉽게 높이세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**워터마크 사용자 지정**: 맞춤형 워터마크 도구를 사용하여 브랜드 이미지를 높이세요.문서 보안과 신뢰성을 보장하면서 브랜딩 요소를 손쉽게 추가할 수 있습니다."
+    },
+    "formats": {
+      "title": "지원되는 다른 형식의 워터마크를 {{ProdFullName}} 로 조정합니다.",
+      "description": "맞춤형 워터마킹 도구를 사용하여 브랜드 인지도를 높이세요.보안과 신뢰성을 유지하면서 문서에 효과적으로 브랜드를 붙이세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} - {{ProdShortName}} 에서 워터마크를 조정하세요",
+      "description": "{{ProdShortName}} 를 사용하여 문서를 정밀하게 다듬을 수 있습니다.워터마크를 손쉽게 조정하고 업데이트할 수 있습니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 다듬기: 워터마크 편집",
+      "description": "포괄적인 워터마크 편집 기능으로 문서를 다듬을 수 있습니다.콘텐츠를 정밀하게 다듬으세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**문서 다듬기**: 포괄적인 워터마크 편집 기능을 통해 문서를 정밀하게 수정할 수 있습니다.사소한 조정부터 전체 변환에 이르기까지 손쉽게 세련된 결과를 얻을 수 있습니다."
+    },
+    "formats": {
+      "title": "폴란드어 문서 {{ProdFullName}} 를 사용한 다른 형식의 워터마크",
+      "description": "포괄적인 워터마크 편집 기능을 사용하여 문서를 정밀하게 수정하십시오.문서 신뢰성을 손쉽게 향상시키세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 워터마크를 조정하세요 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 워터마크 배치를 수정하세요.문서 보안 및 신뢰성을 강화하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 워터마크 배치 개선: 전문가 정밀도",
+      "description": "당사의 정밀 도구를 사용하여 전문적인 워터마크 배치를 달성하십시오.문서 보안을 정확하게 개선하세요.",
+      "subtitle": "{{ProdFullName}} 솔루션",
+      "action_title": "{{PackageStoreName}} 에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 솔루션",
+      "content": "**워터마크 배치 수정**: 당사의 정밀 도구를 사용하여 워터마크를 전문적으로 배치할 수 있습니다. {{ProdShortName}} 는 배치를 구체화하고 문서 보안을 보장하기 위한 직관적인 제어 기능을 제공합니다."
+    },
+    "formats": {
+      "title": "{{ProdFullName}} 를 사용하여 지원되는 다른 형식의 워터마크 미세 조정",
+      "description": "직관적인 컨트롤로 전문적인 워터마크 배치를 할 수 있습니다.정확한 배치 및 사용자 지정으로 문서 보안을 보장하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 조정 및 관리 - {{ProdShortName}}",
+      "description": "{{ProdShortName}} 를 사용하여 워터마크 관리 프로세스를 간소화하세요.문서 보호 및 브랜딩을 간소화합니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 워터마크 관리 간소화: 간소화된 제어",
+      "description": "간소화된 솔루션으로 워터마크 관리 프로세스를 간소화하세요.콘텐츠에 쉽게 집중할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "**워터마크 옵션 조정**: 정밀 솔루션을 사용하여 페이지에서 워터마크를 이동합니다. {{ProdShortName}} 는 워터마크 조정 및 문서 보안 보장을 위한 다양한 옵션을 제공합니다."
+    },
+    "formats": {
+      "title": "다른 파일 형식의 워터마크 편집에는 {{ProdFullName}} 를 사용하십시오.",
+      "description": "다양한 문서 형식에서 워터마크 관리 프로세스를 간소화합니다.보호 및 브랜딩을 보장하면서 콘텐츠에 쉽게 집중할 수 있습니다."
+    }
+  }
+}

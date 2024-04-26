@@ -1,324 +1,272 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "landing"
+date: 2024-04-26T21:39:08
 draft: false
 
+lang: ru
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: ".NET API для добавления поиска и удаления водяных знаков в изображения Word Excel PDF"
-head_description: "C# .NET API для добавления, поиска и удаления графических и текстовых водяных знаков из документов: PDF, Word, Excel, презентации, Visio, электронная почта и форматы файлов изображений."
+head_title: "C# .NET Программное обеспечение для водяных знаков для документов | добавить водяной знак"
+head_description: "Библиотека C# .NET для добавления, поиска и удаления водяных знаков в документах: PDF, Word, Excel, презентации, Visio диаграммы, форматы файлов электронной почты и изображений."
 
 ############################# Header ############################
-title: ".NET API для управления водяными знаками"
-description: "Создавайте приложения .NET для работы с текстовыми и графическими водяными знаками с функциями интеллектуального поиска и надежной защиты."
-button:
-    enable: true
+title: "Легко наносите водяные знаки на документы в приложениях на C# .NET"
+description: "Расширьте возможности своих решений на C# с помощью гибкого API водяных знаков для документов, который позволяет добавлять настраиваемые водяные знаки во все популярные форматы документов."
+words:
+  for: "для"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "/border/groupdocs-watermark-net.svg"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+actions:
+  main: "Бесплатно NuGet Скачать"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "Лицензирование"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net/"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Watermark бесплатно или запросите лицензию"
 
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Обзор"
+release:
+  title: "Выпущена версия {0}"
+  notes: "Узнайте, что нового"
+  downloads: "Загрузки"
 
-            # button loop
-            - link: "#features"
-              text: "Функции"
-
-            # button loop
-            - link: "#support"
-              text: "Support"
-
-            # button loop
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-############################# Обзор ############################
-overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark для .NET позволяет создавать готовые к продаже бизнес-приложения на C#, ASP.NET и других технологиях, связанных с .NET, которые позволяют вашим конечным пользователям добавлять новые водяные знаки, искать и удалять существующие водяные знаки в поддерживаемых форматах файлов. . Используя GroupDocs.Watermark для .NET, вы можете программно применять цифровые водяные знаки к множеству форматов файлов и препятствовать несанкционированному использованию интеллектуальной собственности, а также надежно маркировать документы конфиденциального характера с помощью различных встроенных мер безопасности, предлагаемых этим API.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Ниже приведен обзор GroupDocs.Watermark для .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Обзор"
-          content: |
-            * Добавить и удалить водяной знак
-            * Поиск и замена водяного знака
-            * Поиск по форматированию
-            * Поиск по сравнению изображений
-            * Работа с верхними и нижними колонтитулами
-            * Работа с фоновыми изображениями
-            * Работа с вложениями
-            * Растеризовать страницы
-            * Применить ограничения редактирования
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          Поддерживаемые [форматы документов и тип водяного знака](https://docs.groupdocs.com/watermark/net/supported-document-formats/) для каждого формата перечислены ниже:
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            # table loop
-            - title: "Добавление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация
-                * **Слово**: Форма
-                * **Excel**: форма, верхний и нижний колонтитулы
-                * **PowerPoint**: Форма
-                * **Visio**: Форма
-                * **Растровое изображение**: текст, изображение
-                * **Многостраничный Tiff**: текст, изображение
-                * **Анимированный Gif**: текст, изображение
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "PDF и графические документы"
-              content: |
-                * **Portable Document Format**: PDF
-                * **Open Document**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Images**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            # table loop
-            - title: "Удаление водяного знака"
-              content: |
-                * **PDF**: XObject, артефакт, аннотация, обычный текст
-                * **Word**: Фигура, обычный текст
-                * **Excel**: форма, верхний и нижний колонтитулы, фоновое изображение, текст и формулы в ячейках
-                * **PowerPoint**: Форма
-                * **Visio**: форма, комментарии к диаграмме
-                * **Электронная почта**: прикрепленные и встроенные изображения, фрагменты темы и основного текста
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Watermark for .NET поддерживает следующие Операционные системы, Frameworks & Менеджер пакетовs:
+code:
+  title: "Файлы водяных знаков PDF в C#"
+  more: "Больше примеров"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/"
+  install: "dotnet add package GroupDocs.Watermark"
+  content: |
+    ```csharp {style=abap}   
+    // Создайте экземпляр Watermarker, передающий путь PDF
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    using (Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions))
+    {
+        // Настройте параметры водяных знаков
+        TextWatermark textWatermark = 
+            new TextWatermark("Approved", new Font("Arial", 8));
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Операционные системы"
-              content: |
-                * Рабочий стол Windows
-                * Windows-сервер
-                * Windows Azure
-                * линукс
+        // Применить водяной знак к документу PDF
+        watermarker.Add(textWatermark);
 
-            # table loop
-            - icon: "fas fa-code"
-              title: "Поддерживаемые платформы"
-              content: |
-                * .NET Framework 2.0 или выше
-                * Монофреймворк 1.2 или выше
-                * .NET Стандарт 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
+        // Сохранить документ с результатами
+        watermarker.Save("result.pdf");
+    }
+    ```
 
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Менеджер пакетов"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Среды разработки"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * МоноДевелопмент
-
-############################# Функции ############################
-features:
-    enable: true
-    title: "GroupDocs.Watermark for .NET Функции"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Добавление или удаление водяных знаков из определенного раздела или всего документа различных форматов файлов"
-
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Прикрепите водяной знак ко всем изображениям в определенном разделе, странице, слайде или документе"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Назначить водяной знак только определенным кадрам многокадрового изображения"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Выделить скрытый водяной знак для PDF, который появляется только при печати документа"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Установите водяной знак на все вложения в документе Excel и на все формы изображений в слайдах"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Поместите водяной знак или удалите его с фоновых изображений электронной таблицы или слайдов"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Используйте водяной знак для поддерживаемых файлов во всех вложениях электронного письма или документа PDF"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Применение или удаление водяных знаков в качестве объектов XObject, артефактов и аннотаций в документах PDF"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Удалите водяной знак, содержащий текст с определенным форматированием"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Ищите водяные знаки изображения, которые напоминают определенное изображение"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Определите текстовый водяной знак, даже если между буквами есть нечитаемые символы"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Поиск водяных знаков по определенным параметрам или по нескольким критериям"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Укажите форматирование шрифта для поиска соответствующего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Программное извлечение параметров страницы и другой информации для поддерживаемых форматов"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Добавляйте водяные знаки к изображениям внутри любых верхних и нижних колонтитулов в поддерживаемых форматах документов"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Добавьте водяной знак к фигурам изображения в документе Word и заблокируйте водяные знаки, чтобы ограничить редактирование"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Защита текстового водяного знака с помощью нечитаемых символов в презентациях"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Растеризация отдельной страницы или всего PDF-документа для защиты добавленных водяных знаков"
-      
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Изменить форматирование текста при замене существующего текстового водяного знака"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Выровнять водяной знак по окну выпуска за обрез, художественному окну, окну обрезки или окну обрезки в документе PDF"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Редактирование свойств фигуры в документах Microsoft Visio"
-
-    больше_функций:
-      # more_feature_loop
-      - title: "Добавление водяного знакаs"
-        content: |
-          GroupDocs.Watermark для .NET поддерживает несколько типов водяных знаков. Добавление водяных знаков любого типа — это всего лишь несколько строк кода. В следующем примере показано применение водяного знака изображения к документу Word с помощью C#:
-
-          ```cs
-          // Загрузите документ
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                // Использовать путь к изображению в качестве параметра конструктора
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                    watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                    watermark.VerticalAlignment = VerticalAlignment.Center;
-                    watermarker.Add(watermark);
-                }
-                // Сохраните полученный документ
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      # more_feature_loop
-      - title: "Применить водяной знак to Files of Different Formats in a Go"
-        content: "API GroupDocs.Watermark позволяет применить водяной знак или удалить водяной знак для всех файлов в определенной папке за один раз. Файлы могут быть даже разного формата, но водяной знак будет применен ко всем им точно."
-
-      # more_feature_loop
-      - title: "Надежная защита для водяных знаков"
-        content: "С помощью всего одной строки кода вы можете затруднить удаление водяного знака из PDF-файлов любым инструментом. Это достигается за счет преобразования всех страниц PDF-документа в растровые изображения с сохранением исходного качества.."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark предлагает API для просмотра документов для других популярных сред разработки."
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "/border/groupdocs-watermark-java.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-############################# Back to top ###############################
-back_to_top:
+############################# Overview ############################
+overview:
   enable: true
+  title: "GroupDocs.Watermark с первого взгляда"
+  description: "API для нанесения водяных знаков на документы через .NET"
+  features:
+    # feature loop
+    - title: "Водяной знак файлов C#"
+      content: "Добавьте водяные знаки в свои бизнес-файлы, используя GroupDocs.Watermark. Используйте текст, изображения, диаграммы или вложения электронной почты."
+
+    # feature loop
+    - title: "Настройте водяные знаки в соответствии со своими целями"
+      content: "Программное обеспечение GroupDocs.Watermark for .NET позволяет настраивать водяные знаки различными способами. Стили текста, такие как полужирный шрифт, курсив, типы шрифтов, а также такие свойства изображения, как поворот и т. д., обогащают процесс нанесения водяных знаков."
+
+    # feature loop
+    - title: "Поддерживаются все популярные форматы файлов"
+      content: "Решение GroupDocs.Watermark поддерживает множество форматов файлов и документов. PDF, Microsoft Office Word, Excel, PowerPoint, изображения, такие как диаграммы JPEG, PNG, GIF, BMP, Visio, электронные письма и т. д., можно защитить нашими водяными знаками."
+
+    # feature loop
+    - title: "Поиск и обновление водяных знаков"
+      content: "Водяные знаки, которые уже представлены в документе, можно найти и снова обработать. Измените текст, стиль, изображения или удалите обнаруженные водяные знаки без дополнительных усилий."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Независимость платформы"
+  description: "GroupDocs.Watermark for .NET поддерживает операционные системы, фреймворки и менеджеры пакетов, перечисленные ниже"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Поддерживаемые форматы файлов"
+  description: |
+    GroupDocs.Watermark for .NET обеспечивает обработку следующих [форматов файлов](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### форматы Microsoft Office и OpenDocument
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Изображения и графика
+        * **Популярные форматы изображений:** BMP, JPG, JPEG, PNG
+        * **Многостраничные изображения:** GIF, WEBP, TIFF
+      # group loop
+    - color: "red"
+      content: |
+        ### Другой
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+
+############################# Features ############################
+features:
+  enable: true
+  title: "Характеристики GroupDocs.Watermark"
+  description: "Защитите PDF, Office, изображения и другие форматы водяным знаком"
+
+  items:
+    # feature loop
+    - icon: "watermark_add"
+      title: "Водяные знаки документов"
+      content: "Добавьте или удалите водяные знаки из определенного раздела или всего документа различных форматов файлов."
+
+    # feature loop
+    - icon: "watermark_style"
+      title: "Придайте своему водяному знаку стиль"
+      content: "Настройте различные свойства водяных знаков, такие как цвет, шрифт, поворот и т. д."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "PDF скрытый водяной знак для печати"
+      content: "Присвойте скрытому водяному знаку PDF, который появляется только при печати документа."
+
+    # feature loop
+    - icon: "image_only"
+      title: "Изображения в документах только водяными знаками"
+      content: "Нанесите водяной знак на все изображения в определенном разделе, странице, слайде или документе."
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Обработать выбранные кадры изображения"
+      content: "Присваивайте водяной знак только определенным кадрам многорамочного изображения."
+
+    # feature loop
+    - icon: "attachments"
+      title: "Насадки и формы"
+      content: "Установите водяной знак на все вложения в документе Excel и на все фигуры изображений на слайдах."
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "PDF объектов"
+      content: "Совместите водяной знак с коробкой Bleed Box, Art Box, Crop Box или Trim Box в документе PDF."
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Справочная информация о документах"
+      content: "Поместите водяной знак или удалите его с фоновых изображений электронной таблицы или слайдов."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Защита от нечитаемых символов"
+      content: "Защитите текстовый водяной знак с помощью нечитаемых символов в презентациях."
+
+    # feature loop
+    - icon: "watermark_text_search"
+      title: "Поиск водяных знаков в документах"
+      content: "Ищите водяные знаки на основе определенных параметров или комбинируя несколько критериев."
+
+    # feature loop
+    - icon: "watermark_image_search"
+      title: "Искать похожие водяные знаки на изображениях"
+      content: "Ищите водяные знаки на изображении, напоминающие конкретное изображение."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Получите информацию о документе"
+      content: "Программно извлекайте настройки страницы и другую информацию о поддерживаемых форматах."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Образцы кода"
+  description: "Некоторые варианты использования типичных операций GroupDocs.Watermark for .NET"
+  items:
+    # code sample loop
+    - title: "Нанесите водяной знак, добавив изображение в документ."
+      content: |
+        Для защиты любого документа вы можете использовать [водяные знаки изображений](https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/):
+        {{< landing/code title="Как защитить файл водяным знаком изображения.">}}
+        ```csharp {style=abap}
+        // Загрузить исходный документ в Watermarker
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Укажите путь к изображению водяного знака
+            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
+            {
+                // Защитите файл и сохраните его
+                watermarker.Add(watermark);
+
+                watermarker.Save("result.pdf");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Найдите и измените существующие водяные знаки."
+      content: |
+        GroupDocs.Watermark может [изменять водяные знаки](https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/), которые уже представлены в документе. Найдите нужные элементы и обновите их свойства.
+        {{< landing/code title="Поиск и модификация водяных знаков.">}}
+        ```csharp {style=abap}   
+        // Загрузить исходный документ
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Поиск водяных знаков, подлежащих обновлению
+            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            foreach (PossibleWatermark watermark in watermarks)
+            {
+                // Обновите нужные свойства
+                watermark.Text = "New Text";
+            }
+
+            // Сохранить измененный документ по указанному пути
+            watermarker.Save("document.pdf");
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

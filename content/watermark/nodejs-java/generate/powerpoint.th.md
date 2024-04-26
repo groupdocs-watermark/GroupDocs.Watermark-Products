@@ -1,0 +1,268 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:38:59
+draft: false
+lang: th
+format: Powerpoint
+product: "Watermark"
+product_tag: "watermark"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
+
+############################# Head ############################
+head_title: "สร้างลายน้ำระดับมืออาชีพสำหรับสไลด์โชว์ด้วย Node.js"
+head_description: "ออกแบบลายน้ำที่ซับซ้อนสำหรับการนำเสนอของคุณเพิ่มการมีส่วนร่วมของผู้ดูและความปลอดภัยของเอกสาร"
+
+############################# Header ############################
+title: "สร้างลายน้ำระดับมืออาชีพสำหรับสไลด์โชว์ด้วย Node.js" 
+description: "ใช้ลายน้ำข้อความหรือรูปภาพแบบไดนามิกที่กำหนดเองในงานนำเสนอสไลด์โชว์ของคุณโดยใช้ API Node.js ที่แข็งแกร่งของเราเหมาะสำหรับไฟล์ PPTX ลายน้ำเหล่านี้ผสมผสานเข้ากับสไลด์ของคุณได้อย่างราบรื่น"
+subtitle: "GroupDocs.Watermark for Node.js via Java" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "ดาวน์โหลดที่ NPM ฟรี"
+      link: "https://releases.groupdocs.com/watermark/nodejs-java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Watermark for Node.js via Java"
+    link: "/watermark/nodejs-java/"
+    link_title: "เรียนรู้เพิ่มเติม"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       ด้วย GroupDocs.Watermark for Node.js via Java การสร้างลายน้ำสำหรับงานนำเสนอสไลด์โชว์ของคุณกลายเป็นกระบวนการที่เรียบง่ายและมีประสิทธิภาพเครื่องมืออันทรงพลังนี้เข้ากันได้กับ PPTX สไลด์และรูปแบบการนำเสนอยอดนิยมอื่น ๆ โดยนำเสนอคุณสมบัติขั้นสูงสำหรับการฝังลายน้ำที่ไม่หันเหความสนใจจากเนื้อหา แต่ช่วยเพิ่มประสิทธิภาพปรับแต่งลายน้ำของคุณเพื่อแสดงข้อความ โลโก้ หรือกราฟิกอื่น ๆ ที่บ่งบอกถึงความเป็นเจ้าของและป้องกันการโจรกรรมลิขสิทธิ์ ทั้งหมดนี้ยังคงรักษาคุณภาพสูงสุดของสไลด์ของคุณ
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "เอกสารธุรกิจที่ปลอดภัย: สร้างลายน้ำสำหรับรูปแบบ Powerpoint"
+    content: |
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** ฉีด API ของเราไปยังแอปพลิเคชันของคุณและสร้างลายน้ำสำหรับรูปแบบไฟล์ที่รองรับมากมาย
+      
+      1. **เริ่มทำลายน้ำ:** เริ่มการประมวลผลเอกสารด้วยคลาส**Watermarker** ที่มีคุณสมบัติหลักของเราสร้างอินสแตนซ์โดยส่งไฟล์ Powerpoint ไปยังผู้สร้างซึ่งควรได้รับการรักษาความปลอดภัยโดยลายน้ำที่สร้างขึ้น
+      2. **สร้างวัตถุลายน้ำหลัก:** ยกระดับเอกสารของคุณโดยการแกะสลักวัตถุ**ลายน้ำ** ที่กำหนดเองนอกเหนือจากเพจเพียงเพจแล้ว ยังรวมเข้ากับองค์ประกอบดั้งเดิมอย่างราบรื่น เช่น ไฟล์แนบหรือส่วนหัว เพิ่มชั้นความปลอดภัยและความเป็นมืออาชีพ
+      3. **ปรับแต่งแอตทริบิวต์ลายน้ำ:** ปรับลายน้ำของคุณได้อย่างแม่นยำ ปรับขนาด การจัดตำแหน่ง และโทนสีได้อย่างแม่นยำทุกรายละเอียดช่วยเพิ่มความสมบูรณ์ของเอกสาร ทำให้ไฟล์ของคุณเป็นของคุณอย่างชัดเจน
+      4. **นำไปใช้ด้วยความแม่นยำ:** ใช้วิธี**Watermarker** เพื่อใช้ลายน้ำที่กำหนดเองของคุณได้อย่างไร้ที่ติไม่ว่าจะเป็นเอกพจน์หรือหลายลายน้ำแต่ละอันจะเพิ่มชั้นการป้องกันเพิ่มเติมเพื่อความปลอดภัยที่เพิ่มขึ้น ให้พิจารณาจัดเก็บเอกสารที่ประมวลผลของคุณไว้ในตำแหน่งที่ปลอดภัยแยกต่างหาก
+   
+    code:
+      platform: "net"
+      copy_title: "คัดลอก"
+      install:
+        command: "npm i @groupdocs/groupdocs.watermark"
+        copy_tip: "คลิกเพื่อคัดลอก"
+        copy_done: "คัดลอก"
+      links:
+        #  loop
+        - title: "ตัวอย่างเพิ่มเติม"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+        #  loop
+        - title: "เอกสาร"
+          link: "https://docs.groupdocs.com/watermark/nodejs-java/"
+          
+      content: |
+        ```javascript {style=abap}
+
+        // สร้างลายน้ำข้อความสำหรับ POWERPOINT
+
+        // ส่งไฟล์ต้นฉบับไปยังอินสแตนซ์ Watermarker
+        const watermarker = new groupdocs.watermark.Watermarker("input.พีพีทีเอ็กซ์");
+        
+        // สร้างลายน้ำข้อความและตั้งค่าตัวเลือก
+        const  watermark = new groupdocs.watermark.TextWatermark
+            ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
+
+        // รับผลลัพธ์ POWERPOINT
+        watermarker.add(watermark);
+        watermarker.save("output.พีพีทีเอ็กซ์");
+        
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "เทคนิคการใช้น้ำขั้นสูง"
+  description: "ค้นพบเทคนิคการใช้น้ำที่ล้ำสมัยด้วย API ที่แข็งแกร่งของเราซึ่งออกแบบมาเพื่อผสานเข้ากับสภาพแวดล้อม .NET ได้อย่างราบรื่นเหมาะสำหรับการเพิ่มลายน้ำที่ซับซ้อนและปลอดภัยให้กับประเภทเอกสารที่หลากหลาย รวมถึงการนำเสนอ เอกสารทางกฎหมาย และไดอะแกรมทางเทคนิค"
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "ลายน้ำที่ซับซ้อน"
+  features:
+    # feature loop
+    - title: "การจัดวางลายน้ำแบบไดนามิก"
+      content: "API ของเรามีตัวเลือกการจัดวางแบบไดนามิกที่ปรับตำแหน่งลายน้ำตามเนื้อหาเอกสารเหมาะสำหรับรูปแบบที่ซับซ้อนในการนำเสนอและไดอะแกรมทางเทคนิค คุณลักษณะนี้ช่วยให้มั่นใจได้ว่าลายน้ำจะถูกวางอย่างเหมาะสมเสมอโดยไม่รบกวนความสามารถในการอ่านข้อมูลพื้นฐาน"
+
+    # feature loop
+    - title: "เพิ่มความปลอดภัยด้วยลายน้ำที่มองไม่เห็น"
+      content: "ใช้ลายน้ำที่มองไม่เห็นซึ่งให้การป้องกันที่แข็งแกร่งโดยไม่เปลี่ยนรูปลักษณ์ของเอกสารของคุณลายน้ำเหล่านี้ได้รับการออกแบบมาเพื่อตรวจจับผ่านเครื่องมือซอฟต์แวร์เฉพาะเท่านั้น ทำให้เหมาะสำหรับการปกป้องข้อมูลที่ละเอียดอ่อนในเอกสารทางกฎหมายและการเงิน"
+
+    # feature loop
+    - title: "เวิร์กโฟลว์ลายน้ำอัตโนมัติ"
+      content: "ปรับปรุงกระบวนการรักษาความปลอดภัยของเอกสารของคุณด้วยเวิร์กโฟลว์การทำลายน้ำอัตโนมัติกำหนดค่ากฎตามประเภทเอกสาร ความไวของเนื้อหา และระดับการเข้าถึงของผู้ใช้เพื่อใช้ลายน้ำโดยอัตโนมัติ เพื่อให้แน่ใจว่ามีการรักษาโปรโตคอลความปลอดภัยที่สอดคล้องกันในเอกสารทั้งหมด"
+      
+  code_samples:
+    # code sample loop
+    - title: "สร้างลายน้ำสำหรับไฟล์แนบ PDF"
+      content: |
+        ตัวอย่างนี้แสดงวิธีการสร้างลายน้ำในไฟล์แนบ PDF ทั้งหมด
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  โหลดเอกสาร PDF
+            const loadOptions = new groupdocsWatermark.PdfLoadOptions();
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf", loadOptions);
+            const pdfContent = watermarker.getContent(groupdocsWatermark.PdfContent.class);
+
+            //  สร้างลายน้ำข้อความ
+            const watermark = new groupdocsWatermark.TextWatermark('WaterMark', new groupdocsWatermark.Font('Arial', 19));
+  
+            //  เพิ่มลายน้ำลงในไฟล์แนบที่เหมาะสม
+            for (const attachment of pdfContent.getAttachments().getInnerList().toArray()) {
+                const info = attachment.getDocumentInfo();
+                if (info.getFileType() !== groupdocsWatermark.FileType.Unknown && !info.isEncrypted()) {
+                    const attachedWatermarker = attachment.createWatermarker();
+                    attachedWatermarker.add(watermark);
+                    attachment.updateContent(attachedWatermarker);
+                    attachedWatermarker.close();
+                }
+            }
+
+            //  บันทึกการประมวลผล PDF
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "พร้อมที่จะเริ่มแล้วหรือยัง?"
+  description: "ลองใช้คุณสมบัติ GroupDocs.Watermark ฟรีหรือขอใบอนุญาต"
+  items:
+    #  loop
+    - title: "NPM ดาวน์โหลด"
+      link: "https://releases.groupdocs.com/watermark/nodejs-java/"
+      color: "red"
+        #  loop
+    - title: "การออกใบอนุญาต"
+      link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Node.js การรวมลายน้ำที่ขับเคลื่อนสำหรับการนำเสนอ"
+    exclude: "POWERPOINT"
+    description: "ทำให้การนำเสนอของคุณปลอดภัยและเป็นมืออาชีพด้วย Node.jsAPI ของเราช่วยให้คุณสามารถเพิ่มลายน้ำที่ปรับแต่งให้กับไฟล์ PPTX เพิ่มความปลอดภัยและการปรากฏตัวของแบรนด์ได้อย่างมีประสิทธิภาพ"
+    items: 
+        # format loop 1
+        - name: "ลายน้ำ PDF"
+          format: "PDF"
+          link: "/watermark/nodejs-java/generate//pdf/"
+          description: "รูปแบบเอกสาร Adobe Portable"
+
+        # format loop 2
+        - name: "ลายน้ำ Word"
+          format: "WORD"
+          link: "/watermark/nodejs-java/generate//word/"
+          description: "MS Word และเอกสาร Open Office"
+          
+        # format loop 3
+        - name: "ลายน้ำ Excel"
+          format: "EXCEL"
+          link: "/watermark/nodejs-java/generate//excel/"
+          description: "MS Excel และสเปรดชีตโอเพ่นออฟฟิศ"
+
+        # format loop 4
+        - name: "ภาพลายน้ำ"
+          format: "IMAGE"
+          link: "/watermark/nodejs-java/generate//image/"
+          description: "รูปแบบภาพยอดนิยม"
+
+        # format loop 5
+        - name: "ภาพลายน้ำ"
+          format: "PHOTO"
+          link: "/watermark/nodejs-java/generate//photo/"
+          description: "รูปแบบภาพถ่าย"
+
+        # format loop 6
+        - name: "ลายน้ำ PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/nodejs-java/generate//powerpoint/"
+          description: "MS PowerPoint และงานนำเสนอแบบโอเพ่นออฟฟิศ"
+
+        # format loop 7
+        - name: "ลายน้ำ DOCX"
+          format: "DOCX"
+          link: "/watermark/nodejs-java/generate//docx/"
+          description: "ไมโครซอฟท์ Word เปิดเอกสาร XML"
+          
+        # format loop 8
+        - name: "ลายน้ำ PPTX"
+          format: "PPTX"
+          link: "/watermark/nodejs-java/generate//pptx/"
+          description: "PowerPoint เปิดการนำเสนอ XML"
+          
+        # format loop 9
+        - name: "ลายน้ำ XLSX"
+          format: "XLSX"
+          link: "/watermark/nodejs-java/generate//xlsx/"
+          description: "ไมโครซอฟท์ Excel เปิดสเปรดชีต XML"
+
+        # format loop 10
+        - name: "ลายน้ำ JPEG"
+          format: "JPEG"
+          link: "/watermark/nodejs-java/generate//jpeg/"
+          description: "JPEG รูปภาพ"
+
+        # format loop 11
+        - name: "ลายน้ำ PNG"
+          format: "PNG"
+          link: "/watermark/nodejs-java/generate//png/"
+          description: "Portable กราฟิกเครือข่าย"
+
+        # format loop 12
+        - name: "ลายน้ำ TIFF"
+          format: "TIFF"
+          link: "/watermark/nodejs-java/generate//tiff/"
+          description: "รูปแบบไฟล์รูปภาพแท็ก"
+
+        # format loop 13
+        - name: "ลายน้ำ WEBP"
+          format: "WEBP"
+          link: "/watermark/nodejs-java/generate//webp/"
+          description: "รูปภาพเว็บ"
+
+        # format loop 14
+        - name: "ลายน้ำ DOC"
+          format: "DOC"
+          link: "/watermark/nodejs-java/generate//doc/"
+          description: "ไมโครซอฟท์ Word 97 - เอกสาร 2007"
+
+        # format loop 15
+        - name: "ลายน้ำ XLS"
+          format: "XLS"
+          link: "/watermark/nodejs-java/generate//xls/"
+          description: "ไมโครซอฟท์ Excel สมุดงาน 97-2003"
+
+        # format loop 16
+        - name: "ลายน้ำ PPT"
+          format: "PPT"
+          link: "/watermark/nodejs-java/generate//ppt/"
+          description: "PowerPoint การนำเสนอ 97-2003"
+
+        # format loop 17
+        - name: "ลายน้ำ RTF"
+          format: "RTF"
+          link: "/watermark/nodejs-java/generate//rtf/"
+          description: "รูปแบบข้อความที่หลากหลาย"
+
+---

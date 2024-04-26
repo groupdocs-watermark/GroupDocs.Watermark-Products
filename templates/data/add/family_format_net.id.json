@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Hasilkan tanda air teks dalam file {{FileFormatUp}}",
+    "comment_2": "Berikan file untuk diberi tanda air",
+    "comment_3": "Hasilkan contoh tanda air teks",
+    "comment_4": "Simpan {{FileFormatUp}} hasil"
+  },
+  "steps": {
+    "title": "Tingkatkan Dokumen Anda: Hasilkan Watermark untuk {{FileformatCap}} menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** adalah pustaka yang menyederhanakan penambahan tanda air ke berbagai format file bisnis untuk {{EnvName}} pengembang. Integrasikan perpustakaan kami ke dalam aplikasi Anda dan dengan mudah menandai dokumen menggunakan langkah-langkah berikut:",
+      "step_1": "**Memulai Perjalanan Watermarking Anda:** Mulailah dengan mengenalkan diri Anda dengan kelas**Watermarker**, landasan API kami. Untuk memulai proses, pastikan Anda membuat instance sebelum pemrosesan dokumen. Jangan mengabaikan pentingnya menyediakan file {{FileformatCap}} ke konstruktor, apakah itu jalur atau objek aliran.",
+      "step_2": "**Membuat Watermark Kustom:** Lanjutkan ke fase berikutnya dengan membuat objek**Watermark** yang disesuaikan dengan spesifikasi Anda. Alat serbaguna ini tidak terbatas pada halaman dokumen tertentu; itu juga dapat diintegrasikan dengan mulus ke dalam elemen dokumen asli seperti lampiran atau header.",
+      "step_3": "**Menyesuaikan Atribut Tanda Air:** Sempurnakan pengalaman watermarking Anda dengan menyesuaikan properti seperti tinggi, lebar, keselarasan halaman, keluarga font, dan warna. Tingkat penyesuaian ini memastikan tanda air Anda menyatu dengan mulus dengan dokumen Anda.",
+      "step_4": "**Menerapkan Tanda Air Anda:** Manfaatkan metode**Watermark** untuk dengan mudah menerapkan tanda air khusus Anda ke dokumen Anda. Apakah Anda perlu menambahkan satu atau beberapa tanda air, proses ini menawarkan fleksibilitas. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah."
+    }
+  },
+  "more_features": {
+    "title": "Menyelami lebih dalam Menambahkan Tanda Air",
+    "description": "Manfaatkan API kami yang kuat untuk merender, menampilkan, mengonversi, dan mengelola dokumen, slide, diagram, dan berbagai jenis dokumen lainnya dalam aplikasi .NET. GroupDocs.Watermark mengintegrasikan kemampuan watermarking dengan mulus untuk meningkatkan keamanan dokumen dan perlindungan hak cipta.",
+    "image_description": "Tambahkan Watermark",
+    "feature_1": {
+      "title": "Tandai Dokumen Anda Dengan Mudah.",
+      "content": "{{ProdShortName}} memberdayakan .NET pengembang untuk dengan mudah mengintegrasikan watermarking ke dalam aplikasi mereka. Tambahkan teks, gambar, atau tanda air dinamis ke dokumen dan file bisnis populer dengan mudah, memastikan konten Anda aman dan bermerek secara konsisten di semua platform."
+    },
+    "feature_2": {
+      "title": "Sesuaikan Watermark untuk Memenuhi Kebutuhan Anda.",
+      "content": "Sesuaikan tanda air agar sesuai dengan kebutuhan spesifik Anda dengan fitur ekstensif yang didukung oleh GroupDocs.Watermark. Sesuaikan ukuran, rotasi, transparansi, warna, dan font untuk memastikan watermark Anda tidak hanya terlihat sempurna tetapi juga meningkatkan keamanan dokumen tanpa menghalangi informasi penting."
+    },
+    "feature_3": {
+      "title": "Memanfaatkan Fitur Dokumen Asli untuk Watermarking",
+      "content": "Manfaatkan fitur yang melekat pada format dokumen untuk watermarking canggih. Baik menggunakan anotasi asli PDF, latar belakang MS Word, atau header dan footer Excel, GroupDocs.Watermark terintegrasi secara mendalam dengan struktur dokumen untuk menerapkan tanda air yang efektif dan minimal invasif."
+    },
+    "code_1": {
+      "title": "Hasilkan tanda air gambar untuk DOCX",
+      "content": "Contoh ini menunjukkan cara menerapkan efek gambar ke tanda air bentuk.",
+      "comment_1": "Muat dokumen Word",
+      "comment_2": "Menyiapkan opsi tanda air",
+      "comment_3": "Hasilkan tanda air",
+      "comment_4": "Simpan dokumen yang diperbarui"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hasilkan Watermark untuk Excel Spreadsheet",
+      "description": "Otomatiskan watermarking gambar dengan .NET C# untuk keamanan yang konsisten. Menangani sejumlah besar gambar secara efisien."
+    },
+    "header": {
+      "title": "Tambahkan Tanda Air Dinamis di Excel Menggunakan .NET C #",
+      "description": "Otomatiskan penerapan teks dinamis atau tanda air gambar di Excel file Anda menggunakan C#. Tutorial kami menunjukkan kepada Anda bagaimana menjaga konsistensi dan profesionalisme, dengan intervensi manual minimal yang diperlukan.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "{{ProdFullName}} memungkinkan integrasi tanda air yang mulus ke dalam lembar bentang Excel, menyediakan bisnis dengan alat yang diperlukan untuk mengamankan dan mempersonalisasi dokumen mereka. Pustaka C # ini mendukung berbagai jenis tanda air dan memungkinkan penyesuaian terperinci, termasuk opacity, rotasi, dan penyesuaian penyelarasan. Selain itu, dilengkapi dengan kemampuan pencarian lanjutan untuk mendeteksi dan mengelola tanda air yang ada, memastikan spreadsheet Anda terlindungi dari gangguan dan pengungkapan yang tidak sah."
+    },
+    "formats": {
+      "title": "Menanamkan Watermark teks dan gambar di Excel menggunakan {{ProgLang}}",
+      "description": "Manfaatkan GroupDocs.Watermark C# API untuk menambahkan tanda air khusus secara efisien ke spreadsheet Excel. Tingkatkan keamanan dokumen dan branding perusahaan dengan alat yang dirancang untuk integrasi tanda air yang cepat dan fleksibel."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Hasilkan Word Tanda Air Dokumen",
+      "description": "Sederhanakan alur kerja dokumen Word dengan tanda air. Mencerminkan integritas merek Anda secara profesional."
+    },
+    "header": {
+      "title": "Buat Watermark dinamis di Word dan OpenOffice dengan C #",
+      "description": "Terapkan tanda air secara strategis dalam dokumen Word Anda menggunakan toolkit C# kami yang kuat. Sesuaikan agar sesuai dengan standar merek atau persyaratan keamanan dengan mudah.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} mengubah kemampuan Anda untuk menandai dokumen Microsoft Word. API serbaguna ini terintegrasi dengan mulus ke dalam lingkungan pengembangan Anda, memungkinkan penambahan tanda air teks dan gambar canggih yang dapat diposisikan secara mutlak atau relatif di dalam dokumen. Ini mendukung format DOC, DOCX, dan RTF, memberikan fleksibilitas di beberapa Word versi. Tingkatkan dokumen Anda dengan tanda air yang tidak hanya aman tetapi juga menyatu secara halus dengan konten, menjaga keterbacaan dan integritas tata letak."
+    },
+    "formats": {
+      "title": "Watermarking Bertenaga C# di Word dan OpenOffice melalui {{ProgLang}}",
+      "description": "Maksimalkan dampak dokumen MS Word dan OpenOffice Anda dengan tanda air yang dirancang khusus yang menawarkan perlindungan dan profesionalisme. API C # kami membuatnya mudah untuk menerapkan tanda air yang tepat dan menarik."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Gambar watermarking dengan .NET C#",
+      "description": "Pelajari cara menerapkan tanda air mulus pada gambar menggunakan .NET C#. Lindungi aset Anda tanpa mengorbankan kualitas."
+    },
+    "header": {
+      "title": "Watermarking Kustom Cepat untuk Gambar Menggunakan {{EnvName}}",
+      "description": "Alat .NET C# kami menyediakan solusi cepat untuk menyematkan tanda air ke dalam gambar. Dukungan untuk format gambar yang luas memastikan cakupan penuh dari foto hingga karya seni digital.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} dirancang untuk mengotomatiskan proses watermarking untuk gambar, mendukung beragam format seperti JPEG, PNG, BMP, dan TIFF. API yang kuat ini memungkinkan penyisipan cepat tanda air teks dan gambar yang dapat disesuaikan dalam opacity, ukuran, dan posisi, disesuaikan dengan kebutuhan spesifik Anda. Baik itu untuk melindungi hak cipta atau meningkatkan materi pemasaran, toolkit kami memastikan bahwa tanda air diterapkan dengan kesetiaan tinggi dan dampak minimal pada kualitas gambar asli."
+    },
+    "formats": {
+      "title": "Menerapkan Watermark dengan Cepat di Seluruh Format Gambar melalui {{ProgLang}}",
+      "description": "Tingkatkan perlindungan gambar Anda dengan toolkit .NET C # kami, yang mampu menangani berbagai format gambar dengan kecepatan dan efisiensi. Sesuaikan tanda air Anda agar menyatu sempurna dengan konten visual Anda."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Tandai Foto Anda dengan Cepat & Mudah",
+      "description": "Amankan dan klaim hak cipta foto Anda dengan cepat dengan tanda air .NET C#. Mulailah melindungi pekerjaan Anda hari ini."
+    },
+    "header": {
+      "title": "Watermarking Foto Cepat dan Mudah dengan {{EnvName}}",
+      "description": "Perpustakaan C# kami yang kuat memungkinkan penandaan air cepat pada foto Anda, membantu Anda mengamankan hak cipta dan meningkatkan identitas merek tanpa mengorbankan kualitas gambar.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan solusi ampuh untuk layanan fotografer yang ingin melindungi hak cipta dan identitas merek mereka. API ini memungkinkan penambahan cepat tanda air teks atau grafik ke foto di berbagai format termasuk JPEG, PNG, dan RAW. Sesuaikan tanda air Anda untuk transparansi, ukuran, dan posisi agar menyatu dengan sempurna dengan foto, menjaga kualitas estetika sambil menegaskan hak hukum Anda dan mencegah penggunaan yang tidak sah."
+    },
+    "formats": {
+      "title": "Lindungi Foto Anda dengan Watermark Efektif {{ProgLang}}",
+      "description": "Amankan dan sesuaikan konten fotografi Anda dengan tanda air yang dapat disesuaikan menggunakan .NET C# API kami, yang dirancang untuk mengintegrasikan dengan mulus dan menjaga kualitas gambar."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Buat fitur Watermark lanjutan untuk Presentasi",
+      "description": "Gunakan teknik canggih untuk membuat tanda air yang berdampak untuk presentasi. Pastikan keamanan konten dengan lancar."
+    },
+    "header": {
+      "title": "Inovasi presentasi Anda dengan watermarking lanjutan di C #",
+      "description": "Sematkan tanda air teks dan gambar mutakhir ke slide PowerPoint Anda menggunakan API C # kami. Sempurna untuk meningkatkan keamanan dan daya tarik profesional dalam presentasi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} direkayasa untuk memfasilitasi penyisipan tanda air tingkat lanjut dalam presentasi PowerPoint secara efisien. Baik Anda berurusan dengan informasi rahasia atau ingin meningkatkan branding perusahaan Anda pada slide, API kami menawarkan solusi watermarking yang kuat yang dapat disesuaikan dengan slide individual atau seluruh presentasi. Dari tanda teks sederhana hingga logo yang rumit, sesuaikan tampilan dan penempatan tanda air Anda agar terintegrasi dengan mulus dengan desain slide Anda sambil memberikan lapisan keamanan tambahan."
+    },
+    "formats": {
+      "title": "Lindungi dan personalisasi Presentasi dengan Watermark di {{ProgLang}}",
+      "description": "Gunakan toolkit C# kami untuk menerapkan tanda air khusus dengan cepat yang menjaga integritas dan estetika presentasi PowerPoint Anda. Ideal untuk lingkungan profesional dan pendidikan."
+    }
+  }
+}

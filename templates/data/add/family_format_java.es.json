@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Añadir marca de agua de texto a {{FileFormatUp}}",
+    "comment_2": "Pase el archivo a marcar con una marca de agua a Watermarker",
+    "comment_3": "Crear marca de agua de texto y configurar propiedades",
+    "comment_4": "Guardar archivo con marca de agua"
+  },
+  "steps": {
+    "title": "Agregue una marca de agua al documento {{FileformatCap}} a través de {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** facilita a los {{EnvName}} desarrolladores la adición de marcas de agua de varios tipos a los formatos de archivos empresariales más populares. Añada nuestra biblioteca a sus documentos de solicitud y añada marcas de agua siguiendo unos sencillos pasos, tal y como se indica a continuación.",
+      "step_1": "**Watermarker**. Debes instanciarlo antes de procesar el documento. No olvide pasar el archivo {{FileformatCap}} al constructor como una ruta o un objeto de flujo.",
+      "step_2": "**Watermark** del tipo deseado. Se puede colocar no solo en una página de documento específica, sino también en partes nativas del documento, como archivos adjuntos o encabezados.",
+      "step_3": "Establezca las propiedades de la marca de agua, como la altura y el ancho, la alineación de la página (superior, izquierda, central, etc.), la familia de fuentes y el color, y muchas otras.",
+      "step_4": "**Watermarker** para agregar una nueva marca de agua. Puedes agregar tantas marcas de agua como necesites. Se recomienda guardar el documento procesado en otra ubicación."
+    }
+  },
+  "more_features": {
+    "title": "Mejore sus marcas de agua fácilmente",
+    "description": "Aproveche el poder de GroupDocs.Watermark para generar, redactar y añadir marcas de agua en varios formatos de documentos. Esta API no solo mejora la seguridad de los documentos, sino que también protege su propiedad intelectual al incorporar marcas de agua personalizables que son versátiles y sólidas.",
+    "image_description": "Añadir marca de agua",
+    "feature_1": {
+      "title": "Opciones versátiles de marcas de agua.",
+      "content": "Explore una amplia gama de opciones de marcas de agua con GroupDocs.Watermark. Desde ajustar la opacidad y la rotación hasta escalar el tamaño proporcionalmente, nuestra API te permite personalizar las marcas de agua con precisión según tus necesidades, garantizando que se combinen perfectamente con tus documentos y, al mismo tiempo, manteniendo la integridad del contenido."
+    },
+    "feature_2": {
+      "title": "Estilo de marca de agua avanzado.",
+      "content": "GroupDocs.Watermark te permite diseñar tus marcas de agua con diferentes fuentes, colores y sombras, lo que las hace distintivas y más difíciles de eliminar. Mejore el atractivo estético de sus documentos e imágenes protegidos con elegantes marcas de agua que reflejen la identidad y el profesionalismo de su marca."
+    },
+    "feature_3": {
+      "title": "Posicionamiento y ordenamiento de marcas de agua",
+      "content": "Con GroupDocs.Watermark, implemente efectos de ordenamiento en teselas para cubrir todo el documento y garantizar una protección completa. Coloque las marcas de agua exactamente donde las necesite: en el centro, en las esquinas o en ubicaciones personalizadas. Nuestras opciones de posicionamiento flexibles ayudan a proteger sus documentos contra el uso no autorizado y la duplicación."
+    },
+    "code_1": {
+      "title": "PDF marca de agua de anotación",
+      "content": "En este ejemplo se muestra cómo añadir una anotación de marca de agua a un documento PDF",
+      "comment_1": "Cargar documento como PDF",
+      "comment_2": "Crear marca de agua basada en la anotación PDF",
+      "comment_3": "Configurar las opciones de marca de agua",
+      "comment_4": "Añadir marca de agua de texto al documento de resultados"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Generar marca de agua en {{FileformatCap}} hojas de cálculo para Java",
+      "description": "Implemente fácilmente la generación de marcas de agua de texto e imágenes en {{FileformatCap}} con Java para proteger sus hojas de cálculo de datos de {{FileformatCap}}"
+    },
+    "header": {
+      "title": "Automatice la marca de agua {{FileformatCap}} con el código Java",
+      "description": "Implemente marcas de agua personalizadas de texto o imagen en hojas de cálculo {{FileformatCap}} con Java. Esta guía ofrece instrucciones paso a paso para mejorar la seguridad y la marca de los documentos, adaptadas a una variedad de necesidades profesionales.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece una gestión integral de marcas de agua en hojas de cálculo {{FileformatCap}}, lo que permite a los desarrolladores generar, ajustar y borrar marcas de agua fácilmente. Es compatible con todos los formatos de archivo Excel populares, lo que permite incrustar marcas de agua de texto e imágenes que se pueden personalizar en cuanto a fuente, color, tamaño y posición. GroupDocs.Watermark también incluye funciones para buscar marcas de agua, lo que garantiza que las marcas de agua estén intactas y a prueba de manipulaciones. Ideal para aplicaciones que requieren mejoras en la seguridad de los documentos en entornos Java."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Técnicas para {{FileformatCap}} marcas de agua",
+      "description": "Con GroupDocs.Watermark for Java, aplique fácilmente marcas de agua basadas en texto o imágenes a {{FileformatCap}} hojas de cálculo, lo que aumentará considerablemente la seguridad de los documentos y la marca como parte del flujo de trabajo de su empresa."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Crea marcas de agua personalizadas para {{FileformatCap}} con Java",
+      "description": "Integre marcas de agua personalizadas en {{FileformatCap}} documentos con Java. Mejore la seguridad y añada un toque profesional."
+    },
+    "header": {
+      "title": "Crear marcas de agua personalizadas en {{FileformatCap}} documentos",
+      "description": "Proteja sus {{FileformatCap}} archivos con Java incrustando marcas de agua de texto o imágenes personalizadas. Este recurso es ideal para quienes necesitan mejorar la seguridad de los documentos y el atractivo visual con un mínimo esfuerzo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permite la creación precisa y flexible de marcas de agua en {{FileformatCap}} documentos. Esta herramienta permite a Java desarrolladores agregar marcas de agua personalizadas que pueden incluir texto, imágenes o logotipos, adaptadas a sus necesidades específicas de marca. Es compatible con los principales formatos de documentos de Word y proporciona funciones completas para editar y eliminar marcas de agua, así como para buscar en los documentos para verificar la integridad de las marcas de agua. Compatible con todos los sistemas operativos compatibles con Java, esta API es perfecta para las empresas que buscan reforzar sus protocolos de seguridad de documentos."
+    },
+    "formats": {
+      "title": "Personalice sus archivos MS {{FileformatCap}} con la generación de marcas de agua {{ProgLang}}.",
+      "description": "{{ProdFullName}} permite a los desarrolladores insertar fácilmente marcas de agua de texto o imágenes personalizadas en {{FileformatCap}} documentos. Estas mejoras no solo aumentan la seguridad de los documentos, sino que también enriquecen las comunicaciones empresariales con un toque profesional."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Genere marcas de agua eficaces para imágenes con Java",
+      "description": "Usa Java para crear sofisticadas marcas de agua para imágenes. Proteja sus documentos y haga valer los derechos de autor de manera eficaz."
+    },
+    "header": {
+      "title": "Marcas de agua de imágenes sin problemas en Java",
+      "description": "Implementa marcas de agua dinámicas en tus archivos de imagen usando Java. Esta herramienta permite realizar ajustes precisos de posicionamiento, escalabilidad y transparencia para mejorar la seguridad y el reconocimiento de la marca.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java permite a los desarrolladores generar y gestionar de forma eficaz marcas de agua en archivos de imagen. Gracias a la compatibilidad con una amplia gama de formatos de imagen, los usuarios pueden implementar marcas de agua tanto de texto como gráficas que son totalmente personalizables en cuanto a posición, escala y transparencia. Esta funcionalidad es fundamental para las aplicaciones de los medios digitales, la publicidad y la distribución de contenido en línea, donde la integridad de la marca y los derechos de autor es fundamental. Además, GroupDocs.Watermark incluye funciones para buscar y eliminar las marcas de agua existentes, lo que proporciona una herramienta versátil para la gestión y la seguridad de las imágenes."
+    },
+    "formats": {
+      "title": "Optimice las imágenes de seguridad con marcas de agua en {{ProgLang}}",
+      "description": "Nuestro kit de herramientas Java permite generar marcas de agua personalizadas para cualquier formato de imagen, lo que mejora la seguridad y la marca. Las marcas de agua personalizadas garantizan que sus imágenes se reconozcan y protejan en varios medios."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "La creación rápida de marcas de agua para fotografías es más fácil en Java",
+      "description": "Optimice la protección de sus fotografías con marcas de agua. Rápido y fiable."
+    },
+    "header": {
+      "title": "Herramientas eficientes de Java para la creación de marcas de agua en fotografías",
+      "description": "Añade marcas de agua a tus fotos de forma rápida y eficaz con nuestra API Java. Perfecto para proteger imágenes digitales y mejorar la visibilidad de la marca con un mínimo esfuerzo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} está optimizado para crear marcas de agua rápidas y eficaces en los archivos de fotos. Esta herramienta permite la integración rápida de marcas de agua de texto e imágenes en una amplia gama de formatos fotográficos, incluidos JPEG, PNG y BMP. Personalice sus marcas de agua con amplias opciones de estilo, transparencia y ubicación para garantizar que se combinen perfectamente sin disminuir la calidad de la fotografía. Adecuado para operaciones de gran volumen, admite el procesamiento por lotes para aplicar marcas de agua a varias fotografías a la vez, lo que lo hace ideal para empresas y creadores de contenido digital que necesitan proteger sus activos visuales y ponerles marca de manera eficiente"
+    },
+    "formats": {
+      "title": "Integración rápida de marcas de agua para fotos a través de {{ProgLang}}",
+      "description": "Aproveche nuestra API Java para aplicar rápidamente marcas de agua a las fotos, lo que mejora la seguridad y la identidad de la marca. Los procesos automatizados permiten una aplicación masiva, lo que garantiza resultados consistentes y profesionales."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Crea marcas de agua avanzadas para presentaciones",
+      "description": "Mejore sus presentaciones con las funciones avanzadas de creación de marcas de agua de Java."
+    },
+    "header": {
+      "title": "Técnicas avanzadas de marcado de agua para presentaciones",
+      "description": "Implemente estrategias complejas de marcas de agua en sus presentaciones con nuestro kit de herramientas Java. Personalice las marcas de agua para mejorar la seguridad y la estética profesional.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} está diseñado para admitir funciones avanzadas de creación de marcas de agua para presentaciones. Permite a los usuarios integrar fácilmente marcas de agua personalizadas de texto e imagen en cualquier formato de presentación. Las características incluyen estilos sofisticados de marcas de agua, procesamiento por lotes automatizado para conjuntos de archivos de gran tamaño y herramientas para la administración de marcas de agua, como la modificación y la eliminación. Esta biblioteca Java garantiza que sus presentaciones no solo estén protegidas contra el plagio, sino que también tengan un aspecto profesional que se alinee con la marca de su organización."
+    },
+    "formats": {
+      "title": "Mejore la seguridad de las presentaciones con marcas de agua avanzadas en {{ProgLang}}",
+      "description": "Incorpore marcas de agua avanzadas sin problemas en sus presentaciones para proteger y mejorar sus materiales. Nuestra API Java permite una personalización detallada y un procesamiento automatizado, lo que resulta ideal para mantener una apariencia profesional y, al mismo tiempo, proteger la información."
+    }
+  }
+}
