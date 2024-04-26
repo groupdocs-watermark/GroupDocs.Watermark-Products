@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:06
+date: 2024-04-26T21:39:08
 draft: false
 
 lang: fr
@@ -24,74 +24,80 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Bibliothèque de filigranes Node.js | filigranes de documents"
+head_description: "La solution Node.js protège les documents professionnels avec des filigranes de texte et d'image. Les formats courants tels que PDF, Word, Excel, PowerPoint sont pris en charge."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Accès à la technologie de filigrane dans Node.js via les solutions Java"
+description: "Protégez votre propriété intellectuelle et empêchez toute copie non autorisée grâce à cette solution Node.js. Il permet aux utilisateurs d'ajouter facilement des filigranes à des documents commerciaux dans différents formats, notamment PDF, Word, Excel, PowerPoint, images, etc."
 words:
-  for: "{index-content.words_for}"
+  for: "pour"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
-  main_link: ""
-  alt: "{index-content.actions.alt}"
-  alt_link: ""
-  title: "{index-content.actions.title}"
-  description: "{index-content.actions.description}"
+  main: "Utilisez NPM pour télécharger gratuitement"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
+  alt: "Licences"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+  title: "Prêt à démarrer ?"
+  description: "Essayez GroupDocs.Watermark fonctionnalités gratuitement ou demandez une licence"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
-  link: "{products.nodejs-java.release_downloads}"
+  title: "Version {0} publiée"
+  notes: "Découvrez les nouveautés"
+  downloads: "Téléchargements"
+  link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content.code_more}"
-  more_link: ""
-  install: "npm i @groupdocs/groupdocs.comparison"
+  title: "Ajouter un filigrane à PDF avec TypeScript"
+  more: "Plus d'exemples"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
-    // {index-content.code_comment_1}
-    let comparer = new Comparer("source.bmp");
+    // Instanciez un filigrane en passant le chemin PDF
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // {index-content.code_comment_2}
-    comparer.add("target.bmp");
+    // Personnalisez les options de filigrane
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-    // {index-content.code_comment_3}
-    comparer.compare("result.bmp"); 
+    // Appliquer un filigrane au document PDF
+    watermarker.add(textWatermark);
+
+    // Enregistrer le document de résultats
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Watermark en un coup d'œil"
+  description: "Bibliothèque TypeScript Node.js pour le filigrane"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Filigrane du fichier Node.js"
+      content: "Protégez vos documents professionnels avec GroupDocs.Watermark for Node.js via Java. Ajoutez du texte, des images, des diagrammes ou des pièces jointes à des e-mails sous forme de filigranes à différents formats de fichiers."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Personnalisez les filigranes selon vos besoins"
+      content: "GroupDocs.Watermark for Node.js via Java propose de nombreuses options de personnalisation pour les filigranes. Ajustez les styles de texte (gras, italique, police) et les propriétés de l'image (rotation, etc.) pour personnaliser le traitement des documents."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Prise en charge complète des formats"
+      content: "GroupDocs.Watermark for Node.js via Java s'intègre parfaitement à un large éventail de formats de fichiers, notamment : PDF, MS Office comme Word, Excel, PowerPoint, images telles que JPEG, PNG, GIF, BMP, Visio diagrammes, e-mails, etc. Renforcez le traitement des documents pour atteindre vos objectifs commerciaux."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_4.title}"
-      content: "{index-content-nodejs-java.overview_feature_4.description}"
+    - title: "Recherche et mise à jour puissantes de filigranes"
+      content: "Obtenez et mettez à jour les filigranes existants dans les documents filigranés. Modifiez le texte, le style, le contenu de l'image ou supprimez-les complètement. GroupDocs.Watermark for Node.js via Java fournit une large gamme de traitements des filigranes."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms.title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "Indépendance de la plateforme"
+  description: "GroupDocs.Watermark for Node.js via Java s'intègre facilement à divers systèmes d'exploitation et gestionnaires de packages."
   items:
     # platform loop
     - title: "Windows"
@@ -130,142 +136,149 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Formats de fichiers pris en charge"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Watermark for Node.js via Java vous permet de traiter un large éventail de formats de fichiers. [Explorez la liste complète](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content.formats_groups.format_fixed_page_layout}:** PDF        
+        ### formats Microsoft Office et OpenDocument
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_raster_images}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content.formats_groups.format_medical_imaging}:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Images et graphiques
+        * **Formats d'image populaires:** BMP, JPG, JPEG, PNG
+        * **Images de plusieurs pages:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_text}:** TXT
-        * **{index-content.formats_groups.format_programming_languages}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content.formats_groups.format_web}:** HTM, HTML, MHT, MHTML
-        * **{index-content.formats_groups.format_e_books}:** MOBI, DjVu
-        * **{index-content.formats_groups.format_delimiter_separated_values}:** CSV
+        ### Autres
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Watermark for Node.js via Java : Ensemble de fonctionnalités"
+  description: "Renforcez la sécurité des documents grâce au filigrane programmatique. Supporte divers formats de fichiers, notamment : PDF, DOCX, XLSX, PPTX et les formats d'image (PNG, JPG, etc.)."
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "watermark_add"
+      title: "Contrôle précis du filigrane"
+      content: "Manipulez avec précision les filigranes en les ajoutant ou en les supprimant dans des sections spécifiques, des documents entiers ou des pièces jointes et des formes individuelles dans différents formats de fichiers."
 
     # feature loop
-    - icon: "note-stack"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "watermark_style"
+      title: "Personnalisation de l'apparence du filigrane"
+      content: "Contrôlez avec précision l'esthétique des filigranes en modifiant des attributs tels que la couleur, la police, l'opacité, la rotation et le positionnement dans le document."
 
     # feature loop
-    - icon: "stacks"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "hidden_print"
+      title: "Imprimer PDF Filigrane"
+      content: "Déployez un filigrane furtif qui reste invisible lors de l'affichage normal des documents mais qui n'apparaît que pendant le processus d'impression, renforçant ainsi la sécurité des documents en toute discrétion."
 
     # feature loop
-    - icon: "rule"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "image_only"
+      title: "Filigrane d'image spécifique"
+      content: "Ajoutez un filigrane à des images spécifiques dans un document à l'aide de notre solution. Choisissez d'intégrer des filigranes dans une section spécifique (par exemple, page, diapositive) ou dans l'ensemble du document."
 
     # feature loop
-    - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "image_frame"
+      title: "Filigrane d'images à plusieurs images"
+      content: "Appliquez des filigranes de manière sélective à des images spécifiques dans un format d'image à plusieurs images, garantissant ainsi un contrôle précis du placement des filigranes."
 
     # feature loop
-    - icon: "two-pager"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "attachments"
+      title: "Protection complète du contenu"
+      content: "Étendez la protection à divers éléments du document, tels que les pièces jointes dans Excel documents et les formes d'image dans les présentations, afin d'apporter un niveau de sécurité supplémentaire."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "pdf_objects"
+      title: "Filigrane avancé dans PDF"
+      content: "Ajoutez un filigrane à différentes zones de PDF s, notamment la Bleed Box, la Art Box, la Crop Box, la Trim Box, etc."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "doc_background"
+      title: "Filigrane d'image d'arrière-plan"
+      content: "Gérez les filigranes dans les images d'arrière-plan des feuilles de calcul et des présentations, en offrant des options de personnalisation supplémentaires pour les mesures de sécurité visuelle."
 
     # feature loop
-    - icon: "lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "unreadable_characters"
+      title: "Filigrane de texte avec caractères illisibles"
+      content: "Utilisez des caractères illisibles dans les filigranes de texte intégrés dans les présentations, afin de renforcer la sécurité en compliquant considérablement l'extraction non autorisée de filigranes."
 
     # feature loop
-    - icon: "select"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "watermark_text_search"
+      title: "Recherche avancée de filigranes"
+      content: "Utilisez des fonctionnalités de recherche complètes pour localiser les filigranes dans les documents en fonction de paramètres spécifiques ou en combinant différents critères, ce qui permet une récupération et une gestion efficaces."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "watermark_image_search"
+      title: "Détection de filigranes d'images similaires"
+      content: "Trouvez des filigranes similaires dans des documents qui ressemblent visuellement à une image source."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Extraction programmatique d'informations sur les documents"
+      content: "Extrayez des métadonnées importantes par programmation, y compris les détails de mise en page et d'autres informations sur les documents pour les formats de fichiers pris en charge."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Exemples de code"
+  description: "Découvrez des exemples de code présentant les fonctionnalités courantes de GroupDocs.Watermark for Node.js via Java"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Ajouter une image à un document en filigrane"
       content: |
-        {index-content-net.code_samples_sample_1_content}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
-        ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // {index-content.code_samples.sample_1.comment_2}
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        Tirez parti de GroupDocs.Watermark for Node.js via Java pour améliorer la sécurité des documents en ajoutant des filigranes d'image. Pour en savoir plus : [Filigranes d'image](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="Comment protéger un fichier par filigrane d'image.">}}
+        ```javascript {style=abap}
+        // Charger le document source dans Watermarker
+        let watermarker = new Watermarker("document.pdf");
+        
+        // Spécifier le chemin d'accès à une image en filigrane
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // {index-content.code_samples.sample_1.comment_3}
-            comparer.Compare("result.docx");
-        }
+        // Protégez le fichier et enregistrez-le
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Rechercher et modifier des filigranes existants"
       content: |
-        {index-content-net.code_samples_sample_2_content}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
-        ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // {index-content.code_samples.sample_2.comment_2}
-            comparer.Add("target2.docx");
-            
-            // {index-content.code_samples.sample_2.comment_3}
-            comparer.Add("target3.docx");
-            
-            // {index-content.code_samples.sample_2.comment_4}
-            comparer.Compare("result.docx");
+        GroupDocs.Watermark for Node.js via Java vous permet de gérer les filigranes des documents. Sélectionnez les filigranes, modifiez leurs propriétés. Découvrez comment : [Modifier les filigranes](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Recherche et modification de filigranes.">}}
+        ```javascript {style=abap}   
+        // Charger le document source
+        let watermarker = new Watermarker("document.pdf");
+
+        // Rechercher les filigranes à mettre à jour
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // Mettre à jour les propriétés souhaitées
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // Enregistrer le document modifié dans un chemin spécifié
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

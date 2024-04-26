@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Xóa hình mờ văn bản khỏi tài liệu {{FileformatCap}}",
+    "comment_2": "Cung cấp phiên bản Watermarker cho tài liệu nguồn tài liệu {{FileformatCap}}",
+    "comment_3": "Xóa hình mờ đã chọn khỏi tài liệu",
+    "comment_4": "Lưu tệp vào đường dẫn được cung cấp"
+  },
+  "steps": {
+    "title": "Xóa hình mờ khỏi tài liệu {{FileformatCap}} bằng cách sử dụng {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** đơn giản hóa nhiệm vụ xóa hình mờ khỏi tài liệu kinh doanh. Tăng cường ứng dụng {{EnvName}} của bạn bằng cách tích hợp thư viện của chúng tôi và làm theo các bước đơn giản sau:",
+      "step_1": "**Watermarker**, với tài liệu {{FileformatCap}}. API của chúng tôi hỗ trợ xử lý tài liệu được cung cấp dưới dạng luồng hoặc đường dẫn cục bộ.",
+      "step_2": "**Tiêu chí tìm kiếm** để thu hẹp tập hợp hình mờ cần xử lý. Bạn có thể sử dụng các tham số khác nhau như hình ảnh, văn bản hoặc các tính năng định dạng. Các tham số tìm kiếm bạn cung cấp càng cụ thể, kết quả bạn nhận được càng chính xác.",
+      "step_3": "Xử lý danh sách hình mờ tài liệu thu được dưới dạng kết quả tìm kiếm và xóa chúng khỏi tài liệu.",
+      "step_4": "Sau khi xóa hình mờ, lưu tài liệu kết quả dưới dạng tệp cục bộ hoặc luồng byte."
+    }
+  },
+  "more_features": {
+    "title": "Hợp lý hóa việc loại bỏ hình mờ với {{ProgLang}} {{EnvName}} API",
+    "description": "Khám phá khả năng xóa hình mờ mạnh mẽ của API {{ProgLang}} {{EnvName}} của chúng tôi, được thiết kế để tích hợp liền mạch với các ứng dụng {{EnvName}} của bạn. Xóa hoặc xóa hình mờ khỏi PDF s và tài liệu văn phòng một cách hiệu quả trong khi vẫn giữ được chất lượng tệp gốc.",
+    "image_description": "Xóa hình mờ",
+    "feature_1": {
+      "title": "Xóa hình mờ chính xác",
+      "content": "API {{EnvName}} của chúng tôi cung cấp các công cụ chính xác để xóa sạch hình mờ khỏi bất kỳ tài liệu nào. Được thiết kế riêng cho các nhà phát triển, tính năng này đảm bảo rằng việc xóa hình mờ không ảnh hưởng đến chất lượng hoặc bố cục tài liệu."
+    },
+    "feature_2": {
+      "title": "Tự động loại bỏ hình mờ hàng loạt",
+      "content": "Tự động hóa quá trình xóa hình mờ khỏi bộ tài liệu lớn với API {{EnvName}} của chúng tôi. Lý tưởng cho các doanh nghiệp xử lý khối lượng lớn tài liệu, nâng cao cả hiệu quả và bảo mật tài liệu."
+    },
+    "feature_3": {
+      "title": "Tính năng chỉnh sửa hình mờ nâng cao",
+      "content": "Tận dụng các tính năng nâng cao để chỉnh sửa hoặc sửa đổi hình mờ có chọn lọc. API của chúng tôi hỗ trợ điều chỉnh chi tiết để đảm bảo tài liệu của bạn duy trì vẻ ngoài chuyên nghiệp trong khi bảo mật thông tin nhạy cảm."
+    },
+    "code_1": {
+      "title": "Xóa hình mờ văn bản bảng tính",
+      "content": "Cách xóa hình mờ văn bản với định dạng đặc biệt trong Excel tài liệu.",
+      "comment_1": "Tải sổ làm việc Excel",
+      "comment_2": "Nhận nội dung và tìm hình mờ phù hợp",
+      "comment_3": "Xóa hình mờ văn bản",
+      "comment_4": "Lưu đã xử lý XLSX"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{FileformatCap}} Xóa hình mờ với {{ProgLang}} {{EnvName}} API ",
+      "description": "Sử dụng API {{ProgLang}} {{EnvName}} của chúng tôi để xóa và quản lý hiệu quả hình mờ trong {{FileformatCap}} tài liệu, đảm bảo độ rõ ràng của dữ liệu và tính toàn vẹn của trang tính."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} cho {{FileformatCap}} Hoạt động hình mờ",
+      "description": "Nâng cao quy trình công việc tài liệu {{FileformatCap}} của bạn trong môi trường {{EnvName}} bằng cách xóa hoặc chỉnh sửa hình mờ liền mạch, với các công cụ được thiết kế để có độ chính xác và dễ sử dụng.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ mạnh mẽ để quản lý hình mờ trong {{FileformatCap}} tệp. Từ việc loại bỏ các dấu không mong muốn đến chỉnh sửa các dấu hiện có, nó tạo điều kiện kiểm soát hình mờ toàn diện, lý tưởng cho các doanh nghiệp ưu tiên sự sạch sẽ và chuyên nghiệp của tài liệu."
+    },
+    "formats": {
+      "title": "Hợp lý hóa {{FileformatCap}} loại bỏ hình mờ trong {{EnvName}}",
+      "description": "Tìm hiểu cách áp dụng API {{ProdFullName}} {{ProgLang}} để loại bỏ hiệu quả hình mờ khỏi {{FileformatCap}} trang tính, đảm bảo các báo cáo tài chính và phân tích dữ liệu nguyên sơ và dễ trình bày."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API để loại bỏ hình mờ {{FileformatCap}}",
+      "description": "Xóa, xóa hoặc chỉnh sửa hiệu quả hình mờ từ {{FileformatCap}} tài liệu bằng cách sử dụng API {{ProgLang}} {{EnvName}} của chúng tôi để trình bày tài liệu hoàn hảo."
+    },
+    "header": {
+      "title": "{{FileformatCap}} Loại bỏ hình mờ cho {{ProgLang}} {{EnvName}}",
+      "description": "Sử dụng API {{ProdFullName}} {{ProgLang}} để xóa hình mờ khỏi tài liệu {{FileformatCap}}, hoàn hảo để duy trì tính toàn vẹn và sạch sẽ của các tài liệu pháp lý và công ty.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Với thư viện {{ProdFullName}} {{ProgLang}} {{EnvName}}, các nhà phát triển có thể dễ dàng quản lý và xóa hình mờ trong các tệp Microsoft Word. Công cụ này hỗ trợ một loạt các thao tác hình mờ, bao gồm phát hiện, sửa đổi và xóa cả hình mờ văn bản và hình ảnh, đảm bảo tài liệu không có dấu không mong muốn trong khi vẫn giữ nguyên bố cục và định dạng."
+    },
+    "formats": {
+      "title": "Quản lý hình mờ {{FileformatCap}} với {{EnvName}}",
+      "description": "Khám phá các tính năng mạnh mẽ để quản lý hình mờ trong tài liệu {{FileformatCap}} bằng API {{ProgLang}} {{EnvName}} của chúng tôi, được thiết kế để tăng cường bảo mật tài liệu và trình bày mà không ảnh hưởng đến chất lượng."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa hình mờ trong {{FileformatCap}} với {{ProgLang}} {{EnvName}} API",
+      "description": "Dễ dàng xóa và quản lý hình mờ trong {{FileformatCap}} slide bằng API {{ProgLang}} {{EnvName}} của chúng tôi, đảm bảo các bài thuyết trình rõ ràng và chuyên nghiệp."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} {{FileformatCap}} Loại bỏ hình mờ",
+      "description": "Khai thác sức mạnh của {{ProdFullName}} {{ProgLang}} API để loại bỏ hiệu quả hình mờ khỏi {{FileformatCap}} bản trình bày, giữ gìn tính thẩm mỹ của slide trong khi vẫn duy trì tính toàn vẹn của nội dung.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} CÁ",
+      "action_title": "{{PackageStoreName}} Tải về"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} thư viện",
+      "content": "Thư viện {{ProdFullName}} {{ProgLang}} cung cấp các công cụ tinh vi để xóa hình mờ khỏi {{FileformatCap}} bản trình bày. Nó cung cấp các chức năng để xóa hình mờ liền mạch, đảm bảo rằng bản trình bày của bạn vẫn có tác động và gọn gàng. Thích hợp cho môi trường kinh doanh, giáo dục và đào tạo nơi hình ảnh sạch sẽ, rõ ràng là điều cần thiết."
+    },
+    "formats": {
+      "title": "Tối ưu hóa {{FileformatCap}} bài thuyết trình trong {{EnvName}}",
+      "description": "Khám phá cách sử dụng API {{ProdFullName}} {{ProgLang}} để trình bày {{FileformatCap}} sạch sẽ và chuyên nghiệp, không có các yếu tố hình mờ gây mất tập trung."
+    }
+  }
+}

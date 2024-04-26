@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-02-16T13:08:06
+date: 2024-04-26T21:39:08
 draft: false
 
 lang: ru
@@ -24,74 +24,80 @@ supported_platforms:
       tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "{index-content-nodejs-java.head_title}"
-head_description: "{index-content-nodejs-java.head_description}"
+head_title: "Библиотека водяных знаков Node.js | водяные знаки документов"
+head_description: "Решение Node.js защищает деловые документы с помощью текстовых и графических водяных знаков. Поддерживаются популярные форматы, такие как PDF, Word, Excel, PowerPoint."
 
 ############################# Header ############################
-title: "{index-content-nodejs-java.title}"
-description: "{index-content-nodejs-java.description}"
+title: "Доступ к технологии водяных знаков в Node.js с помощью решений Java"
+description: "Защитите свою интеллектуальную собственность и предотвратите несанкционированное копирование с помощью этого решения Node.js. Оно позволяет пользователям легко добавлять водяные знаки в деловые документы различных форматов, включая PDF, Word, Excel, PowerPoint, изображения и т. д."
 words:
-  for: "{index-content.words_for}"
+  for: "для"
 
 actions:
-  main: "{index-content-nodejs-java.actions_main}"
-  main_link: ""
-  alt: "{index-content.actions.alt}"
-  alt_link: ""
-  title: "{index-content.actions.title}"
-  description: "{index-content.actions.description}"
+  main: "Используйте NPM для бесплатной загрузки"
+  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark"
+  alt: "Лицензирование"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Watermark бесплатно или запросите лицензию"
 
 release:
-  title: "{index-content.release_title}"
-  notes: "{index-content.release_notes}"
-  downloads: "{index-content.release_downloads}"
-  link: "{products.nodejs-java.release_downloads}"
+  title: "Выпущена версия {0}"
+  notes: "Узнайте, что нового"
+  downloads: "Загрузки"
+  link: "https://releases.groupdocs.com/watermark/nodejs-java/"
 
 code:
-  title: "{index-content-nodejs-java.code_title}"
-  more: "{index-content.code_more}"
-  more_link: ""
-  install: "npm i @groupdocs/groupdocs.comparison"
+  title: "Добавьте водяной знак в PDF с помощью TypeScript"
+  more: "Больше примеров"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+  install: "npm i @groupdocs/groupdocs.watermarker"
   content: |
     ```javascript {style=abap}
 
-    // {index-content.code_comment_1}
-    let comparer = new Comparer("source.bmp");
+    // Создайте экземпляр Watermarker, передающий путь PDF
+    let loadOptions = new PdfLoadOptions();
+    let watermarker = 
+        new Watermarker("source.pdf", loadOptions);
 
-    // {index-content.code_comment_2}
-    comparer.add("target.bmp");
+    // Настройте параметры водяных знаков
+    let textWatermark = 
+        new TextWatermark("Approved", new Font("Arial", 8));
 
-    // {index-content.code_comment_3}
-    comparer.compare("result.bmp"); 
+    // Применить водяной знак к документу PDF
+    watermarker.add(textWatermark);
+
+    // Сохранить документ с результатами
+    watermarker.save("result.pdf");
     ```
 
 ############################# Overview ############################
 overview:
   enable: true
-  title: "{index-content.overview_title}"
-  description: "{index-content-nodejs-java.overview_description}"
+  title: "GroupDocs.Watermark с первого взгляда"
+  description: "Библиотека TypeScript Node.js для водяных знаков"
   features:
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_1.title}"
-      content: "{index-content-nodejs-java.overview_feature_1.description}"
+    - title: "Нанесение водяных знаков на файл Node.js"
+      content: "Защитите свои деловые документы с помощью GroupDocs.Watermark for Node.js via Java. Добавляйте текст, изображения, диаграммы или вложения электронной почты в качестве водяных знаков к файлам различных форматов."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_2.title}"
-      content: "{index-content-nodejs-java.overview_feature_2.description}"
+    - title: "Настройте водяные знаки в соответствии со своими потребностями"
+      content: "GroupDocs.Watermark for Node.js via Java предоставляет широкие возможности настройки водяных знаков. Точная настройка стилей текста (полужирный шрифт, курсив, шрифт) и свойств изображения (поворот и т. д.) позволяет настроить обработку документов."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_3.title}"
-      content: "{index-content-nodejs-java.overview_feature_3.description}"
+    - title: "Комплексная поддержка форматов"
+      content: "GroupDocs.Watermark for Node.js via Java легко интегрируется с широким спектром форматов файлов, включая PDF, MS Office, например Word, Excel, PowerPoint, изображения, такие как JPEG, PNG, GIF, BMP, Visio, диаграммы, электронные письма и т. д. Упрощают обработку документов для достижения бизнес-целей."
 
     # feature loop
-    - title: "{index-content-nodejs-java.overview_feature_4.title}"
-      content: "{index-content-nodejs-java.overview_feature_4.description}"
+    - title: "Мощный поиск и обновление водяных знаков"
+      content: "Получите и обновите существующие водяные знаки в документах с водяными знаками. Измените текст, стиль, содержимое изображений или полностью удалите их. GroupDocs.Watermark for Node.js via Java предоставляет широкий спектр возможностей обработки водяных знаков."
 
 ############################# Platforms ############################
 platforms:
   enable: true
-  title: "{index-content.platforms.title}"
-  description: "{index-content-nodejs-java.platforms_description}"
+  title: "Независимость платформы"
+  description: "GroupDocs.Watermark for Node.js via Java легко интегрируется с различными операционными системами и менеджерами пакетов."
   items:
     # platform loop
     - title: "Windows"
@@ -130,142 +136,149 @@ platforms:
 ############################# File formats ############################
 formats:
   enable: true
-  title: "{index-content.formats_title}"
+  title: "Поддерживаемые форматы файлов"
   description: |
-    {index-content-nodejs-java.formats_description}
+    GroupDocs.Watermark for Node.js via Java позволяет обрабатывать файлы самых разных форматов. [Ознакомьтесь с полным списком](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
       content: |
-        ### {index-content.formats_groups.title_1}
-        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX, RTF, TXT
-        * **Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX
-        * **PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT        
-        * **Outlook:** EML, EMLX, MSG
-        * **OneNote:** ONE
-        * **OpenDocument:** ODT, ODP, OTP, ODS, OTT
-        * **{index-content.formats_groups.format_fixed_page_layout}:** PDF        
+        ### форматы Microsoft Office и OpenDocument
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
     # group loop
     - color: "blue"
       content: |
-        ### {index-content.formats_groups.title_2}
-        * **{index-content.formats_groups.format_raster_images}:** BMP, GIF, JPG, JPEG, PNG
-        * **{index-content.formats_groups.format_medical_imaging}:** DICOM
-        * **Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
-        * **AutoCAD Drawing:** DWG, DXF
+        ### Изображения и графика
+        * **Популярные форматы изображений:** BMP, JPG, JPEG, PNG
+        * **Многостраничные изображения:** GIF, WEBP, TIFF
       # group loop
     - color: "red"
       content: |
-        ### {index-content.formats_groups.title_3}
-        * **{index-content.formats_groups.format_text}:** TXT
-        * **{index-content.formats_groups.format_programming_languages}:** CS, Java, CPP, JS, PY, RB, PL, ASM, GROOVY, JSON, PHP, SQL, LOG, DIFF, LESS, SCALA
-        * **{index-content.formats_groups.format_web}:** HTM, HTML, MHT, MHTML
-        * **{index-content.formats_groups.format_e_books}:** MOBI, DjVu
-        * **{index-content.formats_groups.format_delimiter_separated_values}:** CSV
+        ### Другой
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
 
 ############################# Features ############################
 features:
   enable: true
-  title: "{index-content-nodejs-java.features.title}"
-  description: "{index-content-nodejs-java.features.description}"
+  title: "GroupDocs.Watermark for Node.js via Java: набор функций"
+  description: "Обеспечьте надежную защиту документов с помощью программных водяных знаков. Поддерживает различные форматы файлов, включая: PDF, DOCX, XLSX, PPTX и форматы изображений (PNG, JPG и т. д.)."
 
   items:
     # feature loop
-    - icon: "compare"
-      title: "{index-content-nodejs-java.features.feature_1.title}"
-      content: "{index-content-nodejs-java.features.feature_1.content}"
+    - icon: "watermark_add"
+      title: "Точное управление водяными знаками"
+      content: "Точно управляйте водяными знаками, добавляя или удаляя их из определенных разделов, целых документов или отдельных вложений и фигур в разных форматах файлов."
 
     # feature loop
-    - icon: "note-stack"
-      title: "{index-content-nodejs-java.features.feature_2.title}"
-      content: "{index-content-nodejs-java.features.feature_2.content}"
+    - icon: "watermark_style"
+      title: "Настройка внешнего вида водяных знаков"
+      content: "Тщательно контролируйте эстетику водяных знаков, изменяя такие атрибуты, как цвет, шрифт, непрозрачность, поворот и положение в документе."
 
     # feature loop
-    - icon: "stacks"
-      title: "{index-content-nodejs-java.features.feature_3.title}"
-      content: "{index-content-nodejs-java.features.feature_3.content}"
+    - icon: "hidden_print"
+      title: "Распечатать PDF Водяные знаки"
+      content: "Установите скрытый водяной знак, который остается невидимым при обычном просмотре документов, но становится заметным только в процессе печати, тем самым незаметно повышая безопасность документов."
 
     # feature loop
-    - icon: "rule"
-      title: "{index-content-nodejs-java.features.feature_4.title}"
-      content: "{index-content-nodejs-java.features.feature_4.content}"
+    - icon: "image_only"
+      title: "Водяные знаки для конкретных изображений"
+      content: "Используйте наше решение для нанесения водяных знаков на определенные изображения в документе. Выберите встраивание водяных знаков в определенный раздел (например, страницу, слайд) или во весь документ."
 
     # feature loop
-    - icon: "preview"
-      title: "{index-content-nodejs-java.features.feature_5.title}"
-      content: "{index-content-nodejs-java.features.feature_5.content}"
+    - icon: "image_frame"
+      title: "Нанесение водяных знаков на многокадровые изображения"
+      content: "Выборочно наносите водяные знаки на определенные кадры в формате многокадрового изображения, обеспечивая детальный контроль над размещением водяных знаков."
 
     # feature loop
-    - icon: "two-pager"
-      title: "{index-content-nodejs-java.features.feature_6.title}"
-      content: "{index-content-nodejs-java.features.feature_6.content}"
+    - icon: "attachments"
+      title: "Комплексная защита контента"
+      content: "Расширьте защиту различных элементов документов, таких как вложения в Excel документах и формы изображений в презентациях, обеспечив дополнительный уровень безопасности."
 
     # feature loop
-    - icon: "format_color_text"
-      title: "{index-content-nodejs-java.features.feature_7.title}"
-      content: "{index-content-nodejs-java.features.feature_7.content}"
+    - icon: "pdf_objects"
+      title: "Расширенные водяные знаки в PDF"
+      content: "Нанесите водяные знаки на различные области PDF s, включая Bleed Box, Art Box, Crop Box, Trim Box и т. д."
 
     # feature loop
-    - icon: "folder-managed"
-      title: "{index-content-nodejs-java.features.feature_8.title}"
-      content: "{index-content-nodejs-java.features.feature_8.content}"
+    - icon: "doc_background"
+      title: "Водяные знаки на фоновом изображении"
+      content: "Управляйте водяными знаками на фоновых изображениях электронных таблиц и презентаций, предлагая дополнительные возможности настройки визуальных мер безопасности."
 
     # feature loop
-    - icon: "lock"
-      title: "{index-content-nodejs-java.features.feature_9.title}"
-      content: "{index-content-nodejs-java.features.feature_9.content}"
+    - icon: "unreadable_characters"
+      title: "Текстовый водяной знак с нечитаемыми символами"
+      content: "Используйте нечитаемые символы в текстовых водяных знаках, встроенных в презентации, чтобы повысить безопасность, значительно усложняя несанкционированное извлечение водяных знаков."
 
     # feature loop
-    - icon: "select"
-      title: "{index-content-nodejs-java.features.feature_10.title}"
-      content: "{index-content-nodejs-java.features.feature_10.content}"
+    - icon: "watermark_text_search"
+      title: "Расширенный поиск водяных знаков"
+      content: "Используйте комплексные возможности поиска для поиска водяных знаков в документах на основе определенных параметров или комбинирования различных критериев, что обеспечивает эффективный поиск и управление ими."
 
     # feature loop
-    - icon: "speaker-notes"
-      title: "{index-content-nodejs-java.features.feature_11.title}"
-      content: "{index-content-nodejs-java.features.feature_11.content}"
+    - icon: "watermark_image_search"
+      title: "Обнаружение водяных знаков на похожих изображениях"
+      content: "Найдите похожие изображения водяных знаков в документах, визуально напоминающих исходное изображение."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Программное извлечение информации из документов"
+      content: "Извлекайте ценные метаданные программно, включая сведения о настройках страницы и другую информацию о документах для поддерживаемых форматов файлов."
 
 ############################# Code samples ############################
 code_samples:
   enable: true
-  title: "{index-content.code_samples.title}"
-  description: "{index-content-net.code_samples_description}"
+  title: "Образцы кода"
+  description: "Ознакомьтесь с примерами кода, демонстрирующими распространенные функции GroupDocs.Watermark for Node.js via Java"
   items:
     # code sample loop
-    - title: "{index-content-net.code_title_sample_1}"
+    - title: "Нанесение водяных знаков на документ с помощью изображения"
       content: |
-        {index-content-net.code_samples_sample_1_content}
-        {{< landing/code title="{index-content.code_samples.sample_1.code_title}">}}
-        ```csharp {style=abap}
-        // {index-content.code_samples.sample_1.comment_1}
-        using(Comparer comparer = new Comparer("source.docx", new LoadOptions() {Password = "1234"}))  
-        {
-            // {index-content.code_samples.sample_1.comment_2}
-            comparer.Add("target.docx", new LoadOptions() {Password = "5678"});
+        Используйте GroupDocs.Watermark for Node.js via Java для повышения безопасности документов, добавляя водяные знаки изображений. Подробнее: [Водяные знаки на изображениях](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        {{< landing/code title="Как защитить файл водяным знаком изображения.">}}
+        ```javascript {style=abap}
+        // Загрузить исходный документ в Watermarker
+        let watermarker = new Watermarker("document.pdf");
+        
+        // Укажите путь к изображению водяного знака
+        let watermark = new ImageWatermark("watermark.jpg");
 
-            // {index-content.code_samples.sample_1.comment_3}
-            comparer.Compare("result.docx");
-        }
+        // Защитите файл и сохраните его
+        watermarker.add(watermark); 
+        watermarker.save("result.pdf");
+
+        watermark.close();                                                                                               
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "{index-content-net.code_title_sample_2}"
+    - title: "Поиск и изменение существующих водяных знаков"
       content: |
-        {index-content-net.code_samples_sample_2_content}
-        {{< landing/code title="{index-content.code_samples.sample_2.code_title}">}}
-        ```csharp {style=abap}   
-        // {index-content.code_samples.sample_2.comment_1}
-        using(Comparer comparer = new Comparer("source.docx") 
-        {
-            // {index-content.code_samples.sample_2.comment_2}
-            comparer.Add("target2.docx");
-            
-            // {index-content.code_samples.sample_2.comment_3}
-            comparer.Add("target3.docx");
-            
-            // {index-content.code_samples.sample_2.comment_4}
-            comparer.Compare("result.docx");
+        GroupDocs.Watermark for Node.js via Java позволяет управлять водяными знаками документов. Выберите водяные знаки, измените их свойства. Узнайте, как: [Изменить водяные знаки](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
+        {{< landing/code title="Поиск и модификация водяных знаков.">}}
+        ```javascript {style=abap}   
+        // Загрузить исходный документ
+        let watermarker = new Watermarker("document.pdf");
+
+        // Поиск водяных знаков, подлежащих обновлению
+        let searchCriteria = new TextSearchCriteria("test", false);                               
+        let watermarks = watermarker.search(searchCriteria); 
+
+        // Обновите нужные свойства
+        watermarks.forEach((watermark)
+        {  
+            watermark.setText("New Text");
         }
+
+        // Сохранить измененный документ по указанному пути
+        watermarker.Save("document.pdf");
+        watermarker.close();
+
         ```
         {{< /landing/code >}}
 

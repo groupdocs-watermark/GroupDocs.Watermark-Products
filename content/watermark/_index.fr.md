@@ -1,94 +1,404 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "family"
+date:  2024-04-26T21:39:08
 draft: false
 
+product: "Watermark"
+product_tag: "watermark"
+
+lang: fr
+
 ############################# Head ############################
-head_title: "Watermark Solution | API sur site et application gratuite - GroupDocs"
-head_description: "Ajouter un filigrane au PDF, aux images et aux documents. Solution de filigrane pour Microsoft Office, PDF, OpenDocument, formats de fichiers image et plus."
+head_title: "Filigrane du document C# Java Node.js | ajouter un filigrane"
+head_description: "Ajoutez un filigrane à PDF, à des images et à des documents. Solution de filigrane pour Microsoft Office, PDF, OpenDocument, images, etc."
 
 ############################# Header ############################
-title: "Solution de filigrane pour les documents"
-description: "Appliquez et manipulez rapidement des filigranes à base de texte et d'image de vos documents et images avec une recherche intelligente."
+title: "Solution de filigrane pour documents"
+description:  |
+  Ajoutez des filigranes de texte et d'image à vos documents et images.
 
-############################# APIs ###############################
-apis:
+  Recherchez et modifiez les filigranes des documents de manière pratique.
+
+  Obtenez des informations sur les filigranes présentés dans vos documents.
+
+############################# Supported Platforms ###############################
+supported_platforms:
   enable: true
+  head_title: "Choisissez votre plateforme"
+  title: "Indépendance de la plateforme"
+  description: "La bibliothèque GroupDocs.Watermark prend en charge les systèmes d'exploitation et les frameworks suivants :"
+  details_link_title: "En savoir plus"
 
-  api:
-    # api loop
-    - title: "Les API GroupDocs.Watermark High Code incluent"
-      link: "/watermark/"
-      label: "Afficher toutes les API High Code"
-      api_product:
-        # api_product loop
-        - link: "/watermark/net/"
-          img_alt: "GroupDocs.Watermark for .NET"
-          image: "/border/groupdocs-watermark-net.svg"
-          product: "GroupDocs.Watermark for"
-          platform: ".NET"
-          content: "Recherchez, ajoutez ou supprimez des filigranes de texte ou d'image à partir d'une multitude de formats de fichiers dans vos applications .NET."
+  items:
+    # items loop
+    - title: ".NET"
+      description: GroupDocs.Watermark .NET 
+      color: "blue"
+      tag: "net"
+      link: "/watermark/net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Microsoft Visual Studio <br> JetBrains Rider
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+      
 
-        # api_product loop
-        - link: "/watermark/java/"
-          img_alt: "GroupDocs.Watermark for Java"
-          image: "/border/groupdocs-watermark-java.svg"
-          product: "GroupDocs.Watermark for"
-          platform: "Java"
-          content: "API sur site pour les applications basées sur Java permettant de manipuler des filigranes pour MS Office, OpenOffice, des documents portables, des images, des dessins, etc.."
+    # items loop
+    - title: "Java"
+      description: GroupDocs.Watermark Java
+      color: "red"
+      tag: "java"
+      link: "/watermark/java/"
+      features_link: "https://docs.groupdocs.com/watermark/java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Java 8 or higher <br> Kotlin
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IntelliJ IDEA <br> Eclipse <br> NetBeans
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
-    # api loop
-    - title: "Les API GroupDocs.Watermark Low Code incluent"
-      link: "https://products.groupdocs.cloud/watermark"
-      label: "Afficher toutes les API Low Code"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/watermark/net"
-          img_alt: "GroupDocs.Watermark Cloud SDK for .NET"
-          image: "/sdk/groupdocs_watermark-for-net.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Cloud SDK for .NET"
-          content: "Utilisez l'API REST de filigrane avec le SDK .NET pour appliquer, rechercher, modifier et supprimer les filigranes des formats de document dans les applications .NET."
+    # items loop
+    - title: "Node.js"
+      description: GroupDocs.Watermark Node.js
+      color: "green"
+      tag: "nodejs-java"
+      link: "/watermark/nodejs-java/"
+      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Node.js 16+ and J2SE 8.0 (1.8)+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Atom <br> Visual Studio Code <br> Tout autre éditeur de texte
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
 
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/watermark/java"
-          img_alt: "GroupDocs.Watermark Cloud SDK for Java"
-          image: "/sdk/groupdocs_watermark-for-java.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Cloud SDK for Java"
-          content: "Renforcez vos applications Java avec des fonctionnalités flexibles de gestion des filigranes à l'aide du SDK de filigrane pour Java."
-
-    # api loop
-    - title: "GroupDocs.Watermark Les applications sans code incluent"
-      link: "https://products.groupdocs.app/watermark"
-      label: "Voir toutes les applications sans code"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/watermark/total"
-          img_alt: "GroupDocs.Watermark Total"
-          image: "/app/groupdocs_watermark-app.svg"
-          product: "GroupDocs.Watermark"
-          platform: "Total"
-          content: "Application en ligne gratuite pour ajouter des filigranes à Word, PowerPoint, Excel, PDF et plus de 40 autres formats de fichiers."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/watermark/docx"
-          img_alt: "GroupDocs.Watermark DOCX"
-          image: "/app/groupdocs_words-app.svg"
-          product: "GroupDocs.Watermark"
-          platform: "DOCX"
-          content: "Ajouter des filigranes textuels aux documents Microsoft Word en ligne."
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/watermark/pdf"
-          img_alt: "GroupDocs.Watermark PDF"
-          image: "/app/groupdocs_pdf-app.svg"
-          product: "GroupDocs.Watermark"
-          platform: "PDF"
-          content: "Application gratuite en ligne offrant la possibilité de filigraner des documents PDF."
-
-############################# Back to top ###############################
-back_to_top:
+############################# Features ###############################
+features:
   enable: true
+  title: "GroupDocs.Watermark revue des fonctionnalités"
+  description: "La bibliothèque conçue pour ajouter, rechercher et mettre à jour différents types de filigranes pour les formats de documents courants."
+
+  items:
+    # items loop
+    - icon: "protect"
+      title: "Protégez les fichiers avec des filigranes"
+      content: "Ajoutez des filigranes de texte et d'image à vos documents professionnels."
+
+    # items loop
+    - icon: "search"
+      title: "Rechercher des filigranes existants"
+      content: "Obtenez des informations détaillées sur les filigranes placés dans le document précédemment."
+
+    # items loop
+    - icon: "manipulate"
+      title: "Manipuler les filigranes des documents"
+      content: "Contrôlez le texte, le style, l'image et les autres fonctionnalités du filigrane."
+
+    # items loop
+    - icon: "additional"
+      title: "Diverses fonctionnalités supplémentaires"
+      content: "Obtenez des informations sur le document, mettez à jour les hyperliens ou l'arrière-plan des pages, etc."
+
+############################# Code Samples ###############################
+code_samples:
+  enable: true
+  title: "Protégez les documents par des filigranes"
+  description: "GroupDocs.Watermark exemples de code d'opérations typiques."
+
+  items:
+    # items loop
+    - title: "Création d'un filigrane."
+      content: "Pour ajouter un filigrane à un document, indiquez le chemin du fichier cible. Vous avez le choix entre de nombreuses options pour obtenir un filigrane personnalisé sur une page spécifique."
+      samples:
+          # samples loop
+          - language: "C#"
+            color: "blue"
+            content: |
+                    <code class="language-csharp" data-lang="csharp">
+                        // Spécifiez le document à filigraner
+
+                        using (Watermarker watermarker = new Watermarker("source.docx"))
+                        {
+                          // Créer un objet en filigrane
+                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                          // Définir les options de filigrane
+                          watermark.ForegroundColor = Color.Red;
+                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                          watermark.VerticalAlignment = VerticalAlignment.Center;
+
+                          // Ajouter un filigrane et enregistrer le fichier traité
+                          watermarker.Add(watermark);
+                          watermarker.Save("result.docx");
+                        }                    
+                    </code>
+
+          # samples loop
+          - language: "Java"
+            color: "red"
+            content: |
+                    <code class="language-java" data-lang="java">
+                        // Spécifiez le document à filigraner
+
+                        Watermarker watermarker = new Watermarker("source.docx");
+
+                        // Créer un objet en filigrane
+                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                        // Définir les options de filigrane
+                        watermark.setForegroundColor(Color.getRed());
+                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+
+                        // Ajouter un filigrane et enregistrer le fichier traité
+                        watermarker.add(watermark);
+                        watermarker.save("result.docx");
+                        watermarker.close();
+
+                    </code>
+
+          # samples loop
+          - language: "TypeScript"
+            color: "green"
+            content: |
+                    <code class="language-java" data-lang="javascript">
+                        // Spécifiez le document à filigraner
+
+                        const watermarker = new Watermarker("source.docx");
+    
+                        // Créer un objet en filigrane
+                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+
+                        // Définir les options de filigrane
+                        watermark.setForegroundColor(Color.getRed());
+                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+
+                        // Ajouter un filigrane et enregistrer le fichier traité
+                        watermarker.add(watermark);
+                        watermarker.save("result.docx");                        
+
+                    </code>
+
+############################# Supported Formats ###############################
+formats:
+  enable: true
+  title: "Plus de 50 formats de fichiers pris en charge"
+  description: "GroupDocs.Watermark fournit un filigrane pour les formats de documents et de fichiers courants."
+
+############################# Metrics ###############################
+metrics:
+  enable: true
+  title: "Données statistiques de notre bibliothèque"
+  description: "Explorez en profondeur les indicateurs clés et découvrez un aperçu de nos réalisations, de notre impact et de notre croissance."
+
+  items:
+    # items loop
+    - number: "50+"
+      title: "Formats pris en charge"
+      content: "La bibliothèque est capable de traiter plus de 50 des formats de fichiers les plus populaires."
+
+    # items loop
+    - number: "800k"
+      title: "NuGet téléchargements"
+      content: "GroupDocs.Watermark pour .NET est une bibliothèque populaire qui compte plus de 800 000 téléchargements sur NuGet."
+
+    # items loop
+    - number: "15k"
+      title: "Téléchargements de Maven"
+      content: "Avec plus de 15 000 téléchargements sur Maven, GroupDocs.Watermark est un choix populaire pour Java développeurs."
+
+    # items loop
+    - number: "140+"
+      title: "Des clients satisfaits"
+      content: "Les développeurs individuels et les plus grandes entreprises du monde entier préfèrent nos bibliothèques pour créer des solutions innovantes."
+
+
+############################# Customers ###############################
+customers:
+  enable: true
+  title: "Nos clients satisfaits"
+  description: "GroupDocs bibliothèques sont utilisées par des marques renommées et distinguées à travers le monde."
+
+  items:
+    # items loop
+    - title: "BenQ Corporation"
+      logo: "benq"
+      
+    # items loop
+    - title: "Nasdaq Stock Market"
+      logo: "nasdaq"
+      
+    # items loop
+    - title: "AT&T Inc."
+      logo: "att"
+      
+    # items loop
+    - title: "Customer logo AstraZeneca"
+      logo: "astrazeneca"
+      
+    # items loop
+    - title: "Central Bank of Argentina"
+      logo: "argentinacentralbank"
+      
+    # items loop
+    - title: "Roche Holding AG"
+      logo: "roche"
+      
+    # items loop
+    - title: "Capita"
+      logo: "capita"
+      
+    # items loop
+    - title: "Axa S.A."
+      logo: "axa"
+      
+    # items loop
+    - title: "Instructure Inc."
+      logo: "instructure"
+      
+    # items loop
+    - title: "Wipro"
+      logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "Prêt à démarrer ?"
+  description: "Essayez GroupDocs.Watermark fonctionnalités gratuitement sur votre plateforme"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/watermark/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/watermark/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/watermark/nodejs-java/"      
+
+############################# FAQ ###############################
+faq:
+  enable: true
+  title: "Questions fréquemment posées"
+  description: "Consultez nos questions fréquemment posées"
+
+  items:
+    # items loop
+    - question: "Des bibliothèques externes sont-elles requises par GroupDocs.Watermark pour manipuler des documents ?"
+      answer: "GroupDocs.Watermark fonctionne indépendamment, aucun logiciel tiers comme Adobe Acrobat, Microsoft Office, etc. n'est nécessaire."
+
+    # items loop
+    - question: "Puis-je tester les fonctionnalités de GroupDocs.Watermark avant d'acheter ?"
+      answer: "Oui, GroupDocs.Watermark propose un essai gratuit ! Installez-le et essayez-le, mais n'oubliez pas : les versions d'essai ajoutent des « badges d'essai » à vos documents, seules les 3 premières pages sont traitées. Vous voulez vivre une expérience complète ? Obtenez une licence temporaire gratuite de 30 jours pour bénéficier de toutes les fonctionnalités. Voir les détails sous [licence temporaire](https://purchase.groupdocs.com/temporary-license/)."
+
+    # items loop
+    - question: "Quels sont les types de licences proposés ?"
+      answer: "Vous avez besoin d'une licence GroupDocs.Watermark ? Nous avons des options ! Choisissez parmi les licences proposées parmi de nombreuses options. Nombre de développeurs dans votre équipe. Lieux de déploiement tels que des bureaux uniques ou des lieux de travail distants. La distribution destinée aux clients finaux doit-elle partager le SDK/API avec les clients ? Il existe également une licence pour une utilisation mensuelle : ne payez que pour ce que vous utilisez avec les forfaits payants. Approfondissez vos connaissances et trouvez le [prix] idéal (https://purchase.groupdocs.com/pricing/watermark/net/)."
+
+############################# Cloud Links ###############################
+cloud_links:
+  enable: true
+  title: "GroupDocs.Watermark API à faible code"
+  description: "Ajoutez des filigranes aux fichiers par votre application à l'aide de notre API REST basée sur le cloud."
+  
+  items:
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for cURL"
+      content: "Utilisez l'API complète cURL REST pour filigraner PDF, Word, Excel, PowerPoint, JPEG et d'autres formats de fichiers courants."
+      icon: "groupdocs_watermark-for-curl"
+      link: "https://products.groupdocs.cloud/watermark/curl"
+
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for .NET"
+      content: "Renforcez vos applications .NET grâce aux fonctionnalités de filigrane des documents proposées par Cloud SDK pour .NET. Protégez vous-même vos documents commerciaux."
+      icon: "groupdocs_watermark-for-net"
+      link: "https://products.groupdocs.cloud/watermark/net"
+
+    # items loop
+    - title: "GroupDocs.Watermark Cloud for Java"
+      content: "Le SDK GroupDocs.Watermark conçu pour Java offre de nouvelles possibilités pour vos Java applications et fichiers professionnels."
+      icon: "groupdocs_watermark-for-java"
+      link: "https://products.groupdocs.cloud/watermark/java"
+
+############################# App links ###############################
+app_links:
+  enable: true
+  title: "GroupDocs.Watermark Applications Web"
+  description: "GroupDocs donne accès à une application Web permettant d'ajouter des filigranes à vos documents. Plus de 50 formats de fichiers populaires peuvent être filigranés GRATUITEMENT dans votre navigateur préféré."
+
+  items:
+    # items loop
+    - title: "GroupDocs.Watermark Total"
+      content: "Outil en ligne pour ajouter des filigranes à des documents depuis n'importe quel appareil."
+      icon: "groupdocs_watermark-app"
+      link: "https://products.groupdocs.app/watermark/total"
+
+    # items loop
+    - title: "GroupDocs.Watermark DOCX"
+      content: "Filigrane MS Word DOCX en ligne."
+      icon: "groupdocs_words-app"
+      link: "https://products.groupdocs.app/watermark/docx"
+
+    # items loop
+    - title: "GroupDocs.Watermark PDF"
+      content: "Protégez PDF documents en ligne."
+      icon: "groupdocs_pdf-app"
+      link: "https://products.groupdocs.app/watermark/pdf"
+
+
+      
+
+
 ---

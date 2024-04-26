@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Tìm hình mờ hình ảnh được đặt trong {{FileFormatUp}}",
+    "comment_2": "Xây dựng Watermarker đi qua đường dẫn {{FileFormatUp}}",
+    "comment_3": "Tìm hình mờ bằng các tùy chọn tìm kiếm",
+    "comment_4": "Xử lý thông tin hình mờ"
+  },
+  "steps": {
+    "title": "Tìm hiệu quả {{FileformatCap}} hình mờ với {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** cung cấp một giải pháp mạnh mẽ để tìm kiếm hình mờ theo chương trình trong các định dạng tài liệu kinh doanh khác nhau. Tích hợp gói của chúng tôi vào {{EnvName}} ứng dụng của bạn để cung cấp cho họ khả năng tìm hình mờ.",
+      "step_1": "**Watermarker** và cung cấp đường dẫn tệp {{FileformatCap}}, luồng tệp hoặc luồng byte làm đầu vào. Hành động này tải tài liệu để phân tích hình mờ.",
+      "step_2": "**SearchCriteria**. Chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số thích hợp khác để tinh chỉnh tiêu chí tìm kiếm.",
+      "step_3": "**Tìm kiếm** của đối tượng** Watermarker** để bắt đầu quá trình phát hiện hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, cho phép xử lý thêm.",
+      "step_4": "Bộ sưu tập các đối tượng hình mờ được truy xuất cho phép bạn kiểm soát chính xác. Bạn có thể xóa hình mờ không mong muốn theo chương trình hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước hoặc nội dung văn bản của chúng, để phù hợp với yêu cầu cụ thể của bạn."
+    }
+  },
+  "more_features": {
+    "title": "Kỹ thuật tìm kiếm hình mờ nâng cao sử dụng C # với {{ProdShortName}}",
+    "description": "Đi sâu vào khả năng tìm kiếm hình mờ mạnh mẽ bằng cách sử dụng {{ProdShortName}} C# API, được thiết kế riêng cho các nhà phát triển trong nền tảng {{EnvName}}.",
+    "image_description": "Tìm kiếm hình mờ C #",
+    "feature_1": {
+      "title": "Phát hiện hình mờ được sắp xếp hợp lý trong C #",
+      "content": "Sử dụng {{ProdShortName}} để triển khai phát hiện hình mờ hợp lý trong các ứng dụng C # của bạn. Hưởng lợi từ các chức năng tìm kiếm nâng cao để xác định vị trí hình mờ một cách nhanh chóng và chính xác."
+    },
+    "feature_2": {
+      "title": "Tìm kiếm hình mờ chính xác với C #",
+      "content": "Nâng cao các giao thức bảo mật tài liệu của bạn bằng cách tìm kiếm chính xác các hình mờ trong C #. Định cấu hình {{ProdShortName}} để tìm hình mờ dựa trên các đặc điểm cụ thể như kích thước, màu sắc và vị trí."
+    },
+    "feature_3": {
+      "title": "Tích hợp C # để quản lý hình mờ hiệu quả",
+      "content": "Tích hợp {{ProdShortName}} vào các dự án C # của bạn để quản lý hiệu quả hình mờ tài liệu. API của chúng tôi cung cấp các công cụ mạnh mẽ để tìm kiếm, phân tích và báo cáo về việc sử dụng hình mờ, đảm bảo tuân thủ và nhất quán thương hiệu."
+    },
+    "code_1": {
+      "title": "Ví dụ C #: Tìm kiếm hình mờ toàn diện",
+      "content": "Khám phá ví dụ chi tiết này về cách sử dụng C# với {{ProdShortName}} để có khả năng tìm kiếm hình mờ toàn diện, bao gồm xử lý nhiều loại tài liệu và tiêu chí tìm kiếm phức tạp.",
+      "comment_1": "Khởi tạo ứng dụng C # và chuẩn bị cơ chế tải tài liệu",
+      "comment_2": "Đặt tham số tìm kiếm để nhắm mục tiêu các thuộc tính hình mờ cụ thể",
+      "comment_3": "Thực hiện tìm kiếm trên các tài liệu và thu thập chi tiết hình mờ",
+      "comment_4": "Phân tích và xử lý dữ liệu hình mờ cho các hành động quản trị hoặc tuân thủ tiếp theo"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Tiết lộ hình mờ bí mật trong {{FileFormatUp}} tài liệu",
+      "description": "Khám phá hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Tìm hình mờ ẩn dễ dàng trong {{FileFormatUp}} tài liệu",
+      "description": "Nhanh chóng khám phá và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Nhận thông tin {{ProdFullName}}",
+      "content": "{{ProdFullName}} là một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Dễ dàng đưa quản lý hình mờ vào các ứng dụng của bạn với {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Khám phá các định dạng được hỗ trợ để tìm hình mờ",
+      "description": "Dễ dàng tìm kiếm và xác định hình mờ ở các định dạng tệp được hỗ trợ khác nhau."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Khám phá Hình mờ ẩn trong {{FileFormatUp}} tài liệu",
+      "description": "Dễ dàng khám phá các hình mờ ẩn trong tài liệu với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Dễ dàng xác định vị trí hình mờ ẩn trong {{FileFormatUp}} tài liệu",
+      "description": "Nhanh chóng xác định vị trí và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ nhiều định dạng tài liệu bao gồm PDF, Microsoft Word, Excel, v.v. Tích hợp liền mạch quản lý hình mờ vào các ứng dụng của bạn với {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Khám phá hình mờ ở nhiều định dạng tệp",
+      "description": "Dễ dàng xác định và quản lý hình mờ ở nhiều định dạng tệp được hỗ trợ."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Khám phá {{FileFormatUp}} Tài liệu Hình mờ ẩn",
+      "description": "Dễ dàng khám phá các hình mờ ẩn trong tài liệu với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Khám phá {{FileFormatUp}} Tài liệu Hình mờ ẩn ngay lập tức",
+      "description": "Nhanh chóng tiết lộ và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Khoảng {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Tích hợp tìm kiếm hình mờ vào các ứng dụng của bạn bằng {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Khám phá hình mờ trên các định dạng được hỗ trợ",
+      "description": "Dễ dàng tìm kiếm và xác định hình mờ ở các định dạng tệp được hỗ trợ khác nhau."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Khám phá {{FileFormatUp}} Bản trình bày Hình mờ ẩn",
+      "description": "Khám phá hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Dễ dàng khám phá {{FileFormatUp}} Bản trình bày Hình mờ ẩn",
+      "description": "Nhanh chóng khám phá và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thông tin cơ sở",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. {{ProdFullName}} cung cấp quản lý hình mờ cho các ứng dụng của bạn."
+    },
+    "formats": {
+      "title": "Khám phá hình mờ trên nhiều định dạng",
+      "description": "Dễ dàng xác định và quản lý hình mờ trên một loạt các định dạng tệp được hỗ trợ."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Hiển thị hình mờ ẩn trong {{FileFormatUp}} bài thuyết trình",
+      "description": "Tiết lộ hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Tiết lộ hình mờ ẩn ngay lập tức trong {{FileFormatUp}} bài thuyết trình",
+      "description": "Nhanh chóng tiết lộ và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Tham gia tìm kiếm hình mờ vào các ứng dụng của bạn bằng cách sử dụng {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Hiển thị hình mờ trên các định dạng được hỗ trợ",
+      "description": "Dễ dàng tìm kiếm và xác định hình mờ ở các định dạng tệp được hỗ trợ khác nhau."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Phát hiện hình mờ ẩn trong tài liệu {{FileFormatUp}}",
+      "description": "Phát hiện hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Phát hiện và quản lý hình mờ ẩn trong {{FileFormatUp}} tài liệu",
+      "description": "Nhanh chóng phát hiện và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thông tin",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Tích hợp quản lý hình mờ vào các ứng dụng của bạn thông qua {{ProdFullName}} một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Phát hiện hình mờ trên nhiều định dạng",
+      "description": "Dễ dàng xác định và quản lý hình mờ trên một loạt các định dạng tệp được hỗ trợ."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Điểm ẩn {{FileFormatUp}} Spreadsheets Watermarks",
+      "description": "Phát hiện hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Phát hiện và quản lý các hình mờ ẩn trong {{FileFormatUp}} Spreadsheets",
+      "description": "Nhanh chóng phát hiện và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Nhận thông tin {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Thêm khả năng tìm kiếm hình mờ vào ứng dụng của bạn bằng cách sử dụng {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Phát hiện hình mờ trên các định dạng được hỗ trợ",
+      "description": "Dễ dàng tìm kiếm và xác định hình mờ ở các định dạng tệp được hỗ trợ khác nhau."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Mở mặt nạ hình mờ của bảng tính ẩn {{FileFormatUp}}",
+      "description": "Mở mặt nạ hình mờ ẩn trong tài liệu một cách dễ dàng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Mở mặt nạ hình mờ của bảng tính ẩn {{FileFormatUp}} ngay lập tức",
+      "description": "Nhanh chóng mở mặt nạ và quản lý hình mờ ẩn với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Dễ dàng tạo, chỉnh sửa, tìm và xóa hình mờ từ các định dạng tài liệu khác nhau như PDF, Microsoft Word, Excel, v.v. Sử dụng {{ProdFullName}} để tích hợp quản lý hình mờ vào các ứng dụng của bạn."
+    },
+    "formats": {
+      "title": "Bỏ mặt nạ hình mờ trên các định dạng được hỗ trợ",
+      "description": "Dễ dàng tìm kiếm và xác định hình mờ ở các định dạng tệp được hỗ trợ khác nhau."
+    }
+  }
+}

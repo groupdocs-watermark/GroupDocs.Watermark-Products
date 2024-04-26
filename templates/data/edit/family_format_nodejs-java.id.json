@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Perbarui {{FileFormatUp}} tanda air teks",
+    "comment_2": "Menyediakan contoh Watermarker untuk file {{FileFormatUp}}",
+    "comment_3": "Gunakan TextSearchCriteria untuk menemukan tanda air teks",
+    "comment_4": "Perbarui tanda air teks",
+    "comment_5": "Nikmati hasilnya"
+  },
+  "steps": {
+    "title": "Perbarui Watermark di {{FileFormatUp}} melalui {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** melengkapi {{EnvName}} pengembang dengan API yang kuat untuk memperbarui tanda air secara terprogram dalam berbagai dokumen {{FileFormatUp}}. Panduan ini menguraikan prosesnya:",
+      "step_1": "**Watermarker**. Bergantung pada permintaan Anda, file dapat disediakan sebagai aliran atau referensi ke lokasi disk lokal.",
+      "step_2": "**SearchCriteria** untuk mengidentifikasi tanda air tertentu yang memerlukan modifikasi. Objek ini memungkinkan penentuan tanda air berdasarkan properti yang diinginkan.",
+      "step_3": "Setelah keberhasilan pelaksanaan pencarian, Anda akan menerima kumpulan tanda air yang relevan. Watermark ini menawarkan kontrol granular, memungkinkan Anda memperbarui properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.",
+      "step_4": "Setelah penyelesaian pembaruan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran."
+    }
+  },
+  "more_features": {
+    "title": "Menguasai Pengeditan Tanda Air dalam PDF detik dengan {{ProdShortName}}",
+    "description": "Jelajahi fitur API komprehensif untuk menyesuaikan dan mengelola tanda air dalam PDF s dalam {{EnvName}} aplikasi.",
+    "image_description": "Edit Tanda Air",
+    "feature_1": {
+      "title": "Mengedit Watermark dengan mudah dalam PDF s",
+      "content": "{{ProdShortName}} menawarkan alat yang kuat di {{EnvName}} untuk mengedit tanda air yang ada dengan mulus di dokumen PDF. Sesuaikan posisi, transparansi, dan lainnya dengan mudah."
+    },
+    "feature_2": {
+      "title": "Sempurnakan Detail Tanda Air untuk Presisi",
+      "content": "Kendalikan detailnya. API kami memungkinkan Anda untuk menyempurnakan tampilan tanda air, memungkinkan modifikasi ukuran, opasitas, dan warna yang tepat di PDF s Anda."
+    },
+    "feature_3": {
+      "title": "Manajemen Watermark yang Efisien",
+      "content": "API kami menyederhanakan pengelolaan tanda air. Baik memperbarui atau menghapus, Anda dapat mengelola tanda air secara efisien, menjaga integritas dokumen sambil memenuhi kebutuhan branding Anda."
+    },
+    "code_1": {
+      "title": "Java Contoh: Edit PDF Tanda Air",
+      "content": "Contoh Java ini menunjukkan cara mengedit tanda air yang ada di dokumen PDF, menampilkan cara menyesuaikan propertinya secara terprogram.",
+      "comment_1": "Muat dokumen PDF untuk diproses",
+      "comment_2": "Cari tanda air tertentu yang memenuhi kriteria Anda",
+      "comment_3": "Mengedit pengaturan tanda air, seperti ukuran, warna, dan posisi",
+      "comment_4": "Simpan dokumen yang diperbarui ke sistem lokal atau streaming langsung"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Perbarui Watermark untuk Excel Spreadsheet",
+      "description": "Perbarui tanda air dalam spreadsheet berbagai format menggunakan {{ProdFullName}}. Perkaya {{EnvName}} aplikasi Anda."
+    },
+    "header": {
+      "title": "Merevolusi Spreadsheet Watermarking menggunakan {{EnvName}}",
+      "description": "Rasakan kekuatan {{ProdFullName}}. Amankan dokumen bisnis Anda dengan berbagai tanda air. Perbarui ukuran tanda air, penyelarasan, sudut rotasi, posisi, dll.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "{{ProdFullName}} adalah solusi komprehensif untuk mengelola tanda air menggunakan lingkungan {{EnvName}}. Dengan alat ini, pengembang dapat dengan mudah melakukan operasi seperti menambahkan, mengedit, mencari, dan menghapus tanda air dari dokumen dalam berbagai format file, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. {{ProdShortName}} mendukung semua sistem operasi utama dan versi Node.js."
+    },
+    "formats": {
+      "title": "Perbarui Watermark Di Seluruh Format File yang Didukung",
+      "description": "Perbarui tanda air secara efisien di PDF, Word, Excel, dan lainnya dengan {{ProdFullName}}. Dokumen bertanda air dapat memperkaya proses bisnis Anda."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Perbarui Watermark di {{FileFormatUp}} dengan Mudah",
+      "description": "Sederhanakan pembaruan tanda air dalam format dokumen {{FileFormatUp}} dengan {{ProdShortName}} menggunakan {{EnvName}}. Berdayakan solusi bisnis Anda."
+    },
+    "header": {
+      "title": "Streamline {{FileFormatUp}} Pembaruan Watermark Dokumen",
+      "description": "Buka kemampuan pembaruan tanda air yang efisien dengan {{ProdFullName}}. Lindungi dokumen bisnis Anda menggunakan berbagai tanda air. Perbarui atribut watermark seperti ukuran, keselarasan, sudut rotasi, dan posisi agar sesuai dengan kebutuhan Anda.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} kemampuan",
+      "content": "{{ProdFullName}} menawarkan solusi mulus untuk mengelola tanda air menggunakan aplikasi {{EnvName}}. Alat serbaguna ini memungkinkan pengembang untuk dengan mudah mengedit tanda air dalam dokumen berbagai format file, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. {{ProdShortName}} mendukung semua sistem operasi utama dan versi {{EnvName}}."
+    },
+    "formats": {
+      "title": "Perbarui Watermark dalam Format File Lain",
+      "description": "Sederhanakan pengeditan tanda air di PDF, Word, Excel, dan lainnya dengan {{ProdFullName}}. Semua format bisnis populer didukung."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Perbarui Watermark di {{FileFormatUp}} Dengan Mudah",
+      "description": "Memperbarui tanda air secara efisien dalam format dokumen {{FileFormatUp}} menggunakan {{ProdFullName}}. Poles proses bisnis Anda."
+    },
+    "header": {
+      "title": "Memperbarui {{FileFormatUp}} Watermark Dokumen dengan Mudah",
+      "description": "Rasakan penghapusan tanda air tanpa repot dengan {{ProdFullName}}. Lindungi kertas bisnis Anda dengan berbagai tanda air. Sesuaikan dimensi tanda air, penyelarasan, sudut rotasi, dan penempatan, dan banyak lagi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan dari {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "{{ProdFullName}} menyediakan solusi yang mudah digunakan untuk mengelola tanda air {{FileFormatUp}} menggunakan {{EnvName}}. Dengan alat ini, pengembang dapat secara efisien memperbarui tanda air dalam berbagai dokumen dan format file, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, dan format email. {{ProdShortName}} mendukung semua sistem operasi utama dan versi {{EnvName}}."
+    },
+    "formats": {
+      "title": "Perbarui Watermark dalam Format File Lain",
+      "description": "Perbarui tanda air secara efisien di PDF, Word, Excel, dll. menggunakan {{ProdFullName}}. Kami mendukung semua format bisnis populer."
+    }
+  }
+}

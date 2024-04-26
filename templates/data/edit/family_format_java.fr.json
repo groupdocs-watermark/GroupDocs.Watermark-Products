@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Ajuster le filigrane du texte {{FileFormatUp}}",
+    "comment_2": "Instanciation d'un filigrane avec saisie du document {{FileFormatUp}}",
+    "comment_3": "Initialisez les TextSearchCriteria et recherchez les filigranes de texte",
+    "comment_4": "Ajuster les propriétés du filigrane de texte",
+    "comment_5": "Enregistrez le document mis à jour"
+  },
+  "steps": {
+    "title": "Ajustez les filigranes dans {{FileformatCap}} documents avec {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajuster facilement les filigranes de texte dans leurs applications en mettant en œuvre quelques étapes simples :",
+      "step_1": "**Watermarker**. Vous pouvez fournir un fichier pour le traitement ultérieur sous forme de flux ou de chemin sur un disque local.",
+      "step_2": "**SearchCriteria** permet d'identifier les filigranes dotés des bonnes propriétés qui ont été précédemment ajoutés à un document.",
+      "step_3": "**Recherche**. Ajustez les propriétés des filigranes trouvés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Il existe de nombreuses façons de personnaliser vos données.",
+      "step_4": "Une fois le processus de réglage des filigranes terminé, vous devez enregistrer le document mis à jour. Utilisez le chemin de fichier local, le fichier ou le flux d'octets pour stocker le résultat."
+    }
+  },
+  "more_features": {
+    "title": "Approfondissement du réglage du filigrane {{FileFormatUp}}",
+    "description": "Notre API permet à {{EnvName}} applications d'ajouter, de modifier, de supprimer et de rechercher des filigranes dans les formats de documents courants.",
+    "image_description": "Ajuster le filigrane",
+    "feature_1": {
+      "title": "Ajoutez un filigrane à vos documents sans effort",
+      "content": "{{ProdShortName}} simplifie le filigrane pour {{EnvName}} développeurs. Ajoutez divers filigranes à divers documents et fichiers commerciaux. Vous pouvez non seulement appliquer des filigranes, mais vous pouvez également mettre à jour ou supprimer ceux qui existent déjà."
+    },
+    "feature_2": {
+      "title": "Personnalisez les filigranes selon vos besoins",
+      "content": "Notre API propose de nombreuses options de personnalisation. Ajustez facilement la taille, la rotation, la couleur, la police, les styles, etc. pour obtenir le filigrane parfait."
+    },
+    "feature_3": {
+      "title": "Utiliser les fonctionnalités natives du document {{FileFormatUp}}",
+      "content": "En fonction du format de document spécifique, vous pouvez utiliser les fonctionnalités natives. Il peut s'agir de l'arrière-plan de la page du document, d'annotations, d'en-têtes ou d'autres objets tels que des conteneurs de filigranes."
+    },
+    "code_1": {
+      "title": "PDF ajuster le filigrane du texte",
+      "content": "Cet exemple montre comment ajuster le texte de chaque artefact.",
+      "comment_1": "Charger le document PDF",
+      "comment_2": "Obtenir le contenu du document",
+      "comment_3": "Ajuster un texte de filigrane particulier",
+      "comment_4": "Enregistrez le document"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Ajuster l'outil de filigrane Excel - {{ProdShortName}}",
+      "description": "Ajustez, mettez à jour et gérez les filigranes sans effort avec {{ProdShortName}}. Personnalisez facilement vos documents."
+    },
+    "header": {
+      "title": "Outil Ajuster les filigranes de SpreadSheets : extrêmement simple",
+      "description": "Améliorez vos documents grâce à notre outil intuitif d'édition de filigranes. Simplifiez votre flux de travail sans effort.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Outil de réglage des filigranes** : Notre outil de filigrane offre une solution conviviale pour améliorer et protéger vos documents. Grâce à des fonctionnalités d'édition intuitives, la gestion des filigranes devient un jeu d'enfant, garantissant ainsi la sécurité et l'authenticité des documents."
+    },
+    "formats": {
+      "title": "Ajustez le filigrane via {{ProdFullName}} pour les autres formats",
+      "description": "Personnalisez facilement les filigranes dans un large éventail de formats de documents. Améliorez la sécurité et l'authenticité des documents sans effort."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Réglez Word filigranes sans effort - {{ProdShortName}}",
+      "description": "Ajustez facilement les filigranes dans différents formats de documents à l'aide de {{ProdShortName}}. Renforcez la sécurité de vos documents."
+    },
+    "header": {
+      "title": "Réglez Word filigranes : sécurisez sans effort",
+      "description": "Sécurisez vos documents sans effort grâce à nos puissantes fonctionnalités de modification des filigranes. Protégez votre contenu en toute confiance.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Modifier les filigranes** : {{ProdShortName}} permet aux utilisateurs de modifier facilement les filigranes dans différents formats de documents. Grâce à un contrôle précis et à des options polyvalentes, personnalisez vos documents en toute confiance."
+    },
+    "formats": {
+      "title": "Ajustez les filigranes à l'aide de {{ProdFullName}} pour les formats courants",
+      "description": "GroupDocs.Watermark permet une modification fluide des filigranes dans différents formats. Personnalisez votre stratégie de filigrane pour répondre à vos besoins spécifiques."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Ajustez facilement PowerPoint filigranes - {{ProdShortName}}",
+      "description": "Mettez facilement à jour les filigranes de différents types de documents avec {{ProdShortName}}. Préservez l'intégrité des documents sans effort."
+    },
+    "header": {
+      "title": "Régler PowerPoint filigranes : contrôle de précision",
+      "description": "Gardez un contrôle précis sur l'intégrité de vos documents grâce à notre fonction de mise à jour des filigranes. Garantissez l'authenticité en toute simplicité.",
+      "subtitle": "{{ProdFullName}} Bibliothèque",
+      "action_title": "Télécharger à {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothèque",
+      "content": "**Mettre à jour les filigranes** : gardez le contrôle de l'intégrité de vos documents grâce à notre fonction de mise à jour des filigranes. Révisez sans effort les filigranes de différents types de documents, tout en préservant leur authenticité et leur sécurité."
+    },
+    "formats": {
+      "title": "Ajustez les filigranes dans les formats professionnels en {{ProdFullName}}",
+      "description": "Mettez à jour sans effort les filigranes de différents types de documents grâce à un contrôle précis. Préservez l'intégrité et la sécurité des documents de manière fluide."
+    }
+  }
+}

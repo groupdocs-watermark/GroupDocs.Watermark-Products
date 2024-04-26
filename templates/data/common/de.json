@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Wasserzeichen Excel",
+        "description": "MS Excel und Open Office-Tabellen"
+      },
+      "word": {
+        "name": "Wasserzeichen Word",
+        "description": "MS Word und Open Office-Dokumente"
+      },
+      "powerpoint": {
+        "name": "Wasserzeichen PowerPoint",
+        "description": "MS PowerPoint und Open Office-Präsentationen"
+      },
+      "image": {
+        "name": "Wasserzeichen-Bild",
+        "description": "Beliebte Bildformate"
+      },
+      "photo": {
+        "name": "Wasserzeichen-Foto",
+        "description": "Foto-Formate"
+      },
+      "pdf": {
+        "name": "Wasserzeichen PDF",
+        "description": "Adobe Portable Dokumentformat"
+      },
+      "doc": {
+        "name": "Wasserzeichen DOC",
+        "description": "Microsoft Word 97 - 2007-Dokument"
+      },
+      "docx": {
+        "name": "Wasserzeichen DOCX",
+        "description": "Microsoft Word XML-Dokument öffnen"
+      },
+      "xls": {
+        "name": "Wasserzeichen XLS",
+        "description": "Microsoft Excel Arbeitsmappe 97-2003"
+      },
+      "xlsx": {
+        "name": "Wasserzeichen XLSX",
+        "description": "Microsoft Excel Open XML-Tabelle"
+      },
+      "ppt": {
+        "name": "Wasserzeichen PPT",
+        "description": "PowerPoint Präsentation 97-2003"
+      },
+      "pptx": {
+        "name": "Wasserzeichen PPTX",
+        "description": "PowerPoint XML-Präsentation öffnen"
+      },
+      "jpeg": {
+        "name": "Wasserzeichen JPEG",
+        "description": "JPEG Bild"
+      },
+      "png": {
+        "name": "Wasserzeichen PNG",
+        "description": "Portable Netzwerkgrafik"
+      },
+      "tiff": {
+        "name": "Wasserzeichen TIFF",
+        "description": "Tag-Bilddateiformat"
+      },
+      "webp": {
+        "name": "Wasserzeichen WEBP",
+        "description": "WEB-Bild"
+      },
+      "rtf": {
+        "name": "Wasserzeichen RTF",
+        "description": "Rich-Text-Format"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "copy_tip": "zum Kopieren anklicken",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Mehr Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit loszulegen?",
+      "description": "Testen Sie {{ProdShortName}} Funktionen kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} herunterladen",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Erfahre mehr"
+    }
+  }
+}

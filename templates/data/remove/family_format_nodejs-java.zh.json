@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "删除 {{FileformatCap}} 文档中的文字水印",
+    "comment_2": "使用 {{FileformatCap}} 文档实例化水印",
+    "comment_3": "透明文本水印适合搜索条件",
+    "comment_4": "保存已处理的文件"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} 使用 {{EnvName}} 删除水印",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 为 {{EnvName}} 开发人员提供了一个全面的 API，用于编程删除嵌入在各种 {{FileformatCap}} 文档中的特定水印。本指南深入探讨了技术流程：",
+      "step_1": "**Watermarker**类并将您的 {{FileformatCap}} 文件作为构造函数参数来启动工作流程。该文件可以作为字节流、文件流或本地磁盘位置的路径引用提供。",
+      "step_2": "**SearchCriteria**对象的功能。该对象便于根据先前嵌入在文档中的属性构造复杂的过滤器。您可以将图像与文本或格式属性一起用作搜索参数，以实现高度精细的选择过程。",
+      "step_3": "执行搜索后，您将收到一组已识别的水印。这些水印可以很容易地删除。",
+      "step_4": "成功删除水印后，保留修改后的文档。API 提供了存储灵活性，允许您使用本地文件路径或流对象来实现最终输出。"
+    }
+  },
+  "more_features": {
+    "title": "{{EnvName}} 用于高效去除水印的 API",
+    "description": "利用我们的 {{EnvName}} API 无缝删除或清除各种文档格式中的水印，包括 PDF 和 Office 文件。该API专为开发人员设计，可轻松与您的 {{EnvName}} 个应用程序集成，确保文档干净清晰。",
+    "image_description": "移除水印",
+    "feature_1": {
+      "title": "{{EnvName}} 去除水印",
+      "content": "使用我们的 {{EnvName}} API 精确、轻松地删除水印。非常适合需要无标记文档进行演示或进一步处理的应用程序。"
+    },
+    "feature_2": {
+      "title": "批量去除水印处理",
+      "content": "使用我们的批量水印去除功能高效处理多个文档。通过在 {{EnvName}} 应用程序中同时处理大批文件来节省时间和服务器资源。"
+    },
+    "feature_3": {
+      "title": "灵活地编辑和删除水印",
+      "content": "我们的API允许灵活地编辑和删除水印元素，以满足各种业务需求和文档类型。调整文档以保持专业外观，同时确保内容完整性。"
+    },
+    "code_1": {
+      "title": "删除 PDF 个超链接水印",
+      "content": "此示例说明如何从 PDF 中删除所有带有正确超链接的水印",
+      "comment_1": "在 Watermarker 中加载 PDF",
+      "comment_2": "使用超链接搜索水印",
+      "comment_3": "删除所选水印",
+      "comment_4": "在文档中保存更改"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{EnvName}} 用于移除 {{FileformatCap}} 水印的 API",
+      "description": "将 {{FileformatCap}} 文件中的水印去除功能与我们的 {{EnvName}} API 集成，增强文档清晰度和数据呈现能力。"
+    },
+    "header": {
+      "title": "{{EnvName}} 用于管理 {{FileformatCap}} 水印的 API",
+      "description": "利用 {{ProdFullName}} API 删除或更改 {{FileformatCap}} 文档中的水印，非常适合确保自动化工作流程中的数据表干净。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 库简化了 {{FileformatCap}} 文件中的水印管理，使开发人员能够删除、调整或完全清除水印。该工具对于维护 {{FileformatCap}} 张表中财务和分析数据的完整性和显示方式至关重要，可支持各种业务流程。"
+    },
+    "formats": {
+      "title": "使用 {{EnvName}} 增强 {{FileformatCap}} 个文件",
+      "description": "了解 {{ProdFullName}} API 如何帮助您管理和移除 {{FileformatCap}} 文档中的水印，从而确保数据畅通无阻和专业文档美观。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{EnvName}} API 高效移除 {{FileformatCap}} 个水印",
+      "description": "使用我们的 {{EnvName}} API 整合 {{FileformatCap}} 个文件的水印去除功能，优化您的文档工作流程。"
+    },
+    "header": {
+      "title": "{{EnvName}} 用于移除 {{FileformatCap}} 水印的 API",
+      "description": "使用 {{ProdFullName}} API 高效地从 {{FileformatCap}} 个文档中删除或编辑水印，是确保文档输出干净和专业的理想之选。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 库为开发人员提供了强大的工具来处理 {{FileformatCap}} 文档中的水印。无论您需要清除、编辑还是删除水印，此 API 都有助于轻松操作文档元素，以保持文档的视觉质量和完整性，使其成为法律、学术和公司设置的完美之选。"
+    },
+    "formats": {
+      "title": "使用 {{EnvName}} 在 {{FileformatCap}} 中进行有效的水印管理",
+      "description": "探索 {{ProdFullName}} API 管理和删除 {{FileformatCap}} 文档中的水印的功能，确保所有重要文件的清晰度和可读性。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{EnvName}} 用于移除 {{FileformatCap}} 水印的 API",
+      "description": "使用我们的 {{EnvName}} API 从 {{FileformatCap}} 张幻灯片中无缝删除水印，从而增强演示文稿的清晰度。"
+    },
+    "header": {
+      "title": "{{EnvName}} {{FileformatCap}} 水印控制",
+      "description": "使用 {{ProdFullName}} API 有效清除 {{FileformatCap}} 演示文稿中的水印，确保畅通无阻的专业幻灯片视觉效果。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 库使开发人员能够轻松删除和管理 {{FileformatCap}} 文件中的水印。这个强大的工具支持对文本和图像水印的精确控制，允许在商业和教育环境中保持高质量的演示文稿。"
+    },
+    "formats": {
+      "title": "使用 {{EnvName}} 优化 {{FileformatCap}} 张幻灯片",
+      "description": "了解 {{ProdFullName}} API 如何简化从 {{FileformatCap}} 张幻灯片中删除水印的流程，从而促进更清晰、更具影响力的演示。"
+    }
+  }
+}

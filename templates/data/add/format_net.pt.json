@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Gere marca d'água de imagem no arquivo {{FileFormatUp}}",
+    "comment_2": "Forneça o caminho do arquivo de origem para o construtor Watermarker",
+    "comment_3": "Gere instância de marca d'água de imagem com arquivo de imagem",
+    "comment_4": "Salvar resultado com marca d'água {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Gere marcas d'água sem esforço para {{FileformatCap}} documentos",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Biblioteca avançada de marca d'água para {{EnvName}} aplicativos. Fortaleça sua solução e proteja documentos com marcas d'água na hora certa.",
+      "step_1": "**Classe principal: Watermarker.** A classe principal da nossa API é **Watermarker**. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo {{FileformatCap}} para o construtor como um caminho ou um objeto de fluxo.",
+      "step_2": "**Criando sua marca d'água.** A próxima etapa é construir um objeto de marca d'água do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como imagens ou cabeçalhos.",
+      "step_3": "**Ajuste fino da aparência.** Defina as propriedades da marca d'água, como altura e largura, alinhamentos superior, esquerdo, central, fontes e cores, etc.",
+      "step_4": "**Aplicando e salvando.** Use o método**Watermarker** para adicionar uma nova marca d'água. Sinta-se à vontade para adicionar quantas marcas d'água precisar. Você pode salvar o documento com marca d'água em qualquer local."
+    }
+  },
+  "more_features": {
+    "title": "Eleve seu jogo de marca d'água",
+    "description": "Desbloqueie recursos avançados de marca d'água com nossa API GroupDocs.Watermark para .NET. Essa ferramenta poderosa permite a personalização e a aplicação precisas de marcas d'água em vários tipos de documentos para garantir a máxima segurança e o cumprimento dos direitos autorais com o mínimo de interrupção visual.",
+    "image_description": "Soluções abrangentes de marca d'água",
+    "feature_1": {
+      "title": "Opções sofisticadas de ladrilhos",
+      "content": "Estenda suas marcas d'água em documentos inteiros sem problemas com nossas opções de ladrilhos. Esse recurso permite que as marcas d'água cubram toda a área do documento, impedindo a remoção e garantindo a proteção completa do documento sem comprometer o design ou a legibilidade."
+    },
+    "feature_2": {
+      "title": "Personalização de cores vibrantes",
+      "content": "Adicione um toque de cor às suas marcas d'água! Nossa API permite a personalização de cores de espectro total, permitindo que você aplique marcas d'água que combinam perfeitamente com sua marca corporativa ou estilo de documento. Melhore o apelo visual enquanto mantém recursos de segurança robustos."
+    },
+    "feature_3": {
+      "title": "Configurações de segurança aprimoradas",
+      "content": "Leve a segurança dos documentos para o próximo nível com configurações avançadas de marca d'água. Configure marcas d'água de várias camadas, incorporando elementos visíveis e invisíveis, para proteger contra cópias não autorizadas e garantir que somente os destinatários pretendidos possam acessar informações críticas."
+    },
+    "code_1": {
+      "title": "Gere PowerPoint marca d'água",
+      "content": "Este exemplo mostra como adicionar marca d'água às PPTX imagens de fundo",
+      "comment_1": "Carregar apresentação PPTX",
+      "comment_2": "Configurar propriedades de marca d'água",
+      "comment_3": "Fundo de slides com marca d'água",
+      "comment_4": "Salvar apresentação processada"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Marcar com marca d'água {{FileFormatUp}} arquivos com .NET C#",
+      "description": "Implemente marcas d'água .NET C# em {{FileFormatUp}} arquivos para proteger e gerenciar seus Word documentos de forma eficaz."
+    },
+    "header": {
+      "title": "Melhore a segurança de {{FileFormatUp}} com marcas d'água C#",
+      "description": "Utilize .NET C# para incorporar marcas d'água seguras em {{FileFormatUp}} arquivos, perfeitas para proteger MS Word documentos em ambientes legais e corporativos.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} aproveita o .NET C# para fornecer uma solução sofisticada de marca d'água para {{FileFormatUp}} arquivos, comumente utilizada no Microsoft Word. Essa API permite que os desenvolvedores insiram marcas d'água gráficas e de texto que são personalizáveis para opacidade, cor e posição. Melhore a segurança dos documentos com marcas d'água que podem incluir marcas de data e hora, logotipos ou rótulos confidenciais, impedindo efetivamente o uso não autorizado e garantindo a autenticidade do documento. A API foi projetada para se integrar perfeitamente às estruturas .NET, tornando-a ideal para aplicações em documentação jurídica, comunicações corporativas e gerenciamento de informações confidenciais. Compatível com .NET ambientes C#, o {{ProdShortName}} oferece um conjunto de ferramentas robusto para proteção abrangente de documentos."
+    },
+    "formats": {
+      "title": "Marca d'água C# para documentos Word",
+      "description": "Implante .NET C# para aplicar marcas d'água precisas e personalizáveis em {{FileFormatUp}} arquivos, reforçando a segurança e a integridade de seus MS Word documentos."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Marca d'água C# para arquivos {{FileFormatUp}}",
+      "description": "Use .NET C# para integrar marcas d'água em {{FileFormatUp}} arquivos, aumentando a segurança de seus Word documentos."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} com .NET marcas d'água C#",
+      "description": "Aplique técnicas avançadas de marca d'água em {{FileFormatUp}} arquivos usando .NET C#, perfeitas para proteger a propriedade intelectual em Word documentos em todos os setores.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} aproveita o poder do .NET C# para adicionar recursos sofisticados de marca d'água aos {{FileFormatUp}} arquivos. Essa ferramenta foi projetada para uma integração perfeita aos ambientes Microsoft Word, permitindo a aplicação de marcas d'água que são dinamicamente escaláveis, transparentes e posicionadas de acordo com o layout do documento. É ideal para documentos legais, relatórios confidenciais e políticas corporativas que exigem visibilidade e proteção. Os recursos incluem estilos de texto personalizados, marcas d'água de imagens e posicionamento condicional com base no conteúdo do documento. Com suporte para as estruturas .NET mais recentes, o {{ProdShortName}} garante que suas medidas de segurança de documentos sejam de última geração."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Domine a aplicação de marcas d'água personalizadas e seguras em {{FileFormatUp}} arquivos usando .NET C#, essencial para integridade de documentos e proteção de direitos autorais."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} com .NET marcas d'água C#",
+      "description": "Incorpore marcas d'água avançadas em {{FileFormatUp}} imagens usando .NET C#, garantindo direitos autorais e segurança de conteúdo."
+    },
+    "header": {
+      "title": "Marca d'água avançada em C# para arquivos {{FileFormatUp}}",
+      "description": "Utilize .NET C# para aplicar marcas d'água seguras e personalizáveis em {{FileFormatUp}} imagens, ideais para proteger a arte digital e os direitos autorais fotográficos.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} oferece aos .NET desenvolvedores de C# ferramentas robustas para marcar {{FileFormatUp}} imagens de forma eficaz. Essa API se integra diretamente aos fluxos de trabalho de processamento digital de imagens, permitindo a adição de marcas d'água que podem ser baseadas em texto, centradas em logotipo ou padronizadas. As opções de personalização incluem ajustar a opacidade, dimensionar o tamanho e modificar a rotação para garantir que a marca d'água se misture perfeitamente sem prejudicar a estética original da imagem. Ideal para fotógrafos, designers gráficos e criadores de conteúdo, o {{ProdShortName}} protege contra o uso não autorizado, mantendo a alta qualidade de imagem. Compatível com todas as versões principais de .NET, essa solução é essencial para qualquer pessoa que precise proteger conteúdo visual em um cenário digital."
+    },
+    "formats": {
+      "title": "Soluções C# Watermark para {{FileFormatUp}} imagens",
+      "description": "Implante o .NET C# para criar e gerenciar marcas d'água em {{FileFormatUp}} arquivos, aprimorando a segurança de imagens em plataformas digitais."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Marca d'água C# para {{FileFormatUp}} imagens",
+      "description": "Integre marcas d'água em {{FileFormatUp}} arquivos usando .NET C#, protegendo suas imagens digitais de forma eficaz."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} imagens com .NET C#",
+      "description": "Aplique .NET C# para criar marcas d'água robustas para {{FileFormatUp}} imagens, ideais para proteção de direitos autorais e prevenção de uso não autorizado.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece aos .NET desenvolvedores de C# uma estrutura avançada para adicionar marcas d'água às JPG imagens. Essa API permite a incorporação precisa de texto, logotipos e marcas d'água gráficas que são personalizáveis em opacidade, posição e tamanho, perfeitas para mídia digital e fotografia profissional. Melhore a segurança de suas imagens sem sacrificar a qualidade, com recursos projetados para incorporar marcas d'água que impedem a pirataria e, ao mesmo tempo, mantêm a integridade da arte original. Adequado para uma ampla variedade de aplicações, desde proteção fotográfica pessoal até uso comercial em publicidade e mídia, o {{ProdShortName}} garante que seus ativos visuais sejam marcados de forma exclusiva e protegidos legalmente."
+    },
+    "formats": {
+      "title": "Implemente marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Aproveite o .NET C# para incorporar marcas d'água invisíveis ou visíveis em {{FileFormatUp}} arquivos, essenciais para conteúdo digital seguro e reconhecível."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Marcas d'água C# para documentos seguros {{FileFormatUp}}",
+      "description": "Utilize .NET C# para incorporar marcas d'água em {{FileFormatUp}}, protegendo documentos oficiais e informações confidenciais."
+    },
+    "header": {
+      "title": "Melhore a segurança de {{FileFormatUp}} com marcas d'água C#",
+      "description": "Implemente .NET C# para aplicar marcas d'água em {{FileFormatUp}} documentos, garantindo a proteção de registros legais, financeiros e oficiais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} oferece aos .NET desenvolvedores de C# uma API poderosa para inserir marcas d'água em {{FileFormatUp}} arquivos, uma ferramenta essencial para a segurança de documentos nos setores corporativo, jurídico e governamental. Essa API oferece suporte a opções abrangentes de personalização de marcas d'água, incluindo formatação de texto, integração de imagens e posicionamento dinâmico para acomodar vários layouts de documentos. Seja garantindo acordos confidenciais, protegendo material protegido por direitos autorais ou marcando informações proprietárias, o {{ProdShortName}} garante que todos os PDF transmitam a propriedade de forma clara e profissional. Os recursos adicionais incluem rotação de marca d'água, controle de transparência e recursos de camadas, compatíveis com todas as estruturas .NET modernas."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} arquivos com .NET marcas d'água C#",
+      "description": "Use .NET C# para incorporar marcas d'água seguras e personalizadas em {{FileFormatUp}} documentos, ideais para proteger informações oficiais e confidenciais."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Proteja {{FileFormatUp}} com .NET marcas d'água C#",
+      "description": "Incorpore marcas d'água em {{FileFormatUp}} arquivos usando .NET C#, perfeito para direitos autorais e segurança de imagens."
+    },
+    "header": {
+      "title": "Marca d'água C# para arquivos {{FileFormatUp}}",
+      "description": "Utilize .NET C# para aplicar marcas d'água avançadas em {{FileFormatUp}} imagens, protegendo o conteúdo artístico e digital de forma eficaz.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece um kit de ferramentas C# .NET especializado para incorporar marcas d'água em {{FileFormatUp}} arquivos, voltado para artistas, designers e criadores de conteúdo que precisam proteger seus ativos visuais. Essa API permite a adição perfeita de marcas d'água transparentes e opacas que podem ser posicionadas e dimensionadas de forma complexa para manter a integridade da imagem original e, ao mesmo tempo, garantir a proteção legal. Os recursos incluem marcas d'água personalizadas de texto e imagem, controle preciso sobre a opacidade da marca d'água e a capacidade de adicionar marcas d'água de várias camadas para maior segurança. Seja para uso pessoal ou para portfólios profissionais, o {{ProdShortName}} garante que suas PNG imagens sejam protegidas contra reprodução e uso não autorizados, com suporte total em .NET ambientes."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Implante .NET C# para criar marcas d'água discretas ou ousadas em {{FileFormatUp}} imagens, garantindo flexibilidade estética e proteção robusta de direitos autorais."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Marcas d'água C# para arquivos PowerPoint",
+      "description": "Aplique marcas d'água dinâmicas em PowerPoint arquivos usando .NET C#, aprimorando a segurança da apresentação."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} com .NET marcas d'água C#",
+      "description": "Utilize .NET C# para inserir marcas d'água personalizáveis em PowerPoint apresentações, ideais para proteger conteúdo comercial e acadêmico.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} equipa .NET desenvolvedores de C# com as ferramentas para integrar marcas d'água perfeitamente em arquivos PowerPoint (PPT). Essa API é perfeita para adicionar marcas d'água visíveis e invisíveis, garantindo que as apresentações sejam protegidas contra uso e distribuição não autorizados. Com recursos avançados, como personalização de marca d'água para estilo, tamanho, cor e opacidade do texto, bem como recursos de marca d'água de imagem, o {{ProdShortName}} aprimora a segurança e o profissionalismo de seus slides. É especialmente útil para ambientes corporativos, educacionais e de treinamento em que a integridade do documento é crucial. Totalmente compatível com todas as versões do .NET, incluindo .NET Core e .NET Framework."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} arquivos com marcas d'água C#",
+      "description": "Incorpore marcas d'água avançadas em PowerPoint documentos usando .NET C#, protegendo suas apresentações contra uso indevido e violação de direitos autorais."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Incorpore marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Proteja suas {{FileFormatUp}} apresentações com .NET marcas d'água aplicadas em C#, protegendo a propriedade intelectual."
+    },
+    "header": {
+      "title": "Marca d'água avançada em C# para {{FileFormatUp}}",
+      "description": "Implemente .NET C# para criar marcas d'água robustas em {{FileFormatUp}} arquivos, perfeitas para aprimorar a segurança em apresentações corporativas e educacionais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece uma solução .NET C# abrangente para colocar marcas d'água em {{FileFormatUp}} arquivos, adequada para profissionais que precisam proteger materiais de apresentação. Essa API oferece suporte à integração de marcas d'água que são personalizáveis e podem incluir texto, logotipos ou outros gráficos. Ele oferece recursos como ajuste de transparência, tamanho e posicionamento, permitindo que as marcas d'água sejam eficazes e sutis. Ideal para empresas, educadores e qualquer pessoa que apresente informações confidenciais ou proprietárias, o {{ProdShortName}} garante que suas apresentações não sejam apenas seguras, mas também mantenham sua qualidade estética. Compatível com .NET 5 e versões posteriores, essa ferramenta estende o suporte robusto aos ambientes Microsoft Office modernos."
+    },
+    "formats": {
+      "title": "Soluções de marca d'água C# para {{FileFormatUp}} arquivos",
+      "description": "Aproveite o .NET C# para aplicar marcas d'água discretas em {{FileFormatUp}} arquivos, protegendo suas apresentações contra distribuição não autorizada."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Marca d'água C# para documentos {{FileFormatUp}}",
+      "description": "Incorpore .NET marcas d'água C# em {{FileFormatUp}} arquivos para aumentar a segurança de seus Word documentos."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} com .NET marcas d'água C#",
+      "description": "Use .NET C# para aplicar marcas d'água seguras e personalizáveis a {{FileFormatUp}} arquivos, perfeitas para manter a integridade do documento em MS Word ambientes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} equipa .NET desenvolvedores de C# com ferramentas sofisticadas para adicionar marcas d'água a {{FileFormatUp}} documentos de forma eficaz. Essa API permite a integração de marcas d'água visíveis e transparentes que podem ser personalizadas em termos de fonte, cor, tamanho e posição, garantindo que elas se misturem perfeitamente ao documento sem obstruir a legibilidade. Ideal para documentos legais, documentos de propriedade intelectual e comunicações confidenciais, o {{ProdShortName}} oferece proteção essencial contra cópias e modificações não autorizadas. A ferramenta foi projetada para ser compatível com todas as versões do .NET, facilitando uma solução segura e adaptável para marcas d'água de documentos."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Implante .NET C# para criar marcas d'água robustas e sutis em {{FileFormatUp}} documentos, reforçando a segurança e a autenticidade de seus Word arquivos."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Gere marcas d'água C# para {{FileFormatUp}} imagens",
+      "description": "Utilize .NET C# para aplicar marcas d'água precisas em {{FileFormatUp}} imagens, protegendo seu conteúdo fotográfico."
+    },
+    "header": {
+      "title": "Marca d'água avançada para {{FileFormatUp}} com C#",
+      "description": "Incorpore marcas d'água de alta qualidade em {{FileFormatUp}} imagens usando .NET C#, ideal para fotógrafos e arquivistas que precisam de proteção aprimorada de direitos autorais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} oferece uma estrutura .NET C# robusta para colocar marcas d'água em {{FileFormatUp}} arquivos, adaptada às necessidades dos profissionais de fotografia e arquivamento digital. Essa API permite a adição perfeita de marcas d'água que são personalizáveis para opacidade, tamanho e posição, combinando perfeitamente com a natureza de alta resolução das imagens TIF. Os recursos incluem a capacidade de aplicar marcas d'água gráficas e de texto, essenciais para reivindicar direitos autorais, impedir o uso não autorizado e aprimorar a rastreabilidade da imagem. Com recursos avançados, como processamento em lote e posicionamento dinâmico de marcas d'água, o {{ProdShortName}} garante que suas imagens sejam protegidas sem comprometer a qualidade. Compatível com todas as plataformas .NET contemporâneas, essa ferramenta é essencial para proteger ativos de imagem valiosos."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} imagens com .NET C#",
+      "description": "Aplique .NET C# para incorporar marcas d'água personalizadas e discretas em {{FileFormatUp}} imagens, protegendo contra reprodução não autorizada e garantindo a integridade dos direitos autorais."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Gere {{FileFormatUp}} marcas d'água com C#",
+      "description": "Componha e adicione marcas d'água precisas a {{FileFormatUp}} imagens usando .NET C#, protegendo seu conteúdo digital."
+    },
+    "header": {
+      "title": "Componha marcas d'água para {{FileFormatUp}} com C#",
+      "description": "Gere marcas d'água robustas e personalizadas em {{FileFormatUp}} arquivos usando .NET C#, essenciais para proteger e gerenciar imagens digitais e de arquivo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece um kit de ferramentas C# .NET abrangente para gerar, compor e adicionar marcas d'água aos TIFF arquivos. Essa solução atende às necessidades exclusivas de arquivos digitais e fotografia profissional, onde manter a qualidade da imagem e a proteção de direitos autorais é fundamental. Os usuários podem personalizar a opacidade, a escala e a localização da marca d'água para garantir que estejam perfeitamente integrados sem prejudicar a imagem. A capacidade de gerar marcas d'água textuais ou gráficas, juntamente com recursos avançados, como camadas de marcas d'água e formatação condicional, torna o {{ProdShortName}} uma ferramenta indispensável para qualquer pessoa que precise proteger seus ativos visuais. Totalmente compatível com os ambientes .NET mais recentes, essa API aprimora sua capacidade de gerenciar e proteger TIFF imagens de forma eficaz."
+    },
+    "formats": {
+      "title": "Aprimorando a segurança {{FileFormatUp}} com marcas d'água C#",
+      "description": "Use .NET C# para gerar e integrar marcas d'água personalizadas em {{FileFormatUp}} arquivos, adicionando uma camada de segurança e controle de direitos autorais às suas imagens."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Adicione marcas d'água a {{FileFormatUp}} com C#",
+      "description": "Utilize .NET C# para gerar e incorporar dinamicamente marcas d'água em {{FileFormatUp}} imagens, garantindo proteção abrangente."
+    },
+    "header": {
+      "title": "Gere marcas d'água para {{FileFormatUp}} com C#",
+      "description": "Crie e aplique marcas d'água personalizadas em {{FileFormatUp}} arquivos usando .NET C#, perfeitas para artistas digitais e criadores de conteúdo que precisam proteger seu trabalho.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece aos desenvolvedores os recursos para gerar, compor e adicionar marcas d'água sofisticadas às imagens WEBP via .NET C#. Essa API permite a personalização precisa de marcas d'água, incluindo texto, logotipos e assinaturas digitais. Personalize a opacidade, o tamanho e o posicionamento da sua marca d'água para obter uma integração perfeita sem comprometer a estética da imagem. Ideal para fotógrafos, designers gráficos e qualquer profissional envolvido na produção e distribuição de imagens digitais, o {{ProdShortName}} garante que seus direitos autorais sejam incorporados com segurança aos seus arquivos WEBP. Compatível com todas as estruturas .NET modernas, ele aprimora a segurança da imagem com impacto mínimo na qualidade visual."
+    },
+    "formats": {
+      "title": "Protegendo {{FileFormatUp}} imagens com .NET marcas d'água C#",
+      "description": "Incorpore marcas d'água avançadas e personalizáveis em {{FileFormatUp}} imagens usando .NET C#, fornecendo proteção robusta e reconhecimento visual aos seus trabalhos criativos."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Crie marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Use .NET C# para adicionar e gerenciar marcas d'água em {{FileFormatUp}} arquivos, aumentando a segurança de seus Excel documentos."
+    },
+    "header": {
+      "title": "Gere marcas d'água C# para {{FileFormatUp}} arquivos",
+      "description": "Implemente marcas d'água robustas em {{FileFormatUp}} planilhas com .NET C#, personalizadas para proteger dados financeiros e pessoais em Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} equipa .NET desenvolvedores de C# com as ferramentas para criar, compor e incorporar marcas d'água em XLS arquivos de forma eficaz. Essa API foi projetada para uma integração perfeita em Excel fluxos de trabalho, facilitando a adição de marcas d'água visíveis e invisíveis que são personalizáveis para opacidade, texto e imagens. Ideal para proteger informações confidenciais em planilhas financeiras, relatórios de clientes ou qualquer documento Excel que exija confidencialidade, o {{ProdShortName}} oferece recursos avançados, como posicionamento condicional de marca d'água com base na análise de conteúdo. Com suporte para todos os .NET ambientes, essa solução garante que seus documentos sejam protegidos contra uso e distribuição não autorizados."
+    },
+    "formats": {
+      "title": "Aplicando marcas d'água a {{FileFormatUp}} com C#",
+      "description": "Utilize .NET C# para gerar e integrar dinamicamente marcas d'água personalizadas em {{FileFormatUp}} arquivos, protegendo seus Excel dados de forma eficaz."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Incorpore marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Aproveite o .NET C# para gerar e aplicar marcas d'água em {{FileFormatUp}} arquivos, protegendo seus Excel documentos."
+    },
+    "header": {
+      "title": "Proteja {{FileFormatUp}} planilhas com .NET C#",
+      "description": "Use .NET C# para criar marcas d'água personalizáveis para {{FileFormatUp}} arquivos, perfeitas para aprimorar a integridade do documento e proteger informações confidenciais.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} fornece uma solução poderosa para .NET desenvolvedores de C# gerarem, adicionarem e gerenciarem marcas d'água em XLSX arquivos. Essa API é essencial para manter a confidencialidade e a autenticidade de Excel documentos, especialmente em ambientes corporativos, financeiros e jurídicos. Personalize suas marcas d'água com uma variedade de opções, incluindo sobreposições de texto e imagem, projetadas para serem funcionais e sutis. Recursos adicionais permitem a criação de marcas d'água automatizadas com base nas propriedades do documento e nas condições definidas pelo usuário, garantindo que suas marcas d'água sejam aplicadas de forma consistente e somente quando necessário. O {{ProdShortName}} é compatível com as plataformas .NET contemporâneas e suporta funcionalidades avançadas de Excel."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água em {{FileFormatUp}} com C#",
+      "description": "Implante o .NET C# para adicionar com eficiência marcas d'água avançadas e seguras aos {{FileFormatUp}} arquivos, protegendo seus Excel dados profissionais."
+    }
+  }
+}

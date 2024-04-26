@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} Textwasserzeichen anpassen",
+    "comment_2": "Instanziieren Sie das Wasserzeichen mit dem Eingabedokument {{FileFormatUp}}",
+    "comment_3": "Initialisieren Sie die TextSearchCriteria und suchen Sie nach Textwasserzeichen",
+    "comment_4": "Passen Sie die Eigenschaften von Textwasserzeichen an",
+    "comment_5": "Speichern Sie das aktualisierte Dokument"
+  },
+  "steps": {
+    "title": "Passen Sie Wasserzeichen in {{FileformatCap}} Dokumenten mit {{EnvName}} an",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** macht es {{EnvName}} Entwicklern leicht, Textwasserzeichen in ihren Anwendungen anzupassen, indem sie ein paar einfache Schritte implementieren:",
+      "step_1": "**Watermarker**. Sie können die Datei für die weitere Verarbeitung als Stream oder als Pfad auf einer lokalen Festplatte bereitstellen.",
+      "step_2": "**SearchCriteria** hilft dabei, Wasserzeichen mit den richtigen Eigenschaften zu identifizieren, die zuvor einem Dokument hinzugefügt wurden.",
+      "step_3": "**Suche** -Prozedur ab. Passen Sie die Eigenschaften gefundener Wasserzeichen wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt usw. an. Es gibt viele Möglichkeiten, Ihre Daten anzupassen.",
+      "step_4": "Nach Abschluss des Wasserzeichenanpassungsprozesses müssen Sie das aktualisierte Dokument speichern. Verwenden Sie den lokalen Dateipfad, die Datei oder den Bytestream, um das Ergebnis zu speichern."
+    }
+  },
+  "more_features": {
+    "title": "Erfahre mehr über die Anpassung von {{FileFormatUp}} Wasserzeichen",
+    "description": "Unsere API ermöglicht es {{EnvName}} Anwendungen, Wasserzeichen in gängigen Dokumentformaten hinzuzufügen, zu bearbeiten, zu entfernen und nach ihnen zu suchen.",
+    "image_description": "Wasserzeichen anpassen",
+    "feature_1": {
+      "title": "Versehen Sie Ihre Dokumente mühelos mit einem Wasserzeichen",
+      "content": "{{ProdShortName}} vereinfacht das Wasserzeichen für {{EnvName}} Entwickler. Fügen Sie verschiedenen Geschäftsdokumenten und Dateien verschiedene Wasserzeichen hinzu. Sie können nicht nur Wasserzeichen anbringen, sondern auch vorhandene aktualisieren oder entfernen."
+    },
+    "feature_2": {
+      "title": "Passen Sie Wasserzeichen an Ihre Bedürfnisse an",
+      "content": "Unsere API bietet umfangreiche Anpassungsmöglichkeiten. Passen Sie Größe, Drehung, Farbe, Schriftart, Stile und mehr einfach an, um das perfekte Wasserzeichen zu erzielen."
+    },
+    "feature_3": {
+      "title": "{{FileFormatUp}} Native Document-Funktionen verwenden",
+      "content": "Abhängig vom jeweiligen Dokumentformat können Sie native Funktionen nutzen. Dazu können der Hintergrund der Dokumentseite, Anmerkungen, Kopfzeilen oder andere Objekte als Behälter für Wasserzeichen gehören."
+    },
+    "code_1": {
+      "title": "PDF Textwasserzeichen anpassen",
+      "content": "Dieses Beispiel zeigt, wie der Text der jeweiligen Artefakte angepasst wird.",
+      "comment_1": "PDF Dokument laden",
+      "comment_2": "Dokumentinhalt abrufen",
+      "comment_3": "Passen Sie bestimmten Wasserzeichentext an",
+      "comment_4": "Speichern Sie das Dokument"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Excel Wasserzeichen-Tool anpassen — {{ProdShortName}}",
+      "description": "Passen Sie Wasserzeichen mühelos an, aktualisieren und verwalten Sie sie mit {{ProdShortName}}. Passen Sie Ihre Dokumente mühelos an."
+    },
+    "header": {
+      "title": "Tool zum Anpassen von SpreadSheets-Wasserzeichen: Leistungsstark und einfach",
+      "description": "Verbessern Sie Ihre Dokumente mit unserem intuitiven Tool zur Bearbeitung von Wasserzeichen. Vereinfachen Sie mühelos Ihren Arbeitsablauf.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Kostenlos {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Tool zur Anpassung von Wasserzeichen**: Unser Wasserzeichen-Tool bietet eine benutzerfreundliche Lösung zur Verbesserung und zum Schutz Ihrer Dokumente. Mit den intuitiven Bearbeitungsfunktionen wird die Verwaltung von Wasserzeichen zum Kinderspiel und gewährleistet so die Sicherheit und Authentizität von Dokumenten."
+    },
+    "formats": {
+      "title": "Passen Sie das Wasserzeichen über {{ProdFullName}} für andere Formate an",
+      "description": "Passen Sie Wasserzeichen in einer Vielzahl von Dokumentformaten mühelos an. Verbessern Sie mühelos die Sicherheit und Authentizität von Dokumenten."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Passen Sie Word Wasserzeichen mühelos an - {{ProdShortName}}",
+      "description": "Passen Sie Wasserzeichen mithilfe von {{ProdShortName}} nahtlos an mehrere Dokumentformate an. Verbessern Sie die Sicherheit Ihrer Dokumente."
+    },
+    "header": {
+      "title": "Word Wasserzeichen anpassen: Mühelos sicher",
+      "description": "Schützen Sie Ihre Dokumente mühelos mit unseren leistungsstarken Funktionen zur Änderung von Wasserzeichen. Schützen Sie Ihre Inhalte mit Zuversicht.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Wasserzeichen ändern**: {{ProdShortName}} ermöglicht es Benutzern, Wasserzeichen in verschiedenen Dokumentformaten nahtlos zu ändern. Mit präziser Steuerung und vielseitigen Optionen können Sie Ihre Dokumente mit Zuversicht anpassen."
+    },
+    "formats": {
+      "title": "Passen Sie Wasserzeichen mit {{ProdFullName}} für gängige Formate an",
+      "description": "GroupDocs.Watermark unterstützt die nahtlose Änderung von Wasserzeichen in verschiedenen Formaten. Passen Sie Ihre Wasserzeichen-Strategie an Ihre spezifischen Bedürfnisse an."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Passen Sie PowerPoint Wasserzeichen mühelos an - {{ProdShortName}}",
+      "description": "Aktualisieren Sie mühelos Wasserzeichen in verschiedenen Dokumenttypen mit {{ProdShortName}}. Sorgen Sie mühelos für die Integrität von Dokumenten."
+    },
+    "header": {
+      "title": "PowerPoint Wasserzeichen anpassen: Precision Control",
+      "description": "Behalten Sie mit unserer Funktion zur Aktualisierung von Wasserzeichen die genaue Kontrolle über die Integrität Ihrer Dokumente. Stellen Sie mühelos die Echtheit sicher.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "Herunterladen unter {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "**Wasserzeichen aktualisieren**: Behalten Sie mit unserer Funktion zum Aktualisieren von Wasserzeichen die Kontrolle über die Integrität Ihrer Dokumente. Überarbeiten Sie mühelos Wasserzeichen für verschiedene Dokumenttypen, um Authentizität und Sicherheit zu gewährleisten."
+    },
+    "formats": {
+      "title": "Passen Sie Wasserzeichen in Geschäftsformaten um {{ProdFullName}} an",
+      "description": "Aktualisieren Sie mühelos Wasserzeichen für verschiedene Dokumenttypen mit präziser Steuerung. Sorgen Sie nahtlos für die Integrität und Sicherheit von Dokumenten."
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Marca d'água Excel",
+        "description": "MS Excel e planilhas do Open Office"
+      },
+      "word": {
+        "name": "Marca d'água Word",
+        "description": "MS Word e documentos do Open Office"
+      },
+      "powerpoint": {
+        "name": "Marca d'água PowerPoint",
+        "description": "MS PowerPoint e apresentações do Open Office"
+      },
+      "image": {
+        "name": "Imagem de marca d'água",
+        "description": "Formatos de imagem populares"
+      },
+      "photo": {
+        "name": "Foto com marca d'água",
+        "description": "Formatos de fotos"
+      },
+      "pdf": {
+        "name": "Marca d'água PDF",
+        "description": "Formato de documento Adobe Portable"
+      },
+      "doc": {
+        "name": "Marca d'água DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Marca d'água DOCX",
+        "description": "Documento XML aberto da Microsoft Word"
+      },
+      "xls": {
+        "name": "Marca d'água XLS",
+        "description": "Pasta de trabalho Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Marca d'água XLSX",
+        "description": "Planilha Microsoft Excel Open XML"
+      },
+      "ppt": {
+        "name": "Marca d'água PPT",
+        "description": "PowerPoint Apresentação 97-2003"
+      },
+      "pptx": {
+        "name": "Marca d'água PPTX",
+        "description": "PowerPoint Apresentação XML aberta"
+      },
+      "jpeg": {
+        "name": "Marca d'água JPEG",
+        "description": "JPEG Imagem"
+      },
+      "png": {
+        "name": "Marca d'água PNG",
+        "description": "Portable Gráfico de rede"
+      },
+      "tiff": {
+        "name": "Marca d'água TIFF",
+        "description": "Formato de arquivo de imagem de tag"
+      },
+      "webp": {
+        "name": "Marca d'água WEBP",
+        "description": "Imagem da WEB"
+      },
+      "rtf": {
+        "name": "Marca d'água RTF",
+        "description": "Formato de texto rico"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "copy_tip": "clique para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Mais exemplos",
+        "title_2": "Documentação"
+      }
+    },
+    "format-actions": {
+      "title": "Pronto para começar?",
+      "description": "Experimente os {{ProdShortName}} recursos gratuitamente ou solicite uma licença",
+      "comment_1": "{{PackageStoreName}} baixar",
+      "comment_2": "Licenciamento"
+    },
+    "texts": {
+      "learn_more": "Saiba mais"
+    }
+  }
+}

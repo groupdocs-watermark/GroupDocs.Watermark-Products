@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Hình mờ Excel",
+        "description": "MS Excel và bảng tính Open Office"
+      },
+      "word": {
+        "name": "Hình mờ Word",
+        "description": "MS Word và tài liệu Open Office"
+      },
+      "powerpoint": {
+        "name": "Hình mờ PowerPoint",
+        "description": "MS PowerPoint và các bài thuyết trình Open Office"
+      },
+      "image": {
+        "name": "Hình ảnh hình mờ",
+        "description": "Định dạng hình ảnh phổ biến"
+      },
+      "photo": {
+        "name": "Ảnh hình mờ",
+        "description": "Định dạng ảnh"
+      },
+      "pdf": {
+        "name": "Hình mờ PDF",
+        "description": "Định dạng tài liệu Adobe Portable"
+      },
+      "doc": {
+        "name": "Hình mờ DOC",
+        "description": "Tài liệu Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Hình mờ DOCX",
+        "description": "Microsoft Word Tài liệu XML mở"
+      },
+      "xls": {
+        "name": "Hình mờ XLS",
+        "description": "Microsoft Excel Sổ làm việc 97-2003"
+      },
+      "xlsx": {
+        "name": "Hình mờ XLSX",
+        "description": "Microsoft Excel Open XML Spreadsheet"
+      },
+      "ppt": {
+        "name": "Hình mờ PPT",
+        "description": "PowerPoint Bài thuyết trình 97-2003"
+      },
+      "pptx": {
+        "name": "Hình mờ PPTX",
+        "description": "PowerPoint Bản trình bày XML mở"
+      },
+      "jpeg": {
+        "name": "Hình mờ JPEG",
+        "description": "JPEG Hình ảnh"
+      },
+      "png": {
+        "name": "Hình mờ PNG",
+        "description": "Portable Đồ họa mạng"
+      },
+      "tiff": {
+        "name": "Hình mờ TIFF",
+        "description": "Nhãn định dạng tệp hình ảnh"
+      },
+      "webp": {
+        "name": "Hình mờ WEBP",
+        "description": "Hình ảnh WEB"
+      },
+      "rtf": {
+        "name": "Hình mờ RTF",
+        "description": "Định dạng văn bản phong phú"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "copy_tip": "bấm để sao chép",
+      "copy_done": "sao chép",
+      "links": {
+        "title_1": "Thêm ví dụ",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử {{ProdShortName}} tính năng miễn phí hoặc yêu cầu giấy phép",
+      "comment_1": "{{PackageStoreName}} tải về",
+      "comment_2": "Cấp phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    }
+  }
+}

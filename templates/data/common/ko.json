@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "워터마크 Excel",
+        "description": "MS Excel 및 오픈 오피스 스프레드시트"
+      },
+      "word": {
+        "name": "워터마크 Word",
+        "description": "MS Word 및 오픈 오피스 문서"
+      },
+      "powerpoint": {
+        "name": "워터마크 PowerPoint",
+        "description": "MS PowerPoint 및 오픈 오피스 프레젠테이션"
+      },
+      "image": {
+        "name": "워터마크 이미지",
+        "description": "인기 이미지 형식"
+      },
+      "photo": {
+        "name": "워터마크 사진",
+        "description": "사진 형식"
+      },
+      "pdf": {
+        "name": "워터마크 PDF",
+        "description": "어도비 Portable 문서 형식"
+      },
+      "doc": {
+        "name": "워터마크 DOC",
+        "description": "마이크로소프트 Word 97 - 2007 문서"
+      },
+      "docx": {
+        "name": "워터마크 DOCX",
+        "description": "마이크로소프트 Word 오픈 XML 문서"
+      },
+      "xls": {
+        "name": "워터마크 XLS",
+        "description": "마이크로소프트 Excel 워크북 97-2003"
+      },
+      "xlsx": {
+        "name": "워터마크 XLSX",
+        "description": "마이크로소프트 Excel 오픈 XML 스프레드시트"
+      },
+      "ppt": {
+        "name": "워터마크 PPT",
+        "description": "PowerPoint 프레젠테이션 97-2003"
+      },
+      "pptx": {
+        "name": "워터마크 PPTX",
+        "description": "PowerPoint 오픈 XML 프레젠테이션"
+      },
+      "jpeg": {
+        "name": "워터마크 JPEG",
+        "description": "JPEG 이미지"
+      },
+      "png": {
+        "name": "워터마크 PNG",
+        "description": "Portable 네트워크 그래픽"
+      },
+      "tiff": {
+        "name": "워터마크 TIFF",
+        "description": "태그 이미지 파일 형식"
+      },
+      "webp": {
+        "name": "워터마크 WEBP",
+        "description": "웹 사진"
+      },
+      "rtf": {
+        "name": "워터마크 RTF",
+        "description": "리치 텍스트 포맷"
+      }
+    },
+    "format-code": {
+      "copy_title": "복사",
+      "copy_tip": "클릭하여 복사",
+      "copy_done": "복사",
+      "links": {
+        "title_1": "더 많은 예시",
+        "title_2": "문서화"
+      }
+    },
+    "format-actions": {
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 체험하거나 라이선스를 요청하세요",
+      "comment_1": "{{PackageStoreName}} 다운로드",
+      "comment_2": "라이선싱"
+    },
+    "texts": {
+      "learn_more": "자세히 알아보기"
+    }
+  }
+}

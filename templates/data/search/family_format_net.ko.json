@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 에서 텍스트 워터마크 찾기",
+    "comment_2": "{{FileFormatUp}} 경로로 워터마커 생성",
+    "comment_3": "워터마크 찾기",
+    "comment_4": "찾은 워터마크 정보 사용"
+  },
+  "steps": {
+    "title": "{{EnvName}} 을 사용하여 {{FileformatCap}} 개의 파일에서 워터마크 찾기",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 간소화합니다.저희 패키지를 {{EnvName}} 애플리케이션에 통합하여 이점을 활용하세요.",
+      "step_1": "**Watermarker** 클래스 인스턴스로 로드하십시오.파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.",
+      "step_2": "**SearchCriteria 객체**를 사용하십시오.예를 들어 이미지를 제공하면 비슷한 이미지 워터마크를 찾을 수 있습니다.텍스트 워터마크를 찾는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하세요.",
+      "step_3": "**Watermarker** 객체의 **Search** 메서드를 사용하여 문서 내에 있는 워터마크를 검색합니다.향후 처리를 위해 잠재적 워터마크를 나타내는 개체 컬렉션을 받게 됩니다.",
+      "step_4": "마지막으로 필요에 따라 검색 결과를 유연하게 조작할 수 있습니다.찾은 워터마크를 삭제하거나 크기 또는 텍스트 변경과 같은 워터마크의 속성을 편집할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}} 로 워터마크를 효율적으로 검색하고 찾을 수 있습니다.",
+    "description": "{{ProdShortName}} 의 강력한 기능을 활용하여 {{EnvName}} 내에서 C #을 사용하여 모든 문서 유형에서 워터마크를 검색하고 찾을 수 있습니다.",
+    "image_description": "워터마크 검색",
+    "feature_1": {
+      "title": "고급 검색으로 워터마크 찾기",
+      "content": "{{ProdShortName}} 를 사용하면 여러 문서 유형에서 워터마크를 손쉽게 찾을 수 있습니다.당사의 도구를 사용하면 콘텐츠, 크기, 불투명도와 같은 매개변수로 검색할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "사용자 지정 파라미터로 워터마크 찾기",
+      "content": "{{ProdShortName}} 로 검색 기준을 조정하여 특정 속성을 기반으로 워터마크를 찾아 효과적으로 관리하고 검토할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "효율적인 워터마크 검색 및 관리",
+      "content": "문서의 모든 워터마크를 빠르게 검색하여 문서 관리 프로세스를 간소화합니다.API를 사용하면 워터마크를 빠르게 식별하고 분석할 수 있습니다."
+    },
+    "code_1": {
+      "title": "C# 예제: 워터마크 검색",
+      "content": "이 C# 예제는 {{ProdShortName}} 를 사용하여 문서 내에서 워터마크를 검색하는 방법을 보여 주며 정확한 결과를 위해 매개 변수를 활용하는 방법을 보여줍니다.",
+      "comment_1": "처리를 위해 로컬 또는 네트워크 소스에서 문서를 로드합니다.",
+      "comment_2": "워터마크 검색을 위한 매개변수 (예: 유형 또는 가시성) 정의",
+      "comment_3": "지정된 기준과 일치하는 모든 워터마크 검색",
+      "comment_4": "발견된 워터마크의 목록을 검토 및 관리하여 워터마크의 영향을 평가합니다."
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "보이지 않는 {{FileformatCap}} 스프레드시트 워터마크 찾기",
+      "description": "{{ProdShortName}} 를 사용하여 문서에서 보이지 않는 워터마크를 손쉽게 찾아낼 수 있습니다."
+    },
+    "header": {
+      "title": "{{FileformatCap}} 스프레드시트 워터마크를 즉시 찾을 수 있습니다",
+      "description": "{{ProdFullName}} 를 사용하여 숨겨진 워터마크를 손쉽게 공개하고 관리할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "정보 가져오기 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용하여 워터마크를 관리하기 위한 포괄적인 솔루션을 제공합니다.PDF, Microsoft Word, Excel 등과 같은 다양한 문서 형식에서 워터마크를 쉽게 생성, 편집, 검색 및 제거할 수 있습니다.{{ProdFullName}} 를 사용하여 워터마크 관리를 애플리케이션에 원활하게 통합할 수 있습니다."
+    },
+    "formats": {
+      "title": "다양한 형식의 워터마크 알아보기",
+      "description": "지원되는 다양한 파일 형식의 워터마크를 손쉽게 검색하고 식별할 수 있습니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}} 문서에서 숨겨진 워터마크 찾기",
+      "description": "{{ProdShortName}} 를 사용하여 문서 내에 숨겨진 워터마크를 손쉽게 찾을 수 있습니다."
+    },
+    "header": {
+      "title": "{{FileformatCap}} 문서에서 숨겨진 워터마크를 손쉽게 찾을 수 있습니다.",
+      "description": "{{ProdFullName}} 를 사용하여 숨겨진 워터마크를 빠르게 식별하고 관리할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 무료"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 정보",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용하여 워터마크를 관리하기 위한 포괄적인 솔루션을 제공합니다.PDF, Microsoft Word, Excel 등을 비롯한 다양한 문서 형식에서 워터마크를 쉽게 생성, 편집, 검색 및 제거할 수 있습니다.{{ProdFullName}} 를 사용하여 애플리케이션에서 워터마크를 찾을 수 있습니다."
+    },
+    "formats": {
+      "title": "지원되는 형식 전반의 워터마크 검색",
+      "description": "지원되는 다양한 파일 형식에서 워터마크를 빠르게 찾고 관리할 수 있습니다."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{FileformatCap}} 개의 프레젠테이션 숨겨진 워터마크 발출",
+      "description": "{{ProdShortName}} 를 사용하여 문서에서 숨겨진 워터마크를 손쉽게 찾아낼 수 있습니다."
+    },
+    "header": {
+      "title": "{{FileformatCap}} 개의 프레젠테이션에 숨겨진 워터마크를 손쉽게 찾아내세요",
+      "description": "{{ProdFullName}} 를 사용하여 숨겨진 워터마크를 빠르게 확인하고 관리할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용하여 워터마크를 관리할 수 있는 강력한 솔루션을 제공합니다.PDF, Microsoft Word, Excel 등과 같은 다양한 문서 형식에서 워터마크를 쉽게 생성, 편집, 검색 및 제거할 수 있습니다.{{ProdFullName}} 를 사용하여 워터마크 찾기를 애플리케이션에 통합하세요."
+    },
+    "formats": {
+      "title": "다양한 형식의 워터마크 알아보기",
+      "description": "지원되는 여러 파일 형식의 워터마크를 손쉽게 식별하고 관리할 수 있습니다."
+    }
+  }
+}

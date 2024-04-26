@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Водяной знак Excel",
+        "description": "MS Excel и электронные таблицы Open Office"
+      },
+      "word": {
+        "name": "Водяной знак Word",
+        "description": "MS Word и документы Open Office"
+      },
+      "powerpoint": {
+        "name": "Водяной знак PowerPoint",
+        "description": "MS PowerPoint и презентации в открытом офисе"
+      },
+      "image": {
+        "name": "Изображение водяного знака",
+        "description": "Популярные форматы изображений"
+      },
+      "photo": {
+        "name": "Фото водяного знака",
+        "description": "Форматы фотографий"
+      },
+      "pdf": {
+        "name": "Водяной знак PDF",
+        "description": "Формат документа Adobe Portable"
+      },
+      "doc": {
+        "name": "Водяной знак DOC",
+        "description": "Документ Майкрософт Word 97—2007"
+      },
+      "docx": {
+        "name": "Водяной знак DOCX",
+        "description": "Открыть XML-документ Microsoft Word"
+      },
+      "xls": {
+        "name": "Водяной знак XLS",
+        "description": "Рабочая тетрадь Майкрософт Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Водяной знак XLSX",
+        "description": "Открытая электронная таблица XML от Майкрософт Excel"
+      },
+      "ppt": {
+        "name": "Водяной знак PPT",
+        "description": "PowerPoint Презентация 97-2003"
+      },
+      "pptx": {
+        "name": "Водяной знак PPTX",
+        "description": "PowerPoint Открытая презентация XML"
+      },
+      "jpeg": {
+        "name": "Водяной знак JPEG",
+        "description": "JPEG Изображение"
+      },
+      "png": {
+        "name": "Водяной знак PNG",
+        "description": "Portable Сетевая графика"
+      },
+      "tiff": {
+        "name": "Водяной знак TIFF",
+        "description": "Формат файла изображения тега"
+      },
+      "webp": {
+        "name": "Водяной знак WEBP",
+        "description": "Изображение в Интернете"
+      },
+      "rtf": {
+        "name": "Водяной знак RTF",
+        "description": "Форматированный текстовый формат"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копировать",
+      "copy_tip": "нажмите, чтобы скопировать",
+      "copy_done": "скопировал",
+      "links": {
+        "title_1": "Больше примеров",
+        "title_2": "Документация"
+      }
+    },
+    "format-actions": {
+      "title": "Готовы начать?",
+      "description": "Попробуйте функции {{ProdShortName}} бесплатно или запросите лицензию",
+      "comment_1": "{{PackageStoreName}} скачать",
+      "comment_2": "Лицензирование"
+    },
+    "texts": {
+      "learn_more": "Узнайте больше"
+    }
+  }
+}

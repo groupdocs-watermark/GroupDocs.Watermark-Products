@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Lấy hình mờ hình ảnh được đặt trong {{FileFormatUp}}",
+    "comment_2": "Tạo đối tượng Watermarker với đường dẫn nguồn",
+    "comment_3": "Lấy hình mờ bằng hash hình ảnh tương tự",
+    "comment_4": "Xử lý hình mờ như bạn muốn"
+  },
+  "steps": {
+    "title": "Nhận hình mờ từ {{FileformatCap}} tệp bằng {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** cung cấp một giải pháp toàn diện để đặt hình mờ trong các định dạng tài liệu kinh doanh phổ biến. Bằng cách tích hợp thư viện của chúng tôi vào {{EnvName}} ứng dụng của bạn, bạn có thể trang bị cho chúng khả năng tìm kiếm hình mờ mạnh mẽ.",
+      "step_1": "**Watermarker** và cung cấp đường dẫn tệp {{FileformatCap}}. Ngoài ra, bạn có thể sử dụng tệp được lưu dưới dạng luồng byte. Hành động này về cơ bản tải tài liệu đích để phân tích hình mờ toàn diện.",
+      "step_2": "**SearchCriteria**. Bạn có thể chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số liên quan khác để tinh chỉnh tiêu chí tìm kiếm và đạt được kết quả chính xác hơn.",
+      "step_3": "**Get** (hoặc quy ước đặt tên tương tự) của đối tượng**Watermarker** để bắt đầu quá trình lấy hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, tạo điều kiện xử lý thêm dựa trên yêu cầu cụ thể của bạn.",
+      "step_4": "Bộ sưu tập kết quả hình mờ cho phép bạn kiểm soát các hình mờ được xác định trong tài liệu. Bạn có thể xóa hình mờ không mong muốn hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước, vị trí hoặc nội dung văn bản của chúng, để phù hợp với nhu cầu của bạn."
+    }
+  },
+  "more_features": {
+    "title": "Tận dụng Node.js để tìm kiếm hình mờ với {{ProdShortName}}",
+    "description": "Triển khai các chức năng tìm kiếm hình mờ động và hiệu quả trong các ứng dụng Node.js của bạn bằng cách sử dụng {{ProdShortName}} trong nền tảng {{EnvName}}.",
+    "image_description": "Tìm kiếm hình mờ Node.js",
+    "feature_1": {
+      "title": "API Node.js để tìm kiếm hình mờ linh hoạt",
+      "content": "Khai thác tính linh hoạt của Node.js với {{ProdShortName}} để tìm kiếm hình mờ trên nhiều định dạng tài liệu. Dễ dàng định cấu hình tìm kiếm để phù hợp với các yêu cầu cụ thể như kích thước, loại hoặc nội dung."
+    },
+    "feature_2": {
+      "title": "Nhận dạng hình mờ nâng cao với Node.js",
+      "content": "Cải thiện quá trình xử lý tài liệu của bạn bằng cách xác định hình mờ chính xác bằng Node.js. Sử dụng API của {{ProdShortName}} để phát hiện hình mờ ngay cả trong cấu trúc tài liệu phức tạp."
+    },
+    "feature_3": {
+      "title": "Giải pháp tìm kiếm hình mờ có thể mở rộng",
+      "content": "Mở rộng các giải pháp bảo mật tài liệu của bạn với Node.js. {{ProdShortName}} cho phép xử lý hiệu quả các lô tài liệu lớn, lý tưởng cho các ứng dụng cấp doanh nghiệp."
+    },
+    "code_1": {
+      "title": "Ví dụ Node.js: Tìm kiếm và truy xuất hình mờ",
+      "content": "Ví dụ Node.js này trình bày cách sử dụng {{ProdShortName}} để tìm kiếm và truy xuất hình mờ, thể hiện các hoạt động tìm kiếm hiệu quả và có thể mở rộng.",
+      "comment_1": "Thiết lập môi trường Node.js và tải các tài liệu cần thiết",
+      "comment_2": "Định cấu hình tìm kiếm của bạn để xác định hình mờ dựa trên các tiêu chí khác nhau",
+      "comment_3": "Thực hiện tìm kiếm hình mờ và thu thập dữ liệu trên hình mờ đã xác định",
+      "comment_4": "Xử lý kết quả để sửa đổi hoặc xóa hình mờ theo yêu cầu của doanh nghiệp"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Truy xuất {{FileFormatUp}} hình mờ tài liệu một cách dễ dàng",
+      "description": "Dễ dàng truy xuất hình mờ từ tài liệu với {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Nhận Hình mờ từ {{FileFormatUp}} Tài liệu",
+      "description": "Truy xuất hình mờ dễ dàng bằng cách sử dụng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "Dễ dàng quản lý hình mờ trên {{EnvName}} với khả năng mạnh mẽ của {{ProdFullName}}. Đơn giản hóa các thao tác hình mờ như tạo, cập nhật, lấy và xóa trên các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Đơn giản hóa việc truy xuất hình mờ",
+      "description": "Đơn giản hóa việc truy xuất hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Trích xuất hình mờ từ {{FileFormatUp}} tài liệu một cách dễ dàng",
+      "description": "Dễ dàng trích xuất hình mờ từ tài liệu của bạn bằng {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Truy cập hình mờ trong tập tin {{FileFormatUp}}",
+      "description": "Truy xuất hình mờ từ tài liệu {{FileFormatUp}} của bạn một cách dễ dàng với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí trên {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Khám phá {{ProdFullName}}",
+      "content": "Dễ dàng quản lý hình mờ trong môi trường {{EnvName}} của bạn. {{ProdFullName}} cho phép bạn thực hiện các thao tác hình mờ khác nhau như tạo, cập nhật, truy xuất và xóa hình mờ trên nhiều định dạng tệp."
+    },
+    "formats": {
+      "title": "Hợp lý hóa việc trích xuất hình mờ",
+      "description": "Đơn giản hóa quá trình trích xuất hình mờ từ các định dạng tệp khác nhau bằng cách sử dụng {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Truy xuất hình mờ tài liệu {{FileFormatUp}} hiệu quả",
+      "description": "Truy xuất hiệu quả hình mờ từ tài liệu với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Trích xuất hình mờ hợp lý từ {{FileFormatUp}} tài liệu",
+      "description": "Trích xuất hình mờ hiệu quả bằng cách sử dụng phương pháp sắp xếp hợp lý {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thông tin cơ sở {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp liền mạch để quản lý hình mờ trên {{EnvName}}. Đơn giản hóa quá trình trích xuất và thao tác hình mờ trên các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Hợp lý hóa việc xử lý hình mờ",
+      "description": "Hợp lý hóa việc xử lý hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Quản lý hình mờ bài thuyết trình dễ dàng {{FileFormatUp}}",
+      "description": "Dễ dàng quản lý hình mờ trong tài liệu với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Điều khiển hình mờ đơn giản cho {{FileFormatUp}} bài thuyết trình",
+      "description": "Kiểm soát hình mờ một cách dễ dàng bằng cách sử dụng phương pháp đơn giản hóa {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thông tin",
+      "content": "Loại bỏ những rắc rối khi quản lý hình mờ với {{ProdFullName}}. Xử lý liền mạch các tác vụ hình mờ trên nhiều định dạng tệp với nỗ lực tối thiểu."
+    },
+    "formats": {
+      "title": "Kiểm soát hình mờ liền mạch",
+      "description": "Kiểm soát trơn tru các hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Khám phá Thông tin chi tiết về Watermark trong {{FileFormatUp}} bài thuyết trình",
+      "description": "Khám phá những thông tin chi tiết có giá trị ẩn trong hình mờ bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Khám phá {{FileFormatUp}} bài thuyết trình có giá trị Thông tin chi tiết về hình mờ",
+      "description": "Mở khóa thông tin chi tiết có giá trị ẩn trong hình mờ bằng cách sử dụng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Nhận thông tin {{ProdFullName}}",
+      "content": "Mở khóa tiềm năng của {{ProdFullName}} trong việc khám phá những hiểu biết có giá trị ẩn trong hình mờ trên {{EnvName}}. Dễ dàng trích xuất và phân tích hình mờ từ các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Trích xuất thông tin chi tiết từ hình mờ",
+      "description": "Trích xuất thông tin chi tiết có giá trị từ hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Trích xuất hình mờ tài liệu {{FileFormatUp}} hiệu quả",
+      "description": "Trích xuất hình mờ hiệu quả từ tài liệu bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Truy xuất hình mờ tài liệu {{FileFormatUp}} được sắp xếp hợp lý",
+      "description": "Dễ dàng truy xuất hình mờ bằng cách sử dụng phương pháp sắp xếp hợp lý {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp khả năng trích xuất hình mờ hiệu quả để quản lý hình mờ trên {{EnvName}}. Hợp lý hóa quá trình truy xuất hình mờ trên các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Trích xuất hình mờ hiệu quả",
+      "description": "Trích xuất hình mờ hiệu quả từ các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Dễ dàng lấy hình mờ từ bất kỳ tài liệu {{FileFormatUp}}",
+      "description": "Nhanh chóng lấy hình mờ từ bảng tính {{FileFormatUp}} của bạn với {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Truy cập và nhận hình mờ từ {{FileFormatUp}} Bảng tính",
+      "description": "Dễ dàng truy xuất và lấy hình mờ trong tài liệu {{FileFormatUp}} của bạn bằng cách sử dụng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận {{ProdFullName}} miễn phí trên {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Mở khóa quản lý hình mờ mạnh mẽ với {{ProdFullName}}",
+      "content": "Cách mạng hóa quản lý hình mờ trong quy trình làm việc {{EnvName}} của bạn. {{ProdFullName}} cho phép bạn dễ dàng tạo, cập nhật, truy xuất (lấy) và xóa hình mờ trên các định dạng tệp khác nhau, hợp lý hóa quá trình xử lý tài liệu của bạn."
+    },
+    "formats": {
+      "title": "Dễ dàng lấy hình mờ từ bất kỳ định dạng tệp nào",
+      "description": "Đơn giản hóa việc truy xuất hình mờ (get) trên tất cả các định dạng tệp của bạn với sức mạnh của {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Xử lý hình mờ của bảng tính {{FileFormatUp}} hiệu quả",
+      "description": "Xử lý hiệu quả hình mờ trong tài liệu với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Kiểm soát hình mờ được sắp xếp hợp lý trong {{FileFormatUp}} Bảng tính",
+      "description": "Kiểm soát hình mờ một cách hiệu quả bằng cách sử dụng {{ProdFullName}} cách tiếp cận hợp lý.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thông tin cơ sở {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp hợp lý để quản lý hình mờ trên {{EnvName}}. Đơn giản hóa quá trình xử lý hình mờ trên các định dạng tệp khác nhau."
+    },
+    "formats": {
+      "title": "Hợp lý hóa việc kiểm soát hình mờ",
+      "description": "Hợp lý hóa việc kiểm soát hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}}."
+    }
+  }
+}

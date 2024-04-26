@@ -1,0 +1,233 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:39:04
+draft: false
+lang: vi
+format: Xlsx
+product: "Watermark"
+product_tag: "watermark"
+platform: ".NET"
+platform_tag: "net"
+
+############################# Head ############################
+head_title: "Giải pháp chỉnh sửa hình mờ an toàn Xlsx"
+head_description: "Đảm bảo chỉnh sửa hình mờ Xlsx an toàn với GroupDocs.Watermark for .NET Component. Bảo vệ nội dung và thương hiệu của bạn một cách tự tin."
+
+############################# Header ############################
+title: "Bảo mật Xlsx Chỉnh sửa hình mờ: .NET Đảm bảo" 
+description: "Đảm bảo bảo mật tài liệu và bảo vệ thương hiệu với GroupDocs.Watermark for .NET Component. Chỉnh sửa hình mờ của bạn một cách an toàn với sự đảm bảo."
+subtitle: "GroupDocs.Watermark for .NET Thư viện" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Tải xuống tại Nuget miễn phí"
+      link: "https://releases.groupdocs.com/watermark/net/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Watermark for .NET Giải pháp"
+    link: "/watermark/net/"
+    link_title: "Tìm hiểu thêm"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       **Xlsx Công cụ chỉnh sửa hình mờ:** Tối ưu hóa chỉnh sửa hình mờ của bạn trong .NET dự án với GroupDocs.Watermark. Đơn giản hóa quy trình kinh doanh của bạn và tập trung vào nội dung của bạn trong khi đảm bảo bảo mật tài liệu một cách dễ dàng.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Chỉnh sửa hình mờ theo chương trình trong tài liệu Xlsx bằng API .NET"
+    content: |
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** cung cấp cho .NET nhà phát triển một API mạnh mẽ để thao tác hình mờ theo chương trình trong các tài liệu Xlsx khác nhau. Hướng dẫn này phác thảo quy trình:
+      
+      1. **Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.
+      2. **SearchCriteria** để xác định chính xác các hình mờ cụ thể yêu cầu sửa đổi. Đối tượng này cho phép xác định các hình mờ được nhúng trước đó trong tài liệu.
+      3. Sau khi thực hiện tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát chi tiết, cho phép bạn sửa đổi các thuộc tính như kích thước, vị trí trang, nội dung văn bản, bảng màu, dữ liệu hình ảnh, v.v.
+      4. Sau khi hoàn thành các chỉnh sửa hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
+   
+    code:
+      platform: "net"
+      copy_title: "Sao chép"
+      install:
+        command: |
+        command: "dotnet add package GroupDocs.Watermark"
+        copy_tip: "bấm để sao chép"
+        copy_done: "sao chép"
+      links:
+        #  loop
+        - title: "Thêm ví dụ"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/"
+        #  loop
+        - title: "Tài liệu"
+          link: "https://docs.groupdocs.com/watermark/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Chỉnh sửa hình mờ hình ảnh trong XLSX doc
+
+        // Khởi tạo Watermarker bằng tệp nguồn
+        using (Watermarker watermarker = new Watermarker("input.xlsx"))
+        {
+            // Tạo Tiêu chí tìm kiếm cho tìm kiếm hình mờ hình ảnh
+            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+
+            foreach (PossibleWatermark watermark in watermarks)
+            {
+                // Chỉnh sửa hình mờ hình ảnh
+                watermark.ImageData = imageData;
+            }
+
+            // Lưu kết quả XLSX
+            watermarker.Save("output.xlsx");
+        }
+        
+        ```     
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Tăng cường quy trình làm việc của bạn với Quản lý hình mờ"
+  description: "Đơn giản hóa hình mờ trên các định dạng tệp đa dạng trong ứng dụng .NET của bạn với thư viện mạnh mẽ của chúng tôi. Dễ dàng thêm, chỉnh sửa, tìm kiếm hoặc xóa hình mờ để tăng cường bảo mật tài liệu và xây dựng thương hiệu."
+  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image_description: "Chỉnh sửa hình mờ liền mạch"
+  features:
+    # feature loop
+    - title: "Hợp lý hóa hình mờ trong các ứng dụng của bạn"
+      content: "Tận dụng sức mạnh của GroupDocs.Watermark for .NET để tích hợp liền mạch chức năng hình mờ vào ứng dụng .NET của bạn. API trực quan của chúng tôi đơn giản hóa việc tạo, quản lý, tìm kiếm và chỉnh sửa hình mờ, loại bỏ nhu cầu về các quy trình thủ công phức tạp."
+
+    # feature loop
+    - title: "Tùy chỉnh hình mờ dạng hạt"
+      content: "Giải phóng toàn bộ tiềm năng của tùy chỉnh hình mờ với API toàn diện của chúng tôi. Tinh chỉnh từng chi tiết, bao gồm kích thước, hướng, bảng màu và lựa chọn phông chữ, để tạo hình mờ phù hợp hoàn hảo với yêu cầu bảo mật và thương hiệu của bạn."
+
+    # feature loop
+    - title: "Khai thác các tính năng cụ thể cho tài liệu để tạo hình mờ linh hoạt"
+      content: "Mở khóa sức mạnh của các chức năng gốc trong các định dạng tài liệu khác nhau. Sử dụng các yếu tố như nền tài liệu, chú thích, tiêu đề hoặc các đối tượng khác làm hộp chứa hình mờ độc đáo, phục vụ cho các loại tài liệu đa dạng và nhu cầu bảo mật."
+      
+  code_samples:
+    # code sample loop
+    - title: "PDF chỉnh sửa hình mờ hình ảnh"
+      content: |
+        Ví dụ này cho thấy cách chỉnh sửa nội dung hình mờ hình ảnh
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Tải tài liệu dưới dạng PDF
+            var loadOptions = new PdfLoadOptions();
+            using (Watermarker watermarker = new Watermarker("source.pdf", loadOptions))
+            {
+                //  Tải nội dung
+                PdfContent pdfContent = watermarker.GetContent<PdfContent>();
+
+                //  Chỉnh sửa hình mờ hình ảnh
+                foreach (PdfArtifact artifact in pdfContent.Pages[0].Artifacts)
+                {
+                    if (artifact.Image != null)
+                    {
+                        artifact.Image = new PdfWatermarkableImage(File.ReadAllBytes("test.png"));
+                    }
+                }
+
+                //  Tận hưởng kết quả đầu ra
+                watermarker.save("result.pdf");
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Sẵn sàng để bắt đầu?"
+  description: "Dùng thử GroupDocs.Watermark tính năng miễn phí hoặc yêu cầu giấy phép"
+  items:
+    #  loop
+    - title: "Nuget tải về"
+      link: "https://releases.groupdocs.com/watermark/net/"
+      color: "red"
+        #  loop
+    - title: "Cấp phép"
+      link: "https://purchase.groupdocs.com/pricing/watermark/net/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Các định dạng khác Chỉnh sửa hình mờ"
+    exclude: "XLSX"
+    description: "Đảm bảo bảo mật tài liệu và bảo vệ thương hiệu với GroupDocs.Watermark for .NET Component."
+    items: 
+        # format loop 1
+        - name: "Hình mờ PDF"
+          format: "PDF"
+          link: "/watermark/net/edit//pdf/"
+          description: "Định dạng tài liệu Adobe Portable"
+
+        # format loop 2
+        - name: "Hình mờ Word"
+          format: "WORD"
+          link: "/watermark/net/edit//word/"
+          description: "MS Word và tài liệu Open Office"
+          
+        # format loop 3
+        - name: "Hình mờ Excel"
+          format: "EXCEL"
+          link: "/watermark/net/edit//excel/"
+          description: "MS Excel và bảng tính Open Office"
+
+        # format loop 4
+        - name: "Hình mờ PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/net/edit//powerpoint/"
+          description: "MS PowerPoint và các bài thuyết trình Open Office"
+
+        # format loop 5
+        - name: "Hình mờ DOCX"
+          format: "DOCX"
+          link: "/watermark/net/edit//docx/"
+          description: "Microsoft Word Tài liệu XML mở"
+          
+        # format loop 6
+        - name: "Hình mờ PPTX"
+          format: "PPTX"
+          link: "/watermark/net/edit//pptx/"
+          description: "PowerPoint Bản trình bày XML mở"
+          
+        # format loop 7
+        - name: "Hình mờ XLSX"
+          format: "XLSX"
+          link: "/watermark/net/edit//xlsx/"
+          description: "Microsoft Excel Open XML Spreadsheet"
+
+        # format loop 8
+        - name: "Hình mờ DOC"
+          format: "DOC"
+          link: "/watermark/net/edit//doc/"
+          description: "Tài liệu Microsoft Word 97 - 2007"
+
+        # format loop 9
+        - name: "Hình mờ XLS"
+          format: "XLS"
+          link: "/watermark/net/edit//xls/"
+          description: "Microsoft Excel Sổ làm việc 97-2003"
+
+        # format loop 10
+        - name: "Hình mờ PPT"
+          format: "PPT"
+          link: "/watermark/net/edit//ppt/"
+          description: "PowerPoint Bài thuyết trình 97-2003"
+
+        # format loop 11
+        - name: "Hình mờ RTF"
+          format: "RTF"
+          link: "/watermark/net/edit//rtf/"
+          description: "Định dạng văn bản phong phú"
+
+---

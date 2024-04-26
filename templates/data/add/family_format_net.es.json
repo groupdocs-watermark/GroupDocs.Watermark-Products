@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Generar marca de agua de texto en el archivo {{FileFormatUp}}",
+    "comment_2": "Proporcione el archivo para ponerle una marca de agua",
+    "comment_3": "Generar instancia de marca de agua de texto",
+    "comment_4": "Guardar {{FileFormatUp}} resultado"
+  },
+  "steps": {
+    "title": "Mejore sus documentos: genere marcas de agua para {{FileformatCap}} con {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** es una biblioteca que simplifica la adición de marcas de agua a varios formatos de archivos empresariales para {{EnvName}} desarrolladores. Integre nuestra biblioteca en su aplicación y añada fácilmente marcas de agua a los documentos siguiendo estos pasos:",
+      "step_1": "**Iniciando tu viaje con marcas de agua:** Empieza por familiarizarte con la clase**Watermarker**, la piedra angular de nuestra API. Para comenzar el proceso, asegúrate de crear una instancia antes de procesar el documento. No pases por alto la importancia de proporcionar el archivo {{FileformatCap}} al constructor, ya sea una ruta o un objeto de flujo.",
+      "step_2": "**Elaboración de marcas de agua personalizadas:** Pase a la siguiente fase creando un objeto**Watermark** adaptado a sus especificaciones. Esta versátil herramienta no se limita a páginas de documentos específicas; también se puede integrar sin problemas en los elementos nativos del documento, como los archivos adjuntos o los encabezados.",
+      "step_3": "**Ajustar los atributos de las marcas de agua:** Refina tu experiencia con las marcas de agua ajustando propiedades como la altura, el ancho, la alineación de las páginas, la familia de fuentes y el color. Este nivel de personalización garantiza que las marcas de agua se combinen perfectamente con los documentos.",
+      "step_4": "**Aplicación de marcas de agua:** Utilice el método**Watermarker** para aplicar sin esfuerzo sus marcas de agua personalizadas a sus documentos. Ya sea que necesites añadir una o varias marcas de agua, este proceso ofrece flexibilidad. Para mayor seguridad, considera la posibilidad de guardar los documentos procesados en una ubicación diferente."
+    }
+  },
+  "more_features": {
+    "title": "Sumérjase en la adición de marcas de agua",
+    "description": "Aproveche nuestra potente API para renderizar, mostrar, convertir y gestionar documentos, diapositivas, diagramas y otros tipos de documentos en .NET aplicaciones. GroupDocs.Watermark integra a la perfección las funciones de creación de marcas de agua para mejorar la seguridad de los documentos y la protección de los derechos de autor.",
+    "image_description": "Añadir marca de agua",
+    "feature_1": {
+      "title": "Añade marcas de agua a tus documentos sin esfuerzo.",
+      "content": "{{ProdShortName}} permite a .NET desarrolladores integrar fácilmente marcas de agua en sus aplicaciones. Añada texto, imágenes o marcas de agua dinámicas a los documentos y archivos empresariales más populares sin esfuerzo, garantizando que su contenido sea seguro y tenga una marca uniforme en todas las plataformas."
+    },
+    "feature_2": {
+      "title": "Personalice las marcas de agua para satisfacer sus necesidades.",
+      "content": "Personalice las marcas de agua para que coincidan con sus requisitos específicos con las amplias funciones compatibles con GroupDocs.Watermark. Ajuste el tamaño, la rotación, la transparencia, el color y la fuente para garantizar que su marca de agua no solo tenga un aspecto perfecto, sino que también mejore la seguridad de los documentos sin obstruir la información importante."
+    },
+    "feature_3": {
+      "title": "Aproveche las funciones de los documentos nativos para la creación de marcas de agua",
+      "content": "Utilice las características inherentes de los formatos de documentos para crear marcas de agua sofisticadas. Ya sea que utilice PDF anotaciones nativas, MS Word fondos o Excel encabezados y pies de página, el GroupDocs.Watermark se integra perfectamente con las estructuras de los documentos para aplicar marcas de agua que son eficaces y mínimamente invasivas."
+    },
+    "code_1": {
+      "title": "Generar marca de agua de imagen para DOCX",
+      "content": "En este ejemplo se muestra cómo aplicar efectos de imagen a las marcas de agua de las formas.",
+      "comment_1": "Cargar documento Word",
+      "comment_2": "Configurar las opciones de marca de agua",
+      "comment_3": "Generar marca de agua",
+      "comment_4": "Guardar documento actualizado"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Generar marca de agua para Excel hojas de cálculo",
+      "description": "Automatice la marca de agua de las imágenes con .NET C# para lograr una seguridad uniforme. Gestione grandes lotes de imágenes de manera eficiente."
+    },
+    "header": {
+      "title": "Agregue marcas de agua dinámicas en Excel usando .NET C#",
+      "description": "Automatice la aplicación de marcas de agua dinámicas de texto o imágenes en sus Excel archivos con C#. Nuestros tutoriales le muestran cómo mantener la coherencia y el profesionalismo, con una intervención manual mínima.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} permite la integración perfecta de las marcas de agua en las hojas de cálculo Excel, lo que proporciona a las empresas las herramientas necesarias para proteger y personalizar sus documentos. Esta biblioteca de C# admite una variedad de tipos de marcas de agua y permite una personalización detallada, incluidos los ajustes de opacidad, rotación y alineación. Además, está equipada con funciones de búsqueda avanzadas para detectar y gestionar las marcas de agua existentes, lo que garantiza que las hojas de cálculo estén protegidas contra la manipulación y la divulgación no autorizada."
+    },
+    "formats": {
+      "title": "Incrustar marcas de agua de texto e imágenes en Excel usando {{ProgLang}}",
+      "description": "Utilice la API GroupDocs.Watermark de C# para agregar de manera eficiente marcas de agua personalizadas a las hojas de cálculo Excel. Mejore la seguridad de los documentos y la marca corporativa con herramientas diseñadas para una integración rápida y flexible de las marcas de agua."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Generar marca de agua del documento Word",
+      "description": "Optimice los flujos de trabajo de documentos de Word con marcas de agua. Refleja la integridad de tu marca de forma profesional."
+    },
+    "header": {
+      "title": "Cree marcas de agua dinámicas en Word y OpenOffice con C#",
+      "description": "Implemente marcas de agua de forma estratégica en sus Word documentos con nuestro sólido kit de herramientas de C#. Personalízalo fácilmente para adaptarlo a los estándares de la marca o a los requisitos de seguridad.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} transforma su capacidad de añadir marcas de agua a los documentos Microsoft Word. Esta versátil API se integra perfectamente en su entorno de desarrollo, lo que permite añadir sofisticadas marcas de agua de texto e imágenes que se pueden colocar de forma absoluta o relativa dentro del documento. Es compatible con los formatos DOC, DOCX y RTF, lo que proporciona flexibilidad en varias versiones de Word. Mejore sus documentos con marcas de agua que no solo sean seguras, sino que también se mezclen sutilmente con el contenido, preservando la legibilidad y la integridad del diseño."
+    },
+    "formats": {
+      "title": "Marcas de agua impulsadas por C# en Word y OpenOffice a través de {{ProgLang}}",
+      "description": "Maximice el impacto de sus documentos MS Word y de OpenOffice con marcas de agua diseñadas a medida que ofrecen protección y profesionalismo. Nuestra API de C# facilita la aplicación de marcas de agua precisas y atractivas."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Añadir marcas de agua a las imágenes con .NET C#",
+      "description": "Aprenda a aplicar marcas de agua sin fisuras en las imágenes con .NET C#. Proteja sus activos sin comprometer la calidad."
+    },
+    "header": {
+      "title": "Marca de agua rápida y personalizada para imágenes con {{EnvName}}",
+      "description": "Nuestra herramienta C# .NET proporciona una solución rápida para incrustar marcas de agua en las imágenes. La compatibilidad con formatos de imagen extensos garantiza una cobertura total, desde fotografías hasta obras de arte digitales.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} está diseñado para automatizar el proceso de creación de marcas de agua en las imágenes y admite una amplia gama de formatos, como JPEG, PNG, BMP y TIFF. Esta sólida API permite la inserción rápida de marcas de agua de texto e imágenes que se pueden ajustar en opacidad, tamaño y posición, según sus requisitos específicos. Ya sea para proteger los derechos de autor o mejorar el material de marketing, nuestro conjunto de herramientas garantiza que las marcas de agua se apliquen con alta fidelidad y con un impacto mínimo en la calidad de la imagen original."
+    },
+    "formats": {
+      "title": "Implemente marcas de agua rápidamente en todos los formatos de imagen mediante {{ProgLang}}",
+      "description": "Mejore la protección de sus imágenes con nuestro kit de herramientas C# .NET, capaz de manejar varios formatos de imagen con rapidez y eficiencia. Personalice sus marcas de agua para que se mezclen perfectamente con su contenido visual."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Añade marcas de agua a tus fotos de forma rápida y sencilla",
+      "description": "Proteja y reclame rápidamente los derechos de autor de sus fotos con .NET marcas de agua en C#. Empieza a proteger tu trabajo hoy mismo."
+    },
+    "header": {
+      "title": "Marcar fotos de forma rápida y sencilla con {{EnvName}}",
+      "description": "Nuestra potente biblioteca de C# permite añadir rápidamente marcas de agua a tus fotos, lo que te ayuda a proteger los derechos de autor y a mejorar la identidad de la marca sin comprometer la calidad de la imagen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece una potente solución para los servicios de fotógrafos que buscan proteger sus derechos de autor y su identidad de marca. Esta API permite añadir rápidamente marcas de agua de texto o gráficos a las fotografías en una variedad de formatos, incluidos JPEG, PNG y RAW. Personalice sus marcas de agua en función de la transparencia, el tamaño y la posición para que se integren perfectamente con la foto, manteniendo la calidad estética, haciendo valer sus derechos legales y evitando el uso no autorizado."
+    },
+    "formats": {
+      "title": "Proteja sus fotos con marcas de agua eficaces {{ProgLang}}",
+      "description": "Proteja y estilice su contenido fotográfico con marcas de agua personalizables mediante nuestra API C# .NET, diseñada para integrarse sin problemas y preservar la calidad de la imagen."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Cree funciones avanzadas de marcas de agua para presentaciones",
+      "description": "Usa técnicas avanzadas para crear marcas de agua impactantes para las presentaciones. Garantice la seguridad del contenido sin problemas."
+    },
+    "header": {
+      "title": "Innove sus presentaciones con marcas de agua avanzadas en C#",
+      "description": "Incrusta marcas de agua de texto e imágenes vanguardistas en tus PowerPoint diapositivas con nuestra API de C#. Perfecto para mejorar la seguridad y el atractivo profesional en las presentaciones.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} está diseñado para facilitar la inserción de marcas de agua avanzadas en PowerPoint presentaciones de manera eficiente. Ya sea que esté trabajando con información confidencial o buscando aumentar la imagen de marca de su empresa en las diapositivas, nuestra API ofrece soluciones sólidas de creación de marcas de agua que se pueden adaptar a diapositivas individuales o a presentaciones completas. Desde simples marcas de texto hasta logotipos elaborados, personaliza la apariencia y la ubicación de tus marcas de agua para que se integren perfectamente con tus diseños de diapositivas y, al mismo tiempo, brindes una capa adicional de seguridad."
+    },
+    "formats": {
+      "title": "Proteja y personalice las presentaciones con marcas de agua en {{ProgLang}}",
+      "description": "Utilice nuestro kit de herramientas de C# para aplicar rápidamente marcas de agua personalizadas que preserven la integridad y la estética de sus PowerPoint presentaciones. Ideal para entornos profesionales y educativos."
+    }
+  }
+}

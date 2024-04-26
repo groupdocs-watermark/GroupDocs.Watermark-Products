@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Ajustar la marca de agua del texto {{FileFormatUp}}",
+    "comment_2": "Instanciar Watermarker con el documento de entrada {{FileFormatUp}}",
+    "comment_3": "Inicialice los TextSearchCriteria y busque marcas de agua de texto",
+    "comment_4": "Ajustar las propiedades de las marcas de agua del texto",
+    "comment_5": "Guardar el documento actualizado"
+  },
+  "steps": {
+    "title": "Ajuste las marcas de agua en {{FileformatCap}} documentos con {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** facilita a los {{EnvName}} desarrolladores el ajuste de las marcas de agua de texto en sus aplicaciones mediante la implementación de unos sencillos pasos:",
+      "step_1": "**Watermarker**. Puedes proporcionar el archivo para su posterior procesamiento como transmisión o como una ruta en un disco local.",
+      "step_2": "**Los criterios de búsqueda** ayudan a identificar las marcas de agua con las propiedades correctas que se agregaron previamente a un documento.",
+      "step_3": "**Búsqueda**. Ajuste las propiedades de las marcas de agua encontradas, como el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen, etc. Hay muchas maneras de personalizar los datos.",
+      "step_4": "Después de completar el proceso de ajuste de las marcas de agua, debe guardar el documento actualizado. Utilice la ruta del archivo local, el archivo o el flujo de bytes para almacenar el resultado."
+    }
+  },
+  "more_features": {
+    "title": "Sumérjase en el ajuste de marcas de agua de {{FileFormatUp}}",
+    "description": "Nuestra API permite a {{EnvName}} aplicaciones añadir, editar, eliminar y buscar marcas de agua en los formatos de documentos más populares.",
+    "image_description": "Ajustar marca de agua",
+    "feature_1": {
+      "title": "Añade marcas de agua a tus documentos sin esfuerzo",
+      "content": "{{ProdShortName}} simplifica la marca de agua para {{EnvName}} desarrolladores. Añada diversas marcas de agua a varios documentos y archivos empresariales. No solo puede aplicar marcas de agua, sino que también puede actualizar o eliminar las existentes."
+    },
+    "feature_2": {
+      "title": "Personalice las marcas de agua según sus necesidades",
+      "content": "Nuestra API ofrece amplias opciones de personalización. Ajusta fácilmente el tamaño, la rotación, el color, la fuente, los estilos y más para lograr la marca de agua perfecta."
+    },
+    "feature_3": {
+      "title": "Utilice {{FileFormatUp}} funciones de documentos nativos",
+      "content": "Según el formato específico del documento, puede utilizar las funcionalidades nativas. Estas pueden incluir el fondo de la página del documento, las anotaciones, los encabezados u otros objetos como contenedores de marcas de agua."
+    },
+    "code_1": {
+      "title": "PDF ajustar la marca de agua del texto",
+      "content": "En este ejemplo se muestra cómo ajustar el texto de los artefactos en particular.",
+      "comment_1": "Cargar documento PDF",
+      "comment_2": "Obtenga el contenido del documento",
+      "comment_3": "Ajustar el texto de una marca de agua en particular",
+      "comment_4": "Guarda el documento"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Ajustar la herramienta de marca de agua Excel - {{ProdShortName}}",
+      "description": "Ajusta, actualiza y gestiona las marcas de agua sin esfuerzo con {{ProdShortName}}. Personalice sus documentos con facilidad."
+    },
+    "header": {
+      "title": "Herramienta de ajuste de hojas de cálculo y marcas de agua: poderosamente simple",
+      "description": "Mejore sus documentos con nuestra intuitiva herramienta de edición de marcas de agua. Simplifique su flujo de trabajo sin esfuerzo.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Herramienta de ajuste de marcas de agua**: Nuestra herramienta de marcas de agua ofrece una solución fácil de usar para mejorar y proteger sus documentos. Con funciones de edición intuitivas, administrar las marcas de agua es sencillo, lo que garantiza la seguridad y la autenticidad de los documentos."
+    },
+    "formats": {
+      "title": "Ajuste la marca de agua mediante {{ProdFullName}} para otros formatos",
+      "description": "Personalice fácilmente las marcas de agua en una amplia gama de formatos de documentos. Mejore la seguridad y la autenticidad de los documentos sin esfuerzo."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Ajusta Word marcas de agua sin esfuerzo - {{ProdShortName}}",
+      "description": "Ajuste sin problemas las marcas de agua en varios formatos de documentos con {{ProdShortName}}. Mejore la seguridad de sus documentos."
+    },
+    "header": {
+      "title": "Ajuste Word marcas de agua: asegúrelas sin esfuerzo",
+      "description": "Proteja sus documentos sin esfuerzo con nuestras potentes funciones de modificación de marcas de agua. Proteja su contenido con confianza.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descárguelo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Modificar marcas de agua**: {{ProdShortName}} permite a los usuarios modificar sin problemas las marcas de agua en varios formatos de documentos. Con un control preciso y opciones versátiles, personalice sus documentos con confianza."
+    },
+    "formats": {
+      "title": "Ajuste las marcas de agua usando {{ProdFullName}} para los formatos más populares",
+      "description": "GroupDocs.Watermark admite la modificación perfecta de las marcas de agua en varios formatos. Personalice su estrategia de marcas de agua para satisfacer sus necesidades específicas."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Ajusta PowerPoint marcas de agua con facilidad - {{ProdShortName}}",
+      "description": "Actualiza sin esfuerzo las marcas de agua en varios tipos de documentos con {{ProdShortName}}. Mantenga la integridad de los documentos sin esfuerzo."
+    },
+    "header": {
+      "title": "Ajustar PowerPoint marcas de agua: Precision Control",
+      "description": "Mantenga un control preciso sobre la integridad de sus documentos con nuestra función de actualización de marcas de agua. Garantice la autenticidad con facilidad.",
+      "subtitle": "{{ProdFullName}} Biblioteca",
+      "action_title": "Descargar en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Biblioteca",
+      "content": "**Actualizar marcas de agua**: mantén el control de la integridad de tus documentos con nuestra función de actualización de marcas de agua. Revisa sin esfuerzo las marcas de agua en diferentes tipos de documentos, manteniendo la autenticidad y la seguridad."
+    },
+    "formats": {
+      "title": "Ajuste las marcas de agua en los formatos empresariales mediante {{ProdFullName}}",
+      "description": "Actualice sin esfuerzo las marcas de agua en diferentes tipos de documentos con un control preciso. Mantenga la integridad y la seguridad de los documentos sin problemas."
+    }
+  }
+}

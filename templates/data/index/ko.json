@@ -1,0 +1,411 @@
+{
+  "index-content": {
+    "head_title": "문서 워터마크 C# Java Node.js | 워터마크 추가",
+    "head_description": "PDF, 이미지 및 문서에 워터마크를 추가합니다.Microsoft Office, PDF, OpenDocument, 이미지 등에 대한 워터마킹 솔루션",
+    "title": "문서 워터마크 솔루션",
+    "description_1": "문서 및 이미지에 텍스트 및 이미지 워터마크를 추가합니다.",
+    "description_2": "편리한 방법으로 문서 워터마크를 검색하고 수정할 수 있습니다.",
+    "description_3": "문서에 표시된 워터마크에 대한 정보를 얻을 수 있습니다.",
+    "words_for": "...에 대한",
+    "release_title": "버전 {4.13} 출시",
+    "release_notes": "새 소식 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "code_comment_1": "PDF 경로를 통과하는 워터마커 인스턴스화",
+    "code_comment_2": "워터마크 옵션 사용자 지정",
+    "code_comment_3": "PDF 문서에 워터마크 적용",
+    "code_comment_4": "결과 문서 저장",
+    "overview_title": "{{ProdShortName}} 한 눈에",
+    "formats_title": "지원되는 파일 형식",
+    "platforms": {
+      "title": "플랫폼 독립성",
+      "head_title": "플랫폼 선택",
+      "description": "{{ProdShortName}} 라이브러리는 다음 운영 체제 및 프레임워크를 지원합니다.",
+      "learn_more": "자세히 알아보기",
+      "any_other_text_editor": "기타 모든 텍스트 편집기"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 기능 리뷰",
+      "description": "널리 사용되는 문서 형식에 대해 다양한 워터마크 유형을 추가, 검색 및 업데이트하도록 설계된 라이브러리입니다.",
+      "feature_1": {
+        "title": "워터마크로 파일 보호",
+        "content": "비즈니스 문서에 텍스트 및 이미지 워터마크를 추가합니다."
+      },
+      "feature_2": {
+        "title": "기존 워터마크 검색",
+        "content": "이전에 문서에 삽입한 워터마크에 대한 자세한 정보를 얻을 수 있습니다."
+      },
+      "feature_3": {
+        "title": "문서 워터마크 조작",
+        "content": "텍스트, 스타일, 이미지 및 기타 워터마크 기능을 제어합니다."
+      },
+      "feature_4": {
+        "title": "다양한 추가 기능",
+        "content": "문서 정보 가져오기, 하이퍼링크 또는 페이지 배경 업데이트 등"
+      }
+    },
+    "formats": {
+      "title": "50개 이상의 파일 형식 지원",
+      "description": "{{ProdShortName}} 는 널리 사용되는 문서 및 파일 형식에 워터마킹을 제공합니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "index_title": "워터마크로 문서 보호",
+      "index_description": "{{ProdShortName}} 일반적인 작업 코드 예제",
+      "more_examples": "더 많은 예시",
+      "sample_index": {
+        "title": "워터마크 만들기.",
+        "content": "문서에 워터마크를 추가하려면 대상 파일의 경로를 입력합니다.특정 페이지에 사용자 지정 워터마크를 표시하려면 다양한 옵션을 선택할 수 있습니다.",
+        "comment_1": "워터마킹할 문서를 지정합니다.",
+        "comment_2": "워터마크 오브젝트 만들기",
+        "comment_3": "워터마크 옵션 설정",
+        "comment_4": "워터마크 추가 및 처리된 파일 저장"
+      },
+      "sample_1": {
+        "code_title": "이미지 워터마크로 파일을 보호하는 방법",
+        "comment_1": "워터마커에 소스 문서 불러오기",
+        "comment_2": "워터마크 이미지의 경로 지정",
+        "comment_3": "파일을 보호하고 저장합니다."
+      },
+      "sample_2": {
+        "code_title": "워터마크 검색 및 수정.",
+        "comment_1": "소스 문서 불러오기",
+        "comment_2": "업데이트할 워터마크 검색",
+        "comment_3": "원하는 속성 업데이트",
+        "comment_4": "수정한 문서를 지정된 경로에 저장"
+      }
+    },
+    "metrics": {
+      "title": "우리 도서관 통계 데이터",
+      "description": "주요 지표를 자세히 살펴보고 우리의 성과, 영향력, 성장에 대한 통찰력을 얻으세요.",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "라이브러리는 가장 널리 사용되는 50가지 이상의 파일 형식을 처리할 수 있습니다."
+      },
+      "item_2": {
+        "title": "NuGet 개 다운로드",
+        "description": ".NET 용 {{ProdShortName}} 은 NuGet 에서 80만 회 이상 다운로드된 인기 라이브러리입니다."
+      },
+      "item_3": {
+        "title": "메이븐 다운로드",
+        "description": "Maven에서 15,000회 이상의 다운로드를 기록한 {{ProdShortName}} 은 Java 명의 개발자들에게 인기 있는 앱입니다."
+      },
+      "item_4": {
+        "title": "행복한 고객",
+        "description": "전 세계 개인 개발자와 상위 기업은 혁신적인 솔루션을 구축하기 위해 당사의 라이브러리를 선호합니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객들",
+      "description": "GroupDocs 개의 도서관은 전 세계적으로 유명하고 유명한 브랜드에 고용되어 있습니다."
+    },
+    "actions": {
+      "alt": "라이선싱",
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 체험하거나 라이선스를 요청하세요",
+      "description_index": "플랫폼에서 {{ProdShortName}} 개의 기능을 무료로 사용해 보세요"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "자주 묻는 질문을 확인하세요",
+      "item_1": {
+        "question": "{{ProdShortName}} 에서 문서 조작을 위해 외부 라이브러리가 필요합니까?",
+        "answer": "{{ProdShortName}} 는 독립적으로 작동하므로 Adobe Acrobat, Microsoft Office 등과 같은 타사 소프트웨어가 필요하지 않습니다."
+      },
+      "item_2": {
+        "question": "구매하기 전에 {{ProdShortName}} 개의 기능을 테스트할 수 있나요?",
+        "answer": "네, {{ProdShortName}} 은 (는) 무료 평가판을 제공합니다!설치해서 사용해 보십시오. 단, 평가판 버전은 문서에 '평가판 배지'를 추가하므로 처음 3페이지만 처리됩니다.전체 경험을 원하시나요?30일 임시 라이선스를 무료로 받아 전체 기능을 이용할 수 있습니다.자세한 내용은 [임시 라이선스]({{LicensingUrl}}) 를 참조하십시오."
+      },
+      "item_3": {
+        "question": "어떤 라이선스 유형이 제공되나요?",
+        "answer": "{{ProdShortName}} 라이선스가 필요하세요?옵션이 있습니다!다양한 옵션을 기반으로 라이선스 중에서 선택하세요.팀의 개발자 수.배포 위치 (예: 단일 사무실 또는 원격 작업장).최종 고객 배포 부서에서 SDK/API를 클라이언트와 공유해야 하나요?또는 월별 사용 라이선스도 있습니다. 즉, 요금제 요금제로 사용한 만큼만 요금을 지불하면 됩니다.자세히 알아보고 완벽한 [가격]({{PricingUrl}}) 을 찾아보세요."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 로우 코드 API",
+      "description": "클라우드 기반 REST API를 사용하여 애플리케이션에서 파일에 워터마크를 추가합니다.",
+      "item_1": {
+        "content": "cURL REST ful API를 사용하여 PDF, Word, Excel, PowerPoint, JPEG 및 기타 널리 사용되는 파일 형식을 워터마킹할 수 있습니다."
+      },
+      "item_2": {
+        "content": ".NET 용 Cloud SDK의 문서 워터마킹 기능으로 .NET 애플리케이션을 강화하세요.비즈니스 문서를 직접 보호하세요."
+      },
+      "item_3": {
+        "content": "{{ProdShortName}} Java 용으로 설계된 SDK는 Java 개의 애플리케이션 및 비즈니스 파일에 새로운 가능성을 제공합니다."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 웹 앱",
+      "description": "GroupDocs 은 문서에 워터마크를 추가할 수 있는 웹 애플리케이션에 대한 액세스 권한을 부여합니다.50가지 이상의 인기 있는 파일 형식을 즐겨 사용하는 브라우저에서 무료로 워터마킹할 수 있습니다.",
+      "item_1": {
+        "content": "모든 장치에서 문서에 워터마크를 추가할 수 있는 온라인 도구입니다."
+      },
+      "item_2": {
+        "content": "워터마크 MS Word DOCX 온라인."
+      },
+      "item_3": {
+        "content": "PDF 개의 문서를 온라인으로 보호하십시오."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office 및 OpenDocument 형식",
+      "title_2": "이미지 및 그래픽",
+      "title_3": "기타",
+      "format_portable": "Portable",
+      "format_popular_images": "인기 이미지 형식",
+      "format_multi_images": "여러 페이지 이미지"
+    }
+  },
+  "index-content-net": {
+    "head_title": "C# .NET 문서 워터마크 소프트웨어 | 워터마크 추가",
+    "head_description": "문서에서 워터마크를 추가, 검색 및 제거하기 위한 C# .NET 라이브러리: PDF, Word, Excel, 프레젠테이션, Visio 다이어그램, 이메일 및 이미지 파일 형식",
+    "title": "C# .NET 애플리케이션에서 문서에 손쉽게 워터마크 추가",
+    "description": "모든 인기 있는 문서 형식에 사용자 지정 가능한 워터마크를 추가할 수 있는 유연한 문서 워터마킹 API로 C# 솔루션을 강화하세요.",
+    "actions_main": "무료 NuGet 다운로드",
+    "code_title": "C #의 PDF 개 파일에 워터마크 추가",
+    "overview_description": ".NET 을 통해 문서에 워터마크를 넣는 API",
+    "overview_feature_1": {
+      "title": "C# 파일 워터마크",
+      "description": "{{ProdShortName}} 를 사용하여 비즈니스 파일에 워터마크를 추가합니다.텍스트, 이미지, 다이어그램 또는 이메일 첨부 파일을 사용하세요."
+    },
+    "overview_feature_2": {
+      "title": "워터마크를 목표에 맞게 사용자 지정하세요",
+      "description": "{{ProdFullName}} 소프트웨어를 사용하면 다양한 방식으로 워터마크를 사용자 지정할 수 있습니다.굵게, 기울임꼴, 글꼴 유형과 같은 텍스트 스타일과 회전과 같은 이미지 속성 등은 워터마킹 프로세스를 더욱 풍부하게 합니다."
+    },
+    "overview_feature_3": {
+      "title": "널리 사용되는 모든 파일 형식이 지원됩니다.",
+      "description": "{{ProdShortName}} 솔루션은 많은 파일 및 문서 형식을 지원합니다. PDF, Microsoft Office Word, Excel, PowerPoint, JPEG, PNG, BMP, Visio 다이어그램, 이메일 등과 같은 이미지는 워터마크로 보호될 수 있습니다."
+    },
+    "overview_feature_4": {
+      "title": "워터마크 검색 및 업데이트",
+      "description": "문서에 이미 표시된 워터마크를 찾아 다시 처리할 수 있습니다.별도의 노력 없이 텍스트, 스타일, 이미지를 수정하거나 드러난 워터마크를 제거할 수 있습니다."
+    },
+    "features": {
+      "title": "{{ProdShortName}} 개의 특징",
+      "description": "PDF, 오피스, 이미지 및 기타 형식을 워터마크로 보호합니다.",
+      "feature_1": {
+        "title": "문서 워터마킹",
+        "content": "다양한 파일 형식의 특정 섹션 또는 전체 문서에서 워터마크를 추가하거나 제거합니다."
+      },
+      "feature_2": {
+        "title": "워터마크 스타일 지정",
+        "content": "색상, 글꼴, 회전 등과 같은 다양한 워터마크 속성을 사용자 지정합니다."
+      },
+      "feature_3": {
+        "title": "PDF 숨겨진 인쇄 워터마크",
+        "content": "문서를 인쇄할 때만 나타나는 숨겨진 워터마크를 PDF 에 할당합니다."
+      },
+      "feature_4": {
+        "title": "문서 내 이미지만 워터마킹하기",
+        "content": "특정 섹션, 페이지, 슬라이드 또는 문서의 모든 이미지를 워터마킹합니다."
+      },
+      "feature_5": {
+        "title": "선택한 이미지 프레임 처리",
+        "content": "멀티프레임 이미지의 특정 프레임에만 워터마크를 할당합니다."
+      },
+      "feature_6": {
+        "title": "어태치먼트 및 모양",
+        "content": "Excel 문서의 모든 첨부 파일과 슬라이드의 모든 이미지 모양에 워터마크를 설정합니다."
+      },
+      "feature_7": {
+        "title": "PDF 오브젝트",
+        "content": "PDF 문서의 블리드 박스, 아트 박스, 크롭 박스 또는 트림 박스에 워터마크를 정렬합니다."
+      },
+      "feature_8": {
+        "title": "문서 배경",
+        "content": "스프레드시트 또는 슬라이드의 배경 이미지에서 워터마크를 삽입하거나 제거합니다."
+      },
+      "feature_9": {
+        "title": "읽을 수 없는 문자 보호",
+        "content": "프레젠테이션에서 읽을 수 없는 문자를 사용하여 텍스트 워터마크를 보호합니다."
+      },
+      "feature_10": {
+        "title": "문서에서 워터마크 검색",
+        "content": "특정 파라미터를 기반으로 하거나 여러 기준을 결합하여 워터마크를 검색합니다."
+      },
+      "feature_11": {
+        "title": "비슷한 이미지 워터마크 검색",
+        "content": "특정 이미지와 비슷한 이미지 워터마크를 찾아보세요."
+      },
+      "feature_12": {
+        "title": "문서 정보 가져오기",
+        "content": "지원되는 형식에 대한 페이지 설정 및 기타 정보를 프로그래밍 방식으로 추출합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 는 아래 나열된 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}} 는 다음 [파일 형식]({{SupportedFormatsUrl}}) 의 처리를 제공합니다.",
+    "code_samples_description": "일반적인 {{ProdFullName}} 작업의 일부 사용 사례",
+    "code_title_sample_1": "문서에 이미지를 추가하여 워터마킹합니다.",
+    "code_samples_sample_1_content": "모든 문서를 보호하려면 [이미지 워터마크]({{Sample1Url}}) 를 사용할 수 있습니다.",
+    "code_title_sample_2": "기존 워터마크를 검색하고 수정합니다.",
+    "code_samples_sample_2_content": "{{ProdShortName}} 는 문서에 이미 표시된 [워터마크 수정]({{Sample2Url}}) 을 할 수 있습니다.원하는 항목을 검색하고 속성을 업데이트합니다."
+  },
+  "index-content-java": {
+    "head_title": "Java 워터마크 라이브러리 | 문서에 워터마크 추가",
+    "head_description": "PDF, Word, Excel, 프레젠테이션, Visio 다이어그램, 이메일 및 이미지 파일에 텍스트 및 이미지 워터마크를 추가하고 조작하는 네이티브 Java 소프트웨어입니다.",
+    "title": "Java 프로젝트에서 문서 워터마킹을 쉽게 구현하세요.",
+    "description": "GroupDocs.Watermark 라이브러리를 사용하여 파일을 워터마킹하는 기능으로 Java 애플리케이션을 개선하십시오.당사의 API는 널리 사용되는 다양한 파일 형식에 대해 사용자 지정 가능한 워터마크를 제공합니다.",
+    "actions_main": "Maven에서 무료 다운로드",
+    "code_title": "Java 을 통해 PDF 을 (를) 워터마킹합니다.",
+    "overview_description": "Java 기술을 사용하여 워터마크를 추가하도록 설계된 라이브러리",
+    "overview_feature_1": {
+      "title": "Java 을 통한 워터마크 파일",
+      "description": "{{ProdFullName}} 를 사용하여 비즈니스 문서를 보호하십시오.텍스트, 이미지, 다이어그램 또는 이메일 첨부 파일을 다양한 파일 형식에 워터마크로 추가합니다."
+    },
+    "overview_feature_2": {
+      "title": "특정 요구 사항에 맞게 워터마크 사용자 지정",
+      "description": "{{ProdFullName}} 는 워터마크에 대한 광범위한 사용자 지정 옵션을 제공합니다.텍스트 스타일 (굵게, 기울임꼴, 글꼴) 과 이미지 속성 (회전 등) 을 조정하여 특정 목표에 맞게 워터마킹 프로세스를 조정할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "광범위한 포맷 지원",
+      "description": "{{ProdFullName}} 는 PDF, Microsoft Office (Word, Excel, PowerPoint), 이미지 (JPEG, PNG, GIF, BMP), Visio 다이어그램 및 이메일을 비롯한 다양한 파일 형식과 원활하게 통합됩니다.다양한 파일 유형에서 문서 보안을 강화합니다."
+    },
+    "overview_feature_4": {
+      "title": "간편한 워터마크 검색 및 관리",
+      "description": "문서 내 기존 워터마크를 효율적으로 관리합니다.특정 워터마크를 찾거나 텍스트, 스타일 또는 이미지를 수정하거나 완전히 제거합니다. {{ProdFullName}} 는 워터마킹 워크플로를 간소화합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: 특징",
+      "description": "워터마크를 추가하여 파일을 보호하세요.PDF, Office 문서 및 이미지를 비롯한 다양한 형식을 지원합니다.",
+      "feature_1": {
+        "title": "파일 워터마킹",
+        "content": "지원되는 다양한 파일 형식에 대해 특정 섹션 또는 전체 문서에서 워터마크를 추가하거나 제거합니다."
+      },
+      "feature_2": {
+        "title": "워터마크 커스터마이징",
+        "content": "색상, 글꼴, 회전 등과 같은 옵션을 사용하여 워터마크의 모양을 사용자 지정할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "PDF 에 대한 숨겨진 인쇄 워터 마크",
+        "content": "PDF 문서를 인쇄할 때만 나타나는 워터마크를 추가합니다."
+      },
+      "feature_4": {
+        "title": "선택적 이미지 워터마킹",
+        "content": "특정 섹션, 페이지, 슬라이드 또는 전체 문서 내의 모든 이미지에 워터마크를 추가합니다."
+      },
+      "feature_5": {
+        "title": "특정 이미지 프레임에 워터마킹",
+        "content": "다중 프레임 이미지 내의 특정 프레임에 워터마크를 적용합니다."
+      },
+      "feature_6": {
+        "title": "어태치먼트 및 도형에 워터마킹",
+        "content": "Excel 문서의 모든 첨부 파일 또는 프레젠테이션의 모든 이미지 셰이프에 워터마크를 추가합니다."
+      },
+      "feature_7": {
+        "title": "PDF 에서의 워터마크 정렬",
+        "content": "블리드 박스, 아트 박스, 크롭 박스, 트림 박스 등 PDF 문서의 다양한 영역에 워터마크를 정렬합니다."
+      },
+      "feature_8": {
+        "title": "배경 이미지별 워터마크",
+        "content": "스프레드시트 또는 프레젠테이션에 배경 이미지 워터마크를 추가하거나 제거합니다."
+      },
+      "feature_9": {
+        "title": "읽을 수 없는 문자로 보호",
+        "content": "읽을 수 없는 문자가 포함된 텍스트 워터마크를 사용하여 프레젠테이션을 보호합니다."
+      },
+      "feature_10": {
+        "title": "워터마크 검색",
+        "content": "정규 표현식을 비롯한 다양한 파라미터를 사용하여 파일에 표시된 워터마크 목록을 가져옵니다."
+      },
+      "feature_11": {
+        "title": "비슷한 이미지 워터마크 찾기",
+        "content": "특정 이미지처럼 보이는 이미지 워터마크를 찾습니다."
+      },
+      "feature_12": {
+        "title": "문서 정보 추출",
+        "content": "지원되는 파일 형식의 페이지 설정과 같은 다양한 문서 데이터를 가져옵니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 는 다양한 운영 체제와 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}} 를 사용하면 다양한 파일 형식을 처리할 수 있습니다.[전체 목록 보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "일반적인 {{ProdFullName}} 기능을 보여주는 코드 예제 살펴보기",
+    "code_title_sample_1": "이미지를 사용하여 문서에 워터마크 추가",
+    "code_samples_sample_1_content": "{{ProdFullName}} 를 활용하여 이미지 워터마크를 추가하여 문서 보안을 강화하십시오.자세히 알아보기: [이미지 워터마크]({{Sample1Url}}).",
+    "code_title_sample_2": "워터마크 수정",
+    "code_samples_sample_2_content": "{{ProdFullName}} 를 사용하면 문서 내의 기존 워터마크를 관리할 수 있습니다.특정 워터마크를 찾아 [속성 수정]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Node.js 워터마킹 라이브러리 | 문서 워터마크",
+    "head_description": "Node.js 솔루션은 텍스트 및 이미지 워터마크를 사용하여 비즈니스 문서를 보호합니다.PDF, Word, Excel, PowerPoint 와 같은 널리 사용되는 형식이 지원됩니다.",
+    "title": "Java 솔루션을 통해 Node.js 워터마킹 기술을 이용할 수 있습니다.",
+    "description": "이 Node.js 솔루션으로 지적 재산을 보호하고 무단 복사를 방지하십시오.이를 통해 사용자는 PDF, Word, Excel, PowerPoint, 이미지 등 다양한 형식의 비즈니스 문서에 워터마크를 쉽게 추가할 수 있습니다.",
+    "actions_main": "NPM을 사용하여 무료로 다운로드하십시오",
+    "code_title": "타입스크립트로 PDF 에 워터마크 추가",
+    "overview_description": "워터마킹을 위한 Node.js 타입스크립트 라이브러리",
+    "overview_feature_1": {
+      "title": "Node.js 파일 워터마킹",
+      "description": "{{ProdFullName}} 를 사용하여 비즈니스 문서를 보호하십시오.텍스트, 이미지, 다이어그램 또는 이메일 첨부 파일을 다양한 파일 형식에 워터마크로 추가합니다."
+    },
+    "overview_feature_2": {
+      "title": "필요에 맞게 워터마크를 사용자 지정하세요",
+      "description": "{{ProdFullName}} 는 워터마크에 대한 광범위한 사용자 지정 옵션을 제공합니다.텍스트 스타일 (굵게, 기울임꼴, 글꼴) 과 이미지 속성 (회전 등) 을 세밀하게 조정하여 문서 처리를 사용자 지정할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "포괄적인 포맷 지원",
+      "description": "{{ProdFullName}} 는 PDF, Word, Excel, PowerPoint, JPEG, PNG, GIF 다이어그램, Visio 등의 이미지, 이메일 등 다양한 파일 형식과 원활하게 통합됩니다. 문서 처리를 강화하여 비즈니스 목표를 달성할 수 있습니다."
+    },
+    "overview_feature_4": {
+      "title": "강력한 워터마크 검색 및 업데이트",
+      "description": "워터마크가 있는 문서의 기존 워터마크를 가져오고 업데이트합니다.텍스트, 스타일, 이미지 내용을 수정하거나 완전히 제거합니다. {{ProdFullName}} 는 광범위한 워터마크 처리 기능을 제공합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: 기능 세트",
+      "description": "프로그래밍 방식의 워터마킹을 통해 강력한 문서 보안을 강화합니다.PDF, DOCX, XLSX, PPTX 및 이미지 형식 (PNG, JPG 등) 을 비롯한 다양한 파일 형식을 지원합니다.",
+      "feature_1": {
+        "title": "정밀한 워터마킹 제어",
+        "content": "다양한 파일 형식의 특정 섹션, 전체 문서 또는 개별 첨부 파일 및 모양에서 워터마크를 추가하거나 제거하여 워터마크를 정밀하게 조작할 수 있습니다."
+      },
+      "feature_2": {
+        "title": "워터마크 모양 사용자 지정",
+        "content": "문서 내에서 색상, 글꼴, 불투명도, 회전 및 위치와 같은 속성을 수정하여 워터마크의 미학을 세밀하게 제어할 수 있습니다."
+      },
+      "feature_3": {
+        "title": "PDF 워터마킹 인쇄",
+        "content": "일반 문서를 볼 때는 보이지 않지만 인쇄 프로세스 중에만 눈에 띄는 스텔스 워터마크를 배치하여 문서 보안을 신중하게 강화합니다."
+      },
+      "feature_4": {
+        "title": "특정 이미지 워터마킹",
+        "content": "솔루션을 사용하여 문서 내의 특정 이미지에 워터마크를 추가하세요.워터마크를 지정된 섹션 (예: 페이지, 슬라이드) 에 삽입하거나 전체 문서에 삽입할 수 있습니다."
+      },
+      "feature_5": {
+        "title": "멀티프레임 이미지 워터마킹",
+        "content": "멀티프레임 이미지 형식 내의 특정 프레임에 워터마크를 선택적으로 적용하여 워터마크 배치를 세밀하게 제어할 수 있습니다."
+      },
+      "feature_6": {
+        "title": "포괄적인 콘텐츠 보호",
+        "content": "Excel 문서 내의 첨부 파일 및 프레젠테이션 내 이미지 셰이프와 같은 다양한 문서 요소로 보호를 확장하여 추가 보안 계층을 제공합니다."
+      },
+      "feature_7": {
+        "title": "PDF 의 고급 워터마킹",
+        "content": "블리드 박스, 아트 박스, 크롭 박스, 트림 박스 등 PDF 의 다양한 영역에 워터마크를 표시합니다."
+      },
+      "feature_8": {
+        "title": "배경 이미지 워터마킹",
+        "content": "스프레드시트 및 프레젠테이션의 배경 이미지 내에서 워터마크를 관리하여 시각적 보안 조치를 위한 추가 사용자 지정 옵션을 제공합니다."
+      },
+      "feature_9": {
+        "title": "읽을 수 없는 문자가 있는 텍스트 워터마크",
+        "content": "프레젠테이션에 포함된 텍스트 워터마크에 읽을 수 없는 문자를 사용하여 무단 워터마크 추출을 훨씬 더 어렵게 만들어 보안을 강화합니다."
+      },
+      "feature_10": {
+        "title": "고급 워터마크 검색",
+        "content": "포괄적인 검색 기능을 활용하여 특정 매개 변수를 기반으로 하거나 다양한 기준을 결합하여 문서 내에서 워터마크를 찾을 수 있으므로 효율적인 검색 및 관리가 가능합니다."
+      },
+      "feature_11": {
+        "title": "유사 이미지 워터마크 감지",
+        "content": "소스 이미지와 시각적으로 유사한 유사한 워터마크 이미지를 문서 내에서 찾을 수 있습니다."
+      },
+      "feature_12": {
+        "title": "프로그래밍 방식의 문서 정보 추출",
+        "content": "지원되는 파일 형식에 대한 페이지 설정 세부 정보 및 기타 문서 정보를 포함하여 중요한 메타데이터를 프로그래밍 방식으로 추출합니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 는 다양한 운영 체제 및 패키지 관리자와 쉽게 통합됩니다.",
+    "formats_description": "{{ProdFullName}} 를 사용하면 다양한 파일 형식을 처리할 수 있습니다.[전체 목록 보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "일반적인 {{ProdFullName}} 기능을 보여주는 코드 예제를 자세히 살펴보세요.",
+    "code_title_sample_1": "문서에 이미지 워터마크 추가",
+    "code_samples_sample_1_content": "{{ProdFullName}} 를 활용하여 이미지 워터마크를 추가하여 문서 보안을 강화하십시오.자세히 알아보기: [이미지 워터마크]({{Sample1Url}}).",
+    "code_title_sample_2": "기존 워터마크 검색 및 수정",
+    "code_samples_sample_2_content": "{{ProdFullName}} 를 사용하면 문서 워터마크를 관리할 수 있습니다.워터마크를 선택하고 속성을 수정하세요.방법 알아보기: [워터마크 수정]({{Sample2Url}})."
+  }
+}

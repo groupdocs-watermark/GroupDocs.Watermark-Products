@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 문서에서 이미지 워터마크 검색",
+    "comment_2": "워터마커 전달 {{FileFormatUp}} 문서 작성",
+    "comment_3": "이미지 해시로 워터마크 검색",
+    "comment_4": "검색된 워터마크 처리"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} {{EnvName}} 을 통한 워터마크 검색",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 단순화합니다.{{EnvName}} 애플리케이션에 패키지를 설치하여 이점을 활용하십시오.",
+      "step_1": "**Watermarker** 클래스의 인스턴스에 로드하십시오.파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.",
+      "step_2": "**SearchCriteria** 객체를 활용하십시오.예를 들어 비슷한 이미지 워터마크를 검색할 수 있는 이미지를 제공하십시오.텍스트 워터마크를 검색하는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하십시오.",
+      "step_3": "**Watermarker** 객체의 **Search** 메서드를 사용하여 문서 내에 있는 워터마크를 검색합니다.향후 처리를 위해 잠재적 워터마크를 나타내는 객체 컬렉션을 받게 됩니다.",
+      "step_4": "마지막으로 필요에 따라 검색 결과를 자유롭게 조작할 수 있습니다.찾은 워터마크를 삭제하거나 크기 또는 텍스트 변경과 같은 워터마크의 속성을 편집할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}} API를 사용하여 문서 내 워터마크 검색 최적화",
+    "description": "{{EnvName}} 환경에서 강력한 {{ProdShortName}} API로 Java 을 사용하여 모든 문서의 워터마크 검색 기술을 마스터하세요.",
+    "image_description": "Java 워터마크 검색",
+    "feature_1": {
+      "title": "Java 강력한 워터마크 검색을 위한 도구",
+      "content": "{{ProdShortName}} 를 통해 Java 의 문서 처리 기능을 향상시키십시오.API는 여러 매개변수를 기반으로 워터마크를 검색하고 식별할 수 있는 광범위한 도구를 제공합니다."
+    },
+    "feature_2": {
+      "title": "Java 을 통한 정확한 워터마크 검색",
+      "content": "Java 에서 특정 워터마크를 정밀하게 타겟팅합니다.크기, 날짜, 콘텐츠 등의 특성별로 필터링하도록 검색을 구성하여 필요한 정보를 정확히 찾을 수 있습니다."
+    },
+    "feature_3": {
+      "title": "포괄적인 워터마크 분석",
+      "content": "Java 을 활용하여 발견된 워터마크를 철저히 분석하십시오.{{ProdShortName}} 를 사용하여 워터마크를 효과적으로 평가 및 관리하여 문서의 보안 및 규정 준수 조치를 강화하십시오."
+    },
+    "code_1": {
+      "title": "Java 예: 동적 워터마크 검색",
+      "content": "이 예제에서는 Java 과 {{ProdShortName}} 를 함께 사용하여 문서에서 워터마크를 동적으로 검색하는 방법을 보여 주며 프로그래밍 방식으로 검색 결과를 처리하는 방법을 보여줍니다.",
+      "comment_1": "Java 환경 초기화 및 문서 로드 준비",
+      "comment_2": "동적 사용자 정의 기준에 따라 검색 필터 구성",
+      "comment_3": "Java API를 사용하여 워터마크 검색을 실행합니다.",
+      "comment_4": "검색 결과 처리 및 처리, 추가 조치 준비 또는 보고"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 검색: 게임 체인저 살펴보기",
+      "description": "다양한 문서 유형의 워터마크 관리를 위한 G {{ProdFullName}} 고급 검색 기능의 판도를 바꿀 수 있는 잠재력을 알아보세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 워터마크 검색으로 효율성 극대화",
+      "description": "{{ProdFullName}} 혁신적인 워터마크 검색 기능으로 워크플로우 효율성을 최적화하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 무료"
+    },
+    "about": {
+      "title": "정보 가져오기 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 강력한 솔루션을 제공합니다.개발자는 자주 사용되는 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서 유형에서 텍스트 및 이미지 워터마크를 모두 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 강화",
+      "description": "{{ProdFullName}} 고급 기능을 사용하여 다양한 파일 형식에서 워터마크를 검색하고 관리할 수 있습니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 검색의 잠재력 파헤치기",
+      "description": "{{ProdFullName}} 개의 강력한 검색 기능이 다양한 문서 형식에서 워터마크 관리를 어떻게 혁신하는지 알아보십시오."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 워터마크 검색 기능 잠금 해제",
+      "description": "{{ProdFullName}} 검색 기능의 잠재력을 최대한 활용하여 워터마크 관리 프로세스를 간소화하십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 정보",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 포괄적인 솔루션을 제공합니다.개발자는 다양한 파일 형식의 문서에서 워터마크를 원활하게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 광범위한 문서 유형에 걸쳐 텍스트 및 이미지 워터마크를 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 호환됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우를 혁신하세요",
+      "description": "{{ProdFullName}} 고급 검색 기능을 활용하여 다양한 파일 형식의 워터마크를 관리하여 워크플로우를 혁신하세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "워터마크 검색으로 {{FileFormatUp}} 처리 능력 강화",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 문서 형식에서 워터마크를 효율적으로 검색하고 관리할 수 있습니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 워터마크 검색으로 생산성 향상",
+      "description": "{{FileFormatUp}} 워터마크 관리를 위한 {{ProdFullName}} 개의 강력한 검색 기능을 활용하여 생산성을 향상시키십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 가져오기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 강력한 솔루션을 제공합니다.개발자는 자주 사용되는 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서 유형에서 텍스트 및 이미지 워터마크를 모두 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 간소화",
+      "description": "다양한 파일 형식의 워터마크를 관리할 수 있는 {{ProdFullName}} 고급 검색 기능으로 워크플로우를 간소화합니다."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 검색으로 워크플로우 향상",
+      "description": "다양한 파일 형식의 워터마크를 관리할 수 있는 강력한 검색 기능 {{ProdFullName}} 으로 문서 관리 워크플로우를 개선하십시오."
+    },
+    "header": {
+      "title": "디스커버 어드밴스드 {{FileFormatUp}} 프레젠테이션 워터마크 검색",
+      "description": "워터마크 관리 프로세스를 간소화하는 {{ProdFullName}} 검색 기능의 고급 기능에 대해 알아보십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 다운로드"
+    },
+    "about": {
+      "title": "기본 {{ProdFullName}} 정보",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 포괄적인 솔루션을 제공합니다.개발자는 다양한 파일 형식의 문서에서 워터마크를 원활하게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 광범위한 문서 유형에 걸쳐 텍스트 및 이미지 워터마크를 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 호환됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 최적화",
+      "description": "다양한 파일 형식에서 워터마크를 관리할 수 있는 {{ProdFullName}} 고급 검색 기능으로 워크플로우를 최적화하세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 검색의 힘을 발견하세요",
+      "description": "다양한 문서 형식에서 워터마크를 효율적으로 관리할 수 있는 {{ProdFullName}} 개의 고급 검색 기능을 확인해 보십시오."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 프레젠테이션 워터마크 검색 기능 잠금 해제",
+      "description": "{{ProdFullName}} 검색 기능의 잠재력을 최대한 활용하여 워터마크 관리 프로세스를 간소화하십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 강력한 솔루션을 제공합니다.개발자는 자주 사용되는 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서 유형에서 텍스트 및 이미지 워터마크를 모두 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 강화",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 문서 형식에서 워터마크를 효율적으로 검색하고 관리할 수 있습니다."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서 검색 워터마크 검색",
+      "description": "다양한 문서 유형에서 효과적인 워터마크 관리를 위한 {{ProdFullName}} 의 강력한 검색 기능의 본질을 알아보십시오."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 워터마크 검색 프로세스 강화",
+      "description": "{{ProdFullName}} 검색 기능의 잠재력을 최대한 활용하여 워터마크 관리 프로세스를 간소화하십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 무료"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해 더 알아보기",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 강력한 솔루션을 제공합니다.개발자는 자주 사용되는 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서 유형에서 텍스트 및 이미지 워터마크를 모두 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 강화",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 문서 형식에서 워터마크를 효율적으로 검색하고 관리할 수 있습니다."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} 스프레드시트의 워터마크 검색 기능 강화",
+      "description": "다양한 파일 형식에서 효율적인 워터마크 관리를 위한 {{ProdFullName}} 고급 검색을 통해 문서 관리 워크플로우를 강화하십시오."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 스프레드시트에서 고급 워터마크 검색에 대해 알아보기",
+      "description": "워터마크 관리 프로세스를 간소화하는 {{ProdFullName}} 검색 기능의 고급 기능에 대해 알아보십시오.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "정보 가져오기 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 강력한 솔루션을 제공합니다.개발자는 자주 사용되는 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서 유형에서 텍스트 및 이미지 워터마크를 모두 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 최적화",
+      "description": "다양한 파일 형식에서 워터마크를 관리할 수 있는 {{ProdFullName}} 고급 검색 기능으로 워크플로우를 최적화하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 검색을 통한 스프레드시트 처리",
+      "description": "{{ProdFullName}} 고급 검색 기능을 활용하여 다양한 문서 형식에서 워터마크를 관리하여 효율성을 극대화합니다."
+    },
+    "header": {
+      "title": "워터마크의 힘을 활용하세요. {{FileFormatUp}} 스프레드시트에서 검색하세요",
+      "description": "{{ProdFullName}} 검색 기능의 잠재력을 최대한 활용하여 워터마크 관리 프로세스를 혁신하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 에서 가져오기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 정보",
+      "content": "{{ProdFullName}} 는 {{EnvName}} 을 사용한 워터마크 관리를 위한 혁신적인 솔루션입니다.개발자는 다양한 파일 형식의 문서에서 워터마크를 손쉽게 생성, 편집, 검색 및 제거할 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 광범위한 문서 유형에 걸쳐 텍스트 및 이미지 워터마크를 지원합니다. {{ProdFullName}} 는 모든 주요 운영 체제 및 {{EnvName}} 버전과 원활하게 통합됩니다."
+    },
+    "formats": {
+      "title": "워터마크 검색으로 워크플로우 개선",
+      "description": "다양한 파일 형식의 워터마크를 관리할 수 있는 강력한 검색 기능 {{ProdFullName}} 으로 문서 관리 워크플로우를 개선하십시오."
+    }
+  }
+}

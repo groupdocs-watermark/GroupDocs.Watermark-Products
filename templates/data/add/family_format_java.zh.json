@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "向 {{FileFormatUp}} 添加文字水印",
+    "comment_2": "将要添加水印的文件传递给 Watermarker",
+    "comment_3": "创建文本水印并设置属性",
+    "comment_4": "保存带水印的文件"
+  },
+  "steps": {
+    "title": "通过 {{EnvName}} 向 {{FileformatCap}} 文档添加水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 使 {{EnvName}} 开发人员可以轻松地向流行的商业文件格式添加各种类型的水印。只需几个简单步骤，即可将我们的库添加到您的应用程序和水印文档中，如下所列。",
+      "step_1": "**水印**。在处理文档之前，你需要对其进行实例化。不要忘记将 {{FileformatCap}} 文件作为路径或流对象传递给构造函数。",
+      "step_2": "**水印**对象。它不仅可以放在特定的文档页面上，还可以放在附件或标题等本地文档部分中。",
+      "step_3": "设置水印属性，例如高度和宽度、页面对齐方式（上、左、中等）、字体系列和颜色等。",
+      "step_4": "**Watermarker** 方法添加新水印。您可以根据需要添加任意数量的水印。建议将处理过的文档保存到其他位置。"
+    }
+  },
+  "more_features": {
+    "title": "轻松增强您的水印",
+    "description": "利用 GroupDocs.Watermark 的强大功能生成、撰写和添加多种文档格式的水印。该API不仅可以增强文档安全性，还可以通过嵌入功能强大且可自定义的水印来保护您的知识产权。",
+    "image_description": "添加水印",
+    "feature_1": {
+      "title": "多功能水印选项。",
+      "content": "使用 GroupDocs.Watermark 探索各种水印选项。从调整不透明度和旋转角度到按比例缩放大小，我们的 API 可让您精确地根据需要自定义水印，确保水印与您的文档无缝融合，同时保持内容的完整性。"
+    },
+    "feature_2": {
+      "title": "高级水印样式。",
+      "content": "GroupDocs.Watermark 允许您使用各种字体、颜色和阴影来设置水印样式，使其与众不同且更难移除。使用反映您品牌形象和专业精神的时尚水印增强受保护文档和图像的美学吸引力。"
+    },
+    "feature_3": {
+      "title": "水印拼贴和定位",
+      "content": "使用 GroupDocs.Watermark，实现平铺效果以覆盖整个文档，确保全面保护。将水印精确放置在您需要的位置，例如中心、角落或自定义位置。我们灵活的定位选项有助于保护您的文件免遭未经授权的使用和复制。"
+    },
+    "code_1": {
+      "title": "PDF 注释水印",
+      "content": "此示例说明如何向 PDF 文档添加水印注释",
+      "comment_1": "将文档加载为 PDF",
+      "comment_2": "基于 PDF 注解创建水印",
+      "comment_3": "设置水印选项",
+      "comment_4": "在结果文档中添加文本水印"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "在 {{FileformatCap}} 电子表格中为 Java 生成水印",
+      "description": "使用 Java 轻松在 {{FileformatCap}} 中生成文本和图像水印，以保护您的 {{FileformatCap}} 数据电子表格"
+    },
+    "header": {
+      "title": "使用 Java 代码自动化 {{FileformatCap}} 个水印",
+      "description": "使用 Java 在 {{FileformatCap}} 电子表格中实现自定义文本或图像水印。本指南提供了针对各种专业需求量身定制的增强文档安全性和品牌的分步说明。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 在 {{FileformatCap}} 电子表格中提供全面的水印管理，使开发人员能够轻松生成、调整和清除水印。它支持所有流行的 Excel 文件格式，允许嵌入文本和图像水印，这些水印可以在字体、颜色、大小和位置上进行自定义。GroupDocs.Watermark 还包括水印搜索功能，可确保您的水印完好无损且防篡改。非常适合需要在 Java 环境中增强文档安全性的应用程序。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} {{FileformatCap}} 水印技术",
+      "description": "使用 GroupDocs.Watermark for Java，可以轻松地将基于文本或图像的水印应用于 {{FileformatCap}} 个电子表格，从而在业务工作流程中显著提高文档安全性和品牌知名度。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 Java 为 {{FileformatCap}} 撰写量身定制的水印",
+      "description": "使用 Java 在 {{FileformatCap}} 文档中集成自定义水印。增强安全性并增添专业风格。"
+    },
+    "header": {
+      "title": "在 {{FileformatCap}} 个文档中创建自定义水印",
+      "description": "通过嵌入量身定制的文本或图像水印，使用 Java 保护您的 {{FileformatCap}} 个文件。该资源非常适合那些需要以最少的努力增强文档安全性和视觉吸引力的人。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 支持在 {{FileformatCap}} 文档中精确、灵活地创建水印。此工具允许 Java 开发人员添加根据您的特定品牌需求量身定制的自定义水印，其中可以包括文本、图像或徽标。它支持所有主要 Word 文档格式，为编辑和删除水印以及搜索文档以验证水印完整性提供了全面的功能。此 API 与所有 Java 支持的操作系统兼容，非常适合希望加强其文档安全协议的企业。"
+    },
+    "formats": {
+      "title": "使用生成 {{ProgLang}} 水印对您的 MS {{FileformatCap}} 文件进行个性化设置。",
+      "description": "{{ProdFullName}} 允许开发人员轻松地将定制的文本或图像水印插入到 {{FileformatCap}} 文档中。这些增强功能不仅提高了文档安全性，而且还通过专业的触感丰富了业务通信。"
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "使用 Java 为图像生成有效的水印",
+      "description": "使用 Java 为图像创建复杂的水印。保护您的文档并有效维护版权。"
+    },
+    "header": {
+      "title": "在 Java 中无缝添加图像水印",
+      "description": "使用 Java 在图像文件中实现动态水印。该工具允许进行精确定位、可扩展性和透明度调整，以增强安全性和品牌知名度。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java 使开发人员能够有效地生成和管理图像文件上的水印。由于支持多种图像格式，用户可以实现文本和图形水印，这些水印的位置、比例和透明度均可完全自定义。此功能对于数字媒体、广告和在线内容分发领域的应用至关重要，在这些应用中，品牌和版权完整性至关重要。此外，GroupDocs.Watermark 还包括搜索和删除现有水印的功能，为图像管理和安全提供了多功能工具。"
+    },
+    "formats": {
+      "title": "在 {{ProgLang}} 中使用水印简化安全图像",
+      "description": "我们的 Java 工具包支持为任何图像格式生成个性化水印，从而增强安全性和品牌推广。量身定制的水印可确保您的视觉效果在各种媒体上得到识别和保护。"
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "在 Java 中轻松快速添加照片水印",
+      "description": "使用水印简化照片保护。快速可靠。"
+    },
+    "header": {
+      "title": "高效的 Java 照片水印工具",
+      "description": "使用我们的 Java API 快速高效地为照片添加水印。非常适合保护数字图像并以最少的努力提高品牌知名度。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 针对快速有效地为照片文件添加水印进行了优化。该工具可以将文本和图像水印快速集成到各种照片格式中，包括 JPEG、PNG 和 BMP。使用丰富的样式、透明度和位置选项自定义水印，确保它们在不影响照片质量的情况下无缝融合。它适用于大批量操作，支持批量处理，可同时对多张照片应用水印，非常适合需要高效保护和标记其视觉资产的企业和数字内容创作者"
+    },
+    "formats": {
+      "title": "通过 {{ProgLang}} 快速集成照片水印",
+      "description": "利用我们的 Java API 快速为照片添加水印，增强安全性和品牌标识。自动化流程允许大规模应用，确保一致和专业的结果。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "为演示文稿创建高级水印",
+      "description": "使用 Java 中的高级水印功能增强您的演示文稿。"
+    },
+    "header": {
+      "title": "高级演示水印技术",
+      "description": "使用我们的 Java 工具包在演示文稿中实施复杂的水印策略。自定义水印以增强安全性和专业美感。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 旨在支持演示文稿的高级水印功能。它允许用户将自定义的文本和图像水印轻松集成到任何演示格式中。功能包括复杂的水印样式、大型文件集的自动批处理以及水印管理工具，例如修改和删除。这个 Java 库可确保您的演示文稿不仅免受抄袭，而且还具有与您的组织品牌相一致的专业外观。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 中的高级水印增强演示文稿安全性",
+      "description": "将高级水印无缝整合到您的演示文稿中，以保护和增强您的材料。我们的 Java API 允许进行详细的定制和自动处理，非常适合在保护信息的同时保持专业外观。"
+    }
+  }
+}

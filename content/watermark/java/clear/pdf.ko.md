@@ -1,0 +1,236 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:39:02
+draft: false
+lang: ko
+format: Pdf
+product: "Watermark"
+product_tag: "watermark"
+platform: "Java"
+platform_tag: "java"
+
+############################# Head ############################
+head_title: "Java 문서에서 워터마크를 지우는 데 사용되는 Java API"
+head_description: "Java API로 워터마크를 효율적으로 제거하여 깔끔하고 전문적인 문서를 만들어 PDF 의 성능을 향상시키십시오."
+
+############################# Header ############################
+title: "Java PDF 워터마크 제거" 
+description: "GroupDocs.Watermark for Java API를 배포하여 PDF 파일에서 워터마크를 효과적으로 제거하여 중요한 문서에 대한 문서 무결성과 명확성을 보장합니다."
+subtitle: "GroupDocs.Watermark for Java API" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Maven 다운로드"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Watermark for Java 라이브러리"
+    link: "/watermark/java/"
+    link_title: "자세히 알아보기"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       GroupDocs.Watermark for Java 라이브러리는 개발자에게 PDF 문서에서 워터마크를 원활하게 편집하거나 삭제할 수 있는 정교한 도구를 제공합니다.법률 문서, 비즈니스 계약서 또는 학술 논문을 처리하든 이 도구를 사용하면 PDF 이 (가) 원래 레이아웃과 형식을 유지하면서 깔끔하고 변경되지 않은 상태로 유지됩니다.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Java 을 사용하여 Pdf 문서에서 워터마크 지우기"
+    content: |
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 Java 애플리케이션 내의 비즈니스 문서에서 워터마크를 지우는 프로세스를 간소화합니다.라이브러리를 통합하고 다음 단계를 따르세요.
+      
+      1. **워터마커** 클래스를 초기화합니다.API는 문서를 처리를 위한 스트림 또는 로컬 파일 경로로 받아들입니다.
+      2. **SearchCriteria** 개체를 활용하여 지울 워터마크 세트를 수정하십시오.이미지를 텍스트 또는 서식 속성과 함께 검색 매개변수로 활용할 수 있습니다.검색 기준이 구체적일수록 더 정확한 결과를 얻을 수 있습니다.
+      3. 검색 후에는 식별된 워터마크 목록을 받게 됩니다.계속해서 문서에서 이러한 워터마크를 지우세요.
+      4. 워터마크가 지워지면 로컬 파일 경로 또는 스트림 객체를 사용하여 최종 문서를 저장합니다.
+   
+    code:
+      platform: "net"
+      copy_title: "복사"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-watermark</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
+
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "클릭하여 복사"
+        copy_done: "복사"
+      links:
+        #  loop
+        - title: "더 많은 예시"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/"
+        #  loop
+        - title: "문서화"
+          link: "https://docs.groupdocs.com/watermark/java/"
+          
+      content: |
+        ```java {style=abap}
+        // 클리어 이미지 워터마크 PDF 문서
+
+        // PDF 문서 경로를 워터마커 생성자에 전달
+        Watermarker watermarker = new Watermarker("input.pdf");
+        
+        // 워터마크를 삭제하여 문서 지우기
+        PossibleWatermarkCollection possibleWatermarks = watermarker.search();
+        possibleWatermarks.removeAt(0);
+
+        // 삭제한 파일 저장
+        watermarker.save("output.pdf");
+        
+        ```        
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "워터마크 제거를 위한 Java API로 문서 최적화"
+  description: "워터마크 제거 기능을 Java 애플리케이션에 완벽하게 통합하여 문서 명확성을 향상시키십시오.Java API는 PDF 및 Office 문서와 같은 다양한 문서 유형에서 워터마크를 제거하여 문서를 깔끔하게 표시할 수 있도록 지원합니다."
+  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image_description: "워터마크 제거"
+  features:
+    # feature loop
+    - title: "Java 기반 워터마크 제거"
+      content: "워터마크를 정확하게 제거하는 기능으로 Java 애플리케이션의 역량을 강화하십시오.공식 문서이든 민감한 콘텐츠이든 관계없이 문서의 무결성과 명확성을 손쉽게 유지할 수 있습니다."
+
+    # feature loop
+    - title: "Java 에서의 효율적인 대량 삭제"
+      content: "Java API를 사용하여 여러 문서에서 워터마크 제거 프로세스를 간소화합니다.이 기능은 대용량 파일을 처리하는 기업에 특히 유용하여 생산성과 문서 보안을 향상시킵니다."
+
+    # feature loop
+    - title: "고급 워터마크 편집 및 제거"
+      content: "Java API는 워터마크를 제거할 뿐만 아니라 워터마크 요소를 미세 조정하거나 완전히 지울 수 있는 고급 편집 옵션도 제공합니다.정확하고 유연하게 정확한 비즈니스 사양에 맞게 문서를 조정하세요."
+      
+  code_samples:
+    # code sample loop
+    - title: "셰이프 워터마크 DOCX 지우기"
+      content: |
+        이 예제에서는 특정 모양의 Word 문서를 지우는 방법을 보여줍니다.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Word 문서 불러오기
+        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
+        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+
+        WordProcessingContent content = watermarker.getContent(WordProcessingContent.class);
+
+        //  인덱스별 모양 제거
+        content.getSections().get_Item(0).getShapes().removeAt(0);
+
+        //  참조로 모양 제거
+        content.getSections().get_Item(0).getShapes().
+            remove(content.getSections().get_Item(0).getShapes().get_Item(0));
+
+        //  DOCX 을 (를) 저장하세요
+        watermarker.save("result.docx");
+        watermarker.close();
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "시작할 준비가 되셨나요?"
+  description: "GroupDocs.Watermark 기능을 무료로 체험하거나 라이선스를 요청하세요"
+  items:
+    #  loop
+    - title: "Maven 다운로드"
+      link: "https://releases.groupdocs.com/watermark/java/"
+      color: "red"
+        #  loop
+    - title: "라이선싱"
+      link: "https://purchase.groupdocs.com/pricing/watermark/java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Java 을 사용하여 PDF 개의 문서를 최적화하기"
+    exclude: "PDF"
+    description: "GroupDocs.Watermark for Java API를 활용하여 PDF 문서의 포괄적인 워터마크 관리를 통해 보안과 미관을 모두 향상시키는 방법을 알아보십시오."
+    items: 
+        # format loop 1
+        - name: "워터마크 PDF"
+          format: "PDF"
+          link: "/watermark/java/clear//pdf/"
+          description: "어도비 Portable 문서 형식"
+
+        # format loop 2
+        - name: "워터마크 Word"
+          format: "WORD"
+          link: "/watermark/java/clear//word/"
+          description: "MS Word 및 오픈 오피스 문서"
+          
+        # format loop 3
+        - name: "워터마크 Excel"
+          format: "EXCEL"
+          link: "/watermark/java/clear//excel/"
+          description: "MS Excel 및 오픈 오피스 스프레드시트"
+
+        # format loop 4
+        - name: "워터마크 PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/java/clear//powerpoint/"
+          description: "MS PowerPoint 및 오픈 오피스 프레젠테이션"
+
+        # format loop 5
+        - name: "워터마크 DOCX"
+          format: "DOCX"
+          link: "/watermark/java/clear//docx/"
+          description: "마이크로소프트 Word 오픈 XML 문서"
+          
+        # format loop 6
+        - name: "워터마크 PPTX"
+          format: "PPTX"
+          link: "/watermark/java/clear//pptx/"
+          description: "PowerPoint 오픈 XML 프레젠테이션"
+          
+        # format loop 7
+        - name: "워터마크 XLSX"
+          format: "XLSX"
+          link: "/watermark/java/clear//xlsx/"
+          description: "마이크로소프트 Excel 오픈 XML 스프레드시트"
+
+        # format loop 8
+        - name: "워터마크 DOC"
+          format: "DOC"
+          link: "/watermark/java/clear//doc/"
+          description: "마이크로소프트 Word 97 - 2007 문서"
+
+        # format loop 9
+        - name: "워터마크 XLS"
+          format: "XLS"
+          link: "/watermark/java/clear//xls/"
+          description: "마이크로소프트 Excel 워크북 97-2003"
+
+        # format loop 10
+        - name: "워터마크 PPT"
+          format: "PPT"
+          link: "/watermark/java/clear//ppt/"
+          description: "PowerPoint 프레젠테이션 97-2003"
+
+        # format loop 11
+        - name: "워터마크 RTF"
+          format: "RTF"
+          link: "/watermark/java/clear//rtf/"
+          description: "리치 텍스트 포맷"
+
+---

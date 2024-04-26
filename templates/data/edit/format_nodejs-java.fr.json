@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Mettre à jour le filigrane de l'image {{FileFormatUp}}",
+    "comment_2": "Composer un filigrane pour le fichier {{FileFormatUp}}",
+    "comment_3": "Utilisez les critères de recherche pour trouver une image en particulier",
+    "comment_4": "Mettre à jour le contenu des images",
+    "comment_5": "Enregistrer le fichier mis à jour"
+  },
+  "steps": {
+    "title": "Modification dynamique du filigrane pour {{FileFormatUp}} dans {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offre à {{EnvName}} développeurs une API puissante pour modifier les filigranes sur divers {{FileFormatUp}} documents. Voici un guide complet pour rationaliser votre flux de travail :",
+      "step_1": "**Démarrez le processus :** Commencez par fournir votre fichier {{FileFormatUp}} comme argument au constructeur de classe **Watermarker**. Selon vos besoins, le fichier peut provenir soit d'un flux, soit d'un emplacement de disque local.",
+      "step_2": "**Localiser les filigranes :** Utilisez l'objet **SearchCriteria** pour identifier les filigranes à modifier. Cet outil polyvalent permet une sélection ciblée des filigranes en fonction de propriétés spécifiques.",
+      "step_3": "**Affiner avec précision :** Une fois la recherche exécutée avec succès, accédez à une collection de filigranes pertinents. Bénéficiez d'un contrôle granulaire sur chaque élément, avec la possibilité de mettre à jour les dimensions, le positionnement des pages, le contenu du texte, la couleur, les données d'image, etc.",
+      "step_4": "**Persistance fluide :** Une fois les mises à jour des filigranes terminées, stockez le document modifié en toute sécurité. L'API propose des options de stockage flexibles, vous permettant d'enregistrer dans un chemin de fichier local ou en tant qu'objet de flux."
+    }
+  },
+  "more_features": {
+    "title": "En savoir plus sur l'ajout d'un filigrane",
+    "description": "API pour le rendu, l'affichage et la conversion de documents, de diapositives, de diagrammes et de nombreux autres types de documents dans .NET applications",
+    "image_description": "Ajouter un filigrane",
+    "feature_1": {
+      "title": "Modifiez sans effort les filigranes en PDF s",
+      "content": "{{ProdShortName}} propose des outils robustes dans {{EnvName}} pour modifier facilement les filigranes existants dans PDF documents. Ajustez facilement la position, la transparence et bien plus encore."
+    },
+    "feature_2": {
+      "title": "Affinez les détails du filigrane pour plus de précision",
+      "content": "Prenez le contrôle des détails. Notre API vous permet d'affiner l'apparence des filigranes, ce qui permet de modifier avec précision la taille, l'opacité et la couleur de vos PDF s."
+    },
+    "feature_3": {
+      "title": "Gestion rationalisée des filigranes",
+      "content": "Notre API simplifie la gestion des filigranes. Qu'il s'agisse de les mettre à jour ou de les supprimer, vous pouvez gérer les filigranes de manière efficace, en préservant l'intégrité des documents tout en répondant à vos besoins en matière de marque."
+    },
+    "code_1": {
+      "title": "Mettre à jour le contenu du filigrane de présentation",
+      "content": "Cet exemple montre comment mettre à jour le contenu textuel des filigranes de présentation.",
+      "comment_1": "Chargez le document PDF pour traitement",
+      "comment_2": "Recherchez des filigranes spécifiques qui répondent à vos critères",
+      "comment_3": "Modifier les paramètres du filigrane, tels que la taille, la couleur et la position",
+      "comment_4": "Enregistrez le document mis à jour sur un système local ou diffusez-le directement"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Simplifier la mise à jour des filigranes {{FileFormatUp}}",
+      "description": "Simplifiez le processus de mise à jour des filigranes dans {{FileFormatUp}} documents par la bibliothèque {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Mise à jour efficace des filigranes pour les documents {{FileFormatUp}}",
+      "description": "Simplifiez et accélérez la mise à jour des filigranes avec {{ProdFullName}}. Assurez la sécurité de vos fichiers d'entreprise grâce à une gamme de filigranes. Modifiez sans effort les propriétés du filigrane telles que la taille, l'alignement, l'angle de rotation et le placement.",
+      "subtitle": "{{ProdFullName}} Solution",
+      "action_title": "Télécharger depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} fonctionnalités",
+      "content": "{{ProdFullName}} propose des outils efficaces pour rationaliser le processus de mise à jour des filigranes dans les documents. Grâce à cette solution avancée, les développeurs peuvent facilement mettre à jour et modifier les filigranes dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. {{ProdShortName}} prend en charge tous les principaux systèmes d'exploitation et versions {{EnvName}}."
+    },
+    "formats": {
+      "title": "Simplifier la mise à jour des filigranes dans les formats compatibles",
+      "description": "Simplifiez le traitement des filigranes dans les formats courants tels que PDF, Word, Excel, etc. avec {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Mettez à jour les filigranes dans {{FileFormatUp}} de manière fluide",
+      "description": "Mettez facilement à jour les filigranes dans {{FileFormatUp}} documents avec {{ProdFullName}}. Installez notre bibliothèque sur votre application."
+    },
+    "header": {
+      "title": "Traiter le filigrane dans {{FileFormatUp}} documents",
+      "description": "Ajustez sans effort les filigranes avec précision à l'aide de {{ProdFullName}}. Préservez la confidentialité des documents de votre entreprise en appliquant différents filigranes. Personnalisez les caractéristiques du filigrane, notamment la taille, l'alignement, l'angle de rotation et la position, selon vos spécifications.",
+      "subtitle": "{{ProdFullName}} Bibliothèque",
+      "action_title": "Téléchargement gratuit sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Enquêter sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} permet aux développeurs de mettre facilement à jour les filigranes des documents {{FileFormatUp}}. Ce puissant outil permet d'ajuster avec précision les filigranes dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. {{ProdFullName}} peut être utilisé sur de nombreuses plateformes populaires."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes pour d'autres formats",
+      "description": "Ajustez facilement les filigranes dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. De nombreux autres formats sont pris en charge."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Améliorez les filigranes dans {{FileFormatUp}} documents sans effort",
+      "description": "Mettez facilement à jour les filigranes dans {{FileFormatUp}} documents via l'API {{ProdFullName}}. Assurez la sécurité de vos documents."
+    },
+    "header": {
+      "title": "Mettez à jour sans effort les filigranes du document {{FileFormatUp}}",
+      "description": "Améliorez facilement la qualité des filigranes à l'aide de {{FileFormatUp}}. Améliorez la protection du matériel de votre entreprise grâce à une gamme de filigranes. Ajustez les caractéristiques du filigrane, telles que la taille, l'alignement, l'angle de rotation et la position, selon vos besoins.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} Télécharger gratuit"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informations",
+      "content": "{{ProdFullName}} offre des fonctionnalités avancées permettant de mettre à jour sans effort les filigranes des documents. Grâce à cet outil, les développeurs peuvent améliorer l'apparence et la visibilité des filigranes dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. Tous les systèmes d'exploitation courants et toutes les versions {{EnvName}} sont pris en charge."
+    },
+    "formats": {
+      "title": "La mise à jour des filigranes est disponible pour de nombreux formats",
+      "description": "Améliorez sans effort les filigranes dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. Plus de 50 formats de fichiers sont pris en charge."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Mettez à jour les filigranes {{FileFormatUp}} avec précision",
+      "description": "Affinez les filigranes dans les présentations avec précision à l'aide de {{ProdFullName}}. Assurez la sécurité des données de votre entreprise."
+    },
+    "header": {
+      "title": "Mettez à jour avec précision les filigranes de présentation {{FileFormatUp}}",
+      "description": "Obtenez une précision inégalée dans le raffinement des filigranes avec {{ProdFullName}}. Renforcez vos dossiers commerciaux avec une variété de filigranes. Mettez à jour les propriétés du filigrane telles que la taille, l'alignement, l'angle de rotation et le placement en fonction de vos besoins.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez gratuitement à partir de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit aux développeurs des outils précis pour mettre à jour les filigranes dans les documents. Cet outil sophistiqué permet de régler et d'affiner les filigranes dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. Notre solution est compatible avec tous les principaux systèmes d'exploitation et frameworks courants."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes dans les formats pris en charge",
+      "description": "Affinez les filigranes dans PDF, Word, Excel, et plus encore avec précision à l'aide de {{ProdFullName}}. Tous les formats professionnels sont pris en charge."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Mettez à jour les filigranes dans les documents {{FileFormatUp}} de manière fluide",
+      "description": "Modifiez facilement les filigranes dans {{FileFormatUp}} présentations via {{ProdFullName}}. Intégrez notre bibliothèque à vos applications."
+    },
+    "header": {
+      "title": "Mettre à jour les filigranes dans {{FileFormatUp}} présentations",
+      "description": "Modifiez les filigranes facilement et efficacement à l'aide de {{ProdFullName}}. Protégez vos documents professionnels à l'aide d'une sélection de filigranes. Personnalisez facilement les attributs du filigrane tels que la taille, l'alignement, l'angle de rotation et la position.",
+      "subtitle": "{{ProdFullName}} Bibliothèque",
+      "action_title": "{{PackageStoreName}} Téléchargement du package"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Résolutions",
+      "content": "{{ProdFullName}} permet une modification fluide des filigranes dans les documents. Grâce à cet outil polyvalent, les développeurs peuvent facilement modifier et mettre à jour les filigranes dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. {{ProdFullName}} peut être utilisé avec tous les systèmes d'exploitation courants."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes des formats de fichiers compatibles",
+      "description": "Modifiez facilement les filigranes dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. Renforcez l'image de marque de vos documents."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Mettez à jour les filigranes {{FileFormatUp}} sans effort",
+      "description": "Personnalisez sans effort les filigranes dans {{FileFormatUp}} documents à l'aide de {{ProdFullName}}. Intégrez notre solution à votre logique métier."
+    },
+    "header": {
+      "title": "Mettez facilement à jour les filigranes dans les documents {{FileFormatUp}}",
+      "description": "Adaptez les filigranes à vos besoins précis avec {{ProdFullName}}. Protégez vos documents d'entreprise à l'aide de divers filigranes. Modifiez sans effort les éléments du filigrane tels que la taille, l'alignement, l'angle de rotation et le placement.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Obtenez le colis au {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} permet une personnalisation fluide des filigranes dans les documents {{FileFormatUp}}. Cet outil flexible permet aux développeurs de personnaliser et d'adapter facilement les filigranes en fonction des exigences spécifiques dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes dans de nombreux formats de fichiers",
+      "description": "Personnalisez sans effort les filigranes dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. Perfectionnez votre logique commerciale."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Mettre à jour et modifier les filigranes dans {{FileFormatUp}} feuilles de calcul",
+      "description": "Mettez à jour et modifiez les filigranes dans différents formats de documents avec {{ProdFullName}}. Élargissez les fonctionnalités de vos applications."
+    },
+    "header": {
+      "title": "Gérez efficacement {{FileFormatUp}} feuilles de calcul et filigranes",
+      "description": "Simplifiez la gestion des filigranes avec {{ProdFullName}}. Assurez la sécurité de vos fichiers professionnels en appliquant différents filigranes. Personnalisez les spécifications du filigrane, telles que la taille, l'alignement, l'angle de rotation et la position, à votre guise.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} Télécharger"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informations générales",
+      "content": "{{ProdFullName}} propose des outils efficaces pour mettre à jour et modifier les filigranes dans différents formats de fichiers. Grâce à cette solution complète, les développeurs peuvent gérer de manière fluide les filigranes dans divers documents, notamment les formats PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et image. Tous les principaux systèmes d'exploitation et plates-formes sont pris en charge."
+    },
+    "formats": {
+      "title": "Mettre à jour et modifier les filigranes pour d'autres formats",
+      "description": "Mettez à jour et modifiez facilement les filigranes dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. Enrichissez le contenu de vos documents."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Mettez à jour les filigranes {{FileFormatUp}} selon vos besoins",
+      "description": "Adaptez les filigranes à vos besoins précis avec {{ProdFullName}}. Renforcez la logique métier dans vos applications."
+    },
+    "header": {
+      "title": "Mettez à jour les filigranes des feuilles de calcul {{FileFormatUp}} selon vos besoins",
+      "description": "Personnalisez les filigranes sans effort avec {{ProdFullName}}. Protégez les documents sensibles de votre entreprise à l'aide de différents filigranes. Ajustez les caractéristiques du filigrane telles que la taille, l'alignement, l'angle de rotation et la position selon les besoins.",
+      "subtitle": "{{ProdFullName}} Solution",
+      "action_title": "Téléchargement gratuit sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} permet aux développeurs d'adapter les filigranes à leurs besoins spécifiques. Grâce à cet outil polyvalent, les développeurs peuvent facilement personnaliser et ajuster les filigranes dans les documents en fonction des exigences précises dans différents formats de fichiers, notamment PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail et formats d'image. Les principaux systèmes d'exploitation et plates-formes de développement sont pris en charge."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes placés dans d'autres formats",
+      "description": "Adaptez les filigranes à vos besoins dans PDF, Word, Excel, et plus encore avec {{ProdFullName}}. Intégrez notre produit à vos solutions et bénéficiez de précieux avantages."
+    }
+  }
+}

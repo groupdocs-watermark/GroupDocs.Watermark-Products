@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Gere marca d'água de texto para {{FileFormatUp}}",
+    "comment_2": "Passe o arquivo de origem para a instância Watermarker",
+    "comment_3": "Gere marca d'água de texto e defina suas opções",
+    "comment_4": "Obtenha {{FileFormatUp}} resultado"
+  },
+  "steps": {
+    "title": "Documentos comerciais seguros: gere marcas d'água para {{FileformatCap}} formatos",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Injete nossa API em seus aplicativos e gere marcas d'água para muitos formatos de arquivo compatíveis.",
+      "step_1": "**Iniciar marca d'água:** Inicie o processamento de documentos com a classe **Watermarker** que fornece nossos principais recursos. Instancie-o passando para o construtor o arquivo {{FileformatCap}} que deveria estar protegido pelas marcas d'água geradas.",
+      "step_2": "**Crie o objeto principal de marca d'água:** Eleve seus documentos esculpindo objetos **Marca d'água** personalizados. Além de meras páginas, elas se integram perfeitamente a elementos nativos, como anexos ou cabeçalhos, adicionando camadas de segurança e profissionalismo.",
+      "step_3": "**Refine os atributos da marca d'água:** Ajuste suas marcas d'água com precisão, ajustando dimensões, alinhamento e esquemas de cores. Cada detalhe melhora a integridade do documento, tornando seus arquivos inconfundivelmente seus.",
+      "step_4": "**Implemente com precisão:** Utilize o método**Watermarker** para aplicar suas marcas d'água personalizadas sem falhas. Seja singular ou múltipla, cada marca d'água adiciona uma camada extra de proteção. Para maior segurança, considere armazenar seus documentos processados em um local separado e seguro."
+    }
+  },
+  "more_features": {
+    "title": "Técnicas avançadas de marcação d'água",
+    "description": "Descubra técnicas avançadas de marcação d'água com nossa API robusta, projetada para se integrar perfeitamente a .NET ambientes. Perfeito para adicionar marcas d'água sofisticadas e seguras a uma grande variedade de tipos de documentos, incluindo apresentações, documentos legais e diagramas técnicos.",
+    "image_description": "Marca d'água sofisticada",
+    "feature_1": {
+      "title": "Posicionamento dinâmico da marca d'água",
+      "content": "Nossa API oferece opções dinâmicas de posicionamento que adaptam o posicionamento da marca d'água com base no conteúdo do documento. Ideal para layouts complexos em apresentações e diagramas técnicos, esse recurso garante que as marcas d'água sejam sempre posicionadas de forma ideal, sem interferir na legibilidade das informações subjacentes."
+    },
+    "feature_2": {
+      "title": "Segurança aprimorada com marcas d'água invisíveis",
+      "content": "Implemente marcas d'água invisíveis que ofereçam proteção robusta sem alterar a aparência de seus documentos. Essas marcas d'água foram projetadas para serem detectadas somente por meio de ferramentas de software específicas, o que as torna perfeitas para proteger informações confidenciais em documentos legais e financeiros."
+    },
+    "feature_3": {
+      "title": "Fluxos de trabalho automatizados de marcação d'água",
+      "content": "Simplifique seus processos de segurança de documentos com fluxos de trabalho automatizados de marcas d'água. Configure regras com base no tipo de documento, na confidencialidade do conteúdo e nos níveis de acesso do usuário para aplicar marcas d'água automaticamente, garantindo que protocolos de segurança consistentes sejam mantidos em todos os documentos."
+    },
+    "code_1": {
+      "title": "Gere marca d'água para PDF anexos",
+      "content": "Este exemplo mostra como gerar marcas d'água em todos os PDF anexos",
+      "comment_1": "Carregar documento PDF",
+      "comment_2": "Gere marca d'água de texto",
+      "comment_3": "Adicione marca d'água aos anexos adequados",
+      "comment_4": "Salvar processado PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Gere marcas d'água exclusivas para Excel planilhas",
+      "description": "Automatize a marca d'água dinâmica em Excel usando Node.js. Aplique marcas d'água consistentes com facilidade em vários arquivos."
+    },
+    "header": {
+      "title": "Marcas d'água orientadas por Node.js em documentos de planilhas",
+      "description": "Utilize o Node.js para implementar marcas d'água personalizadas de texto ou imagem sem problemas em planilhas Excel, protegendo seus dados financeiros e analíticos com facilidade.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Download gratuito de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} é uma ferramenta poderosa projetada para desenvolvedores de back-end que desejam incorporar marcas d'água exclusivas em planilhas Excel e OpenOffice. Essa API versátil permite a incorporação de marcas d'água de texto e imagem que podem ser totalmente personalizadas em termos de fonte, tamanho, cor e opacidade. Compatível com uma variedade de formatos de planilhas, incluindo XLS, XLSX e ODS, a ferramenta garante que as marcas d'água sejam aplicadas com precisão, mantendo a integridade e o layout de suas planilhas e oferecendo proteção robusta contra o uso não autorizado."
+    },
+    "formats": {
+      "title": "Técnicas do Node.js para marcar água com Excel",
+      "description": "Melhore a segurança da planilha e a integridade dos dados com nossa API Node.js. Adicione rapidamente marcas d'água personalizadas aos arquivos Excel e do OpenOffice, protegendo contra alterações não autorizadas."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Crie modelos de marcas d'água para Word",
+      "description": "Crie modelos de marca d'água com tecnologia Node.js para arquivos Word, DOC e DOCX. Melhore a segurança dos documentos sem problemas."
+    },
+    "header": {
+      "title": "Criando modelos de marca d'água personalizados para Word com {{EnvName}}",
+      "description": "Implante modelos de marca d'água avançados e personalizados em vários formatos compatíveis com Word usando o Node.js. Melhore a integridade dos documentos e a identidade corporativa com o mínimo esforço.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "O {{ProdFullName}} capacita os desenvolvedores a criar modelos sofisticados de marca d'água para Word documentos de forma rápida e eficiente. Essa API oferece suporte a uma ampla variedade de formatos de documentos, incluindo DOC, DOCX e compatibilidade com arquivos de texto do OpenOffice. Personalize suas marcas d'água com várias opções de design, como fontes de texto, escala de imagem e níveis de transparência. Aplique esses modelos dinamicamente aos seus documentos para proteger a propriedade intelectual, confirmar a autenticidade e melhorar o apelo visual."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Marcas d'água alimentadas em Word",
+      "description": "Nosso kit de ferramentas Node.js fornece uma plataforma flexível para automatizar a integração de marcas d'água em Word documentos. Personalize e aplique marcas d'água que protejam seus documentos e melhorem a presença de sua marca de forma eficaz."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Marca d'água dinâmica para proteção de imagens",
+      "description": "Proteja seus direitos autorais de imagem com a marca d'água dinâmica Node.js. Suporta JPG, PNG, WEBP e muito mais."
+    },
+    "header": {
+      "title": "Marca d'água dinâmica para proteção de imagem com Node.js",
+      "description": "Use nosso kit de ferramentas Node.js para gerar marcas d'água dinâmicas e seguras em suas imagens, suportando formatos como JPG, PNG e WEBP. Garanta seus direitos autorais de imagem com recursos avançados de proteção.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Com {{ProdFullName}}, aplicar marcas d'água às imagens é simples e personalizável. Esse kit de ferramentas suporta uma ampla variedade de formatos de imagem, incluindo imagens rasterizadas tradicionais, como JPG e PNG, bem como formatos mais novos, como WEBP. Ele permite que os desenvolvedores adicionem dinamicamente marcas d'água que não são apenas seguras, mas também combinam naturalmente com o conteúdo da imagem, fornecendo proteção robusta contra a violação de direitos autorais sem prejudicar o apelo original da imagem."
+    },
+    "formats": {
+      "title": "Implementando marcas d'água incríveis em imagens via {{ProgLang}}",
+      "description": "Proteja seus direitos autorais de imagem de forma eficaz com nossa API Node.js. Adicione dinamicamente marcas d'água aos arquivos JPG, PNG e WEBP, garantindo que cada imagem seja marcada para seu legítimo proprietário."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Fotos seguras com marca d'água avançada em Node.js",
+      "description": "Acelere seu processo de marcação d'água de fotos com o Node.js. Implemente soluções de codificação rápidas e fáceis de usar."
+    },
+    "header": {
+      "title": "Fotos seguras com marca d'água avançada em {{EnvName}}",
+      "description": "Implemente estratégias avançadas de marca d'água em seus fluxos de trabalho de processamento de fotos com o Node.js. Nosso kit de ferramentas suporta ampla personalização para arquivos de imagem JPG, PNG e WEBP.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Com {{ProdFullName}}, proteger suas fotos com marcas d'água avançadas é simples e flexível. Essa API permite a aplicação rápida de marcas d'água baseadas em texto ou imagem que são personalizáveis para combinar com a estética da foto subjacente. Ele suporta diversos formatos de imagem e fornece controle preciso sobre o posicionamento e a aparência da marca d'água, o que ajuda na proteção contra o uso não autorizado, mantendo a integridade da foto."
+    },
+    "formats": {
+      "title": "Marca d'água protetora em {{ProgLang}} para fotos",
+      "description": "Melhore a segurança de suas fotos com técnicas avançadas e personalizáveis de marca d'água no Node.js. Proteja suas fotos em vários formatos, incluindo JPG, PNG e WEBP, sem sacrificar a qualidade."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Crie marcas d'água profissionais para apresentações de slides com o Node.js",
+      "description": "Crie marcas d'água sofisticadas para suas apresentações. Melhore o engajamento do espectador e a segurança dos documentos."
+    },
+    "header": {
+      "title": "Crie marcas d'água profissionais para apresentações de slides com o Node.js",
+      "description": "Implemente marcas d'água dinâmicas e personalizadas de texto ou imagem em suas apresentações de slides usando nossa robusta API Node.js. Perfeitas para PPTX arquivos, essas marcas d'água combinam perfeitamente com seus slides.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe em {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Com {{ProdFullName}}, criar marcas d'água para suas apresentações de slides se torna um processo simples e eficiente. Essa ferramenta poderosa é compatível com PPTX slides e outros formatos de apresentação populares, oferecendo recursos avançados para incorporar marcas d'água que não distraem o conteúdo, mas o aprimoram. Personalize suas marcas d'água para exibir texto, logotipos ou outros gráficos que signifiquem propriedade e impeçam o roubo de direitos autorais, mantendo a mais alta qualidade de seus slides."
+    },
+    "formats": {
+      "title": "Integração de marca d'água com tecnologia Node.js para apresentações",
+      "description": "Proteja e profissionalize suas apresentações com o Node.js. Nossa API permite que você adicione marcas d'água personalizadas a PPTX arquivos, aprimorando a segurança e a presença da marca de forma eficaz."
+    }
+  }
+}

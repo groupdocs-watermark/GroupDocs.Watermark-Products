@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Obtenga la lista de marcas de agua de texto para {{FileFormatUp}}",
+    "comment_2": "Instanciar la clase Watermarker",
+    "comment_3": "Obtenga marcas de agua por criterios de texto",
+    "comment_4": "Información sobre el uso de marcas de agua"
+  },
+  "steps": {
+    "title": "Obtenga marcas de agua de manera eficiente en {{FileformatCap}} archivos mediante {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** agiliza el proceso de recuperación de marcas de agua incrustadas en varios formatos de documentos comerciales. Integre sin problemas {{ProdShortName}} en sus {{EnvName}} aplicaciones para dotarlas de sólidas capacidades de detección de marcas de agua.",
+      "step_1": "**Watermarker** y proporcione la ruta del archivo, el flujo de archivos o el flujo de bytes {{FileformatCap}} como entrada. Esta acción carga el documento para el análisis de las marcas de agua.",
+      "step_2": "**SearchCriteria**. Especifique una imagen para localizar marcas de agua de imágenes similares. Como alternativa, en el caso de las marcas de agua textuales, defina el contenido del texto, las propiedades de la fuente, los atributos de color y otros parámetros relevantes para refinar los criterios de búsqueda.",
+      "step_3": "**Get** del objeto **Watermarker** para iniciar el proceso de detección de marcas de agua en el documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que permite un procesamiento posterior.",
+      "step_4": "La colección recuperada de objetos de marca de agua le ofrece muchas posibilidades. Puede eliminar las marcas de agua no deseadas o modificar sus propiedades. Cambia el contenido, mueve una marca de agua en una página y muchas cosas más."
+    }
+  },
+  "more_features": {
+    "title": "Optimice su búsqueda de marcas de agua con {{ProdShortName}} en Node.js",
+    "description": "Aprenda a implementar funciones avanzadas de búsqueda de marcas de agua en sus aplicaciones de Node.js con {{ProdShortName}}, optimizando la gestión de documentos en {{EnvName}}.",
+    "image_description": "Buscar marcas de agua en Node.js",
+    "feature_1": {
+      "title": "Detección avanzada de marcas de agua en Node.js",
+      "content": "Utilice {{ProdShortName}} para mejorar su capacidad de detectar e identificar marcas de agua en cualquier formato de documento. Realice búsquedas de manera eficiente mediante sofisticadas opciones de filtrado."
+    },
+    "feature_2": {
+      "title": "API Node.js para búsquedas personalizadas de marcas de agua",
+      "content": "Personalice sus operaciones de búsqueda con nuestra API Node.js. Encuentra marcas de agua especificando parámetros detallados, como la ubicación, la opacidad y el tipo de contenido, para optimizar los flujos de trabajo de tus documentos."
+    },
+    "feature_3": {
+      "title": "Recuperación y análisis eficientes de marcas de agua",
+      "content": "Con {{ProdShortName}}, extraiga y analice rápidamente las marcas de agua de varios documentos. Nuestra API permite una recuperación rápida, lo que le ayuda a mantener el cumplimiento y la coherencia de la marca."
+    },
+    "code_1": {
+      "title": "Ejemplo de Node.js: búsqueda eficiente de marcas de agua",
+      "content": "Descubra cómo usar Node.js con {{ProdShortName}} para buscar marcas de agua en diferentes tipos de documentos y demuestre el uso de criterios de búsqueda dinámicos para obtener resultados precisos.",
+      "comment_1": "Inicialice el entorno Node.js y cargue el documento de destino",
+      "comment_2": "Configure las consultas de búsqueda utilizando criterios flexibles para encontrar marcas de agua específicas",
+      "comment_3": "Ejecute la búsqueda y recopile las marcas de agua que cumplan con los criterios",
+      "comment_4": "Procesar y analizar los resultados para determinar las acciones necesarias"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Desbloquea {{FileformatCap}} hojas de cálculo, marcas de agua y secretos",
+      "description": "Descubra el poder de {{ProdFullName}} para recuperar sin esfuerzo las marcas de agua de los documentos."
+    },
+    "header": {
+      "title": "Revele marcas de agua ocultas en {{FileformatCap}} hojas de cálculo",
+      "description": "Descubre las marcas de agua ocultas en tus documentos con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtener desde {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Información básica",
+      "content": "Descubra el potencial de {{ProdFullName}} a la hora de gestionar las marcas de agua en {{EnvName}}. Genere, actualice, obtenga y elimine fácilmente marcas de agua de varios formatos de archivo, incluidos PDF, Word, Excel, PowerPoint y más."
+    },
+    "formats": {
+      "title": "Explore varios formatos",
+      "description": "Descubra, recupere y gestione marcas de agua en diferentes formatos de archivo con facilidad."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Extracción maestra de marcas de agua de {{FileformatCap}} documentos",
+      "description": "Conviértase en un experto en la extracción de marcas de agua de documentos con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Recuperación de marcas de agua de documentos de Expert {{FileformatCap}}",
+      "description": "Obtenga la experiencia necesaria para recuperar marcas de agua con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar el paquete {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Acerca de {{ProdFullName}}",
+      "content": "Domina el arte de la gestión de marcas de agua con {{ProdFullName}}. Gestione sin esfuerzo las tareas de creación de marcas de agua en varios formatos de archivo, incluidos PDF, Word, Excel y más."
+    },
+    "formats": {
+      "title": "Manejo eficiente del formato de archivo",
+      "description": "Gestione de forma eficaz las marcas de agua en varios formatos de archivo con {{ProdFullName}}."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Descubra las marcas de agua ocultas de {{FileformatCap}} presentaciones",
+      "description": "Revela las marcas de agua ocultas en los documentos con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Descubra las marcas de agua colocadas en {{FileformatCap}} presentaciones",
+      "description": "Descubre y revela las marcas de agua ocultas en tus documentos con {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descarga gratuita de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Más información sobre {{ProdFullName}}",
+      "content": "Explore las capacidades de {{ProdFullName}} para gestionar las marcas de agua sin problemas en {{EnvName}}. Gestione fácilmente las operaciones de creación de marcas de agua, como la generación, la actualización, la obtención y la eliminación de marcas de agua en varios formatos de archivo."
+    },
+    "formats": {
+      "title": "Descubra marcas de agua en todos los formatos",
+      "description": "Descubra sin esfuerzo marcas de agua en diferentes formatos de archivo con {{ProdFullName}}."
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} 文件中生成图像水印",
+    "comment_2": "为 Watermarker 构造器提供源文件路径",
+    "comment_3": "使用图像文件生成图像水印实例",
+    "comment_4": "保存带水印的 {{FileFormatUp}} 结果"
+  },
+  "steps": {
+    "title": "轻松为 {{FileformatCap}} 个文档生成水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** 适用于 {{EnvName}} 应用程序的高级水印库。及时使用水印为您的解决方案和保护文档提供支持。",
+      "step_1": "**核心类：水印。** 我们 API 的主要类是**水印**。您需要在处理文档之前对其进行实例化。不要忘记将 {{FileformatCap}} 文件作为路径或流对象传递给构造函数。",
+      "step_2": "**制作您的水印。** 下一步是构造所需类型的水印对象。它不仅可以放在特定的文档页面上，还可以放在图像或标题等原生文档部分中。",
+      "step_3": "**微调外观。**设置水印属性，例如高度和宽度、顶部、左侧、中心对齐方式、字体和颜色等。",
+      "step_4": "**应用并保存。** 使用**水印**方法添加新水印。您可以根据需要添加任意数量的水印。您可以将带水印的文档保存到任何位置。"
+    }
+  },
+  "more_features": {
+    "title": "提升您的水印游戏体验",
+    "description": "使用我们适用于 .NET 的 GroupDocs.Watermark API 解锁高级水印功能。这个强大的工具允许在各种文档类型中精确自定义和应用水印，从而在最大限度地减少视觉干扰的情况下确保最大的安全性和版权依从性。",
+    "image_description": "全面的水印解决方案",
+    "feature_1": {
+      "title": "复杂的平铺选项",
+      "content": "使用我们的拼贴选项，将水印无缝扩展到整个文档。此功能允许水印覆盖整个文档区域，防止移除，并在不影响设计或可读性的前提下确保全面的文档保护。"
+    },
+    "feature_2": {
+      "title": "鲜艳的色彩定制",
+      "content": "为你的水印增添一抹色彩！我们的 API 支持全光谱颜色自定义，允许您应用与您的公司品牌或文档风格完美匹配的水印。增强视觉吸引力，同时保持强大的安全功能。"
+    },
+    "feature_3": {
+      "title": "增强的安全设置",
+      "content": "使用高级水印设置，将文档安全性提升到一个新的水平。配置包含可见和不可见元素的多层水印，以防止未经授权的复制，并确保只有预期的收件人才能访问关键信息。"
+    },
+    "code_1": {
+      "title": "生成 PowerPoint 个水印",
+      "content": "此示例说明如何向 PPTX 背景图像添加水印",
+      "comment_1": "加载 PPTX 演示文稿",
+      "comment_2": "设置水印属性",
+      "comment_3": "水印幻灯片背景",
+      "comment_4": "保存处理后的演示文稿"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "使用 .NET C# 给文件加水印 {{FileFormatUp}}",
+      "description": "在 {{FileFormatUp}} 个文件中实现 .NET C# 水印，以有效保护和管理您的 Word 个文档。"
+    },
+    "header": {
+      "title": "使用 C# 水印增强 {{FileFormatUp}} 安全性",
+      "description": "利用 .NET C# 在 {{FileFormatUp}} 文件中嵌入安全水印，非常适合在法律和公司环境中保护 MS Word 个文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 利用 .NET C# 为 {{FileFormatUp}} 文件提供复杂的水印解决方案，通常在微软 Word 中使用。此 API 允许开发人员插入文本和图形水印，这些水印可针对不透明度、颜色和位置进行自定义。使用包括时间戳、徽标或机密标签的水印增强文档安全性，从而有效阻止未经授权的使用并确保文档的真实性。该 API 经过精心设计，可与 .NET 框架无缝集成，非常适合法律文档、企业通信和敏感信息管理中的应用程序。{{ProdShortName}} 与 .NET C# 环境兼容，为全面的文档保护提供了强大的工具集。"
+    },
+    "formats": {
+      "title": "Word 个文档的 C# 水印",
+      "description": "部署 .NET C# 以在 {{FileFormatUp}} 文件中应用精确且可自定义的水印，从而增强 MS Word 文档的安全性和完整性。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 个文件的 C# 水印",
+      "description": "使用 .NET C# 将水印集成到 {{FileFormatUp}} 文件中，从而增强您的 Word 文档的安全性。"
+    },
+    "header": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}}",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 个文件中应用高级水印技术，非常适合保护各行各业 Word 文档中的知识产权。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 利用 .NET C# 的强大功能为 {{FileFormatUp}} 文件添加复杂的水印功能。该工具专为无缝集成到 Microsoft Word 环境而设计，支持应用可动态扩展、透明且可根据文档布局进行定位的水印。它是同时需要可见性和保护性的法律文件、机密报告和公司政策的理想之选。功能包括自定义文本样式、图像水印和基于文档内容的条件放置。{{ProdShortName}} 支持最新 .NET 框架，可确保您的文档安全措施是最先进的。"
+    },
+    "formats": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中实现水印",
+      "description": "使用 .NET C# 掌握在 {{FileFormatUp}} 文件中自定义安全水印的应用，这对于文档完整性和版权保护至关重要。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}}",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 张图像中嵌入高级水印，确保版权和内容安全。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 文件的高级 C# 水印",
+      "description": "利用 .NET C# 为 {{FileFormatUp}} 张图像应用安全、可自定义的水印，是保护数字艺术和摄影版权的理想之选。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员提供了强大的工具，可以有效地为 {{FileFormatUp}} 张图像加水印。该API直接与数字图像处理工作流程集成，允许添加基于文本、以徽标为中心或带图案的水印。自定义选项包括调整不透明度、缩放大小和修改旋转角度，以确保水印在不影响图像原始美感的情况下无缝融合。{{ProdShortName}} 是摄影师、平面设计师和内容创作者的理想之选，可防止未经授权的使用，同时保持较高的图像质量。该解决方案与所有主要 .NET 版本兼容，对于需要保护数字环境中视觉内容的人来说至关重要。"
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} 张图像的 C# 水印解决方案",
+      "description": "部署 .NET C# 以在 {{FileFormatUp}} 文件中创建和管理水印，从而增强数字平台上图像的安全性。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{FileFormatUp}} 张图像的 C# 水印",
+      "description": "使用 .NET C# 将水印集成到 {{FileFormatUp}} 个文件中，从而有效保护您的数字图像。"
+    },
+    "header": {
+      "title": "使用 .NET C# 保护 {{FileFormatUp}} 张图像",
+      "description": "应用 .NET C# 为 {{FileFormatUp}} 张图像创建强大的水印，非常适合版权保护和防止未经授权的使用。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员提供了一个高级框架，用于向 JPG 张图像添加水印。此 API 允许精确嵌入文本、徽标和图形水印，这些不透明度、位置和大小均可自定义，非常适合数字媒体和专业摄影。借助旨在嵌入水印的功能，在不牺牲质量的情况下增强图像的安全性，这些功能可防止盗版，同时保持原始图稿的完整性。{{ProdShortName}} 适用于从个人照片保护到广告和媒体商业用途的各种应用，可确保您的视觉资产具有唯一标记并受到法律保护。"
+    },
+    "formats": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中实现水印",
+      "description": "利用 .NET C# 在 {{FileFormatUp}} 文件中嵌入不可见或可见的水印，这对于安全和可识别的数字内容至关重要。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "安全 {{FileFormatUp}} 文档的 C# 水印",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 中嵌入水印，保护官方文档和敏感信息。"
+    },
+    "header": {
+      "title": "使用 C# 水印增强 {{FileFormatUp}} 安全性",
+      "description": "实施 .NET C# 在 {{FileFormatUp}} 个文档中应用水印，确保保护法律、财务和官方记录。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员提供了一个强大的 API，用于在 {{FileFormatUp}} 文件中插入水印，这是企业、法律和政府部门文档安全的必备工具。此 API 支持全面的水印自定义选项，包括文本格式、图像集成和动态放置，以适应各种文档布局。无论是保护机密协议、保护版权材料还是标记专有信息，{{ProdShortName}} 都可确保所有 PDF 清晰、专业地传达所有权。其他功能包括水印旋转、透明度控制和分层功能，与所有现代 .NET 框架兼容。"
+    },
+    "formats": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}} 个文件",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 个文档中嵌入安全的定制水印，是保护官方和敏感信息的理想之选。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}}",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 文件中嵌入水印，非常适合图像版权和安全。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 个文件的 C# 水印",
+      "description": "利用 .NET C# 为 {{FileFormatUp}} 张图像应用高级水印，从而有效保护艺术和数字内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 提供专门的 .NET C# 工具包，用于在 {{FileFormatUp}} 文件中嵌入水印，以满足需要保护其视觉资产的艺术家、设计师和内容创作者的需求。该API允许无缝添加透明和不透明的水印，这些水印可以精确定位和缩放，以保持原始图像的完整性，同时确保法律保护。功能包括自定义文本和图像水印、精确控制水印不透明度以及添加多层水印以增强安全性的功能。无论是个人用途还是专业作品集，{{ProdShortName}} 都可确保保护您的 PNG 张图像免受未经授权的复制和使用，并在 .NET 环境中完全支持。"
+    },
+    "formats": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中实现水印",
+      "description": "部署 .NET C# 在 {{FileFormatUp}} 张图像中创建隐蔽或粗体水印，从而确保美学灵活性和强大的版权保护。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "PowerPoint 个文件的 C# 水印",
+      "description": "使用 .NET C# 向 PowerPoint 文件应用动态水印，增强演示安全性。"
+    },
+    "header": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}}",
+      "description": "利用 .NET C# 在 PowerPoint 演示文稿中插入可自定义的水印，非常适合保护商业和学术内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员配备了将水印无缝集成到 PowerPoint (PPT) 文件中的工具。该API非常适合添加可见和不可见的水印，确保演示文稿免受未经授权的使用和分发。{{ProdShortName}} 具有高级功能，例如自定义文本样式、大小、颜色和不透明度的水印以及图像水印功能，可以增强幻灯片的安全性和专业性。它对于文档完整性至关重要的企业、教育和培训环境特别有用。与 .NET 的所有版本完全兼容，包括 .NET 核心和 .NET 框架。"
+    },
+    "formats": {
+      "title": "使用 C# 水印保护 {{FileFormatUp}} 个文件",
+      "description": "使用 .NET C# 将高级水印嵌入 PowerPoint 个文档，保护您的演示文稿免遭滥用和版权侵权。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "使用 .NET C# 应用水印保护您的 {{FileFormatUp}} 演示文稿，保护知识产权。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 的高级 C# 水印",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 文件中创建强大的水印，非常适合增强企业和教育演示文稿的安全性。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为给 {{FileFormatUp}} 文件加水印提供了全面的 .NET C# 解决方案，适合需要保护演示材料的专业人员。此 API 支持集成可自定义的水印，可以包括文本、徽标或其他图形。它提供调整透明度、大小和定位等功能，使水印既有效又微妙。{{ProdShortName}} 是企业、教育工作者以及任何提供敏感或专有信息的人的理想之选，可确保您的演示文稿不仅安全，而且还能保持其美观品质。该工具兼容 .NET 5 及更高版本，可将强大的支持扩展到现代 Microsoft Office 环境。"
+    },
+    "formats": {
+      "title": "{{FileFormatUp}} 个文件的 C# 水印解决方案",
+      "description": "利用 .NET C# 在 {{FileFormatUp}} 文件中应用离散水印，保护您的演示文稿免受未经授权的分发。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 个文档的 C# 水印",
+      "description": "将 .NET C# 水印合并到 {{FileFormatUp}} 文件中，以增强 Word 文档的安全性。"
+    },
+    "header": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}}",
+      "description": "使用 .NET C# 为 {{FileFormatUp}} 个文件应用安全、可自定义的水印，非常适合在 MS Word 环境中维护文档完整性。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员配备了复杂的工具，可以有效地向 {{FileFormatUp}} 文档添加水印。该API可以集成可见和透明的水印，这些水印可以在字体、颜色、大小和位置方面进行自定义，从而确保它们无缝融入文档而不会影响可读性。{{ProdShortName}} 是法律文档、知识产权文件和敏感通信的理想之选，可提供基本保护，防止未经授权的复制和修改。该工具旨在与 .NET 的所有版本兼容，从而为文档水印提供安全且适应性强的解决方案。"
+    },
+    "formats": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中实现水印",
+      "description": "部署 .NET C# 以在 {{FileFormatUp}} 个文档中创建强大而微妙的水印，从而增强 Word 文件的安全性和真实性。"
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "为 {{FileFormatUp}} 张图像生成 C# 水印",
+      "description": "使用 .NET C# 对 {{FileFormatUp}} 张图像应用精确的水印，从而保护您的照片内容。"
+    },
+    "header": {
+      "title": "使用 C# 为 {{FileFormatUp}} 添加高级水印",
+      "description": "使用 .NET C# 将高质量水印嵌入 {{FileFormatUp}} 张图像，非常适合需要加强版权保护的摄影师和档案管理员。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 提供强大的 .NET C# 框架，用于为 {{FileFormatUp}} 文件添加水印，该框架是为摄影和数字存档专业人士的需求量身定制的。该API允许无缝添加水印，这些水印可根据不透明度、大小和位置进行自定义，与TIF图像的高分辨率特性完美融合。功能包括应用文本和图形水印的能力，这对于维护版权、防止未经授权的使用和增强图像的可追溯性至关重要。{{ProdShortName}} 具有批处理和动态水印放置等高级功能，可确保在不影响质量的情况下保护您的图像。该工具兼容所有当代 .NET 平台，是保护宝贵图像资产的必备工具。"
+    },
+    "formats": {
+      "title": "使用 .NET C# 保护 {{FileFormatUp}} 张图像",
+      "description": "应用 .NET C# 在 {{FileFormatUp}} 张图像中嵌入自定义、不显眼的水印，防止未经授权的复制并确保版权完整性。"
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "使用 C# 生成 {{FileFormatUp}} 个水印",
+      "description": "使用 .NET C# 为 {{FileFormatUp}} 张图像撰写并添加精确的水印，以保护您的数字内容。"
+    },
+    "header": {
+      "title": "使用 C# 为 {{FileFormatUp}} 撰写水印",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 个文件中生成强大的自定义水印，这对于保护和管理数字和档案图像至关重要。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 提供了全面的 .NET C# 工具包，用于生成、撰写水印并向 TIFF 文件添加水印。该解决方案满足了数字档案和专业摄影的独特需求，在这些需求中，保持图像质量和版权保护至关重要。用户可以自定义水印的不透明度、比例和位置，以确保它们在不影响图像的情况下无缝集成。{{ProdShortName}} 能够生成文本或图形水印，再加上水印分层和条件格式等高级功能，使得 {{ProdShortName}} 成为任何需要保护其视觉资产的人不可或缺的工具。此 API 与最新的 .NET 环境完全兼容，增强了您有效管理和保护 TIFF 张图像的能力。"
+    },
+    "formats": {
+      "title": "使用 C# 水印增强 {{FileFormatUp}} 安全性",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 文件中生成和集成自定义水印，为您的图像添加一层安全和版权控制。"
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "使用 C# 向 {{FileFormatUp}} 添加水印",
+      "description": "利用 .NET C# 在 {{FileFormatUp}} 张图像中动态生成和嵌入水印，确保全面保护。"
+    },
+    "header": {
+      "title": "使用 C# 为 {{FileFormatUp}} 生成水印",
+      "description": "使用 .NET C# 创建自定义水印并将其应用于 {{FileFormatUp}} 个文件，非常适合需要保护作品的数字艺术家和内容创作者。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为开发人员提供了通过 .NET C# 生成、合成和向 WEBP 图像添加复杂水印的功能。该API允许精确自定义水印，包括文本、徽标和数字签名。定制水印的不透明度、大小和位置，在不影响图像美学的前提下实现完美的整合。{{ProdShortName}} 可确保您的版权安全地嵌入到您的 WEBP 文件中，是摄影师、平面设计师以及任何参与制作和分发数字图像的专业人士的理想之选。它与所有现代 .NET 框架兼容，可增强图像安全性，同时对视觉质量的影响最小。"
+    },
+    "formats": {
+      "title": "使用 .NET C# 水印保护 {{FileFormatUp}} 张图像",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 张图像中嵌入高级的可自定义水印，为您的创意作品提供强大的保护和视觉效果。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中创建水印",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 文件中添加和管理水印，增强您的 Excel 文档的安全性。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 个文件生成 C# 水印",
+      "description": "使用 .NET C# 在 {{FileFormatUp}} 电子表格中实现强大的水印，专为保护 Excel 中的财务和个人数据而量身定制。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员配备了在 XLS 文件中有效创建、撰写和嵌入水印的工具。此 API 专为无缝集成到 Excel 工作流程而设计，便于添加可针对不透明度、文本和图像进行自定义的可见和不可见水印。{{ProdShortName}} 提供高级功能，例如基于内容分析的条件水印放置，是保护财务电子表格、客户报告或任何需要保密的 Excel 文档中的敏感信息的理想之选。该解决方案支持所有 .NET 环境，可确保您的文档免遭未经授权的使用和分发。"
+    },
+    "formats": {
+      "title": "使用 C# 对 {{FileFormatUp}} 应用水印",
+      "description": "利用 .NET C# 动态生成自定义水印并将其集成到 {{FileFormatUp}} 文件中，从而有效保护您的 Excel 数据。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中嵌入水印",
+      "description": "利用 .NET C# 在 {{FileFormatUp}} 文件中生成和应用水印，保护您的 Excel 个文档。"
+    },
+    "header": {
+      "title": "使用 .NET C# 保护 {{FileFormatUp}} 张表格",
+      "description": "使用 .NET C# 为 {{FileFormatUp}} 文件创建可自定义的水印，非常适合增强文档完整性和保护敏感信息。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 .NET C# 开发人员在 XLSX 文件中生成、添加和管理水印提供了强大的解决方案。此 API 对于维护 Excel 份文档的机密性和真实性至关重要，尤其是在公司、财务和法律环境中。使用包括文字和图像叠加层在内的各种选项自定义水印，这些选项既实用又微妙。其他功能允许根据文档属性和用户定义的条件自动添加水印，从而确保您的水印始终如一且仅在需要时使用。{{ProdShortName}} 与现代 .NET 平台兼容，并支持高级 Excel 功能。"
+    },
+    "formats": {
+      "title": "使用 C# 在 {{FileFormatUp}} 中实现水印",
+      "description": "部署 .NET C# 以高效地向 {{FileFormatUp}} 文件添加高级安全水印，从而保护您的专业 Excel 数据。"
+    }
+  }
+}

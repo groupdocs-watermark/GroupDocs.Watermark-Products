@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Rimuovi la filigrana dell'immagine nel documento {{FileFormatUp}}",
+    "comment_2": "Crea un'istanza di Watermarker che passa il documento {{FileFormatUp}}",
+    "comment_3": "Rimuovi le filigrane che sono state trovate nel documento",
+    "comment_4": "Salva il documento"
+  },
+  "steps": {
+    "title": "Rimuovi le filigrane a livello di codice dai documenti {{FileformatCap}} usando {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** consente agli {{EnvName}} sviluppatori di rimuovere programmaticamente le filigrane da vari documenti {{FileformatCap}}. Questa guida illustra il processo:",
+      "step_1": "**Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.",
+      "step_2": "**SearchCriteria** per identificare le filigrane specifiche da rimuovere. Questo oggetto consente il filtraggio delle filigrane in base alle proprietà precedentemente incorporate nel documento. È possibile utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione per una ricerca altamente granulare.",
+      "step_3": "Una volta completata la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di eseguire l'operazione di rimozione.",
+      "step_4": "Al termine della rimozione della filigrana, persiste il documento modificato. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream."
+    }
+  },
+  "more_features": {
+    "title": "Rimozione avanzata della filigrana con l'API {{ProgLang}} {{EnvName}} | {{ProdShortName}}",
+    "description": "Sblocca funzionalità avanzate di rimozione della filigrana con la nostra API {{ProgLang}} {{EnvName}}. Progettata per una perfetta integrazione con le applicazioni {{EnvName}}, questa API facilita la rimozione delle filigrane dai PDF e dai documenti Office, garantendo output non contrassegnati di alta qualità per uso professionale.",
+    "image_description": "Rimuovi filigrana",
+    "feature_1": {
+      "title": "Rimozione precisa della filigrana in {{EnvName}}",
+      "content": "La nostra API {{ProgLang}} è progettata per fornire una rimozione precisa della filigrana, garantendo che i documenti mantengano la qualità e il formato originali. Ideale per documenti legali, didattici e professionali in cui la chiarezza e l'autenticità sono fondamentali."
+    },
+    "feature_2": {
+      "title": "Eliminazione automatica della filigrana per {{ProgLang}}",
+      "content": "Migliora l'efficienza della tua applicazione con funzionalità di eliminazione automatica delle filigrane. La nostra API consente l'elaborazione di numerosi batch di documenti, facilitando operazioni su larga scala senza compromettere le prestazioni."
+    },
+    "feature_3": {
+      "title": "Modifica e cancella le filigrane in modo dinamico",
+      "content": "Ottieni la flessibilità necessaria per modificare dinamicamente o rimuovere completamente le filigrane in base alle esigenze della tua applicazione. Questa funzionalità supporta varie opzioni di personalizzazione, consentendo a {{EnvName}} sviluppatori di mantenere l'estetica e l'integrità dei documenti in base a requisiti diversi."
+    },
+    "code_1": {
+      "title": "rimozione della filigrana dello sfondo della presentazione",
+      "content": "Questo esempio mostra come rimuovere l'immagine di sfondo di una particolare diapositiva.",
+      "comment_1": "Carica presentazione",
+      "comment_2": "Ottieni i contenuti delle presentazioni",
+      "comment_3": "Rimuovere la filigrana di sfondo della diapositiva",
+      "comment_4": "Salva documento"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Rimozione avanzata della filigrana {{FileFormatUp}} con {{ProgLang}} {{EnvName}}",
+      "description": "Elimina facilmente le filigrane dai documenti {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo file puliti e dall'aspetto professionale."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} per l'eliminazione della filigrana {{FileFormatUp}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per eliminare o modificare efficacemente le filigrane nei file {{FileFormatUp}}, ideale per mantenere una formattazione incontaminata dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti affidabili per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche complesse, questa API consente agli sviluppatori di mantenere l'estetica e l'integrità dei documenti, soddisfacendo le esigenze aziendali, legali e accademiche."
+    },
+    "formats": {
+      "title": "Gestione completa della rimozione della filigrana dei file {{FileFormatUp}} con {{EnvName}}",
+      "description": "Scopri le funzionalità dell'API {{ProdFullName}} {{ProgLang}} per gestire e rimuovere le filigrane dai file {{FileFormatUp}}, migliorando la sicurezza e la presentazione dei documenti senza compromettere la qualità."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Rimozione efficiente della filigrana {{FileFormatUp}} con {{ProgLang}} {{EnvName}}",
+      "description": "Rimuovi le filigrane dai documenti {{FileFormatUp}} senza problemi utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo file puliti e dall'aspetto professionale."
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} per la gestione della filigrana {{FileFormatUp}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per eliminare o modificare efficacemente le filigrane nei file {{FileFormatUp}}, ideale per mantenere una formattazione incontaminata dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} Scarica"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti affidabili per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche complesse, questa API consente agli sviluppatori di mantenere l'estetica e l'integrità dei documenti, soddisfacendo le esigenze aziendali, legali e accademiche."
+    },
+    "formats": {
+      "title": "Gestione completa della rimozione della filigrana dei file {{FileFormatUp}} con {{EnvName}}",
+      "description": "Scopri le funzionalità dell'API {{ProdFullName}} {{ProgLang}} per gestire e rimuovere le filigrane dai file {{FileFormatUp}}, migliorando la sicurezza e la presentazione dei documenti senza compromettere la qualità."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Cancella le filigrane nei {{FileFormatUp}} documenti con {{ProgLang}} {{EnvName}}",
+      "description": "Rimuovi in modo efficiente le filigrane dai file {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo documenti professionali e senza difetti."
+    },
+    "header": {
+      "title": "Rimozione delle filigrane nei file {{FileFormatUp}} utilizzando {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per cancellare facilmente le filigrane dai documenti {{FileFormatUp}}, perfetta per mantenere l'integrità e la chiarezza dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito all'indirizzo {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} fornisce potenti strumenti per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche avanzate, questa API offre un controllo preciso sugli elementi della filigrana, assicurando che i {{FileFormatUp}} mantengano la qualità e il layout originali."
+    },
+    "formats": {
+      "title": "Miglioramento di {{FileFormatUp}} con la rimozione della filigrana {{ProgLang}} {{EnvName}}",
+      "description": "Scopri come l'API {{ProdFullName}} {{ProgLang}} può semplificare il processo di rimozione delle filigrane dai file {{FileFormatUp}}, garantendo output di documenti chiari e professionali."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Rimozione della filigrana di presentazione per {{FileFormatUp}}",
+      "description": "Elimina efficacemente le filigrane dallo slideshow di presentazione con l'API {{ProgLang}} {{EnvName}}, garantendo presentazioni chiare e professionali."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Eliminazione della filigrana della presentazione {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per rimuovere efficacemente le filigrane dai file {{FileFormatUp}}, perfetta per mantenere l'integrità e l'appeal visivo delle tue presentazioni.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito del pacchetto {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti completi per la gestione delle filigrane nelle PowerPoint presentazioni. Che tu debba rimuovere, modificare o regolare le filigrane, questa API fornisce un controllo preciso sugli elementi delle diapositive, garantendo presentazioni di qualità professionale per aziende, istruzione e altro ancora."
+    },
+    "formats": {
+      "title": "Miglioramento delle PowerPoint presentazioni con {{ProgLang}} {{EnvName}}",
+      "description": "Scopri come l'API {{ProdFullName}} {{ProgLang}} può aiutarti a gestire e rimuovere le filigrane dai file {{FileFormatUp}}, garantendo presentazioni professionali e di grande impatto."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "API {{ProgLang}} {{EnvName}} per la rimozione della filigrana PowerPoint",
+      "description": "Rimuovi in modo efficiente le filigrane dalle PowerPoint diapositive utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo presentazioni chiare e professionali."
+    },
+    "header": {
+      "title": "Rimuovi {{FileFormatUp}} Watermark usando {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per rimuovere efficacemente le filigrane dai file {{FileFormatUp}}, perfetta per mantenere l'integrità e l'appeal visivo delle tue presentazioni.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti completi per la gestione delle filigrane nelle PowerPoint presentazioni. Che tu debba rimuovere, modificare o regolare le filigrane, questa API fornisce un controllo preciso sugli elementi delle diapositive, garantendo presentazioni di qualità professionale per aziende, istruzione e altro ancora."
+    },
+    "formats": {
+      "title": "Miglioramento delle PowerPoint presentazioni con {{ProgLang}} {{EnvName}}",
+      "description": "Scopri come l'API {{ProdFullName}} {{ProgLang}} può aiutarti a gestire e rimuovere le filigrane dai file {{FileFormatUp}}, garantendo presentazioni professionali e di grande impatto."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} Rimozione della filigrana con {{ProgLang}} {{EnvName}}",
+      "description": "Rimuovi in modo efficiente le filigrane dai documenti {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo file puliti e dall'aspetto professionale."
+    },
+    "header": {
+      "title": "Gestisci le filigrane in {{FileFormatUp}} Docs tramite {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per eliminare o modificare efficacemente le filigrane nei file {{FileFormatUp}}, ideale per mantenere una formattazione incontaminata dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti affidabili per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche complesse, questa API consente agli sviluppatori di mantenere l'estetica e l'integrità dei documenti, soddisfacendo le esigenze aziendali, legali e accademiche."
+    },
+    "formats": {
+      "title": "Gestione completa della rimozione della filigrana dei file {{FileFormatUp}} con {{EnvName}}",
+      "description": "Scopri le funzionalità dell'API {{ProdFullName}} {{ProgLang}} per gestire e rimuovere le filigrane dai file {{FileFormatUp}}, migliorando la sicurezza e la presentazione dei documenti senza compromettere la qualità."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Elimina le filigrane nei Excel {{FileFormatUp}} fogli di calcolo",
+      "description": "Elimina efficacemente le filigrane dai documenti {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo file puliti e dall'aspetto professionale."
+    },
+    "header": {
+      "title": "Rimuovi la filigrana nei fogli di calcolo {{FileFormatUp}} utilizzando {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per eliminare o modificare efficacemente le filigrane nei file {{FileFormatUp}}, ideale per mantenere una formattazione incontaminata dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti affidabili per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche complesse, questa API consente agli sviluppatori di mantenere l'estetica e l'integrità dei documenti, soddisfacendo le esigenze aziendali, finanziarie e di analisi dei dati."
+    },
+    "formats": {
+      "title": "Gestione del file {{FileFormatUp}} con cancellazione della filigrana con {{EnvName}}",
+      "description": "Scopri le funzionalità dell'API {{ProdFullName}} {{ProgLang}} per gestire e rimuovere le filigrane dai file {{FileFormatUp}}, migliorando la sicurezza e la presentazione dei documenti senza compromettere la qualità."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "API {{ProgLang}} {{EnvName}} per la rimozione della filigrana {{FileFormatUp}}",
+      "description": "Rimuovi in modo efficiente le filigrane dai documenti {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} {{EnvName}}, garantendo file puliti e dall'aspetto professionale."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Gestione della filigrana utilizzando {{ProgLang}} {{EnvName}}",
+      "description": "Utilizza l'API {{ProdFullName}} {{ProgLang}} per eliminare o modificare efficacemente le filigrane nei file {{FileFormatUp}}, ideale per mantenere una formattazione incontaminata dei documenti.",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}} {{ProgLang}}",
+      "content": "La libreria {{ProdFullName}} {{ProgLang}} offre strumenti affidabili per la gestione delle filigrane nei documenti {{FileFormatUp}}. Dalle semplici rimozioni alle modifiche complesse, questa API consente agli sviluppatori di mantenere l'estetica e l'integrità dei documenti, soddisfacendo le esigenze aziendali, finanziarie e di analisi dei dati."
+    },
+    "formats": {
+      "title": "Gestione completa della rimozione della filigrana dei file {{FileFormatUp}} con {{EnvName}}",
+      "description": "Scopri le funzionalità dell'API {{ProdFullName}} {{ProgLang}} per gestire e rimuovere le filigrane dai file {{FileFormatUp}}, migliorando la sicurezza e la presentazione dei documenti senza compromettere la qualità."
+    }
+  }
+}

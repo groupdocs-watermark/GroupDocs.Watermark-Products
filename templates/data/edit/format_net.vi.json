@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Chỉnh sửa hình mờ hình ảnh trong {{FileFormatUp}} doc",
+    "comment_2": "Khởi tạo Watermarker bằng tệp nguồn",
+    "comment_3": "Tạo Tiêu chí tìm kiếm cho tìm kiếm hình mờ hình ảnh",
+    "comment_4": "Chỉnh sửa hình mờ hình ảnh",
+    "comment_5": "Lưu kết quả {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Chỉnh sửa hình mờ theo chương trình trong tài liệu {{FileformatCap}} bằng API {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** cung cấp cho {{EnvName}} nhà phát triển một API mạnh mẽ để thao tác hình mờ theo chương trình trong các tài liệu {{FileformatCap}} khác nhau. Hướng dẫn này phác thảo quy trình:",
+      "step_1": "**Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.",
+      "step_2": "**SearchCriteria** để xác định chính xác các hình mờ cụ thể yêu cầu sửa đổi. Đối tượng này cho phép xác định các hình mờ được nhúng trước đó trong tài liệu.",
+      "step_3": "Sau khi thực hiện tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát chi tiết, cho phép bạn sửa đổi các thuộc tính như kích thước, vị trí trang, nội dung văn bản, bảng màu, dữ liệu hình ảnh, v.v.",
+      "step_4": "Sau khi hoàn thành các chỉnh sửa hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng."
+    }
+  },
+  "more_features": {
+    "title": "Tăng cường quy trình làm việc của bạn với Quản lý hình mờ",
+    "description": "Đơn giản hóa hình mờ trên các định dạng tệp đa dạng trong ứng dụng {{EnvName}} của bạn với thư viện mạnh mẽ của chúng tôi. Dễ dàng thêm, chỉnh sửa, tìm kiếm hoặc xóa hình mờ để tăng cường bảo mật tài liệu và xây dựng thương hiệu.",
+    "image_description": "Chỉnh sửa hình mờ liền mạch",
+    "feature_1": {
+      "title": "Hợp lý hóa hình mờ trong các ứng dụng của bạn",
+      "content": "Tận dụng sức mạnh của {{ProdFullName}} để tích hợp liền mạch chức năng hình mờ vào ứng dụng {{EnvName}} của bạn. API trực quan của chúng tôi đơn giản hóa việc tạo, quản lý, tìm kiếm và chỉnh sửa hình mờ, loại bỏ nhu cầu về các quy trình thủ công phức tạp."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh hình mờ dạng hạt",
+      "content": "Giải phóng toàn bộ tiềm năng của tùy chỉnh hình mờ với API toàn diện của chúng tôi. Tinh chỉnh từng chi tiết, bao gồm kích thước, hướng, bảng màu và lựa chọn phông chữ, để tạo hình mờ phù hợp hoàn hảo với yêu cầu bảo mật và thương hiệu của bạn."
+    },
+    "feature_3": {
+      "title": "Khai thác các tính năng cụ thể cho tài liệu để tạo hình mờ linh hoạt",
+      "content": "Mở khóa sức mạnh của các chức năng gốc trong các định dạng tài liệu khác nhau. Sử dụng các yếu tố như nền tài liệu, chú thích, tiêu đề hoặc các đối tượng khác làm hộp chứa hình mờ độc đáo, phục vụ cho các loại tài liệu đa dạng và nhu cầu bảo mật."
+    },
+    "code_1": {
+      "title": "PDF chỉnh sửa hình mờ hình ảnh",
+      "content": "Ví dụ này cho thấy cách chỉnh sửa nội dung hình mờ hình ảnh",
+      "comment_1": "Tải tài liệu dưới dạng PDF",
+      "comment_2": "Tải nội dung",
+      "comment_3": "Chỉnh sửa hình mờ hình ảnh",
+      "comment_4": "Tận hưởng kết quả đầu ra"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Chỉnh sửa hình mờ ở định dạng {{FileformatCap}} một cách dễ dàng",
+      "description": "Chỉnh sửa hình mờ {{FileformatCap}} liền mạch với {{ProdFullName}} API. Tùy chỉnh tài liệu của bạn một cách tự tin và hiệu quả."
+    },
+    "header": {
+      "title": "Chỉnh sửa {{FileformatCap}} Hình mờ với {{EnvName}} một cách dễ dàng",
+      "description": "Đơn giản hóa việc quản lý hình mờ và bảo vệ tài liệu của bạn với {{ProdFullName}} API. Đạt được tính linh hoạt và hiệu quả trong quy trình làm việc của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Khung",
+      "content": "**Chỉnh sửa hình mờ một cách dễ dàng:** Đơn giản hóa việc quản lý hình mờ trên {{FileformatCap}} tài liệu với giải pháp thân thiện với {{EnvName}} của chúng tôi. Tập trung vào nội dung của bạn trong khi đảm bảo bảo mật và tính toàn vẹn của tài liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Quản lý hình mờ một cách dễ dàng ở các định dạng khác",
+      "description": "Đơn giản hóa việc chỉnh sửa hình mờ trên các định dạng tài liệu khác nhau bằng cách sử dụng {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Chỉnh sửa hình mờ trên {{FileformatCap}} tệp",
+      "description": "Chỉnh sửa hình mờ trên {{FileformatCap}} tệp với {{ProdFullName}} Ứng dụng. Nâng cao tính xác thực tài liệu một cách dễ dàng."
+    },
+    "header": {
+      "title": "Chỉnh sửa {{FileformatCap}} Hình mờ trên các tệp: {{EnvName}} Tính linh hoạt",
+      "description": "Tùy chỉnh tài liệu của bạn một cách tự tin bằng cách sử dụng {{ProdFullName}} Ứng dụng. Chỉnh sửa hình mờ trên các định dạng tệp khác nhau một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Chỉnh sửa hình mờ trên {{FileformatCap}} tệp:** Chỉnh sửa hình mờ liền mạch trên các định dạng tệp khác nhau với {{ProdFullName}} Ứng dụng. Tùy chỉnh tài liệu của bạn một cách tự tin và hiệu quả."
+    },
+    "formats": {
+      "title": "Chỉnh sửa hình mờ trên các tệp",
+      "description": "Chỉnh sửa hình mờ liền mạch trên nhiều định dạng tệp với các ứng dụng được cung cấp bởi {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Chỉnh sửa hình mờ {{FileformatCap}} với {{ProdShortName}}",
+      "description": "Chỉnh sửa hình mờ {{FileformatCap}} trong tệp {{FileformatCap}} bằng cách sử dụng {{ProdFullName}} Framework. Thích ứng với nhu cầu tài liệu của bạn một cách dễ dàng."
+    },
+    "header": {
+      "title": "Chỉnh sửa hình mờ trong {{FileformatCap}}: {{EnvName}} Khả năng thích ứng",
+      "description": "Thích ứng với nhu cầu tài liệu của bạn một cách liền mạch với {{ProdFullName}} Framework. Chỉnh sửa hình mờ trên nhiều định dạng một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}} Giải pháp",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Giải pháp",
+      "content": "**Chỉnh sửa hình mờ trong PDF s:** Bảo vệ nội dung của bạn trên nhiều định dạng với {{ProdFullName}} Framework. Thích ứng với nhu cầu tài liệu của bạn một cách liền mạch với các công cụ đa năng của chúng tôi."
+    },
+    "formats": {
+      "title": "Điều chỉnh hình mờ ở nhiều định dạng",
+      "description": "Bảo vệ nội dung của bạn trên các định dạng tài liệu khác nhau với {{ProdFullName}} Framework."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Chỉnh sửa hình mờ {{FileformatCap}} dễ dàng",
+      "description": "Cập nhật hình mờ {{FileformatCap}} dễ dàng với Thư viện {{ProdFullName}}. Duy trì tính toàn vẹn và bảo mật tài liệu một cách liền mạch."
+    },
+    "header": {
+      "title": "Chỉnh sửa hình mờ {{FileformatCap}} dễ dàng: {{EnvName}} Điều khiển",
+      "description": "Duy trì tính toàn vẹn và bảo mật tài liệu một cách dễ dàng với Thư viện {{ProdFullName}}. Chỉnh sửa hình mờ với độ chính xác và kiểm soát.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Tải xuống từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thư viện",
+      "content": "**Chỉnh sửa {{FileformatCap}} Hình mờ dễ dàng:** Duy trì tính toàn vẹn và bảo mật tài liệu một cách dễ dàng với Thư viện {{ProdFullName}} .NET. Chỉnh sửa hình mờ trên các loại tệp khác nhau với độ chính xác và kiểm soát."
+    },
+    "formats": {
+      "title": "Cập nhật hình mờ dễ dàng ở các định dạng khác",
+      "description": "Duy trì tính toàn vẹn và bảo mật tài liệu một cách dễ dàng với Thư viện {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Chỉnh sửa {{FileformatCap}} Giải pháp hình mờ ",
+      "description": "Chỉnh sửa hình mờ {{FileformatCap}} theo yêu cầu của bạn với Giải pháp {{ProdFullName}}. Nâng cao các tập tin của bạn với độ chính xác."
+    },
+    "header": {
+      "title": "Giải pháp {{EnvName}} linh hoạt cho chỉnh sửa hình mờ {{FileformatCap}}",
+      "description": "Chỉnh sửa hình mờ của bạn với giải pháp {{ProdFullName}} của chúng tôi để đáp ứng các yêu cầu cụ thể của bạn. Nâng cao tài liệu kinh doanh của bạn một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} CÁ",
+      "content": "**Chỉnh sửa {{FileformatCap}} Hình mờ trong Giải pháp của bạn:** Điều chỉnh các giải pháp hình mờ theo yêu cầu cụ thể của bạn với {{ProdFullName}} Nhà phát triển. Tăng cường sự hiện diện thương hiệu của bạn đồng thời đảm bảo bảo mật tài liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Tailor Watermark ở các định dạng khác",
+      "description": "Chỉnh sửa hình mờ trong các giải pháp của bạn để đáp ứng các yêu cầu cụ thể của bạn với {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Chỉnh sửa hình mờ trong {{FileformatCap}} Tài liệu",
+      "description": "Đạt được thương hiệu tài liệu {{FileformatCap}} đẹp mắt với {{ProdFullName}} SDK. Chỉnh sửa hình mờ của bạn đảm bảo an ninh."
+    },
+    "header": {
+      "title": "Chỉnh sửa hình mờ được đánh bóng {{FileformatCap}}: {{EnvName}} Sự tinh tế",
+      "description": "Đạt được thương hiệu tài liệu tinh vi với {{ProdFullName}} SDK. Chỉnh sửa hình mờ tài liệu của bạn một cách chính xác và tự tin.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Chỉnh sửa hình mờ được đánh bóng:** Đạt được thương hiệu tài liệu {{FileformatCap}} tinh vi với {{ProdFullName}} SDK. Đánh bóng tài liệu của bạn với độ chính xác và tự tin, đảm bảo tính nhất quán và bảo vệ thương hiệu."
+    },
+    "formats": {
+      "title": "Xử lý định dạng khác",
+      "description": "Chỉnh sửa hình mờ tài liệu theo những cách tinh vi với {{ProdFullName}} SDK."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Sắp xếp hợp lý {{FileformatCap}} Chỉnh sửa hình mờ",
+      "description": "Hợp lý hóa việc chỉnh sửa hình mờ {{FileformatCap}} trong dự án {{EnvName}} của bạn với {{ProdShortName}}. Tập trung vào nội dung của bạn."
+    },
+    "header": {
+      "title": "Sắp xếp hợp lý {{FileformatCap}} Chỉnh sửa hình mờ: {{EnvName}} Tối ưu hóa",
+      "description": "Chỉnh sửa và tối ưu hóa hình mờ của bạn trong {{EnvName}} dự án với {{ProdShortName}}. Hợp lý hóa quy trình làm việc của bạn và tập trung vào nội dung của bạn một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}} Giải pháp",
+      "action_title": "Tải xuống miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Chỉnh sửa {{FileformatCap}} Hình mờ:** Tối ưu hóa kiểm soát hình mờ của bạn trong {{EnvName}} dự án với {{ProdShortName}}. Đơn giản hóa quy trình làm việc của bạn và tập trung vào nội dung của bạn trong khi đảm bảo bảo mật tài liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Điều khiển hình mờ hợp lý ở các định dạng khác",
+      "description": "Tối ưu hóa kiểm soát hình mờ của bạn trong {{EnvName}} dự án với {{ProdShortName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Giải pháp chỉnh sửa hình mờ an toàn {{FileformatCap}}",
+      "description": "Đảm bảo chỉnh sửa hình mờ {{FileformatCap}} an toàn với {{ProdFullName}} Component. Bảo vệ nội dung và thương hiệu của bạn một cách tự tin."
+    },
+    "header": {
+      "title": "Bảo mật {{FileformatCap}} Chỉnh sửa hình mờ: {{EnvName}} Đảm bảo",
+      "description": "Đảm bảo bảo mật tài liệu và bảo vệ thương hiệu với {{ProdFullName}} Component. Chỉnh sửa hình mờ của bạn một cách an toàn với sự đảm bảo.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Giải pháp",
+      "content": "**{{FileformatCap}} Công cụ chỉnh sửa hình mờ:** Tối ưu hóa chỉnh sửa hình mờ của bạn trong {{EnvName}} dự án với {{ProdShortName}}. Đơn giản hóa quy trình kinh doanh của bạn và tập trung vào nội dung của bạn trong khi đảm bảo bảo mật tài liệu một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Các định dạng khác Chỉnh sửa hình mờ",
+      "description": "Đảm bảo bảo mật tài liệu và bảo vệ thương hiệu với {{ProdFullName}} Component."
+    }
+  }
+}

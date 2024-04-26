@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "ウォーターマーク Excel",
+        "description": "MS Excel とオープンオフィススプレッドシート"
+      },
+      "word": {
+        "name": "ウォーターマーク Word",
+        "description": "MS Word とオープンオフィス文書"
+      },
+      "powerpoint": {
+        "name": "ウォーターマーク PowerPoint",
+        "description": "MS PowerPoint とオープンオフィスプレゼンテーション"
+      },
+      "image": {
+        "name": "ウォーターマーク画像",
+        "description": "人気の画像フォーマット"
+      },
+      "photo": {
+        "name": "ウォーターマーク写真",
+        "description": "写真フォーマット"
+      },
+      "pdf": {
+        "name": "ウォーターマーク PDF",
+        "description": "アドビ Portable ドキュメントフォーマット"
+      },
+      "doc": {
+        "name": "ウォーターマーク DOC",
+        "description": "マイクロソフト Word 97-2007 ドキュメント"
+      },
+      "docx": {
+        "name": "ウォーターマーク DOCX",
+        "description": "マイクロソフト Word XML ドキュメントを開く"
+      },
+      "xls": {
+        "name": "ウォーターマーク XLS",
+        "description": "マイクロソフト Excel ワークブック 97-2003"
+      },
+      "xlsx": {
+        "name": "ウォーターマーク XLSX",
+        "description": "マイクロソフト Excel オープン XML スプレッドシート"
+      },
+      "ppt": {
+        "name": "ウォーターマーク PPT",
+        "description": "PowerPoint プレゼンテーション 97-2003"
+      },
+      "pptx": {
+        "name": "ウォーターマーク PPTX",
+        "description": "PowerPoint XML プレゼンテーションを開く"
+      },
+      "jpeg": {
+        "name": "ウォーターマーク JPEG",
+        "description": "JPEG イメージ"
+      },
+      "png": {
+        "name": "ウォーターマーク PNG",
+        "description": "Portable ネットワークグラフィック"
+      },
+      "tiff": {
+        "name": "ウォーターマーク TIFF",
+        "description": "タグ画像ファイル形式"
+      },
+      "webp": {
+        "name": "ウォーターマーク WEBP",
+        "description": "ウェブ画像"
+      },
+      "rtf": {
+        "name": "ウォーターマーク RTF",
+        "description": "リッチテキスト形式"
+      }
+    },
+    "format-code": {
+      "copy_title": "[コピー]",
+      "copy_tip": "クリックしてコピー",
+      "copy_done": "コピーされました",
+      "links": {
+        "title_1": "その他の例",
+        "title_2": "ドキュメンテーション"
+      }
+    },
+    "format-actions": {
+      "title": "始める準備はできましたか?",
+      "description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
+      "comment_1": "{{PackageStoreName}} ダウンロード",
+      "comment_2": "ライセンス"
+    },
+    "texts": {
+      "learn_more": "さらに詳しく"
+    }
+  }
+}

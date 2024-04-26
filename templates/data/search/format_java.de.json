@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Suche nach Bild-Wasserzeichen in {{FileFormatUp}} -Dokument",
+    "comment_2": "Dokument mit Wasserzeichen verfassen, das {{FileFormatUp}} übergibt",
+    "comment_3": "Suche nach Wasserzeichen nach Bild-Hash",
+    "comment_4": "Gefundene Wasserzeichen verarbeiten"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} Suche nach Wasserzeichen über {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** vereinfacht das Auffinden von Wasserzeichen in Geschäftsdokumenten. Installieren Sie unser Paket in Ihren {{EnvName}} Anwendungen, um die Vorteile zu nutzen.",
+      "step_1": "**Watermarker**. Sie können einen Dateipfad, einen Dateistream oder einen Bytestream angeben.",
+      "step_2": "**SearchCriteria**, um die Liste potenzieller Wasserzeichen einzugrenzen. Geben Sie beispielsweise ein Bild an, um nach ähnlichen Bildwasserzeichen zu suchen. Wenn Sie nach Textwasserzeichen suchen, geben Sie Text, Schriftart, Farbe und andere relevante Optionen an.",
+      "step_3": "**Search**-Methode des **Watermarker**-Objekts verwenden. Sie erhalten eine Sammlung von Objekten, die potenzielle Wasserzeichen zur weiteren Verarbeitung darstellen.",
+      "step_4": "Schließlich haben Sie die Freiheit, die Suchergebnisse nach Bedarf zu manipulieren. Sie können gefundene Wasserzeichen löschen oder ihre Eigenschaften bearbeiten, z. B. Größe oder Text ändern."
+    }
+  },
+  "more_features": {
+    "title": "Optimieren Sie die Wasserzeichensuche in Dokumenten mit der {{ProdShortName}} API",
+    "description": "Meistern Sie die Kunst der Wasserzeichensuche in jedem Dokument mithilfe von Java mit der leistungsstarken {{ProdShortName}} -API in der {{EnvName}} -Umgebung.",
+    "image_description": "Java Suche nach Wasserzeichen",
+    "feature_1": {
+      "title": "Java Tools für eine robuste Wasserzeichensuche",
+      "content": "Erweitern Sie Ihre Funktionen zur Dokumentenverarbeitung in Java mit {{ProdShortName}}. Unsere API bietet umfangreiche Tools zum Suchen und Identifizieren von Wasserzeichen anhand mehrerer Parameter."
+    },
+    "feature_2": {
+      "title": "Punktgenaues Abrufen von Wasserzeichen mit Java",
+      "content": "Zielt auf bestimmte Wasserzeichen mit einer Genauigkeit in Java ab. Konfigurieren Sie Ihre Suche so, dass Sie nach Merkmalen wie Größe, Datum und Inhalt filtern, um sicherzustellen, dass Sie genau das finden, was Sie benötigen."
+    },
+    "feature_3": {
+      "title": "Umfassende Wasserzeichenanalyse",
+      "content": "Nutzen Sie Java, um gründliche Analysen der gefundenen Wasserzeichen durchzuführen. Verwenden Sie {{ProdShortName}}, um Wasserzeichen effektiv zu bewerten und zu verwalten und so die Sicherheits- und Compliance-Maßnahmen in Ihren Dokumenten zu verbessern."
+    },
+    "code_1": {
+      "title": "Java Beispiel: Dynamische Wasserzeichensuche",
+      "content": "Dieses Beispiel zeigt die Verwendung von Java mit {{ProdShortName}} für die dynamische Suche nach Wasserzeichen in Dokumenten und veranschaulicht, wie Suchergebnisse programmgesteuert behandelt werden.",
+      "comment_1": "Initialisieren Sie die Java -Umgebung und bereiten Sie das Laden von Dokumenten vor",
+      "comment_2": "Konfigurieren Sie Suchfilter auf der Grundlage dynamischer benutzerdefinierter Kriterien",
+      "comment_3": "Führen Sie die Wasserzeichensuche mit der Java -API aus",
+      "comment_4": "Behandeln und verarbeiten Sie die Suchergebnisse und bereiten Sie sich auf weitere Aktionen oder Berichte vor"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Discover {{FileFormatUp}} Watermark Search: Eine bahnbrechende Neuerung",
+      "description": "Entdecken Sie das bahnbrechende Potenzial der erweiterten Suchfunktionen von G {{ProdFullName}} für die Verwaltung von Wasserzeichen in verschiedenen Dokumenttypen."
+    },
+    "header": {
+      "title": "Maximieren Sie die Effizienz mit der Wasserzeichensuche in {{FileFormatUp}} Dokumenten",
+      "description": "Optimieren Sie Ihre Workflow-Effizienz mit {{ProdFullName}} innovativen Wasserzeichen-Suchfunktionen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} Paket kostenlos"
+    },
+    "about": {
+      "title": "Informationen abrufen {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine robuste Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können mühelos Wasserzeichen in gängigen Dateiformaten erstellen, bearbeiten, suchen und aus Dokumenten entfernen. Es unterstützt sowohl Text- als auch Bildwasserzeichen in verschiedenen Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Verbessern Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Mit den erweiterten Funktionen von {{ProdFullName}} können Sie Wasserzeichen in verschiedenen Dateiformaten suchen und verwalten."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Entdecken Sie das Potenzial der {{FileFormatUp}} Wasserzeichensuche",
+      "description": "Erfahren Sie, wie {{ProdFullName}} robuste Suchfunktionen die Verwaltung von Wasserzeichen in einer Vielzahl von Dokumentenformaten revolutionieren."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Dokumente, Funktionen zur Suche nach Wasserzeichen freischalten",
+      "description": "Schöpfen Sie das volle Potenzial der {{ProdFullName}} Suchfunktionen aus, um Ihren Wasserzeichenverwaltungsprozess zu optimieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informationen",
+      "content": "{{ProdFullName}} bietet eine umfassende Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können problemlos Wasserzeichen aus Dokumenten in verschiedenen Dateiformaten erstellen, bearbeiten, suchen und entfernen. Es unterstützt Text- und Bildwasserzeichen in einer Vielzahl von Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} ist mit allen gängigen Betriebssystemen und {{EnvName}} Versionen kompatibel."
+    },
+    "formats": {
+      "title": "Revolutionieren Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Revolutionieren Sie Ihren Arbeitsablauf, indem Sie {{ProdFullName}} erweiterte Suchfunktionen für die Verwaltung von Wasserzeichen in verschiedenen Dateiformaten nutzen."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Ermöglichen Sie die {{FileFormatUp}} -Verarbeitung mit der Wasserzeichensuche",
+      "description": "Ermöglichen Sie es Ihnen mit {{ProdFullName}}, Wasserzeichen in verschiedenen Dokumentformaten effizient zu suchen und zu verwalten."
+    },
+    "header": {
+      "title": "Steigern Sie die Produktivität mit der Wasserzeichensuche in {{FileFormatUp}} Dokumenten",
+      "description": "Steigern Sie Ihre Produktivität, indem Sie {{ProdFullName}} leistungsstarke Suchfunktionen für die {{FileFormatUp}} Wasserzeichenverwaltung nutzen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Holen Sie sich von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine robuste Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können mühelos Wasserzeichen in gängigen Dateiformaten erstellen, bearbeiten, suchen und aus Dokumenten entfernen. Es unterstützt sowohl Text- als auch Bildwasserzeichen in verschiedenen Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Optimieren Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Optimieren Sie Ihren Arbeitsablauf mit {{ProdFullName}} erweiterten Suchfunktionen für die Verwaltung von Wasserzeichen in verschiedenen Dateiformaten."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Verbessern Sie Ihren Arbeitsablauf mit der {{FileFormatUp}} Wasserzeichensuche",
+      "description": "Verbessern Sie Ihren Dokumentenmanagement-Workflow mit {{ProdFullName}} leistungsstarken Suchfunktionen für die Verwaltung von Wasserzeichen in verschiedenen Dateiformaten."
+    },
+    "header": {
+      "title": "Entdecken Sie die erweiterte Wasserzeichensuche in {{FileFormatUp}} Präsentationen",
+      "description": "Entdecken Sie die erweiterten Funktionen der {{ProdFullName}} Suchfunktionen, um Ihren Wasserzeichenverwaltungsprozess zu optimieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} -Paket herunterladen"
+    },
+    "about": {
+      "title": "Basisinformationen zu {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine umfassende Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können problemlos Wasserzeichen aus Dokumenten in verschiedenen Dateiformaten erstellen, bearbeiten, suchen und entfernen. Es unterstützt Text- und Bildwasserzeichen in einer Vielzahl von Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} ist mit allen gängigen Betriebssystemen und {{EnvName}} Versionen kompatibel."
+    },
+    "formats": {
+      "title": "Optimieren Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Optimieren Sie Ihren Arbeitsablauf mit {{ProdFullName}} erweiterten Suchfunktionen zur Verwaltung von Wasserzeichen in verschiedenen Dateiformaten."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Entdecken Sie das Potenzial der {{FileFormatUp}} Wasserzeichensuche",
+      "description": "Entdecken Sie die Leistungsfähigkeit der erweiterten Suchfunktionen von {{ProdFullName}}, um Wasserzeichen in einer Vielzahl von Dokumentformaten effizient zu verwalten."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Funktionen zur Suche nach Wasserzeichen für Präsentationen freischalten",
+      "description": "Schöpfen Sie das volle Potenzial der {{ProdFullName}} Suchfunktionen aus, um Ihren Wasserzeichenverwaltungsprozess zu optimieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos {{PackageStoreName}} Herunterladen"
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine robuste Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können mühelos Wasserzeichen in gängigen Dateiformaten erstellen, bearbeiten, suchen und aus Dokumenten entfernen. Es unterstützt sowohl Text- als auch Bildwasserzeichen in verschiedenen Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Verbessern Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Ermöglichen Sie es Ihnen mit {{ProdFullName}}, Wasserzeichen in verschiedenen Dokumentformaten effizient zu suchen und zu verwalten."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Entdecke {{FileFormatUp}} Dokumente Wasserzeichensuche",
+      "description": "Entdecken Sie die Essenz der leistungsstarken {{ProdFullName}} Suchfunktionen für ein effektives Wasserzeichenmanagement für verschiedene Dokumenttypen."
+    },
+    "header": {
+      "title": "Empowern Sie den Wasserzeichen-Suchvorgang für {{FileFormatUp}} Dokumente",
+      "description": "Schöpfen Sie das volle Potenzial der {{ProdFullName}} Suchfunktionen aus, um Ihren Wasserzeichenverwaltungsprozess zu optimieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} Paket kostenlos"
+    },
+    "about": {
+      "title": "Erfahre mehr über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine robuste Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können mühelos Wasserzeichen in gängigen Dateiformaten erstellen, bearbeiten, suchen und aus Dokumenten entfernen. Es unterstützt sowohl Text- als auch Bildwasserzeichen in verschiedenen Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Verbessern Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Ermöglichen Sie es Ihnen mit {{ProdFullName}}, Wasserzeichen in verschiedenen Dokumentformaten effizient zu suchen und zu verwalten."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Optimieren Sie Ihre {{FileFormatUp}} Tabellenkalkulationssuche nach Wasserzeichen",
+      "description": "Verbessern Sie Ihren Dokumentenmanagement-Workflow mit der erweiterten {{ProdFullName}} Suche für effizientes Wasserzeichenmanagement in verschiedenen Dateiformaten."
+    },
+    "header": {
+      "title": "Entdecken Sie die erweiterte Wasserzeichensuche in {{FileFormatUp}} Tabellen",
+      "description": "Entdecken Sie die erweiterten Funktionen der {{ProdFullName}} Suchfunktionen, um Ihren Wasserzeichenverwaltungsprozess zu optimieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos unter {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "Informationen abrufen {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine robuste Lösung für die Wasserzeichenverwaltung mit {{EnvName}}. Entwickler können mühelos Wasserzeichen in gängigen Dateiformaten erstellen, bearbeiten, suchen und aus Dokumenten entfernen. Es unterstützt sowohl Text- als auch Bildwasserzeichen in verschiedenen Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Optimieren Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Optimieren Sie Ihren Arbeitsablauf mit {{ProdFullName}} erweiterten Suchfunktionen zur Verwaltung von Wasserzeichen in verschiedenen Dateiformaten."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Tabellenkalkulationsverarbeitung mit Wasserzeichensuche",
+      "description": "Maximieren Sie Ihre Effizienz, indem Sie {{ProdFullName}} erweiterte Suchfunktionen für die Verwaltung von Wasserzeichen in verschiedenen Dokumentformaten nutzen."
+    },
+    "header": {
+      "title": "Entfessle das Potenzial der Wasserzeichensuche für {{FileFormatUp}} Tabellen",
+      "description": "Schöpfen Sie das volle Potenzial der {{ProdFullName}} Suchfunktionen aus, um Ihren Wasserzeichen-Management-Prozess zu revolutionieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Holen Sie sich von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informationen",
+      "content": "{{ProdFullName}} ist eine innovative Lösung für das Wasserzeichenmanagement mit {{EnvName}}. Entwickler können mühelos Wasserzeichen aus Dokumenten in verschiedenen Dateiformaten erstellen, bearbeiten, suchen und entfernen. Es unterstützt Text- und Bildwasserzeichen in einer Vielzahl von Dokumenttypen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. {{ProdFullName}} lässt sich nahtlos in alle gängigen Betriebssysteme und {{EnvName}} Versionen integrieren."
+    },
+    "formats": {
+      "title": "Verbessern Sie Ihren Arbeitsablauf mit der Wasserzeichensuche",
+      "description": "Verbessern Sie Ihren Dokumentenmanagement-Workflow mit {{ProdFullName}} leistungsstarken Suchfunktionen für die Verwaltung von Wasserzeichen in verschiedenen Dateiformaten."
+    }
+  }
+}

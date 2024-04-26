@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Bild {{FileFormatUp}} Wasserzeichen aktualisieren",
+    "comment_2": "Watermarker für {{FileFormatUp}} -Datei verfassen",
+    "comment_3": "Verwenden Sie SearchCriteria, um ein bestimmtes Bild zu finden",
+    "comment_4": "Bildinhalt aktualisieren",
+    "comment_5": "Aktualisierte Datei speichern"
+  },
+  "steps": {
+    "title": "Dynamische Wasserzeichenbearbeitung für {{FileFormatUp}} in {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** bietet {{EnvName}} Entwicklern eine leistungsstarke API zum Bearbeiten von Wasserzeichen in verschiedenen {{FileFormatUp}} Dokumenten. Hier finden Sie eine umfassende Anleitung zur Optimierung Ihres Workflows:",
+      "step_1": "**Starten Sie den Prozess:** Geben Sie zunächst Ihre {{FileFormatUp}} -Datei als Argument für den Klassenkonstruktor **Watermarker** an. Je nach Ihren Anforderungen kann die Datei entweder als Stream oder von einem lokalen Festplattenspeicherort bezogen werden.",
+      "step_2": "**Pinpoint Watermarks:** Verwenden Sie das Objekt **SearchCriteria**, um die Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses vielseitige Tool ermöglicht die gezielte Auswahl von Wasserzeichen auf der Grundlage bestimmter Eigenschaften.",
+      "step_3": "**Präzise verfeinern:** Nach erfolgreicher Ausführung der Suche erhalten Sie Zugriff auf eine Sammlung relevanter Wasserzeichen. Genießen Sie die detaillierte Kontrolle über jedes Element und die Möglichkeit, Abmessungen, Seitenpositionierung, Textinhalt, Farbe, Bilddaten und mehr zu aktualisieren.",
+      "step_4": "**Nahtlose Persistenz:** Sobald die Wasserzeichenaktualisierungen abgeschlossen sind, speichern Sie das geänderte Dokument sicher. Die API bietet flexible Speicheroptionen, sodass Sie es in einem lokalen Dateipfad oder als Stream-Objekt speichern können."
+    }
+  },
+  "more_features": {
+    "title": "Tauchen Sie ein in das Hinzufügen von Wasserzeichen",
+    "description": "API zum Rendern, Anzeigen, Konvertieren von Dokumenten, Folien, Diagrammen und vielen anderen Dokumenttypen in .NET Anwendungen",
+    "image_description": "Wasserzeichen hinzufügen",
+    "feature_1": {
+      "title": "Bearbeiten Sie mühelos Wasserzeichen in PDF s",
+      "content": "{{ProdShortName}} bietet in {{EnvName}} robuste Tools zur nahtlosen Bearbeitung vorhandener Wasserzeichen in PDF Dokumenten. Passen Sie Position, Transparenz und mehr mühelos an."
+    },
+    "feature_2": {
+      "title": "Verfeinern Sie die Wasserzeichendetails für Präzision",
+      "content": "Übernimm die Kontrolle über die Details. Unsere API ermöglicht es Ihnen, das Aussehen von Wasserzeichen zu optimieren, sodass Größe, Opazität und Farbe Ihrer PDF s präzise geändert werden können."
+    },
+    "feature_3": {
+      "title": "Optimiertes Wasserzeichenmanagement",
+      "content": "Unsere API vereinfacht die Verwaltung von Wasserzeichen. Ganz gleich, ob Sie Wasserzeichen aktualisieren oder entfernen, Sie können Wasserzeichen effizient verwalten und dabei die Integrität Ihrer Dokumente wahren und gleichzeitig Ihren Branding-Anforderungen gerecht werden."
+    },
+    "code_1": {
+      "title": "Inhalt des Präsentationswasserzeichens aktualisieren",
+      "content": "Dieses Beispiel zeigt, wie der Textinhalt von Präsentationswasserzeichen aktualisiert wird.",
+      "comment_1": "Laden Sie das PDF -Dokument zur Verarbeitung",
+      "comment_2": "Suchen Sie nach bestimmten Wasserzeichen, die Ihren Kriterien entsprechen",
+      "comment_3": "Bearbeiten Sie die Einstellungen des Wasserzeichens, wie Größe, Farbe und Position",
+      "comment_4": "Speichern Sie das aktualisierte Dokument auf einem lokalen System oder streamen Sie es direkt"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Streamline {{FileFormatUp}} Aktualisierung des Wasserzeichens",
+      "description": "Rationalisieren Sie den Prozess der Aktualisierung von Wasserzeichen in {{FileFormatUp}} Dokumenten durch die {{ProdFullName}} -Bibliothek."
+    },
+    "header": {
+      "title": "Effiziente Wasserzeichen-Aktualisierung für {{FileFormatUp}} Dokumente",
+      "description": "Vereinfachen und beschleunigen Sie die Aktualisierung von Wasserzeichen mit {{ProdFullName}}. Sorgen Sie mit einer Reihe von Wasserzeichen für die Sicherheit Ihrer Unternehmensdateien. Ändern Sie Wasserzeicheneigenschaften wie Größe, Ausrichtung, Drehwinkel und Platzierung mühelos.",
+      "subtitle": "{{ProdFullName}} Lösung",
+      "action_title": "Von {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Funktionen",
+      "content": "{{ProdFullName}} bietet effiziente Tools, um den Prozess der Aktualisierung von Wasserzeichen in Dokumenten zu optimieren. Mit dieser fortschrittlichen Lösung können Entwickler Wasserzeichen in verschiedenen Dateiformaten, einschließlich PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformaten, problemlos aktualisieren und ändern. {{ProdShortName}} unterstützt alle gängigen Betriebssysteme und {{EnvName}} Versionen."
+    },
+    "formats": {
+      "title": "Optimieren Sie die Aktualisierung von Wasserzeichen in unterstützten Formaten",
+      "description": "Vereinfachen Sie die Verarbeitung von Wasserzeichen in gängigen Formaten wie PDF, Word, Excel und mehr mit {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Wasserzeichen in {{FileFormatUp}} nahtlos aktualisieren",
+      "description": "Aktualisieren Sie Wasserzeichen in {{FileFormatUp}} Dokumenten nahtlos mit {{ProdFullName}}. Installieren Sie unsere Bibliothek in Ihrer Anwendung."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Dokumenten verarbeiten",
+      "description": "Passen Sie Wasserzeichen mühelos mit {{ProdFullName}} präzise an. Schützen Sie die Vertraulichkeit Ihrer Unternehmensdokumente, indem Sie verschiedene Wasserzeichen anbringen. Passen Sie die Funktionen des Wasserzeichens wie Größe, Ausrichtung, Drehwinkel und Position an Ihre Vorgaben an.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "Kostenloser Download unter {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Untersuchen {{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Entwicklern, Wasserzeichen in {{FileFormatUp}} Dokumenten mühelos zu aktualisieren. Dieses leistungsstarke Tool ermöglicht die präzise Anpassung von Wasserzeichen in verschiedenen Dateiformaten, einschließlich PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformaten. {{ProdFullName}} kann auf vielen gängigen Plattformen verwendet werden."
+    },
+    "formats": {
+      "title": "Wasserzeichen für andere Formate aktualisieren",
+      "description": "Passen Sie Wasserzeichen in PDF, Word, Excel und mehr mit {{ProdFullName}} nahtlos an. Viele andere Formate werden unterstützt."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Verbessern Sie mühelos Wasserzeichen in {{FileFormatUp}} Dokumenten",
+      "description": "Aktualisieren Sie Wasserzeichen in {{FileFormatUp}} Dokumenten mühelos über die {{ProdFullName}} API. Sorgen Sie für die Sicherheit Ihrer Dokumente."
+    },
+    "header": {
+      "title": "Mühelos {{FileFormatUp}} Dokument-Wasserzeichen aktualisieren",
+      "description": "Erhöhen Sie mit {{FileFormatUp}} mühelos die Qualität von Wasserzeichen. Verbessern Sie den Schutz Ihrer Geschäftsmaterialien mit einer Reihe von Wasserzeichen. Passen Sie die Eigenschaften von Wasserzeichen wie Größe, Ausrichtung, Drehwinkel und Position nach Bedarf an.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} Kostenfreier Download"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informationen",
+      "content": "{{ProdFullName}} bietet erweiterte Funktionen, um Wasserzeichen in Dokumenten mühelos zu aktualisieren. Mit diesem Tool können Entwickler das Aussehen und die Sichtbarkeit von Wasserzeichen in verschiedenen Dateiformaten verbessern, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. Alle gängigen Betriebssysteme und {{EnvName}} Versionen werden unterstützt."
+    },
+    "formats": {
+      "title": "Die Aktualisierung von Wasserzeichen ist für viele Formate verfügbar",
+      "description": "Verbessern Sie mühelos Wasserzeichen in PDF, Word, Excel und mehr mit {{ProdFullName}}. Über 50 Dateiformate werden unterstützt."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} Wasserzeichen mit Präzision aktualisieren",
+      "description": "Verfeinern Sie Wasserzeichen in Präsentationen mit Präzision mit {{ProdFullName}}. Sorgen Sie für die Sicherheit Ihrer Geschäftsdaten."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} Präsentationswasserzeichen mit Präzision aktualisieren",
+      "description": "Erzielen Sie mit {{ProdFullName}} eine beispiellose Präzision bei der Verfeinerung von Wasserzeichen. Verschönern Sie Ihre Geschäftsunterlagen mit einer Vielzahl von Wasserzeichen. Aktualisieren Sie die Wasserzeicheneigenschaften wie Größe, Ausrichtung, Drehwinkel und Platzierung gemäß Ihren Anforderungen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Holen Sie sich kostenlos von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Entwicklern präzise Tools zum Aktualisieren von Wasserzeichen in Dokumenten. Dieses ausgeklügelte Tool ermöglicht die Feinabstimmung und Verfeinerung von Wasserzeichen in verschiedenen Dateiformaten, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. Unsere Lösung unterstützt alle gängigen Betriebssysteme und gängigen Frameworks."
+    },
+    "formats": {
+      "title": "Wasserzeichen in unterstützten Formaten aktualisieren",
+      "description": "Verfeinern Sie Wasserzeichen in PDF, Word, Excel und mehr mit Präzision mit {{ProdFullName}}. Alle Geschäftsformate werden unterstützt."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Dokumenten nahtlos aktualisieren",
+      "description": "Ändern Sie Wasserzeichen in {{FileFormatUp}} Präsentationen problemlos über {{ProdFullName}}. Integrieren Sie unsere Bibliothek in Ihre Apps."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Präsentationen aktualisieren",
+      "description": "Ändern Sie Wasserzeichen einfach und effizient mit {{ProdFullName}}. Schützen Sie Ihre Geschäftsdokumente mit einer Auswahl an Wasserzeichen. Passen Sie Wasserzeichenattribute wie Größe, Ausrichtung, Drehwinkel und Position mühelos an.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "{{PackageStoreName}} Paket herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Lösungen",
+      "content": "{{ProdFullName}} ermöglicht die nahtlose Änderung von Wasserzeichen in Dokumenten. Mit diesem vielseitigen Tool können Entwickler Wasserzeichen in verschiedenen Dateiformaten, einschließlich PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformaten, problemlos ändern und aktualisieren. {{ProdFullName}} kann mit allen gängigen Betriebssystemen verwendet werden."
+    },
+    "formats": {
+      "title": "Unterstützte Dateiformate (Wasserzeichen) aktualisieren",
+      "description": "Ändern Sie Wasserzeichen in PDF, Word, Excel und mehr nahtlos mit {{ProdFullName}}. Verbessern Sie das Branding Ihrer Dokumente."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Mühelos {{FileFormatUp}} Wasserzeichen aktualisieren",
+      "description": "Passen Sie Wasserzeichen in {{FileFormatUp}} Dokumenten mühelos mit {{ProdFullName}} an. Binden Sie unsere Lösung in Ihre Geschäftslogik ein."
+    },
+    "header": {
+      "title": "Mühelos Wasserzeichen in {{FileFormatUp}} Dokumenten aktualisieren",
+      "description": "Passen Sie Wasserzeichen mit {{ProdFullName}} genau an Ihre Anforderungen an. Schützen Sie Ihre Unternehmensdokumente mit verschiedenen Wasserzeichen. Ändern Sie mühelos Wasserzeichenelemente wie Größe, Ausrichtung, Drehwinkel und Platzierung.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Holen Sie sich das Paket bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet eine nahtlose Anpassung von Wasserzeichen in {{FileFormatUp}} Dokumenten. Mit diesem flexiblen Tool können Entwickler Wasserzeichen in verschiedenen Dateiformaten, einschließlich PDF, Microsoft Word, Excel, PowerPoint, PowerPoint, Visio, E-Mail- und Bildformaten, einfach anpassen und an spezifische Anforderungen anpassen."
+    },
+    "formats": {
+      "title": "Wasserzeichen in vielen Dateiformaten aktualisieren",
+      "description": "Passen Sie Wasserzeichen in PDF, Word, Excel und mehr mühelos mit {{ProdFullName}} an. Verfeinern Sie Ihre Geschäftslogik."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Aktualisieren und bearbeiten Sie Wasserzeichen in {{FileFormatUp}} Tabellen",
+      "description": "Aktualisieren und bearbeiten Sie Wasserzeichen in verschiedenen Dokumentformaten mit {{ProdFullName}}. Erweitern Sie die Funktionen Ihrer Anwendungen."
+    },
+    "header": {
+      "title": "Effizientes Verwalten von {{FileFormatUp}} Tabellenkalkulationswasserzeichen",
+      "description": "Vereinfachen Sie die Wasserzeichenverwaltung mit {{ProdFullName}}. Sorgen Sie für die Sicherheit Ihrer Geschäftsdateien, indem Sie verschiedene Wasserzeichen anbringen. Passen Sie die Wasserzeichenspezifikationen wie Größe, Ausrichtung, Drehwinkel und Position nach Ihren Wünschen an.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} Herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Allgemeine Informationen",
+      "content": "{{ProdFullName}} bietet effiziente Tools zum Aktualisieren und Bearbeiten von Wasserzeichen in mehreren Dateiformaten. Mit dieser umfassenden Lösung können Entwickler Wasserzeichen in verschiedenen Dokumenten, einschließlich PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformaten, nahtlos verwalten. Alle wichtigen Betriebssysteme und Plattformen werden unterstützt."
+    },
+    "formats": {
+      "title": "Wasserzeichen für andere Formate aktualisieren und bearbeiten",
+      "description": "Aktualisieren und bearbeiten Sie mühelos Wasserzeichen in PDF, Word, Excel und mehr mit {{ProdFullName}}. Bereichern Sie den Inhalt Ihrer Dokumente."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Aktualisiere {{FileFormatUp}} Wasserzeichen nach deinen Bedürfnissen",
+      "description": "Passen Sie Wasserzeichen mit {{ProdFullName}} genau an Ihre Anforderungen an. Stärken Sie die Geschäftslogik in Ihren Apps."
+    },
+    "header": {
+      "title": "Aktualisieren Sie die Wasserzeichen von {{FileFormatUp}} Spreadsheets nach Ihren Bedürfnissen",
+      "description": "Passen Sie Wasserzeichen mühelos mit {{ProdFullName}} an. Schützen Sie die vertraulichen Dokumente Ihres Unternehmens mit verschiedenen Wasserzeichen. Passen Sie die Merkmale des Wasserzeichens wie Größe, Ausrichtung, Drehwinkel und Position nach Bedarf an.",
+      "subtitle": "{{ProdFullName}} Lösung",
+      "action_title": "Kostenloser Download unter {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Erfahre mehr über {{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Entwicklern, Wasserzeichen an ihre spezifischen Bedürfnisse anzupassen. Mit diesem vielseitigen Tool können Entwickler Wasserzeichen in Dokumenten ganz einfach an die genauen Anforderungen in verschiedenen Dateiformaten anpassen und anpassen, darunter PDF, Microsoft Word, Excel, PowerPoint, Visio, E-Mail- und Bildformate. Die wichtigsten Betriebssysteme und Entwicklungsplattformen werden unterstützt."
+    },
+    "formats": {
+      "title": "Wasserzeichen in anderen Formaten aktualisieren",
+      "description": "Passen Sie Wasserzeichen in PDF, Word, Excel und mehr mit {{ProdFullName}} an Ihre Bedürfnisse an. Nehmen Sie unser Produkt in Ihre Lösungen auf und profitieren Sie von wertvollen Vorteilen."
+    }
+  }
+}

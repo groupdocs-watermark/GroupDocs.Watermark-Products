@@ -1,0 +1,411 @@
+{
+  "index-content": {
+    "head_title": "Dokument Wasserzeichen C# Java Node.js | Wasserzeichen hinzufügen",
+    "head_description": "Fügen Sie Wasserzeichen zu PDF, Bildern und Dokumenten hinzu. Wasserzeichen-Lösung für Microsoft Office, PDF, OpenDocument, Bilder usw.",
+    "title": "Wasserzeichen-Lösung für Dokumente",
+    "description_1": "Fügen Sie Text- und Bildwasserzeichen für Ihre Dokumente und Bilder hinzu.",
+    "description_2": "Suchen und ändern Sie Dokumentwasserzeichen auf bequeme Weise.",
+    "description_3": "Informieren Sie sich über Wasserzeichen, die in Ihren Dokumenten enthalten sind.",
+    "words_for": "zum",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Schau dir an, was es Neues gibt",
+    "release_downloads": "herunterladbare",
+    "code_more": "Mehr Beispiele",
+    "code_comment_1": "Instanziieren Sie den Wassermarker, der den PDF -Pfad übergibt",
+    "code_comment_2": "Passen Sie die Wasserzeichenoptionen an",
+    "code_comment_3": "Wasserzeichen auf PDF Dokument anwenden",
+    "code_comment_4": "Ergebnisdokument speichern",
+    "overview_title": "{{ProdShortName}} auf einen Blick",
+    "formats_title": "Unterstützte Dateiformate",
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wähle deine Plattform",
+      "description": "Die {{ProdShortName}} -Bibliothek unterstützt die folgenden Betriebssysteme und Frameworks:",
+      "learn_more": "Erfahre mehr",
+      "any_other_text_editor": "Jeder andere Texteditor"
+    },
+    "features": {
+      "title": "{{ProdShortName}} Funktionsüberprüfung",
+      "description": "Die Bibliothek wurde entwickelt, um verschiedene Wasserzeichentypen für gängige Dokumentformate hinzuzufügen, zu suchen und zu aktualisieren.",
+      "feature_1": {
+        "title": "Dateien mit Wasserzeichen schützen",
+        "content": "Fügen Sie Text- und Bildwasserzeichen an Ihre Geschäftsdokumente an."
+      },
+      "feature_2": {
+        "title": "Suchen Sie nach vorhandenen Wasserzeichen",
+        "content": "Holen Sie sich detaillierte Informationen zu Wasserzeichen, die zuvor in einem Dokument platziert wurden."
+      },
+      "feature_3": {
+        "title": "Bearbeiten Sie die Wasserzeichen von Dokumenten",
+        "content": "Steuern Sie Text, Stil, Bild und andere Wasserzeichenfunktionen."
+      },
+      "feature_4": {
+        "title": "Verschiedene zusätzliche Funktionen",
+        "content": "Holen Sie sich Dokumentinformationen, aktualisieren Sie Hyperlinks oder den Seitenhintergrund usw."
+      }
+    },
+    "formats": {
+      "title": "Über 50 Dateiformate werden unterstützt",
+      "description": "{{ProdShortName}} bietet Wasserzeichen für gängige Dokument- und Dateiformate."
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "index_title": "Dokumente durch Wasserzeichen schützen",
+      "index_description": "{{ProdShortName}} Codebeispiele für typische Operationen.",
+      "more_examples": "Mehr Beispiele",
+      "sample_index": {
+        "title": "Erstellen eines Wasserzeichens.",
+        "content": "Um ein Wasserzeichen an ein Dokument anzuhängen, geben Sie den Pfad zur Zieldatei an. Sie haben viele Optionen zur Auswahl, um ein benutzerdefiniertes Wasserzeichen auf einer bestimmten Seite zu erhalten.",
+        "comment_1": "Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll",
+        "comment_2": "Wasserzeichen-Objekt erstellen",
+        "comment_3": "Wasserzeichenoptionen festlegen",
+        "comment_4": "Wasserzeichen hinzufügen und verarbeitete Datei speichern"
+      },
+      "sample_1": {
+        "code_title": "So schützen Sie eine Datei mit einem Bildwasserzeichen.",
+        "comment_1": "Quelldokument in Watermarker laden",
+        "comment_2": "Pfad zu einem Wasserzeichenbild angeben",
+        "comment_3": "Schützen Sie die Datei und speichern Sie sie"
+      },
+      "sample_2": {
+        "code_title": "Suche und Änderung von Wasserzeichen.",
+        "comment_1": "Quelldokument laden",
+        "comment_2": "Suchen Sie nach Wasserzeichen, die aktualisiert werden sollen",
+        "comment_3": "Gewünschte Eigenschaften aktualisieren",
+        "comment_4": "Speichern Sie das geänderte Dokument in einem angegebenen Pfad"
+      }
+    },
+    "metrics": {
+      "title": "Statistische Daten unserer Bibliothek",
+      "description": "Tauchen Sie tief in die wichtigsten Kennzahlen ein und geben Sie Einblicke in unsere Erfolge, Auswirkungen und unser Wachstum.",
+      "item_1": {
+        "title": "Unterstützte Formate",
+        "description": "Die Bibliothek ist in der Lage, mehr als 50 der gängigsten Dateiformate zu verarbeiten."
+      },
+      "item_2": {
+        "title": "NuGet herunterladen",
+        "description": "{{ProdShortName}} for .NET ist eine beliebte Bibliothek mit über 800.000 Downloads auf NuGet."
+      },
+      "item_3": {
+        "title": "Maven lädt herunter",
+        "description": "Mit über 15.000 Downloads auf Maven ist {{ProdShortName}} eine beliebte Wahl für Java Entwickler."
+      },
+      "item_4": {
+        "title": "Glückliche Kunden",
+        "description": "Einzelne Entwickler und Top-Unternehmen weltweit bevorzugen unsere Bibliotheken, um innovative Lösungen zu entwickeln."
+      }
+    },
+    "customers": {
+      "title": "Unsere zufriedenen Kunden",
+      "description": "GroupDocs Bibliotheken sind für weltweit bekannte und angesehene Marken auf der ganzen Welt tätig."
+    },
+    "actions": {
+      "alt": "Lizenzierung",
+      "title": "Bereit loszulegen?",
+      "description": "Testen Sie {{ProdShortName}} Funktionen kostenlos oder fordern Sie eine Lizenz an",
+      "description_index": "Testen Sie {{ProdShortName}} Funktionen kostenlos auf Ihrer Plattform"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schauen Sie sich unsere häufig gestellten Fragen an",
+      "item_1": {
+        "question": "Werden von {{ProdShortName}} externe Bibliotheken für die Bearbeitung von Dokumenten benötigt?",
+        "answer": "{{ProdShortName}} funktioniert unabhängig, Software von Drittanbietern wie Adobe Acrobat, Microsoft Office usw. ist nicht erforderlich."
+      },
+      "item_2": {
+        "question": "Kann ich {{ProdShortName}} Funktionen vor dem Kauf testen?",
+        "answer": "Ja, {{ProdShortName}} bietet eine kostenlose Testversion an! Installieren Sie es und probieren Sie es aus, aber denken Sie daran: Testversionen fügen Ihren Dokumenten „Test-Badges“ hinzu, nur die ersten 3 Seiten werden verarbeitet. Willst du das volle Erlebnis? Holen Sie sich eine kostenlose temporäre 30-Tage-Lizenz für den vollen Funktionsumfang. Einzelheiten finden Sie unter [temporäre Lizenz]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Welche Lizenztypen werden angeboten?",
+        "answer": "Benötigen Sie eine {{ProdShortName}} -Lizenz? Wir haben Optionen! Wählen Sie aus Lizenzen, die auf vielen Optionen basieren. Anzahl der Entwickler in Ihrem Team. Einsatzorte wie einzelne Büros oder entfernte Arbeitsplätze. Muss der Endkundenvertrieb das SDK/API mit den Kunden teilen? Alternativ gibt es eine Lizenz für die monatliche Nutzung: Bei kostenpflichtigen Tarifen zahlen Sie nur für das, was Sie nutzen. Tauchen Sie tiefer ein und finden Sie den perfekten [Preis]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low-Code-APIs",
+      "description": "Fügen Sie mithilfe unserer cloudbasierten REST API mithilfe Ihrer Anwendung Wasserzeichen zu Dateien hinzu.",
+      "item_1": {
+        "content": "Verwenden Sie die cURL REST ful-API, um PDF, Word, Excel, PowerPoint, JPEG und andere beliebte Dateiformate mit Wasserzeichen zu versehen."
+      },
+      "item_2": {
+        "content": "Stärken Sie Ihre .NET Anwendungen mit Funktionen zum Wasserzeichen für Dokumente von Cloud SDK für .NET. Schützen Sie Geschäftsdokumente auf eigene Faust."
+      },
+      "item_3": {
+        "content": "Das für Java entwickelte {{ProdShortName}} SDK bietet neue Möglichkeiten für Ihre Java Anwendungen und Geschäftsdateien."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Webanwendungen",
+      "description": "GroupDocs gewährt Zugriff auf eine Webanwendung zum Hinzufügen von Wasserzeichen zu Ihren Dokumenten. Mehr als 50 beliebte Dateiformate können in Ihrem Lieblingsbrowser KOSTENLOS mit einem Wasserzeichen versehen werden.",
+      "item_1": {
+        "content": "Online-Tool zum Hinzufügen von Wasserzeichen zu Dokumenten von jedem Gerät aus."
+      },
+      "item_2": {
+        "content": "Wasserzeichen MS Word DOCX online."
+      },
+      "item_3": {
+        "content": "Schützen Sie PDF Dokumente online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Microsoft Office & OpenDocument Formate",
+      "title_2": "Bilder & Grafiken",
+      "title_3": "Andere",
+      "format_portable": "Portable",
+      "format_popular_images": "Beliebte Bildformate",
+      "format_multi_images": "Mehrseitige Bilder"
+    }
+  },
+  "index-content-net": {
+    "head_title": "C# .NET Dokumentwasserzeichen-Software | Wasserzeichen hinzufügen",
+    "head_description": "C# .NET Bibliothek zum Hinzufügen, Suchen und Entfernen von Wasserzeichen in Dokumenten: PDF, Word, Excel, Präsentationen, Visio Diagramme, E-Mail- und Bilddateiformate.",
+    "title": "Dokumente einfach in Ihren C# .NET -Anwendungen mit Wasserzeichen versehen",
+    "description": "Stärken Sie Ihre C#-Lösungen mit einer flexiblen API für Dokumentwasserzeichen, mit der Sie anpassbare Wasserzeichen zu allen gängigen Dokumentformaten hinzufügen können.",
+    "actions_main": "Kostenlos NuGet Download",
+    "code_title": "Wasserzeichen PDF -Dateien in C#",
+    "overview_description": "API zum Einfügen von Wasserzeichen auf Dokumenten über .NET",
+    "overview_feature_1": {
+      "title": "Wasserzeichen für C#-Dateien",
+      "description": "Fügen Sie Ihren Geschäftsdateien mit {{ProdShortName}} Wasserzeichen hinzu. Verwenden Sie Text, Bilder, Diagramme oder E-Mail-Anhänge."
+    },
+    "overview_feature_2": {
+      "title": "Passen Sie Wasserzeichen an Ihre Ziele an",
+      "description": "Die {{ProdFullName}} -Software ermöglicht es, Wasserzeichen auf verschiedene Arten anzupassen. Textstile wie Fett, Kursiv, Schriftarten sowie Bildeigenschaften wie Drehung usw. bereichern den Wasserzeichenprozess."
+    },
+    "overview_feature_3": {
+      "title": "Alle gängigen Dateiformate werden unterstützt",
+      "description": "Viele Datei- und Dokumentformate werden von der {{ProdShortName}} -Lösung unterstützt. PDF, Microsoft Office Word, Excel, PowerPoint, Bilder wie JPEG, PNG, GIF, BMP, Visio, E-Mails usw. könnten mit unseren Wasserzeichen geschützt werden."
+    },
+    "overview_feature_4": {
+      "title": "Suchen und aktualisieren Sie Wasserzeichen",
+      "description": "Wasserzeichen, die bereits in einem Dokument enthalten sind, können gefunden und erneut verarbeitet werden. Ändern Sie Text, Stil, Bilder oder entfernen Sie aufgedeckte Wasserzeichen ohne zusätzlichen Aufwand."
+    },
+    "features": {
+      "title": "{{ProdShortName}} Funktionen",
+      "description": "Schützen Sie PDF, Office, Bilder und andere Formate durch Wasserzeichen",
+      "feature_1": {
+        "title": "Wasserzeichen für Dokumente",
+        "content": "Hinzufügen oder Entfernen von Wasserzeichen aus einem bestimmten Abschnitt oder einem ganzen Dokument in verschiedenen Dateiformaten."
+      },
+      "feature_2": {
+        "title": "Gestalten Sie Ihr Wasserzeichen",
+        "content": "Passen Sie verschiedene Wasserzeicheneigenschaften wie Farbe, Schriftart, Drehung usw. an."
+      },
+      "feature_3": {
+        "title": "PDF verstecktes Druckwasserzeichen",
+        "content": "Ordnen Sie PDF ein verstecktes Wasserzeichen zu, das nur beim Drucken des Dokuments erscheint."
+      },
+      "feature_4": {
+        "title": "Nur Bilder in Dokumenten mit Wasserzeichen versehen",
+        "content": "Markieren Sie alle Bilder in einem bestimmten Abschnitt, einer Seite, einer Folie oder einem Dokument mit einem Wasserzeichen."
+      },
+      "feature_5": {
+        "title": "Ausgewählte Bildrahmen verarbeiten",
+        "content": "Weisen Sie ein Wasserzeichen nur bestimmten Frames eines Bilds mit mehreren Frames zu."
+      },
+      "feature_6": {
+        "title": "Anlagen und Formen",
+        "content": "Setzen Sie ein Wasserzeichen für alle Anlagen in einem Excel Dokument und alle Bildformen in Folien."
+      },
+      "feature_7": {
+        "title": "PDF Objekte",
+        "content": "Richten Sie das Wasserzeichen im PDF Dokument am Anschnittrahmen, Grafikfeld, Zuschneidefeld oder Zuschneidefeld aus."
+      },
+      "feature_8": {
+        "title": "Hintergrund der Dokumente",
+        "content": "Platzieren Sie ein Wasserzeichen oder entfernen Sie es aus den Hintergrundbildern der Tabelle oder der Folien."
+      },
+      "feature_9": {
+        "title": "Schutz vor unlesbaren Zeichen",
+        "content": "Schützen Sie Textwasserzeichen mit unlesbaren Zeichen in Präsentationen."
+      },
+      "feature_10": {
+        "title": "Suche nach Wasserzeichen in Dokumenten",
+        "content": "Suchen Sie nach Wasserzeichen anhand bestimmter Parameter oder durch Kombination mehrerer Kriterien."
+      },
+      "feature_11": {
+        "title": "Suche nach ähnlichen Bild-Wasserzeichen",
+        "content": "Suchen Sie nach Bildwasserzeichen, die einem bestimmten Bild ähneln."
+      },
+      "feature_12": {
+        "title": "Dokumentinformationen abrufen",
+        "content": "Extrahieren Sie programmgesteuert die Seiteneinrichtung und andere Informationen für unterstützte Formate."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt die unten aufgeführten Betriebssysteme, Frameworks und Paketmanager",
+    "formats_description": "{{ProdFullName}} ermöglicht die Verarbeitung der folgenden [Dateiformate]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Einige Anwendungsfälle typischer {{ProdFullName}} Operationen",
+    "code_title_sample_1": "Wasserzeichen, indem Sie ein Bild zu einem Dokument hinzufügen.",
+    "code_samples_sample_1_content": "Um jedes Dokument zu schützen, können Sie [Bildwasserzeichen]({{Sample1Url}}) verwenden:",
+    "code_title_sample_2": "Suchen und ändern Sie vorhandene Wasserzeichen.",
+    "code_samples_sample_2_content": "{{ProdShortName}} kann [Wasserzeichen ändern]({{Sample2Url}}), die bereits in einem Dokument enthalten sind. Suchen Sie nach den gewünschten Elementen und aktualisieren Sie deren Eigenschaften."
+  },
+  "index-content-java": {
+    "head_title": "Java Wasserzeichen-Bibliothek | Wasserzeichen zu Dokumenten hinzufügen",
+    "head_description": "Native Java Software zum Hinzufügen und Bearbeiten von Text- und Bildwasserzeichen in PDF, Word, Excel, Präsentationen, Visio Diagrammen, E-Mail- und Bilddateien.",
+    "title": "Implementieren Sie einfach das Wasserzeichen von Dokumenten in Java Projekten",
+    "description": "Erweitern Sie Ihre Java Anwendungen um die Möglichkeit, Dateien mithilfe der GroupDocs.Watermark -Bibliothek mit Wasserzeichen zu versehen. Unsere API bietet anpassbare Wasserzeichen für eine Vielzahl gängiger Dateiformate.",
+    "actions_main": "Kostenloser Download von Maven",
+    "code_title": "Wasserzeichen PDF s über Java",
+    "overview_description": "Bibliothek zum Hinzufügen von Wasserzeichen mithilfe von Java Technologien",
+    "overview_feature_1": {
+      "title": "Wasserzeichendateien über Java",
+      "description": "Schützen Sie Ihre Geschäftsdokumente mit {{ProdFullName}}. Fügen Sie Text, Bilder, Diagramme oder E-Mail-Anhänge als Wasserzeichen zu verschiedenen Dateiformaten hinzu."
+    },
+    "overview_feature_2": {
+      "title": "Passen Sie Wasserzeichen an spezifische Bedürfnisse an",
+      "description": "{{ProdFullName}} bietet umfangreiche Anpassungsmöglichkeiten für Wasserzeichen. Passen Sie die Textstile (fett, kursiv, Schriftart) und die Bildeigenschaften (Drehung usw.) an, um den Wasserzeichenvorgang an Ihre spezifischen Ziele anzupassen."
+    },
+    "overview_feature_3": {
+      "title": "Breite Formatunterstützung",
+      "description": "{{ProdFullName}} lässt sich nahtlos in eine Vielzahl von Dateiformaten integrieren, darunter: PDF, Microsoft Office (Word, Excel, PowerPoint), Bilder (JPEG, PNG, GIF, BMP), Visio Diagramme und E-Mails. Verbessern Sie die Dokumentensicherheit für verschiedene Dateitypen."
+    },
+    "overview_feature_4": {
+      "title": "Mühelose Suche und Verwaltung von Wasserzeichen",
+      "description": "Verwalten Sie effizient vorhandene Wasserzeichen in Dokumenten. Suchen Sie nach bestimmten Wasserzeichen, ändern Sie deren Text, Stil oder Bilder oder entfernen Sie sie vollständig. {{ProdFullName}} vereinfacht den Wasserzeichen-Workflow."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Funktionen",
+      "description": "Schützen Sie Ihre Dateien, indem Sie Wasserzeichen hinzufügen. Unterstützt verschiedene Formate, darunter PDF, Office-Dokumente und Bilder.",
+      "feature_1": {
+        "title": "Wasserzeichen für Dateien",
+        "content": "Fügen Sie für verschiedene unterstützte Dateiformate Wasserzeichen zu bestimmten Abschnitten oder ganzen Dokumenten hinzu oder entfernen Sie sie."
+      },
+      "feature_2": {
+        "title": "Anpassung des Wasserzeichens",
+        "content": "Passen Sie das Aussehen Ihres Wasserzeichens mit Optionen wie Farbe, Schriftart, Drehung und mehr an."
+      },
+      "feature_3": {
+        "title": "Verstecktes Druckwasserzeichen für PDF",
+        "content": "Fügen Sie ein Wasserzeichen hinzu, das nur beim Drucken eines PDF -Dokuments erscheint."
+      },
+      "feature_4": {
+        "title": "Selektives Bild-Wasserzeichen",
+        "content": "Markieren Sie alle Bilder in einem bestimmten Abschnitt, einer Seite, einer Folie oder einem gesamten Dokument mit einem Wasserzeichen."
+      },
+      "feature_5": {
+        "title": "Bestimmte Bildrahmen mit Wasserzeichen versehen",
+        "content": "Wenden Sie Wasserzeichen auf bestimmte Rahmen in einem Bild mit mehreren Frames an."
+      },
+      "feature_6": {
+        "title": "Wasserzeichenanhänge und Formen",
+        "content": "Fügen Sie Wasserzeichen zu allen Anhängen in Excel Dokumenten oder allen Bildformen in Presentations hinzu."
+      },
+      "feature_7": {
+        "title": "Wasserzeichenausrichtung in PDF",
+        "content": "Richten Sie Wasserzeichen an verschiedenen Bereichen eines PDF -Dokuments aus, einschließlich Bleed Box, Art Box, Crop Box und Trim Box."
+      },
+      "feature_8": {
+        "title": "Wasserzeichen von Background Images",
+        "content": "Fügen Sie ein Hintergrundbildwasserzeichen zu Tabellen oder Präsentationen hinzu oder entfernen Sie es."
+      },
+      "feature_9": {
+        "title": "Schutz mit unlesbaren Zeichen",
+        "content": "Schützen Sie Präsentationen mit Textwasserzeichen mit unlesbaren Zeichen."
+      },
+      "feature_10": {
+        "title": "Suche nach Wasserzeichen",
+        "content": "Ruft eine Liste der Wasserzeichen ab, die in der Datei dargestellt werden, wobei verschiedene Parameter, einschließlich regulärer Ausdrücke, verwendet werden."
+      },
+      "feature_11": {
+        "title": "Finden Sie ähnliche Bild-Wasserzeichen",
+        "content": "Suchen Sie Bildwasserzeichen, die wie ein bestimmtes Bild aussehen."
+      },
+      "feature_12": {
+        "title": "Dokumentinformationen extrahieren",
+        "content": "Rufen Sie verschiedene Dokumentdaten ab, z. B. die Seiteneinrichtung für unterstützte Dateiformate."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt verschiedene Betriebssysteme und Paketmanager.",
+    "formats_description": "{{ProdFullName}} ermöglicht die Verarbeitung einer Vielzahl von Dateiformaten. [Vollständige Liste ansehen]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Erkunden Sie Codebeispiele, die typische {{ProdFullName}} Funktionen veranschaulichen",
+    "code_title_sample_1": "Ein Dokument mit einem Bild mit einem Wasserzeichen versehen",
+    "code_samples_sample_1_content": "Verwenden Sie {{ProdFullName}}, um die Dokumentensicherheit zu erhöhen, indem Sie Bildwasserzeichen hinzufügen. Weitere Informationen: [Bild-Wasserzeichen]({{Sample1Url}}).",
+    "code_title_sample_2": "Wasserzeichen ändern",
+    "code_samples_sample_2_content": "{{ProdFullName}} ermöglicht es Ihnen, vorhandene Wasserzeichen in Dokumenten zu verwalten. Suchen Sie nach bestimmten Wasserzeichen und [ändern Sie deren Eigenschaften]({{Sample2Url}})."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Node.js Wasserzeichen-Bibliothek | Dokumentwasserzeichen",
+    "head_description": "Die Lösung Node.js schützt Geschäftsdokumente mit Text- und Bildwasserzeichen. Beliebte Formate wie PDF, Word, Excel, PowerPoint werden unterstützt.",
+    "title": "Zugriff auf die Wasserzeichen-Technologie in Node.js über Java Lösungen",
+    "description": "Schützen Sie Ihr geistiges Eigentum und verhindern Sie unbefugtes Kopieren mit dieser Node.js Lösung. Es ermöglicht Benutzern das einfache Hinzufügen von Wasserzeichen zu Geschäftsdokumenten in verschiedenen Formaten, darunter PDF, Word, Excel, PowerPoint, Bilder usw.",
+    "actions_main": "Verwenden Sie NPM zum kostenlosen Herunterladen",
+    "code_title": "Fügen Sie mit TypeScript ein Wasserzeichen zu PDF hinzu",
+    "overview_description": "Node.js TypeScript-Bibliothek für Wasserzeichen",
+    "overview_feature_1": {
+      "title": "Wasserzeichen in der Datei Node.js",
+      "description": "Schützen Sie Ihre Geschäftsdokumente mit {{ProdFullName}}. Fügen Sie Text, Bilder, Diagramme oder E-Mail-Anhänge als Wasserzeichen zu verschiedenen Dateiformaten hinzu."
+    },
+    "overview_feature_2": {
+      "title": "Passen Sie Wasserzeichen an Ihre Bedürfnisse an",
+      "description": "{{ProdFullName}} bietet umfangreiche Anpassungsoptionen für Wasserzeichen. Durch die Feinabstimmung von Textstilen (fett, kursiv, Schriftart) und Bildeigenschaften (Drehung usw.) können Sie die Verarbeitung von Dokumenten individuell anpassen."
+    },
+    "overview_feature_3": {
+      "title": "Umfassende Formatunterstützung",
+      "description": "{{ProdFullName}} lässt sich nahtlos in eine Vielzahl von Dateiformaten integrieren, darunter: PDF, MS Office wie Word, Excel, PowerPoint, Bilder wie JPEG, PNG, GIF, BMP, Visio, Visio, E-Mails usw. Ermöglichen Sie die Dokumentenverarbeitung, um Geschäftsziele zu erreichen."
+    },
+    "overview_feature_4": {
+      "title": "Leistungsstarke Suche und Aktualisierung von Wasserzeichen",
+      "description": "Abrufen und aktualisieren Sie vorhandene Wasserzeichen in Dokumenten mit Wasserzeichen. Ändern Sie Text, Stil, Bildinhalt oder entfernen Sie sie vollständig. {{ProdFullName}} bietet eine breite Palette der Verarbeitung von Wasserzeichen."
+    },
+    "features": {
+      "title": "{{ProdFullName}}: Funktionsumfang",
+      "description": "Sorgen Sie für eine robuste Dokumentensicherheit durch programmatisches Wasserzeichen. Unterstützt verschiedene Dateiformate, darunter: PDF, DOCX, XLSX, PPTX und Bildformate (PNG, JPG usw.).",
+      "feature_1": {
+        "title": "Präzise Steuerung von Wasserzeichen",
+        "content": "Bearbeiten Sie Wasserzeichen präzise, indem Sie sie bestimmten Abschnitten, ganzen Dokumenten oder einzelnen Anhängen und Formen in verschiedenen Dateiformaten hinzufügen oder daraus entfernen."
+      },
+      "feature_2": {
+        "title": "Anpassung des Aussehens von Wasserzeichen",
+        "content": "Übernehmen Sie eine präzise Kontrolle über die Ästhetik von Wasserzeichen, indem Sie Attribute wie Farbe, Schriftart, Deckkraft, Drehung und Positionierung innerhalb des Dokuments ändern."
+      },
+      "feature_3": {
+        "title": "PDF Wasserzeichen drucken",
+        "content": "Setzen Sie ein unsichtbares Wasserzeichen ein, das beim normalen Anzeigen von Dokumenten unsichtbar bleibt, aber erst während des Druckvorgangs sichtbar wird, wodurch die Dokumentensicherheit unauffällig erhöht wird."
+      },
+      "feature_4": {
+        "title": "Spezifisches Bild-Wasserzeichen",
+        "content": "Verwenden Sie unsere Lösung, um bestimmte Bilder in einem Dokument mit einem Wasserzeichen zu versehen. Wählen Sie, ob Sie Wasserzeichen in einen bestimmten Abschnitt (z. B. Seite, Folie) oder in das gesamte Dokument einbetten möchten."
+      },
+      "feature_5": {
+        "title": "Wasserzeichen für Bilder mit mehreren Frames",
+        "content": "Wenden Sie Wasserzeichen selektiv auf bestimmte Frames in einem Bildformat mit mehreren Frames an und sorgen Sie so für eine detaillierte Kontrolle über die Platzierung von Wasserzeichen."
+      },
+      "feature_6": {
+        "title": "Umfassender Inhaltsschutz",
+        "content": "Erweitern Sie den Schutz auf verschiedene Dokumentelemente wie Anlagen in Excel Dokumenten und Bildformen in Präsentationen und bieten Sie so eine zusätzliche Sicherheitsebene."
+      },
+      "feature_7": {
+        "title": "Erweitertes Wasserzeichen in PDF",
+        "content": "Markieren Sie verschiedene Bereiche von PDF s mit Wasserzeichen, einschließlich Bleed Box, Art Box, Crop Box, Trim Box usw."
+      },
+      "feature_8": {
+        "title": "Wasserzeichen für das Hintergrundbild",
+        "content": "Verwalte Wasserzeichen in den Hintergrundbildern von Tabellen und Präsentationen und biete zusätzliche Anpassungsoptionen für visuelle Sicherheitsmaßnahmen."
+      },
+      "feature_9": {
+        "title": "Textwasserzeichen mit unlesbaren Zeichen",
+        "content": "Verwenden Sie unlesbare Zeichen in Textwasserzeichen, die in Präsentationen eingebettet sind, und erhöhen Sie so die Sicherheit, indem Sie die unbefugte Extraktion von Wasserzeichen erheblich erschweren."
+      },
+      "feature_10": {
+        "title": "Erweiterte Wasserzeichensuche",
+        "content": "Nutzen Sie umfassende Suchfunktionen, um Wasserzeichen in Dokumenten anhand bestimmter Parameter oder durch Kombination verschiedener Kriterien zu finden und so ein effizientes Abrufen und Verwalten zu ermöglichen."
+      },
+      "feature_11": {
+        "title": "Wasserzeichenerkennung mit ähnlichem Bild",
+        "content": "Finden Sie ähnliche Wasserzeichenbilder in Dokumenten, die optisch einem Quellbild ähneln."
+      },
+      "feature_12": {
+        "title": "Programmatische Extraktion von Dokumentinformationen",
+        "content": "Extrahieren Sie programmgesteuert wertvolle Metadaten, einschließlich Details zur Seiteneinrichtung und anderer Dokumentinformationen für unterstützte Dateiformate."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} lässt sich problemlos in verschiedene Betriebssysteme und Paketmanager integrieren.",
+    "formats_description": "{{ProdFullName}} ermöglicht es Ihnen, eine Vielzahl von Dateiformaten zu verarbeiten. [Erkunden Sie die vollständige Liste]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Tauchen Sie ein in Codebeispiele, die allgemeine {{ProdFullName}} Funktionen zeigen",
+    "code_title_sample_1": "Ein Dokument mit einem Bild mit einem Wasserzeichen versehen",
+    "code_samples_sample_1_content": "Nutzen Sie {{ProdFullName}}, um die Dokumentensicherheit zu erhöhen, indem Sie Bildwasserzeichen hinzufügen. Weitere Informationen: [Bild-Wasserzeichen]({{Sample1Url}}).",
+    "code_title_sample_2": "Suchen und ändern Sie vorhandene Wasserzeichen",
+    "code_samples_sample_2_content": "{{ProdFullName}} ermöglicht es Ihnen, Dokumentwasserzeichen zu verwalten. Wählen Sie Wasserzeichen aus und ändern Sie ihre Eigenschaften. Erfahre wie: [Wasserzeichen ändern]({{Sample2Url}})."
+  }
+}

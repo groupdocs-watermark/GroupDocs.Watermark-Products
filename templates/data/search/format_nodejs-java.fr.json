@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Obtenir des filigranes d'image placés dans {{FileFormatUp}}",
+    "comment_2": "Créer un objet Watermarker avec un chemin source",
+    "comment_3": "Obtenir des filigranes par hachage d'image similaire",
+    "comment_4": "Traitez les filigranes comme vous le souhaitez"
+  },
+  "steps": {
+    "title": "Obtenir des filigranes à partir de {{FileformatCap}} fichiers à l'aide de {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** propose une solution complète pour placer des filigranes dans les formats de documents commerciaux courants. En intégrant notre bibliothèque à vos {{EnvName}} applications, vous pouvez les doter de puissantes fonctionnalités de recherche par filigrane.",
+      "step_1": "**Watermarker** et indiquez le chemin du fichier {{FileformatCap}}. Vous pouvez également utiliser un fichier enregistré en tant que flux d'octets. Cette action charge essentiellement le document cible pour une analyse complète des filigranes.",
+      "step_2": "**SearchCriteria**. Vous pouvez spécifier une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents afin d'affiner les critères de recherche et d'obtenir des résultats plus précis.",
+      "step_3": "**Get** (ou une convention de dénomination similaire) de l'objet **Watermarker** pour démarrer le processus d'obtention du filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui facilite le traitement ultérieur en fonction de vos besoins spécifiques.",
+      "step_4": "La collection de filigranes qui en résulte vous permet de contrôler les filigranes identifiés dans le document. Vous pouvez supprimer les filigranes indésirables ou modifier dynamiquement leurs propriétés, par exemple en ajustant leur taille, leur position ou le contenu du texte, en fonction de vos besoins."
+    }
+  },
+  "more_features": {
+    "title": "Tirez parti de Node.js pour la recherche de filigranes avec {{ProdShortName}}",
+    "description": "Implémentez des fonctionnalités de recherche de filigranes dynamiques et efficaces dans vos applications Node.js à l'aide de {{ProdShortName}} sur la plateforme {{EnvName}}.",
+    "image_description": "Recherche de filigranes dans Node.js",
+    "feature_1": {
+      "title": "API Node.js pour une recherche flexible en filigrane",
+      "content": "Exploitez la flexibilité de Node.js avec {{ProdShortName}} pour rechercher des filigranes dans différents formats de documents. Configurez facilement les recherches pour qu'elles correspondent à des exigences spécifiques telles que la taille, le type ou le contenu."
+    },
+    "feature_2": {
+      "title": "Identification améliorée des filigranes avec Node.js",
+      "content": "Améliorez le traitement de vos documents en identifiant les filigranes avec précision à l'aide du fichier Node.js. Utilisez l'API de {{ProdShortName}} pour détecter les filigranes, même au sein de structures documentaires complexes."
+    },
+    "feature_3": {
+      "title": "Solutions de recherche de filigranes évolutives",
+      "content": "Faites évoluer vos solutions de sécurité documentaire avec Node.js. {{ProdShortName}} permet de traiter efficacement de grands lots de documents, ce qui en fait la solution idéale pour les applications d'entreprise."
+    },
+    "code_1": {
+      "title": "Exemple Node.js : Rechercher et récupérer des filigranes",
+      "content": "Cet exemple Node.js montre comment utiliser {{ProdShortName}} pour rechercher et récupérer des filigranes, démontrant ainsi des opérations de recherche efficaces et évolutives.",
+      "comment_1": "Configurez l'environnement Node.js et chargez les documents nécessaires",
+      "comment_2": "Configurez votre recherche pour identifier les filigranes en fonction de critères variés",
+      "comment_3": "Exécutez la recherche de filigranes et collectez des données sur les filigranes identifiés",
+      "comment_4": "Traitez les résultats pour modifier ou supprimer les filigranes selon les besoins de l'entreprise"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Récupérez les filigranes de {{FileFormatUp}} documents sans effort",
+      "description": "Récupérez facilement les filigranes des documents avec {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Obtenir un filigrane à partir de {{FileFormatUp}} documents",
+      "description": "Récupérez les filigranes sans effort à l'aide de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "Gérez facilement les filigranes sur {{EnvName}} grâce aux puissantes fonctionnalités de {{ProdFullName}}. Simplifiez les opérations de filigrane telles que la génération, la mise à jour, l'obtention et la suppression dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Simplifier la récupération des filigranes",
+      "description": "Simplifiez la récupération des filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Extrayez facilement des filigranes de {{FileFormatUp}} documents",
+      "description": "Extrayez facilement des filigranes de vos documents à l'aide de {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Accédez aux filigranes dans les fichiers {{FileFormatUp}}",
+      "description": "Récupérez facilement les filigranes de vos {{FileFormatUp}} documents avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Découvrez {{ProdFullName}}",
+      "content": "Gérez facilement les filigranes dans votre environnement {{EnvName}}. {{ProdFullName}} vous permet d'effectuer diverses opérations relatives aux filigranes, telles que la génération, la mise à jour, la récupération et la suppression de filigranes dans un large éventail de formats de fichiers."
+    },
+    "formats": {
+      "title": "Simplifiez l'extraction des filigranes",
+      "description": "Simplifiez le processus d'extraction des filigranes à partir de différents formats de fichiers à l'aide de {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Récupération efficace des filigranes des documents {{FileFormatUp}}",
+      "description": "Récupérez efficacement les filigranes des documents avec {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Extraction simplifiée des filigranes à partir de {{FileFormatUp}} documents",
+      "description": "Extrayez efficacement les filigranes à l'aide d'une approche rationalisée {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Informations de base {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit une solution fluide pour gérer les filigranes sur {{EnvName}}. Simplifiez le processus d'extraction et de manipulation des filigranes dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Simplifiez la gestion des filigranes",
+      "description": "Simplifiez la gestion des filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Gestion simplifiée des filigranes des présentations {{FileFormatUp}}",
+      "description": "Gérez facilement les filigranes dans les documents avec {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Contrôle simplifié des filigranes pour {{FileFormatUp}} présentations",
+      "description": "Contrôlez facilement les filigranes grâce à l'approche simplifiée {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger gratuitement {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Informations",
+      "content": "Simplifiez la gestion des filigranes avec {{ProdFullName}}. Gérez de manière fluide les tâches de filigrane dans plusieurs formats de fichiers avec un minimum d'effort."
+    },
+    "formats": {
+      "title": "Contrôle transparent des filigranes",
+      "description": "Contrôlez facilement les filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Découvrez Watermark Insights dans {{FileFormatUp}} présentations",
+      "description": "Découvrez des informations précieuses cachées dans les filigranes à l'aide de {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Découvrez de précieuses informations sur les filigranes des présentations {{FileFormatUp}}",
+      "description": "Débloquez des informations précieuses cachées dans les filigranes à l'aide de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} forfait gratuit"
+    },
+    "about": {
+      "title": "Obtenir des informations {{ProdFullName}}",
+      "content": "Exploitez le potentiel de {{ProdFullName}} en découvrant de précieuses informations cachées dans les filigranes de {{EnvName}}. Extrayez et analysez facilement les filigranes de différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Extraire des informations à partir de filigranes",
+      "description": "Extrayez des informations précieuses à partir de filigranes dans différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Extraction efficace des filigranes de documents {{FileFormatUp}}",
+      "description": "Extrayez efficacement les filigranes des documents à l'aide de {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Récupération simplifiée des filigranes des documents {{FileFormatUp}}",
+      "description": "Récupérez facilement les filigranes grâce à l'approche simplifiée {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre des fonctionnalités d'extraction de filigranes efficaces pour gérer les filigranes sur {{EnvName}}. Simplifiez le processus de récupération des filigranes dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Extraire efficacement les filigranes",
+      "description": "Extrayez efficacement les filigranes de différents formats de fichiers avec {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Obtenez facilement des filigranes depuis n'importe quel document {{FileFormatUp}}",
+      "description": "Obtenez rapidement des filigranes à partir de vos {{FileFormatUp}} feuilles de calcul avec {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Accédez à des filigranes et obtenez-en des filigranes à partir de {{FileFormatUp}} feuilles de calcul",
+      "description": "Récupérez et obtenez facilement des filigranes dans vos {{FileFormatUp}} documents à l'aide de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez {{ProdFullName}} gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Débloquez une puissante gestion des filigranes avec {{ProdFullName}}",
+      "content": "Révolutionnez la gestion des filigranes dans votre flux de travail {{EnvName}}. {{ProdFullName}} vous permet de générer, mettre à jour, récupérer (obtenir) et supprimer sans effort des filigranes dans différents formats de fichiers, rationalisant ainsi le traitement de vos documents."
+    },
+    "formats": {
+      "title": "Obtenez facilement des filigranes à partir de n'importe quel format de fichier",
+      "description": "Simplifiez la récupération des filigranes (get) dans tous vos formats de fichiers grâce à la puissance de {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Gestion efficace des filigranes des feuilles de calcul {{FileFormatUp}}",
+      "description": "Gérez efficacement les filigranes dans les documents avec {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Contrôle simplifié des filigranes dans {{FileFormatUp}} feuilles de calcul",
+      "description": "Contrôlez efficacement les filigranes grâce à l'approche rationalisée {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Informations de base {{ProdFullName}}",
+      "content": "{{ProdFullName}} fournit une solution rationalisée pour gérer les filigranes sur {{EnvName}}. Simplifiez le processus de gestion des filigranes dans différents formats de fichiers."
+    },
+    "formats": {
+      "title": "Simplifiez le contrôle des filigranes",
+      "description": "Simplifiez le contrôle des filigranes dans les différents formats de fichiers avec {{ProdFullName}}."
+    }
+  }
+}

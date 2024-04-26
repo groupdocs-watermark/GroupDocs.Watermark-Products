@@ -1,0 +1,267 @@
+
+---
+############################# Static ############################
+layout: "format"
+date:  2024-04-26T21:39:06
+draft: false
+lang: it
+format: Docx
+product: "Watermark"
+product_tag: "watermark"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
+
+############################# Head ############################
+head_title: "Crea filigrane in DOCX con Node.js"
+head_description: "Sfrutta Node.js per aggiungere filigrane robuste ai file DOCX, rafforzando la sicurezza e l'integrità dei documenti."
+
+############################# Header ############################
+title: "Genera filigrane per DOCX utilizzando Node.js" 
+description: "Usa Node.js per comporre e implementare filigrane sofisticate nei file DOCX, perfette per proteggere documenti Word sensibili."
+subtitle: "GroupDocs.Watermark for Node.js via Java" 
+
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Scarica a NPM gratuitamente"
+      link: "https://releases.groupdocs.com/watermark/nodejs-java/"
+      
+############################# About ############################
+about:
+    enable: true
+    title: "GroupDocs.Watermark for Node.js via Java"
+    link: "/watermark/nodejs-java/"
+    link_title: "Scopri di più"
+    picture: "about_watermark.svg" # 480 X 400
+    content: |
+       GroupDocs.Watermark for Node.js via Java fornisce agli sviluppatori di Node.js gli strumenti per creare, aggiungere e gestire filigrane nei documenti DOCX in modo efficiente. Questa API consente la perfetta integrazione di filigrane personalizzabili che possono migliorare significativamente la sicurezza dei documenti. Che si tratti di aggiungere loghi aziendali, testo o sovrapposizioni grafiche complesse, l'API offre il pieno controllo su opacità, dimensioni e posizionamento. Progettato specificamente per ambienti professionali in cui l'autenticità dei documenti e la protezione del copyright sono fondamentali, come i settori legale, finanziario e governativo, GroupDocs.Watermark garantisce che i file DOCX non solo siano sicuri, ma mantengano anche un elevato standard di presentazione. Compatibile con vari ambienti Node.js, supporta operazioni sincrone e asincrone per soddisfare le diverse esigenze applicative.
+
+############################# Steps ############################
+steps:
+    enable: true
+    title: "Proteggi i documenti aziendali: genera Docx filigrane"
+    content: |
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Una potente soluzione per la generazione di filigrane per Node.js via Java.
+      
+      1. **Semplifica la filigrana sicura nelle tue applicazioni Node.js via Java:** La classe **Watermarker** funge da componente principale dell'API GroupDocs.Watermark. Questa libreria semplifica la generazione di filigrane in vari formati di documento, tra cui Docx. Per iniziare, crea un'istanza Watermarker prima di elaborare il documento. Fornisci il percorso del file Docx o un oggetto stream al costruttore durante l'inizializzazione.
+      2. **Genera filigrane per una protezione avanzata:** Potenzia le filigrane che si allineano perfettamente alle tue esigenze di sicurezza. Costruisci un oggetto **Watermark** specificando il tipo desiderato. A differenza del posizionamento tradizionale delle pagine, puoi incorporare filigrane all'interno di elementi nativi del documento, come intestazioni o allegati, rafforzando la sicurezza dei documenti e aggiungendo un tocco professionale.
+      3. **Ottimizza l'aspetto della filigrana per un impatto ottimale:** Controlla gli aspetti visivi delle tue filigrane. Personalizza proprietà come altezza, larghezza, allineamento (in alto, a sinistra, al centro, ecc.), famiglie di caratteri e colori per ottenere un risultato visivamente efficace e coerente che rafforzi la legittimità dei documenti.
+      4. **Applicazione Watermark e Secure Storage**: incorpora le filigrane utilizzando il metodo **Watermarker's**. La libreria consente di aggiungere più filigrane se necessario per una maggiore protezione. Si consiglia di salvare il documento Docx modificato in una posizione separata e sicura per preservare il file originale e salvaguardare i documenti con filigrana.
+   
+    code:
+      platform: "net"
+      copy_title: "Copia"
+      install:
+        command: "npm i @groupdocs/groupdocs.watermark"
+        copy_tip: "clicca per copiare"
+        copy_done: "copiato"
+      links:
+        #  loop
+        - title: "Altri esempi"
+          link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
+        #  loop
+        - title: "Documentazione"
+          link: "https://docs.groupdocs.com/watermark/nodejs-java/"
+          
+      content: |
+        ```javascript {style=abap}
+
+        // Genera filigrana dell'immagine per DOCX
+
+        // Istanziare Watermarker passando il file sorgente
+        const watermarker = new groupdocs.watermark.Watermarker("input.docx");
+        
+        // Genera filigrana fornendo un file di immagine
+        const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
+
+        // Ottieni DOCX risultati
+        watermarker.add(watermark);
+        watermarker.save("output.docx");
+        
+        ```            
+
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Integrazione raffinata con filigrana"
+  description: "La nostra API GroupDocs.Watermark per .NET sviluppatori offre soluzioni raffinate per integrare senza problemi le filigrane in qualsiasi documento. Questo strumento è progettato per creare filigrane sofisticate e discrete che garantiscono la protezione del copyright mantenendo l'estetica del documento."
+  image: "/img/watermark/features_add.webp" # 500x500 px
+  image_description: "Integrazione con Precision Watermark"
+  features:
+    # feature loop
+    - title: "Effetti filigrana sfumata"
+      content: "Implementa filigrane sfumate che si fondono perfettamente nei tuoi documenti. Questa funzionalità consente l'uso di gradienti lineari o radiali, aggiungendo un aspetto moderno alle funzionalità di sicurezza che migliorano sia la protezione che il coinvolgimento visivo senza sopraffare il contenuto."
+
+    # feature loop
+    - title: "Filigrane con motivi per una maggiore sicurezza"
+      content: "Usa la filigrana basata su pattern per aggiungere un ulteriore livello di sicurezza. La nostra API supporta vari modelli che possono essere progettati in modo complesso e ripetuti in tutto il documento, rendendo la filigrana più resistente alla manomissione e alla rimozione."
+
+    # feature loop
+    - title: "Filigrana specifica per il documento"
+      content: "Personalizza le filigrane in modo univoco per diversi tipi di documenti. Che si tratti di contratti legali, piani aziendali o rapporti scientifici, personalizza le filigrane in base allo scopo del documento e all'accessibilità del lettore, garantendo un'integrazione e una sicurezza ottimali."
+      
+  code_samples:
+    # code sample loop
+    - title: "Genera filigrana per l'immagine PDF"
+      content: |
+        Genera filigrane per tutte le immagini presentate all'interno di un documento PDF
+        {{< landing/code title="TypeScript">}}
+        ```javascript {style=abap}
+        
+            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+
+            //  Carica documento come PDF
+            const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
+
+            //  Crea una filigrana in base all'annotazione PDF
+            const imageWatermark = new groupdocsWatermark.ImageWatermark("watermark.jpg");
+            imageWatermark.setHorizontalAlignment(groupdocsWatermark.HorizontalAlignment.Center);
+            imageWatermark.setVerticalAlignment(groupdocsWatermark.VerticalAlignment.Center);
+            imageWatermark.setRotateAngle(-45);
+            imageWatermark.setSizingType(groupdocsWatermark.SizingType.ScaleToParentDimensions);
+            imageWatermark.setScaleFactor(1);
+  
+            //  Impostare le opzioni per la filigrana
+            const images = watermarker.getImages();
+            for (let i = 0; i < images.getCount(); i++) {
+                if (images.get_Item(i).getWidth() > 100 && images.get_Item(i).getHeight() > 100) {
+                    images.get_Item(i).add(imageWatermark);
+                }
+            }
+
+            //  Aggiungi filigrana di testo al documento dei risultati
+            watermarker.save("result.pdf");
+            watermarker.close();
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Pronto per iniziare?"
+  description: "Prova le funzioni GroupDocs.Watermark gratuitamente o richiedi una licenza"
+  items:
+    #  loop
+    - title: "NPM scarica"
+      link: "https://releases.groupdocs.com/watermark/nodejs-java/"
+      color: "red"
+        #  loop
+    - title: "Licenze"
+      link: "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/"
+      color: "light"
+
+
+############################# More Formats #####################
+more_formats:
+    enable: true
+    title: "Aggiungi filigrane a DOCX con Node.js"
+    exclude: "DOCX"
+    description: "Implementa Node.js per generare e applicare dinamicamente filigrane personalizzate nei file DOCX, proteggendoli e contrassegnandoli in modo efficace."
+    items: 
+        # format loop 1
+        - name: "Filigrana PDF"
+          format: "PDF"
+          link: "/watermark/nodejs-java/generate//pdf/"
+          description: "Formato documento Adobe Portable"
+
+        # format loop 2
+        - name: "Filigrana Word"
+          format: "WORD"
+          link: "/watermark/nodejs-java/generate//word/"
+          description: "MS Word e documenti Open Office"
+          
+        # format loop 3
+        - name: "Filigrana Excel"
+          format: "EXCEL"
+          link: "/watermark/nodejs-java/generate//excel/"
+          description: "MS Excel e fogli di calcolo Open Office"
+
+        # format loop 4
+        - name: "Immagine con filigrana"
+          format: "IMAGE"
+          link: "/watermark/nodejs-java/generate//image/"
+          description: "Formati di immagine più diffusi"
+
+        # format loop 5
+        - name: "Foto con filigrana"
+          format: "PHOTO"
+          link: "/watermark/nodejs-java/generate//photo/"
+          description: "Formati fotografici"
+
+        # format loop 6
+        - name: "Filigrana PowerPoint"
+          format: "POWERPOINT"
+          link: "/watermark/nodejs-java/generate//powerpoint/"
+          description: "MS PowerPoint e presentazioni Open Office"
+
+        # format loop 7
+        - name: "Filigrana DOCX"
+          format: "DOCX"
+          link: "/watermark/nodejs-java/generate//docx/"
+          description: "Documento XML aperto Microsoft Word"
+          
+        # format loop 8
+        - name: "Filigrana PPTX"
+          format: "PPTX"
+          link: "/watermark/nodejs-java/generate//pptx/"
+          description: "PowerPoint Presentazione XML aperta"
+          
+        # format loop 9
+        - name: "Filigrana XLSX"
+          format: "XLSX"
+          link: "/watermark/nodejs-java/generate//xlsx/"
+          description: "Foglio di calcolo Microsoft Excel Open XML"
+
+        # format loop 10
+        - name: "Filigrana JPEG"
+          format: "JPEG"
+          link: "/watermark/nodejs-java/generate//jpeg/"
+          description: "JPEG Immagine"
+
+        # format loop 11
+        - name: "Filigrana PNG"
+          format: "PNG"
+          link: "/watermark/nodejs-java/generate//png/"
+          description: "Portable Grafica di rete"
+
+        # format loop 12
+        - name: "Filigrana TIFF"
+          format: "TIFF"
+          link: "/watermark/nodejs-java/generate//tiff/"
+          description: "Formato del file di immagine per tag"
+
+        # format loop 13
+        - name: "Filigrana WEBP"
+          format: "WEBP"
+          link: "/watermark/nodejs-java/generate//webp/"
+          description: "Immagine WEB"
+
+        # format loop 14
+        - name: "Filigrana DOC"
+          format: "DOC"
+          link: "/watermark/nodejs-java/generate//doc/"
+          description: "Documento Microsoft Word 97 - 2007"
+
+        # format loop 15
+        - name: "Filigrana XLS"
+          format: "XLS"
+          link: "/watermark/nodejs-java/generate//xls/"
+          description: "Cartella di lavoro Microsoft Excel 97-2003"
+
+        # format loop 16
+        - name: "Filigrana PPT"
+          format: "PPT"
+          link: "/watermark/nodejs-java/generate//ppt/"
+          description: "PowerPoint Presentazione 97-2003"
+
+        # format loop 17
+        - name: "Filigrana RTF"
+          format: "RTF"
+          link: "/watermark/nodejs-java/generate//rtf/"
+          description: "Formato RTF"
+
+---

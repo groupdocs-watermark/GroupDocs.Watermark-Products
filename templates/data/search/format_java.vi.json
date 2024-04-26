@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Tìm hình mờ hình ảnh trong tài liệu {{FileFormatUp}}",
+    "comment_2": "Soạn Watermarker đi qua tài liệu {{FileFormatUp}}",
+    "comment_3": "Tìm kiếm hình mờ theo hash hình ảnh",
+    "comment_4": "Quá trình tìm thấy hình mờ"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} Tìm kiếm hình mờ qua {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** đơn giản hóa quá trình định vị hình mờ trong tài liệu kinh doanh. Cài đặt gói của chúng tôi vào {{EnvName}} ứng dụng của bạn để tận dụng lợi ích của nó.",
+      "step_1": "**Watermarker**. Bạn có thể cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.",
+      "step_2": "**SearchCriteria**. Ví dụ: cung cấp hình ảnh để tìm kiếm hình mờ hình ảnh tương tự. Nếu tìm kiếm hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn liên quan khác.",
+      "step_3": "**Tìm kiếm** của đối tượng**Watermarker**. Bạn sẽ nhận được một bộ sưu tập các đối tượng đại diện cho hình mờ tiềm năng để xử lý thêm.",
+      "step_4": "Cuối cùng, bạn có quyền tự do thao tác kết quả tìm kiếm khi cần thiết. Bạn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng, chẳng hạn như thay đổi kích thước hoặc văn bản."
+    }
+  },
+  "more_features": {
+    "title": "Tối ưu hóa tìm kiếm hình mờ trong tài liệu với {{ProdShortName}} API",
+    "description": "Nắm vững nghệ thuật tìm kiếm hình mờ trong bất kỳ tài liệu nào bằng cách sử dụng Java với API {{ProdShortName}} mạnh mẽ trong môi trường {{EnvName}}.",
+    "image_description": "Java Tìm kiếm hình mờ",
+    "feature_1": {
+      "title": "Java Công cụ tìm kiếm hình mờ mạnh mẽ",
+      "content": "Nâng cao khả năng xử lý tài liệu của bạn trong Java với {{ProdShortName}}. API của chúng tôi cung cấp các công cụ mở rộng để tìm kiếm và xác định hình mờ dựa trên nhiều tham số."
+    },
+    "feature_2": {
+      "title": "Truy xuất hình mờ chính xác với Java",
+      "content": "Nhắm mục tiêu hình mờ cụ thể với độ chính xác trong Java. Định cấu hình tìm kiếm của bạn để lọc theo các đặc điểm như kích thước, ngày tháng và nội dung, đảm bảo bạn tìm thấy chính xác những gì bạn cần."
+    },
+    "feature_3": {
+      "title": "Phân tích hình mờ toàn diện",
+      "content": "Tận dụng Java để tiến hành phân tích kỹ lưỡng các hình mờ đã tìm thấy. Sử dụng {{ProdShortName}} để đánh giá và quản lý hình mờ hiệu quả, tăng cường các biện pháp bảo mật và tuân thủ trong tài liệu của bạn."
+    },
+    "code_1": {
+      "title": "Java Ví dụ: Tìm kiếm hình mờ động",
+      "content": "Ví dụ này thể hiện việc sử dụng Java với {{ProdShortName}} để tự động tìm kiếm hình mờ trong tài liệu, minh họa cách xử lý kết quả tìm kiếm theo chương trình.",
+      "comment_1": "Khởi tạo môi trường Java và chuẩn bị tải tài liệu",
+      "comment_2": "Định cấu hình bộ lọc tìm kiếm dựa trên tiêu chí động do người dùng xác định",
+      "comment_3": "Thực hiện tìm kiếm hình mờ bằng API Java",
+      "comment_4": "Xử lý và xử lý kết quả tìm kiếm, chuẩn bị cho các hành động tiếp theo hoặc báo cáo"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Khám phá {{FileFormatUp}} Tìm kiếm hình mờ: Một yếu tố thay đổi trò chơi",
+      "description": "Khám phá tiềm năng thay đổi cuộc chơi của các tính năng tìm kiếm nâng cao G {{ProdFullName}} để quản lý hình mờ trong các loại tài liệu khác nhau."
+    },
+    "header": {
+      "title": "Tối đa hóa hiệu quả với {{FileFormatUp}} Tìm kiếm Hình mờ Tài liệu",
+      "description": "Tối ưu hóa hiệu quả quy trình làm việc của bạn với {{ProdFullName}} khả năng tìm kiếm hình mờ sáng tạo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Nhận thông tin {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp phổ biến. Nó hỗ trợ cả hình mờ văn bản và hình ảnh trên các loại tài liệu khác nhau, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Tăng cường quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Trao quyền cho bản thân để tìm kiếm và quản lý hình mờ trên các định dạng tệp khác nhau với {{ProdFullName}} khả năng nâng cao."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Khám phá tiềm năng của {{FileFormatUp}} Tìm kiếm hình mờ",
+      "description": "Khám phá cách {{ProdFullName}} khả năng tìm kiếm mạnh mẽ cách mạng hóa việc quản lý hình mờ trên nhiều định dạng tài liệu khác nhau."
+    },
+    "header": {
+      "title": "Mở khóa {{FileFormatUp}} Tính năng tìm kiếm hình mờ tài liệu",
+      "description": "Mở khóa toàn bộ tiềm năng của {{ProdFullName}} tính năng tìm kiếm để hợp lý hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thông tin",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp khác nhau một cách liền mạch. Nó hỗ trợ hình mờ văn bản và hình ảnh trên một loạt các loại tài liệu, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tương thích với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Cách mạng hóa quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Cách mạng hóa quy trình làm việc của bạn bằng cách tận dụng {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hình mờ trên các định dạng tệp khác nhau."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Tăng cường khả năng xử lý {{FileFormatUp}} với Tìm kiếm hình mờ",
+      "description": "Trao quyền cho bản thân để tìm kiếm và quản lý hình mờ hiệu quả trên các định dạng tài liệu đa dạng với {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Nâng cao năng suất với {{FileFormatUp}} Tìm kiếm hình mờ tài liệu",
+      "description": "Nâng cao năng suất của bạn bằng cách khai thác {{ProdFullName}} tính năng tìm kiếm mạnh mẽ để quản lý hình mờ {{FileFormatUp}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp phổ biến. Nó hỗ trợ cả hình mờ văn bản và hình ảnh trên các loại tài liệu khác nhau, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Hợp lý hóa quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Hợp lý hóa quy trình làm việc của bạn với {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hình mờ ở các định dạng tệp khác nhau."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Nâng cao quy trình làm việc của bạn với {{FileFormatUp}} Tìm kiếm hình mờ",
+      "description": "Nâng cao quy trình quản lý tài liệu của bạn với {{ProdFullName}} tính năng tìm kiếm mạnh mẽ để quản lý hình mờ trên các định dạng tệp khác nhau."
+    },
+    "header": {
+      "title": "Khám phá {{FileFormatUp}} Bản trình bày nâng cao Tìm kiếm hình mờ",
+      "description": "Khám phá các khả năng nâng cao của {{ProdFullName}} tính năng tìm kiếm để hợp lý hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thông tin cơ sở {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp toàn diện để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp khác nhau một cách liền mạch. Nó hỗ trợ hình mờ văn bản và hình ảnh trên một loạt các loại tài liệu, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tương thích với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Tối ưu hóa quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Tối ưu hóa quy trình làm việc của bạn với {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hình mờ trên các định dạng tệp khác nhau."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Khám phá sức mạnh của {{FileFormatUp}} Tìm kiếm hình mờ",
+      "description": "Khám phá sức mạnh của {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hiệu quả hình mờ trên nhiều định dạng tài liệu khác nhau."
+    },
+    "header": {
+      "title": "Mở khóa {{FileFormatUp}} Bản trình bày Tính năng tìm kiếm hình mờ",
+      "description": "Mở khóa toàn bộ tiềm năng của {{ProdFullName}} tính năng tìm kiếm để hợp lý hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Khoảng {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp phổ biến. Nó hỗ trợ cả hình mờ văn bản và hình ảnh trên các loại tài liệu khác nhau, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Tăng cường quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Trao quyền cho bản thân để tìm kiếm và quản lý hình mờ hiệu quả trên các định dạng tài liệu đa dạng với {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Khám phá {{FileFormatUp}} Tài liệu Tìm kiếm hình mờ",
+      "description": "Khám phá bản chất của {{ProdFullName}} khả năng tìm kiếm mạnh mẽ để quản lý hình mờ hiệu quả trên các loại tài liệu khác nhau."
+    },
+    "header": {
+      "title": "Tăng cường quy trình tìm kiếm hình mờ tài liệu {{FileFormatUp}}",
+      "description": "Mở khóa toàn bộ tiềm năng của {{ProdFullName}} tính năng tìm kiếm để hợp lý hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp phổ biến. Nó hỗ trợ cả hình mờ văn bản và hình ảnh trên các loại tài liệu khác nhau, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Tăng cường quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Trao quyền cho bản thân để tìm kiếm và quản lý hình mờ hiệu quả trên các định dạng tài liệu đa dạng với {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Tăng cường tính năng tìm kiếm hình mờ trên bảng tính {{FileFormatUp}} của bạn",
+      "description": "Tăng cường quy trình quản lý tài liệu của bạn với {{ProdFullName}} tìm kiếm nâng cao để quản lý hình mờ hiệu quả trên các định dạng tệp khác nhau."
+    },
+    "header": {
+      "title": "Khám phá Tìm kiếm hình mờ nâng cao trong {{FileFormatUp}} Bảng tính",
+      "description": "Khám phá các khả năng nâng cao của {{ProdFullName}} tính năng tìm kiếm để hợp lý hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Nhận thông tin {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp phổ biến. Nó hỗ trợ cả hình mờ văn bản và hình ảnh trên các loại tài liệu khác nhau, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Tối ưu hóa quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Tối ưu hóa quy trình làm việc của bạn với {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hình mờ trên các định dạng tệp khác nhau."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Xử lý bảng tính với Tìm kiếm hình mờ",
+      "description": "Tối đa hóa hiệu quả của bạn bằng cách sử dụng {{ProdFullName}} khả năng tìm kiếm nâng cao để quản lý hình mờ trên các định dạng tài liệu khác nhau."
+    },
+    "header": {
+      "title": "Giải phóng sức mạnh của Tìm kiếm Hình mờ cho {{FileFormatUp}} Bảng tính",
+      "description": "Giải phóng toàn bộ tiềm năng của {{ProdFullName}} chức năng tìm kiếm để cách mạng hóa quy trình quản lý hình mờ của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thông tin",
+      "content": "{{ProdFullName}} là một giải pháp sáng tạo để quản lý hình mờ bằng cách sử dụng {{EnvName}}. Các nhà phát triển có thể dễ dàng tạo, chỉnh sửa, tìm kiếm và xóa hình mờ khỏi tài liệu ở các định dạng tệp khác nhau. Nó hỗ trợ hình mờ văn bản và hình ảnh trên một loạt các loại tài liệu, bao gồm PDF, Microsoft Word, Excel, PowerPoint, Visio, email và định dạng hình ảnh. {{ProdFullName}} tích hợp liền mạch với tất cả các hệ điều hành chính và {{EnvName}} phiên bản."
+    },
+    "formats": {
+      "title": "Nâng cao quy trình làm việc của bạn với Tìm kiếm hình mờ",
+      "description": "Nâng cao quy trình quản lý tài liệu của bạn với {{ProdFullName}} tính năng tìm kiếm mạnh mẽ để quản lý hình mờ ở các định dạng tệp khác nhau."
+    }
+  }
+}

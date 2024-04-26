@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Tambahkan tanda air teks ke {{FileFormatUp}}",
+    "comment_2": "Berikan file yang akan diberi tanda air ke Watermarker",
+    "comment_3": "Buat tanda air teks dan atur properti",
+    "comment_4": "Simpan file dengan tanda air"
+  },
+  "steps": {
+    "title": "Tambahkan Watermark ke Dokumen {{FileformatCap}} melalui {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memudahkan pengembang {{EnvName}} untuk menambahkan tanda air dari berbagai jenis ke format file bisnis populer. Tambahkan perpustakaan kami ke dokumen aplikasi dan tanda air Anda dalam beberapa langkah mudah seperti yang tercantum di bawah ini.",
+      "step_1": "**Watermarker**. Anda perlu membuat instansiasinya sebelum pemrosesan dokumen. Jangan lupa untuk meneruskan file {{FileformatCap}} ke konstruktor sebagai jalur atau objek aliran.",
+      "step_2": "**Watermark** dari jenis yang diinginkan. Itu dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti lampiran atau header.",
+      "step_3": "Tetapkan properti watermark seperti tinggi dan lebar, penyelarasan halaman (atas, kiri, tengah, dll.), Keluarga font dan warna, dan banyak lainnya.",
+      "step_4": "**Watermarker** untuk menambahkan tanda air baru. Anda dapat menambahkan tanda air sebanyak yang Anda butuhkan. Disarankan untuk menyimpan dokumen yang diproses ke lokasi lain."
+    }
+  },
+  "more_features": {
+    "title": "Tingkatkan Watermark Anda dengan Mudah",
+    "description": "Manfaatkan kekuatan GroupDocs.Watermark untuk menghasilkan, menyusun, dan menambahkan tanda air di berbagai format dokumen. API ini tidak hanya meningkatkan keamanan dokumen tetapi juga melindungi kekayaan intelektual Anda dengan menyematkan tanda air yang dapat disesuaikan yang serbaguna dan kuat.",
+    "image_description": "Tambahkan Watermark",
+    "feature_1": {
+      "title": "Opsi Tanda Air Serbaguna.",
+      "content": "Jelajahi berbagai pilihan watermarking dengan GroupDocs.Watermark. Dari menyesuaikan opasitas dan rotasi hingga ukuran penskalaan secara proporsional, API kami memungkinkan Anda menyesuaikan tanda air dengan tepat sesuai kebutuhan Anda, memastikan bahwa tanda air tersebut menyatu dengan mulus dengan dokumen Anda sambil mempertahankan integritas konten."
+    },
+    "feature_2": {
+      "title": "Penataan Tanda Air Tingkat Lanjut.",
+      "content": "GroupDocs.Watermark memungkinkan Anda untuk menata tanda air Anda dengan berbagai font, warna, dan bayangan, membuatnya khas dan lebih sulit untuk dihapus. Tingkatkan daya tarik estetika dokumen dan gambar Anda yang dilindungi dengan tanda air bergaya yang mencerminkan identitas dan profesionalisme merek Anda."
+    },
+    "feature_3": {
+      "title": "Ubin & Pemosisian Tanda Air",
+      "content": "Dengan GroupDocs.Watermark, terapkan efek ubin untuk menutupi seluruh dokumen Anda, memastikan perlindungan lengkap. Posisikan tanda air tepat di tempat yang Anda butuhkan — lokasi tengah, sudut, atau kustom. Opsi penentuan posisi fleksibel kami membantu melindungi dokumen Anda dari penggunaan dan duplikasi yang tidak sah."
+    },
+    "code_1": {
+      "title": "PDF tanda air anotasi",
+      "content": "Contoh ini menunjukkan cara menambahkan anotasi tanda air ke dokumen PDF",
+      "comment_1": "Muat dokumen sebagai PDF",
+      "comment_2": "Buat tanda air berdasarkan anotasi PDF",
+      "comment_3": "Menyiapkan opsi tanda air",
+      "comment_4": "Tambahkan tanda air teks ke dokumen hasil"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hasilkan Watermark di {{FileformatCap}} Spreadsheet untuk Java",
+      "description": "Mudah menerapkan pembuatan watermark teks dan gambar di {{FileformatCap}} dengan Java untuk melindungi spreadsheet data {{FileformatCap}} Anda"
+    },
+    "header": {
+      "title": "Otomatis {{FileformatCap}} Watermarking dengan Java Code",
+      "description": "Terapkan teks kustom atau tanda air gambar di lembar bentang {{FileformatCap}} menggunakan Java. Panduan ini menawarkan petunjuk langkah demi langkah untuk meningkatkan keamanan dokumen dan branding, yang disesuaikan untuk berbagai kebutuhan profesional.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "{{ProdFullName}} menawarkan manajemen tanda air yang komprehensif dalam spreadsheet {{FileformatCap}}, memungkinkan pengembang untuk dengan mudah membuat, menyesuaikan, dan menghapus tanda air. Ini mendukung semua format file Excel populer, memungkinkan penyematan tanda air teks dan gambar yang dapat disesuaikan dalam font, warna, ukuran, dan posisi. GroupDocs.Watermark juga menyertakan fitur untuk pencarian tanda air, memastikan bahwa tanda air Anda utuh dan tahan rusak. Ideal untuk aplikasi yang membutuhkan peningkatan keamanan dokumen dalam lingkungan Java."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Teknik untuk {{FileformatCap}} Watermarking",
+      "description": "Menggunakan GroupDocs.Watermark for Java, dengan mudah menerapkan tanda air berbasis teks atau gambar ke lembar bentang {{FileformatCap}}, secara signifikan meningkatkan keamanan dokumen dan branding sebagai bagian dari alur kerja bisnis Anda."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Tulis Watermark Khusus untuk {{FileformatCap}} dengan Java",
+      "description": "Integrasikan tanda air khusus dalam dokumen {{FileformatCap}} menggunakan Java. Tingkatkan keamanan dan tambahkan sentuhan profesional."
+    },
+    "header": {
+      "title": "Buat Watermark Kustom di {{FileformatCap}} Dokumen",
+      "description": "Amankan file {{FileformatCap}} Anda dengan Java dengan menyematkan tanda air teks atau gambar yang disesuaikan. Sumber daya ini sangat ideal bagi mereka yang perlu meningkatkan keamanan dokumen dan daya tarik visual dengan sedikit usaha.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} memungkinkan pembuatan tanda air yang tepat dan fleksibel dalam dokumen {{FileformatCap}}. Alat ini memberdayakan Java pengembang untuk menambahkan tanda air khusus yang dapat menyertakan teks, gambar, atau logo, disesuaikan dengan kebutuhan branding spesifik Anda. Ini mendukung semua format dokumen Word utama dan menyediakan fitur komprehensif untuk mengedit dan menghapus tanda air, serta mencari melalui dokumen untuk memverifikasi integritas tanda air. Kompatibel dengan semua sistem operasi yang didukung Java, API ini sangat cocok untuk bisnis yang ingin memperkuat protokol keamanan dokumen mereka."
+    },
+    "formats": {
+      "title": "Personalisasi File MS {{FileformatCap}} Anda dengan pembuatan Watermark {{ProgLang}}.",
+      "description": "{{ProdFullName}} memungkinkan pengembang untuk dengan mudah memasukkan teks atau tanda air gambar yang disesuaikan ke dalam dokumen {{FileformatCap}}. Peningkatan ini tidak hanya meningkatkan keamanan dokumen tetapi juga memperkaya komunikasi bisnis dengan sentuhan profesional."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Hasilkan Watermark Efektif untuk Gambar dengan Java",
+      "description": "Gunakan Java untuk membuat tanda air canggih untuk Gambar. Lindungi dokumen Anda dan menegaskan hak cipta secara efektif."
+    },
+    "header": {
+      "title": "Gambar Watermarking dengan mulus di Java",
+      "description": "Terapkan tanda air dinamis dalam file gambar Anda menggunakan Java. Alat ini memungkinkan penyesuaian posisi, skalabilitas, dan transparansi yang tepat untuk meningkatkan keamanan dan pengenalan merek.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java memungkinkan pengembang untuk secara efektif menghasilkan dan mengelola tanda air pada file gambar. Dengan dukungan untuk berbagai format gambar, pengguna dapat menerapkan tanda air teks dan grafik yang sepenuhnya dapat disesuaikan dalam posisi, skala, dan transparansi. Fungsi ini sangat penting untuk aplikasi di media digital, periklanan, dan distribusi konten online, di mana integritas branding dan hak cipta adalah yang terpenting. Selain itu, GroupDocs.Watermark menyertakan fitur untuk mencari dan menghapus tanda air yang ada, menyediakan alat serbaguna untuk manajemen dan keamanan gambar."
+    },
+    "formats": {
+      "title": "Merampingkan keamanan Gambar dengan Watermarking di {{ProgLang}}",
+      "description": "Toolkit Java kami memungkinkan pembuatan tanda air yang dipersonalisasi untuk format gambar apa pun, meningkatkan keamanan dan branding. Watermark yang disesuaikan memastikan visual Anda dikenali dan dilindungi di berbagai media."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Watermarking Foto Cepat Menjadi Mudah di Java",
+      "description": "Sederhanakan perlindungan foto Anda dengan tanda air. Cepat dan dapat diandalkan."
+    },
+    "header": {
+      "title": "Alat Java yang efisien untuk Watermarking Foto",
+      "description": "Tambahkan tanda air ke foto Anda dengan cepat dan efisien menggunakan Java API kami. Sempurna untuk mengamankan gambar digital dan meningkatkan visibilitas merek dengan sedikit usaha.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} dioptimalkan untuk watermarking file foto yang cepat dan efektif. Alat ini memungkinkan integrasi cepat tanda air teks dan gambar ke dalam berbagai format foto, termasuk JPEG, PNG, dan BMP. Sesuaikan tanda air Anda dengan opsi ekstensif untuk gaya, transparansi, dan penempatan untuk memastikannya menyatu dengan mulus tanpa mengurangi kualitas foto. Cocokan untuk operasi volume tinggi, mendukung pemrosesan batch untuk menerapkan tanda air ke beberapa foto sekaligus, menjadikannya ideal untuk bisnis dan pembuat konten digital yang perlu melindungi dan memberi merek aset visual mereka secara efisien"
+    },
+    "formats": {
+      "title": "Integrasi Watermark Cepat untuk Foto melalui {{ProgLang}}",
+      "description": "Manfaatkan Java API kami untuk menerapkan tanda air dengan cepat ke foto, meningkatkan keamanan dan identitas merek. Proses otomatis memungkinkan aplikasi massal, memastikan hasil yang konsisten dan profesional."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Buat Watermark tingkat lanjut untuk Presentasi",
+      "description": "Tingkatkan presentasi Anda dengan fitur watermarking canggih di Java."
+    },
+    "header": {
+      "title": "Teknik Watermarking Presentasi Tingkat Lanjut",
+      "description": "Terapkan strategi watermarking yang kompleks dalam presentasi Anda dengan toolkit Java kami. Sesuaikan tanda air untuk meningkatkan keamanan dan estetika profesional.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} dirancang untuk mendukung kemampuan watermarking tingkat lanjut untuk presentasi. Ini memungkinkan pengguna untuk mengintegrasikan teks dan tanda air gambar yang disesuaikan dengan mudah ke dalam format presentasi apa pun. Fitur termasuk gaya watermark yang canggih, pemrosesan batch otomatis untuk kumpulan file besar, dan alat untuk manajemen tanda air seperti modifikasi dan penghapusan. Perpustakaan Java ini memastikan bahwa presentasi Anda tidak hanya aman dari plagiarisme tetapi juga membawa tampilan profesional yang selaras dengan branding organisasi Anda."
+    },
+    "formats": {
+      "title": "Tingkatkan Keamanan Presentasi dengan Watermark tingkat lanjut di {{ProgLang}}",
+      "description": "Masukkan tanda air canggih dengan mulus ke dalam presentasi Anda untuk melindungi dan menyempurnakan materi Anda. Java API kami memungkinkan penyesuaian terperinci dan pemrosesan otomatis, ideal untuk mempertahankan penampilan profesional sambil mengamankan informasi."
+    }
+  }
+}

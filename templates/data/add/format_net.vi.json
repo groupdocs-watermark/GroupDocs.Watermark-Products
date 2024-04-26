@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Tạo hình mờ hình ảnh trong tập tin {{FileFormatUp}}",
+    "comment_2": "Cung cấp đường dẫn tệp nguồn đến trình tạo Watermarker",
+    "comment_3": "Tạo phiên bản hình mờ hình ảnh với tệp hình ảnh",
+    "comment_4": "Lưu kết quả có hình mờ {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Dễ dàng tạo hình mờ cho {{FileformatCap}} tài liệu",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Thư viện Watermarking nâng cao cho {{EnvName}} ứng dụng. Tăng cường giải pháp của bạn và bảo mật tài liệu bằng hình mờ đúng lúc.",
+      "step_1": "**Lớp cốt lõi: Watermarker.** Lớp chính của API của chúng tôi là**Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "**Tạo hình mờ của bạn.** Bước tiếp theo là xây dựng một đối tượng Watermark thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như hình ảnh hoặc tiêu đề.",
+      "step_3": "**Tinh chỉnh giao diện.** Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, trên cùng, bên trái, căn chỉnh trung tâm, phông chữ và màu sắc, v.v.",
+      "step_4": "**Áp dụng và lưu.** Sử dụng phương thức**Watermarker** để thêm hình mờ mới. Hãy thêm nhiều hình mờ như bạn cần. Bạn có thể lưu tài liệu có hình mờ vào bất kỳ vị trí nào."
+    }
+  },
+  "more_features": {
+    "title": "Nâng cao trò chơi hình mờ của bạn",
+    "description": "Mở khóa khả năng tạo hình mờ nâng cao với GroupDocs.Watermark API của chúng tôi cho .NET. Công cụ mạnh mẽ này cho phép tùy chỉnh chính xác và áp dụng hình mờ trên các loại tài liệu khác nhau để đảm bảo bảo mật tối đa và tuân thủ bản quyền với sự gián đoạn hình ảnh tối thiểu.",
+    "image_description": "Giải pháp chấm mờ toàn diện",
+    "feature_1": {
+      "title": "Tùy chọn ốp lát tinh vi",
+      "content": "Mở rộng hình mờ của bạn trên toàn bộ tài liệu một cách liền mạch với các tùy chọn ốp lát của chúng tôi. Tính năng này cho phép hình mờ bao phủ toàn bộ khu vực tài liệu, ngăn chặn việc xóa và đảm bảo bảo vệ tài liệu hoàn toàn mà không ảnh hưởng đến thiết kế hoặc khả năng đọc."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh màu sắc rực rỡ",
+      "content": "Thêm một chút màu sắc vào hình mờ của bạn! API của chúng tôi cho phép tùy chỉnh màu sắc toàn phổ, cho phép bạn áp dụng hình mờ phù hợp hoàn hảo với thương hiệu công ty hoặc phong cách tài liệu của bạn. Tăng cường sức hấp dẫn trực quan trong khi vẫn duy trì các tính năng bảo mật mạnh mẽ."
+    },
+    "feature_3": {
+      "title": "Cài đặt bảo mật nâng cao",
+      "content": "Đưa bảo mật tài liệu lên cấp độ tiếp theo với cài đặt hình mờ nâng cao. Định cấu hình hình mờ nhiều lớp, kết hợp cả các yếu tố hiển thị và vô hình, để bảo vệ chống lại việc sao chép trái phép và đảm bảo chỉ người nhận dự định mới có thể truy cập thông tin quan trọng."
+    },
+    "code_1": {
+      "title": "Tạo hình mờ PowerPoint",
+      "content": "Ví dụ này cho thấy cách thêm hình mờ vào hình nền PPTX",
+      "comment_1": "Tải bài thuyết trình PPTX",
+      "comment_2": "Thiết lập thuộc tính hình mờ",
+      "comment_3": "Hình nền slide hình mờ",
+      "comment_4": "Lưu bản trình bày đã xử lý"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Hình mờ {{FileFormatUp}} Tệp với .NET C #",
+      "description": "Triển khai hình mờ C# .NET trong tệp {{FileFormatUp}} để bảo vệ và quản lý Word tài liệu của bạn một cách hiệu quả."
+    },
+    "header": {
+      "title": "Tăng cường bảo mật {{FileFormatUp}} với hình mờ C #",
+      "description": "Sử dụng .NET C # để nhúng hình mờ an toàn vào {{FileFormatUp}} tệp, hoàn hảo để bảo vệ MS Word tài liệu trong các cài đặt pháp lý và công ty.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} tận dụng .NET C # để cung cấp một giải pháp hình mờ tinh vi cho {{FileFormatUp}} tệp, thường được sử dụng trong Microsoft Word. API này cho phép các nhà phát triển chèn cả hình mờ văn bản và đồ họa có thể tùy chỉnh về độ mờ, màu sắc và vị trí. Tăng cường bảo mật tài liệu với hình mờ có thể bao gồm dấu thời gian, logo hoặc nhãn bí mật, ngăn chặn hiệu quả việc sử dụng trái phép và đảm bảo tính xác thực của tài liệu. API được thiết kế để tích hợp liền mạch với .NET framework, làm cho nó trở nên lý tưởng cho các ứng dụng trong tài liệu pháp lý, truyền thông doanh nghiệp và quản lý thông tin nhạy cảm. Tương thích với môi trường .NET C #, {{ProdShortName}} cung cấp một bộ công cụ mạnh mẽ để bảo vệ tài liệu toàn diện."
+    },
+    "formats": {
+      "title": "Hình mờ C # cho Word Tài liệu",
+      "description": "Triển khai .NET C # để áp dụng hình mờ chính xác và có thể tùy chỉnh trong {{FileFormatUp}} tệp, tăng cường bảo mật và tính toàn vẹn của MS Word tài liệu của bạn."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Hình mờ C # cho tập tin {{FileFormatUp}}",
+      "description": "Sử dụng .NET C # để tích hợp hình mờ vào {{FileFormatUp}} tệp, tăng cường bảo mật cho Word tài liệu của bạn."
+    },
+    "header": {
+      "title": "Bảo mật {{FileFormatUp}} với .NET Hình mờ C #",
+      "description": "Áp dụng các kỹ thuật tạo hình mờ nâng cao trong {{FileFormatUp}} tệp bằng cách sử dụng .NET C #, hoàn hảo để bảo vệ sở hữu trí tuệ trong Word tài liệu trong các ngành công nghiệp.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} khai thác sức mạnh của .NET C # để thêm khả năng tạo hình mờ tinh vi cho {{FileFormatUp}} tệp. Công cụ này được thiết kế để tích hợp liền mạch vào môi trường Microsoft Word, cho phép áp dụng hình mờ có thể mở rộng động, minh bạch và được định vị theo bố cục tài liệu. Nó lý tưởng cho các tài liệu pháp lý, báo cáo bí mật và chính sách của công ty yêu cầu cả khả năng hiển thị và bảo vệ. Các tính năng bao gồm kiểu văn bản tùy chỉnh, hình mờ hình ảnh và vị trí có điều kiện dựa trên nội dung tài liệu. Với sự hỗ trợ cho các framework .NET mới nhất, {{ProdShortName}} đảm bảo rằng các biện pháp bảo mật tài liệu của bạn là hiện đại nhất."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Nắm vững việc áp dụng hình mờ tùy chỉnh, an toàn trong tệp {{FileFormatUp}} bằng cách sử dụng .NET C #, điều cần thiết cho tính toàn vẹn của tài liệu và bảo vệ bản quyền."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Bảo vệ {{FileFormatUp}} với .NET Hình mờ C #",
+      "description": "Nhúng hình mờ nâng cao vào {{FileFormatUp}} hình ảnh bằng cách sử dụng .NET C #, đảm bảo bảo mật bản quyền và nội dung."
+    },
+    "header": {
+      "title": "Hình mờ C # nâng cao cho tập tin {{FileFormatUp}}",
+      "description": "Sử dụng .NET C # để áp dụng hình mờ an toàn, có thể tùy chỉnh cho {{FileFormatUp}} hình ảnh, lý tưởng để bảo vệ tác phẩm nghệ thuật kỹ thuật số và bản quyền nhiếp ảnh.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển C# .NET các công cụ mạnh mẽ để tô mờ {{FileFormatUp}} hình ảnh một cách hiệu quả. API này tích hợp trực tiếp với quy trình xử lý hình ảnh kỹ thuật số, cho phép bổ sung hình mờ có thể dựa trên văn bản, lấy logo làm trung tâm hoặc có hoa văn. Các tùy chọn tùy chỉnh bao gồm điều chỉnh độ mờ đục, kích thước tỷ lệ và sửa đổi xoay để đảm bảo hình mờ kết hợp liền mạch mà không làm giảm tính thẩm mỹ ban đầu của hình ảnh. Lý tưởng cho các nhiếp ảnh gia, nhà thiết kế đồ họa và người sáng tạo nội dung, {{ProdShortName}} bảo vệ chống lại việc sử dụng trái phép trong khi vẫn duy trì chất lượng hình ảnh cao. Tương thích với tất cả các phiên bản .NET chính, giải pháp này rất quan trọng đối với bất kỳ ai cần bảo mật nội dung trực quan trong bối cảnh kỹ thuật số."
+    },
+    "formats": {
+      "title": "Giải pháp hình mờ C # cho {{FileFormatUp}} hình ảnh",
+      "description": "Triển khai .NET C # để tạo và quản lý hình mờ trong {{FileFormatUp}} tệp, tăng cường bảo mật cho hình ảnh trên các nền tảng kỹ thuật số."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Hình mờ C # cho {{FileFormatUp}} hình ảnh",
+      "description": "Tích hợp hình mờ vào tệp {{FileFormatUp}} bằng cách sử dụng .NET C #, bảo vệ hình ảnh kỹ thuật số của bạn một cách hiệu quả."
+    },
+    "header": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với .NET C #",
+      "description": "Áp dụng .NET C# để tạo hình mờ mạnh mẽ cho {{FileFormatUp}} hình ảnh, lý tưởng để bảo vệ bản quyền và ngăn chặn việc sử dụng trái phép.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho .NET nhà phát triển C# một khung nâng cao để thêm hình mờ vào JPG hình ảnh. API này cho phép nhúng chính xác văn bản, logo và hình mờ đồ họa có thể tùy chỉnh về độ mờ, vị trí và kích thước, hoàn hảo cho phương tiện kỹ thuật số và nhiếp ảnh chuyên nghiệp. Tăng cường bảo mật cho hình ảnh của bạn mà không làm mất chất lượng, với các tính năng được thiết kế để nhúng hình mờ ngăn chặn vi phạm bản quyền trong khi vẫn duy trì tính toàn vẹn của tác phẩm nghệ thuật gốc. Thích hợp cho một loạt các ứng dụng từ bảo vệ ảnh cá nhân đến sử dụng thương mại trong quảng cáo và phương tiện truyền thông, {{ProdShortName}} đảm bảo rằng tài sản hình ảnh của bạn được đánh dấu độc đáo và được bảo vệ hợp pháp."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Tận dụng .NET C # để nhúng hình mờ vô hình hoặc hiển thị trong tệp {{FileFormatUp}}, cần thiết cho nội dung kỹ thuật số an toàn và dễ nhận biết."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Hình mờ C # cho tài liệu bảo mật {{FileFormatUp}}",
+      "description": "Sử dụng .NET C # để nhúng hình mờ vào {{FileFormatUp}}, bảo mật các tài liệu chính thức và thông tin nhạy cảm."
+    },
+    "header": {
+      "title": "Tăng cường bảo mật {{FileFormatUp}} với hình mờ C #",
+      "description": "Triển khai .NET C # để áp dụng hình mờ trong {{FileFormatUp}} tài liệu, đảm bảo bảo vệ các hồ sơ pháp lý, tài chính và chính thức.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho .NET nhà phát triển C# một API mạnh mẽ để chèn hình mờ vào tệp {{FileFormatUp}}, một công cụ thiết yếu để bảo mật tài liệu trong các lĩnh vực doanh nghiệp, pháp lý và chính phủ. API này hỗ trợ các tùy chọn tùy chỉnh hình mờ toàn diện bao gồm định dạng văn bản, tích hợp hình ảnh và vị trí động để phù hợp với các bố cục tài liệu khác nhau. Cho dù bảo đảm các thỏa thuận bí mật, bảo vệ tài liệu bản quyền hoặc đánh dấu thông tin độc quyền, {{ProdShortName}} đảm bảo rằng tất cả PDF đều truyền đạt quyền sở hữu một cách rõ ràng và chuyên nghiệp. Các tính năng bổ sung bao gồm xoay hình mờ, kiểm soát độ trong suốt và khả năng phân lớp, tương thích với tất cả các framework .NET hiện đại."
+    },
+    "formats": {
+      "title": "Bảo mật tệp {{FileFormatUp}} bằng hình mờ C# .NET",
+      "description": "Sử dụng .NET C # để nhúng hình mờ an toàn, phù hợp trong {{FileFormatUp}} tài liệu, lý tưởng để bảo vệ thông tin chính thức và nhạy cảm."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Bảo mật {{FileFormatUp}} với .NET Hình mờ C #",
+      "description": "Nhúng hình mờ vào {{FileFormatUp}} tệp bằng .NET C #, hoàn hảo cho bản quyền và bảo mật hình ảnh."
+    },
+    "header": {
+      "title": "Hình mờ C # cho tập tin {{FileFormatUp}}",
+      "description": "Sử dụng .NET C # để áp dụng hình mờ nâng cao cho {{FileFormatUp}} hình ảnh, bảo vệ nội dung nghệ thuật và kỹ thuật số một cách hiệu quả.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp bộ công cụ .NET C# chuyên dụng để nhúng hình mờ trong tệp {{FileFormatUp}}, phục vụ cho các nghệ sĩ, nhà thiết kế và người sáng tạo nội dung, những người cần bảo vệ tài sản hình ảnh của họ. API này cho phép bổ sung liền mạch cả hình mờ trong suốt và mờ đục có thể được định vị và thu nhỏ một cách phức tạp để duy trì tính toàn vẹn của hình ảnh gốc đồng thời đảm bảo sự bảo vệ pháp lý. Các tính năng bao gồm hình mờ văn bản và hình ảnh tùy chỉnh, kiểm soát chính xác độ mờ mờ của hình mờ và khả năng thêm hình mờ nhiều lớp để tăng cường bảo mật. Cho dù cho mục đích sử dụng cá nhân hay danh mục đầu tư chuyên nghiệp, {{ProdShortName}} đảm bảo hình ảnh PNG của bạn được bảo vệ chống lại việc tái tạo và sử dụng trái phép, được hỗ trợ đầy đủ trên .NET môi trường."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Triển khai .NET C # để tạo hình mờ kín đáo hoặc đậm trong {{FileFormatUp}} hình ảnh, đảm bảo tính linh hoạt về mặt thẩm mỹ và bảo vệ bản quyền mạnh mẽ."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Hình mờ C # cho tập tin PowerPoint",
+      "description": "Áp dụng hình mờ động cho tệp PowerPoint bằng cách sử dụng .NET C #, tăng cường bảo mật bản trình bày."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với .NET Hình mờ C #",
+      "description": "Sử dụng .NET C # để chèn hình mờ tùy chỉnh vào PowerPoint bài thuyết trình, lý tưởng để bảo mật nội dung kinh doanh và học thuật.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho .NET nhà phát triển C# các công cụ để tích hợp hình mờ liền mạch vào các tệp PowerPoint (PPT). API này hoàn hảo để thêm cả hình mờ hiển thị và vô hình, đảm bảo các bản trình bày được bảo vệ chống lại việc sử dụng và phân phối trái phép. Với các tính năng nâng cao như tùy chỉnh hình mờ cho kiểu văn bản, kích thước, màu sắc và độ mờ, cũng như khả năng tạo hình mờ hình ảnh, {{ProdShortName}} nâng cao tính bảo mật và tính chuyên nghiệp của trang trình bày của bạn. Nó đặc biệt hữu ích cho các môi trường công ty, giáo dục và đào tạo nơi tính toàn vẹn của tài liệu là rất quan trọng. Hoàn toàn tương thích với tất cả các phiên bản của .NET, bao gồm .NET Core và .NET Framework."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} tệp bằng hình mờ C #",
+      "description": "Nhúng hình mờ nâng cao vào tài liệu PowerPoint bằng cách sử dụng .NET C #, bảo vệ bản trình bày của bạn khỏi bị lạm dụng và vi phạm bản quyền."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Bảo vệ bản trình bày {{FileFormatUp}} của bạn bằng hình mờ được áp dụng .NET C #, bảo vệ sở hữu trí tuệ."
+    },
+    "header": {
+      "title": "Hình mờ C # nâng cao cho {{FileFormatUp}}",
+      "description": "Triển khai .NET C # để tạo hình mờ mạnh mẽ trong {{FileFormatUp}} tệp, hoàn hảo để tăng cường bảo mật trong các bài thuyết trình của công ty và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp giải pháp .NET C # toàn diện để đánh dấu các tệp {{FileFormatUp}}, phù hợp với các chuyên gia cần bảo mật tài liệu thuyết trình. API này hỗ trợ tích hợp hình mờ có thể tùy chỉnh và có thể bao gồm văn bản, logo hoặc đồ họa khác. Nó cung cấp các tính năng như điều chỉnh độ trong suốt, kích thước và định vị, cho phép hình mờ vừa hiệu quả vừa tinh tế. Lý tưởng cho các doanh nghiệp, nhà giáo dục và bất kỳ ai trình bày thông tin nhạy cảm hoặc độc quyền, {{ProdShortName}} đảm bảo rằng bài thuyết trình của bạn không chỉ an toàn mà còn duy trì chất lượng thẩm mỹ của chúng. Tương thích với .NET 5 trở lên, công cụ này mở rộng hỗ trợ mạnh mẽ cho các môi trường Microsoft Office hiện đại."
+    },
+    "formats": {
+      "title": "Giải pháp hình mờ C # cho tập tin {{FileFormatUp}}",
+      "description": "Tận dụng .NET C # để áp dụng hình mờ rời rạc trong {{FileFormatUp}} tệp, bảo vệ bản trình bày của bạn khỏi việc phân phối trái phép."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Hình mờ C # cho {{FileFormatUp}} Tài liệu",
+      "description": "Kết hợp hình mờ C# .NET vào {{FileFormatUp}} tệp để tăng cường bảo mật cho Word tài liệu của bạn."
+    },
+    "header": {
+      "title": "Bảo mật {{FileFormatUp}} với .NET Hình mờ C #",
+      "description": "Sử dụng .NET C # để áp dụng hình mờ an toàn, có thể tùy chỉnh cho {{FileFormatUp}} tệp, hoàn hảo để duy trì tính toàn vẹn của tài liệu trong môi trường MS Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho .NET nhà phát triển C# các công cụ tinh vi để thêm hình mờ vào {{FileFormatUp}} tài liệu một cách hiệu quả. API này cho phép tích hợp cả hình mờ hiển thị và trong suốt có thể được tùy chỉnh về phông chữ, màu sắc, kích thước và vị trí, đảm bảo chúng hòa quyện liền mạch vào tài liệu mà không cản trở khả năng đọc. Lý tưởng cho các tài liệu pháp lý, giấy tờ sở hữu trí tuệ và giao tiếp nhạy cảm, {{ProdShortName}} cung cấp sự bảo vệ thiết yếu chống lại việc sao chép và sửa đổi trái phép. Công cụ này được thiết kế để tương thích với tất cả các phiên bản của .NET, tạo điều kiện cho một giải pháp an toàn và thích ứng cho việc dán nhãn tài liệu."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Triển khai .NET C # để tạo hình mờ mạnh mẽ và tinh tế trong tài liệu {{FileFormatUp}}, củng cố tính bảo mật và tính xác thực của tệp Word của bạn."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Tạo hình mờ C # cho {{FileFormatUp}} hình ảnh",
+      "description": "Sử dụng .NET C # để áp dụng hình mờ chính xác cho {{FileFormatUp}} hình ảnh, bảo mật nội dung ảnh của bạn."
+    },
+    "header": {
+      "title": "Hình mờ nâng cao cho {{FileFormatUp}} với C #",
+      "description": "Nhúng hình mờ chất lượng cao vào {{FileFormatUp}} hình ảnh bằng cách sử dụng .NET C #, lý tưởng cho các nhiếp ảnh gia và nhà lưu trữ yêu cầu bảo vệ bản quyền nâng cao.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp khung .NET C # mạnh mẽ để đánh dấu các tệp {{FileFormatUp}}, phù hợp với nhu cầu của các chuyên gia trong nhiếp ảnh và lưu trữ kỹ thuật số. API này cho phép bổ sung liền mạch các hình mờ có thể tùy chỉnh về độ mờ đục, kích thước và vị trí, kết hợp hoàn hảo với bản chất độ phân giải cao của hình ảnh TIF. Các tính năng bao gồm khả năng áp dụng cả hình mờ văn bản và hình ảnh, rất cần thiết để khẳng định bản quyền, ngăn chặn việc sử dụng trái phép và tăng cường khả năng truy xuất nguồn gốc hình ảnh. Với các khả năng nâng cao như xử lý hàng loạt và đặt hình mờ động, {{ProdShortName}} đảm bảo hình ảnh của bạn được bảo vệ mà không ảnh hưởng đến chất lượng. Tương thích với tất cả các nền tảng .NET hiện đại, công cụ này là công cụ bắt buộc để đảm bảo các tài sản hình ảnh có giá trị."
+    },
+    "formats": {
+      "title": "Bảo mật {{FileFormatUp}} hình ảnh với .NET C #",
+      "description": "Áp dụng .NET C # để nhúng hình mờ tùy chỉnh, không phô trương vào {{FileFormatUp}} hình ảnh, bảo vệ chống lại việc sao chép trái phép và đảm bảo tính toàn vẹn bản quyền."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Tạo hình mờ {{FileFormatUp}} bằng C #",
+      "description": "Soạn và thêm hình mờ chính xác vào {{FileFormatUp}} hình ảnh bằng cách sử dụng .NET C #, bảo vệ nội dung kỹ thuật số của bạn."
+    },
+    "header": {
+      "title": "Soạn hình mờ cho {{FileFormatUp}} bằng C #",
+      "description": "Tạo hình mờ mạnh mẽ, tùy chỉnh trong tệp {{FileFormatUp}} bằng cách sử dụng .NET C #, cần thiết để bảo vệ và quản lý hình ảnh kỹ thuật số và lưu trữ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp bộ công cụ .NET C # toàn diện để tạo, soạn và thêm hình mờ vào tệp TIFF. Giải pháp này đáp ứng nhu cầu độc đáo của lưu trữ kỹ thuật số và nhiếp ảnh chuyên nghiệp, trong đó việc duy trì chất lượng hình ảnh và bảo vệ bản quyền là tối quan trọng. Người dùng có thể tùy chỉnh độ mờ mờ, tỷ lệ và vị trí của hình mờ để đảm bảo chúng được tích hợp liền mạch mà không làm mất đi hình ảnh. Khả năng tạo hình mờ văn bản hoặc đồ họa, cùng với các tính năng nâng cao như phân lớp hình mờ và định dạng có điều kiện, làm cho {{ProdShortName}} trở thành một công cụ không thể thiếu cho bất kỳ ai cần bảo vệ tài sản trực quan của họ. Hoàn toàn tương thích với môi trường .NET mới nhất, API này nâng cao khả năng quản lý và bảo mật TIFF hình ảnh một cách hiệu quả."
+    },
+    "formats": {
+      "title": "Tăng cường bảo mật {{FileFormatUp}} với hình mờ C #",
+      "description": "Sử dụng .NET C # để tạo và tích hợp hình mờ tùy chỉnh trong tệp {{FileFormatUp}}, thêm một lớp bảo mật và kiểm soát bản quyền cho hình ảnh của bạn."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Thêm hình mờ vào {{FileFormatUp}} bằng C #",
+      "description": "Sử dụng .NET C # để tự động tạo và nhúng hình mờ trong {{FileFormatUp}} hình ảnh, đảm bảo bảo vệ toàn diện."
+    },
+    "header": {
+      "title": "Tạo hình mờ cho {{FileFormatUp}} với C #",
+      "description": "Tạo và áp dụng hình mờ tùy chỉnh cho {{FileFormatUp}} tệp bằng .NET C #, hoàn hảo cho các nghệ sĩ kỹ thuật số và người sáng tạo nội dung cần bảo mật tác phẩm của họ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho các nhà phát triển khả năng tạo, soạn và thêm hình mờ tinh vi vào hình ảnh WEBP thông qua .NET C #. API này cho phép tùy chỉnh chính xác các hình mờ bao gồm văn bản, logo và chữ ký kỹ thuật số. Điều chỉnh độ mờ đục, kích thước và vị trí của hình mờ của hình mờ của bạn để đạt được sự tích hợp hoàn hảo mà không ảnh hưởng đến tính thẩm mỹ của hình ảnh. Lý tưởng cho các nhiếp ảnh gia, nhà thiết kế đồ họa và bất kỳ chuyên gia nào tham gia vào việc sản xuất và phân phối hình ảnh kỹ thuật số, {{ProdShortName}} đảm bảo rằng bản quyền của bạn được nhúng an toàn trong các tệp WEBP của bạn. Tương thích với tất cả các framework .NET hiện đại, nó tăng cường bảo mật hình ảnh với tác động tối thiểu đến chất lượng hình ảnh."
+    },
+    "formats": {
+      "title": "Bảo vệ {{FileFormatUp}} hình ảnh với hình mờ .NET C #",
+      "description": "Nhúng hình mờ nâng cao, có thể tùy chỉnh vào {{FileFormatUp}} hình ảnh bằng cách sử dụng .NET C #, cung cấp khả năng bảo vệ mạnh mẽ và xác nhận quyền sở hữu hình ảnh cho các tác phẩm sáng tạo của bạn."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Tạo hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Sử dụng .NET C # để thêm và quản lý hình mờ trong tệp {{FileFormatUp}}, tăng cường bảo mật cho Excel tài liệu của bạn."
+    },
+    "header": {
+      "title": "Tạo hình mờ C # cho tập tin {{FileFormatUp}}",
+      "description": "Triển khai hình mờ mạnh mẽ trong {{FileFormatUp}} bảng tính với .NET C #, được thiết kế để bảo vệ dữ liệu tài chính và cá nhân trong Excel.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trang bị cho .NET nhà phát triển C# các công cụ để tạo, soạn và nhúng hình mờ trong XLS tệp một cách hiệu quả. API này được thiết kế để tích hợp liền mạch vào Excel quy trình làm việc, tạo điều kiện bổ sung cả hình mờ hiển thị và vô hình có thể tùy chỉnh cho độ mờ, văn bản và hình ảnh. Lý tưởng để bảo mật thông tin nhạy cảm trong bảng tính tài chính, báo cáo khách hàng hoặc bất kỳ tài liệu Excel nào yêu cầu bảo mật, {{ProdShortName}} cung cấp các tính năng nâng cao như đặt hình mờ có điều kiện dựa trên phân tích nội dung. Với sự hỗ trợ cho tất cả .NET môi trường, giải pháp này đảm bảo tài liệu của bạn được bảo vệ khỏi việc sử dụng và phân phối trái phép."
+    },
+    "formats": {
+      "title": "Áp dụng hình mờ cho {{FileFormatUp}} bằng C #",
+      "description": "Sử dụng .NET C # để tự động tạo và tích hợp hình mờ tùy chỉnh vào {{FileFormatUp}} tệp, bảo vệ dữ liệu Excel của bạn một cách hiệu quả."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Nhúng hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Tận dụng .NET C # để tạo và áp dụng hình mờ trong {{FileFormatUp}} tệp, bảo mật Excel tài liệu của bạn."
+    },
+    "header": {
+      "title": "Bảo mật {{FileFormatUp}} trang tính với .NET C #",
+      "description": "Sử dụng .NET C # để tạo hình mờ tùy chỉnh cho {{FileFormatUp}} tệp, hoàn hảo để tăng cường tính toàn vẹn của tài liệu và bảo vệ thông tin nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ cho các nhà phát triển C# .NET để tạo, thêm và quản lý hình mờ trong XLSX tệp. API này rất cần thiết để duy trì tính bảo mật và tính xác thực của Excel tài liệu, đặc biệt là trong môi trường công ty, tài chính và pháp lý. Tùy chỉnh hình mờ của bạn với nhiều tùy chọn, bao gồm lớp phủ văn bản và hình ảnh, được thiết kế vừa có chức năng vừa tinh tế. Các tính năng bổ sung cho phép tạo hình mờ tự động dựa trên thuộc tính tài liệu và điều kiện do người dùng xác định, đảm bảo rằng hình mờ của bạn được áp dụng nhất quán và chỉ khi cần thiết. {{ProdShortName}} tương thích với các nền tảng .NET hiện đại và hỗ trợ các chức năng nâng cao Excel."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ trong {{FileFormatUp}} với C #",
+      "description": "Triển khai .NET C # để thêm hiệu quả hình mờ nâng cao, an toàn vào {{FileFormatUp}} tệp, bảo vệ dữ liệu chuyên nghiệp Excel của bạn."
+    }
+  }
+}

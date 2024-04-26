@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Modifier le filigrane de l'image dans {{FileFormatUp}} doc",
+    "comment_2": "Initialiser Watermarker par fichier source",
+    "comment_3": "Créer des critères de recherche pour la recherche de filigranes d'images",
+    "comment_4": "Modifier le filigrane de l'image",
+    "comment_5": "Enregistrer le résultat {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Modifiez par programmation les filigranes dans les documents {{FileformatCap}} avec l'API {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fournit à {{EnvName}} développeurs une API robuste pour manipuler par programmation les filigranes dans divers {{FileformatCap}} documents. Ce guide décrit le processus :",
+      "step_1": "**Watermarker**. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence à un emplacement de disque local.",
+      "step_2": "**SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet d'identifier les filigranes précédemment incorporés dans le document.",
+      "step_3": "Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de modifier des propriétés telles que les dimensions, le positionnement des pages, le contenu du texte, la palette de couleurs, les données d'image, etc.",
+      "step_4": "Une fois les modifications apportées au filigrane, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux."
+    }
+  },
+  "more_features": {
+    "title": "Boostez vos flux de travail grâce à la gestion des filigranes",
+    "description": "Simplifiez le filigrane dans divers formats de fichiers dans vos applications {{EnvName}} grâce à notre bibliothèque robuste. Ajoutez, modifiez, recherchez ou supprimez facilement des filigranes pour améliorer la sécurité des documents et améliorer l'image de marque.",
+    "image_description": "Édition fluide des filigranes",
+    "feature_1": {
+      "title": "Simplifiez le filigrane dans vos applications",
+      "content": "Tirez parti de la puissance de {{ProdFullName}} pour intégrer de manière fluide la fonctionnalité de filigrane à vos {{EnvName}} applications. Notre API intuitive simplifie la création, la gestion, la recherche et la modification de filigranes, éliminant ainsi le besoin de processus manuels complexes."
+    },
+    "feature_2": {
+      "title": "Personnalisation granulaire du filigrane",
+      "content": "Exploitez tout le potentiel de la personnalisation des filigranes grâce à notre API complète. Ajustez chaque détail, notamment la taille, l'orientation, la palette de couleurs et la sélection de la police, pour créer des filigranes parfaitement adaptés à votre image de marque et à vos exigences de sécurité."
+    },
+    "feature_3": {
+      "title": "Exploitez les fonctionnalités spécifiques aux documents pour un filigrane flexible",
+      "content": "Exploitez la puissance des fonctionnalités natives de différents formats de documents. Utilisez des éléments tels que l'arrière-plan du document, des annotations, des en-têtes ou d'autres objets en tant que conteneurs de filigranes uniques, répondant à divers types de documents et à des besoins de sécurité."
+    },
+    "code_1": {
+      "title": "PDF modification du filigrane de l'image",
+      "content": "Cet exemple montre comment modifier le contenu d'un filigrane d'image",
+      "comment_1": "Charger le document sous le nom PDF",
+      "comment_2": "Charger du contenu",
+      "comment_3": "Modifier le filigrane de l'image",
+      "comment_4": "Profitez du résultat de sortie"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Modifiez facilement les filigranes au format {{FileformatCap}}",
+      "description": "Modifiez facilement {{FileformatCap}} filigranes avec l'API {{ProdFullName}}. Personnalisez vos documents en toute confiance et efficacité."
+    },
+    "header": {
+      "title": "Modifiez facilement {{FileformatCap}} filigranes avec {{EnvName}}",
+      "description": "Simplifiez la gestion des filigranes et protégez vos documents grâce à l'API {{ProdFullName}}. Bénéficiez de la polyvalence et de l'efficacité de votre flux de travail.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez le package depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Cadre",
+      "content": "**Modifiez facilement les filigranes :** Simplifiez la gestion des filigranes sur {{FileformatCap}} documents grâce à notre solution conviviale {{EnvName}}. Concentrez-vous sur votre contenu tout en garantissant la sécurité et l'intégrité des documents sans effort."
+    },
+    "formats": {
+      "title": "Gérez facilement les filigranes dans d'autres formats",
+      "description": "Simplifiez l'édition des filigranes dans divers formats de documents à l'aide de {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Modifier les filigranes dans {{FileformatCap}} fichiers",
+      "description": "Modifiez les filigranes dans {{FileformatCap}} fichiers avec {{ProdFullName}} Applications. Améliorez l'authenticité des documents sans effort."
+    },
+    "header": {
+      "title": "Modifier {{FileformatCap}} filigranes sur tous les fichiers : {{EnvName}} Polyvalence",
+      "description": "Personnalisez vos documents en toute confiance à l'aide des applications {{ProdFullName}}. Modifiez sans effort les filigranes dans différents formats de fichiers.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Modifier les filigranes dans {{FileformatCap}} fichiers :** Modifiez facilement les filigranes dans différents formats de fichiers avec {{ProdFullName}} Applications. Personnalisez vos documents en toute confiance et efficacité."
+    },
+    "formats": {
+      "title": "Modifier les filigranes d'un fichier à l'autre",
+      "description": "Modifiez facilement les filigranes dans de nombreux formats de fichiers grâce aux applications optimisées par {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Modifier les filigranes {{FileformatCap}} avec {{ProdShortName}}",
+      "description": "Modifiez {{FileformatCap}} filigranes dans {{FileformatCap}} fichiers à l'aide de {{ProdFullName}} Framework. Adaptez-vous facilement à vos besoins en matière de documents."
+    },
+    "header": {
+      "title": "Modifier les filigranes dans {{FileformatCap}} : {{EnvName}} Adaptabilité",
+      "description": "Adaptez-vous parfaitement à vos besoins en matière de documents grâce à {{ProdFullName}} Framework. Modifiez facilement les filigranes dans plusieurs formats.",
+      "subtitle": "{{ProdFullName}} Solution",
+      "action_title": "Forfait {{PackageStoreName}} gratuit"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Solution",
+      "content": "**Modifiez le filigrane en PDF s :** Protégez votre contenu dans de nombreux formats avec {{ProdFullName}} Framework. Adaptez-vous parfaitement à vos besoins en matière de documents grâce à nos outils polyvalents."
+    },
+    "formats": {
+      "title": "Régler les filigranes dans plusieurs formats",
+      "description": "Protégez votre contenu dans différents formats de documents avec {{ProdFullName}} Framework."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Modifiez sans effort {{FileformatCap}} filigranes",
+      "description": "Mettez à jour les filigranes {{FileformatCap}} sans effort avec la bibliothèque {{ProdFullName}}. Préservez l'intégrité et la sécurité des documents de manière fluide."
+    },
+    "header": {
+      "title": "Modifiez {{FileformatCap}} filigranes sans effort : {{EnvName}} Control",
+      "description": "Préservez l'intégrité et la sécurité des documents sans effort grâce à la bibliothèque {{ProdFullName}}. Modifiez les filigranes avec précision et contrôle.",
+      "subtitle": "{{ProdFullName}} Bibliothèque",
+      "action_title": "Télécharger depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothèque",
+      "content": "**Modifiez les filigranes {{FileformatCap}} sans effort :** Préservez l'intégrité et la sécurité des documents sans effort grâce à la bibliothèque {{ProdFullName}} .NET. Modifiez les filigranes de différents types de fichiers avec précision et contrôle."
+    },
+    "formats": {
+      "title": "Mettez à jour les filigranes sans effort dans d'autres formats",
+      "description": "Préservez l'intégrité et la sécurité des documents sans effort grâce à la bibliothèque {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Modifier {{FileformatCap}} Watermarks Solutions ",
+      "description": "Modifiez les filigranes {{FileformatCap}} selon vos besoins avec la solution {{ProdFullName}}. Améliorez vos fichiers avec précision."
+    },
+    "header": {
+      "title": "Solution flexible {{EnvName}} pour l'édition de filigranes {{FileformatCap}}",
+      "description": "Modifiez votre filigrane à l'aide de notre solution {{ProdFullName}} pour répondre à vos besoins spécifiques. Améliorez vos documents commerciaux en toute simplicité.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Télécharger le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Modifiez {{FileformatCap}} filigranes dans vos solutions :** Adaptez les solutions de filigrane à vos besoins spécifiques avec {{ProdFullName}} développeurs. Améliorez la présence de votre marque tout en garantissant la sécurité des documents en toute simplicité."
+    },
+    "formats": {
+      "title": "Tailor Watermark dans d'autres formats",
+      "description": "Modifiez le filigrane de vos solutions pour répondre à vos besoins spécifiques avec {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Modifier les filigranes dans {{FileformatCap}} documents",
+      "description": "Améliorez l'image de marque de vos documents {{FileformatCap}} avec le SDK {{ProdFullName}}. Modifiez vos filigranes pour des raisons de sécurité."
+    },
+    "header": {
+      "title": "Édition des filigranes polis {{FileformatCap}} : {{EnvName}} Sophistication",
+      "description": "Créez une image de marque sophistiquée pour vos documents grâce au SDK {{ProdFullName}}. Modifiez les filigranes de vos documents avec précision et confiance.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Édition de filigranes polis :** Créez une image de marque sophistiquée pour vos documents {{FileformatCap}} avec le SDK {{ProdFullName}}. Polissez vos documents avec précision et confiance, en garantissant la cohérence et la protection de la marque."
+    },
+    "formats": {
+      "title": "Traitement d'autres formats",
+      "description": "Modifiez les filigranes des documents de manière sophistiquée avec le SDK {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Modification simplifiée du filigrane {{FileformatCap}}",
+      "description": "Simplifiez l'édition des filigranes {{FileformatCap}} dans vos projets {{EnvName}} avec {{ProdShortName}}. Concentrez-vous sur votre contenu."
+    },
+    "header": {
+      "title": "Édition simplifiée des filigranes {{FileformatCap}} : optimisation {{EnvName}}",
+      "description": "Modifiez et optimisez vos filigranes dans {{EnvName}} projets avec {{ProdShortName}}. Simplifiez votre flux de travail et concentrez-vous sur votre contenu sans effort.",
+      "subtitle": "{{ProdFullName}} Solution",
+      "action_title": "Téléchargement gratuit sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Modifier {{FileformatCap}} filigranes :** Optimisez le contrôle de vos filigranes dans {{EnvName}} projets avec {{ProdShortName}}. Simplifiez votre flux de travail et concentrez-vous sur votre contenu tout en garantissant la sécurité des documents sans effort."
+    },
+    "formats": {
+      "title": "Contrôle simplifié des filigranes dans d'autres formats",
+      "description": "Optimisez le contrôle de vos filigranes dans {{EnvName}} projets avec {{ProdShortName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Solution sécurisée d'édition de filigranes {{FileformatCap}}",
+      "description": "Assurez une édition sécurisée des filigranes {{FileformatCap}} avec le composant {{ProdFullName}}. Protégez votre contenu et votre marque en toute confiance."
+    },
+    "header": {
+      "title": "Édition sécurisée des filigranes {{FileformatCap}} : {{EnvName}} Assurance",
+      "description": "Assurez la sécurité des documents et la protection de la marque avec le composant {{ProdFullName}}. Modifiez vos filigranes en toute sécurité et en toute confiance.",
+      "subtitle": "{{ProdFullName}} Bibliothèque",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Solution",
+      "content": "**{{FileformatCap}} Outils d'édition des filigranes :** Optimisez l'édition de vos filigranes dans {{EnvName}} projets avec {{ProdShortName}}. Simplifiez vos processus métier et concentrez-vous sur votre contenu tout en garantissant la sécurité des documents sans effort."
+    },
+    "formats": {
+      "title": "Autres formats Édition de filigranes",
+      "description": "Assurez la sécurité des documents et la protection de la marque avec le composant {{ProdFullName}}."
+    }
+  }
+}

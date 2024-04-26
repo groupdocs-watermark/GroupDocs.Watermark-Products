@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Cari tanda air teks di dokumen {{FileFormatUp}}",
+    "comment_2": "Dapatkan instance Watermarker untuk dokumen {{FileFormatUp}}",
+    "comment_3": "Cari tanda air berdasarkan kriteria",
+    "comment_4": "Proses tanda air"
+  },
+  "steps": {
+    "title": "Cari tanda air di {{FileformatCap}} file menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memudahkan pencarian tanda air yang sudah ditempatkan dalam dokumen bisnis. Unduh paket kami dan libatkan ke dalam aplikasi {{EnvName}} Anda untuk memanfaatkan manfaatnya.",
+      "step_1": "**Watermarker**. Dimungkinkan untuk menyediakan hanya jalur file, aliran file atau aliran byte.",
+      "step_2": "**SearchCriteria**. Berikan gambar sebagai contoh untuk mendapatkan watermark gambar serupa. Jika Anda ingin mencari tanda air tekstual berikan teks, font, warna dan opsi lainnya.",
+      "step_3": "**Telusur** dari objek**Watermarker**. Anda akan diberikan koleksi objek yang dapat diproses sebagai tanda air.",
+      "step_4": "Akhirnya, Anda bebas melakukan dengan hasil pencarian apa pun yang Anda inginkan. Sangat mungkin, untuk menghapus tanda air yang ditemukan atau mengedit propertinya. Ubah ukuran atau teks, misalnya."
+    }
+  },
+  "more_features": {
+    "title": "Harness Java untuk Pencarian Watermark Lanjutan dengan {{ProdShortName}}",
+    "description": "Memanfaatkan {{ProdShortName}} Java API untuk melakukan pencarian canggih untuk tanda air dalam dokumen di berbagai format di {{EnvName}}.",
+    "image_description": "Pencarian Watermark Tingkat Lanjut",
+    "feature_1": {
+      "title": "Java -Teknik Pencarian Watermark yang Ditingkatkan",
+      "content": "Berdayakan Java aplikasi Anda dengan teknik pencarian lanjutan menggunakan {{ProdShortName}}. API kami memungkinkan pencarian mendalam untuk tanda air tertanam di berbagai jenis dokumen, menawarkan presisi dan efisiensi."
+    },
+    "feature_2": {
+      "title": "Identifikasi Watermark dengan Kueri Kustom Java",
+      "content": "Sesuaikan Java kueri Anda untuk mendeteksi tanda air dengan lebih efektif. Gunakan {{ProdShortName}} untuk mengurutkan dan memfilter tanda air berdasarkan properti seperti transparansi, metode penyematan, dan konten teks atau gambar."
+    },
+    "feature_3": {
+      "title": "Manajemen Watermark Dokumen yang Efisien",
+      "content": "Sederhanakan pengelolaan tanda air di aplikasi Java Anda. Dengan {{ProdShortName}}, temukan, tinjau, dan analisis tanda air dengan cepat untuk memastikan integritas dokumen dan kepatuhan terhadap pedoman branding."
+    },
+    "code_1": {
+      "title": "Java Contoh Kode: Pencarian Tanda Air Cerdas",
+      "content": "Pelajari cara menerapkan pencarian tanda air cerdas menggunakan Java dengan {{ProdShortName}}, menunjukkan kemampuan API untuk menangani operasi pencarian yang kompleks dan manajemen hasil.",
+      "comment_1": "Siapkan lingkungan Java dan muat dokumen dari berbagai sumber",
+      "comment_2": "Tentukan parameter pencarian lanjutan untuk menemukan jenis tanda air tertentu",
+      "comment_3": "Jalankan pencarian dan proses tanda air yang ditemukan untuk tinjauan terperinci",
+      "comment_4": "Simpan atau perbarui dokumen berdasarkan hasil pencarian watermark"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Jelajahi {{FileformatCap}} Pencarian Watermark Spreadsheet",
+      "description": "Temukan bagaimana {{ProdFullName}} memberdayakan Anda untuk dengan mudah mencari, menemukan, dan mengelola tanda air dalam berbagai format dokumen."
+    },
+    "header": {
+      "title": "Meluncurkan Kemampuan Pencarian Tanda Air Spreadsheet {{FileformatCap}}",
+      "description": "Pelajari kekuatan {{ProdFullName}} untuk mencari, mengedit, dan memanipulasi tanda air dengan mudah.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Informasi dasar {{ProdFullName}}",
+      "content": "{{ProdFullName}} adalah solusi komprehensif untuk mengelola tanda air {{FileformatCap}} menggunakan {{EnvName}}. Dengan alat ini, pengembang dapat dengan mudah melakukan operasi seperti membuat, mengedit, mencari, dan menghapus tanda air dari dokumen dalam format file populer. Ini mendukung bekerja dengan tanda air teks dan gambar dalam berbagai dokumen, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. {{ProdFullName}} mendukung semua sistem operasi utama dan versi {{EnvName}}."
+    },
+    "formats": {
+      "title": "Membuka Kekuatan Pencarian Tanda Air",
+      "description": "Berdayakan diri Anda untuk menemukan dan mengelola tanda air dalam berbagai format file yang didukung dengan {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Kekuatan Pencarian Watermark Dokumen {{FileformatCap}}",
+      "description": "Rasakan kemampuan tak tertandingi untuk mencari dan mengelola tanda air di berbagai jenis dokumen dengan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Temukan Pencarian Tanda Air Lanjutan {{FileformatCap}}",
+      "description": "Mulailah perjalanan untuk menjelajahi fitur pencarian tanda air mutakhir yang ditawarkan oleh {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} menyediakan solusi yang kuat untuk mengelola tanda air menggunakan {{EnvName}}. Pengembang dapat dengan mudah membuat, mengedit, mencari, dan menghapus tanda air dari dokumen dalam format file populer. Ini mendukung tanda air teks dan gambar di berbagai jenis dokumen, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. {{ProdFullName}} terintegrasi dengan mulus dengan semua sistem operasi utama dan versi {{EnvName}}."
+    },
+    "formats": {
+      "title": "Pencarian Tanda Air Utama di Seluruh Format",
+      "description": "Membuka potensi {{ProdFullName}} untuk mencari dan memanipulasi tanda air dalam berbagai format file yang didukung."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Cari {{FileformatCap}} Tanda Air Presentasi:",
+      "description": "Perbaiki strategi pengelolaan tanda air Anda dengan kemampuan pencarian lanjutan {{ProdFullName}} di berbagai format dokumen."
+    },
+    "header": {
+      "title": "Tingkatkan Alur Kerja Anda dengan {{FileformatCap}} Pencarian Tanda Air Presentasi",
+      "description": "Tingkatkan produktivitas Anda dengan memanfaatkan {{ProdFullName}} fungsionalitas pencarian tanda air canggih.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh {{PackageStoreName}} paket"
+    },
+    "about": {
+      "title": "Pelajari selengkapnya tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} menawarkan solusi komprehensif untuk manajemen tanda air menggunakan {{EnvName}}. Pengembang dapat dengan mulus membuat, mengedit, mencari, dan menghapus tanda air dari dokumen dalam berbagai format file. Ini mendukung tanda air teks dan gambar di berbagai jenis dokumen, termasuk PDF, Microsoft Word, Excel, PowerPoint, Visio, email, dan format gambar. {{ProdFullName}} kompatibel dengan semua sistem operasi utama dan versi {{EnvName}}."
+    },
+    "formats": {
+      "title": "Ubah Alur Kerja Anda dengan Pencarian Watermark",
+      "description": "Rasakan efisiensi yang tak tertandingi dalam mengelola tanda air di berbagai format file dengan {{ProdFullName}}."
+    }
+  }
+}

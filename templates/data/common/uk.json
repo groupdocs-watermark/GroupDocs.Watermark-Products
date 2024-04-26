@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Водяний знак Excel",
+        "description": "MS Excel та електронні таблиці Open Office"
+      },
+      "word": {
+        "name": "Водяний знак Word",
+        "description": "MS Word та документи Відкритого офісу"
+      },
+      "powerpoint": {
+        "name": "Водяний знак PowerPoint",
+        "description": "MS PowerPoint та презентації з відкритим офісом"
+      },
+      "image": {
+        "name": "Зображення водяного знака",
+        "description": "Популярні формати зображень"
+      },
+      "photo": {
+        "name": "Фотографія водяного знака",
+        "description": "Формати фотографій"
+      },
+      "pdf": {
+        "name": "Водяний знак PDF",
+        "description": "Adobe Portable Формат документа"
+      },
+      "doc": {
+        "name": "Водяний знак DOC",
+        "description": "Майкрософт Word 97 - Документ 2007 року"
+      },
+      "docx": {
+        "name": "Водяний знак DOCX",
+        "description": "Майкрософт Word Відкритий документ XML"
+      },
+      "xls": {
+        "name": "Водяний знак XLS",
+        "description": "Майкрософт Excel Книга 97-2003"
+      },
+      "xlsx": {
+        "name": "Водяний знак XLSX",
+        "description": "Microsoft Excel Відкрита таблиця XML"
+      },
+      "ppt": {
+        "name": "Водяний знак PPT",
+        "description": "PowerPoint Презентація 97-2003"
+      },
+      "pptx": {
+        "name": "Водяний знак PPTX",
+        "description": "PowerPoint Відкрита презентація XML"
+      },
+      "jpeg": {
+        "name": "Водяний знак JPEG",
+        "description": "JPEG Зображення"
+      },
+      "png": {
+        "name": "Водяний знак PNG",
+        "description": "Portable Мережева графіка"
+      },
+      "tiff": {
+        "name": "Водяний знак TIFF",
+        "description": "Формат файлу зображення мітки"
+      },
+      "webp": {
+        "name": "Водяний знак WEBP",
+        "description": "WEB Зображення"
+      },
+      "rtf": {
+        "name": "Водяний знак RTF",
+        "description": "Формат багатого тексту"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копіювати",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові розпочати роботу?",
+      "description": "Спробуйте {{ProdShortName}} функцій безкоштовно або попросіть ліцензію",
+      "comment_1": "{{PackageStoreName}} завантажити",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Дізнатися більше"
+    }
+  }
+}

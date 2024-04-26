@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Aggiorna la filigrana di testo {{FileFormatUp}}",
+    "comment_2": "Fornisci un'istanza Watermarker per il file {{FileFormatUp}}",
+    "comment_3": "Usa TextSearchCriteria per trovare filigrane di testo",
+    "comment_4": "Aggiorna la filigrana di testo",
+    "comment_5": "Goditi il risultato"
+  },
+  "steps": {
+    "title": "Aggiorna le filigrane in {{FileFormatUp}} tramite {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fornisce agli {{EnvName}} sviluppatori una robusta API per l'aggiornamento programmatico delle filigrane all'interno di vari documenti {{FileFormatUp}}. Questa guida illustra il processo:",
+      "step_1": "**Watermarker**. A seconda delle esigenze, il file può essere fornito come stream o come riferimento a una posizione del disco locale.",
+      "step_2": "**SearchCriteria** per identificare le filigrane specifiche che richiedono modifiche. Questo oggetto consente di individuare le filigrane in base alle proprietà desiderate.",
+      "step_3": "Una volta completata con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di aggiornare proprietà come dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati delle immagini e altro ancora.",
+      "step_4": "Una volta completati gli aggiornamenti della filigrana, il documento modificato viene salvato. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream."
+    }
+  },
+  "more_features": {
+    "title": "Padroneggiare la modifica della filigrana in PDF s con {{ProdShortName}}",
+    "description": "Esplora le funzionalità API complete per regolare e gestire le filigrane in PDF s all'interno di {{EnvName}} applicazioni.",
+    "image_description": "Modifica filigrana",
+    "feature_1": {
+      "title": "Modifica facilmente le filigrane in PDF s",
+      "content": "{{ProdShortName}} offre potenti strumenti in {{EnvName}} per modificare senza problemi le filigrane esistenti nei documenti PDF. Regola posizione, trasparenza e altro con facilità."
+    },
+    "feature_2": {
+      "title": "Perfeziona i dettagli della filigrana per una maggiore precisione",
+      "content": "Assumi il controllo dei dettagli. La nostra API ti consente di ottimizzare l'aspetto delle filigrane, consentendo modifiche precise di dimensioni, opacità e colore nei tuoi PDF s."
+    },
+    "feature_3": {
+      "title": "Gestione semplificata delle filigrane",
+      "content": "La nostra API semplifica la gestione delle filigrane. Che si tratti di aggiornare o rimuovere, puoi gestire le filigrane in modo efficiente, mantenendo l'integrità del documento e soddisfacendo le tue esigenze di branding."
+    },
+    "code_1": {
+      "title": "Java Esempio: Modifica filigrana PDF",
+      "content": "Questo esempio Java dimostra come modificare una filigrana esistente in un documento PDF, mostrando come regolarne le proprietà a livello di codice.",
+      "comment_1": "Carica il documento PDF per l'elaborazione",
+      "comment_2": "Cerca filigrane specifiche che soddisfano i tuoi criteri",
+      "comment_3": "Modifica le impostazioni della filigrana, come dimensione, colore e posizione",
+      "comment_4": "Salva il documento aggiornato su un sistema locale o trasmettilo in streaming direttamente"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Aggiorna le filigrane per i fogli di calcolo Excel",
+      "description": "Aggiorna le filigrane nei fogli di calcolo di vari formati usando {{ProdFullName}}. Arricchisci le tue {{EnvName}} applicazioni."
+    },
+    "header": {
+      "title": "Rivoluziona la filigrana dei fogli di calcolo usando {{EnvName}}",
+      "description": "Prova la potenza di {{ProdFullName}}. Proteggi i tuoi documenti aziendali con varie filigrane. Aggiorna le dimensioni, l'allineamento, l'angolo di rotazione, la posizione della filigrana, ecc.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "libreria {{ProdFullName}}",
+      "content": "{{ProdFullName}} è una soluzione completa per la gestione delle filigrane utilizzando l'ambiente {{EnvName}}. Con questo strumento, gli sviluppatori possono eseguire facilmente operazioni come aggiungere, modificare, cercare e rimuovere filigrane dai documenti in vari formati di file, tra cui PDF, Microsoft Word, Excel, PowerPoint, Visio, e-mail e formati di immagine. {{ProdShortName}} supporta tutti i principali sistemi operativi e le versioni di Node.js."
+    },
+    "formats": {
+      "title": "Aggiorna le filigrane nei formati di file supportati",
+      "description": "Aggiorna in modo efficiente le filigrane in PDF, Word, Excel e altro con {{ProdFullName}}. I documenti con filigrana possono arricchire i tuoi processi aziendali."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Aggiorna facilmente le filigrane in {{FileFormatUp}}",
+      "description": "Semplifica l'aggiornamento della filigrana nei formati di documento {{FileFormatUp}} con {{ProdShortName}} utilizzando {{EnvName}}. Potenzia le tue soluzioni aziendali."
+    },
+    "header": {
+      "title": "Semplifica l'aggiornamento della filigrana dei documenti {{FileFormatUp}}",
+      "description": "Sblocca funzionalità efficienti di aggiornamento delle filigrane con {{ProdFullName}}. Proteggi i tuoi documenti aziendali utilizzando una varietà di filigrane. Aggiorna gli attributi della filigrana come dimensioni, allineamento, angolo di rotazione e posizione in base alle tue esigenze.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}} abilità",
+      "content": "{{ProdFullName}} offre una soluzione perfetta per la gestione delle filigrane utilizzando le applicazioni {{EnvName}}. Questo strumento versatile consente agli sviluppatori di modificare facilmente le filigrane in documenti di vari formati di file, tra cui PDF, Microsoft Word, Excel, Excel, PowerPoint, Visio, e-mail e formati di immagine. {{ProdShortName}} supporta tutti i principali sistemi operativi e {{EnvName}} versioni."
+    },
+    "formats": {
+      "title": "Aggiornamento delle filigrane in altri formati di file",
+      "description": "Semplifica la modifica della filigrana in PDF, Word, Excel e altro ancora con {{ProdFullName}}. Sono supportati tutti i formati aziendali più diffusi."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Aggiorna le filigrane in {{FileFormatUp}} senza sforzo",
+      "description": "Aggiorna in modo efficiente le filigrane nei formati di documento {{FileFormatUp}} utilizzando {{ProdFullName}}. Perfeziona i tuoi processi aziendali."
+    },
+    "header": {
+      "title": "Aggiorna facilmente le filigrane dei documenti {{FileFormatUp}}",
+      "description": "Prova la rimozione della filigrana senza problemi con {{ProdFullName}}. Proteggi i tuoi documenti aziendali con diverse filigrane. Personalizza le dimensioni, l'allineamento, l'angolo di rotazione e il posizionamento della filigrana e altro ancora.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottieni da {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "{{ProdFullName}} fornisce una soluzione intuitiva per la gestione delle filigrane {{FileFormatUp}} utilizzando {{EnvName}}. Con questo strumento, gli sviluppatori possono aggiornare in modo efficiente le filigrane in vari documenti e formati di file, tra cui PDF, Microsoft Word, Excel, PowerPoint, Visio e formati di posta elettronica. {{ProdShortName}} supporta tutti i principali sistemi operativi e le versioni {{EnvName}}."
+    },
+    "formats": {
+      "title": "Aggiornamento delle filigrane in altri formati di file",
+      "description": "Aggiorna in modo efficiente le filigrane in PDF, Word, Excel, ecc. utilizzando {{ProdFullName}}. Supportiamo tutti i formati aziendali più diffusi."
+    }
+  }
+}

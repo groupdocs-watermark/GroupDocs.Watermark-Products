@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "{{FileformatCap}} ドキュメントからテキストウォーターマークを削除",
+    "comment_2": "ドキュメント {{FileformatCap}} ソースドキュメントのウォーターマーカーインスタンスを提供してください",
+    "comment_3": "選択したウォーターマークをドキュメントから削除します",
+    "comment_4": "指定したパスにファイルを保存"
+  },
+  "steps": {
+    "title": "{{EnvName}} を使用して {{FileformatCap}} ドキュメントからウォーターマークを削除する",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** を使用すると、ビジネス文書からウォーターマークを削除する作業が簡単になります。弊社のライブラリを統合して {{EnvName}} アプリケーションを強化し、以下の簡単な手順に従ってください。",
+      "step_1": "**Watermarker** を {{FileformatCap}} ドキュメントでインスタンス化します。当社の API は、ストリームまたはローカルパスとして提供されるドキュメントの処理をサポートしています。",
+      "step_2": "**検索条件**を使用して、処理するウォーターマークのセットを絞り込みます。画像、テキスト、書式設定機能など、さまざまなパラメーターを使用できます。指定する検索パラメータが具体的であればあるほど、より正確な結果が得られます。",
+      "step_3": "検索結果として取得したドキュメントウォーターマークのリストを処理し、ドキュメントから削除します。",
+      "step_4": "ウォーターマークを削除したら、結果のドキュメントをローカルファイルまたはバイトストリームとして保存します。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProgLang}} {{EnvName}} API を使用してウォーターマークの削除を効率化",
+    "description": "{{EnvName}} アプリケーションとシームレスに統合するように設計された {{ProgLang}} {{EnvName}} APIの強力なウォーターマーク除去機能をご覧ください。元のファイルの品質を保ちながら、PDF やオフィス文書からウォーターマークを効率的に削除またはクリアできます。",
+    "image_description": "ウォーターマークを削除",
+    "feature_1": {
+      "title": "正確なウォーターマーククリアランス",
+      "content": "{{EnvName}} APIには、あらゆるドキュメントから透かしをきれいに削除するための正確なツールが用意されています。この機能は開発者向けにカスタマイズされており、ウォーターマークを削除してもドキュメントの品質やレイアウトが損なわれることがありません。"
+    },
+    "feature_2": {
+      "title": "ウォーターマークの一括削除を自動化",
+      "content": "{{EnvName}} APIを使用して、大きなドキュメントセットからウォーターマークを削除するプロセスを自動化します。大量の文書を扱う企業に最適で、効率性と文書セキュリティの両方が向上します。"
+    },
+    "feature_3": {
+      "title": "高度なウォーターマーク編集機能",
+      "content": "高度な機能を活用して、ウォーターマークを選択的に編集または変更します。弊社の API では詳細な調整が可能なため、機密情報を保護しながら文書をプロ並みの外観に保つことができます。"
+    },
+    "code_1": {
+      "title": "スプレッドシートのテキストウォーターマークを削除する",
+      "content": "Excel docsで特別なフォーマットのテキストウォーターマークを削除する方法。",
+      "comment_1": "Excel ワークブックをロード",
+      "comment_2": "コンテンツを取得して適切なウォーターマークを見つけましょう",
+      "comment_3": "テキストウォーターマークを削除",
+      "comment_4": "保存処理済み XLSX"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{FileformatCap}} {{ProgLang}} {{EnvName}} API によるウォーターマークの削除 ",
+      "description": "{{ProgLang}} {{EnvName}} APIを利用して、{{FileformatCap}} 文書のウォーターマークを効率的に削除および管理し、データの明確性とシートの整合性を確保します。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} ウォーターマークオペレーションの場合は {{ProgLang}} {{EnvName}}",
+      "description": "正確で使いやすいように設計されたツールを使用して、ウォーターマークをシームレスに削除または編集することで、{{EnvName}} 環境の {{FileformatCap}} ドキュメントワークフローを強化します。",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} パッケージの無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} ライブラリ",
+      "content": "{{ProdFullName}} {{ProgLang}} ライブラリは {{FileformatCap}} ファイル内のウォーターマークを管理するための堅牢なツールを提供します。不要なマークの削除から既存のマークの編集まで、ウォーターマークを包括的に管理できるため、文書の清潔さとプロ意識を重視する企業に最適です。"
+    },
+    "formats": {
+      "title": "{{EnvName}} での {{FileformatCap}} ウォーターマーク削除の効率化",
+      "description": "{{ProdFullName}} {{ProgLang}} API を適用して {{FileformatCap}} シートからウォーターマークを効率的に削除し、見栄えのよい財務レポートとデータ分析を作成する方法をご覧ください。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}} ウォーターマーク削除のための {{ProgLang}} {{EnvName}} API",
+      "description": "{{ProgLang}} {{EnvName}} APIを使用して、{{FileformatCap}} ドキュメントからウォーターマークを効率的にクリア、削除、または編集して、完璧なドキュメント表示を実現します。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} {{ProgLang}} {{EnvName}} 用ウォーターマークリムーバー",
+      "description": "{{ProdFullName}} {{ProgLang}} APIを使用すると、{{FileformatCap}} 文書からウォーターマークを削除できます。これは、法的文書や企業文書の完全性と清潔さを維持するのに最適です。",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} で無料でダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} ライブラリ",
+      "content": "{{ProdFullName}} {{ProgLang}} {{EnvName}} ライブラリを使用すると、開発者は Microsoft Word ファイルのウォーターマークを簡単に管理および削除できます。このツールは、テキストと画像の両方のウォーターマークの検出、変更、削除など、さまざまなウォーターマーク操作をサポートしているため、レイアウトやフォーマットを維持したまま、ドキュメントに不要なマークが付いていないことを確認できます。"
+    },
+    "formats": {
+      "title": "{{EnvName}} による {{FileformatCap}} ウォーターマークの管理",
+      "description": "品質を損なうことなく文書のセキュリティと表示を強化するように設計された {{ProgLang}} {{EnvName}} APIを使用して、{{FileformatCap}} 文書のウォーターマーク管理のための強力な機能をご覧ください。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{ProgLang}} {{EnvName}} API で {{FileformatCap}} のウォーターマークをクリア",
+      "description": "{{ProgLang}} {{EnvName}} APIを使用すると、{{FileformatCap}} スライドのウォーターマークを簡単に削除および管理できるため、明確でプロフェッショナルなプレゼンテーションが可能になります。"
+    },
+    "header": {
+      "title": "{{ProgLang}} {{EnvName}} {{FileformatCap}} ウォーターマークリムーバー",
+      "description": "{{ProdFullName}} {{ProgLang}} APIの機能を活用して、{{FileformatCap}} プレゼンテーションからウォーターマークを効率的に削除し、コンテンツの整合性を保ちながらスライドの美観を維持します。",
+      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "action_title": "{{PackageStoreName}} ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} {{ProgLang}} ライブラリ",
+      "content": "{{ProdFullName}} {{ProgLang}} ライブラリには、{{FileformatCap}} プレゼンテーションからウォーターマークを削除するための高度なツールが用意されています。ウォーターマークをシームレスに削除する機能を備えているため、プレゼンテーションをインパクトのあるすっきりした状態に保つことができます。きれいでクリアなビジュアルが不可欠なビジネス、教育、トレーニング環境に適しています。"
+    },
+    "formats": {
+      "title": "{{EnvName}} の {{FileformatCap}} プレゼンテーションの最適化",
+      "description": "{{ProdFullName}} {{ProgLang}} APIを利用して、邪魔になるウォーターマークの要素がなく、すっきりとしたプロフェッショナルな {{FileformatCap}} プレゼンテーションを実現する方法をご覧ください。"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Tạo hình mờ văn bản cho {{FileFormatUp}}",
+    "comment_2": "Chuyển tệp nguồn đến phiên bản Watermarker",
+    "comment_3": "Tạo hình mờ văn bản và đặt các tùy chọn của nó",
+    "comment_4": "Lấy kết quả {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Tài liệu kinh doanh an toàn: Tạo hình mờ cho {{FileformatCap}} định dạng",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Chèn API của chúng tôi vào các ứng dụng của bạn và tạo hình mờ cho nhiều định dạng tệp được hỗ trợ.",
+      "step_1": "**Bắt đầu đánh dấu mờ:** Bắt đầu xử lý tài liệu với lạng**Watermarker** cung cấp các tính năng chính của chúng tôi. Tạo khởi tạo nó bằng cách chuyển cho hàm tạo tệp {{FileformatCap}} được cho là được bảo mật bằng hình mờ được tạo ra.",
+      "step_2": "**Tạo đối tượng Hình mờ chính:** Nâng cao tài liệu của bạn bằng cách điêu khắc các đối tượng** Watermark** đặt riêng. Ngoài các trang đơn thuần, chúng tích hợp liền mạch vào các yếu tố gốc như tệp đính kèm hoặc tiêu đề, thêm các lớp bảo mật và tính chuyên nghiệp.",
+      "step_3": "**Tinh chỉnh thuộc tính hình mờ:** Tinh chỉnh hình mờ của bạn với độ chính xác, điều chỉnh kích thước, căn chỉnh và phối màu. Mỗi chi tiết nâng cao tính toàn vẹn của tài liệu, làm cho các tệp của bạn không thể nhầm lẫn với bạn.",
+      "step_4": "**Thực hiện với độ chính xác:** Sử dụng phương thức** Watermarker** để áp dụng hình mờ tùy chỉnh của bạn một cách hoàn hảo. Cho dù số ít hay nhiều, mỗi hình mờ sẽ thêm một lớp bảo vệ bổ sung. Để tăng cường bảo mật, hãy cân nhắc lưu trữ tài liệu đã xử lý của bạn ở một vị trí riêng biệt, an toàn."
+    }
+  },
+  "more_features": {
+    "title": "Kỹ thuật tạo hình mờ nâng cao",
+    "description": "Khám phá các kỹ thuật tạo hình mờ tiên tiến với API mạnh mẽ của chúng tôi, được thiết kế để tích hợp liền mạch vào môi trường .NET. Hoàn hảo để thêm hình mờ tinh vi và an toàn vào một loạt các loại tài liệu đa dạng bao gồm bản trình bày, tài liệu pháp lý và sơ đồ kỹ thuật.",
+    "image_description": "Hình mờ tinh vi",
+    "feature_1": {
+      "title": "Vị trí hình mờ động",
+      "content": "API của chúng tôi cung cấp các tùy chọn vị trí động điều chỉnh vị trí hình mờ dựa trên nội dung tài liệu. Lý tưởng cho các bố cục phức tạp trong bản trình bày và sơ đồ kỹ thuật, tính năng này đảm bảo rằng hình mờ luôn được đặt tối ưu mà không ảnh hưởng đến khả năng đọc của thông tin cơ bản."
+    },
+    "feature_2": {
+      "title": "Tăng cường bảo mật với hình mờ vô hình",
+      "content": "Triển khai hình mờ vô hình cung cấp sự bảo vệ mạnh mẽ mà không làm thay đổi giao diện của tài liệu của bạn. Những hình mờ này được thiết kế để chỉ được phát hiện thông qua các công cụ phần mềm cụ thể, làm cho chúng trở nên hoàn hảo để bảo vệ thông tin nhạy cảm trong các tài liệu pháp lý và tài chính."
+    },
+    "feature_3": {
+      "title": "Quy trình làm việc chấm mờ tự động",
+      "content": "Hợp lý hóa quy trình bảo mật tài liệu của bạn với quy trình làm việc chấm mờ tự động. Định cấu hình quy tắc dựa trên loại tài liệu, độ nhạy nội dung và mức truy cập của người dùng để tự động áp dụng hình mờ, đảm bảo các giao thức bảo mật nhất quán được duy trì trên tất cả các tài liệu."
+    },
+    "code_1": {
+      "title": "Tạo hình mờ cho PDF tệp đính kèm",
+      "content": "Ví dụ này cho thấy cách tạo hình mờ trong tất cả các tệp đính kèm PDF",
+      "comment_1": "Tải tài liệu PDF",
+      "comment_2": "Tạo hình mờ văn bản",
+      "comment_3": "Thêm hình mờ vào tệp đính kèm phù hợp",
+      "comment_4": "Lưu đã xử lý PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Tạo hình mờ duy nhất cho Excel Bảng tính",
+      "description": "Tự động hóa hình mờ động trong Excel bằng Node.js. Áp dụng hình mờ nhất quán một cách dễ dàng trên nhiều tệp."
+    },
+    "header": {
+      "title": "Hình mờ do Node.js điều khiển trong tài liệu bảng tính",
+      "description": "Sử dụng Node.js để triển khai hình mờ văn bản hoặc hình ảnh tùy chỉnh liền mạch vào Excel bảng tính, bảo mật dữ liệu tài chính và phân tích của bạn một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} thư viện",
+      "content": "{{ProdFullName}} là một công cụ mạnh mẽ được thiết kế cho các nhà phát triển phụ trợ muốn kết hợp hình mờ độc đáo vào Excel và bảng tính OpenOffice. API đa năng này cho phép nhúng hình mờ văn bản và hình ảnh có thể được tùy chỉnh hoàn toàn về phông chữ, kích thước, màu sắc và độ mờ. Tương thích với một loạt các định dạng bảng tính bao gồm XLS, XLSX và ODS, công cụ đảm bảo rằng hình mờ được áp dụng một cách chính xác, duy trì tính toàn vẹn và bố cục của bảng tính của bạn đồng thời cung cấp bảo vệ mạnh mẽ chống lại việc sử dụng trái phép."
+    },
+    "formats": {
+      "title": "Kỹ thuật Node.js để đánh dấu hình mờ Excel",
+      "description": "Tăng cường bảo mật bảng tính và tính toàn vẹn dữ liệu với API Node.js của chúng tôi. Nhanh chóng thêm hình mờ tùy chỉnh vào tệp Excel và OpenOffice, bảo vệ chống lại các thay đổi trái phép."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Xây dựng các mẫu hình mờ cho Word",
+      "description": "Tạo mẫu hình mờ được hỗ trợ bởi Node.js cho các tệp Word, DOC và DOCX. Tăng cường bảo mật tài liệu một cách liền mạch."
+    },
+    "header": {
+      "title": "Tạo các mẫu hình mờ tùy chỉnh cho Word với {{EnvName}}",
+      "description": "Triển khai các mẫu hình mờ nâng cao, tùy chỉnh trên các định dạng tương thích Word khác nhau bằng cách sử dụng Node.js. Nâng cao tính toàn vẹn của tài liệu và bản sắc công ty với nỗ lực tối thiểu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} trao quyền cho các nhà phát triển xây dựng các mẫu hình mờ tinh vi cho Word tài liệu một cách nhanh chóng và hiệu quả. API này hỗ trợ một loạt các định dạng tài liệu, bao gồm DOC, DOCX và khả năng tương thích với các tệp văn bản OpenOffice. Tùy chỉnh hình mờ của bạn với các tùy chọn thiết kế phong phú như phông chữ văn bản, tỷ lệ hình ảnh và mức độ trong suốt. Áp dụng các mẫu này một cách linh hoạt cho tài liệu của bạn để bảo mật sở hữu trí tuệ, xác nhận tính xác thực và cải thiện sức hấp dẫn trực quan."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Hình mờ được hỗ trợ trong Word",
+      "description": "Bộ công cụ Node.js của chúng tôi cung cấp một nền tảng linh hoạt để tự động tích hợp hình mờ vào Word tài liệu. Tùy chỉnh và áp dụng hình mờ để bảo vệ tài liệu của bạn và nâng cao sự hiện diện thương hiệu của bạn một cách hiệu quả."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Hình mờ động để bảo vệ hình ảnh",
+      "description": "Bảo vệ bản quyền hình ảnh của bạn với hình mờ động Node.js. Hỗ trợ JPG, PNG, WEBP và hơn thế nữa."
+    },
+    "header": {
+      "title": "Hình mờ động để bảo vệ hình ảnh với Node.js",
+      "description": "Sử dụng bộ công cụ Node.js của chúng tôi để tạo hình mờ động, an toàn cho hình ảnh của bạn, hỗ trợ các định dạng như JPG, PNG và WEBP. Đảm bảo bản quyền hình ảnh của bạn với các tính năng bảo vệ nâng cao.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Với {{ProdFullName}}, việc áp dụng hình mờ cho hình ảnh rất đơn giản và có thể tùy chỉnh. Bộ công cụ này hỗ trợ một loạt các định dạng hình ảnh, bao gồm hình ảnh raster truyền thống như JPG và PNG, cũng như các định dạng mới hơn như WEBP. Nó cho phép các nhà phát triển tự động thêm hình mờ không chỉ an toàn mà còn hòa trộn tự nhiên với nội dung hình ảnh, cung cấp sự bảo vệ mạnh mẽ chống lại vi phạm bản quyền mà không làm giảm sức hấp dẫn ban đầu của hình ảnh."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ tuyệt vời trong hình ảnh thông qua {{ProgLang}}",
+      "description": "Bảo vệ bản quyền hình ảnh của bạn một cách hiệu quả với API Node.js của chúng tôi. Tự động thêm hình mờ vào các tệp JPG, PNG và WEBP, đảm bảo mỗi hình ảnh được đánh dấu cho chủ sở hữu hợp pháp của nó."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Bảo mật ảnh với Watermarking nâng cao trong Node.js",
+      "description": "Tăng tốc quá trình đánh dấu hình ảnh của bạn với Node.js. Triển khai các giải pháp mã hóa nhanh chóng, dễ sử dụng."
+    },
+    "header": {
+      "title": "Bảo mật ảnh với hình mờ nâng cao trong {{EnvName}}",
+      "description": "Triển khai các chiến lược hình mờ nâng cao trong quy trình xử lý ảnh của bạn với Node.js. Bộ công cụ của chúng tôi hỗ trợ tùy chỉnh mở rộng cho các tệp hình ảnh JPG, PNG và WEBP.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Với {{ProdFullName}}, việc bảo vệ ảnh của bạn bằng hình mờ tiên tiến rất đơn giản và linh hoạt. API này cho phép ứng dụng nhanh chóng các hình mờ dựa trên văn bản hoặc hình ảnh có thể tùy chỉnh để phù hợp với tính thẩm mỹ của ảnh bên dưới. Nó hỗ trợ các định dạng hình ảnh đa dạng và cung cấp sự kiểm soát chính xác đối với vị trí và giao diện hình mờ, giúp bảo vệ chống lại việc sử dụng trái phép trong khi vẫn duy trì tính toàn vẹn của ảnh."
+    },
+    "formats": {
+      "title": "Chữ mờ bảo vệ trong {{ProgLang}} cho ảnh",
+      "description": "Tăng cường bảo mật ảnh của bạn với các kỹ thuật tạo hình mờ nâng cao, có thể tùy chỉnh trong Node.js. Bảo vệ ảnh của bạn trên nhiều định dạng khác nhau, bao gồm JPG, PNG và WEBP, mà không làm giảm chất lượng."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Tạo hình mờ chuyên nghiệp cho trình chiếu với Node.js",
+      "description": "Thiết kế hình mờ tinh vi cho bài thuyết trình của bạn. Nâng cao mức độ tương tác của người xem và bảo mật tài liệu."
+    },
+    "header": {
+      "title": "Tạo hình mờ chuyên nghiệp cho trình chiếu với Node.js",
+      "description": "Triển khai hình mờ văn bản hoặc hình ảnh động, tùy chỉnh trong các bản trình bày trình chiếu của bạn bằng API Node.js mạnh mẽ của chúng tôi. Hoàn hảo cho PPTX tệp, những hình mờ này kết hợp liền mạch với các trang trình bày của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "Với {{ProdFullName}}, việc tạo hình mờ cho các bản trình bày trình chiếu của bạn trở thành một quá trình đơn giản và hiệu quả. Công cụ mạnh mẽ này tương thích với PPTX slide và các định dạng trình bày phổ biến khác, cung cấp các tính năng nâng cao để nhúng hình mờ không làm mất tập trung vào nội dung nhưng nâng cao nó. Tùy chỉnh hình mờ của bạn để hiển thị văn bản, logo hoặc đồ họa khác biểu thị quyền sở hữu và ngăn chặn hành vi trộm cắp bản quyền, tất cả trong khi vẫn duy trì chất lượng cao nhất của trang trình bày của bạn."
+    },
+    "formats": {
+      "title": "Tích hợp hình mờ được hỗ trợ Node.js cho các bài thuyết trình",
+      "description": "Bảo mật và chuyên nghiệp hóa các bài thuyết trình của bạn với Node.js. API của chúng tôi cho phép bạn thêm hình mờ phù hợp vào tệp PPTX, tăng cường bảo mật và sự hiện diện thương hiệu một cách hiệu quả."
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Filigrana Excel",
+        "description": "MS Excel y hojas de cálculo de Open Office"
+      },
+      "word": {
+        "name": "Filigrana Word",
+        "description": "MS Word y documentos de Open Office"
+      },
+      "powerpoint": {
+        "name": "Filigrana PowerPoint",
+        "description": "MS PowerPoint y presentaciones de Open Office"
+      },
+      "image": {
+        "name": "Imagen de marca de agua",
+        "description": "Formatos de imagen populares"
+      },
+      "photo": {
+        "name": "Foto con marca de agua",
+        "description": "Formatos de fotos"
+      },
+      "pdf": {
+        "name": "Filigrana PDF",
+        "description": "Formato de documento Adobe Portable"
+      },
+      "doc": {
+        "name": "Filigrana DOC",
+        "description": "Documento Microsoft Word 97 - 2007"
+      },
+      "docx": {
+        "name": "Filigrana DOCX",
+        "description": "Documento XML abierto de Microsoft Word"
+      },
+      "xls": {
+        "name": "Filigrana XLS",
+        "description": "Libro de trabajo Microsoft Excel 97-2003"
+      },
+      "xlsx": {
+        "name": "Filigrana XLSX",
+        "description": "Hoja de cálculo XML abierta de Microsoft Excel"
+      },
+      "ppt": {
+        "name": "Filigrana PPT",
+        "description": "PowerPoint Presentación 97-2003"
+      },
+      "pptx": {
+        "name": "Filigrana PPTX",
+        "description": "PowerPoint Presentación XML abierta"
+      },
+      "jpeg": {
+        "name": "Filigrana JPEG",
+        "description": "JPEG Imagen"
+      },
+      "png": {
+        "name": "Filigrana PNG",
+        "description": "Portable Gráfico de red"
+      },
+      "tiff": {
+        "name": "Filigrana TIFF",
+        "description": "Formato de archivo de imagen de etiqueta"
+      },
+      "webp": {
+        "name": "Filigrana WEBP",
+        "description": "Imagen WEB"
+      },
+      "rtf": {
+        "name": "Filigrana RTF",
+        "description": "Formato de texto enriquecido"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "copy_tip": "haga clic para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Más ejemplos",
+        "title_2": "Documentación"
+      }
+    },
+    "format-actions": {
+      "title": "¿Estás listo para empezar?",
+      "description": "Pruebe {{ProdShortName}} funciones de forma gratuita o solicite una licencia",
+      "comment_1": "{{PackageStoreName}} descargar",
+      "comment_2": "Licencias"
+    },
+    "texts": {
+      "learn_more": "Obtenga más información"
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Modifica la filigrana dell'immagine nel documento {{FileFormatUp}}",
+    "comment_2": "Inizializza Watermarker in base al file sorgente",
+    "comment_3": "Crea criteri di ricerca per la ricerca di filigrane nelle immagini",
+    "comment_4": "Modifica filigrana dell'immagine",
+    "comment_5": "Salva risultato {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Modifica programmaticamente le filigrane nei documenti {{FileformatCap}} con l'API {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fornisce agli {{EnvName}} sviluppatori una robusta API per la manipolazione programmatica delle filigrane all'interno di diversi documenti {{FileformatCap}}. Questa guida illustra il processo:",
+      "step_1": "**Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.",
+      "step_2": "**SearchCriteria** per individuare le filigrane specifiche che richiedono modifiche. Questo oggetto consente l'identificazione delle filigrane precedentemente incorporate nel documento.",
+      "step_3": "Una volta completata con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di modificare proprietà come dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati delle immagini e altro ancora.",
+      "step_4": "Una volta completate le modifiche alla filigrana, il documento modificato viene mantenuto. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream."
+    }
+  },
+  "more_features": {
+    "title": "Potenzia i tuoi flussi di lavoro con la gestione delle filigrane",
+    "description": "Semplifica la filigrana in diversi formati di file nelle tue applicazioni {{EnvName}} con la nostra solida libreria. Aggiungi, modifica, cerca o rimuovi filigrane con facilità per migliorare la sicurezza e il branding dei documenti.",
+    "image_description": "Modifica della filigrana senza interruzioni",
+    "feature_1": {
+      "title": "Semplifica la filigrana nelle tue applicazioni",
+      "content": "Sfrutta la potenza di {{ProdFullName}} per integrare perfettamente la funzionalità di watermarking nelle tue applicazioni {{EnvName}}. La nostra API intuitiva semplifica la creazione, la gestione, la ricerca e la modifica delle filigrane, eliminando la necessità di processi manuali complessi."
+    },
+    "feature_2": {
+      "title": "Personalizzazione granulare della filigrana",
+      "content": "Sfrutta tutto il potenziale della personalizzazione delle filigrane con la nostra API completa. Ottimizza ogni dettaglio, tra cui dimensione, orientamento, combinazione di colori e selezione dei caratteri, per creare filigrane perfettamente in linea con i tuoi requisiti di branding e sicurezza."
+    },
+    "feature_3": {
+      "title": "Sfrutta le funzionalità specifiche dei documenti per una filigrana flessibile",
+      "content": "Sblocca la potenza delle funzionalità native all'interno di vari formati di documenti. Utilizza elementi come lo sfondo del documento, le annotazioni, le intestazioni o altri oggetti come contenitori di filigrana unici, in grado di soddisfare diversi tipi di documenti ed esigenze di sicurezza."
+    },
+    "code_1": {
+      "title": "PDF modifica della filigrana dell'immagine",
+      "content": "Questo esempio mostra come modificare il contenuto della filigrana dell'immagine",
+      "comment_1": "Carica documento come PDF",
+      "comment_2": "Carica contenuto",
+      "comment_3": "Modifica filigrana dell'immagine",
+      "comment_4": "Goditi il risultato in uscita"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Modifica le filigrane in formato {{FileformatCap}} con facilità",
+      "description": "Modifica le filigrane {{FileformatCap}} senza problemi con l'API {{ProdFullName}}. Personalizza i tuoi documenti con sicurezza ed efficienza."
+    },
+    "header": {
+      "title": "Modifica facilmente {{FileformatCap}} Watermark con {{EnvName}}",
+      "description": "Semplifica la gestione delle filigrane e proteggi i tuoi documenti con l'API {{ProdFullName}}. Ottieni versatilità ed efficienza nel tuo flusso di lavoro.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica il pacchetto da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Struttura",
+      "content": "**Modifica le filigrane con facilità:** Semplifica la gestione delle filigrane su {{FileformatCap}} documenti con la nostra soluzione intuitiva per {{EnvName}}. Concentrati sui tuoi contenuti garantendo al contempo la sicurezza e l'integrità dei documenti senza alcuno sforzo."
+    },
+    "formats": {
+      "title": "Gestisci le filigrane con facilità in altri formati",
+      "description": "Semplifica la modifica della filigrana in diversi formati di documento utilizzando {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Modifica le filigrane nei file {{FileformatCap}}",
+      "description": "Modifica le filigrane nei file {{FileformatCap}} con {{ProdFullName}} Applicazioni. Migliora l'autenticità dei documenti senza sforzo."
+    },
+    "header": {
+      "title": "Modifica {{FileformatCap}} filigrane tra i file: {{EnvName}} Versatilità",
+      "description": "Personalizza i tuoi documenti con sicurezza utilizzando {{ProdFullName}} Applications. Modifica le filigrane in vari formati di file senza sforzo.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Modifica filigrane su {{FileformatCap}} file:** Modifica facilmente le filigrane in vari formati di file con {{ProdFullName}} Applications. Personalizza i tuoi documenti con sicurezza ed efficienza."
+    },
+    "formats": {
+      "title": "Modifica filigrane tra i file",
+      "description": "Modifica facilmente le filigrane in più formati di file con applicazioni basate su {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Modifica {{FileformatCap}} Watermark con {{ProdShortName}}",
+      "description": "Modifica le filigrane {{FileformatCap}} nei file {{FileformatCap}} usando {{ProdFullName}} Framework. Adattati alle esigenze dei tuoi documenti con facilità."
+    },
+    "header": {
+      "title": "Modifica le filigrane in {{FileformatCap}}: {{EnvName}} Adattabilità",
+      "description": "Adattati facilmente alle esigenze dei tuoi documenti con {{ProdFullName}} Framework. Modifica le filigrane in più formati con facilità.",
+      "subtitle": "{{ProdFullName}} Soluzione",
+      "action_title": "Pacchetto gratuito {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Soluzione",
+      "content": "**Modifica filigrana in PDF s:** Proteggi i tuoi contenuti in più formati con {{ProdFullName}} Framework. Adattati facilmente alle esigenze dei tuoi documenti con i nostri strumenti versatili."
+    },
+    "formats": {
+      "title": "Regola le filigrane in più formati",
+      "description": "Proteggi i tuoi contenuti in vari formati di documento con {{ProdFullName}} Framework."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Modifica le filigrane {{FileformatCap}} senza sforzo",
+      "description": "Aggiorna facilmente le filigrane {{FileformatCap}} con {{ProdFullName}} Library. Mantieni l'integrità e la sicurezza dei documenti senza problemi."
+    },
+    "header": {
+      "title": "Modifica le filigrane {{FileformatCap}} senza sforzo: {{EnvName}} Control",
+      "description": "Mantieni l'integrità e la sicurezza dei documenti senza problemi con {{ProdFullName}} Library. Modifica le filigrane con precisione e controllo.",
+      "subtitle": "{{ProdFullName}} Libreria",
+      "action_title": "Scarica da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Libreria",
+      "content": "**Modifica le filigrane {{FileformatCap}} senza sforzo:** Mantieni l'integrità e la sicurezza dei documenti senza sforzo con {{ProdFullName}} .NET Library. Modifica le filigrane su diversi tipi di file con precisione e controllo."
+    },
+    "formats": {
+      "title": "Aggiorna facilmente le filigrane in altri formati",
+      "description": "Mantieni l'integrità e la sicurezza dei documenti senza problemi con {{ProdFullName}} Library."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Modifica {{FileformatCap}} Watermark Solutions ",
+      "description": "Modifica le filigrane {{FileformatCap}} in base alle tue esigenze con la soluzione {{ProdFullName}}. Migliora i tuoi file con precisione."
+    },
+    "header": {
+      "title": "Soluzione flessibile {{EnvName}} per la modifica della filigrana {{FileformatCap}}",
+      "description": "Modifica la filigrana con la nostra soluzione {{ProdFullName}} per soddisfare i tuoi requisiti specifici. Migliora i tuoi documenti aziendali con facilità.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica il pacchetto {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Modifica le filigrane {{FileformatCap}} nelle tue soluzioni:** Personalizza le soluzioni di filigrana in base ai tuoi requisiti specifici con {{ProdFullName}} Developers. Migliora la presenza del tuo marchio garantendo al contempo la sicurezza dei documenti con facilità."
+    },
+    "formats": {
+      "title": "Personalizza la filigrana in altri formati",
+      "description": "Modifica la filigrana nelle tue soluzioni per soddisfare i tuoi requisiti specifici con {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Modifica le filigrane nei documenti {{FileformatCap}}",
+      "description": "Ottieni un branding impeccabile per i documenti {{FileformatCap}} con {{ProdFullName}} SDK. Modifica le tue filigrane garantendo la sicurezza."
+    },
+    "header": {
+      "title": "Modifica raffinata delle filigrane {{FileformatCap}}: {{EnvName}} Raffinatezza",
+      "description": "Ottieni un branding sofisticato dei documenti con {{ProdFullName}} SDK. Modifica le filigrane dei tuoi documenti con precisione e sicurezza.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Modifica perfezionata delle filigrane:** Ottieni un branding sofisticato per {{FileformatCap}} per i documenti con {{ProdFullName}} SDK. Perfeziona i tuoi documenti con precisione e sicurezza, garantendo la coerenza e la protezione del marchio."
+    },
+    "formats": {
+      "title": "Elaborazione di altri formati",
+      "description": "Modifica le filigrane dei documenti in modi sofisticati con {{ProdFullName}} SDK."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Modifica filigrana {{FileformatCap}} semplificata",
+      "description": "Semplifica la modifica delle filigrane {{FileformatCap}} nei tuoi progetti {{EnvName}} con {{ProdShortName}}. Concentrati sui tuoi contenuti."
+    },
+    "header": {
+      "title": "Modifica semplificata della filigrana {{FileformatCap}}: ottimizzazione {{EnvName}}",
+      "description": "Modifica e ottimizza le filigrane nei progetti {{EnvName}} con {{ProdShortName}}. Semplifica il flusso di lavoro e concentrati sui tuoi contenuti senza sforzo.",
+      "subtitle": "{{ProdFullName}} Soluzione",
+      "action_title": "Download gratuito all'indirizzo {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Modifica filigrane {{FileformatCap}}:** Ottimizza il controllo della filigrana nei progetti {{EnvName}} con {{ProdShortName}}. Semplifica il flusso di lavoro e concentrati sui contenuti, garantendo al contempo la sicurezza dei documenti senza problemi."
+    },
+    "formats": {
+      "title": "Controllo semplificato della filigrana in altri formati",
+      "description": "Ottimizza il controllo della filigrana nei progetti {{EnvName}} con {{ProdShortName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Soluzione sicura per la modifica delle filigrane {{FileformatCap}}",
+      "description": "Garantisci una modifica sicura delle filigrane {{FileformatCap}} con {{ProdFullName}} Component. Proteggi i tuoi contenuti e il tuo marchio con sicurezza."
+    },
+    "header": {
+      "title": "Modifica sicura delle filigrane {{FileformatCap}}: {{EnvName}} Assurance",
+      "description": "Garantisci la sicurezza dei documenti e la protezione del marchio con {{ProdFullName}} Component. Modifica le tue filigrane in modo sicuro e sicuro.",
+      "subtitle": "{{ProdFullName}} Libreria",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Soluzione",
+      "content": "**{{FileformatCap}} Strumenti di modifica della filigrana:** Ottimizza la modifica della filigrana nei progetti {{EnvName}} con {{ProdShortName}}. Semplifica i processi aziendali e concentrati sui contenuti, garantendo al contempo la sicurezza dei documenti senza problemi."
+    },
+    "formats": {
+      "title": "Modifica della filigrana in altri formati",
+      "description": "Garantisci la sicurezza dei documenti e la protezione del marchio con {{ProdFullName}} Component."
+    }
+  }
+}

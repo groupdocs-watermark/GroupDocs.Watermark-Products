@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T10:23:26
+date:  2024-04-26T21:38:58
 draft: false
 lang: en
 format: Word
@@ -95,11 +95,11 @@ more_features:
   image_description: "Add Watermark"
   features:
     # feature loop
-    - title: "Watermark Your Documents Effortlessly."
+    - title: "Watermark Your Documents Effortlessly"
       content: "GroupDocs.Watermark empowers .NET developers to easily integrate watermarking into their applications. Add text, image, or dynamic watermarks to popular business documents and files effortlessly, ensuring your content is secure and branded consistently across all platforms."
 
     # feature loop
-    - title: "Tailor Watermarks to Meet Your Needs."
+    - title: "Tailor Watermarks to Meet Your Needs"
       content: "Customize watermarks to match your specific requirements with extensive features supported by GroupDocs.Watermark. Adjust size, rotation, transparency, color, and font to ensure your watermark not only looks perfect but also enhances document security without obstructing important information."
 
     # feature loop
@@ -163,7 +163,7 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "C# Powered Watermarking in Word and OpenOffice via C#"
+    title: "C# Powered Watermarking in Word and OpenOffice"
     exclude: "WORD"
     description: "Maximize the impact of your MS Word and OpenOffice documents with custom-designed watermarks that offer both protection and professionalism. Our C# API makes it simple to apply precise and appealing watermarks."
     items: 

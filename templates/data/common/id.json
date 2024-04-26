@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "Tanda air Excel",
+        "description": "MS Excel dan spreadsheet Open Office"
+      },
+      "word": {
+        "name": "Tanda air Word",
+        "description": "MS Word dan dokumen Open Office"
+      },
+      "powerpoint": {
+        "name": "Tanda air PowerPoint",
+        "description": "MS PowerPoint dan presentasi Open Office"
+      },
+      "image": {
+        "name": "Gambar Tanda Air",
+        "description": "Format gambar populer"
+      },
+      "photo": {
+        "name": "Foto Tanda Air",
+        "description": "Format foto"
+      },
+      "pdf": {
+        "name": "Tanda air PDF",
+        "description": "Adobe Portable Format Dokumen"
+      },
+      "doc": {
+        "name": "Tanda air DOC",
+        "description": "Microsoft Word 97 - 2007 Dokumen"
+      },
+      "docx": {
+        "name": "Tanda air DOCX",
+        "description": "Microsoft Word Buka Dokumen XML"
+      },
+      "xls": {
+        "name": "Tanda air XLS",
+        "description": "Microsoft Excel Buku Kerja 97-2003"
+      },
+      "xlsx": {
+        "name": "Tanda air XLSX",
+        "description": "Microsoft Excel Buka Spreadsheet XML"
+      },
+      "ppt": {
+        "name": "Tanda air PPT",
+        "description": "PowerPoint Presentasi 97-2003"
+      },
+      "pptx": {
+        "name": "Tanda air PPTX",
+        "description": "PowerPoint Presentasi XML Terbuka"
+      },
+      "jpeg": {
+        "name": "Tanda air JPEG",
+        "description": "JPEG Gambar"
+      },
+      "png": {
+        "name": "Tanda air PNG",
+        "description": "Portable Grafik Jaringan"
+      },
+      "tiff": {
+        "name": "Tanda air TIFF",
+        "description": "Tag Format File Gambar"
+      },
+      "webp": {
+        "name": "Tanda Air WEBP",
+        "description": "Gambar WEB"
+      },
+      "rtf": {
+        "name": "Tanda air RTF",
+        "description": "Format Teks Kaya"
+      }
+    },
+    "format-code": {
+      "copy_title": "Salin",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "menyalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "{{PackageStoreName}} unduhan",
+      "comment_2": "Perizinan"
+    },
+    "texts": {
+      "learn_more": "Pelajari selengkapnya"
+    }
+  }
+}

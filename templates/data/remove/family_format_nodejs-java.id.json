@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Hapus tanda air teks dalam dokumen {{FileformatCap}}",
+    "comment_2": "Buat Instantiasi Watermarker dengan dokumen {{FileformatCap}}",
+    "comment_3": "Watermark teks yang jelas sesuai dengan kondisi pencarian",
+    "comment_4": "Simpan file yang diproses"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} Penghapusan Watermark menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menyediakan {{EnvName}} pengembang dengan API komprehensif untuk penghapusan terprogram tanda air tertentu yang tertanam dalam berbagai dokumen {{FileformatCap}}. Panduan ini mempelajari proses teknis:",
+      "step_1": "**Watermarker** dan menyediakan file {{FileformatCap}} Anda sebagai argumen konstruktor. File dapat diberikan sebagai aliran byte, aliran file, atau referensi jalur ke lokasi disk lokal.",
+      "step_2": "**SearchCriteria**. Objek ini memfasilitasi pembangunan filter rumit berdasarkan properti yang sebelumnya disematkan dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian di samping teks atau atribut pemformatan untuk mengaktifkan proses pemilihan yang sangat terperinci.",
+      "step_3": "Setelah pelaksanaan pencarian, Anda akan menerima koleksi tanda air yang diidentifikasi. Tanda air ini dapat dihapus dengan mudah.",
+      "step_4": "Setelah penghapusan tanda air berhasil, pertahankan dokumen yang dimodifikasi. API menyediakan fleksibilitas penyimpanan, memungkinkan Anda untuk menggunakan jalur file lokal atau objek aliran untuk output akhir."
+    }
+  },
+  "more_features": {
+    "title": "{{EnvName}} API untuk Penghapusan Watermark yang Efisien",
+    "description": "Manfaatkan {{EnvName}} API kami untuk menghapus atau menghapus tanda air dengan mulus dari berbagai format dokumen termasuk PDF s dan file Office. Dirancang untuk pengembang, API ini terintegrasi dengan mudah dengan aplikasi {{EnvName}} Anda, memastikan dokumen yang bersih dan jelas.",
+    "image_description": "Hapus Watermark",
+    "feature_1": {
+      "title": "{{EnvName}} Penghapusan Tanda Air",
+      "content": "Gunakan {{EnvName}} API kami untuk menghapus tanda air dengan presisi dan mudah. Sempurna untuk aplikasi yang membutuhkan dokumen tanpa tanda untuk presentasi atau pemrosesan lebih lanjut."
+    },
+    "feature_2": {
+      "title": "Pemrosesan penghapusan Watermark Batch",
+      "content": "Menangani beberapa dokumen secara efisien dengan fitur penghapusan tanda air massal kami. Hemat waktu dan sumber daya server dengan memproses sejumlah besar file secara bersamaan di aplikasi {{EnvName}} Anda."
+    },
+    "feature_3": {
+      "title": "Mengedit dan Hapus Watermark Secara Fleksibel",
+      "content": "API kami memungkinkan pengeditan dan penghapusan elemen watermark yang fleksibel, melayani berbagai kebutuhan bisnis dan jenis dokumen. Sesuaikan dokumen Anda untuk mempertahankan tampilan profesional sambil memastikan integritas konten."
+    },
+    "code_1": {
+      "title": "Hapus tanda air hiper-tautan PDF",
+      "content": "Contoh ini menunjukkan cara menghapus semua tanda air dengan hyper-link yang tepat dari PDF",
+      "comment_1": "Muat PDF di Watermarker",
+      "comment_2": "Cari tanda air dengan hyper-link",
+      "comment_3": "Hapus tanda air yang dipilih",
+      "comment_4": "Simpan perubahan dalam dokumen"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{EnvName}} API untuk {{FileformatCap}} Penghapusan Tanda Air",
+      "description": "Integrasikan kemampuan penghapusan tanda air dalam file {{FileformatCap}} dengan {{EnvName}} API kami, meningkatkan kejelasan dokumen dan presentasi data."
+    },
+    "header": {
+      "title": "{{EnvName}} API untuk Mengelola {{FileformatCap}} Watermark",
+      "description": "Manfaatkan {{ProdFullName}} API untuk menghapus atau mengubah tanda air di dokumen {{FileformatCap}}, sempurna untuk memastikan lembar data bersih dalam alur kerja otomatis.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduh gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "Pustaka {{ProdFullName}} menyederhanakan pengelolaan tanda air di {{FileformatCap}} file, memungkinkan pengembang untuk menghapus, menyesuaikan, atau sepenuhnya menghapus tanda air. Alat ini sangat penting untuk menjaga integritas dan penyajian data keuangan dan analitis dalam {{FileformatCap}} lembar, mendukung berbagai proses bisnis."
+    },
+    "formats": {
+      "title": "Meningkatkan {{FileformatCap}} File dengan {{EnvName}}",
+      "description": "Pelajari bagaimana {{ProdFullName}} API dapat membantu Anda mengelola dan menghapus tanda air dari {{FileformatCap}} dokumen, memastikan visibilitas data yang tidak terhalang dan estetika dokumen profesional."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Hapus {{FileformatCap}} Watermark Secara Efisien dengan {{EnvName}} API",
+      "description": "Optimalkan alur kerja dokumen Anda dengan mengintegrasikan penghapusan tanda air untuk file {{FileformatCap}} menggunakan {{EnvName}} API kami."
+    },
+    "header": {
+      "title": "{{EnvName}} API untuk {{FileformatCap}} Penghapusan Tanda Air",
+      "description": "Gunakan {{ProdFullName}} API untuk menghapus atau mengedit tanda air secara efisien dari {{FileformatCap}} dokumen, ideal untuk memastikan keluaran dokumen yang bersih dan profesional.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "Pustaka {{ProdFullName}} menawarkan pengembang alat canggih untuk menangani tanda air di {{FileformatCap}} dokumen. Baik Anda perlu menghapus, mengedit, atau menghapus tanda air, API ini memfasilitasi manipulasi elemen dokumen yang mudah untuk menjaga kualitas visual dan integritas dokumen Anda, menjadikannya sempurna untuk pengaturan hukum, akademik, dan perusahaan."
+    },
+    "formats": {
+      "title": "Manajemen Watermark yang Efektif di {{FileformatCap}} dengan {{EnvName}}",
+      "description": "Jelajahi kemampuan API {{ProdFullName}} untuk mengelola dan menghapus tanda air di dokumen {{FileformatCap}}, memastikan kejelasan dan keterbacaan untuk semua file penting Anda."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{EnvName}} API untuk {{FileformatCap}} Penghapusan Tanda Air",
+      "description": "Tingkatkan kejelasan presentasi dengan menghapus tanda air secara mulus dari {{FileformatCap}} slide dengan {{EnvName}} API kami."
+    },
+    "header": {
+      "title": "{{EnvName}} {{FileformatCap}} Kontrol Tanda Air",
+      "description": "Gunakan {{ProdFullName}} API untuk membersihkan tanda air secara efektif dari presentasi {{FileformatCap}}, memastikan visual slide yang tidak terhalang dan profesional.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} perpustakaan",
+      "content": "Pustaka {{ProdFullName}} memungkinkan pengembang untuk dengan mudah menghapus dan mengelola tanda air di {{FileformatCap}} file. Alat yang kuat ini mendukung kontrol yang tepat atas tanda air teks dan gambar, memungkinkan pemeliharaan presentasi berkualitas tinggi di lingkungan bisnis dan pendidikan."
+    },
+    "formats": {
+      "title": "Mengoptimalkan {{FileformatCap}} Slide dengan {{EnvName}}",
+      "description": "Temukan bagaimana {{ProdFullName}} API dapat merampingkan proses penghapusan tanda air dari {{FileformatCap}} slide, memfasilitasi presentasi yang lebih jelas dan lebih berdampak."
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "이미지 {{FileFormatUp}} 워터마크 업데이트",
+    "comment_2": "{{FileFormatUp}} 파일용 워터마커 작성",
+    "comment_3": "검색 기준을 사용하여 특정 이미지를 찾을 수 있습니다.",
+    "comment_4": "이미지 콘텐츠 업데이트",
+    "comment_5": "업데이트된 파일 저장"
+  },
+  "steps": {
+    "title": "{{EnvName}} 에서 {{FileFormatUp}} 에 대한 동적 워터마크 편집",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**는 {{EnvName}} 개발자에게 다양한 {{FileFormatUp}} 문서에서 워터마크를 편집할 수 있는 강력한 API를 제공합니다.다음은 워크플로를 간소화할 수 있는 포괄적인 가이드입니다.",
+      "step_1": "**프로세스 시작:** 먼저 {{FileFormatUp}} 파일을 **Watermarker** 클래스 생성자에 인수로 제공하십시오.요구 사항에 따라 파일을 스트림으로 가져오거나 로컬 디스크 위치에서 가져올 수 있습니다.",
+      "step_2": "**정확한 워터마크:** 수정이 필요한 워터마크를 식별하려면**SearchCriteria** 객체를 사용하십시오.이 다용도 도구를 사용하면 특정 속성을 기반으로 대상 워터마크를 선택할 수 있습니다.",
+      "step_3": "**정밀하게 수정:** 검색이 성공적으로 실행되면 관련 워터마크 컬렉션에 액세스할 수 있습니다.크기, 페이지 위치 지정, 텍스트 콘텐츠, 색상, 이미지 데이터 등을 업데이트할 수 있는 기능을 통해 각 요소를 세밀하게 제어할 수 있습니다.",
+      "step_4": "**원활한 지속성:** 워터마크 업데이트가 완료되면 수정된 문서를 안전하게 보관하십시오.API는 유연한 저장 옵션을 제공하므로 로컬 파일 경로 또는 스트림 개체로 저장할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "워터마크 추가에 대한 심층 분석",
+    "description": ".NET 애플리케이션에서 문서, 슬라이드, 다이어그램 및 기타 여러 문서 유형을 렌더링, 표시, 변환하기 위한 API",
+    "image_description": "워터마크 추가",
+    "feature_1": {
+      "title": "PDF s에서 손쉽게 워터마크 편집",
+      "content": "{{ProdShortName}} 는 {{EnvName}} 에서 PDF 문서의 기존 워터마크를 원활하게 편집할 수 있는 강력한 도구를 제공합니다.위치, 투명도 등을 쉽게 조정할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "정밀도를 위한 워터마크 세부 정보 수정",
+      "content": "세부 사항을 제어하세요.API를 사용하면 워터마크의 모양을 미세 조정할 수 있으므로 PDF 의 크기, 불투명도 및 색상을 정밀하게 수정할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "간소화된 워터마크 관리",
+      "content": "API는 워터마크 관리를 간소화합니다.업데이트하든 제거하든 워터마크를 효율적으로 관리하여 브랜딩 요구 사항을 충족하는 동시에 문서 무결성을 유지할 수 있습니다."
+    },
+    "code_1": {
+      "title": "프레젠테이션 워터마크 콘텐츠 업데이트",
+      "content": "이 예제에서는 프레젠테이션 워터마크의 텍스트 내용을 업데이트하는 방법을 보여줍니다.",
+      "comment_1": "처리할 PDF 문서를 로드합니다.",
+      "comment_2": "기준에 맞는 특정 워터마크 검색",
+      "comment_3": "크기, 색상 및 위치와 같은 워터마크 설정을 편집합니다.",
+      "comment_4": "업데이트된 문서를 로컬 시스템에 저장하거나 직접 스트리밍합니다."
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 업데이트 간소화",
+      "description": "{{ProdFullName}} 라이브러리를 통해 {{FileFormatUp}} 문서의 워터마크 업데이트 프로세스를 간소화합니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서에 대한 효율적인 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크 업데이트를 간소화하고 가속화하세요.워터마크 배열을 통해 기업 파일의 보안을 보장하세요.크기, 정렬, 회전 각도, 배치와 같은 워터마크 속성을 손쉽게 수정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} 솔루션",
+      "action_title": "{{PackageStoreName}} 에서 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 개의 특징",
+      "content": "{{ProdFullName}} 는 문서의 워터마크 업데이트 프로세스를 간소화하는 효율적인 도구를 제공합니다.개발자는 이 고급 솔루션을 사용하여 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 워터마크를 쉽게 업데이트하고 수정할 수 있습니다. {{ProdShortName}} 은 모든 주요 운영 체제와 {{EnvName}} 버전을 지원합니다."
+    },
+    "formats": {
+      "title": "지원되는 형식의 워터마크 업데이트 간소화",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등과 같이 널리 사용되는 형식의 워터마크 처리를 간소화합니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 의 워터마크를 원활하게 업데이트",
+      "description": "{{FileFormatUp}} 문서의 워터마크를 {{ProdFullName}} 으로 원활하게 업데이트합니다.애플리케이션에 라이브러리를 설치하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서의 워터마크 처리",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크를 정밀하게 손쉽게 조정할 수 있습니다.다양한 워터마크를 적용하여 회사 문서의 기밀성을 유지하세요.크기, 정렬, 회전 각도, 위치 등 워터마크 기능을 사양에 맞게 조정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}} 에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해 조사하세요",
+      "content": "{{ProdFullName}} 는 개발자가 {{FileFormatUp}} 문서의 워터마크를 쉽게 업데이트할 수 있도록 합니다.이 강력한 도구를 사용하면 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 워터마크를 정밀하게 조정할 수 있습니다. {{ProdFullName}} 는 널리 사용되는 여러 플랫폼에서 사용할 수 있습니다."
+    },
+    "formats": {
+      "title": "다른 형식의 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 원활하게 조정할 수 있습니다.기타 여러 형식이 지원됩니다."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서의 워터마크를 손쉽게 개선하세요",
+      "description": "{{ProdFullName}} API를 통해 {{FileFormatUp}} 문서의 워터마크를 손쉽게 업데이트할 수 있습니다.문서 보안을 보장하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서 워터마크를 손쉽게 업데이트",
+      "description": "{{FileFormatUp}} 를 사용하여 워터마크의 품질을 쉽게 높일 수 있습니다.다양한 워터마크를 사용하여 비즈니스 자료의 보호를 강화하세요.필요에 따라 크기, 정렬, 회전 각도 및 위치와 같은 워터마크 특성을 미세 조정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 정보",
+      "content": "{{ProdFullName}} 는 문서의 워터마크를 손쉽게 업데이트할 수 있는 고급 기능을 제공합니다.개발자는 이 도구를 사용하여 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 워터마크의 모양과 가시성을 향상시킬 수 있습니다.널리 사용되는 모든 운영 체제와 {{EnvName}} 버전이 지원됩니다."
+    },
+    "formats": {
+      "title": "워터마크 업데이트는 다양한 형식으로 사용할 수 있습니다.",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 손쉽게 개선할 수 있습니다. 50개 이상의 파일 형식이 지원됩니다."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크를 정밀하게 업데이트하세요",
+      "description": "{{ProdFullName}} 를 사용하여 프레젠테이션의 워터마크를 정밀하게 다듬을 수 있습니다.비즈니스 데이터의 보안을 보장하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 프레젠테이션 워터마크를 정밀하게 업데이트하세요",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크 세분화에서 타의 추종을 불허하는 정밀도를 달성하십시오.다양한 워터마크로 비즈니스 기록을 강화하세요.요구 사항에 따라 크기, 정렬, 회전 각도, 배치와 같은 워터마크 속성을 업데이트하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 부터 무료로 받으세요"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 는 개발자에게 문서의 워터마크를 업데이트하기 위한 정확한 도구를 제공합니다.이 정교한 도구를 사용하면 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 워터마크를 미세 조정하고 수정할 수 있습니다.당사의 솔루션은 모든 주요 운영 체제와 널리 사용되는 프레임워크를 지원합니다."
+    },
+    "formats": {
+      "title": "지원되는 형식의 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 정밀하게 다듬을 수 있습니다.모든 비즈니스 형식이 지원됩니다."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서의 워터마크를 원활하게 업데이트",
+      "description": "{{ProdFullName}} 을 통해 {{FileFormatUp}} 프레젠테이션에서 워터마크를 원활하게 수정할 수 있습니다.당사 라이브러리를 앱에 통합하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 프레젠테이션의 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 쉽고 효율적으로 워터마크를 수정합니다.엄선된 워터마크를 사용하여 비즈니스 문서를 안전하게 보관하세요.크기, 정렬, 회전 각도 및 위치와 같은 워터마크 속성을 쉽게 사용자 지정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}} 패키지 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 솔루션",
+      "content": "{{ProdFullName}} 를 사용하면 문서의 워터마크를 원활하게 수정할 수 있습니다.개발자는 이 다용도 도구를 사용하여 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 워터마크를 쉽게 수정하고 업데이트할 수 있습니다. {{ProdFullName}} 는 널리 사용되는 모든 운영 체제에서 사용할 수 있습니다."
+    },
+    "formats": {
+      "title": "지원되는 파일 형식 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 원활하게 수정할 수 있습니다.문서 브랜딩을 강화하세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 개의 워터마크를 손쉽게 업데이트",
+      "description": "{{ProdFullName}} 을 사용하여 {{FileFormatUp}} 문서의 워터마크를 손쉽게 사용자 지정할 수 있습니다.비즈니스 로직에 당사 솔루션을 활용하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 문서의 워터마크를 손쉽게 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 정확한 요구 사항에 맞게 워터마크를 조정하십시오.다양한 워터마크를 사용하여 기업 문서를 보호하세요.크기, 정렬, 회전 각도 및 배치와 같은 워터마크 요소를 손쉽게 수정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} 에서 패키지 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해",
+      "content": "{{ProdFullName}} 는 {{FileFormatUp}} 문서의 워터마크를 원활하게 사용자 지정할 수 있습니다.개발자는 이 유연한 도구를 사용하여 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 특정 요구 사항에 따라 워터마크를 쉽게 사용자 지정하고 조정할 수 있습니다."
+    },
+    "formats": {
+      "title": "다양한 파일 형식의 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 손쉽게 사용자 지정할 수 있습니다.비즈니스 로직을 다듬으세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} 스프레드시트의 워터마크 업데이트 및 편집",
+      "description": "{{ProdFullName}} 를 사용하여 다양한 문서 형식의 워터마크를 업데이트하고 편집합니다.애플리케이션 기능을 확장하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 개의 스프레드시트 워터마크를 효율적으로 관리",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크 관리를 간소화합니다.다양한 워터마크를 적용하여 비즈니스 파일의 안전을 보장하세요.크기, 정렬, 회전 각도 및 위치와 같은 워터마크 사양을 원하는 대로 조정할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 일반 정보",
+      "content": "{{ProdFullName}} 는 여러 파일 형식에서 워터마크를 업데이트하고 편집할 수 있는 효율적인 도구를 제공합니다.개발자는 이 포괄적인 솔루션을 통해 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 문서의 워터마크를 원활하게 관리할 수 있습니다.모든 주요 운영 체제 및 플랫폼이 지원됩니다."
+    },
+    "formats": {
+      "title": "다른 형식의 워터마크 업데이트 및 편집",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등의 워터마크를 손쉽게 업데이트하고 편집할 수 있습니다.문서 콘텐츠를 풍부하게 만드세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크를 필요에 맞게 업데이트하세요",
+      "description": "{{ProdFullName}} 를 사용하여 정확한 요구 사항에 맞게 워터마크를 조정하십시오.앱의 비즈니스 로직을 강화하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 스프레드시트 워터마크를 필요에 맞게 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 워터마크를 손쉽게 사용자 지정할 수 있습니다.다양한 워터마크를 사용하여 회사의 민감한 문서를 보호하세요.필요에 따라 크기, 정렬, 회전 각도 및 위치와 같은 워터마크 기능을 조정하십시오.",
+      "subtitle": "{{ProdFullName}} 솔루션",
+      "action_title": "{{PackageStoreName}} 에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 에 대해 더 알아보기",
+      "content": "{{ProdFullName}} 는 개발자가 특정 요구에 맞게 워터마크를 조정할 수 있도록 합니다.개발자는 이 다용도 도구를 사용하여 PDF, Microsoft Word, Excel, PowerPoint, Visio, 이메일 및 이미지 형식을 비롯한 다양한 파일 형식의 정확한 요구 사항에 따라 문서의 워터마크를 쉽게 사용자 지정하고 조정할 수 있습니다.주요 운영 체제 및 개발 플랫폼이 지원됩니다."
+    },
+    "formats": {
+      "title": "다른 형식으로 배치한 워터마크 업데이트",
+      "description": "{{ProdFullName}} 를 사용하여 PDF, Word, Excel 등에서 필요에 맞게 워터마크를 조정할 수 있습니다.솔루션에 당사 제품을 포함시켜 귀중한 혜택을 누리십시오."
+    }
+  }
+}

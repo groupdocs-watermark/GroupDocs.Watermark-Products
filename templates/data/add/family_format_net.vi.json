@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Tạo hình mờ văn bản trong tập tin {{FileFormatUp}}",
+    "comment_2": "Cung cấp tệp để được đánh dấu",
+    "comment_3": "Tạo phiên bản hình mờ văn bản",
+    "comment_4": "Lưu {{FileFormatUp}} kết quả"
+  },
+  "steps": {
+    "title": "Nâng cao tài liệu của bạn: Tạo hình mờ cho {{FileformatCap}} bằng cách sử dụng {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** là một thư viện đơn giản hóa việc thêm hình mờ vào các định dạng tệp kinh doanh khác nhau cho {{EnvName}} nhà phát triển. Tích hợp thư viện của chúng tôi vào ứng dụng của bạn và dễ dàng tạo hình mờ các tài liệu bằng các bước sau:",
+      "step_1": "**Bắt đầu hành trình đánh dấu hình mờ của bạn:** Bắt đầu bằng cách tự làm quen với lớp **Watermarker**, nền tảng của API của chúng tôi. Để bắt đầu quá trình, hãy đảm bảo bạn khởi tạo nó trước khi xử lý tài liệu. Đừng bỏ qua tầm quan trọng của việc cung cấp tệp {{FileformatCap}} cho hàm tạo, cho dù đó là đường dẫn hay đối tượng luồng.",
+      "step_2": "**Tạo hình mờ tùy chỉnh:** Chuyển sang giai đoạn tiếp theo bằng cách tạo đối tượng** Watermark** phù hợp với thông số kỹ thuật của bạn. Công cụ linh hoạt này không giới hạn ở các trang tài liệu cụ thể; nó cũng có thể được tích hợp liền mạch vào các yếu tố tài liệu gốc như tệp đính kèm hoặc tiêu đề.",
+      "step_3": "**Tinh chỉnh Thuộc tính hình mờ:** Tinh chỉnh trải nghiệm hình mờ của bạn bằng cách điều chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh trang, họ phông chữ và màu sắc. Mức độ tùy chỉnh này đảm bảo hình mờ của bạn kết hợp liền mạch với tài liệu của bạn.",
+      "step_4": "**Áp dụng hình mờ của bạn:** Sử dụng phương thức** Watermarker** để dễ dàng áp dụng hình mờ tùy chỉnh của bạn cho tài liệu của bạn. Cho dù bạn cần thêm một hoặc nhiều hình mờ, quy trình này mang lại sự linh hoạt. Để tăng cường bảo mật, hãy cân nhắc lưu tài liệu đã xử lý của bạn ở một vị trí riêng biệt."
+    }
+  },
+  "more_features": {
+    "title": "Tìm hiểu sâu về việc thêm hình mờ",
+    "description": "Tận dụng API mạnh mẽ của chúng tôi để hiển thị, hiển thị, chuyển đổi và quản lý tài liệu, trang trình bày, sơ đồ và nhiều loại tài liệu khác trong ứng dụng .NET. GroupDocs.Watermark tích hợp liền mạch khả năng hình mờ để tăng cường bảo mật tài liệu và bảo vệ bản quyền.",
+    "image_description": "Thêm hình mờ",
+    "feature_1": {
+      "title": "Làm mờ tài liệu của bạn một cách dễ dàng.",
+      "content": "{{ProdShortName}} trao quyền cho .NET nhà phát triển dễ dàng tích hợp hình mờ vào ứng dụng của họ. Thêm văn bản, hình ảnh hoặc hình mờ động vào các tài liệu và tệp kinh doanh phổ biến một cách dễ dàng, đảm bảo nội dung của bạn được bảo mật và có thương hiệu nhất quán trên tất cả các nền tảng."
+    },
+    "feature_2": {
+      "title": "Điều chỉnh hình mờ để đáp ứng nhu cầu của bạn.",
+      "content": "Tùy chỉnh hình mờ để phù hợp với yêu cầu cụ thể của bạn với các tính năng mở rộng được hỗ trợ bởi GroupDocs.Watermark. Điều chỉnh kích thước, xoay, độ trong suốt, màu sắc và phông chữ để đảm bảo hình mờ của bạn không chỉ trông hoàn hảo mà còn tăng cường bảo mật tài liệu mà không cản trở thông tin quan trọng."
+    },
+    "feature_3": {
+      "title": "Khai thác các tính năng tài liệu gốc để tạo hình mờ",
+      "content": "Sử dụng các tính năng vốn có của định dạng tài liệu để tạo hình mờ tinh vi. Cho dù đó là sử dụng PDF chú thích gốc, MS Word hình nền hoặc Excel đầu trang và chân trang, GroupDocs.Watermark tích hợp sâu với cấu trúc tài liệu để áp dụng hình mờ vừa hiệu quả vừa xâm lấn tối thiểu."
+    },
+    "code_1": {
+      "title": "Tạo hình mờ hình ảnh cho DOCX",
+      "content": "Ví dụ này cho thấy cách áp dụng hiệu ứng hình ảnh cho hình mờ hình dạng.",
+      "comment_1": "Tải tài liệu Word",
+      "comment_2": "Thiết lập tùy chọn hình mờ",
+      "comment_3": "Tạo hình mờ",
+      "comment_4": "Lưu tài liệu cập nhật"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Tạo hình mờ cho Excel Bảng tính",
+      "description": "Tự động hóa hình mờ hình ảnh với .NET C # để bảo mật nhất quán. Xử lý hàng loạt hình ảnh một cách hiệu quả."
+    },
+    "header": {
+      "title": "Thêm hình mờ động trong Excel Sử dụng .NET C #",
+      "description": "Tự động hóa việc áp dụng hình mờ văn bản động hoặc hình ảnh trên các tệp Excel của bạn bằng cách sử dụng C #. Hướng dẫn của chúng tôi chỉ cho bạn cách duy trì tính nhất quán và chuyên nghiệp, với sự can thiệp thủ công tối thiểu cần thiết.",
+      "subtitle": "{{ProdFullName}} CÁ",
+      "action_title": "Tải xuống miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} thư viện",
+      "content": "{{ProdFullName}} cho phép tích hợp liền mạch hình mờ vào bảng tính Excel, cung cấp cho doanh nghiệp các công cụ cần thiết để bảo mật và cá nhân hóa tài liệu của họ. Thư viện C # này hỗ trợ nhiều loại hình mờ và cho phép tùy chỉnh chi tiết, bao gồm điều chỉnh độ mờ, xoay và căn chỉnh. Ngoài ra, nó được trang bị khả năng tìm kiếm nâng cao để phát hiện và quản lý hình mờ hiện có, đảm bảo bảng tính của bạn được bảo vệ chống lại sự giả mạo và tiết lộ trái phép."
+    },
+    "formats": {
+      "title": "Nhúng hình mờ văn bản và hình ảnh trong Excel bằng cách sử dụng {{ProgLang}}",
+      "description": "Sử dụng GroupDocs.Watermark C# API để thêm hình mờ tùy chỉnh vào Excel bảng tính một cách hiệu quả. Tăng cường bảo mật tài liệu và xây dựng thương hiệu doanh nghiệp với các công cụ được thiết kế để tích hợp hình mờ nhanh chóng và linh hoạt."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Tạo hình mờ tài liệu Word",
+      "description": "Hợp lý hóa quy trình làm việc tài liệu Word bằng hình mờ. Phản ánh tính toàn vẹn của thương hiệu của bạn một cách chuyên nghiệp."
+    },
+    "header": {
+      "title": "Tạo hình mờ động trong Word và OpenOffice với C #",
+      "description": "Triển khai hình mờ một cách chiến lược trong tài liệu Word của bạn bằng bộ công cụ C# mạnh mẽ của chúng tôi. Tùy chỉnh để phù hợp với tiêu chuẩn thương hiệu hoặc yêu cầu bảo mật một cách dễ dàng.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} biến đổi khả năng của bạn để tô mờ các tài liệu Microsoft Word. API đa năng này tích hợp liền mạch vào môi trường phát triển của bạn, cho phép bổ sung các hình mờ văn bản và hình ảnh tinh vi có thể được định vị hoàn toàn hoặc tương đối trong tài liệu. Nó hỗ trợ các định dạng DOC, DOCX và RTF, cung cấp tính linh hoạt trên nhiều phiên bản Word. Nâng cao tài liệu của bạn bằng hình mờ không chỉ an toàn mà còn pha trộn tinh tế với nội dung, duy trì khả năng đọc và tính toàn vẹn của bố cục."
+    },
+    "formats": {
+      "title": "Hình mờ được hỗ trợ C # trong Word và OpenOffice thông qua {{ProgLang}}",
+      "description": "Tối đa hóa tác động của tài liệu MS Word và tài liệu OpenOffice của bạn với hình mờ được thiết kế tùy chỉnh mang lại sự bảo vệ và tính chuyên nghiệp. API C # của chúng tôi giúp bạn dễ dàng áp dụng hình mờ chính xác và hấp dẫn."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Đánh dấu hình ảnh bằng .NET C #",
+      "description": "Học cách áp dụng hình mờ liền mạch trên hình ảnh bằng cách sử dụng .NET C #. Bảo vệ tài sản của bạn mà không ảnh hưởng đến chất lượng."
+    },
+    "header": {
+      "title": "Hình mờ tùy chỉnh nhanh chóng cho hình ảnh sử dụng {{EnvName}}",
+      "description": "Công cụ .NET C # của chúng tôi cung cấp một giải pháp nhanh chóng để nhúng hình mờ vào hình ảnh. Hỗ trợ các định dạng hình ảnh mở rộng đảm bảo phạm vi phủ sóng đầy đủ từ ảnh đến tác phẩm nghệ thuật kỹ thuật số.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} được thiết kế để tự động hóa quá trình hình mờ cho hình ảnh, hỗ trợ một loạt các định dạng như JPEG, PNG, BMP và TIFF. API mạnh mẽ này cho phép chèn nhanh hình mờ văn bản và hình ảnh có thể điều chỉnh độ mờ, kích thước và vị trí, phù hợp với yêu cầu cụ thể của bạn. Cho dù đó là để bảo vệ bản quyền hay nâng cao tài liệu tiếp thị, bộ công cụ của chúng tôi đảm bảo rằng hình mờ được áp dụng với độ trung thực cao và tác động tối thiểu đến chất lượng hình ảnh gốc."
+    },
+    "formats": {
+      "title": "Triển khai hình mờ nhanh chóng trên các định dạng hình ảnh thông qua {{ProgLang}}",
+      "description": "Tăng cường bảo vệ hình ảnh của bạn với bộ công cụ .NET C # của chúng tôi, có khả năng xử lý các định dạng hình ảnh khác nhau với tốc độ và hiệu quả. Điều chỉnh hình mờ của bạn để kết hợp hoàn hảo với nội dung hình ảnh của bạn."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Làm mờ ảnh của bạn một cách nhanh chóng và dễ dàng",
+      "description": "Nhanh chóng bảo mật và xác nhận bản quyền trên ảnh của bạn với hình mờ .NET C #. Bắt đầu bảo vệ công việc của bạn ngay hôm nay."
+    },
+    "header": {
+      "title": "Hình mờ ảnh nhanh chóng và dễ dàng với {{EnvName}}",
+      "description": "Thư viện C # mạnh mẽ của chúng tôi cho phép đánh dấu nhanh chóng cho ảnh của bạn, giúp bạn bảo mật bản quyền và nâng cao nhận diện thương hiệu mà không ảnh hưởng đến chất lượng hình ảnh.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một giải pháp mạnh mẽ cho các dịch vụ của nhiếp ảnh gia đang tìm cách bảo vệ bản quyền và nhận dạng thương hiệu của họ. API này cho phép bổ sung nhanh hình mờ văn bản hoặc hình ảnh vào ảnh trên nhiều định dạng bao gồm JPEG, PNG và RAW. Tùy chỉnh hình mờ của bạn về độ trong suốt, kích thước và vị trí để kết hợp liền mạch với ảnh, duy trì chất lượng thẩm mỹ đồng thời khẳng định các quyền hợp pháp của bạn và ngăn chặn việc sử dụng trái phép."
+    },
+    "formats": {
+      "title": "Bảo vệ ảnh của bạn với hình mờ hiệu quả {{ProgLang}}",
+      "description": "Bảo mật và cách điệu nội dung ảnh của bạn với hình mờ có thể tùy chỉnh bằng cách sử dụng .NET C# API của chúng tôi, được thiết kế để tích hợp liền mạch và duy trì chất lượng hình ảnh."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Tạo các tính năng Watermark nâng cao cho bản trình bày",
+      "description": "Sử dụng các kỹ thuật tiên tiến để tạo hình mờ có tác động cho các bài thuyết trình. Đảm bảo bảo mật nội dung một cách liền mạch."
+    },
+    "header": {
+      "title": "Đổi mới bản trình bày của bạn với hình mờ nâng cao trong C #",
+      "description": "Nhúng hình mờ văn bản và hình ảnh tiên tiến vào trang trình bày PowerPoint của bạn bằng API C # của chúng tôi. Hoàn hảo để tăng cường bảo mật và sự hấp dẫn chuyên nghiệp trong các bài thuyết trình.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống tại {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} được thiết kế để tạo điều kiện cho việc chèn hình mờ nâng cao trong PowerPoint bài thuyết trình một cách hiệu quả. Cho dù bạn đang xử lý thông tin bí mật hay đang tìm cách tăng cường thương hiệu của công ty bạn trên các trang trình bày, API của chúng tôi cung cấp các giải pháp hình mờ mạnh mẽ có thể được điều chỉnh cho các trang trình bày riêng lẻ hoặc toàn bộ bài thuyết trình. Từ các dấu văn bản đơn giản đến các logo phức tạp, điều chỉnh giao diện và vị trí hình mờ của bạn để tích hợp liền mạch với thiết kế slide của bạn đồng thời cung cấp thêm một lớp bảo mật."
+    },
+    "formats": {
+      "title": "Bảo vệ và cá nhân hóa bản trình bày bằng hình mờ trong {{ProgLang}}",
+      "description": "Sử dụng bộ công cụ C# của chúng tôi để nhanh chóng áp dụng hình mờ tùy chỉnh để duy trì tính toàn vẹn và thẩm mỹ của bản trình bày PowerPoint của bạn. Lý tưởng cho môi trường chuyên nghiệp và giáo dục."
+    }
+  }
+}

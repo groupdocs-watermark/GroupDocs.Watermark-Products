@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Ajouter un filigrane de texte à {{FileFormatUp}}",
+    "comment_2": "Transmettre le fichier à filigraner au filigrane",
+    "comment_3": "Création d'un filigrane de texte et configuration des propriétés",
+    "comment_4": "Enregistrer le fichier filigrané"
+  },
+  "steps": {
+    "title": "Ajouter un filigrane au document {{FileformatCap}} via {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajouter facilement des filigranes de différents types aux formats de fichiers professionnels les plus courants. Ajoutez notre bibliothèque à votre demande et filigranez les documents en quelques étapes simples, comme indiqué ci-dessous.",
+      "step_1": "**Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier {{FileformatCap}} au constructeur en tant que chemin ou objet de flux.",
+      "step_2": "**Watermark** du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document, telles que les pièces jointes ou les en-têtes.",
+      "step_3": "Définissez les propriétés du filigrane telles que la hauteur et la largeur, l'alignement de la page (en haut, à gauche, au centre, etc.), la famille de police et la couleur, et bien d'autres encore.",
+      "step_4": "**Watermarker** pour ajouter un nouveau filigrane. Vous pouvez ajouter autant de filigranes que vous le souhaitez. Il est recommandé d'enregistrer le document traité dans un autre emplacement."
+    }
+  },
+  "more_features": {
+    "title": "Améliorez facilement vos filigranes",
+    "description": "Exploitez la puissance de GroupDocs.Watermark pour générer, composer et ajouter des filigranes dans différents formats de documents. Cette API améliore non seulement la sécurité des documents, mais protège également votre propriété intellectuelle en intégrant des filigranes personnalisables à la fois polyvalents et robustes.",
+    "image_description": "Ajouter un filigrane",
+    "feature_1": {
+      "title": "Options de filigrane polyvalentes.",
+      "content": "Explorez un large éventail d'options de filigrane avec GroupDocs.Watermark. Qu'il s'agisse de régler l'opacité et la rotation ou de redimensionner proportionnellement la taille, notre API vous permet de personnaliser les filigranes précisément selon vos besoins, en veillant à ce qu'ils s'intègrent parfaitement à vos documents tout en préservant l'intégrité du contenu."
+    },
+    "feature_2": {
+      "title": "Style de filigrane avancé.",
+      "content": "GroupDocs.Watermark vous permet de personnaliser vos filigranes avec différentes polices, couleurs et ombres, afin de les rendre uniques et plus difficiles à supprimer. Améliorez l'esthétique de vos documents et images protégés grâce à des filigranes stylés qui reflètent l'identité et le professionnalisme de votre marque."
+    },
+    "feature_3": {
+      "title": "Carrelage et positionnement des filigranes",
+      "content": "Avec GroupDocs.Watermark, implémentez des effets de mosaïque pour couvrir l'intégralité de votre document, garantissant ainsi une protection complète. Positionnez les filigranes exactement là où vous en avez besoin : au centre, dans un coin ou à des emplacements personnalisés. Nos options de positionnement flexibles contribuent à protéger vos documents contre toute utilisation non autorisée et toute duplication."
+    },
+    "code_1": {
+      "title": "Filigrane d'annotation PDF",
+      "content": "Cet exemple montre comment ajouter une annotation en filigrane à un document PDF",
+      "comment_1": "Charger le document sous le nom PDF",
+      "comment_2": "Créer un filigrane en fonction de l'annotation PDF",
+      "comment_3": "Configurer les options de filigrane",
+      "comment_4": "Ajouter un filigrane de texte au document de résultat"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Générer un filigrane dans {{FileformatCap}} feuilles de calcul pour Java",
+      "description": "Implémentez facilement la génération de filigranes de texte et d'image dans {{FileformatCap}} avec Java pour protéger vos feuilles de calcul de données {{FileformatCap}}"
+    },
+    "header": {
+      "title": "Automatisez le filigrane {{FileformatCap}} avec le code Java",
+      "description": "Implémentez des filigranes de texte ou d'image personnalisés dans {{FileformatCap}} feuilles de calcul à l'aide de Java. Ce guide propose des instructions étape par étape pour améliorer la sécurité des documents et l'image de marque, adaptées à divers besoins professionnels.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Téléchargement gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} bibliothèque",
+      "content": "{{ProdFullName}} propose une gestion complète des filigranes dans {{FileformatCap}} feuilles de calcul, permettant aux développeurs de générer, d'ajuster et d'effacer facilement les filigranes. Il prend en charge tous les formats de fichiers Excel courants, ce qui permet d'intégrer des filigranes de texte et d'image qui peuvent être personnalisés en termes de police, de couleur, de taille et de position. GroupDocs.Watermark inclut également des fonctionnalités de recherche de filigranes, garantissant ainsi que vos filigranes sont intacts et inviolables. Idéal pour les applications nécessitant des améliorations de la sécurité des documents dans les environnements Java."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Techniques de filigrane {{FileformatCap}}",
+      "description": "À l'aide de GroupDocs.Watermark for Java, appliquez facilement des filigranes à base de texte ou d'image à {{FileformatCap}} feuilles de calcul, renforçant ainsi considérablement la sécurité des documents et l'image de marque dans le cadre de votre flux de travail professionnel."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Composez des filigranes personnalisés pour {{FileformatCap}} avec Java",
+      "description": "Intégrez des filigranes personnalisés dans {{FileformatCap}} documents à l'aide de Java. Renforcez la sécurité et ajoutez une touche professionnelle."
+    },
+    "header": {
+      "title": "Création de filigranes personnalisés dans {{FileformatCap}} documents",
+      "description": "Sécurisez vos {{FileformatCap}} fichiers avec Java en incorporant du texte ou des filigranes d'image personnalisés. Cette ressource est idéale pour ceux qui ont besoin d'améliorer la sécurité des documents et leur attrait visuel avec un minimum d'effort.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} permet la création précise et flexible de filigranes dans {{FileformatCap}} documents. Cet outil permet à Java développeurs d'ajouter des filigranes personnalisés pouvant inclure du texte, des images ou des logos, adaptés à vos besoins spécifiques en matière de marque. Il prend en charge tous les principaux formats de documents Word et fournit des fonctionnalités complètes pour modifier et supprimer les filigranes, ainsi que pour rechercher dans les documents pour vérifier l'intégrité des filigranes. Compatible avec tous les systèmes d'exploitation pris en charge par Java, cette API est idéale pour les entreprises qui souhaitent renforcer leurs protocoles de sécurité des documents."
+    },
+    "formats": {
+      "title": "Personnalisez vos fichiers MS {{FileformatCap}} avec la génération de filigranes {{ProgLang}}.",
+      "description": "{{ProdFullName}} permet aux développeurs d'insérer facilement des filigranes personnalisés sous forme de texte ou d'image dans {{FileformatCap}} documents. Ces améliorations renforcent non seulement la sécurité des documents, mais enrichissent également les communications professionnelles avec une touche professionnelle."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Générez des filigranes efficaces pour les images avec Java",
+      "description": "Utilisez Java pour créer des filigranes sophistiqués pour les images. Protégez vos documents et faites valoir vos droits d'auteur de manière efficace."
+    },
+    "header": {
+      "title": "Filigrane des images en toute fluidité dans Java",
+      "description": "Implémentez des filigranes dynamiques dans vos fichiers image à l'aide de Java. Cet outil permet des ajustements précis de positionnement, d'évolutivité et de transparence pour améliorer la sécurité et la reconnaissance de la marque.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} GroupDocs.Watermark for Java permet aux développeurs de générer et de gérer efficacement des filigranes sur les fichiers image. Grâce à la prise en charge d'un large éventail de formats d'image, les utilisateurs peuvent implémenter des filigranes textuels et graphiques entièrement personnalisables en termes de position, d'échelle et de transparence. Cette fonctionnalité est essentielle pour les applications des médias numériques, de la publicité et de la distribution de contenu en ligne, où l'intégrité de l'image de marque et des droits d'auteur est primordiale. En outre, GroupDocs.Watermark inclut des fonctionnalités permettant de rechercher et de supprimer les filigranes existants, fournissant ainsi un outil polyvalent pour la gestion et la sécurité des images."
+    },
+    "formats": {
+      "title": "Simplifiez les images de sécurité grâce au filigrane dans {{ProgLang}}",
+      "description": "Notre boîte à outils Java permet de générer des filigranes personnalisés pour tous les formats d'image, renforçant ainsi la sécurité et l'image de marque. Des filigranes personnalisés garantissent la reconnaissance et la protection de vos visuels sur différents supports."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Le filigranage rapide des photos en toute simplicité dans Java",
+      "description": "Simplifiez la protection de vos photos grâce au filigrane. Rapide et fiable."
+    },
+    "header": {
+      "title": "Outils efficaces Java pour le filigrane de photos",
+      "description": "Ajoutez des filigranes à vos photos rapidement et efficacement à l'aide de notre API Java. Parfait pour sécuriser les images numériques et améliorer la visibilité de la marque avec un minimum d'effort.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est optimisé pour un filigrane rapide et efficace des fichiers photo. Cet outil permet d'intégrer rapidement des filigranes de texte et d'image dans un large éventail de formats de photos, notamment JPEG, PNG et BMP. Personnalisez vos filigranes grâce à de nombreuses options de style, de transparence et de placement pour garantir qu'ils se fondent parfaitement sans nuire à la qualité de la photo. Adapté aux opérations à volume élevé, il prend en charge le traitement par lots pour appliquer des filigranes à plusieurs photos à la fois, ce qui le rend idéal pour les entreprises et les créateurs de contenu numérique qui ont besoin de protéger et de personnaliser efficacement leurs actifs visuels"
+    },
+    "formats": {
+      "title": "Intégration rapide des filigranes pour les photos via {{ProgLang}}",
+      "description": "Tirez parti de notre API Java pour appliquer rapidement des filigranes aux photos, améliorant ainsi la sécurité et l'identité de la marque. Les processus automatisés permettent une application en masse, garantissant des résultats cohérents et professionnels."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Création de filigranes avancés pour les présentations",
+      "description": "Améliorez vos présentations grâce aux fonctionnalités avancées de filigrane de Java."
+    },
+    "header": {
+      "title": "Techniques avancées de filigrane de présentation",
+      "description": "Mettez en œuvre des stratégies complexes de filigrane dans vos présentations grâce à notre boîte à outils Java. Personnalisez les filigranes pour une sécurité accrue et une esthétique professionnelle.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est conçu pour prendre en charge des fonctionnalités avancées de filigrane pour les présentations. Il permet aux utilisateurs d'intégrer facilement des filigranes de texte et d'image personnalisés dans n'importe quel format de présentation. Les fonctionnalités incluent des styles de filigranes sophistiqués, un traitement par lots automatisé pour les grands ensembles de fichiers et des outils de gestion des filigranes tels que la modification et la suppression. Cette bibliothèque Java garantit que vos présentations sont non seulement protégées contre le plagiat, mais qu'elles présentent également un aspect professionnel qui correspond à l'image de marque de votre organisation."
+    },
+    "formats": {
+      "title": "Améliorez la sécurité des présentations grâce à des filigranes avancés dans {{ProgLang}}",
+      "description": "Intégrez facilement des filigranes avancés à vos présentations afin de protéger et de mettre en valeur vos supports. Notre API Java permet une personnalisation détaillée et un traitement automatisé, ce qui est idéal pour conserver une apparence professionnelle tout en sécurisant les informations."
+    }
+  }
+}

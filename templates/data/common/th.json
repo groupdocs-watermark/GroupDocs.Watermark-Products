@@ -1,0 +1,92 @@
+{
+  "common-content": {
+    "format-formats": {
+      "excel": {
+        "name": "ลายน้ำ Excel",
+        "description": "MS Excel และสเปรดชีตโอเพ่นออฟฟิศ"
+      },
+      "word": {
+        "name": "ลายน้ำ Word",
+        "description": "MS Word และเอกสาร Open Office"
+      },
+      "powerpoint": {
+        "name": "ลายน้ำ PowerPoint",
+        "description": "MS PowerPoint และงานนำเสนอแบบโอเพ่นออฟฟิศ"
+      },
+      "image": {
+        "name": "ภาพลายน้ำ",
+        "description": "รูปแบบภาพยอดนิยม"
+      },
+      "photo": {
+        "name": "ภาพลายน้ำ",
+        "description": "รูปแบบภาพถ่าย"
+      },
+      "pdf": {
+        "name": "ลายน้ำ PDF",
+        "description": "รูปแบบเอกสาร Adobe Portable"
+      },
+      "doc": {
+        "name": "ลายน้ำ DOC",
+        "description": "ไมโครซอฟท์ Word 97 - เอกสาร 2007"
+      },
+      "docx": {
+        "name": "ลายน้ำ DOCX",
+        "description": "ไมโครซอฟท์ Word เปิดเอกสาร XML"
+      },
+      "xls": {
+        "name": "ลายน้ำ XLS",
+        "description": "ไมโครซอฟท์ Excel สมุดงาน 97-2003"
+      },
+      "xlsx": {
+        "name": "ลายน้ำ XLSX",
+        "description": "ไมโครซอฟท์ Excel เปิดสเปรดชีต XML"
+      },
+      "ppt": {
+        "name": "ลายน้ำ PPT",
+        "description": "PowerPoint การนำเสนอ 97-2003"
+      },
+      "pptx": {
+        "name": "ลายน้ำ PPTX",
+        "description": "PowerPoint เปิดการนำเสนอ XML"
+      },
+      "jpeg": {
+        "name": "ลายน้ำ JPEG",
+        "description": "JPEG รูปภาพ"
+      },
+      "png": {
+        "name": "ลายน้ำ PNG",
+        "description": "Portable กราฟิกเครือข่าย"
+      },
+      "tiff": {
+        "name": "ลายน้ำ TIFF",
+        "description": "รูปแบบไฟล์รูปภาพแท็ก"
+      },
+      "webp": {
+        "name": "ลายน้ำ WEBP",
+        "description": "รูปภาพเว็บ"
+      },
+      "rtf": {
+        "name": "ลายน้ำ RTF",
+        "description": "รูปแบบข้อความที่หลากหลาย"
+      }
+    },
+    "format-code": {
+      "copy_title": "คัดลอก",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอก",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสาร"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมที่จะเริ่มแล้วหรือยัง?",
+      "description": "ลองใช้คุณสมบัติ {{ProdShortName}} ฟรีหรือขอใบอนุญาต",
+      "comment_1": "{{PackageStoreName}} ดาวน์โหลด",
+      "comment_2": "การออกใบอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    }
+  }
+}

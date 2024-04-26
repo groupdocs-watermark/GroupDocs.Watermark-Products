@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Sesuaikan tanda air gambar {{FileFormatUp}}",
+    "comment_2": "Buat Instantiasi Watermarker dengan {{FileFormatUp}}",
+    "comment_3": "Inisialisasi SearchCriteria untuk mencocokkan gambar tertentu",
+    "comment_4": "Ganti gambar yang ditemukan",
+    "comment_5": "Simpan file yang disesuaikan"
+  },
+  "steps": {
+    "title": "Sesuaikan tanda air dokumen {{FileformatCap}} menggunakan {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memungkinkan {{EnvName}} pengembang untuk dengan mudah menyesuaikan tanda air di banyak dokumen menggunakan aplikasi mereka. Berikut panduan singkatnya:",
+      "step_1": "**Watermarker**. Berikan byte atau aliran file atau jalur disk lokal.",
+      "step_2": "**Criteria pencari** untuk mengidentifikasi tanda air dengan properti tertentu yang sebelumnya ditambahkan ke dokumen.",
+      "step_3": "Setelah pencarian, Anda akan menerima daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, termasuk ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini menawarkan tingkat penyesuaian yang tinggi untuk data Anda.",
+      "step_4": "Setelah Anda selesai menyesuaikan tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal, atau streaming untuk menyimpan hasilnya."
+    }
+  },
+  "more_features": {
+    "title": "Manajemen Tanda Air Tingkat Lanjut {{FileFormatUp}} untuk Aplikasi {{EnvName}}",
+    "description": "{{ProdShortName}} API memberdayakan pengembang untuk mengintegrasikan fungsionalitas watermarking dengan mulus ke dalam aplikasi {{EnvName}} mereka. Ini mendukung penambahan, pengeditan, penghapusan, dan pencarian tanda air di berbagai format dokumen.",
+    "image_description": "Penyesuaian Tanda Air",
+    "feature_1": {
+      "title": "Integrasi Watermark yang Mudah",
+      "content": "{{ProdShortName}} menyederhanakan proses penambahan tanda air yang beragam ke berbagai dokumen bisnis dan file dalam {{EnvName}} aplikasi. Pengembang tidak hanya dapat menerapkan tanda air, tetapi juga memperbarui atau menghapus yang sudah ada secara terprogram."
+    },
+    "feature_2": {
+      "title": "Kustomisasi Tanda Air Granular",
+      "content": "API menyediakan opsi penyesuaian ekstensif untuk tanda air. Pengembang dapat dengan mudah menyesuaikan ukuran, rotasi, warna, font, gaya, dan properti lainnya untuk mencapai efek visual yang diinginkan."
+    },
+    "feature_3": {
+      "title": "Memanfaatkan {{FileFormatUp}} Fitur Dokumen Asli",
+      "content": "Tergantung pada format dokumen target, pengembang dapat menggunakan fungsi asli untuk penempatan tanda air. Fungsionalitas ini mungkin termasuk latar belakang halaman dokumen, anotasi, header, atau objek lain sebagai wadah tanda air."
+    },
+    "code_1": {
+      "title": "Sesuaikan tanda air gambar di Spreadsheets",
+      "content": "Contoh ini menunjukkan cara menyesuaikan gambar bentuk tertentu dalam Lembar Kerja Excel.",
+      "comment_1": "Muat dokumen sebagai Spreadsheet",
+      "comment_2": "Dapatkan byte tanda air baru",
+      "comment_3": "Sesuaikan konten tanda air tertentu",
+      "comment_4": "Simpan dokumen hasil"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Sesuaikan {{FileFormatUp}} Tanda Air Secara Profesional - {{ProdShortName}}",
+      "description": "Kelola dan sesuaikan tanda air secara profesional dengan {{ProdShortName}}. Amankan dokumen Anda dengan percaya diri."
+    },
+    "header": {
+      "title": "Sesuaikan {{FileFormatUp}} Watermark: Jaminan Profesional",
+      "description": "Pastikan standar profesional dengan solusi manajemen tanda air kami. Lindungi dokumen Anda dengan keandalan.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh paket dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Kelola Watermark**: Solusi manajemen tanda air profesional kami memberikan jaminan dalam melindungi dokumen Anda. Sederhanakan alur kerja Anda dengan alat yang efisien untuk menambahkan, mengedit, dan menghapus tanda air."
+    },
+    "formats": {
+      "title": "Edit Watermark dalam format lain melalui {{ProdFullName}}",
+      "description": "Sederhanakan pengelolaan tanda air di berbagai format dokumen. Solusi kami menawarkan alat yang efisien untuk menambahkan, mengedit, dan menghapus tanda air dengan mudah."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Menyesuaikan Watermark di {{FileFormatUp}} Dokumen - {{ProdShortName}}",
+      "description": "Edit tanda air secara efisien di berbagai format dokumen menggunakan {{ProdShortName}}. Tingkatkan keaslian dokumen."
+    },
+    "header": {
+      "title": "Sesuaikan {{FileFormatUp}} Watermark: Kustomisasi Mulus",
+      "description": "Sesuaikan dokumen Anda dengan mulus dengan alat pengeditan tanda air kami yang efisien. Tingkatkan citra merek Anda dengan mudah.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduhan gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Edit Watermark**: Sesuaikan dokumen Anda dengan mulus dengan alat pengeditan kami yang kuat. Baik itu menyesuaikan penempatan atau mengubah konten, raih efek watermarking yang Anda inginkan dengan mudah."
+    },
+    "formats": {
+      "title": "Ubah Watermark dalam berbagai format menggunakan {{ProdFullName}}",
+      "description": "Mengedit tanda air dengan mulus dalam berbagai format dokumen. Sesuaikan dokumen Anda dengan mudah sambil memastikan perlindungan dan keaslian."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Sesuaikan Watermark di {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Sesuaikan dan perbaiki tanda air di berbagai jenis dokumen dengan mudah dengan {{ProdShortName}}. Pastikan kredibilitas dokumen."
+    },
+    "header": {
+      "title": "Sesuaikan {{FileFormatUp}} Watermark: Perlindungan Serbaguna",
+      "description": "Lindungi konten Anda di berbagai format dengan fitur penyesuaian tanda air serbaguna kami. Beradaptasi dengan kebutuhan Anda dengan mulus.",
+      "subtitle": "{{ProdFullName}} Solusi",
+      "action_title": "Gratis {{PackageStoreName}} paket"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Solusi",
+      "content": "**Sesuaikan Watermark**: Lindungi konten Anda di berbagai format dokumen dengan fitur penyesuaian tanda air serbaguna kami. Sesuaikan strategi watermarking Anda untuk memenuhi kebutuhan spesifik Anda dengan mudah."
+    },
+    "formats": {
+      "title": "Kelola Watermark dalam format populer dengan {{ProdFullName}}",
+      "description": "Lindungi konten Anda di berbagai format dengan fitur penyesuaian tanda air serbaguna kami. Beradaptasi dengan kebutuhan Anda dengan mulus."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Sesuaikan {{FileFormatUp}} Tanda Air dengan Mulus - {{ProdShortName}}",
+      "description": "Merevisi dan sesuaikan tanda air dengan mulus dengan {{ProdShortName}}. Lindungi dokumen Anda dengan presisi."
+    },
+    "header": {
+      "title": "Merevisi {{FileFormatUp}} Watermark: Keamanan yang Disesuaikan",
+      "description": "Sesuaikan keamanan dokumen Anda dengan opsi revisi tanda air fleksibel kami. Pastikan perlindungan disesuaikan dengan kebutuhan Anda.",
+      "subtitle": "{{ProdFullName}} Perpustakaan",
+      "action_title": "Unduh dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Perpustakaan",
+      "content": "**Revisi Watermark**: Tingkatkan keamanan dokumen dengan opsi revisi kami. {{ProdShortName}} menawarkan solusi khusus untuk merevisi dan menyempurnakan tanda air agar sesuai dengan kebutuhan branding dan perlindungan Anda."
+    },
+    "formats": {
+      "title": "Merevisi Watermark dalam format lain yang didukung menggunakan {{ProdFullName}}",
+      "description": "Pastikan keamanan dokumen dengan opsi revisi tanda air yang disesuaikan. GroupDocs.Watermark menawarkan solusi fleksibel untuk merevisi dan menyempurnakan tanda air."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Sesuaikan {{FileFormatUp}} Tanda Air Dengan Mudah - {{ProdShortName}}",
+      "description": "Sesuaikan dokumen Anda dengan mudah dengan {{ProdShortName}}. Edit dan kelola tanda air dengan mudah."
+    },
+    "header": {
+      "title": "Sesuaikan {{FileFormatUp}} Watermark: Branding Intuitif",
+      "description": "Beri merek dokumen Anda secara efektif dengan alat tanda air kami yang dapat disesuaikan. Tingkatkan kehadiran merek Anda dengan mudah.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh {{PackageStoreName}} paket"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Sesuaikan Watermark**: Tingkatkan citra merek Anda dengan alat tanda air kami yang dapat disesuaikan. Tambahkan elemen branding dengan mudah sambil memastikan keamanan dan keaslian dokumen."
+    },
+    "formats": {
+      "title": "Sesuaikan Watermark dalam format lain yang didukung oleh {{ProdFullName}}",
+      "description": "Tingkatkan kehadiran merek Anda dengan alat watermarking yang dapat disesuaikan. Beri merek dokumen Anda secara efektif sambil menjaga keamanan dan keaslian."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Sesuaikan Watermark di {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Poles dokumen Anda dengan presisi menggunakan {{ProdShortName}}. Sesuaikan dan perbarui tanda air dengan mudah."
+    },
+    "header": {
+      "title": "Poles {{FileFormatUp}} Dokumen Anda: Pengeditan Tanda Air",
+      "description": "Perbaiki dokumen Anda dengan kemampuan pengeditan tanda air kami yang komprehensif. Poles konten Anda dengan presisi.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Poles Dokumen Anda**: Kemampuan pengeditan tanda air kami yang komprehensif memungkinkan Anda menyempurnakan dokumen Anda dengan presisi. Dari penyesuaian kecil hingga transformasi lengkap, raih hasil yang dipoles dengan mudah."
+    },
+    "formats": {
+      "title": "Tanda air dokumen Polandia dalam format lain dengan {{ProdFullName}}",
+      "description": "Perbaiki dokumen Anda dengan presisi menggunakan kemampuan pengeditan tanda air kami yang komprehensif. Tingkatkan keaslian dokumen dengan mudah."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Sesuaikan Tanda Air {{FileFormatUp}} Anda - {{ProdShortName}}",
+      "description": "Perbaiki penempatan tanda air Anda dengan {{ProdShortName}}. Meningkatkan keamanan dan keaslian dokumen."
+    },
+    "header": {
+      "title": "Perbaiki Penempatan Tanda Air {{FileFormatUp}} Anda: Presisi Ahli",
+      "description": "Dapatkan penempatan tanda air ahli dengan alat presisi kami. Tingkatkan keamanan dokumen dengan akurasi.",
+      "subtitle": "{{ProdFullName}} Solusi",
+      "action_title": "Unduh gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Solusi",
+      "content": "**Perbaiki Penempatan Tanda Air Anda**: Dapatkan penempatan tanda air secara ahli dengan alat presisi kami. {{ProdShortName}} menawarkan kontrol intuitif untuk menyempurnakan penempatan dan memastikan keamanan dokumen."
+    },
+    "formats": {
+      "title": "Perbaiki Watermark dalam format lain yang didukung dengan {{ProdFullName}}",
+      "description": "Dapatkan penempatan tanda air ahli dengan kontrol intuitif. Pastikan keamanan dokumen dengan penempatan dan penyesuaian yang akurat."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Sesuaikan & Kelola {{FileFormatUp}} Watermark - {{ProdShortName}}",
+      "description": "Sederhanakan proses pengelolaan tanda air Anda dengan {{ProdShortName}}. Sederhanakan perlindungan dokumen dan branding."
+    },
+    "header": {
+      "title": "Streamline {{FileFormatUp}} Manajemen Tanda Air: Kontrol Sederhana",
+      "description": "Sederhanakan proses pengelolaan tanda air Anda dengan solusi efisien kami. Fokus pada konten Anda dengan mudah.",
+      "subtitle": "{{ProdFullName}} Perpustakaan",
+      "action_title": "Unduh di {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Perpustakaan",
+      "content": "**Sesuaikan Opsi Watermark**: Pindahkan tanda air pada halaman menggunakan solusi presisi kami. {{ProdShortName}} menawarkan banyak opsi untuk penyesuaian tanda air dan memastikan keamanan dokumen."
+    },
+    "formats": {
+      "title": "Gunakan {{ProdFullName}} untuk mengedit tanda air dalam format file lain",
+      "description": "Sederhanakan proses pengelolaan tanda air Anda di berbagai format dokumen. Fokus pada konten Anda dengan mudah sambil memastikan perlindungan dan branding."
+    }
+  }
+}

@@ -1,274 +1,272 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "landing"
+date: 2024-04-26T21:39:08
 draft: false
 
+lang: id
 product: "Watermark"
 product_tag: "watermark"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
-head_title: ".NET API untuk Menambahkan Pencarian Hapus Tanda Air ke Word Excel Gambar PDF"
-head_description: "C# .NET API untuk menambahkan, mencari, dan menghapus gambar & tanda air berbasis teks dari dokumen: PDF, Word, Excel, presentasi, Visio, email, dan format file gambar."
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
-title: ".NET API untuk Manipulasi Tanda Air"
-description: "Bangun Aplikasi .NET untuk Mengoperasikan Tanda Air Berbasis Teks & Gambar dengan Pencarian Cerdas & Fitur Keamanan Kuat."
-button:
-    enable: true
+############################# Head ############################
+head_title: "C# .NET Perangkat Lunak Watermark Dokumen | tambahkan tanda air"
+head_description: "C# .NET Library untuk menambahkan, mencari, dan menghapus tanda air dalam dokumen: PDF, Word, Excel, presentasi, diagram Visio, email dan format file gambar."
 
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Watermark for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-net.png"
-        product: "GroupDocs.Watermark"
-        platform: ".NET"
+############################# Header ############################
+title: "Tanda air dokumen dengan mudah di aplikasi C # .NET Anda"
+description: "Berdayakan solusi C# Anda dengan API watermarking dokumen fleksibel yang menyediakan penambahan tanda air yang dapat disesuaikan ke semua format dokumen populer."
+words:
+  for: "untuk"
 
-    middle:
-        button:
-            - link: "#overview"
-              text: "Ringkasan"
+actions:
+  main: "Gratis NuGet Unduh"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Watermark"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/watermark/net/"
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Watermark secara gratis atau minta lisensi"
 
-            - link: "#features"
-              text: "Fitur"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            - link: "#support"
-              text: "Mendukung"
-
-            - link: "https://products.groupdocs.app/watermark"
-              text: "Demo Langsung"
-
-            - link: "https://purchase.groupdocs.com/pricing/watermark/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/watermark"
-        link_learn: "https://docs.groupdocs.com/watermark/net/"
-        link_buy: "https://purchase.groupdocs.com"
-
-overview:
-    enable: true
-    content: |
-      GroupDocs.Watermark untuk .NET memungkinkan Anda membangun aplikasi bisnis yang siap dipasarkan di C#, ASP.NET dan teknologi terkait .NET lainnya, yang memungkinkan pengguna akhir Anda, menambahkan tanda air baru, mencari dan menghapus tanda air yang ada dalam format file yang didukung . Dengan menggunakan GroupDocs.Watermark untuk .NET, Anda dapat menerapkan tanda air digital secara terprogram ke banyak format file dan mencegah penggunaan kekayaan intelektual yang tidak sah dan secara aman memberi label dokumen yang bersifat sensitif dengan menggunakan berbagai langkah keamanan bawaan yang ditawarkan oleh API ini.
-    tabs:
-      enable: true
-      
-      tab_one:
-        description: |
-          Berikut ini adalah ikhtisar GroupDocs.Watermark untuk .NET:
-      
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Ringkasan"
-          content: |
-            * Tambah & Hapus Tanda Air
-            * Cari & Ganti Tanda Air
-            * Cari berdasarkan Format
-            * Cari berdasarkan Perbandingan Gambar
-            * Bekerja dengan Header & Footer
-            * Bekerja dengan Gambar Latar Belakang
-            * Bekerja dengan Lampiran
-            * Rasterisasi Halaman
-            * Terapkan Pembatasan Pengeditan
-      
-      tab_two:
-        description: |
-          [Format dokumen dan jenis tanda air](https://docs.groupdocs.com/watermark/net/supported-document-formats/) yang didukung untuk setiap format tercantum di bawah ini:
-
-        left:
-          enable: true
-          table:
-            - title: "Microsoft Office"
-              content: |
-                * **Kata:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visi:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-
-            - title: "Menambahkan Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi
-                * **Kata**: Bentuk
-                * **Excel**: Bentuk, Header & Footer
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk
-                * **Gambar Raster**: Teks, Gambar
-                * **Tiff Multi-halaman**: Teks, Gambar
-                * **Gif Animasi**: Teks, Gambar
-
-        right:
-          enable: true
-          table:
-            - title: "Dokumen PDF dan Gambar"
-              content: |
-                * **Format Dokumen Portabel**: PDF
-                * **Buka Dokumen**: ODT
-                * **Email**: EML, MSG, EMLX, OFT
-                * **Gambar**: PNG, BMP, GIF, JPG, JPEG, JP2, TIF, TIFF, WebP
-
-            - title: "Menghapus Tanda Air"
-              content: |
-                * **PDF**: XObject, Artefak, Anotasi, Teks Biasa
-                * **Kata**: Bentuk, Teks Biasa
-                * **Excel**: Bentuk, Header & Footer, Gambar Latar Belakang, Teks dan rumus dalam sel
-                * **PowerPoint**: Bentuk
-                * **Visio**: Bentuk, Diagram Komentar
-                * **Email**: Gambar yang dilampirkan dan disematkan, Subjek dan fragmen teks isi
-
-      tab_three:
-        description: |
-          GroupDocs.Watermark untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
+code:
+  title: "Tanda air PDF file dalam C #"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/"
+  install: "dotnet add package GroupDocs.Watermark"
+  content: |
+    ```csharp {style=abap}   
+    // Instantiate Watermarker melewati jalur PDF
+    PdfLoadOptions loadOptions = new PdfLoadOptions();
+    using (Watermarker watermarker = 
+        new Watermarker("source.pdf", loadOptions))
+    {
+        // Sesuaikan opsi tanda air
+        TextWatermark textWatermark = 
+            new TextWatermark("Approved", new Font("Arial", 8));
         
-        left:
-          enable: true
-          table:
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Desktop Windows
-                * Windows Server
-                * Windows Azure
-                * Linux
+        // Terapkan tanda air ke dokumen PDF
+        watermarker.Add(textWatermark);
 
-            - icon: "fas fa-code"
-              title: "Kerangka yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi
-                * Kerangka Mono 1.2 atau lebih tinggi
-                * .NET Standar 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
+        // Simpan dokumen hasil
+        watermarker.Save("result.pdf");
+    }
+    ```
 
-        right:
-          enable: true
-          table:
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
-
-features:
-    enable: true
-    title: "GroupDocs.Watermark untuk .NET Fitur"
-
-    feature:
-      - icon: "fas fa-copy"
-        content: "Tambah atau Hapus Tanda Air dari Bagian Tertentu atau seluruh Dokumen dari Berbagai Format File"
-
-      - icon: "fas fa-eye"
-        content: "Lampirkan Tanda Air ke semua Gambar di Bagian, Halaman, Slide, atau Dokumen Tertentu"
-
-      - icon: "fas fa-bolt"
-        content: "Tetapkan Tanda Air hanya untuk Bingkai Tertentu dari Gambar Multi-Frame"
-      
-      - icon: "fas fa-file-powerpoint"
-        content: "Alokasikan Tanda Air Tersembunyi ke PDF yang hanya Muncul saat Mencetak Dokumen"
-
-      - icon: "fas fa-code"
-        content: "Setel Tanda Air ke semua Lampiran dalam Dokumen Excel & semua Bentuk Gambar di Slide"
-
-      - icon: "fas fa-cloud"
-        content: "Tempatkan Tanda Air atau Hapus dari Gambar Latar Belakang Spreadsheet atau Slide"
-
-      - icon: "fas fa-remove-format"
-        content: "Gunakan Tanda Air ke File yang Didukung di semua Lampiran Email atau Dokumen PDF"
-
-      - icon: "fas fa-comment-slash"
-        content: "Terapkan atau Hapus Tanda Air sebagai XObjects, Artefak & Anotasi dalam Dokumen PDF"
-
-      - icon: "fas fa-location-arrow"
-        content: "Hilangkan Tanda Air yang Mengandung Teks dengan Pemformatan Tertentu"
-
-      - icon: "fas fa-border-all"
-        content: "Cari Tanda Air Gambar yang Menyerupai Gambar Tertentu"
-
-      - icon: "fas fa-wrench"
-        content: "Identifikasi Tanda Air Teks Bahkan jika ada Karakter yang Tidak Dapat Dibaca di antara Huruf"
-
-      - icon: "fas fa-columns"
-        content: "Cari Tanda Air Berdasarkan Parameter Tertentu atau dengan Menggabungkan Beberapa Kriteria"
-
-      - icon: "fas fa-file-word"
-        content: "Tentukan Pemformatan Font untuk Mencari Tanda Air Teks yang Cocok"
-
-      - icon: "fas fa-envelope"
-        content: "Ekstrak Pengaturan Halaman & Informasi Lain Secara Terprogram untuk Format yang Didukung"
-
-      - icon: "fas fa-print"
-        content: "Tambahkan Tanda Air ke Gambar di dalam Header & Footer mana pun dalam Format Dokumen yang Didukung"
-
-      - icon: "fas fa-file-archive"
-        content: "Tambahkan Tanda Air ke Bentuk Gambar di Dokumen Word & Kunci Tanda Air untuk Membatasi Pengeditan"
-
-      - icon: "fas fa-lock"
-        content: "Lindungi Tanda Air Teks menggunakan Karakter yang Tidak Dapat Dibaca dalam Presentasi"
-
-      - icon: "fas fa-file-code"
-        content: "Rasterisasi Halaman Tertentu atau Seluruh Dokumen PDF untuk Melindungi Tanda Air yang Ditambahkan"
-      
-      - icon: "fas fa-fill-drip"
-        content: "Ubah Pemformatan Teks Saat Mengganti Tanda Air Teks Yang Ada"
-
-      - icon: "fas fa-file-excel"
-        content: "Sejajarkan Tanda Air ke Bleed Box, Art Box, Crop Box, atau Trim Box dalam Dokumen PDF"
-
-      - icon: "fas fa-heading"
-        content: "Edit Properti Bentuk di Dokumen Microsoft Visio"
-
-    more_feature:
-      - title: "Menambahkan Tanda Air"
-        content: |
-          GroupDocs.Watermark untuk .NET mendukung beberapa jenis tanda air. Menambahkan tanda air jenis apa pun hanya masalah beberapa baris kode. Contoh berikut menunjukkan, menerapkan tanda air gambar ke dokumen Word menggunakan C#:
-
-          ```cs
-          // Muat dokumen
-          using (FileStream stream = File.Open("document.docx", FileMode.Open, FileAccess.ReadWrite))
-          {
-            using (Watermarker watermarker = new(Watermarker(stream))
-            {
-                    // Gunakan jalur ke gambar sebagai parameter konstruktor
-                    using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                      {
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermarker.Add(watermark);
-                }
-                // Simpan dokumen yang dihasilkan
-                watermarker.Save("document_watermarked.docx");
-                }
-          }
-          ```
-      - title: "Terapkan Tanda Air ke File dengan Format Berbeda dalam Sekali Jalan"
-        content: "GroupDocs.Watermark API memungkinkan Anda menerapkan tanda air atau menghapus tanda air semua file dalam folder tertentu sekaligus. File bahkan dapat memiliki format yang berbeda namun tanda air akan diterapkan ke semuanya secara akurat."
-
-      - title: "Keamanan Sangat Mudah untuk Tanda Air"
-        content: "Dengan hanya satu baris kode, Anda dapat mempersulit alat apa pun untuk menghapus tanda air Anda dari file PDF. Ini dicapai dengan mengonversi semua halaman dokumen PDF ke gambar raster sambil menjaga kualitas aslinya tetap utuh."
-
-support:
-    enable: true
-
-solutions:
-    enable: true
-    title: "GroupDocs.Watermark menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        - img_alt: "GroupDocs.Watermark for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-watermark-java.png"
-          product: "GroupDocs.Watermark"
-          platform: "Java"
-          link: "/watermark/java/"
-
-back_to_top:
+############################# Overview ############################
+overview:
   enable: true
+  title: "Sekilas tentang GroupDocs.Watermark"
+  description: "API untuk menempatkan tanda air pada dokumen melalui .NET"
+  features:
+    # feature loop
+    - title: "Tanda air file C#"
+      content: "Tambahkan tanda air ke file bisnis Anda menggunakan GroupDocs.Watermark. Gunakan teks, gambar, diagram atau lampiran email."
+
+    # feature loop
+    - title: "Sesuaikan tanda air dengan tujuan Anda"
+      content: "GroupDocs.Watermark for .NET perangkat lunak memungkinkan untuk menyesuaikan tanda air dengan berbagai cara. Gaya teks seperti tebal, miring, jenis font bersama dengan properti gambar seperti rotasi dll memperkaya proses watermarking."
+
+    # feature loop
+    - title: "Semua format file populer didukung"
+      content: "Banyak format file dan dokumen didukung oleh solusi GroupDocs.Watermark. PDF, Microsoft Office Word, Excel, PowerPoint, gambar seperti JPEG, PNG, GIF, BMP, Visio diagram, email dll dapat dilindungi dengan tanda air kami."
+
+    # feature loop
+    - title: "Cari dan perbarui tanda air"
+      content: "Watermark yang sudah disajikan dalam dokumen dapat ditemukan dan diproses lagi. Ubah teks, gaya, gambar, atau hapus tanda air yang terungkap tanpa upaya ekstra."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Independensi platform"
+  description: "GroupDocs.Watermark for .NET mendukung sistem operasi, kerangka kerja dan manajer paket yang tercantum di bawah ini"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Watermark for .NET menyediakan pemrosesan [format file] berikut (https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Microsoft Office & OpenDocument format
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
+        * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
+        * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX
+        * **OpenDocument:** ODT, ODP, ODS
+    # group loop
+    - color: "blue"
+      content: |
+        ### Gambar & Grafik
+        * **Format gambar populer:** BMP, JPG, JPEG, PNG
+        * **Gambar multi-halaman:** GIF, WEBP, TIFF
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya
+        * **Outlook:** EML, EMLX, MSG, OFT
+        * **Microsoft Visio:** VSDX, VSTX, VSSX, VSDM, VSSM, VSTM, VSD, VDX, VSX, VTX, VSS, VST, VDW
+
+############################# Features ############################
+features:
+  enable: true
+  title: "GroupDocs.Watermark fitur"
+  description: "Lindungi PDF, Office, Gambar, dan format lainnya dengan watermark"
+
+  items:
+    # feature loop
+    - icon: "watermark_add"
+      title: "Watermarking dokumen"
+      content: "Tambahkan atau Hapus Watermark dari Bagian Tertentu atau seluruh Dokumen Berbagai Format File."
+
+    # feature loop
+    - icon: "watermark_style"
+      title: "Tata tanda air Anda"
+      content: "Sesuaikan berbagai properti watermark seperti warna, font, rotasi dll."
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "PDF tanda air cetak tersembunyi"
+      content: "Alokasikan Tanda Air Tersembunyi ke PDF yang hanya Muncul saat Mencetak Dokumen."
+
+    # feature loop
+    - icon: "image_only"
+      title: "Tanda air hanya gambar dalam dokumen"
+      content: "Tandai semua Gambar di Bagian, Halaman, Slide, atau Dokumen Tertentu."
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Memproses bingkai gambar yang dipilih"
+      content: "Tetapkan Tanda Air hanya untuk Bingkai Khusus dari Gambar Multi-Bingkai."
+
+    # feature loop
+    - icon: "attachments"
+      title: "Lampiran & bentuk"
+      content: "Atur Watermark ke semua Lampiran dalam Dokumen Excel & semua Bentuk Gambar di Slide."
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "PDF objek"
+      content: "Sejajarkan Watermark ke Bleed Box, Art Box, Crop Box, atau Trim Box di Dokumen PDF."
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Latar belakang dokumen"
+      content: "Tempatkan Watermark atau Hapus dari Gambar Latar Belakang Spreadsheet atau Slide."
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Perlindungan Karakter yang Tidak Dapat Dibaca"
+      content: "Lindungi Tanda Air Teks menggunakan Karakter yang Tidak Dapat Dibaca dalam Presentasi."
+
+    # feature loop
+    - icon: "watermark_text_search"
+      title: "Cari Watermark di Dokumen"
+      content: "Cari Watermark Berdasarkan Parameter Tertentu atau dengan Menggabungkan Beberapa Kriteria."
+
+    # feature loop
+    - icon: "watermark_image_search"
+      title: "Cari tanda air gambar serupa"
+      content: "Cari Watermark Gambar yang menyerupai gambar tertentu."
+
+    # feature loop
+    - icon: "document_info"
+      title: "Dapatkan informasi dokumen"
+      content: "Ekstrak Pengaturan Halaman & Informasi Lainnya secara Terprogram untuk Format yang Didukung."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan operasi GroupDocs.Watermark for .NET tipikal"
+  items:
+    # code sample loop
+    - title: "Watermark dengan menambahkan gambar ke dokumen."
+      content: |
+        Untuk melindungi dokumen apa pun, Anda dapat menggunakan [image watermarks](https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/):
+        {{< landing/code title="Cara melindungi file dengan tanda air gambar.">}}
+        ```csharp {style=abap}
+        // Muat dokumen sumber ke Watermarker
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Tentukan jalur ke gambar tanda air
+            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
+            {
+                // Lindungi file dan simpan
+                watermarker.Add(watermark);
+
+                watermarker.Save("result.pdf");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Cari dan ubah tanda air yang ada."
+      content: |
+        GroupDocs.Watermark mampu [memodifikasi tanda air](https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/) yang sudah disajikan dalam dokumen. Cari item yang diinginkan dan perbarui propertinya.
+        {{< landing/code title="Pencarian & modifikasi tanda air.">}}
+        ```csharp {style=abap}   
+        // Muat dokumen sumber
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Cari tanda air yang akan diperbarui
+            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            foreach (PossibleWatermark watermark in watermarks)
+            {
+                // Perbarui properti yang diinginkan
+                watermark.Text = "New Text";
+            }
+
+            // Simpan dokumen yang dimodifikasi ke jalur yang ditentukan
+            watermarker.Save("document.pdf");
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "为 {{FileFormatUp}} 生成文本水印",
+    "comment_2": "将源文件传递给 Watermarker 实例",
+    "comment_3": "生成文本水印并设置其选项",
+    "comment_4": "获取 {{FileFormatUp}} 个结果"
+  },
+  "steps": {
+    "title": "保护商业文档：为 {{FileformatCap}} 格式生成水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}) 增强您的文档安全性：** 将我们的 API 注入您的应用程序，并为许多支持的文件格式生成水印。",
+      "step_1": "**启动水印：**使用提供我们主要功能的**水印**类开始文档处理。通过将应该由生成的水印保护的 {{FileformatCap}} 文件传递给构造函数来对其进行实例化。",
+      "step_2": "**创建主水印对象：**通过雕刻定制的**水印**对象来提升您的文档质量。除了单纯的页面之外，它们还可以无缝集成到附件或标题等原生元素中，从而增加了安全性和专业性。",
+      "step_3": "**优化水印属性：** 精确调整水印，调整尺寸、对齐方式和配色方案。每一个细节都增强了文档的完整性，使您的文件无疑是您的。",
+      "step_4": "**精确实现：**利用**水印**方法完美应用您的自定义水印。无论是单个水印还是多重水印，每个水印都会增加一层额外的保护层。为了提高安全性，可以考虑将处理过的文档存储在单独的安全位置。"
+    }
+  },
+  "more_features": {
+    "title": "高级水印技术",
+    "description": "使用我们强大的 API 探索尖端的水印技术，该技术旨在无缝集成到 .NET 环境中。非常适合为各种文档类型（包括演示文稿、法律文档和技术图表）添加复杂而安全的水印。",
+    "image_description": "精致的水印",
+    "feature_1": {
+      "title": "动态水印放置",
+      "content": "我们的 API 提供动态放置选项，可根据文档内容调整水印定位。此功能非常适合演示和技术图表中的复杂布局，可确保水印始终处于最佳位置，而不会干扰基础信息的可读性。"
+    },
+    "feature_2": {
+      "title": "使用隐形水印增强安全性",
+      "content": "使用隐形水印，在不改变文档外观的情况下提供强有力的保护。这些水印设计为只能通过特定的软件工具进行检测，因此非常适合保护法律和财务文件中的敏感信息。"
+    },
+    "feature_3": {
+      "title": "自动水印工作流程",
+      "content": "使用自动水印工作流程简化您的文档安全流程。根据文档类型、内容敏感度和用户访问级别配置规则，以自动应用水印，确保在所有文档中保持一致的安全协议。"
+    },
+    "code_1": {
+      "title": "为 PDF 个附件生成水印",
+      "content": "此示例说明如何在所有 PDF 个附件中生成水印",
+      "comment_1": "加载 PDF 个文档",
+      "comment_2": "生成文字水印",
+      "comment_3": "为合适的附件添加水印",
+      "comment_4": "保存已处理 PDF"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "为 Excel 电子表格生成唯一的水印",
+      "description": "使用 Node.js 在 Excel 中自动添加动态水印。在多个文件上轻松应用一致的水印。"
+    },
+    "header": {
+      "title": "电子表格文档中由 Node.js 驱动的水印",
+      "description": "利用 Node.js 在 Excel 个电子表格中无缝实现自定义文本或图像水印，轻松保护您的财务和分析数据。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "{{ProdFullName}} 是一款功能强大的工具，专为希望在 Excel 和 OpenOffice 电子表格中加入独特的水印的后端开发人员而设计。这个多功能 API 允许嵌入文本和图像水印，这些水印可以在字体、大小、颜色和不透明度方面进行完全自定义。该工具兼容包括 XLS、XLSX 和 ODS 在内的一系列电子表格格式，可确保精确应用水印，保持电子表格的完整性和布局，同时提供强大的保护，防止未经授权的使用。"
+    },
+    "formats": {
+      "title": "Node.js Excel 水印技术",
+      "description": "使用我们的 Node.js API 增强电子表格安全性和数据完整性。快速向 Excel 和 OpenOffice 文件添加自定义水印，防止未经授权的更改。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "为 Word 生成水印模板",
+      "description": "为 Word、DOC 和 DOCX 文件创建由 Node.js 提供支持的水印模板。无缝增强文档安全性。"
+    },
+    "header": {
+      "title": "使用 {{EnvName}} 为 Word 制作自定义水印模板",
+      "description": "使用 Node.js 在各种 Word 兼容格式上部署高级自定义水印模板。毫不费力地增强文档完整性和企业形象。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使开发人员能够快速高效地为 Word 个文档构建复杂的水印模板。此 API 支持多种文档格式，包括 DOC、DOCX 以及与 OpenOffice 文本文件的兼容性。使用丰富的设计选项（例如文本字体、图像缩放和透明度级别）自定义水印。将这些模板动态应用于您的文档，以保护知识产权、确认真实性并提高视觉吸引力。"
+    },
+    "formats": {
+      "title": "Word 中有 {{ProgLang}} 强力水印",
+      "description": "我们的 Node.js 工具包为自动将水印集成到 Word 个文档提供了一个灵活的平台。自定义和应用水印，保护您的文档并有效地增强您的品牌知名度。"
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "用于图像保护的动态水印",
+      "description": "使用 Node.js 动态水印保护您的图像版权。支持 JPG、PNG、WEBP 等。"
+    },
+    "header": {
+      "title": "使用 Node.js 为图像保护添加动态水印",
+      "description": "使用我们的 Node.js 工具包为您的图像生成动态、安全的水印，支持 JPG、PNG 和 WEBP 等格式。使用高级保护功能确保您的图像版权。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "使用 {{ProdFullName}}，对图像应用水印既简单又可自定义。该工具包支持多种图像格式，包括 JPG 和 PNG 等传统光栅图像，以及 WEBP 等新格式。它允许开发人员动态添加水印，这些水印不仅安全，而且可以自然地与图像内容融为一体，从而在不影响图像原始吸引力的前提下提供强大的版权侵权保护。"
+    },
+    "formats": {
+      "title": "通过 {{ProgLang}} 在图像中实现惊人的水印",
+      "description": "使用我们的 Node.js API 有效保护您的图片版权。为 JPG、PNG 和 WEBP 文件动态添加水印，确保每张图像均为其合法所有者标记。"
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "在 Node.js 中使用高级水印保护照片",
+      "description": "使用 Node.js 加快照片水印过程。实施快速、易于使用的编码解决方案。"
+    },
+    "header": {
+      "title": "在 {{EnvName}} 中使用高级水印保护照片",
+      "description": "使用 Node.js 在照片处理工作流程中部署高级水印策略。我们的工具包支持对 JPG、PNG 和 WEBP 图像文件进行大量自定义。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "使用 {{ProdFullName}}，使用高级水印保护照片既简单又灵活。此 API 允许快速应用基于文本或图像的水印，这些水印可根据底层照片的美学进行自定义。它支持多种图像格式，可以精确控制水印的位置和外观，这有助于防止未经授权的使用，同时保持照片的完整性。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} 为照片添加保护性水印",
+      "description": "使用 Node.js 中可自定义的高级水印技术增强照片安全性。在不牺牲质量的前提下保护各种格式的照片，包括 JPG、PNG 和 WEBP。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 Node.js 为幻灯片创建专业水印",
+      "description": "为您的演示文稿设计复杂的水印。增强观众参与度和文档安全性。"
+    },
+    "header": {
+      "title": "使用 Node.js 为幻灯片创建专业水印",
+      "description": "使用我们强大的 Node.js API 在幻灯片演示文稿中实现动态的自定义文本或图像水印。这些水印非常适合 PPTX 个文件，可与您的幻灯片无缝融合。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "使用 {{ProdFullName}}，为幻灯片演示文稿创建水印成为一个简单而高效的过程。这个强大的工具兼容 PPTX 张幻灯片和其他流行的演示格式，为嵌入水印提供了高级功能，这些水印不会分散内容注意力，但可以增强内容。自定义您的水印以显示文本、徽标或其他图形，以表示所有权并阻止版权盗窃，同时保持幻灯片的最高质量。"
+    },
+    "formats": {
+      "title": "Node.js 支持演示文稿的水印集成",
+      "description": "使用 Node.js 保护您的演示文稿并使其专业化。我们的 API 允许您向 PPTX 文件添加量身定制的水印，从而有效地增强安全性和品牌知名度。"
+    }
+  }
+}

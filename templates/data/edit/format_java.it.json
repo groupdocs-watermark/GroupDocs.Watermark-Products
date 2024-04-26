@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Regola la filigrana dell'immagine {{FileFormatUp}}",
+    "comment_2": "Crea un'istanza di Watermarker con {{FileFormatUp}}",
+    "comment_3": "Inizializza i criteri di ricerca in modo che corrispondano a una particolare immagine",
+    "comment_4": "Sostituisci l'immagine trovata",
+    "comment_5": "Salva il file modificato"
+  },
+  "steps": {
+    "title": "Modifica le filigrane dei documenti {{FileformatCap}} usando {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** consente agli sviluppatori {{EnvName}} di modificare facilmente le filigrane in molti documenti utilizzando le loro applicazioni. Ecco una guida rapida:",
+      "step_1": "**Watermarker**. Fornisci un byte o un flusso di file o un percorso del disco locale.",
+      "step_2": "**SearchCriteria** per identificare le filigrane con le proprietà specifiche aggiunte in precedenza al documento.",
+      "step_3": "Dopo la ricerca, riceverai un elenco di filigrane pertinenti. Puoi quindi modificarne le proprietà, tra cui dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine e altro ancora. Ciò offre un elevato grado di personalizzazione dei dati.",
+      "step_4": "Una volta terminata la regolazione delle filigrane, salva il documento aggiornato. Puoi utilizzare un percorso di file locale o uno stream per memorizzare il risultato."
+    }
+  },
+  "more_features": {
+    "title": "Gestione avanzata della filigrana {{FileFormatUp}} per le applicazioni {{EnvName}}",
+    "description": "L'API {{ProdShortName}} consente agli sviluppatori di integrare senza problemi la funzionalità di watermarking nelle loro applicazioni {{EnvName}}. Supporta l'aggiunta, la modifica, la rimozione e la ricerca di filigrane in un'ampia gamma di formati di documenti.",
+    "image_description": "Regolazione della filigrana",
+    "feature_1": {
+      "title": "Semplice integrazione con filigrana",
+      "content": "{{ProdShortName}} semplifica il processo di aggiunta di filigrane diverse a vari documenti e file aziendali all'interno di {{EnvName}} applicazioni. Gli sviluppatori possono non solo applicare filigrane, ma anche aggiornare o rimuovere quelle esistenti a livello di programmazione."
+    },
+    "feature_2": {
+      "title": "Personalizzazione granulare della filigrana",
+      "content": "L'API offre ampie opzioni di personalizzazione per le filigrane. Gli sviluppatori possono facilmente regolare dimensioni, rotazione, colore, carattere, stili e altre proprietà per ottenere l'effetto visivo desiderato."
+    },
+    "feature_3": {
+      "title": "Sfruttamento delle funzionalità native dei documenti {{FileFormatUp}}",
+      "content": "A seconda del formato del documento di destinazione, gli sviluppatori possono utilizzare funzionalità native per il posizionamento della filigrana. Queste funzionalità potrebbero includere lo sfondo della pagina del documento, le annotazioni, le intestazioni o altri oggetti come contenitori di filigrane."
+    },
+    "code_1": {
+      "title": "Regola la filigrana dell'immagine nei fogli di calcolo",
+      "content": "Questo esempio mostra come regolare l'immagine delle forme particolari in un foglio di lavoro Excel.",
+      "comment_1": "Carica documento come foglio di calcolo",
+      "comment_2": "Ottieni nuovi byte di filigrana",
+      "comment_3": "Regola il contenuto di una particolare filigrana",
+      "comment_4": "Salva il documento dei risultati"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Regola le filigrane {{FileFormatUp}} in modo professionale - {{ProdShortName}}",
+      "description": "Gestisci e personalizza le filigrane in modo professionale con {{ProdShortName}}. Proteggi i tuoi documenti in tutta sicurezza."
+    },
+    "header": {
+      "title": "Regola le filigrane {{FileFormatUp}}: Professional Assurance",
+      "description": "Garantisci standard professionali con la nostra soluzione di gestione delle filigrane. Proteggi i tuoi documenti con affidabilità.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica il pacchetto da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Gestisci filigrane**: la nostra soluzione professionale per la gestione delle filigrane garantisce la protezione dei tuoi documenti. Semplifica il flusso di lavoro con strumenti efficienti per aggiungere, modificare e rimuovere filigrane."
+    },
+    "formats": {
+      "title": "Modifica filigrane in altri formati tramite {{ProdFullName}}",
+      "description": "Semplifica la gestione delle filigrane in diversi formati di documento. La nostra soluzione offre strumenti efficienti per aggiungere, modificare e rimuovere filigrane con facilità."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Modifica le filigrane nei documenti {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Modifica le filigrane in modo efficiente in diversi formati di documento utilizzando {{ProdShortName}}. Migliora l'autenticità dei documenti."
+    },
+    "header": {
+      "title": "Regola le filigrane {{FileFormatUp}}: personalizzazione senza interruzioni",
+      "description": "Personalizza senza problemi i tuoi documenti con il nostro efficiente strumento di modifica delle filigrane. Migliora l'immagine del tuo marchio senza sforzo.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Download gratuito di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Modifica filigrane**: personalizza senza problemi i tuoi documenti con i nostri potenti strumenti di modifica. Che si tratti di regolare il posizionamento o di modificare il contenuto, ottieni gli effetti di filigrana desiderati senza sforzo."
+    },
+    "formats": {
+      "title": "Modifica le filigrane in molti formati usando {{ProdFullName}}",
+      "description": "Modifica facilmente le filigrane in più formati di documento. Personalizza i tuoi documenti con facilità garantendo protezione e autenticità."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Modifica le filigrane in {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Regola e rifinisci le filigrane su diversi tipi di documenti senza sforzo con {{ProdShortName}}. Garantisci la credibilità dei documenti."
+    },
+    "header": {
+      "title": "Regola le filigrane {{FileFormatUp}}: protezione versatile",
+      "description": "Proteggi i tuoi contenuti in vari formati con le nostre versatili funzioni di regolazione della filigrana. Adattati alle tue esigenze senza problemi.",
+      "subtitle": "{{ProdFullName}} Soluzione",
+      "action_title": "Pacchetto gratuito {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Soluzione",
+      "content": "**Modifica filigrane**: proteggi i tuoi contenuti in diversi formati di documento con le nostre versatili funzioni di regolazione della filigrana. Personalizza la tua strategia di filigrana per soddisfare con facilità i tuoi requisiti specifici."
+    },
+    "formats": {
+      "title": "Gestisci le filigrane nei formati più diffusi con {{ProdFullName}}",
+      "description": "Proteggi i tuoi contenuti in vari formati con le nostre versatili funzioni di regolazione della filigrana. Adattati alle tue esigenze senza problemi."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Regola le filigrane {{FileFormatUp}} senza interruzioni - {{ProdShortName}}",
+      "description": "Modifica e personalizza le filigrane senza problemi con {{ProdShortName}}. Proteggi i tuoi documenti con precisione."
+    },
+    "header": {
+      "title": "Revisione delle filigrane {{FileFormatUp}}: sicurezza su misura",
+      "description": "Personalizza la sicurezza dei tuoi documenti con le nostre opzioni flessibili di revisione della filigrana. Garantisci una protezione su misura per le tue esigenze.",
+      "subtitle": "{{ProdFullName}} Libreria",
+      "action_title": "Scarica da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Libreria",
+      "content": "**Revise Watermarks**: migliora la sicurezza dei documenti con le nostre opzioni di revisione. {{ProdShortName}} offre soluzioni su misura per la revisione e il perfezionamento delle filigrane in base alle tue esigenze di branding e protezione."
+    },
+    "formats": {
+      "title": "Modifica le filigrane in altri formati supportati utilizzando {{ProdFullName}}",
+      "description": "Garantisci la sicurezza dei documenti con opzioni di revisione delle filigrane personalizzate. GroupDocs.Watermark offre soluzioni flessibili per la revisione e il perfezionamento delle filigrane."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Regola le filigrane {{FileFormatUp}} senza sforzo - {{ProdShortName}}",
+      "description": "Personalizza i tuoi documenti senza sforzo con {{ProdShortName}}. Modifica e gestisci le filigrane con facilità."
+    },
+    "header": {
+      "title": "Personalizza {{FileFormatUp}} Watermark: branding intuitivo",
+      "description": "Personalizza i tuoi documenti in modo efficace con il nostro strumento di filigrana personalizzabile. Migliora la presenza del tuo marchio senza sforzo.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica il pacchetto {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Personalizza filigrane**: migliora l'immagine del tuo marchio con i nostri strumenti di filigrana personalizzabili. Aggiungi facilmente elementi di branding garantendo al contempo la sicurezza e l'autenticità dei documenti."
+    },
+    "formats": {
+      "title": "Modifica le filigrane in altri formati supportati con {{ProdFullName}}",
+      "description": "Migliora la presenza del tuo marchio con strumenti di filigrana personalizzabili. Personalizza i tuoi documenti in modo efficace mantenendo sicurezza e autenticità."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Regola la filigrana in {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Lucida i tuoi documenti con precisione usando {{ProdShortName}}. Regola e aggiorna facilmente le filigrane."
+    },
+    "header": {
+      "title": "Perfeziona i tuoi {{FileFormatUp}} documenti: modifica della filigrana",
+      "description": "Perfeziona i tuoi documenti con le nostre funzionalità complete di modifica delle filigrane. Perfeziona i tuoi contenuti con precisione.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Perfeziona i tuoi documenti**: le nostre funzionalità complete di modifica delle filigrane ti consentono di perfezionare i tuoi documenti con precisione. Da piccole regolazioni a trasformazioni complete, ottieni risultati impeccabili senza sforzo."
+    },
+    "formats": {
+      "title": "Filigrane dei documenti polacchi in altri formati con {{ProdFullName}}",
+      "description": "Perfeziona i tuoi documenti con precisione utilizzando le nostre funzionalità complete di modifica delle filigrane. Migliora l'autenticità dei documenti con facilità."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Modifica le tue filigrane {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Perfeziona il posizionamento della filigrana con {{ProdShortName}}. Migliora la sicurezza e l'autenticità dei documenti."
+    },
+    "header": {
+      "title": "Perfeziona il posizionamento della filigrana {{FileFormatUp}}: Expert Precision",
+      "description": "Ottieni un posizionamento esperto della filigrana con i nostri strumenti di precisione. Migliora la sicurezza dei documenti con precisione.",
+      "subtitle": "{{ProdFullName}} Soluzione",
+      "action_title": "Download gratuito all'indirizzo {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Soluzione",
+      "content": "**Perfeziona il posizionamento della filigrana**: ottieni un posizionamento esperto delle filigrane con i nostri strumenti di precisione. {{ProdShortName}} offre controlli intuitivi per perfezionare il posizionamento e garantire la sicurezza dei documenti."
+    },
+    "formats": {
+      "title": "Perfeziona le filigrane in altri formati supportati con {{ProdFullName}}",
+      "description": "Ottieni un posizionamento esperto della filigrana con controlli intuitivi. Garantisci la sicurezza dei documenti con un posizionamento e una personalizzazione accurati."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Regola e gestisci le filigrane {{FileFormatUp}} - {{ProdShortName}}",
+      "description": "Semplifica il processo di gestione delle filigrane con {{ProdShortName}}. Semplifica la protezione e il branding dei documenti."
+    },
+    "header": {
+      "title": "Semplifica la gestione delle filigrane {{FileFormatUp}}: controllo semplificato",
+      "description": "Semplifica il processo di gestione delle filigrane con la nostra soluzione semplificata. Concentrati sui tuoi contenuti con facilità.",
+      "subtitle": "{{ProdFullName}} Libreria",
+      "action_title": "Scarica a {{PackageStoreName}} gratuitamente"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Libreria",
+      "content": "**Modifica le opzioni delle filigrane**: sposta le filigrane su una pagina utilizzando la nostra soluzione di precisione. {{ProdShortName}} offre molte opzioni per la regolazione delle filigrane e per garantire la sicurezza dei documenti."
+    },
+    "formats": {
+      "title": "Usa {{ProdFullName}} per modificare le filigrane in altri formati di file",
+      "description": "Semplifica il processo di gestione delle filigrane in vari formati di documenti. Concentrati sui tuoi contenuti con facilità garantendo protezione e branding."
+    }
+  }
+}

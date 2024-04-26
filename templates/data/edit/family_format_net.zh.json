@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "编辑 {{FileFormatUp}} 文本水印",
+    "comment_2": "让 Watermarker 提供 {{FileFormatUp}} 个文件",
+    "comment_3": "构建 TextSearchCriteria 并获取文本水印",
+    "comment_4": "编辑文字水印",
+    "comment_5": "保存文档"
+  },
+  "steps": {
+    "title": "使用 {{EnvName}} 编辑 {{FileformatCap}} 个文档中的水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 使 {{EnvName}} 开发人员能够毫不费力地编辑各种 {{FileformatCap}} 文档中的水印。以下是如何在您的应用程序中使用我们的 API 的简化指南：",
+      "step_1": "**Watermarker**类构造函数。您可以将文件作为字节流、文件流或本地磁盘路径提供。",
+      "step_2": "**搜索条件**来识别具有先前添加到文档中的相应属性的水印。",
+      "step_3": "搜索完成后，您将获得相关水印的列表。然后，您可以自定义其属性，例如大小、页面对齐方式、文本、颜色、图像内容等。这使您可以对数据进行广泛的控制。",
+      "step_4": "完成水印编辑后，保存更新后的文档。您可以使用本地文件路径或流来存储最终结果。"
+    }
+  },
+  "more_features": {
+    "title": "了解有关修改水印的更多信息",
+    "description": "使用我们的库为您的 {{EnvName}} 个应用程序提供支持，并在各种文件格式中添加、编辑、删除或搜索水印。",
+    "image_description": "编辑水印",
+    "feature_1": {
+      "title": "为您的企业添加水印文件",
+      "content": "使用 {{ProdFullName}} 为文件和文档添加水印。无需额外努力即可添加和管理水印，在您的应用程序中实现我们的 API。搜索、编辑和删除之前添加的水印。"
+    },
+    "feature_2": {
+      "title": "根据您的要求微调水印",
+      "content": "我们的 API 提供了一套全面的自定义选项。轻松修改大小、方向、配色方案、字体系列等方面，以创建理想的水印。"
+    },
+    "feature_3": {
+      "title": "利用特定于文档的功能",
+      "content": "根据您使用的文件格式，您可以合并内置功能。它们可能包括文档背景、注释、标题或其他用作水印容器的元素。"
+    },
+    "code_1": {
+      "title": "Excel 水印文本编辑",
+      "content": "此示例说明如何在 Excel 工作表中编辑特定水印的文本",
+      "comment_1": "加载 XLSX 电子表格",
+      "comment_2": "加载电子表格内容",
+      "comment_3": "编辑水印内部文本",
+      "comment_4": "保存输出结果"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "编辑 {{FileformatCap}} 格式的水印",
+      "description": "使用 {{ProdFullName}} 轻松自定义和保护您的文档。增强文档完整性，轻松编辑 {{FileformatCap}} 水印。"
+    },
+    "header": {
+      "title": "编辑您的 {{FileformatCap}} 电子表格水印：{{EnvName}} 效率",
+      "description": "使用我们专为 {{EnvName}} 效率而设计的可定制水印工具，提升您的文档安全性。毫不费力地编辑 Excel 个水印。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "免费 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 图书馆",
+      "content": "**使用我们的工具编辑 {{FileformatCap}} 水印：** 我们的 {{ProdFullName}} 工具提供有效的策略来增强和保护您的文档。由于为 {{EnvName}} 开发人员提供了各种功能，管理水印变得轻而易举，从而确保文档的安全性和真实性。"
+    },
+    "formats": {
+      "title": "以其他格式自定义您的水印",
+      "description": "使用 {{ProdFullName}} 为各种文档格式添加水印，以满足您的需求。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "编辑 {{FileformatCap}} 个文档中的水印",
+      "description": "使用 {{ProdFullName}} 优化水印位置并确保文档安全。毫不费力地在您的解决方案中定制 {{FileformatCap}} 个水印。"
+    },
+    "header": {
+      "title": "增强 {{FileformatCap}} 水印：{{EnvName}} 信心",
+      "description": "使用 {{ProdFullName}} 确保 {{FileformatCap}} 文档的真实性和品牌完整性。放心地使用我们的解决方案编辑水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**增强 {{FileformatCap}} 文档安全性：** {{ProdFullName}} 使开发人员能够轻松增强文档安全性。自信地编辑水印以满足您的特定要求。"
+    },
+    "formats": {
+      "title": "增强其他格式的安全性",
+      "description": "{{ProdFullName}} 提供有效的解决方案，以增强不同格式的文档安全性。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "编辑 {{FileformatCap}} 个文档中的水印",
+      "description": "使用 {{ProdFullName}} 库简化 {{FileformatCap}} 水印编辑并保护您的文档。实现精确控制和多功能性。"
+    },
+    "header": {
+      "title": "编辑 {{FileformatCap}} 水印放置位置：{{EnvName}} 精度",
+      "description": "使用 {{ProdFullName}} 解决方案实现对水印位置和文档安全的精确控制。精确编辑 {{FileformatCap}} 个水印。",
+      "subtitle": "{{ProdFullName}} 图书馆",
+      "action_title": "在 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**编辑 {{FileformatCap}} 水印放置：** 使用 {{ProdFullName}} 开发人员实现对水印位置和文档安全的精确控制。简化工作流程，毫不费力地确保真实性。"
+    },
+    "formats": {
+      "title": "优化其他格式的水印",
+      "description": "使用 {{ProdFullName}} 编辑各种文档格式的水印。"
+    }
+  }
+}
