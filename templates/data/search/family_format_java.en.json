@@ -16,28 +16,28 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Harness Java for Advanced Watermark Search with {{ProdShortName}}",
+    "description": "Utilize {{ProdShortName}} Java API to perform sophisticated searches for watermarks in documents across diverse formats in the {{EnvName}}.",
+    "image_description": "Advanced Watermark Search",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Java-Enhanced Watermark Search Techniques",
+      "content": "Empower your Java applications with advanced search techniques using {{ProdShortName}}. Our API enables deep searches for embedded watermarks across various document types, offering precision and efficiency."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Identify Watermarks with Custom Java Queries",
+      "content": "Customize your Java queries to detect watermarks more effectively. Use {{ProdShortName}} to sort and filter watermarks by properties like transparency, embedding method, and text or image content."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Efficient Management of Document Watermarks",
+      "content": "Streamline the management of watermarks in your Java applications. With {{ProdShortName}}, quickly find, review, and analyze watermarks to ensure document integrity and compliance with branding guidelines."
     },
     "code_1": {
-      "title": "Combined search",
-      "content": "This example shows how to search watermark with the combination of different search criteria.",
-      "comment_1": "Load PDF document",
-      "comment_2": "Create text search criteria",
-      "comment_3": "Combine text and rotation",
-      "comment_4": "Search and process result"
+      "title": "Java Code Example: Intelligent Watermark Search",
+      "content": "Learn how to implement an intelligent watermark search using Java with {{ProdShortName}}, demonstrating the API's ability to handle complex search operations and result management.",
+      "comment_1": "Set up the Java environment and load documents from various sources",
+      "comment_2": "Define advanced search parameters to locate specific types of watermarks",
+      "comment_3": "Execute the search and process the found watermarks for detailed review",
+      "comment_4": "Save or update the document based on the watermark search results"
     }
   },
   "excel": {

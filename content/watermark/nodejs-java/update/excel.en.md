@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:45
+date:  2024-04-26T10:23:26
 draft: false
 lang: en
 format: Excel
@@ -13,7 +13,7 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "Update Watermarks for Excel Spreadsheets"
-head_description: "Effortlessly update watermarks in spreadsheets of various formats using GroupDocs.Watermark for Node.js via Java. Enrich your Node.js via Java applications."
+head_description: "Update watermarks in spreadsheets of various formats using GroupDocs.Watermark for Node.js via Java. Enrich your Node.js via Java applications."
 
 ############################# Header ############################
 title: "Revolutionize Spreadsheets Watermarking using Node.js via Java" 
@@ -91,41 +91,41 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Deep dive into adding Watermark"
-  description: "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications"
+  title: "Mastering Watermark Editing in PDFs with GroupDocs.Watermark"
+  description: "Explore comprehensive API features for adjusting and managing watermarks in PDFs within Node.js via Java applications."
   image: "/img/watermark/features_edit.webp" # 500x500 px
-  image_description: "Add Watermark"
+  image_description: "Edit Watermark"
   features:
     # feature loop
-    - title: "Watermark your documents easily."
-      content: "GroupDocs.Watermark makes it easy for Node.js via Java developers to add various types of watermarks in popular business documents and files."
+    - title: "Effortlessly Edit Watermarks in PDFs"
+      content: "GroupDocs.Watermark offers robust tools in Node.js via Java to seamlessly edit existing watermarks in PDF documents. Adjust position, transparency, and more with ease."
 
     # feature loop
-    - title: "Customize watermarks for your goals."
-      content: "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+    - title: "Refine Watermark Details for Precision"
+      content: "Take control over the details. Our API allows you to fine-tune the appearance of watermarks, enabling precise modifications of size, opacity, and color in your PDFs."
 
     # feature loop
-    - title: "Use native document objects"
-      content: "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+    - title: "Streamlined Watermark Management"
+      content: "Our API simplifies watermark management. Whether updating or removing, you can manage watermarks efficiently, maintaining document integrity while catering to your branding needs."
       
   code_samples:
     # code sample loop
-    - title: "Update PDF watermark format"
+    - title: "Java Example: Edit PDF Watermark"
       content: |
-        This example shows how to update formatting in watermarks placed to a PDF document
+        This Java example demonstrates how to edit an existing watermark in a PDF document, showcasing how to adjust its properties programmatically.
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
             const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
 
-            //  Load document for processing
+            //  Load the PDF document for processing
             const watermarker = new groupdocsWatermark.Watermarker("source.pdf");
 
-            //  Search for appropriate watermarks in the document
+            //  Search for specific watermarks that meet your criteria
             const searchCriteria = new groupdocsWatermark.TextSearchCriteria("test", false);
             const watermarks = watermarker.search(searchCriteria);
   
-            //  Update watermark features
+            //  Edit the watermark's settings, such as size, color, and position
             for (const watermark of watermarks.getInnerList().toArray()) {
                 watermark.getFormattedTextFragments().clear();
                 watermark.getFormattedTextFragments().add("passed", 
@@ -133,7 +133,7 @@ more_features:
                     groupdocsWatermark.Color.getRed(), groupdocsWatermark.Color.getAqua());
             }
 
-            //  Save processed document to local disk or stream
+            //  Save the updated document to a local system or stream it directly
             watermarker.save("result.pdf");
             watermarker.close();
 

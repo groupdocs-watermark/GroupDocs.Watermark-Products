@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:46
+date:  2024-04-26T10:23:27
 draft: false
 lang: en
 format: Docx
@@ -12,7 +12,7 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Adjust Watermarks Across DOCX Documents - GroupDocs.Watermark"
+head_title: "Adjust Watermarks in DOCX Documents - GroupDocs.Watermark"
 head_description: "Edit watermarks efficiently across diverse document formats using GroupDocs.Watermark. Enhance document authenticity."
 
 ############################# Header ############################

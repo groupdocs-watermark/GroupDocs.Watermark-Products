@@ -6,7 +6,7 @@
     "comment_4": "Obtain {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Secure Your Business Documents: Generate Watermarks for {{FileformatCap}} Files using {{EnvName}}",
+    "title": "Secure Business Documents: Generate Watermarks for {{FileformatCap}} Formats",
     "content": {
       "title": "Boost Your Document Security with **[{{ProdFullName}}]({{ProductUrl}}):** Inject our API to your applications and generate watermarks for many supported file formats.",
       "step_1": "**Initiate Watermarking:** Start document processing with the **Watermarker** class providing our main features. Instantiate it by passing to the constructor the {{FileformatCap}} file which is supposed to be secured by generated watermarks.",

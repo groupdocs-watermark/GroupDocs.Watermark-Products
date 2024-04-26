@@ -63,7 +63,7 @@
   },
   "docx": {
     "head": {
-      "title": "Adjust Watermarks Across {{FileFormatUp}} Documents - {{ProdShortName}}",
+      "title": "Adjust Watermarks in {{FileFormatUp}} Documents - {{ProdShortName}}",
       "description": "Edit watermarks efficiently across diverse document formats using {{ProdShortName}}. Enhance document authenticity."
     },
     "header": {

@@ -162,7 +162,7 @@
   },
   "xls": {
     "head": {
-      "title": "Excel {{FileFormatUp}} Clear out watermark ",
+      "title": "Clear out watermarks in Excel {{FileFormatUp}} Spreadsheets",
       "description": "Efficiently clear watermarks from {{FileFormatUp}} documents using our {{ProgLang}} {{EnvName}} API, ensuring clean and professional-looking files."
     },
     "header": {

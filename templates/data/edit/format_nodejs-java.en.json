@@ -21,24 +21,24 @@
     "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
     "image_description": "Add Watermark",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Effortlessly Edit Watermarks in PDFs",
+      "content": "{{ProdShortName}} offers robust tools in {{EnvName}} to seamlessly edit existing watermarks in PDF documents. Adjust position, transparency, and more with ease."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Refine Watermark Details for Precision",
+      "content": "Take control over the details. Our API allows you to fine-tune the appearance of watermarks, enabling precise modifications of size, opacity, and color in your PDFs."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Streamlined Watermark Management",
+      "content": "Our API simplifies watermark management. Whether updating or removing, you can manage watermarks efficiently, maintaining document integrity while catering to your branding needs."
     },
     "code_1": {
       "title": "Update Presentation watermark content",
       "content": "This example shows how to update text content of Presentation watermarks",
-      "comment_1": "Load a presentation for processing",
-      "comment_2": "Get list of appropriate watermarks using search",
-      "comment_3": "Update watermark text",
-      "comment_4": "Save updated presentation to local disk or stream"
+      "comment_1": "Load the PDF document for processing",
+      "comment_2": "Search for specific watermarks that meet your criteria",
+      "comment_3": "Edit the watermark's settings, such as size, color, and position",
+      "comment_4": "Save the updated document to a local system or stream it directly"
     }
   },
   "doc": {

@@ -6,7 +6,7 @@
     "comment_4": "Get {{FileFormatUp}} result"
   },
   "steps": {
-    "title": "Protect Business Documents: Generate {{FileformatCap}} Watermarks with {{EnvName}}",
+    "title": "Protect Business Documents: Generate {{FileformatCap}} Watermarks",
     "content": {
       "title": "Strengthen Document Security with **[{{ProdFullName}}]({{ProductUrl}}):** - A Powerful Watermark Generation Solution for {{EnvName}}.",
       "step_1": "**Streamline Secure Watermarking in Your {{EnvName}} Applications:** The **Watermarker** class acts as the core component of the {{ProdShortName}} API. This library simplifies watermarks generation various document formats, including {{FileformatCap}}. To get started, create a Watermarker instance before processing your document. Provide the {{FileformatCap}} file path or a stream object to the constructor during initialization.",

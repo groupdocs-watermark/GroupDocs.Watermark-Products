@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:48
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Jpeg
@@ -40,7 +40,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Protect Business Documents: Generate Jpeg Watermarks with Node.js via Java"
+    title: "Protect Business Documents: Generate Jpeg Watermarks"
     content: |
       Strengthen Document Security with **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - A Powerful Watermark Generation Solution for Node.js via Java.
       

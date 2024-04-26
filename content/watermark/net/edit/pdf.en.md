@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:47
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Pdf
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Pdf Watermarks Edit Solution"
+head_title: "Edit Pdf Watermarks with GroupDocs.Watermark"
 head_description: "Edit Pdf watermarks in Pdf files using GroupDocs.Watermark for .NET Framework. Adapt to your document needs with ease."
 
 ############################# Header ############################

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-25T17:42:47
+date:  2024-04-26T10:23:29
 draft: false
 lang: en
 format: Doc
@@ -12,7 +12,7 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Edit Doc Watermarks with Ease"
+head_title: "Edit Watermarks in Doc Format with Ease"
 head_description: "Edit Doc watermarks seamlessly with GroupDocs.Watermark for .NET API. Customize your documents with confidence and efficiency."
 
 ############################# Header ############################

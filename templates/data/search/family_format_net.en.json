@@ -16,28 +16,28 @@
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Efficiently Search and Find Watermarks with {{ProdShortName}}",
+    "description": "Harness the power of {{ProdShortName}} to search and locate watermarks in any document type using C# within {{EnvName}}.",
+    "image_description": "Search Watermarks",
     "feature_1": {
-      "title": "Watermark your documents easily.",
-      "content": "{{ProdShortName}} makes it easy for {{EnvName}} developers to add various types of watermarks in popular business documents and files."
+      "title": "Discover Watermarks with Advanced Search",
+      "content": "Use {{ProdShortName}} to effortlessly find watermarks across multiple document types. Our tools allow you to search by parameters such as content, size, and opacity."
     },
     "feature_2": {
-      "title": "Customize watermarks for your goals.",
-      "content": "Our solution supports many watermark features. You can easily adjust size, rotation, color, font, font styles and other options to make watermark looks perfect."
+      "title": "Find Watermarks by Custom Parameters",
+      "content": "Tailor your search criteria with {{ProdShortName}} to locate watermarks based on specific properties, ensuring you can manage and review them effectively."
     },
     "feature_3": {
-      "title": "Use native document objects",
-      "content": "Accordingly do particular document format it is possible to use native document features. Native PDF annotations or MS Word page watermark may be used for watermarking."
+      "title": "Retrieve and Manage Watermarks Efficiently",
+      "content": "Streamline your document management process by quickly retrieving all watermarks in a document. Our API allows for rapid identification and analysis of watermarks."
     },
     "code_1": {
-      "title": "Find text watermarks by regular expression",
-      "content": "This example shows how to use a regular expression to search for watermarks",
-      "comment_1": "Load DOCX document",
-      "comment_2": "Instantiate Regex object",
-      "comment_3": "Find all suitable watermarks",
-      "comment_4": "Process list of found watermarks"
+      "title": "C# Example: Search for Watermarks",
+      "content": "This C# example demonstrates how to search for watermarks within any document using {{ProdShortName}}, illustrating how to utilize parameters for precise findings.",
+      "comment_1": "Load the document from a local or networked source for processing",
+      "comment_2": "Define the parameters for watermark search, such as type or visibility",
+      "comment_3": "Retrieve all watermarks that match the specified criteria",
+      "comment_4": "Review and manage the list of found watermarks to assess their impact"
     }
   },
   "excel": {
