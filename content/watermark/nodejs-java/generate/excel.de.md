@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:59
+date:  2024-04-29T14:27:00
 draft: false
 lang: de
 format: Excel
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für Excel Formate"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.
       
       1. **Wasserzeichen einleiten:** Starten Sie die Dokumentenverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie die Excel -Datei, die durch generierte Wasserzeichen gesichert werden soll, an den Konstruktor übergeben.
       2. **Haupt-Wasserzeichen-Objekt erstellen:** Verschönern Sie Ihre Dokumente, indem Sie maßgeschneiderte **Wasserzeichen**-Objekte formen. Sie sind nicht nur Seiten, sondern lassen sich auch nahtlos in systemeigene Elemente wie Anlagen oder Überschriften integrieren und sorgen so für Sicherheit und Professionalität.

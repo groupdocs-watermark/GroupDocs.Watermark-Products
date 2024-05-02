@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:58
+date:  2024-04-29T14:26:59
 draft: false
 lang: pt
 format: Excel
@@ -44,10 +44,10 @@ steps:
     content: |
       **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** é uma biblioteca que simplifica a adição de marcas d'água a vários formatos de arquivo de negócios para .NET desenvolvedores. Integre nossa biblioteca ao seu aplicativo e marque documentos com marcas d'água sem esforço usando estas etapas a seguir:
       
-      1. **Iniciando sua jornada com a marca d'água:** Comece familiarizando-se com a classe**Watermarker**, a base da nossa API. Para iniciar o processo, certifique-se de instanciá-lo antes do processamento do documento. Não negligencie a importância de fornecer o arquivo Excel ao construtor, seja ele um caminho ou um objeto de fluxo.
-      2. **Criação de marcas d'água personalizadas:** Vá para a próxima fase criando um objeto**Marca d'água** adaptado às suas especificações. Essa ferramenta versátil não se limita a páginas específicas do documento; ela também pode ser perfeitamente integrada aos elementos nativos do documento, como anexos ou cabeçalhos.
+      1. **Iniciando sua jornada com a marca d'água:** Comece familiarizando-se com a classe **Watermarker**, a base da nossa API. Para iniciar o processo, certifique-se de instanciá-lo antes do processamento do documento. Não negligencie a importância de fornecer o arquivo Excel ao construtor, seja ele um caminho ou um objeto de fluxo.
+      2. **Criação de marcas d'água personalizadas:** Vá para a próxima fase criando um objeto **Marca d'água** adaptado às suas especificações. Essa ferramenta versátil não se limita a páginas específicas do documento; ela também pode ser perfeitamente integrada aos elementos nativos do documento, como anexos ou cabeçalhos.
       3. **Ajustando os atributos da marca d'água:** Refine sua experiência com a marca d'água ajustando propriedades como altura, largura, alinhamento da página, família da fonte e cor. Esse nível de personalização garante que suas marcas d'água se misturem perfeitamente aos seus documentos.
-      4. **Aplicando suas marcas d'água:** Utilize o método**Marcador d'água** para aplicar facilmente suas marcas d'água personalizadas aos seus documentos. Se você precisar adicionar uma ou várias marcas d'água, esse processo oferece flexibilidade. Para maior segurança, considere salvar seus documentos processados em um local separado.
+      4. **Aplicando suas marcas d'água:** Utilize o método **Marcador d'água** para aplicar facilmente suas marcas d'água personalizadas aos seus documentos. Se você precisar adicionar uma ou várias marcas d'água, esse processo oferece flexibilidade. Para maior segurança, considere salvar seus documentos processados em um local separado.
    
     code:
       platform: "net"

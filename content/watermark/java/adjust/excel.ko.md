@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:57
+date:  2024-04-29T14:26:57
 draft: false
 lang: ko
 format: Excel
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "Java 을 사용하여 Excel 문서의 워터마크를 조정합니다."
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 텍스트 워터마크를 쉽게 조정할 수 있습니다.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 텍스트 워터마크를 쉽게 조정할 수 있습니다.
       
       1. **워터마커**라는 API의 메인 오브젝트에 로드하세요.추가 처리를 위한 파일을 스트림 또는 로컬 디스크의 경로로 제공할 수 있습니다.
       2. **SearchCriteria**는 이전에 문서에 추가된 올바른 속성을 가진 워터마크를 식별하는 데 도움이 됩니다.

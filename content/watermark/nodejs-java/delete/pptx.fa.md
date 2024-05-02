@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:39:07
+date:  2024-04-29T14:27:11
 draft: false
 lang: fa
 format: Pptx

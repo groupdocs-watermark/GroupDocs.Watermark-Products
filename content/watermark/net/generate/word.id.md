@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:58
+date:  2024-04-29T14:26:58
 draft: false
 lang: id
 format: Word
@@ -44,8 +44,8 @@ steps:
     content: |
       **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** adalah pustaka yang menyederhanakan penambahan tanda air ke berbagai format file bisnis untuk .NET pengembang. Integrasikan perpustakaan kami ke dalam aplikasi Anda dan dengan mudah menandai dokumen menggunakan langkah-langkah berikut:
       
-      1. **Memulai Perjalanan Watermarking Anda:** Mulailah dengan mengenalkan diri Anda dengan kelas**Watermarker**, landasan API kami. Untuk memulai proses, pastikan Anda membuat instance sebelum pemrosesan dokumen. Jangan mengabaikan pentingnya menyediakan file Word ke konstruktor, apakah itu jalur atau objek aliran.
-      2. **Membuat Watermark Kustom:** Lanjutkan ke fase berikutnya dengan membuat objek**Watermark** yang disesuaikan dengan spesifikasi Anda. Alat serbaguna ini tidak terbatas pada halaman dokumen tertentu; itu juga dapat diintegrasikan dengan mulus ke dalam elemen dokumen asli seperti lampiran atau header.
+      1. **Memulai Perjalanan Watermarking Anda:** Mulailah dengan mengenalkan diri Anda dengan kelas **Watermarker**, landasan API kami. Untuk memulai proses, pastikan Anda membuat instance sebelum pemrosesan dokumen. Jangan mengabaikan pentingnya menyediakan file Word ke konstruktor, apakah itu jalur atau objek aliran.
+      2. **Membuat Watermark Kustom:** Lanjutkan ke fase berikutnya dengan membuat objek **Watermark** yang disesuaikan dengan spesifikasi Anda. Alat serbaguna ini tidak terbatas pada halaman dokumen tertentu; itu juga dapat diintegrasikan dengan mulus ke dalam elemen dokumen asli seperti lampiran atau header.
       3. **Menyesuaikan Atribut Tanda Air:** Sempurnakan pengalaman watermarking Anda dengan menyesuaikan properti seperti tinggi, lebar, keselarasan halaman, keluarga font, dan warna. Tingkat penyesuaian ini memastikan tanda air Anda menyatu dengan mulus dengan dokumen Anda.
       4. **Menerapkan Tanda Air Anda:** Manfaatkan metode**Watermark** untuk dengan mudah menerapkan tanda air khusus Anda ke dokumen Anda. Apakah Anda perlu menambahkan satu atau beberapa tanda air, proses ini menawarkan fleksibilitas. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah.
    

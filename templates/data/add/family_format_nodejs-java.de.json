@@ -8,7 +8,7 @@
   "steps": {
     "title": "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für {{FileformatCap}} Formate",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.",
       "step_1": "**Wasserzeichen einleiten:** Starten Sie die Dokumentenverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie die {{FileformatCap}} -Datei, die durch generierte Wasserzeichen gesichert werden soll, an den Konstruktor übergeben.",
       "step_2": "**Haupt-Wasserzeichen-Objekt erstellen:** Verschönern Sie Ihre Dokumente, indem Sie maßgeschneiderte **Wasserzeichen**-Objekte formen. Sie sind nicht nur Seiten, sondern lassen sich auch nahtlos in systemeigene Elemente wie Anlagen oder Überschriften integrieren und sorgen so für Sicherheit und Professionalität.",
       "step_3": "**Verfeinern Sie die Wasserzeichen-Attribute:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Integrität Ihrer Dokumente und macht Ihre Dateien unverkennbar zu Ihren eigenen.",

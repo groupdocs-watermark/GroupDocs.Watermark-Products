@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:59
+date:  2024-04-29T14:27:01
 draft: false
 lang: zh
 format: Word
@@ -45,7 +45,7 @@ steps:
       **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 为 Node.js via Java 开发人员配备了强大的 API，用于以编程方式更新各种 WORD 文档中的水印。本指南概述了流程：
       
       1. **Watermarker** 类构造函数来启动该过程。根据您的需求，该文件可以作为流提供，也可以作为本地磁盘位置的引用提供。
-      2. **SearchCriteria**对象来识别需要修改的特定水印。此对象允许根据所需属性精确定位水印。
+      2. **SearchCriteria** 对象来识别需要修改的特定水印。此对象允许根据所需属性精确定位水印。
       3. 成功执行搜索后，您将收到一系列相关的水印。这些水印提供精细控制，允许您更新尺寸、页面定位、文本内容、配色方案、图像数据等属性。
       4. 水印更新完成后，保留修改后的文档。该 API 使用本地文件路径或流对象来促进存储。
    

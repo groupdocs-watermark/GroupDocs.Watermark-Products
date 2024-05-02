@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:57
+date:  2024-04-29T14:26:58
 draft: false
 lang: ko
 format: Word
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "Java 을 사용하여 Word 파일에서 워터마크 검색"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**를 사용하면 비즈니스 문서에 이미 있는 워터마크를 쉽게 검색할 수 있습니다.패키지를 다운로드하여 Java 애플리케이션에 포함시켜 이점을 활용하십시오.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 를 사용하면 비즈니스 문서에 이미 있는 워터마크를 쉽게 검색할 수 있습니다.패키지를 다운로드하여 Java 애플리케이션에 포함시켜 이점을 활용하십시오.
       
       1. **Watermarker** 클래스 인스턴스에 로드해야 합니다.파일 경로, 파일 스트림 또는 바이트 스트림만 제공할 수 있습니다.
       2. **SearchCriteria** 객체를 사용하십시오.비슷한 이미지 워터마크를 얻으려면 이미지를 예로 제공하세요.텍스트 워터마크를 검색하려면 텍스트, 글꼴, 색상 및 기타 옵션을 제공하십시오.

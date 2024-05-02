@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:57
+date:  2024-04-29T14:26:57
 draft: false
 lang: ru
 format: Powerpoint

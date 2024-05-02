@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-26T21:38:59
+date:  2024-04-29T14:27:00
 draft: false
 lang: es
 format: Powerpoint
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Documentos empresariales seguros: genere marcas de agua para formatos Powerpoint"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Añada nuestra API a sus aplicaciones y genere marcas de agua para muchos formatos de archivo compatibles.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Añada nuestra API a sus aplicaciones y genere marcas de agua para muchos formatos de archivo compatibles.
       
       1. **Iniciar marca de agua:** Inicie el procesamiento de documentos con la clase **Watermarker** que proporciona nuestras funciones principales. Cree una instancia pasando al constructor el archivo Powerpoint, que se supone que está protegido mediante marcas de agua generadas.
       2. **Crea el objeto Watermark principal:** Mejora tus documentos esculpiendo objetos **Watermark** personalizados. Más allá de las simples páginas, se integran perfectamente en los elementos nativos, como los archivos adjuntos o los encabezados, añadiendo niveles de seguridad y profesionalismo.
       3. **Refina los atributos de las marcas de agua:** Afina tus marcas de agua con precisión, ajustando las dimensiones, la alineación y los esquemas de color. Cada detalle mejora la integridad del documento, haciendo que tus archivos sean inconfundiblemente tuyos.
-      4. **Implemente con precisión:** Utilice el método**Watermarker** para aplicar sus marcas de agua personalizadas sin problemas. Ya sean únicas o múltiples, cada marca de agua añade una capa adicional de protección. Para mayor seguridad, considera la posibilidad de almacenar los documentos procesados en un lugar separado y seguro.
+      4. **Implemente con precisión:** Utilice el método **Watermarker** para aplicar sus marcas de agua personalizadas sin problemas. Ya sean únicas o múltiples, cada marca de agua añade una capa adicional de protección. Para mayor seguridad, considera la posibilidad de almacenar los documentos procesados en un lugar separado y seguro.
    
     code:
       platform: "net"
