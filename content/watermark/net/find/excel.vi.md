@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: vi
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tìm hình mờ trong tập tin Excel bằng cách sử dụng .NET"
+    title: "Tìm hình mờ trong tệp Excel bằng cách sử dụng .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** hợp lý hóa quá trình tìm hình mờ trong tài liệu kinh doanh. Tích hợp gói của chúng tôi vào ứng dụng .NET của bạn để mở khóa những lợi thế của nó.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** hợp lý hóa quy trình tìm hình mờ trong tài liệu kinh doanh. Tích hợp gói của chúng tôi vào các ứng dụng .NET của bạn để khai thác những lợi thế của nó.
       
-      1. **Watermarker**. Bạn có thể cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.
-      2. {steps.content.step_2}
-      3. **Tìm kiếm** của đối tượng**Watermarker** để lấy hình mờ được đặt trong tài liệu. Bạn sẽ nhận được một bộ sưu tập các đối tượng đại diện cho hình mờ tiềm năng để xử lý thêm.
-      4. Cuối cùng, bạn có sự linh hoạt để thao tác kết quả tìm kiếm khi cần thiết. Bạn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng, chẳng hạn như thay đổi kích thước hoặc văn bản.
+      1. Để tận dụng các tính năng thư viện của chúng tôi, hãy tải tệp Excel vào một phiên bản lớp **Watermarker**. Bạn có thể cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.
+      2. Để tinh chỉnh danh sách các hình mờ tiềm năng, hãy sử dụng đối tượng **SearchCriteria**. Ví dụ: cung cấp hình ảnh để tìm hình mờ tương tự. Nếu tìm thấy hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn liên quan khác.
+      3. Sử dụng phương thức **Search** của đối tượng **Watermarker** để truy xuất hình mờ được đặt trong tài liệu. Bạn sẽ nhận được một bộ sưu tập các đối tượng đại diện cho hình mờ tiềm năng để xử lý thêm.
+      4. Cuối cùng, bạn có thể linh hoạt thao tác với kết quả tìm kiếm khi cần. Bạn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng, chẳng hạn như thay đổi kích thước hoặc văn bản.
    
     code:
       platform: "net"
@@ -75,7 +75,7 @@ steps:
             // Tìm hình mờ
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
 
-            // Sử dụng thông tin hình mờ tìm thấy
+            // Sử dụng thông tin hình mờ được tìm thấy
             foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
                 Console.WriteLine(possibleWatermark.Text);

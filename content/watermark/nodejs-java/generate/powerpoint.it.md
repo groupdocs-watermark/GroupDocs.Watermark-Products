@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: it
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Documenti aziendali sicuri: genera filigrane per i formati Powerpoint"
+    title: "Proteggi i documenti aziendali: genera filigrane per i formati Powerpoint"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Inserisci la nostra API nelle tue applicazioni e genera filigrane per molti formati di file supportati.
+      Aumenta la sicurezza dei tuoi documenti con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Inserisci la nostra API nelle tue applicazioni e genera filigrane per molti formati di file supportati.
       
-      1. **Avvia filigrana:** Avvia l'elaborazione dei documenti con la classe **Watermarker** che fornisce le nostre funzionalità principali. Istanziatelo passando al costruttore il file Powerpoint che dovrebbe essere protetto dalle filigrane generate.
-      2. **Crea l'oggetto Watermark principale:** Migliora i tuoi documenti scolpendo oggetti **Watermark** su misura. Oltre alle semplici pagine, si integrano perfettamente in elementi nativi come allegati o intestazioni, aggiungendo livelli di sicurezza e professionalità.
-      3. **Perfeziona gli attributi della filigrana:** Perfeziona le filigrane con precisione, regolando le dimensioni, l'allineamento e gli schemi di colori. Ogni dettaglio migliora l'integrità del documento, rendendo i tuoi file inconfondibilmente tuoi.
-      4. **Implementa con precisione:** Utilizza il metodo **Watermarker** per applicare le filigrane personalizzate in modo impeccabile. Singola o multipla, ogni filigrana aggiunge un ulteriore livello di protezione. Per una maggiore sicurezza, valuta la possibilità di archiviare i documenti elaborati in un luogo separato e sicuro.
+      1. **Avvia filigrana:** avvia l'elaborazione dei documenti con la classe **Watermarker** che fornisce le nostre funzionalità principali. Creane un'istanza passando al costruttore il file Powerpoint che dovrebbe essere protetto dalle filigrane generate.
+      2. **Crea l'oggetto Filigrana principale:** Migliora i tuoi documenti scolpendo oggetti **Watermark** personalizzati. Oltre alle semplici pagine, si integrano perfettamente con elementi nativi come allegati o intestazioni, aggiungendo livelli di sicurezza e professionalità.
+      3. **Perfeziona gli attributi della filigrana:** perfeziona le tue filigrane con precisione, regolando dimensioni, allineamento e combinazioni di colori. Ogni dettaglio migliora l'integrità del documento, rendendo i tuoi file inconfondibilmente tuoi.
+      4. **Implementa con precisione:** utilizza il metodo **Watermarker** per applicare le tue filigrane personalizzate in modo impeccabile. Che sia singola o multipla, ogni filigrana aggiunge un ulteriore livello di protezione. Per maggiore sicurezza, valuta la possibilità di archiviare i documenti elaborati in un luogo separato e sicuro.
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Genera una filigrana di testo per POWERPOINT
+        // Genera filigrana di testo per POWERPOINT
 
-        // Passa il file sorgente all'istanza Watermarker
+        // Passa il file sorgente all'istanza di Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // Genera filigrana di testo e imposta le sue opzioni
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // Ottieni POWERPOINT risultato
+        // Ottieni il risultato POWERPOINT
         watermarker.add(watermark);
         watermarker.save("output.pptx");
         

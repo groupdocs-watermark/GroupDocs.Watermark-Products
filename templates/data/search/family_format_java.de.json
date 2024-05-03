@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Suche nach Textwasserzeichen in {{FileFormatUp}} -Dokument",
-    "comment_2": "Holen Sie sich die Watermarker-Instanz für das {{FileFormatUp}} -Dokument",
-    "comment_3": "Suche nach Wasserzeichen nach Kriterien",
-    "comment_4": "Wasserzeichen verarbeiten"
+    "comment_1": "Suchen Sie nach Textwasserzeichen im {{FileFormatUp}}-Dokument",
+    "comment_2": "Holen Sie sich die Instanz {{TextWatermarker}} für das Dokument {{FileFormatUp}}",
+    "comment_3": "Suchen Sie nach Wasserzeichen nach Kriterien",
+    "comment_4": "Prozesswasserzeichen"
   },
   "steps": {
-    "title": "Suche nach Wasserzeichen in {{FileformatCap}} Dateien mit {{EnvName}}",
+    "title": "Suchen Sie mit {{EnvName}} nach Wasserzeichen in {{FileformatCap}}-Dateien",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** erleichtert die Suche nach Wasserzeichen, die bereits in Geschäftsdokumenten platziert sind. Laden Sie unser Paket herunter und fügen Sie es Ihrer {{EnvName}} -Bewerbung bei, um die Vorteile zu nutzen.",
-      "step_1": "**Watermarker** laden. Es ist möglich, nur einen Dateipfad, einen Dateistream oder einen Bytestream anzugeben.",
-      "step_2": "**searchCriteria**. Geben Sie ein Bild als Beispiel an, um ein ähnliches Bildwasserzeichen zu erhalten. Wenn Sie nach einem Textwasserzeichen suchen möchten, geben Sie Text, Schriftart, Farbe und andere Optionen an.",
-      "step_3": "**Search** des **Watermarker**-Objekts. Sie erhalten eine Sammlung von Objekten, die als Wasserzeichen verarbeitet werden können.",
-      "step_4": "Schließlich steht es Ihnen frei, mit dem Ergebnis der Suche zu tun, was Sie wollen. Es ist durchaus möglich, gefundene Wasserzeichen zu löschen oder deren Eigenschaften zu bearbeiten. Ändern Sie beispielsweise die Größe oder den Text."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** erleichtert die Suche nach bereits in Geschäftsdokumenten platzierten Wasserzeichen. Laden Sie unser Paket herunter und integrieren Sie es in Ihre {{EnvName}}-Anwendung, um die Vorteile zu nutzen.",
+      "step_1": "Um unsere Bibliotheksfunktionen nutzen zu können, müssen Sie die Datei {{FileformatCap}} in die Klasseninstanz {{TextWatermarkerBold}} laden. Es ist möglich, nur einen Dateipfad, einen Dateistream oder einen Bytestream anzugeben.",
+      "step_2": "Um die Liste möglicher Wasserzeichen einzugrenzen, verwenden Sie das Objekt {{TextSearchCriteriaBold}}. Geben Sie ein Bild als Beispiel an, um ein ähnliches Bildwasserzeichen zu erhalten. Wenn Sie nach Textwasserzeichen suchen möchten, geben Sie Text, Schriftart, Farbe und andere Optionen an.",
+      "step_3": "Um Wasserzeichen im Dokument zu platzieren, verwenden Sie die Methode {{TextSearchBold}} des Objekts {{TextWatermarkerBold}}. Sie erhalten eine Sammlung von Objekten, die als Wasserzeichen verarbeitet werden können.",
+      "step_4": "Schließlich haben Sie die Freiheit, mit den Suchergebnissen zu machen, was Sie wollen. Es ist durchaus möglich, gefundene Wasserzeichen zu löschen oder deren Eigenschaften zu bearbeiten. Ändern Sie beispielsweise Größe oder Text."
     }
   },
   "more_features": {

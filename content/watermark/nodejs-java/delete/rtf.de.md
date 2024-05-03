@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: de
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Löschen Sie mühelos Wasserzeichen von Rtf von Node.js via Java"
+    title: "Löschen Sie mühelos Wasserzeichen aus Rtf von Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** optimiert das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Verbessern Sie Ihre Node.js via Java -Anwendung, indem Sie unsere Bibliothek nahtlos integrieren und die folgenden einfachen Schritte befolgen:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** optimiert den Prozess der Entfernung von Wasserzeichen aus Geschäftsdokumenten. Erweitern Sie Ihre Node.js via Java-Anwendung durch die nahtlose Integration unserer Bibliothek und die folgenden einfachen Schritte:
       
-      1. **Watermarker** mit dem Rtf -Dokument instanziieren. Unsere vielseitige API verarbeitet Dokumente nahtlos, unabhängig davon, ob sie als Stream oder als lokaler Pfad bereitgestellt werden.
-      2. **SearchCriteria**, um die zu adressierenden Wasserzeichen genau zu lokalisieren. Verwenden Sie verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen, um Ihre Suche zu verfeinern. Je detaillierter Ihre Kriterien sind, desto genauer sind Ihre Ergebnisse.
-      3. Führen Sie den Entfernungsvorgang für die Liste der Dokumentwasserzeichen aus, die Sie bei Ihrer Suche abgerufen haben. Löschen Sie sie mühelos aus dem Dokument.
-      4. Speichern Sie das resultierende Dokument nach dem erfolgreichen Löschen der Wasserzeichen sicher als lokale Datei oder als Bytestream, wobei die Integrität gewahrt bleibt.
+      1. Starten Sie den Prozess, indem Sie die Kernklasse **Watermarker** mit dem Dokument Rtf instanziieren. Unsere vielseitige API verarbeitet Dokumente nahtlos, unabhängig davon, ob sie als Stream oder als lokaler Pfad bereitgestellt werden.
+      2. Nutzen Sie **SearchCriteria**, um die zu behebenden Wasserzeichen genau zu lokalisieren. Nutzen Sie verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen, um Ihre Suche zu verfeinern. Je detaillierter Ihre Kriterien sind, desto genauer sind Ihre Ergebnisse.
+      3. Führen Sie den Entfernungsvorgang für die Liste der durch Ihre Suche gefundenen Dokumentwasserzeichen aus. Löschen Sie sie mühelos aus dem Dokument.
+      4. Speichern Sie das resultierende Dokument nach dem erfolgreichen Löschen der Wasserzeichen sicher als lokale Datei oder als Bytestream und bewahren Sie so seine Integrität.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Löschen Sie das Bildwasserzeichen im RTF -Dokument
+        // Bildwasserzeichen im RTF-Dokument löschen
 
-        // Ruft Watermarker ab und übergibt den Pfad RTF als Argument
+        // Holen Sie sich Watermarker und übergeben Sie den Pfad RTF als Argument
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
         
-        // Löschen Sie Bildwasserzeichen nach Suchkriterien
+        // Bildwasserzeichen nach Suchkriterien löschen
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

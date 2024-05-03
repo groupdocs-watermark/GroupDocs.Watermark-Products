@@ -1,19 +1,19 @@
 {
   "examples": {
     "comment_1": "Edit tanda air gambar di dokumen {{FileFormatUp}}",
-    "comment_2": "Inisialisasi Watermarker dengan file sumber",
-    "comment_3": "Buat Kriteria pencarian untuk pencarian tanda air gambar",
+    "comment_2": "Inisialisasi {{TextWatermarker}} berdasarkan file sumber",
+    "comment_3": "Buat {{TextSearchCriteria}} untuk pencarian tanda air gambar",
     "comment_4": "Edit tanda air gambar",
     "comment_5": "Simpan hasil {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Edit Watermark secara terprogram di {{FileformatCap}} Dokumen dengan {{EnvName}} API",
+    "title": "Mengedit Tanda Air secara terprogram di Dokumen {{FileformatCap}} dengan API {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** melengkapi {{EnvName}} pengembang dengan API yang kuat untuk memanipulasi tanda air secara terprogram dalam berbagai dokumen {{FileformatCap}}. Panduan ini menguraikan prosesnya:",
-      "step_1": "**Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.",
-      "step_2": "**SearchCriteria** untuk menentukan tanda air tertentu yang memerlukan modifikasi. Objek ini memungkinkan identifikasi tanda air yang sebelumnya tertanam di dalam dokumen.",
-      "step_3": "Setelah keberhasilan pelaksanaan pencarian, Anda akan menerima kumpulan tanda air yang relevan. Watermark ini menawarkan kontrol granular, memungkinkan Anda untuk memodifikasi properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.",
-      "step_4": "Setelah penyelesaian pengeditan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** melengkapi pengembang {{EnvName}} dengan API yang kuat untuk memanipulasi tanda air secara terprogram dalam beragam dokumen {{FileformatCap}}. Panduan ini menguraikan prosesnya:",
+      "step_1": "Mulailah alur kerja dengan menyediakan file {{FileformatCap}} Anda sebagai argumen ke konstruktor kelas {{TextWatermarkerBold}}. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.",
+      "step_2": "Selanjutnya, manfaatkan objek {{TextSearchCriteriaBold}} untuk menentukan tanda air spesifik yang memerlukan modifikasi. Objek ini memungkinkan identifikasi tanda air yang sebelumnya tertanam dalam dokumen.",
+      "step_3": "Setelah pencarian berhasil, Anda akan menerima kumpulan tanda air yang relevan. Tanda air ini menawarkan kontrol terperinci, memungkinkan Anda mengubah properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.",
+      "step_4": "Setelah pengeditan tanda air selesai, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran."
     }
   },
   "more_features": {

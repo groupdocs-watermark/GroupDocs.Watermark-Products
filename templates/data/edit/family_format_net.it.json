@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Modifica filigrana di testo {{FileFormatUp}}",
-    "comment_2": "Crea Watermarker fornendo il file {{FileFormatUp}}",
-    "comment_3": "Costruisci TextSearchCriteria e ottieni filigrane di testo",
-    "comment_4": "Modifica filigrana di testo",
+    "comment_1": "Modifica la filigrana di testo {{FileFormatUp}}",
+    "comment_2": "Crea {{TextWatermarker}} fornendo il file {{FileFormatUp}}",
+    "comment_3": "Costruisci {{TextTextSearchCriteria}} e ottieni filigrane di testo",
+    "comment_4": "Modifica la filigrana del testo",
     "comment_5": "Salva il documento"
   },
   "steps": {
-    "title": "Modifica le filigrane nei documenti {{FileformatCap}} usando {{EnvName}}",
+    "title": "Modifica filigrane nei documenti {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** consente agli {{EnvName}} sviluppatori di modificare facilmente le filigrane all'interno di vari documenti {{FileformatCap}}. Ecco una guida semplificata su come utilizzare la nostra API nella tua applicazione:",
-      "step_1": "**Watermarker**. Puoi fornire il file come flusso di byte, flusso di file o percorso del disco locale.",
-      "step_2": "**criteri di ricerca** per identificare le filigrane con le proprietà corrispondenti precedentemente aggiunte al documento.",
-      "step_3": "Dopo la ricerca, otterrai un elenco di filigrane pertinenti. È quindi possibile personalizzare le loro proprietà, come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine e altro ancora. Questo ti garantisce un ampio controllo sui tuoi dati.",
-      "step_4": "Una volta completata la modifica delle filigrane, salva il documento aggiornato. Puoi utilizzare un percorso di file locale o uno stream per memorizzare il risultato finale."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** consente agli sviluppatori di {{EnvName}} di modificare facilmente le filigrane all'interno di vari documenti {{FileformatCap}}. Ecco una guida semplificata su come utilizzare la nostra API nella tua applicazione:",
+      "step_1": "Inizia passando il tuo file {{FileformatCap}} come parametro al costruttore della classe {{TextWatermarkerBold}}. È possibile fornire il file come flusso di byte, flusso di file o percorso del disco locale.",
+      "step_2": "Successivamente, individua le filigrane specifiche che richiedono la modifica. Utilizza {{TextSearchCriteriaBold}} per identificare le filigrane con le proprietà corrispondenti precedentemente aggiunte al documento.",
+      "step_3": "Dopo la ricerca, otterrai un elenco di filigrane rilevanti. Puoi quindi personalizzarne le proprietà, come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine e altro. Ciò ti garantisce un ampio controllo sui tuoi dati.",
+      "step_4": "Una volta completata la modifica delle filigrane, salva il documento aggiornato. È possibile utilizzare un percorso file locale o un flusso per archiviare il risultato finale."
     }
   },
   "more_features": {

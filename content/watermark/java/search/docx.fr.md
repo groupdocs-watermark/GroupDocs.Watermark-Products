@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: fr
 format: Docx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Docx Recherche de filigranes via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifie le processus de localisation des filigranes dans les documents commerciaux. Installez notre package dans vos Java applications pour profiter de ses avantages.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifie le processus de localisation des filigranes dans les documents commerciaux. Installez notre package dans vos applications Java pour profiter de ses avantages.
       
-      1. **Watermarker**. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.
-      2. **SearchCriteria**. Par exemple, fournissez une image pour rechercher des filigranes similaires. Si vous recherchez des filigranes textuels, indiquez le texte, la police, la couleur et d'autres options pertinentes.
-      3. **Search** de l'objet **Watermarker**. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.
-      4. Enfin, vous êtes libre de manipuler les résultats de recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte.
+      1. Pour utiliser les fonctionnalités de notre bibliothèque, chargez le fichier Docx dans une instance de la classe **Watermarker**. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.
+      2. Pour affiner la liste des filigranes potentiels, utilisez l'objet **SearchCriteria**. Par exemple, fournissez une image pour rechercher des filigranes d’images similaires. Si vous recherchez des filigranes textuels, fournissez le texte, la police, la couleur et d’autres options pertinentes.
+      3. Récupérez les filigranes placés dans le document à l'aide de la méthode **Search** de l'objet **Watermarker**. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.
+      4. Enfin, vous avez la liberté de manipuler les résultats de la recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte.
    
     code:
       platform: "net"
@@ -83,7 +83,7 @@ steps:
         ```java {style=abap}
         // Rechercher des filigranes d'image dans le document DOCX
 
-        // Composer un filigrane en transmettant le document DOCX
+        // Composer Watermarker en passant le document DOCX
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Rechercher des filigranes par hachage d'image
@@ -91,7 +91,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Le processus a détecté des filigranes
+        // Le processus a trouvé des filigranes
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

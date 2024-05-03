@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:07
 draft: false
 lang: id
 format: Powerpoint
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Hapus Watermark dari Powerpoint Dokumen Menggunakan .NET"
+    title: "Hapus Tanda Air dari Dokumen Powerpoint Menggunakan .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** menyederhanakan tugas menghapus tanda air dari dokumen bisnis. Berdayakan aplikasi .NET Anda dengan mengintegrasikan perpustakaan kami dan ikuti langkah-langkah sederhana ini:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** menyederhanakan tugas menghapus tanda air dari dokumen bisnis. Berdayakan aplikasi .NET Anda dengan mengintegrasikan perpustakaan kami dan ikuti langkah-langkah sederhana berikut:
       
-      1. **Watermarker**, dengan dokumen Powerpoint. API kami mendukung pemrosesan dokumen yang disediakan baik sebagai aliran atau jalur lokal.
-      2. **Kriteria pencari** untuk mempersempit kumpulan tanda air yang akan diproses. Anda dapat menggunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan. Semakin spesifik parameter pencarian yang Anda berikan, semakin tepat hasil yang Anda dapatkan.
-      3. Memproses daftar tanda air dokumen yang diperoleh sebagai hasil pencarian dan hapus dari dokumen.
+      1. Mulailah dengan membuat instance kelas utama, **Watermarker**, dengan dokumen Powerpoint. API kami mendukung pemrosesan dokumen yang disediakan sebagai aliran atau jalur lokal.
+      2. Gunakan **SearchCriteria** untuk mempersempit kumpulan tanda air yang akan diproses. Anda dapat menggunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan. Semakin spesifik parameter pencarian yang Anda berikan, semakin tepat hasil yang Anda peroleh.
+      3. Memproses daftar tanda air dokumen yang diperoleh sebagai hasil pencarian dan menghapusnya dari dokumen.
       4. Setelah menghapus tanda air, simpan dokumen yang dihasilkan sebagai file lokal atau aliran byte.
    
     code:
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Hapus tanda air teks dari dokumen Powerpoint
 
-        // Menyediakan contoh Watermarker untuk dokumen sumber dokumen Powerpoint
+        // Berikan instance Watermarker untuk dokumen sumber Powerpoint
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // Hapus tanda air yang dipilih dari dokumen

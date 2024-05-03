@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Ajustar la marca de agua del texto {{FileFormatUp}}",
-    "comment_2": "Instanciar Watermarker con el documento de entrada {{FileFormatUp}}",
-    "comment_3": "Inicialice los TextSearchCriteria y busque marcas de agua de texto",
-    "comment_4": "Ajustar las propiedades de las marcas de agua del texto",
+    "comment_1": "Ajustar la marca de agua de texto {{FileFormatUp}}",
+    "comment_2": "Crear una instancia de {{TextWatermarker}} con el documento de entrada {{FileFormatUp}}",
+    "comment_3": "Inicialice {{TextTextSearchCriteria}} y busque marcas de agua de texto",
+    "comment_4": "Ajustar las propiedades de la marca de agua del texto",
     "comment_5": "Guardar el documento actualizado"
   },
   "steps": {
-    "title": "Ajuste las marcas de agua en {{FileformatCap}} documentos con {{EnvName}}",
+    "title": "Ajuste las marcas de agua en documentos {{FileformatCap}} con {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** facilita a los {{EnvName}} desarrolladores el ajuste de las marcas de agua de texto en sus aplicaciones mediante la implementación de unos sencillos pasos:",
-      "step_1": "**Watermarker**. Puedes proporcionar el archivo para su posterior procesamiento como transmisión o como una ruta en un disco local.",
-      "step_2": "**Los criterios de búsqueda** ayudan a identificar las marcas de agua con las propiedades correctas que se agregaron previamente a un documento.",
-      "step_3": "**Búsqueda**. Ajuste las propiedades de las marcas de agua encontradas, como el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen, etc. Hay muchas maneras de personalizar los datos.",
-      "step_4": "Después de completar el proceso de ajuste de las marcas de agua, debe guardar el documento actualizado. Utilice la ruta del archivo local, el archivo o el flujo de bytes para almacenar el resultado."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** facilita a los desarrolladores de {{EnvName}} ajustar las marcas de agua de texto en sus aplicaciones mediante la implementación de unos sencillos pasos:",
+      "step_1": "Cargue su archivo {{FileformatCap}} en el objeto principal de nuestra API llamado {{TextWatermarkerBold}}. Puede proporcionar un archivo para su posterior procesamiento como flujo o como ruta en un disco local.",
+      "step_2": "El siguiente paso es localizar las marcas de agua que deben ajustarse. {{TextSearchCriteriaBold}} ayuda a identificar marcas de agua con las propiedades correctas que se agregaron previamente a un documento.",
+      "step_3": "Obtenga una lista de marcas de agua adecuadas como resultado del procedimiento {{TextSearchBold}}. Ajuste las propiedades de las marcas de agua encontradas, como el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen, etc. Hay muchas formas de personalizar sus datos.",
+      "step_4": "Después de completar el proceso de ajuste de marcas de agua, debe guardar el documento actualizado. Utilice la ruta del archivo local, el archivo o el flujo de bytes para almacenar el resultado."
     }
   },
   "more_features": {

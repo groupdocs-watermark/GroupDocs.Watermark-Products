@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Bild {{FileFormatUp}} Wasserzeichen aktualisieren",
-    "comment_2": "Watermarker für {{FileFormatUp}} -Datei verfassen",
-    "comment_3": "Verwenden Sie SearchCriteria, um ein bestimmtes Bild zu finden",
+    "comment_1": "Bild-Wasserzeichen {{FileFormatUp}} aktualisieren",
+    "comment_2": "Verfassen Sie {{TextWatermarker}} für die Datei {{FileFormatUp}}",
+    "comment_3": "Verwenden Sie {{TextSearchCriteria}}, um ein bestimmtes Bild zu finden",
     "comment_4": "Bildinhalt aktualisieren",
     "comment_5": "Aktualisierte Datei speichern"
   },
   "steps": {
     "title": "Dynamische Wasserzeichenbearbeitung für {{FileFormatUp}} in {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** bietet {{EnvName}} Entwicklern eine leistungsstarke API zum Bearbeiten von Wasserzeichen in verschiedenen {{FileFormatUp}} Dokumenten. Hier finden Sie eine umfassende Anleitung zur Optimierung Ihres Workflows:",
-      "step_1": "**Starten Sie den Prozess:** Geben Sie zunächst Ihre {{FileFormatUp}} -Datei als Argument für den Klassenkonstruktor **Watermarker** an. Je nach Ihren Anforderungen kann die Datei entweder als Stream oder von einem lokalen Festplattenspeicherort bezogen werden.",
-      "step_2": "**Pinpoint Watermarks:** Verwenden Sie das Objekt **SearchCriteria**, um die Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses vielseitige Tool ermöglicht die gezielte Auswahl von Wasserzeichen auf der Grundlage bestimmter Eigenschaften.",
-      "step_3": "**Präzise verfeinern:** Nach erfolgreicher Ausführung der Suche erhalten Sie Zugriff auf eine Sammlung relevanter Wasserzeichen. Genießen Sie die detaillierte Kontrolle über jedes Element und die Möglichkeit, Abmessungen, Seitenpositionierung, Textinhalt, Farbe, Bilddaten und mehr zu aktualisieren.",
-      "step_4": "**Nahtlose Persistenz:** Sobald die Wasserzeichenaktualisierungen abgeschlossen sind, speichern Sie das geänderte Dokument sicher. Die API bietet flexible Speicheroptionen, sodass Sie es in einem lokalen Dateipfad oder als Stream-Objekt speichern können."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** bietet {{EnvName}}-Entwicklern eine leistungsstarke API zum Bearbeiten von Wasserzeichen in verschiedenen {{FileFormatUp}}-Dokumenten. Hier finden Sie eine umfassende Anleitung zur Optimierung Ihres Arbeitsablaufs:",
+      "step_1": "**Starten Sie den Prozess:** Geben Sie zunächst Ihre Datei {{FileFormatUp}} als Argument für den Klassenkonstruktor {{TextWatermarkerBold}} an. Abhängig von Ihren Anforderungen kann die Datei entweder als Stream oder von einem lokalen Festplattenspeicherort bezogen werden.",
+      "step_2": "**Wasserzeichen lokalisieren:** Verwenden Sie das Objekt {{TextSearchCriteriaBold}}, um die Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses vielseitige Tool ermöglicht die gezielte Auswahl von Wasserzeichen basierend auf bestimmten Eigenschaften.",
+      "step_3": "**Mit Präzision verfeinern:** Nach erfolgreicher Ausführung der Suche erhalten Sie Zugriff auf eine Sammlung relevanter Wasserzeichen. Genießen Sie die detaillierte Kontrolle über jedes Element mit der Möglichkeit, Abmessungen, Seitenpositionierung, Textinhalt, Farbe, Bilddaten und mehr zu aktualisieren.",
+      "step_4": "**Nahtlose Persistenz:** Sobald die Wasserzeichenaktualisierungen abgeschlossen sind, speichern Sie das geänderte Dokument sicher. Die API bietet flexible Speicheroptionen, sodass Sie in einem lokalen Dateipfad oder als Stream-Objekt speichern können."
     }
   },
   "more_features": {

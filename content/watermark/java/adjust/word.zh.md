@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: zh
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 Java 调整 Word 个文档中的水印"
+    title: "使用 Java 调整 Word 文档中的水印"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 通过实施几个简单的步骤，让 Java 开发人员可以轻松调整其应用程序中的文本水印：
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 使 Java 开发人员可以通过执行几个简单的步骤轻松调整应用程序中的文本水印：
       
-      1. **水印**的 API 的主对象中。您可以将文件作为流或本地磁盘上的路径提供以供进一步处理。
-      2. **SearchCriteria**有助于识别之前添加到文档中的具有正确属性的水印。
-      3. **搜索**程序获取合适的水印列表。调整已找到的水印属性，例如大小、页面对齐方式、文本、颜色、图像内容等。有很多方法可以自定义数据。
-      4. 水印调整过程完成后，您需要保存更新的文档。使用本地文件路径、文件或字节流来存储结果。
+      1. 将您的 Word 文件加载到我们名为 **Watermarker** 的 API 的主要对象。您可以以流或本地磁盘上的路径形式提供文件以供进一步处理。
+      2. 下一步是找到必须调整的水印。 **SearchCriteria** 有助于识别先前添加到文档中的具有正确属性的水印。
+      3. 通过 **Search** 过程获取合适水印的列表。调整找到的水印属性，例如大小、页面对齐、文本、颜色、图像内容等。自定义数据的方法有很多。
+      4. 完成水印调整过程后，您需要保存更新的文档。使用本地文件路径、文件或字节流来存储结果。
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // 调整 WORD 文本水印
+        // 调整WORD文本水印
 
-        // 使用输入 WORD 文档实例化水印
+        // 使用输入 WORD 文档实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
 
-        // 初始化 TextSearchCriteria 并查找文本水印
+        // 初始化TextSearchCriteria并查找文本水印
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         
-        // 调整文字水印属性
+        // 调整文本水印属性
         for (PossibleWatermark watermark : watermarks)
         {
             watermark.getFormattedTextFragments().clear();

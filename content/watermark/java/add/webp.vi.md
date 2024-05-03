@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: vi
 format: Webp
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Kỹ thuật nâng cao: Thêm hình mờ vào tài liệu Webp thông qua Java"
+    title: "Kỹ thuật nâng cao: Thêm hình mờ vào tài liệu Webp qua Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Khám phá các kỹ thuật tạo hình mờ nâng cao cho tài liệu Webp với **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Bước cơ bản này tạo tiền đề cho việc nâng cao Webp tài liệu bằng hình mờ. Cung cấp tệp Webp cho hàm tạo, dưới dạng đường dẫn hoặc đối tượng luồng.
-      2. **Watermark** phù hợp với thông số kỹ thuật của bạn. Các thực thể đa năng này cung cấp vị trí chính xác không chỉ trên các trang tài liệu được chỉ định mà còn trong các yếu tố gốc như tệp đính kèm hoặc tiêu đề.
+      1. Bắt đầu quá trình tạo hình mờ của bạn bằng cách khởi tạo lớp **Watermarker**. Bước cơ bản này tạo tiền đề cho việc nâng cao tài liệu Webp bằng hình mờ. Cung cấp tệp Webp cho hàm tạo, dưới dạng đường dẫn hoặc đối tượng luồng.
+      2. Tiến lên cấp độ tiếp theo bằng cách tạo các đối tượng **Watermark** phù hợp với thông số kỹ thuật của bạn. Các thực thể linh hoạt này cung cấp vị trí chính xác không chỉ trên các trang tài liệu được chỉ định mà còn trong các phần tử gốc như tệp đính kèm hoặc tiêu đề.
       3. Tinh chỉnh quy trình tạo hình mờ của bạn bằng cách tinh chỉnh các thuộc tính như kích thước, căn chỉnh, kiểu phông chữ và màu sắc. Mức độ tùy chỉnh này cho phép bạn tạo hình mờ bổ sung hoàn hảo cho tính thẩm mỹ tài liệu của bạn.
-      4. **Watermarker** để áp dụng hình mờ mới được tạo lên tài liệu của bạn. Tận hưởng sự linh hoạt của việc thêm nhiều hình mờ theo yêu cầu của bạn. Để bảo quản tài liệu, hãy cân nhắc lưu chúng ở một vị trí an toàn.
+      4. Sử dụng phương pháp **Watermarker** để áp dụng hình mờ mới tạo vào tài liệu của bạn. Tận hưởng sự linh hoạt của việc thêm nhiều hình mờ theo yêu cầu của bạn. Để bảo quản tài liệu, hãy cân nhắc việc lưu chúng ở một vị trí an toàn.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Thêm hình mờ hình ảnh vào WEBP
+        // Thêm hình mờ vào WEBP
 
-        // Chuyển tệp để được đánh dấu vào Watermarker
+        // Chuyển tệp được đóng dấu mờ tới Watermarker
         Watermarker watermarker = new Watermarker("input.webp");
         
-        // Cung cấp đường dẫn đến hình ảnh với hình mờ
+        // Cung cấp đường dẫn đến hình ảnh có hình mờ
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // Lưu kết quả

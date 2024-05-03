@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Adicionar marca d'água de texto a {{FileFormatUp}}",
-    "comment_2": "Passe o arquivo a ser marcado com marca d'água para o Watermarker",
+    "comment_1": "Adicione marca d'água de texto a {{FileFormatUp}}",
+    "comment_2": "Passe o arquivo para ter marca d'água para {{TextWatermarker}}",
     "comment_3": "Crie marca d'água de texto e configure propriedades",
     "comment_4": "Salvar arquivo com marca d'água"
   },
   "steps": {
-    "title": "Adicione marca d'água ao documento {{FileformatCap}} via {{EnvName}}",
+    "title": "Adicionar marca d'água ao documento {{FileformatCap}} via {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** facilita que {{EnvName}} desenvolvedores adicionem marcas d'água de vários tipos a formatos populares de arquivos comerciais. Adicione nossa biblioteca ao seu aplicativo e marque documentos com marca d'água em algumas etapas fáceis, conforme listado abaixo.",
-      "step_1": "**Watermarker**. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo {{FileformatCap}} para o construtor como um caminho ou um objeto de fluxo.",
-      "step_2": "**Watermark** do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como anexos ou cabeçalhos.",
-      "step_3": "Defina propriedades da marca d'água, como altura e largura, alinhamento da página (superior, esquerda, central etc.), família e cor da fonte e muitas outras.",
-      "step_4": "**Watermarker** para adicionar uma nova marca d'água. Você pode adicionar quantas marcas d'água precisar. É recomendável salvar o documento processado em outro local."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** torna mais fácil para os desenvolvedores do {{EnvName}} adicionar marcas d'água de vários tipos a formatos de arquivos comerciais populares. Adicione nossa biblioteca ao seu aplicativo e marque documentos com marca d'água em algumas etapas fáceis, conforme listado abaixo.",
+      "step_1": "A classe principal da nossa API é {{TextWatermarkerBold}}. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo {{FileformatCap}} para o construtor como um caminho ou objeto de fluxo.",
+      "step_2": "A próxima etapa é construir um objeto {{TextWatermarkBold}} do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como anexos ou cabeçalhos.",
+      "step_3": "Defina propriedades da marca d'água, como altura e largura, alinhamento da página (superior, esquerda, central, etc.), família e cor da fonte e muitos outros.",
+      "step_4": "Chame o método {{TextWatermarkerBold}} para adicionar uma nova marca d'água. Você pode adicionar quantas marcas d'água precisar. Recomenda-se salvar o documento processado em outro local."
     }
   },
   "more_features": {

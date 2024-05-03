@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: vi
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tìm hiệu quả Docx hình mờ với .NET"
+    title: "Tìm hình mờ Docx một cách hiệu quả với .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** cung cấp một giải pháp mạnh mẽ để tìm kiếm hình mờ theo chương trình trong các định dạng tài liệu kinh doanh khác nhau. Tích hợp gói của chúng tôi vào .NET ứng dụng của bạn để cung cấp cho họ khả năng tìm hình mờ.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** cung cấp giải pháp mạnh mẽ để tìm hình mờ theo chương trình trong các định dạng tài liệu kinh doanh khác nhau. Tích hợp gói của chúng tôi vào các ứng dụng .NET của bạn để cấp cho chúng khả năng tìm kiếm hình mờ.
       
-      1. **Watermarker** và cung cấp đường dẫn tệp Docx, luồng tệp hoặc luồng byte làm đầu vào. Hành động này tải tài liệu để phân tích hình mờ.
-      2. **SearchCriteria**. Chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số thích hợp khác để tinh chỉnh tiêu chí tìm kiếm.
-      3. **Tìm kiếm** của đối tượng** Watermarker** để bắt đầu quá trình phát hiện hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, cho phép xử lý thêm.
-      4. Bộ sưu tập các đối tượng hình mờ được truy xuất cho phép bạn kiểm soát chính xác. Bạn có thể xóa hình mờ không mong muốn theo chương trình hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước hoặc nội dung văn bản của chúng, để phù hợp với yêu cầu cụ thể của bạn.
+      1. Để khai thác các chức năng của thư viện của chúng tôi, hãy khởi tạo lớp **Watermarker** và cung cấp đường dẫn tệp Docx, luồng tệp hoặc luồng byte làm đầu vào. Hành động này tải tài liệu để phân tích hình mờ.
+      2. Để nhận dạng hình mờ được nhắm mục tiêu, hãy tận dụng đối tượng **SearchCriteria**. Chỉ định một hình ảnh để định vị các hình mờ tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số thích hợp khác để tinh chỉnh tiêu chí tìm kiếm.
+      3. Sử dụng phương thức **Search** của đối tượng **Watermarker** để bắt đầu quá trình phát hiện hình mờ trong tài liệu được tải. Hàm này trả về một tập hợp các đối tượng đại diện cho các hình mờ tiềm năng, cho phép xử lý thêm.
+      4. Bộ sưu tập các đối tượng hình mờ được truy xuất sẽ cấp cho bạn quyền kiểm soát chính xác. Bạn có thể loại bỏ các hình mờ không mong muốn theo chương trình hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước hoặc nội dung văn bản của chúng để phù hợp với yêu cầu cụ thể của bạn.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Tìm hình mờ hình ảnh được đặt trong DOCX
 
-        // Xây dựng Watermarker đi qua đường dẫn DOCX
+        // Xây dựng đường dẫn Watermarker đi qua DOCX
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Tìm hình mờ bằng các tùy chọn tìm kiếm

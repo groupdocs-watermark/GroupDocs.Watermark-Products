@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: vi
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tài liệu kinh doanh an toàn: Tạo hình mờ cho Excel định dạng"
+    title: "Tài liệu kinh doanh an toàn: Tạo hình mờ cho định dạng Excel"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Chèn API của chúng tôi vào các ứng dụng của bạn và tạo hình mờ cho nhiều định dạng tệp được hỗ trợ.
+      Tăng cường bảo mật tài liệu của bạn với **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Đưa API của chúng tôi vào ứng dụng của bạn và tạo hình mờ cho nhiều định dạng tệp được hỗ trợ.
       
-      1. **Bắt đầu đánh dấu mờ:** Bắt đầu xử lý tài liệu với lạng**Watermarker** cung cấp các tính năng chính của chúng tôi. Tạo khởi tạo nó bằng cách chuyển cho hàm tạo tệp Excel được cho là được bảo mật bằng hình mờ được tạo ra.
-      2. **Tạo đối tượng Hình mờ chính:** Nâng cao tài liệu của bạn bằng cách điêu khắc các đối tượng** Watermark** đặt riêng. Ngoài các trang đơn thuần, chúng tích hợp liền mạch vào các yếu tố gốc như tệp đính kèm hoặc tiêu đề, thêm các lớp bảo mật và tính chuyên nghiệp.
-      3. **Tinh chỉnh thuộc tính hình mờ:** Tinh chỉnh hình mờ của bạn với độ chính xác, điều chỉnh kích thước, căn chỉnh và phối màu. Mỗi chi tiết nâng cao tính toàn vẹn của tài liệu, làm cho các tệp của bạn không thể nhầm lẫn với bạn.
-      4. **Thực hiện với độ chính xác:** Sử dụng phương thức** Watermarker** để áp dụng hình mờ tùy chỉnh của bạn một cách hoàn hảo. Cho dù số ít hay nhiều, mỗi hình mờ sẽ thêm một lớp bảo vệ bổ sung. Để tăng cường bảo mật, hãy cân nhắc lưu trữ tài liệu đã xử lý của bạn ở một vị trí riêng biệt, an toàn.
+      1. **Bắt đầu tạo hình mờ:** Bắt đầu xử lý tài liệu với lớp **Watermarker** cung cấp các tính năng chính của chúng tôi. Khởi tạo nó bằng cách chuyển đến hàm tạo tệp Excel được cho là được bảo mật bằng hình mờ được tạo.
+      2. **Tạo đối tượng Hình chìm mờ chính:** Nâng cao tài liệu của bạn bằng cách điêu khắc các đối tượng **Watermark** riêng. Ngoài các trang đơn thuần, chúng còn tích hợp liền mạch vào các phần tử gốc như tệp đính kèm hoặc tiêu đề, thêm các lớp bảo mật và tính chuyên nghiệp.
+      3. **Tinh chỉnh các thuộc tính hình mờ:** Tinh chỉnh hình mờ của bạn một cách chính xác, điều chỉnh kích thước, căn chỉnh và phối màu. Mỗi chi tiết đều nâng cao tính toàn vẹn của tài liệu, làm cho các tập tin của bạn không thể nhầm lẫn được.
+      4. **Triển khai chính xác:** Sử dụng phương pháp **Watermarker** để áp dụng hình mờ tùy chỉnh của bạn một cách hoàn hảo. Dù là số ít hay nhiều, mỗi hình mờ đều bổ sung thêm một lớp bảo vệ. Để tăng cường bảo mật, hãy cân nhắc việc lưu trữ các tài liệu đã xử lý của bạn ở một vị trí riêng biệt, an toàn.
    
     code:
       platform: "net"
@@ -69,14 +69,14 @@ steps:
 
         // Tạo hình mờ văn bản cho EXCEL
 
-        // Chuyển tệp nguồn đến phiên bản Watermarker
+        // Truyền tệp nguồn tới phiên bản Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
         // Tạo hình mờ văn bản và đặt các tùy chọn của nó
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // Lấy kết quả EXCEL
+        // Nhận được kết quả EXCEL
         watermarker.add(watermark);
         watermarker.save("output.xslx");
         

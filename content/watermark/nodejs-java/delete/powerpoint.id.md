@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: id
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint Penghapusan Watermark menggunakan Node.js via Java"
+    title: "Powerpoint Penghapusan Tanda Air menggunakan Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** menyediakan Node.js via Java pengembang dengan API komprehensif untuk penghapusan terprogram tanda air tertentu yang tertanam dalam berbagai dokumen Powerpoint. Panduan ini mempelajari proses teknis:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** melengkapi pengembang Node.js via Java dengan API komprehensif untuk penghapusan terprogram atas tanda air tertentu yang tertanam dalam berbagai dokumen Powerpoint. Panduan ini mendalami proses teknisnya:
       
-      1. **Watermarker** dan menyediakan file Powerpoint Anda sebagai argumen konstruktor. File dapat diberikan sebagai aliran byte, aliran file, atau referensi jalur ke lokasi disk lokal.
-      2. **SearchCriteria**. Objek ini memfasilitasi pembangunan filter rumit berdasarkan properti yang sebelumnya disematkan dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian di samping teks atau atribut pemformatan untuk mengaktifkan proses pemilihan yang sangat terperinci.
-      3. Setelah pelaksanaan pencarian, Anda akan menerima koleksi tanda air yang diidentifikasi. Tanda air ini dapat dihapus dengan mudah.
-      4. Setelah penghapusan tanda air berhasil, pertahankan dokumen yang dimodifikasi. API menyediakan fleksibilitas penyimpanan, memungkinkan Anda untuk menggunakan jalur file lokal atau objek aliran untuk output akhir.
+      1. Mulailah alur kerja dengan membuat instance kelas **Watermarker** dan menyediakan file Powerpoint Anda sebagai argumen konstruktor. File dapat diberikan sebagai aliran byte, aliran file, atau referensi jalur ke lokasi disk lokal.
+      2. Untuk mencapai penargetan tanda air yang tepat, manfaatkan kemampuan objek **SearchCriteria**. Objek ini memfasilitasi konstruksi filter rumit berdasarkan properti yang sebelumnya tertanam dalam dokumen. Anda dapat memanfaatkan gambar sebagai parameter pencarian bersama teks atau atribut pemformatan untuk memungkinkan proses pemilihan yang sangat terperinci.
+      3. Setelah pencarian dilakukan, Anda akan menerima kumpulan tanda air yang teridentifikasi. Tanda air ini dapat dihapus dengan mudah.
+      4. Setelah penghapusan tanda air berhasil, pertahankan dokumen yang diubah. API memberikan fleksibilitas penyimpanan, memungkinkan Anda memanfaatkan jalur file lokal atau objek aliran untuk hasil akhir.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Hapus tanda air teks dalam dokumen Powerpoint
+        // Hapus tanda air teks di dokumen Powerpoint
 
-        // Buat Instantiasi Watermarker dengan dokumen Powerpoint
+        // Buat instance Watermarker dengan dokumen Powerpoint
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // Watermark teks yang jelas sesuai dengan kondisi pencarian
+        // Tanda air teks yang jelas sesuai dengan kondisi pencarian
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);

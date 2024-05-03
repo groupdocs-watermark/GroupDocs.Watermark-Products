@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: fr
 format: Webp
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Techniques avancées : ajout de filigranes à Webp documents via Java"
+    title: "Techniques avancées : ajout de filigranes aux documents Webp via Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Explorer les techniques avancées de filigrane pour les documents Webp avec **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Cette étape fondamentale ouvre la voie à l'amélioration des documents Webp avec des filigranes. Fournissez le fichier Webp au constructeur, sous forme de chemin ou d'objet de flux.
-      2. **Watermark** adaptés à vos spécifications. Ces entités polyvalentes offrent un positionnement précis non seulement sur les pages de document désignées, mais également dans les éléments natifs tels que les pièces jointes ou les en-têtes.
-      3. Affinez votre processus de filigrane en ajustant des propriétés telles que les dimensions, l'alignement, les styles de police et les couleurs. Ce niveau de personnalisation vous permet de créer des filigranes qui complètent parfaitement l'esthétique de votre document.
-      4. **Watermarker** pour appliquer les filigranes nouvellement créés sur vos documents. Profitez de la flexibilité d'ajouter plusieurs filigranes selon vos besoins. Pour conserver les documents, pensez à les enregistrer dans un endroit sécurisé.
+      1. Démarrez votre processus de filigrane en initialisant la classe **Watermarker**. Cette étape fondamentale prépare le terrain pour améliorer les documents Webp avec des filigranes. Fournissez le fichier Webp au constructeur, sous forme de chemin ou d'objet de flux.
+      2. Passez au niveau suivant en créant des objets **Watermark** adaptés à vos spécifications. Ces entités polyvalentes offrent un placement précis non seulement sur les pages de document désignées, mais également au sein d'éléments natifs tels que les pièces jointes ou les en-têtes.
+      3. Affinez votre processus de filigrane en ajustant les propriétés telles que les dimensions, l'alignement, les styles de police et les couleurs. Ce niveau de personnalisation vous permet de créer des filigranes qui complètent parfaitement l'esthétique de votre document.
+      4. Utilisez la méthode **Watermarker** pour appliquer les filigranes nouvellement créés sur vos documents. Profitez de la flexibilité d’ajouter plusieurs filigranes selon vos besoins. Pour conserver les documents, pensez à les sauvegarder dans un endroit sécurisé.
    
     code:
       platform: "net"
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // Ajouter un filigrane d'image à WEBP
 
-        // Transmettre le fichier à filigraner au filigrane
+        // Transmettre le fichier à filigraner à Watermarker
         Watermarker watermarker = new Watermarker("input.webp");
         
-        // Fournir un chemin vers l'image avec un filigrane
+        // Fournir le chemin d'accès à l'image avec filigrane
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // Enregistrer le résultat

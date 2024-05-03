@@ -1,19 +1,19 @@
 {
   "examples": {
     "comment_1": "Mettre à jour le filigrane de texte {{FileFormatUp}}",
-    "comment_2": "Fournir une instance de filigrane pour le fichier {{FileFormatUp}}",
-    "comment_3": "Utilisez TextSearchCriteria pour rechercher des filigranes de texte",
-    "comment_4": "Mettre à jour le filigrane de texte",
+    "comment_2": "Fournir une instance {{TextWatermarker}} pour le fichier {{FileFormatUp}}",
+    "comment_3": "Utilisez {{TextTextSearchCriteria}} pour rechercher des filigranes de texte",
+    "comment_4": "Mettre à jour le filigrane du texte",
     "comment_5": "Profitez du résultat"
   },
   "steps": {
     "title": "Mettre à jour les filigranes dans {{FileFormatUp}} via {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fournit aux développeurs {{EnvName}} une API robuste pour mettre à jour par programmation les filigranes dans divers documents {{FileFormatUp}}. Ce guide décrit le processus :",
-      "step_1": "**Watermarker**. En fonction de vos besoins, le fichier peut être fourni sous forme de flux ou de référence à un emplacement de disque local.",
-      "step_2": "**SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet de localiser les filigranes en fonction des propriétés souhaitées.",
-      "step_3": "Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de mettre à jour des propriétés telles que les dimensions, le positionnement des pages, le contenu du texte, la palette de couleurs, les données d'image, etc.",
-      "step_4": "Une fois les mises à jour des filigranes terminées, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** équipe les développeurs {{EnvName}} d'une API robuste pour mettre à jour par programmation les filigranes dans divers documents {{FileFormatUp}}. Ce guide décrit le processus :",
+      "step_1": "Démarrez le processus en fournissant votre fichier {{FileFormatUp}} comme argument au constructeur de classe {{TextWatermarkerBold}}. En fonction de vos demandes, le fichier peut être fourni sous forme de flux ou de référence à un emplacement de disque local.",
+      "step_2": "Ensuite, exploitez l'objet {{TextSearchCriteriaBold}} pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet de localiser les filigranes en fonction des propriétés souhaitées.",
+      "step_3": "Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de mettre à jour des propriétés telles que les dimensions, le positionnement de la page, le contenu du texte, la palette de couleurs, les données d'image, etc.",
+      "step_4": "Une fois les mises à jour des filigranes terminées, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux."
     }
   },
   "more_features": {

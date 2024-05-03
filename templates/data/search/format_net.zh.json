@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "查找放在 {{FileFormatUp}} 中的图像水印",
-    "comment_2": "构造通过 {{FileFormatUp}} 路径的 Watermarker",
+    "comment_1": "查找放置在 {{FileFormatUp}} 中的图像水印",
+    "comment_2": "构造 {{TextWatermarker}} 传递 {{FileFormatUp}} 路径",
     "comment_3": "使用搜索选项查找水印",
     "comment_4": "处理水印信息"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 高效查找 {{FileformatCap}} 个水印",
+    "title": "使用 {{EnvName}} 高效查找 {{FileformatCap}} 水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 为以编程方式在各种业务文档格式中查找水印提供了强大的解决方案。将我们的软件包集成到您的 {{EnvName}} 应用程序中，为它们提供水印查找功能。",
-      "step_1": "**Watermarker**类并提供 {{FileformatCap}} 文件路径、文件流或字节流作为输入。此操作加载文档以进行水印分析。",
-      "step_2": "**SearchCriteria** 对象。指定用于定位相似图像水印的图像。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数以细化搜索条件。",
-      "step_3": "**水印**对象的**搜索**方法在加载的文档中启动水印检测过程。此函数返回代表潜在水印的对象集合，从而可以进行进一步处理。",
-      "step_4": "检索到的水印对象集合可让您精确控制。您可以通过编程方式删除不需要的水印或动态修改其属性，例如调整其大小或文本内容，以满足您的特定要求。"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 提供了一个强大的解决方案，用于以编程方式在各种业务文档格式中查找水印。将我们的软件包集成到您的 {{EnvName}} 应用程序中，为它们提供水印查找功能。",
+      "step_1": "要利用我们库的功能，请实例化 {{TextWatermarkerBold}} 类并提供 {{FileformatCap}} 文件路径、文件流或字节流作为输入。此操作加载文档以进行水印分析。",
+      "step_2": "对于有针对性的水印识别，请利用 {{TextSearchCriteriaBold}} 对象。指定图像以查找相似图像水印。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数以细化搜索条件。",
+      "step_3": "使用 {{TextWatermarkerBold}} 对象的 {{TextSearchBold}} 方法在加载的文档中启动水印检测过程。此函数返回表示潜在水印的对象集合，以便进行进一步处理。",
+      "step_4": "检索到的水印对象集合使您能够精确控制。您可以通过编程方式删除不需要的水印或动态修改其属性，例如调整其大小或文本内容，以满足您的特定要求。"
     }
   },
   "more_features": {

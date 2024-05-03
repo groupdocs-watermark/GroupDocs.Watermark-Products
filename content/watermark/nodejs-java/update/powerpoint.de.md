@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: de
 format: Powerpoint
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Wasserzeichen in POWERPOINT über Node.js via Java aktualisieren"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** stattet Node.js via Java Entwickler mit einer robusten API für die programmatische Aktualisierung von Wasserzeichen in verschiedenen POWERPOINT Dokumenten aus. Dieses Handbuch beschreibt den Prozess:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** stattet Node.js via Java-Entwickler mit einer robusten API für die programmgesteuerte Aktualisierung von Wasserzeichen in verschiedenen POWERPOINT-Dokumenten aus. Dieser Leitfaden beschreibt den Prozess:
       
-      1. **Watermarker** angeben. Je nach Ihren Anforderungen kann die Datei entweder als Stream oder als Referenz auf einen lokalen Festplattenspeicherort bereitgestellt werden.
-      2. **SearchCriteria**, um die spezifischen Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses Objekt ermöglicht die Lokalisierung von Wasserzeichen auf der Grundlage der gewünschten Eigenschaften.
-      3. Nach erfolgreicher Ausführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr aktualisieren können.
-      4. Behalten Sie das geänderte Dokument nach Abschluss der Wasserzeichenaktualisierungen bei. Die API erleichtert die Speicherung entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts.
+      1. Starten Sie den Prozess, indem Sie Ihre POWERPOINT-Datei als Argument für den Klassenkonstruktor **Watermarker** bereitstellen. Abhängig von Ihren Anforderungen kann die Datei entweder als Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
+      2. Anschließend nutzen Sie das Objekt **SearchCriteria**, um die spezifischen Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses Objekt ermöglicht die Lokalisierung von Wasserzeichen anhand der gewünschten Eigenschaften.
+      3. Nach erfolgreicher Durchführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle und ermöglichen Ihnen die Aktualisierung von Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr.
+      4. Nach Abschluss der Wasserzeichenaktualisierungen behalten Sie das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // POWERPOINT Textwasserzeichen aktualisieren
+        // Aktualisieren Sie das Textwasserzeichen POWERPOINT
 
-        // Stellen Sie eine Watermarker-Instanz für die Datei POWERPOINT bereit
+        // Stellen Sie die Instanz Watermarker für die Datei POWERPOINT bereit
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
         // Verwenden Sie TextSearchCriteria, um Textwasserzeichen zu finden
@@ -83,7 +83,7 @@ steps:
             watermark.setText("passed");
         }
 
-        // Genieße das Ergebnis
+        // Genießen Sie das Ergebnis
         watermarker.save("output.pptx");
         
         ```            

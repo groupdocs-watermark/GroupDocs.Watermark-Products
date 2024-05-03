@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: fr
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Obtenez efficacement des filigranes dans Powerpoint fichiers en GroupDocs.Watermark"
+    title: "Obtenez efficacement des filigranes dans les fichiers Powerpoint par GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** rationalise le processus de récupération des filigranes intégrés dans différents formats de documents commerciaux. Intégrez GroupDocs.Watermark de manière fluide à vos Node.js via Java applications pour les doter de puissantes fonctionnalités de détection des filigranes.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** rationalise le processus de récupération des filigranes intégrés dans divers formats de documents commerciaux. Intégrez de manière transparente GroupDocs.Watermark dans vos applications Node.js via Java pour leur doter de fonctionnalités robustes de détection de filigrane.
       
-      1. **Watermarker** et fournissez le chemin de fichier, le flux de fichiers ou le flux d'octets Powerpoint en entrée. Cette action charge le document pour analyse des filigranes.
-      2. **SearchCriteria**. Spécifiez une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.
-      3. **Get** de l'objet **Watermarker** pour lancer le processus de détection des filigranes dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui permet un traitement ultérieur.
-      4. La collection d'objets en filigrane récupérée vous offre de nombreuses possibilités. Vous pouvez supprimer les filigranes indésirables ou modifier leurs propriétés. Modifiez le contenu, déplacez un filigrane sur une page et bien d'autres choses encore.
+      1. Pour profiter des fonctionnalités de GroupDocs.Watermark, instanciez la classe **Watermarker** et fournissez le chemin de fichier Powerpoint, le flux de fichiers ou le flux d'octets en entrée. Cette action charge le document pour l'analyse du filigrane.
+      2. Pour une identification ciblée du filigrane, utilisez l'objet **SearchCriteria**. Spécifiez une image pour localiser des filigranes d’image similaires. Alternativement, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.
+      3. Utilisez la méthode **Search** de l'objet **Watermarker** pour lancer le processus de détection de filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, permettant un traitement ultérieur.
+      4. La collection récupérée d'objets en filigrane vous offre de nombreuses possibilités. Vous pouvez supprimer les filigranes indésirables ou modifier leurs propriétés. Changer le contenu, déplacer un filigrane sur une page, et bien d'autres.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Obtenir la liste des filigranes textuels pour POWERPOINT
+        // Obtenir la liste des filigranes de texte pour POWERPOINT
 
-        // Classe Instantiate Watermarker
+        // Instancier la classe Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // Obtenir des filigranes selon des critères de texte
+        // Obtenez des filigranes par critères de texte
         const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
 

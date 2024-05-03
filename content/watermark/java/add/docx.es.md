@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: es
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Técnicas avanzadas: agregar marcas de agua a Docx documentos mediante Java"
+    title: "Técnicas avanzadas: agregar marcas de agua a documentos Docx a través de Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Explorando técnicas avanzadas de marcas de agua para documentos Docx con **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Este paso fundamental sienta las bases para mejorar Docx documentos con marcas de agua. Proporcione el archivo Docx al constructor, ya sea como una ruta o un objeto de flujo.
-      2. **Watermark** adaptados a tus especificaciones. Estas versátiles entidades ofrecen una ubicación precisa no solo en las páginas de documentos designadas, sino también dentro de los elementos nativos, como los archivos adjuntos o los encabezados.
-      3. Refina tu proceso de creación de marcas de agua ajustando propiedades como las dimensiones, la alineación, los estilos de fuente y los colores. Este nivel de personalización le permite crear marcas de agua que complementan perfectamente la estética de su documento.
-      4. **Watermarker** para aplicar las marcas de agua recién creadas a sus documentos. Disfrute de la flexibilidad de agregar varias marcas de agua según sus necesidades. Para conservar los documentos, considere guardarlos en un lugar seguro.
+      1. Inicie su proceso de creación de marcas de agua inicializando la clase **Watermarker**. Este paso fundamental sienta las bases para mejorar los documentos Docx con marcas de agua. Proporcione el archivo Docx al constructor, ya sea como una ruta o como un objeto de secuencia.
+      2. Avance al siguiente nivel creando objetos **Watermark** adaptados a sus especificaciones. Estas entidades versátiles ofrecen una ubicación precisa no solo en páginas de documentos designadas sino también dentro de elementos nativos como archivos adjuntos o encabezados.
+      3. Refine su proceso de creación de marcas de agua ajustando propiedades como dimensiones, alineación, estilos de fuente y colores. Este nivel de personalización le permite crear marcas de agua que complementan perfectamente la estética de sus documentos.
+      4. Utilice el método **Watermarker** para aplicar las marcas de agua recién creadas en sus documentos. Disfrute de la flexibilidad de agregar múltiples marcas de agua según sus requisitos. Para conservar los documentos, considere guardarlos en un lugar seguro.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Añadir marca de agua de imagen a DOCX
+        // Agregar marca de agua de imagen a DOCX
 
-        // Pase el archivo a marcar con una marca de agua a Watermarker
+        // Pase el archivo al que se le aplicará la marca de agua a Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // Proporcione la ruta a la imagen con una marca de agua
+        // Proporcionar ruta a la imagen con marca de agua.
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // Guardar resultado

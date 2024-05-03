@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: vi
 format: Image
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Nâng cao tài liệu của bạn: Tạo hình mờ cho Image bằng cách sử dụng .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** là một thư viện đơn giản hóa việc thêm hình mờ vào các định dạng tệp kinh doanh khác nhau cho .NET nhà phát triển. Tích hợp thư viện của chúng tôi vào ứng dụng của bạn và dễ dàng tạo hình mờ các tài liệu bằng các bước sau:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** là thư viện giúp đơn giản hóa việc thêm hình mờ vào các định dạng tệp doanh nghiệp khác nhau dành cho nhà phát triển .NET. Tích hợp thư viện của chúng tôi vào ứng dụng của bạn và dễ dàng tạo hình mờ cho tài liệu bằng các bước sau:
       
-      1. **Bắt đầu hành trình đánh dấu hình mờ của bạn:** Bắt đầu bằng cách tự làm quen với lớp **Watermarker**, nền tảng của API của chúng tôi. Để bắt đầu quá trình, hãy đảm bảo bạn khởi tạo nó trước khi xử lý tài liệu. Đừng bỏ qua tầm quan trọng của việc cung cấp tệp Image cho hàm tạo, cho dù đó là đường dẫn hay đối tượng luồng.
-      2. **Tạo hình mờ tùy chỉnh:** Chuyển sang giai đoạn tiếp theo bằng cách tạo đối tượng **Watermark** phù hợp với thông số kỹ thuật của bạn. Công cụ linh hoạt này không giới hạn ở các trang tài liệu cụ thể; nó cũng có thể được tích hợp liền mạch vào các yếu tố tài liệu gốc như tệp đính kèm hoặc tiêu đề.
-      3. **Tinh chỉnh Thuộc tính hình mờ:** Tinh chỉnh trải nghiệm hình mờ của bạn bằng cách điều chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh trang, họ phông chữ và màu sắc. Mức độ tùy chỉnh này đảm bảo hình mờ của bạn kết hợp liền mạch với tài liệu của bạn.
-      4. **Áp dụng hình mờ của bạn:** Sử dụng phương thức **Watermarker** để dễ dàng áp dụng hình mờ tùy chỉnh của bạn cho tài liệu của bạn. Cho dù bạn cần thêm một hoặc nhiều hình mờ, quy trình này mang lại sự linh hoạt. Để tăng cường bảo mật, hãy cân nhắc lưu tài liệu đã xử lý của bạn ở một vị trí riêng biệt.
+      1. **Bắt đầu hành trình tạo hình mờ của bạn:** Bắt đầu bằng cách làm quen với lớp **Watermarker**, nền tảng API của chúng tôi. Để bắt đầu quá trình, hãy đảm bảo bạn khởi tạo nó trước khi xử lý tài liệu. Đừng bỏ qua tầm quan trọng của việc cung cấp tệp Image cho hàm tạo, cho dù đó là đường dẫn hay đối tượng luồng.
+      2. **Tạo hình mờ tùy chỉnh:** Chuyển sang giai đoạn tiếp theo bằng cách tạo đối tượng **Watermark** phù hợp với thông số kỹ thuật của bạn. Công cụ linh hoạt này không giới hạn ở các trang tài liệu cụ thể; nó cũng có thể được tích hợp liền mạch vào các thành phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.
+      3. **Tinh chỉnh thuộc tính hình mờ:** Tinh chỉnh trải nghiệm hình mờ của bạn bằng cách điều chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh trang, họ phông chữ và màu sắc. Mức độ tùy chỉnh này đảm bảo hình mờ của bạn kết hợp hoàn hảo với tài liệu của bạn.
+      4. **Áp dụng hình mờ của bạn:** Sử dụng phương pháp **Watermarker** để dễ dàng áp dụng hình mờ tùy chỉnh cho tài liệu của bạn. Cho dù bạn cần thêm một hay nhiều hình mờ, quy trình này đều mang lại sự linh hoạt. Để tăng cường bảo mật, hãy cân nhắc việc lưu tài liệu đã xử lý của bạn ở một vị trí riêng.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Tạo hình mờ văn bản trong tập tin IMAGE
+        // Tạo hình mờ văn bản trong tệp IMAGE
 
-        // Cung cấp tệp để được đánh dấu
+        // Cung cấp tập tin được đóng dấu mờ
         using (Watermarker watermarker = new Watermarker("input.jpeg"))
         {
             // Tạo phiên bản hình mờ văn bản
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Lưu IMAGE kết quả
+            // Lưu kết quả IMAGE
             watermarker.Save("output.jpeg");
         }
         

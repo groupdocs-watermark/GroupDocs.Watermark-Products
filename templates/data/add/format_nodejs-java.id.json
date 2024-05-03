@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Hasilkan tanda air gambar untuk {{FileFormatUp}}",
-    "comment_2": "Instantiate Watermarker yang meneruskan file sumber",
+    "comment_1": "Buat tanda air gambar untuk {{FileFormatUp}}",
+    "comment_2": "Buat instance {{TextWatermarker}} yang meneruskan file sumber",
     "comment_3": "Hasilkan tanda air dengan menyediakan file gambar",
     "comment_4": "Dapatkan hasil {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Lindungi Dokumen Bisnis: Hasilkan {{FileformatCap}} Watermark",
+    "title": "Lindungi Dokumen Bisnis: Hasilkan Tanda Air {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** - Solusi Pembuatan Tanda Air yang Kuat untuk {{EnvName}}.",
-      "step_1": "**Merampingkan Watermarking Aman di Aplikasi {{EnvName}} Anda:** Kelas **Watermarker** bertindak sebagai komponen inti dari {{ProdShortName}} API. Pustaka ini menyederhanakan pembuatan tanda air berbagai format dokumen, termasuk {{FileformatCap}}. Untuk memulai, buat instance Watermarker sebelum memproses dokumen Anda. Berikan jalur file {{FileformatCap}} atau objek aliran ke konstruktor selama inisialisasi.",
-      "step_2": "**Hasilkan Watermark untuk Perlindungan yang Ditingkatkan:** Berdayakan tanda air yang selaras dengan kebutuhan keamanan Anda. Buat objek**Watermark** yang menentukan jenis yang diinginkan. Tidak seperti penempatan halaman tradisional, Anda dapat menyematkan tanda air dalam elemen dokumen asli seperti header atau lampiran, memperkuat keamanan dokumen dan menambahkan sentuhan profesional.",
-      "step_3": "**Sempurnakan Penampilan Tanda Air untuk Dampak Optimal:** Kontrol aspek visual tanda air Anda. Sesuaikan properti seperti tinggi, lebar, keselarasan (atas, kiri, tengah, dll.), keluarga font, dan warna untuk mencapai hasil yang efektif secara visual dan konsisten yang memperkuat legitimasi dokumen.",
-      "step_4": "**Aplikasi Tanda Air dan Penyimpanan Aman**: Gabungkan tanda air Anda menggunakan metode**WaterMarker's**. Perpustakaan memungkinkan Anda menambahkan beberapa tanda air jika perlu untuk perlindungan yang ditingkatkan. Disarankan untuk menyimpan dokumen {{FileformatCap}} yang dimodifikasi ke lokasi terpisah dan aman untuk mempertahankan file asli dan melindungi dokumen yang diberi tanda air."
+      "title": "Perkuat Keamanan Dokumen dengan **[{{ProdFullName}}]({{ProductUrl}}):** - Solusi Pembuatan Tanda Air yang Ampuh untuk {{EnvName}}.",
+      "step_1": "**Sederhanakan Watermarking Aman di Aplikasi {{EnvName}} Anda:** Kelas {{TextWatermarkerBold}} bertindak sebagai komponen inti API {{ProdShortName}}. Pustaka ini menyederhanakan pembuatan tanda air dalam berbagai format dokumen, termasuk {{FileformatCap}}. Untuk memulai, buat instance Watermarker sebelum memproses dokumen Anda. Berikan jalur file {{FileformatCap}} atau objek aliran ke konstruktor selama inisialisasi.",
+      "step_2": "**Hasilkan Tanda Air untuk Perlindungan yang Lebih Baik:** Berdayakan tanda air yang selaras dengan kebutuhan keamanan Anda. Buatlah objek {{TextWatermarkBold}} yang menentukan tipe yang diinginkan. Tidak seperti penempatan halaman tradisional, Anda dapat menyematkan tanda air dalam elemen dokumen asli seperti header atau lampiran, memperkuat keamanan dokumen dan menambahkan sentuhan profesional.",
+      "step_3": "**Sempurnakan Tampilan Tanda Air untuk Dampak Optimal:** Kontrol aspek visual tanda air Anda. Sesuaikan properti seperti tinggi, lebar, perataan (atas, kiri, tengah, dll.), kelompok font, dan warna untuk mencapai hasil visual yang efektif dan konsisten yang memperkuat legitimasi dokumen.",
+      "step_4": "**Aplikasi Tanda Air dan Penyimpanan Aman**: Gabungkan tanda air Anda menggunakan metode {{TextWatermarkerBold}}. Perpustakaan memungkinkan Anda menambahkan beberapa tanda air jika diperlukan untuk meningkatkan perlindungan. Sebaiknya simpan dokumen {{FileformatCap}} yang telah diubah ke lokasi terpisah dan aman untuk menyimpan file asli dan mengamankan dokumen yang diberi watermark."
     }
   },
   "more_features": {

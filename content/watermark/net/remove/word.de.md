@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: de
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Wasserzeichen aus Word Dokumenten mit .NET entfernen"
+    title: "Entfernen Sie Wasserzeichen aus Word-Dokumenten mit .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** vereinfacht das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Verbessern Sie Ihre .NET -Anwendung, indem Sie unsere Bibliothek integrieren und die folgenden einfachen Schritte befolgen:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** vereinfacht das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Stärken Sie Ihre .NET-Anwendung, indem Sie unsere Bibliothek integrieren und diese einfachen Schritte befolgen:
       
-      1. **Watermarker** mit dem Word -Dokument. Unsere API unterstützt die Verarbeitung von Dokumenten, die entweder als Stream oder als lokaler Pfad bereitgestellt werden.
-      2. **Suchkriterien**, um die Menge der zu verarbeitenden Wasserzeichen einzugrenzen. Sie können verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen verwenden. Je spezifischer die von Ihnen angegebenen Suchparameter sind, desto genauer sind die Ergebnisse, die Sie erhalten.
-      3. Verarbeiten Sie die Liste der Dokumentwasserzeichen, die Sie als Suchergebnis erhalten haben, und entfernen Sie sie aus dem Dokument.
+      1. Beginnen Sie mit der Instanziierung der Hauptklasse **Watermarker** mit dem Dokument Word. Unsere API unterstützt die Verarbeitung von Dokumenten, die entweder als Stream oder als lokaler Pfad bereitgestellt werden.
+      2. Verwenden Sie **SearchCriteria**, um den Satz der zu verarbeitenden Wasserzeichen einzugrenzen. Sie können verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen verwenden. Je spezifischer die von Ihnen eingegebenen Suchparameter sind, desto präzisere Ergebnisse erhalten Sie.
+      3. Verarbeiten Sie die als Suchergebnis erhaltene Liste der Dokumentwasserzeichen und entfernen Sie sie aus dem Dokument.
       4. Speichern Sie das resultierende Dokument nach dem Entfernen der Wasserzeichen als lokale Datei oder als Bytestream.
    
     code:
@@ -67,19 +67,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Textwasserzeichen aus Word Dokument entfernen
+        // Textwasserzeichen aus dem Word-Dokument entfernen
 
-        // Stellen Sie eine Watermarker-Instanz für das Quelldokument des Dokuments Word bereit
+        // Stellen Sie die Instanz Watermarker für das Quelldokument des Dokuments Word bereit
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Ausgewählte Wasserzeichen aus dem Dokument entfernen
+            // Entfernen Sie ausgewählte Wasserzeichen aus dem Dokument
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.FontBold = true;
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
 
-            // Datei im angegebenen Pfad speichern
+            // Speichern Sie die Datei im angegebenen Pfad
             watermarker.Save("output.docx");
         }
         

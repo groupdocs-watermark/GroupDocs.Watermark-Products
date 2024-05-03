@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Genera filigrana dell'immagine per {{FileFormatUp}}",
-    "comment_2": "Istanziare Watermarker passando il file sorgente",
-    "comment_3": "Genera filigrana fornendo un file di immagine",
-    "comment_4": "Ottieni {{FileFormatUp}} risultati"
+    "comment_1": "Genera filigrana immagine per {{FileFormatUp}}",
+    "comment_2": "Crea un'istanza di {{TextWatermarker}} passando il file sorgente",
+    "comment_3": "Genera filigrana fornendo il file immagine",
+    "comment_4": "Ottieni il risultato {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Proteggi i documenti aziendali: genera {{FileformatCap}} filigrane",
+    "title": "Proteggi i documenti aziendali: genera filigrane {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** - Una potente soluzione per la generazione di filigrane per {{EnvName}}.",
-      "step_1": "**Semplifica la filigrana sicura nelle tue applicazioni {{EnvName}}:** La classe **Watermarker** funge da componente principale dell'API {{ProdShortName}}. Questa libreria semplifica la generazione di filigrane in vari formati di documento, tra cui {{FileformatCap}}. Per iniziare, crea un'istanza Watermarker prima di elaborare il documento. Fornisci il percorso del file {{FileformatCap}} o un oggetto stream al costruttore durante l'inizializzazione.",
-      "step_2": "**Genera filigrane per una protezione avanzata:** Potenzia le filigrane che si allineano perfettamente alle tue esigenze di sicurezza. Costruisci un oggetto **Watermark** specificando il tipo desiderato. A differenza del posizionamento tradizionale delle pagine, puoi incorporare filigrane all'interno di elementi nativi del documento, come intestazioni o allegati, rafforzando la sicurezza dei documenti e aggiungendo un tocco professionale.",
-      "step_3": "**Ottimizza l'aspetto della filigrana per un impatto ottimale:** Controlla gli aspetti visivi delle tue filigrane. Personalizza proprietà come altezza, larghezza, allineamento (in alto, a sinistra, al centro, ecc.), famiglie di caratteri e colori per ottenere un risultato visivamente efficace e coerente che rafforzi la legittimità dei documenti.",
-      "step_4": "**Applicazione Watermark e Secure Storage**: incorpora le filigrane utilizzando il metodo **Watermarker's**. La libreria consente di aggiungere più filigrane se necessario per una maggiore protezione. Si consiglia di salvare il documento {{FileformatCap}} modificato in una posizione separata e sicura per preservare il file originale e salvaguardare i documenti con filigrana."
+      "title": "Rafforza la sicurezza dei documenti con **[{{ProdFullName}}]({{ProductUrl}}):** - Una potente soluzione per la generazione di filigrane per {{EnvName}}.",
+      "step_1": "**Semplifica la filigrana sicura nelle tue applicazioni {{EnvName}}:** la classe {{TextWatermarkerBold}} funge da componente principale dell'API {{ProdShortName}}. Questa libreria semplifica la generazione di filigrane in vari formati di documenti, tra cui {{FileformatCap}}. Per iniziare, crea un'istanza Watermarker prima di elaborare il documento. Fornire il percorso del file {{FileformatCap}} o un oggetto flusso al costruttore durante l'inizializzazione.",
+      "step_2": "**Genera filigrane per una protezione avanzata:** potenzia le filigrane che si allineano perfettamente alle tue esigenze di sicurezza. Costruisci un oggetto {{TextWatermarkBold}} specificando il tipo desiderato. A differenza del tradizionale posizionamento delle pagine, puoi incorporare filigrane all'interno di elementi nativi del documento come intestazioni o allegati, rafforzando la sicurezza del documento e aggiungendo un tocco professionale.",
+      "step_3": "**Perfeziona l'aspetto della filigrana per un impatto ottimale:** controlla gli aspetti visivi delle tue filigrane. Personalizza proprietà come altezza, larghezza, allineamento (in alto, a sinistra, al centro, ecc.), famiglie di caratteri e colori per ottenere un risultato visivamente efficace e coerente che rafforza la legittimità del documento.",
+      "step_4": "**Applicazione di filigrana e archiviazione sicura**: incorpora le tue filigrane utilizzando il metodo {{TextWatermarkerBold}}. La libreria consente di aggiungere più filigrane, se necessario, per una maggiore protezione. Si consiglia di salvare il documento {{FileformatCap}} modificato in una posizione separata e sicura per preservare il file originale e salvaguardare i documenti con filigrana."
     }
   },
   "more_features": {

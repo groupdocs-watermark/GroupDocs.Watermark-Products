@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: vi
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Điều chỉnh hình mờ trong Excel tài liệu với Java"
+    title: "Điều chỉnh hình mờ trong tài liệu Excel bằng Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** giúp các nhà phát triển Java dễ dàng điều chỉnh hình mờ văn bản trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** giúp nhà phát triển Java dễ dàng điều chỉnh hình mờ văn bản trong ứng dụng của họ bằng cách thực hiện một số bước đơn giản:
       
-      1. **Watermarker**. Bạn có thể cung cấp tệp để xử lý tiếp theo dưới dạng luồng hoặc dưới dạng đường dẫn trên đĩa cục bộ.
-      2. **Tiêu chí tìm kiếm** giúp xác định hình mờ có thuộc tính phù hợp đã được thêm vào tài liệu trước đó.
-      3. **Tìm kiếm**. Điều chỉnh các thuộc tính hình mờ tìm thấy như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v... Có rất nhiều cách để tùy chỉnh dữ liệu của bạn.
-      4. Sau khi hoàn thành quá trình điều chỉnh hình mờ, bạn cần lưu tài liệu cập nhật. Sử dụng đường dẫn tệp cục bộ, tệp hoặc luồng byte để lưu trữ kết quả.
+      1. Tải tệp Excel của bạn vào đối tượng chính của API của chúng tôi có tên là **Watermarker**. Bạn có thể cung cấp tệp để xử lý thêm dưới dạng luồng hoặc dưới dạng đường dẫn trên đĩa cục bộ.
+      2. Bước tiếp theo là xác định vị trí các hình mờ cần được điều chỉnh. **SearchCriteria** giúp xác định hình mờ có thuộc tính phù hợp đã được thêm trước đó vào tài liệu.
+      3. Nhận danh sách các hình mờ phù hợp nhờ quy trình **Search**. Điều chỉnh các thuộc tính hình mờ được tìm thấy như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v. Có rất nhiều cách để tùy chỉnh dữ liệu của bạn.
+      4. Sau khi hoàn tất quá trình điều chỉnh hình mờ, bạn cần lưu tài liệu đã cập nhật. Sử dụng đường dẫn tệp cục bộ, tệp hoặc luồng byte để lưu trữ kết quả.
    
     code:
       platform: "net"
@@ -84,7 +84,7 @@ steps:
 
         // Điều chỉnh hình mờ văn bản EXCEL
 
-        // Thực hiện Watermarker với tài liệu đầu vào EXCEL
+        // Khởi tạo Watermarker bằng tài liệu đầu vào EXCEL
         Watermarker watermarker = new Watermarker("input.xslx");
 
         // Khởi tạo TextSearchCriteria và tìm hình mờ văn bản

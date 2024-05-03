@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: fr
 format: Pptx
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Ajustez les filigranes du document Pptx à l'aide de Java"
+    title: "Ajustez les filigranes de document Pptx à l'aide de Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permet à Java développeurs d'ajuster facilement les filigranes dans de nombreux documents à l'aide de leurs applications. Voici un guide rapide :
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permet aux développeurs Java d'ajuster facilement les filigranes dans de nombreux documents à l'aide de leurs applications. Voici un guide rapide :
       
-      1. **Watermarker**. Indiquez un flux d'octets ou de fichiers ou un chemin de disque local.
-      2. **Critères de recherche** pour identifier les filigranes avec les propriétés spécifiques précédemment ajoutées au document.
-      3. À la suite de la recherche, vous recevrez une liste des filigranes pertinents. Vous pouvez ensuite ajuster leurs propriétés, notamment la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela offre un haut degré de personnalisation de vos données.
+      1. Tout d'abord, vous devez passer le fichier Pptx comme paramètre du constructeur de classe **Watermarker**. Fournissez un flux d’octets ou de fichiers ou un chemin de disque local.
+      2. Deuxièmement, localisez les filigranes qui doivent être ajustés. Utilisez **SearchCriteria** pour identifier les filigranes avec les propriétés spécifiques précédemment ajoutées au document.
+      3. Suite à la recherche, vous recevrez une liste de filigranes pertinents. Vous pouvez ensuite ajuster leurs propriétés, notamment la taille, l'alignement de la page, le texte, la couleur, le contenu de l'image, etc. Cela offre un haut degré de personnalisation de vos données.
       4. Une fois que vous avez fini d'ajuster les filigranes, enregistrez le document mis à jour. Vous pouvez utiliser un chemin de fichier local ou un flux pour stocker le résultat.
    
     code:
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // Ajuster le filigrane de l'image PPTX
 
-        // Instanciez un filigrane avec PPTX
+        // Instancier Watermarker avec PPTX
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // Initialisez les critères de recherche pour qu'ils correspondent à une image particulière
+        // Initialisez le SearchCriteria pour qu'il corresponde à une image particulière
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:16
 draft: false
 lang: es
 format: Tiff
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Proteja los documentos empresariales: genere Tiff marcas de agua"
+    title: "Proteja documentos comerciales: genere Tiff marcas de agua"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :**: una potente solución de generación de marcas de agua para Node.js via Java.
+      Fortalezca la seguridad de los documentos con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):**: una potente solución de generación de marcas de agua para Node.js via Java.
       
-      1. **Optimice la creación de marcas de agua seguras en sus aplicaciones Node.js via Java:** La clase **Watermarker** actúa como el componente principal de la API GroupDocs.Watermark. Esta biblioteca simplifica la generación de marcas de agua en varios formatos de documentos, incluido el Tiff. Para empezar, crea una instancia de Watermarker antes de procesar tu documento. Proporcione la ruta del archivo Tiff o un objeto de flujo al constructor durante la inicialización.
-      2. **Genere marcas de agua para mejorar la protección:** Habilite marcas de agua que se adapten perfectamente a sus necesidades de seguridad. Construya un objeto **Watermark** especificando el tipo deseado. A diferencia de la colocación tradicional de las páginas, puedes incrustar marcas de agua en los elementos nativos del documento, como los encabezados o los archivos adjuntos, lo que refuerza la seguridad de los documentos y añade un toque profesional.
-      3. **Ajusta la apariencia de las marcas de agua para lograr un impacto óptimo:** Controla los aspectos visuales de tus marcas de agua. Personalice propiedades como la altura, el ancho, la alineación (superior, izquierda, centro, etc.), las familias de fuentes y los colores para lograr un resultado visualmente efectivo y coherente que refuerce la legitimidad del documento.
-      4. **Aplicación de marcas de agua y almacenamiento seguro**: incorpore sus marcas de agua mediante el método**Watermarker**. La biblioteca le permite agregar varias marcas de agua si es necesario para mejorar la protección. Se recomienda guardar el documento Tiff modificado en una ubicación separada y segura para conservar el archivo original y proteger los documentos con marcas de agua.
+      1. **Simplifique la creación de marcas de agua seguras en sus aplicaciones Node.js via Java:** La clase **Watermarker** actúa como el componente principal de la API GroupDocs.Watermark. Esta biblioteca simplifica la generación de marcas de agua en varios formatos de documentos, incluido Tiff. Para comenzar, cree una instancia de Watermarker antes de procesar su documento. Proporcione la ruta del archivo Tiff o un objeto de secuencia al constructor durante la inicialización.
+      2. **Genere marcas de agua para una protección mejorada:** Ofrezca marcas de agua que se alineen perfectamente con sus necesidades de seguridad. Construya un objeto **Watermark** especificando el tipo deseado. A diferencia de la ubicación de páginas tradicional, puede incrustar marcas de agua dentro de elementos nativos del documento, como encabezados o archivos adjuntos, fortaleciendo la seguridad del documento y agregando un toque profesional.
+      3. **Ajuste la apariencia de las marcas de agua para lograr un impacto óptimo:** Controle los aspectos visuales de sus marcas de agua. Personalice propiedades como altura, ancho, alineación (arriba, izquierda, centro, etc.), familias de fuentes y colores para lograr un resultado visualmente efectivo y consistente que refuerce la legitimidad del documento.
+      4. **Aplicación de marca de agua y almacenamiento seguro**: incorpore sus marcas de agua utilizando el método **Watermarker**. La biblioteca le permite agregar múltiples marcas de agua si es necesario para una protección mejorada. Se recomienda guardar el documento Tiff modificado en una ubicación segura e independiente para conservar el archivo original y salvaguardar sus documentos con marca de agua.
    
     code:
       platform: "net"
@@ -69,13 +69,13 @@ steps:
 
         // Generar marca de agua de imagen para TIFF
 
-        // Instanciar el archivo fuente de Watermarker pasando
+        // Crear una instancia de Watermarker pasando el archivo fuente
         const watermarker = new groupdocs.watermark.Watermarker("input.tiff");
         
-        // Genere una marca de agua proporcionando un archivo de imagen
+        // Generar marca de agua proporcionando un archivo de imagen
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // Obtenga un resultado de TIFF
+        // Obtener el resultado TIFF
         watermarker.add(watermark);
         watermarker.save("output.tiff");
         

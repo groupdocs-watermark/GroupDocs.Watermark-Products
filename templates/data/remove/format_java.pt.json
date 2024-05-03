@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Imagem clara com marca d'água {{FileFormatUp}} do documento",
-    "comment_2": "Passe o caminho do documento {{FileFormatUp}} para o construtor Watermarker",
+    "comment_1": "Limpar marca d’água de imagem do documento {{FileFormatUp}}",
+    "comment_2": "Passe o caminho do documento {{FileFormatUp}} para o construtor {{TextWatermarker}}",
     "comment_3": "Limpe o documento excluindo uma marca d'água",
     "comment_4": "Salvar arquivo limpo"
   },
   "steps": {
-    "title": "Limpe marcas d'água de {{FileformatCap}} documentos usando {{EnvName}}",
+    "title": "Limpar marcas d'água de documentos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica o processo de remover marcas d'água de seus documentos comerciais em {{EnvName}} aplicativos. Integre nossa biblioteca e siga estas etapas:",
-      "step_1": "**Watermarker** com seu documento {{FileformatCap}}. A API aceita o documento como um fluxo ou um caminho de arquivo local para processamento.",
-      "step_2": "**SearchCriteria** para refinar o conjunto de marcas d'água a serem apagadas. Você pode utilizar uma imagem como parâmetro de pesquisa junto com atributos de texto ou formatação. Quanto mais específicos forem seus critérios de pesquisa, mais precisos serão os resultados.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica o processo de limpeza de marcas d'água de seus documentos comerciais nos aplicativos {{EnvName}}. Integre nossa biblioteca e siga estas etapas:",
+      "step_1": "Comece inicializando a classe {{TextWatermarkerBold}} com seu documento {{FileformatCap}}. A API aceita o documento como um fluxo ou como um caminho de arquivo local para processamento.",
+      "step_2": "Aproveite o objeto {{TextSearchCriteriaBold}} para refinar o conjunto de marcas d'água para limpeza. Você pode utilizar uma imagem como parâmetro de pesquisa junto com texto ou atributos de formatação. Quanto mais específicos forem os seus critérios de pesquisa, mais precisos serão os resultados.",
       "step_3": "Após a pesquisa, você receberá uma lista de marcas d'água identificadas. Continue limpando essas marcas d'água do documento.",
-      "step_4": "Depois que as marcas d'água estiverem limpas, salve o documento final usando um caminho de arquivo local ou um objeto de fluxo."
+      "step_4": "Depois que as marcas d’água forem limpas, salve o documento final usando um caminho de arquivo local ou um objeto de fluxo."
     }
   },
   "more_features": {

@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Sesuaikan tanda air gambar {{FileFormatUp}}",
-    "comment_2": "Buat Instantiasi Watermarker dengan {{FileFormatUp}}",
-    "comment_3": "Inisialisasi SearchCriteria untuk mencocokkan gambar tertentu",
+    "comment_2": "Buat instance {{TextWatermarker}} dengan {{FileFormatUp}}",
+    "comment_3": "Inisialisasi {{TextSearchCriteria}} agar cocok dengan gambar tertentu",
     "comment_4": "Ganti gambar yang ditemukan",
     "comment_5": "Simpan file yang disesuaikan"
   },
   "steps": {
     "title": "Sesuaikan tanda air dokumen {{FileformatCap}} menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memungkinkan {{EnvName}} pengembang untuk dengan mudah menyesuaikan tanda air di banyak dokumen menggunakan aplikasi mereka. Berikut panduan singkatnya:",
-      "step_1": "**Watermarker**. Berikan byte atau aliran file atau jalur disk lokal.",
-      "step_2": "**Criteria pencari** untuk mengidentifikasi tanda air dengan properti tertentu yang sebelumnya ditambahkan ke dokumen.",
-      "step_3": "Setelah pencarian, Anda akan menerima daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, termasuk ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini menawarkan tingkat penyesuaian yang tinggi untuk data Anda.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memungkinkan pengembang {{EnvName}} menyesuaikan tanda air di banyak dokumen dengan mudah menggunakan aplikasi mereka. Berikut panduan singkatnya:",
+      "step_1": "Pertama, Anda harus meneruskan file {{FileformatCap}} sebagai parameter konstruktor kelas {{TextWatermarkerBold}}. Menyediakan aliran byte atau file atau jalur disk lokal.",
+      "step_2": "Kedua, temukan tanda air yang perlu disesuaikan. Gunakan {{TextSearchCriteriaBold}} untuk mengidentifikasi tanda air dengan properti spesifik yang sebelumnya ditambahkan ke dokumen.",
+      "step_3": "Setelah pencarian, Anda akan menerima daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, termasuk ukuran, perataan halaman, teks, warna, konten gambar, dan banyak lagi. Ini menawarkan penyesuaian tingkat tinggi untuk data Anda.",
       "step_4": "Setelah Anda selesai menyesuaikan tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal, atau streaming untuk menyimpan hasilnya."
     }
   },

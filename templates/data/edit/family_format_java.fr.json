@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Ajuster le filigrane du texte {{FileFormatUp}}",
-    "comment_2": "Instanciation d'un filigrane avec saisie du document {{FileFormatUp}}",
-    "comment_3": "Initialisez les TextSearchCriteria et recherchez les filigranes de texte",
+    "comment_1": "Ajuster le filigrane de texte {{FileFormatUp}}",
+    "comment_2": "Instancier {{TextWatermarker}} avec le document d'entrée {{FileFormatUp}}",
+    "comment_3": "Initialisez le {{TextTextSearchCriteria}} et recherchez les filigranes de texte",
     "comment_4": "Ajuster les propriétés du filigrane de texte",
     "comment_5": "Enregistrez le document mis à jour"
   },
   "steps": {
-    "title": "Ajustez les filigranes dans {{FileformatCap}} documents avec {{EnvName}}",
+    "title": "Ajustez les filigranes dans les documents {{FileformatCap}} avec {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajuster facilement les filigranes de texte dans leurs applications en mettant en œuvre quelques étapes simples :",
-      "step_1": "**Watermarker**. Vous pouvez fournir un fichier pour le traitement ultérieur sous forme de flux ou de chemin sur un disque local.",
-      "step_2": "**SearchCriteria** permet d'identifier les filigranes dotés des bonnes propriétés qui ont été précédemment ajoutés à un document.",
-      "step_3": "**Recherche**. Ajustez les propriétés des filigranes trouvés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Il existe de nombreuses façons de personnaliser vos données.",
-      "step_4": "Une fois le processus de réglage des filigranes terminé, vous devez enregistrer le document mis à jour. Utilisez le chemin de fichier local, le fichier ou le flux d'octets pour stocker le résultat."
+      "step_1": "Chargez votre fichier {{FileformatCap}} dans l'objet principal de notre API appelé {{TextWatermarkerBold}}. Vous pouvez fournir le fichier pour un traitement ultérieur sous forme de flux ou de chemin sur un disque local.",
+      "step_2": "L'étape suivante consiste à localiser les filigranes qui doivent être ajustés. {{TextSearchCriteriaBold}} aide à identifier les filigranes avec les bonnes propriétés qui ont été précédemment ajoutées à un document.",
+      "step_3": "Obtenez la liste des filigranes appropriés à la suite de la procédure {{TextSearchBold}}. Ajustez les propriétés des filigranes trouvés telles que la taille, l'alignement de la page, le texte, la couleur, le contenu de l'image, etc. Il existe de nombreuses façons de personnaliser vos données.",
+      "step_4": "Une fois le processus d’ajustement des filigranes terminé, vous devez enregistrer le document mis à jour. Utilisez le chemin du fichier local, le fichier ou le flux d'octets pour stocker le résultat."
     }
   },
   "more_features": {

@@ -1,19 +1,19 @@
 {
   "examples": {
     "comment_1": "Aggiorna la filigrana di testo {{FileFormatUp}}",
-    "comment_2": "Fornisci un'istanza Watermarker per il file {{FileFormatUp}}",
-    "comment_3": "Usa TextSearchCriteria per trovare filigrane di testo",
-    "comment_4": "Aggiorna la filigrana di testo",
-    "comment_5": "Goditi il risultato"
+    "comment_2": "Fornisci l'istanza {{TextWatermarker}} per il file {{FileFormatUp}}",
+    "comment_3": "Utilizza {{TextTextSearchCriteria}} per trovare filigrane di testo",
+    "comment_4": "Aggiorna la filigrana del testo",
+    "comment_5": "Goditi il ​​risultato"
   },
   "steps": {
-    "title": "Aggiorna le filigrane in {{FileFormatUp}} tramite {{EnvName}}",
+    "title": "Aggiorna filigrane in {{FileFormatUp}} tramite {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fornisce agli {{EnvName}} sviluppatori una robusta API per l'aggiornamento programmatico delle filigrane all'interno di vari documenti {{FileFormatUp}}. Questa guida illustra il processo:",
-      "step_1": "**Watermarker**. A seconda delle esigenze, il file può essere fornito come stream o come riferimento a una posizione del disco locale.",
-      "step_2": "**SearchCriteria** per identificare le filigrane specifiche che richiedono modifiche. Questo oggetto consente di individuare le filigrane in base alle proprietà desiderate.",
-      "step_3": "Una volta completata con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di aggiornare proprietà come dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati delle immagini e altro ancora.",
-      "step_4": "Una volta completati gli aggiornamenti della filigrana, il documento modificato viene salvato. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fornisce agli sviluppatori di {{EnvName}} una solida API per l'aggiornamento programmatico delle filigrane all'interno di vari documenti {{FileFormatUp}}. Questa guida descrive il processo:",
+      "step_1": "Avvia il processo fornendo il tuo file {{FileFormatUp}} come argomento al costruttore della classe {{TextWatermarkerBold}}. A seconda delle tue richieste, il file può essere fornito come flusso o riferimento a una posizione su disco locale.",
+      "step_2": "Successivamente, sfrutta l'oggetto {{TextSearchCriteriaBold}} per identificare le filigrane specifiche che richiedono la modifica. Questo oggetto consente di individuare le filigrane in base alle proprietà desiderate.",
+      "step_3": "Una volta eseguita con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, consentendoti di aggiornare proprietà come dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati di immagine e altro ancora.",
+      "step_4": "Una volta completati gli aggiornamenti della filigrana, rendere persistente il documento modificato. L'API facilita l'archiviazione utilizzando un percorso file locale o un oggetto flusso."
     }
   },
   "more_features": {

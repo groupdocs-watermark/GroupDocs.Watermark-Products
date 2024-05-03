@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: fr
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Trouvez efficacement Pdf filigranes avec .NET"
+    title: "Trouvez efficacement les filigranes Pdf avec .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** offre une solution robuste pour rechercher par programmation des filigranes dans différents formats de documents commerciaux. Intégrez notre package à vos .NET applications pour les doter de fonctionnalités de recherche de filigranes.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** offre une solution robuste pour rechercher par programmation des filigranes dans divers formats de documents commerciaux. Intégrez notre package dans vos applications .NET pour leur donner des capacités de recherche de filigranes.
       
-      1. **Watermarker** et fournissez le chemin de fichier Pdf, le flux de fichiers ou le flux d'octets en entrée. Cette action charge le document pour analyse des filigranes.
-      2. **SearchCriteria**. Spécifiez une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.
-      3. **Search** de l'objet **Watermarker** pour lancer le processus de détection du filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui permet un traitement ultérieur.
-      4. La collection d'objets en filigrane récupérée vous permet un contrôle précis. Vous pouvez supprimer les filigranes indésirables par programmation ou modifier dynamiquement leurs propriétés, par exemple en ajustant leur taille ou le contenu du texte, en fonction de vos besoins spécifiques.
+      1. Pour exploiter les fonctionnalités de notre bibliothèque, instanciez la classe **Watermarker** et fournissez le chemin du fichier Pdf, le flux de fichiers ou le flux d'octets en entrée. Cette action charge le document pour l'analyse du filigrane.
+      2. Pour une identification ciblée du filigrane, exploitez l'objet **SearchCriteria**. Spécifiez une image pour localiser des filigranes d’image similaires. Alternativement, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.
+      3. Utilisez la méthode **Search** de l'objet **Watermarker** pour lancer le processus de détection de filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, permettant un traitement ultérieur.
+      4. La collection récupérée d'objets en filigrane vous offre un contrôle précis. Vous pouvez supprimer par programme les filigranes indésirables ou modifier dynamiquement leurs propriétés, telles que l'ajustement de leur taille ou du contenu du texte, pour répondre à vos besoins spécifiques.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Rechercher les filigranes d'une image placés dans PDF
+        // Rechercher des filigranes d'image placés dans PDF
 
-        // Construire un filigrane en passant par le chemin PDF
+        // Construire Watermarker en passant le chemin PDF
         using (Watermarker watermarker = new Watermarker("input.pdf"))
         {
-            // Trouvez des filigranes à l'aide des options de recherche
+            // Rechercher des filigranes à l'aide des options de recherche
             ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Informations sur les filigranes sur les processus
+            // Traiter les informations sur les filigranes
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

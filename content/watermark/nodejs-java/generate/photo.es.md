@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: es
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Documentos empresariales seguros: genere marcas de agua para formatos Photo"
+    title: "Documentos comerciales seguros: genere marcas de agua para formatos Photo"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Añada nuestra API a sus aplicaciones y genere marcas de agua para muchos formatos de archivo compatibles.
+      Aumente la seguridad de sus documentos con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Inyecte nuestra API en sus aplicaciones y genere marcas de agua para muchos formatos de archivos compatibles.
       
-      1. **Iniciar marca de agua:** Inicie el procesamiento de documentos con la clase **Watermarker** que proporciona nuestras funciones principales. Cree una instancia pasando al constructor el archivo Photo, que se supone que está protegido mediante marcas de agua generadas.
-      2. **Crea el objeto Watermark principal:** Mejora tus documentos esculpiendo objetos **Watermark** personalizados. Más allá de las simples páginas, se integran perfectamente en los elementos nativos, como los archivos adjuntos o los encabezados, añadiendo niveles de seguridad y profesionalismo.
-      3. **Refina los atributos de las marcas de agua:** Afina tus marcas de agua con precisión, ajustando las dimensiones, la alineación y los esquemas de color. Cada detalle mejora la integridad del documento, haciendo que tus archivos sean inconfundiblemente tuyos.
-      4. **Implemente con precisión:** Utilice el método **Watermarker** para aplicar sus marcas de agua personalizadas sin problemas. Ya sean únicas o múltiples, cada marca de agua añade una capa adicional de protección. Para mayor seguridad, considera la posibilidad de almacenar los documentos procesados en un lugar separado y seguro.
+      1. **Iniciar marca de agua:** Inicie el procesamiento de documentos con la clase **Watermarker** que proporciona nuestras funciones principales. Cree una instancia pasando al constructor el archivo Photo que se supone que está protegido por marcas de agua generadas.
+      2. **Crear objeto principal de marca de agua:** Eleve sus documentos esculpiendo objetos **Watermark** personalizados. Más allá de las meras páginas, se integran perfectamente en elementos nativos como archivos adjuntos o encabezados, añadiendo capas de seguridad y profesionalismo.
+      3. **Refinar los atributos de las marcas de agua:** Ajuste sus marcas de agua con precisión, ajustando las dimensiones, la alineación y las combinaciones de colores. Cada detalle mejora la integridad del documento, haciendo que sus archivos sean inconfundiblemente suyos.
+      4. **Implemente con precisión:** Utilice el método **Watermarker** para aplicar sus marcas de agua personalizadas sin problemas. Ya sea singular o múltiple, cada marca de agua agrega una capa adicional de protección. Para mayor seguridad, considere almacenar sus documentos procesados ​​en un lugar seguro y separado.
    
     code:
       platform: "net"
@@ -69,14 +69,14 @@ steps:
 
         // Generar marca de agua de texto para PHOTO
 
-        // Pasar el archivo fuente a la instancia de Watermarker
+        // Pasar el archivo fuente a la instancia Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.png");
         
-        // Genera una marca de agua de texto y configura sus opciones
+        // Generar marca de agua de texto y configurar sus opciones.
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // Obtenga un resultado de PHOTO
+        // Obtener el resultado PHOTO
         watermarker.add(watermark);
         watermarker.save("output.png");
         

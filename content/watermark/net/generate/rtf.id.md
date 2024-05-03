@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:12
 draft: false
 lang: id
 format: Rtf
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Menghasilkan Watermark dengan Mudah untuk Rtf Dokumen"
+    title: "Menghasilkan Tanda Air dengan Mudah untuk Dokumen Rtf"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Pustaka Watermarking Tingkat Lanjut untuk aplikasi .NET. Berdayakan solusi Anda dan amankan dokumen dengan tanda air tepat waktu.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Pustaka Watermarking tingkat lanjut untuk aplikasi .NET. Berdayakan solusi Anda dan amankan dokumen dengan tanda air tepat pada waktunya.
       
-      1. **Kelas Inti: Watermarker.** Kelas utama API kami adalah **Watermarker**. Anda perlu membuat instansiasinya sebelum pemrosesan dokumen. Jangan lupa untuk meneruskan file Rtf ke konstruktor sebagai jalur atau objek aliran.
-      2. **Membuat Watermark Anda.** Langkah selanjutnya adalah membangun objek Watermark dari jenis yang diinginkan. Hal ini dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti gambar atau header.
-      3. **Penampilan Penyetelan Sempurna.** Atur properti tanda air seperti tinggi dan lebar, atas, kiri, keselarasan tengah, font dan warna, dll.
+      1. **Kelas Inti: Watermarker.** Kelas utama API kami adalah **Watermarker**. Anda perlu membuat instance sebelum pemrosesan dokumen. Jangan lupa meneruskan file Rtf ke konstruktor sebagai jalur atau objek aliran.
+      2. **Membuat Tanda Air Anda.** Langkah selanjutnya adalah membuat objek Tanda Air dengan jenis yang diinginkan. Itu dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti gambar atau header.
+      3. **Penyempurnaan Tampilan.** Mengatur properti tanda air seperti tinggi dan lebar, perataan atas, kiri, tengah, font dan warna, dll.
       4. **Menerapkan dan Menyimpan.** Gunakan metode **Watermarker** untuk menambahkan tanda air baru. Jangan ragu untuk menambahkan tanda air sebanyak yang Anda butuhkan. Anda dapat menyimpan dokumen yang diberi tanda air ke lokasi mana pun.
    
     code:
@@ -77,7 +77,7 @@ steps:
             {
                 watermarker.Add(watermark);
             }
-            // Simpan hasil RTF yang ditandai dengan tanda air
+            // Simpan hasil RTF yang diberi watermark
             watermarker.Save("output.rtf");
         }
         

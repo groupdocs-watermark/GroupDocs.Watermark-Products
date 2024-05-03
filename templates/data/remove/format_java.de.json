@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Bildwasserzeichen {{FileFormatUp}} -Dokument löschen",
-    "comment_2": "Übergeben Sie den {{FileFormatUp}} -Dokumentpfad an den Watermarker-Konstruktor",
+    "comment_1": "Löschen Sie das Bildwasserzeichen {{FileFormatUp}} im Dokument",
+    "comment_2": "Übergeben Sie den Dokumentpfad {{FileFormatUp}} an den Konstruktor {{TextWatermarker}}",
     "comment_3": "Löschen Sie das Dokument, indem Sie ein Wasserzeichen löschen",
     "comment_4": "Gelöschte Datei speichern"
   },
   "steps": {
-    "title": "Wasserzeichen aus {{FileformatCap}} Dokumenten mit {{EnvName}} löschen",
+    "title": "Wasserzeichen aus {{FileformatCap}}-Dokumenten mit {{EnvName}} löschen",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** vereinfacht das Löschen von Wasserzeichen aus Ihren Geschäftsdokumenten in {{EnvName}} Anwendungen. Integrieren Sie unsere Bibliothek und folgen Sie diesen Schritten:",
-      "step_1": "**Watermarker** mit Ihrem {{FileformatCap}} -Dokument. Die API akzeptiert das Dokument entweder als Stream oder als lokalen Dateipfad zur Verarbeitung.",
-      "step_2": "**SearchCriteria**-Objekt, um den Satz der zu löschenden Wasserzeichen zu verfeinern. Sie können ein Bild zusammen mit Text- oder Formatierungsattributen als Suchparameter verwenden. Je spezifischer Ihre Suchkriterien sind, desto genauer werden die Ergebnisse sein.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** vereinfacht das Entfernen von Wasserzeichen aus Ihren Geschäftsdokumenten in {{EnvName}}-Anwendungen. Integrieren Sie unsere Bibliothek und befolgen Sie diese Schritte:",
+      "step_1": "Beginnen Sie mit der Initialisierung der Klasse {{TextWatermarkerBold}} mit Ihrem {{FileformatCap}}-Dokument. Die API akzeptiert das Dokument entweder als Stream oder als lokalen Dateipfad zur Verarbeitung.",
+      "step_2": "Nutzen Sie das Objekt {{TextSearchCriteriaBold}}, um den Satz von Wasserzeichen zum Löschen zu verfeinern. Sie können ein Bild neben Text oder Formatierungsattributen als Suchparameter verwenden. Je spezifischer Ihre Suchkriterien sind, desto präziser sind die Ergebnisse.",
       "step_3": "Nach der Suche erhalten Sie eine Liste der identifizierten Wasserzeichen. Fahren Sie fort, indem Sie diese Wasserzeichen aus dem Dokument entfernen.",
-      "step_4": "Sobald die Wasserzeichen gelöscht sind, speichern Sie das endgültige Dokument unter Verwendung eines lokalen Dateipfads oder eines Stream-Objekts."
+      "step_4": "Sobald die Wasserzeichen entfernt sind, speichern Sie das endgültige Dokument unter einem lokalen Dateipfad oder einem Stream-Objekt."
     }
   },
   "more_features": {

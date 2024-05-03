@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: id
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Hapus Watermark dengan mudah dari Docx oleh Node.js via Java"
+    title: "Menghapus Tanda Air dengan Mudah dari Docx oleh Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** merampingkan proses penghapusan tanda air dari dokumen bisnis. Tingkatkan aplikasi Node.js via Java Anda dengan mengintegrasikan perpustakaan kami dengan mulus dan mengikuti langkah-langkah sederhana berikut:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** menyederhanakan proses penghapusan tanda air dari dokumen bisnis. Tingkatkan aplikasi Node.js via Java Anda dengan mengintegrasikan perpustakaan kami secara lancar dan mengikuti langkah-langkah mudah berikut:
       
-      1. **Watermarker**, dengan dokumen Docx. API serbaguna kami memproses dokumen dengan mulus, baik yang disediakan sebagai aliran atau jalur lokal.
-      2. **Kriteria pencari** untuk menentukan dengan tepat tanda air yang akan ditangani. Gunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan untuk menyempurnakan pencarian Anda. Semakin rinci kriteria Anda, semakin akurat hasil Anda.
-      3. Jalankan proses penghapusan pada daftar tanda air dokumen yang diambil melalui pencarian Anda. Menghapusnya dengan mudah dari dokumen.
-      4. Setelah berhasil menghapus tanda air, simpan dokumen yang dihasilkan dengan aman sebagai file lokal atau aliran byte, pertahankan integritasnya.
+      1. Mulai proses dengan membuat instance kelas inti, **Watermarker**, dengan dokumen Docx. API serbaguna kami memproses dokumen dengan lancar, baik yang disediakan sebagai aliran atau jalur lokal.
+      2. Manfaatkan **SearchCriteria** untuk secara tepat menentukan tanda air yang ingin ditangani. Manfaatkan berbagai parameter seperti gambar, teks, atau fitur pemformatan untuk menyaring pencarian Anda. Semakin rinci kriteria Anda, semakin akurat hasil Anda.
+      3. Jalankan proses penghapusan pada daftar tanda air dokumen yang diambil melalui pencarian Anda. Hapus dengan mudah dari dokumen.
+      4. Setelah berhasil menghapus tanda air, simpan dokumen yang dihasilkan dengan aman sebagai file lokal atau aliran byte, dengan menjaga integritasnya.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Hapus tanda air gambar di dokumen DOCX
 
-        // Dapatkan Watermarker yang melewati jalur DOCX sebagai argumen
+        // Dapatkan Watermarker dengan meneruskan jalur DOCX sebagai argumen
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Hapus tanda air gambar dengan kriteria pencarian
+        // Hapus tanda air gambar berdasarkan kriteria pencarian
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: ja
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: ".NET を使用して Excel ドキュメントからウォーターマークを削除する"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** を使用すると、ビジネス文書からウォーターマークを削除する作業が簡単になります。弊社のライブラリを統合して .NET アプリケーションを強化し、以下の簡単な手順に従ってください。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** は、ビジネス ドキュメントから透かしを削除するタスクを簡素化します。私たちのライブラリを統合して、次の簡単な手順に従って、.NET アプリケーションを強化します。
       
-      1. **Watermarker** を Excel ドキュメントでインスタンス化します。当社の API は、ストリームまたはローカルパスとして提供されるドキュメントの処理をサポートしています。
-      2. **検索条件**を使用して、処理するウォーターマークのセットを絞り込みます。画像、テキスト、書式設定機能など、さまざまなパラメーターを使用できます。指定する検索パラメータが具体的であればあるほど、より正確な結果が得られます。
-      3. 検索結果として取得したドキュメントウォーターマークのリストを処理し、ドキュメントから削除します。
-      4. ウォーターマークを削除したら、結果のドキュメントをローカルファイルまたはバイトストリームとして保存します。
+      1. まず、メイン クラス **Watermarker** を Excel ドキュメントでインスタンス化します。当社の API は、ストリームまたはローカル パスとして提供されるドキュメントの処理をサポートします。
+      2. **SearchCriteria** を利用して、処理するウォーターマークのセットを絞り込みます。画像、テキスト、書式設定機能などのさまざまなパラメータを使用できます。指定する検索パラメータがより具体的であればあるほど、より正確な結果が得られます。
+      3. 検索結果として取得された文書の透かしのリストを処理し、文書から透かしを削除します。
+      4. ウォーターマークを削除した後、結果のドキュメントをローカル ファイルまたはバイト ストリームとして保存します。
    
     code:
       platform: "net"
@@ -67,19 +67,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Excel ドキュメントからテキストウォーターマークを削除
+        // Excel ドキュメントからテキストの透かしを削除する
 
-        // ドキュメント Excel ソースドキュメントのウォーターマーカーインスタンスを提供してください
+        // ドキュメント Excel ソースドキュメントの Watermarker インスタンスを提供します
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
-            // 選択したウォーターマークをドキュメントから削除します
+            // 選択した透かしを文書から削除します
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.FontBold = true;
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
 
-            // 指定したパスにファイルを保存
+            // 指定されたパスにファイルを保存します
             watermarker.Save("output.xslx");
         }
         

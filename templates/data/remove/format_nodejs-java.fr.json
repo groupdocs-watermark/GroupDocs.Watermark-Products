@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Supprimer le filigrane de l'image dans le document {{FileFormatUp}}",
-    "comment_2": "Obtenir un filigrane en passant le chemin {{FileFormatUp}} comme argument",
-    "comment_3": "Effacer les filigranes des images selon des critères de recherche",
+    "comment_2": "Obtenez {{TextWatermarker}} en passant le chemin {{FileFormatUp}} comme argument",
+    "comment_3": "Effacer les filigranes d'image par critères de recherche",
     "comment_4": "Enregistrer le fichier traité"
   },
   "steps": {
     "title": "Supprimez sans effort les filigranes de {{FileformatCap}} par {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** rationalise le processus de suppression des filigranes des documents commerciaux. Améliorez votre application {{EnvName}} en intégrant parfaitement notre bibliothèque et en suivant ces étapes simples :",
-      "step_1": "**Watermarker**, avec le document {{FileformatCap}}. Notre API polyvalente traite de manière fluide les documents, qu'ils soient fournis sous forme de flux ou de chemin local.",
-      "step_2": "**SearchCriteria** pour identifier avec précision les filigranes à corriger. Utilisez divers paramètres tels que les images, le texte ou les fonctionnalités de mise en forme pour affiner votre recherche. Plus vos critères sont détaillés, plus vos résultats sont précis.",
-      "step_3": "Exécutez le processus de suppression sur la liste des filigranes de documents récupérés lors de votre recherche. Supprimez-les facilement du document.",
-      "step_4": "Une fois les filigranes supprimés, enregistrez en toute sécurité le document obtenu sous forme de fichier local ou de flux d'octets, en préservant son intégrité."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** rationalise le processus de suppression des filigranes des documents professionnels. Améliorez votre application {{EnvName}} en intégrant de manière transparente notre bibliothèque et en suivant ces étapes simples :",
+      "step_1": "Lancez le processus en instanciant la classe principale, {{TextWatermarkerBold}}, avec le document {{FileformatCap}}. Notre API polyvalente traite de manière transparente les documents, qu'ils soient fournis sous forme de flux ou de chemin local.",
+      "step_2": "Tirez parti de {{TextSearchCriteriaBold}} pour identifier précisément les filigranes à traiter. Utilisez divers paramètres tels que les images, le texte ou les fonctionnalités de formatage pour affiner votre recherche. Plus vos critères sont détaillés, plus vos résultats sont précis.",
+      "step_3": "Exécutez le processus de suppression sur la liste des filigranes de documents récupérés grâce à votre recherche. Supprimez-les sans effort du document.",
+      "step_4": "Une fois les filigranes supprimés avec succès, enregistrez en toute sécurité le document résultant en tant que fichier local ou flux d'octets, en préservant son intégrité."
     }
   },
   "more_features": {

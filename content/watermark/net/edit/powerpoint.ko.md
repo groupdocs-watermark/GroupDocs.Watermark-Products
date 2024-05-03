@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET 을 사용하여 Powerpoint 문서의 워터마크 편집"
+    title: ".NET을(를) 사용하여 Powerpoint 문서의 워터마크 편집"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자가 다양한 Powerpoint 문서 내에서 워터마크를 손쉽게 편집할 수 있도록 합니다.다음은 애플리케이션에서 API를 사용하는 방법에 대한 간단한 가이드입니다.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자가 다양한 Powerpoint 문서 내에서 워터마크를 쉽게 편집할 수 있도록 지원합니다. 다음은 애플리케이션에서 API를 사용하는 방법에 대한 간단한 가이드입니다.
       
-      1. **Watermarker** 클래스 생성자에 파라미터로 전달합니다.파일을 바이트 스트림, 파일 스트림 또는 로컬 디스크 경로로 제공할 수 있습니다.
-      2. **SearchCriteria** 를 활용하여 이전에 문서에 추가한 해당 속성을 가진 워터마크를 식별하십시오.
-      3. 검색 후 관련 워터마크 목록을 얻을 수 있습니다.그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등과 같은 속성을 사용자 지정할 수 있습니다.이를 통해 데이터를 광범위하게 제어할 수 있습니다.
-      4. 워터마크 편집을 완료한 후 업데이트된 문서를 저장합니다.로컬 파일 경로 또는 스트림을 활용하여 최종 결과를 저장할 수 있습니다.
+      1. Powerpoint 파일을 **Watermarker** 클래스 생성자에 매개변수로 전달하여 시작하세요. 파일을 바이트 스트림, 파일 스트림 또는 로컬 디스크 경로로 제공할 수 있습니다.
+      2. 다음으로, 편집이 필요한 특정 워터마크를 찾으세요. 이전에 문서에 추가된 해당 속성으로 워터마크를 식별하려면 **SearchCriteria**를 활용하세요.
+      3. 검색하면 관련 워터마크 목록을 얻을 수 있습니다. 그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등과 같은 속성을 사용자 정의할 수 있습니다. 이를 통해 귀하는 귀하의 데이터를 광범위하게 제어할 수 있습니다.
+      4. 워터마크 편집을 완료한 후 업데이트된 문서를 저장하세요. 로컬 파일 경로나 스트림을 활용하여 최종 결과를 저장할 수 있습니다.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // POWERPOINT 텍스트 워터마크 편집
 
-        // POWERPOINT 파일을 제공하는 워터마커 만들기
+        // POWERPOINT 파일을 제공하는 Watermarker를 만드세요.
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // 텍스트 검색 기준 구성 및 텍스트 워터마크 가져오기
+            // TextSearchCriteria를 구성하고 텍스트 워터마크를 얻습니다.
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

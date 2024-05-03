@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: zh
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 .NET 编辑 Excel 个文档中的水印"
+    title: "使用 .NET 编辑 Excel 文档中的水印"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 使 .NET 开发人员能够毫不费力地编辑各种 Excel 文档中的水印。以下是如何在您的应用程序中使用我们的 API 的简化指南：
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 使 .NET 开发人员能够轻松编辑各种 Excel 文档中的水印。以下是如何在您的应用程序中使用我们的 API 的简化指南：
       
-      1. **Watermarker**类构造函数。您可以将文件作为字节流、文件流或本地磁盘路径提供。
-      2. **搜索条件**来识别具有先前添加到文档中的相应属性的水印。
-      3. 搜索完成后，您将获得相关水印的列表。然后，您可以自定义其属性，例如大小、页面对齐方式、文本、颜色、图像内容等。这使您可以对数据进行广泛的控制。
-      4. 完成水印编辑后，保存更新后的文档。您可以使用本地文件路径或流来存储最终结果。
+      1. 首先将您的 Excel 文件作为参数传递给 **Watermarker** 类构造函数。您可以以字节流、文件流或本地磁盘路径的形式提供文件。
+      2. 接下来，找到需要编辑的特定水印。利用 **SearchCriteria** 来识别具有先前添加到文档中的相应属性的水印。
+      3. 搜索后，您将获得相关水印的列表。然后，您可以自定义它们的属性，例如大小、页面对齐方式、文本、颜色、图像内容等。这使您能够广泛控制您的数据。
+      4. 完成水印编辑后，保存更新的文档。您可以利用本地文件路径或流来存储最终结果。
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // 编辑 EXCEL 文本水印
 
-        // 让 Watermarker 提供 EXCEL 个文件
+        // 制作 Watermarker 提供 EXCEL 文件
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
-            // 构建 TextSearchCriteria 并获取文本水印
+            // 构造TextSearchCriteria并获取文本水印
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: es
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Borrar marcas de agua de Ppt documentos con Java"
+    title: "Borrar marcas de agua de documentos Ppt usando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica el proceso de borrar las marcas de agua de los documentos comerciales en las aplicaciones Java. Integre nuestra biblioteca y siga estos pasos:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica el proceso de eliminación de marcas de agua de sus documentos comerciales dentro de las aplicaciones Java. Integra nuestra biblioteca y sigue estos pasos:
       
-      1. **Watermarker** con su documento Ppt. La API acepta el documento como una secuencia o como una ruta de archivo local para su procesamiento.
-      2. **SearchCriteria** para refinar el conjunto de marcas de agua para su borrado. Puede utilizar una imagen como parámetro de búsqueda junto con atributos de texto o formato. Cuanto más específicos sean los criterios de búsqueda, más precisos serán los resultados.
-      3. Tras la búsqueda, recibirá una lista de marcas de agua identificadas. Continúe borrando estas marcas de agua del documento.
-      4. Una vez borradas las marcas de agua, guarde el documento final utilizando una ruta de archivo local o un objeto de transmisión.
+      1. Comience inicializando la clase **Watermarker** con su documento Ppt. La API acepta el documento como una secuencia o como una ruta de archivo local para su procesamiento.
+      2. Aproveche el objeto **SearchCriteria** para refinar el conjunto de marcas de agua para su limpieza. Puede utilizar una imagen como parámetro de búsqueda junto con texto o atributos de formato. Cuanto más específicos sean sus criterios de búsqueda, más precisos serán los resultados.
+      3. Después de la búsqueda, recibirá una lista de marcas de agua identificadas. Proceda a borrar estas marcas de agua del documento.
+      4. Una vez que se borran las marcas de agua, guarde el documento final utilizando una ruta de archivo local o un objeto de secuencia.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Borrar imagen con marca de agua PPT documento
+        // Borrar imagen de marca de agua del documento PPT
 
         // Pase la ruta del documento PPT al constructor Watermarker
         Watermarker watermarker = new Watermarker("input.ppt");
         
-        // Borrar el documento eliminando una marca de agua
+        // Borre el documento eliminando una marca de agua.
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 

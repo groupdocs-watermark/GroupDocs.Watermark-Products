@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: ja
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET を使用して Word ドキュメントのウォーターマークを編集"
+    title: ".NET を使用して Word ドキュメントのウォーターマークを編集します"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** を使用すると、.NET 開発者はさまざまな Word ドキュメント内のウォーターマークを簡単に編集できます。アプリケーションで API を使用する方法を簡略化したガイドは次のとおりです。
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** を使用すると、.NET の開発者はさまざまな Word ドキュメント内のウォーターマークを簡単に編集できます。アプリケーションで API を使用する方法の簡単なガイドは次のとおりです。
       
-      1. **Watermarker**クラスコンストラクターに渡します。ファイルは、バイトストリーム、ファイルストリーム、またはローカルディスクパスのいずれかとして提供できます。
-      2. **SearchCriteria** を使用して、以前に文書に追加された対応するプロパティを持つウォーターマークを特定します。
-      3. 検索すると、関連するウォーターマークのリストが表示されます。その後、サイズ、ページ配置、テキスト、色、画像コンテンツなどのプロパティをカスタマイズできます。これにより、データを広範囲に制御できます。
-      4. ウォーターマークの編集が完了したら、更新した文書を保存します。ローカルファイルパスまたはストリームを使用して最終結果を保存できます。
+      1. まず、Word ファイルをパラメータとして **Watermarker** クラス コンストラクターに渡します。ファイルは、バイト ストリーム、ファイル ストリーム、またはローカル ディスク パスのいずれかとして指定できます。
+      2. 次に、編集が必要な特定のウォーターマークを見つけます。 **SearchCriteria** を利用して、ドキュメントに以前に追加された対応するプロパティを持つ透かしを識別します。
+      3. 検索後、関連するウォーターマークのリストが取得されます。その後、サイズ、ページ配置、テキスト、色、画像コンテンツなどのプロパティをカスタマイズできます。これにより、データを広範囲に制御できるようになります。
+      4. ウォーターマークの編集が完了したら、更新したドキュメントを保存します。ローカル ファイル パスまたはストリームを利用して、最終結果を保存できます。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // WORD テキストウォーターマークを編集
+        // WORD テキストの透かしを編集する
 
-        // WORD ファイルを提供するウォーターマーカーを作成
+        // WORD ファイルを提供する Watermarker を作成します
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // テキスト検索条件を作成してテキストウォーターマークを取得する
+            // TextSearchCriteria を構築し、テキストの透かしを取得します
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                 // テキストウォーターマークの編集
+                 // テキストの透かしを編集する
                  watermark.FormattedTextFragments.Clear();
                  watermark.FormattedTextFragments.Add("passed", 
                     new Font("Calibri", 19, FontStyle.Bold), Color.Red, Color.Aqua);

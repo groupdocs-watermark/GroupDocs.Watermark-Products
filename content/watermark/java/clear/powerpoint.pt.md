@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: pt
 format: Powerpoint
@@ -44,9 +44,9 @@ steps:
     content: |
       **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilita a limpeza de marcas d'água adicionadas anteriormente em documentos comerciais. Capacite seu aplicativo Java instalando nossa biblioteca e faça isso em algumas etapas simples:
       
-      1. **Watermarker** com o documento Powerpoint. Nossa API suporta a passagem de um documento para ser processado como stream ou caminho local.
-      2. **SearchCriteria** para limitar o conjunto de marcas d'água a serem processadas. É possível usar uma imagem como parâmetro de pesquisa, bem como recursos de texto ou formatação. Em seguida, você fornece parâmetros de pesquisa mais específicos e obtém um resultado mais preciso.
-      3. Lista de processos das marcas d'água do documento que você obteve como resultado da pesquisa. Limpe o documento.
+      1. Primeiro de tudo, instancie a classe principal chamada **Watermarker** com o documento Powerpoint. Nossa API suporta a passagem de um documento para ser processado como fluxo ou caminho local.
+      2. Use **SearchCriteria** para limitar o conjunto de marcas d'água a serem processadas. É possível usar uma imagem como parâmetro de pesquisa, bem como recursos de texto ou formatação. Em seguida, você fornece parâmetros de pesquisa mais específicos e obtém resultados mais precisos.
+      3. Processe a lista das marcas d'água do documento que você obteve como resultado da pesquisa. Limpe o documento.
       4. Depois de limpar o documento, salve o resultado como um arquivo local ou um fluxo de bytes.
    
     code:
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Marca d'água de texto transparente no documento Powerpoint
+        // Marca d'água de texto simples no documento Powerpoint
 
-        // Instancie o Watermarker com o documento Powerpoint
+        // Instancie Watermarker com documento Powerpoint
         Watermarker watermarker = new Watermarker("input.pptx");
         
         // Limpar marca d'água específica

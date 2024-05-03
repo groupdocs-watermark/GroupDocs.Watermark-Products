@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:11
 draft: false
 lang: es
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Rtf Búsqueda de marcas de agua mediante Java"
+    title: "Rtf Búsqueda de marcas de agua a través de Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica el proceso de localizar las marcas de agua en los documentos comerciales. Instale nuestro paquete en sus Java aplicaciones para aprovechar sus ventajas.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica el proceso de localización de marcas de agua en documentos comerciales. Instale nuestro paquete en sus aplicaciones Java para aprovechar sus beneficios.
       
-      1. **Watermarker**. Puedes proporcionar una ruta de archivo, un flujo de archivos o un flujo de bytes.
-      2. **SearchCriteria**. Por ejemplo, proporciona una imagen para buscar marcas de agua de imágenes similares. Si busca marcas de agua textuales, proporcione el texto, la fuente, el color y otras opciones relevantes.
-      3. **Search** del objeto **Watermarker**. Recibirá una colección de objetos que representan posibles marcas de agua para su posterior procesamiento.
-      4. Por último, tiene la libertad de manipular los resultados de la búsqueda según sea necesario. Puede eliminar las marcas de agua encontradas o editar sus propiedades, como cambiar el tamaño o el texto.
+      1. Para utilizar las funciones de nuestra biblioteca, cargue el archivo Rtf en una instancia de la clase **Watermarker**. Puede proporcionar una ruta de archivo, una secuencia de archivos o una secuencia de bytes.
+      2. Para reducir la lista de posibles marcas de agua, utilice el objeto **SearchCriteria**. Por ejemplo, proporcione una imagen para buscar marcas de agua de imágenes similares. Si busca marcas de agua textuales, proporcione texto, fuente, color y otras opciones relevantes.
+      3. Recupere marcas de agua colocadas dentro del documento utilizando el método **Search** del objeto **Watermarker**. Recibirá una colección de objetos que representan posibles marcas de agua para su posterior procesamiento.
+      4. Finalmente, tiene la libertad de manipular los resultados de la búsqueda según sea necesario. Puede eliminar marcas de agua encontradas o editar sus propiedades, como cambiar el tamaño o el texto.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Busca marcas de agua de imágenes en el documento RTF
+        // Buscar marcas de agua de imágenes en el documento RTF
 
-        // Redacte un documento Watermarker que pase RTF
+        // Redactar Watermarker pasando RTF documento
         Watermarker watermarker = new Watermarker("input.rtf");
         
         // Buscar marcas de agua por hash de imagen
@@ -91,7 +91,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // El proceso encontró marcas de agua
+        // Procesar marcas de agua encontradas
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

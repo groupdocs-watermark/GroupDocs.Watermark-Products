@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "调整 {{FileFormatUp}} 文本水印",
-    "comment_2": "使用输入 {{FileFormatUp}} 文档实例化水印",
-    "comment_3": "初始化 TextSearchCriteria 并查找文本水印",
-    "comment_4": "调整文字水印属性",
+    "comment_1": "调整{{FileFormatUp}}文本水印",
+    "comment_2": "使用输入 {{FileFormatUp}} 文档实例化 {{TextWatermarker}}",
+    "comment_3": "初始化{{TextTextSearchCriteria}}并查找文本水印",
+    "comment_4": "调整文本水印属性",
     "comment_5": "保存更新后的文档"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 调整 {{FileformatCap}} 个文档中的水印",
+    "title": "使用 {{EnvName}} 调整 {{FileformatCap}} 文档中的水印",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 通过实施几个简单的步骤，让 {{EnvName}} 开发人员可以轻松调整其应用程序中的文本水印：",
-      "step_1": "**水印**的 API 的主对象中。您可以将文件作为流或本地磁盘上的路径提供以供进一步处理。",
-      "step_2": "**SearchCriteria**有助于识别之前添加到文档中的具有正确属性的水印。",
-      "step_3": "**搜索**程序获取合适的水印列表。调整已找到的水印属性，例如大小、页面对齐方式、文本、颜色、图像内容等。有很多方法可以自定义数据。",
-      "step_4": "水印调整过程完成后，您需要保存更新的文档。使用本地文件路径、文件或字节流来存储结果。"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤轻松调整应用程序中的文本水印：",
+      "step_1": "将您的 {{FileformatCap}} 文件加载到我们名为 {{TextWatermarkerBold}} 的 API 的主要对象。您可以以流或本地磁盘上的路径形式提供文件以供进一步处理。",
+      "step_2": "下一步是找到必须调整的水印。 {{TextSearchCriteriaBold}} 有助于识别先前添加到文档中的具有正确属性的水印。",
+      "step_3": "通过 {{TextSearchBold}} 过程获取合适水印的列表。调整找到的水印属性，例如大小、页面对齐、文本、颜色、图像内容等。自定义数据的方法有很多。",
+      "step_4": "完成水印调整过程后，您需要保存更新的文档。使用本地文件路径、文件或字节流来存储结果。"
     }
   },
   "more_features": {

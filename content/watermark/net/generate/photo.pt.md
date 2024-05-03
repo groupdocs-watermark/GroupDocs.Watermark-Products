@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: pt
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Melhore seus documentos: gere marcas d'água para Photo usando .NET"
+    title: "Aprimore seus documentos: gere marcas d'água para Photo usando .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** é uma biblioteca que simplifica a adição de marcas d'água a vários formatos de arquivo de negócios para .NET desenvolvedores. Integre nossa biblioteca ao seu aplicativo e marque documentos com marcas d'água sem esforço usando estas etapas a seguir:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** é uma biblioteca que simplifica a adição de marcas d'água a vários formatos de arquivos comerciais para desenvolvedores de .NET. Integre nossa biblioteca ao seu aplicativo e marque documentos com facilidade usando estas etapas:
       
-      1. **Iniciando sua jornada com a marca d'água:** Comece familiarizando-se com a classe **Watermarker**, a base da nossa API. Para iniciar o processo, certifique-se de instanciá-lo antes do processamento do documento. Não negligencie a importância de fornecer o arquivo Photo ao construtor, seja ele um caminho ou um objeto de fluxo.
-      2. **Criação de marcas d'água personalizadas:** Vá para a próxima fase criando um objeto **Marca d'água** adaptado às suas especificações. Essa ferramenta versátil não se limita a páginas específicas do documento; ela também pode ser perfeitamente integrada aos elementos nativos do documento, como anexos ou cabeçalhos.
-      3. **Ajustando os atributos da marca d'água:** Refine sua experiência com a marca d'água ajustando propriedades como altura, largura, alinhamento da página, família da fonte e cor. Esse nível de personalização garante que suas marcas d'água se misturem perfeitamente aos seus documentos.
-      4. **Aplicando suas marcas d'água:** Utilize o método **Marcador d'água** para aplicar facilmente suas marcas d'água personalizadas aos seus documentos. Se você precisar adicionar uma ou várias marcas d'água, esse processo oferece flexibilidade. Para maior segurança, considere salvar seus documentos processados em um local separado.
+      1. **Iniciando sua jornada de marca d’água:** Comece se familiarizando com a classe **Watermarker**, a base de nossa API. Para iniciar o processo, certifique-se de instanciá-lo antes do processamento do documento. Não negligencie a importância de fornecer o arquivo Photo ao construtor, seja um caminho ou um objeto de fluxo.
+      2. **Criando marcas d'água personalizadas:** Passe para a próxima fase criando um objeto **Watermark** personalizado de acordo com suas especificações. Esta ferramenta versátil não se limita a páginas específicas de documentos; ele também pode ser perfeitamente integrado a elementos nativos de documentos, como anexos ou cabeçalhos.
+      3. **Ajuste fino dos atributos da marca d'água:** Refine sua experiência com marca d'água ajustando propriedades como altura, largura, alinhamento de página, família de fontes e cor. Esse nível de personalização garante que suas marcas d'água combinem perfeitamente com seus documentos.
+      4. **Aplicando suas marcas d'água:** Utilize o método **Watermarker** para aplicar facilmente suas marcas d'água personalizadas aos seus documentos. Quer você precise adicionar uma ou várias marcas d'água, esse processo oferece flexibilidade. Para maior segurança, considere salvar os documentos processados ​​em um local separado.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Gere marca d'água de texto no arquivo PHOTO
+        // Gerar marca d'água de texto no arquivo PHOTO
 
-        // Forneça o arquivo a ser marcado com marca d'água
+        // Forneça o arquivo para ter marca d'água
         using (Watermarker watermarker = new Watermarker("input.png"))
         {
             // Gerar instância de marca d'água de texto
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Salvar PHOTO resultado
+            // Salvar resultado PHOTO
             watermarker.Save("output.png");
         }
         

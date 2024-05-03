@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: en
 format: Xls
@@ -72,7 +72,7 @@ steps:
         // Get Watermarker passing XLS path as an argument
         const watermarker = new groupdocs.watermark.Watermarker("input.xls");
         
-        // Clear image watermarks by search criteris
+        // Clear image watermarks by search criteria
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: vi
 format: Word
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Word Xóa hình mờ bằng cách sử dụng Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp cho Node.js via Java nhà phát triển một API toàn diện để xóa theo chương trình các hình mờ cụ thể được nhúng trong các tài liệu Word khác nhau. Hướng dẫn này đi sâu vào quy trình kỹ thuật:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp cho nhà phát triển Node.js via Java một API toàn diện để xóa theo chương trình các hình mờ cụ thể được nhúng trong nhiều tài liệu Word khác nhau. Hướng dẫn này đi sâu vào quy trình kỹ thuật:
       
-      1. **Watermarker** và cung cấp tệp Word của bạn dưới dạng đối số constructor. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đường dẫn đến vị trí đĩa cục bộ.
-      2. **SearchCriteria**. Đối tượng này tạo điều kiện cho việc xây dựng các bộ lọc phức tạp dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với văn bản hoặc thuộc tính định dạng để kích hoạt quy trình lựa chọn chi tiết cao.
-      3. Sau khi thực hiện tìm kiếm, bạn sẽ nhận được một bộ sưu tập các hình mờ được xác định. Những hình mờ này có thể bị xóa dễ dàng.
-      4. Sau khi xóa hình mờ thành công, hãy giữ nguyên tài liệu đã sửa đổi. API cung cấp tính linh hoạt lưu trữ, cho phép bạn sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng cho đầu ra cuối cùng.
+      1. Bắt đầu quy trình làm việc bằng cách khởi tạo lớp **Watermarker** và cung cấp tệp Word của bạn làm đối số hàm tạo. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đường dẫn đến vị trí đĩa cục bộ.
+      2. Để nhắm mục tiêu hình mờ chính xác, hãy tận dụng khả năng của đối tượng **SearchCriteria**. Đối tượng này tạo điều kiện thuận lợi cho việc xây dựng các bộ lọc phức tạp dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với các thuộc tính văn bản hoặc định dạng để cho phép quá trình lựa chọn có độ chi tiết cao.
+      3. Sau khi thực hiện tìm kiếm, bạn sẽ nhận được một bộ sưu tập các hình mờ đã được xác định. Những hình mờ này có thể bị xóa dễ dàng.
+      4. Sau khi xóa hình mờ thành công, hãy duy trì tài liệu đã sửa đổi. API cung cấp tính linh hoạt về lưu trữ, cho phép bạn sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng cho đầu ra cuối cùng.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Xóa hình mờ văn bản trong tài liệu Word
 
-        // Khởi tạo Watermarker với tài liệu Word
+        // Khởi tạo Watermarker bằng tài liệu Word
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Hình mờ văn bản rõ ràng phù hợp với điều kiện tìm kiếm
+        // Xóa hình mờ văn bản phù hợp với điều kiện tìm kiếm
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);

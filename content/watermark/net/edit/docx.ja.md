@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: ja
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET API を使用して Docx ドキュメントのウォーターマークをプログラムで編集"
+    title: ".NET API を使用して、Docx ドキュメントのウォーターマークをプログラムで編集する"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** は .NET の開発者に、さまざまな Docx ドキュメント内のウォーターマークをプログラムで操作するための堅牢な API を提供します。このガイドではプロセスの概要を説明します。
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** は、.NET の開発者に、さまざまな Docx ドキュメント内のウォーターマークをプログラムで操作するための堅牢な API を提供します。このガイドでは、プロセスの概要を説明します。
       
-      1. **Watermarker** クラスコンストラクターの引数として Docx ファイルを指定してワークフローを開始します。ファイルは、バイトストリーム、ファイルストリーム、またはローカルディスクの場所への参照のいずれかとして提供できます。
-      2. **SearchCriteria** オブジェクトを利用して、変更が必要な特定のウォーターマークを特定します。このオブジェクトにより、以前に文書に埋め込まれたウォーターマークを識別できます。
-      3. 検索が正常に実行されると、関連するウォーターマークのコレクションが表示されます。これらのウォーターマークはきめ細かな制御が可能で、サイズ、ページの位置、テキストコンテンツ、配色、画像データなどのプロパティを変更できます。
-      4. ウォーターマークの編集が完了したら、変更した文書を保存します。API を使用すると、ローカルファイルパスまたはストリームオブジェクトを使用して簡単に保存できます。
+      1. Docx ファイルを引数として **Watermarker** クラス コンストラクターに指定して、ワークフローを開始します。ファイルは、バイト ストリーム、ファイル ストリーム、またはローカル ディスクの場所への参照として提供できます。
+      2. 次に、**SearchCriteria** オブジェクトを利用して、変更が必要な特定のウォーターマークを特定します。このオブジェクトを使用すると、ドキュメント内に以前に埋め込まれた透かしを識別できます。
+      3. 検索が正常に実行されると、関連するウォーターマークのコレクションを受け取ります。これらの透かしを使用すると、詳細な制御が可能になり、寸法、ページの位置、テキスト コンテンツ、配色、画像データなどのプロパティを変更できます。
+      4. ウォーターマークの編集が完了したら、変更したドキュメントを永続化します。 API は、ローカル ファイル パスまたはストリーム オブジェクトを使用してストレージを容易にします。
    
     code:
       platform: "net"
@@ -67,22 +67,22 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // DOCX docの画像ウォーターマークを編集
+        // DOCX ドキュメントで画像の透かしを編集する
 
-        // ウォーターマーカーをソースファイルで初期化
+        // ソースファイルで Watermarker を初期化する
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // 画像ウォーターマーク検索の検索条件の作成
+            // 画像透かし検索用の SearchCriteria を作成します
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                // 画像ウォーターマークを編集
+                // 画像の透かしを編集する
                 watermark.ImageData = imageData;
             }
 
-            // 結果 DOCX を保存
+            // 結果を保存 DOCX
             watermarker.Save("output.docx");
         }
         

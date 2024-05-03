@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: es
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Actualiza las marcas de agua en POWERPOINT a través de Node.js via Java"
+    title: "Actualizar marcas de agua en POWERPOINT a través de Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equipa a Node.js via Java desarrolladores con una API sólida para actualizar mediante programación las marcas de agua de varios POWERPOINT documentos. Esta guía describe el proceso:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equipa a los desarrolladores de Node.js via Java con una API sólida para actualizar mediante programación marcas de agua dentro de varios documentos POWERPOINT. Esta guía describe el proceso:
       
-      1. **Watermarker**. En función de sus necesidades, el archivo se puede proporcionar como una transmisión o como referencia a una ubicación de disco local.
-      2. **SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite localizar las marcas de agua en función de las propiedades deseadas.
-      3. Al ejecutar correctamente la búsqueda, recibirás una colección de marcas de agua relevantes. Estas marcas de agua ofrecen un control detallado, lo que te permite actualizar propiedades como las dimensiones, el posicionamiento de la página, el contenido del texto, la combinación de colores, los datos de las imágenes, etc.
-      4. Tras completar las actualizaciones de las marcas de agua, conserve el documento modificado. La API facilita el almacenamiento mediante una ruta de archivo local o un objeto de transmisión.
+      1. Inicie el proceso proporcionando su archivo POWERPOINT como argumento para el constructor de la clase **Watermarker**. Dependiendo de sus demandas, el archivo se puede proporcionar como una secuencia o como una referencia a una ubicación del disco local.
+      2. Posteriormente, aproveche el objeto **SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite localizar marcas de agua en función de las propiedades deseadas.
+      3. Tras la ejecución exitosa de la búsqueda, recibirá una colección de marcas de agua relevantes. Estas marcas de agua ofrecen control granular, lo que le permite actualizar propiedades como dimensiones, posición de la página, contenido del texto, combinación de colores, datos de imagen y más.
+      4. Una vez completadas las actualizaciones de la marca de agua, conserve el documento modificado. La API facilita el almacenamiento utilizando una ruta de archivo local o un objeto de transmisión.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Actualizar marca de agua de texto POWERPOINT
+        // Actualizar la marca de agua de texto POWERPOINT
 
-        // Proporcione una instancia de Watermarker para el archivo POWERPOINT
+        // Proporcione la instancia Watermarker para el archivo POWERPOINT
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
-        // Usa TextSearchCriteria para buscar marcas de agua de texto
+        // Utilice TextSearchCriteria para buscar marcas de agua de texto
         const searchCriteria = 
             new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
@@ -83,7 +83,7 @@ steps:
             watermark.setText("passed");
         }
 
-        // Disfruta el resultado
+        // Disfruta del resultado
         watermarker.save("output.pptx");
         
         ```            

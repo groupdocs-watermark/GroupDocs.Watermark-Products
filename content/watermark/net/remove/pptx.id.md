@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: id
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Secara terprogram Hapus Watermark dari Pptx Dokumen menggunakan .NET"
+    title: "Menghapus Tanda Air dari Dokumen Pptx secara terprogram menggunakan .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** memberdayakan .NET pengembang untuk secara terprogram menghapus tanda air dari berbagai dokumen Pptx. Panduan ini menguraikan prosesnya:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** memberdayakan pengembang .NET untuk menghapus tanda air dari berbagai dokumen Pptx secara terprogram. Panduan ini menguraikan prosesnya:
       
-      1. **Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.
-      2. **SearchCriteria** untuk mengidentifikasi tanda air tertentu yang memerlukan penghapusan. Objek ini memungkinkan penyaringan tanda air berdasarkan properti yang sebelumnya disematkan dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian di samping teks atau atribut pemformatan untuk pencarian yang sangat terperinci.
-      3. Setelah pencarian berhasil, Anda akan menerima koleksi tanda air yang relevan. Tanda air ini menawarkan kontrol granular, memungkinkan Anda untuk melakukan operasi penghapusan.
-      4. Setelah menyelesaikan penghapusan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
+      1. Mulailah alur kerja dengan menyediakan file Pptx Anda sebagai argumen ke konstruktor kelas **Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.
+      2. Manfaatkan kekuatan objek **SearchCriteria** untuk mengidentifikasi tanda air tertentu yang perlu dihapus. Objek ini memungkinkan pemfilteran tanda air berdasarkan properti yang sebelumnya tertanam dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian bersama teks atau atribut pemformatan untuk pencarian yang sangat terperinci.
+      3. Setelah pencarian berhasil, Anda akan menerima kumpulan tanda air yang relevan. Tanda air ini menawarkan kontrol terperinci, memungkinkan Anda melakukan operasi penghapusan.
+      4. Setelah penghapusan tanda air selesai, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
    
     code:
       platform: "net"
@@ -69,15 +69,15 @@ steps:
         ```csharp {style=abap}
         // Hapus tanda air gambar di dokumen PPTX
 
-        // Instantiate Watermarker yang meneruskan dokumen PPTX
+        // Buat instance Watermarker yang meneruskan dokumen PPTX
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // Hapus tanda air yang ditemukan dalam dokumen
+            // Hapus tanda air yang ditemukan di dokumen
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);
 
-            // Simpan dokumen
+            // Simpan dokumennya
             watermarker.Save("output.pptx");
         }
         

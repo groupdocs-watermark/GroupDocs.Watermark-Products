@@ -1,17 +1,18 @@
 {
   "examples": {
     "comment_1": "Temukan tanda air teks di {{FileFormatUp}}",
-    "comment_2": "Buat Watermarker dengan jalur {{FileFormatUp}}",
+    "comment_2": "Buat {{TextWatermarker}} dengan jalur {{FileFormatUp}}",
     "comment_3": "Temukan tanda air",
     "comment_4": "Gunakan info tanda air yang ditemukan"
   },
   "steps": {
-    "title": "Temukan Watermark di {{FileformatCap}} File Menggunakan {{EnvName}}",
+    "title": "Temukan Tanda Air di File {{FileformatCap}} Menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** merampingkan proses menemukan tanda air dalam dokumen bisnis. Integrasikan paket kami ke dalam aplikasi {{EnvName}} Anda untuk membuka keuntungannya.",
-      "step_1": "**Watermarker**. Anda dapat menyediakan jalur file, aliran file, atau aliran byte.",
-      "step_3": "**Pencarian** dari objek**Watermarker** untuk mengambil tanda air yang ditempatkan di dalam dokumen. Anda akan menerima kumpulan objek yang mewakili tanda air potensial untuk diproses lebih lanjut.",
-      "step_4": "Akhirnya, Anda memiliki fleksibilitas untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menyederhanakan proses pencarian tanda air dalam dokumen bisnis. Integrasikan paket kami ke dalam aplikasi {{EnvName}} Anda untuk mendapatkan keuntungannya.",
+      "step_1": "Untuk memanfaatkan fitur perpustakaan kami, muat file {{FileformatCap}} ke dalam instance kelas {{TextWatermarkerBold}}. Anda dapat memberikan jalur file, aliran file, atau aliran byte.",
+      "step_3": "Gunakan metode {{TextSearchBold}} pada objek {{TextWatermarkerBold}} untuk mengambil tanda air yang ditempatkan di dalam dokumen. Anda akan menerima kumpulan objek yang mewakili potensi tanda air untuk diproses lebih lanjut.",
+      "step_4": "Terakhir, Anda memiliki keleluasaan untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks.",
+      "step_2": "Untuk menyaring daftar tanda air potensial, gunakan objek {{TextSearchCriteriaBold}}. Misalnya, berikan gambar untuk menemukan tanda air gambar yang serupa. Jika menemukan tanda air tekstual, berikan teks, font, warna, dan opsi lain yang relevan."
     }
   },
   "more_features": {

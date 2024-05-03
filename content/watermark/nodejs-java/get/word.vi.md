@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: vi
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Nhận hình mờ hiệu quả trong Word tệp bằng GroupDocs.Watermark"
+    title: "Nhận hình mờ trong tệp Word một cách hiệu quả của GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** hợp lý hóa quá trình truy xuất hình mờ được nhúng trong các định dạng tài liệu kinh doanh khác nhau. Tích hợp liền mạch GroupDocs.Watermark vào ứng dụng Node.js via Java của bạn để cung cấp cho chúng khả năng phát hiện hình mờ mạnh mẽ.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** hợp lý hóa quy trình truy xuất hình mờ được nhúng trong các định dạng tài liệu kinh doanh khác nhau. Tích hợp liền mạch GroupDocs.Watermark vào các ứng dụng Node.js via Java của bạn để trang bị cho chúng khả năng phát hiện hình mờ mạnh mẽ.
       
-      1. **Watermarker** và cung cấp đường dẫn tệp Word, luồng tệp hoặc luồng byte làm đầu vào. Hành động này tải tài liệu để phân tích hình mờ.
-      2. **SearchCriteria**. Chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số liên quan khác để tinh chỉnh tiêu chí tìm kiếm.
-      3. **Get** của đối tượng**Watermarker** để bắt đầu quá trình phát hiện hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, cho phép xử lý thêm.
-      4. Bộ sưu tập các đối tượng hình mờ được truy xuất cung cấp cho bạn rất nhiều khả năng. Bạn có thể xóa hình mờ không mong muốn hoặc sửa đổi thuộc tính của chúng. Thay đổi nội dung, di chuyển hình mờ trên trang và nhiều nội dung khác.
+      1. Để tận dụng các chức năng của GroupDocs.Watermark, hãy khởi tạo lớp **Watermarker** và cung cấp đường dẫn tệp Word, luồng tệp hoặc luồng byte làm đầu vào. Hành động này tải tài liệu để phân tích hình mờ.
+      2. Để nhận dạng hình mờ được nhắm mục tiêu, hãy sử dụng đối tượng **SearchCriteria**. Chỉ định một hình ảnh để định vị các hình mờ tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các thông số liên quan khác để tinh chỉnh tiêu chí tìm kiếm.
+      3. Sử dụng phương thức **Search** của đối tượng **Watermarker** để bắt đầu quá trình phát hiện hình mờ trong tài liệu được tải. Hàm này trả về một tập hợp các đối tượng đại diện cho các hình mờ tiềm năng, cho phép xử lý thêm.
+      4. Bộ sưu tập các đối tượng hình mờ được truy xuất mang lại cho bạn rất nhiều khả năng. Bạn có thể xóa hình mờ không mong muốn hoặc sửa đổi thuộc tính của chúng. Thay đổi nội dung, di chuyển hình mờ trên một trang và nhiều nội dung khác.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Nhận danh sách hình mờ văn bản cho WORD
 
-        // Lớp Watermarker Instantiate
+        // Khởi tạo lớp Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
         // Nhận hình mờ theo tiêu chí văn bản

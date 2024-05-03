@@ -1,19 +1,19 @@
 {
   "examples": {
     "comment_1": "Điều chỉnh hình mờ văn bản {{FileFormatUp}}",
-    "comment_2": "Thực hiện Watermarker với tài liệu đầu vào {{FileFormatUp}}",
-    "comment_3": "Khởi tạo TextSearchCriteria và tìm hình mờ văn bản",
+    "comment_2": "Khởi tạo {{TextWatermarker}} bằng tài liệu đầu vào {{FileFormatUp}}",
+    "comment_3": "Khởi tạo {{TextTextSearchCriteria}} và tìm hình mờ văn bản",
     "comment_4": "Điều chỉnh thuộc tính hình mờ văn bản",
     "comment_5": "Lưu tài liệu đã cập nhật"
   },
   "steps": {
-    "title": "Điều chỉnh hình mờ trong {{FileformatCap}} tài liệu với {{EnvName}}",
+    "title": "Điều chỉnh hình mờ trong tài liệu {{FileformatCap}} bằng {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp các nhà phát triển {{EnvName}} dễ dàng điều chỉnh hình mờ văn bản trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản:",
-      "step_1": "**Watermarker**. Bạn có thể cung cấp tệp để xử lý tiếp theo dưới dạng luồng hoặc dưới dạng đường dẫn trên đĩa cục bộ.",
-      "step_2": "**Tiêu chí tìm kiếm** giúp xác định hình mờ có thuộc tính phù hợp đã được thêm vào tài liệu trước đó.",
-      "step_3": "**Tìm kiếm**. Điều chỉnh các thuộc tính hình mờ tìm thấy như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v... Có rất nhiều cách để tùy chỉnh dữ liệu của bạn.",
-      "step_4": "Sau khi hoàn thành quá trình điều chỉnh hình mờ, bạn cần lưu tài liệu cập nhật. Sử dụng đường dẫn tệp cục bộ, tệp hoặc luồng byte để lưu trữ kết quả."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp nhà phát triển {{EnvName}} dễ dàng điều chỉnh hình mờ văn bản trong ứng dụng của họ bằng cách thực hiện một số bước đơn giản:",
+      "step_1": "Tải tệp {{FileformatCap}} của bạn vào đối tượng chính của API của chúng tôi có tên là {{TextWatermarkerBold}}. Bạn có thể cung cấp tệp để xử lý thêm dưới dạng luồng hoặc dưới dạng đường dẫn trên đĩa cục bộ.",
+      "step_2": "Bước tiếp theo là xác định vị trí các hình mờ cần được điều chỉnh. {{TextSearchCriteriaBold}} giúp xác định hình mờ có thuộc tính phù hợp đã được thêm trước đó vào tài liệu.",
+      "step_3": "Nhận danh sách các hình mờ phù hợp nhờ quy trình {{TextSearchBold}}. Điều chỉnh các thuộc tính hình mờ được tìm thấy như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v. Có rất nhiều cách để tùy chỉnh dữ liệu của bạn.",
+      "step_4": "Sau khi hoàn tất quá trình điều chỉnh hình mờ, bạn cần lưu tài liệu đã cập nhật. Sử dụng đường dẫn tệp cục bộ, tệp hoặc luồng byte để lưu trữ kết quả."
     }
   },
   "more_features": {

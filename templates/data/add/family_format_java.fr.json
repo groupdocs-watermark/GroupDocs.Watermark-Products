@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Ajouter un filigrane de texte à {{FileFormatUp}}",
-    "comment_2": "Transmettre le fichier à filigraner au filigrane",
-    "comment_3": "Création d'un filigrane de texte et configuration des propriétés",
+    "comment_2": "Transmettre le fichier à filigraner à {{TextWatermarker}}",
+    "comment_3": "Créer un filigrane de texte et configurer les propriétés",
     "comment_4": "Enregistrer le fichier filigrané"
   },
   "steps": {
     "title": "Ajouter un filigrane au document {{FileformatCap}} via {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajouter facilement des filigranes de différents types aux formats de fichiers professionnels les plus courants. Ajoutez notre bibliothèque à votre demande et filigranez les documents en quelques étapes simples, comme indiqué ci-dessous.",
-      "step_1": "**Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier {{FileformatCap}} au constructeur en tant que chemin ou objet de flux.",
-      "step_2": "**Watermark** du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document, telles que les pièces jointes ou les en-têtes.",
-      "step_3": "Définissez les propriétés du filigrane telles que la hauteur et la largeur, l'alignement de la page (en haut, à gauche, au centre, etc.), la famille de police et la couleur, et bien d'autres encore.",
-      "step_4": "**Watermarker** pour ajouter un nouveau filigrane. Vous pouvez ajouter autant de filigranes que vous le souhaitez. Il est recommandé d'enregistrer le document traité dans un autre emplacement."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajouter facilement des filigranes de différents types aux formats de fichiers professionnels courants. Ajoutez notre bibliothèque à votre candidature et filigranez les documents en quelques étapes simples, comme indiqué ci-dessous.",
+      "step_1": "La classe principale de notre API est {{TextWatermarkerBold}}. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier {{FileformatCap}} au constructeur en tant que chemin ou objet flux.",
+      "step_2": "L'étape suivante consiste à construire un objet {{TextWatermarkBold}} du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document telles que des pièces jointes ou des en-têtes.",
+      "step_3": "Définissez les propriétés du filigrane telles que la hauteur et la largeur, l'alignement de la page (en haut, à gauche, au centre, etc.), la famille et la couleur de la police, et bien d'autres.",
+      "step_4": "Appelez la méthode {{TextWatermarkerBold}} pour ajouter un nouveau filigrane. Vous pouvez ajouter autant de filigranes que nécessaire. Il est recommandé de sauvegarder le document traité dans un autre emplacement."
     }
   },
   "more_features": {

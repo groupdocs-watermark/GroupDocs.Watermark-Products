@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Find text watermark in {{FileFormatUp}}",
-    "comment_2": "Create Watermarker with {{FileFormatUp}} path",
+    "comment_2": "Create {{TextWatermarker}} with {{FileFormatUp}} path",
     "comment_3": "Find watermarks",
     "comment_4": "Use found watermarks info"
   },
@@ -9,9 +9,9 @@
     "title": "Find Watermarks in {{FileformatCap}} Files Using {{EnvName}}",
     "content": {
       "title": "**[{{ProdShortName}}]({{ProductUrl}})** streamlines the process of finding watermarks within business documents. Integrate our package into your {{EnvName}} applications to unlock its advantages.",
-      "step_1": "To leverage our library features, load the {{FileformatCap}} file into a **Watermarker** class instance. You can provide a file path, file stream, or byte stream.",
-      "step_2": "To refine the list of potential watermarks, use the **SearchCriteria object**. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.",
-      "step_3": "Use the **Search** method of the **Watermarker** object to retrieve watermarks placed within the document. You will receive a collection of objects representing potential watermarks for further processing.",
+      "step_1": "To leverage our library features, load the {{FileformatCap}} file into a {{TextWatermarkerBold}} class instance. You can provide a file path, file stream, or byte stream.",
+      "step_2": "To refine the list of potential watermarks, use the {{TextSearchCriteriaBold}} object. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.",
+      "step_3": "Use the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object to retrieve watermarks placed within the document. You will receive a collection of objects representing potential watermarks for further processing.",
       "step_4": "Finally, you have the flexibility to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text."
     }
   },

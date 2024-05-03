@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: ja
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint Node.js via Java を使用して Powerpoint ウォーターマークを削除"
+    title: "Node.js via Java を使用した Powerpoint ウォーターマークの削除"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** は Node.js via Java 開発者に、さまざまな Powerpoint ドキュメントに埋め込まれた特定のウォーターマークをプログラムで削除するための包括的な API を提供します。このガイドでは、技術的なプロセスについて詳しく説明します。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** は、さまざまな Powerpoint ドキュメント内に埋め込まれた特定のウォーターマークをプログラムで削除するための包括的な API を Node.js via Java 開発者に提供します。このガイドでは、技術的なプロセスについて詳しく説明します。
       
-      1. **Watermarker** クラスをインスタンス化し、コンストラクター引数として Powerpoint ファイルを指定してワークフローを開始します。ファイルは、バイトストリーム、ファイルストリーム、またはローカルディスクの場所へのパス参照として提供できます。
-      2. **SearchCriteria** オブジェクトの機能を活用してください。このオブジェクトを使用すると、以前に文書に埋め込まれたプロパティに基づいて複雑なフィルターを簡単に構築できます。テキストやフォーマット属性と一緒に画像を検索パラメータとして使用することで、きめ細かな選択プロセスを実現できます。
-      3. 検索を実行すると、識別されたウォーターマークのコレクションが表示されます。これらのウォーターマークは簡単に削除できます。
-      4. ウォーターマークが正常に削除されると、変更されたドキュメントが保持されます。この API はストレージの柔軟性を高め、ローカルファイルパスまたはストリームオブジェクトのどちらかを最終出力に利用することができます。
+      1. **Watermarker** クラスをインスタンス化し、Powerpoint ファイルをコンストラクター引数として指定することで、ワークフローを開始します。ファイルは、バイト ストリーム、ファイル ストリーム、またはローカル ディスクの場所へのパス参照として提供できます。
+      2. 正確な透かしターゲティングを実現するには、**SearchCriteria** オブジェクトの機能を活用します。このオブジェクトを使用すると、ドキュメント内に事前に埋め込まれたプロパティに基づいて複雑なフィルターの構築が容易になります。画像をテキストまたは書式設定属性とともに検索パラメーターとして利用して、非常に粒度の高い選択プロセスを可能にすることができます。
+      3. 検索の実行後、識別されたウォーターマークのコレクションを受け取ります。これらの透かしは簡単に削除できます。
+      4. ウォーターマークの削除が成功したら、変更されたドキュメントを永続化します。 API はストレージの柔軟性を提供し、最終出力にローカル ファイル パスまたはストリーム オブジェクトを利用できるようにします。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Powerpoint ドキュメント内のテキストウォーターマークを削除
+        // Powerpoint ドキュメント内のテキストの透かしを削除します
 
-        // Powerpoint ドキュメントでウォーターマーカーをインスタンス化
+        // Powerpoint ドキュメントを使用して Watermarker をインスタンス化します
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // クリアテキストのウォーターマークは検索条件に合う
+        // 検索条件に適合するクリアテキスト透かし
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);
         watermarks.clear();
 
-        // 処理済みファイルを保存
+        // 処理済みファイルを保存する
         watermarker.save("output.pptx");
         
         ```            

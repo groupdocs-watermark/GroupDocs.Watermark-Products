@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: ko
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java 에서 DOC 에 대한 동적 워터마크 편집"
+    title: "Node.js via Java의 DOC에 대한 동적 워터마크 편집"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 DOC 문서에서 워터마크를 편집할 수 있는 강력한 API를 제공합니다.다음은 워크플로를 간소화할 수 있는 포괄적인 가이드입니다.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 DOC 문서에서 워터마크를 편집할 수 있는 강력한 API를 제공합니다. 작업 흐름을 간소화하기 위한 포괄적인 가이드는 다음과 같습니다.
       
-      1. **프로세스 시작:** 먼저 DOC 파일을 **Watermarker** 클래스 생성자에 인수로 제공하십시오.요구 사항에 따라 파일을 스트림으로 가져오거나 로컬 디스크 위치에서 가져올 수 있습니다.
-      2. **정확한 워터마크:** 수정이 필요한 워터마크를 식별하려면**SearchCriteria** 객체를 사용하십시오.이 다용도 도구를 사용하면 특정 속성을 기반으로 대상 워터마크를 선택할 수 있습니다.
-      3. **정밀하게 수정:** 검색이 성공적으로 실행되면 관련 워터마크 컬렉션에 액세스할 수 있습니다.크기, 페이지 위치 지정, 텍스트 콘텐츠, 색상, 이미지 데이터 등을 업데이트할 수 있는 기능을 통해 각 요소를 세밀하게 제어할 수 있습니다.
-      4. **원활한 지속성:** 워터마크 업데이트가 완료되면 수정된 문서를 안전하게 보관하십시오.API는 유연한 저장 옵션을 제공하므로 로컬 파일 경로 또는 스트림 개체로 저장할 수 있습니다.
+      1. **프로세스 시작:** DOC 파일을 **Watermarker** 클래스 생성자에 대한 인수로 제공하여 시작하세요. 요구 사항에 따라 파일을 스트림으로 또는 로컬 디스크 위치에서 가져올 수 있습니다.
+      2. **정확한 워터마크:** **SearchCriteria** 개체를 사용하여 수정이 필요한 워터마크를 식별합니다. 이 다재다능한 도구를 사용하면 특정 속성을 기반으로 타겟 워터마크를 선택할 수 있습니다.
+      3. **정밀하게 개선:** 검색이 성공적으로 실행되면 관련 워터마크 컬렉션에 액세스할 수 있습니다. 크기, 페이지 위치, 텍스트 콘텐츠, 색상, 이미지 데이터 등을 업데이트하는 기능을 통해 각 요소를 세부적으로 제어할 수 있습니다.
+      4. **원활한 지속성:** 워터마크 업데이트가 완료되면 수정된 문서를 안전하게 저장하세요. API는 유연한 저장 옵션을 제공하므로 로컬 파일 경로에 저장하거나 스트림 개체로 저장할 수 있습니다.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // 이미지 DOC 워터마크 업데이트
 
-        // DOC 파일용 워터마커 작성
+        // DOC 파일에 대한 Watermarker 작성
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
 
-        // 검색 기준을 사용하여 특정 이미지를 찾을 수 있습니다.
+        // 특정 이미지를 찾으려면 SearchCriteria를 사용하세요.
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Ajouter un filigrane d'image à {{FileFormatUp}}",
-    "comment_2": "Transmettre le fichier à filigraner au filigrane",
-    "comment_3": "Fournir un chemin vers l'image avec un filigrane",
+    "comment_2": "Transmettre le fichier à filigraner à {{TextWatermarker}}",
+    "comment_3": "Fournir le chemin d'accès à l'image avec filigrane",
     "comment_4": "Enregistrer le résultat"
   },
   "steps": {
-    "title": "Techniques avancées : ajout de filigranes à {{FileformatCap}} documents via {{EnvName}}",
+    "title": "Techniques avancées : ajout de filigranes aux documents {{FileformatCap}} via {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "**Watermarker**. Cette étape fondamentale ouvre la voie à l'amélioration des documents {{FileformatCap}} avec des filigranes. Fournissez le fichier {{FileformatCap}} au constructeur, sous forme de chemin ou d'objet de flux.",
-      "step_2": "**Watermark** adaptés à vos spécifications. Ces entités polyvalentes offrent un positionnement précis non seulement sur les pages de document désignées, mais également dans les éléments natifs tels que les pièces jointes ou les en-têtes.",
-      "step_3": "Affinez votre processus de filigrane en ajustant des propriétés telles que les dimensions, l'alignement, les styles de police et les couleurs. Ce niveau de personnalisation vous permet de créer des filigranes qui complètent parfaitement l'esthétique de votre document.",
-      "step_4": "**Watermarker** pour appliquer les filigranes nouvellement créés sur vos documents. Profitez de la flexibilité d'ajouter plusieurs filigranes selon vos besoins. Pour conserver les documents, pensez à les enregistrer dans un endroit sécurisé."
+      "title": "Explorer les techniques avancées de filigrane pour les documents {{FileformatCap}} avec **[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "Démarrez votre processus de filigrane en initialisant la classe {{TextWatermarkerBold}}. Cette étape fondamentale prépare le terrain pour améliorer les documents {{FileformatCap}} avec des filigranes. Fournissez le fichier {{FileformatCap}} au constructeur, sous forme de chemin ou d'objet de flux.",
+      "step_2": "Passez au niveau suivant en créant des objets {{TextWatermarkBold}} adaptés à vos spécifications. Ces entités polyvalentes offrent un placement précis non seulement sur les pages de document désignées, mais également au sein d'éléments natifs tels que les pièces jointes ou les en-têtes.",
+      "step_3": "Affinez votre processus de filigrane en ajustant les propriétés telles que les dimensions, l'alignement, les styles de police et les couleurs. Ce niveau de personnalisation vous permet de créer des filigranes qui complètent parfaitement l'esthétique de votre document.",
+      "step_4": "Utilisez la méthode {{TextWatermarkerBold}} pour appliquer les filigranes nouvellement créés sur vos documents. Profitez de la flexibilité d’ajouter plusieurs filigranes selon vos besoins. Pour conserver les documents, pensez à les sauvegarder dans un endroit sécurisé."
     }
   },
   "more_features": {

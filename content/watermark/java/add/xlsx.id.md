@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: id
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Teknik Lanjutan: Menambahkan Watermark ke Xlsx Dokumen melalui Java"
+    title: "Teknik Tingkat Lanjut: Menambahkan Tanda Air ke Dokumen Xlsx melalui Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Menjelajahi Teknik Watermarking Tingkat Lanjut untuk Dokumen Xlsx dengan **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Langkah dasar ini menetapkan panggung untuk meningkatkan Xlsx dokumen dengan tanda air. Berikan file Xlsx ke konstruktor, baik sebagai jalur atau objek aliran.
-      2. **Watermark** yang disesuaikan dengan spesifikasi Anda. Entitas serbaguna ini menawarkan penempatan yang tepat tidak hanya pada halaman dokumen yang ditunjuk tetapi juga dalam elemen asli seperti lampiran atau header.
-      3. Perbaiki proses watermarking Anda dengan menyempurnakan properti seperti dimensi, penyelarasan, gaya font, dan warna. Tingkat penyesuaian ini memberdayakan Anda untuk membuat tanda air yang melengkapi estetika dokumen Anda dengan sempurna.
-      4. **Watermarker** untuk menerapkan tanda air yang baru dibuat ke dokumen Anda. Nikmati fleksibilitas menambahkan beberapa tanda air sesuai kebutuhan Anda. Untuk menyimpan dokumen, pertimbangkan untuk menyimpannya di lokasi yang aman.
+      1. Mulailah proses watermarking Anda dengan menginisialisasi kelas **Watermarker**. Langkah dasar ini menetapkan tahapan untuk menyempurnakan dokumen Xlsx dengan tanda air. Berikan file Xlsx ke konstruktor, baik sebagai jalur atau objek aliran.
+      2. Maju ke level berikutnya dengan membuat objek **Watermark** yang disesuaikan dengan spesifikasi Anda. Entitas serbaguna ini menawarkan penempatan yang tepat tidak hanya pada halaman dokumen yang ditentukan namun juga dalam elemen asli seperti lampiran atau header.
+      3. Sempurnakan proses watermarking Anda dengan menyempurnakan properti seperti dimensi, perataan, gaya font, dan warna. Tingkat penyesuaian ini memberdayakan Anda untuk membuat tanda air yang melengkapi estetika dokumen Anda dengan sempurna.
+      4. Gunakan metode **Watermarker** untuk menerapkan tanda air yang baru dibuat ke dokumen Anda. Nikmati fleksibilitas menambahkan beberapa tanda air sesuai kebutuhan Anda. Untuk menyimpan dokumen, pertimbangkan untuk menyimpannya di lokasi yang aman.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Tambahkan watermark gambar ke XLSX
+        // Tambahkan tanda air gambar ke XLSX
 
-        // Berikan file yang akan diberi tanda air ke Watermarker
+        // Berikan file yang akan diberi watermark ke Watermarker
         Watermarker watermarker = new Watermarker("input.xlsx");
         
-        // Berikan jalur ke gambar dengan watermark
+        // Berikan jalur ke gambar dengan tanda air
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // Simpan hasil

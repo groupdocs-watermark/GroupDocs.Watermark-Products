@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:07
 draft: false
 lang: pt
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Documentos comerciais seguros: gere marcas d'água para Excel formatos"
+    title: "Documentos comerciais seguros: gere marcas d'água para formatos Excel"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Injete nossa API em seus aplicativos e gere marcas d'água para muitos formatos de arquivo compatíveis.
+      Aumente a segurança de seus documentos com **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Injete nossa API em seus aplicativos e gere marcas d'água para muitos formatos de arquivo suportados.
       
-      1. **Iniciar marca d'água:** Inicie o processamento de documentos com a classe **Watermarker** que fornece nossos principais recursos. Instancie-o passando para o construtor o arquivo Excel que deveria estar protegido pelas marcas d'água geradas.
-      2. **Crie o objeto principal de marca d'água:** Eleve seus documentos esculpindo objetos **Marca d'água** personalizados. Além de meras páginas, elas se integram perfeitamente a elementos nativos, como anexos ou cabeçalhos, adicionando camadas de segurança e profissionalismo.
-      3. **Refine os atributos da marca d'água:** Ajuste suas marcas d'água com precisão, ajustando dimensões, alinhamento e esquemas de cores. Cada detalhe melhora a integridade do documento, tornando seus arquivos inconfundivelmente seus.
-      4. **Implemente com precisão:** Utilize o método**Watermarker** para aplicar suas marcas d'água personalizadas sem falhas. Seja singular ou múltipla, cada marca d'água adiciona uma camada extra de proteção. Para maior segurança, considere armazenar seus documentos processados em um local separado e seguro.
+      1. **Iniciar marca d'água:** Inicie o processamento do documento com a classe **Watermarker** que fornece nossos principais recursos. Instancie-o passando para o construtor o arquivo Excel que deve ser protegido por marcas d'água geradas.
+      2. **Crie o objeto principal de marca d'água:** Eleve seus documentos esculpindo objetos **Watermark** personalizados. Além de meras páginas, eles se integram perfeitamente a elementos nativos, como anexos ou cabeçalhos, adicionando camadas de segurança e profissionalismo.
+      3. **Refinar atributos de marca d'água:** Ajuste suas marcas d'água com precisão, ajustando dimensões, alinhamento e esquemas de cores. Cada detalhe melhora a integridade do documento, tornando seus arquivos inconfundivelmente seus.
+      4. **Implementar com precisão:** Utilize o método **Watermarker** para aplicar suas marcas d'água personalizadas com perfeição. Seja singular ou múltipla, cada marca d'água adiciona uma camada extra de proteção. Para maior segurança, considere armazenar os documentos processados ​​em um local separado e seguro.
    
     code:
       platform: "net"
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Gere marca d'água de texto para EXCEL
+        // Gerar marca d'água de texto para EXCEL
 
         // Passe o arquivo de origem para a instância Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
@@ -76,7 +76,7 @@ steps:
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // Obtenha EXCEL resultado
+        // Obtenha o resultado EXCEL
         watermarker.add(watermark);
         watermarker.save("output.xslx");
         

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: vi
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Chỉnh sửa hình mờ trong Word tài liệu bằng .NET"
+    title: "Chỉnh sửa hình mờ trong tài liệu Word bằng cách sử dụng .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** trao quyền cho .NET nhà phát triển dễ dàng chỉnh sửa hình mờ trong các tài liệu Word khác nhau. Dưới đây là hướng dẫn đơn giản về cách sử dụng API của chúng tôi trong ứng dụng của bạn:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** trao quyền cho nhà phát triển .NET dễ dàng chỉnh sửa hình mờ trong nhiều tài liệu Word khác nhau. Dưới đây là hướng dẫn đơn giản về cách sử dụng API của chúng tôi trong ứng dụng của bạn:
       
-      1. **Watermarker**. Bạn có thể cung cấp tệp dưới dạng luồng byte, luồng tệp hoặc đường dẫn đĩa cục bộ.
-      2. **Tiêu chí tìm kiếm** để xác định hình mờ với các thuộc tính tương ứng đã được thêm vào tài liệu trước đó.
-      3. Sau khi tìm kiếm, bạn sẽ nhận được một danh sách các hình mờ có liên quan. Sau đó, bạn có thể tùy chỉnh các thuộc tính của chúng, chẳng hạn như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh và hơn thế nữa. Điều này cho phép bạn kiểm soát rộng rãi dữ liệu của bạn.
-      4. Khi bạn đã hoàn thành chỉnh sửa hình mờ, hãy lưu tài liệu đã cập nhật. Bạn có thể sử dụng đường dẫn tệp cục bộ hoặc luồng để lưu trữ kết quả cuối cùng.
+      1. Bắt đầu bằng cách chuyển tệp Word của bạn làm tham số cho hàm tạo của lớp **Watermarker**. Bạn có thể cung cấp tệp dưới dạng luồng byte, luồng tệp hoặc đường dẫn đĩa cục bộ.
+      2. Tiếp theo, xác định vị trí các hình mờ cụ thể cần chỉnh sửa. Sử dụng **SearchCriteria** để xác định hình mờ có thuộc tính tương ứng đã được thêm vào tài liệu trước đó.
+      3. Sau khi tìm kiếm, bạn sẽ nhận được danh sách các hình mờ có liên quan. Sau đó, bạn có thể tùy chỉnh các thuộc tính của chúng, chẳng hạn như kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v. Điều này cấp cho bạn quyền kiểm soát rộng rãi đối với dữ liệu của bạn.
+      4. Khi bạn đã hoàn tất việc chỉnh sửa hình mờ, hãy lưu tài liệu đã cập nhật. Bạn có thể sử dụng đường dẫn tệp cục bộ hoặc luồng để lưu trữ kết quả cuối cùng.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // Chỉnh sửa hình mờ văn bản WORD
 
-        // Tạo Watermarker cung cấp tệp WORD
+        // Yêu cầu Watermarker cung cấp tệp WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Xây dựng TextSearchCriteria và lấy hình mờ văn bản
+            // Xây dựng TextSearchCriteria và nhận hình mờ văn bản
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

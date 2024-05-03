@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: de
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Passen Sie Xlsx Dokumentwasserzeichen mit Java an"
+    title: "Passen Sie die Wasserzeichen des Dokuments Xlsx mit Java an"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** ermöglicht es Java Entwicklern, Wasserzeichen in vielen Dokumenten mithilfe ihrer Anwendungen einfach anzupassen. Hier ist eine Kurzanleitung:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** ermöglicht Java-Entwicklern die einfache Anpassung von Wasserzeichen in vielen Dokumenten mithilfe ihrer Anwendungen. Hier ist eine Kurzanleitung:
       
-      1. **Watermarker** übergeben. Geben Sie einen Byte- oder Dateistream oder einen lokalen Festplattenpfad an.
-      2. **SearchCriteria**, um Wasserzeichen mit den spezifischen Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.
-      3. Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Sie können dann ihre Eigenschaften anpassen, einschließlich Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr. Dies bietet ein hohes Maß an Anpassungsfähigkeit für Ihre Daten.
-      4. Wenn Sie mit dem Anpassen der Wasserzeichen fertig sind, speichern Sie das aktualisierte Dokument. Sie können einen lokalen Dateipfad oder Stream verwenden, um das Ergebnis zu speichern.
+      1. Zunächst müssen Sie die Datei Xlsx als Parameter des Klassenkonstruktors **Watermarker** übergeben. Geben Sie einen Byte- oder Dateistream oder einen lokalen Festplattenpfad an.
+      2. Zweitens suchen Sie nach den Wasserzeichen, die angepasst werden müssen. Verwenden Sie **SearchCriteria**, um Wasserzeichen mit den spezifischen Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.
+      3. Im Anschluss an die Suche erhalten Sie eine Liste relevanter Wasserzeichen. Anschließend können Sie deren Eigenschaften anpassen, einschließlich Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr. Dies bietet ein hohes Maß an Individualisierung Ihrer Daten.
+      4. Wenn Sie mit der Anpassung der Wasserzeichen fertig sind, speichern Sie das aktualisierte Dokument. Sie können einen lokalen Dateipfad oder Stream verwenden, um das Ergebnis zu speichern.
    
     code:
       platform: "net"
@@ -81,18 +81,18 @@ steps:
           
       content: |
         ```java {style=abap}
-        // XLSX Bildwasserzeichen anpassen
+        // Passen Sie das Bildwasserzeichen XLSX an
 
-        // Instanziiere Watermarker mit XLSX
+        // Instanziieren Sie Watermarker mit XLSX
         Watermarker watermarker = new Watermarker("input.xlsx");
         
-        // Initialisieren Sie die SearchCriteria so, dass sie einem bestimmten Bild entsprechen
+        // Initialisieren Sie die SearchCriteria so, dass sie einem bestimmten Bild entspricht
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
         for (PossibleWatermark watermark : watermarks)
         {
-            // Ersetze das gefundene Bild
+            // Ersetzen Sie das gefundene Bild
             watermark.setImageData(imageData);
         }
 

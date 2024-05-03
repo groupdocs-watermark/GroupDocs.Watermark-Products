@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: pt
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Obtenha marcas d'água com eficiência em Powerpoint arquivos até GroupDocs.Watermark"
+    title: "Obtenha marcas d'água com eficiência em arquivos Powerpoint de GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** simplifica o processo de recuperação de marcas d'água incorporadas em vários formatos de documentos comerciais. Integre perfeitamente GroupDocs.Watermark em seus Node.js via Java aplicativos para capacitá-los com recursos robustos de detecção de marcas d'água.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza o processo de recuperação de marcas d'água incorporadas em vários formatos de documentos comerciais. Integre perfeitamente GroupDocs.Watermark em seus aplicativos Node.js via Java para capacitá-los com recursos robustos de detecção de marca d'água.
       
-      1. **Watermarker** e forneça o caminho do arquivo Powerpoint, fluxo de arquivo ou fluxo de bytes como entrada. Essa ação carrega o documento para análise de marca d'água.
-      2. **SearchCriteria**. Especifique uma imagem para localizar marcas d'água de imagens semelhantes. Como alternativa, para marcas d'água textuais, defina o conteúdo do texto, as propriedades da fonte, os atributos de cor e outros parâmetros relevantes para refinar os critérios de pesquisa.
-      3. **Get** do objeto **Watermarker** para iniciar o processo de detecção de marca d'água no documento carregado. Essa função retorna uma coleção de objetos representando marcas d'água em potencial, permitindo processamento adicional.
-      4. A coleção recuperada de objetos de marca d'água oferece muitas possibilidades. Você pode remover marcas d'água indesejadas ou modificar suas propriedades. Altere o conteúdo, mova uma marca d'água em uma página e muitos outros.
+      1. Para aproveitar as funcionalidades do GroupDocs.Watermark, instancie a classe **Watermarker** e forneça o caminho do arquivo, fluxo de arquivo ou fluxo de bytes Powerpoint como entrada. Esta ação carrega o documento para análise de marca d'água.
+      2. Para identificação direcionada de marca d'água, utilize o objeto **SearchCriteria**. Especifique uma imagem para localizar marcas d'água de imagens semelhantes. Alternativamente, para marcas d’água textuais, defina o conteúdo do texto, propriedades da fonte, atributos de cor e outros parâmetros relevantes para refinar os critérios de pesquisa.
+      3. Use o método **Search** do objeto **Watermarker** para iniciar o processo de detecção de marca d'água no documento carregado. Esta função retorna uma coleção de objetos que representam possíveis marcas d'água, permitindo processamento posterior.
+      4. A coleção recuperada de objetos de marca d'água oferece muitas possibilidades. Você pode remover marcas d’água indesejadas ou modificar suas propriedades. Altere o conteúdo, mova uma marca d'água em uma página e muitos outros.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Obtenha uma lista de marcas d'água de texto para POWERPOINT
 
-        // Instanciar a classe Watermarker
+        // Instancie a classe Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // Obtenha marcas d'água por critérios de texto

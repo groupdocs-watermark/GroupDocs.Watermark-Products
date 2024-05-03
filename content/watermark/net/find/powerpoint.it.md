@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: it
 format: Powerpoint
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Trova filigrane nei file Powerpoint utilizzando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** semplifica il processo di ricerca delle filigrane nei documenti aziendali. Integra il nostro pacchetto nelle tue .NET applicazioni per sbloccarne i vantaggi.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** semplifica il processo di ricerca delle filigrane all'interno dei documenti aziendali. Integra il nostro pacchetto nelle tue applicazioni .NET per sbloccarne i vantaggi.
       
-      1. **Watermarker**. Puoi fornire un percorso di file, un flusso di file o un flusso di byte.
-      2. **SearchCriteria**. Ad esempio, fornisci un'immagine per trovare filigrane simili. Se trovi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.
-      3. **Search** dell'oggetto **Watermarker** per recuperare le filigrane inserite nel documento. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane da elaborare ulteriormente.
-      4. Infine, hai la flessibilità di manipolare i risultati della ricerca secondo necessità. È possibile eliminare le filigrane trovate o modificarne le proprietà, ad esempio modificando le dimensioni o il testo.
+      1. Per sfruttare le funzionalità della nostra libreria, carica il file Powerpoint in un'istanza della classe **Watermarker**. È possibile fornire un percorso file, un flusso di file o un flusso di byte.
+      2. Per perfezionare l'elenco delle potenziali filigrane, utilizzare l'oggetto **SearchCriteria**. Ad esempio, fornisci un'immagine per trovare filigrane di immagini simili. Se trovi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.
+      3. Utilizza il metodo **Search** dell'oggetto **Watermarker** per recuperare le filigrane inserite nel documento. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane per ulteriori elaborazioni.
+      4. Infine, hai la flessibilità di manipolare i risultati della ricerca secondo necessità. Puoi eliminare le filigrane trovate o modificarne le proprietà, ad esempio cambiare le dimensioni o il testo.
    
     code:
       platform: "net"
@@ -69,13 +69,13 @@ steps:
         ```csharp {style=abap}
         // Trova la filigrana di testo in POWERPOINT
 
-        // Crea filigrana con il percorso POWERPOINT
+        // Crea Watermarker con il percorso POWERPOINT
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // Trova filigrane
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
 
-            // Usa le informazioni sulle filigrane trovate
+            // Utilizza le informazioni sulle filigrane trovate
             foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
                 Console.WriteLine(possibleWatermark.Text);

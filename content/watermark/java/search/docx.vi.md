@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: vi
 format: Docx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Docx Tìm kiếm hình mờ qua Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** đơn giản hóa quá trình định vị hình mờ trong tài liệu kinh doanh. Cài đặt gói của chúng tôi vào Java ứng dụng của bạn để tận dụng lợi ích của nó.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** đơn giản hóa quá trình định vị hình mờ trong tài liệu kinh doanh. Cài đặt gói của chúng tôi vào ứng dụng Java của bạn để tận dụng các lợi ích của nó.
       
-      1. **Watermarker**. Bạn có thể cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.
-      2. **SearchCriteria**. Ví dụ: cung cấp hình ảnh để tìm kiếm hình mờ hình ảnh tương tự. Nếu tìm kiếm hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn liên quan khác.
-      3. **Tìm kiếm** của đối tượng**Watermarker**. Bạn sẽ nhận được một bộ sưu tập các đối tượng đại diện cho hình mờ tiềm năng để xử lý thêm.
-      4. Cuối cùng, bạn có quyền tự do thao tác kết quả tìm kiếm khi cần thiết. Bạn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng, chẳng hạn như thay đổi kích thước hoặc văn bản.
+      1. Để sử dụng các tính năng thư viện của chúng tôi, hãy tải tệp Docx vào một phiên bản của lớp **Watermarker**. Bạn có thể cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.
+      2. Để thu hẹp danh sách các hình mờ tiềm năng, hãy sử dụng đối tượng **SearchCriteria**. Ví dụ: cung cấp một hình ảnh để tìm kiếm hình mờ tương tự. Nếu tìm kiếm hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn có liên quan khác.
+      3. Truy xuất hình mờ được đặt trong tài liệu bằng phương pháp **Search** của đối tượng **Watermarker**. Bạn sẽ nhận được một bộ sưu tập các đối tượng đại diện cho hình mờ tiềm năng để xử lý thêm.
+      4. Cuối cùng, bạn có quyền tự do thao tác với kết quả tìm kiếm nếu cần. Bạn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng, chẳng hạn như thay đổi kích thước hoặc văn bản.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Tìm hình mờ hình ảnh trong tài liệu DOCX
+        // Tìm kiếm hình mờ trong tài liệu DOCX
 
-        // Soạn Watermarker đi qua tài liệu DOCX
+        // Soạn Watermarker chuyển tài liệu DOCX
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // Tìm kiếm hình mờ theo hash hình ảnh
+        // Tìm kiếm hình mờ theo hàm băm hình ảnh
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);

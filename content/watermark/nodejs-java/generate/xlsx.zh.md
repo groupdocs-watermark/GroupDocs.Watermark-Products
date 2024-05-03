@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:17
 draft: false
 lang: zh
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "保护业务文档：生成 Xlsx 个水印"
+    title: "保护商业文档：生成 Xlsx 水印"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) 增强文档安全性：**-适用于 Node.js via Java 的强大水印生成解决方案。
+      使用 **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** 加强文档安全性 - Node.js via Java 的强大水印生成解决方案。
       
-      1. **简化您的 Node.js via Java 个应用程序中的安全水印：** **水印** 类作为 GroupDocs.Watermark API 的核心组件。该库简化了各种文档格式的水印生成，包括 Xlsx。首先，请在处理您的文档之前创建一个 Watermarker 实例。在初始化期间向构造函数提供 Xlsx 文件路径或流对象。
-      2. **生成水印以增强保护：** 增强水印，使其完全符合您的安全需求。构造一个指定所需类型的**水印**对象。与传统的页面放置方式不同，您可以在标题或附件等原生文档元素中嵌入水印，从而增强文档安全性并增添专业风格。
-      3. **微调水印外观以获得最佳效果：** 控制水印的视觉方面。自定义高度、宽度、对齐方式（上、左、居中等）、字体系列和颜色等属性，以获得视觉效果和一致的结果，增强文档的合法性。
-      4. **水印应用程序和安全存储**：使用**水印工具**方法合并您的水印。该库允许您在必要时添加多个水印以增强保护。建议将修改后的 Xlsx 文档保存到单独的安全位置，以保留原始文件并保护带水印的文档。
+      1. **简化您的 Node.js via Java 应用程序中的安全水印：** **Watermarker** 类充当 GroupDocs.Watermark API 的核心组件。该库简化了各种文档格式的水印生成，包括 Xlsx。首先，在处理文档之前创建一个 Watermarker 实例。在初始化期间向构造函数提供 Xlsx 文件路径或流对象。
+      2. **生成水印以增强保护：** 启用完全符合您的安全需求的水印。构造一个指定所需类型的 **Watermark** 对象。与传统的页面放置不同，您可以在标题或附件等本机文档元素中嵌入水印，从而增强文档安全性并添加专业风格。
+      3. **微调水印外观以获得最佳效果：** 控制水印的视觉效果。自定义高度、宽度、对齐方式（顶部、左侧、中心等）、字体系列和颜色等属性，以实现视觉上有效且一致的结果，从而增强文档的合法性。
+      4. **水印应用和安全存储**：使用 **Watermarker** 方法合并您的水印。如果需要增强保护，该库允许您添加多个水印。建议将修改后的 Xlsx 文档保存到单独的安全位置，以保留原始文件并保护带水印的文档。
    
     code:
       platform: "net"
@@ -67,15 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // 为 XLSX 生成图像水印
+        // 为XLSX生成图像水印
 
         // 实例化 Watermarker 传递源文件
         const watermarker = new groupdocs.watermark.Watermarker("input.xlsx");
         
-        // 通过提供图像文件生成水印
+        // 通过提供图片文件生成水印
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // 获取 XLSX 个结果
+        // 获取 XLSX 结果
         watermarker.add(watermark);
         watermarker.save("output.xlsx");
         

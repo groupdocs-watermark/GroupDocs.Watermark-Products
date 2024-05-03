@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: zh
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 .NET API 以编程方式编辑 Pdf 个文档中的水印"
+    title: "使用 .NET API 以编程方式编辑 Pdf 文档中的水印"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 为 .NET 开发人员提供了一个强大的 API，用于以编程方式操作各种 Pdf 文档中的水印。本指南概述了流程：
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 为 .NET 开发人员提供强大的 API，用于以编程方式操作各种 Pdf 文档中的水印。本指南概述了该过程：
       
-      1. **Watermarker** 类构造函数来启动工作流程。该文件可以作为字节流、文件流或对本地磁盘位置的引用提供。
-      2. **SearchCriteria**对象来精确定位需要修改的特定水印。此对象可以识别先前嵌入在文档中的水印。
-      3. 成功执行搜索后，您将收到一系列相关的水印。这些水印提供精细控制，允许您修改尺寸、页面定位、文本内容、配色方案、图像数据等属性。
-      4. 水印编辑完成后，保留修改后的文档。该 API 使用本地文件路径或流对象来促进存储。
+      1. 通过将您的 Pdf 文件作为参数提供给 **Watermarker** 类构造函数来启动工作流程。该文件可以作为字节流、文件流或对本地磁盘位置的引用提供。
+      2. 随后，利用 **SearchCriteria** 对象来查明需要修改的特定水印。该对象能够识别先前嵌入到文档中的水印。
+      3. 成功执行搜索后，您将收到一组相关水印。这些水印提供精细控制，允许您修改尺寸、页面定位、文本内容、配色方案、图像数据等属性。
+      4. 完成水印编辑后，保留修改后的文档。 API 使用本地文件路径或流对象促进存储。
    
     code:
       platform: "net"
@@ -67,22 +67,22 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // 在 PDF doc 中编辑图像水印
+        // 在 PDF 文档中编辑图像水印
 
-        // 通过源文件初始化 Watermarker
+        // 通过源文件初始化Watermarker
         using (Watermarker watermarker = new Watermarker("input.pdf"))
         {
-            // 为图像水印搜索创建搜索条件
+            // 创建SearchCriteria用于图像水印搜索
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                // 编辑图像水印
+                // 编辑图片水印
                 watermark.ImageData = imageData;
             }
 
-            // 保存结果 PDF
+            // 保存结果PDF
             watermarker.Save("output.pdf");
         }
         

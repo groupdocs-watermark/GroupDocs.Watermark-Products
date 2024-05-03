@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Regola la filigrana di testo {{FileFormatUp}}",
-    "comment_2": "Crea un'istanza di Watermarker con il documento di input {{FileFormatUp}}",
-    "comment_3": "Inizializza TextSearchCriteria e trova le filigrane di testo",
+    "comment_1": "Regola la filigrana del testo {{FileFormatUp}}",
+    "comment_2": "Crea un'istanza di {{TextWatermarker}} con il documento di input {{FileFormatUp}}",
+    "comment_3": "Inizializza {{TextTextSearchCriteria}} e trova filigrane di testo",
     "comment_4": "Regola le proprietà della filigrana del testo",
     "comment_5": "Salva il documento aggiornato"
   },
   "steps": {
     "title": "Modifica le filigrane nei documenti {{FileformatCap}} con {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** consente agli {{EnvName}} sviluppatori di modificare facilmente le filigrane di testo nelle loro applicazioni implementando alcuni semplici passaggi:",
-      "step_1": "**Watermarker**. Puoi fornire il file per l'ulteriore elaborazione come stream o come percorso su un disco locale.",
-      "step_2": "**SearchCriteria** aiuta a identificare le filigrane con le proprietà corrette che sono state precedentemente aggiunte a un documento.",
-      "step_3": "**Ricerca**. Modifica le proprietà delle filigrane trovate come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine, ecc. Esistono molti modi per personalizzare i dati.",
-      "step_4": "Dopo il completamento del processo di regolazione delle filigrane è necessario salvare il documento aggiornato. Usa il percorso del file locale, il file o il flusso di byte per memorizzare il risultato."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** semplifica agli sviluppatori di {{EnvName}} la regolazione delle filigrane di testo nelle loro applicazioni implementando alcuni semplici passaggi:",
+      "step_1": "Carica il tuo file {{FileformatCap}} nell'oggetto principale della nostra API chiamato {{TextWatermarkerBold}}. È possibile fornire il file per l'ulteriore elaborazione come flusso o come percorso su un disco locale.",
+      "step_2": "Il passo successivo è individuare le filigrane che devono essere modificate. {{TextSearchCriteriaBold}} aiuta a identificare le filigrane con le proprietà giuste che sono state precedentemente aggiunte a un documento.",
+      "step_3": "Ottieni l'elenco delle filigrane adatte come risultato della procedura {{TextSearchBold}}. Regola le proprietà delle filigrane trovate come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine, ecc. Esistono molti modi per personalizzare i tuoi dati.",
+      "step_4": "Dopo il completamento del processo di regolazione delle filigrane è necessario salvare il documento aggiornato. Utilizza il percorso file locale, il file o il flusso di byte per memorizzare il risultato."
     }
   },
   "more_features": {

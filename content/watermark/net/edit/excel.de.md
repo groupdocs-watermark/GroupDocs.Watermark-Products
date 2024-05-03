@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: de
 format: Excel
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Bearbeiten Sie Wasserzeichen in Excel Dokumenten mit .NET"
+    title: "Bearbeiten Sie Wasserzeichen in Excel-Dokumenten mit .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** ermöglicht es .NET Entwicklern, mühelos Wasserzeichen in verschiedenen Excel Dokumenten zu bearbeiten. Hier ist eine vereinfachte Anleitung zur Verwendung unserer API in Ihrer Anwendung:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** ermöglicht .NET-Entwicklern die mühelose Bearbeitung von Wasserzeichen in verschiedenen Excel-Dokumenten. Hier ist eine vereinfachte Anleitung zur Verwendung unserer API in Ihrer Anwendung:
       
-      1. **Watermarker**. Sie können die Datei entweder als Bytestream, als Dateistream oder als lokalen Festplattenpfad angeben.
-      2. **Suchkriterien**, um Wasserzeichen mit den entsprechenden Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.
-      3. Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Anschließend können Sie ihre Eigenschaften wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr anpassen. Dadurch haben Sie umfassende Kontrolle über Ihre Daten.
+      1. Übergeben Sie zunächst Ihre Excel-Datei als Parameter an den Klassenkonstruktor **Watermarker**. Sie können die Datei entweder als Bytestream, Dateistream oder lokalen Festplattenpfad bereitstellen.
+      2. Suchen Sie als Nächstes die spezifischen Wasserzeichen, die bearbeitet werden müssen. Verwenden Sie **SearchCriteria**, um Wasserzeichen mit den entsprechenden Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.
+      3. Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Anschließend können Sie deren Eigenschaften wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr anpassen. Dadurch erhalten Sie weitreichende Kontrolle über Ihre Daten.
       4. Wenn Sie die Bearbeitung der Wasserzeichen abgeschlossen haben, speichern Sie das aktualisierte Dokument. Sie können einen lokalen Dateipfad oder einen Stream verwenden, um das Endergebnis zu speichern.
    
     code:
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // EXCEL Textwasserzeichen bearbeiten
+        // Bearbeiten Sie das Textwasserzeichen EXCEL
 
-        // Watermarker erstellen, der eine EXCEL -Datei bereitstellt
+        // Erstellen Sie Watermarker und stellen Sie die Datei EXCEL bereit
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
-            // Konstruieren Sie die TextSearchCriteria und rufen Sie Textwasserzeichen ab
+            // Konstruieren Sie die TextSearchCriteria und erhalten Sie Textwasserzeichen
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

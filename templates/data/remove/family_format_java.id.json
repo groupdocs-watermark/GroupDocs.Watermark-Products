@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Hapus tanda air teks dalam dokumen {{FileformatCap}}",
-    "comment_2": "Buat Instantiasi Watermarker dengan dokumen {{FileformatCap}}",
+    "comment_1": "Hapus tanda air teks di dokumen {{FileformatCap}}",
+    "comment_2": "Buat instance {{TextWatermarker}} dengan dokumen {{FileformatCap}}",
     "comment_3": "Hapus tanda air tertentu",
     "comment_4": "Simpan file yang diproses"
   },
   "steps": {
-    "title": "Bersihkan dokumen {{FileformatCap}} dari tanda air menggunakan {{EnvName}}",
+    "title": "Hapus tanda air {{FileformatCap}} dokumen menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memudahkan untuk menghapus dokumen bisnis dari tanda air yang ditambahkan sebelumnya. Berdayakan aplikasi {{EnvName}} Anda dengan menginstal perpustakaan kami dan lakukan dalam beberapa langkah sederhana:",
-      "step_1": "**Watermarker** dengan dokumen {{FileformatCap}}. API kami mendukung penerusan dokumen untuk diproses sebagai aliran atau jalur lokal.",
-      "step_2": "**Criteria pencari** untuk membatasi set tanda air yang akan diproses. Dimungkinkan untuk menggunakan gambar sebagai parameter pencarian serta teks atau fitur pemformatan. Kemudian parameter pencarian yang lebih spesifik yang Anda berikan, maka hasil yang lebih tepat yang Anda dapatkan.",
-      "step_3": "Proses daftar tanda air dokumen yang telah Anda peroleh sebagai hasil pencarian. Kosongkan dokumen.",
-      "step_4": "Setelah menghapus dokumen menyimpan hasil sebagai file lokal atau aliran byte."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memudahkan untuk menghapus tanda air yang ditambahkan sebelumnya pada dokumen bisnis. Berdayakan aplikasi {{EnvName}} Anda dengan menginstal perpustakaan kami dan melakukannya dalam beberapa langkah sederhana:",
+      "step_1": "Pertama-tama buat instance kelas utama bernama {{TextWatermarkerBold}} dengan dokumen {{FileformatCap}}. API kami mendukung penerusan dokumen untuk diproses sebagai aliran atau jalur lokal.",
+      "step_2": "Gunakan {{TextSearchCriteriaBold}} untuk membatasi kumpulan tanda air yang akan diproses. Dimungkinkan untuk menggunakan gambar sebagai parameter pencarian serta fitur teks atau pemformatan. Maka semakin spesifik parameter pencarian yang Anda berikan, maka semakin tepat pula hasil yang Anda peroleh.",
+      "step_3": "Proses daftar watermark dokumen yang Anda peroleh sebagai hasil pencarian. Hapus dokumen.",
+      "step_4": "Setelah menghapus dokumen, simpan hasilnya sebagai file lokal atau aliran byte."
     }
   },
   "more_features": {

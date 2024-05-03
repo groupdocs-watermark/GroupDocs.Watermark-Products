@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: fr
 format: Photo
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Ajouter un filigrane au document Photo via Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permet aux développeurs Java d'ajouter facilement des filigranes de différents types aux formats de fichiers professionnels les plus courants. Ajoutez notre bibliothèque à votre demande et filigranez les documents en quelques étapes simples, comme indiqué ci-dessous.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permet aux développeurs Java d'ajouter facilement des filigranes de différents types aux formats de fichiers professionnels courants. Ajoutez notre bibliothèque à votre candidature et filigranez les documents en quelques étapes simples, comme indiqué ci-dessous.
       
-      1. **Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier Photo au constructeur en tant que chemin ou objet de flux.
-      2. **Watermark** du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document, telles que les pièces jointes ou les en-têtes.
-      3. Définissez les propriétés du filigrane telles que la hauteur et la largeur, l'alignement de la page (en haut, à gauche, au centre, etc.), la famille de police et la couleur, et bien d'autres encore.
-      4. **Watermarker** pour ajouter un nouveau filigrane. Vous pouvez ajouter autant de filigranes que vous le souhaitez. Il est recommandé d'enregistrer le document traité dans un autre emplacement.
+      1. La classe principale de notre API est **Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier Photo au constructeur en tant que chemin ou objet flux.
+      2. L'étape suivante consiste à construire un objet **Watermark** du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document telles que des pièces jointes ou des en-têtes.
+      3. Définissez les propriétés du filigrane telles que la hauteur et la largeur, l'alignement de la page (en haut, à gauche, au centre, etc.), la famille et la couleur de la police, et bien d'autres.
+      4. Appelez la méthode **Watermarker** pour ajouter un nouveau filigrane. Vous pouvez ajouter autant de filigranes que nécessaire. Il est recommandé de sauvegarder le document traité dans un autre emplacement.
    
     code:
       platform: "net"
@@ -84,10 +84,10 @@ steps:
 
         // Ajouter un filigrane de texte à PHOTO
 
-        // Transmettre le fichier à filigraner au filigrane
+        // Transmettre le fichier à filigraner à Watermarker
         Watermarker watermarker = new Watermarker("input.png");
         
-        // Création d'un filigrane de texte et configuration des propriétés
+        // Créer un filigrane de texte et configurer les propriétés
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 

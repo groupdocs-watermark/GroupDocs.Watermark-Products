@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Bildwasserzeichen zu {{FileFormatUp}} hinzufügen",
-    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an Watermarker",
-    "comment_3": "Pfad zum Bild mit Wasserzeichen angeben",
+    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an {{TextWatermarker}}",
+    "comment_3": "Geben Sie den Pfad zum Bild mit Wasserzeichen an",
     "comment_4": "Ergebnis speichern"
   },
   "steps": {
-    "title": "Fortgeschrittene Techniken: Hinzufügen von Wasserzeichen zu {{FileformatCap}} Dokumenten über {{EnvName}}",
+    "title": "Fortgeschrittene Techniken: Hinzufügen von Wasserzeichen zu {{FileformatCap}}-Dokumenten über {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "**Watermarker** initialisieren. Dieser grundlegende Schritt bereitet die Voraussetzungen für die Erweiterung von {{FileformatCap}} Dokumenten mit Wasserzeichen. Stellen Sie dem Konstruktor die Datei {{FileformatCap}} entweder als Pfad- oder Stream-Objekt zur Verfügung.",
-      "step_2": "**Wasserzeichen**-Objekte herstellen, die auf Ihre Spezifikationen zugeschnitten sind. Diese vielseitigen Entitäten ermöglichen eine präzise Platzierung nicht nur auf bestimmten Dokumentseiten, sondern auch innerhalb systemeigener Elemente wie Anlagen oder Überschriften.",
-      "step_3": "Verfeinern Sie Ihren Wasserzeichenprozess, indem Sie Eigenschaften wie Abmessungen, Ausrichtung, Schriftstile und Farben optimieren. Dieser Grad der Anpassung ermöglicht es Ihnen, Wasserzeichen zu erstellen, die perfekt zu Ihrer Dokumentästhetik passen.",
-      "step_4": "**Watermarker**-Methode, um die neu erstellten Wasserzeichen auf Ihre Dokumente anzuwenden. Genießen Sie die Flexibilität, je nach Ihren Anforderungen mehrere Wasserzeichen hinzuzufügen. Um Dokumente aufzubewahren, sollten Sie erwägen, sie an einem sicheren Ort zu speichern."
+      "title": "Erkunden erweiterter Wasserzeichentechniken für {{FileformatCap}}-Dokumente mit **[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "Starten Sie Ihren Wasserzeichenprozess, indem Sie die Klasse {{TextWatermarkerBold}} initialisieren. Dieser grundlegende Schritt schafft die Grundlage für die Verbesserung von {{FileformatCap}}-Dokumenten mit Wasserzeichen. Stellen Sie dem Konstruktor die Datei {{FileformatCap}} bereit, entweder als Pfad oder als Stream-Objekt.",
+      "step_2": "Steigen Sie auf die nächste Ebene auf, indem Sie {{TextWatermarkBold}}-Objekte erstellen, die auf Ihre Spezifikationen zugeschnitten sind. Diese vielseitigen Elemente ermöglichen eine präzise Platzierung nicht nur auf bestimmten Dokumentseiten, sondern auch innerhalb nativer Elemente wie Anhänge oder Kopfzeilen.",
+      "step_3": "Verfeinern Sie Ihren Wasserzeichenprozess, indem Sie Eigenschaften wie Abmessungen, Ausrichtung, Schriftarten und Farben optimieren. Dieser Grad der Anpassung ermöglicht es Ihnen, Wasserzeichen zu erstellen, die die Ästhetik Ihres Dokuments perfekt ergänzen.",
+      "step_4": "Nutzen Sie die Methode {{TextWatermarkerBold}}, um die neu erstellten Wasserzeichen auf Ihre Dokumente anzuwenden. Genießen Sie die Flexibilität, je nach Ihren Anforderungen mehrere Wasserzeichen hinzuzufügen. Um Dokumente aufzubewahren, sollten Sie erwägen, sie an einem sicheren Ort aufzubewahren."
     }
   },
   "more_features": {

@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "{{FileFormatUp}} Textwasserzeichen bearbeiten",
-    "comment_2": "Watermarker erstellen, der eine {{FileFormatUp}} -Datei bereitstellt",
-    "comment_3": "Konstruieren Sie die TextSearchCriteria und rufen Sie Textwasserzeichen ab",
+    "comment_1": "Bearbeiten Sie das Textwasserzeichen {{FileFormatUp}}",
+    "comment_2": "Erstellen Sie {{TextWatermarker}} und stellen Sie die Datei {{FileFormatUp}} bereit",
+    "comment_3": "Konstruieren Sie die {{TextTextSearchCriteria}} und erhalten Sie Textwasserzeichen",
     "comment_4": "Textwasserzeichen bearbeiten",
     "comment_5": "Speichern Sie das Dokument"
   },
   "steps": {
-    "title": "Bearbeiten Sie Wasserzeichen in {{FileformatCap}} Dokumenten mit {{EnvName}}",
+    "title": "Bearbeiten Sie Wasserzeichen in {{FileformatCap}}-Dokumenten mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ermöglicht es {{EnvName}} Entwicklern, mühelos Wasserzeichen in verschiedenen {{FileformatCap}} Dokumenten zu bearbeiten. Hier ist eine vereinfachte Anleitung zur Verwendung unserer API in Ihrer Anwendung:",
-      "step_1": "**Watermarker**. Sie können die Datei entweder als Bytestream, als Dateistream oder als lokalen Festplattenpfad angeben.",
-      "step_2": "**Suchkriterien**, um Wasserzeichen mit den entsprechenden Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.",
-      "step_3": "Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Anschließend können Sie ihre Eigenschaften wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr anpassen. Dadurch haben Sie umfassende Kontrolle über Ihre Daten.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ermöglicht {{EnvName}}-Entwicklern die mühelose Bearbeitung von Wasserzeichen in verschiedenen {{FileformatCap}}-Dokumenten. Hier ist eine vereinfachte Anleitung zur Verwendung unserer API in Ihrer Anwendung:",
+      "step_1": "Übergeben Sie zunächst Ihre {{FileformatCap}}-Datei als Parameter an den Klassenkonstruktor {{TextWatermarkerBold}}. Sie können die Datei entweder als Bytestream, Dateistream oder lokalen Festplattenpfad bereitstellen.",
+      "step_2": "Suchen Sie als Nächstes die spezifischen Wasserzeichen, die bearbeitet werden müssen. Verwenden Sie {{TextSearchCriteriaBold}}, um Wasserzeichen mit den entsprechenden Eigenschaften zu identifizieren, die zuvor dem Dokument hinzugefügt wurden.",
+      "step_3": "Nach der Suche erhalten Sie eine Liste relevanter Wasserzeichen. Anschließend können Sie deren Eigenschaften wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt und mehr anpassen. Dadurch erhalten Sie weitreichende Kontrolle über Ihre Daten.",
       "step_4": "Wenn Sie die Bearbeitung der Wasserzeichen abgeschlossen haben, speichern Sie das aktualisierte Dokument. Sie können einen lokalen Dateipfad oder einen Stream verwenden, um das Endergebnis zu speichern."
     }
   },

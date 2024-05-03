@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:16
 draft: false
 lang: it
 format: Jpeg
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Proteggi i documenti aziendali: genera Jpeg filigrane"
+    title: "Proteggi i documenti aziendali: genera filigrane Jpeg"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Una potente soluzione per la generazione di filigrane per Node.js via Java.
+      Rafforza la sicurezza dei documenti con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - Una potente soluzione per la generazione di filigrane per Node.js via Java.
       
-      1. **Semplifica la filigrana sicura nelle tue applicazioni Node.js via Java:** La classe **Watermarker** funge da componente principale dell'API GroupDocs.Watermark. Questa libreria semplifica la generazione di filigrane in vari formati di documento, tra cui Jpeg. Per iniziare, crea un'istanza Watermarker prima di elaborare il documento. Fornisci il percorso del file Jpeg o un oggetto stream al costruttore durante l'inizializzazione.
-      2. **Genera filigrane per una protezione avanzata:** Potenzia le filigrane che si allineano perfettamente alle tue esigenze di sicurezza. Costruisci un oggetto **Watermark** specificando il tipo desiderato. A differenza del posizionamento tradizionale delle pagine, puoi incorporare filigrane all'interno di elementi nativi del documento, come intestazioni o allegati, rafforzando la sicurezza dei documenti e aggiungendo un tocco professionale.
-      3. **Ottimizza l'aspetto della filigrana per un impatto ottimale:** Controlla gli aspetti visivi delle tue filigrane. Personalizza proprietà come altezza, larghezza, allineamento (in alto, a sinistra, al centro, ecc.), famiglie di caratteri e colori per ottenere un risultato visivamente efficace e coerente che rafforzi la legittimità dei documenti.
-      4. **Applicazione Watermark e Secure Storage**: incorpora le filigrane utilizzando il metodo **Watermarker's**. La libreria consente di aggiungere più filigrane se necessario per una maggiore protezione. Si consiglia di salvare il documento Jpeg modificato in una posizione separata e sicura per preservare il file originale e salvaguardare i documenti con filigrana.
+      1. **Semplifica la filigrana sicura nelle tue applicazioni Node.js via Java:** la classe **Watermarker** funge da componente principale dell'API GroupDocs.Watermark. Questa libreria semplifica la generazione di filigrane in vari formati di documenti, tra cui Jpeg. Per iniziare, crea un'istanza Watermarker prima di elaborare il documento. Fornire il percorso del file Jpeg o un oggetto flusso al costruttore durante l'inizializzazione.
+      2. **Genera filigrane per una protezione avanzata:** potenzia le filigrane che si allineano perfettamente alle tue esigenze di sicurezza. Costruisci un oggetto **Watermark** specificando il tipo desiderato. A differenza del tradizionale posizionamento delle pagine, puoi incorporare filigrane all'interno di elementi nativi del documento come intestazioni o allegati, rafforzando la sicurezza del documento e aggiungendo un tocco professionale.
+      3. **Perfeziona l'aspetto della filigrana per un impatto ottimale:** controlla gli aspetti visivi delle tue filigrane. Personalizza proprietà come altezza, larghezza, allineamento (in alto, a sinistra, al centro, ecc.), famiglie di caratteri e colori per ottenere un risultato visivamente efficace e coerente che rafforza la legittimità del documento.
+      4. **Applicazione di filigrana e archiviazione sicura**: incorpora le tue filigrane utilizzando il metodo **Watermarker**. La libreria consente di aggiungere più filigrane, se necessario, per una maggiore protezione. Si consiglia di salvare il documento Jpeg modificato in una posizione separata e sicura per preservare il file originale e salvaguardare i documenti con filigrana.
    
     code:
       platform: "net"
@@ -67,15 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Genera filigrana dell'immagine per JPEG
+        // Genera filigrana immagine per JPEG
 
-        // Istanziare Watermarker passando il file sorgente
+        // Crea un'istanza di Watermarker passando il file sorgente
         const watermarker = new groupdocs.watermark.Watermarker("input.jpeg");
         
-        // Genera filigrana fornendo un file di immagine
+        // Genera filigrana fornendo il file immagine
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // Ottieni JPEG risultati
+        // Ottieni il risultato JPEG
         watermarker.add(watermark);
         watermarker.save("output.jpeg");
         

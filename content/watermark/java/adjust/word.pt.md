@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: pt
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Ajuste marcas d'água em Word documentos com Java"
+    title: "Ajuste marcas d'água em documentos Word com Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** facilita que Java desenvolvedores ajustem marcas d'água de texto em seus aplicativos implementando algumas etapas fáceis:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** facilita para os desenvolvedores do Java ajustar marcas d'água de texto em seus aplicativos implementando algumas etapas fáceis:
       
-      1. **Watermarker**. Você pode fornecer um arquivo para processamento adicional como fluxo ou como um caminho em um disco local.
-      2. **SearchCriteria** ajuda a identificar marcas d'água com propriedades corretas que foram adicionadas anteriormente a um documento.
-      3. **Pesquisa**. Ajuste as propriedades das marcas d'água encontradas, como tamanho, alinhamento da página, texto, cor, conteúdo da imagem etc. Há várias maneiras de personalizar seus dados.
+      1. Carregue seu arquivo Word no objeto principal de nossa API chamado **Watermarker**. Você pode fornecer o arquivo para processamento posterior como fluxo ou como um caminho em um disco local.
+      2. O próximo passo é localizar marcas d'água que devem ser ajustadas. **SearchCriteria** ajuda a identificar marcas d'água com propriedades corretas que foram adicionadas anteriormente a um documento.
+      3. Obtenha uma lista de marcas d'água adequadas como resultado do procedimento **Search**. Ajuste as propriedades das marcas d’água encontradas, como tamanho, alinhamento da página, texto, cor, conteúdo da imagem, etc.
       4. Após a conclusão do processo de ajuste de marcas d'água, você precisa salvar o documento atualizado. Use o caminho do arquivo local, arquivo ou fluxo de bytes para armazenar o resultado.
    
     code:
@@ -84,14 +84,14 @@ steps:
 
         // Ajustar marca d'água de texto WORD
 
-        // Instancie o Watermarker com o documento de entrada WORD
+        // Instancie Watermarker com o documento de entrada WORD
         Watermarker watermarker = new Watermarker("input.docx");
 
         // Inicialize o TextSearchCriteria e encontre marcas d'água de texto
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         
-        // Ajustar as propriedades da marca d'água de texto
+        // Ajustar propriedades de marca d'água de texto
         for (PossibleWatermark watermark : watermarks)
         {
             watermark.getFormattedTextFragments().clear();

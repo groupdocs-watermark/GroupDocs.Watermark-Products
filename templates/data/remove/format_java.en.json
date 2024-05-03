@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Clear image watermark {{FileFormatUp}} document",
-    "comment_2": "Pass {{FileFormatUp}} document path to Watermarker constructor",
+    "comment_2": "Pass {{FileFormatUp}} document path to {{TextWatermarker}} constructor",
     "comment_3": "Clear the document by deleting a watermark",
     "comment_4": "Save cleared file"
   },
@@ -9,8 +9,8 @@
     "title": "Clear Watermarks from {{FileformatCap}} Documents using {{EnvName}}",
     "content": {
       "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the process of clearing watermarks from your business documents within {{EnvName}} applications. Integrate our library and follow these steps:",
-      "step_1": "Begin by initializing the **Watermarker** class with your {{FileformatCap}} document. The API accepts the document either as a stream or a local file path for processing.",
-      "step_2": "Leverage the **SearchCriteria** object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.",
+      "step_1": "Begin by initializing the {{TextWatermarkerBold}} class with your {{FileformatCap}} document. The API accepts the document either as a stream or a local file path for processing.",
+      "step_2": "Leverage the {{TextSearchCriteriaBold}} object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.",
       "step_3": "Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.",
       "step_4": "Once the watermarks are cleared, save the final document using a local file path or a stream object."
     }

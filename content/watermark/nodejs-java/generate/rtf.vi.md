@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:17
 draft: false
 lang: vi
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Bảo vệ tài liệu kinh doanh: Tạo hình mờ Rtf"
+    title: "Bảo vệ tài liệu doanh nghiệp: Tạo hình mờ Rtf"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Giải pháp tạo hình mờ mạnh mẽ cho Node.js via Java.
+      Tăng cường bảo mật tài liệu với **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - Giải pháp tạo hình mờ mạnh mẽ cho Node.js via Java.
       
-      1. **Hợp lý hóa hình mờ an toàn trong ứng dụng Node.js via Java của bạn:** Lớp **Watermarker** đóng vai trò là thành phần cốt lõi của GroupDocs.Watermark API. Thư viện này đơn giản hóa việc tạo hình mờ các định dạng tài liệu khác nhau, bao gồm Rtf. Để bắt đầu, hãy tạo một phiên bản Watermarker trước khi xử lý tài liệu của bạn. Cung cấp đường dẫn tệp Rtf hoặc một đối tượng luồng cho hàm tạo trong quá trình khởi tạo.
-      2. **Tạo hình mờ để bảo vệ nâng cao:** Tăng cường hình mờ phù hợp hoàn hảo với nhu cầu bảo mật của bạn. Xây dựng một đối tượng **Watermark** chỉ định loại mong muốn. Không giống như vị trí trang truyền thống, bạn có thể nhúng hình mờ trong các yếu tố tài liệu gốc như tiêu đề hoặc tệp đính kèm, tăng cường bảo mật tài liệu và thêm nét chuyên nghiệp.
-      3. **Tinh chỉnh giao diện hình mờ để có tác động tối ưu:** Kiểm soát các khía cạnh trực quan của hình mờ của bạn. Tùy chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh (trên cùng, bên trái, giữa, v.v.), họ phông chữ và màu sắc để đạt được kết quả hiệu quả và nhất quán về mặt thị giác, củng cố tính hợp pháp của tài liệu.
-      4. **Ứng dụng hình mờ và lưu trữ an toàn**: Kết hợp hình mờ của bạn bằng phương thức**WaterMarker's**. Thư viện cho phép bạn thêm nhiều hình mờ nếu cần thiết để tăng cường bảo vệ. Bạn nên lưu tài liệu Rtf đã sửa đổi vào một vị trí riêng biệt, an toàn để bảo tồn tệp gốc và bảo vệ các tài liệu có hình mờ của bạn.
+      1. **Hợp lý hóa hình chìm mờ an toàn trong các ứng dụng Node.js via Java của bạn:** Lớp **Watermarker** đóng vai trò là thành phần cốt lõi của API GroupDocs.Watermark. Thư viện này đơn giản hóa việc tạo hình mờ ở nhiều định dạng tài liệu khác nhau, bao gồm cả Rtf. Để bắt đầu, hãy tạo phiên bản Watermarker trước khi xử lý tài liệu của bạn. Cung cấp đường dẫn tệp Rtf hoặc đối tượng luồng cho hàm tạo trong quá trình khởi tạo.
+      2. **Tạo hình mờ để tăng cường khả năng bảo vệ:** Cung cấp hình mờ hoàn toàn phù hợp với nhu cầu bảo mật của bạn. Xây dựng một đối tượng **Watermark** chỉ định loại mong muốn. Không giống như vị trí trang truyền thống, bạn có thể nhúng hình mờ vào các thành phần tài liệu gốc như tiêu đề hoặc tệp đính kèm, tăng cường bảo mật tài liệu và thêm nét chuyên nghiệp.
+      3. **Tinh chỉnh giao diện hình mờ để có tác động tối ưu:** Kiểm soát khía cạnh trực quan của hình mờ của bạn. Tùy chỉnh các thuộc tính như chiều cao, chiều rộng, căn chỉnh (trên cùng, bên trái, giữa, v.v.), họ phông chữ và màu sắc để đạt được kết quả nhất quán và hiệu quả về mặt hình ảnh nhằm củng cố tính hợp pháp của tài liệu.
+      4. **Ứng dụng hình mờ và lưu trữ an toàn**: Kết hợp hình mờ của bạn bằng phương pháp **Watermarker**. Thư viện cho phép bạn thêm nhiều hình mờ nếu cần thiết để tăng cường bảo vệ. Bạn nên lưu tài liệu Rtf đã sửa đổi vào một vị trí riêng biệt, an toàn để bảo vệ tệp gốc và bảo vệ tài liệu có hình mờ của bạn.
    
     code:
       platform: "net"
@@ -67,15 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Tạo hình mờ hình ảnh cho RTF
+        // Tạo hình mờ cho hình ảnh cho RTF
 
-        // Instantiate Watermarker truyền tệp nguồn
+        // Khởi tạo tệp nguồn truyền Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
         
         // Tạo hình mờ bằng cách cung cấp tệp hình ảnh
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // Nhận RTF kết quả
+        // Nhận kết quả RTF
         watermarker.add(watermark);
         watermarker.save("output.rtf");
         

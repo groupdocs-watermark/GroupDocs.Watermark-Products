@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: vi
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tìm kiếm hình mờ trong Powerpoint tệp bằng Java"
+    title: "Tìm kiếm hình mờ trong tệp Powerpoint bằng cách sử dụng Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** giúp bạn dễ dàng tìm kiếm các hình mờ đã được đặt trong tài liệu kinh doanh. Tải xuống gói của chúng tôi và đưa nó vào ứng dụng Java của bạn để tận dụng lợi ích của nó.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** giúp bạn dễ dàng tìm kiếm các hình mờ đã được đặt trong tài liệu kinh doanh. Tải xuống gói của chúng tôi và đưa gói đó vào ứng dụng Java của bạn để tận dụng các lợi ích của gói đó.
       
-      1. **Watermarker**. Có thể chỉ cung cấp một đường dẫn tệp, luồng tệp hoặc luồng byte.
-      2. **SearchCriteria**. Cung cấp hình ảnh làm ví dụ để có được hình mờ hình ảnh tương tự. Nếu bạn muốn tìm kiếm hình mờ văn bản cung cấp văn bản, phông chữ, màu sắc và các tùy chọn khác.
-      3. **Tìm kiếm** của đối tượng **Watermarker**. Bạn sẽ được cung cấp bộ sưu tập các đối tượng có thể được xử lý dưới dạng hình mờ.
-      4. Cuối cùng, bạn có thể tự do làm với kết quả tìm kiếm bất cứ điều gì bạn muốn. Hoàn toàn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng. Thay đổi kích thước hoặc văn bản, ví dụ.
+      1. Để sử dụng các tính năng thư viện của chúng tôi, bạn cần tải tệp Powerpoint vào phiên bản lớp **Watermarker**. Có thể chỉ cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.
+      2. Để thu hẹp danh sách các hình mờ có thể sử dụng đối tượng **SearchCriteria**. Cung cấp hình ảnh làm ví dụ để có được hình mờ hình ảnh tương tự. Nếu bạn muốn tìm kiếm hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn khác.
+      3. Để lấy hình mờ được đặt trong tài liệu, hãy sử dụng phương thức **Search** của đối tượng **Watermarker**. Bạn sẽ được cung cấp bộ sưu tập các đối tượng có thể được xử lý dưới dạng hình mờ.
+      4. Cuối cùng, bạn có thể tự do thực hiện bất cứ điều gì bạn muốn với kết quả tìm kiếm. Hoàn toàn có thể xóa các hình mờ được tìm thấy hoặc chỉnh sửa thuộc tính của chúng. Thay đổi kích thước hoặc văn bản, ví dụ.
    
     code:
       platform: "net"

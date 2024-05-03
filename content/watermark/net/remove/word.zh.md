@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: zh
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 .NET 从 Word 个文档中移除水印"
+    title: "使用 .NET 从 Word 文档中删除水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 简化了从业务文档中删除水印的任务。通过集成我们的库来增强您的 .NET 应用程序，然后按照以下简单步骤操作：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 简化了从业务文档中删除水印的任务。通过集成我们的库来增强您的 .NET 应用程序的能力，并按照以下简单步骤操作：
       
-      1. **Watermarker**。我们的 API 支持处理以流或本地路径形式提供的文档。
-      2. **搜索条件**缩小要处理的水印集的范围。您可以使用各种参数，例如图像、文本或格式化功能。您提供的搜索参数越具体，获得的结果就越精确。
-      3. 处理作为搜索结果获得的文档水印列表，并将其从文档中删除。
-      4. 删除水印后，将生成的文档另存为本地文件或字节流。
+      1. 首先使用 Word 文档实例化主类 **Watermarker**。我们的 API 支持处理以流或本地路径形式提供的文档。
+      2. 利用 **SearchCriteria** 缩小要处理的水印集的范围。您可以使用各种参数，例如图像、文本或格式设置功能。您提供的搜索参数越具体，您获得的结果就越精确。
+      3. 处理作为搜索结果获得的文档水印列表并将其从文档中删除。
+      4. 去除水印后，将生成的文档保存为本地文件或字节流。
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // 从 Word 文档中移除文字水印
+        // 从 Word 文档中删除文本水印
 
         // 为文档 Word 源文档提供 Watermarker 实例
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // 从文档中移除选定的水印
+            // 从文档中删除选定的水印
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.FontBold = true;

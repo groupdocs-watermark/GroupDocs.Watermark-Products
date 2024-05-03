@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:19
 draft: false
 lang: ja
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "GroupDocs.Watermark を使用して Xlsx ファイルからウォーターマークを取得"
+    title: "GroupDocs.Watermark を使用して Xlsx ファイルからウォーターマークを取得する"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**は、一般的なビジネス文書形式にウォーターマークを付けるための包括的なソリューションを提供します。当社のライブラリを Node.js via Java アプリケーションに統合することで、強力なウォーターマーク検索機能を搭載できます。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は、一般的なビジネス ドキュメント形式にウォーターマークを配置するための包括的なソリューションを提供します。私たちのライブラリを Node.js via Java アプリケーションに統合することで、強力なウォーターマーク検索機能を装備できます。
       
-      1. **Watermarker** クラスをインスタンス化し、Xlsx ファイルパスを指定します。また、バイトストリームとして保存されたファイルを使用することもできます。このアクションでは、基本的にターゲットドキュメントが読み込まれ、包括的なウォーターマーク分析が可能になります。
-      2. **SearchCriteria** オブジェクトを作成します。画像を指定して類似の画像ウォーターマークを検索できます。また、テキストウォーターマークの場合は、テキストコンテンツ、フォントプロパティ、色属性、その他の関連パラメーターを定義して検索条件を絞り込み、より正確な結果を得ることもできます。
-      3. **Watermarker**オブジェクトの**Get**メソッド (または同様の命名規則) を呼び出して、ロードされたドキュメント内でウォーターマーク取得プロセスを開始します。この関数はウォーターマークになりそうなオブジェクトのコレクションを返すので、特定の要件に基づいてさらに処理を進めることができます。
-      4. ウォーターマークの結果コレクションでは、ドキュメント内で識別されるウォーターマークを制御できます。不要なウォーターマークを削除したり、必要に応じてウォーターマークのサイズ、位置、テキストの内容を調整するなど、ウォーターマークのプロパティを動的に変更したりできます。
+      1. GroupDocs.Watermark が提供する機能にアクセスするには、**Watermarker** クラスをインスタンス化し、Xlsx ファイル パスを指定します。バイトストリームとして保存されたファイルを使用することもできます。このアクションは基本的に、包括的な透かし分析のためにターゲット ドキュメントを読み込みます。
+      2. ターゲットを絞ったウォーターマークの識別を実現するには、**SearchCriteria** オブジェクトを作成します。類似した画像の透かしを検索するために画像を指定できます。あるいは、テキストの透かしの場合は、テキストの内容、フォントのプロパティ、色属性、およびその他の関連パラメーターを定義して、検索基準を絞り込み、より正確な結果を取得します。
+      3. **Watermarker** オブジェクトの **Search** メソッド (または同様の命名規則) を呼び出して、ロードされたドキュメント内でウォーターマークの取得プロセスを開始します。この関数は、潜在的なウォーターマークを表すオブジェクトのコレクションを返し、特定の要件に基づいたさらなる処理を容易にします。
+      4. ウォーターマークの結果コレクションを使用すると、ドキュメント内で識別されたウォーターマークを制御できます。不要な透かしを削除したり、ニーズに合わせてサイズ、位置、テキスト コンテンツの調整などのプロパティを動的に変更したりできます。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // XLSX に配置された画像のウォーターマークを取得
+        // XLSX に配置された画像の透かしを取得します
 
-        // ソースパスを持つウォーターマーカーオブジェクトを作成
+        // ソースパスを使用して Watermarker オブジェクトを作成する
         const watermarker = new groupdocs.watermark.Watermarker("input.xlsx");
         
-        // 類似の画像ハッシュでウォーターマークを取得
+        // 類似画像ハッシュによる透かしの取得
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);
         const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // ウォーターマークを好きなように処理
+        // 透かしを自由に加工
         console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            

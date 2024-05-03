@@ -3,16 +3,16 @@
     "comment_1": "Générer un filigrane de texte dans le fichier {{FileFormatUp}}",
     "comment_2": "Fournir le fichier à filigraner",
     "comment_3": "Générer une instance de filigrane de texte",
-    "comment_4": "Enregistrer {{FileFormatUp}} résultat"
+    "comment_4": "Enregistrer le résultat {{FileFormatUp}}"
   },
   "steps": {
     "title": "Améliorez vos documents : générez des filigranes pour {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** est une bibliothèque qui simplifie l'ajout de filigranes à divers formats de fichiers professionnels pour les développeurs {{EnvName}}. Intégrez notre bibliothèque à votre application et filigranez facilement les documents en suivant les étapes suivantes :",
-      "step_1": "**Initiez votre parcours de filigrane :** Commencez par vous familiariser avec la classe **Watermarker**, la pierre angulaire de notre API. Pour démarrer le processus, assurez-vous de l'instancier avant le traitement du document. Ne négligez pas l'importance de fournir le fichier {{FileformatCap}} au constructeur, qu'il s'agisse d'un chemin ou d'un objet de flux.",
-      "step_2": "**Création de filigranes personnalisés :** Passez à la phase suivante en créant un objet **Filigrane** adapté à vos spécifications. Cet outil polyvalent n'est pas limité à des pages de document spécifiques ; il peut également être intégré de manière fluide à des éléments de document natifs tels que des pièces jointes ou des en-têtes.",
-      "step_3": "**Régler les attributs du filigrane :** Améliorez votre expérience de filigrane en ajustant des propriétés telles que la hauteur, la largeur, l'alignement des pages, la famille de polices et la couleur. Ce niveau de personnalisation garantit que vos filigranes s'intègrent parfaitement à vos documents.",
-      "step_4": "**Application de vos filigranes :** Utilisez la méthode **Watermarker** pour appliquer sans effort vos filigranes personnalisés à vos documents. Que vous deviez ajouter un ou plusieurs filigranes, ce processus offre de la flexibilité. Pour plus de sécurité, pensez à enregistrer vos documents traités dans un emplacement distinct."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** est une bibliothèque qui simplifie l'ajout de filigranes à divers formats de fichiers professionnels pour les développeurs {{EnvName}}. Intégrez notre bibliothèque dans votre application et filigranez facilement les documents en suivant les étapes suivantes :",
+      "step_1": "**Lancez votre parcours de filigrane :** Commencez par vous familiariser avec la classe {{TextWatermarkerBold}}, la pierre angulaire de notre API. Pour commencer le processus, assurez-vous de l'instancier avant le traitement du document. Ne négligez pas l'importance de fournir le fichier {{FileformatCap}} au constructeur, qu'il s'agisse d'un chemin ou d'un objet flux.",
+      "step_2": "**Création de filigranes personnalisés :** Passez à la phase suivante en créant un objet {{TextWatermarkBold}} adapté à vos spécifications. Cet outil polyvalent ne se limite pas à des pages de document spécifiques ; il peut également être intégré de manière transparente aux éléments natifs du document tels que les pièces jointes ou les en-têtes.",
+      "step_3": "**Réglage précis des attributs du filigrane :** Affinez votre expérience de filigrane en ajustant des propriétés telles que la hauteur, la largeur, l'alignement de la page, la famille de polices et la couleur. Ce niveau de personnalisation garantit que vos filigranes se fondent parfaitement dans vos documents.",
+      "step_4": "**Application de vos filigranes :** Utilisez la méthode {{TextWatermarkerBold}} pour appliquer sans effort vos filigranes personnalisés à vos documents. Que vous ayez besoin d'ajouter un ou plusieurs filigranes, ce processus offre une certaine flexibilité. Pour plus de sécurité, pensez à enregistrer vos documents traités dans un emplacement distinct."
     }
   },
   "more_features": {

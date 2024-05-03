@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: ja
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xls から Node.js via Java でウォーターマークを簡単に削除"
+    title: "Node.js via Java による Xls からウォーターマークを簡単に削除"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** を使用すると、ビジネス文書からウォーターマークを削除するプロセスが効率化されます。弊社のライブラリをシームレスに統合し、以下の簡単な手順に従うことで、お使いの Node.js via Java アプリケーションをレベルアップできます。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** は、ビジネス ドキュメントから透かしを削除するプロセスを合理化します。ライブラリをシームレスに統合し、次の簡単な手順に従って、Node.js via Java アプリケーションを強化します。
       
-      1. **Watermarker**をインスタンス化してプロセスを開始します。当社の多用途な API は、ストリームとして提供されるかローカルパスとして提供されるかにかかわらず、ドキュメントをシームレスに処理します。
-      2. **検索条件**を活用して、対処すべきウォーターマークを正確に特定してください。画像、テキスト、書式設定機能などのさまざまなパラメーターを利用して検索を絞り込むことができます。条件を詳細に設定すればするほど、結果はより正確になります。
-      3. 検索で取得したドキュメントウォーターマークのリストで削除処理を実行します。文書から簡単に削除できます。
-      4. ウォーターマークを正常に削除したら、結果のドキュメントをローカルファイルまたはバイトストリームとして安全に保存し、整合性を保ちます。
+      1. Xls ドキュメントを使用してコア クラス **Watermarker** をインスタンス化することでプロセスを開始します。当社の多用途 API は、ストリームまたはローカル パスとして提供されるかどうかに関係なく、ドキュメントをシームレスに処理します。
+      2. **SearchCriteria** を活用して、対処すべきウォーターマークを正確に特定します。画像、テキスト、書式設定機能などのさまざまなパラメータを利用して、検索を絞り込みます。基準が詳細であればあるほど、結果はより正確になります。
+      3. 検索で取得した文書ウォーターマークのリストに対して削除処理を実行します。ドキュメントから簡単に削除できます。
+      4. ウォーターマークの削除に成功したら、結果のドキュメントをローカル ファイルまたはバイト ストリームとして安全に保存し、その整合性を保ちます。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // XLS ドキュメント内の画像ウォーターマークを削除
+        // XLS ドキュメントの画像透かしを削除
 
-        // XLS パスを引数として渡すウォーターマーカーを取得
+        // XLS パスを引数として渡して Watermarker を取得します
         const watermarker = new groupdocs.watermark.Watermarker("input.xls");
         
-        // 検索条件で画像の透かしを消去
+        // 検索条件に基づいて画像の透かしをクリアします
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);
         watermarks.clear();
 
-        // 処理済みファイルを保存
+        // 処理済みファイルを保存する
         watermarker.save("output.xls");
         
         ```            

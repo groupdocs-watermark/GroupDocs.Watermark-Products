@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: id
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Mendapatkan Watermark secara Efisien di Powerpoint File dengan GroupDocs.Watermark"
+    title: "Dapatkan Tanda Air secara Efisien di File Powerpoint dengan GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** merampingkan proses pengambilan tanda air yang tertanam dalam berbagai format dokumen bisnis. Integrasikan GroupDocs.Watermark dengan mulus ke dalam aplikasi Node.js via Java Anda untuk memberdayakannya dengan kemampuan deteksi tanda air yang kuat.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** menyederhanakan proses pengambilan tanda air yang disematkan dalam berbagai format dokumen bisnis. Integrasikan GroupDocs.Watermark dengan lancar ke dalam aplikasi Node.js via Java Anda untuk memberdayakan aplikasi tersebut dengan kemampuan deteksi tanda air yang kuat.
       
-      1. **Watermarker** dan berikan jalur file Powerpoint, aliran file, atau aliran byte sebagai input. Tindakan ini memuat dokumen untuk analisis tanda air.
-      2. **SearchCriteria**. Tentukan gambar untuk menemukan tanda air gambar serupa. Atau, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter relevan lainnya untuk menyempurnakan kriteria pencarian.
-      3. **Get** dari objek**Watermarker** untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili tanda air potensial, memungkinkan pemrosesan lebih lanjut.
-      4. Koleksi objek watermark yang diambil memberi Anda banyak kemungkinan. Anda dapat menghapus tanda air yang tidak diinginkan atau memodifikasi propertinya. Ubah konten, pindahkan tanda air pada halaman, dan banyak lainnya.
+      1. Untuk memanfaatkan fungsionalitas GroupDocs.Watermark, buat instance kelas **Watermarker** dan berikan jalur file Powerpoint, aliran file, atau aliran byte sebagai masukan. Tindakan ini memuat dokumen untuk analisis tanda air.
+      2. Untuk identifikasi tanda air yang ditargetkan, gunakan objek **SearchCriteria**. Tentukan gambar untuk menemukan tanda air gambar serupa. Alternatifnya, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter relevan lainnya untuk menyaring kriteria pencarian.
+      3. Gunakan metode **Search** pada objek **Watermarker** untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili potensi tanda air, memungkinkan pemrosesan lebih lanjut.
+      4. Koleksi objek tanda air yang diambil memberi Anda banyak kemungkinan. Anda dapat menghapus tanda air yang tidak diinginkan atau mengubah propertinya. Mengubah konten, memindahkan watermark pada halaman, dan masih banyak lainnya.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Dapatkan daftar tanda air teks untuk POWERPOINT
 
-        // Instantiate class Watermarker
+        // Buat instance kelas Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // Dapatkan tanda air berdasarkan kriteria teks

@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Thêm hình mờ hình ảnh vào {{FileFormatUp}}",
-    "comment_2": "Chuyển tệp để được đánh dấu vào Watermarker",
-    "comment_3": "Cung cấp đường dẫn đến hình ảnh với hình mờ",
+    "comment_1": "Thêm hình mờ vào {{FileFormatUp}}",
+    "comment_2": "Chuyển tệp được đóng dấu mờ tới {{TextWatermarker}}",
+    "comment_3": "Cung cấp đường dẫn đến hình ảnh có hình mờ",
     "comment_4": "Lưu kết quả"
   },
   "steps": {
-    "title": "Kỹ thuật nâng cao: Thêm hình mờ vào tài liệu {{FileformatCap}} thông qua {{EnvName}}",
+    "title": "Kỹ thuật nâng cao: Thêm hình mờ vào tài liệu {{FileformatCap}} qua {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "**Watermarker**. Bước cơ bản này tạo tiền đề cho việc nâng cao {{FileformatCap}} tài liệu bằng hình mờ. Cung cấp tệp {{FileformatCap}} cho hàm tạo, dưới dạng đường dẫn hoặc đối tượng luồng.",
-      "step_2": "**Watermark** phù hợp với thông số kỹ thuật của bạn. Các thực thể đa năng này cung cấp vị trí chính xác không chỉ trên các trang tài liệu được chỉ định mà còn trong các yếu tố gốc như tệp đính kèm hoặc tiêu đề.",
+      "title": "Khám phá các kỹ thuật tạo hình mờ nâng cao cho tài liệu {{FileformatCap}} với **[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "Bắt đầu quá trình tạo hình mờ của bạn bằng cách khởi tạo lớp {{TextWatermarkerBold}}. Bước cơ bản này tạo tiền đề cho việc nâng cao tài liệu {{FileformatCap}} bằng hình mờ. Cung cấp tệp {{FileformatCap}} cho hàm tạo, dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "Tiến lên cấp độ tiếp theo bằng cách tạo các đối tượng {{TextWatermarkBold}} phù hợp với thông số kỹ thuật của bạn. Các thực thể linh hoạt này cung cấp vị trí chính xác không chỉ trên các trang tài liệu được chỉ định mà còn trong các phần tử gốc như tệp đính kèm hoặc tiêu đề.",
       "step_3": "Tinh chỉnh quy trình tạo hình mờ của bạn bằng cách tinh chỉnh các thuộc tính như kích thước, căn chỉnh, kiểu phông chữ và màu sắc. Mức độ tùy chỉnh này cho phép bạn tạo hình mờ bổ sung hoàn hảo cho tính thẩm mỹ tài liệu của bạn.",
-      "step_4": "**Watermarker** để áp dụng hình mờ mới được tạo lên tài liệu của bạn. Tận hưởng sự linh hoạt của việc thêm nhiều hình mờ theo yêu cầu của bạn. Để bảo quản tài liệu, hãy cân nhắc lưu chúng ở một vị trí an toàn."
+      "step_4": "Sử dụng phương pháp {{TextWatermarkerBold}} để áp dụng hình mờ mới tạo vào tài liệu của bạn. Tận hưởng sự linh hoạt của việc thêm nhiều hình mờ theo yêu cầu của bạn. Để bảo quản tài liệu, hãy cân nhắc việc lưu chúng ở một vị trí an toàn."
     }
   },
   "more_features": {

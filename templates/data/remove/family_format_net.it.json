@@ -1,17 +1,17 @@
 {
   "examples": {
     "comment_1": "Rimuovi la filigrana di testo dal documento {{FileformatCap}}",
-    "comment_2": "Fornisci un'istanza Watermarker per il documento di origine del documento {{FileformatCap}}",
+    "comment_2": "Fornisci l'istanza di {{TextWatermarker}} per il documento di origine del documento {{FileformatCap}}",
     "comment_3": "Rimuovi le filigrane selezionate dal documento",
     "comment_4": "Salva il file nel percorso fornito"
   },
   "steps": {
-    "title": "Rimuovi le filigrane dai documenti {{FileformatCap}} utilizzando {{EnvName}}",
+    "title": "Rimuovi filigrane dai documenti {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica l'operazione di rimozione delle filigrane dai documenti aziendali. Potenzia la tua applicazione {{EnvName}} integrando la nostra libreria e segui questi semplici passaggi:",
-      "step_1": "**Watermarker**, con il documento {{FileformatCap}}. La nostra API supporta l'elaborazione dei documenti forniti come stream o come percorso locale.",
-      "step_2": "**SearchCriteria** per restringere il set di filigrane da elaborare. Puoi utilizzare vari parametri come immagini, testo o funzioni di formattazione. Più specifici sono i parametri di ricerca forniti, più precisi saranno i risultati ottenuti.",
-      "step_3": "Elabora l'elenco delle filigrane del documento ottenute come risultato della ricerca e rimuovile dal documento.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica l'attività di rimozione delle filigrane dai documenti aziendali. Potenzia la tua applicazione {{EnvName}} integrando la nostra libreria e seguendo questi semplici passaggi:",
+      "step_1": "Inizia istanziando la classe principale, {{TextWatermarkerBold}}, con il documento {{FileformatCap}}. La nostra API supporta l'elaborazione di documenti forniti come flusso o percorso locale.",
+      "step_2": "Utilizza {{TextSearchCriteriaBold}} per restringere l'insieme di filigrane da elaborare. Puoi utilizzare vari parametri come immagini, testo o funzionalità di formattazione. Più specifici sono i parametri di ricerca forniti, più precisi saranno i risultati ottenuti.",
+      "step_3": "Elabora l'elenco delle filigrane del documento ottenuto come risultato della ricerca e rimuovile dal documento.",
       "step_4": "Dopo aver rimosso le filigrane, salva il documento risultante come file locale o flusso di byte."
     }
   },

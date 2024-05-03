@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:18
 draft: false
 lang: fr
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Obtenir des filigranes à partir de Docx fichiers à l'aide de GroupDocs.Watermark"
+    title: "Obtenez des filigranes à partir de fichiers Docx à l'aide de GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** propose une solution complète pour placer des filigranes dans les formats de documents commerciaux courants. En intégrant notre bibliothèque à vos Node.js via Java applications, vous pouvez les doter de puissantes fonctionnalités de recherche par filigrane.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre une solution complète pour placer des filigranes dans les formats de documents commerciaux les plus courants. En intégrant notre bibliothèque dans vos applications Node.js via Java, vous pouvez les équiper de puissantes capacités de recherche de filigranes.
       
-      1. **Watermarker** et indiquez le chemin du fichier Docx. Vous pouvez également utiliser un fichier enregistré en tant que flux d'octets. Cette action charge essentiellement le document cible pour une analyse complète des filigranes.
-      2. **SearchCriteria**. Vous pouvez spécifier une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents afin d'affiner les critères de recherche et d'obtenir des résultats plus précis.
-      3. **Get** (ou une convention de dénomination similaire) de l'objet **Watermarker** pour démarrer le processus d'obtention du filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui facilite le traitement ultérieur en fonction de vos besoins spécifiques.
-      4. La collection de filigranes qui en résulte vous permet de contrôler les filigranes identifiés dans le document. Vous pouvez supprimer les filigranes indésirables ou modifier dynamiquement leurs propriétés, par exemple en ajustant leur taille, leur position ou le contenu du texte, en fonction de vos besoins.
+      1. Pour accéder aux fonctionnalités fournies par GroupDocs.Watermark, instanciez la classe **Watermarker** et fournissez le chemin du fichier Docx. Vous pouvez également utiliser un fichier enregistré sous forme de flux d'octets. Cette action charge essentiellement le document cible pour une analyse complète du filigrane.
+      2. Pour obtenir une identification ciblée du filigrane, créez l'objet **SearchCriteria**. Vous pouvez spécifier une image pour localiser des filigranes d’image similaires. Alternativement, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche et obtenir des résultats plus précis.
+      3. Appelez la méthode **Search** (ou une convention de dénomination similaire) de l'objet **Watermarker** pour démarrer le processus d'obtention du filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, facilitant un traitement ultérieur en fonction de vos besoins spécifiques.
+      4. La collection de filigranes résultante vous permet de contrôler les filigranes identifiés dans le document. Vous pouvez supprimer les filigranes indésirables ou modifier dynamiquement leurs propriétés, par exemple en ajustant leur taille, leur position ou le contenu du texte, en fonction de vos besoins.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Obtenir des filigranes d'image placés dans DOCX
+        // Obtenez des filigranes d'image placés dans DOCX
 
-        // Créer un objet Watermarker avec un chemin source
+        // Créer un objet Watermarker avec le chemin source
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Obtenir des filigranes par hachage d'image similaire
+        // Obtenez des filigranes par hachage d'image similaire
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);

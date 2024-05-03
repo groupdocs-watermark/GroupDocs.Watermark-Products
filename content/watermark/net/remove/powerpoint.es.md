@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:07
 draft: false
 lang: es
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Elimine las marcas de agua de Powerpoint documentos con .NET"
+    title: "Eliminar marcas de agua de documentos Powerpoint usando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifica la tarea de eliminar las marcas de agua de los documentos comerciales. Potencie su aplicación .NET integrando nuestra biblioteca y siguiendo estos sencillos pasos:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifica la tarea de eliminar marcas de agua de documentos comerciales. Potencia tu aplicación .NET integrando nuestra biblioteca y sigue estos sencillos pasos:
       
-      1. **Watermarker**, con el documento Powerpoint. Nuestra API admite el procesamiento de los documentos proporcionados como una secuencia o una ruta local.
-      2. **Criterios de búsqueda** para reducir el conjunto de marcas de agua que se procesarán. Puede usar varios parámetros, como imágenes, texto o funciones de formato. Cuanto más específicos sean los parámetros de búsqueda que proporciones, más precisos serán los resultados que obtendrás.
-      3. Procese la lista de marcas de agua del documento obtenida como resultado de la búsqueda y elimínelas del documento.
-      4. Tras eliminar las marcas de agua, guarde el documento resultante como un archivo local o un flujo de bytes.
+      1. Comience creando una instancia de la clase principal, **Watermarker**, con el documento Powerpoint. Nuestra API admite el procesamiento de documentos proporcionados como flujo o ruta local.
+      2. Utilice **SearchCriteria** para limitar el conjunto de marcas de agua que se procesarán. Puede utilizar varios parámetros, como imágenes, texto o funciones de formato. Cuanto más específicos sean los parámetros de búsqueda que proporcione, más precisos serán los resultados que obtendrá.
+      3. Procese la lista de marcas de agua de documentos obtenidas como resultado de la búsqueda y elimínelas del documento.
+      4. Después de eliminar las marcas de agua, guarde el documento resultante como un archivo local o un flujo de bytes.
    
     code:
       platform: "net"
@@ -67,19 +67,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Eliminar la marca de agua de texto del documento Powerpoint
+        // Eliminar marca de agua de texto del documento Powerpoint
 
-        // Proporcione una instancia de Watermarker para el documento fuente del documento Powerpoint
+        // Proporcione la instancia de Watermarker para el documento Powerpoint documento fuente
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // Eliminar las marcas de agua seleccionadas del documento
+            // Eliminar marcas de agua seleccionadas del documento
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.FontBold = true;
             PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
             watermarks.Clear();
 
-            // Guardar el archivo en la ruta proporcionada
+            // Guardar archivo en la ruta proporcionada
             watermarker.Save("output.pptx");
         }
         

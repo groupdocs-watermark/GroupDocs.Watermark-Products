@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: de
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Finden Sie effizient Xlsx Wasserzeichen mit .NET"
+    title: "Finden Sie effizient Xlsx-Wasserzeichen mit .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** bietet eine robuste Lösung für die programmgesteuerte Suche nach Wasserzeichen in verschiedenen Geschäftsdokumentformaten. Integrieren Sie unser Paket in Ihre .NET Anwendungen, um sie mit Funktionen zur Suche nach Wasserzeichen auszustatten.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** bietet eine robuste Lösung für die programmgesteuerte Suche nach Wasserzeichen in verschiedenen Geschäftsdokumentformaten. Integrieren Sie unser Paket in Ihre .NET-Anwendungen, um sie mit Funktionen zur Wasserzeichensuche auszustatten.
       
-      1. **Watermarker** und geben Sie den Xlsx -Dateipfad, den Dateistream oder den Bytestream als Eingabe an. Diese Aktion lädt das Dokument für die Wasserzeichenanalyse.
-      2. **SearchCriteria**. Geben Sie ein Bild an, um ähnliche Bildwasserzeichen zu finden. Definieren Sie für Textwasserzeichen alternativ den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter, um die Suchkriterien zu verfeinern.
-      3. **Search**-Methode des **Watermarker**-Objekts, um den Prozess zur Erkennung von Wasserzeichen im geladenen Dokument einzuleiten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.
-      4. Die abgerufene Sammlung von Wasserzeichenobjekten ermöglicht Ihnen eine präzise Steuerung. Sie können unerwünschte Wasserzeichen programmgesteuert entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe oder ihren Textinhalt an Ihre spezifischen Anforderungen anpassen.
+      1. Um die Funktionalitäten unserer Bibliothek zu nutzen, instanziieren Sie die Klasse **Watermarker** und stellen Sie den Dateipfad, Dateistream oder Bytestream Xlsx als Eingabe bereit. Diese Aktion lädt das Dokument zur Wasserzeichenanalyse.
+      2. Nutzen Sie zur gezielten Wasserzeichenerkennung das Objekt **SearchCriteria**. Geben Sie ein Bild zum Auffinden ähnlicher Bildwasserzeichen an. Alternativ können Sie für Textwasserzeichen den Textinhalt, die Schriftarteigenschaften, die Farbattribute und andere relevante Parameter definieren, um die Suchkriterien zu verfeinern.
+      3. Verwenden Sie die Methode **Search** des Objekts **Watermarker**, um den Wasserzeichenerkennungsprozess im geladenen Dokument zu starten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.
+      4. Die abgerufene Sammlung von Wasserzeichenobjekten ermöglicht Ihnen eine präzise Kontrolle. Sie können unerwünschte Wasserzeichen programmgesteuert entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe oder ihren Textinhalt anpassen, um sie an Ihre spezifischen Anforderungen anzupassen.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Finde Bildwasserzeichen in XLSX
+        // Suchen Sie nach Bildwasserzeichen, die in XLSX platziert sind
 
-        // Konstruiere eine Wassermarke, die den XLSX Pfad überquert
+        // Konstruieren Sie Watermarker und übergeben Sie dabei den Pfad XLSX
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
-            // Finden Sie Wasserzeichen mithilfe von Suchoptionen
+            // Finden Sie Wasserzeichen mithilfe der Suchoptionen
             ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Informationen zu Wasserzeichen verarbeiten
+            // Informationen zu Prozesswasserzeichen
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

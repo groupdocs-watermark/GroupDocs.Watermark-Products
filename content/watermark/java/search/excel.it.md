@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: it
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Cerca filigrane nei file Excel utilizzando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica la ricerca di filigrane già inserite nei documenti aziendali. Scaricate il nostro pacchetto e inseritelo nella vostra applicazione Java per sfruttarne i vantaggi.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica la ricerca di filigrane già inserite nei documenti aziendali. Scarica il nostro pacchetto e coinvolgilo nella tua applicazione Java per usufruire dei suoi vantaggi.
       
-      1. **Watermarker**. È possibile fornire solo un percorso di file, un flusso di file o un flusso di byte.
-      2. **SearchCriteria**. Fornisci un'immagine come esempio per ottenere una filigrana simile. Se desideri cercare una filigrana testuale, fornisci testo, carattere, colore e altre opzioni.
-      3. **Search** dell'oggetto **Watermarker**. Ti verrà fornita una raccolta di oggetti che possono essere elaborati come filigrane.
-      4. Infine, sei libero di fare con i risultati della ricerca quello che vuoi. È completamente possibile eliminare le filigrane trovate o modificarne le proprietà. Cambia le dimensioni o il testo, ad esempio.
+      1. Per utilizzare le funzionalità della nostra libreria devi caricare il file Excel nell'istanza della classe **Watermarker**. È possibile fornire solo un percorso file, un flusso di file o un flusso di byte.
+      2. Per restringere l'elenco delle possibili filigrane utilizzare l'oggetto **SearchCriteria**. Fornisci l'immagine come esempio per ottenere una filigrana immagine simile. Se desideri cercare una filigrana testuale, fornisci testo, carattere, colore e altre opzioni.
+      3. Per ottenere filigrane inserite nel documento, utilizzare il metodo **Search** dell'oggetto **Watermarker**. Ti verrà fornita una raccolta di oggetti che possono essere elaborati come filigrane.
+      4. Infine, sei libero di fare quello che vuoi con il risultato della ricerca. È completamente possibile eliminare le filigrane trovate o modificarne le proprietà. Modificare la dimensione o il testo, ad esempio.
    
     code:
       platform: "net"
@@ -84,7 +84,7 @@ steps:
 
         // Cerca filigrane di testo nel documento EXCEL
 
-        // Ottieni un'istanza Watermarker per il documento EXCEL
+        // Ottieni l'istanza Watermarker per il documento EXCEL
         Watermarker watermarker = new Watermarker("input.xslx");
 
         // Cerca filigrane in base a criteri
@@ -92,7 +92,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Elabora filigrane
+        // Filigrane di processo
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```   

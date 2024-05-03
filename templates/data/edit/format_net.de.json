@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Bildwasserzeichen in {{FileFormatUp}} doc bearbeiten",
-    "comment_2": "Watermarker anhand der Quelldatei initialisieren",
-    "comment_3": "Suchkriterien für die Suche nach Bildwasserzeichen erstellen",
+    "comment_1": "Bearbeiten Sie das Bildwasserzeichen im Dokument {{FileFormatUp}}",
+    "comment_2": "Initialisieren Sie {{TextWatermarker}} nach Quelldatei",
+    "comment_3": "Erstellen Sie {{TextSearchCriteria}} für die Suche nach Bildwasserzeichen",
     "comment_4": "Bildwasserzeichen bearbeiten",
     "comment_5": "Ergebnis speichern {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Programmgesteuertes Bearbeiten von Wasserzeichen in {{FileformatCap}} Dokumenten mit der {{EnvName}} API",
+    "title": "Bearbeiten Sie Wasserzeichen in {{FileformatCap}}-Dokumenten programmgesteuert mit der {{EnvName}}-API",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** bietet {{EnvName}} Entwicklern eine robuste API zur programmgesteuerten Manipulation von Wasserzeichen in diversen {{FileformatCap}} Dokumenten. Dieses Handbuch beschreibt den Prozess:",
-      "step_1": "**Watermarker** angeben. Die Datei kann entweder als Bytestream, als Dateistream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
-      "step_2": "**SearchCriteria**, um die spezifischen Wasserzeichen zu ermitteln, die geändert werden müssen. Dieses Objekt ermöglicht die Identifizierung von Wasserzeichen, die zuvor in das Dokument eingebettet waren.",
-      "step_3": "Nach erfolgreicher Ausführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr ändern können.",
-      "step_4": "Behalten Sie das geänderte Dokument nach Abschluss der Änderungen am Wasserzeichen bei. Die API erleichtert das Speichern entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** stellt {{EnvName}}-Entwicklern eine robuste API für die programmgesteuerte Bearbeitung von Wasserzeichen in verschiedenen {{FileformatCap}}-Dokumenten zur Verfügung. Dieser Leitfaden beschreibt den Prozess:",
+      "step_1": "Starten Sie den Workflow, indem Sie Ihre {{FileformatCap}}-Datei als Argument für den Klassenkonstruktor {{TextWatermarkerBold}} bereitstellen. Die Datei kann entweder als Byte-Stream, als Datei-Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
+      "step_2": "Anschließend nutzen Sie das Objekt {{TextSearchCriteriaBold}}, um die spezifischen Wasserzeichen zu ermitteln, die geändert werden müssen. Dieses Objekt ermöglicht die Identifizierung von Wasserzeichen, die zuvor in das Dokument eingebettet wurden.",
+      "step_3": "Nach erfolgreicher Durchführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle und ermöglichen Ihnen die Änderung von Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr.",
+      "step_4": "Behalten Sie nach Abschluss der Wasserzeichenbearbeitung das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:19
 draft: false
 lang: pt
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Obtenha marcas d'água de Xls arquivos usando GroupDocs.Watermark"
+    title: "Obtenha marcas d'água de arquivos Xls usando GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** oferece uma solução abrangente para colocar marcas d'água em formatos populares de documentos comerciais. Ao integrar nossa biblioteca em seus Node.js via Java aplicativos, você pode equipá-los com poderosos recursos de pesquisa de marcas d'água.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** oferece uma solução abrangente para colocar marcas d'água em formatos de documentos comerciais populares. Ao integrar nossa biblioteca em seus aplicativos Node.js via Java, você pode equipá-los com poderosos recursos de pesquisa de marca d'água.
       
-      1. **Watermarker** e forneça o caminho do arquivo Xls. Além disso, você pode usar o arquivo salvo como fluxo de bytes. Essa ação basicamente carrega o documento de destino para uma análise abrangente da marca d'água.
-      2. **SearchCriteria**. Você pode especificar uma imagem para localizar marcas d'água de imagens semelhantes. Como alternativa, para marcas d'água textuais, defina o conteúdo do texto, as propriedades da fonte, os atributos de cor e outros parâmetros relevantes para refinar os critérios de pesquisa e obter resultados mais precisos.
-      3. **Get** (ou uma convenção de nomenclatura similar) do objeto **Watermarker** para iniciar o processo de obtenção da marca d'água no documento carregado. Essa função retorna uma coleção de objetos representando marcas d'água em potencial, facilitando o processamento adicional com base em seus requisitos específicos.
-      4. A coleção de marcas d'água resultantes permite que você controle as marcas d'água identificadas no documento. Você pode remover marcas d'água indesejadas ou modificar dinamicamente suas propriedades, como ajustar seu tamanho, posição ou conteúdo de texto, de acordo com suas necessidades.
+      1. Para acessar as funcionalidades fornecidas por GroupDocs.Watermark, instancie a classe **Watermarker** e forneça o caminho do arquivo Xls. Além disso, você pode usar o arquivo salvo como fluxo de bytes. Esta ação essencialmente carrega o documento de destino para uma análise abrangente da marca d’água.
+      2. Para obter a identificação direcionada da marca d'água, crie o objeto **SearchCriteria**. Você pode especificar uma imagem para localizar marcas d'água de imagens semelhantes. Alternativamente, para marcas d'água textuais, defina o conteúdo do texto, propriedades da fonte, atributos de cor e outros parâmetros relevantes para refinar os critérios de pesquisa e obter resultados mais precisos.
+      3. Chame o método **Search** (ou uma convenção de nomenclatura semelhante) do objeto **Watermarker** para iniciar o processo de obtenção da marca d’água no documento carregado. Esta função retorna uma coleção de objetos que representam possíveis marcas d'água, facilitando o processamento posterior com base em seus requisitos específicos.
+      4. A coleção resultante de marcas d'água permite controlar as marcas d'água identificadas no documento. Você pode remover marcas d'água indesejadas ou modificar dinamicamente suas propriedades, como ajustar tamanho, posição ou conteúdo do texto, para atender às suas necessidades.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Obtenha marcas d'água de imagem colocadas em XLS
+        // Coloque marcas d'água de imagem em XLS
 
-        // Crie um objeto Watermarker com o caminho de origem
+        // Crie o objeto Watermarker com caminho de origem
         const watermarker = new groupdocs.watermark.Watermarker("input.xls");
         
-        // Obtenha marcas d'água por meio de um hash de imagem semelhante
+        // Obtenha marcas d'água por hash de imagem semelhante
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);

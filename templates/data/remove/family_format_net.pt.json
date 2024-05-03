@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Remover marca d'água de texto do documento {{FileformatCap}}",
-    "comment_2": "Forneça uma instância Watermarker para o documento {{FileformatCap}} documento fonte",
-    "comment_3": "Remover marcas d'água selecionadas do documento",
+    "comment_2": "Fornece instância {{TextWatermarker}} para o documento {{FileformatCap}} documento de origem",
+    "comment_3": "Remova as marcas d’água selecionadas do documento",
     "comment_4": "Salvar arquivo no caminho fornecido"
   },
   "steps": {
-    "title": "Remover marcas d'água de {{FileformatCap}} documentos usando {{EnvName}}",
+    "title": "Remova marcas d'água de documentos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica a tarefa de remover marcas d'água de documentos comerciais. Capacite seu aplicativo {{EnvName}} integrando nossa biblioteca e siga estas etapas simples:",
-      "step_1": "**Watermarker**, com o documento {{FileformatCap}}. Nossa API suporta o processamento de documentos fornecidos como um fluxo ou um caminho local.",
-      "step_2": "**SearchCriteria** para restringir o conjunto de marcas d'água a serem processadas. Você pode usar vários parâmetros, como imagens, texto ou recursos de formatação. Quanto mais específicos forem os parâmetros de pesquisa fornecidos, mais precisos serão os resultados obtidos.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica a tarefa de remoção de marcas d'água de documentos comerciais. Capacite seu aplicativo {{EnvName}} integrando nossa biblioteca e siga estas etapas simples:",
+      "step_1": "Comece instanciando a classe principal, {{TextWatermarkerBold}}, com o documento {{FileformatCap}}. Nossa API oferece suporte ao processamento de documentos fornecidos como fluxo ou caminho local.",
+      "step_2": "Utilize {{TextSearchCriteriaBold}} para restringir o conjunto de marcas d’água a serem processadas. Você pode usar vários parâmetros, como imagens, texto ou recursos de formatação. Quanto mais específicos forem os parâmetros de pesquisa fornecidos, mais precisos serão os resultados obtidos.",
       "step_3": "Processe a lista de marcas d'água do documento obtida como resultado da pesquisa e remova-as do documento.",
-      "step_4": "Depois de remover as marcas d'água, salve o documento resultante como um arquivo local ou um fluxo de bytes."
+      "step_4": "Após remover as marcas d'água, salve o documento resultante como um arquivo local ou fluxo de bytes."
     }
   },
   "more_features": {

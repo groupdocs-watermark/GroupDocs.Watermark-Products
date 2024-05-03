@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Elimina la filigrana di testo nel documento {{FileformatCap}}",
-    "comment_2": "Crea un'istanza di Watermarker con il documento {{FileformatCap}}",
+    "comment_2": "Crea un'istanza di {{TextWatermarker}} con il documento {{FileformatCap}}",
     "comment_3": "Le filigrane di testo chiaro si adattano alle condizioni di ricerca",
     "comment_4": "Salva il file elaborato"
   },
   "steps": {
-    "title": "{{FileformatCap}} Eliminazione delle filigrane utilizzando {{EnvName}}",
+    "title": "Eliminazione filigrane {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** fornisce agli {{EnvName}} sviluppatori un'API completa per l'eliminazione programmatica di filigrane specifiche incorporate in vari documenti {{FileformatCap}}. Questa guida approfondisce il processo tecnico:",
-      "step_1": "**Watermarker** e fornendo il tuo file {{FileformatCap}} come argomento del costruttore. Il file può essere fornito come flusso di byte, flusso di file o riferimento di percorso a una posizione del disco locale.",
-      "step_2": "**SearchCriteria**. Questo oggetto facilita la creazione di filtri complessi basati su proprietà precedentemente incorporate nel documento. È possibile utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione per consentire un processo di selezione altamente granulare.",
-      "step_3": "Dopo l'esecuzione della ricerca, riceverai una raccolta di filigrane identificate. Queste filigrane possono essere eliminate facilmente.",
-      "step_4": "Una volta completata l'eliminazione della filigrana, il documento modificato viene salvato. L'API offre flessibilità di archiviazione, consentendo di utilizzare un percorso di file locale o un oggetto stream per l'output finale."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** fornisce agli sviluppatori di {{EnvName}} un'API completa per l'eliminazione programmatica di filigrane specifiche incorporate in vari documenti {{FileformatCap}}. Questa guida approfondisce il processo tecnico:",
+      "step_1": "Avvia il flusso di lavoro istanziando la classe {{TextWatermarkerBold}} e fornendo il tuo file {{FileformatCap}} come argomento del costruttore. Il file può essere fornito come flusso di byte, flusso di file o riferimento al percorso di una posizione del disco locale.",
+      "step_2": "Per ottenere un targeting preciso della filigrana, sfrutta le funzionalità dell'oggetto {{TextSearchCriteriaBold}}. Questo oggetto facilita la costruzione di filtri complessi basati su proprietà precedentemente incorporate nel documento. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione per consentire un processo di selezione altamente granulare.",
+      "step_3": "Dopo l'esecuzione della ricerca, riceverai una raccolta di filigrane identificate. Queste filigrane possono essere cancellate facilmente.",
+      "step_4": "Una volta eliminata con successo la filigrana, rendere persistente il documento modificato. L'API fornisce flessibilità di archiviazione, consentendoti di utilizzare un percorso file locale o un oggetto flusso per l'output finale."
     }
   },
   "more_features": {

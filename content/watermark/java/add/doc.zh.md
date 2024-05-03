@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: zh
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "高级技巧：通过 Java 向 Doc 文档添加水印"
+    title: "高级技术：通过 Java 添加水印到 Doc 文档"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 探索 Doc 文档的高级水印技术
+      使用 **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 探索 Doc 文档的高级水印技术
       
-      1. **水印器**类来启动水印过程。这一基本步骤为使用水印增强 Doc 个文档奠定了基础。将 Doc 文件作为路径或流对象提供给构造函数。
-      2. **水印**物体，进入下一个级别。这些多功能实体不仅可以在指定的文档页面上精确定位，还可以在附件或标题等本机元素中精确定位。
-      3. 通过微调尺寸、对齐方式、字体样式和颜色等属性来完善水印流程。这种自定义级别使您能够创建水印，完美地补充您的文档美感。
-      4. **水印**方法将新创建的水印应用到您的文档上。享受根据您的要求添加多个水印的灵活性。要保存文档，请考虑将其保存在安全的位置。
+      1. 通过初始化 **Watermarker** 类来启动水印过程。这一基础步骤为增强带有水印的 Doc 文档奠定了基础。将 Doc 文件作为路径或流对象提供给构造函数。
+      2. 通过制作根据您的规格定制的 **Watermark** 对象，进入下一级别。这些多功能实体不仅可以在指定的文档页面上提供精确的放置，还可以在附件或标题等本机元素内提供精确的放置。
+      3. 通过微调尺寸、对齐方式、字体样式和颜色等属性来优化水印过程。这种级别的自定义使您能够创建完美补充文档美观的水印。
+      4. 利用 **Watermarker** 方法将新创建的水印应用到您的文档上。享受根据您的要求添加多个水印的灵活性。要保存文档，请考虑将它们保存在安全的位置。
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 向 DOC 添加图像水印
+        // 添加图片水印到DOC
 
-        // 将要添加水印的文件传递给 Watermarker
+        // 将要加水印的文件传递给 Watermarker
         Watermarker watermarker = new Watermarker("input.doc");
         
-        // 提供带水印的图像路径
+        // 提供带有水印的图像的路径
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // 保存结果

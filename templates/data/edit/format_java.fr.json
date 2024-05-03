@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Ajuster le filigrane de l'image {{FileFormatUp}}",
-    "comment_2": "Instanciez un filigrane avec {{FileFormatUp}}",
-    "comment_3": "Initialisez les critères de recherche pour qu'ils correspondent à une image particulière",
+    "comment_2": "Instancier {{TextWatermarker}} avec {{FileFormatUp}}",
+    "comment_3": "Initialisez le {{TextSearchCriteria}} pour qu'il corresponde à une image particulière",
     "comment_4": "Remplacer l'image trouvée",
     "comment_5": "Enregistrer le fichier ajusté"
   },
   "steps": {
-    "title": "Ajustez les filigranes du document {{FileformatCap}} à l'aide de {{EnvName}}",
+    "title": "Ajustez les filigranes de document {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet à {{EnvName}} développeurs d'ajuster facilement les filigranes dans de nombreux documents à l'aide de leurs applications. Voici un guide rapide :",
-      "step_1": "**Watermarker**. Indiquez un flux d'octets ou de fichiers ou un chemin de disque local.",
-      "step_2": "**Critères de recherche** pour identifier les filigranes avec les propriétés spécifiques précédemment ajoutées au document.",
-      "step_3": "À la suite de la recherche, vous recevrez une liste des filigranes pertinents. Vous pouvez ensuite ajuster leurs propriétés, notamment la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela offre un haut degré de personnalisation de vos données.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} d'ajuster facilement les filigranes dans de nombreux documents à l'aide de leurs applications. Voici un guide rapide :",
+      "step_1": "Tout d'abord, vous devez passer le fichier {{FileformatCap}} comme paramètre du constructeur de classe {{TextWatermarkerBold}}. Fournissez un flux d’octets ou de fichiers ou un chemin de disque local.",
+      "step_2": "Deuxièmement, localisez les filigranes qui doivent être ajustés. Utilisez {{TextSearchCriteriaBold}} pour identifier les filigranes avec les propriétés spécifiques précédemment ajoutées au document.",
+      "step_3": "Suite à la recherche, vous recevrez une liste de filigranes pertinents. Vous pouvez ensuite ajuster leurs propriétés, notamment la taille, l'alignement de la page, le texte, la couleur, le contenu de l'image, etc. Cela offre un haut degré de personnalisation de vos données.",
       "step_4": "Une fois que vous avez fini d'ajuster les filigranes, enregistrez le document mis à jour. Vous pouvez utiliser un chemin de fichier local ou un flux pour stocker le résultat."
     }
   },

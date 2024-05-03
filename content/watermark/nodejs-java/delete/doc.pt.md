@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: pt
 format: Doc
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Exclua facilmente marcas d'água de Doc por Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** simplifica o processo de remoção de marcas d'água de documentos comerciais. Eleve seu aplicativo Node.js via Java integrando perfeitamente nossa biblioteca e seguindo estas etapas simples:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza o processo de remoção de marcas d'água de documentos comerciais. Eleve seu aplicativo Node.js via Java integrando perfeitamente nossa biblioteca e seguindo estas etapas simples:
       
-      1. **Watermarker**, com o documento Doc. Nossa API versátil processa documentos perfeitamente, sejam eles fornecidos como um fluxo ou um caminho local.
-      2. **SearchCriteria** para identificar com precisão as marcas d'água a serem tratadas. Utilize vários parâmetros, como imagens, texto ou recursos de formatação, para refinar sua pesquisa. Quanto mais detalhados forem seus critérios, mais precisos serão seus resultados.
-      3. Execute o processo de remoção na lista de marcas d'água de documentos recuperadas por meio de sua pesquisa. Exclua-os do documento sem esforço.
-      4. Ao excluir as marcas d'água com sucesso, salve com segurança o documento resultante como um arquivo local ou um fluxo de bytes, preservando sua integridade.
+      1. Inicie o processo instanciando a classe principal, **Watermarker**, com o documento Doc. Nossa API versátil processa documentos perfeitamente, sejam eles fornecidos como um fluxo ou um caminho local.
+      2. Aproveite **SearchCriteria** para identificar com precisão as marcas d'água a serem abordadas. Utilize vários parâmetros, como imagens, texto ou recursos de formatação, para refinar sua pesquisa. Quanto mais detalhados forem seus critérios, mais precisos serão seus resultados.
+      3. Execute o processo de remoção na lista de marcas d'água de documentos recuperadas por meio de sua pesquisa. Exclua-os facilmente do documento.
+      4. Após a exclusão bem-sucedida das marcas d'água, salve com segurança o documento resultante como um arquivo local ou fluxo de bytes, preservando sua integridade.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Excluir marca d'água da imagem no documento DOC
+        // Excluir marca d'água de imagem no documento DOC
 
-        // Faça com que o Watermarker passe o caminho DOC como argumento
+        // Obtenha Watermarker passando o caminho DOC como argumento
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
         
-        // Limpe as marcas d'água da imagem por critérios de pesquisa
+        // Limpar marcas d'água de imagem por critérios de pesquisa
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

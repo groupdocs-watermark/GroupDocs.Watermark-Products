@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: it
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Aggiungi filigrana al documento Excel tramite Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** consente agli Java sviluppatori di aggiungere facilmente filigrane di vario tipo ai formati di file aziendali più diffusi. Aggiungi la nostra libreria ai tuoi documenti di candidatura e filigrana in pochi semplici passaggi, come elencato di seguito.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** consente agli sviluppatori di Java di aggiungere facilmente filigrane di vario tipo ai formati di file aziendali più diffusi. Aggiungi la nostra libreria alla tua applicazione e aggiungi la filigrana ai documenti in pochi semplici passaggi, come elencato di seguito.
       
-      1. **Watermarker**. È necessario istanziarlo prima dell'elaborazione del documento. Non dimenticare di passare il file Excel al costruttore come percorso o oggetto stream.
-      2. **Watermark** del tipo desiderato. Può essere posizionato non solo su una pagina specifica del documento, ma anche in parti native del documento come allegati o intestazioni.
-      3. Imposta le proprietà della filigrana come altezza e larghezza, allineamento della pagina (in alto, a sinistra, al centro, ecc.), famiglia e colore dei caratteri e molte altre.
-      4. **Watermarker** per aggiungere una nuova filigrana. Puoi aggiungere tutte le filigrane di cui hai bisogno. Si consiglia di salvare il documento elaborato in un'altra posizione.
+      1. La classe principale della nostra API è **Watermarker**. È necessario crearne un'istanza prima dell'elaborazione del documento. Non dimenticare di passare il file Excel al costruttore come percorso o oggetto stream.
+      2. Il passaggio successivo è costruire un oggetto **Watermark** del tipo desiderato. Può essere posizionato non solo su una pagina specifica del documento ma anche in parti native del documento come allegati o intestazioni.
+      3. Imposta le proprietà della filigrana come altezza e larghezza, allineamento della pagina (in alto, a sinistra, al centro, ecc.), famiglia e colore dei caratteri e molto altro.
+      4. Chiama il metodo **Watermarker** per aggiungere una nuova filigrana. Puoi aggiungere tutte le filigrane di cui hai bisogno. Si consiglia di salvare il documento elaborato in un'altra posizione.
    
     code:
       platform: "net"
@@ -87,7 +87,7 @@ steps:
         // Passa il file da filigranare a Watermarker
         Watermarker watermarker = new Watermarker("input.xslx");
         
-        // Crea filigrana di testo e imposta le proprietà
+        // Crea una filigrana di testo e imposta le proprietà
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 

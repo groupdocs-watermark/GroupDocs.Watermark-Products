@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: fr
 format: Doc
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Supprimez sans effort les filigranes de Doc par Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** rationalise le processus de suppression des filigranes des documents commerciaux. Améliorez votre application Node.js via Java en intégrant parfaitement notre bibliothèque et en suivant ces étapes simples :
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** rationalise le processus de suppression des filigranes des documents professionnels. Améliorez votre application Node.js via Java en intégrant de manière transparente notre bibliothèque et en suivant ces étapes simples :
       
-      1. **Watermarker**, avec le document Doc. Notre API polyvalente traite de manière fluide les documents, qu'ils soient fournis sous forme de flux ou de chemin local.
-      2. **SearchCriteria** pour identifier avec précision les filigranes à corriger. Utilisez divers paramètres tels que les images, le texte ou les fonctionnalités de mise en forme pour affiner votre recherche. Plus vos critères sont détaillés, plus vos résultats sont précis.
-      3. Exécutez le processus de suppression sur la liste des filigranes de documents récupérés lors de votre recherche. Supprimez-les facilement du document.
-      4. Une fois les filigranes supprimés, enregistrez en toute sécurité le document obtenu sous forme de fichier local ou de flux d'octets, en préservant son intégrité.
+      1. Lancez le processus en instanciant la classe principale, **Watermarker**, avec le document Doc. Notre API polyvalente traite de manière transparente les documents, qu'ils soient fournis sous forme de flux ou de chemin local.
+      2. Tirez parti de **SearchCriteria** pour identifier précisément les filigranes à traiter. Utilisez divers paramètres tels que les images, le texte ou les fonctionnalités de formatage pour affiner votre recherche. Plus vos critères sont détaillés, plus vos résultats sont précis.
+      3. Exécutez le processus de suppression sur la liste des filigranes de documents récupérés grâce à votre recherche. Supprimez-les sans effort du document.
+      4. Une fois les filigranes supprimés avec succès, enregistrez en toute sécurité le document résultant en tant que fichier local ou flux d'octets, en préservant son intégrité.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Supprimer le filigrane de l'image dans le document DOC
 
-        // Obtenir un filigrane en passant le chemin DOC comme argument
+        // Obtenez Watermarker en passant le chemin DOC comme argument
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
         
-        // Effacer les filigranes des images selon des critères de recherche
+        // Effacer les filigranes d'image par critères de recherche
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

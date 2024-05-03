@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: ja
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Docx ウォーターマークは Java で検索"
+    title: "Docx ウォーターマークを Java で検索"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** を使用すると、ビジネス文書内のウォーターマークを簡単に見つけることができます。お客様の Java アプリケーションに当社のパッケージをインストールして、その利点を活用してください。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** は、ビジネス ドキュメント内で透かしを見つけるプロセスを簡素化します。このパッケージを Java アプリケーションにインストールして、その利点を活用してください。
       
-      1. **Watermarker**クラスのインスタンスにロードしてください。ファイルパス、ファイルストリーム、またはバイトストリームを指定できます。
-      2. **SearchCriteria** オブジェクトを使用します。たとえば、画像を指定して類似の透かしを検索できます。テキストウォーターマークを検索する場合は、テキスト、フォント、色、その他の関連オプションを指定してください。
-      3. **Watermarker**オブジェクトの**Search**メソッドを使用して、文書内にあるウォーターマークを取得します。ウォーターマークになりそうなオブジェクトのコレクションが届き、今後の処理が可能になります。
-      4. 最後に、必要に応じて検索結果を自由に操作できます。見つかったウォーターマークを削除したり、サイズやテキストの変更など、ウォーターマークのプロパティを編集したりできます。
+      1. ライブラリ機能を利用するには、Docx ファイルを **Watermarker** クラスのインスタンスにロードします。ファイル パス、ファイル ストリーム、またはバイト ストリームを指定できます。
+      2. 潜在的なウォーターマークのリストを絞り込むには、**SearchCriteria** オブジェクトを利用します。たとえば、類似した画像の透かしを検索するために画像を指定します。テキストの透かしを検索する場合は、テキスト、フォント、色、その他の関連オプションを指定します。
+      3. **Watermarker** オブジェクトの **Search** メソッドを使用して、ドキュメント内に配置されたウォーターマークを取得します。さらに処理するための潜在的なウォーターマークを表すオブジェクトのコレクションを受け取ります。
+      4. 最後に、必要に応じて検索結果を自由に操作できます。見つかったウォーターマークを削除したり、サイズやテキストの変更などのプロパティを編集したりできます。
    
     code:
       platform: "net"
@@ -81,17 +81,17 @@ steps:
           
       content: |
         ```java {style=abap}
-        // DOCX ドキュメント内の画像ウォーターマークを検索
+        // DOCX ドキュメント内の画像透かしを検索
 
-        // DOCX ドキュメントを渡すウォーターマーカーを作成
+        // DOCX ドキュメントを渡す Watermarker を作成します
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // 画像ハッシュでウォーターマークを検索
+        // 画像ハッシュによるウォーターマークの検索
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // 見つかったウォーターマークを処理
+        // プロセスでウォーターマークが見つかりました
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

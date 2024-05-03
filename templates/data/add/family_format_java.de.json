@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Fügt ein Textwasserzeichen zu {{FileFormatUp}} hinzu",
-    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an Watermarker",
-    "comment_3": "Textwasserzeichen erstellen und Eigenschaften einrichten",
+    "comment_1": "Textwasserzeichen zu {{FileFormatUp}} hinzufügen",
+    "comment_2": "Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an {{TextWatermarker}}",
+    "comment_3": "Erstellen Sie ein Textwasserzeichen und richten Sie Eigenschaften ein",
     "comment_4": "Datei mit Wasserzeichen speichern"
   },
   "steps": {
-    "title": "Wasserzeichen zu {{FileformatCap}} Dokument hinzufügen über {{EnvName}}",
+    "title": "Wasserzeichen zum {{FileformatCap}}-Dokument hinzufügen über {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** macht es {{EnvName}} Entwicklern leicht, Wasserzeichen verschiedener Typen zu gängigen Geschäftsdateiformaten hinzuzufügen. Fügen Sie in wenigen einfachen Schritten unsere Bibliothek zu Ihrer Anwendung hinzu und versehen Sie Dokumente mit Wasserzeichen, wie unten aufgeführt.",
-      "step_1": "**Watermarker**. Sie müssen es vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, die Datei {{FileformatCap}} als Pfad- oder Stream-Objekt an den Konstruktor zu übergeben.",
-      "step_2": "**Watermark**-Objekts des gewünschten Typs. Es kann nicht nur auf einer bestimmten Dokumentseite platziert werden, sondern auch in systemeigenen Dokumentteilen wie Anhängen oder Kopfzeilen.",
-      "step_3": "Stellen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Seitenausrichtung (oben, links, mittig usw.), Schriftfamilie und Farbe und viele andere ein.",
-      "step_4": "**Watermarker** auf, um ein neues Wasserzeichen hinzuzufügen. Sie können so viele Wasserzeichen hinzufügen, wie Sie benötigen. Es wird empfohlen, das verarbeitete Dokument an einem anderen Ort zu speichern."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** erleichtert {{EnvName}}-Entwicklern das Hinzufügen von Wasserzeichen verschiedener Art zu gängigen Geschäftsdateiformaten. Fügen Sie unsere Bibliothek in ein paar einfachen Schritten zu Ihren Bewerbungs- und Wasserzeichendokumenten hinzu, wie unten aufgeführt.",
+      "step_1": "Die Hauptklasse unserer API ist {{TextWatermarkerBold}}. Sie müssen es vor der Dokumentverarbeitung instanziieren. Vergessen Sie nicht, die Datei {{FileformatCap}} als Pfad oder Stream-Objekt an den Konstruktor zu übergeben.",
+      "step_2": "Der nächste Schritt besteht darin, ein {{TextWatermarkBold}}-Objekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite, sondern auch in nativen Dokumentteilen wie Anhängen oder Kopfzeilen platziert werden.",
+      "step_3": "Legen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Seitenausrichtung (oben, links, mittig usw.), Schriftfamilie und -farbe und viele andere fest.",
+      "step_4": "Rufen Sie die Methode {{TextWatermarkerBold}} auf, um ein neues Wasserzeichen hinzuzufügen. Sie können so viele Wasserzeichen hinzufügen, wie Sie benötigen. Es wird empfohlen, das verarbeitete Dokument an einem anderen Ort zu speichern."
     }
   },
   "more_features": {

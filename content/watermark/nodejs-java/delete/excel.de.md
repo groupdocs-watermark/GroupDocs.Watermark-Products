@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: de
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Excel Löschen von Wasserzeichen mit Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** bietet Node.js via Java Entwicklern eine umfassende API für das programmatische Löschen bestimmter Wasserzeichen, die in verschiedene Excel Dokumente eingebettet sind. Dieser Leitfaden befasst sich mit dem technischen Prozess:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** stellt Node.js via Java-Entwicklern eine umfassende API für die programmgesteuerte Löschung spezifischer Wasserzeichen zur Verfügung, die in verschiedenen Excel-Dokumenten eingebettet sind. Dieser Leitfaden befasst sich mit dem technischen Prozess:
       
-      1. **Watermarker** instanziieren und Ihre Excel -Datei als Konstruktorargument angeben. Die Datei kann als Bytestream, Dateistream oder als Pfadverweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
-      2. **SearchCriteria**-Objekts, um eine präzise Ausrichtung auf Wasserzeichen zu erreichen. Dieses Objekt erleichtert die Konstruktion komplexer Filter auf der Grundlage von Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild zusammen mit Text- oder Formatierungsattributen als Suchparameter verwenden, um einen hochgradigen Auswahlprozess zu ermöglichen.
-      3. Nach der Ausführung der Suche erhalten Sie eine Sammlung identifizierter Wasserzeichen. Diese Wasserzeichen können einfach gelöscht werden.
-      4. Behalten Sie das geänderte Dokument bei erfolgreichem Löschen des Wasserzeichens bei. Die API bietet Speicherflexibilität, sodass Sie entweder einen lokalen Dateipfad oder ein Stream-Objekt für die endgültige Ausgabe verwenden können.
+      1. Starten Sie den Workflow, indem Sie die Klasse **Watermarker** instanziieren und Ihre Datei Excel als Konstruktorargument bereitstellen. Die Datei kann als Bytestream, Dateistream oder Pfadverweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
+      2. Um ein präzises Wasserzeichen-Targeting zu erreichen, nutzen Sie die Funktionen des **SearchCriteria**-Objekts. Dieses Objekt erleichtert die Erstellung komplexer Filter basierend auf Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter neben Text oder Formatierungsattributen verwenden, um einen hochgradig detaillierten Auswahlprozess zu ermöglichen.
+      3. Nach der Durchführung der Suche erhalten Sie eine Sammlung der identifizierten Wasserzeichen. Diese Wasserzeichen können leicht gelöscht werden.
+      4. Nach erfolgreicher Löschung des Wasserzeichens behalten Sie das geänderte Dokument bei. Die API bietet Speicherflexibilität, sodass Sie entweder einen lokalen Dateipfad oder ein Stream-Objekt für die endgültige Ausgabe verwenden können.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Löscht das Textwasserzeichen im Excel Dokument
+        // Textwasserzeichen im Excel-Dokument löschen
 
-        // Watermarker mit Excel Dokument instanziieren
+        // Instanziieren Sie Watermarker mit dem Dokument Excel
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
-        // Klartext-Wasserzeichen entsprechen den Suchbedingungen
+        // Klartext-Wasserzeichen passen zu den Suchbedingungen
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);

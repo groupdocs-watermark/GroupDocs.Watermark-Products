@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: es
 format: Pdf
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Elimine sin esfuerzo las marcas de agua de Pdf de Node.js via Java"
+    title: "Elimine sin esfuerzo marcas de agua de Pdf mediante Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza el proceso de eliminación de marcas de agua de los documentos comerciales. Mejore su aplicación Node.js via Java integrando sin problemas nuestra biblioteca y siguiendo estos sencillos pasos:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza el proceso de eliminación de marcas de agua de documentos comerciales. Mejore su aplicación Node.js via Java integrando perfectamente nuestra biblioteca y siguiendo estos sencillos pasos:
       
-      1. **Watermarker**, con el documento Pdf. Nuestra versátil API procesa los documentos sin problemas, ya sea que se proporcionen como una secuencia o una ruta local.
-      2. **SearchCriteria** para identificar con precisión las marcas de agua que se deben abordar. Utilice varios parámetros, como imágenes, texto o funciones de formato, para refinar su búsqueda. Cuanto más detallados sean los criterios, más precisos serán los resultados.
-      3. Ejecute el proceso de eliminación en la lista de marcas de agua de documentos recuperadas a través de su búsqueda. Elimínelas del documento sin esfuerzo.
+      1. Inicie el proceso creando una instancia de la clase principal, **Watermarker**, con el documento Pdf. Nuestra API versátil procesa documentos sin problemas, ya sea que se proporcionen como una secuencia o una ruta local.
+      2. Aproveche **SearchCriteria** para identificar con precisión las marcas de agua que se deben abordar. Utilice varios parámetros, como imágenes, texto o funciones de formato, para refinar su búsqueda. Cuanto más detallados sean sus criterios, más precisos serán sus resultados.
+      3. Ejecute el proceso de eliminación en la lista de marcas de agua de documentos recuperadas a través de su búsqueda. Elimínelos sin esfuerzo del documento.
       4. Tras eliminar correctamente las marcas de agua, guarde de forma segura el documento resultante como un archivo local o un flujo de bytes, preservando su integridad.
    
     code:
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Eliminar la marca de agua de la imagen en el documento PDF
+        // Eliminar marca de agua de imagen en el documento PDF
 
         // Obtenga Watermarker pasando la ruta PDF como argumento
         const watermarker = new groupdocs.watermark.Watermarker("input.pdf");
         
-        // Borrar las marcas de agua de las imágenes según los criterios de búsqueda
+        // Borrar marcas de agua de imágenes según criterios de búsqueda
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

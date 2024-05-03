@@ -1,17 +1,17 @@
 {
   "examples": {
     "comment_1": "Elimina la filigrana dell'immagine nel documento {{FileFormatUp}}",
-    "comment_2": "Ottieni Watermarker passando il percorso {{FileFormatUp}} come argomento",
-    "comment_3": "Cancella le filigrane delle immagini in base ai criteri di ricerca",
+    "comment_2": "Ottieni {{TextWatermarker}} passando il percorso {{FileFormatUp}} come argomento",
+    "comment_3": "Cancella filigrane di immagini in base ai criteri di ricerca",
     "comment_4": "Salva il file elaborato"
   },
   "steps": {
-    "title": "Elimina facilmente le filigrane da {{FileformatCap}} per {{EnvName}}",
+    "title": "Elimina facilmente filigrane da {{FileformatCap}} con {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di rimozione delle filigrane dai documenti aziendali. Migliora la tua applicazione {{EnvName}} integrando senza problemi la nostra libreria e seguendo questi semplici passaggi:",
-      "step_1": "**Watermarker**, con il documento {{FileformatCap}}. La nostra versatile API elabora senza problemi i documenti, siano essi forniti come stream o come percorso locale.",
-      "step_2": "**SearchCriteria** per individuare con precisione le filigrane da risolvere. Utilizza vari parametri come immagini, testo o funzioni di formattazione per affinare la ricerca. Più dettagliati sono i criteri, più accurati sono i risultati.",
-      "step_3": "Esegui il processo di rimozione dall'elenco delle filigrane del documento recuperate tramite la ricerca. Eliminatele facilmente dal documento.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di rimozione delle filigrane dai documenti aziendali. Migliora la tua applicazione {{EnvName}} integrando perfettamente la nostra libreria e seguendo questi semplici passaggi:",
+      "step_1": "Avvia il processo istanziando la classe principale, {{TextWatermarkerBold}}, con il documento {{FileformatCap}}. La nostra versatile API elabora senza problemi i documenti, forniti come flusso o percorso locale.",
+      "step_2": "Sfrutta {{TextSearchCriteriaBold}} per individuare con precisione le filigrane da risolvere. Utilizza vari parametri come immagini, testo o funzionalità di formattazione per perfezionare la ricerca. Quanto più dettagliati saranno i tuoi criteri, tanto più accurati saranno i tuoi risultati.",
+      "step_3": "Esegui il processo di rimozione sull'elenco delle filigrane dei documenti recuperate tramite la ricerca. Eliminali senza sforzo dal documento.",
       "step_4": "Dopo aver eliminato con successo le filigrane, salva in modo sicuro il documento risultante come file locale o flusso di byte, preservandone l'integrità."
     }
   },

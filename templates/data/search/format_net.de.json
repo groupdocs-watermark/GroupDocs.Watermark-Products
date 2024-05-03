@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Finde Bildwasserzeichen in {{FileFormatUp}}",
-    "comment_2": "Konstruiere eine Wassermarke, die den {{FileFormatUp}} Pfad überquert",
-    "comment_3": "Finden Sie Wasserzeichen mithilfe von Suchoptionen",
-    "comment_4": "Informationen zu Wasserzeichen verarbeiten"
+    "comment_1": "Suchen Sie nach Bildwasserzeichen, die in {{FileFormatUp}} platziert sind",
+    "comment_2": "Konstruieren Sie {{TextWatermarker}} und übergeben Sie dabei den Pfad {{FileFormatUp}}",
+    "comment_3": "Finden Sie Wasserzeichen mithilfe der Suchoptionen",
+    "comment_4": "Informationen zu Prozesswasserzeichen"
   },
   "steps": {
-    "title": "Finden Sie effizient {{FileformatCap}} Wasserzeichen mit {{EnvName}}",
+    "title": "Finden Sie effizient {{FileformatCap}}-Wasserzeichen mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** bietet eine robuste Lösung für die programmgesteuerte Suche nach Wasserzeichen in verschiedenen Geschäftsdokumentformaten. Integrieren Sie unser Paket in Ihre {{EnvName}} Anwendungen, um sie mit Funktionen zur Suche nach Wasserzeichen auszustatten.",
-      "step_1": "**Watermarker** und geben Sie den {{FileformatCap}} -Dateipfad, den Dateistream oder den Bytestream als Eingabe an. Diese Aktion lädt das Dokument für die Wasserzeichenanalyse.",
-      "step_2": "**SearchCriteria**. Geben Sie ein Bild an, um ähnliche Bildwasserzeichen zu finden. Definieren Sie für Textwasserzeichen alternativ den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter, um die Suchkriterien zu verfeinern.",
-      "step_3": "**Search**-Methode des **Watermarker**-Objekts, um den Prozess zur Erkennung von Wasserzeichen im geladenen Dokument einzuleiten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.",
-      "step_4": "Die abgerufene Sammlung von Wasserzeichenobjekten ermöglicht Ihnen eine präzise Steuerung. Sie können unerwünschte Wasserzeichen programmgesteuert entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe oder ihren Textinhalt an Ihre spezifischen Anforderungen anpassen."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** bietet eine robuste Lösung für die programmgesteuerte Suche nach Wasserzeichen in verschiedenen Geschäftsdokumentformaten. Integrieren Sie unser Paket in Ihre {{EnvName}}-Anwendungen, um sie mit Funktionen zur Wasserzeichensuche auszustatten.",
+      "step_1": "Um die Funktionalitäten unserer Bibliothek zu nutzen, instanziieren Sie die Klasse {{TextWatermarkerBold}} und stellen Sie den Dateipfad, Dateistream oder Bytestream {{FileformatCap}} als Eingabe bereit. Diese Aktion lädt das Dokument zur Wasserzeichenanalyse.",
+      "step_2": "Nutzen Sie zur gezielten Wasserzeichenerkennung das Objekt {{TextSearchCriteriaBold}}. Geben Sie ein Bild zum Auffinden ähnlicher Bildwasserzeichen an. Alternativ können Sie für Textwasserzeichen den Textinhalt, die Schriftarteigenschaften, die Farbattribute und andere relevante Parameter definieren, um die Suchkriterien zu verfeinern.",
+      "step_3": "Verwenden Sie die Methode {{TextSearchBold}} des Objekts {{TextWatermarkerBold}}, um den Wasserzeichenerkennungsprozess im geladenen Dokument zu starten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.",
+      "step_4": "Die abgerufene Sammlung von Wasserzeichenobjekten ermöglicht Ihnen eine präzise Kontrolle. Sie können unerwünschte Wasserzeichen programmgesteuert entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe oder ihren Textinhalt anpassen, um sie an Ihre spezifischen Anforderungen anzupassen."
     }
   },
   "more_features": {

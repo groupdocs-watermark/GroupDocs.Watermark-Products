@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: vi
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xóa hình mờ từ Docx Tài liệu bằng Java"
+    title: "Xóa hình mờ khỏi tài liệu Docx bằng cách sử dụng Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** đơn giản hóa quá trình xóa hình mờ khỏi tài liệu kinh doanh của bạn trong Java ứng dụng. Tích hợp thư viện của chúng tôi và làm theo các bước sau:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** đơn giản hóa quy trình xóa hình mờ khỏi tài liệu doanh nghiệp của bạn trong ứng dụng Java. Tích hợp thư viện của chúng tôi và làm theo các bước sau:
       
-      1. **Watermarker** với tài liệu Docx của bạn. API chấp nhận tài liệu dưới dạng luồng hoặc đường dẫn tệp cục bộ để xử lý.
-      2. **SearchCriteria** để tinh chỉnh tập hợp hình mờ để xóa. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với văn bản hoặc thuộc tính định dạng. Tiêu chí tìm kiếm của bạn càng cụ thể, kết quả sẽ càng chính xác.
-      3. Sau khi tìm kiếm, bạn sẽ nhận được một danh sách các hình mờ được xác định. Tiến hành bằng cách xóa các hình mờ này khỏi tài liệu.
-      4. Sau khi xóa hình mờ, lưu tài liệu cuối cùng bằng đường dẫn tệp cục bộ hoặc đối tượng luồng.
+      1. Bắt đầu bằng cách khởi tạo lớp **Watermarker** bằng tài liệu Docx của bạn. API chấp nhận tài liệu dưới dạng luồng hoặc đường dẫn tệp cục bộ để xử lý.
+      2. Tận dụng đối tượng **SearchCriteria** để tinh chỉnh bộ hình mờ để xóa. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với các thuộc tính văn bản hoặc định dạng. Tiêu chí tìm kiếm của bạn càng cụ thể thì kết quả sẽ càng chính xác.
+      3. Sau khi tìm kiếm, bạn sẽ nhận được danh sách các hình mờ đã được xác định. Tiến hành bằng cách xóa các hình mờ này khỏi tài liệu.
+      4. Sau khi hình mờ được xóa, hãy lưu tài liệu cuối cùng bằng đường dẫn tệp cục bộ hoặc đối tượng luồng.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Xóa hình ảnh hình ảnh hình ảnh DOCX tài liệu
+        // Xóa hình mờ trong tài liệu DOCX
 
-        // Chuyển đường dẫn tài liệu DOCX đến hàm tạo Watermarker
+        // Truyền đường dẫn tài liệu DOCX tới hàm tạo Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Xóa tài liệu bằng cách xóa hình mờ

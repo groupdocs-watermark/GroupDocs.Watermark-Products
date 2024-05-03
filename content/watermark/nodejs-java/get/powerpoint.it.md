@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: it
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Ottieni filigrane in modo efficiente nei file Powerpoint entro GroupDocs.Watermark"
+    title: "Ottieni in modo efficiente filigrane nei file Powerpoint con GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** semplifica il processo di recupero delle filigrane incorporate in vari formati di documenti aziendali. Integra facilmente GroupDocs.Watermark nelle tue Node.js via Java applicazioni per potenziarle con solide funzionalità di rilevamento delle filigrane.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** semplifica il processo di recupero delle filigrane incorporate in vari formati di documenti aziendali. Integra perfettamente GroupDocs.Watermark nelle tue applicazioni Node.js via Java per potenziarle con solide funzionalità di rilevamento della filigrana.
       
-      1. **Watermarker** e fornisci il percorso del file Powerpoint, il flusso di file o il flusso di byte come input. Questa azione carica il documento per l'analisi della filigrana.
-      2. **SearchCriteria**. Specifica un'immagine per individuare filigrane simili. In alternativa, per le filigrane testuali, definisci il contenuto del testo, le proprietà dei caratteri, gli attributi di colore e altri parametri pertinenti per affinare i criteri di ricerca.
-      3. **Get** dell'oggetto **Watermarker** per avviare il processo di rilevamento della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, consentendo un'ulteriore elaborazione.
-      4. La raccolta recuperata di oggetti filigrana ti offre molte possibilità. È possibile rimuovere filigrane indesiderate o modificarne le proprietà. Cambia il contenuto, sposta una filigrana su una pagina e molto altro.
+      1. Per sfruttare le funzionalità di GroupDocs.Watermark, crea un'istanza della classe **Watermarker** e fornisci il percorso del file Powerpoint, il flusso di file o il flusso di byte come input. Questa azione carica il documento per l'analisi della filigrana.
+      2. Per l'identificazione mirata della filigrana, utilizzare l'oggetto **SearchCriteria**. Specificare un'immagine per individuare filigrane di immagini simili. In alternativa, per le filigrane testuali, definire il contenuto del testo, le proprietà del carattere, gli attributi del colore e altri parametri rilevanti per affinare i criteri di ricerca.
+      3. Utilizza il metodo **Search** dell'oggetto **Watermarker** per avviare il processo di rilevamento della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, consentendo un'ulteriore elaborazione.
+      4. La raccolta recuperata di oggetti filigrana ti offre molte possibilità. Puoi rimuovere filigrane indesiderate o modificarne le proprietà. Cambia contenuto, sposta una filigrana su una pagina e molto altro.
    
     code:
       platform: "net"
@@ -69,14 +69,14 @@ steps:
 
         // Ottieni l'elenco delle filigrane di testo per POWERPOINT
 
-        // Instanziare la classe Watermarker
+        // Istanzia la classe Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // Ottieni filigrane in base a criteri di testo
+        // Ottieni filigrane in base ai criteri del testo
         const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
 
-        // Usa le informazioni sulle filigrane
+        // Utilizza le informazioni sulle filigrane
         console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            

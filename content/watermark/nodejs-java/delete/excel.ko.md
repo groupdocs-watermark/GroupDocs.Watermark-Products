@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: ko
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Excel 를 사용하여 워터마크 삭제"
+    title: "Excel Node.js via Java을(를) 사용한 워터마크 삭제"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 Excel 문서에 포함된 특정 워터마크를 프로그래밍 방식으로 삭제하기 위한 포괄적인 API를 제공합니다.이 가이드에서는 기술 프로세스를 자세히 설명합니다.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 Excel 문서에 포함된 특정 워터마크를 프로그래밍 방식으로 삭제할 수 있는 포괄적인 API를 제공합니다. 이 가이드에서는 기술 프로세스를 자세히 설명합니다.
       
-      1. **Watermarker** 클래스를 인스턴스화하고 Excel 파일을 생성자 인수로 제공하여 워크플로를 시작합니다.파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 경로 참조로 제공될 수 있습니다.
-      2. **SearchCriteria** 객체의 기능을 활용하세요.이 개체를 사용하면 이전에 문서에 포함된 속성을 기반으로 복잡한 필터를 쉽게 만들 수 있습니다.텍스트 또는 서식 속성과 함께 이미지를 검색 매개 변수로 활용하여 매우 세분화된 선택 프로세스를 수행할 수 있습니다.
-      3. 검색을 실행하면 식별된 워터마크 컬렉션을 받게 됩니다.이러한 워터마크는 쉽게 삭제할 수 있습니다.
-      4. 워터마크 삭제에 성공하면 수정된 문서를 유지합니다.API는 저장 유연성을 제공하므로 최종 출력에 로컬 파일 경로 또는 스트림 객체를 활용할 수 있습니다.
+      1. **Watermarker** 클래스를 인스턴스화하고 Excel 파일을 생성자 인수로 제공하여 워크플로를 시작합니다. 파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 경로 참조로 제공될 수 있습니다.
+      2. 정확한 워터마크 타겟팅을 달성하려면 **SearchCriteria** 개체의 기능을 활용하세요. 이 개체는 이전에 문서에 포함된 속성을 기반으로 복잡한 필터의 구성을 용이하게 합니다. 텍스트 또는 서식 속성과 함께 이미지를 검색 매개변수로 활용하여 매우 세부적인 선택 프로세스를 활성화할 수 있습니다.
+      3. 검색을 실행하면 식별된 워터마크 모음을 받게 됩니다. 이러한 워터마크는 쉽게 삭제될 수 있습니다.
+      4. 워터마크 삭제에 성공하면 수정된 문서를 유지합니다. API는 저장소 유연성을 제공하므로 최종 출력을 위해 로컬 파일 경로나 스트림 개체를 활용할 수 있습니다.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Excel 문서의 텍스트 워터마크 삭제
+        // Excel 문서에서 텍스트 워터마크 삭제
 
-        // Excel 문서로 워터마커 인스턴스화
+        // Excel 문서로 Watermarker를 인스턴스화합니다.
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
-        // 검색 조건에 적합한 투명 텍스트 워터마크
+        // 검색 조건에 적합한 일반 텍스트 워터마크
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);

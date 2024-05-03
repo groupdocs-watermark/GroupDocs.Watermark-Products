@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Get text watermark list for {{FileFormatUp}}",
-    "comment_2": "Instantiate Watermarker class",
+    "comment_2": "Instantiate {{TextWatermarker}} class",
     "comment_3": "Get watermarks by text criteria",
     "comment_4": "Use watermarks info"
   },
@@ -9,9 +9,9 @@
     "title": "Efficiently Get Watermarks in {{FileformatCap}} Files by {{ProdShortName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** streamlines the process of retrieving watermarks embedded within various business document formats. Seamlessly integrate {{ProdShortName}} into your {{EnvName}} applications to empower them with robust watermark detection capabilities.",
-      "step_1": "To take advantage of {{ProdShortName}} functionalities, instantiate the **Watermarker** class and provide the {{FileformatCap}} file path, file stream, or byte stream as input. This action loads the document for watermark analysis.",
-      "step_2": "For targeted watermark identification, utilize the **SearchCriteria** object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria.",
-      "step_3": "Use the **Get** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.",
+      "step_1": "To take advantage of {{ProdShortName}} functionalities, instantiate the {{TextWatermarkerBold}} class and provide the {{FileformatCap}} file path, file stream, or byte stream as input. This action loads the document for watermark analysis.",
+      "step_2": "For targeted watermark identification, utilize the {{TextSearchCriteriaBold}} object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria.",
+      "step_3": "Use the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.",
       "step_4": "The retrieved collection of watermark objects grants you a lot of possibilities. You can remove unwanted watermarks or modify their properties. Change content, move a watermark on a page, and many others."
     }
   },

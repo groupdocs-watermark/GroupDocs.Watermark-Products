@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: id
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Pdf Pencarian Watermark melalui Java"
+    title: "Pdf Pencarian Tanda Air melalui Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** menyederhanakan proses menemukan tanda air dalam dokumen bisnis. Instal paket kami ke dalam aplikasi Java Anda untuk memanfaatkan manfaatnya.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** menyederhanakan proses pencarian tanda air dalam dokumen bisnis. Instal paket kami ke aplikasi Java Anda untuk memanfaatkan manfaatnya.
       
-      1. **Watermarker**. Anda dapat menyediakan jalur file, aliran file, atau aliran byte.
-      2. **SearchCriteria**. Misalnya, berikan gambar untuk mencari tanda air gambar serupa. Jika mencari tanda air tekstual, berikan teks, font, warna, dan opsi relevan lainnya.
-      3. **Telusur** dari objek**Watermarker**. Anda akan menerima kumpulan objek yang mewakili tanda air potensial untuk diproses lebih lanjut.
-      4. Akhirnya, Anda memiliki kebebasan untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks.
+      1. Untuk memanfaatkan fitur perpustakaan kami, muat file Pdf ke dalam instance kelas **Watermarker**. Anda dapat memberikan jalur file, aliran file, atau aliran byte.
+      2. Untuk mempersempit daftar tanda air potensial, gunakan objek **SearchCriteria**. Misalnya, menyediakan gambar untuk mencari watermark gambar yang serupa. Jika mencari tanda air tekstual, berikan teks, font, warna, dan opsi lain yang relevan.
+      3. Ambil tanda air yang ditempatkan di dalam dokumen menggunakan metode **Search** dari objek **Watermarker**. Anda akan menerima kumpulan objek yang mewakili potensi tanda air untuk diproses lebih lanjut.
+      4. Terakhir, Anda bebas memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks.
    
     code:
       platform: "net"
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // Cari tanda air gambar di dokumen PDF
 
-        // Tulis Watermarker melewati dokumen PDF
+        // Tulis dokumen Watermarker dengan meneruskan PDF
         Watermarker watermarker = new Watermarker("input.pdf");
         
-        // Cari tanda air dengan hash gambar
+        // Cari tanda air berdasarkan hash gambar
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);

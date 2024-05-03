@@ -9,10 +9,10 @@
     "title": "Enhance Your Documents: Generate Watermarks for {{FileformatCap}} using {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a library that simplifies adding watermarks to various business file formats for {{EnvName}} developers. Integrate our library into your application and effortlessly watermark documents using these following steps:",
-      "step_1": "**Initiating Your Watermarking Journey:** Start by acquainting yourself with the **Watermarker** class, the cornerstone of our API. To begin the process, ensure you instantiate it prior to document processing. Don't overlook the importance of providing the {{FileformatCap}} file to the constructor, whether it's a path or a stream object.",
-      "step_2": "**Crafting Custom Watermarks:** Move on to the next phase by creating a **Watermark** object tailored to your specifications. This versatile tool isn't limited to specific document pages; it can also be seamlessly integrated into native document elements like attachments or headers.",
+      "step_1": "**Initiating Your Watermarking Journey:** Start by acquainting yourself with the {{TextWatermarkerBold}} class, the cornerstone of our API. To begin the process, ensure you instantiate it prior to document processing. Don't overlook the importance of providing the {{FileformatCap}} file to the constructor, whether it's a path or a stream object.",
+      "step_2": "**Crafting Custom Watermarks:** Move on to the next phase by creating a {{TextWatermarkBold}} object tailored to your specifications. This versatile tool isn't limited to specific document pages; it can also be seamlessly integrated into native document elements like attachments or headers.",
       "step_3": "**Fine-tuning Watermark Attributes:** Refine your watermarking experience by adjusting properties such as height, width, page alignment, font family, and color. This level of customization ensures your watermarks blend seamlessly with your documents.",
-      "step_4": "**Applying Your Watermarks:** Utilize the **Watermarker** method to effortlessly apply your custom watermarks to your documents. Whether you need to add one or multiple watermarks, this process offers flexibility. For added security, consider saving your processed documents in a separate location."
+      "step_4": "**Applying Your Watermarks:** Utilize the {{TextWatermarkerBold}} method to effortlessly apply your custom watermarks to your documents. Whether you need to add one or multiple watermarks, this process offers flexibility. For added security, consider saving your processed documents in a separate location."
     }
   },
   "more_features": {

@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "{{FileFormatUp}} Textwasserzeichen anpassen",
-    "comment_2": "Instanziieren Sie das Wasserzeichen mit dem Eingabedokument {{FileFormatUp}}",
-    "comment_3": "Initialisieren Sie die TextSearchCriteria und suchen Sie nach Textwasserzeichen",
-    "comment_4": "Passen Sie die Eigenschaften von Textwasserzeichen an",
+    "comment_1": "Passen Sie das Textwasserzeichen {{FileFormatUp}} an",
+    "comment_2": "Instanziieren Sie {{TextWatermarker}} mit dem Eingabedokument {{FileFormatUp}}",
+    "comment_3": "Initialisieren Sie {{TextTextSearchCriteria}} und suchen Sie nach Textwasserzeichen",
+    "comment_4": "Passen Sie die Eigenschaften des Textwasserzeichens an",
     "comment_5": "Speichern Sie das aktualisierte Dokument"
   },
   "steps": {
-    "title": "Passen Sie Wasserzeichen in {{FileformatCap}} Dokumenten mit {{EnvName}} an",
+    "title": "Wasserzeichen in {{FileformatCap}}-Dokumenten mit {{EnvName}} anpassen",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** macht es {{EnvName}} Entwicklern leicht, Textwasserzeichen in ihren Anwendungen anzupassen, indem sie ein paar einfache Schritte implementieren:",
-      "step_1": "**Watermarker**. Sie können die Datei für die weitere Verarbeitung als Stream oder als Pfad auf einer lokalen Festplatte bereitstellen.",
-      "step_2": "**SearchCriteria** hilft dabei, Wasserzeichen mit den richtigen Eigenschaften zu identifizieren, die zuvor einem Dokument hinzugefügt wurden.",
-      "step_3": "**Suche** -Prozedur ab. Passen Sie die Eigenschaften gefundener Wasserzeichen wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt usw. an. Es gibt viele Möglichkeiten, Ihre Daten anzupassen.",
-      "step_4": "Nach Abschluss des Wasserzeichenanpassungsprozesses müssen Sie das aktualisierte Dokument speichern. Verwenden Sie den lokalen Dateipfad, die Datei oder den Bytestream, um das Ergebnis zu speichern."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** macht es {{EnvName}}-Entwicklern einfach, Textwasserzeichen in ihren Anwendungen anzupassen, indem sie ein paar einfache Schritte implementieren:",
+      "step_1": "Laden Sie Ihre {{FileformatCap}}-Datei in das Hauptobjekt unserer API namens {{TextWatermarkerBold}}. Sie können die Datei zur weiteren Verarbeitung als Stream oder als Pfad auf einer lokalen Festplatte bereitstellen.",
+      "step_2": "Der nächste Schritt besteht darin, Wasserzeichen zu finden, die angepasst werden müssen. {{TextSearchCriteriaBold}} hilft dabei, Wasserzeichen mit den richtigen Eigenschaften zu identifizieren, die zuvor einem Dokument hinzugefügt wurden.",
+      "step_3": "Erhalten Sie eine Liste geeigneter Wasserzeichen als Ergebnis der Prozedur {{TextSearchBold}}. Passen Sie die Eigenschaften gefundener Wasserzeichen wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt usw. an. Es gibt viele Möglichkeiten, Ihre Daten anzupassen.",
+      "step_4": "Nach Abschluss des Wasserzeichen-Anpassungsprozesses müssen Sie das aktualisierte Dokument speichern. Verwenden Sie den lokalen Dateipfad, die Datei oder den Bytestream, um das Ergebnis zu speichern."
     }
   },
   "more_features": {

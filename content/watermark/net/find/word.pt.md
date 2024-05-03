@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: pt
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Encontre marcas d'água em Word arquivos usando .NET"
+    title: "Encontre marcas d'água em arquivos Word usando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifica o processo de encontrar marcas d'água em documentos comerciais. Integre nosso pacote em seus .NET aplicativos para desbloquear suas vantagens.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** agiliza o processo de localização de marcas d'água em documentos comerciais. Integre nosso pacote em seus aplicativos .NET para desbloquear suas vantagens.
       
-      1. **Watermarker**. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.
-      2. **SearchCriteria**. Por exemplo, forneça uma imagem para encontrar marcas d'água semelhantes. Se encontrar marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.
-      3. **Pesquisa** do objeto **Marcador d'água** para recuperar marcas d'água colocadas no documento. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.
-      4. Finalmente, você tem a flexibilidade de manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar o tamanho ou o texto.
+      1. Para aproveitar os recursos de nossa biblioteca, carregue o arquivo Word em uma instância de classe **Watermarker**. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.
+      2. Para refinar a lista de possíveis marcas d'água, use o objeto **SearchCriteria**. Por exemplo, forneça uma imagem para encontrar marcas d'água de imagens semelhantes. Se encontrar marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.
+      3. Use o método **Search** do objeto **Watermarker** para recuperar marcas d'água colocadas no documento. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.
+      4. Finalmente, você tem flexibilidade para manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar tamanho ou texto.
    
     code:
       platform: "net"
@@ -69,13 +69,13 @@ steps:
         ```csharp {style=abap}
         // Encontre marca d'água de texto em WORD
 
-        // Crie um marcador d'água com o caminho WORD
+        // Crie Watermarker com caminho WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Encontre marcas d'água
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
 
-            // Use as informações de marcas d'água encontradas
+            // Use informações de marcas d'água encontradas
             foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
                 Console.WriteLine(possibleWatermark.Text);

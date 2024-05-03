@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Bild-Wasserzeichen für {{FileFormatUp}} generieren",
-    "comment_2": "Wassermarker-Quelldatei instanziieren",
+    "comment_1": "Bildwasserzeichen für {{FileFormatUp}} generieren",
+    "comment_2": "Instanziieren Sie {{TextWatermarker}} und übergeben Sie die Quelldatei",
     "comment_3": "Generieren Sie ein Wasserzeichen, indem Sie eine Bilddatei bereitstellen",
-    "comment_4": "{{FileFormatUp}} Ergebnis abrufen"
+    "comment_4": "Holen Sie sich das {{FileFormatUp}}-Ergebnis"
   },
   "steps": {
-    "title": "Schützen Sie Geschäftsdokumente: Generieren Sie {{FileformatCap}} Wasserzeichen",
+    "title": "Schützen Sie Geschäftsdokumente: Generieren Sie {{FileformatCap}}-Wasserzeichen",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** — Eine leistungsstarke Lösung zur Generierung von Wasserzeichen für {{EnvName}}.",
-      "step_1": "**Optimieren Sie das sichere Wasserzeichen in Ihren {{EnvName}} Anwendungen:** Die **Watermarker**-Klasse fungiert als Kernkomponente der {{ProdShortName}} API. Diese Bibliothek vereinfacht die Generierung von Wasserzeichen in verschiedenen Dokumentformaten, einschließlich {{FileformatCap}}. Erstellen Sie zunächst eine Watermarker-Instanz, bevor Sie Ihr Dokument verarbeiten. Geben Sie dem Konstruktor bei der Initialisierung den {{FileformatCap}} -Dateipfad oder ein Stream-Objekt an.",
-      "step_2": "**Generieren Sie Wasserzeichen für verbesserten Schutz:** Verwenden Sie Wasserzeichen, die perfekt auf Ihre Sicherheitsanforderungen abgestimmt sind. Konstruieren Sie ein **Watermark**-Objekt und geben Sie den gewünschten Typ an. Im Gegensatz zur herkömmlichen Seitenplatzierung können Sie Wasserzeichen in systemeigene Dokumentelemente wie Kopfzeilen oder Anlagen einbetten, was die Dokumentensicherheit erhöht und dem Dokument eine professionelle Note verleiht.",
-      "step_3": "**Optimieren Sie das Aussehen von Wasserzeichen für eine optimale Wirkung:** Kontrollieren Sie die visuellen Aspekte Ihrer Wasserzeichen. Passen Sie Eigenschaften wie Höhe, Breite, Ausrichtung (oben, links, mittig usw.), Schriftfamilien und Farben an, um ein visuell effektives und konsistentes Ergebnis zu erzielen, das die Legitimität Ihres Dokuments unterstreicht.",
-      "step_4": "**Wasserzeichen-Anwendung und sicherer Speicher**: Integrieren Sie Ihre Wasserzeichen mit der Methode **Watermarker**. Die Bibliothek ermöglicht es Ihnen, bei Bedarf mehrere Wasserzeichen hinzuzufügen, um den Schutz zu verbessern. Es wird empfohlen, das geänderte {{FileformatCap}} -Dokument an einem separaten, sicheren Ort zu speichern, um die Originaldatei und Ihre Dokumente mit Wasserzeichen zu schützen."
+      "title": "Stärken Sie die Dokumentensicherheit mit **[{{ProdFullName}}]({{ProductUrl}}):** – einer leistungsstarken Lösung zur Wasserzeichengenerierung für {{EnvName}}.",
+      "step_1": "**Optimieren Sie sicheres Wasserzeichen in Ihren {{EnvName}}-Anwendungen:** Die Klasse {{TextWatermarkerBold}} fungiert als Kernkomponente der {{ProdShortName}}-API. Diese Bibliothek vereinfacht die Erstellung von Wasserzeichen in verschiedenen Dokumentformaten, einschließlich {{FileformatCap}}. Erstellen Sie zunächst eine Watermarker-Instanz, bevor Sie Ihr Dokument verarbeiten. Geben Sie dem Konstruktor während der Initialisierung den Dateipfad {{FileformatCap}} oder ein Stream-Objekt an.",
+      "step_2": "**Generieren Sie Wasserzeichen für verbesserten Schutz:** Aktivieren Sie Wasserzeichen, die perfekt zu Ihren Sicherheitsanforderungen passen. Konstruieren Sie ein {{TextWatermarkBold}}-Objekt und geben Sie dabei den gewünschten Typ an. Im Gegensatz zur herkömmlichen Seitenplatzierung können Sie Wasserzeichen in native Dokumentelemente wie Kopfzeilen oder Anhänge einbetten, um die Dokumentsicherheit zu erhöhen und eine professionelle Note zu verleihen.",
+      "step_3": "**Optimieren Sie das Erscheinungsbild des Wasserzeichens für eine optimale Wirkung:** Steuern Sie die visuellen Aspekte Ihrer Wasserzeichen. Passen Sie Eigenschaften wie Höhe, Breite, Ausrichtung (oben, links, Mitte usw.), Schriftfamilien und Farben an, um ein optisch ansprechendes und konsistentes Ergebnis zu erzielen, das die Legitimität des Dokuments stärkt.",
+      "step_4": "**Wasserzeichenanwendung und sichere Speicherung**: Integrieren Sie Ihre Wasserzeichen mit der Methode {{TextWatermarkerBold}}. In der Bibliothek können Sie bei Bedarf mehrere Wasserzeichen hinzufügen, um den Schutz zu verbessern. Es wird empfohlen, das geänderte {{FileformatCap}}-Dokument an einem separaten, sicheren Ort zu speichern, um die Originaldatei zu bewahren und Ihre mit Wasserzeichen versehenen Dokumente zu schützen."
     }
   },
   "more_features": {

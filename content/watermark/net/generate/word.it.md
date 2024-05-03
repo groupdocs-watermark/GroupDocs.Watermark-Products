@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: it
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Migliora i tuoi documenti: genera filigrane per Word usando .NET"
+    title: "Migliora i tuoi documenti: genera filigrane per Word utilizzando .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** è una libreria che semplifica l'aggiunta di filigrane a vari formati di file aziendali per .NET sviluppatori. Integra la nostra libreria nella tua applicazione e aggiungi facilmente filigrane ai documenti seguendo questi passaggi:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** è una libreria che semplifica l'aggiunta di filigrane a vari formati di file aziendali per gli sviluppatori di .NET. Integra la nostra libreria nella tua applicazione e filigrana facilmente i documenti seguendo questi passaggi:
       
-      1. **Iniziare il tuo percorso con il watermarking:** Inizia conoscendo la classe **Watermarker**, la pietra angolare della nostra API. Per iniziare il processo, assicurati di crearne un'istanza prima dell'elaborazione del documento. Non trascurate l'importanza di fornire il file Word al costruttore, che si tratti di un percorso o di un oggetto stream.
-      2. **Creazione di filigrane personalizzate:** Passa alla fase successiva creando un oggetto **Filigrana** personalizzato in base alle tue specifiche. Questo strumento versatile non si limita a pagine specifiche del documento; può anche essere integrato senza problemi in elementi nativi del documento come allegati o intestazioni.
-      3. **Ottimizzazione degli attributi della filigrana:** Perfeziona la tua esperienza con la filigrana regolando proprietà come altezza, larghezza, allineamento della pagina, famiglia di caratteri e colore. Questo livello di personalizzazione garantisce che le filigrane si integrino perfettamente con i documenti.
-      4. **Applicazione delle filigrane:** Utilizza il metodo **Watermarker** per applicare facilmente le filigrane personalizzate ai tuoi documenti. Che tu debba aggiungere una o più filigrane, questo processo offre flessibilità. Per una maggiore sicurezza, valuta la possibilità di salvare i documenti elaborati in una posizione separata.
+      1. **Iniziare il tuo percorso con la filigrana:** Inizia familiarizzando con la classe **Watermarker**, la pietra angolare della nostra API. Per iniziare il processo, assicurati di crearne un'istanza prima dell'elaborazione del documento. Non trascurare l'importanza di fornire il file Word al costruttore, sia che si tratti di un percorso o di un oggetto stream.
+      2. **Creazione di filigrane personalizzate:** Passa alla fase successiva creando un oggetto **Watermark** su misura per le tue specifiche. Questo strumento versatile non è limitato a pagine di documenti specifici; può anche essere perfettamente integrato negli elementi nativi del documento come allegati o intestazioni.
+      3. **Perfezionamento degli attributi della filigrana:** perfeziona la tua esperienza di filigrana regolando proprietà quali altezza, larghezza, allineamento della pagina, famiglia di caratteri e colore. Questo livello di personalizzazione garantisce che le filigrane si fondano perfettamente con i tuoi documenti.
+      4. **Applicazione delle filigrane:** utilizza il metodo **Watermarker** per applicare facilmente le tue filigrane personalizzate ai tuoi documenti. Se devi aggiungere una o più filigrane, questo processo offre flessibilità. Per maggiore sicurezza, valuta la possibilità di salvare i documenti elaborati in una posizione separata.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Genera filigrana di testo nel file WORD
 
-        // Fornisci il file da filigranare
+        // Fornire il file a cui applicare la filigrana
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Genera un'istanza di filigrana di testo
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Salva WORD risultati
+            // Salva il risultato WORD
             watermarker.Save("output.docx");
         }
         

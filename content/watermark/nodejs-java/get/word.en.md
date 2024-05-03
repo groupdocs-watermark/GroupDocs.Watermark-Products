@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: en
 format: Word
@@ -46,7 +46,7 @@ steps:
       
       1. To take advantage of GroupDocs.Watermark functionalities, instantiate the **Watermarker** class and provide the Word file path, file stream, or byte stream as input. This action loads the document for watermark analysis.
       2. For targeted watermark identification, utilize the **SearchCriteria** object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria.
-      3. Use the **Get** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
+      3. Use the **Search** method of the **Watermarker** object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
       4. The retrieved collection of watermark objects grants you a lot of possibilities. You can remove unwanted watermarks or modify their properties. Change content, move a watermark on a page, and many others.
    
     code:

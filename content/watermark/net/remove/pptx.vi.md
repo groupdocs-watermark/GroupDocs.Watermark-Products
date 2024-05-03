@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:15
 draft: false
 lang: vi
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xóa hình mờ theo chương trình từ Pptx Tài liệu bằng cách sử dụng .NET"
+    title: "Xóa hình mờ khỏi tài liệu Pptx theo chương trình bằng cách sử dụng .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** trao quyền cho .NET nhà phát triển xóa hình mờ theo chương trình khỏi các tài liệu Pptx khác nhau. Hướng dẫn này phác thảo quy trình:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** trao quyền cho các nhà phát triển .NET xóa hình mờ khỏi nhiều tài liệu Pptx khác nhau theo chương trình. Hướng dẫn này phác thảo quá trình:
       
-      1. **Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.
-      2. **SearchCriteria** để xác định các hình mờ cụ thể cần loại bỏ. Đối tượng này cho phép lọc hình mờ dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với văn bản hoặc thuộc tính định dạng cho tìm kiếm chi tiết cao.
-      3. Sau khi tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát dạng hạt, cho phép bạn thực hiện thao tác loại bỏ.
-      4. Sau khi hoàn thành xóa hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
+      1. Bắt đầu quy trình làm việc bằng cách cung cấp tệp Pptx của bạn làm đối số cho hàm tạo của lớp **Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.
+      2. Tận dụng sức mạnh của đối tượng **SearchCriteria** để xác định các hình mờ cụ thể cần loại bỏ. Đối tượng này cho phép lọc hình mờ dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với các thuộc tính văn bản hoặc định dạng để tìm kiếm có độ chi tiết cao.
+      3. Sau khi tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát chi tiết, cho phép bạn thực hiện thao tác xóa.
+      4. Sau khi hoàn thành việc loại bỏ hình mờ, hãy lưu giữ tài liệu đã sửa đổi. API hỗ trợ lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Xóa hình mờ hình ảnh trong tài liệu PPTX
+        // Xóa hình mờ trong tài liệu PPTX
 
-        // Thực hiện Watermarker đi qua tài liệu PPTX
+        // Khởi tạo Watermarker truyền tài liệu PPTX
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // Xóa hình mờ được tìm thấy trong tài liệu

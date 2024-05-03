@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Thêm hình mờ văn bản vào {{FileFormatUp}}",
-    "comment_2": "Chuyển tệp để được đánh dấu vào Watermarker",
+    "comment_2": "Chuyển tệp được đóng dấu mờ tới {{TextWatermarker}}",
     "comment_3": "Tạo hình mờ văn bản và thiết lập thuộc tính",
-    "comment_4": "Lưu tệp có hình mờ"
+    "comment_4": "Lưu tập tin có hình chìm mờ"
   },
   "steps": {
-    "title": "Thêm hình mờ vào tài liệu {{FileformatCap}} qua {{EnvName}}",
+    "title": "Thêm Hình mờ vào Tài liệu {{FileformatCap}} qua {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp các nhà phát triển {{EnvName}} dễ dàng thêm hình mờ các loại khác nhau vào các định dạng tệp doanh nghiệp phổ biến. Thêm thư viện của chúng tôi vào ứng dụng và tài liệu hình mờ của bạn trong một vài bước đơn giản như được liệt kê bên dưới.",
-      "step_1": "**Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
-      "step_2": "**Watermark** thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.",
-      "step_3": "Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, căn chỉnh trang (trên cùng, bên trái, trung tâm, v.v.), họ phông chữ và màu sắc, và nhiều thứ khác.",
-      "step_4": "**Watermarker** để thêm hình mờ mới. Bạn có thể thêm nhiều hình mờ như bạn cần. Nên lưu tài liệu đã xử lý vào một vị trí khác."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** giúp nhà phát triển {{EnvName}} dễ dàng thêm nhiều loại hình mờ vào các định dạng tệp doanh nghiệp phổ biến. Thêm thư viện của chúng tôi vào ứng dụng và tài liệu hình mờ của bạn chỉ bằng một vài bước đơn giản như được liệt kê bên dưới.",
+      "step_1": "Lớp chính của API của chúng tôi là {{TextWatermarkerBold}}. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên chuyển tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "Bước tiếp theo là xây dựng đối tượng {{TextWatermarkBold}} thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.",
+      "step_3": "Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, căn chỉnh trang (trên cùng, bên trái, giữa, v.v.), họ phông chữ và màu sắc, v.v.",
+      "step_4": "Gọi phương thức {{TextWatermarkerBold}} để thêm hình mờ mới. Bạn có thể thêm bao nhiêu hình mờ tùy thích. Nên lưu tài liệu đã xử lý vào một vị trí khác."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: zh
 format: Doc
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 Java 清除 Doc 个文档中的水印"
+    title: "使用 Java 清除 Doc 文档中的水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 简化了在 Java 应用程序中清除业务文档水印的流程。整合我们的库并按照以下步骤操作：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 简化了从 Java 应用程序中的业务文档中清除水印的过程。集成我们的库并按照以下步骤操作：
       
-      1. **水印**类。API 接受文档作为流或本地文件路径进行处理。
-      2. **SearchCriteria**对象来优化用于清除的水印集。您可以将图像与文本或格式属性一起用作搜索参数。您的搜索条件越具体，结果就越精确。
-      3. 搜索完成后，您将收到已识别的水印列表。继续从文档中清除这些水印。
+      1. 首先使用您的 Doc 文档初始化 **Watermarker** 类。 API 接受文档作为流或本地文件路径进行处理。
+      2. 利用 **SearchCriteria** 对象来优化要清除的水印集。您可以将图像与文本或格式属性一起用作搜索参数。您的搜索条件越具体，结果就越精确。
+      3. 搜索后，您将收到已识别水印的列表。继续从文档中清除这些水印。
       4. 清除水印后，使用本地文件路径或流对象保存最终文档。
    
     code:
@@ -81,16 +81,16 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 清除图像水印 DOC 文档
+        // 清除图片水印DOC文档
 
-        // 将 DOC 个文档路径传递给 Watermarker 构造器
+        // 将 DOC 文档路径传递给 Watermarker 构造函数
         Watermarker watermarker = new Watermarker("input.doc");
         
-        // 通过删除水印清除文档
+        // 通过删除水印来清除文档
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 
-        // 保存已清除的文件
+        // 保存清除的文件
         watermarker.save("output.doc");
         
         ```        

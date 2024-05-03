@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: id
 format: Excel
@@ -42,11 +42,11 @@ steps:
     enable: true
     title: "Edit tanda air di dokumen Excel menggunakan .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** memberdayakan .NET pengembang untuk mengedit tanda air dengan mudah dalam berbagai dokumen Excel. Berikut panduan sederhana cara menggunakan API kami di aplikasi Anda:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** memberdayakan pengembang .NET untuk dengan mudah mengedit tanda air dalam berbagai dokumen Excel. Berikut panduan sederhana tentang cara menggunakan API kami di aplikasi Anda:
       
-      1. **Watermarker**. Anda dapat menyediakan file baik sebagai aliran byte, aliran file, atau jalur disk lokal.
-      2. **Kriteria pencari** untuk mengidentifikasi tanda air dengan properti terkait yang sebelumnya ditambahkan ke dokumen.
-      3. Setelah pencarian, Anda akan mendapatkan daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, seperti ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini memberi Anda kontrol yang luas atas data Anda.
+      1. Mulailah dengan meneruskan file Excel Anda sebagai parameter ke konstruktor kelas **Watermarker**. Anda dapat menyediakan file sebagai aliran byte, aliran file, atau jalur disk lokal.
+      2. Selanjutnya, temukan tanda air tertentu yang memerlukan pengeditan. Manfaatkan **SearchCriteria** untuk mengidentifikasi tanda air dengan properti terkait yang sebelumnya ditambahkan ke dokumen.
+      3. Setelah pencarian, Anda akan mendapatkan daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, seperti ukuran, perataan halaman, teks, warna, konten gambar, dan banyak lagi. Ini memberi Anda kendali luas atas data Anda.
       4. Setelah Anda selesai mengedit tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal atau aliran untuk menyimpan hasil akhir.
    
     code:
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Mengedit EXCEL tanda air teks
+        // Edit tanda air teks EXCEL
 
-        // Buat Watermarker menyediakan file EXCEL
+        // Buatlah Watermarker dengan menyediakan file EXCEL
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
-            // Bangun TextSearchCriteria dan dapatkan tanda air teks
+            // Buatlah TextSearchCriteria dan dapatkan tanda air teks
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
@@ -84,7 +84,7 @@ steps:
                     new Font("Calibri", 19, FontStyle.Bold), Color.Red, Color.Aqua);
             }
 
-            // Simpan dokumen
+            // Simpan dokumennya
             watermarker.Save("output.xslx");
         }
         

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: id
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Perbarui Watermark di POWERPOINT melalui Node.js via Java"
+    title: "Perbarui Tanda Air di POWERPOINT melalui Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** melengkapi Node.js via Java pengembang dengan API yang kuat untuk memperbarui tanda air secara terprogram dalam berbagai dokumen POWERPOINT. Panduan ini menguraikan prosesnya:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** membekali pengembang Node.js via Java dengan API yang tangguh untuk memperbarui tanda air secara terprogram dalam berbagai dokumen POWERPOINT. Panduan ini menguraikan prosesnya:
       
-      1. **Watermarker**. Bergantung pada permintaan Anda, file dapat disediakan sebagai aliran atau referensi ke lokasi disk lokal.
-      2. **SearchCriteria** untuk mengidentifikasi tanda air tertentu yang memerlukan modifikasi. Objek ini memungkinkan penentuan tanda air berdasarkan properti yang diinginkan.
-      3. Setelah keberhasilan pelaksanaan pencarian, Anda akan menerima kumpulan tanda air yang relevan. Watermark ini menawarkan kontrol granular, memungkinkan Anda memperbarui properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.
-      4. Setelah penyelesaian pembaruan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
+      1. Mulai proses dengan menyediakan file POWERPOINT Anda sebagai argumen ke konstruktor kelas **Watermarker**. Tergantung pada permintaan Anda, file dapat diberikan sebagai aliran atau referensi ke lokasi disk lokal.
+      2. Selanjutnya, manfaatkan objek **SearchCriteria** untuk mengidentifikasi tanda air tertentu yang memerlukan modifikasi. Objek ini memungkinkan penentuan tanda air berdasarkan properti yang diinginkan.
+      3. Setelah pencarian berhasil, Anda akan menerima kumpulan tanda air yang relevan. Tanda air ini menawarkan kontrol terperinci, memungkinkan Anda memperbarui properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.
+      4. Setelah pembaruan tanda air selesai, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Perbarui POWERPOINT tanda air teks
+        // Perbarui tanda air teks POWERPOINT
 
-        // Menyediakan contoh Watermarker untuk file POWERPOINT
+        // Berikan instance Watermarker untuk file POWERPOINT
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
         // Gunakan TextSearchCriteria untuk menemukan tanda air teks

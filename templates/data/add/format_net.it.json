@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Genera filigrana dell'immagine nel file {{FileFormatUp}}",
-    "comment_2": "Fornisci il percorso del file sorgente al costruttore Watermarker",
-    "comment_3": "Genera un'istanza di filigrana dell'immagine con il file di immagine",
-    "comment_4": "Salva il risultato con filigrana {{FileFormatUp}}"
+    "comment_1": "Genera filigrana immagine nel file {{FileFormatUp}}",
+    "comment_2": "Fornisci il percorso del file di origine al costruttore {{TextWatermarker}}",
+    "comment_3": "Genera un'istanza di filigrana immagine con il file immagine",
+    "comment_4": "Salva il risultato {{FileFormatUp}} con filigrana"
   },
   "steps": {
-    "title": "Genera facilmente filigrane per {{FileformatCap}} documenti",
+    "title": "Genera facilmente filigrane per documenti {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Libreria avanzata di filigrana per applicazioni {{EnvName}}. Potenzia la tua soluzione e proteggi i documenti con filigrane appena in tempo.",
-      "step_1": "**Classe principale: Watermarker** La classe principale della nostra API è **Watermarker**. È necessario istanziarlo prima dell'elaborazione del documento. Non dimenticare di passare il file {{FileformatCap}} al costruttore come percorso o oggetto stream.",
-      "step_2": "**Creare la tua filigrana.** Il passo successivo è costruire un oggetto Watermark del tipo desiderato. Può essere inserito non solo su una pagina specifica del documento, ma anche in parti native del documento come immagini o intestazioni.",
-      "step_3": "**Ottimizzazione dell'aspetto.** Imposta le proprietà della filigrana come altezza e larghezza, allineamenti in alto, a sinistra, centrali, caratteri e colori, ecc.",
-      "step_4": "**Applicazione e salvamento.** Usa il metodo **Watermarker** per aggiungere una nuova filigrana. Sentiti libero di aggiungere tutte le filigrane di cui hai bisogno. Puoi salvare il documento con filigrana in qualsiasi posizione."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Libreria avanzata di filigrana per applicazioni {{EnvName}}. Potenzia la tua soluzione e proteggi i documenti con filigrane appena in tempo.",
+      "step_1": "**Classe principale: Watermarker.** La classe principale della nostra API è {{TextWatermarkerBold}}. È necessario crearne un'istanza prima dell'elaborazione del documento. Non dimenticare di passare il file {{FileformatCap}} al costruttore come percorso o oggetto stream.",
+      "step_2": "**Creazione della filigrana.** Il passaggio successivo è la costruzione di un oggetto Filigrana del tipo desiderato. Può essere posizionato non solo su una pagina specifica del documento ma anche in parti native del documento come immagini o intestazioni.",
+      "step_3": "**Ottimizzazione dell'aspetto.** Imposta le proprietà della filigrana come altezza e larghezza, allineamenti in alto, a sinistra, al centro, caratteri e colori, ecc.",
+      "step_4": "**Applicazione e salvataggio.** Utilizza il metodo {{TextWatermarkerBold}} per aggiungere una nuova filigrana. Sentiti libero di aggiungere tutte le filigrane di cui hai bisogno. È possibile salvare il documento con filigrana in qualsiasi posizione."
     }
   },
   "more_features": {

@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Actualizar marca de agua de texto {{FileFormatUp}}",
-    "comment_2": "Proporcione una instancia de Watermarker para el archivo {{FileFormatUp}}",
-    "comment_3": "Usa TextSearchCriteria para buscar marcas de agua de texto",
+    "comment_1": "Actualizar la marca de agua de texto {{FileFormatUp}}",
+    "comment_2": "Proporcione la instancia {{TextWatermarker}} para el archivo {{FileFormatUp}}",
+    "comment_3": "Utilice {{TextTextSearchCriteria}} para buscar marcas de agua de texto",
     "comment_4": "Actualizar marca de agua de texto",
-    "comment_5": "Disfruta el resultado"
+    "comment_5": "Disfruta del resultado"
   },
   "steps": {
-    "title": "Actualiza las marcas de agua en {{FileFormatUp}} a través de {{EnvName}}",
+    "title": "Actualizar marcas de agua en {{FileFormatUp}} a través de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** equipa a {{EnvName}} desarrolladores con una API sólida para actualizar mediante programación las marcas de agua de varios {{FileFormatUp}} documentos. Esta guía describe el proceso:",
-      "step_1": "**Watermarker**. En función de sus necesidades, el archivo se puede proporcionar como una transmisión o como referencia a una ubicación de disco local.",
-      "step_2": "**SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite localizar las marcas de agua en función de las propiedades deseadas.",
-      "step_3": "Al ejecutar correctamente la búsqueda, recibirás una colección de marcas de agua relevantes. Estas marcas de agua ofrecen un control detallado, lo que te permite actualizar propiedades como las dimensiones, el posicionamiento de la página, el contenido del texto, la combinación de colores, los datos de las imágenes, etc.",
-      "step_4": "Tras completar las actualizaciones de las marcas de agua, conserve el documento modificado. La API facilita el almacenamiento mediante una ruta de archivo local o un objeto de transmisión."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** equipa a los desarrolladores de {{EnvName}} con una API sólida para actualizar mediante programación marcas de agua dentro de varios documentos {{FileFormatUp}}. Esta guía describe el proceso:",
+      "step_1": "Inicie el proceso proporcionando su archivo {{FileFormatUp}} como argumento para el constructor de la clase {{TextWatermarkerBold}}. Dependiendo de sus demandas, el archivo se puede proporcionar como una secuencia o como una referencia a una ubicación del disco local.",
+      "step_2": "Posteriormente, aproveche el objeto {{TextSearchCriteriaBold}} para identificar las marcas de agua específicas que requieren modificación. Este objeto permite localizar marcas de agua en función de las propiedades deseadas.",
+      "step_3": "Tras la ejecución exitosa de la búsqueda, recibirá una colección de marcas de agua relevantes. Estas marcas de agua ofrecen control granular, lo que le permite actualizar propiedades como dimensiones, posición de la página, contenido del texto, combinación de colores, datos de imagen y más.",
+      "step_4": "Una vez completadas las actualizaciones de la marca de agua, conserve el documento modificado. La API facilita el almacenamiento utilizando una ruta de archivo local o un objeto de transmisión."
     }
   },
   "more_features": {

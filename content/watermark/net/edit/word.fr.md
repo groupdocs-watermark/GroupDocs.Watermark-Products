@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: fr
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Modifiez les filigranes dans Word documents à l'aide de .NET"
+    title: "Modifiez les filigranes dans les documents Word à l'aide de .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** permet à .NET développeurs de modifier sans effort les filigranes de divers documents Word. Voici un guide simplifié expliquant comment utiliser notre API dans votre application :
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** permet aux développeurs .NET de modifier sans effort les filigranes dans divers documents Word. Voici un guide simplifié sur la façon d'utiliser notre API dans votre application :
       
-      1. **Watermarker**. Vous pouvez fournir le fichier sous la forme d'un flux d'octets, d'un flux de fichiers ou d'un chemin de disque local.
-      2. **Critères de recherche** pour identifier les filigranes avec les propriétés correspondantes précédemment ajoutées au document.
-      3. À la suite de la recherche, vous obtiendrez une liste des filigranes pertinents. Vous pouvez ensuite personnaliser leurs propriétés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela vous donne un contrôle étendu sur vos données.
+      1. Commencez par transmettre votre fichier Word en tant que paramètre au constructeur de classe **Watermarker**. Vous pouvez fournir le fichier sous forme de flux d'octets, de flux de fichiers ou de chemin d'accès au disque local.
+      2. Ensuite, localisez les filigranes spécifiques qui nécessitent une modification. Utilisez le **SearchCriteria** pour identifier les filigranes avec les propriétés correspondantes précédemment ajoutées au document.
+      3. Suite à la recherche, vous obtiendrez une liste de filigranes pertinents. Vous pouvez ensuite personnaliser leurs propriétés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela vous accorde un contrôle étendu sur vos données.
       4. Une fois que vous avez terminé de modifier les filigranes, enregistrez le document mis à jour. Vous pouvez utiliser un chemin de fichier local ou un flux pour stocker le résultat final.
    
     code:
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Modifier le filigrane du texte WORD
+        // Modifier le filigrane de texte WORD
 
-        // Make Watermarker fournissant le fichier WORD
+        // Créer Watermarker fournissant un fichier WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Construisez les TextSearchCriteria et obtenez des filigranes de texte
+            // Construisez le TextSearchCriteria et obtenez des filigranes de texte
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

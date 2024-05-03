@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: vi
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xóa Excel tài liệu có hình mờ bằng cách sử dụng Java"
+    title: "Xóa hình mờ trong tài liệu Excel bằng cách sử dụng Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** giúp dễ dàng xóa các tài liệu kinh doanh của các hình mờ đã thêm trước đó. Tăng cường ứng dụng Java của bạn bằng cách cài đặt thư viện của chúng tôi và thực hiện điều đó trong một vài bước đơn giản:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** giúp dễ dàng xóa các hình mờ đã thêm trước đó trong tài liệu kinh doanh. Trao quyền cho ứng dụng Java của bạn bằng cách cài đặt thư viện của chúng tôi và thực hiện việc đó trong một vài bước đơn giản:
       
-      1. **Watermarker** với tài liệu Excel. API của chúng tôi hỗ trợ chuyển tài liệu để được xử lý dưới dạng luồng hoặc đường dẫn cục bộ.
-      2. **Tiêu chí tìm kiếm** để giới hạn tập hợp hình mờ cần xử lý. Có thể sử dụng hình ảnh làm tham số tìm kiếm cũng như văn bản hoặc các tính năng định dạng. Sau đó, các tham số tìm kiếm cụ thể hơn bạn cung cấp, sau đó bạn nhận được kết quả chính xác hơn.
-      3. Xử lý danh sách hình mờ tài liệu mà bạn đã thu được dưới dạng kết quả tìm kiếm. Xóa tài liệu.
-      4. Sau khi xóa tài liệu lưu kết quả dưới dạng tệp cục bộ hoặc luồng byte.
+      1. Trước hết, khởi tạo lớp chính có tên **Watermarker** bằng tài liệu Excel. API của chúng tôi hỗ trợ chuyển tài liệu để xử lý dưới dạng luồng hoặc đường dẫn cục bộ.
+      2. Sử dụng **SearchCriteria** để giới hạn tập hợp hình mờ cần xử lý. Có thể sử dụng hình ảnh làm tham số tìm kiếm cũng như các tính năng văn bản hoặc định dạng. Sau đó, bạn cung cấp các thông số tìm kiếm cụ thể hơn thì bạn sẽ nhận được kết quả chính xác hơn.
+      3. Xử lý danh sách các hình mờ tài liệu mà bạn đã thu được dưới dạng kết quả tìm kiếm. Xóa tài liệu.
+      4. Sau khi xóa kết quả lưu tài liệu dưới dạng tệp cục bộ hoặc luồng byte.
    
     code:
       platform: "net"
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Hình mờ văn bản rõ ràng trong tài liệu Excel
+        // Xóa hình mờ văn bản trong tài liệu Excel
 
-        // Khởi tạo Watermarker với tài liệu Excel
+        // Khởi tạo Watermarker bằng tài liệu Excel
         Watermarker watermarker = new Watermarker("input.xslx");
         
         // Xóa hình mờ cụ thể

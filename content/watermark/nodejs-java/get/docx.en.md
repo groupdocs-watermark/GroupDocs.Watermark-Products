@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: en
 format: Docx
@@ -46,7 +46,7 @@ steps:
       
       1. To access the functionalities provided by GroupDocs.Watermark, instantiate the **Watermarker** class and provide the Docx file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.
       2. To achieve targeted watermark identification, create the **SearchCriteria** object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.
-      3. Call the **Get** method (or a similar naming convention) of the **Watermarker** object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.
+      3. Call the **Search** method (or a similar naming convention) of the **Watermarker** object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.
       4. The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs.
    
     code:

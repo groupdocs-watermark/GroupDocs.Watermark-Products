@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Generate image watermark in {{FileFormatUp}} file",
-    "comment_2": "Provide source file path to Watermarker constructor",
+    "comment_2": "Provide source file path to {{TextWatermarker}} constructor",
     "comment_3": "Generate image watermark instance with image file",
     "comment_4": "Save watermarked {{FileFormatUp}} result"
   },
@@ -9,10 +9,10 @@
     "title": "Effortlessly Generate Watermarks for {{FileformatCap}} Documents",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Advanced Watermarking library for {{EnvName}} applications. Empower your solution and secure documents with watermarks just in time.",
-      "step_1": "**Core Class: Watermarker.** The main class of our API is **Watermarker**. You need to instantiate it before document processing. Do not forget to pass the {{FileformatCap}} file to the constructor as a path or a stream object.",
+      "step_1": "**Core Class: Watermarker.** The main class of our API is {{TextWatermarkerBold}}. You need to instantiate it before document processing. Do not forget to pass the {{FileformatCap}} file to the constructor as a path or a stream object.",
       "step_2": "**Crafting Your Watermark.** The next step is constructing a Watermark object of the desired type. It can be placed not only on a specific document page but also in native document parts like images or headers.",
       "step_3": "**Fine-Tuning Appearance.** Set watermark properties such as height and width, top, left, central alignments, fonts and colors, etc.",
-      "step_4": "**Applying and Saving.** Use the **Watermarker** method to add a new watermark. Feel free to add as many watermarks as you need. You may save the watermarked document to any location."
+      "step_4": "**Applying and Saving.** Use the {{TextWatermarkerBold}} method to add a new watermark. Feel free to add as many watermarks as you need. You may save the watermarked document to any location."
     }
   },
   "more_features": {

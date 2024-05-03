@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Eliminar la marca de agua de texto del documento {{FileformatCap}}",
-    "comment_2": "Proporcione una instancia de Watermarker para el documento fuente del documento {{FileformatCap}}",
-    "comment_3": "Eliminar las marcas de agua seleccionadas del documento",
-    "comment_4": "Guardar el archivo en la ruta proporcionada"
+    "comment_1": "Eliminar marca de agua de texto del documento {{FileformatCap}}",
+    "comment_2": "Proporcione la instancia de {{TextWatermarker}} para el documento {{FileformatCap}} documento fuente",
+    "comment_3": "Eliminar marcas de agua seleccionadas del documento",
+    "comment_4": "Guardar archivo en la ruta proporcionada"
   },
   "steps": {
-    "title": "Elimine las marcas de agua de {{FileformatCap}} documentos con {{EnvName}}",
+    "title": "Eliminar marcas de agua de documentos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica la tarea de eliminar las marcas de agua de los documentos comerciales. Potencie su aplicación {{EnvName}} integrando nuestra biblioteca y siguiendo estos sencillos pasos:",
-      "step_1": "**Watermarker**, con el documento {{FileformatCap}}. Nuestra API admite el procesamiento de los documentos proporcionados como una secuencia o una ruta local.",
-      "step_2": "**Criterios de búsqueda** para reducir el conjunto de marcas de agua que se procesarán. Puede usar varios parámetros, como imágenes, texto o funciones de formato. Cuanto más específicos sean los parámetros de búsqueda que proporciones, más precisos serán los resultados que obtendrás.",
-      "step_3": "Procese la lista de marcas de agua del documento obtenida como resultado de la búsqueda y elimínelas del documento.",
-      "step_4": "Tras eliminar las marcas de agua, guarde el documento resultante como un archivo local o un flujo de bytes."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica la tarea de eliminar marcas de agua de documentos comerciales. Potencia tu aplicación {{EnvName}} integrando nuestra biblioteca y sigue estos sencillos pasos:",
+      "step_1": "Comience creando una instancia de la clase principal, {{TextWatermarkerBold}}, con el documento {{FileformatCap}}. Nuestra API admite el procesamiento de documentos proporcionados como flujo o ruta local.",
+      "step_2": "Utilice {{TextSearchCriteriaBold}} para limitar el conjunto de marcas de agua que se procesarán. Puede utilizar varios parámetros, como imágenes, texto o funciones de formato. Cuanto más específicos sean los parámetros de búsqueda que proporcione, más precisos serán los resultados que obtendrá.",
+      "step_3": "Procese la lista de marcas de agua de documentos obtenidas como resultado de la búsqueda y elimínelas del documento.",
+      "step_4": "Después de eliminar las marcas de agua, guarde el documento resultante como un archivo local o un flujo de bytes."
     }
   },
   "more_features": {

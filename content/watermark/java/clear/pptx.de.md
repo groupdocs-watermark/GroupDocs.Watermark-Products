@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: de
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Wasserzeichen aus Pptx Dokumenten mit Java löschen"
+    title: "Wasserzeichen aus Pptx-Dokumenten mit Java löschen"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** vereinfacht das Löschen von Wasserzeichen aus Ihren Geschäftsdokumenten in Java Anwendungen. Integrieren Sie unsere Bibliothek und folgen Sie diesen Schritten:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** vereinfacht das Entfernen von Wasserzeichen aus Ihren Geschäftsdokumenten in Java-Anwendungen. Integrieren Sie unsere Bibliothek und befolgen Sie diese Schritte:
       
-      1. **Watermarker** mit Ihrem Pptx -Dokument. Die API akzeptiert das Dokument entweder als Stream oder als lokalen Dateipfad zur Verarbeitung.
-      2. **SearchCriteria**-Objekt, um den Satz der zu löschenden Wasserzeichen zu verfeinern. Sie können ein Bild zusammen mit Text- oder Formatierungsattributen als Suchparameter verwenden. Je spezifischer Ihre Suchkriterien sind, desto genauer werden die Ergebnisse sein.
+      1. Beginnen Sie mit der Initialisierung der Klasse **Watermarker** mit Ihrem Pptx-Dokument. Die API akzeptiert das Dokument entweder als Stream oder als lokalen Dateipfad zur Verarbeitung.
+      2. Nutzen Sie das Objekt **SearchCriteria**, um den Satz von Wasserzeichen zum Löschen zu verfeinern. Sie können ein Bild neben Text oder Formatierungsattributen als Suchparameter verwenden. Je spezifischer Ihre Suchkriterien sind, desto präziser sind die Ergebnisse.
       3. Nach der Suche erhalten Sie eine Liste der identifizierten Wasserzeichen. Fahren Sie fort, indem Sie diese Wasserzeichen aus dem Dokument entfernen.
-      4. Sobald die Wasserzeichen gelöscht sind, speichern Sie das endgültige Dokument unter Verwendung eines lokalen Dateipfads oder eines Stream-Objekts.
+      4. Sobald die Wasserzeichen entfernt sind, speichern Sie das endgültige Dokument unter einem lokalen Dateipfad oder einem Stream-Objekt.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Bildwasserzeichen PPTX -Dokument löschen
+        // Löschen Sie das Bildwasserzeichen PPTX im Dokument
 
-        // Übergeben Sie den PPTX -Dokumentpfad an den Watermarker-Konstruktor
+        // Übergeben Sie den Dokumentpfad PPTX an den Konstruktor Watermarker
         Watermarker watermarker = new Watermarker("input.pptx");
         
         // Löschen Sie das Dokument, indem Sie ein Wasserzeichen löschen

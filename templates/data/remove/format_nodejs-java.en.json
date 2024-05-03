@@ -1,16 +1,16 @@
 {
   "examples": {
     "comment_1": "Delete image watermark in {{FileFormatUp}} document",
-    "comment_2": "Get Watermarker passing {{FileFormatUp}} path as an argument",
-    "comment_3": "Clear image watermarks by search criteris",
+    "comment_2": "Get {{TextWatermarker}} passing {{FileFormatUp}} path as an argument",
+    "comment_3": "Clear image watermarks by search criteria",
     "comment_4": "Save processed file"
   },
   "steps": {
     "title": "Effortlessly Delete Watermarks from {{FileformatCap}} by {{EnvName}}",
     "content": {
       "title": "**[{{ProdShortName}}]({{ProductUrl}})** streamlines the process of removing watermarks from business documents. Elevate your {{EnvName}} application by seamlessly integrating our library and following these straightforward steps:",
-      "step_1": "Initiate the process by instantiating the core class, **Watermarker**, with the {{FileformatCap}} document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.",
-      "step_2": "Leverage **SearchCriteria** to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.",
+      "step_1": "Initiate the process by instantiating the core class, {{TextWatermarkerBold}}, with the {{FileformatCap}} document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.",
+      "step_2": "Leverage {{TextSearchCriteriaBold}} to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.",
       "step_3": "Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.",
       "step_4": "Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity."
     }
@@ -98,7 +98,7 @@
     "formats": {
       "title": "Mastering {{FileFormatUp}} File Watermark Removal with {{EnvName}}",
       "description": "Discover the capabilities of the {{ProdFullName}} API to manage and remove watermarks from {{FileFormatUp}} files, enhancing document security and presentation without compromising on quality."
-    } 
+    }
   },
   "ppt": {
     "head": {

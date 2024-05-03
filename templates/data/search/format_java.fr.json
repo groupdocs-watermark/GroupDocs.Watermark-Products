@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Rechercher des filigranes d'image dans le document {{FileFormatUp}}",
-    "comment_2": "Composer un filigrane en transmettant le document {{FileFormatUp}}",
+    "comment_2": "Composer {{TextWatermarker}} en passant le document {{FileFormatUp}}",
     "comment_3": "Rechercher des filigranes par hachage d'image",
-    "comment_4": "Le processus a détecté des filigranes"
+    "comment_4": "Le processus a trouvé des filigranes"
   },
   "steps": {
     "title": "{{FileformatCap}} Recherche de filigranes via {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifie le processus de localisation des filigranes dans les documents commerciaux. Installez notre package dans vos {{EnvName}} applications pour profiter de ses avantages.",
-      "step_1": "**Watermarker**. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.",
-      "step_2": "**SearchCriteria**. Par exemple, fournissez une image pour rechercher des filigranes similaires. Si vous recherchez des filigranes textuels, indiquez le texte, la police, la couleur et d'autres options pertinentes.",
-      "step_3": "**Search** de l'objet **Watermarker**. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.",
-      "step_4": "Enfin, vous êtes libre de manipuler les résultats de recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifie le processus de localisation des filigranes dans les documents commerciaux. Installez notre package dans vos applications {{EnvName}} pour profiter de ses avantages.",
+      "step_1": "Pour utiliser les fonctionnalités de notre bibliothèque, chargez le fichier {{FileformatCap}} dans une instance de la classe {{TextWatermarkerBold}}. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.",
+      "step_2": "Pour affiner la liste des filigranes potentiels, utilisez l'objet {{TextSearchCriteriaBold}}. Par exemple, fournissez une image pour rechercher des filigranes d’images similaires. Si vous recherchez des filigranes textuels, fournissez le texte, la police, la couleur et d’autres options pertinentes.",
+      "step_3": "Récupérez les filigranes placés dans le document à l'aide de la méthode {{TextSearchBold}} de l'objet {{TextWatermarkerBold}}. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.",
+      "step_4": "Enfin, vous avez la liberté de manipuler les résultats de la recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte."
     }
   },
   "more_features": {

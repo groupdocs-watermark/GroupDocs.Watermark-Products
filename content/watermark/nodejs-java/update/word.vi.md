@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: vi
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cập nhật hình mờ trong WORD qua Node.js via Java"
+    title: "Cập nhật Hình mờ trong WORD qua Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** trang bị cho Node.js via Java nhà phát triển một API mạnh mẽ để cập nhật hình mờ theo chương trình trong các tài liệu WORD khác nhau. Hướng dẫn này phác thảo quy trình:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** trang bị cho nhà phát triển Node.js via Java một API mạnh mẽ để cập nhật hình mờ theo chương trình trong nhiều tài liệu WORD khác nhau. Hướng dẫn này phác thảo quá trình:
       
-      1. **Watermarker**. Tùy thuộc vào nhu cầu của bạn, tệp có thể được cung cấp dưới dạng luồng hoặc tham chiếu đến vị trí đĩa cục bộ.
-      2. **SearchCriteria** để xác định các hình mờ cụ thể cần sửa đổi. Đối tượng này cho phép xác định chính xác các hình mờ dựa trên các thuộc tính mong muốn.
+      1. Bắt đầu quá trình bằng cách cung cấp tệp WORD của bạn làm đối số cho hàm tạo của lớp **Watermarker**. Tùy thuộc vào nhu cầu của bạn, tệp có thể được cung cấp dưới dạng luồng hoặc tham chiếu đến vị trí đĩa cục bộ.
+      2. Sau đó, tận dụng đối tượng **SearchCriteria** để xác định các hình mờ cụ thể cần sửa đổi. Đối tượng này cho phép xác định chính xác các hình mờ dựa trên các thuộc tính mong muốn.
       3. Sau khi thực hiện tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát chi tiết, cho phép bạn cập nhật các thuộc tính như kích thước, vị trí trang, nội dung văn bản, bảng màu, dữ liệu hình ảnh, v.v.
-      4. Sau khi hoàn thành các bản cập nhật hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
+      4. Sau khi hoàn thành cập nhật hình mờ, hãy duy trì tài liệu đã sửa đổi. API hỗ trợ lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
    
     code:
       platform: "net"

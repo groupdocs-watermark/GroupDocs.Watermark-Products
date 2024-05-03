@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Filigrana con immagine chiara {{FileFormatUp}}",
-    "comment_2": "Passa il percorso del documento {{FileFormatUp}} al costruttore Watermarker",
+    "comment_1": "Cancella la filigrana dell'immagine del documento {{FileFormatUp}}",
+    "comment_2": "Passa il percorso del documento {{FileFormatUp}} al costruttore {{TextWatermarker}}",
     "comment_3": "Cancella il documento eliminando una filigrana",
     "comment_4": "Salva il file cancellato"
   },
   "steps": {
-    "title": "Cancella filigrane da {{FileformatCap}} documenti utilizzando {{EnvName}}",
+    "title": "Cancella filigrane dai documenti {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di cancellazione delle filigrane dai documenti aziendali all'interno di {{EnvName}} applicazioni. Integra la nostra libreria e segui questi passaggi:",
-      "step_1": "**Watermarker** con il tuo documento {{FileformatCap}}. L'API accetta il documento come stream o come percorso di file locale per l'elaborazione.",
-      "step_2": "**SearchCriteria** per perfezionare il set di filigrane da cancellare. Puoi utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione. Più specifici sono i criteri di ricerca, più precisi saranno i risultati.",
-      "step_3": "Dopo la ricerca, riceverai un elenco di filigrane identificate. Procedi cancellando queste filigrane dal documento.",
-      "step_4": "Una volta cancellate le filigrane, salva il documento finale utilizzando un percorso di file locale o un oggetto stream."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di eliminazione delle filigrane dai documenti aziendali all'interno delle applicazioni {{EnvName}}. Integra la nostra libreria e segui questi passaggi:",
+      "step_1": "Inizia inizializzando la classe {{TextWatermarkerBold}} con il tuo documento {{FileformatCap}}. L'API accetta il documento come flusso o percorso di file locale per l'elaborazione.",
+      "step_2": "Sfrutta l'oggetto {{TextSearchCriteriaBold}} per perfezionare l'insieme di filigrane da cancellare. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione. Più specifici sono i tuoi criteri di ricerca, più precisi saranno i risultati.",
+      "step_3": "Dopo la ricerca, riceverai un elenco di filigrane identificate. Procedi eliminando queste filigrane dal documento.",
+      "step_4": "Una volta cancellate le filigrane, salva il documento finale utilizzando un percorso file locale o un oggetto stream."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:17
 draft: false
 lang: de
 format: Ppt
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Dynamische Wasserzeichenbearbeitung für PPT in Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** bietet Node.js via Java Entwicklern eine leistungsstarke API zum Bearbeiten von Wasserzeichen in verschiedenen PPT Dokumenten. Hier finden Sie eine umfassende Anleitung zur Optimierung Ihres Workflows:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** bietet Node.js via Java-Entwicklern eine leistungsstarke API zum Bearbeiten von Wasserzeichen in verschiedenen PPT-Dokumenten. Hier finden Sie eine umfassende Anleitung zur Optimierung Ihres Arbeitsablaufs:
       
-      1. **Starten Sie den Prozess:** Geben Sie zunächst Ihre PPT -Datei als Argument für den Klassenkonstruktor **Watermarker** an. Je nach Ihren Anforderungen kann die Datei entweder als Stream oder von einem lokalen Festplattenspeicherort bezogen werden.
-      2. **Pinpoint Watermarks:** Verwenden Sie das Objekt **SearchCriteria**, um die Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses vielseitige Tool ermöglicht die gezielte Auswahl von Wasserzeichen auf der Grundlage bestimmter Eigenschaften.
-      3. **Präzise verfeinern:** Nach erfolgreicher Ausführung der Suche erhalten Sie Zugriff auf eine Sammlung relevanter Wasserzeichen. Genießen Sie die detaillierte Kontrolle über jedes Element und die Möglichkeit, Abmessungen, Seitenpositionierung, Textinhalt, Farbe, Bilddaten und mehr zu aktualisieren.
-      4. **Nahtlose Persistenz:** Sobald die Wasserzeichenaktualisierungen abgeschlossen sind, speichern Sie das geänderte Dokument sicher. Die API bietet flexible Speicheroptionen, sodass Sie es in einem lokalen Dateipfad oder als Stream-Objekt speichern können.
+      1. **Starten Sie den Prozess:** Geben Sie zunächst Ihre Datei PPT als Argument für den Klassenkonstruktor **Watermarker** an. Abhängig von Ihren Anforderungen kann die Datei entweder als Stream oder von einem lokalen Festplattenspeicherort bezogen werden.
+      2. **Wasserzeichen lokalisieren:** Verwenden Sie das Objekt **SearchCriteria**, um die Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses vielseitige Tool ermöglicht die gezielte Auswahl von Wasserzeichen basierend auf bestimmten Eigenschaften.
+      3. **Mit Präzision verfeinern:** Nach erfolgreicher Ausführung der Suche erhalten Sie Zugriff auf eine Sammlung relevanter Wasserzeichen. Genießen Sie die detaillierte Kontrolle über jedes Element mit der Möglichkeit, Abmessungen, Seitenpositionierung, Textinhalt, Farbe, Bilddaten und mehr zu aktualisieren.
+      4. **Nahtlose Persistenz:** Sobald die Wasserzeichenaktualisierungen abgeschlossen sind, speichern Sie das geänderte Dokument sicher. Die API bietet flexible Speicheroptionen, sodass Sie in einem lokalen Dateipfad oder als Stream-Objekt speichern können.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Bild PPT Wasserzeichen aktualisieren
+        // Bild-Wasserzeichen PPT aktualisieren
 
-        // Watermarker für PPT -Datei verfassen
+        // Verfassen Sie Watermarker für die Datei PPT
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
 
         // Verwenden Sie SearchCriteria, um ein bestimmtes Bild zu finden

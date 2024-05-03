@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: es
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Obtenga marcas de agua de manera eficiente en Word archivos mediante GroupDocs.Watermark"
+    title: "Obtenga marcas de agua de manera eficiente en archivos Word por GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza el proceso de recuperación de marcas de agua incrustadas en varios formatos de documentos comerciales. Integre sin problemas GroupDocs.Watermark en sus Node.js via Java aplicaciones para dotarlas de sólidas capacidades de detección de marcas de agua.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** agiliza el proceso de recuperación de marcas de agua incrustadas en varios formatos de documentos comerciales. Integre perfectamente GroupDocs.Watermark en sus aplicaciones Node.js via Java para dotarlas de sólidas capacidades de detección de marcas de agua.
       
-      1. **Watermarker** y proporcione la ruta del archivo, el flujo de archivos o el flujo de bytes Word como entrada. Esta acción carga el documento para el análisis de las marcas de agua.
-      2. **SearchCriteria**. Especifique una imagen para localizar marcas de agua de imágenes similares. Como alternativa, en el caso de las marcas de agua textuales, defina el contenido del texto, las propiedades de la fuente, los atributos de color y otros parámetros relevantes para refinar los criterios de búsqueda.
-      3. **Get** del objeto **Watermarker** para iniciar el proceso de detección de marcas de agua en el documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que permite un procesamiento posterior.
-      4. La colección recuperada de objetos de marca de agua le ofrece muchas posibilidades. Puede eliminar las marcas de agua no deseadas o modificar sus propiedades. Cambia el contenido, mueve una marca de agua en una página y muchas cosas más.
+      1. Para aprovechar las funcionalidades de GroupDocs.Watermark, cree una instancia de la clase **Watermarker** y proporcione la ruta del archivo, el flujo de archivos o el flujo de bytes de Word como entrada. Esta acción carga el documento para el análisis de marcas de agua.
+      2. Para una identificación específica de marcas de agua, utilice el objeto **SearchCriteria**. Especifique una imagen para localizar marcas de agua de imágenes similares. Alternativamente, para marcas de agua textuales, defina el contenido del texto, las propiedades de fuente, los atributos de color y otros parámetros relevantes para refinar los criterios de búsqueda.
+      3. Utilice el método **Search** del objeto **Watermarker** para iniciar el proceso de detección de marcas de agua dentro del documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que permite un procesamiento posterior.
+      4. La colección recuperada de objetos con marcas de agua le brinda muchas posibilidades. Puede eliminar marcas de agua no deseadas o modificar sus propiedades. Cambie contenido, mueva una marca de agua en una página y muchos más.
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Obtenga la lista de marcas de agua de texto para WORD
+        // Obtener lista de marcas de agua de texto para WORD
 
-        // Instanciar la clase Watermarker
+        // Crear una instancia de la clase Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Obtenga marcas de agua por criterios de texto
+        // Obtener marcas de agua por criterios de texto
         const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
 
-        // Información sobre el uso de marcas de agua
+        // Usar información de marcas de agua
         console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            

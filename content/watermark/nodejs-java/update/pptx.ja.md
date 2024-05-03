@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: ja
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java の PPTX のダイナミックウォーターマーク編集"
+    title: "Node.js via Java の PPTX の動的ウォーターマーク編集"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は Node.js via Java の開発者に、さまざまな PPTX ドキュメントのウォーターマークを編集するための強力な API を提供します。ワークフローを効率化するための包括的なガイドは次のとおりです。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は、Node.js via Java の開発者に、さまざまな PPTX ドキュメントにわたるウォーターマークを編集するための強力な API を提供します。ワークフローを合理化するための包括的なガイドは次のとおりです。
       
-      1. **プロセスの開始:** まず、**Watermarker** クラスコンストラクターの引数として PPTX ファイルを指定します。要件に応じて、ファイルはストリームとしてソースすることも、ローカルディスク上の場所からソースすることもできます。
-      2. **ピンポイントウォーターマーク:** **SearchCriteria** オブジェクトを使用して、変更が必要なウォーターマークを特定します。この汎用性の高いツールを使用すると、特定のプロパティに基づいてターゲットを絞ったウォーターマークを選択できます。
-      3. **精度の高い絞り込み:** 検索が正常に実行されると、関連するウォーターマークのコレクションにアクセスできるようになります。サイズ、ページの位置、テキストコンテンツ、色、画像データなどを更新できるので、各要素をきめ細かく制御できます。
-      4. **シームレスな永続性:** ウォーターマークの更新が完了したら、変更した文書を安全に保存します。API には柔軟なストレージオプションがあり、ローカルファイルパスに保存することも、ストリームオブジェクトとして保存することもできます。
+      1. **プロセスを開始します:** まず、PPTX ファイルを引数として **Watermarker** クラス コンストラクターに提供します。要件に応じて、ファイルはストリームとして、またはローカル ディスクの場所から取得できます。
+      2. **透かしの特定:** **SearchCriteria** オブジェクトを使用して、変更が必要な透かしを特定します。この多用途ツールにより、特定のプロパティに基づいてターゲットを絞ったウォーターマークの選択が可能になります。
+      3. **精度を高めて絞り込む:** 検索が正常に実行されると、関連するウォーターマークのコレクションにアクセスできるようになります。サイズ、ページの位置、テキストコンテンツ、色、画像データなどを更新する機能により、各要素をきめ細かく制御できます。
+      4. **シームレスな永続性:** ウォーターマークの更新が完了したら、変更されたドキュメントを安全に保存します。 API は柔軟なストレージ オプションを提供し、ローカル ファイル パスまたはストリーム オブジェクトとして保存できます。
    
     code:
       platform: "net"
@@ -67,23 +67,23 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // 画像 PPTX のウォーターマークを更新
+        // 画像の PPTX ウォーターマークを更新します
 
-        // PPTX ファイルのウォーターマーカーを作成
+        // PPTX ファイルの Watermarker を作成します
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
-        // 検索条件を使用して特定の画像を検索する
+        // SearchCriteria を使用して特定の画像を検索します
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);
         
-        // 画像コンテンツの更新
+        // 画像コンテンツを更新する
         for (const watermark of watermarks.getInnerList().toArray())
         {
             watermark.setImageData(imageData);
         }
 
-        // 更新したファイルを保存
+        // 更新されたファイルを保存する
         watermarker.save("output.pptx");
         
         ```            

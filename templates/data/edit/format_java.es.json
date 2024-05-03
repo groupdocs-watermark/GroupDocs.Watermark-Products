@@ -1,19 +1,19 @@
 {
   "examples": {
     "comment_1": "Ajustar la marca de agua de la imagen {{FileFormatUp}}",
-    "comment_2": "Crea una instancia de Watermarker con {{FileFormatUp}}",
-    "comment_3": "Inicialice los criterios de búsqueda para que coincidan con una imagen en particular",
+    "comment_2": "Crear una instancia de {{TextWatermarker}} con {{FileFormatUp}}",
+    "comment_3": "Inicialice {{TextSearchCriteria}} para que coincida con una imagen en particular",
     "comment_4": "Reemplazar la imagen que se encontró",
     "comment_5": "Guardar archivo ajustado"
   },
   "steps": {
-    "title": "Ajuste las marcas de agua de los documentos {{FileformatCap}} con {{EnvName}}",
+    "title": "Ajuste las marcas de agua del documento {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permite a {{EnvName}} desarrolladores ajustar fácilmente las marcas de agua en muchos documentos mediante sus aplicaciones. Esta es una guía rápida:",
-      "step_1": "**Watermarker**. Proporcione un flujo de bytes o archivos o una ruta de disco local.",
-      "step_2": "**Criterios de búsqueda** para identificar las marcas de agua con las propiedades específicas que se agregaron anteriormente al documento.",
-      "step_3": "Tras la búsqueda, recibirás una lista de las marcas de agua relevantes. A continuación, podrás ajustar sus propiedades, como el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen, etc. Esto ofrece un alto grado de personalización de sus datos.",
-      "step_4": "Cuando hayas terminado de ajustar las marcas de agua, guarda el documento actualizado. Puedes usar una ruta de archivo local o una transmisión para almacenar el resultado."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permite a los desarrolladores de {{EnvName}} ajustar fácilmente las marcas de agua en muchos documentos utilizando sus aplicaciones. Aquí tienes una guía rápida:",
+      "step_1": "En primer lugar, debe pasar el archivo {{FileformatCap}} como parámetro del constructor de la clase {{TextWatermarkerBold}}. Proporcione una secuencia de bytes o archivos o una ruta de disco local.",
+      "step_2": "En segundo lugar, ubique las marcas de agua que deben ajustarse. Utilice {{TextSearchCriteriaBold}} para identificar marcas de agua con las propiedades específicas agregadas previamente al documento.",
+      "step_3": "Después de la búsqueda, recibirá una lista de marcas de agua relevantes. Luego puede ajustar sus propiedades, incluido el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen y más. Esto ofrece un alto grado de personalización de sus datos.",
+      "step_4": "Una vez que haya terminado de ajustar las marcas de agua, guarde el documento actualizado. Puede utilizar una ruta de archivo local o una secuencia para almacenar el resultado."
     }
   },
   "more_features": {

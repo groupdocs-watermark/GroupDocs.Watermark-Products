@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: id
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Temukan Watermark di Excel File Menggunakan .NET"
+    title: "Temukan Tanda Air di File Excel Menggunakan .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** merampingkan proses menemukan tanda air dalam dokumen bisnis. Integrasikan paket kami ke dalam aplikasi .NET Anda untuk membuka keuntungannya.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** menyederhanakan proses pencarian tanda air dalam dokumen bisnis. Integrasikan paket kami ke dalam aplikasi .NET Anda untuk mendapatkan keuntungannya.
       
-      1. **Watermarker**. Anda dapat menyediakan jalur file, aliran file, atau aliran byte.
-      2. {steps.content.step_2}
-      3. **Pencarian** dari objek**Watermarker** untuk mengambil tanda air yang ditempatkan di dalam dokumen. Anda akan menerima kumpulan objek yang mewakili tanda air potensial untuk diproses lebih lanjut.
-      4. Akhirnya, Anda memiliki fleksibilitas untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks.
+      1. Untuk memanfaatkan fitur perpustakaan kami, muat file Excel ke dalam instance kelas **Watermarker**. Anda dapat memberikan jalur file, aliran file, atau aliran byte.
+      2. Untuk menyaring daftar tanda air potensial, gunakan objek **SearchCriteria**. Misalnya, berikan gambar untuk menemukan tanda air gambar yang serupa. Jika menemukan tanda air tekstual, berikan teks, font, warna, dan opsi lain yang relevan.
+      3. Gunakan metode **Search** pada objek **Watermarker** untuk mengambil tanda air yang ditempatkan di dalam dokumen. Anda akan menerima kumpulan objek yang mewakili potensi tanda air untuk diproses lebih lanjut.
+      4. Terakhir, Anda memiliki keleluasaan untuk memanipulasi hasil pencarian sesuai kebutuhan. Anda dapat menghapus tanda air yang ditemukan atau mengedit propertinya, seperti mengubah ukuran atau teks.
    
     code:
       platform: "net"

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: id
 format: Docx
@@ -42,11 +42,11 @@ steps:
     enable: true
     title: "Sesuaikan tanda air dokumen Docx menggunakan Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memungkinkan Java pengembang untuk dengan mudah menyesuaikan tanda air di banyak dokumen menggunakan aplikasi mereka. Berikut panduan singkatnya:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memungkinkan pengembang Java menyesuaikan tanda air di banyak dokumen dengan mudah menggunakan aplikasi mereka. Berikut panduan singkatnya:
       
-      1. **Watermarker**. Berikan byte atau aliran file atau jalur disk lokal.
-      2. **Criteria pencari** untuk mengidentifikasi tanda air dengan properti tertentu yang sebelumnya ditambahkan ke dokumen.
-      3. Setelah pencarian, Anda akan menerima daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, termasuk ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini menawarkan tingkat penyesuaian yang tinggi untuk data Anda.
+      1. Pertama, Anda harus meneruskan file Docx sebagai parameter konstruktor kelas **Watermarker**. Menyediakan aliran byte atau file atau jalur disk lokal.
+      2. Kedua, temukan tanda air yang perlu disesuaikan. Gunakan **SearchCriteria** untuk mengidentifikasi tanda air dengan properti spesifik yang sebelumnya ditambahkan ke dokumen.
+      3. Setelah pencarian, Anda akan menerima daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, termasuk ukuran, perataan halaman, teks, warna, konten gambar, dan banyak lagi. Ini menawarkan penyesuaian tingkat tinggi untuk data Anda.
       4. Setelah Anda selesai menyesuaikan tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal, atau streaming untuk menyimpan hasilnya.
    
     code:
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // Sesuaikan tanda air gambar DOCX
 
-        // Buat Instantiasi Watermarker dengan DOCX
+        // Buat instance Watermarker dengan DOCX
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // Inisialisasi SearchCriteria untuk mencocokkan gambar tertentu
+        // Inisialisasi SearchCriteria agar cocok dengan gambar tertentu
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 

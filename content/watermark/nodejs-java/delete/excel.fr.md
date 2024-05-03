@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: fr
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Excel Suppression des filigranes à l'aide de Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fournit à Node.js via Java développeurs une API complète pour la suppression par programmation de filigranes spécifiques intégrés dans divers Excel documents. Ce guide aborde le processus technique :
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fournit aux développeurs Node.js via Java une API complète pour la suppression par programmation de filigranes spécifiques intégrés dans divers documents Excel. Ce guide approfondit le processus technique :
       
-      1. **Watermarker** et en fournissant votre fichier Excel comme argument constructeur. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence de chemin vers un emplacement de disque local.
-      2. **SearchCriteria**. Cet objet facilite la construction de filtres complexes basés sur des propriétés précédemment intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche à côté du texte ou des attributs de mise en forme pour permettre un processus de sélection très précis.
-      3. Après l'exécution de la recherche, vous recevrez une collection de filigranes identifiés. Ces filigranes peuvent être supprimés facilement.
-      4. Une fois le filigrane supprimé, conservez le document modifié. L'API offre une flexibilité de stockage, vous permettant d'utiliser soit un chemin de fichier local, soit un objet de flux pour la sortie finale.
+      1. Lancez le flux de travail en instanciant la classe **Watermarker** et en fournissant votre fichier Excel comme argument de constructeur. Le fichier peut être fourni sous forme de flux d'octets, de flux de fichiers ou de référence de chemin vers un emplacement de disque local.
+      2. Pour obtenir un ciblage précis des filigranes, exploitez les capacités de l'objet **SearchCriteria**. Cet objet facilite la construction de filtres complexes basés sur des propriétés préalablement intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche aux côtés du texte ou des attributs de formatage pour permettre un processus de sélection très granulaire.
+      3. Suite à l'exécution de la recherche, vous recevrez une collection de filigranes identifiés. Ces filigranes peuvent être facilement supprimés.
+      4. Une fois la suppression réussie du filigrane, conservez le document modifié. L'API offre une flexibilité de stockage, vous permettant d'utiliser soit un chemin de fichier local, soit un objet de flux pour la sortie finale.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Supprimer le filigrane de texte dans le document Excel
 
-        // Instanciez un filigrane avec le document Excel
+        // Instancier Watermarker avec le document Excel
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
         // Les filigranes en texte clair conviennent aux conditions de recherche

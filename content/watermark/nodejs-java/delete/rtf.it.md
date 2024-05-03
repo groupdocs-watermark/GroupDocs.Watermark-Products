@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: it
 format: Rtf
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Elimina facilmente le filigrane da Rtf per Node.js via Java"
+    title: "Elimina facilmente filigrane da Rtf con Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** semplifica il processo di rimozione delle filigrane dai documenti aziendali. Migliora la tua applicazione Node.js via Java integrando senza problemi la nostra libreria e seguendo questi semplici passaggi:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** semplifica il processo di rimozione delle filigrane dai documenti aziendali. Migliora la tua applicazione Node.js via Java integrando perfettamente la nostra libreria e seguendo questi semplici passaggi:
       
-      1. **Watermarker**, con il documento Rtf. La nostra versatile API elabora senza problemi i documenti, siano essi forniti come stream o come percorso locale.
-      2. **SearchCriteria** per individuare con precisione le filigrane da risolvere. Utilizza vari parametri come immagini, testo o funzioni di formattazione per affinare la ricerca. Più dettagliati sono i criteri, più accurati sono i risultati.
-      3. Esegui il processo di rimozione dall'elenco delle filigrane del documento recuperate tramite la ricerca. Eliminatele facilmente dal documento.
+      1. Avvia il processo istanziando la classe principale, **Watermarker**, con il documento Rtf. La nostra versatile API elabora senza problemi i documenti, forniti come flusso o percorso locale.
+      2. Sfrutta **SearchCriteria** per individuare con precisione le filigrane da risolvere. Utilizza vari parametri come immagini, testo o funzionalità di formattazione per perfezionare la ricerca. Quanto più dettagliati saranno i tuoi criteri, tanto più accurati saranno i tuoi risultati.
+      3. Esegui il processo di rimozione sull'elenco delle filigrane dei documenti recuperate tramite la ricerca. Eliminali senza sforzo dal documento.
       4. Dopo aver eliminato con successo le filigrane, salva in modo sicuro il documento risultante come file locale o flusso di byte, preservandone l'integrità.
    
     code:
@@ -72,7 +72,7 @@ steps:
         // Ottieni Watermarker passando il percorso RTF come argomento
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
         
-        // Cancella le filigrane delle immagini in base ai criteri di ricerca
+        // Cancella filigrane di immagini in base ai criteri di ricerca
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: ko
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Pdf Java 을 통한 워터마크 검색"
+    title: "Pdf Java을(를) 통해 워터마크 검색"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 단순화합니다.Java 애플리케이션에 패키지를 설치하여 이점을 활용하십시오.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 단순화합니다. 이점을 활용하려면 Java 애플리케이션에 패키지를 설치하세요.
       
-      1. **Watermarker** 클래스의 인스턴스에 로드하십시오.파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.
-      2. **SearchCriteria** 객체를 활용하십시오.예를 들어 비슷한 이미지 워터마크를 검색할 수 있는 이미지를 제공하십시오.텍스트 워터마크를 검색하는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하십시오.
-      3. **Watermarker** 객체의 **Search** 메서드를 사용하여 문서 내에 있는 워터마크를 검색합니다.향후 처리를 위해 잠재적 워터마크를 나타내는 객체 컬렉션을 받게 됩니다.
-      4. 마지막으로 필요에 따라 검색 결과를 자유롭게 조작할 수 있습니다.찾은 워터마크를 삭제하거나 크기 또는 텍스트 변경과 같은 워터마크의 속성을 편집할 수 있습니다.
+      1. 라이브러리 기능을 활용하려면 Pdf 파일을 **Watermarker** 클래스의 인스턴스에 로드하세요. 파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.
+      2. 잠재적 워터마크 목록의 범위를 좁히려면 **SearchCriteria** 객체를 활용하세요. 예를 들어 유사한 이미지 워터마크를 검색하려면 이미지를 제공하세요. 텍스트 워터마크를 검색하는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하세요.
+      3. **Watermarker** 객체의 **Search** 메서드를 사용하여 문서 내에 배치된 워터마크를 검색합니다. 추가 처리를 위해 잠재적인 워터마크를 나타내는 개체 컬렉션을 받게 됩니다.
+      4. 마지막으로 필요에 따라 검색 결과를 자유롭게 조작할 수 있습니다. 발견된 워터마크를 삭제하거나 크기나 텍스트 변경과 같은 속성을 편집할 수 있습니다.
    
     code:
       platform: "net"
@@ -83,7 +83,7 @@ steps:
         ```java {style=abap}
         // PDF 문서에서 이미지 워터마크 검색
 
-        // 워터마커 전달 PDF 문서 작성
+        // PDF 문서를 전달하는 Watermarker 작성
         Watermarker watermarker = new Watermarker("input.pdf");
         
         // 이미지 해시로 워터마크 검색
@@ -91,7 +91,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // 검색된 워터마크 처리
+        // 프로세스에서 워터마크가 발견되었습니다.
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

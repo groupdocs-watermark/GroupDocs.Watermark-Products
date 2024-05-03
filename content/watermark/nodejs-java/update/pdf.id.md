@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: id
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edit Tanda Air Dinamis untuk PDF di Node.js via Java"
+    title: "Pengeditan Tanda Air Dinamis untuk PDF di Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** menawarkan Node.js via Java pengembang API yang kuat untuk mengedit tanda air di berbagai dokumen PDF. Berikut panduan komprehensif untuk merampingkan alur kerja Anda:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** menawarkan kepada pengembang Node.js via Java API canggih untuk mengedit tanda air di berbagai dokumen PDF. Berikut panduan komprehensif untuk menyederhanakan alur kerja Anda:
       
-      1. **Mulai Proses:** Mulailah dengan menyediakan file PDF Anda sebagai argumen ke konstruktor kelas **Watermarker**. Bergantung pada kebutuhan Anda, file dapat bersumber baik sebagai aliran atau dari lokasi disk lokal.
-      2. **Tanda Air Pinpoint:** Gunakan objek**SearchCriteria** untuk mengidentifikasi tanda air yang perlu dimodifikasi. Alat serbaguna ini memungkinkan pemilihan tanda air yang ditargetkan berdasarkan properti tertentu.
-      3. **Sempurnakan dengan Presisi:** Setelah berhasil menjalankan pencarian, dapatkan akses ke koleksi tanda air yang relevan. Nikmati kontrol granular atas setiap elemen, dengan kemampuan untuk memperbarui dimensi, posisi halaman, konten teks, warna, data gambar, dan banyak lagi.
-      4. **Persistensi Seamless:** Setelah pembaruan tanda air selesai, simpan dokumen yang dimodifikasi dengan aman. API menawarkan opsi penyimpanan fleksibel, memungkinkan Anda untuk menyimpan ke jalur file lokal atau sebagai objek aliran.
+      1. **Mulai Proses:** Mulailah dengan menyediakan file PDF Anda sebagai argumen ke konstruktor kelas **Watermarker**. Bergantung pada kebutuhan Anda, file dapat bersumber sebagai aliran atau dari lokasi disk lokal.
+      2. **Menentukan Tanda Air:** Gunakan objek **SearchCriteria** untuk mengidentifikasi tanda air yang perlu dimodifikasi. Alat serbaguna ini memungkinkan pemilihan tanda air yang ditargetkan berdasarkan properti tertentu.
+      3. **Perbaiki dengan Presisi:** Setelah penelusuran berhasil, dapatkan akses ke kumpulan tanda air yang relevan. Nikmati kontrol terperinci atas setiap elemen, dengan kemampuan memperbarui dimensi, posisi halaman, konten teks, warna, data gambar, dan banyak lagi.
+      4. **Kegigihan yang Mulus:** Setelah pembaruan tanda air selesai, simpan dokumen yang diubah dengan aman. API ini menawarkan opsi penyimpanan yang fleksibel, memungkinkan Anda menyimpan ke jalur file lokal atau sebagai objek aliran.
    
     code:
       platform: "net"
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Perbarui gambar PDF watermark
+        // Perbarui tanda air gambar PDF
 
         // Tulis Watermarker untuk file PDF
         const watermarker = new groupdocs.watermark.Watermarker("input.pdf");

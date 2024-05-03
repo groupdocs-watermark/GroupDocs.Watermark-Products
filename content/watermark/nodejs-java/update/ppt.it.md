@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: it
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Modifica dinamica della filigrana per PPT in Node.js via Java"
+    title: "Modifica filigrana dinamica per PPT in Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre agli Node.js via Java sviluppatori una potente API per modificare le filigrane in diversi documenti PPT. Ecco una guida completa per semplificare il flusso di lavoro:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre agli sviluppatori di Node.js via Java una potente API per modificare filigrane su diversi documenti PPT. Ecco una guida completa per semplificare il flusso di lavoro:
       
-      1. **Avvia il processo:** Inizia fornendo il tuo file PPT come argomento al costruttore della classe **Watermarker**. A seconda delle esigenze, il file può essere originato come stream o da una posizione del disco locale.
-      2. **Pinpoint Watermark:** Usa l'oggetto **SearchCriteria** per identificare le filigrane da modificare. Questo strumento versatile consente una selezione mirata delle filigrane in base a proprietà specifiche.
-      3. **Perfeziona con precisione:** Dopo aver eseguito con successo la ricerca, accedi a una raccolta di filigrane pertinenti. Goditi il controllo granulare su ogni elemento, con la possibilità di aggiornare le dimensioni, il posizionamento della pagina, il contenuto del testo, il colore, i dati delle immagini e altro ancora.
-      4. **Persistenza senza interruzioni:** Una volta completati gli aggiornamenti della filigrana, archivia in modo sicuro il documento modificato. L'API offre opzioni di archiviazione flessibili, che consentono di salvare in un percorso di file locale o come oggetto stream.
+      1. **Avvia il processo:** Inizia fornendo il tuo file PPT come argomento al costruttore della classe **Watermarker**. A seconda dei requisiti, il file può essere generato come flusso o da una posizione su disco locale.
+      2. **Indica filigrane:** utilizza l'oggetto **SearchCriteria** per identificare le filigrane che necessitano di modifica. Questo strumento versatile consente la selezione mirata della filigrana in base a proprietà specifiche.
+      3. **Perfeziona con precisione:** Una volta eseguita con successo la ricerca, ottieni l'accesso a una raccolta di filigrane pertinenti. Goditi il ​​controllo granulare su ogni elemento, con la possibilità di aggiornare dimensioni, posizionamento della pagina, contenuto del testo, colore, dati dell'immagine e altro ancora.
+      4. **Persistenza continua:** una volta completati gli aggiornamenti della filigrana, archivia in modo sicuro il documento modificato. L'API offre opzioni di archiviazione flessibili, consentendoti di salvare in un percorso di file locale o come oggetto flusso.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Aggiorna la filigrana dell'immagine PPT
 
-        // Componi filigrana per il file PPT
+        // Componi Watermarker per il file PPT
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
 
-        // Usa SearchCriteria per trovare un'immagine particolare
+        // Utilizza SearchCriteria per trovare un'immagine particolare
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);
@@ -83,7 +83,7 @@ steps:
             watermark.setImageData(imageData);
         }
 
-        // Salva il file aggiornato
+        // Salva file aggiornato
         watermarker.save("output.ppt");
         
         ```            

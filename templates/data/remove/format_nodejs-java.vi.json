@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Xóa hình mờ hình ảnh trong tài liệu {{FileFormatUp}}",
-    "comment_2": "Lấy Watermarker đi qua đường dẫn {{FileFormatUp}} làm đối số",
-    "comment_3": "Xóa hình mờ hình ảnh theo các tiêu chí tìm kiếm",
+    "comment_1": "Xóa hình mờ trong tài liệu {{FileFormatUp}}",
+    "comment_2": "Lấy đường dẫn {{TextWatermarker}} truyền vào {{FileFormatUp}} làm đối số",
+    "comment_3": "Xóa hình mờ hình ảnh theo tiêu chí tìm kiếm",
     "comment_4": "Lưu tập tin đã xử lý"
   },
   "steps": {
-    "title": "Dễ dàng xóa hình mờ khỏi {{FileformatCap}} bằng {{EnvName}}",
+    "title": "Xóa hình mờ khỏi {{FileformatCap}} một cách dễ dàng bởi {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** hợp lý hóa quá trình xóa hình mờ khỏi tài liệu kinh doanh. Nâng cao ứng dụng {{EnvName}} của bạn bằng cách tích hợp liền mạch thư viện của chúng tôi và làm theo các bước đơn giản sau:",
-      "step_1": "**Watermarker**, với tài liệu {{FileformatCap}}. API đa năng của chúng tôi xử lý liền mạch các tài liệu, cho dù được cung cấp dưới dạng luồng hay đường dẫn cục bộ.",
-      "step_2": "**Tiêu chí tìm kiếm** để xác định chính xác các hình mờ cần giải quyết. Sử dụng các tham số khác nhau như hình ảnh, văn bản hoặc các tính năng định dạng để tinh chỉnh tìm kiếm của bạn. Tiêu chí của bạn càng chi tiết, kết quả của bạn càng chính xác.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** hợp lý hóa quy trình xóa hình mờ khỏi tài liệu kinh doanh. Nâng cao ứng dụng {{EnvName}} của bạn bằng cách tích hợp liền mạch thư viện của chúng tôi và làm theo các bước đơn giản sau:",
+      "step_1": "Bắt đầu quá trình bằng cách khởi tạo lớp lõi, {{TextWatermarkerBold}}, bằng tài liệu {{FileformatCap}}. API linh hoạt của chúng tôi xử lý liền mạch các tài liệu, cho dù được cung cấp dưới dạng luồng hay đường dẫn cục bộ.",
+      "step_2": "Tận dụng {{TextSearchCriteriaBold}} để xác định chính xác hình mờ cần xử lý. Sử dụng nhiều thông số khác nhau như hình ảnh, văn bản hoặc tính năng định dạng để tinh chỉnh tìm kiếm của bạn. Tiêu chí của bạn càng chi tiết thì kết quả của bạn càng chính xác.",
       "step_3": "Thực hiện quá trình xóa trên danh sách hình mờ tài liệu được truy xuất thông qua tìm kiếm của bạn. Dễ dàng xóa chúng khỏi tài liệu.",
-      "step_4": "Sau khi xóa thành công các hình mờ, hãy lưu tài liệu kết quả một cách an toàn dưới dạng tệp cục bộ hoặc luồng byte, giữ nguyên tính toàn vẹn của nó."
+      "step_4": "Sau khi xóa thành công hình mờ, hãy lưu tài liệu kết quả một cách an toàn dưới dạng tệp cục bộ hoặc luồng byte, duy trì tính toàn vẹn của nó."
     }
   },
   "more_features": {

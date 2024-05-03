@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:56
+date:  2024-05-03T13:37:04
 draft: false
 lang: es
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Agregue una marca de agua al documento Excel a través de Java"
+    title: "Agregar marca de agua al documento Excel a través de Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** facilita a los Java desarrolladores la adición de marcas de agua de varios tipos a los formatos de archivos empresariales más populares. Añada nuestra biblioteca a sus documentos de solicitud y añada marcas de agua siguiendo unos sencillos pasos, tal y como se indica a continuación.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** facilita a los desarrolladores de Java agregar marcas de agua de varios tipos a formatos de archivos comerciales populares. Agregue nuestra biblioteca a sus documentos de solicitud y marca de agua en unos sencillos pasos, como se detalla a continuación.
       
-      1. **Watermarker**. Debes instanciarlo antes de procesar el documento. No olvide pasar el archivo Excel al constructor como una ruta o un objeto de flujo.
-      2. **Watermark** del tipo deseado. Se puede colocar no solo en una página de documento específica, sino también en partes nativas del documento, como archivos adjuntos o encabezados.
-      3. Establezca las propiedades de la marca de agua, como la altura y el ancho, la alineación de la página (superior, izquierda, central, etc.), la familia de fuentes y el color, y muchas otras.
-      4. **Watermarker** para agregar una nueva marca de agua. Puedes agregar tantas marcas de agua como necesites. Se recomienda guardar el documento procesado en otra ubicación.
+      1. La clase principal de nuestra API es **Watermarker**. Debe crear una instancia antes de procesar el documento. No olvide pasar el archivo Excel al constructor como una ruta o un objeto de secuencia.
+      2. El siguiente paso es construir un objeto **Watermark** del tipo deseado. Se puede colocar no sólo en una página de documento específica sino también en partes del documento nativo, como archivos adjuntos o encabezados.
+      3. Establezca propiedades de marca de agua como alto y ancho, alineación de la página (arriba, izquierda, central, etc.), familia y color de fuente, y muchas otras.
+      4. Llame al método **Watermarker** para agregar una nueva marca de agua. Puede agregar tantas marcas de agua como necesite. Se recomienda guardar el documento procesado en otra ubicación.
    
     code:
       platform: "net"
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Añadir marca de agua de texto a EXCEL
+        // Agregar marca de agua de texto a EXCEL
 
-        // Pase el archivo a marcar con una marca de agua a Watermarker
+        // Pase el archivo al que se le aplicará la marca de agua a Watermarker
         Watermarker watermarker = new Watermarker("input.xslx");
         
         // Crear marca de agua de texto y configurar propiedades

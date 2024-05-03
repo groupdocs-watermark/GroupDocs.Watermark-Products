@@ -1,17 +1,17 @@
 {
   "examples": {
-    "comment_1": "Marca de agua de texto sin cifrar en el documento {{FileformatCap}}",
-    "comment_2": "Instanciar Watermarker con un documento {{FileformatCap}}",
+    "comment_1": "Borrar marca de agua de texto en el documento {{FileformatCap}}",
+    "comment_2": "Crear una instancia de {{TextWatermarker}} con el documento {{FileformatCap}}",
     "comment_3": "Borrar marca de agua específica",
     "comment_4": "Guardar archivo procesado"
   },
   "steps": {
-    "title": "Elimine las marcas de agua de {{FileformatCap}} documentos con {{EnvName}}",
+    "title": "Borre documentos {{FileformatCap}} de marcas de agua usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilita la eliminación de las marcas de agua añadidas anteriormente en los documentos empresariales. Potencie su aplicación {{EnvName}} instalando nuestra biblioteca y hágalo siguiendo unos sencillos pasos:",
-      "step_1": "**Watermarker** con el documento {{FileformatCap}}. Nuestra API permite pasar un documento para que se procese como flujo o ruta local.",
-      "step_2": "**SearchCriteria** para limitar el conjunto de marcas de agua que se procesarán. Es posible utilizar una imagen como parámetro de búsqueda, así como funciones de formato o texto. Luego, proporciona parámetros de búsqueda más específicos y obtiene un resultado más preciso.",
-      "step_3": "Lista de procesos de las marcas de agua del documento que ha obtenido como resultado de la búsqueda. Borre el documento.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilita la eliminación de marcas de agua agregadas previamente en documentos comerciales. Potencia tu aplicación {{EnvName}} instalando nuestra biblioteca y hazlo en unos simples pasos:",
+      "step_1": "En primer lugar, cree una instancia de la clase principal llamada {{TextWatermarkerBold}} con el documento {{FileformatCap}}. Nuestra API admite pasar un documento para que se procese como una secuencia o una ruta local.",
+      "step_2": "Utilice {{TextSearchCriteriaBold}} para limitar el conjunto de marcas de agua que se procesarán. Es posible utilizar una imagen como parámetro de búsqueda, así como texto o funciones de formato. Luego, proporciona parámetros de búsqueda más específicos y obtiene resultados más precisos.",
+      "step_3": "Lista de procesos de las marcas de agua de documentos que has obtenido como resultado de la búsqueda. Borre el documento.",
       "step_4": "Después de borrar el documento, guarde el resultado como un archivo local o un flujo de bytes."
     }
   },

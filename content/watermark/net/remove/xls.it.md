@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: it
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Rimuovi le filigrane a livello di codice dai documenti Xls usando .NET"
+    title: "Rimuovi a livello di codice le filigrane dai documenti Xls utilizzando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** consente agli .NET sviluppatori di rimuovere programmaticamente le filigrane da vari documenti Xls. Questa guida illustra il processo:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** consente agli sviluppatori di .NET di rimuovere a livello di codice le filigrane da vari documenti Xls. Questa guida descrive il processo:
       
-      1. **Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.
-      2. **SearchCriteria** per identificare le filigrane specifiche da rimuovere. Questo oggetto consente il filtraggio delle filigrane in base alle proprietà precedentemente incorporate nel documento. È possibile utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione per una ricerca altamente granulare.
-      3. Una volta completata la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di eseguire l'operazione di rimozione.
-      4. Al termine della rimozione della filigrana, persiste il documento modificato. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream.
+      1. Avvia il flusso di lavoro fornendo il tuo file Xls come argomento al costruttore della classe **Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.
+      2. Sfrutta la potenza dell'oggetto **SearchCriteria** per identificare le filigrane specifiche che richiedono la rimozione. Questo oggetto consente di filtrare le filigrane in base alle proprietà precedentemente incorporate nel documento. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione per una ricerca altamente granulare.
+      3. Dopo una ricerca riuscita, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, consentendo di eseguire l'operazione di rimozione.
+      4. Una volta completata la rimozione della filigrana, rendere persistente il documento modificato. L'API facilita l'archiviazione utilizzando un percorso file locale o un oggetto flusso.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // Rimuovi la filigrana dell'immagine nel documento XLS
 
-        // Crea un'istanza di Watermarker che passa il documento XLS
+        // Istanzia Watermarker passando il documento XLS
         using (Watermarker watermarker = new Watermarker("input.xls"))
         {
-            // Rimuovi le filigrane che sono state trovate nel documento
+            // Rimuovi le filigrane trovate nel documento
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);

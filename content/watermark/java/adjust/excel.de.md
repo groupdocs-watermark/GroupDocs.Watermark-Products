@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: de
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Passen Sie Wasserzeichen in Excel Dokumenten mit Java an"
+    title: "Wasserzeichen in Excel-Dokumenten mit Java anpassen"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** macht es Java Entwicklern leicht, Textwasserzeichen in ihren Anwendungen anzupassen, indem sie ein paar einfache Schritte implementieren:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** macht es Java-Entwicklern einfach, Textwasserzeichen in ihren Anwendungen anzupassen, indem sie ein paar einfache Schritte implementieren:
       
-      1. **Watermarker**. Sie können die Datei für die weitere Verarbeitung als Stream oder als Pfad auf einer lokalen Festplatte bereitstellen.
-      2. **SearchCriteria** hilft dabei, Wasserzeichen mit den richtigen Eigenschaften zu identifizieren, die zuvor einem Dokument hinzugefügt wurden.
-      3. **Suche** -Prozedur ab. Passen Sie die Eigenschaften gefundener Wasserzeichen wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt usw. an. Es gibt viele Möglichkeiten, Ihre Daten anzupassen.
-      4. Nach Abschluss des Wasserzeichenanpassungsprozesses müssen Sie das aktualisierte Dokument speichern. Verwenden Sie den lokalen Dateipfad, die Datei oder den Bytestream, um das Ergebnis zu speichern.
+      1. Laden Sie Ihre Excel-Datei in das Hauptobjekt unserer API namens **Watermarker**. Sie können die Datei zur weiteren Verarbeitung als Stream oder als Pfad auf einer lokalen Festplatte bereitstellen.
+      2. Der nächste Schritt besteht darin, Wasserzeichen zu finden, die angepasst werden müssen. **SearchCriteria** hilft dabei, Wasserzeichen mit den richtigen Eigenschaften zu identifizieren, die zuvor einem Dokument hinzugefügt wurden.
+      3. Erhalten Sie eine Liste geeigneter Wasserzeichen als Ergebnis der Prozedur **Search**. Passen Sie die Eigenschaften gefundener Wasserzeichen wie Größe, Seitenausrichtung, Text, Farbe, Bildinhalt usw. an. Es gibt viele Möglichkeiten, Ihre Daten anzupassen.
+      4. Nach Abschluss des Wasserzeichen-Anpassungsprozesses müssen Sie das aktualisierte Dokument speichern. Verwenden Sie den lokalen Dateipfad, die Datei oder den Bytestream, um das Ergebnis zu speichern.
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // EXCEL Textwasserzeichen anpassen
+        // Passen Sie das Textwasserzeichen EXCEL an
 
-        // Instanziieren Sie das Wasserzeichen mit dem Eingabedokument EXCEL
+        // Instanziieren Sie Watermarker mit dem Eingabedokument EXCEL
         Watermarker watermarker = new Watermarker("input.xslx");
 
-        // Initialisieren Sie die TextSearchCriteria und suchen Sie nach Textwasserzeichen
+        // Initialisieren Sie TextSearchCriteria und suchen Sie nach Textwasserzeichen
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         
-        // Passen Sie die Eigenschaften von Textwasserzeichen an
+        // Passen Sie die Eigenschaften des Textwasserzeichens an
         for (PossibleWatermark watermark : watermarks)
         {
             watermark.getFormattedTextFragments().clear();

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:15
 draft: false
 lang: pt
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remova programaticamente marcas d'água de Pdf documentos usando .NET"
+    title: "Remova programaticamente marcas d'água de documentos Pdf usando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** capacita .NET desenvolvedores a removerem programaticamente marcas d'água de vários documentos Pdf. Este guia descreve o processo:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** permite que os desenvolvedores do .NET removam marcas d'água programaticamente de vários documentos do Pdf. Este guia descreve o processo:
       
-      1. **Watermarker**. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência à localização de um disco local.
-      2. **SearchCriteria** para identificar as marcas d'água específicas que precisam ser removidas. Esse objeto permite a filtragem de marcas d'água com base nas propriedades anteriormente incorporadas ao documento. Você pode utilizar uma imagem como parâmetro de pesquisa junto com atributos de texto ou formatação para uma pesquisa altamente granular.
-      3. Após uma pesquisa bem-sucedida, você receberá uma coleção de marcas d'água relevantes. Essas marcas d'água oferecem controle granular, permitindo que você execute a operação de remoção.
-      4. Após a conclusão da remoção da marca d'água, mantenha o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
+      1. Inicie o fluxo de trabalho fornecendo seu arquivo Pdf como um argumento para o construtor da classe **Watermarker**. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência a um local de disco local.
+      2. Aproveite o poder do objeto **SearchCriteria** para identificar as marcas d'água específicas que requerem remoção. Este objeto permite a filtragem de marcas d'água com base em propriedades previamente incorporadas ao documento. Você pode utilizar uma imagem como parâmetro de pesquisa junto com texto ou atributos de formatação para uma pesquisa altamente granular.
+      3. Após uma pesquisa bem-sucedida, você receberá uma coleção de marcas d'água relevantes. Essas marcas d'água oferecem controle granular, permitindo realizar a operação de remoção.
+      4. Após a conclusão da remoção da marca d’água, persista o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Remover marca d'água da imagem no documento PDF
+        // Remova a marca d'água da imagem no documento PDF
 
-        // Instanciar o Watermarker passando o documento PDF
+        // Instancie Watermarker passando o documento PDF
         using (Watermarker watermarker = new Watermarker("input.pdf"))
         {
-            // Remova as marcas d'água que foram encontradas no documento
+            // Remova marcas d’água encontradas no documento
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);

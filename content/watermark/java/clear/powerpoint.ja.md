@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: ja
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java を使用して Powerpoint 個のドキュメントのウォーターマークをクリア"
+    title: "Java を使用して、Powerpoint ドキュメントのウォーターマークをクリアします"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** を使用すると、ビジネス文書から以前に追加したウォーターマークを簡単に消去できます。弊社のライブラリをインストールして Java アプリケーションを強化しましょう。簡単な手順で実行できます。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** を使用すると、以前に追加したビジネス文書の透かしを簡単にクリアできます。私たちのライブラリをインストールして、いくつかの簡単な手順で Java アプリケーションを強化します。
       
-      1. **Watermarker**というメインクラスを Powerpoint ドキュメントでインスタンス化します。当社の API は、処理するドキュメントをストリームまたはローカルパスとして渡すことをサポートしています。
-      2. **SearchCriteria**を使用して、処理するウォーターマークのセットを制限してください。テキストやフォーマット機能だけでなく、画像も検索パラメータとして使用できます。次に、より具体的な検索パラメータを指定すると、より正確な結果が得られます。
-      3. 検索結果として取得したドキュメントウォーターマークの処理リスト。文書を消去します。
-      4. ドキュメントをクリアした後、結果をローカルファイルまたはバイトストリームとして保存します。
+      1. まず、Powerpoint ドキュメントを使用して、**Watermarker** というメイン クラスをインスタンス化します。私たちの API は、ストリームまたはローカル パスとして処理されるドキュメントの受け渡しをサポートしています。
+      2. **SearchCriteria** を使用して、処理するウォーターマークのセットを制限します。テキストや書式設定機能だけでなく、画像を検索パラメータとして使用することもできます。次に、より具体的な検索パラメータを指定すると、より正確な結果が得られます。
+      3. 検索結果として取得した文書ウォーターマークの処理リスト。文書を消去します。
+      4. ドキュメントをクリアした後、結果をローカル ファイルまたはバイト ストリームとして保存します。
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Powerpoint ドキュメント内のクリアテキストウォーターマーク
+        // Powerpoint ドキュメントのクリアテキスト透かし
 
-        // Powerpoint ドキュメントでウォーターマーカーをインスタンス化
+        // Powerpoint ドキュメントを使用して Watermarker をインスタンス化します
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // 特定のウォーターマークをクリア
+        // 特定のウォーターマークをクリアする
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 
-        // 処理済みファイルを保存
+        // 処理済みファイルを保存する
         watermarker.save("output.pptx");
         
         ```    

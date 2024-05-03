@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: zh
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "保护商业文档：为 Excel 格式生成水印"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) 增强您的文档安全性：** 将我们的 API 注入您的应用程序，并为许多支持的文件格式生成水印。
+      使用 **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) 提高文档安全性：** 将我们的 API 注入您的应用程序并为许多支持的文件格式生成水印。
       
-      1. **启动水印：**使用提供我们主要功能的**水印**类开始文档处理。通过将应该由生成的水印保护的 Excel 文件传递给构造函数来对其进行实例化。
-      2. **创建主水印对象：**通过雕刻定制的**水印**对象来提升您的文档质量。除了单纯的页面之外，它们还可以无缝集成到附件或标题等原生元素中，从而增加了安全性和专业性。
-      3. **优化水印属性：** 精确调整水印，调整尺寸、对齐方式和配色方案。每一个细节都增强了文档的完整性，使您的文件无疑是您的。
-      4. **精确实现：**利用**水印**方法完美应用您的自定义水印。无论是单个水印还是多重水印，每个水印都会增加一层额外的保护层。为了提高安全性，可以考虑将处理过的文档存储在单独的安全位置。
+      1. **启动水印：** 使用提供主要功能的 **Watermarker** 类开始文档处理。通过将 Excel 文件传递​​给构造函数来实例化它，该文件应该由生成的水印保护。
+      2. **创建主要水印对象：** 通过雕刻定制的 **Watermark** 对象来提升您的文档。除了单纯的页面之外，它们还无缝集成到附件或标题等本机元素中，从而增加了安全性和专业性。
+      3. **优化水印属性：** 精确调整水印，调整尺寸、对齐方式和配色方案。每个细节都增强了文档的完整性，使您的文件毫无疑问是您的。
+      4. **精确实施：** 利用 **Watermarker** 方法完美地应用您的自定义水印。无论是单个还是多个，每个水印都会增加一层额外的保护。为了提高安全性，请考虑将已处理的文档存储在单独的安全位置。
    
     code:
       platform: "net"
@@ -76,7 +76,7 @@ steps:
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // 获取 EXCEL 个结果
+        // 获取EXCEL结果
         watermarker.add(watermark);
         watermarker.save("output.xslx");
         

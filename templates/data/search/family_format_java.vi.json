@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Tìm kiếm hình mờ văn bản trong tài liệu {{FileFormatUp}}",
-    "comment_2": "Lấy phiên bản Watermarker cho tài liệu {{FileFormatUp}}",
+    "comment_2": "Lấy phiên bản {{TextWatermarker}} cho tài liệu {{FileFormatUp}}",
     "comment_3": "Tìm kiếm hình mờ theo tiêu chí",
     "comment_4": "Xử lý hình mờ"
   },
   "steps": {
-    "title": "Tìm kiếm hình mờ trong {{FileformatCap}} tệp bằng {{EnvName}}",
+    "title": "Tìm kiếm hình mờ trong tệp {{FileformatCap}} bằng cách sử dụng {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** giúp bạn dễ dàng tìm kiếm các hình mờ đã được đặt trong tài liệu kinh doanh. Tải xuống gói của chúng tôi và đưa nó vào ứng dụng {{EnvName}} của bạn để tận dụng lợi ích của nó.",
-      "step_1": "**Watermarker**. Có thể chỉ cung cấp một đường dẫn tệp, luồng tệp hoặc luồng byte.",
-      "step_2": "**SearchCriteria**. Cung cấp hình ảnh làm ví dụ để có được hình mờ hình ảnh tương tự. Nếu bạn muốn tìm kiếm hình mờ văn bản cung cấp văn bản, phông chữ, màu sắc và các tùy chọn khác.",
-      "step_3": "**Tìm kiếm** của đối tượng **Watermarker**. Bạn sẽ được cung cấp bộ sưu tập các đối tượng có thể được xử lý dưới dạng hình mờ.",
-      "step_4": "Cuối cùng, bạn có thể tự do làm với kết quả tìm kiếm bất cứ điều gì bạn muốn. Hoàn toàn có thể xóa hình mờ tìm thấy hoặc chỉnh sửa thuộc tính của chúng. Thay đổi kích thước hoặc văn bản, ví dụ."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** giúp bạn dễ dàng tìm kiếm các hình mờ đã được đặt trong tài liệu kinh doanh. Tải xuống gói của chúng tôi và đưa gói đó vào ứng dụng {{EnvName}} của bạn để tận dụng các lợi ích của gói đó.",
+      "step_1": "Để sử dụng các tính năng thư viện của chúng tôi, bạn cần tải tệp {{FileformatCap}} vào phiên bản lớp {{TextWatermarkerBold}}. Có thể chỉ cung cấp đường dẫn tệp, luồng tệp hoặc luồng byte.",
+      "step_2": "Để thu hẹp danh sách các hình mờ có thể sử dụng đối tượng {{TextSearchCriteriaBold}}. Cung cấp hình ảnh làm ví dụ để có được hình mờ hình ảnh tương tự. Nếu bạn muốn tìm kiếm hình mờ văn bản, hãy cung cấp văn bản, phông chữ, màu sắc và các tùy chọn khác.",
+      "step_3": "Để lấy hình mờ được đặt trong tài liệu, hãy sử dụng phương thức {{TextSearchBold}} của đối tượng {{TextWatermarkerBold}}. Bạn sẽ được cung cấp bộ sưu tập các đối tượng có thể được xử lý dưới dạng hình mờ.",
+      "step_4": "Cuối cùng, bạn có thể tự do thực hiện bất cứ điều gì bạn muốn với kết quả tìm kiếm. Hoàn toàn có thể xóa các hình mờ được tìm thấy hoặc chỉnh sửa thuộc tính của chúng. Thay đổi kích thước hoặc văn bản, ví dụ."
     }
   },
   "more_features": {

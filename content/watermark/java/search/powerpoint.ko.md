@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java 을 사용하여 Powerpoint 파일에서 워터마크 검색"
+    title: "Java을(를) 사용하여 Powerpoint 파일에서 워터마크를 검색하세요."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 를 사용하면 비즈니스 문서에 이미 있는 워터마크를 쉽게 검색할 수 있습니다.패키지를 다운로드하여 Java 애플리케이션에 포함시켜 이점을 활용하십시오.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**를 사용하면 비즈니스 문서에 이미 배치된 워터마크를 쉽게 검색할 수 있습니다. 패키지를 다운로드하고 이를 Java 애플리케이션에 포함시켜 그 이점을 활용하세요.
       
-      1. **Watermarker** 클래스 인스턴스에 로드해야 합니다.파일 경로, 파일 스트림 또는 바이트 스트림만 제공할 수 있습니다.
-      2. **SearchCriteria** 객체를 사용하십시오.비슷한 이미지 워터마크를 얻으려면 이미지를 예로 제공하세요.텍스트 워터마크를 검색하려면 텍스트, 글꼴, 색상 및 기타 옵션을 제공하십시오.
-      3. **Watermarker** 객체의 **Search** 메서드를 사용하십시오.워터마크로 처리될 수 있는 개체 컬렉션이 제공됩니다.
-      4. 마지막으로 원하는 검색 결과를 자유롭게 사용할 수 있습니다.찾은 워터마크를 삭제하거나 속성을 편집하는 것은 완전히 가능합니다.크기 또는 텍스트 변경 등을 예로 들 수 있습니다.
+      1. 우리의 라이브러리 기능을 사용하려면 Powerpoint 파일을 **Watermarker** 클래스 인스턴스에 로드해야 합니다. 파일 경로, 파일 스트림 또는 바이트 스트림만 제공할 수 있습니다.
+      2. 가능한 워터마크 목록의 범위를 좁히려면 **SearchCriteria** 객체를 사용하세요. 유사한 이미지 워터마크를 얻으려면 예시로 이미지를 제공하세요. 텍스트 워터마크를 검색하려면 텍스트, 글꼴, 색상 및 기타 옵션을 제공하세요.
+      3. 문서에 워터마크를 추가하려면 **Watermarker** 객체의 **Search** 메소드를 사용하세요. 워터마크로 처리될 수 있는 개체 컬렉션이 제공됩니다.
+      4. 마지막으로 원하는 대로 검색 결과를 자유롭게 사용할 수 있습니다. 발견된 워터마크를 삭제하거나 해당 속성을 편집하는 것은 전적으로 가능합니다. 예를 들어 크기나 텍스트를 변경합니다.
    
     code:
       platform: "net"
@@ -84,15 +84,15 @@ steps:
 
         // POWERPOINT 문서에서 텍스트 워터마크 검색
 
-        // POWERPOINT 문서의 워터마커 인스턴스 가져오기
+        // POWERPOINT 문서에 대한 Watermarker 인스턴스 가져오기
         Watermarker watermarker = new Watermarker("input.pptx");
 
-        // 기준별 워터마크 검색
+        // 기준으로 워터마크 검색
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // 프로세스 워터마크
+        // 워터마크 처리
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```   

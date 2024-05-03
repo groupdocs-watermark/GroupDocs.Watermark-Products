@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Añadir marca de agua de imagen a {{FileFormatUp}}",
-    "comment_2": "Pase el archivo a marcar con una marca de agua a Watermarker",
-    "comment_3": "Proporcione la ruta a la imagen con una marca de agua",
+    "comment_1": "Agregar marca de agua de imagen a {{FileFormatUp}}",
+    "comment_2": "Pase el archivo al que se le aplicará la marca de agua a {{TextWatermarker}}",
+    "comment_3": "Proporcionar ruta a la imagen con marca de agua.",
     "comment_4": "Guardar resultado"
   },
   "steps": {
-    "title": "Técnicas avanzadas: agregar marcas de agua a {{FileformatCap}} documentos mediante {{EnvName}}",
+    "title": "Técnicas avanzadas: agregar marcas de agua a documentos {{FileformatCap}} a través de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "**Watermarker**. Este paso fundamental sienta las bases para mejorar {{FileformatCap}} documentos con marcas de agua. Proporcione el archivo {{FileformatCap}} al constructor, ya sea como una ruta o un objeto de flujo.",
-      "step_2": "**Watermark** adaptados a tus especificaciones. Estas versátiles entidades ofrecen una ubicación precisa no solo en las páginas de documentos designadas, sino también dentro de los elementos nativos, como los archivos adjuntos o los encabezados.",
-      "step_3": "Refina tu proceso de creación de marcas de agua ajustando propiedades como las dimensiones, la alineación, los estilos de fuente y los colores. Este nivel de personalización le permite crear marcas de agua que complementan perfectamente la estética de su documento.",
-      "step_4": "**Watermarker** para aplicar las marcas de agua recién creadas a sus documentos. Disfrute de la flexibilidad de agregar varias marcas de agua según sus necesidades. Para conservar los documentos, considere guardarlos en un lugar seguro."
+      "title": "Explorando técnicas avanzadas de marcas de agua para documentos {{FileformatCap}} con **[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "Inicie su proceso de creación de marcas de agua inicializando la clase {{TextWatermarkerBold}}. Este paso fundamental sienta las bases para mejorar los documentos {{FileformatCap}} con marcas de agua. Proporcione el archivo {{FileformatCap}} al constructor, ya sea como una ruta o como un objeto de secuencia.",
+      "step_2": "Avance al siguiente nivel creando objetos {{TextWatermarkBold}} adaptados a sus especificaciones. Estas entidades versátiles ofrecen una ubicación precisa no solo en páginas de documentos designadas sino también dentro de elementos nativos como archivos adjuntos o encabezados.",
+      "step_3": "Refine su proceso de creación de marcas de agua ajustando propiedades como dimensiones, alineación, estilos de fuente y colores. Este nivel de personalización le permite crear marcas de agua que complementan perfectamente la estética de sus documentos.",
+      "step_4": "Utilice el método {{TextWatermarkerBold}} para aplicar las marcas de agua recién creadas en sus documentos. Disfrute de la flexibilidad de agregar múltiples marcas de agua según sus requisitos. Para conservar los documentos, considere guardarlos en un lugar seguro."
     }
   },
   "more_features": {

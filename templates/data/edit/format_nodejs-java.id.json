@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Perbarui gambar {{FileFormatUp}} watermark",
-    "comment_2": "Tulis Watermarker untuk file {{FileFormatUp}}",
-    "comment_3": "Gunakan SearchCriteria untuk menemukan gambar tertentu",
+    "comment_1": "Perbarui tanda air gambar {{FileFormatUp}}",
+    "comment_2": "Tulis {{TextWatermarker}} untuk file {{FileFormatUp}}",
+    "comment_3": "Gunakan {{TextSearchCriteria}} untuk menemukan gambar tertentu",
     "comment_4": "Perbarui konten gambar",
     "comment_5": "Simpan file yang diperbarui"
   },
   "steps": {
-    "title": "Edit Tanda Air Dinamis untuk {{FileFormatUp}} di {{EnvName}}",
+    "title": "Pengeditan Tanda Air Dinamis untuk {{FileFormatUp}} di {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** menawarkan {{EnvName}} pengembang API yang kuat untuk mengedit tanda air di berbagai dokumen {{FileFormatUp}}. Berikut panduan komprehensif untuk merampingkan alur kerja Anda:",
-      "step_1": "**Mulai Proses:** Mulailah dengan menyediakan file {{FileFormatUp}} Anda sebagai argumen ke konstruktor kelas **Watermarker**. Bergantung pada kebutuhan Anda, file dapat bersumber baik sebagai aliran atau dari lokasi disk lokal.",
-      "step_2": "**Tanda Air Pinpoint:** Gunakan objek**SearchCriteria** untuk mengidentifikasi tanda air yang perlu dimodifikasi. Alat serbaguna ini memungkinkan pemilihan tanda air yang ditargetkan berdasarkan properti tertentu.",
-      "step_3": "**Sempurnakan dengan Presisi:** Setelah berhasil menjalankan pencarian, dapatkan akses ke koleksi tanda air yang relevan. Nikmati kontrol granular atas setiap elemen, dengan kemampuan untuk memperbarui dimensi, posisi halaman, konten teks, warna, data gambar, dan banyak lagi.",
-      "step_4": "**Persistensi Seamless:** Setelah pembaruan tanda air selesai, simpan dokumen yang dimodifikasi dengan aman. API menawarkan opsi penyimpanan fleksibel, memungkinkan Anda untuk menyimpan ke jalur file lokal atau sebagai objek aliran."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** menawarkan kepada pengembang {{EnvName}} API canggih untuk mengedit tanda air di berbagai dokumen {{FileFormatUp}}. Berikut panduan komprehensif untuk menyederhanakan alur kerja Anda:",
+      "step_1": "**Mulai Proses:** Mulailah dengan menyediakan file {{FileFormatUp}} Anda sebagai argumen ke konstruktor kelas {{TextWatermarkerBold}}. Bergantung pada kebutuhan Anda, file dapat bersumber sebagai aliran atau dari lokasi disk lokal.",
+      "step_2": "**Menentukan Tanda Air:** Gunakan objek {{TextSearchCriteriaBold}} untuk mengidentifikasi tanda air yang perlu dimodifikasi. Alat serbaguna ini memungkinkan pemilihan tanda air yang ditargetkan berdasarkan properti tertentu.",
+      "step_3": "**Perbaiki dengan Presisi:** Setelah penelusuran berhasil, dapatkan akses ke kumpulan tanda air yang relevan. Nikmati kontrol terperinci atas setiap elemen, dengan kemampuan memperbarui dimensi, posisi halaman, konten teks, warna, data gambar, dan banyak lagi.",
+      "step_4": "**Kegigihan yang Mulus:** Setelah pembaruan tanda air selesai, simpan dokumen yang diubah dengan aman. API ini menawarkan opsi penyimpanan yang fleksibel, memungkinkan Anda menyimpan ke jalur file lokal atau sebagai objek aliran."
     }
   },
   "more_features": {

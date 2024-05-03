@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: pt
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edite marcas d'água programaticamente em Doc documentos com a API .NET"
+    title: "Edite programaticamente marcas d'água em documentos Doc com a API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fornece a .NET desenvolvedores uma API robusta para manipular programaticamente marcas d'água em diversos Doc documentos. Este guia descreve o processo:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fornece aos desenvolvedores do .NET uma API robusta para manipular marcas d'água programaticamente em diversos documentos do Doc. Este guia descreve o processo:
       
-      1. **Watermarker**. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência à localização de um disco local.
-      2. **SearchCriteria** para identificar as marcas d'água específicas que precisam ser modificadas. Esse objeto permite a identificação de marcas d'água previamente incorporadas no documento.
-      3. Após a execução bem-sucedida da pesquisa, você receberá uma coleção de marcas d'água relevantes. Essas marcas d'água oferecem controle granular, permitindo que você modifique propriedades como dimensões, posicionamento da página, conteúdo de texto, esquema de cores, dados de imagem e muito mais.
-      4. Após a conclusão das edições da marca d'água, mantenha o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
+      1. Inicie o fluxo de trabalho fornecendo seu arquivo Doc como um argumento para o construtor da classe **Watermarker**. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência a um local de disco local.
+      2. Posteriormente, aproveite o objeto **SearchCriteria** para identificar as marcas d'água específicas que requerem modificação. Este objeto permite a identificação de marcas d'água previamente incorporadas ao documento.
+      3. Após a execução bem-sucedida da pesquisa, você receberá uma coleção de marcas d'água relevantes. Essas marcas d’água oferecem controle granular, permitindo modificar propriedades como dimensões, posicionamento de página, conteúdo de texto, esquema de cores, dados de imagem e muito mais.
+      4. Após a conclusão das edições da marca d’água, persista o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
    
     code:
       platform: "net"
@@ -69,16 +69,16 @@ steps:
         ```csharp {style=abap}
         // Edite a marca d'água da imagem no documento DOC
 
-        // Inicializar o Watermarker por arquivo de origem
+        // Inicialize Watermarker pelo arquivo de origem
         using (Watermarker watermarker = new Watermarker("input.doc"))
         {
-            // Crie critérios de pesquisa para pesquisa de marcas d'água de imagens
+            // Crie SearchCriteria para pesquisa de marcas d'água de imagens
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                // Editar marca d'água da imagem
+                // Editar marca d’água da imagem
                 watermark.ImageData = imageData;
             }
 

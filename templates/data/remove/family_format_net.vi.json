@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Xóa hình mờ văn bản khỏi tài liệu {{FileformatCap}}",
-    "comment_2": "Cung cấp phiên bản Watermarker cho tài liệu nguồn tài liệu {{FileformatCap}}",
+    "comment_2": "Cung cấp phiên bản {{TextWatermarker}} cho tài liệu nguồn tài liệu {{FileformatCap}}",
     "comment_3": "Xóa hình mờ đã chọn khỏi tài liệu",
     "comment_4": "Lưu tệp vào đường dẫn được cung cấp"
   },
   "steps": {
-    "title": "Xóa hình mờ khỏi tài liệu {{FileformatCap}} bằng cách sử dụng {{EnvName}}",
+    "title": "Xóa Hình mờ khỏi Tài liệu {{FileformatCap}} bằng cách sử dụng {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** đơn giản hóa nhiệm vụ xóa hình mờ khỏi tài liệu kinh doanh. Tăng cường ứng dụng {{EnvName}} của bạn bằng cách tích hợp thư viện của chúng tôi và làm theo các bước đơn giản sau:",
-      "step_1": "**Watermarker**, với tài liệu {{FileformatCap}}. API của chúng tôi hỗ trợ xử lý tài liệu được cung cấp dưới dạng luồng hoặc đường dẫn cục bộ.",
-      "step_2": "**Tiêu chí tìm kiếm** để thu hẹp tập hợp hình mờ cần xử lý. Bạn có thể sử dụng các tham số khác nhau như hình ảnh, văn bản hoặc các tính năng định dạng. Các tham số tìm kiếm bạn cung cấp càng cụ thể, kết quả bạn nhận được càng chính xác.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** đơn giản hóa tác vụ xóa hình mờ khỏi tài liệu kinh doanh. Trao quyền cho ứng dụng {{EnvName}} của bạn bằng cách tích hợp thư viện của chúng tôi và làm theo các bước đơn giản sau:",
+      "step_1": "Bắt đầu bằng cách khởi tạo lớp chính, {{TextWatermarkerBold}}, bằng tài liệu {{FileformatCap}}. API của chúng tôi hỗ trợ xử lý các tài liệu được cung cấp dưới dạng luồng hoặc đường dẫn cục bộ.",
+      "step_2": "Sử dụng {{TextSearchCriteriaBold}} để thu hẹp tập hợp hình mờ cần xử lý. Bạn có thể sử dụng nhiều thông số khác nhau như hình ảnh, văn bản hoặc tính năng định dạng. Các tham số tìm kiếm bạn cung cấp càng cụ thể thì kết quả bạn nhận được càng chính xác.",
       "step_3": "Xử lý danh sách hình mờ tài liệu thu được dưới dạng kết quả tìm kiếm và xóa chúng khỏi tài liệu.",
-      "step_4": "Sau khi xóa hình mờ, lưu tài liệu kết quả dưới dạng tệp cục bộ hoặc luồng byte."
+      "step_4": "Sau khi xóa hình mờ, hãy lưu tài liệu thu được dưới dạng tệp cục bộ hoặc luồng byte."
     }
   },
   "more_features": {

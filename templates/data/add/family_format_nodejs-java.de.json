@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Generieren Sie Textwasserzeichen für {{FileFormatUp}}",
-    "comment_2": "Quelldatei an Watermarker-Instanz übergeben",
-    "comment_3": "Generieren Sie ein Textwasserzeichen und legen Sie seine Optionen fest",
-    "comment_4": "{{FileFormatUp}} Ergebnis erhalten"
+    "comment_1": "Textwasserzeichen für {{FileFormatUp}} generieren",
+    "comment_2": "Übergeben Sie die Quelldatei an die {{TextWatermarker}}-Instanz",
+    "comment_3": "Erstellen Sie ein Textwasserzeichen und legen Sie dessen Optionen fest",
+    "comment_4": "Erhalten Sie das {{FileFormatUp}}-Ergebnis"
   },
   "steps": {
-    "title": "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für {{FileformatCap}} Formate",
+    "title": "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für {{FileformatCap}}-Formate",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.",
-      "step_1": "**Wasserzeichen einleiten:** Starten Sie die Dokumentenverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie die {{FileformatCap}} -Datei, die durch generierte Wasserzeichen gesichert werden soll, an den Konstruktor übergeben.",
-      "step_2": "**Haupt-Wasserzeichen-Objekt erstellen:** Verschönern Sie Ihre Dokumente, indem Sie maßgeschneiderte **Wasserzeichen**-Objekte formen. Sie sind nicht nur Seiten, sondern lassen sich auch nahtlos in systemeigene Elemente wie Anlagen oder Überschriften integrieren und sorgen so für Sicherheit und Professionalität.",
-      "step_3": "**Verfeinern Sie die Wasserzeichen-Attribute:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Integrität Ihrer Dokumente und macht Ihre Dateien unverkennbar zu Ihren eigenen.",
-      "step_4": "**Präzise Implementierung:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen einwandfrei anzubringen. Ob einzeln oder mehrfach, jedes Wasserzeichen bietet eine zusätzliche Schutzschicht. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten, sicheren Ort aufzubewahren."
+      "title": "Steigern Sie Ihre Dokumentensicherheit mit **[{{ProdFullName}}]({{ProductUrl}}):** Integrieren Sie unsere API in Ihre Anwendungen und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.",
+      "step_1": "**Wasserzeichen einleiten:** Starten Sie die Dokumentverarbeitung mit der Klasse {{TextWatermarkerBold}}, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie dem Konstruktor die Datei {{FileformatCap}} übergeben, die durch generierte Wasserzeichen gesichert werden soll.",
+      "step_2": "**Erstellen Sie das Hauptwasserzeichenobjekt:** Werten Sie Ihre Dokumente auf, indem Sie maßgeschneiderte {{TextWatermarkBold}}-Objekte formen. Über bloße Seiten hinaus integrieren sie sich nahtlos in native Elemente wie Anhänge oder Kopfzeilen und sorgen so für zusätzliche Sicherheit und Professionalität.",
+      "step_3": "**Wasserzeichenattribute verfeinern:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Dokumentenintegrität und macht Ihre Dateien unverwechselbar zu Ihren eigenen.",
+      "step_4": "**Mit Präzision implementieren:** Nutzen Sie die Methode {{TextWatermarkerBold}}, um Ihre benutzerdefinierten Wasserzeichen fehlerfrei anzuwenden. Ob einzeln oder mehrfach, jedes Wasserzeichen bietet eine zusätzliche Schutzschicht. Für zusätzliche Sicherheit sollten Sie darüber nachdenken, Ihre verarbeiteten Dokumente an einem separaten, sicheren Ort aufzubewahren."
     }
   },
   "more_features": {

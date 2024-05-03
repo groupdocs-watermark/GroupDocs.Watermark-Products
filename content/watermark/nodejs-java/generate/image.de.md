@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: de
 format: Image
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für Image Formate"
+    title: "Sichere Geschäftsdokumente: Generieren Sie Wasserzeichen für Image-Formate"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Fügen Sie unsere API in Ihre Anwendungen ein und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.
+      Steigern Sie Ihre Dokumentensicherheit mit **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Integrieren Sie unsere API in Ihre Anwendungen und generieren Sie Wasserzeichen für viele unterstützte Dateiformate.
       
-      1. **Wasserzeichen einleiten:** Starten Sie die Dokumentenverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie die Image -Datei, die durch generierte Wasserzeichen gesichert werden soll, an den Konstruktor übergeben.
-      2. **Haupt-Wasserzeichen-Objekt erstellen:** Verschönern Sie Ihre Dokumente, indem Sie maßgeschneiderte **Wasserzeichen**-Objekte formen. Sie sind nicht nur Seiten, sondern lassen sich auch nahtlos in systemeigene Elemente wie Anlagen oder Überschriften integrieren und sorgen so für Sicherheit und Professionalität.
-      3. **Verfeinern Sie die Wasserzeichen-Attribute:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Integrität Ihrer Dokumente und macht Ihre Dateien unverkennbar zu Ihren eigenen.
-      4. **Präzise Implementierung:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen einwandfrei anzubringen. Ob einzeln oder mehrfach, jedes Wasserzeichen bietet eine zusätzliche Schutzschicht. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten, sicheren Ort aufzubewahren.
+      1. **Wasserzeichen einleiten:** Starten Sie die Dokumentverarbeitung mit der Klasse **Watermarker**, die unsere Hauptfunktionen bereitstellt. Instanziieren Sie es, indem Sie dem Konstruktor die Datei Image übergeben, die durch generierte Wasserzeichen gesichert werden soll.
+      2. **Erstellen Sie das Hauptwasserzeichenobjekt:** Werten Sie Ihre Dokumente auf, indem Sie maßgeschneiderte **Watermark**-Objekte formen. Über bloße Seiten hinaus integrieren sie sich nahtlos in native Elemente wie Anhänge oder Kopfzeilen und sorgen so für zusätzliche Sicherheit und Professionalität.
+      3. **Wasserzeichenattribute verfeinern:** Passen Sie Ihre Wasserzeichen präzise an, indem Sie Abmessungen, Ausrichtung und Farbschemata anpassen. Jedes Detail verbessert die Dokumentenintegrität und macht Ihre Dateien unverwechselbar zu Ihren eigenen.
+      4. **Mit Präzision implementieren:** Nutzen Sie die Methode **Watermarker**, um Ihre benutzerdefinierten Wasserzeichen fehlerfrei anzuwenden. Ob einzeln oder mehrfach, jedes Wasserzeichen bietet eine zusätzliche Schutzschicht. Für zusätzliche Sicherheit sollten Sie darüber nachdenken, Ihre verarbeiteten Dokumente an einem separaten, sicheren Ort aufzubewahren.
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Generieren Sie Textwasserzeichen für IMAGE
+        // Textwasserzeichen für IMAGE generieren
 
-        // Quelldatei an Watermarker-Instanz übergeben
+        // Übergeben Sie die Quelldatei an die Watermarker-Instanz
         const watermarker = new groupdocs.watermark.Watermarker("input.jpeg");
         
-        // Generieren Sie ein Textwasserzeichen und legen Sie seine Optionen fest
+        // Erstellen Sie ein Textwasserzeichen und legen Sie dessen Optionen fest
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // IMAGE Ergebnis erhalten
+        // Erhalten Sie das IMAGE-Ergebnis
         watermarker.add(watermark);
         watermarker.save("output.jpeg");
         

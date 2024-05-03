@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:16
 draft: false
 lang: de
 format: Png
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Schützen Sie Geschäftsdokumente: Generieren Sie Png Wasserzeichen"
+    title: "Schützen Sie Geschäftsdokumente: Generieren Sie Png-Wasserzeichen"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** — Eine leistungsstarke Lösung zur Generierung von Wasserzeichen für Node.js via Java.
+      Stärken Sie die Dokumentensicherheit mit **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** – einer leistungsstarken Lösung zur Wasserzeichengenerierung für Node.js via Java.
       
-      1. **Optimieren Sie das sichere Wasserzeichen in Ihren Node.js via Java Anwendungen:** Die **Watermarker**-Klasse fungiert als Kernkomponente der GroupDocs.Watermark API. Diese Bibliothek vereinfacht die Generierung von Wasserzeichen in verschiedenen Dokumentformaten, einschließlich Png. Erstellen Sie zunächst eine Watermarker-Instanz, bevor Sie Ihr Dokument verarbeiten. Geben Sie dem Konstruktor bei der Initialisierung den Png -Dateipfad oder ein Stream-Objekt an.
-      2. **Generieren Sie Wasserzeichen für verbesserten Schutz:** Verwenden Sie Wasserzeichen, die perfekt auf Ihre Sicherheitsanforderungen abgestimmt sind. Konstruieren Sie ein **Watermark**-Objekt und geben Sie den gewünschten Typ an. Im Gegensatz zur herkömmlichen Seitenplatzierung können Sie Wasserzeichen in systemeigene Dokumentelemente wie Kopfzeilen oder Anlagen einbetten, was die Dokumentensicherheit erhöht und dem Dokument eine professionelle Note verleiht.
-      3. **Optimieren Sie das Aussehen von Wasserzeichen für eine optimale Wirkung:** Kontrollieren Sie die visuellen Aspekte Ihrer Wasserzeichen. Passen Sie Eigenschaften wie Höhe, Breite, Ausrichtung (oben, links, mittig usw.), Schriftfamilien und Farben an, um ein visuell effektives und konsistentes Ergebnis zu erzielen, das die Legitimität Ihres Dokuments unterstreicht.
-      4. **Wasserzeichen-Anwendung und sicherer Speicher**: Integrieren Sie Ihre Wasserzeichen mit der Methode **Watermarker**. Die Bibliothek ermöglicht es Ihnen, bei Bedarf mehrere Wasserzeichen hinzuzufügen, um den Schutz zu verbessern. Es wird empfohlen, das geänderte Png -Dokument an einem separaten, sicheren Ort zu speichern, um die Originaldatei und Ihre Dokumente mit Wasserzeichen zu schützen.
+      1. **Optimieren Sie sicheres Wasserzeichen in Ihren Node.js via Java-Anwendungen:** Die Klasse **Watermarker** fungiert als Kernkomponente der GroupDocs.Watermark-API. Diese Bibliothek vereinfacht die Erstellung von Wasserzeichen in verschiedenen Dokumentformaten, einschließlich Png. Erstellen Sie zunächst eine Watermarker-Instanz, bevor Sie Ihr Dokument verarbeiten. Geben Sie dem Konstruktor während der Initialisierung den Dateipfad Png oder ein Stream-Objekt an.
+      2. **Generieren Sie Wasserzeichen für verbesserten Schutz:** Aktivieren Sie Wasserzeichen, die perfekt zu Ihren Sicherheitsanforderungen passen. Konstruieren Sie ein **Watermark**-Objekt und geben Sie dabei den gewünschten Typ an. Im Gegensatz zur herkömmlichen Seitenplatzierung können Sie Wasserzeichen in native Dokumentelemente wie Kopfzeilen oder Anhänge einbetten, um die Dokumentsicherheit zu erhöhen und eine professionelle Note zu verleihen.
+      3. **Optimieren Sie das Erscheinungsbild des Wasserzeichens für eine optimale Wirkung:** Steuern Sie die visuellen Aspekte Ihrer Wasserzeichen. Passen Sie Eigenschaften wie Höhe, Breite, Ausrichtung (oben, links, Mitte usw.), Schriftfamilien und Farben an, um ein optisch ansprechendes und konsistentes Ergebnis zu erzielen, das die Legitimität des Dokuments stärkt.
+      4. **Wasserzeichenanwendung und sichere Speicherung**: Integrieren Sie Ihre Wasserzeichen mit der Methode **Watermarker**. In der Bibliothek können Sie bei Bedarf mehrere Wasserzeichen hinzufügen, um den Schutz zu verbessern. Es wird empfohlen, das geänderte Png-Dokument an einem separaten, sicheren Ort zu speichern, um die Originaldatei zu bewahren und Ihre mit Wasserzeichen versehenen Dokumente zu schützen.
    
     code:
       platform: "net"
@@ -67,15 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Bild-Wasserzeichen für PNG generieren
+        // Bildwasserzeichen für PNG generieren
 
-        // Wassermarker-Quelldatei instanziieren
+        // Instanziieren Sie Watermarker und übergeben Sie die Quelldatei
         const watermarker = new groupdocs.watermark.Watermarker("input.png");
         
         // Generieren Sie ein Wasserzeichen, indem Sie eine Bilddatei bereitstellen
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // PNG Ergebnis abrufen
+        // Holen Sie sich das PNG-Ergebnis
         watermarker.add(watermark);
         watermarker.save("output.png");
         

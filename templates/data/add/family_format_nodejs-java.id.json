@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Hasilkan tanda air teks untuk {{FileFormatUp}}",
-    "comment_2": "Berikan file sumber ke instance Watermarker",
+    "comment_1": "Buat tanda air teks untuk {{FileFormatUp}}",
+    "comment_2": "Teruskan file sumber ke instance {{TextWatermarker}}",
     "comment_3": "Hasilkan tanda air teks dan atur opsinya",
     "comment_4": "Dapatkan hasil {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Dokumen Bisnis Aman: Hasilkan Watermark untuk Format {{FileformatCap}}",
+    "title": "Dokumen Bisnis yang Aman: Hasilkan Tanda Air untuk Format {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Suntikkan API kami ke aplikasi Anda dan buat tanda air untuk banyak format file yang didukung.",
-      "step_1": "**Mulai Watermarking:** Mulai pemrosesan dokumen dengan kelas**Watermarker** yang menyediakan fitur utama kami. Buat instance dengan meneruskan ke konstruktor file {{FileformatCap}} yang seharusnya diamankan oleh tanda air yang dihasilkan.",
-      "step_2": "**Buat objek Watermark utama:** Tingkatkan dokumen Anda dengan memahat objek**Watermark** yang dipesan lebih dahulu. Di luar halaman belaka, mereka berintegrasi dengan mulus ke elemen asli seperti lampiran atau header, menambahkan lapisan keamanan dan profesionalisme.",
-      "step_3": "**Sempurnakan Atribut Tanda Air:** Sempurnakan tanda air Anda dengan presisi, sesuaikan dimensi, penyelarasan, dan skema warna. Setiap detail meningkatkan integritas dokumen, menjadikan file Anda jelas milik Anda.",
-      "step_4": "**Terapkan dengan Presisi:** Manfaatkan metode**Watermarker** untuk menerapkan tanda air khusus Anda dengan sempurna. Baik tunggal atau ganda, setiap tanda air menambahkan lapisan perlindungan ekstra. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah dan aman."
+      "title": "Tingkatkan Keamanan Dokumen Anda dengan **[{{ProdFullName}}]({{ProductUrl}}):** Suntikkan API kami ke aplikasi Anda dan buat tanda air untuk banyak format file yang didukung.",
+      "step_1": "**Memulai Watermarking:** Mulai pemrosesan dokumen dengan kelas {{TextWatermarkerBold}} yang menyediakan fitur utama kami. Buat instance dengan meneruskan file {{FileformatCap}} ke konstruktor yang seharusnya diamankan dengan tanda air yang dihasilkan.",
+      "step_2": "**Buat objek Tanda Air utama:** Sempurnakan dokumen Anda dengan membuat objek {{TextWatermarkBold}} yang dipesan lebih dahulu. Lebih dari sekedar halaman, mereka terintegrasi dengan mulus ke dalam elemen asli seperti lampiran atau header, sehingga menambahkan lapisan keamanan dan profesionalisme.",
+      "step_3": "**Perbaiki Atribut Tanda Air:** Sempurnakan tanda air Anda dengan presisi, penyesuaian dimensi, perataan, dan skema warna. Setiap detail meningkatkan integritas dokumen, menjadikan file Anda benar-benar milik Anda.",
+      "step_4": "**Terapkan dengan Presisi:** Manfaatkan metode {{TextWatermarkerBold}} untuk menerapkan tanda air khusus Anda dengan sempurna. Baik tunggal atau ganda, setiap tanda air menambahkan lapisan perlindungan ekstra. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen Anda yang sudah diproses di lokasi terpisah dan aman."
     }
   },
   "more_features": {

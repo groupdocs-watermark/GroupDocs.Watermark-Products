@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: it
 format: Powerpoint
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Modifica le filigrane nei documenti Powerpoint con Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** consente agli Java sviluppatori di modificare facilmente le filigrane di testo nelle loro applicazioni implementando alcuni semplici passaggi:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** semplifica agli sviluppatori di Java la regolazione delle filigrane di testo nelle loro applicazioni implementando alcuni semplici passaggi:
       
-      1. **Watermarker**. Puoi fornire il file per l'ulteriore elaborazione come stream o come percorso su un disco locale.
-      2. **SearchCriteria** aiuta a identificare le filigrane con le proprietà corrette che sono state precedentemente aggiunte a un documento.
-      3. **Ricerca**. Modifica le proprietà delle filigrane trovate come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine, ecc. Esistono molti modi per personalizzare i dati.
-      4. Dopo il completamento del processo di regolazione delle filigrane è necessario salvare il documento aggiornato. Usa il percorso del file locale, il file o il flusso di byte per memorizzare il risultato.
+      1. Carica il tuo file Powerpoint nell'oggetto principale della nostra API chiamato **Watermarker**. È possibile fornire il file per l'ulteriore elaborazione come flusso o come percorso su un disco locale.
+      2. Il passo successivo è individuare le filigrane che devono essere modificate. **SearchCriteria** aiuta a identificare le filigrane con le proprietà giuste che sono state precedentemente aggiunte a un documento.
+      3. Ottieni l'elenco delle filigrane adatte come risultato della procedura **Search**. Regola le proprietà delle filigrane trovate come dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine, ecc. Esistono molti modi per personalizzare i tuoi dati.
+      4. Dopo il completamento del processo di regolazione delle filigrane è necessario salvare il documento aggiornato. Utilizza il percorso file locale, il file o il flusso di byte per memorizzare il risultato.
    
     code:
       platform: "net"
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Regola la filigrana di testo POWERPOINT
+        // Regola la filigrana del testo POWERPOINT
 
         // Crea un'istanza di Watermarker con il documento di input POWERPOINT
         Watermarker watermarker = new Watermarker("input.pptx");
 
-        // Inizializza TextSearchCriteria e trova le filigrane di testo
+        // Inizializza TextSearchCriteria e trova filigrane di testo
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: ja
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java 経由で Powerpoint ドキュメントにウォーターマークを追加"
+    title: "Java 経由で Powerpoint ドキュメントにウォーターマークを追加します"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** を使用すると、Java 開発者は一般的なビジネスファイル形式にさまざまなタイプのウォーターマークを簡単に追加できます。下記の簡単な手順で当社のライブラリをアプリケーションに追加し、ドキュメントにウォーターマークを付けてください。
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** を使用すると、Java の開発者は、一般的なビジネス ファイル形式にさまざまなタイプのウォーターマークを簡単に追加できます。以下に示すいくつかの簡単な手順で、ライブラリをアプリケーションに追加し、ドキュメントに透かしを入れます。
       
-      1. **ウォーターマーカー** です。文書処理の前にインスタンス化する必要があります。Powerpoint ファイルをパスまたはストリームオブジェクトとしてコンストラクターに渡すことを忘れないでください。
-      2. **Watermark** オブジェクトを作成することです。特定の文書ページだけでなく、添付ファイルやヘッダーなどのネイティブ文書パーツにも配置できます。
-      3. 高さと幅、ページの配置 (上、左、中央など)、フォントファミリーと色などのウォーターマークプロパティを設定します。
-      4. **Watermarker** メソッドを呼び出して、新しいウォーターマークを追加します。ウォーターマークは必要な数だけ追加できます。処理した文書は別の場所に保存することをお勧めします。
+      1. API のメイン クラスは **Watermarker** です。ドキュメントを処理する前にインスタンス化する必要があります。 Powerpoint ファイルをパスまたはストリーム オブジェクトとしてコンストラクターに渡すことを忘れないでください。
+      2. 次のステップでは、目的のタイプの **Watermark** オブジェクトを構築します。特定のドキュメント ページだけでなく、添付ファイルやヘッダーなどのネイティブ ドキュメント パーツにも配置できます。
+      3. 高さと幅、ページ配置 (上、左、中央など)、フォント ファミリーと色、その他多くの透かしプロパティを設定します。
+      4. **Watermarker** メソッドを呼び出して、新しいウォーターマークを追加します。必要なだけ透かしを追加できます。処理したドキュメントを別の場所に保存することをお勧めします。
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // POWERPOINT にテキストウォーターマークを追加
+        // テキストの透かしを POWERPOINT に追加します
 
-        // ウォーターマークを付けるファイルをウォーターマーカーに渡す
+        // 透かしを入れるファイルを Watermarker に渡します
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // テキストウォーターマークの作成とプロパティの設定
+        // テキストの透かしを作成し、プロパティを設定する
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 
-        // ウォーターマーク付きファイルを保存
+        // 透かし入りファイルを保存する
         watermarker.add(watermark);
         watermarker.save("output.pptx");
         

@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Tạo hình mờ hình ảnh trong tập tin {{FileFormatUp}}",
-    "comment_2": "Cung cấp đường dẫn tệp nguồn đến trình tạo Watermarker",
-    "comment_3": "Tạo phiên bản hình mờ hình ảnh với tệp hình ảnh",
-    "comment_4": "Lưu kết quả có hình mờ {{FileFormatUp}}"
+    "comment_1": "Tạo hình mờ hình ảnh trong tệp {{FileFormatUp}}",
+    "comment_2": "Cung cấp đường dẫn tệp nguồn tới hàm tạo {{TextWatermarker}}",
+    "comment_3": "Tạo phiên bản hình mờ hình ảnh bằng tệp hình ảnh",
+    "comment_4": "Lưu kết quả {{FileFormatUp}} có hình chìm mờ"
   },
   "steps": {
-    "title": "Dễ dàng tạo hình mờ cho {{FileformatCap}} tài liệu",
+    "title": "Dễ dàng tạo hình mờ cho tài liệu {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Thư viện Watermarking nâng cao cho {{EnvName}} ứng dụng. Tăng cường giải pháp của bạn và bảo mật tài liệu bằng hình mờ đúng lúc.",
-      "step_1": "**Lớp cốt lõi: Watermarker.** Lớp chính của API của chúng tôi là**Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
-      "step_2": "**Tạo hình mờ của bạn.** Bước tiếp theo là xây dựng một đối tượng Watermark thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như hình ảnh hoặc tiêu đề.",
-      "step_3": "**Tinh chỉnh giao diện.** Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, trên cùng, bên trái, căn chỉnh trung tâm, phông chữ và màu sắc, v.v.",
-      "step_4": "**Áp dụng và lưu.** Sử dụng phương thức**Watermarker** để thêm hình mờ mới. Hãy thêm nhiều hình mờ như bạn cần. Bạn có thể lưu tài liệu có hình mờ vào bất kỳ vị trí nào."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Thư viện hình chìm mờ nâng cao dành cho ứng dụng {{EnvName}}. Trao quyền cho giải pháp của bạn và bảo mật tài liệu bằng hình mờ đúng lúc.",
+      "step_1": "**Lớp cốt lõi: Watermarker.** Lớp chính của API của chúng tôi là {{TextWatermarkerBold}}. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên chuyển tệp {{FileformatCap}} cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.",
+      "step_2": "**Tạo Hình mờ của bạn.** Bước tiếp theo là xây dựng đối tượng Hình mờ thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như hình ảnh hoặc tiêu đề.",
+      "step_3": "**Tinh chỉnh giao diện.** Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, trên cùng, bên trái, căn chỉnh giữa, phông chữ và màu sắc, v.v.",
+      "step_4": "**Áp dụng và lưu.** Sử dụng phương pháp {{TextWatermarkerBold}} để thêm hình mờ mới. Hãy thoải mái thêm bao nhiêu hình mờ tùy thích. Bạn có thể lưu tài liệu có hình mờ vào bất kỳ vị trí nào."
     }
   },
   "more_features": {

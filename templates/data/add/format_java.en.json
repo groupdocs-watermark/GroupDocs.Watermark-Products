@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Add image watermark to {{FileFormatUp}}",
-    "comment_2": "Pass file to be watermarked to Watermarker",
+    "comment_2": "Pass file to be watermarked to {{TextWatermarker}}",
     "comment_3": "Provide path to image with watermark",
     "comment_4": "Save result"
   },
@@ -9,10 +9,10 @@
     "title": "Advanced Techniques: Adding Watermarks to {{FileformatCap}} Documents via {{EnvName}}",
     "content": {
       "title": "Exploring Advanced Watermarking Techniques for {{FileformatCap}} Documents with **[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "Kickstart your watermarking process by initializing the **Watermarker** class. This foundational step sets the stage for enhancing {{FileformatCap}} documents with watermarks. Provide the {{FileformatCap}} file to the constructor, either as a path or a stream object.",
-      "step_2": "Progress to the next level by crafting **Watermark** objects tailored to your specifications. These versatile entities offer precise placement not only on designated document pages but also within native elements like attachments or headers.",
+      "step_1": "Kickstart your watermarking process by initializing the {{TextWatermarkerBold}} class. This foundational step sets the stage for enhancing {{FileformatCap}} documents with watermarks. Provide the {{FileformatCap}} file to the constructor, either as a path or a stream object.",
+      "step_2": "Progress to the next level by crafting {{TextWatermarkBold}} objects tailored to your specifications. These versatile entities offer precise placement not only on designated document pages but also within native elements like attachments or headers.",
       "step_3": "Refine your watermarking process by fine-tuning properties such as dimensions, alignment, font styles, and colors. This level of customization empowers you to create watermarks that perfectly complement your document aesthetics.",
-      "step_4": "Utilize the **Watermarker** method to apply the newly created watermarks onto your documents. Enjoy the flexibility of adding multiple watermarks as per your requirements. To preserve documents, consider saving them in a secure location."
+      "step_4": "Utilize the {{TextWatermarkerBold}} method to apply the newly created watermarks onto your documents. Enjoy the flexibility of adding multiple watermarks as per your requirements. To preserve documents, consider saving them in a secure location."
     }
   },
   "more_features": {

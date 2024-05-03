@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Busca una marca de agua de texto en {{FileFormatUp}}",
-    "comment_2": "Crea un marcador de agua con la ruta {{FileFormatUp}}",
-    "comment_3": "Encuentra marcas de agua",
-    "comment_4": "Usa la información de marcas de agua encontradas"
+    "comment_1": "Buscar marca de agua de texto en {{FileFormatUp}}",
+    "comment_2": "Cree {{TextWatermarker}} con la ruta {{FileFormatUp}}",
+    "comment_3": "encontrar marcas de agua",
+    "comment_4": "Usar información de marcas de agua encontradas"
   },
   "steps": {
-    "title": "Busque marcas de agua en archivos {{FileformatCap}} mediante {{EnvName}}",
+    "title": "Encuentre marcas de agua en archivos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** agiliza el proceso de búsqueda de marcas de agua en los documentos comerciales. Integre nuestro paquete en sus {{EnvName}} aplicaciones para aprovechar sus ventajas.",
-      "step_1": "**Watermarker**. Puedes proporcionar una ruta de archivo, un flujo de archivos o un flujo de bytes.",
-      "step_2": "**SearchCriteria**. Por ejemplo, proporciona una imagen para buscar marcas de agua similares. Si encuentra marcas de agua textuales, proporcione texto, fuente, color y otras opciones relevantes.",
-      "step_3": "**Search** del objeto **Watermarker** para recuperar las marcas de agua colocadas en el documento. Recibirá una colección de objetos que representan posibles marcas de agua para su posterior procesamiento.",
-      "step_4": "Por último, tiene la flexibilidad de manipular los resultados de la búsqueda según sea necesario. Puede eliminar las marcas de agua encontradas o editar sus propiedades, como cambiar el tamaño o el texto."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** agiliza el proceso de búsqueda de marcas de agua en documentos comerciales. Integre nuestro paquete en sus aplicaciones {{EnvName}} para desbloquear sus ventajas.",
+      "step_1": "Para aprovechar las funciones de nuestra biblioteca, cargue el archivo {{FileformatCap}} en una instancia de clase {{TextWatermarkerBold}}. Puede proporcionar una ruta de archivo, una secuencia de archivos o una secuencia de bytes.",
+      "step_2": "Para refinar la lista de posibles marcas de agua, utilice el objeto {{TextSearchCriteriaBold}}. Por ejemplo, proporcione una imagen para encontrar marcas de agua de imágenes similares. Si encuentra marcas de agua textuales, proporcione texto, fuente, color y otras opciones relevantes.",
+      "step_3": "Utilice el método {{TextSearchBold}} del objeto {{TextWatermarkerBold}} para recuperar marcas de agua colocadas dentro del documento. Recibirá una colección de objetos que representan posibles marcas de agua para su posterior procesamiento.",
+      "step_4": "Finalmente, tiene la flexibilidad de manipular los resultados de la búsqueda según sea necesario. Puede eliminar marcas de agua encontradas o editar sus propiedades, como cambiar el tamaño o el texto."
     }
   },
   "more_features": {

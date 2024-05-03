@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: es
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Encuentre Pdf marcas de agua de manera eficiente con .NET"
+    title: "Encuentre marcas de agua Pdf de manera eficiente con .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** ofrece una solución sólida para encontrar marcas de agua mediante programación en varios formatos de documentos empresariales. Integre nuestro paquete en sus .NET aplicaciones para dotarlas de funciones de búsqueda de marcas de agua.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** ofrece una solución sólida para buscar marcas de agua mediante programación en varios formatos de documentos comerciales. Integre nuestro paquete en sus aplicaciones .NET para potenciarlas con capacidades de búsqueda de marcas de agua.
       
-      1. **Watermarker** y proporcione la ruta del archivo, el flujo de archivos o el flujo de bytes Pdf como entrada. Esta acción carga el documento para el análisis de las marcas de agua.
-      2. **SearchCriteria**. Especifique una imagen para localizar marcas de agua de imágenes similares. Como alternativa, en el caso de las marcas de agua textuales, defina el contenido del texto, las propiedades de la fuente, los atributos de color y otros parámetros pertinentes para refinar los criterios de búsqueda.
-      3. **Search** del objeto**Watermarker** para iniciar el proceso de detección de marcas de agua en el documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que permite un procesamiento posterior.
-      4. La colección recuperada de objetos de marca de agua le otorga un control preciso. Puede eliminar mediante programación las marcas de agua no deseadas o modificar dinámicamente sus propiedades, por ejemplo, ajustando su tamaño o el contenido del texto, para adaptarlas a sus necesidades específicas.
+      1. Para explotar las funcionalidades de nuestra biblioteca, cree una instancia de la clase **Watermarker** y proporcione la ruta del archivo, el flujo de archivos o el flujo de bytes Pdf como entrada. Esta acción carga el documento para el análisis de marcas de agua.
+      2. Para una identificación específica de marcas de agua, aproveche el objeto **SearchCriteria**. Especifique una imagen para localizar marcas de agua de imágenes similares. Alternativamente, para marcas de agua textuales, defina el contenido del texto, las propiedades de fuente, los atributos de color y otros parámetros pertinentes para refinar los criterios de búsqueda.
+      3. Emplee el método **Search** del objeto **Watermarker** para iniciar el proceso de detección de marcas de agua dentro del documento cargado. Esta función devuelve una colección de objetos que representan posibles marcas de agua, lo que permite un procesamiento posterior.
+      4. La colección recuperada de objetos de marca de agua le otorga un control preciso. Puede eliminar mediante programación marcas de agua no deseadas o modificar dinámicamente sus propiedades, como ajustar su tamaño o contenido de texto, para adaptarlas a sus requisitos específicos.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Busca marcas de agua de imágenes colocadas en PDF
+        // Buscar marcas de agua de imágenes colocadas en PDF
 
-        // Construye un marcador de agua que pase por el camino PDF
+        // Construya Watermarker pasando la ruta PDF
         using (Watermarker watermarker = new Watermarker("input.pdf"))
         {
-            // Encuentra marcas de agua mediante las opciones de búsqueda
+            // Encuentra marcas de agua usando las opciones de búsqueda
             ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Información sobre marcas de agua del proceso
+            // Información de marcas de agua de proceso
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

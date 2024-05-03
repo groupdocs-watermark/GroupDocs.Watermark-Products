@@ -1,17 +1,17 @@
 {
   "examples": {
-    "comment_1": "Textwasserzeichen aus {{FileformatCap}} Dokument entfernen",
-    "comment_2": "Stellen Sie eine Watermarker-Instanz für das Quelldokument des Dokuments {{FileformatCap}} bereit",
-    "comment_3": "Ausgewählte Wasserzeichen aus dem Dokument entfernen",
-    "comment_4": "Datei im angegebenen Pfad speichern"
+    "comment_1": "Textwasserzeichen aus dem {{FileformatCap}}-Dokument entfernen",
+    "comment_2": "Stellen Sie die Instanz {{TextWatermarker}} für das Quelldokument des Dokuments {{FileformatCap}} bereit",
+    "comment_3": "Entfernen Sie ausgewählte Wasserzeichen aus dem Dokument",
+    "comment_4": "Speichern Sie die Datei im angegebenen Pfad"
   },
   "steps": {
-    "title": "Wasserzeichen aus {{FileformatCap}} Dokumenten mit {{EnvName}} entfernen",
+    "title": "Entfernen Sie Wasserzeichen aus {{FileformatCap}}-Dokumenten mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** vereinfacht das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Verbessern Sie Ihre {{EnvName}} -Anwendung, indem Sie unsere Bibliothek integrieren und die folgenden einfachen Schritte befolgen:",
-      "step_1": "**Watermarker** mit dem {{FileformatCap}} -Dokument. Unsere API unterstützt die Verarbeitung von Dokumenten, die entweder als Stream oder als lokaler Pfad bereitgestellt werden.",
-      "step_2": "**Suchkriterien**, um die Menge der zu verarbeitenden Wasserzeichen einzugrenzen. Sie können verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen verwenden. Je spezifischer die von Ihnen angegebenen Suchparameter sind, desto genauer sind die Ergebnisse, die Sie erhalten.",
-      "step_3": "Verarbeiten Sie die Liste der Dokumentwasserzeichen, die Sie als Suchergebnis erhalten haben, und entfernen Sie sie aus dem Dokument.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** vereinfacht das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Stärken Sie Ihre {{EnvName}}-Anwendung, indem Sie unsere Bibliothek integrieren und diese einfachen Schritte befolgen:",
+      "step_1": "Beginnen Sie mit der Instanziierung der Hauptklasse {{TextWatermarkerBold}} mit dem Dokument {{FileformatCap}}. Unsere API unterstützt die Verarbeitung von Dokumenten, die entweder als Stream oder als lokaler Pfad bereitgestellt werden.",
+      "step_2": "Verwenden Sie {{TextSearchCriteriaBold}}, um den Satz der zu verarbeitenden Wasserzeichen einzugrenzen. Sie können verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen verwenden. Je spezifischer die von Ihnen eingegebenen Suchparameter sind, desto präzisere Ergebnisse erhalten Sie.",
+      "step_3": "Verarbeiten Sie die als Suchergebnis erhaltene Liste der Dokumentwasserzeichen und entfernen Sie sie aus dem Dokument.",
       "step_4": "Speichern Sie das resultierende Dokument nach dem Entfernen der Wasserzeichen als lokale Datei oder als Bytestream."
     }
   },

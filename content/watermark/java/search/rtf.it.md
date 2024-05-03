@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: it
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Rtf Ricerca filigrane tramite Java"
+    title: "Ricerca filigrane Rtf tramite Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica il processo di individuazione delle filigrane all'interno dei documenti aziendali. Installa il nostro pacchetto nelle tue Java applicazioni per sfruttarne i vantaggi.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica il processo di individuazione delle filigrane all'interno dei documenti aziendali. Installa il nostro pacchetto nelle tue applicazioni Java per sfruttare i suoi vantaggi.
       
-      1. **Watermarker**. Puoi fornire un percorso, un flusso di file o un flusso di byte.
-      2. **SearchCriteria**. Ad esempio, fornisci un'immagine per cercare filigrane simili. Se cerchi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.
-      3. **Search** dell'oggetto **Watermarker**. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane da elaborare ulteriormente.
-      4. Infine, hai la libertà di manipolare i risultati della ricerca secondo necessità. Puoi eliminare le filigrane trovate o modificarne le proprietà, ad esempio modificando le dimensioni o il testo.
+      1. Per utilizzare le funzionalità della nostra libreria, carica il file Rtf in un'istanza della classe **Watermarker**. È possibile fornire un percorso file, un flusso di file o un flusso di byte.
+      2. Per restringere l'elenco delle potenziali filigrane, utilizza l'oggetto **SearchCriteria**. Ad esempio, fornisci un'immagine per cercare filigrane di immagini simili. Se cerchi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.
+      3. Recupera le filigrane inserite nel documento utilizzando il metodo **Search** dell'oggetto **Watermarker**. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane per ulteriori elaborazioni.
+      4. Infine, hai la libertà di manipolare i risultati della ricerca secondo necessità. Puoi eliminare le filigrane trovate o modificarne le proprietà, ad esempio cambiare le dimensioni o il testo.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Cerca le filigrane delle immagini nel documento RTF
+        // Cerca filigrane di immagini nel documento RTF
 
         // Componi Watermarker passando il documento RTF
         Watermarker watermarker = new Watermarker("input.rtf");
         
-        // Cerca filigrane per hash dell'immagine
+        // Cerca filigrane in base all'hash dell'immagine
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);

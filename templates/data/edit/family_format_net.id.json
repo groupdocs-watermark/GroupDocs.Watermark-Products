@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Mengedit {{FileFormatUp}} tanda air teks",
-    "comment_2": "Buat Watermarker menyediakan file {{FileFormatUp}}",
-    "comment_3": "Bangun TextSearchCriteria dan dapatkan tanda air teks",
+    "comment_1": "Edit tanda air teks {{FileFormatUp}}",
+    "comment_2": "Buatlah {{TextWatermarker}} dengan menyediakan file {{FileFormatUp}}",
+    "comment_3": "Buatlah {{TextTextSearchCriteria}} dan dapatkan tanda air teks",
     "comment_4": "Edit tanda air teks",
-    "comment_5": "Simpan dokumen"
+    "comment_5": "Simpan dokumennya"
   },
   "steps": {
     "title": "Edit tanda air di dokumen {{FileformatCap}} menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memberdayakan {{EnvName}} pengembang untuk mengedit tanda air dengan mudah dalam berbagai dokumen {{FileformatCap}}. Berikut panduan sederhana cara menggunakan API kami di aplikasi Anda:",
-      "step_1": "**Watermarker**. Anda dapat menyediakan file baik sebagai aliran byte, aliran file, atau jalur disk lokal.",
-      "step_2": "**Kriteria pencari** untuk mengidentifikasi tanda air dengan properti terkait yang sebelumnya ditambahkan ke dokumen.",
-      "step_3": "Setelah pencarian, Anda akan mendapatkan daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, seperti ukuran, penyelarasan halaman, teks, warna, konten gambar, dan banyak lagi. Ini memberi Anda kontrol yang luas atas data Anda.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memberdayakan pengembang {{EnvName}} untuk dengan mudah mengedit tanda air dalam berbagai dokumen {{FileformatCap}}. Berikut panduan sederhana tentang cara menggunakan API kami di aplikasi Anda:",
+      "step_1": "Mulailah dengan meneruskan file {{FileformatCap}} Anda sebagai parameter ke konstruktor kelas {{TextWatermarkerBold}}. Anda dapat menyediakan file sebagai aliran byte, aliran file, atau jalur disk lokal.",
+      "step_2": "Selanjutnya, temukan tanda air tertentu yang memerlukan pengeditan. Manfaatkan {{TextSearchCriteriaBold}} untuk mengidentifikasi tanda air dengan properti terkait yang sebelumnya ditambahkan ke dokumen.",
+      "step_3": "Setelah pencarian, Anda akan mendapatkan daftar tanda air yang relevan. Anda kemudian dapat menyesuaikan propertinya, seperti ukuran, perataan halaman, teks, warna, konten gambar, dan banyak lagi. Ini memberi Anda kendali luas atas data Anda.",
       "step_4": "Setelah Anda selesai mengedit tanda air, simpan dokumen yang diperbarui. Anda dapat menggunakan jalur file lokal atau aliran untuk menyimpan hasil akhir."
     }
   },

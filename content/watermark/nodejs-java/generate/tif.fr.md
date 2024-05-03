@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:16
 draft: false
 lang: fr
 format: Tif
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Protégez les documents commerciaux : générez Tif filigranes"
+    title: "Protégez les documents professionnels : générez des filigranes Tif"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Une puissante solution de génération de filigranes pour Node.js via Java.
+      Renforcez la sécurité des documents avec **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Une puissante solution de génération de filigrane pour Node.js via Java.
       
-      1. **Simplifiez le filigranage sécurisé dans vos Node.js via Java applications :** La classe **Watermarker** constitue le composant principal de l'API GroupDocs.Watermark. Cette bibliothèque simplifie la génération de filigranes dans différents formats de documents, y compris Tif. Pour commencer, créez une instance Watermarker avant de traiter votre document. Fournissez le chemin du fichier Tif ou un objet de flux au constructeur lors de l'initialisation.
-      2. **Générez des filigranes pour une protection renforcée :** Activez des filigranes parfaitement adaptés à vos besoins de sécurité. Construisez un objet **Watermark** en spécifiant le type souhaité. Contrairement au placement de page traditionnel, vous pouvez intégrer des filigranes dans des éléments de document natifs tels que des en-têtes ou des pièces jointes, renforçant ainsi la sécurité des documents et ajoutant une touche professionnelle.
-      3. **Ajustez l'apparence des filigranes pour un impact optimal :** Contrôlez les aspects visuels de vos filigranes. Personnalisez les propriétés telles que la hauteur, la largeur, l'alignement (haut, gauche, centre, etc.), les familles de polices et les couleurs pour obtenir un résultat visuellement efficace et cohérent qui renforce la légitimité du document.
-      4. **Application de filigrane et stockage sécurisé** : intégrez vos filigranes à l'aide de la méthode **Watermarker**. La bibliothèque vous permet d'ajouter plusieurs filigranes si nécessaire pour renforcer la protection. Il est recommandé d'enregistrer le document Tif modifié dans un emplacement distinct et sécurisé afin de préserver le fichier d'origine et vos documents filigranés.
+      1. ** Rationalisez le filigrane sécurisé dans vos applications Node.js via Java :** La classe **Watermarker** fait office de composant principal de l'API GroupDocs.Watermark. Cette bibliothèque simplifie la génération de filigranes dans divers formats de documents, notamment Tif. Pour commencer, créez une instance Watermarker avant de traiter votre document. Fournissez le chemin du fichier Tif ou un objet flux au constructeur lors de l'initialisation.
+      2. **Générez des filigranes pour une protection améliorée :** Créez des filigranes qui correspondent parfaitement à vos besoins de sécurité. Construisez un objet **Watermark** spécifiant le type souhaité. Contrairement au placement de page traditionnel, vous pouvez intégrer des filigranes dans les éléments natifs du document tels que les en-têtes ou les pièces jointes, renforçant ainsi la sécurité du document et ajoutant une touche professionnelle.
+      3. **Affinez l'apparence du filigrane pour un impact optimal :** Contrôlez les aspects visuels de vos filigranes. Personnalisez les propriétés telles que la hauteur, la largeur, l'alignement (haut, gauche, centre, etc.), les familles de polices et les couleurs pour obtenir un résultat visuellement efficace et cohérent qui renforce la légitimité du document.
+      4. **Application de filigrane et stockage sécurisé** : intégrez vos filigranes à l'aide de la méthode **Watermarker**. La bibliothèque vous permet d'ajouter plusieurs filigranes si nécessaire pour une protection renforcée. Il est recommandé d'enregistrer le document Tif modifié dans un emplacement distinct et sécurisé pour conserver le fichier original et sauvegarder vos documents filigranés.
    
     code:
       platform: "net"
@@ -69,13 +69,13 @@ steps:
 
         // Générer un filigrane d'image pour TIF
 
-        // Instanciez Watermarker en transmettant le fichier source
+        // Instancier Watermarker en passant le fichier source
         const watermarker = new groupdocs.watermark.Watermarker("input.tif");
         
-        // Générez un filigrane en fournissant un fichier image
+        // Générer un filigrane en fournissant un fichier image
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // Obtenir TIF résultat
+        // Obtenez le résultat TIF
         watermarker.add(watermark);
         watermarker.save("output.tif");
         

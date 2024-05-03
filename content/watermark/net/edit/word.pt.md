@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:06
 draft: false
 lang: pt
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edite marcas d'água em Word documentos usando .NET"
+    title: "Edite marcas d'água em documentos Word usando .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** capacita .NET desenvolvedores a editar marcas d'água sem esforço em vários Word documentos. Aqui está um guia simplificado de como usar nossa API em seu aplicativo:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** permite que os desenvolvedores do .NET editem facilmente marcas d'água em vários documentos do Word. Aqui está um guia simplificado de como usar nossa API em sua aplicação:
       
-      1. **Watermarker**. Você pode fornecer o arquivo como um fluxo de bytes, um fluxo de arquivos ou um caminho de disco local.
-      2. **SearchCriteria** para identificar marcas d'água com as propriedades correspondentes adicionadas anteriormente ao documento.
-      3. Após a pesquisa, você obterá uma lista de marcas d'água relevantes. Em seguida, você pode personalizar suas propriedades, como tamanho, alinhamento da página, texto, cor, conteúdo da imagem e muito mais. Isso concede a você amplo controle sobre seus dados.
+      1. Comece passando seu arquivo Word como parâmetro para o construtor da classe **Watermarker**. Você pode fornecer o arquivo como um fluxo de bytes, um fluxo de arquivos ou um caminho de disco local.
+      2. A seguir, localize as marcas d'água específicas que requerem edição. Utilize o **SearchCriteria** para identificar marcas d'água com as propriedades correspondentes adicionadas anteriormente ao documento.
+      3. Após a pesquisa, você obterá uma lista de marcas d'água relevantes. Você pode então personalizar suas propriedades, como tamanho, alinhamento de página, texto, cor, conteúdo da imagem e muito mais. Isso concede a você amplo controle sobre seus dados.
       4. Depois de concluir a edição das marcas d'água, salve o documento atualizado. Você pode utilizar um caminho de arquivo local ou um fluxo para armazenar o resultado final.
    
     code:
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Editar marca d'água de texto WORD
 
-        // Faça com que o Watermarker forneça o arquivo WORD
+        // Faça Watermarker fornecendo o arquivo WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Construa o TextSearchCriteria e obtenha marcas d'água de texto

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:16
 draft: false
 lang: id
 format: Tif
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Lindungi Dokumen Bisnis: Hasilkan Tif Watermark"
+    title: "Lindungi Dokumen Bisnis: Hasilkan Tanda Air Tif"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Solusi Pembuatan Tanda Air yang Kuat untuk Node.js via Java.
+      Perkuat Keamanan Dokumen dengan **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - Solusi Pembuatan Tanda Air yang Ampuh untuk Node.js via Java.
       
-      1. **Merampingkan Watermarking Aman di Aplikasi Node.js via Java Anda:** Kelas **Watermarker** bertindak sebagai komponen inti dari GroupDocs.Watermark API. Pustaka ini menyederhanakan pembuatan tanda air berbagai format dokumen, termasuk Tif. Untuk memulai, buat instance Watermarker sebelum memproses dokumen Anda. Berikan jalur file Tif atau objek aliran ke konstruktor selama inisialisasi.
-      2. **Hasilkan Watermark untuk Perlindungan yang Ditingkatkan:** Berdayakan tanda air yang selaras dengan kebutuhan keamanan Anda. Buat objek**Watermark** yang menentukan jenis yang diinginkan. Tidak seperti penempatan halaman tradisional, Anda dapat menyematkan tanda air dalam elemen dokumen asli seperti header atau lampiran, memperkuat keamanan dokumen dan menambahkan sentuhan profesional.
-      3. **Sempurnakan Penampilan Tanda Air untuk Dampak Optimal:** Kontrol aspek visual tanda air Anda. Sesuaikan properti seperti tinggi, lebar, keselarasan (atas, kiri, tengah, dll.), keluarga font, dan warna untuk mencapai hasil yang efektif secara visual dan konsisten yang memperkuat legitimasi dokumen.
-      4. **Aplikasi Tanda Air dan Penyimpanan Aman**: Gabungkan tanda air Anda menggunakan metode**WaterMarker's**. Perpustakaan memungkinkan Anda menambahkan beberapa tanda air jika perlu untuk perlindungan yang ditingkatkan. Disarankan untuk menyimpan dokumen Tif yang dimodifikasi ke lokasi terpisah dan aman untuk mempertahankan file asli dan melindungi dokumen yang diberi tanda air.
+      1. **Sederhanakan Watermarking Aman di Aplikasi Node.js via Java Anda:** Kelas **Watermarker** bertindak sebagai komponen inti API GroupDocs.Watermark. Pustaka ini menyederhanakan pembuatan tanda air dalam berbagai format dokumen, termasuk Tif. Untuk memulai, buat instance Watermarker sebelum memproses dokumen Anda. Berikan jalur file Tif atau objek aliran ke konstruktor selama inisialisasi.
+      2. **Hasilkan Tanda Air untuk Perlindungan yang Lebih Baik:** Berdayakan tanda air yang selaras dengan kebutuhan keamanan Anda. Buatlah objek **Watermark** yang menentukan tipe yang diinginkan. Tidak seperti penempatan halaman tradisional, Anda dapat menyematkan tanda air dalam elemen dokumen asli seperti header atau lampiran, memperkuat keamanan dokumen dan menambahkan sentuhan profesional.
+      3. **Sempurnakan Tampilan Tanda Air untuk Dampak Optimal:** Kontrol aspek visual tanda air Anda. Sesuaikan properti seperti tinggi, lebar, perataan (atas, kiri, tengah, dll.), kelompok font, dan warna untuk mencapai hasil visual yang efektif dan konsisten yang memperkuat legitimasi dokumen.
+      4. **Aplikasi Tanda Air dan Penyimpanan Aman**: Gabungkan tanda air Anda menggunakan metode **Watermarker**. Perpustakaan memungkinkan Anda menambahkan beberapa tanda air jika diperlukan untuk meningkatkan perlindungan. Sebaiknya simpan dokumen Tif yang telah diubah ke lokasi terpisah dan aman untuk menyimpan file asli dan mengamankan dokumen yang diberi watermark.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Hasilkan tanda air gambar untuk TIF
+        // Buat tanda air gambar untuk TIF
 
-        // Instantiate Watermarker yang meneruskan file sumber
+        // Buat instance Watermarker yang meneruskan file sumber
         const watermarker = new groupdocs.watermark.Watermarker("input.tif");
         
         // Hasilkan tanda air dengan menyediakan file gambar

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: en
 format: Word
@@ -45,7 +45,7 @@ steps:
       **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** streamlines the process of finding watermarks within business documents. Integrate our package into your .NET applications to unlock its advantages.
       
       1. To leverage our library features, load the Word file into a **Watermarker** class instance. You can provide a file path, file stream, or byte stream.
-      2. To refine the list of potential watermarks, use the **SearchCriteria object**. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.
+      2. To refine the list of potential watermarks, use the **SearchCriteria** object. For instance, provide an image to find similar image watermarks. If finding textual watermarks, provide text, font, color, and other relevant options.
       3. Use the **Search** method of the **Watermarker** object to retrieve watermarks placed within the document. You will receive a collection of objects representing potential watermarks for further processing.
       4. Finally, you have the flexibility to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text.
    

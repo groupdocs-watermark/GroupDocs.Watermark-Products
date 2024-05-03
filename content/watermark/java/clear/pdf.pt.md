@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: pt
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Limpe marcas d'água de Pdf documentos usando Java"
+    title: "Limpar marcas d'água de documentos Pdf usando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica o processo de remover marcas d'água de seus documentos comerciais em Java aplicativos. Integre nossa biblioteca e siga estas etapas:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica o processo de limpeza de marcas d'água de seus documentos comerciais nos aplicativos Java. Integre nossa biblioteca e siga estas etapas:
       
-      1. **Watermarker** com seu documento Pdf. A API aceita o documento como um fluxo ou um caminho de arquivo local para processamento.
-      2. **SearchCriteria** para refinar o conjunto de marcas d'água a serem apagadas. Você pode utilizar uma imagem como parâmetro de pesquisa junto com atributos de texto ou formatação. Quanto mais específicos forem seus critérios de pesquisa, mais precisos serão os resultados.
+      1. Comece inicializando a classe **Watermarker** com seu documento Pdf. A API aceita o documento como um fluxo ou como um caminho de arquivo local para processamento.
+      2. Aproveite o objeto **SearchCriteria** para refinar o conjunto de marcas d'água para limpeza. Você pode utilizar uma imagem como parâmetro de pesquisa junto com texto ou atributos de formatação. Quanto mais específicos forem os seus critérios de pesquisa, mais precisos serão os resultados.
       3. Após a pesquisa, você receberá uma lista de marcas d'água identificadas. Continue limpando essas marcas d'água do documento.
-      4. Depois que as marcas d'água estiverem limpas, salve o documento final usando um caminho de arquivo local ou um objeto de fluxo.
+      4. Depois que as marcas d’água forem limpas, salve o documento final usando um caminho de arquivo local ou um objeto de fluxo.
    
     code:
       platform: "net"
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Imagem clara com marca d'água PDF do documento
+        // Limpar marca d’água de imagem do documento PDF
 
         // Passe o caminho do documento PDF para o construtor Watermarker
         Watermarker watermarker = new Watermarker("input.pdf");

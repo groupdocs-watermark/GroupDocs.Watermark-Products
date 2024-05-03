@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: fr
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Rechercher des filigranes dans Word fichiers à l'aide de .NET"
+    title: "Rechercher des filigranes dans les fichiers Word à l'aide de .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** rationalise le processus de recherche de filigranes dans les documents commerciaux. Intégrez notre package à vos .NET applications pour profiter de ses avantages.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** rationalise le processus de recherche de filigranes dans les documents professionnels. Intégrez notre package dans vos applications .NET pour bénéficier de ses avantages.
       
-      1. **Watermarker**. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.
-      2. **objet SearchCriteria**. Par exemple, fournissez une image pour trouver des filigranes similaires. Si vous trouvez des filigranes textuels, indiquez le texte, la police, la couleur et d'autres options pertinentes.
-      3. **Search** de l'objet **Watermarker** pour récupérer les filigranes placés dans le document. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.
-      4. Enfin, vous avez la possibilité de manipuler les résultats de recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte.
+      1. Pour tirer parti des fonctionnalités de notre bibliothèque, chargez le fichier Word dans une instance de classe **Watermarker**. Vous pouvez fournir un chemin de fichier, un flux de fichiers ou un flux d'octets.
+      2. Pour affiner la liste des filigranes potentiels, utilisez l'objet **SearchCriteria**. Par exemple, fournissez une image pour rechercher des filigranes d’images similaires. Si vous recherchez des filigranes textuels, fournissez le texte, la police, la couleur et d’autres options pertinentes.
+      3. Utilisez la méthode **Search** de l'objet **Watermarker** pour récupérer les filigranes placés dans le document. Vous recevrez une collection d'objets représentant des filigranes potentiels pour un traitement ultérieur.
+      4. Enfin, vous avez la possibilité de manipuler les résultats de la recherche selon vos besoins. Vous pouvez supprimer les filigranes trouvés ou modifier leurs propriétés, telles que la modification de la taille ou du texte.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // Rechercher un filigrane de texte dans WORD
 
-        // Créer un filigrane avec le chemin WORD
+        // Créez Watermarker avec le chemin WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Trouvez des filigranes
+            // Rechercher des filigranes
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
 
             // Utiliser les informations sur les filigranes trouvés

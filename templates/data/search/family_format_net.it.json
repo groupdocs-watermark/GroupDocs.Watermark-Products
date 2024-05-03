@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Trova la filigrana di testo in {{FileFormatUp}}",
-    "comment_2": "Crea filigrana con il percorso {{FileFormatUp}}",
+    "comment_2": "Crea {{TextWatermarker}} con il percorso {{FileFormatUp}}",
     "comment_3": "Trova filigrane",
-    "comment_4": "Usa le informazioni sulle filigrane trovate"
+    "comment_4": "Utilizza le informazioni sulle filigrane trovate"
   },
   "steps": {
     "title": "Trova filigrane nei file {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di ricerca delle filigrane nei documenti aziendali. Integra il nostro pacchetto nelle tue {{EnvName}} applicazioni per sbloccarne i vantaggi.",
-      "step_1": "**Watermarker**. Puoi fornire un percorso di file, un flusso di file o un flusso di byte.",
-      "step_2": "**SearchCriteria**. Ad esempio, fornisci un'immagine per trovare filigrane simili. Se trovi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.",
-      "step_3": "**Search** dell'oggetto **Watermarker** per recuperare le filigrane inserite nel documento. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane da elaborare ulteriormente.",
-      "step_4": "Infine, hai la flessibilità di manipolare i risultati della ricerca secondo necessità. È possibile eliminare le filigrane trovate o modificarne le proprietà, ad esempio modificando le dimensioni o il testo."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica il processo di ricerca delle filigrane all'interno dei documenti aziendali. Integra il nostro pacchetto nelle tue applicazioni {{EnvName}} per sbloccarne i vantaggi.",
+      "step_1": "Per sfruttare le funzionalità della nostra libreria, carica il file {{FileformatCap}} in un'istanza della classe {{TextWatermarkerBold}}. È possibile fornire un percorso file, un flusso di file o un flusso di byte.",
+      "step_2": "Per perfezionare l'elenco delle potenziali filigrane, utilizzare l'oggetto {{TextSearchCriteriaBold}}. Ad esempio, fornisci un'immagine per trovare filigrane di immagini simili. Se trovi filigrane testuali, fornisci testo, carattere, colore e altre opzioni pertinenti.",
+      "step_3": "Utilizza il metodo {{TextSearchBold}} dell'oggetto {{TextWatermarkerBold}} per recuperare le filigrane inserite nel documento. Riceverai una raccolta di oggetti che rappresentano potenziali filigrane per ulteriori elaborazioni.",
+      "step_4": "Infine, hai la flessibilità di manipolare i risultati della ricerca secondo necessità. Puoi eliminare le filigrane trovate o modificarne le proprietà, ad esempio cambiare le dimensioni o il testo."
     }
   },
   "more_features": {

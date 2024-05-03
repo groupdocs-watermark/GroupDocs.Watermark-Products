@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: id
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tambahkan Watermark ke Dokumen Photo melalui Java"
+    title: "Tambahkan Tanda Air ke Dokumen Photo melalui Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memudahkan pengembang Java untuk menambahkan tanda air dari berbagai jenis ke format file bisnis populer. Tambahkan perpustakaan kami ke dokumen aplikasi dan tanda air Anda dalam beberapa langkah mudah seperti yang tercantum di bawah ini.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memudahkan pengembang Java untuk menambahkan berbagai jenis tanda air ke format file bisnis populer. Tambahkan perpustakaan kami ke aplikasi Anda dan beri tanda air pada dokumen Anda dalam beberapa langkah mudah seperti yang tercantum di bawah ini.
       
-      1. **Watermarker**. Anda perlu membuat instansiasinya sebelum pemrosesan dokumen. Jangan lupa untuk meneruskan file Photo ke konstruktor sebagai jalur atau objek aliran.
-      2. **Watermark** dari jenis yang diinginkan. Itu dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti lampiran atau header.
-      3. Tetapkan properti watermark seperti tinggi dan lebar, penyelarasan halaman (atas, kiri, tengah, dll.), Keluarga font dan warna, dan banyak lainnya.
-      4. **Watermarker** untuk menambahkan tanda air baru. Anda dapat menambahkan tanda air sebanyak yang Anda butuhkan. Disarankan untuk menyimpan dokumen yang diproses ke lokasi lain.
+      1. Kelas utama API kami adalah **Watermarker**. Anda perlu membuat instance sebelum pemrosesan dokumen. Jangan lupa meneruskan file Photo ke konstruktor sebagai jalur atau objek aliran.
+      2. Langkah selanjutnya adalah membuat objek **Watermark** dengan tipe yang diinginkan. Itu dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti lampiran atau header.
+      3. Atur properti tanda air seperti tinggi dan lebar, perataan halaman (atas, kiri, tengah, dll.), jenis dan warna font, dan banyak lainnya.
+      4. Panggil metode **Watermarker** untuk menambahkan tanda air baru. Anda dapat menambahkan tanda air sebanyak yang Anda perlukan. Disarankan untuk menyimpan dokumen yang diproses ke lokasi lain.
    
     code:
       platform: "net"
@@ -84,14 +84,14 @@ steps:
 
         // Tambahkan tanda air teks ke PHOTO
 
-        // Berikan file yang akan diberi tanda air ke Watermarker
+        // Berikan file yang akan diberi watermark ke Watermarker
         Watermarker watermarker = new Watermarker("input.png");
         
         // Buat tanda air teks dan atur properti
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 
-        // Simpan file dengan tanda air
+        // Simpan file yang diberi tanda air
         watermarker.add(watermark);
         watermarker.save("output.png");
         

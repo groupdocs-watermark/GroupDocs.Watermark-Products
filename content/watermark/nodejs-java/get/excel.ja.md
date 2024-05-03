@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: ja
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "GroupDocs.Watermark で Excel ファイルのウォーターマークを効率的に取得"
+    title: "GroupDocs.Watermark による Excel ファイルのウォーターマークを効率的に取得する"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は、さまざまなビジネス文書フォーマットに埋め込まれたウォーターマークの取得プロセスを効率化します。GroupDocs.Watermark を Node.js via Java アプリケーションにシームレスに統合して、堅牢なウォーターマーク検出機能を強化します。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は、さまざまなビジネス ドキュメント形式に埋め込まれたウォーターマークを取得するプロセスを合理化します。 GroupDocs.Watermark を Node.js via Java アプリケーションにシームレスに統合して、堅牢な透かし検出機能を強化します。
       
-      1. **Watermarker** クラスをインスタンス化し、Excel ファイルパス、ファイルストリーム、またはバイトストリームを入力として指定します。このアクションにより、ウォーターマーク分析用のドキュメントが読み込まれます。
-      2. **SearchCriteria**オブジェクトを使用してください。類似の画像ウォーターマークを検索するための画像を指定してください。または、テキストウォーターマークの場合は、テキストコンテンツ、フォントプロパティ、色属性、およびその他の関連パラメーターを定義して、検索条件を絞り込みます。
-      3. **Watermarker** オブジェクトの **Get** メソッドを使用して、ロードされたドキュメント内のウォーターマーク検出プロセスを開始します。この関数は潜在的なウォーターマークを表すオブジェクトのコレクションを返し、さらなる処理を可能にします。
-      4. 取得したウォーターマークオブジェクトのコレクションには、さまざまな用途があります。不要なウォーターマークを削除したり、ウォーターマークのプロパティを変更したりできます。コンテンツの変更、ページ上のウォーターマークの移動など、さまざまなことができます。
+      1. GroupDocs.Watermark の機能を利用するには、**Watermarker** クラスをインスタンス化し、Excel ファイル パス、ファイル ストリーム、またはバイト ストリームを入力として指定します。このアクションにより、ウォーターマーク分析のためにドキュメントがロードされます。
+      2. ターゲットを絞ったウォーターマークの識別には、**SearchCriteria** オブジェクトを利用します。類似した画像の透かしを検索するための画像を指定します。あるいは、テキストの透かしの場合は、テキストの内容、フォントのプロパティ、色属性、およびその他の関連パラメーターを定義して、検索条件を絞り込みます。
+      3. **Watermarker** オブジェクトの **Search** メソッドを使用して、読み込まれたドキュメント内で透かし検出プロセスを開始します。この関数は、潜在的なウォーターマークを表すオブジェクトのコレクションを返し、さらなる処理を可能にします。
+      4. 取得された透かしオブジェクトのコレクションにより、多くの可能性が得られます。不要な透かしを削除したり、そのプロパティを変更したりできます。コンテンツを変更したり、ページ上の透かしを移動したり、その他多くのことを行います。
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // EXCEL のテキストウォーターマークリストを取得
+        // EXCEL のテキスト透かしリストを取得する
 
-        // ウォーターマーカークラスをインスタンス化
+        // Watermarker クラスをインスタンス化する
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
         
-        // テキスト条件によるウォーターマークの取得
+        // テキスト条件に基づいて透かしを取得する
         const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
 
-        // ウォーターマーク情報を使用する
+        // 透かし情報を使用する
         console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: zh
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "通过 GroupDocs.Watermark 高效获取 Excel 个文件中的水印"
+    title: "通过 GroupDocs.Watermark 高效获取 Excel 文件中的水印"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 简化了检索嵌入在各种业务文档格式中的水印的过程。将 GroupDocs.Watermark 无缝集成到您的 Node.js via Java 应用程序中，为它们提供强大的水印检测功能。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 简化了检索嵌入在各种业务文档格式中的水印的过程。将 GroupDocs.Watermark 无缝集成到您的 Node.js via Java 应用程序中，为其提供强大的水印检测功能。
       
-      1. **Watermarker**类并提供 Excel 文件路径、文件流或字节流作为输入。此操作加载文档以进行水印分析。
-      2. **SearchCriteria** 对象。指定用于定位相似图像水印的图像。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数以细化搜索条件。
-      3. **Watermarker**对象的**获取**方法在加载的文档中启动水印检测过程。此函数返回代表潜在水印的对象集合，从而可以进行进一步处理。
-      4. 检索到的水印对象集合为您提供了很多可能性。您可以删除不需要的水印或修改其属性。更改内容、在页面上移动水印等。
+      1. 要利用 GroupDocs.Watermark 功能，请实例化 **Watermarker** 类并提供 Excel 文件路径、文件流或字节流作为输入。此操作加载文档以进行水印分析。
+      2. 对于有针对性的水印识别，请使用 **SearchCriteria** 对象。指定图像以查找相似图像水印。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数以细化搜索条件。
+      3. 使用 **Watermarker** 对象的 **Search** 方法在加载的文档中启动水印检测过程。此函数返回表示潜在水印的对象集合，以便进行进一步处理。
+      4. 检索到的水印对象集合为您提供了很多可能性。您可以删除不需要的水印或修改其属性。更改内容、移动页面上的水印等等。
    
     code:
       platform: "net"
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // 获取 EXCEL 的文字水印列表
+        // 获取 EXCEL 的文本水印列表
 
         // 实例化 Watermarker 类
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: ko
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java 을 사용하여 Xls 문서 워터마크를 조정합니다."
+    title: "Java을(를) 사용하여 Xls 문서 워터마크 조정"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하면 Java 개발자는 응용 프로그램을 사용하여 많은 문서의 워터마크를 쉽게 조정할 수 있습니다.다음은 간단한 가이드입니다.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하면 Java 개발자가 애플리케이션을 사용하여 많은 문서에서 워터마크를 쉽게 조정할 수 있습니다. 빠른 가이드는 다음과 같습니다.
       
-      1. **Watermarker** 클래스 생성자의 매개 변수로 전달해야 합니다.바이트나 파일 스트림 또는 로컬 디스크 경로를 제공하십시오.
-      2. **SearchCriteria** 를 사용하여 이전에 문서에 추가된 특정 속성을 가진 워터마크를 식별할 수 있습니다.
-      3. 검색 후 관련 워터마크 목록을 받게 됩니다.그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등을 포함한 속성을 조정할 수 있습니다.이를 통해 데이터에 대한 높은 수준의 사용자 지정이 가능합니다.
-      4. 워터마크 조정을 완료한 후 업데이트된 문서를 저장합니다.로컬 파일 경로 또는 스트림을 사용하여 결과를 저장할 수 있습니다.
+      1. 먼저, **Watermarker** 클래스 생성자의 매개변수로 Xls 파일을 전달해야 합니다. 바이트나 파일 스트림 또는 로컬 디스크 경로를 제공합니다.
+      2. 둘째, 조정해야 할 워터마크를 찾습니다. 이전에 문서에 추가된 특정 속성이 있는 워터마크를 식별하려면 **SearchCriteria**를 사용하세요.
+      3. 검색하면 관련 워터마크 목록이 표시됩니다. 그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등을 포함한 속성을 조정할 수 있습니다. 이는 데이터에 대한 높은 수준의 사용자 정의를 제공합니다.
+      4. 워터마크 조정을 마쳤으면 업데이트된 문서를 저장하세요. 로컬 파일 경로나 스트림을 사용하여 결과를 저장할 수 있습니다.
    
     code:
       platform: "net"
@@ -83,16 +83,16 @@ steps:
         ```java {style=abap}
         // XLS 이미지 워터마크 조정
 
-        // XLS 로 워터마커 인스턴스화
+        // XLS을 사용하여 Watermarker를 인스턴스화합니다.
         Watermarker watermarker = new Watermarker("input.xls");
         
-        // 특정 이미지와 일치하도록 검색 조건을 초기화합니다.
+        // 특정 이미지와 일치하도록 SearchCriteria를 초기화합니다.
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
         for (PossibleWatermark watermark : watermarks)
         {
-            // 찾은 이미지 바꾸기
+            // 발견된 이미지 교체
             watermark.setImageData(imageData);
         }
 

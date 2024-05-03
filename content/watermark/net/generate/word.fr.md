@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:06
 draft: false
 lang: fr
 format: Word
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Améliorez vos documents : générez des filigranes pour Word à l'aide de .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** est une bibliothèque qui simplifie l'ajout de filigranes à divers formats de fichiers professionnels pour les développeurs .NET. Intégrez notre bibliothèque à votre application et filigranez facilement les documents en suivant les étapes suivantes :
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** est une bibliothèque qui simplifie l'ajout de filigranes à divers formats de fichiers professionnels pour les développeurs .NET. Intégrez notre bibliothèque dans votre application et filigranez facilement les documents en suivant les étapes suivantes :
       
-      1. **Initiez votre parcours de filigrane :** Commencez par vous familiariser avec la classe **Watermarker**, la pierre angulaire de notre API. Pour démarrer le processus, assurez-vous de l'instancier avant le traitement du document. Ne négligez pas l'importance de fournir le fichier Word au constructeur, qu'il s'agisse d'un chemin ou d'un objet de flux.
-      2. **Création de filigranes personnalisés :** Passez à la phase suivante en créant un objet **Filigrane** adapté à vos spécifications. Cet outil polyvalent n'est pas limité à des pages de document spécifiques ; il peut également être intégré de manière fluide à des éléments de document natifs tels que des pièces jointes ou des en-têtes.
-      3. **Régler les attributs du filigrane :** Améliorez votre expérience de filigrane en ajustant des propriétés telles que la hauteur, la largeur, l'alignement des pages, la famille de polices et la couleur. Ce niveau de personnalisation garantit que vos filigranes s'intègrent parfaitement à vos documents.
-      4. **Application de vos filigranes :** Utilisez la méthode **Watermarker** pour appliquer sans effort vos filigranes personnalisés à vos documents. Que vous deviez ajouter un ou plusieurs filigranes, ce processus offre de la flexibilité. Pour plus de sécurité, pensez à enregistrer vos documents traités dans un emplacement distinct.
+      1. **Lancez votre parcours de filigrane :** Commencez par vous familiariser avec la classe **Watermarker**, la pierre angulaire de notre API. Pour commencer le processus, assurez-vous de l'instancier avant le traitement du document. Ne négligez pas l'importance de fournir le fichier Word au constructeur, qu'il s'agisse d'un chemin ou d'un objet flux.
+      2. **Création de filigranes personnalisés :** Passez à la phase suivante en créant un objet **Watermark** adapté à vos spécifications. Cet outil polyvalent ne se limite pas à des pages de document spécifiques ; il peut également être intégré de manière transparente aux éléments natifs du document tels que les pièces jointes ou les en-têtes.
+      3. **Réglage précis des attributs du filigrane :** Affinez votre expérience de filigrane en ajustant des propriétés telles que la hauteur, la largeur, l'alignement de la page, la famille de polices et la couleur. Ce niveau de personnalisation garantit que vos filigranes se fondent parfaitement dans vos documents.
+      4. **Application de vos filigranes :** Utilisez la méthode **Watermarker** pour appliquer sans effort vos filigranes personnalisés à vos documents. Que vous ayez besoin d'ajouter un ou plusieurs filigranes, ce processus offre une certaine flexibilité. Pour plus de sécurité, pensez à enregistrer vos documents traités dans un emplacement distinct.
    
     code:
       platform: "net"
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Enregistrer WORD résultat
+            // Enregistrer le résultat WORD
             watermarker.Save("output.docx");
         }
         

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: ko
 format: Doc
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: ".NET API를 사용하여 Doc 문서의 워터마크를 프로그래밍 방식으로 편집"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자에게 다양한 Doc 문서 내에서 워터마크를 프로그래밍 방식으로 조작하기 위한 강력한 API를 제공합니다.이 가이드에서는 프로세스를 간략하게 설명합니다.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자에게 다양한 Doc 문서 내에서 워터마크를 프로그래밍 방식으로 조작하기 위한 강력한 API를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
       
-      1. **Watermarker** 클래스 생성자에 인수로 제공하여 워크플로를 시작합니다.파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
-      2. **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 정확히 찾아냅니다.이 개체를 사용하면 이전에 문서에 포함된 워터마크를 식별할 수 있습니다.
-      3. 검색이 성공적으로 실행되면 관련 워터마크 모음을 받게 됩니다.워터마크는 세부적인 제어 기능을 제공하므로 크기, 페이지 위치 지정, 텍스트 콘텐츠, 색 구성표, 이미지 데이터 등과 같은 속성을 수정할 수 있습니다.
-      4. 워터마크 편집을 완료한 후에도 수정된 문서를 유지합니다.API는 로컬 파일 경로 또는 스트림 객체를 사용하여 저장을 용이하게 합니다.
+      1. Doc 파일을 **Watermarker** 클래스 생성자에 대한 인수로 제공하여 워크플로를 시작합니다. 파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
+      2. 그 후, **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 찾아냅니다. 이 개체를 사용하면 이전에 문서에 포함된 워터마크를 식별할 수 있습니다.
+      3. 검색이 성공적으로 실행되면 관련 워터마크 모음을 받게 됩니다. 이러한 워터마크는 세부적인 제어 기능을 제공하므로 크기, 페이지 위치 지정, 텍스트 콘텐츠, 색 구성표, 이미지 데이터 등과 같은 속성을 수정할 수 있습니다.
+      4. 워터마크 편집이 완료된 후 수정된 문서를 유지합니다. API는 로컬 파일 경로나 스트림 객체를 사용하여 저장을 용이하게 합니다.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // DOC 문서에서 이미지 워터마크 편집
 
-        // 소스 파일별 워터마커 초기화
+        // 소스 파일로 Watermarker 초기화
         using (Watermarker watermarker = new Watermarker("input.doc"))
         {
-            // 이미지 워터마크 검색을 위한 검색 기준 생성
+            // 이미지 워터마크 검색을 위한 SearchCriteria 생성
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

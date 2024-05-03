@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: it
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Trova in modo efficiente Xlsx filigrane con .NET"
+    title: "Trova in modo efficiente filigrane Xlsx con .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** offre una soluzione robusta per la ricerca programmatica delle filigrane all'interno di vari formati di documenti aziendali. Integra il nostro pacchetto nelle tue .NET applicazioni per potenziarle con funzionalità di ricerca delle filigrane.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** offre una soluzione solida per la ricerca programmatica di filigrane all'interno di vari formati di documenti aziendali. Integra il nostro pacchetto nelle tue applicazioni .NET per potenziarle con funzionalità di ricerca della filigrana.
       
-      1. **Watermarker** e fornisci il percorso del file Xlsx, il flusso di file o il flusso di byte come input. Questa azione carica il documento per l'analisi della filigrana.
-      2. **SearchCriteria**. Specifica un'immagine per individuare filigrane simili. In alternativa, per le filigrane testuali, definisci il contenuto del testo, le proprietà dei caratteri, gli attributi di colore e altri parametri pertinenti per affinare i criteri di ricerca.
-      3. **Search** dell'oggetto **Watermarker** per avviare il processo di rilevamento della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, consentendo un'ulteriore elaborazione.
-      4. La raccolta recuperata di oggetti filigrana ti garantisce un controllo preciso. È possibile rimuovere le filigrane indesiderate a livello di codice o modificarne dinamicamente le proprietà, ad esempio regolandone le dimensioni o il contenuto del testo, in base alle proprie esigenze specifiche.
+      1. Per sfruttare le funzionalità della nostra libreria, crea un'istanza della classe **Watermarker** e fornisci il percorso del file Xlsx, il flusso di file o il flusso di byte come input. Questa azione carica il documento per l'analisi della filigrana.
+      2. Per l'identificazione mirata della filigrana, sfrutta l'oggetto **SearchCriteria**. Specificare un'immagine per individuare filigrane di immagini simili. In alternativa, per le filigrane testuali, definire il contenuto del testo, le proprietà del carattere, gli attributi del colore e altri parametri pertinenti per affinare i criteri di ricerca.
+      3. Utilizza il metodo **Search** dell'oggetto **Watermarker** per avviare il processo di rilevamento della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, consentendo un'ulteriore elaborazione.
+      4. La raccolta recuperata di oggetti filigrana ti garantisce un controllo preciso. Puoi rimuovere a livello di codice filigrane indesiderate o modificarne dinamicamente le proprietà, ad esempio regolandone le dimensioni o il contenuto del testo, per soddisfare le tue esigenze specifiche.
    
     code:
       platform: "net"
@@ -67,7 +67,7 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Trova le filigrane delle immagini inserite in XLSX
+        // Trova filigrane di immagini posizionate in XLSX
 
         // Costruisci Watermarker passando il percorso XLSX
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
@@ -77,7 +77,7 @@ steps:
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Elaborare informazioni sulle filigrane
+            // Elabora informazioni sulle filigrane
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: fr
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Générez facilement des filigranes pour Xlsx documents"
+    title: "Générez sans effort des filigranes pour les documents Xlsx"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Bibliothèque de filigrane avancée pour .NET applications. Renforcez votre solution et sécurisez les documents avec des filigranes juste à temps.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Bibliothèque de filigrane avancée pour les applications .NET. Renforcez votre solution et sécurisez les documents avec des filigranes juste à temps.
       
-      1. **Classe de base : Watermarker.** La classe principale de notre API est **Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier Xlsx au constructeur en tant que chemin ou objet de flux.
-      2. **Création de votre filigrane.** L'étape suivante consiste à créer un objet filigrane du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document, telles que des images ou des en-têtes.
-      3. **Régler l'apparence.** Définissez les propriétés du filigrane telles que la hauteur et la largeur, le haut, la gauche, les alignements centraux, les polices et les couleurs, etc.
-      4. **Appliquer et enregistrer.** Utilisez la méthode **Watermarker** pour ajouter un nouveau filigrane. N'hésitez pas à ajouter autant de filigranes que vous le souhaitez. Vous pouvez enregistrer le document filigrané à n'importe quel endroit.
+      1. **Classe principale : Watermarker.** La classe principale de notre API est **Watermarker**. Vous devez l'instancier avant le traitement du document. N'oubliez pas de transmettre le fichier Xlsx au constructeur en tant que chemin ou objet flux.
+      2. **Création de votre filigrane.** L'étape suivante consiste à construire un objet Watermark du type souhaité. Il peut être placé non seulement sur une page de document spécifique, mais également dans des parties natives du document telles que des images ou des en-têtes.
+      3. **Affinage de l'apparence.** Définissez les propriétés du filigrane telles que la hauteur et la largeur, les alignements haut, gauche, central, les polices et les couleurs, etc.
+      4. **Application et enregistrement.** Utilisez la méthode **Watermarker** pour ajouter un nouveau filigrane. N'hésitez pas à ajouter autant de filigranes que nécessaire. Vous pouvez enregistrer le document filigrané à n’importe quel emplacement.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Générer un filigrane d'image dans le fichier XLSX
 
-        // Fournir le chemin du fichier source vers le constructeur Watermarker
+        // Fournir le chemin du fichier source au constructeur Watermarker
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
             // Générer une instance de filigrane d'image avec un fichier image
@@ -77,7 +77,7 @@ steps:
             {
                 watermarker.Add(watermark);
             }
-            // Enregistrer le résultat XLSX en filigrane
+            // Enregistrer le résultat XLSX filigrané
             watermarker.Save("output.xlsx");
         }
         

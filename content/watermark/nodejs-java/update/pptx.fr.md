@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: fr
 format: Pptx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Modification dynamique du filigrane pour PPTX dans Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre à Node.js via Java développeurs une API puissante pour modifier les filigranes sur divers PPTX documents. Voici un guide complet pour rationaliser votre flux de travail :
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre aux développeurs Node.js via Java une API puissante pour modifier les filigranes dans divers documents PPTX. Voici un guide complet pour rationaliser votre flux de travail :
       
-      1. **Démarrez le processus :** Commencez par fournir votre fichier PPTX comme argument au constructeur de classe **Watermarker**. Selon vos besoins, le fichier peut provenir soit d'un flux, soit d'un emplacement de disque local.
-      2. **Localiser les filigranes :** Utilisez l'objet **SearchCriteria** pour identifier les filigranes à modifier. Cet outil polyvalent permet une sélection ciblée des filigranes en fonction de propriétés spécifiques.
-      3. **Affiner avec précision :** Une fois la recherche exécutée avec succès, accédez à une collection de filigranes pertinents. Bénéficiez d'un contrôle granulaire sur chaque élément, avec la possibilité de mettre à jour les dimensions, le positionnement des pages, le contenu du texte, la couleur, les données d'image, etc.
-      4. **Persistance fluide :** Une fois les mises à jour des filigranes terminées, stockez le document modifié en toute sécurité. L'API propose des options de stockage flexibles, vous permettant d'enregistrer dans un chemin de fichier local ou en tant qu'objet de flux.
+      1. **Démarrez le processus :** Commencez par fournir votre fichier PPTX comme argument au constructeur de classe **Watermarker**. Selon vos besoins, le fichier peut provenir soit d'un flux, soit d'un emplacement de disque local.
+      2. **Identifier les filigranes :** Utilisez l'objet **SearchCriteria** pour identifier les filigranes à modifier. Cet outil polyvalent permet une sélection ciblée de filigranes en fonction de propriétés spécifiques.
+      3. **Affiner avec précision :** Une fois la recherche exécutée avec succès, accédez à une collection de filigranes pertinents. Profitez d'un contrôle granulaire sur chaque élément, avec la possibilité de mettre à jour les dimensions, le positionnement des pages, le contenu du texte, la couleur, les données d'image, etc.
+      4. **Persistance transparente :** Une fois les mises à jour des filigranes terminées, stockez en toute sécurité le document modifié. L'API offre des options de stockage flexibles, vous permettant d'enregistrer dans un chemin de fichier local ou en tant qu'objet de flux.
    
     code:
       platform: "net"
@@ -69,15 +69,15 @@ steps:
 
         // Mettre à jour le filigrane de l'image PPTX
 
-        // Composer un filigrane pour le fichier PPTX
+        // Composez Watermarker pour le fichier PPTX
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
-        // Utilisez les critères de recherche pour trouver une image en particulier
+        // Utilisez SearchCriteria pour trouver une image particulière
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);
         
-        // Mettre à jour le contenu des images
+        // Mettre à jour le contenu de l'image
         for (const watermark of watermarks.getInnerList().toArray())
         {
             watermark.setImageData(imageData);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: it
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Modifica le filigrane dei documenti Xls usando Java"
+    title: "Modifica le filigrane dei documenti Xls utilizzando Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** consente agli sviluppatori Java di modificare facilmente le filigrane in molti documenti utilizzando le loro applicazioni. Ecco una guida rapida:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** consente agli sviluppatori di Java di modificare facilmente le filigrane in molti documenti utilizzando le loro applicazioni. Ecco una guida rapida:
       
-      1. **Watermarker**. Fornisci un byte o un flusso di file o un percorso del disco locale.
-      2. **SearchCriteria** per identificare le filigrane con le proprietà specifiche aggiunte in precedenza al documento.
-      3. Dopo la ricerca, riceverai un elenco di filigrane pertinenti. Puoi quindi modificarne le proprietà, tra cui dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine e altro ancora. Ciò offre un elevato grado di personalizzazione dei dati.
-      4. Una volta terminata la regolazione delle filigrane, salva il documento aggiornato. Puoi utilizzare un percorso di file locale o uno stream per memorizzare il risultato.
+      1. Innanzitutto, devi passare il file Xls come parametro del costruttore della classe **Watermarker**. Fornire flusso di byte o file o un percorso del disco locale.
+      2. In secondo luogo, individua le filigrane che devono essere modificate. Utilizza **SearchCriteria** per identificare le filigrane con le proprietà specifiche precedentemente aggiunte al documento.
+      3. Dopo la ricerca, riceverai un elenco di filigrane rilevanti. Puoi quindi regolarne le proprietà, tra cui dimensioni, allineamento della pagina, testo, colore, contenuto dell'immagine e altro. Ciò offre un elevato grado di personalizzazione dei tuoi dati.
+      4. Una volta terminata la regolazione delle filigrane, salva il documento aggiornato. È possibile utilizzare un percorso file locale o uno streaming per archiviare il risultato.
    
     code:
       platform: "net"
@@ -86,7 +86,7 @@ steps:
         // Crea un'istanza di Watermarker con XLS
         Watermarker watermarker = new Watermarker("input.xls");
         
-        // Inizializza i criteri di ricerca in modo che corrispondano a una particolare immagine
+        // Inizializza SearchCriteria per abbinare un'immagine particolare
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 

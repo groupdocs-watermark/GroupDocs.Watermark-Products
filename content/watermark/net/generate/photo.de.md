@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:06
 draft: false
 lang: de
 format: Photo
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Verbessern Sie Ihre Dokumente: Generieren Sie Wasserzeichen für Photo mit .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu verschiedenen Geschäftsdateiformaten für .NET Entwickler vereinfacht. Integrieren Sie unsere Bibliothek in Ihre Anwendung und versehen Sie Dokumente mühelos mit Wasserzeichen, indem Sie die folgenden Schritte ausführen:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu verschiedenen Geschäftsdateiformaten für .NET-Entwickler vereinfacht. Integrieren Sie unsere Bibliothek in Ihre Anwendung und versehen Sie Dokumente mühelos mit Wasserzeichen, indem Sie die folgenden Schritte ausführen:
       
-      1. **Initiieren Sie Ihre Watermarking-Reise:** Machen Sie sich zunächst mit der Klasse **Watermarker** vertraut, dem Eckpfeiler unserer API. Um den Prozess zu starten, stellen Sie sicher, dass Sie ihn vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, wie wichtig es ist, dem Konstruktor die Datei Photo zur Verfügung zu stellen, unabhängig davon, ob es sich um einen Pfad oder ein Stream-Objekt handelt.
-      2. **Erstellung benutzerdefinierter Wasserzeichen:** Fahren Sie mit der nächsten Phase fort, indem Sie ein **Wasserzeichen**-Objekt erstellen, das auf Ihre Spezifikationen zugeschnitten ist. Dieses vielseitige Tool ist nicht auf bestimmte Dokumentseiten beschränkt. Es kann auch nahtlos in native Dokumentelemente wie Anlagen oder Kopfzeilen integriert werden.
-      3. **Feinabstimmung der Wasserzeichen-Attribute:** Verfeinern Sie Ihr Wasserzeichenerlebnis, indem Sie Eigenschaften wie Höhe, Breite, Seitenausrichtung, Schriftfamilie und Farbe anpassen. Dieser Grad der Anpassung stellt sicher, dass sich Ihre Wasserzeichen nahtlos in Ihre Dokumente einfügen.
-      4. **Wasserzeichen anbringen:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen mühelos auf Ihre Dokumente anzuwenden. Unabhängig davon, ob Sie ein oder mehrere Wasserzeichen hinzufügen müssen, bietet dieses Verfahren Flexibilität. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten Ort zu speichern.
+      1. **Initiieren Sie Ihre Wasserzeichen-Reise:** Machen Sie sich zunächst mit der Klasse **Watermarker** vertraut, dem Eckpfeiler unserer API. Um den Prozess zu starten, stellen Sie sicher, dass Sie ihn vor der Dokumentverarbeitung instanziieren. Übersehen Sie nicht, wie wichtig es ist, dem Konstruktor die Datei Photo bereitzustellen, unabhängig davon, ob es sich um einen Pfad oder ein Stream-Objekt handelt.
+      2. **Erstellen benutzerdefinierter Wasserzeichen:** Fahren Sie mit der nächsten Phase fort, indem Sie ein **Watermark**-Objekt erstellen, das auf Ihre Spezifikationen zugeschnitten ist. Dieses vielseitige Tool ist nicht auf bestimmte Dokumentseiten beschränkt; Es kann auch nahtlos in native Dokumentelemente wie Anhänge oder Kopfzeilen integriert werden.
+      3. **Feinabstimmung der Wasserzeichenattribute:** Verfeinern Sie Ihr Wasserzeichenerlebnis, indem Sie Eigenschaften wie Höhe, Breite, Seitenausrichtung, Schriftfamilie und Farbe anpassen. Dieser Grad der Anpassung stellt sicher, dass sich Ihre Wasserzeichen nahtlos in Ihre Dokumente einfügen.
+      4. **Anwenden Ihrer Wasserzeichen:** Nutzen Sie die Methode **Watermarker**, um Ihre benutzerdefinierten Wasserzeichen mühelos auf Ihre Dokumente anzuwenden. Unabhängig davon, ob Sie ein oder mehrere Wasserzeichen hinzufügen müssen, bietet dieser Prozess Flexibilität. Für zusätzliche Sicherheit sollten Sie darüber nachdenken, Ihre verarbeiteten Dokumente an einem separaten Ort zu speichern.
    
     code:
       platform: "net"
@@ -69,17 +69,17 @@ steps:
         ```csharp {style=abap}
         // Generieren Sie ein Textwasserzeichen in der Datei PHOTO
 
-        // Datei angeben, die mit einem Wasserzeichen versehen werden soll
+        // Geben Sie die Datei an, die mit einem Wasserzeichen versehen werden soll
         using (Watermarker watermarker = new Watermarker("input.png"))
         {
-            // Generieren Sie eine Textwasserzeichen-Instanz
+            // Generieren Sie eine Textwasserzeicheninstanz
             Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
             TextWatermark watermark = new TextWatermark("my watermark", font);
             watermark.ForegroundColor = Color.Red;
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // PHOTO Ergebnis speichern
+            // Speichern Sie das PHOTO-Ergebnis
             watermarker.Save("output.png");
         }
         

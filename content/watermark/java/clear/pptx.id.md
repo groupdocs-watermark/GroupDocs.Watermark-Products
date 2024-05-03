@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: id
 format: Pptx
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Hapus Watermark dari Pptx Dokumen menggunakan Java"
+    title: "Hapus Tanda Air dari Dokumen Pptx menggunakan Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** menyederhanakan proses membersihkan tanda air dari dokumen bisnis Anda dalam Java aplikasi. Integrasikan perpustakaan kami dan ikuti langkah-langkah ini:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** menyederhanakan proses penghapusan tanda air dari dokumen bisnis Anda dalam aplikasi Java. Integrasikan perpustakaan kami dan ikuti langkah-langkah berikut:
       
-      1. **Watermarker** dengan dokumen Pptx Anda. API menerima dokumen baik sebagai aliran atau jalur file lokal untuk diproses.
-      2. **SearchCriteria** untuk menyempurnakan kumpulan tanda air untuk dibersihkan. Anda dapat menggunakan gambar sebagai parameter pencarian di samping teks atau atribut pemformatan. Semakin spesifik kriteria pencarian Anda, semakin tepat hasilnya.
-      3. Setelah pencarian, Anda akan menerima daftar tanda air yang diidentifikasi. Lanjutkan dengan membersihkan tanda air ini dari dokumen.
+      1. Mulailah dengan menginisialisasi kelas **Watermarker** dengan dokumen Pptx Anda. API menerima dokumen sebagai aliran atau jalur file lokal untuk diproses.
+      2. Manfaatkan objek **SearchCriteria** untuk menyempurnakan kumpulan tanda air yang akan dihapus. Anda dapat menggunakan gambar sebagai parameter pencarian bersama dengan teks atau atribut pemformatan. Semakin spesifik kriteria pencarian Anda, semakin tepat pula hasilnya.
+      3. Setelah pencarian, Anda akan menerima daftar tanda air yang teridentifikasi. Lanjutkan dengan menghapus tanda air ini dari dokumen.
       4. Setelah tanda air dihapus, simpan dokumen akhir menggunakan jalur file lokal atau objek aliran.
    
     code:
@@ -81,16 +81,16 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Hapus tanda air gambar PPTX dokumen
+        // Hapus tanda air gambar dokumen PPTX
 
-        // Lewati jalur dokumen PPTX ke konstruktor Watermarker
+        // Teruskan jalur dokumen PPTX ke konstruktor Watermarker
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // Kosongkan dokumen dengan menghapus tanda air
+        // Hapus dokumen dengan menghapus tanda air
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 
-        // Simpan file yang dihapus
+        // Simpan file yang sudah dibersihkan
         watermarker.save("output.pptx");
         
         ```        

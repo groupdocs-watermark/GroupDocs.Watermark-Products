@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:14
 draft: false
 lang: fr
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Modifiez par programmation les filigranes dans les documents Xlsx avec l'API .NET"
+    title: "Modifiez par programme les filigranes dans les documents Xlsx avec l'API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fournit à .NET développeurs une API robuste pour manipuler par programmation les filigranes dans divers Xlsx documents. Ce guide décrit le processus :
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fournit aux développeurs .NET une API robuste pour manipuler par programmation les filigranes dans divers documents Xlsx. Ce guide décrit le processus :
       
-      1. **Watermarker**. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence à un emplacement de disque local.
-      2. **SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet d'identifier les filigranes précédemment incorporés dans le document.
-      3. Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de modifier des propriétés telles que les dimensions, le positionnement des pages, le contenu du texte, la palette de couleurs, les données d'image, etc.
-      4. Une fois les modifications apportées au filigrane, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux.
+      1. Lancez le flux de travail en fournissant votre fichier Xlsx comme argument au constructeur de classe **Watermarker**. Le fichier peut être fourni sous forme de flux d'octets, de flux de fichiers ou de référence à un emplacement de disque local.
+      2. Ensuite, exploitez l'objet **SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet d'identifier les filigranes préalablement incrustés dans le document.
+      3. Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de modifier des propriétés telles que les dimensions, le positionnement de la page, le contenu du texte, la palette de couleurs, les données d'image, etc.
+      4. Une fois les modifications du filigrane terminées, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Modifier le filigrane de l'image dans XLSX doc
+        // Modifier le filigrane de l'image dans le document XLSX
 
         // Initialiser Watermarker par fichier source
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
-            // Créer des critères de recherche pour la recherche de filigranes d'images
+            // Créez SearchCriteria pour la recherche de filigranes d'images
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

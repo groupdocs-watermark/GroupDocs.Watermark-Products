@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Gere marca d'água de imagem no arquivo {{FileFormatUp}}",
-    "comment_2": "Forneça o caminho do arquivo de origem para o construtor Watermarker",
-    "comment_3": "Gere instância de marca d'água de imagem com arquivo de imagem",
-    "comment_4": "Salvar resultado com marca d'água {{FileFormatUp}}"
+    "comment_1": "Gerar marca d'água de imagem no arquivo {{FileFormatUp}}",
+    "comment_2": "Forneça o caminho do arquivo de origem para o construtor {{TextWatermarker}}",
+    "comment_3": "Gerar instância de marca d'água de imagem com arquivo de imagem",
+    "comment_4": "Salvar resultado {{FileFormatUp}} com marca d'água"
   },
   "steps": {
-    "title": "Gere marcas d'água sem esforço para {{FileformatCap}} documentos",
+    "title": "Gere facilmente marcas d'água para documentos {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Biblioteca avançada de marca d'água para {{EnvName}} aplicativos. Fortaleça sua solução e proteja documentos com marcas d'água na hora certa.",
-      "step_1": "**Classe principal: Watermarker.** A classe principal da nossa API é **Watermarker**. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo {{FileformatCap}} para o construtor como um caminho ou um objeto de fluxo.",
-      "step_2": "**Criando sua marca d'água.** A próxima etapa é construir um objeto de marca d'água do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como imagens ou cabeçalhos.",
-      "step_3": "**Ajuste fino da aparência.** Defina as propriedades da marca d'água, como altura e largura, alinhamentos superior, esquerdo, central, fontes e cores, etc.",
-      "step_4": "**Aplicando e salvando.** Use o método**Watermarker** para adicionar uma nova marca d'água. Sinta-se à vontade para adicionar quantas marcas d'água precisar. Você pode salvar o documento com marca d'água em qualquer local."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Biblioteca avançada de marca d'água para aplicativos {{EnvName}}. Capacite sua solução e proteja documentos com marcas d'água na hora certa.",
+      "step_1": "**Classe principal: Watermarker.** A classe principal de nossa API é {{TextWatermarkerBold}}. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo {{FileformatCap}} para o construtor como um caminho ou objeto de fluxo.",
+      "step_2": "**Elaborando sua marca d'água.** A próxima etapa é construir um objeto Marca d'água do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como imagens ou cabeçalhos.",
+      "step_3": "**Ajuste fino da aparência.** Defina as propriedades da marca d'água, como altura e largura, alinhamento superior, esquerdo, central, fontes e cores, etc.",
+      "step_4": "**Aplicando e salvando.** Use o método {{TextWatermarkerBold}} para adicionar uma nova marca d'água. Sinta-se à vontade para adicionar quantas marcas d'água você precisar. Você pode salvar o documento com marca d'água em qualquer local."
     }
   },
   "more_features": {

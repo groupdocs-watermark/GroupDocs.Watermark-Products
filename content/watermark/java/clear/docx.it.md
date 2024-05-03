@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: it
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cancella filigrane da Docx documenti utilizzando Java"
+    title: "Cancella filigrane dai documenti Docx utilizzando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica il processo di cancellazione delle filigrane dai documenti aziendali all'interno di Java applicazioni. Integra la nostra libreria e segui questi passaggi:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica il processo di eliminazione delle filigrane dai documenti aziendali all'interno delle applicazioni Java. Integra la nostra libreria e segui questi passaggi:
       
-      1. **Watermarker** con il tuo documento Docx. L'API accetta il documento come stream o come percorso di file locale per l'elaborazione.
-      2. **SearchCriteria** per perfezionare il set di filigrane da cancellare. Puoi utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione. Più specifici sono i criteri di ricerca, più precisi saranno i risultati.
-      3. Dopo la ricerca, riceverai un elenco di filigrane identificate. Procedi cancellando queste filigrane dal documento.
-      4. Una volta cancellate le filigrane, salva il documento finale utilizzando un percorso di file locale o un oggetto stream.
+      1. Inizia inizializzando la classe **Watermarker** con il tuo documento Docx. L'API accetta il documento come flusso o percorso di file locale per l'elaborazione.
+      2. Sfrutta l'oggetto **SearchCriteria** per perfezionare l'insieme di filigrane da cancellare. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione. Più specifici sono i tuoi criteri di ricerca, più precisi saranno i risultati.
+      3. Dopo la ricerca, riceverai un elenco di filigrane identificate. Procedi eliminando queste filigrane dal documento.
+      4. Una volta cancellate le filigrane, salva il documento finale utilizzando un percorso file locale o un oggetto stream.
    
     code:
       platform: "net"
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Filigrana con immagine chiara DOCX
+        // Cancella la filigrana dell'immagine del documento DOCX
 
         // Passa il percorso del documento DOCX al costruttore Watermarker
         Watermarker watermarker = new Watermarker("input.docx");

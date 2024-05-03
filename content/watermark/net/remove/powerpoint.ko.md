@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET 을 사용하여 Powerpoint 문서에서 워터마크 제거"
+    title: ".NET을(를) 사용하여 Powerpoint 문서에서 워터마크 제거"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 비즈니스 문서에서 워터마크를 제거하는 작업을 단순화합니다.라이브러리를 통합하여 .NET 애플리케이션의 성능을 높이고 다음과 같은 간단한 단계를 따르십시오.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 비즈니스 문서에서 워터마크를 제거하는 작업을 단순화합니다. 라이브러리를 통합하여 귀하의 .NET 애플리케이션을 강화하고 다음의 간단한 단계를 따르십시오.
       
-      1. **Watermarker** 를 인스턴스화합니다.API는 스트림 또는 로컬 경로로 제공된 문서 처리를 지원합니다.
-      2. **SearchCriteria** 를 활용하여 처리할 워터마크 세트의 범위를 좁힐 수 있습니다.이미지, 텍스트 또는 서식 지정 기능과 같은 다양한 매개 변수를 사용할 수 있습니다.검색 매개 변수를 구체적으로 제공할수록 더 정확한 결과를 얻을 수 있습니다.
-      3. 검색 결과로 얻은 문서 워터마크 목록을 처리하여 문서에서 제거합니다.
+      1. Powerpoint 문서를 사용하여 기본 클래스인 **Watermarker**를 인스턴스화하는 것부터 시작하세요. 우리 API는 스트림 또는 로컬 경로로 제공되는 문서 처리를 지원합니다.
+      2. 처리할 워터마크 세트의 범위를 좁히려면 **SearchCriteria**를 활용하세요. 이미지, 텍스트, 서식 기능 등 다양한 매개변수를 사용할 수 있습니다. 검색 매개변수를 더 구체적으로 제공할수록 더 정확한 결과를 얻을 수 있습니다.
+      3. 검색결과로 얻은 문서 워터마크 목록을 처리하여 문서에서 제거합니다.
       4. 워터마크를 제거한 후 결과 문서를 로컬 파일 또는 바이트 스트림으로 저장합니다.
    
     code:
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Powerpoint 문서에서 텍스트 워터마크 제거
 
-        // 문서 Powerpoint 소스 문서에 워터마커 인스턴스 제공
+        // 문서 Powerpoint 소스 문서에 대한 Watermarker 인스턴스 제공
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // 문서에서 선택한 워터마크 제거

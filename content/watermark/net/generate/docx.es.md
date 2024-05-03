@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: es
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Genere marcas de agua sin esfuerzo para Docx documentos"
+    title: "Genere marcas de agua sin esfuerzo para documentos Docx"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Biblioteca avanzada de marcas de agua para .NET aplicaciones. Potencie su solución y proteja los documentos con marcas de agua justo a tiempo.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Biblioteca avanzada de marcas de agua para aplicaciones .NET. Potencia tu solución y protege documentos con marcas de agua justo a tiempo.
       
-      1. **Clase básica: Watermarker** La clase principal de nuestra API es **Watermarker**. Debes instanciarlo antes de procesar el documento. No olvide pasar el archivo Docx al constructor como una ruta o un objeto de flujo.
-      2. **Elaboración de tu marca de agua.** El siguiente paso es crear un objeto de marca de agua del tipo deseado. Se puede colocar no solo en una página de documento específica, sino también en partes nativas del documento, como imágenes o encabezados.
-      3. **Ajustar la apariencia.** Establezca las propiedades de la marca de agua, como la altura y el ancho, la parte superior, la izquierda, las alineaciones centrales, las fuentes y los colores, etc.
-      4. **Aplicar y guardar.** Utilice el método**Watermarker** para añadir una nueva marca de agua. No dudes en añadir tantas marcas de agua como necesites. Puede guardar el documento con marca de agua en cualquier ubicación.
+      1. **Clase principal: Watermarker.** La clase principal de nuestra API es **Watermarker**. Debe crear una instancia antes de procesar el documento. No olvide pasar el archivo Docx al constructor como una ruta o un objeto de secuencia.
+      2. **Elaboración de su marca de agua.** El siguiente paso es construir un objeto de marca de agua del tipo deseado. Se puede colocar no sólo en una página de documento específica sino también en partes del documento nativo, como imágenes o encabezados.
+      3. **Ajuste de apariencia.** Establezca propiedades de marca de agua como altura y ancho, alineaciones superior, izquierda, central, fuentes y colores, etc.
+      4. **Aplicar y guardar.** Utilice el método **Watermarker** para agregar una nueva marca de agua. Siéntase libre de agregar tantas marcas de agua como necesite. Puede guardar el documento con marca de agua en cualquier ubicación.
    
     code:
       platform: "net"
@@ -72,12 +72,12 @@ steps:
         // Proporcione la ruta del archivo fuente al constructor Watermarker
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Genere una instancia de marca de agua de imagen con un archivo de imagen
+            // Generar instancia de marca de agua de imagen con archivo de imagen
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 watermarker.Add(watermark);
             }
-            // Guardar el resultado con marca de agua DOCX
+            // Guardar el resultado DOCX con marca de agua
             watermarker.Save("output.docx");
         }
         

@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Temukan tanda air gambar yang ditempatkan di {{FileFormatUp}}",
-    "comment_2": "Bangun Watermarker melewati jalur {{FileFormatUp}}",
+    "comment_2": "Bangunlah {{TextWatermarker}} dengan melewati jalur {{FileFormatUp}}",
     "comment_3": "Temukan tanda air menggunakan opsi pencarian",
-    "comment_4": "Memproses info tanda air"
+    "comment_4": "Memproses informasi tanda air"
   },
   "steps": {
-    "title": "Menemukan {{FileformatCap}} Watermark secara Efisien dengan {{EnvName}}",
+    "title": "Temukan Tanda Air {{FileformatCap}} secara Efisien dengan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menawarkan solusi yang kuat untuk menemukan tanda air secara terprogram dalam berbagai format dokumen bisnis. Integrasikan paket kami ke dalam {{EnvName}} aplikasi Anda untuk memberdayakan mereka dengan kemampuan menemukan tanda air.",
-      "step_1": "**Watermarker** dan berikan jalur file {{FileformatCap}}, aliran file, atau aliran byte sebagai input. Tindakan ini memuat dokumen untuk analisis tanda air.",
-      "step_2": "**SearchCriteria**. Tentukan gambar untuk menemukan tanda air gambar serupa. Atau, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter terkait lainnya untuk menyempurnakan kriteria pencarian.",
-      "step_3": "**Pencarian** dari objek**Watermarker** untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili tanda air potensial, memungkinkan pemrosesan lebih lanjut.",
-      "step_4": "Kumpulan objek watermark yang diambil memberi Anda kontrol yang tepat. Anda dapat menghapus tanda air yang tidak diinginkan secara terprogram atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran atau konten teks, agar sesuai dengan kebutuhan spesifik Anda."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menawarkan solusi tangguh untuk menemukan tanda air secara terprogram dalam berbagai format dokumen bisnis. Integrasikan paket kami ke dalam aplikasi {{EnvName}} Anda untuk memberdayakannya dengan kemampuan menemukan tanda air.",
+      "step_1": "Untuk mengeksploitasi fungsionalitas perpustakaan kami, buat instance kelas {{TextWatermarkerBold}} dan berikan jalur file {{FileformatCap}}, aliran file, atau aliran byte sebagai input. Tindakan ini memuat dokumen untuk analisis tanda air.",
+      "step_2": "Untuk identifikasi tanda air yang ditargetkan, manfaatkan objek {{TextSearchCriteriaBold}}. Tentukan gambar untuk menemukan tanda air gambar serupa. Alternatifnya, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter terkait lainnya untuk menyaring kriteria pencarian.",
+      "step_3": "Gunakan metode {{TextSearchBold}} pada objek {{TextWatermarkerBold}} untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili potensi tanda air, memungkinkan pemrosesan lebih lanjut.",
+      "step_4": "Koleksi objek tanda air yang diambil memberi Anda kontrol yang tepat. Anda dapat menghapus tanda air yang tidak diinginkan secara terprogram atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran atau konten teksnya, agar sesuai dengan kebutuhan spesifik Anda."
     }
   },
   "more_features": {

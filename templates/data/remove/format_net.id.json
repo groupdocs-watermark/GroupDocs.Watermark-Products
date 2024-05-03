@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Hapus tanda air gambar di dokumen {{FileFormatUp}}",
-    "comment_2": "Instantiate Watermarker yang meneruskan dokumen {{FileFormatUp}}",
-    "comment_3": "Hapus tanda air yang ditemukan dalam dokumen",
-    "comment_4": "Simpan dokumen"
+    "comment_2": "Buat instance {{TextWatermarker}} yang meneruskan dokumen {{FileFormatUp}}",
+    "comment_3": "Hapus tanda air yang ditemukan di dokumen",
+    "comment_4": "Simpan dokumennya"
   },
   "steps": {
-    "title": "Secara terprogram Hapus Watermark dari {{FileformatCap}} Dokumen menggunakan {{EnvName}}",
+    "title": "Menghapus Tanda Air dari Dokumen {{FileformatCap}} secara terprogram menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memberdayakan {{EnvName}} pengembang untuk secara terprogram menghapus tanda air dari berbagai dokumen {{FileformatCap}}. Panduan ini menguraikan prosesnya:",
-      "step_1": "**Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.",
-      "step_2": "**SearchCriteria** untuk mengidentifikasi tanda air tertentu yang memerlukan penghapusan. Objek ini memungkinkan penyaringan tanda air berdasarkan properti yang sebelumnya disematkan dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian di samping teks atau atribut pemformatan untuk pencarian yang sangat terperinci.",
-      "step_3": "Setelah pencarian berhasil, Anda akan menerima koleksi tanda air yang relevan. Tanda air ini menawarkan kontrol granular, memungkinkan Anda untuk melakukan operasi penghapusan.",
-      "step_4": "Setelah menyelesaikan penghapusan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memberdayakan pengembang {{EnvName}} untuk menghapus tanda air dari berbagai dokumen {{FileformatCap}} secara terprogram. Panduan ini menguraikan prosesnya:",
+      "step_1": "Mulailah alur kerja dengan menyediakan file {{FileformatCap}} Anda sebagai argumen ke konstruktor kelas {{TextWatermarkerBold}}. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.",
+      "step_2": "Manfaatkan kekuatan objek {{TextSearchCriteriaBold}} untuk mengidentifikasi tanda air tertentu yang perlu dihapus. Objek ini memungkinkan pemfilteran tanda air berdasarkan properti yang sebelumnya tertanam dalam dokumen. Anda dapat menggunakan gambar sebagai parameter pencarian bersama teks atau atribut pemformatan untuk pencarian yang sangat terperinci.",
+      "step_3": "Setelah pencarian berhasil, Anda akan menerima kumpulan tanda air yang relevan. Tanda air ini menawarkan kontrol terperinci, memungkinkan Anda melakukan operasi penghapusan.",
+      "step_4": "Setelah penghapusan tanda air selesai, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran."
     }
   },
   "more_features": {

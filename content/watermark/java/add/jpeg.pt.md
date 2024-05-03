@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:09
 draft: false
 lang: pt
 format: Jpeg
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Técnicas avançadas: Adicionar marcas d'água a Jpeg documentos via Java"
+    title: "Técnicas Avançadas: Adicionando Marcas D'água a Documentos Jpeg via Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Explorando técnicas avançadas de marca d'água para documentos Jpeg com **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Essa etapa fundamental prepara o terreno para aprimorar Jpeg documentos com marcas d'água. Forneça o arquivo Jpeg ao construtor, seja como um caminho ou um objeto de fluxo.
-      2. **Marca d'Água** personalizados de acordo com suas especificações. Essas entidades versáteis oferecem posicionamento preciso não apenas em páginas de documentos designadas, mas também em elementos nativos, como anexos ou cabeçalhos.
-      3. Refine seu processo de marca d'água ajustando propriedades como dimensões, alinhamento, estilos de fonte e cores. Esse nível de personalização permite que você crie marcas d'água que complementam perfeitamente a estética do seu documento.
-      4. **Watermarker** para aplicar as marcas d'água recém-criadas em seus documentos. Aproveite a flexibilidade de adicionar várias marcas d'água de acordo com seus requisitos. Para preservar documentos, considere salvá-los em um local seguro.
+      1. Inicie seu processo de marca d'água inicializando a classe **Watermarker**. Esta etapa fundamental prepara o terreno para aprimorar documentos Jpeg com marcas d'água. Forneça o arquivo Jpeg ao construtor, como um caminho ou um objeto de fluxo.
+      2. Avance para o próximo nível criando objetos **Watermark** adaptados às suas especificações. Essas entidades versáteis oferecem posicionamento preciso não apenas nas páginas designadas do documento, mas também em elementos nativos, como anexos ou cabeçalhos.
+      3. Refine seu processo de marca d'água ajustando propriedades como dimensões, alinhamento, estilos de fonte e cores. Este nível de personalização permite criar marcas d'água que complementam perfeitamente a estética do seu documento.
+      4. Utilize o método **Watermarker** para aplicar as marcas d'água recém-criadas em seus documentos. Aproveite a flexibilidade de adicionar várias marcas d’água conforme suas necessidades. Para preservar os documentos, considere salvá-los em um local seguro.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Adicionar marca d'água de imagem a JPEG
+        // Adicione marca d'água de imagem a JPEG
 
-        // Passe o arquivo a ser marcado com marca d'água para o Watermarker
+        // Passe o arquivo para ter marca d'água para Watermarker
         Watermarker watermarker = new Watermarker("input.jpeg");
         
         // Forneça o caminho para a imagem com marca d'água

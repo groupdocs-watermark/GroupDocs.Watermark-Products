@@ -1,17 +1,17 @@
 {
   "examples": {
-    "comment_1": "清除图像水印 {{FileFormatUp}} 文档",
-    "comment_2": "将 {{FileFormatUp}} 个文档路径传递给 Watermarker 构造器",
-    "comment_3": "通过删除水印清除文档",
-    "comment_4": "保存已清除的文件"
+    "comment_1": "清除图片水印{{FileFormatUp}}文档",
+    "comment_2": "将 {{FileFormatUp}} 文档路径传递给 {{TextWatermarker}} 构造函数",
+    "comment_3": "通过删除水印来清除文档",
+    "comment_4": "保存清除的文件"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 清除 {{FileformatCap}} 个文档中的水印",
+    "title": "使用 {{EnvName}} 清除 {{FileformatCap}} 文档中的水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在 {{EnvName}} 应用程序中清除业务文档水印的流程。整合我们的库并按照以下步骤操作：",
-      "step_1": "**水印**类。API 接受文档作为流或本地文件路径进行处理。",
-      "step_2": "**SearchCriteria**对象来优化用于清除的水印集。您可以将图像与文本或格式属性一起用作搜索参数。您的搜索条件越具体，结果就越精确。",
-      "step_3": "搜索完成后，您将收到已识别的水印列表。继续从文档中清除这些水印。",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了从 {{EnvName}} 应用程序中的业务文档中清除水印的过程。集成我们的库并按照以下步骤操作：",
+      "step_1": "首先使用您的 {{FileformatCap}} 文档初始化 {{TextWatermarkerBold}} 类。 API 接受文档作为流或本地文件路径进行处理。",
+      "step_2": "利用 {{TextSearchCriteriaBold}} 对象来优化要清除的水印集。您可以将图像与文本或格式属性一起用作搜索参数。您的搜索条件越具体，结果就越精确。",
+      "step_3": "搜索后，您将收到已识别水印的列表。继续从文档中清除这些水印。",
       "step_4": "清除水印后，使用本地文件路径或流对象保存最终文档。"
     }
   },

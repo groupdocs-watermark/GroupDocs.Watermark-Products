@@ -1,7 +1,7 @@
 {
   "examples": {
-    "comment_1": "Marca d'água de texto transparente no documento {{FileformatCap}}",
-    "comment_2": "Instancie o Watermarker com o documento {{FileformatCap}}",
+    "comment_1": "Marca d'água de texto simples no documento {{FileformatCap}}",
+    "comment_2": "Instancie {{TextWatermarker}} com documento {{FileformatCap}}",
     "comment_3": "Limpar marca d'água específica",
     "comment_4": "Salvar arquivo processado"
   },
@@ -9,9 +9,9 @@
     "title": "Limpe {{FileformatCap}} documentos de marcas d'água usando {{EnvName}}",
     "content": {
       "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilita a limpeza de marcas d'água adicionadas anteriormente em documentos comerciais. Capacite seu aplicativo {{EnvName}} instalando nossa biblioteca e faça isso em algumas etapas simples:",
-      "step_1": "**Watermarker** com o documento {{FileformatCap}}. Nossa API suporta a passagem de um documento para ser processado como stream ou caminho local.",
-      "step_2": "**SearchCriteria** para limitar o conjunto de marcas d'água a serem processadas. É possível usar uma imagem como parâmetro de pesquisa, bem como recursos de texto ou formatação. Em seguida, você fornece parâmetros de pesquisa mais específicos e obtém um resultado mais preciso.",
-      "step_3": "Lista de processos das marcas d'água do documento que você obteve como resultado da pesquisa. Limpe o documento.",
+      "step_1": "Primeiro de tudo, instancie a classe principal chamada {{TextWatermarkerBold}} com o documento {{FileformatCap}}. Nossa API suporta a passagem de um documento para ser processado como fluxo ou caminho local.",
+      "step_2": "Use {{TextSearchCriteriaBold}} para limitar o conjunto de marcas d'água a serem processadas. É possível usar uma imagem como parâmetro de pesquisa, bem como recursos de texto ou formatação. Em seguida, você fornece parâmetros de pesquisa mais específicos e obtém resultados mais precisos.",
+      "step_3": "Processe a lista das marcas d'água do documento que você obteve como resultado da pesquisa. Limpe o documento.",
       "step_4": "Depois de limpar o documento, salve o resultado como um arquivo local ou um fluxo de bytes."
     }
   },

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: id
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cari tanda air di Excel file menggunakan Java"
+    title: "Telusuri tanda air di file Excel menggunakan Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** memudahkan pencarian tanda air yang sudah ditempatkan dalam dokumen bisnis. Unduh paket kami dan libatkan ke dalam aplikasi Java Anda untuk memanfaatkan manfaatnya.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** memudahkan pencarian tanda air yang sudah ditempatkan di dokumen bisnis. Unduh paket kami dan libatkan ke dalam aplikasi Java Anda untuk memanfaatkan manfaatnya.
       
-      1. **Watermarker**. Dimungkinkan untuk menyediakan hanya jalur file, aliran file atau aliran byte.
-      2. **SearchCriteria**. Berikan gambar sebagai contoh untuk mendapatkan watermark gambar serupa. Jika Anda ingin mencari tanda air tekstual berikan teks, font, warna dan opsi lainnya.
-      3. **Telusur** dari objek**Watermarker**. Anda akan diberikan koleksi objek yang dapat diproses sebagai tanda air.
-      4. Akhirnya, Anda bebas melakukan dengan hasil pencarian apa pun yang Anda inginkan. Sangat mungkin, untuk menghapus tanda air yang ditemukan atau mengedit propertinya. Ubah ukuran atau teks, misalnya.
+      1. Untuk menggunakan fitur perpustakaan kami, Anda perlu memuat file Excel ke instance kelas **Watermarker**. Dimungkinkan untuk hanya menyediakan jalur file, aliran file, atau aliran byte.
+      2. Untuk mempersempit daftar kemungkinan tanda air, gunakan objek **SearchCriteria**. Berikan gambar sebagai contoh untuk mendapatkan tanda air gambar serupa. Jika Anda ingin mencari tanda air tekstual, berikan teks, font, warna, dan opsi lainnya.
+      3. Untuk menempatkan watermark pada dokumen gunakan metode **Search** dari objek **Watermarker**. Anda akan diberikan koleksi objek yang dapat diolah sebagai watermark.
+      4. Terakhir, Anda bebas melakukan apa pun dengan hasil pencarian yang Anda inginkan. Sangat mungkin untuk menghapus tanda air yang ditemukan atau mengedit propertinya. Ubah ukuran atau teks, misalnya.
    
     code:
       platform: "net"

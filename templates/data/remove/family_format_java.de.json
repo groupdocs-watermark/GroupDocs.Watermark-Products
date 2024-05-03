@@ -1,16 +1,16 @@
 {
   "examples": {
-    "comment_1": "Löschen Sie das Textwasserzeichen im {{FileformatCap}} -Dokument",
-    "comment_2": "Watermarker mit {{FileformatCap}} Dokument instanziieren",
-    "comment_3": "Spezifisches Wasserzeichen löschen",
+    "comment_1": "Klartext-Wasserzeichen im {{FileformatCap}}-Dokument",
+    "comment_2": "Instanziieren Sie {{TextWatermarker}} mit dem Dokument {{FileformatCap}}",
+    "comment_3": "Bestimmtes Wasserzeichen löschen",
     "comment_4": "Verarbeitete Datei speichern"
   },
   "steps": {
-    "title": "Löschen Sie {{FileformatCap}} Dokumente von Wasserzeichen mit {{EnvName}}",
+    "title": "Entfernen Sie Wasserzeichen aus {{FileformatCap}}-Dokumenten mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** macht es einfach, Geschäftsdokumente von zuvor hinzugefügten Wasserzeichen zu löschen. Unterstützen Sie Ihre {{EnvName}} -Anwendung, indem Sie unsere Bibliothek installieren, und zwar in wenigen einfachen Schritten:",
-      "step_1": "**Watermarker** mit {{FileformatCap}} document. Unsere API unterstützt die Übergabe eines zu verarbeitenden Dokuments als Stream oder als lokalen Pfad.",
-      "step_2": "**Suchkriterien**, um die Anzahl der zu verarbeitenden Wasserzeichen einzuschränken. Es ist möglich, ein Bild als Suchparameter sowie Text- oder Formatierungsfunktionen zu verwenden. Dann geben Sie spezifischere Suchparameter an, dann erhalten Sie ein genaueres Ergebnis.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** macht es einfach, Geschäftsdokumente von zuvor hinzugefügten Wasserzeichen zu befreien. Stärken Sie Ihre {{EnvName}}-Anwendung, indem Sie unsere Bibliothek installieren und dies in wenigen einfachen Schritten tun:",
+      "step_1": "Instanziieren Sie zunächst die Hauptklasse namens {{TextWatermarkerBold}} mit dem Dokument {{FileformatCap}}. Unsere API unterstützt die Übergabe eines zu verarbeitenden Dokuments als Stream oder lokalen Pfad.",
+      "step_2": "Verwenden Sie {{TextSearchCriteriaBold}}, um die Menge der zu verarbeitenden Wasserzeichen einzuschränken. Es ist möglich, ein Bild als Suchparameter sowie Text- oder Formatierungsmerkmale zu verwenden. Geben Sie dann spezifischere Suchparameter an, erhalten Sie ein präziseres Ergebnis.",
       "step_3": "Prozessliste der Dokumentwasserzeichen, die Sie als Suchergebnis erhalten haben. Löschen Sie das Dokument.",
       "step_4": "Speichern Sie das Ergebnis nach dem Löschen des Dokuments als lokale Datei oder als Bytestream."
     }

@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Menyesuaikan tanda air teks {{FileFormatUp}}",
-    "comment_2": "Buat Instantiasi Watermarker dengan dokumen input {{FileFormatUp}}",
-    "comment_3": "Inisialisasi TextSearchCriteria dan temukan tanda air teks",
+    "comment_1": "Sesuaikan tanda air teks {{FileFormatUp}}",
+    "comment_2": "Buat instance {{TextWatermarker}} dengan masukan dokumen {{FileFormatUp}}",
+    "comment_3": "Inisialisasi {{TextTextSearchCriteria}} dan temukan tanda air teks",
     "comment_4": "Sesuaikan properti tanda air teks",
     "comment_5": "Simpan dokumen yang diperbarui"
   },
   "steps": {
-    "title": "Sesuaikan tanda air di dokumen {{FileformatCap}} dengan {{EnvName}}",
+    "title": "Sesuaikan tanda air pada dokumen {{FileformatCap}} dengan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memudahkan pengembang {{EnvName}} untuk menyesuaikan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah:",
-      "step_1": "**Watermarker**. Anda dapat menyediakan file untuk pemrosesan lebih lanjut sebagai aliran atau sebagai jalur pada disk lokal.",
-      "step_2": "**Kriteria pencari** membantu mengidentifikasi tanda air dengan properti yang tepat yang sebelumnya ditambahkan ke dokumen.",
-      "step_3": "**Pencari**. Sesuaikan properti tanda air yang ditemukan seperti ukuran, penyelarasan halaman, teks, warna, konten gambar, dll Ada banyak cara untuk menyesuaikan data Anda.",
-      "step_4": "Setelah menyelesaikan proses penyesuaian tanda air, Anda perlu menyimpan dokumen yang diperbarui. Gunakan jalur file lokal, file atau aliran byte untuk menyimpan hasil."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** memudahkan pengembang {{EnvName}} untuk menyesuaikan tanda air teks di aplikasi mereka dengan menerapkan beberapa langkah mudah:",
+      "step_1": "Muat file {{FileformatCap}} Anda ke objek utama API kami yang disebut {{TextWatermarkerBold}}. Anda dapat menyediakan file untuk diproses lebih lanjut sebagai aliran atau sebagai jalur pada disk lokal.",
+      "step_2": "Langkah selanjutnya adalah mencari watermark yang harus disesuaikan. {{TextSearchCriteriaBold}} membantu mengidentifikasi tanda air dengan properti yang tepat yang sebelumnya ditambahkan ke dokumen.",
+      "step_3": "Dapatkan daftar tanda air yang sesuai sebagai hasil dari prosedur {{TextSearchBold}}. Sesuaikan properti tanda air yang ditemukan seperti ukuran, perataan halaman, teks, warna, konten gambar, dll. Ada banyak cara untuk menyesuaikan data Anda.",
+      "step_4": "Setelah menyelesaikan proses penyesuaian tanda air, Anda perlu menyimpan dokumen yang diperbarui. Gunakan jalur file lokal, aliran file atau byte untuk menyimpan hasil."
     }
   },
   "more_features": {

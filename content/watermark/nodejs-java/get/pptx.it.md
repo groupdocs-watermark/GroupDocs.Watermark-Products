@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:18
 draft: false
 lang: it
 format: Pptx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Ottieni filigrane dai file Pptx utilizzando GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre una soluzione completa per inserire filigrane nei formati di documenti aziendali più diffusi. Integrando la nostra libreria nelle tue applicazioni Node.js via Java, puoi dotarle di potenti funzionalità di ricerca in filigrana.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** offre una soluzione completa per inserire filigrane nei formati di documenti aziendali più diffusi. Integrando la nostra libreria nelle tue applicazioni Node.js via Java, puoi dotarle di potenti funzionalità di ricerca delle filigrane.
       
-      1. **Watermarker** e fornisci il percorso del file Pptx. Inoltre puoi usare un file salvato come flusso di byte. Questa azione essenzialmente carica il documento di destinazione per un'analisi completa della filigrana.
-      2. **SearchCriteria**. Puoi specificare un'immagine per localizzare filigrane simili. In alternativa, per le filigrane testuali, definisci il contenuto del testo, le proprietà dei caratteri, gli attributi di colore e altri parametri pertinenti per affinare i criteri di ricerca e ottenere risultati più precisi.
-      3. **Get** (o una convenzione di denominazione simile) dell'oggetto **Watermarker** per avviare il processo di acquisizione della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, facilitando l'ulteriore elaborazione in base ai requisiti specifici dell'utente.
-      4. La raccolta di filigrane dei risultati consente di controllare le filigrane identificate all'interno del documento. È possibile rimuovere le filigrane indesiderate o modificarne dinamicamente le proprietà, ad esempio regolandone le dimensioni, la posizione o il contenuto del testo, in base alle proprie esigenze.
+      1. Per accedere alle funzionalità fornite da GroupDocs.Watermark, istanzia la classe **Watermarker** e fornisci il percorso del file Pptx. Inoltre puoi utilizzare il file salvato come flusso di byte. Questa azione carica essenzialmente il documento di destinazione per un'analisi completa della filigrana.
+      2. Per ottenere l'identificazione mirata della filigrana, crea l'oggetto **SearchCriteria**. È possibile specificare un'immagine per individuare filigrane di immagini simili. In alternativa, per le filigrane testuali, definire il contenuto del testo, le proprietà del carattere, gli attributi del colore e altri parametri rilevanti per affinare i criteri di ricerca e ottenere risultati più precisi.
+      3. Chiama il metodo **Search** (o una convenzione di denominazione simile) dell'oggetto **Watermarker** per avviare il processo di acquisizione della filigrana all'interno del documento caricato. Questa funzione restituisce una raccolta di oggetti che rappresentano potenziali filigrane, facilitando l'ulteriore elaborazione in base alle vostre specifiche esigenze.
+      4. La raccolta dei risultati delle filigrane consente di controllare le filigrane identificate all'interno del documento. Puoi rimuovere filigrane indesiderate o modificarne dinamicamente le proprietà, ad esempio regolandone le dimensioni, la posizione o il contenuto del testo, in base alle tue esigenze.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Ottieni filigrane sulle immagini inserite in PPTX
+        // Ottieni filigrane di immagini posizionate in PPTX
 
         // Crea un oggetto Watermarker con il percorso di origine
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // Ottieni filigrane con un hash di immagine simile
+        // Ottieni filigrane tramite hash immagine simile
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);

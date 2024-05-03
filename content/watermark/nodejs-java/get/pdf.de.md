@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: de
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Holen Sie sich Wasserzeichen aus Pdf Dateien mit GroupDocs.Watermark"
+    title: "Erhalten Sie Wasserzeichen aus Pdf-Dateien mit GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** bietet eine umfassende Lösung für die Platzierung von Wasserzeichen in gängigen Geschäftsdokumentformaten. Indem Sie unsere Bibliothek in Ihre Node.js via Java Anwendungen integrieren, können Sie sie mit leistungsstarken Funktionen zur Suche nach Wasserzeichen ausstatten.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** bietet eine umfassende Lösung für die Platzierung von Wasserzeichen in gängigen Geschäftsdokumentformaten. Durch die Integration unserer Bibliothek in Ihre Node.js via Java-Anwendungen können Sie diese mit leistungsstarken Wasserzeichen-Suchfunktionen ausstatten.
       
-      1. **Watermarker** und geben Sie den Pdf -Dateipfad an. Sie können auch eine als Bytestream gespeicherte Datei verwenden. Diese Aktion lädt im Wesentlichen das Zieldokument für eine umfassende Wasserzeichenanalyse.
-      2. **SearchCriteria**. Sie können ein Bild angeben, um ähnliche Bildwasserzeichen zu finden. Definieren Sie alternativ für Textwasserzeichen den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter, um die Suchkriterien zu verfeinern und genauere Ergebnisse zu erzielen.
-      3. **Get** (oder eine ähnliche Namenskonvention) des **Watermarker**-Objekts auf, um den Vorgang zum Abrufen von Wasserzeichen innerhalb des geladenen Dokuments zu starten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und erleichtert so die weitere Verarbeitung gemäß Ihren spezifischen Anforderungen.
-      4. Die Ergebnissammlung von Wasserzeichen ermöglicht es Ihnen, die im Dokument identifizierten Wasserzeichen zu kontrollieren. Sie können unerwünschte Wasserzeichen entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe, Position oder ihren Textinhalt an Ihre Bedürfnisse anpassen.
+      1. Um auf die von GroupDocs.Watermark bereitgestellten Funktionen zuzugreifen, instanziieren Sie die Klasse **Watermarker** und geben Sie den Dateipfad Pdf an. Sie können auch eine als Byte-Stream gespeicherte Datei verwenden. Diese Aktion lädt im Wesentlichen das Zieldokument für eine umfassende Wasserzeichenanalyse.
+      2. Um eine gezielte Wasserzeichenerkennung zu erreichen, erstellen Sie das Objekt **SearchCriteria**. Sie können ein Bild angeben, um ähnliche Bildwasserzeichen zu finden. Alternativ können Sie für Textwasserzeichen den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter definieren, um die Suchkriterien zu verfeinern und präzisere Ergebnisse zu erzielen.
+      3. Rufen Sie die Methode **Search** (oder eine ähnliche Namenskonvention) des Objekts **Watermarker** auf, um den Prozess zum Abrufen des Wasserzeichens im geladenen Dokument zu starten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und erleichtert so die weitere Verarbeitung basierend auf Ihren spezifischen Anforderungen.
+      4. Die Ergebnissammlung von Wasserzeichen ermöglicht Ihnen die Kontrolle über die im Dokument identifizierten Wasserzeichen. Sie können unerwünschte Wasserzeichen entfernen oder ihre Eigenschaften dynamisch ändern, z. B. ihre Größe, Position oder den Textinhalt an Ihre Bedürfnisse anpassen.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Ruft Bildwasserzeichen ab, die in PDF platziert wurden
+        // Platzieren Sie Bildwasserzeichen in PDF
 
         // Erstellen Sie ein Watermarker-Objekt mit Quellpfad
         const watermarker = new groupdocs.watermark.Watermarker("input.pdf");
         
-        // Holen Sie sich Wasserzeichen mit ähnlichem Bild-Hash
+        // Erhalten Sie Wasserzeichen durch ähnlichen Bild-Hash
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);

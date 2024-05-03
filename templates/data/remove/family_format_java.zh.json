@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "清除 {{FileformatCap}} 文档中的文本水印",
-    "comment_2": "使用 {{FileformatCap}} 文档实例化水印",
+    "comment_1": "{{FileformatCap}} 文档中的清除文本水印",
+    "comment_2": "使用 {{FileformatCap}} 文档实例化 {{TextWatermarker}}",
     "comment_3": "清除特定水印",
-    "comment_4": "保存已处理的文件"
+    "comment_4": "保存处理后的文件"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 清除 {{FileformatCap}} 个文档中的水印",
+    "title": "使用 {{EnvName}} 清除 {{FileformatCap}} 文档的水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 可以轻松清除业务文档中先前添加的水印。通过安装我们的库来增强您的 {{EnvName}} 应用程序，只需几个简单的步骤即可完成：",
-      "step_1": "**Watermarker** 的主类。我们的 API 支持将文档作为流或本地路径进行处理。",
-      "step_2": "**搜索条件**来限制要处理的水印集。可以将图像用作搜索参数以及文本或格式化功能。然后，您提供更具体的搜索参数，然后获得更精确的结果。",
-      "step_3": "处理您作为搜索结果获得的文档水印的列表。清除文档。",
-      "step_4": "清除文档后，将结果保存为本地文件或字节流。"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 {{EnvName}} 应用程序的能力，并通过几个简单的步骤完成：",
+      "step_1": "首先使用 {{FileformatCap}} 文档实例化名为 {{TextWatermarkerBold}} 的主类。我们的 API 支持将要处理的文档作为流或本地路径传递。",
+      "step_2": "使用 {{TextSearchCriteriaBold}} 限制要处理的水印集。可以使用图像作为搜索参数以及文本或格式化特征。然后您提供更具体的搜索参数，然后您获得更精确的结果。",
+      "step_3": "处理作为搜索结果获得的文档水印列表。清除文档。",
+      "step_4": "清除文档后将结果保存为本地文件或字节流。"
     }
   },
   "more_features": {

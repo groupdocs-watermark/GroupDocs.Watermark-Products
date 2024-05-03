@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Modifier le filigrane du texte {{FileFormatUp}}",
-    "comment_2": "Make Watermarker fournissant le fichier {{FileFormatUp}}",
-    "comment_3": "Construisez les TextSearchCriteria et obtenez des filigranes de texte",
+    "comment_1": "Modifier le filigrane de texte {{FileFormatUp}}",
+    "comment_2": "Créer {{TextWatermarker}} fournissant un fichier {{FileFormatUp}}",
+    "comment_3": "Construisez le {{TextTextSearchCriteria}} et obtenez des filigranes de texte",
     "comment_4": "Modifier le filigrane du texte",
     "comment_5": "Enregistrez le document"
   },
   "steps": {
-    "title": "Modifiez les filigranes dans {{FileformatCap}} documents à l'aide de {{EnvName}}",
+    "title": "Modifiez les filigranes dans les documents {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet à {{EnvName}} développeurs de modifier sans effort les filigranes de divers documents {{FileformatCap}}. Voici un guide simplifié expliquant comment utiliser notre API dans votre application :",
-      "step_1": "**Watermarker**. Vous pouvez fournir le fichier sous la forme d'un flux d'octets, d'un flux de fichiers ou d'un chemin de disque local.",
-      "step_2": "**Critères de recherche** pour identifier les filigranes avec les propriétés correspondantes précédemment ajoutées au document.",
-      "step_3": "À la suite de la recherche, vous obtiendrez une liste des filigranes pertinents. Vous pouvez ensuite personnaliser leurs propriétés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela vous donne un contrôle étendu sur vos données.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} de modifier sans effort les filigranes dans divers documents {{FileformatCap}}. Voici un guide simplifié sur la façon d'utiliser notre API dans votre application :",
+      "step_1": "Commencez par transmettre votre fichier {{FileformatCap}} en tant que paramètre au constructeur de classe {{TextWatermarkerBold}}. Vous pouvez fournir le fichier sous forme de flux d'octets, de flux de fichiers ou de chemin d'accès au disque local.",
+      "step_2": "Ensuite, localisez les filigranes spécifiques qui nécessitent une modification. Utilisez le {{TextSearchCriteriaBold}} pour identifier les filigranes avec les propriétés correspondantes précédemment ajoutées au document.",
+      "step_3": "Suite à la recherche, vous obtiendrez une liste de filigranes pertinents. Vous pouvez ensuite personnaliser leurs propriétés, telles que la taille, l'alignement des pages, le texte, la couleur, le contenu de l'image, etc. Cela vous accorde un contrôle étendu sur vos données.",
       "step_4": "Une fois que vous avez terminé de modifier les filigranes, enregistrez le document mis à jour. Vous pouvez utiliser un chemin de fichier local ou un flux pour stocker le résultat final."
     }
   },

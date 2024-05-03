@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: vi
 format: Docx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Điều chỉnh hình mờ tài liệu Docx bằng cách sử dụng Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** cho phép Java nhà phát triển dễ dàng điều chỉnh hình mờ trong nhiều tài liệu bằng ứng dụng của họ. Dưới đây là hướng dẫn nhanh:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** cho phép các nhà phát triển Java dễ dàng điều chỉnh hình mờ trong nhiều tài liệu bằng ứng dụng của họ. Đây là hướng dẫn nhanh:
       
-      1. **Watermarker**. Cung cấp byte hoặc luồng tệp hoặc đường dẫn đĩa cục bộ.
-      2. **Tiêu chí tìm kiếm** để xác định hình mờ với các thuộc tính cụ thể đã thêm trước đó vào tài liệu.
-      3. Sau khi tìm kiếm, bạn sẽ nhận được một danh sách các hình mờ có liên quan. Sau đó, bạn có thể điều chỉnh các thuộc tính của chúng, bao gồm kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh và hơn thế nữa. Điều này cung cấp mức độ tùy chỉnh cao cho dữ liệu của bạn.
-      4. Khi bạn đã hoàn tất việc điều chỉnh hình mờ, hãy lưu tài liệu đã cập nhật. Bạn có thể sử dụng đường dẫn tệp cục bộ hoặc phát trực tuyến để lưu trữ kết quả.
+      1. Trước tiên, bạn cần truyền tệp Docx làm tham số của hàm tạo lớp **Watermarker**. Cung cấp luồng byte hoặc tệp hoặc đường dẫn đĩa cục bộ.
+      2. Thứ hai, xác định vị trí các hình mờ cần điều chỉnh. Sử dụng **SearchCriteria** để xác định hình mờ có thuộc tính cụ thể đã được thêm trước đó vào tài liệu.
+      3. Sau khi tìm kiếm, bạn sẽ nhận được danh sách các hình mờ có liên quan. Sau đó, bạn có thể điều chỉnh các thuộc tính của chúng, bao gồm kích thước, căn chỉnh trang, văn bản, màu sắc, nội dung hình ảnh, v.v. Điều này cung cấp mức độ tùy chỉnh cao cho dữ liệu của bạn.
+      4. Sau khi bạn điều chỉnh xong hình mờ, hãy lưu tài liệu đã cập nhật. Bạn có thể sử dụng đường dẫn tệp cục bộ hoặc luồng để lưu trữ kết quả.
    
     code:
       platform: "net"
@@ -83,16 +83,16 @@ steps:
         ```java {style=abap}
         // Điều chỉnh hình mờ hình ảnh DOCX
 
-        // Khởi tạo Watermarker với DOCX
+        // Khởi tạo Watermarker bằng DOCX
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // Khởi tạo Tiêu chí tìm kiếm để khớp với một hình ảnh cụ thể
+        // Khởi tạo SearchCriteria để khớp với một hình ảnh cụ thể
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
         for (PossibleWatermark watermark : watermarks)
         {
-            // Thay thế hình ảnh đã được tìm thấy
+            // Thay thế hình ảnh được tìm thấy
             watermark.setImageData(imageData);
         }
 

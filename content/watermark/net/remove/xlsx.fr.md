@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: fr
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Supprimez les filigranes des documents Xlsx par programmation à l'aide de .NET"
+    title: "Supprimez par programme les filigranes des documents Xlsx à l'aide de .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** permet à .NET développeurs de supprimer par programmation les filigranes de divers documents Xlsx. Ce guide décrit le processus :
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** permet aux développeurs .NET de supprimer par programme les filigranes de divers documents Xlsx. Ce guide décrit le processus :
       
-      1. **Watermarker**. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence à un emplacement de disque local.
-      2. **SearchCriteria** pour identifier les filigranes spécifiques à supprimer. Cet objet permet de filtrer les filigranes en fonction des propriétés précédemment intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche à côté du texte ou des attributs de mise en forme pour une recherche très granulaire.
+      1. Lancez le flux de travail en fournissant votre fichier Xlsx comme argument au constructeur de classe **Watermarker**. Le fichier peut être fourni sous forme de flux d'octets, de flux de fichiers ou de référence à un emplacement de disque local.
+      2. Tirez parti de la puissance de l'objet **SearchCriteria** pour identifier les filigranes spécifiques nécessitant une suppression. Cet objet permet de filtrer les filigranes en fonction des propriétés préalablement intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche aux côtés du texte ou des attributs de formatage pour une recherche très granulaire.
       3. Après une recherche réussie, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant d'effectuer l'opération de suppression.
-      4. Une fois le filigrane supprimé, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux.
+      4. Une fois la suppression du filigrane terminée, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Supprimer le filigrane de l'image dans le document XLSX
 
-        // Instanciez un filigrane en transmettant le document XLSX
+        // Instancier Watermarker en passant le document XLSX
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
             // Supprimer les filigranes trouvés dans le document

@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Lấy hình mờ hình ảnh được đặt trong {{FileFormatUp}}",
-    "comment_2": "Tạo đối tượng Watermarker với đường dẫn nguồn",
-    "comment_3": "Lấy hình mờ bằng hash hình ảnh tương tự",
-    "comment_4": "Xử lý hình mờ như bạn muốn"
+    "comment_1": "Lấy hình mờ được đặt trong {{FileFormatUp}}",
+    "comment_2": "Tạo đối tượng {{TextWatermarker}} với đường dẫn nguồn",
+    "comment_3": "Nhận hình mờ bằng hàm băm hình ảnh tương tự",
+    "comment_4": "Xử lý hình mờ theo ý muốn"
   },
   "steps": {
-    "title": "Nhận hình mờ từ {{FileformatCap}} tệp bằng {{ProdShortName}}",
+    "title": "Nhận hình mờ từ các tệp {{FileformatCap}} bằng cách sử dụng {{ProdShortName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** cung cấp một giải pháp toàn diện để đặt hình mờ trong các định dạng tài liệu kinh doanh phổ biến. Bằng cách tích hợp thư viện của chúng tôi vào {{EnvName}} ứng dụng của bạn, bạn có thể trang bị cho chúng khả năng tìm kiếm hình mờ mạnh mẽ.",
-      "step_1": "**Watermarker** và cung cấp đường dẫn tệp {{FileformatCap}}. Ngoài ra, bạn có thể sử dụng tệp được lưu dưới dạng luồng byte. Hành động này về cơ bản tải tài liệu đích để phân tích hình mờ toàn diện.",
-      "step_2": "**SearchCriteria**. Bạn có thể chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số liên quan khác để tinh chỉnh tiêu chí tìm kiếm và đạt được kết quả chính xác hơn.",
-      "step_3": "**Get** (hoặc quy ước đặt tên tương tự) của đối tượng **Watermarker** để bắt đầu quá trình lấy hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, tạo điều kiện xử lý thêm dựa trên yêu cầu cụ thể của bạn.",
-      "step_4": "Bộ sưu tập kết quả hình mờ cho phép bạn kiểm soát các hình mờ được xác định trong tài liệu. Bạn có thể xóa hình mờ không mong muốn hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước, vị trí hoặc nội dung văn bản của chúng, để phù hợp với nhu cầu của bạn."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** cung cấp giải pháp toàn diện để đặt hình mờ ở các định dạng tài liệu kinh doanh phổ biến. Bằng cách tích hợp thư viện của chúng tôi vào các ứng dụng {{EnvName}} của bạn, bạn có thể trang bị cho chúng khả năng tìm kiếm hình mờ mạnh mẽ.",
+      "step_1": "Để truy cập các chức năng do {{ProdShortName}} cung cấp, hãy khởi tạo lớp {{TextWatermarkerBold}} và cung cấp đường dẫn tệp {{FileformatCap}}. Ngoài ra, bạn có thể sử dụng tệp được lưu dưới dạng luồng byte. Hành động này về cơ bản sẽ tải tài liệu đích để phân tích hình mờ toàn diện.",
+      "step_2": "Để nhận dạng hình mờ được nhắm mục tiêu, hãy tạo đối tượng {{TextSearchCriteriaBold}}. Bạn có thể chỉ định một hình ảnh để định vị các hình mờ tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các thông số liên quan khác để tinh chỉnh tiêu chí tìm kiếm và đạt được kết quả chính xác hơn.",
+      "step_3": "Gọi phương thức {{TextSearchBold}} (hoặc quy ước đặt tên tương tự) của đối tượng {{TextWatermarkerBold}} để bắt đầu quá trình lấy hình mờ trong tài liệu được tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, tạo điều kiện thuận lợi cho việc xử lý tiếp theo dựa trên yêu cầu cụ thể của bạn.",
+      "step_4": "Việc thu thập hình mờ kết quả cho phép bạn kiểm soát các hình mờ được xác định trong tài liệu. Bạn có thể xóa hình mờ không mong muốn hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước, vị trí hoặc nội dung văn bản của chúng để phù hợp với nhu cầu của bạn."
     }
   },
   "more_features": {

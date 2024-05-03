@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:07
 draft: false
 lang: fr
 format: Word
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Supprimer les filigranes des documents Word à l'aide de .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifie la suppression des filigranes des documents commerciaux. Renforcez votre application .NET en intégrant notre bibliothèque et en suivant ces étapes simples :
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifie la tâche de suppression des filigranes des documents professionnels. Renforcez votre application .NET en intégrant notre bibliothèque et suivez ces étapes simples :
       
-      1. **Watermarker**, avec le document Word. Notre API prend en charge le traitement des documents fournis sous forme de flux ou de chemin local.
-      2. **SearchCriteria** pour affiner l'ensemble de filigranes à traiter. Vous pouvez utiliser différents paramètres tels que des images, du texte ou des fonctionnalités de mise en forme. Plus les paramètres de recherche que vous fournissez sont spécifiques, plus les résultats que vous obtenez sont précis.
-      3. Traitez la liste des filigranes de document obtenus comme résultat de recherche et supprimez-les du document.
-      4. Après avoir supprimé les filigranes, enregistrez le document obtenu sous forme de fichier local ou de flux d'octets.
+      1. Commencez par instancier la classe principale, **Watermarker**, avec le document Word. Notre API prend en charge le traitement des documents fournis sous forme de flux ou de chemin local.
+      2. Utilisez **SearchCriteria** pour affiner l'ensemble des filigranes à traiter. Vous pouvez utiliser divers paramètres tels que des images, du texte ou des fonctionnalités de formatage. Plus les paramètres de recherche que vous fournissez sont précis, plus les résultats que vous obtenez sont précis.
+      3. Traitez la liste des filigranes de document obtenue en tant que résultat de recherche et supprimez-les du document.
+      4. Après avoir supprimé les filigranes, enregistrez le document résultant en tant que fichier local ou flux d'octets.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Supprimer le filigrane du texte du document Word
+        // Supprimer le filigrane de texte du document Word
 
-        // Fournir une instance de filigrane pour le document source Word
+        // Fournir une instance Watermarker pour le document Word document source
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Supprimer les filigranes sélectionnés du document

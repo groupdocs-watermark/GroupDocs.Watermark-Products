@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: ko
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java 을 통해 Photo 문서에 워터마크 추가"
+    title: "Java을(를) 통해 Photo 문서에 워터마크 추가"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하면 Java 개발자가 널리 사용되는 비즈니스 파일 형식에 다양한 유형의 워터마크를 쉽게 추가할 수 있습니다.아래 나열된 몇 가지 간단한 단계를 통해 애플리케이션 및 워터마크 문서에 라이브러리를 추가할 수 있습니다.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하면 Java 개발자가 널리 사용되는 비즈니스 파일 형식에 다양한 유형의 워터마크를 쉽게 추가할 수 있습니다. 아래 나열된 몇 가지 간단한 단계를 통해 애플리케이션 및 워터마크 문서에 라이브러리를 추가하세요.
       
-      1. **워터마커** 입니다.문서 처리 전에 인스턴스화해야 합니다.Photo 파일을 생성자에 경로 또는 스트림 객체로 전달하는 것을 잊지 마세요.
-      2. **Watermark** 객체를 생성하는 것입니다.특정 문서 페이지뿐만 아니라 첨부 파일이나 머리글과 같은 기본 문서 부분에도 배치할 수 있습니다.
-      3. 높이 및 너비, 페이지 정렬 (상단, 왼쪽, 중앙 등), 글꼴군 및 색상 등과 같은 워터마크 속성을 설정합니다.
-      4. **워터마커** 메서드를 호출하여 새 워터마크를 추가합니다.워터마크는 필요한 만큼 추가할 수 있습니다.처리된 문서를 다른 위치에 저장하는 것이 좋습니다.
+      1. 우리 API의 메인 클래스는 **Watermarker**입니다. 문서를 처리하기 전에 인스턴스화해야 합니다. Photo 파일을 생성자에 경로 또는 스트림 객체로 전달하는 것을 잊지 마세요.
+      2. 다음 단계는 원하는 유형의 **Watermark** 객체를 구성하는 것입니다. 특정 문서 페이지뿐만 아니라 첨부 파일이나 헤더와 같은 기본 문서 부분에도 배치할 수 있습니다.
+      3. 높이 및 너비, 페이지 정렬(상단, 왼쪽, 중앙 등), 글꼴 모음 및 색상 등과 같은 워터마크 속성을 설정합니다.
+      4. 새 워터마크를 추가하려면 **Watermarker** 메서드를 호출하세요. 필요한 만큼 워터마크를 추가할 수 있습니다. 처리된 문서를 다른 위치에 저장하는 것이 좋습니다.
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // PHOTO 에 텍스트 워터마크 추가
+        // PHOTO에 텍스트 워터마크 추가
 
-        // 워터마킹할 파일을 워터마커로 전달
+        // 워터마킹할 파일을 Watermarker에 전달하세요.
         Watermarker watermarker = new Watermarker("input.png");
         
-        // 텍스트 워터마크 생성 및 속성 설정
+        // 텍스트 워터마크 만들기 및 속성 설정
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 
-        // 워터마크 파일 저장
+        // 워터마크가 있는 파일 저장
         watermarker.add(watermark);
         watermarker.save("output.png");
         

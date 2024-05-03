@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: es
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Busca marcas de agua en archivos Excel usando Java"
+    title: "Busque marcas de agua en archivos Excel usando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilita la búsqueda de marcas de agua ya colocadas en documentos comerciales. Descargue nuestro paquete e insértelo en su solicitud Java para aprovechar sus ventajas.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilita la búsqueda de marcas de agua ya colocadas en documentos comerciales. Descargue nuestro paquete e involúcrelo en su aplicación Java para aprovechar sus beneficios.
       
-      1. **Watermarker**. Es posible proporcionar solo una ruta de archivo, un flujo de archivos o un flujo de bytes.
-      2. **SearchCriteria**. Proporcione una imagen como ejemplo para obtener una marca de agua similar. Si desea buscar una marca de agua textual, proporcione el texto, la fuente, el color y otras opciones.
-      3. **Buscar** del objeto **Watermarker**. Se le proporcionará una colección de objetos que pueden procesarse como marcas de agua.
-      4. Finalmente, eres libre de hacer con el resultado de la búsqueda lo que quieras. Es completamente posible eliminar las marcas de agua encontradas o editar sus propiedades. Cambie el tamaño o el texto, por ejemplo.
+      1. Para utilizar las funciones de nuestra biblioteca, debe cargar el archivo Excel en la instancia de clase **Watermarker**. Es posible proporcionar solo una ruta de archivo, una secuencia de archivos o una secuencia de bytes.
+      2. Para limitar la lista de posibles marcas de agua, utilice el objeto **SearchCriteria**. Proporcione una imagen como ejemplo para obtener una marca de agua de imagen similar. Si desea buscar una marca de agua textual, proporcione texto, fuente, color y otras opciones.
+      3. Para colocar marcas de agua en el documento, utilice el método **Search** del objeto **Watermarker**. Se le proporcionará una colección de objetos que pueden procesarse como marcas de agua.
+      4. Finalmente, eres libre de hacer con el resultado de la búsqueda lo que quieras. Es completamente posible eliminar marcas de agua encontradas o editar sus propiedades. Cambiar tamaño o texto, por ejemplo.
    
     code:
       platform: "net"
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Busca marcas de agua de texto en el documento EXCEL
+        // Buscar marcas de agua de texto en el documento EXCEL
 
-        // Obtenga la instancia de Watermarker para el documento EXCEL
+        // Obtenga la instancia Watermarker para el documento EXCEL
         Watermarker watermarker = new Watermarker("input.xslx");
 
-        // Búsqueda de marcas de agua por criterios
+        // Buscar marcas de agua por criterios
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);

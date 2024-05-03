@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: fr
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Documents commerciaux sécurisés : générez des filigranes pour les formats Photo"
+    title: "Documents commerciaux sécurisés : générer des filigranes pour les formats Photo"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Injectez notre API dans vos applications et générez des filigranes pour de nombreux formats de fichiers pris en charge.
+      Renforcez la sécurité de vos documents avec **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Injectez notre API dans vos applications et générez des filigranes pour de nombreux formats de fichiers pris en charge.
       
-      1. **Lancer le filigrane :** Démarrez le traitement des documents avec la classe **Watermarker** fournissant nos principales fonctionnalités. Instanciez-le en passant au constructeur le fichier Photo qui est censé être sécurisé par des filigranes générés.
-      2. **Créez un objet filigrane principal :** Améliorez vos documents en sculptant des objets **Filigrane** sur mesure. Au-delà de simples pages, ils s'intègrent parfaitement aux éléments natifs tels que les pièces jointes ou les en-têtes, ajoutant ainsi des niveaux de sécurité et de professionnalisme.
-      3. **Affiner les attributs des filigranes :** Affinez vos filigranes avec précision, en ajustant les dimensions, l'alignement et les combinaisons de couleurs. Chaque détail améliore l'intégrité des documents, faisant de vos fichiers les vôtres sans aucun doute.
-      4. **Implémentez avec précision :** Utilisez la méthode **Watermarker** pour appliquer parfaitement vos filigranes personnalisés. Qu'il soit unique ou multiple, chaque filigrane ajoute une couche de protection supplémentaire. Pour plus de sécurité, pensez à stocker vos documents traités dans un endroit distinct et sécurisé.
+      1. **Initier le filigrane :** Démarrez le traitement du document avec la classe **Watermarker** fournissant nos principales fonctionnalités. Instanciez-le en passant au constructeur le fichier Photo qui est censé être sécurisé par les filigranes générés.
+      2. **Créez un objet Watermark principal :** Élevez vos documents en sculptant des objets **Watermark** sur mesure. Au-delà des simples pages, ils s'intègrent de manière transparente aux éléments natifs tels que les pièces jointes ou les en-têtes, ajoutant ainsi des niveaux de sécurité et de professionnalisme.
+      3. **Affiner les attributs du filigrane :** Affinez vos filigranes avec précision, en ajustant les dimensions, l'alignement et les jeux de couleurs. Chaque détail améliore l'intégrité du document, faisant de vos fichiers incontestablement les vôtres.
+      4. **Implémentez avec précision :** Utilisez la méthode **Watermarker** pour appliquer parfaitement vos filigranes personnalisés. Qu'il soit unique ou multiple, chaque filigrane ajoute une couche de protection supplémentaire. Pour plus de sécurité, pensez à stocker vos documents traités dans un emplacement séparé et sécurisé.
    
     code:
       platform: "net"
@@ -72,7 +72,7 @@ steps:
         // Transmettre le fichier source à l'instance Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.png");
         
-        // Générez un filigrane de texte et définissez ses options
+        // Générer un filigrane de texte et définir ses options
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 

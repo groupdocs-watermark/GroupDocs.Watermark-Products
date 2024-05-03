@@ -1,8 +1,8 @@
 {
   "examples": {
     "comment_1": "Adjust {{FileFormatUp}} text watermark",
-    "comment_2": "Instantiate Watermarker with input {{FileFormatUp}} document",
-    "comment_3": "Initialize the TextSearchCriteria and find text watermarks",
+    "comment_2": "Instantiate {{TextWatermarker}} with input {{FileFormatUp}} document",
+    "comment_3": "Initialize the {{TextTextSearchCriteria}} and find text watermarks",
     "comment_4": "Adjust text watermark properties",
     "comment_5": "Save the updated document"
   },
@@ -10,9 +10,9 @@
     "title": "Adjust watermarks in {{FileformatCap}} documents with {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** makes it easy for {{EnvName}} developers to adjust text watermarks in their applications by implementing a few easy steps:",
-      "step_1": "Load your {{FileformatCap}} file to the main object of our API called **Watermarker**. You can provide file for the further processing as stream or as a path on a local disk.",
-      "step_2": "Next step is locating watermarks which must be adjusted. **SearchCriteria** helps as to identify watermarks with right properties which were previously added to a document.",
-      "step_3": "Get list of suitable watermarks as a result of the **Search** procedure. Adjust found watermarks properties such as size, page alignment, text, color, image content, etc. There are a lot of ways to customize your data.",
+      "step_1": "Load your {{FileformatCap}} file to the main object of our API called {{TextWatermarkerBold}}. You can provide file for the further processing as stream or as a path on a local disk.",
+      "step_2": "Next step is locating watermarks which must be adjusted. {{TextSearchCriteriaBold}} helps as to identify watermarks with right properties which were previously added to a document.",
+      "step_3": "Get list of suitable watermarks as a result of the {{TextSearchBold}} procedure. Adjust found watermarks properties such as size, page alignment, text, color, image content, etc. There are a lot of ways to customize your data.",
       "step_4": "After completion of watermarks adjustment process you need to save updated document. Use local file path, file or byte stream to store result."
     }
   },

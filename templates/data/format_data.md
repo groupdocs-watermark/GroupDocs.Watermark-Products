@@ -22,3 +22,10 @@
 <% set "DocsUrl" (dict "products.{product}.docsUrl") %>
 <% set "MoreLink" (dict "products.{product}.more_link") %>
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
+<% set "TextWatermarker" (dict "products.textWatermarker") %>
+<% set "TextWatermarkerBold" (dict "products.textWatermarkerBold") %>
+<% set "TextWatermarkBold" (dict "products.textWatermarkBold") %>
+<% set "TextSearchBold" (dict "products.textSearchBold") %>
+<% set "TextSearchCriteriaBold" (dict "products.textSearchCriteriaBold") %>
+<% set "TextTextSearchCriteria" (dict "products.textTextSearchCriteria") %>
+<% set "TextSearchCriteria" (dict "products.textSearchCriteria") %>

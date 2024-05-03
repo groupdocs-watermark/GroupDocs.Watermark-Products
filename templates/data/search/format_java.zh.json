@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "在 {{FileFormatUp}} 文档中搜索图像水印",
-    "comment_2": "通过 {{FileFormatUp}} 文档撰写水印",
-    "comment_3": "按图像哈希搜索水印",
-    "comment_4": "处理找到的水印"
+    "comment_2": "撰写 {{TextWatermarker}} 并传递 {{FileFormatUp}} 文档",
+    "comment_3": "通过图像哈希搜索水印",
+    "comment_4": "处理发现水印"
   },
   "steps": {
-    "title": "{{FileformatCap}} 水印通过 {{EnvName}} 搜索",
+    "title": "{{FileformatCap}} 通过 {{EnvName}} 搜索水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在业务文档中定位水印的过程。将我们的软件包安装到您的 {{EnvName}} 应用程序中以充分利用其优势。",
-      "step_1": "**Watermarker**类的实例中。您可以提供文件路径、文件流或字节流。",
-      "step_2": "**SearchCriteria**对象。例如，提供一张图片来搜索相似的图像水印。如果要搜索文本水印，请提供文本、字体、颜色和其他相关选项。",
-      "step_3": "**水印**对象的**搜索**方法检索放置在文档中的水印。您将收到一组代表潜在水印的对象，以供进一步处理。",
-      "step_4": "最后，您可以根据需要自由操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。"
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在业务文档中查找水印的过程。将我们的软件包安装到您的 {{EnvName}} 应用程序中以利用其优势。",
+      "step_1": "要利用我们的库功能，请将 {{FileformatCap}} 文件加载到 {{TextWatermarkerBold}} 类的实例中。您可以提供文件路径、文件流或字节流。",
+      "step_2": "要缩小潜在水印的列表范围，请使用 {{TextSearchCriteriaBold}} 对象。例如，提供图像来搜索相似的图像水印。如果搜索文本水印，请提供文本、字体、颜色和其他相关选项。",
+      "step_3": "使用 {{TextWatermarkerBold}} 对象的 {{TextSearchBold}} 方法检索放置在文档中的水印。您将收到代表潜在水印的对象集合，以供进一步处理。",
+      "step_4": "最后，您可以根据需要自由地操纵搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。"
     }
   },
   "more_features": {

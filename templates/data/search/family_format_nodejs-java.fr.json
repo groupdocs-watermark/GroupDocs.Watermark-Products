@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Obtenir la liste des filigranes textuels pour {{FileFormatUp}}",
-    "comment_2": "Classe Instantiate Watermarker",
-    "comment_3": "Obtenir des filigranes selon des critères de texte",
+    "comment_1": "Obtenir la liste des filigranes de texte pour {{FileFormatUp}}",
+    "comment_2": "Instancier la classe {{TextWatermarker}}",
+    "comment_3": "Obtenez des filigranes par critères de texte",
     "comment_4": "Utiliser les informations sur les filigranes"
   },
   "steps": {
-    "title": "Obtenez efficacement des filigranes dans {{FileformatCap}} fichiers en {{ProdShortName}}",
+    "title": "Obtenez efficacement des filigranes dans les fichiers {{FileformatCap}} par {{ProdShortName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** rationalise le processus de récupération des filigranes intégrés dans différents formats de documents commerciaux. Intégrez {{ProdShortName}} de manière fluide à vos {{EnvName}} applications pour les doter de puissantes fonctionnalités de détection des filigranes.",
-      "step_1": "**Watermarker** et fournissez le chemin de fichier, le flux de fichiers ou le flux d'octets {{FileformatCap}} en entrée. Cette action charge le document pour analyse des filigranes.",
-      "step_2": "**SearchCriteria**. Spécifiez une image pour localiser les filigranes d'images similaires. Sinon, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.",
-      "step_3": "**Get** de l'objet **Watermarker** pour lancer le processus de détection des filigranes dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, ce qui permet un traitement ultérieur.",
-      "step_4": "La collection d'objets en filigrane récupérée vous offre de nombreuses possibilités. Vous pouvez supprimer les filigranes indésirables ou modifier leurs propriétés. Modifiez le contenu, déplacez un filigrane sur une page et bien d'autres choses encore."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** rationalise le processus de récupération des filigranes intégrés dans divers formats de documents commerciaux. Intégrez de manière transparente {{ProdShortName}} dans vos applications {{EnvName}} pour leur doter de fonctionnalités robustes de détection de filigrane.",
+      "step_1": "Pour profiter des fonctionnalités de {{ProdShortName}}, instanciez la classe {{TextWatermarkerBold}} et fournissez le chemin de fichier {{FileformatCap}}, le flux de fichiers ou le flux d'octets en entrée. Cette action charge le document pour l'analyse du filigrane.",
+      "step_2": "Pour une identification ciblée du filigrane, utilisez l'objet {{TextSearchCriteriaBold}}. Spécifiez une image pour localiser des filigranes d’image similaires. Alternativement, pour les filigranes textuels, définissez le contenu du texte, les propriétés de police, les attributs de couleur et d'autres paramètres pertinents pour affiner les critères de recherche.",
+      "step_3": "Utilisez la méthode {{TextSearchBold}} de l'objet {{TextWatermarkerBold}} pour lancer le processus de détection de filigrane dans le document chargé. Cette fonction renvoie une collection d'objets représentant des filigranes potentiels, permettant un traitement ultérieur.",
+      "step_4": "La collection récupérée d'objets en filigrane vous offre de nombreuses possibilités. Vous pouvez supprimer les filigranes indésirables ou modifier leurs propriétés. Changer le contenu, déplacer un filigrane sur une page, et bien d'autres."
     }
   },
   "more_features": {

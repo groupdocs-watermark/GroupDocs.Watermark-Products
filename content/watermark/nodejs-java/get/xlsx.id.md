@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:18
 draft: false
 lang: id
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Dapatkan Watermark dari Xlsx File Menggunakan GroupDocs.Watermark"
+    title: "Dapatkan Tanda Air dari File Xlsx Menggunakan GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** menawarkan solusi komprehensif untuk menempatkan tanda air dalam format dokumen bisnis populer. Dengan mengintegrasikan perpustakaan kami ke dalam Node.js via Java aplikasi Anda, Anda dapat melengkapinya dengan kemampuan pencarian tanda air yang kuat.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** menawarkan solusi komprehensif untuk menempatkan tanda air dalam format dokumen bisnis populer. Dengan mengintegrasikan perpustakaan kami ke dalam aplikasi Node.js via Java, Anda dapat melengkapinya dengan kemampuan pencarian tanda air yang canggih.
       
-      1. **Watermarker** dan berikan jalur file Xlsx. Anda juga dapat menggunakan file yang disimpan sebagai aliran byte. Tindakan ini pada dasarnya memuat dokumen target untuk analisis watermark yang komprehensif.
-      2. **SearchCriteria**. Anda dapat menentukan gambar untuk menemukan tanda air gambar serupa. Atau, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter relevan lainnya untuk menyempurnakan kriteria pencarian dan mencapai hasil yang lebih tepat.
-      3. **Get** (atau konvensi penamaan serupa) dari objek**Watermarker** untuk memulai proses pengambilan tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili tanda air potensial, memfasilitasi pemrosesan lebih lanjut berdasarkan kebutuhan spesifik Anda.
-      4. Kumpulan hasil tanda air memungkinkan Anda untuk mengontrol tanda air yang diidentifikasi dalam dokumen. Anda dapat menghapus tanda air yang tidak diinginkan atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran, posisi, atau konten teks, agar sesuai dengan kebutuhan Anda.
+      1. Untuk mengakses fungsionalitas yang disediakan oleh GroupDocs.Watermark, buat instance kelas **Watermarker** dan berikan jalur file Xlsx. Anda juga dapat menggunakan file yang disimpan sebagai aliran byte. Tindakan ini pada dasarnya memuat dokumen target untuk analisis tanda air yang komprehensif.
+      2. Untuk mencapai identifikasi tanda air yang ditargetkan, buat objek **SearchCriteria**. Anda dapat menentukan gambar untuk menemukan tanda air gambar serupa. Alternatifnya, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter relevan lainnya untuk menyaring kriteria pencarian dan mencapai hasil yang lebih tepat.
+      3. Panggil metode **Search** (atau konvensi penamaan serupa) dari objek **Watermarker** untuk memulai proses pengambilan tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili potensi tanda air, memfasilitasi pemrosesan lebih lanjut berdasarkan kebutuhan spesifik Anda.
+      4. Hasil pengumpulan tanda air memungkinkan Anda mengontrol tanda air yang diidentifikasi dalam dokumen. Anda dapat menghapus tanda air yang tidak diinginkan atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran, posisi, atau konten teks, agar sesuai dengan kebutuhan Anda.
    
     code:
       platform: "net"
@@ -78,7 +78,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Memproses tanda air sesuai keinginan
+        // Proses tanda air sesuai keinginan
         console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            

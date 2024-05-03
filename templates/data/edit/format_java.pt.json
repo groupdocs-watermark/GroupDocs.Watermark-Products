@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Ajustar a marca d'água da imagem {{FileFormatUp}}",
-    "comment_2": "Instancie o Watermarker com {{FileFormatUp}}",
-    "comment_3": "Inicialize o SearchCriteria para corresponder a uma imagem específica",
+    "comment_1": "Ajustar marca d'água da imagem {{FileFormatUp}}",
+    "comment_2": "Instancie {{TextWatermarker}} com {{FileFormatUp}}",
+    "comment_3": "Inicialize o {{TextSearchCriteria}} para corresponder a uma imagem específica",
     "comment_4": "Substitua a imagem que foi encontrada",
     "comment_5": "Salvar arquivo ajustado"
   },
   "steps": {
     "title": "Ajuste as marcas d'água do documento {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permite que {{EnvName}} desenvolvedores ajustem facilmente marcas d'água em muitos documentos usando seus aplicativos. Aqui está um guia rápido:",
-      "step_1": "**Watermarker**. Forneça bytes ou fluxo de arquivos ou um caminho de disco local.",
-      "step_2": "**SearchCriteria** para identificar marcas d'água com as propriedades específicas adicionadas anteriormente ao documento.",
-      "step_3": "Após a pesquisa, você receberá uma lista de marcas d'água relevantes. Em seguida, você pode ajustar suas propriedades, incluindo tamanho, alinhamento da página, texto, cor, conteúdo da imagem e muito mais. Isso oferece um alto grau de personalização para seus dados.",
-      "step_4": "Depois de terminar de ajustar as marcas d'água, salve o documento atualizado. Você pode usar um caminho de arquivo local ou um stream para armazenar o resultado."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permite que os desenvolvedores do {{EnvName}} ajustem facilmente marcas d'água em muitos documentos usando seus aplicativos. Aqui está um guia rápido:",
+      "step_1": "Primeiramente, você precisa passar o arquivo {{FileformatCap}} como parâmetro do construtor da classe {{TextWatermarkerBold}}. Forneça fluxo de bytes ou arquivos ou um caminho de disco local.",
+      "step_2": "Em segundo lugar, localize as marcas d'água que precisam ser ajustadas. Use {{TextSearchCriteriaBold}} para identificar marcas d'água com as propriedades específicas adicionadas anteriormente ao documento.",
+      "step_3": "Após a pesquisa, você receberá uma lista de marcas d'água relevantes. Você pode então ajustar suas propriedades, incluindo tamanho, alinhamento de página, texto, cor, conteúdo da imagem e muito mais. Isso oferece um alto grau de personalização para seus dados.",
+      "step_4": "Depois de terminar de ajustar as marcas d'água, salve o documento atualizado. Você pode usar um caminho de arquivo local ou fluxo para armazenar o resultado."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: zh
 format: Powerpoint
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 .NET 在 Powerpoint 个文件中查找水印"
+    title: "使用 .NET 在 Powerpoint 文件中查找水印"
     content: |
       **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 简化了在业务文档中查找水印的过程。将我们的软件包集成到您的 .NET 应用程序中以释放其优势。
       
-      1. **Watermarker**类实例中。您可以提供文件路径、文件流或字节流。
-      2. **搜索条件对象**。例如，提供图像以查找相似的图像水印。如果要查找文字水印，请提供文本、字体、颜色和其他相关选项。
-      3. **水印**对象的**搜索**方法检索文档中放置的水印。您将收到一组代表潜在水印的对象，以供进一步处理。
+      1. 要利用我们的库功能，请将 Powerpoint 文件加载到 **Watermarker** 类实例中。您可以提供文件路径、文件流或字节流。
+      2. 要细化潜在水印列表，请使用 **SearchCriteria** 对象。例如，提供图像来查找相似的图像水印。如果查找文本水印，请提供文本、字体、颜色和其他相关选项。
+      3. 使用 **Watermarker** 对象的 **Search** 方法检索文档中放置的水印。您将收到代表潜在水印的对象集合，以供进一步处理。
       4. 最后，您可以根据需要灵活地操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。
    
     code:
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // 在 POWERPOINT 中查找文字水印
+        // 在 POWERPOINT 中查找文本水印
 
-        // 使用 POWERPOINT 路径创建水印
+        // 使用 POWERPOINT 路径创建 Watermarker
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // 查找水印

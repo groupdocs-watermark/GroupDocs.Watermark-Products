@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Effacer le filigrane du texte dans le document {{FileformatCap}}",
-    "comment_2": "Instanciez un filigrane avec le document {{FileformatCap}}",
-    "comment_3": "Effacer un filigrane spécifique",
+    "comment_1": "Effacer le filigrane de texte dans le document {{FileformatCap}}",
+    "comment_2": "Instancier {{TextWatermarker}} avec le document {{FileformatCap}}",
+    "comment_3": "Effacer le filigrane spécifique",
     "comment_4": "Enregistrer le fichier traité"
   },
   "steps": {
-    "title": "Effacer les filigranes des documents {{FileformatCap}} à l'aide de {{EnvName}}",
+    "title": "Supprimer les filigranes des documents {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** permet d'effacer facilement les filigranes ajoutés précédemment aux documents commerciaux. Renforcez votre application {{EnvName}} en installant notre bibliothèque et en procédant en quelques étapes simples :",
-      "step_1": "**Watermarker** avec le document {{FileformatCap}}. Notre API permet de transmettre un document à traiter sous forme de flux ou de chemin local.",
-      "step_2": "**SearchCriteria** pour limiter le nombre de filigranes à traiter. Il est possible d'utiliser une image comme paramètre de recherche ainsi que des fonctionnalités de texte ou de mise en forme. Ensuite, vous fournissez des paramètres de recherche plus spécifiques, puis vous obtenez un résultat plus précis.",
-      "step_3": "Traitez la liste des filigranes de documents que vous avez obtenus en tant que résultat de recherche. Effacez le document.",
-      "step_4": "Après avoir effacé le document, enregistrez le résultat sous forme de fichier local ou de flux d'octets."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilite la suppression des filigranes précédemment ajoutés dans les documents professionnels. Renforcez votre application {{EnvName}} en installant notre bibliothèque et faites-le en quelques étapes simples :",
+      "step_1": "Tout d’abord, instanciez la classe principale appelée {{TextWatermarkerBold}} avec le document {{FileformatCap}}. Notre API prend en charge la transmission d'un document à traiter sous forme de flux ou de chemin local.",
+      "step_2": "Utilisez {{TextSearchCriteriaBold}} pour limiter l'ensemble des filigranes à traiter. Il est possible d'utiliser une image comme paramètre de recherche ainsi que des fonctionnalités de texte ou de formatage. Ensuite, vous fournissez des paramètres de recherche plus précis, puis vous obtenez un résultat plus précis.",
+      "step_3": "Traitez la liste des filigranes de documents que vous avez obtenus comme résultat de recherche. Effacez le document.",
+      "step_4": "Après avoir effacé le résultat de l'enregistrement du document en tant que fichier local ou flux d'octets."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: pt
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Remover marcas d'água de Word documentos usando .NET"
+    title: "Remova marcas d'água de documentos Word usando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifica a tarefa de remover marcas d'água de documentos comerciais. Capacite seu aplicativo .NET integrando nossa biblioteca e siga estas etapas simples:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** simplifica a tarefa de remoção de marcas d'água de documentos comerciais. Capacite seu aplicativo .NET integrando nossa biblioteca e siga estas etapas simples:
       
-      1. **Watermarker**, com o documento Word. Nossa API suporta o processamento de documentos fornecidos como um fluxo ou um caminho local.
-      2. **SearchCriteria** para restringir o conjunto de marcas d'água a serem processadas. Você pode usar vários parâmetros, como imagens, texto ou recursos de formatação. Quanto mais específicos forem os parâmetros de pesquisa fornecidos, mais precisos serão os resultados obtidos.
+      1. Comece instanciando a classe principal, **Watermarker**, com o documento Word. Nossa API oferece suporte ao processamento de documentos fornecidos como fluxo ou caminho local.
+      2. Utilize **SearchCriteria** para restringir o conjunto de marcas d’água a serem processadas. Você pode usar vários parâmetros, como imagens, texto ou recursos de formatação. Quanto mais específicos forem os parâmetros de pesquisa fornecidos, mais precisos serão os resultados obtidos.
       3. Processe a lista de marcas d'água do documento obtida como resultado da pesquisa e remova-as do documento.
-      4. Depois de remover as marcas d'água, salve o documento resultante como um arquivo local ou um fluxo de bytes.
+      4. Após remover as marcas d'água, salve o documento resultante como um arquivo local ou fluxo de bytes.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // Remover marca d'água de texto do documento Word
 
-        // Forneça uma instância Watermarker para o documento Word documento fonte
+        // Fornece instância Watermarker para o documento Word documento de origem
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Remover marcas d'água selecionadas do documento
+            // Remova as marcas d’água selecionadas do documento
             TextFormattingSearchCriteria criteria = new TextFormattingSearchCriteria();
             criteria.ForegroundColorRange = new ColorRange();
             criteria.FontBold = true;

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: vi
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xóa hình mờ khỏi tài liệu Excel bằng cách sử dụng .NET"
+    title: "Xóa Hình mờ khỏi Tài liệu Excel bằng cách sử dụng .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** đơn giản hóa nhiệm vụ xóa hình mờ khỏi tài liệu kinh doanh. Tăng cường ứng dụng .NET của bạn bằng cách tích hợp thư viện của chúng tôi và làm theo các bước đơn giản sau:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** đơn giản hóa tác vụ xóa hình mờ khỏi tài liệu kinh doanh. Trao quyền cho ứng dụng .NET của bạn bằng cách tích hợp thư viện của chúng tôi và làm theo các bước đơn giản sau:
       
-      1. **Watermarker**, với tài liệu Excel. API của chúng tôi hỗ trợ xử lý tài liệu được cung cấp dưới dạng luồng hoặc đường dẫn cục bộ.
-      2. **Tiêu chí tìm kiếm** để thu hẹp tập hợp hình mờ cần xử lý. Bạn có thể sử dụng các tham số khác nhau như hình ảnh, văn bản hoặc các tính năng định dạng. Các tham số tìm kiếm bạn cung cấp càng cụ thể, kết quả bạn nhận được càng chính xác.
+      1. Bắt đầu bằng cách khởi tạo lớp chính, **Watermarker**, bằng tài liệu Excel. API của chúng tôi hỗ trợ xử lý các tài liệu được cung cấp dưới dạng luồng hoặc đường dẫn cục bộ.
+      2. Sử dụng **SearchCriteria** để thu hẹp tập hợp hình mờ cần xử lý. Bạn có thể sử dụng nhiều thông số khác nhau như hình ảnh, văn bản hoặc tính năng định dạng. Các tham số tìm kiếm bạn cung cấp càng cụ thể thì kết quả bạn nhận được càng chính xác.
       3. Xử lý danh sách hình mờ tài liệu thu được dưới dạng kết quả tìm kiếm và xóa chúng khỏi tài liệu.
-      4. Sau khi xóa hình mờ, lưu tài liệu kết quả dưới dạng tệp cục bộ hoặc luồng byte.
+      4. Sau khi xóa hình mờ, hãy lưu tài liệu thu được dưới dạng tệp cục bộ hoặc luồng byte.
    
     code:
       platform: "net"

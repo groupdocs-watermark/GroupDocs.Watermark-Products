@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: de
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Xlsx Suche nach Wasserzeichen über Java"
+    title: "Xlsx Wasserzeichensuche über Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** vereinfacht das Auffinden von Wasserzeichen in Geschäftsdokumenten. Installieren Sie unser Paket in Ihren Java Anwendungen, um die Vorteile zu nutzen.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** vereinfacht das Auffinden von Wasserzeichen in Geschäftsdokumenten. Installieren Sie unser Paket in Ihren Java-Anwendungen, um seine Vorteile zu nutzen.
       
-      1. **Watermarker**. Sie können einen Dateipfad, einen Dateistream oder einen Bytestream angeben.
-      2. **SearchCriteria**, um die Liste potenzieller Wasserzeichen einzugrenzen. Geben Sie beispielsweise ein Bild an, um nach ähnlichen Bildwasserzeichen zu suchen. Wenn Sie nach Textwasserzeichen suchen, geben Sie Text, Schriftart, Farbe und andere relevante Optionen an.
-      3. **Search**-Methode des **Watermarker**-Objekts verwenden. Sie erhalten eine Sammlung von Objekten, die potenzielle Wasserzeichen zur weiteren Verarbeitung darstellen.
-      4. Schließlich haben Sie die Freiheit, die Suchergebnisse nach Bedarf zu manipulieren. Sie können gefundene Wasserzeichen löschen oder ihre Eigenschaften bearbeiten, z. B. Größe oder Text ändern.
+      1. Um unsere Bibliotheksfunktionen zu nutzen, laden Sie die Datei Xlsx in eine Instanz der Klasse **Watermarker**. Sie können einen Dateipfad, einen Dateistream oder einen Bytestream angeben.
+      2. Um die Liste potenzieller Wasserzeichen einzugrenzen, verwenden Sie das Objekt **SearchCriteria**. Stellen Sie beispielsweise ein Bild bereit, um nach ähnlichen Bildwasserzeichen zu suchen. Geben Sie bei der Suche nach Textwasserzeichen Text, Schriftart, Farbe und andere relevante Optionen an.
+      3. Rufen Sie im Dokument platzierte Wasserzeichen mit der Methode **Search** des Objekts **Watermarker** ab. Sie erhalten eine Sammlung von Objekten, die potenzielle Wasserzeichen darstellen, zur weiteren Verarbeitung.
+      4. Schließlich haben Sie die Freiheit, die Suchergebnisse nach Bedarf zu bearbeiten. Sie können gefundene Wasserzeichen löschen oder ihre Eigenschaften bearbeiten, z. B. Größe oder Text ändern.
    
     code:
       platform: "net"
@@ -81,17 +81,17 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Suche nach Bild-Wasserzeichen in XLSX -Dokument
+        // Suchen Sie nach Bildwasserzeichen im XLSX-Dokument
 
-        // Dokument mit Wasserzeichen verfassen, das XLSX übergibt
+        // Verfassen Sie ein Watermarker-Dokument mit einem XLSX-Dokument
         Watermarker watermarker = new Watermarker("input.xlsx");
         
-        // Suche nach Wasserzeichen nach Bild-Hash
+        // Suchen Sie nach Wasserzeichen nach Bild-Hash
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Gefundene Wasserzeichen verarbeiten
+        // Der Prozess hat Wasserzeichen gefunden
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

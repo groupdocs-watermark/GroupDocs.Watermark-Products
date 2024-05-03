@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: vi
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Dễ dàng xóa hình mờ khỏi Rtf bằng Node.js via Java"
+    title: "Xóa hình mờ khỏi Rtf một cách dễ dàng bởi Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** hợp lý hóa quá trình xóa hình mờ khỏi tài liệu kinh doanh. Nâng cao ứng dụng Node.js via Java của bạn bằng cách tích hợp liền mạch thư viện của chúng tôi và làm theo các bước đơn giản sau:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** hợp lý hóa quy trình xóa hình mờ khỏi tài liệu kinh doanh. Nâng cao ứng dụng Node.js via Java của bạn bằng cách tích hợp liền mạch thư viện của chúng tôi và làm theo các bước đơn giản sau:
       
-      1. **Watermarker**, với tài liệu Rtf. API đa năng của chúng tôi xử lý liền mạch các tài liệu, cho dù được cung cấp dưới dạng luồng hay đường dẫn cục bộ.
-      2. **Tiêu chí tìm kiếm** để xác định chính xác các hình mờ cần giải quyết. Sử dụng các tham số khác nhau như hình ảnh, văn bản hoặc các tính năng định dạng để tinh chỉnh tìm kiếm của bạn. Tiêu chí của bạn càng chi tiết, kết quả của bạn càng chính xác.
+      1. Bắt đầu quá trình bằng cách khởi tạo lớp lõi, **Watermarker**, bằng tài liệu Rtf. API linh hoạt của chúng tôi xử lý liền mạch các tài liệu, cho dù được cung cấp dưới dạng luồng hay đường dẫn cục bộ.
+      2. Tận dụng **SearchCriteria** để xác định chính xác hình mờ cần xử lý. Sử dụng nhiều thông số khác nhau như hình ảnh, văn bản hoặc tính năng định dạng để tinh chỉnh tìm kiếm của bạn. Tiêu chí của bạn càng chi tiết thì kết quả của bạn càng chính xác.
       3. Thực hiện quá trình xóa trên danh sách hình mờ tài liệu được truy xuất thông qua tìm kiếm của bạn. Dễ dàng xóa chúng khỏi tài liệu.
-      4. Sau khi xóa thành công các hình mờ, hãy lưu tài liệu kết quả một cách an toàn dưới dạng tệp cục bộ hoặc luồng byte, giữ nguyên tính toàn vẹn của nó.
+      4. Sau khi xóa thành công hình mờ, hãy lưu tài liệu kết quả một cách an toàn dưới dạng tệp cục bộ hoặc luồng byte, duy trì tính toàn vẹn của nó.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Xóa hình mờ hình ảnh trong tài liệu RTF
+        // Xóa hình mờ trong tài liệu RTF
 
-        // Lấy Watermarker đi qua đường dẫn RTF làm đối số
+        // Lấy đường dẫn Watermarker truyền vào RTF làm đối số
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
         
-        // Xóa hình mờ hình ảnh theo các tiêu chí tìm kiếm
+        // Xóa hình mờ hình ảnh theo tiêu chí tìm kiếm
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

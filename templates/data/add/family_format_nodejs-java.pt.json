@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Gere marca d'água de texto para {{FileFormatUp}}",
-    "comment_2": "Passe o arquivo de origem para a instância Watermarker",
+    "comment_1": "Gerar marca d'água de texto para {{FileFormatUp}}",
+    "comment_2": "Passe o arquivo de origem para a instância {{TextWatermarker}}",
     "comment_3": "Gere marca d'água de texto e defina suas opções",
-    "comment_4": "Obtenha {{FileFormatUp}} resultado"
+    "comment_4": "Obtenha o resultado {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Documentos comerciais seguros: gere marcas d'água para {{FileformatCap}} formatos",
+    "title": "Documentos comerciais seguros: gere marcas d'água para formatos {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Injete nossa API em seus aplicativos e gere marcas d'água para muitos formatos de arquivo compatíveis.",
-      "step_1": "**Iniciar marca d'água:** Inicie o processamento de documentos com a classe **Watermarker** que fornece nossos principais recursos. Instancie-o passando para o construtor o arquivo {{FileformatCap}} que deveria estar protegido pelas marcas d'água geradas.",
-      "step_2": "**Crie o objeto principal de marca d'água:** Eleve seus documentos esculpindo objetos **Marca d'água** personalizados. Além de meras páginas, elas se integram perfeitamente a elementos nativos, como anexos ou cabeçalhos, adicionando camadas de segurança e profissionalismo.",
-      "step_3": "**Refine os atributos da marca d'água:** Ajuste suas marcas d'água com precisão, ajustando dimensões, alinhamento e esquemas de cores. Cada detalhe melhora a integridade do documento, tornando seus arquivos inconfundivelmente seus.",
-      "step_4": "**Implemente com precisão:** Utilize o método**Watermarker** para aplicar suas marcas d'água personalizadas sem falhas. Seja singular ou múltipla, cada marca d'água adiciona uma camada extra de proteção. Para maior segurança, considere armazenar seus documentos processados em um local separado e seguro."
+      "title": "Aumente a segurança de seus documentos com **[{{ProdFullName}}]({{ProductUrl}}):** Injete nossa API em seus aplicativos e gere marcas d'água para muitos formatos de arquivo suportados.",
+      "step_1": "**Iniciar marca d'água:** Inicie o processamento do documento com a classe {{TextWatermarkerBold}} que fornece nossos principais recursos. Instancie-o passando para o construtor o arquivo {{FileformatCap}} que deve ser protegido por marcas d'água geradas.",
+      "step_2": "**Crie o objeto principal de marca d'água:** Eleve seus documentos esculpindo objetos {{TextWatermarkBold}} personalizados. Além de meras páginas, eles se integram perfeitamente a elementos nativos, como anexos ou cabeçalhos, adicionando camadas de segurança e profissionalismo.",
+      "step_3": "**Refinar atributos de marca d'água:** Ajuste suas marcas d'água com precisão, ajustando dimensões, alinhamento e esquemas de cores. Cada detalhe melhora a integridade do documento, tornando seus arquivos inconfundivelmente seus.",
+      "step_4": "**Implementar com precisão:** Utilize o método {{TextWatermarkerBold}} para aplicar suas marcas d'água personalizadas com perfeição. Seja singular ou múltipla, cada marca d'água adiciona uma camada extra de proteção. Para maior segurança, considere armazenar os documentos processados ​​em um local separado e seguro."
     }
   },
   "more_features": {

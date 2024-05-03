@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: pt
 format: Webp
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Gere marcas d'água sem esforço para Webp documentos"
+    title: "Gere facilmente marcas d'água para documentos Webp"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Biblioteca avançada de marca d'água para .NET aplicativos. Fortaleça sua solução e proteja documentos com marcas d'água na hora certa.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Biblioteca avançada de marca d'água para aplicativos .NET. Capacite sua solução e proteja documentos com marcas d'água na hora certa.
       
-      1. **Classe principal: Watermarker.** A classe principal da nossa API é **Watermarker**. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo Webp para o construtor como um caminho ou um objeto de fluxo.
-      2. **Criando sua marca d'água.** A próxima etapa é construir um objeto de marca d'água do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como imagens ou cabeçalhos.
-      3. **Ajuste fino da aparência.** Defina as propriedades da marca d'água, como altura e largura, alinhamentos superior, esquerdo, central, fontes e cores, etc.
-      4. **Aplicando e salvando.** Use o método**Watermarker** para adicionar uma nova marca d'água. Sinta-se à vontade para adicionar quantas marcas d'água precisar. Você pode salvar o documento com marca d'água em qualquer local.
+      1. **Classe principal: Watermarker.** A classe principal de nossa API é **Watermarker**. Você precisa instanciá-lo antes do processamento do documento. Não se esqueça de passar o arquivo Webp para o construtor como um caminho ou objeto de fluxo.
+      2. **Elaborando sua marca d'água.** A próxima etapa é construir um objeto Marca d'água do tipo desejado. Ele pode ser colocado não apenas em uma página específica do documento, mas também em partes nativas do documento, como imagens ou cabeçalhos.
+      3. **Ajuste fino da aparência.** Defina as propriedades da marca d'água, como altura e largura, alinhamento superior, esquerdo, central, fontes e cores, etc.
+      4. **Aplicando e salvando.** Use o método **Watermarker** para adicionar uma nova marca d'água. Sinta-se à vontade para adicionar quantas marcas d'água você precisar. Você pode salvar o documento com marca d'água em qualquer local.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Gere marca d'água de imagem no arquivo WEBP
+        // Gerar marca d'água de imagem no arquivo WEBP
 
         // Forneça o caminho do arquivo de origem para o construtor Watermarker
         using (Watermarker watermarker = new Watermarker("input.webp"))
         {
-            // Gere instância de marca d'água de imagem com arquivo de imagem
+            // Gerar instância de marca d'água de imagem com arquivo de imagem
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 watermarker.Add(watermark);
             }
-            // Salvar resultado com marca d'água WEBP
+            // Salvar resultado WEBP com marca d'água
             watermarker.Save("output.webp");
         }
         

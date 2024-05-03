@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: id
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Bersihkan dokumen Word dari tanda air menggunakan Java"
+    title: "Hapus tanda air Word dokumen menggunakan Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** memudahkan untuk menghapus dokumen bisnis dari tanda air yang ditambahkan sebelumnya. Berdayakan aplikasi Java Anda dengan menginstal perpustakaan kami dan lakukan dalam beberapa langkah sederhana:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** memudahkan untuk menghapus tanda air yang ditambahkan sebelumnya pada dokumen bisnis. Berdayakan aplikasi Java Anda dengan menginstal perpustakaan kami dan melakukannya dalam beberapa langkah sederhana:
       
-      1. **Watermarker** dengan dokumen Word. API kami mendukung penerusan dokumen untuk diproses sebagai aliran atau jalur lokal.
-      2. **Criteria pencari** untuk membatasi set tanda air yang akan diproses. Dimungkinkan untuk menggunakan gambar sebagai parameter pencarian serta teks atau fitur pemformatan. Kemudian parameter pencarian yang lebih spesifik yang Anda berikan, maka hasil yang lebih tepat yang Anda dapatkan.
-      3. Proses daftar tanda air dokumen yang telah Anda peroleh sebagai hasil pencarian. Kosongkan dokumen.
-      4. Setelah menghapus dokumen menyimpan hasil sebagai file lokal atau aliran byte.
+      1. Pertama-tama buat instance kelas utama bernama **Watermarker** dengan dokumen Word. API kami mendukung penerusan dokumen untuk diproses sebagai aliran atau jalur lokal.
+      2. Gunakan **SearchCriteria** untuk membatasi kumpulan tanda air yang akan diproses. Dimungkinkan untuk menggunakan gambar sebagai parameter pencarian serta fitur teks atau pemformatan. Maka semakin spesifik parameter pencarian yang Anda berikan, maka semakin tepat pula hasil yang Anda peroleh.
+      3. Proses daftar watermark dokumen yang Anda peroleh sebagai hasil pencarian. Hapus dokumen.
+      4. Setelah menghapus dokumen, simpan hasilnya sebagai file lokal atau aliran byte.
    
     code:
       platform: "net"
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Hapus tanda air teks dalam dokumen Word
+        // Hapus tanda air teks di dokumen Word
 
-        // Buat Instantiasi Watermarker dengan dokumen Word
+        // Buat instance Watermarker dengan dokumen Word
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Hapus tanda air tertentu

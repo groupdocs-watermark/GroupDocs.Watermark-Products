@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: pt
 format: Ppt
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Edição dinâmica de marca d'água para PPT em Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** oferece aos Node.js via Java desenvolvedores uma API poderosa para editar marcas d'água em diversos PPT documentos. Aqui está um guia abrangente para otimizar seu fluxo de trabalho:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** oferece aos desenvolvedores do Node.js via Java uma API poderosa para editar marcas d'água em diversos documentos do PPT. Aqui está um guia completo para agilizar seu fluxo de trabalho:
       
-      1. **Inicie o processo:** Comece fornecendo seu arquivo PPT como argumento para o construtor da classe **Watermarker**. Dependendo de seus requisitos, o arquivo pode ser originado como um stream ou de um local em disco local.
-      2. **Identifique marcas d'água:** Use o objeto **SearchCriteria** para identificar as marcas d'água que precisam ser modificadas. Essa ferramenta versátil permite a seleção direcionada de marcas d'água com base em propriedades específicas.
-      3. **Refine com precisão:** Após a execução bem-sucedida da pesquisa, obtenha acesso a uma coleção de marcas d'água relevantes. Aproveite o controle granular sobre cada elemento, com a capacidade de atualizar dimensões, posicionamento da página, conteúdo de texto, cores, dados de imagem e muito mais.
-      4. **Persistência perfeita:** Quando as atualizações da marca d'água estiverem concluídas, armazene com segurança o documento modificado. A API oferece opções flexíveis de armazenamento, permitindo que você salve em um caminho de arquivo local ou como um objeto de fluxo.
+      1. **Inicie o processo:** Comece fornecendo seu arquivo PPT como argumento para o construtor da classe **Watermarker**. Dependendo dos seus requisitos, o arquivo pode ser originado como um fluxo ou de um local de disco local.
+      2. **Identificar marcas d'água:** Use o objeto **SearchCriteria** para identificar as marcas d'água que precisam de modificação. Esta ferramenta versátil permite a seleção direcionada de marcas d'água com base em propriedades específicas.
+      3. **Refine com precisão:** Após a execução bem-sucedida da pesquisa, obtenha acesso a uma coleção de marcas d’água relevantes. Aproveite o controle granular sobre cada elemento, com a capacidade de atualizar dimensões, posicionamento de página, conteúdo de texto, cor, dados de imagem e muito mais.
+      4. **Persistência contínua:** Assim que as atualizações da marca d'água forem concluídas, armazene com segurança o documento modificado. A API oferece opções flexíveis de armazenamento, permitindo salvar em um caminho de arquivo local ou como um objeto de fluxo.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Atualizar marca d'água da imagem PPT
 
-        // Compor Watermarker para o arquivo PPT
+        // Componha Watermarker para o arquivo PPT
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
 
-        // Use o SearchCriteria para encontrar uma imagem específica
+        // Use SearchCriteria para encontrar uma imagem específica
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

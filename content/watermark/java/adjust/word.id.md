@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:05
 draft: false
 lang: id
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Sesuaikan tanda air di dokumen Word dengan Java"
+    title: "Sesuaikan tanda air pada dokumen Word dengan Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memudahkan pengembang Java untuk menyesuaikan tanda air teks dalam aplikasi mereka dengan menerapkan beberapa langkah mudah:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** memudahkan pengembang Java untuk menyesuaikan tanda air teks di aplikasi mereka dengan menerapkan beberapa langkah mudah:
       
-      1. **Watermarker**. Anda dapat menyediakan file untuk pemrosesan lebih lanjut sebagai aliran atau sebagai jalur pada disk lokal.
-      2. **Kriteria pencari** membantu mengidentifikasi tanda air dengan properti yang tepat yang sebelumnya ditambahkan ke dokumen.
-      3. **Pencari**. Sesuaikan properti tanda air yang ditemukan seperti ukuran, penyelarasan halaman, teks, warna, konten gambar, dll Ada banyak cara untuk menyesuaikan data Anda.
-      4. Setelah menyelesaikan proses penyesuaian tanda air, Anda perlu menyimpan dokumen yang diperbarui. Gunakan jalur file lokal, file atau aliran byte untuk menyimpan hasil.
+      1. Muat file Word Anda ke objek utama API kami yang disebut **Watermarker**. Anda dapat menyediakan file untuk diproses lebih lanjut sebagai aliran atau sebagai jalur pada disk lokal.
+      2. Langkah selanjutnya adalah mencari watermark yang harus disesuaikan. **SearchCriteria** membantu mengidentifikasi tanda air dengan properti yang tepat yang sebelumnya ditambahkan ke dokumen.
+      3. Dapatkan daftar tanda air yang sesuai sebagai hasil dari prosedur **Search**. Sesuaikan properti tanda air yang ditemukan seperti ukuran, perataan halaman, teks, warna, konten gambar, dll. Ada banyak cara untuk menyesuaikan data Anda.
+      4. Setelah menyelesaikan proses penyesuaian tanda air, Anda perlu menyimpan dokumen yang diperbarui. Gunakan jalur file lokal, aliran file atau byte untuk menyimpan hasil.
    
     code:
       platform: "net"
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Menyesuaikan tanda air teks WORD
+        // Sesuaikan tanda air teks WORD
 
-        // Buat Instantiasi Watermarker dengan dokumen input WORD
+        // Buat instance Watermarker dengan masukan dokumen WORD
         Watermarker watermarker = new Watermarker("input.docx");
 
         // Inisialisasi TextSearchCriteria dan temukan tanda air teks

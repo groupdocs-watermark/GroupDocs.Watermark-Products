@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: de
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Programmgesteuertes Bearbeiten von Wasserzeichen in Ppt Dokumenten mit der .NET API"
+    title: "Bearbeiten Sie Wasserzeichen in Ppt-Dokumenten programmgesteuert mit der .NET-API"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** bietet .NET Entwicklern eine robuste API zur programmgesteuerten Manipulation von Wasserzeichen in diversen Ppt Dokumenten. Dieses Handbuch beschreibt den Prozess:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** stellt .NET-Entwicklern eine robuste API für die programmgesteuerte Bearbeitung von Wasserzeichen in verschiedenen Ppt-Dokumenten zur Verfügung. Dieser Leitfaden beschreibt den Prozess:
       
-      1. **Watermarker** angeben. Die Datei kann entweder als Bytestream, als Dateistream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
-      2. **SearchCriteria**, um die spezifischen Wasserzeichen zu ermitteln, die geändert werden müssen. Dieses Objekt ermöglicht die Identifizierung von Wasserzeichen, die zuvor in das Dokument eingebettet waren.
-      3. Nach erfolgreicher Ausführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr ändern können.
-      4. Behalten Sie das geänderte Dokument nach Abschluss der Änderungen am Wasserzeichen bei. Die API erleichtert das Speichern entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts.
+      1. Starten Sie den Workflow, indem Sie Ihre Ppt-Datei als Argument für den Klassenkonstruktor **Watermarker** bereitstellen. Die Datei kann entweder als Byte-Stream, als Datei-Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
+      2. Anschließend nutzen Sie das Objekt **SearchCriteria**, um die spezifischen Wasserzeichen zu ermitteln, die geändert werden müssen. Dieses Objekt ermöglicht die Identifizierung von Wasserzeichen, die zuvor in das Dokument eingebettet wurden.
+      3. Nach erfolgreicher Durchführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle und ermöglichen Ihnen die Änderung von Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr.
+      4. Behalten Sie nach Abschluss der Wasserzeichenbearbeitung das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Bildwasserzeichen in PPT doc bearbeiten
+        // Bearbeiten Sie das Bildwasserzeichen im Dokument PPT
 
-        // Watermarker anhand der Quelldatei initialisieren
+        // Initialisieren Sie Watermarker nach Quelldatei
         using (Watermarker watermarker = new Watermarker("input.ppt"))
         {
-            // Suchkriterien für die Suche nach Bildwasserzeichen erstellen
+            // Erstellen Sie SearchCriteria für die Suche nach Bildwasserzeichen
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: es
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edite mediante programación marcas de agua en Pdf documentos con la API .NET"
+    title: "Edite marcas de agua mediante programación en documentos Pdf con la API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** proporciona a .NET desarrolladores una API sólida para manipular mediante programación las marcas de agua en diversos Pdf documentos. Esta guía describe el proceso:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** proporciona a los desarrolladores de .NET una API sólida para manipular mediante programación marcas de agua dentro de diversos documentos Pdf. Esta guía describe el proceso:
       
-      1. **Watermarker**. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia a una ubicación de disco local.
-      2. **SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite identificar las marcas de agua previamente incrustadas en el documento.
-      3. Al ejecutar correctamente la búsqueda, recibirás una colección de marcas de agua relevantes. Estas marcas de agua ofrecen un control detallado, lo que te permite modificar propiedades como las dimensiones, el posicionamiento de la página, el contenido del texto, la combinación de colores, los datos de las imágenes, etc.
-      4. Una vez finalizadas las ediciones de las marcas de agua, conserve el documento modificado. La API facilita el almacenamiento mediante una ruta de archivo local o un objeto de transmisión.
+      1. Inicie el flujo de trabajo proporcionando su archivo Pdf como argumento para el constructor de clase **Watermarker**. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia a una ubicación de disco local.
+      2. Posteriormente, aproveche el objeto **SearchCriteria** para identificar las marcas de agua específicas que requieren modificación. Este objeto permite la identificación de marcas de agua previamente incrustadas en el documento.
+      3. Tras la ejecución exitosa de la búsqueda, recibirá una colección de marcas de agua relevantes. Estas marcas de agua ofrecen control granular, lo que le permite modificar propiedades como dimensiones, posición de la página, contenido del texto, combinación de colores, datos de imagen y más.
+      4. Una vez finalizadas las ediciones de la marca de agua, conserve el documento modificado. La API facilita el almacenamiento utilizando una ruta de archivo local o un objeto de transmisión.
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Editar la marca de agua de la imagen en PDF doc
+        // Editar marca de agua de imagen en el documento PDF
 
         // Inicializar Watermarker por archivo fuente
         using (Watermarker watermarker = new Watermarker("input.pdf"))
         {
-            // Crear criterios de búsqueda para la búsqueda de marcas de agua de imágenes
+            // Cree SearchCriteria para la búsqueda de marcas de agua de imágenes
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                // Editar marca de agua de la imagen
+                // Editar marca de agua de imagen
                 watermark.ImageData = imageData;
             }
 

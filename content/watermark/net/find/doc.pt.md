@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: pt
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Encontre com eficiência Doc marcas d'água com .NET"
+    title: "Encontre marcas d'água Doc com eficiência com .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** oferece uma solução robusta para encontrar marcas d'água programaticamente em vários formatos de documentos comerciais. Integre nosso pacote em seus .NET aplicativos para capacitá-los com recursos de localização de marcas d'água.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** oferece uma solução robusta para localizar marcas d'água programaticamente em vários formatos de documentos comerciais. Integre nosso pacote em seus aplicativos .NET para capacitá-los com recursos de localização de marcas d’água.
       
-      1. **Watermarker** e forneça o caminho do arquivo Doc, fluxo de arquivo ou fluxo de bytes como entrada. Essa ação carrega o documento para análise de marca d'água.
-      2. **SearchCriteria**. Especifique uma imagem para localizar marcas d'água de imagens semelhantes. Como alternativa, para marcas d'água textuais, defina o conteúdo do texto, as propriedades da fonte, os atributos de cor e outros parâmetros pertinentes para refinar os critérios de pesquisa.
-      3. **Search** do objeto **Watermarker** para iniciar o processo de detecção de marca d'água no documento carregado. Essa função retorna uma coleção de objetos representando marcas d'água em potencial, permitindo processamento adicional.
-      4. A coleção recuperada de objetos de marca d'água concede a você um controle preciso. Você pode remover programaticamente marcas d'água indesejadas ou modificar dinamicamente suas propriedades, como ajustar seu tamanho ou conteúdo de texto, para atender às suas necessidades específicas.
+      1. Para explorar as funcionalidades de nossa biblioteca, instancie a classe **Watermarker** e forneça o caminho do arquivo, fluxo de arquivo ou fluxo de bytes Doc como entrada. Esta ação carrega o documento para análise de marca d'água.
+      2. Para identificação direcionada de marca d'água, aproveite o objeto **SearchCriteria**. Especifique uma imagem para localizar marcas d'água de imagens semelhantes. Como alternativa, para marcas d'água textuais, defina o conteúdo do texto, as propriedades da fonte, os atributos de cor e outros parâmetros pertinentes para refinar os critérios de pesquisa.
+      3. Empregue o método **Search** do objeto **Watermarker** para iniciar o processo de detecção de marca d'água no documento carregado. Esta função retorna uma coleção de objetos que representam possíveis marcas d'água, permitindo processamento posterior.
+      4. A coleção recuperada de objetos de marca d’água garante controle preciso. Você pode remover marcas d'água indesejadas de maneira programática ou modificar dinamicamente suas propriedades, como ajustar o tamanho ou o conteúdo do texto, para atender às suas necessidades específicas.
    
     code:
       platform: "net"
@@ -69,15 +69,15 @@ steps:
         ```csharp {style=abap}
         // Encontre marcas d'água de imagens colocadas em DOC
 
-        // Construa o Watermarker passando pelo caminho DOC
+        // Construa Watermarker passando o caminho DOC
         using (Watermarker watermarker = new Watermarker("input.doc"))
         {
-            // Encontre marcas d'água usando as opções de pesquisa
+            // Encontre marcas d'água usando opções de pesquisa
             ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Informações sobre marcas d'água do processo
+            // Processar informações de marcas d'água
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

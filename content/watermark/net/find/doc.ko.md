@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: ko
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET 으로 Doc 개의 워터마크를 효율적으로 찾을 수 있습니다."
+    title: ".NET을(를) 사용하여 Doc 워터마크를 효율적으로 찾습니다."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 다양한 비즈니스 문서 형식 내에서 프로그래밍 방식으로 워터마크를 찾을 수 있는 강력한 솔루션을 제공합니다.저희 패키지를 .NET 애플리케이션에 통합하여 워터마크 찾기 기능을 지원하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 다양한 비즈니스 문서 형식 내에서 워터마크를 프로그래밍 방식으로 찾기 위한 강력한 솔루션을 제공합니다. 우리 패키지를 귀하의 .NET 애플리케이션에 통합하여 워터마크 찾기 기능을 강화하세요.
       
-      1. **Watermarker** 클래스를 인스턴스화하고 Doc 파일 경로, 파일 스트림 또는 바이트 스트림을 입력으로 제공하십시오.이 작업은 워터마크 분석을 위해 문서를 로드합니다.
-      2. **SearchCriteria** 개체를 활용하십시오.유사한 이미지 워터마크를 찾기 위한 이미지를 지정하십시오.또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개 변수를 정의하여 검색 기준을 세분화할 수 있습니다.
-      3. **Watermarker** 객체의 **Search** 메서드를 사용하여 로드된 문서 내에서 워터마크 감지 프로세스를 시작합니다.이 함수는 잠재적 워터마크를 나타내는 개체 컬렉션을 반환하므로 추가 처리가 가능합니다.
-      4. 검색한 워터마크 개체 컬렉션을 통해 정밀하게 제어할 수 있습니다.원하지 않는 워터마크를 프로그래밍 방식으로 제거하거나 특정 요구 사항에 맞게 워터마크의 크기 또는 텍스트 내용을 조정하는 등 워터마크의 속성을 동적으로 수정할 수 있습니다.
+      1. 라이브러리의 기능을 활용하려면 **Watermarker** 클래스를 인스턴스화하고 Doc 파일 경로, 파일 스트림 또는 바이트 스트림을 입력으로 제공합니다. 이 작업을 수행하면 워터마크 분석을 위한 문서가 로드됩니다.
+      2. 타겟 워터마크 식별을 위해 **SearchCriteria** 객체를 활용하세요. 유사한 이미지 워터마크를 찾기 위한 이미지를 지정합니다. 또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개변수를 정의하여 검색 기준을 구체화합니다.
+      3. 로드된 문서 내에서 워터마크 감지 프로세스를 시작하려면 **Watermarker** 개체의 **Search** 메서드를 사용합니다. 이 함수는 잠재적인 워터마크를 나타내는 개체 컬렉션을 반환하여 추가 처리를 가능하게 합니다.
+      4. 검색된 워터마크 개체 컬렉션을 통해 정확한 제어가 가능합니다. 원하지 않는 워터마크를 프로그래밍 방식으로 제거하거나 특정 요구 사항에 맞게 크기나 텍스트 내용 조정과 같은 속성을 동적으로 수정할 수 있습니다.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // DOC 에 있는 이미지 워터마크 찾기
+        // DOC에 배치된 이미지 워터마크 찾기
 
-        // DOC 경로를 통과하는 워터마커 생성하기
+        // DOC 경로를 전달하는 Watermarker를 구성합니다.
         using (Watermarker watermarker = new Watermarker("input.doc"))
         {
             // 검색 옵션을 사용하여 워터마크 찾기
@@ -77,7 +77,7 @@ steps:
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // 프로세스 워터마크 정보
+            // 워터마크 정보 처리
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

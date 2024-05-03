@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: de
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Finden Sie Wasserzeichen in Word Dateien mithilfe von .NET"
+    title: "Suchen Sie Wasserzeichen in Word-Dateien mit .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** optimiert das Auffinden von Wasserzeichen in Geschäftsdokumenten. Integrieren Sie unser Paket in Ihre .NET Anwendungen, um seine Vorteile zu nutzen.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** optimiert den Prozess der Suche nach Wasserzeichen in Geschäftsdokumenten. Integrieren Sie unser Paket in Ihre .NET-Anwendungen, um seine Vorteile zu nutzen.
       
-      1. **Watermarker**-Klasseninstanz. Sie können einen Dateipfad, einen Dateistream oder einen Bytestream angeben.
-      2. **SearchCriteria-Objekt**, um die Liste potenzieller Wasserzeichen zu verfeinern. Geben Sie beispielsweise ein Bild an, um ähnliche Bildwasserzeichen zu finden. Wenn Sie Textwasserzeichen finden, geben Sie Text, Schriftart, Farbe und andere relevante Optionen an.
-      3. **Search**-Methode des **Watermarker**-Objekts, um Wasserzeichen abzurufen, die im Dokument platziert wurden. Sie erhalten eine Sammlung von Objekten, die potenzielle Wasserzeichen zur weiteren Bearbeitung darstellen.
+      1. Um unsere Bibliotheksfunktionen zu nutzen, laden Sie die Datei Word in eine Instanz der Klasse **Watermarker**. Sie können einen Dateipfad, einen Dateistream oder einen Bytestream angeben.
+      2. Um die Liste potenzieller Wasserzeichen zu verfeinern, verwenden Sie das Objekt **SearchCriteria**. Stellen Sie beispielsweise ein Bild bereit, um ähnliche Bildwasserzeichen zu finden. Wenn Sie Textwasserzeichen suchen, geben Sie Text, Schriftart, Farbe und andere relevante Optionen an.
+      3. Verwenden Sie die Methode **Search** des Objekts **Watermarker**, um im Dokument platzierte Wasserzeichen abzurufen. Sie erhalten eine Sammlung von Objekten, die potenzielle Wasserzeichen darstellen, zur weiteren Verarbeitung.
       4. Schließlich haben Sie die Flexibilität, die Suchergebnisse nach Bedarf zu bearbeiten. Sie können gefundene Wasserzeichen löschen oder ihre Eigenschaften bearbeiten, z. B. Größe oder Text ändern.
    
     code:
@@ -67,15 +67,15 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Finde das Textwasserzeichen in WORD
+        // Suchen Sie nach Textwasserzeichen in WORD
 
-        // Wasserzeichen mit WORD Pfad erstellen
+        // Erstellen Sie Watermarker mit dem Pfad WORD
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
             // Finden Sie Wasserzeichen
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
 
-            // Gefundene Wasserzeicheninformationen verwenden
+            // Informationen zu gefundenen Wasserzeichen verwenden
             foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
             {
                 Console.WriteLine(possibleWatermark.Text);

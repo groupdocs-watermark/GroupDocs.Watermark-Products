@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:16
 draft: false
 lang: en
 format: Ppt
@@ -47,7 +47,7 @@ steps:
       1. **Streamline Secure Watermarking in Your Node.js via Java Applications:** The **Watermarker** class acts as the core component of the GroupDocs.Watermark API. This library simplifies watermarks generation various document formats, including Ppt. To get started, create a Watermarker instance before processing your document. Provide the Ppt file path or a stream object to the constructor during initialization.
       2. **Generate Watermarks for Enhanced Protection:** Empower watermarks that perfectly align with your security needs. Construct a **Watermark** object specifying the desired type. Unlike traditional page placement, you can embed watermarks within native document elements like headers or attachments, fortifying document security and adding a professional touch.
       3. **Fine-Tune Watermark Appearance for Optimal Impact:** Control the visual aspects of your watermarks. Customize properties such as height, width, alignment (top, left, center, etc.), font families, and colors to achieve a visually effective and consistent outcome that reinforces document legitimacy.
-      4. **Watermark Application and Secure Storage**: Incorporate your watermarks using the **Watermarker's** method. The library allows you to add multiple watermarks if necessary for enhanced protection. It's recommended to save the modified Ppt document to a separate, secure location to preserve the original file and safeguard your watermarked documents.
+      4. **Watermark Application and Secure Storage**: Incorporate your watermarks using the **Watermarker** method. The library allows you to add multiple watermarks if necessary for enhanced protection. It's recommended to save the modified Ppt document to a separate, secure location to preserve the original file and safeguard your watermarked documents.
    
     code:
       platform: "net"

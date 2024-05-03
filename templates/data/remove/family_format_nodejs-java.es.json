@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Eliminar marca de agua de texto en el documento {{FileformatCap}}",
-    "comment_2": "Instanciar Watermarker con un documento {{FileformatCap}}",
+    "comment_2": "Crear una instancia de {{TextWatermarker}} con el documento {{FileformatCap}}",
     "comment_3": "Las marcas de agua de texto claro se adaptan a las condiciones de búsqueda",
     "comment_4": "Guardar archivo procesado"
   },
   "steps": {
-    "title": "{{FileformatCap}} Eliminación de marcas de agua con {{EnvName}}",
+    "title": "{{FileformatCap}} Eliminación de marcas de agua usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** proporciona a {{EnvName}} desarrolladores una API completa para la eliminación programática de marcas de agua específicas incrustadas en varios {{FileformatCap}} documentos. Esta guía profundiza en el proceso técnico:",
-      "step_1": "**Watermarker** y proporcionando su archivo {{FileformatCap}} como argumento de constructor. El archivo se puede suministrar como una secuencia de bytes, una secuencia de archivos o una referencia de ruta a una ubicación de disco local.",
-      "step_2": "**SearchCriteria**. Este objeto facilita la construcción de filtros complejos basados en propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con el texto o los atributos de formato para permitir un proceso de selección muy detallado.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** proporciona a los desarrolladores de {{EnvName}} una API integral para la eliminación programática de marcas de agua específicas incrustadas en varios documentos {{FileformatCap}}. Esta guía profundiza en el proceso técnico:",
+      "step_1": "Inicie el flujo de trabajo creando una instancia de la clase {{TextWatermarkerBold}} y proporcionando su archivo {{FileformatCap}} como argumento del constructor. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia de ruta a una ubicación de disco local.",
+      "step_2": "Para lograr una orientación precisa de la marca de agua, aproveche las capacidades del objeto {{TextSearchCriteriaBold}}. Este objeto facilita la construcción de filtros complejos basados ​​en propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con texto o atributos de formato para permitir un proceso de selección altamente granular.",
       "step_3": "Tras la ejecución de la búsqueda, recibirá una colección de marcas de agua identificadas. Estas marcas de agua se pueden eliminar fácilmente.",
-      "step_4": "Tras eliminar correctamente la marca de agua, conserve el documento modificado. La API proporciona flexibilidad de almacenamiento, lo que le permite utilizar una ruta de archivo local o un objeto de transmisión para la salida final."
+      "step_4": "Tras la eliminación exitosa de la marca de agua, conserve el documento modificado. La API proporciona flexibilidad de almacenamiento, lo que le permite utilizar una ruta de archivo local o un objeto de secuencia para el resultado final."
     }
   },
   "more_features": {

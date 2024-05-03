@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: es
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint Eliminación de marcas de agua con Node.js via Java"
+    title: "Powerpoint Eliminación de marcas de agua usando Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** proporciona a Node.js via Java desarrolladores una API completa para la eliminación programática de marcas de agua específicas incrustadas en varios Powerpoint documentos. Esta guía profundiza en el proceso técnico:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** proporciona a los desarrolladores de Node.js via Java una API integral para la eliminación programática de marcas de agua específicas incrustadas en varios documentos Powerpoint. Esta guía profundiza en el proceso técnico:
       
-      1. **Watermarker** y proporcionando su archivo Powerpoint como argumento de constructor. El archivo se puede suministrar como una secuencia de bytes, una secuencia de archivos o una referencia de ruta a una ubicación de disco local.
-      2. **SearchCriteria**. Este objeto facilita la construcción de filtros complejos basados en propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con el texto o los atributos de formato para permitir un proceso de selección muy detallado.
+      1. Inicie el flujo de trabajo creando una instancia de la clase **Watermarker** y proporcionando su archivo Powerpoint como argumento del constructor. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia de ruta a una ubicación de disco local.
+      2. Para lograr una orientación precisa de la marca de agua, aproveche las capacidades del objeto **SearchCriteria**. Este objeto facilita la construcción de filtros complejos basados ​​en propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con texto o atributos de formato para permitir un proceso de selección altamente granular.
       3. Tras la ejecución de la búsqueda, recibirá una colección de marcas de agua identificadas. Estas marcas de agua se pueden eliminar fácilmente.
-      4. Tras eliminar correctamente la marca de agua, conserve el documento modificado. La API proporciona flexibilidad de almacenamiento, lo que le permite utilizar una ruta de archivo local o un objeto de transmisión para la salida final.
+      4. Tras la eliminación exitosa de la marca de agua, conserve el documento modificado. La API proporciona flexibilidad de almacenamiento, lo que le permite utilizar una ruta de archivo local o un objeto de secuencia para el resultado final.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Eliminar marca de agua de texto en el documento Powerpoint
 
-        // Instanciar Watermarker con un documento Powerpoint
+        // Crear una instancia de Watermarker con el documento Powerpoint
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // Las marcas de agua de texto claro se adaptan a las condiciones de búsqueda

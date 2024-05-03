@@ -1,8 +1,8 @@
 {
   "examples": {
     "comment_1": "Adjust {{FileFormatUp}} image watermark",
-    "comment_2": "Instantiate Watermarker with {{FileFormatUp}}",
-    "comment_3": "Initialize the SearchCriteria to match a particular image",
+    "comment_2": "Instantiate {{TextWatermarker}} with {{FileFormatUp}}",
+    "comment_3": "Initialize the {{TextSearchCriteria}} to match a particular image",
     "comment_4": "Replace image which was found",
     "comment_5": "Save adjusted file"
   },
@@ -10,8 +10,8 @@
     "title": "Adjust {{FileformatCap}} document watermarks using {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** allows {{EnvName}} developers to easily adjust watermarks in many documents using their applications. Here's a quick guide:",
-      "step_1": "Firstly, you need to pass {{FileformatCap}} file as parameter of the **Watermarker** class constructor. Provide byte or file stream or a local disk path.",
-      "step_2": "Secondly, locate the watermarks that need to be adjusted. Use **SearchCriteria** to identify watermarks with the specific properties previously added to the document.",
+      "step_1": "Firstly, you need to pass {{FileformatCap}} file as parameter of the {{TextWatermarkerBold}} class constructor. Provide byte or file stream or a local disk path.",
+      "step_2": "Secondly, locate the watermarks that need to be adjusted. Use {{TextSearchCriteriaBold}} to identify watermarks with the specific properties previously added to the document.",
       "step_3": "Following the search, you'll receive a list of relevant watermarks. You can then adjust their properties, including size, page alignment, text, color, image content, and more. This offers a high degree of customization for your data.",
       "step_4": "Once you've finished adjusting the watermarks, save the updated document. You can use a local file path, or stream to store the result."
     }

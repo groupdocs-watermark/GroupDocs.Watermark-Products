@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: vi
 format: Jpg
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Dễ dàng tạo hình mờ cho Jpg tài liệu"
+    title: "Dễ dàng tạo hình mờ cho tài liệu Jpg"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Thư viện Watermarking nâng cao cho .NET ứng dụng. Tăng cường giải pháp của bạn và bảo mật tài liệu bằng hình mờ đúng lúc.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Thư viện hình chìm mờ nâng cao dành cho ứng dụng .NET. Trao quyền cho giải pháp của bạn và bảo mật tài liệu bằng hình mờ đúng lúc.
       
-      1. **Lớp cốt lõi: Watermarker.** Lớp chính của API của chúng tôi là**Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp Jpg cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.
-      2. **Tạo hình mờ của bạn.** Bước tiếp theo là xây dựng một đối tượng Watermark thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như hình ảnh hoặc tiêu đề.
-      3. **Tinh chỉnh giao diện.** Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, trên cùng, bên trái, căn chỉnh trung tâm, phông chữ và màu sắc, v.v.
-      4. **Áp dụng và lưu.** Sử dụng phương thức**Watermarker** để thêm hình mờ mới. Hãy thêm nhiều hình mờ như bạn cần. Bạn có thể lưu tài liệu có hình mờ vào bất kỳ vị trí nào.
+      1. **Lớp cốt lõi: Watermarker.** Lớp chính của API của chúng tôi là **Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên chuyển tệp Jpg cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.
+      2. **Tạo Hình mờ của bạn.** Bước tiếp theo là xây dựng đối tượng Hình mờ thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như hình ảnh hoặc tiêu đề.
+      3. **Tinh chỉnh giao diện.** Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, trên cùng, bên trái, căn chỉnh giữa, phông chữ và màu sắc, v.v.
+      4. **Áp dụng và lưu.** Sử dụng phương pháp **Watermarker** để thêm hình mờ mới. Hãy thoải mái thêm bao nhiêu hình mờ tùy thích. Bạn có thể lưu tài liệu có hình mờ vào bất kỳ vị trí nào.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Tạo hình mờ hình ảnh trong tập tin JPG
+        // Tạo hình mờ hình ảnh trong tệp JPG
 
-        // Cung cấp đường dẫn tệp nguồn đến trình tạo Watermarker
+        // Cung cấp đường dẫn tệp nguồn tới hàm tạo Watermarker
         using (Watermarker watermarker = new Watermarker("input.jpg"))
         {
-            // Tạo phiên bản hình mờ hình ảnh với tệp hình ảnh
+            // Tạo phiên bản hình mờ hình ảnh bằng tệp hình ảnh
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 watermarker.Add(watermark);
             }
-            // Lưu kết quả có hình mờ JPG
+            // Lưu kết quả JPG có hình chìm mờ
             watermarker.Save("output.jpg");
         }
         

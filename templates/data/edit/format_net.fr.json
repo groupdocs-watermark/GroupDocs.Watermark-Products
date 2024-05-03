@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "Modifier le filigrane de l'image dans {{FileFormatUp}} doc",
-    "comment_2": "Initialiser Watermarker par fichier source",
-    "comment_3": "Créer des critères de recherche pour la recherche de filigranes d'images",
+    "comment_1": "Modifier le filigrane de l'image dans le document {{FileFormatUp}}",
+    "comment_2": "Initialiser {{TextWatermarker}} par fichier source",
+    "comment_3": "Créez {{TextSearchCriteria}} pour la recherche de filigranes d'images",
     "comment_4": "Modifier le filigrane de l'image",
     "comment_5": "Enregistrer le résultat {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Modifiez par programmation les filigranes dans les documents {{FileformatCap}} avec l'API {{EnvName}}",
+    "title": "Modifiez par programme les filigranes dans les documents {{FileformatCap}} avec l'API {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fournit à {{EnvName}} développeurs une API robuste pour manipuler par programmation les filigranes dans divers {{FileformatCap}} documents. Ce guide décrit le processus :",
-      "step_1": "**Watermarker**. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence à un emplacement de disque local.",
-      "step_2": "**SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet d'identifier les filigranes précédemment incorporés dans le document.",
-      "step_3": "Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de modifier des propriétés telles que les dimensions, le positionnement des pages, le contenu du texte, la palette de couleurs, les données d'image, etc.",
-      "step_4": "Une fois les modifications apportées au filigrane, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** fournit aux développeurs {{EnvName}} une API robuste pour manipuler par programmation les filigranes dans divers documents {{FileformatCap}}. Ce guide décrit le processus :",
+      "step_1": "Lancez le flux de travail en fournissant votre fichier {{FileformatCap}} comme argument au constructeur de classe {{TextWatermarkerBold}}. Le fichier peut être fourni sous forme de flux d'octets, de flux de fichiers ou de référence à un emplacement de disque local.",
+      "step_2": "Ensuite, exploitez l'objet {{TextSearchCriteriaBold}} pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet d'identifier les filigranes préalablement incrustés dans le document.",
+      "step_3": "Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de modifier des propriétés telles que les dimensions, le positionnement de la page, le contenu du texte, la palette de couleurs, les données d'image, etc.",
+      "step_4": "Une fois les modifications du filigrane terminées, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux."
     }
   },
   "more_features": {

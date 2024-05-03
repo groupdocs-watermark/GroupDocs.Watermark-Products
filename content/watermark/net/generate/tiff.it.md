@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: it
 format: Tiff
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Genera facilmente filigrane per Tiff documenti"
+    title: "Genera facilmente filigrane per documenti Tiff"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Libreria avanzata di filigrana per applicazioni .NET. Potenzia la tua soluzione e proteggi i documenti con filigrane appena in tempo.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Libreria avanzata di filigrana per applicazioni .NET. Potenzia la tua soluzione e proteggi i documenti con filigrane appena in tempo.
       
-      1. **Classe principale: Watermarker** La classe principale della nostra API è **Watermarker**. È necessario istanziarlo prima dell'elaborazione del documento. Non dimenticare di passare il file Tiff al costruttore come percorso o oggetto stream.
-      2. **Creare la tua filigrana.** Il passo successivo è costruire un oggetto Watermark del tipo desiderato. Può essere inserito non solo su una pagina specifica del documento, ma anche in parti native del documento come immagini o intestazioni.
-      3. **Ottimizzazione dell'aspetto.** Imposta le proprietà della filigrana come altezza e larghezza, allineamenti in alto, a sinistra, centrali, caratteri e colori, ecc.
-      4. **Applicazione e salvamento.** Usa il metodo **Watermarker** per aggiungere una nuova filigrana. Sentiti libero di aggiungere tutte le filigrane di cui hai bisogno. Puoi salvare il documento con filigrana in qualsiasi posizione.
+      1. **Classe principale: Watermarker.** La classe principale della nostra API è **Watermarker**. È necessario crearne un'istanza prima dell'elaborazione del documento. Non dimenticare di passare il file Tiff al costruttore come percorso o oggetto stream.
+      2. **Creazione della filigrana.** Il passaggio successivo è la costruzione di un oggetto Filigrana del tipo desiderato. Può essere posizionato non solo su una pagina specifica del documento ma anche in parti native del documento come immagini o intestazioni.
+      3. **Ottimizzazione dell'aspetto.** Imposta le proprietà della filigrana come altezza e larghezza, allineamenti in alto, a sinistra, al centro, caratteri e colori, ecc.
+      4. **Applicazione e salvataggio.** Utilizza il metodo **Watermarker** per aggiungere una nuova filigrana. Sentiti libero di aggiungere tutte le filigrane di cui hai bisogno. È possibile salvare il documento con filigrana in qualsiasi posizione.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Genera filigrana dell'immagine nel file TIFF
+        // Genera filigrana immagine nel file TIFF
 
-        // Fornisci il percorso del file sorgente al costruttore Watermarker
+        // Fornisci il percorso del file di origine al costruttore Watermarker
         using (Watermarker watermarker = new Watermarker("input.tiff"))
         {
-            // Genera un'istanza di filigrana dell'immagine con il file di immagine
+            // Genera un'istanza di filigrana immagine con il file immagine
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 watermarker.Add(watermark);
             }
-            // Salva il risultato con filigrana TIFF
+            // Salva il risultato TIFF con filigrana
             watermarker.Save("output.tiff");
         }
         

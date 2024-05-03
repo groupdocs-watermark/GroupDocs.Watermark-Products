@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: vi
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Chỉnh sửa hình mờ theo chương trình trong tài liệu Rtf bằng API .NET"
+    title: "Chỉnh sửa hình mờ trong tài liệu Rtf theo chương trình bằng API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** cung cấp cho .NET nhà phát triển một API mạnh mẽ để thao tác hình mờ theo chương trình trong các tài liệu Rtf khác nhau. Hướng dẫn này phác thảo quy trình:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** cung cấp cho các nhà phát triển .NET một API mạnh mẽ để xử lý các hình mờ theo chương trình trong các tài liệu Rtf đa dạng. Hướng dẫn này phác thảo quá trình:
       
-      1. **Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.
-      2. **SearchCriteria** để xác định chính xác các hình mờ cụ thể yêu cầu sửa đổi. Đối tượng này cho phép xác định các hình mờ được nhúng trước đó trong tài liệu.
+      1. Bắt đầu quy trình làm việc bằng cách cung cấp tệp Rtf của bạn làm đối số cho hàm tạo của lớp **Watermarker**. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đến vị trí đĩa cục bộ.
+      2. Sau đó, tận dụng đối tượng **SearchCriteria** để xác định các hình mờ cụ thể cần sửa đổi. Đối tượng này cho phép xác định các hình mờ được nhúng trước đó trong tài liệu.
       3. Sau khi thực hiện tìm kiếm thành công, bạn sẽ nhận được một bộ sưu tập các hình mờ có liên quan. Những hình mờ này cung cấp khả năng kiểm soát chi tiết, cho phép bạn sửa đổi các thuộc tính như kích thước, vị trí trang, nội dung văn bản, bảng màu, dữ liệu hình ảnh, v.v.
-      4. Sau khi hoàn thành các chỉnh sửa hình mờ, hãy giữ nguyên tài liệu đã sửa đổi. API tạo điều kiện lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
+      4. Sau khi hoàn thành chỉnh sửa hình mờ, hãy lưu giữ tài liệu đã sửa đổi. API hỗ trợ lưu trữ bằng cách sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Chỉnh sửa hình mờ hình ảnh trong RTF doc
+        // Chỉnh sửa hình mờ trong tài liệu RTF
 
         // Khởi tạo Watermarker bằng tệp nguồn
         using (Watermarker watermarker = new Watermarker("input.rtf"))
         {
-            // Tạo Tiêu chí tìm kiếm cho tìm kiếm hình mờ hình ảnh
+            // Tạo SearchCriteria để tìm kiếm hình mờ trên hình ảnh
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

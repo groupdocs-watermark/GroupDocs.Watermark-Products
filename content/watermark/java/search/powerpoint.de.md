@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: de
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Suche nach Wasserzeichen in Powerpoint Dateien mit Java"
+    title: "Suchen Sie mit Java nach Wasserzeichen in Powerpoint-Dateien"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** erleichtert die Suche nach Wasserzeichen, die bereits in Geschäftsdokumenten platziert sind. Laden Sie unser Paket herunter und fügen Sie es Ihrer Java -Bewerbung bei, um die Vorteile zu nutzen.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** erleichtert die Suche nach bereits in Geschäftsdokumenten platzierten Wasserzeichen. Laden Sie unser Paket herunter und integrieren Sie es in Ihre Java-Anwendung, um die Vorteile zu nutzen.
       
-      1. **Watermarker** laden. Es ist möglich, nur einen Dateipfad, einen Dateistream oder einen Bytestream anzugeben.
-      2. **searchCriteria**. Geben Sie ein Bild als Beispiel an, um ein ähnliches Bildwasserzeichen zu erhalten. Wenn Sie nach einem Textwasserzeichen suchen möchten, geben Sie Text, Schriftart, Farbe und andere Optionen an.
-      3. **Search** des **Watermarker**-Objekts. Sie erhalten eine Sammlung von Objekten, die als Wasserzeichen verarbeitet werden können.
-      4. Schließlich steht es Ihnen frei, mit dem Ergebnis der Suche zu tun, was Sie wollen. Es ist durchaus möglich, gefundene Wasserzeichen zu löschen oder deren Eigenschaften zu bearbeiten. Ändern Sie beispielsweise die Größe oder den Text.
+      1. Um unsere Bibliotheksfunktionen nutzen zu können, müssen Sie die Datei Powerpoint in die Klasseninstanz **Watermarker** laden. Es ist möglich, nur einen Dateipfad, einen Dateistream oder einen Bytestream anzugeben.
+      2. Um die Liste möglicher Wasserzeichen einzugrenzen, verwenden Sie das Objekt **SearchCriteria**. Geben Sie ein Bild als Beispiel an, um ein ähnliches Bildwasserzeichen zu erhalten. Wenn Sie nach Textwasserzeichen suchen möchten, geben Sie Text, Schriftart, Farbe und andere Optionen an.
+      3. Um Wasserzeichen im Dokument zu platzieren, verwenden Sie die Methode **Search** des Objekts **Watermarker**. Sie erhalten eine Sammlung von Objekten, die als Wasserzeichen verarbeitet werden können.
+      4. Schließlich haben Sie die Freiheit, mit den Suchergebnissen zu machen, was Sie wollen. Es ist durchaus möglich, gefundene Wasserzeichen zu löschen oder deren Eigenschaften zu bearbeiten. Ändern Sie beispielsweise Größe oder Text.
    
     code:
       platform: "net"
@@ -82,17 +82,17 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Suche nach Textwasserzeichen in POWERPOINT -Dokument
+        // Suchen Sie nach Textwasserzeichen im POWERPOINT-Dokument
 
-        // Holen Sie sich die Watermarker-Instanz für das POWERPOINT -Dokument
+        // Holen Sie sich die Instanz Watermarker für das Dokument POWERPOINT
         Watermarker watermarker = new Watermarker("input.pptx");
 
-        // Suche nach Wasserzeichen nach Kriterien
+        // Suchen Sie nach Wasserzeichen nach Kriterien
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Wasserzeichen verarbeiten
+        // Prozesswasserzeichen
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```   

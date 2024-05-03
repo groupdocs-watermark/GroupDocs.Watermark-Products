@@ -1,7 +1,7 @@
 {
   "examples": {
     "comment_1": "Generate text watermark for {{FileFormatUp}}",
-    "comment_2": "Pass source file to Watermarker instance",
+    "comment_2": "Pass source file to {{TextWatermarker}} instance",
     "comment_3": "Generate text watermark and set its options",
     "comment_4": "Obtain {{FileFormatUp}} result"
   },
@@ -9,10 +9,10 @@
     "title": "Secure Business Documents: Generate Watermarks for {{FileformatCap}} Formats",
     "content": {
       "title": "Boost Your Document Security with **[{{ProdFullName}}]({{ProductUrl}}):** Inject our API to your applications and generate watermarks for many supported file formats.",
-      "step_1": "**Initiate Watermarking:** Start document processing with the **Watermarker** class providing our main features. Instantiate it by passing to the constructor the {{FileformatCap}} file which is supposed to be secured by generated watermarks.",
-      "step_2": "**Create main Watermark object:** Elevate your documents by sculpting bespoke **Watermark** objects. Beyond mere pages, they seamlessly integrate into native elements like attachments or headers, adding layers of security and professionalism.",
+      "step_1": "**Initiate Watermarking:** Start document processing with the {{TextWatermarkerBold}} class providing our main features. Instantiate it by passing to the constructor the {{FileformatCap}} file which is supposed to be secured by generated watermarks.",
+      "step_2": "**Create main Watermark object:** Elevate your documents by sculpting bespoke {{TextWatermarkBold}} objects. Beyond mere pages, they seamlessly integrate into native elements like attachments or headers, adding layers of security and professionalism.",
       "step_3": "**Refine Watermark Attributes:** Fine-tune your watermarks with precision, adjusting dimensions, alignment, and color schemes. Every detail enhances document integrity, making your files unmistakably yours.",
-      "step_4": "**Implement with Precision:** Utilize the **Watermarker** method to apply your customized watermarks flawlessly. Whether singular or multiple, each watermark adds an extra layer of protection. For added security, consider storing your processed documents in a separate, secure location."
+      "step_4": "**Implement with Precision:** Utilize the {{TextWatermarkerBold}} method to apply your customized watermarks flawlessly. Whether singular or multiple, each watermark adds an extra layer of protection. For added security, consider storing your processed documents in a separate, secure location."
     }
   },
   "more_features": {

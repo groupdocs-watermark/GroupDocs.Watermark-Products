@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:09
 draft: false
 lang: it
 format: Rtf
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Tecniche avanzate: aggiunta di filigrane ai documenti Rtf tramite Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
+      Esplorazione delle tecniche avanzate di filigrana per documenti Rtf con **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**
       
-      1. **Watermarker**. Questo passaggio fondamentale pone le basi per migliorare i documenti Rtf con filigrane. Fornisci il file Rtf al costruttore, come percorso o oggetto stream.
-      2. **Watermark** su misura secondo le tue specifiche. Queste entità versatili offrono un posizionamento preciso non solo su pagine designate del documento, ma anche all'interno di elementi nativi come allegati o intestazioni.
-      3. Perfeziona il processo di filigrana ottimizzando proprietà come dimensioni, allineamento, stili dei caratteri e colori. Questo livello di personalizzazione consente di creare filigrane che si adattano perfettamente all'estetica del documento.
-      4. **Watermarker** per applicare le filigrane appena create sui tuoi documenti. Goditi la flessibilità di aggiungere più filigrane in base alle tue esigenze. Per conservare i documenti, valuta la possibilità di salvarli in un luogo sicuro.
+      1. Avvia il processo di filigrana inizializzando la classe **Watermarker**. Questo passaggio fondamentale pone le basi per migliorare i documenti Rtf con filigrane. Fornisci il file Rtf al costruttore, come percorso o oggetto flusso.
+      2. Passa al livello successivo creando oggetti **Watermark** su misura per le tue specifiche. Queste entità versatili offrono un posizionamento preciso non solo sulle pagine del documento designate ma anche all'interno di elementi nativi come allegati o intestazioni.
+      3. Perfeziona il processo di filigrana ottimizzando proprietà quali dimensioni, allineamento, stili di carattere e colori. Questo livello di personalizzazione ti consente di creare filigrane che completano perfettamente l'estetica del tuo documento.
+      4. Utilizza il metodo **Watermarker** per applicare le filigrane appena create sui tuoi documenti. Goditi la flessibilità di aggiungere più filigrane secondo le tue esigenze. Per conservare i documenti, valuta la possibilità di salvarli in un luogo sicuro.
    
     code:
       platform: "net"
@@ -81,12 +81,12 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Aggiungi filigrana dell'immagine a RTF
+        // Aggiungi filigrana immagine a RTF
 
         // Passa il file da filigranare a Watermarker
         Watermarker watermarker = new Watermarker("input.rtf");
         
-        // Fornisci il percorso all'immagine con la filigrana
+        // Fornire il percorso dell'immagine con filigrana
         ImageWatermark watermark = new ImageWatermark("watermark.png");
 
         // Salva risultato

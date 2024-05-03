@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:59
+date:  2024-05-03T13:37:07
 draft: false
 lang: it
 format: Powerpoint
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Rimuovi le filigrane dai documenti Powerpoint utilizzando .NET"
+    title: "Rimuovi filigrane dai documenti Powerpoint utilizzando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** semplifica l'operazione di rimozione delle filigrane dai documenti aziendali. Potenzia la tua applicazione .NET integrando la nostra libreria e segui questi semplici passaggi:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** semplifica l'attività di rimozione delle filigrane dai documenti aziendali. Potenzia la tua applicazione .NET integrando la nostra libreria e seguendo questi semplici passaggi:
       
-      1. **Watermarker**, con il documento Powerpoint. La nostra API supporta l'elaborazione dei documenti forniti come stream o come percorso locale.
-      2. **SearchCriteria** per restringere il set di filigrane da elaborare. Puoi utilizzare vari parametri come immagini, testo o funzioni di formattazione. Più specifici sono i parametri di ricerca forniti, più precisi saranno i risultati ottenuti.
-      3. Elabora l'elenco delle filigrane del documento ottenute come risultato della ricerca e rimuovile dal documento.
+      1. Inizia istanziando la classe principale, **Watermarker**, con il documento Powerpoint. La nostra API supporta l'elaborazione di documenti forniti come flusso o percorso locale.
+      2. Utilizza **SearchCriteria** per restringere l'insieme di filigrane da elaborare. Puoi utilizzare vari parametri come immagini, testo o funzionalità di formattazione. Più specifici sono i parametri di ricerca forniti, più precisi saranno i risultati ottenuti.
+      3. Elabora l'elenco delle filigrane del documento ottenuto come risultato della ricerca e rimuovile dal documento.
       4. Dopo aver rimosso le filigrane, salva il documento risultante come file locale o flusso di byte.
    
     code:
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Rimuovi la filigrana di testo dal documento Powerpoint
 
-        // Fornisci un'istanza Watermarker per il documento di origine del documento Powerpoint
+        // Fornisci l'istanza di Watermarker per il documento di origine del documento Powerpoint
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // Rimuovi le filigrane selezionate dal documento

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:14
 draft: false
 lang: id
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edit Watermark secara terprogram di Docx Dokumen dengan .NET API"
+    title: "Mengedit Tanda Air secara terprogram di Dokumen Docx dengan API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** melengkapi .NET pengembang dengan API yang kuat untuk memanipulasi tanda air secara terprogram dalam berbagai dokumen Docx. Panduan ini menguraikan prosesnya:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** melengkapi pengembang .NET dengan API yang kuat untuk memanipulasi tanda air secara terprogram dalam beragam dokumen Docx. Panduan ini menguraikan prosesnya:
       
-      1. **Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.
-      2. **SearchCriteria** untuk menentukan tanda air tertentu yang memerlukan modifikasi. Objek ini memungkinkan identifikasi tanda air yang sebelumnya tertanam di dalam dokumen.
-      3. Setelah keberhasilan pelaksanaan pencarian, Anda akan menerima kumpulan tanda air yang relevan. Watermark ini menawarkan kontrol granular, memungkinkan Anda untuk memodifikasi properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.
-      4. Setelah penyelesaian pengeditan tanda air, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
+      1. Mulailah alur kerja dengan menyediakan file Docx Anda sebagai argumen ke konstruktor kelas **Watermarker**. File dapat disediakan sebagai aliran byte, aliran file, atau referensi ke lokasi disk lokal.
+      2. Selanjutnya, manfaatkan objek **SearchCriteria** untuk menentukan tanda air spesifik yang memerlukan modifikasi. Objek ini memungkinkan identifikasi tanda air yang sebelumnya tertanam dalam dokumen.
+      3. Setelah pencarian berhasil, Anda akan menerima kumpulan tanda air yang relevan. Tanda air ini menawarkan kontrol terperinci, memungkinkan Anda mengubah properti seperti dimensi, posisi halaman, konten teks, skema warna, data gambar, dan banyak lagi.
+      4. Setelah pengeditan tanda air selesai, pertahankan dokumen yang dimodifikasi. API memfasilitasi penyimpanan menggunakan jalur file lokal atau objek aliran.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // Edit tanda air gambar di dokumen DOCX
 
-        // Inisialisasi Watermarker dengan file sumber
+        // Inisialisasi Watermarker berdasarkan file sumber
         using (Watermarker watermarker = new Watermarker("input.docx"))
         {
-            // Buat Kriteria pencarian untuk pencarian tanda air gambar
+            // Buat SearchCriteria untuk pencarian tanda air gambar
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

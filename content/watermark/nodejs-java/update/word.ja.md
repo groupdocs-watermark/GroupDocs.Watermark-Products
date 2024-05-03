@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: ja
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "WORD のウォーターマークを Node.js via Java 経由で更新"
+    title: "Node.js via Java 経由で WORD のウォーターマークを更新します"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** Node.js via Java の開発者に、さまざまな WORD ドキュメント内のウォーターマークをプログラムで更新するための堅牢な API を提供します。このガイドではプロセスの概要を説明します。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** は、Node.js via Java の開発者に、さまざまな WORD ドキュメント内のウォーターマークをプログラムで更新するための堅牢な API を提供します。このガイドでは、プロセスの概要を説明します。
       
-      1. **Watermarker** クラスコンストラクターの引数として指定してプロセスを開始します。要求に応じて、ファイルをストリームまたはローカルディスクの場所への参照として提供できます。
-      2. **SearchCriteria** オブジェクトを利用して、変更が必要な特定のウォーターマークを特定します。このオブジェクトにより、目的のプロパティに基づいてウォーターマークを正確に特定できます。
-      3. 検索が正常に実行されると、関連するウォーターマークのコレクションが表示されます。これらのウォーターマークはきめ細かく制御できるため、サイズ、ページの位置、テキストコンテンツ、配色、画像データなどのプロパティを更新できます。
-      4. ウォーターマークの更新が完了したら、変更したドキュメントを保存します。API を使用すると、ローカルファイルパスまたはストリームオブジェクトを使用して簡単に保存できます。
+      1. WORD ファイルを引数として **Watermarker** クラス コンストラクターに指定して、プロセスを開始します。要求に応じて、ファイルはストリームとして、またはローカル ディスクの場所への参照として提供できます。
+      2. 次に、**SearchCriteria** オブジェクトを利用して、変更が必要な特定のウォーターマークを特定します。このオブジェクトにより、必要なプロパティに基づいて透かしを正確に特定できるようになります。
+      3. 検索が正常に実行されると、関連するウォーターマークのコレクションを受け取ります。これらの透かしを使用すると、詳細な制御が可能になり、寸法、ページの位置、テキスト コンテンツ、配色、画像データなどのプロパティを更新できます。
+      4. ウォーターマークの更新が完了したら、変更したドキュメントを永続化します。 API は、ローカル ファイル パスまたはストリーム オブジェクトを使用してストレージを容易にします。
    
     code:
       platform: "net"
@@ -67,23 +67,23 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // WORD テキストウォーターマークを更新
+        // WORD テキストの透かしを更新します
 
-        // WORD ファイルのウォーターマーカーインスタンスを提供
+        // WORD ファイルに Watermarker インスタンスを提供します
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
 
-        // テキスト検索条件を使用してテキストウォーターマークを検索する
+        // TextSearchCriteria を使用してテキストの透かしを検索します
         const searchCriteria = 
             new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
         
-        // テキストウォーターマークを更新
+        // テキストの透かしを更新する
         for (const watermark of watermarks.getInnerList().toArray())
         {
             watermark.setText("passed");
         }
 
-        // 結果を楽しんでください
+        // 結果をお楽しみください
         watermarker.save("output.docx");
         
         ```            

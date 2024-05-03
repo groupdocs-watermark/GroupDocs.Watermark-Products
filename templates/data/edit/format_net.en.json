@@ -1,8 +1,8 @@
 {
   "examples": {
     "comment_1": "Edit image watermark in {{FileFormatUp}} doc",
-    "comment_2": "Initialize Watermarker by source file",
-    "comment_3": "Create SearchCriteria for image watermarks search",
+    "comment_2": "Initialize {{TextWatermarker}} by source file",
+    "comment_3": "Create {{TextSearchCriteria}} for image watermarks search",
     "comment_4": "Edit image watermark",
     "comment_5": "Save result {{FileFormatUp}}"
   },
@@ -10,8 +10,8 @@
     "title": "Programmatically Edit Watermarks in {{FileformatCap}} Documents with the {{EnvName}} API",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** furnishes {{EnvName}} developers with a robust API for programmatically manipulating watermarks within diverse {{FileformatCap}} documents. This guide outlines the process:",
-      "step_1": "Initiate the workflow by supplying your {{FileformatCap}} file as an argument to the **Watermarker** class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.",
-      "step_2": "Subsequently, leverage the **SearchCriteria** object to pinpoint the specific watermarks requiring modification. This object enables the identification of watermarks previously embedded within the document.",
+      "step_1": "Initiate the workflow by supplying your {{FileformatCap}} file as an argument to the {{TextWatermarkerBold}} class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.",
+      "step_2": "Subsequently, leverage the {{TextSearchCriteriaBold}} object to pinpoint the specific watermarks requiring modification. This object enables the identification of watermarks previously embedded within the document.",
       "step_3": "Upon successful execution of the search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to modify properties such as dimensions, page positioning, text content, color scheme, image data, and more.",
       "step_4": "Following the completion of watermark edits, persist the modified document. The API facilitates storage using either a local file path or a stream object."
     }

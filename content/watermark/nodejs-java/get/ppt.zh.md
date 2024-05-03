@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:19
 draft: false
 lang: zh
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 GroupDocs.Watermark 从 Ppt 个文件中获取水印"
+    title: "使用 GroupDocs.Watermark 从 Ppt 文件获取水印"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**为以流行的商业文档格式添加水印提供了全面的解决方案。通过将我们的库集成到您的 Node.js via Java 应用程序中，您可以为它们配备强大的水印搜索功能。
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 提供了一个全面的解决方案，用于将水印放置在流行的商业文档格式中。通过将我们的库集成到您的 Node.js via Java 应用程序中，您可以为它们配备强大的水印搜索功能。
       
-      1. **水印**类并提供 Ppt 文件路径。也可以使用另存为字节流的文件。此操作实质上是加载目标文档以进行全面的水印分析。
-      2. **SearchCriteria** 对象。您可以指定图像来定位相似的图像水印。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数，以完善搜索条件并获得更精确的结果。
-      3. **Watermarker**对象的**Get**方法（或类似的命名惯例），在加载的文档中启动水印获取过程。此函数返回代表潜在水印的对象集合，便于根据您的特定要求进行进一步处理。
-      4. 水印的结果集合允许您控制文档中标识的水印。您可以删除不需要的水印或动态修改其属性，例如调整其大小、位置或文本内容，以满足您的需求。
+      1. 要访问 GroupDocs.Watermark 提供的功能，请实例化 **Watermarker** 类并提供 Ppt 文件路径。您也可以使用保存为字节流的文件。此操作实质上加载目标文档以进行全面的水印分析。
+      2. 要实现有针对性的水印识别，请创建 **SearchCriteria** 对象。您可以指定一个图像来定位相似的图像水印。或者，对于文本水印，定义文本内容、字体属性、颜色属性和其他相关参数，以细化搜索条件并获得更精确的结果。
+      3. 调用 **Watermarker** 对象的 **Search** 方法（或类似的命名约定）以在加载的文档中启动水印获取过程。此函数返回表示潜在水印的对象集合，以便根据您的具体要求进行进一步处理。
+      4. 水印结果集合允许您控制文档中识别的水印。您可以删除不需要的水印或动态修改其属性，例如调整其大小、位置或文本内容，以满足您的需要。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // 在 PPT 中放置图像水印
+        // 获取放置在 PPT 中的图像水印
 
         // 使用源路径创建 Watermarker 对象
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
         
-        // 通过相似的图像哈希获取水印
+        // 通过相似图像哈希获取水印
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);
         const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // 随心所欲处理水印
+        // 按照您的意愿处理水印
         console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            

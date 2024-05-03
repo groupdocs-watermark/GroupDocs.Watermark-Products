@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Editar marca d'água de texto {{FileFormatUp}}",
-    "comment_2": "Faça com que o Watermarker forneça o arquivo {{FileFormatUp}}",
-    "comment_3": "Construa o TextSearchCriteria e obtenha marcas d'água de texto",
+    "comment_2": "Faça {{TextWatermarker}} fornecendo o arquivo {{FileFormatUp}}",
+    "comment_3": "Construa o {{TextTextSearchCriteria}} e obtenha marcas d'água de texto",
     "comment_4": "Editar marca d'água de texto",
     "comment_5": "Salve o documento"
   },
   "steps": {
-    "title": "Edite marcas d'água em {{FileformatCap}} documentos usando {{EnvName}}",
+    "title": "Edite marcas d'água em documentos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** capacita {{EnvName}} desenvolvedores a editar marcas d'água sem esforço em vários {{FileformatCap}} documentos. Aqui está um guia simplificado de como usar nossa API em seu aplicativo:",
-      "step_1": "**Watermarker**. Você pode fornecer o arquivo como um fluxo de bytes, um fluxo de arquivos ou um caminho de disco local.",
-      "step_2": "**SearchCriteria** para identificar marcas d'água com as propriedades correspondentes adicionadas anteriormente ao documento.",
-      "step_3": "Após a pesquisa, você obterá uma lista de marcas d'água relevantes. Em seguida, você pode personalizar suas propriedades, como tamanho, alinhamento da página, texto, cor, conteúdo da imagem e muito mais. Isso concede a você amplo controle sobre seus dados.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** permite que os desenvolvedores do {{EnvName}} editem facilmente marcas d'água em vários documentos do {{FileformatCap}}. Aqui está um guia simplificado de como usar nossa API em sua aplicação:",
+      "step_1": "Comece passando seu arquivo {{FileformatCap}} como parâmetro para o construtor da classe {{TextWatermarkerBold}}. Você pode fornecer o arquivo como um fluxo de bytes, um fluxo de arquivos ou um caminho de disco local.",
+      "step_2": "A seguir, localize as marcas d'água específicas que requerem edição. Utilize o {{TextSearchCriteriaBold}} para identificar marcas d'água com as propriedades correspondentes adicionadas anteriormente ao documento.",
+      "step_3": "Após a pesquisa, você obterá uma lista de marcas d'água relevantes. Você pode então personalizar suas propriedades, como tamanho, alinhamento de página, texto, cor, conteúdo da imagem e muito mais. Isso concede a você amplo controle sobre seus dados.",
       "step_4": "Depois de concluir a edição das marcas d'água, salve o documento atualizado. Você pode utilizar um caminho de arquivo local ou um fluxo para armazenar o resultado final."
     }
   },

@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Borrar imagen con marca de agua {{FileFormatUp}} documento",
-    "comment_2": "Pase la ruta del documento {{FileFormatUp}} al constructor Watermarker",
-    "comment_3": "Borrar el documento eliminando una marca de agua",
+    "comment_1": "Borrar imagen de marca de agua del documento {{FileFormatUp}}",
+    "comment_2": "Pase la ruta del documento {{FileFormatUp}} al constructor {{TextWatermarker}}",
+    "comment_3": "Borre el documento eliminando una marca de agua.",
     "comment_4": "Guardar archivo borrado"
   },
   "steps": {
-    "title": "Borrar marcas de agua de {{FileformatCap}} documentos con {{EnvName}}",
+    "title": "Borrar marcas de agua de documentos {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica el proceso de borrar las marcas de agua de los documentos comerciales en las aplicaciones {{EnvName}}. Integre nuestra biblioteca y siga estos pasos:",
-      "step_1": "**Watermarker** con su documento {{FileformatCap}}. La API acepta el documento como una secuencia o como una ruta de archivo local para su procesamiento.",
-      "step_2": "**SearchCriteria** para refinar el conjunto de marcas de agua para su borrado. Puede utilizar una imagen como parámetro de búsqueda junto con atributos de texto o formato. Cuanto más específicos sean los criterios de búsqueda, más precisos serán los resultados.",
-      "step_3": "Tras la búsqueda, recibirá una lista de marcas de agua identificadas. Continúe borrando estas marcas de agua del documento.",
-      "step_4": "Una vez borradas las marcas de agua, guarde el documento final utilizando una ruta de archivo local o un objeto de transmisión."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica el proceso de eliminación de marcas de agua de sus documentos comerciales dentro de las aplicaciones {{EnvName}}. Integra nuestra biblioteca y sigue estos pasos:",
+      "step_1": "Comience inicializando la clase {{TextWatermarkerBold}} con su documento {{FileformatCap}}. La API acepta el documento como una secuencia o como una ruta de archivo local para su procesamiento.",
+      "step_2": "Aproveche el objeto {{TextSearchCriteriaBold}} para refinar el conjunto de marcas de agua para su limpieza. Puede utilizar una imagen como parámetro de búsqueda junto con texto o atributos de formato. Cuanto más específicos sean sus criterios de búsqueda, más precisos serán los resultados.",
+      "step_3": "Después de la búsqueda, recibirá una lista de marcas de agua identificadas. Proceda a borrar estas marcas de agua del documento.",
+      "step_4": "Una vez que se borran las marcas de agua, guarde el documento final utilizando una ruta de archivo local o un objeto de secuencia."
     }
   },
   "more_features": {

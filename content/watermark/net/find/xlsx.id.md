@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:08
+date:  2024-05-03T13:37:15
 draft: false
 lang: id
 format: Xlsx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Menemukan Xlsx Watermark secara Efisien dengan .NET"
+    title: "Temukan Tanda Air Xlsx secara Efisien dengan .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** menawarkan solusi yang kuat untuk menemukan tanda air secara terprogram dalam berbagai format dokumen bisnis. Integrasikan paket kami ke dalam .NET aplikasi Anda untuk memberdayakan mereka dengan kemampuan menemukan tanda air.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** menawarkan solusi tangguh untuk menemukan tanda air secara terprogram dalam berbagai format dokumen bisnis. Integrasikan paket kami ke dalam aplikasi .NET Anda untuk memberdayakannya dengan kemampuan menemukan tanda air.
       
-      1. **Watermarker** dan berikan jalur file Xlsx, aliran file, atau aliran byte sebagai input. Tindakan ini memuat dokumen untuk analisis tanda air.
-      2. **SearchCriteria**. Tentukan gambar untuk menemukan tanda air gambar serupa. Atau, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter terkait lainnya untuk menyempurnakan kriteria pencarian.
-      3. **Pencarian** dari objek**Watermarker** untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili tanda air potensial, memungkinkan pemrosesan lebih lanjut.
-      4. Kumpulan objek watermark yang diambil memberi Anda kontrol yang tepat. Anda dapat menghapus tanda air yang tidak diinginkan secara terprogram atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran atau konten teks, agar sesuai dengan kebutuhan spesifik Anda.
+      1. Untuk mengeksploitasi fungsionalitas perpustakaan kami, buat instance kelas **Watermarker** dan berikan jalur file Xlsx, aliran file, atau aliran byte sebagai input. Tindakan ini memuat dokumen untuk analisis tanda air.
+      2. Untuk identifikasi tanda air yang ditargetkan, manfaatkan objek **SearchCriteria**. Tentukan gambar untuk menemukan tanda air gambar serupa. Alternatifnya, untuk tanda air tekstual, tentukan konten teks, properti font, atribut warna, dan parameter terkait lainnya untuk menyaring kriteria pencarian.
+      3. Gunakan metode **Search** pada objek **Watermarker** untuk memulai proses deteksi tanda air dalam dokumen yang dimuat. Fungsi ini mengembalikan kumpulan objek yang mewakili potensi tanda air, memungkinkan pemrosesan lebih lanjut.
+      4. Koleksi objek tanda air yang diambil memberi Anda kontrol yang tepat. Anda dapat menghapus tanda air yang tidak diinginkan secara terprogram atau mengubah propertinya secara dinamis, seperti menyesuaikan ukuran atau konten teksnya, agar sesuai dengan kebutuhan spesifik Anda.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Temukan tanda air gambar yang ditempatkan di XLSX
 
-        // Bangun Watermarker melewati jalur XLSX
+        // Bangunlah Watermarker dengan melewati jalur XLSX
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
             // Temukan tanda air menggunakan opsi pencarian
@@ -77,7 +77,7 @@ steps:
             imageSearchCriteria.MaxDifference = 0.9;
             PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
 
-            // Memproses info tanda air
+            // Memproses informasi tanda air
             Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
         }
         

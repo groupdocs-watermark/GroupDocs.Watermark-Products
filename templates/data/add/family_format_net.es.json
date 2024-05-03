@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Generar marca de agua de texto en el archivo {{FileFormatUp}}",
-    "comment_2": "Proporcione el archivo para ponerle una marca de agua",
+    "comment_2": "Proporcionar un archivo para ponerle una marca de agua",
     "comment_3": "Generar instancia de marca de agua de texto",
-    "comment_4": "Guardar {{FileFormatUp}} resultado"
+    "comment_4": "Guardar resultado de {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Mejore sus documentos: genere marcas de agua para {{FileformatCap}} con {{EnvName}}",
+    "title": "Mejore sus documentos: genere marcas de agua para {{FileformatCap}} usando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** es una biblioteca que simplifica la adición de marcas de agua a varios formatos de archivos empresariales para {{EnvName}} desarrolladores. Integre nuestra biblioteca en su aplicación y añada fácilmente marcas de agua a los documentos siguiendo estos pasos:",
-      "step_1": "**Iniciando tu viaje con marcas de agua:** Empieza por familiarizarte con la clase**Watermarker**, la piedra angular de nuestra API. Para comenzar el proceso, asegúrate de crear una instancia antes de procesar el documento. No pases por alto la importancia de proporcionar el archivo {{FileformatCap}} al constructor, ya sea una ruta o un objeto de flujo.",
-      "step_2": "**Elaboración de marcas de agua personalizadas:** Pase a la siguiente fase creando un objeto**Watermark** adaptado a sus especificaciones. Esta versátil herramienta no se limita a páginas de documentos específicas; también se puede integrar sin problemas en los elementos nativos del documento, como los archivos adjuntos o los encabezados.",
-      "step_3": "**Ajustar los atributos de las marcas de agua:** Refina tu experiencia con las marcas de agua ajustando propiedades como la altura, el ancho, la alineación de las páginas, la familia de fuentes y el color. Este nivel de personalización garantiza que las marcas de agua se combinen perfectamente con los documentos.",
-      "step_4": "**Aplicación de marcas de agua:** Utilice el método**Watermarker** para aplicar sin esfuerzo sus marcas de agua personalizadas a sus documentos. Ya sea que necesites añadir una o varias marcas de agua, este proceso ofrece flexibilidad. Para mayor seguridad, considera la posibilidad de guardar los documentos procesados en una ubicación diferente."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** es una biblioteca que simplifica la adición de marcas de agua a varios formatos de archivos comerciales para los desarrolladores de {{EnvName}}. Integre nuestra biblioteca en su aplicación y agregue marcas de agua a los documentos sin esfuerzo siguiendo estos pasos:",
+      "step_1": "**Iniciando su viaje hacia la marca de agua:** Comience familiarizándose con la clase {{TextWatermarkerBold}}, la piedra angular de nuestra API. Para comenzar el proceso, asegúrese de crear una instancia antes de procesar el documento. No pase por alto la importancia de proporcionar el archivo {{FileformatCap}} al constructor, ya sea una ruta o un objeto de secuencia.",
+      "step_2": "**Creación de marcas de agua personalizadas:** Pase a la siguiente fase creando un objeto {{TextWatermarkBold}} adaptado a sus especificaciones. Esta herramienta versátil no se limita a páginas de documentos específicas; también se puede integrar perfectamente en elementos nativos del documento, como archivos adjuntos o encabezados.",
+      "step_3": "**Ajuste de los atributos de la marca de agua:** Refine su experiencia con la marca de agua ajustando propiedades como la altura, el ancho, la alineación de la página, la familia de fuentes y el color. Este nivel de personalización garantiza que sus marcas de agua se combinen perfectamente con sus documentos.",
+      "step_4": "**Aplicación de marcas de agua:** Utilice el método {{TextWatermarkerBold}} para aplicar sin esfuerzo sus marcas de agua personalizadas a sus documentos. Ya sea que necesite agregar una o varias marcas de agua, este proceso ofrece flexibilidad. Para mayor seguridad, considere guardar sus documentos procesados ​​en una ubicación separada."
     }
   },
   "more_features": {

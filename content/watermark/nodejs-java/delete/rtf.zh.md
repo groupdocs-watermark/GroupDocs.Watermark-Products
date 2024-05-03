@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:18
 draft: false
 lang: zh
 format: Rtf
@@ -42,11 +42,11 @@ steps:
     enable: true
     title: "通过 Node.js via Java 轻松删除 Rtf 中的水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 简化了从业务文档中删除水印的过程。通过无缝集成我们的库并遵循以下简单步骤，提升您的 Node.js via Java 应用程序级别：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 简化了从业务文档中删除水印的过程。通过无缝集成我们的库并遵循以下简单步骤来提升您的 Node.js via Java 应用程序：
       
-      1. **Watermarker**来启动该过程。我们的多功能 API 可以无缝处理文档，无论是以直播形式还是本地路径提供。
-      2. **搜索条件**精确定位要解决的水印。利用图像、文本或格式化功能等各种参数来优化搜索。您的标准越详细，结果就越准确。
-      3. 对通过搜索检索到的文档水印列表执行删除流程。毫不费力地将它们从文档中删除。
+      1. 通过使用 Rtf 文档实例化核心类 **Watermarker** 来启动该过程。我们的多功能 API 无缝处理文档，无论是作为流还是本地路径提供。
+      2. 利用 **SearchCriteria** 精确定位要处理的水印。利用图像、文本或格式功能等各种参数来优化您的搜索。您的标准越详细，您的结果就越准确。
+      3. 对通过搜索检索到的文档水印列表执行删除过程。毫不费力地将它们从文档中删除。
       4. 成功删除水印后，将生成的文档安全地保存为本地文件或字节流，以保持其完整性。
    
     code:
@@ -69,7 +69,7 @@ steps:
 
         // 删除 RTF 文档中的图像水印
 
-        // 获取 Watermarker 传递 RTF 路径作为参数
+        // 获取 Watermarker 并将 RTF 路径作为参数传递
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
         
         // 按搜索条件清除图像水印
@@ -78,7 +78,7 @@ steps:
         const watermarks = watermarker.search(searchCriteria);
         watermarks.clear();
 
-        // 保存已处理的文件
+        // 保存处理后的文件
         watermarker.save("output.rtf");
         
         ```            

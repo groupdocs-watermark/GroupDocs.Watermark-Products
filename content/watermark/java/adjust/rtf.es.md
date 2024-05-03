@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: es
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Ajuste las marcas de agua de los documentos Rtf con Java"
+    title: "Ajuste las marcas de agua del documento Rtf usando Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permite a Java desarrolladores ajustar fácilmente las marcas de agua en muchos documentos mediante sus aplicaciones. Esta es una guía rápida:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permite a los desarrolladores de Java ajustar fácilmente las marcas de agua en muchos documentos utilizando sus aplicaciones. Aquí tienes una guía rápida:
       
-      1. **Watermarker**. Proporcione un flujo de bytes o archivos o una ruta de disco local.
-      2. **Criterios de búsqueda** para identificar las marcas de agua con las propiedades específicas que se agregaron anteriormente al documento.
-      3. Tras la búsqueda, recibirás una lista de las marcas de agua relevantes. A continuación, podrás ajustar sus propiedades, como el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen, etc. Esto ofrece un alto grado de personalización de sus datos.
-      4. Cuando hayas terminado de ajustar las marcas de agua, guarda el documento actualizado. Puedes usar una ruta de archivo local o una transmisión para almacenar el resultado.
+      1. En primer lugar, debe pasar el archivo Rtf como parámetro del constructor de la clase **Watermarker**. Proporcione una secuencia de bytes o archivos o una ruta de disco local.
+      2. En segundo lugar, ubique las marcas de agua que deben ajustarse. Utilice **SearchCriteria** para identificar marcas de agua con las propiedades específicas agregadas previamente al documento.
+      3. Después de la búsqueda, recibirá una lista de marcas de agua relevantes. Luego puede ajustar sus propiedades, incluido el tamaño, la alineación de la página, el texto, el color, el contenido de la imagen y más. Esto ofrece un alto grado de personalización de sus datos.
+      4. Una vez que haya terminado de ajustar las marcas de agua, guarde el documento actualizado. Puede utilizar una ruta de archivo local o una secuencia para almacenar el resultado.
    
     code:
       platform: "net"
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // Ajustar la marca de agua de la imagen RTF
 
-        // Crea una instancia de Watermarker con RTF
+        // Crear una instancia de Watermarker con RTF
         Watermarker watermarker = new Watermarker("input.rtf");
         
-        // Inicialice los criterios de búsqueda para que coincidan con una imagen en particular
+        // Inicialice SearchCriteria para que coincida con una imagen en particular
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 

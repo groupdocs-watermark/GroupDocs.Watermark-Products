@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: pt
 format: Word
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Word Exclusão de marcas d'água usando Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fornece a Node.js via Java desenvolvedores uma API abrangente para a exclusão programática de marcas d'água específicas incorporadas em vários documentos Word. Este guia se aprofunda no processo técnico:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fornece aos desenvolvedores do Node.js via Java uma API abrangente para a exclusão programática de marcas d'água específicas incorporadas em vários documentos do Word. Este guia se aprofunda no processo técnico:
       
-      1. **Watermarker** e fornecendo seu arquivo Word como argumento do construtor. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência de caminho para um local de disco local.
-      2. **SearchCriteria**. Esse objeto facilita a construção de filtros complexos com base em propriedades previamente incorporadas ao documento. Você pode utilizar uma imagem como parâmetro de pesquisa junto com atributos de texto ou formatação para permitir um processo de seleção altamente granular.
+      1. Inicie o fluxo de trabalho instanciando a classe **Watermarker** e fornecendo seu arquivo Word como argumento do construtor. O arquivo pode ser fornecido como um fluxo de bytes, um fluxo de arquivos ou uma referência de caminho para um local de disco local.
+      2. Para obter uma segmentação precisa da marca d'água, aproveite os recursos do objeto **SearchCriteria**. Este objeto facilita a construção de filtros complexos baseados em propriedades previamente incorporadas ao documento. Você pode utilizar uma imagem como parâmetro de pesquisa junto com texto ou atributos de formatação para permitir um processo de seleção altamente granular.
       3. Após a execução da pesquisa, você receberá uma coleção de marcas d'água identificadas. Essas marcas d'água podem ser excluídas facilmente.
-      4. Após a exclusão bem-sucedida da marca d'água, mantenha o documento modificado. A API oferece flexibilidade de armazenamento, permitindo que você utilize um caminho de arquivo local ou um objeto de fluxo para a saída final.
+      4. Após a exclusão bem-sucedida da marca d’água, persista o documento modificado. A API fornece flexibilidade de armazenamento, permitindo utilizar um caminho de arquivo local ou um objeto de fluxo para a saída final.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // Excluir marca d'água de texto no documento Word
 
-        // Instancie o Watermarker com o documento Word
+        // Instancie Watermarker com documento Word
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Marcas d'água de texto não criptografado se adequam às condições de pesquisa
+        // Marcas d'água de texto simples atendem às condições de pesquisa
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);

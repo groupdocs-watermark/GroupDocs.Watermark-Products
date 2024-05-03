@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Rimuovi la filigrana dell'immagine nel documento {{FileFormatUp}}",
-    "comment_2": "Crea un'istanza di Watermarker che passa il documento {{FileFormatUp}}",
-    "comment_3": "Rimuovi le filigrane che sono state trovate nel documento",
+    "comment_2": "Istanzia {{TextWatermarker}} passando il documento {{FileFormatUp}}",
+    "comment_3": "Rimuovi le filigrane trovate nel documento",
     "comment_4": "Salva il documento"
   },
   "steps": {
-    "title": "Rimuovi le filigrane a livello di codice dai documenti {{FileformatCap}} usando {{EnvName}}",
+    "title": "Rimuovi a livello di codice le filigrane dai documenti {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** consente agli {{EnvName}} sviluppatori di rimuovere programmaticamente le filigrane da vari documenti {{FileformatCap}}. Questa guida illustra il processo:",
-      "step_1": "**Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.",
-      "step_2": "**SearchCriteria** per identificare le filigrane specifiche da rimuovere. Questo oggetto consente il filtraggio delle filigrane in base alle proprietà precedentemente incorporate nel documento. È possibile utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione per una ricerca altamente granulare.",
-      "step_3": "Una volta completata la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di eseguire l'operazione di rimozione.",
-      "step_4": "Al termine della rimozione della filigrana, persiste il documento modificato. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** consente agli sviluppatori di {{EnvName}} di rimuovere a livello di codice le filigrane da vari documenti {{FileformatCap}}. Questa guida descrive il processo:",
+      "step_1": "Avvia il flusso di lavoro fornendo il tuo file {{FileformatCap}} come argomento al costruttore della classe {{TextWatermarkerBold}}. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.",
+      "step_2": "Sfrutta la potenza dell'oggetto {{TextSearchCriteriaBold}} per identificare le filigrane specifiche che richiedono la rimozione. Questo oggetto consente di filtrare le filigrane in base alle proprietà precedentemente incorporate nel documento. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione per una ricerca altamente granulare.",
+      "step_3": "Dopo una ricerca riuscita, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, consentendo di eseguire l'operazione di rimozione.",
+      "step_4": "Una volta completata la rimozione della filigrana, rendere persistente il documento modificato. L'API facilita l'archiviazione utilizzando un percorso file locale o un oggetto flusso."
     }
   },
   "more_features": {

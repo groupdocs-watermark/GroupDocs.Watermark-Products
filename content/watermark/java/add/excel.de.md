@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:56
+date:  2024-05-03T13:37:04
 draft: false
 lang: de
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Wasserzeichen zu Excel Dokument hinzufügen über Java"
+    title: "Wasserzeichen zum Excel-Dokument hinzufügen über Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** macht es Java Entwicklern leicht, Wasserzeichen verschiedener Typen zu gängigen Geschäftsdateiformaten hinzuzufügen. Fügen Sie in wenigen einfachen Schritten unsere Bibliothek zu Ihrer Anwendung hinzu und versehen Sie Dokumente mit Wasserzeichen, wie unten aufgeführt.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** erleichtert Java-Entwicklern das Hinzufügen von Wasserzeichen verschiedener Art zu gängigen Geschäftsdateiformaten. Fügen Sie unsere Bibliothek in ein paar einfachen Schritten zu Ihren Bewerbungs- und Wasserzeichendokumenten hinzu, wie unten aufgeführt.
       
-      1. **Watermarker**. Sie müssen es vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, die Datei Excel als Pfad- oder Stream-Objekt an den Konstruktor zu übergeben.
-      2. **Watermark**-Objekts des gewünschten Typs. Es kann nicht nur auf einer bestimmten Dokumentseite platziert werden, sondern auch in systemeigenen Dokumentteilen wie Anhängen oder Kopfzeilen.
-      3. Stellen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Seitenausrichtung (oben, links, mittig usw.), Schriftfamilie und Farbe und viele andere ein.
-      4. **Watermarker** auf, um ein neues Wasserzeichen hinzuzufügen. Sie können so viele Wasserzeichen hinzufügen, wie Sie benötigen. Es wird empfohlen, das verarbeitete Dokument an einem anderen Ort zu speichern.
+      1. Die Hauptklasse unserer API ist **Watermarker**. Sie müssen es vor der Dokumentverarbeitung instanziieren. Vergessen Sie nicht, die Datei Excel als Pfad oder Stream-Objekt an den Konstruktor zu übergeben.
+      2. Der nächste Schritt besteht darin, ein **Watermark**-Objekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite, sondern auch in nativen Dokumentteilen wie Anhängen oder Kopfzeilen platziert werden.
+      3. Legen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Seitenausrichtung (oben, links, mittig usw.), Schriftfamilie und -farbe und viele andere fest.
+      4. Rufen Sie die Methode **Watermarker** auf, um ein neues Wasserzeichen hinzuzufügen. Sie können so viele Wasserzeichen hinzufügen, wie Sie benötigen. Es wird empfohlen, das verarbeitete Dokument an einem anderen Ort zu speichern.
    
     code:
       platform: "net"
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Fügt ein Textwasserzeichen zu EXCEL hinzu
+        // Textwasserzeichen zu EXCEL hinzufügen
 
         // Übergeben Sie die Datei, die mit einem Wasserzeichen versehen werden soll, an Watermarker
         Watermarker watermarker = new Watermarker("input.xslx");
         
-        // Textwasserzeichen erstellen und Eigenschaften einrichten
+        // Erstellen Sie ein Textwasserzeichen und richten Sie Eigenschaften ein
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 

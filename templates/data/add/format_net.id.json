@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Hasilkan tanda air gambar dalam file {{FileFormatUp}}",
-    "comment_2": "Berikan jalur file sumber ke konstruktor Watermarker",
+    "comment_2": "Berikan jalur file sumber ke konstruktor {{TextWatermarker}}",
     "comment_3": "Hasilkan contoh tanda air gambar dengan file gambar",
-    "comment_4": "Simpan hasil {{FileFormatUp}} yang ditandai dengan tanda air"
+    "comment_4": "Simpan hasil {{FileFormatUp}} yang diberi watermark"
   },
   "steps": {
-    "title": "Menghasilkan Watermark dengan Mudah untuk {{FileformatCap}} Dokumen",
+    "title": "Menghasilkan Tanda Air dengan Mudah untuk Dokumen {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Pustaka Watermarking Tingkat Lanjut untuk aplikasi {{EnvName}}. Berdayakan solusi Anda dan amankan dokumen dengan tanda air tepat waktu.",
-      "step_1": "**Kelas Inti: Watermarker.** Kelas utama API kami adalah **Watermarker**. Anda perlu membuat instansiasinya sebelum pemrosesan dokumen. Jangan lupa untuk meneruskan file {{FileformatCap}} ke konstruktor sebagai jalur atau objek aliran.",
-      "step_2": "**Membuat Watermark Anda.** Langkah selanjutnya adalah membangun objek Watermark dari jenis yang diinginkan. Hal ini dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti gambar atau header.",
-      "step_3": "**Penampilan Penyetelan Sempurna.** Atur properti tanda air seperti tinggi dan lebar, atas, kiri, keselarasan tengah, font dan warna, dll.",
-      "step_4": "**Menerapkan dan Menyimpan.** Gunakan metode **Watermarker** untuk menambahkan tanda air baru. Jangan ragu untuk menambahkan tanda air sebanyak yang Anda butuhkan. Anda dapat menyimpan dokumen yang diberi tanda air ke lokasi mana pun."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Pustaka Watermarking tingkat lanjut untuk aplikasi {{EnvName}}. Berdayakan solusi Anda dan amankan dokumen dengan tanda air tepat pada waktunya.",
+      "step_1": "**Kelas Inti: Watermarker.** Kelas utama API kami adalah {{TextWatermarkerBold}}. Anda perlu membuat instance sebelum pemrosesan dokumen. Jangan lupa meneruskan file {{FileformatCap}} ke konstruktor sebagai jalur atau objek aliran.",
+      "step_2": "**Membuat Tanda Air Anda.** Langkah selanjutnya adalah membuat objek Tanda Air dengan jenis yang diinginkan. Itu dapat ditempatkan tidak hanya pada halaman dokumen tertentu tetapi juga di bagian dokumen asli seperti gambar atau header.",
+      "step_3": "**Penyempurnaan Tampilan.** Mengatur properti tanda air seperti tinggi dan lebar, perataan atas, kiri, tengah, font dan warna, dll.",
+      "step_4": "**Menerapkan dan Menyimpan.** Gunakan metode {{TextWatermarkerBold}} untuk menambahkan tanda air baru. Jangan ragu untuk menambahkan tanda air sebanyak yang Anda butuhkan. Anda dapat menyimpan dokumen yang diberi tanda air ke lokasi mana pun."
     }
   },
   "more_features": {

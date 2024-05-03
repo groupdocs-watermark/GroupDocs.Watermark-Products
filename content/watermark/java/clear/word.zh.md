@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: zh
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 Java 清除 Word 个文档中的水印"
+    title: "使用 Java 清除 Word 文档的水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 可以轻松清除业务文档中先前添加的水印。通过安装我们的库来增强您的 Java 应用程序，只需几个简单的步骤即可完成：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 Java 应用程序的能力，并通过几个简单的步骤完成：
       
-      1. **Watermarker** 的主类。我们的 API 支持将文档作为流或本地路径进行处理。
-      2. **搜索条件**来限制要处理的水印集。可以将图像用作搜索参数以及文本或格式化功能。然后，您提供更具体的搜索参数，然后获得更精确的结果。
-      3. 处理您作为搜索结果获得的文档水印的列表。清除文档。
-      4. 清除文档后，将结果保存为本地文件或字节流。
+      1. 首先使用 Word 文档实例化名为 **Watermarker** 的主类。我们的 API 支持将要处理的文档作为流或本地路径传递。
+      2. 使用 **SearchCriteria** 限制要处理的水印集。可以使用图像作为搜索参数以及文本或格式化特征。然后您提供更具体的搜索参数，然后您获得更精确的结果。
+      3. 处理作为搜索结果获得的文档水印列表。清除文档。
+      4. 清除文档后将结果保存为本地文件或字节流。
    
     code:
       platform: "net"
@@ -82,16 +82,16 @@ steps:
       content: |
         ```java {style=abap}
 
-        // 清除 Word 文档中的文本水印
+        // Word 文档中的清除文本水印
 
-        // 使用 Word 文档实例化水印
+        // 使用 Word 文档实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
         
         // 清除特定水印
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 
-        // 保存已处理的文件
+        // 保存处理后的文件
         watermarker.save("output.docx");
         
         ```    

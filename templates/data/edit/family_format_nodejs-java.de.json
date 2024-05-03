@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "{{FileFormatUp}} Textwasserzeichen aktualisieren",
-    "comment_2": "Stellen Sie eine Watermarker-Instanz für die Datei {{FileFormatUp}} bereit",
-    "comment_3": "Verwenden Sie TextSearchCriteria, um Textwasserzeichen zu finden",
+    "comment_1": "Aktualisieren Sie das Textwasserzeichen {{FileFormatUp}}",
+    "comment_2": "Stellen Sie die Instanz {{TextWatermarker}} für die Datei {{FileFormatUp}} bereit",
+    "comment_3": "Verwenden Sie {{TextTextSearchCriteria}}, um Textwasserzeichen zu finden",
     "comment_4": "Textwasserzeichen aktualisieren",
-    "comment_5": "Genieße das Ergebnis"
+    "comment_5": "Genießen Sie das Ergebnis"
   },
   "steps": {
     "title": "Wasserzeichen in {{FileFormatUp}} über {{EnvName}} aktualisieren",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** stattet {{EnvName}} Entwickler mit einer robusten API für die programmatische Aktualisierung von Wasserzeichen in verschiedenen {{FileFormatUp}} Dokumenten aus. Dieses Handbuch beschreibt den Prozess:",
-      "step_1": "**Watermarker** angeben. Je nach Ihren Anforderungen kann die Datei entweder als Stream oder als Referenz auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
-      "step_2": "**SearchCriteria**, um die spezifischen Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses Objekt ermöglicht die Lokalisierung von Wasserzeichen auf der Grundlage der gewünschten Eigenschaften.",
-      "step_3": "Nach erfolgreicher Ausführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr aktualisieren können.",
-      "step_4": "Behalten Sie das geänderte Dokument nach Abschluss der Wasserzeichenaktualisierungen bei. Die API erleichtert die Speicherung entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** stattet {{EnvName}}-Entwickler mit einer robusten API für die programmgesteuerte Aktualisierung von Wasserzeichen in verschiedenen {{FileFormatUp}}-Dokumenten aus. Dieser Leitfaden beschreibt den Prozess:",
+      "step_1": "Starten Sie den Prozess, indem Sie Ihre {{FileFormatUp}}-Datei als Argument für den Klassenkonstruktor {{TextWatermarkerBold}} bereitstellen. Abhängig von Ihren Anforderungen kann die Datei entweder als Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
+      "step_2": "Anschließend nutzen Sie das Objekt {{TextSearchCriteriaBold}}, um die spezifischen Wasserzeichen zu identifizieren, die geändert werden müssen. Dieses Objekt ermöglicht die Lokalisierung von Wasserzeichen anhand der gewünschten Eigenschaften.",
+      "step_3": "Nach erfolgreicher Durchführung der Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle und ermöglichen Ihnen die Aktualisierung von Eigenschaften wie Abmessungen, Seitenpositionierung, Textinhalt, Farbschema, Bilddaten und mehr.",
+      "step_4": "Nach Abschluss der Wasserzeichenaktualisierungen behalten Sie das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt."
     }
   },
   "more_features": {

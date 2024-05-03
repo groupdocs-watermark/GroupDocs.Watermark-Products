@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:09
+date:  2024-05-03T13:37:16
 draft: false
 lang: pt
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Proteja documentos comerciais: gere Doc marcas d'água"
+    title: "Proteja documentos comerciais: gere marcas d'água Doc"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** - Uma poderosa solução de geração de marca d'água para Node.js via Java.
+      Fortaleça a segurança de documentos com **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** - Uma poderosa solução de geração de marca d'água para Node.js via Java.
       
-      1. **Simplifique a marca d'água segura em seus Node.js via Java aplicativos:** A classe **Watermarker** atua como o componente principal da API GroupDocs.Watermark. Essa biblioteca simplifica a geração de marcas d'água em vários formatos de documentos, incluindo Doc. Para começar, crie uma instância do Watermarker antes de processar seu documento. Forneça o caminho do arquivo Doc ou um objeto de fluxo para o construtor durante a inicialização.
-      2. **Gere marcas d'água para maior proteção:** Fortaleça marcas d'água que se alinhem perfeitamente às suas necessidades de segurança. Construa um objeto**Watermark** especificando o tipo desejado. Ao contrário do posicionamento tradicional de páginas, você pode incorporar marcas d'água em elementos nativos do documento, como cabeçalhos ou anexos, fortalecendo a segurança do documento e adicionando um toque profissional.
-      3. **Ajuste a aparência da marca d'água para um impacto ideal:** Controle os aspectos visuais de suas marcas d'água. Personalize propriedades como altura, largura, alinhamento (superior, esquerdo, centro etc.), famílias de fontes e cores para obter um resultado visualmente eficaz e consistente que reforce a legitimidade do documento.
-      4. **Aplicação de marca d'água e armazenamento seguro**: incorpore suas marcas d'água usando o método**WaterMarker's**. A biblioteca permite que você adicione várias marcas d'água, se necessário, para melhorar a proteção. É recomendável salvar o documento Doc modificado em um local separado e seguro para preservar o arquivo original e proteger seus documentos com marca d'água.
+      1. **Simplifique a criação de marcas d'água seguras em seus aplicativos Node.js via Java:** A classe **Watermarker** atua como o componente principal da API GroupDocs.Watermark. Esta biblioteca simplifica a geração de marcas d'água em vários formatos de documentos, incluindo Doc. Para começar, crie uma instância Watermarker antes de processar seu documento. Forneça o caminho do arquivo Doc ou um objeto de fluxo para o construtor durante a inicialização.
+      2. **Gere marcas d'água para proteção aprimorada:** Capacite marcas d'água que se alinham perfeitamente às suas necessidades de segurança. Construa um objeto **Watermark** especificando o tipo desejado. Ao contrário do posicionamento de página tradicional, você pode incorporar marcas d'água em elementos nativos do documento, como cabeçalhos ou anexos, fortalecendo a segurança do documento e adicionando um toque profissional.
+      3. **Ajuste a aparência da marca d'água para obter o impacto ideal:** Controle os aspectos visuais de suas marcas d'água. Personalize propriedades como altura, largura, alinhamento (superior, esquerdo, centro, etc.), famílias de fontes e cores para obter um resultado visualmente eficaz e consistente que reforça a legitimidade do documento.
+      4. **Aplicação de marca d'água e armazenamento seguro**: incorpore suas marcas d'água usando o método **Watermarker**. A biblioteca permite adicionar várias marcas d'água, se necessário, para proteção aprimorada. É recomendado salvar o documento Doc modificado em um local separado e seguro para preservar o arquivo original e proteger seus documentos com marca d'água.
    
     code:
       platform: "net"
@@ -67,15 +67,15 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Gere marca d'água de imagem para DOC
+        // Gerar marca d'água de imagem para DOC
 
-        // Instanciar o Watermarker passando o arquivo de origem
+        // Instancie Watermarker passando o arquivo de origem
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
         
         // Gere marca d'água fornecendo arquivo de imagem
         const watermark = new groupdocs.watermark.ImageWatermark("watermark.png");
 
-        // Obtenha DOC resultado
+        // Obtenha o resultado DOC
         watermarker.add(watermark);
         watermarker.save("output.doc");
         

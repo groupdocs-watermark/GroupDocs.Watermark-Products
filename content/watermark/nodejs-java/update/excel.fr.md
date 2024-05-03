@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: fr
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Mettre à jour les filigranes dans EXCEL via Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** fournit aux développeurs Node.js via Java une API robuste pour mettre à jour par programmation les filigranes dans divers documents EXCEL. Ce guide décrit le processus :
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** équipe les développeurs Node.js via Java d'une API robuste pour mettre à jour par programmation les filigranes dans divers documents EXCEL. Ce guide décrit le processus :
       
-      1. **Watermarker**. En fonction de vos besoins, le fichier peut être fourni sous forme de flux ou de référence à un emplacement de disque local.
-      2. **SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet de localiser les filigranes en fonction des propriétés souhaitées.
-      3. Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de mettre à jour des propriétés telles que les dimensions, le positionnement des pages, le contenu du texte, la palette de couleurs, les données d'image, etc.
-      4. Une fois les mises à jour des filigranes terminées, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux.
+      1. Démarrez le processus en fournissant votre fichier EXCEL comme argument au constructeur de classe **Watermarker**. En fonction de vos demandes, le fichier peut être fourni sous forme de flux ou de référence à un emplacement de disque local.
+      2. Ensuite, exploitez l'objet **SearchCriteria** pour identifier les filigranes spécifiques nécessitant une modification. Cet objet permet de localiser les filigranes en fonction des propriétés souhaitées.
+      3. Une fois la recherche exécutée avec succès, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant de mettre à jour des propriétés telles que les dimensions, le positionnement de la page, le contenu du texte, la palette de couleurs, les données d'image, etc.
+      4. Une fois les mises à jour des filigranes terminées, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Mettre à jour le filigrane de texte EXCEL
 
-        // Fournir une instance de filigrane pour le fichier EXCEL
+        // Fournir une instance Watermarker pour le fichier EXCEL
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
 
         // Utilisez TextSearchCriteria pour rechercher des filigranes de texte
@@ -77,7 +77,7 @@ steps:
             new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
         
-        // Mettre à jour le filigrane de texte
+        // Mettre à jour le filigrane du texte
         for (const watermark of watermarks.getInnerList().toArray())
         {
             watermark.setText("passed");

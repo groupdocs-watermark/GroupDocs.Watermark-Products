@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: pt
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Doc Pesquisa de marcas d'água via Java"
+    title: "Doc Pesquisa de marcas d'água por meio de Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica o processo de localização de marcas d'água em documentos comerciais. Instale nosso pacote em seus Java aplicativos para aproveitar seus benefícios.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** simplifica o processo de localização de marcas d'água em documentos comerciais. Instale nosso pacote em seus aplicativos Java para aproveitar seus benefícios.
       
-      1. **Watermarker**. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.
-      2. **SearchCriteria**. Por exemplo, forneça uma imagem para pesquisar marcas d'água semelhantes. Se estiver procurando por marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.
-      3. **Search** do objeto **Watermarker**. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.
-      4. Finalmente, você tem a liberdade de manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar o tamanho ou o texto.
+      1. Para utilizar os recursos de nossa biblioteca, carregue o arquivo Doc em uma instância da classe **Watermarker**. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.
+      2. Para restringir a lista de possíveis marcas d'água, utilize o objeto **SearchCriteria**. Por exemplo, forneça uma imagem para pesquisar marcas d'água de imagens semelhantes. Se estiver pesquisando marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.
+      3. Recupere marcas d'água colocadas no documento usando o método **Search** do objeto **Watermarker**. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.
+      4. Finalmente, você tem a liberdade de manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar tamanho ou texto.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Pesquisar marcas d'água de imagens no documento DOC
+        // Pesquise marcas d'água de imagem no documento DOC
 
-        // Compor o documento Watermarker passando DOC
+        // Componha Watermarker passando o documento DOC
         Watermarker watermarker = new Watermarker("input.doc");
         
         // Pesquise marcas d'água por hash de imagem
@@ -91,7 +91,7 @@ steps:
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Processar marcas d'água encontradas
+        // Processo encontrou marcas d'água
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

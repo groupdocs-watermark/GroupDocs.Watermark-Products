@@ -1,17 +1,17 @@
 {
   "examples": {
     "comment_1": "Hapus tanda air teks dari dokumen {{FileformatCap}}",
-    "comment_2": "Menyediakan contoh Watermarker untuk dokumen sumber dokumen {{FileformatCap}}",
+    "comment_2": "Berikan instance {{TextWatermarker}} untuk dokumen sumber {{FileformatCap}}",
     "comment_3": "Hapus tanda air yang dipilih dari dokumen",
     "comment_4": "Simpan file ke jalur yang disediakan"
   },
   "steps": {
-    "title": "Hapus Watermark dari {{FileformatCap}} Dokumen Menggunakan {{EnvName}}",
+    "title": "Hapus Tanda Air dari Dokumen {{FileformatCap}} Menggunakan {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menyederhanakan tugas menghapus tanda air dari dokumen bisnis. Berdayakan aplikasi {{EnvName}} Anda dengan mengintegrasikan perpustakaan kami dan ikuti langkah-langkah sederhana ini:",
-      "step_1": "**Watermarker**, dengan dokumen {{FileformatCap}}. API kami mendukung pemrosesan dokumen yang disediakan baik sebagai aliran atau jalur lokal.",
-      "step_2": "**Kriteria pencari** untuk mempersempit kumpulan tanda air yang akan diproses. Anda dapat menggunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan. Semakin spesifik parameter pencarian yang Anda berikan, semakin tepat hasil yang Anda dapatkan.",
-      "step_3": "Memproses daftar tanda air dokumen yang diperoleh sebagai hasil pencarian dan hapus dari dokumen.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menyederhanakan tugas menghapus tanda air dari dokumen bisnis. Berdayakan aplikasi {{EnvName}} Anda dengan mengintegrasikan perpustakaan kami dan ikuti langkah-langkah sederhana berikut:",
+      "step_1": "Mulailah dengan membuat instance kelas utama, {{TextWatermarkerBold}}, dengan dokumen {{FileformatCap}}. API kami mendukung pemrosesan dokumen yang disediakan sebagai aliran atau jalur lokal.",
+      "step_2": "Gunakan {{TextSearchCriteriaBold}} untuk mempersempit kumpulan tanda air yang akan diproses. Anda dapat menggunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan. Semakin spesifik parameter pencarian yang Anda berikan, semakin tepat hasil yang Anda peroleh.",
+      "step_3": "Memproses daftar tanda air dokumen yang diperoleh sebagai hasil pencarian dan menghapusnya dari dokumen.",
       "step_4": "Setelah menghapus tanda air, simpan dokumen yang dihasilkan sebagai file lokal atau aliran byte."
     }
   },

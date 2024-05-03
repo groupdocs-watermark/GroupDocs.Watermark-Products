@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Xóa hình mờ văn bản trong tài liệu {{FileformatCap}}",
-    "comment_2": "Khởi tạo Watermarker với tài liệu {{FileformatCap}}",
-    "comment_3": "Hình mờ văn bản rõ ràng phù hợp với điều kiện tìm kiếm",
+    "comment_2": "Khởi tạo {{TextWatermarker}} bằng tài liệu {{FileformatCap}}",
+    "comment_3": "Xóa hình mờ văn bản phù hợp với điều kiện tìm kiếm",
     "comment_4": "Lưu tập tin đã xử lý"
   },
   "steps": {
     "title": "{{FileformatCap}} Xóa hình mờ bằng cách sử dụng {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** cung cấp cho {{EnvName}} nhà phát triển một API toàn diện để xóa theo chương trình các hình mờ cụ thể được nhúng trong các tài liệu {{FileformatCap}} khác nhau. Hướng dẫn này đi sâu vào quy trình kỹ thuật:",
-      "step_1": "**Watermarker** và cung cấp tệp {{FileformatCap}} của bạn dưới dạng đối số constructor. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đường dẫn đến vị trí đĩa cục bộ.",
-      "step_2": "**SearchCriteria**. Đối tượng này tạo điều kiện cho việc xây dựng các bộ lọc phức tạp dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với văn bản hoặc thuộc tính định dạng để kích hoạt quy trình lựa chọn chi tiết cao.",
-      "step_3": "Sau khi thực hiện tìm kiếm, bạn sẽ nhận được một bộ sưu tập các hình mờ được xác định. Những hình mờ này có thể bị xóa dễ dàng.",
-      "step_4": "Sau khi xóa hình mờ thành công, hãy giữ nguyên tài liệu đã sửa đổi. API cung cấp tính linh hoạt lưu trữ, cho phép bạn sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng cho đầu ra cuối cùng."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** cung cấp cho nhà phát triển {{EnvName}} một API toàn diện để xóa theo chương trình các hình mờ cụ thể được nhúng trong nhiều tài liệu {{FileformatCap}} khác nhau. Hướng dẫn này đi sâu vào quy trình kỹ thuật:",
+      "step_1": "Bắt đầu quy trình làm việc bằng cách khởi tạo lớp {{TextWatermarkerBold}} và cung cấp tệp {{FileformatCap}} của bạn làm đối số hàm tạo. Tệp có thể được cung cấp dưới dạng luồng byte, luồng tệp hoặc tham chiếu đường dẫn đến vị trí đĩa cục bộ.",
+      "step_2": "Để nhắm mục tiêu hình mờ chính xác, hãy tận dụng khả năng của đối tượng {{TextSearchCriteriaBold}}. Đối tượng này tạo điều kiện thuận lợi cho việc xây dựng các bộ lọc phức tạp dựa trên các thuộc tính được nhúng trước đó trong tài liệu. Bạn có thể sử dụng hình ảnh làm tham số tìm kiếm cùng với các thuộc tính văn bản hoặc định dạng để cho phép quá trình lựa chọn có độ chi tiết cao.",
+      "step_3": "Sau khi thực hiện tìm kiếm, bạn sẽ nhận được một bộ sưu tập các hình mờ đã được xác định. Những hình mờ này có thể bị xóa dễ dàng.",
+      "step_4": "Sau khi xóa hình mờ thành công, hãy duy trì tài liệu đã sửa đổi. API cung cấp tính linh hoạt về lưu trữ, cho phép bạn sử dụng đường dẫn tệp cục bộ hoặc đối tượng luồng cho đầu ra cuối cùng."
     }
   },
   "more_features": {

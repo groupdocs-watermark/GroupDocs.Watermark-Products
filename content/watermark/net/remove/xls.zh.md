@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:15
 draft: false
 lang: zh
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 .NET 以编程方式从 Xls 个文档中移除水印"
+    title: "使用 .NET 以编程方式从 Xls 文档中删除水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 使 .NET 开发人员能够以编程方式从各种 Xls 文档中删除水印。本指南概述了流程：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 使 .NET 开发人员能够以编程方式从各种 Xls 文档中删除水印。本指南概述了该过程：
       
-      1. **Watermarker** 类构造函数来启动工作流程。该文件可以作为字节流、文件流或对本地磁盘位置的引用提供。
-      2. **SearchCriteria**对象的强大功能来识别需要删除的特定水印。此对象允许根据先前嵌入在文档中的属性过滤水印。您可以将图像与文本或格式属性一起用作搜索参数，以进行高度精细的搜索。
-      3. 成功搜索后，您将收到一系列相关的水印。这些水印提供精细控制，允许您执行删除操作。
-      4. 完成水印删除后，保留修改后的文档。该 API 使用本地文件路径或流对象来促进存储。
+      1. 通过将您的 Xls 文件作为参数提供给 **Watermarker** 类构造函数来启动工作流程。该文件可以作为字节流、文件流或对本地磁盘位置的引用提供。
+      2. 利用 **SearchCriteria** 对象的强大功能来识别需要删除的特定水印。该对象允许根据先前嵌入文档中的属性来过滤水印。您可以将图像与文本或格式属性一起用作搜索参数，以进行高度精细的搜索。
+      3. 成功搜索后，您将收到一组相关水印。这些水印提供精细控制，允许您执行删除操作。
+      4. 水印去除完成后，保留修改后的文档。 API 使用本地文件路径或流对象促进存储。
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // 移除 XLS 文档中的图像水印
+        // 删除 XLS 文档中的图像水印
 
-        // 通过 XLS 文档实例化 Watermarker
+        // 实例化 Watermarker 传递 XLS 文档
         using (Watermarker watermarker = new Watermarker("input.xls"))
         {
-            // 移除在文档中找到的水印
+            // 删除文档中发现的水印
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:06
+date:  2024-05-03T13:37:13
 draft: false
 lang: zh
 format: Png
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "轻松为 Png 个文档生成水印"
+    title: "轻松为 Png 文档生成水印"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** 适用于 .NET 应用程序的高级水印库。及时使用水印为您的解决方案和保护文档提供支持。
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** .NET 应用程序的高级水印库。及时为您的解决方案提供支持并使用水印保护文档。
       
-      1. **核心类：水印。** 我们 API 的主要类是**水印**。您需要在处理文档之前对其进行实例化。不要忘记将 Png 文件作为路径或流对象传递给构造函数。
-      2. **制作您的水印。** 下一步是构造所需类型的水印对象。它不仅可以放在特定的文档页面上，还可以放在图像或标题等原生文档部分中。
-      3. **微调外观。**设置水印属性，例如高度和宽度、顶部、左侧、中心对齐方式、字体和颜色等。
-      4. **应用并保存。** 使用**水印**方法添加新水印。您可以根据需要添加任意数量的水印。您可以将带水印的文档保存到任何位置。
+      1. **核心类：Watermarker。** 我们 API 的主类是 **Watermarker**。您需要在文档处理之前实例化它。不要忘记将 Png 文件作为路径或流对象传递给构造函数。
+      2. **制作您的水印。** 下一步是构造所需类型的水印对象。它不仅可以放置在特定的文档页面上，还可以放置在图像或标题等本机文档部分中。
+      3. **微调外观。** 设置水印属性，例如高度和宽度、顶部、左侧、中心对齐、字体和颜色等。
+      4. **应用并保存。** 使用 **Watermarker** 方法添加新水印。您可以根据需要随意添加任意数量的水印。您可以将带水印的文档保存到任何位置。
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
         ```csharp {style=abap}
         // 在 PNG 文件中生成图像水印
 
-        // 为 Watermarker 构造器提供源文件路径
+        // 为 Watermarker 构造函数提供源文件路径
         using (Watermarker watermarker = new Watermarker("input.png"))
         {
-            // 使用图像文件生成图像水印实例
+            // 用图像文件生成图像水印实例
             using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
             {
                 watermarker.Add(watermark);

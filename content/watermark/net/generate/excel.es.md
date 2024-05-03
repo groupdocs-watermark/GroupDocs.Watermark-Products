@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:06
 draft: false
 lang: es
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Mejore sus documentos: genere marcas de agua para Excel con .NET"
+    title: "Mejore sus documentos: genere marcas de agua para Excel usando .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** es una biblioteca que simplifica la adición de marcas de agua a varios formatos de archivos empresariales para .NET desarrolladores. Integre nuestra biblioteca en su aplicación y añada fácilmente marcas de agua a los documentos siguiendo estos pasos:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** es una biblioteca que simplifica la adición de marcas de agua a varios formatos de archivos comerciales para los desarrolladores de .NET. Integre nuestra biblioteca en su aplicación y agregue marcas de agua a los documentos sin esfuerzo siguiendo estos pasos:
       
-      1. **Iniciando tu viaje con marcas de agua:** Empieza por familiarizarte con la clase**Watermarker**, la piedra angular de nuestra API. Para comenzar el proceso, asegúrate de crear una instancia antes de procesar el documento. No pases por alto la importancia de proporcionar el archivo Excel al constructor, ya sea una ruta o un objeto de flujo.
-      2. **Elaboración de marcas de agua personalizadas:** Pase a la siguiente fase creando un objeto**Watermark** adaptado a sus especificaciones. Esta versátil herramienta no se limita a páginas de documentos específicas; también se puede integrar sin problemas en los elementos nativos del documento, como los archivos adjuntos o los encabezados.
-      3. **Ajustar los atributos de las marcas de agua:** Refina tu experiencia con las marcas de agua ajustando propiedades como la altura, el ancho, la alineación de las páginas, la familia de fuentes y el color. Este nivel de personalización garantiza que las marcas de agua se combinen perfectamente con los documentos.
-      4. **Aplicación de marcas de agua:** Utilice el método**Watermarker** para aplicar sin esfuerzo sus marcas de agua personalizadas a sus documentos. Ya sea que necesites añadir una o varias marcas de agua, este proceso ofrece flexibilidad. Para mayor seguridad, considera la posibilidad de guardar los documentos procesados en una ubicación diferente.
+      1. **Iniciando su viaje hacia la marca de agua:** Comience familiarizándose con la clase **Watermarker**, la piedra angular de nuestra API. Para comenzar el proceso, asegúrese de crear una instancia antes de procesar el documento. No pase por alto la importancia de proporcionar el archivo Excel al constructor, ya sea una ruta o un objeto de secuencia.
+      2. **Creación de marcas de agua personalizadas:** Pase a la siguiente fase creando un objeto **Watermark** adaptado a sus especificaciones. Esta herramienta versátil no se limita a páginas de documentos específicas; también se puede integrar perfectamente en elementos nativos del documento, como archivos adjuntos o encabezados.
+      3. **Ajuste de los atributos de la marca de agua:** Refine su experiencia con la marca de agua ajustando propiedades como la altura, el ancho, la alineación de la página, la familia de fuentes y el color. Este nivel de personalización garantiza que sus marcas de agua se combinen perfectamente con sus documentos.
+      4. **Aplicación de marcas de agua:** Utilice el método **Watermarker** para aplicar sin esfuerzo sus marcas de agua personalizadas a sus documentos. Ya sea que necesite agregar una o varias marcas de agua, este proceso ofrece flexibilidad. Para mayor seguridad, considere guardar sus documentos procesados ​​en una ubicación separada.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // Generar marca de agua de texto en el archivo EXCEL
 
-        // Proporcione el archivo para ponerle una marca de agua
+        // Proporcionar un archivo para ponerle una marca de agua
         using (Watermarker watermarker = new Watermarker("input.xslx"))
         {
             // Generar instancia de marca de agua de texto
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Guardar EXCEL resultado
+            // Guardar resultado de EXCEL
             watermarker.Save("output.xslx");
         }
         

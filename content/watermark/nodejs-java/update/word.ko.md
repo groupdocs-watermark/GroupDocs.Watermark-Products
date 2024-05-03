@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: ko
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java 을 통해 WORD 의 워터마크 업데이트"
+    title: "Node.js via Java을(를) 통해 WORD의 워터마크 업데이트"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 WORD 문서 내에서 워터마크를 프로그래밍 방식으로 업데이트하기 위한 강력한 API를 제공합니다.이 가이드에서는 프로세스를 간략하게 설명합니다.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 WORD 문서 내의 워터마크를 프로그래밍 방식으로 업데이트하기 위한 강력한 API를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
       
-      1. **Watermarker** 클래스 생성자에 인수로 제공하여 프로세스를 시작합니다.필요에 따라 파일을 스트림으로 제공하거나 로컬 디스크 위치에 대한 참조로 제공할 수 있습니다.
-      2. **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 식별하십시오.이 개체를 사용하면 원하는 속성을 기반으로 워터마크를 정확히 찾아낼 수 있습니다.
-      3. 검색이 성공적으로 실행되면 관련 워터마크 모음을 받게 됩니다.워터마크는 세부적인 제어 기능을 제공하므로 크기, 페이지 위치 지정, 텍스트 콘텐츠, 색 구성표, 이미지 데이터 등과 같은 속성을 업데이트할 수 있습니다.
-      4. 워터마크 업데이트 완료 후 수정된 문서를 유지합니다.API는 로컬 파일 경로 또는 스트림 객체를 사용하여 저장을 용이하게 합니다.
+      1. **Watermarker** 클래스 생성자에 대한 인수로 WORD 파일을 제공하여 프로세스를 시작하세요. 귀하의 요구에 따라 파일은 스트림이나 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
+      2. 이어서, **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 식별합니다. 이 개체를 사용하면 원하는 속성을 기반으로 워터마크를 정확히 찾아낼 수 있습니다.
+      3. 검색이 성공적으로 실행되면 관련 워터마크 모음을 받게 됩니다. 이러한 워터마크는 세부적인 제어 기능을 제공하므로 크기, 페이지 위치 지정, 텍스트 콘텐츠, 색 구성표, 이미지 데이터 등과 같은 속성을 업데이트할 수 있습니다.
+      4. 워터마크 업데이트가 완료된 후 수정된 문서를 유지합니다. API는 로컬 파일 경로나 스트림 객체를 사용하여 저장을 용이하게 합니다.
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // WORD 텍스트 워터마크 업데이트
 
-        // WORD 파일에 대한 워터마커 인스턴스 제공
+        // WORD 파일에 대한 Watermarker 인스턴스 제공
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
 
-        // 텍스트 검색 기준을 사용하여 텍스트 워터마크를 찾을 수 있습니다.
+        // 텍스트 워터마크를 찾으려면 TextSearchCriteria를 사용하세요.
         const searchCriteria = 
             new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: de
 format: Webp
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Mühelos Wasserzeichen für Webp Dokumente generieren"
+    title: "Generieren Sie mühelos Wasserzeichen für Webp-Dokumente"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/) :** Erweiterte Wasserzeichen-Bibliothek für .NET Anwendungen. Machen Sie Ihre Lösung noch leistungsfähiger und sichern Sie Dokumente rechtzeitig mit Wasserzeichen.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/):** Erweiterte Wasserzeichenbibliothek für .NET-Anwendungen. Stärken Sie Ihre Lösung und sichern Sie Dokumente rechtzeitig mit Wasserzeichen.
       
-      1. **Core Class: Watermarker.** Die Hauptklasse unserer API ist **Watermarker**. Sie müssen es vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, die Datei Webp als Pfad- oder Stream-Objekt an den Konstruktor zu übergeben.
-      2. **Erstellen Sie Ihr Wasserzeichen.** Der nächste Schritt besteht darin, ein Wasserzeichen-Objekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite platziert werden, sondern auch in systemeigenen Dokumentteilen wie Bildern oder Kopfzeilen.
-      3. **Feinabstimmung des Aussehen.** Stellen Sie Wasserzeicheneigenschaften wie Höhe und Breite, obere, linke, mittige Ausrichtung, Schriftarten und Farben usw. ein.
-      4. **Anwenden und Speichern.** Verwenden Sie die Methode **Watermarker**, um ein neues Wasserzeichen hinzuzufügen. Fühlen Sie sich frei, so viele Wasserzeichen hinzuzufügen, wie Sie benötigen. Sie können das Dokument mit Wasserzeichen an einem beliebigen Ort speichern.
+      1. **Kernklasse: Watermarker.** Die Hauptklasse unserer API ist **Watermarker**. Sie müssen es vor der Dokumentverarbeitung instanziieren. Vergessen Sie nicht, die Datei Webp als Pfad oder Stream-Objekt an den Konstruktor zu übergeben.
+      2. **Erstellen Sie Ihr Wasserzeichen.** Der nächste Schritt besteht darin, ein Wasserzeichenobjekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite, sondern auch in nativen Dokumentteilen wie Bildern oder Kopfzeilen platziert werden.
+      3. **Optimierung der Darstellung.** Legen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Ausrichtung oben, links, mittig, Schriftarten und Farben usw. fest.
+      4. **Anwenden und Speichern.** Verwenden Sie die Methode **Watermarker**, um ein neues Wasserzeichen hinzuzufügen. Sie können beliebig viele Wasserzeichen hinzufügen. Sie können das mit Wasserzeichen versehene Dokument an einem beliebigen Ort speichern.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Bild-Wasserzeichen in WEBP -Datei generieren
+        // Bildwasserzeichen in der Datei WEBP generieren
 
-        // Geben Sie den Quelldateipfad für den Watermarker-Konstruktor an
+        // Geben Sie den Pfad der Quelldatei zum Konstruktor Watermarker an
         using (Watermarker watermarker = new Watermarker("input.webp"))
         {
             // Generieren Sie eine Bildwasserzeicheninstanz mit einer Bilddatei
@@ -77,7 +77,7 @@ steps:
             {
                 watermarker.Add(watermark);
             }
-            // Ergebnis mit Wasserzeichen WEBP speichern
+            // Mit Wasserzeichen versehenes WEBP-Ergebnis speichern
             watermarker.Save("output.webp");
         }
         

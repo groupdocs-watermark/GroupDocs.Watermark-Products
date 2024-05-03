@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Pesquisar marcas d'água de imagens no documento {{FileFormatUp}}",
-    "comment_2": "Compor o documento Watermarker passando {{FileFormatUp}}",
+    "comment_1": "Pesquise marcas d'água de imagem no documento {{FileFormatUp}}",
+    "comment_2": "Componha {{TextWatermarker}} passando o documento {{FileFormatUp}}",
     "comment_3": "Pesquise marcas d'água por hash de imagem",
-    "comment_4": "Processar marcas d'água encontradas"
+    "comment_4": "Processo encontrou marcas d'água"
   },
   "steps": {
-    "title": "{{FileformatCap}} Pesquisa de marcas d'água via {{EnvName}}",
+    "title": "{{FileformatCap}} Pesquisa de marcas d'água por meio de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica o processo de localização de marcas d'água em documentos comerciais. Instale nosso pacote em seus {{EnvName}} aplicativos para aproveitar seus benefícios.",
-      "step_1": "**Watermarker**. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.",
-      "step_2": "**SearchCriteria**. Por exemplo, forneça uma imagem para pesquisar marcas d'água semelhantes. Se estiver procurando por marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.",
-      "step_3": "**Search** do objeto **Watermarker**. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.",
-      "step_4": "Finalmente, você tem a liberdade de manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar o tamanho ou o texto."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifica o processo de localização de marcas d'água em documentos comerciais. Instale nosso pacote em seus aplicativos {{EnvName}} para aproveitar seus benefícios.",
+      "step_1": "Para utilizar os recursos de nossa biblioteca, carregue o arquivo {{FileformatCap}} em uma instância da classe {{TextWatermarkerBold}}. Você pode fornecer um caminho de arquivo, fluxo de arquivo ou fluxo de bytes.",
+      "step_2": "Para restringir a lista de possíveis marcas d'água, utilize o objeto {{TextSearchCriteriaBold}}. Por exemplo, forneça uma imagem para pesquisar marcas d'água de imagens semelhantes. Se estiver pesquisando marcas d'água textuais, forneça texto, fonte, cor e outras opções relevantes.",
+      "step_3": "Recupere marcas d'água colocadas no documento usando o método {{TextSearchBold}} do objeto {{TextWatermarkerBold}}. Você receberá uma coleção de objetos representando possíveis marcas d'água para processamento posterior.",
+      "step_4": "Finalmente, você tem a liberdade de manipular os resultados da pesquisa conforme necessário. Você pode excluir marcas d'água encontradas ou editar suas propriedades, como alterar tamanho ou texto."
     }
   },
   "more_features": {

@@ -1,19 +1,19 @@
 {
   "examples": {
-    "comment_1": "调整 {{FileFormatUp}} 图像水印",
-    "comment_2": "使用 {{FileFormatUp}} 实例化水印",
-    "comment_3": "初始化搜索条件以匹配特定图像",
-    "comment_4": "替换找到的图片",
+    "comment_1": "调整{{FileFormatUp}}图片水印",
+    "comment_2": "使用 {{FileFormatUp}} 实例化 {{TextWatermarker}}",
+    "comment_3": "初始化 {{TextSearchCriteria}} 以匹配特定图像",
+    "comment_4": "替换找到的图像",
     "comment_5": "保存调整后的文件"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 调整 {{FileformatCap}} 个文档水印",
+    "title": "使用 {{EnvName}} 调整 {{FileformatCap}} 文档水印",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 允许 {{EnvName}} 开发人员使用其应用程序轻松调整许多文档中的水印。以下是快速指南：",
-      "step_1": "**Watermarker**类构造函数的参数传递。提供字节或文件流或本地磁盘路径。",
-      "step_2": "**SearchCriteria**来识别具有先前添加到文档的特定属性的水印。",
-      "step_3": "搜索完成后，您将收到相关水印的列表。然后，您可以调整它们的属性，包括大小、页面对齐方式、文本、颜色、图像内容等。这为您的数据提供了高度的自定义。",
-      "step_4": "调整完水印后，保存更新后的文档。您可以使用本地文件路径或流来存储结果。"
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 允许 {{EnvName}} 开发人员使用其应用程序轻松调整许多文档中的水印。这是一个快速指南：",
+      "step_1": "首先，您需要将 {{FileformatCap}} 文件作为 {{TextWatermarkerBold}} 类构造函数的参数传递。提供字节或文件流或本地磁盘路径。",
+      "step_2": "其次，找到需要调整的水印。使用 {{TextSearchCriteriaBold}} 来识别具有先前添加到文档中的特定属性的水印。",
+      "step_3": "搜索后，您将收到相关水印的列表。然后，您可以调整它们的属性，包括大小、页面对齐方式、文本、颜色、图像内容等。这为您的数据提供了高度的定制。",
+      "step_4": "完成水印调整后，保存更新的文档。您可以使用本地文件路径或流来存储结果。"
     }
   },
   "more_features": {

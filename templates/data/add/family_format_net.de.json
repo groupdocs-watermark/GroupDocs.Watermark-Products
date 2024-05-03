@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Generieren Sie ein Textwasserzeichen in der Datei {{FileFormatUp}}",
-    "comment_2": "Datei angeben, die mit einem Wasserzeichen versehen werden soll",
-    "comment_3": "Generieren Sie eine Textwasserzeichen-Instanz",
-    "comment_4": "{{FileFormatUp}} Ergebnis speichern"
+    "comment_2": "Geben Sie die Datei an, die mit einem Wasserzeichen versehen werden soll",
+    "comment_3": "Generieren Sie eine Textwasserzeicheninstanz",
+    "comment_4": "Speichern Sie das {{FileFormatUp}}-Ergebnis"
   },
   "steps": {
     "title": "Verbessern Sie Ihre Dokumente: Generieren Sie Wasserzeichen für {{FileformatCap}} mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu verschiedenen Geschäftsdateiformaten für {{EnvName}} Entwickler vereinfacht. Integrieren Sie unsere Bibliothek in Ihre Anwendung und versehen Sie Dokumente mühelos mit Wasserzeichen, indem Sie die folgenden Schritte ausführen:",
-      "step_1": "**Initiieren Sie Ihre Watermarking-Reise:** Machen Sie sich zunächst mit der Klasse **Watermarker** vertraut, dem Eckpfeiler unserer API. Um den Prozess zu starten, stellen Sie sicher, dass Sie ihn vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, wie wichtig es ist, dem Konstruktor die Datei {{FileformatCap}} zur Verfügung zu stellen, unabhängig davon, ob es sich um einen Pfad oder ein Stream-Objekt handelt.",
-      "step_2": "**Erstellung benutzerdefinierter Wasserzeichen:** Fahren Sie mit der nächsten Phase fort, indem Sie ein **Wasserzeichen**-Objekt erstellen, das auf Ihre Spezifikationen zugeschnitten ist. Dieses vielseitige Tool ist nicht auf bestimmte Dokumentseiten beschränkt. Es kann auch nahtlos in native Dokumentelemente wie Anlagen oder Kopfzeilen integriert werden.",
-      "step_3": "**Feinabstimmung der Wasserzeichen-Attribute:** Verfeinern Sie Ihr Wasserzeichenerlebnis, indem Sie Eigenschaften wie Höhe, Breite, Seitenausrichtung, Schriftfamilie und Farbe anpassen. Dieser Grad der Anpassung stellt sicher, dass sich Ihre Wasserzeichen nahtlos in Ihre Dokumente einfügen.",
-      "step_4": "**Wasserzeichen anbringen:** Verwenden Sie die **Watermarker**-Methode, um Ihre benutzerdefinierten Wasserzeichen mühelos auf Ihre Dokumente anzuwenden. Unabhängig davon, ob Sie ein oder mehrere Wasserzeichen hinzufügen müssen, bietet dieses Verfahren Flexibilität. Für zusätzliche Sicherheit sollten Sie erwägen, Ihre verarbeiteten Dokumente an einem separaten Ort zu speichern."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu verschiedenen Geschäftsdateiformaten für {{EnvName}}-Entwickler vereinfacht. Integrieren Sie unsere Bibliothek in Ihre Anwendung und versehen Sie Dokumente mühelos mit Wasserzeichen, indem Sie die folgenden Schritte ausführen:",
+      "step_1": "**Initiieren Sie Ihre Wasserzeichen-Reise:** Machen Sie sich zunächst mit der Klasse {{TextWatermarkerBold}} vertraut, dem Eckpfeiler unserer API. Um den Prozess zu starten, stellen Sie sicher, dass Sie ihn vor der Dokumentverarbeitung instanziieren. Übersehen Sie nicht, wie wichtig es ist, dem Konstruktor die Datei {{FileformatCap}} bereitzustellen, unabhängig davon, ob es sich um einen Pfad oder ein Stream-Objekt handelt.",
+      "step_2": "**Erstellen benutzerdefinierter Wasserzeichen:** Fahren Sie mit der nächsten Phase fort, indem Sie ein {{TextWatermarkBold}}-Objekt erstellen, das auf Ihre Spezifikationen zugeschnitten ist. Dieses vielseitige Tool ist nicht auf bestimmte Dokumentseiten beschränkt; Es kann auch nahtlos in native Dokumentelemente wie Anhänge oder Kopfzeilen integriert werden.",
+      "step_3": "**Feinabstimmung der Wasserzeichenattribute:** Verfeinern Sie Ihr Wasserzeichenerlebnis, indem Sie Eigenschaften wie Höhe, Breite, Seitenausrichtung, Schriftfamilie und Farbe anpassen. Dieser Grad der Anpassung stellt sicher, dass sich Ihre Wasserzeichen nahtlos in Ihre Dokumente einfügen.",
+      "step_4": "**Anwenden Ihrer Wasserzeichen:** Nutzen Sie die Methode {{TextWatermarkerBold}}, um Ihre benutzerdefinierten Wasserzeichen mühelos auf Ihre Dokumente anzuwenden. Unabhängig davon, ob Sie ein oder mehrere Wasserzeichen hinzufügen müssen, bietet dieser Prozess Flexibilität. Für zusätzliche Sicherheit sollten Sie darüber nachdenken, Ihre verarbeiteten Dokumente an einem separaten Ort zu speichern."
     }
   },
   "more_features": {

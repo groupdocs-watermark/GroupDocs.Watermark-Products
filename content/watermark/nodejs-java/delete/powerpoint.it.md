@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: it
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint Eliminazione delle filigrane utilizzando Node.js via Java"
+    title: "Eliminazione filigrane Powerpoint utilizzando Node.js via Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fornisce agli Node.js via Java sviluppatori un'API completa per l'eliminazione programmatica di filigrane specifiche incorporate in vari documenti Powerpoint. Questa guida approfondisce il processo tecnico:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** fornisce agli sviluppatori di Node.js via Java un'API completa per l'eliminazione programmatica di filigrane specifiche incorporate in vari documenti Powerpoint. Questa guida approfondisce il processo tecnico:
       
-      1. **Watermarker** e fornendo il tuo file Powerpoint come argomento del costruttore. Il file può essere fornito come flusso di byte, flusso di file o riferimento di percorso a una posizione del disco locale.
-      2. **SearchCriteria**. Questo oggetto facilita la creazione di filtri complessi basati su proprietà precedentemente incorporate nel documento. È possibile utilizzare un'immagine come parametro di ricerca insieme agli attributi di testo o di formattazione per consentire un processo di selezione altamente granulare.
-      3. Dopo l'esecuzione della ricerca, riceverai una raccolta di filigrane identificate. Queste filigrane possono essere eliminate facilmente.
-      4. Una volta completata l'eliminazione della filigrana, il documento modificato viene salvato. L'API offre flessibilità di archiviazione, consentendo di utilizzare un percorso di file locale o un oggetto stream per l'output finale.
+      1. Avvia il flusso di lavoro istanziando la classe **Watermarker** e fornendo il tuo file Powerpoint come argomento del costruttore. Il file può essere fornito come flusso di byte, flusso di file o riferimento al percorso di una posizione del disco locale.
+      2. Per ottenere un targeting preciso della filigrana, sfrutta le funzionalità dell'oggetto **SearchCriteria**. Questo oggetto facilita la costruzione di filtri complessi basati su proprietà precedentemente incorporate nel documento. Puoi utilizzare un'immagine come parametro di ricerca insieme al testo o agli attributi di formattazione per consentire un processo di selezione altamente granulare.
+      3. Dopo l'esecuzione della ricerca, riceverai una raccolta di filigrane identificate. Queste filigrane possono essere cancellate facilmente.
+      4. Una volta eliminata con successo la filigrana, rendere persistente il documento modificato. L'API fornisce flessibilità di archiviazione, consentendoti di utilizzare un percorso file locale o un oggetto flusso per l'output finale.
    
     code:
       platform: "net"

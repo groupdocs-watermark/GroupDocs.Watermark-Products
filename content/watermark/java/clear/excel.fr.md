@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: fr
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Effacer les filigranes des documents Excel à l'aide de Java"
+    title: "Supprimer les filigranes des documents Excel à l'aide de Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** permet d'effacer facilement les filigranes ajoutés précédemment aux documents commerciaux. Renforcez votre application Java en installant notre bibliothèque et en procédant en quelques étapes simples :
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilite la suppression des filigranes précédemment ajoutés dans les documents professionnels. Renforcez votre application Java en installant notre bibliothèque et faites-le en quelques étapes simples :
       
-      1. **Watermarker** avec le document Excel. Notre API permet de transmettre un document à traiter sous forme de flux ou de chemin local.
-      2. **SearchCriteria** pour limiter le nombre de filigranes à traiter. Il est possible d'utiliser une image comme paramètre de recherche ainsi que des fonctionnalités de texte ou de mise en forme. Ensuite, vous fournissez des paramètres de recherche plus spécifiques, puis vous obtenez un résultat plus précis.
-      3. Traitez la liste des filigranes de documents que vous avez obtenus en tant que résultat de recherche. Effacez le document.
-      4. Après avoir effacé le document, enregistrez le résultat sous forme de fichier local ou de flux d'octets.
+      1. Tout d’abord, instanciez la classe principale appelée **Watermarker** avec le document Excel. Notre API prend en charge la transmission d'un document à traiter sous forme de flux ou de chemin local.
+      2. Utilisez **SearchCriteria** pour limiter l'ensemble des filigranes à traiter. Il est possible d'utiliser une image comme paramètre de recherche ainsi que des fonctionnalités de texte ou de formatage. Ensuite, vous fournissez des paramètres de recherche plus précis, puis vous obtenez un résultat plus précis.
+      3. Traitez la liste des filigranes de documents que vous avez obtenus comme résultat de recherche. Effacez le document.
+      4. Après avoir effacé le résultat de l'enregistrement du document en tant que fichier local ou flux d'octets.
    
     code:
       platform: "net"
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Effacer le filigrane du texte dans le document Excel
+        // Effacer le filigrane de texte dans le document Excel
 
-        // Instanciez un filigrane avec le document Excel
+        // Instancier Watermarker avec le document Excel
         Watermarker watermarker = new Watermarker("input.xslx");
         
-        // Effacer un filigrane spécifique
+        // Effacer le filigrane spécifique
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: es
 format: Xls
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Elimine mediante programación las marcas de agua de Xls documentos mediante .NET"
+    title: "Eliminar marcas de agua mediante programación de documentos Xls usando .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** permite a .NET desarrolladores eliminar mediante programación las marcas de agua de varios Xls documentos. Esta guía describe el proceso:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** permite a los desarrolladores de .NET eliminar mediante programación marcas de agua de varios documentos Xls. Esta guía describe el proceso:
       
-      1. **Watermarker**. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia a una ubicación de disco local.
-      2. **SearchCriteria** para identificar las marcas de agua específicas que deben eliminarse. Este objeto permite filtrar las marcas de agua en función de las propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con el texto o los atributos de formato para una búsqueda muy detallada.
-      3. Tras una búsqueda exitosa, recibirás una colección de marcas de agua relevantes. Estas marcas de agua ofrecen un control detallado, lo que te permite realizar la operación de eliminación.
-      4. Una vez finalizada la eliminación de la marca de agua, conserve el documento modificado. La API facilita el almacenamiento mediante una ruta de archivo local o un objeto de transmisión.
+      1. Inicie el flujo de trabajo proporcionando su archivo Xls como argumento para el constructor de clase **Watermarker**. El archivo se puede proporcionar como una secuencia de bytes, una secuencia de archivos o una referencia a una ubicación de disco local.
+      2. Aproveche el poder del objeto **SearchCriteria** para identificar las marcas de agua específicas que requieren eliminación. Este objeto permite el filtrado de marcas de agua en función de propiedades previamente incrustadas en el documento. Puede utilizar una imagen como parámetro de búsqueda junto con texto o atributos de formato para una búsqueda altamente granular.
+      3. Después de una búsqueda exitosa, recibirá una colección de marcas de agua relevantes. Estas marcas de agua ofrecen control granular, lo que le permite realizar la operación de eliminación.
+      4. Una vez finalizada la eliminación de la marca de agua, conserve el documento modificado. La API facilita el almacenamiento utilizando una ruta de archivo local o un objeto de transmisión.
    
     code:
       platform: "net"
@@ -67,17 +67,17 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Eliminar la marca de agua de la imagen en el documento XLS
+        // Eliminar marca de agua de imagen en el documento XLS
 
-        // Instanciar el documento Watermarker que pasa XLS
+        // Crear una instancia de Watermarker pasando el documento XLS
         using (Watermarker watermarker = new Watermarker("input.xls"))
         {
-            // Eliminar las marcas de agua que se encontraron en el documento
+            // Eliminar marcas de agua que se encontraron en el documento.
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);
 
-            // Guarda el documento
+            // guardar el documento
             watermarker.Save("output.xls");
         }
         

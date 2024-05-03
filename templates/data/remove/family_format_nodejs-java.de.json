@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Löscht das Textwasserzeichen im {{FileformatCap}} Dokument",
-    "comment_2": "Watermarker mit {{FileformatCap}} Dokument instanziieren",
-    "comment_3": "Klartext-Wasserzeichen entsprechen den Suchbedingungen",
+    "comment_1": "Textwasserzeichen im {{FileformatCap}}-Dokument löschen",
+    "comment_2": "Instanziieren Sie {{TextWatermarker}} mit dem Dokument {{FileformatCap}}",
+    "comment_3": "Klartext-Wasserzeichen passen zu den Suchbedingungen",
     "comment_4": "Verarbeitete Datei speichern"
   },
   "steps": {
     "title": "{{FileformatCap}} Löschen von Wasserzeichen mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** bietet {{EnvName}} Entwicklern eine umfassende API für das programmatische Löschen bestimmter Wasserzeichen, die in verschiedene {{FileformatCap}} Dokumente eingebettet sind. Dieser Leitfaden befasst sich mit dem technischen Prozess:",
-      "step_1": "**Watermarker** instanziieren und Ihre {{FileformatCap}} -Datei als Konstruktorargument angeben. Die Datei kann als Bytestream, Dateistream oder als Pfadverweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
-      "step_2": "**SearchCriteria**-Objekts, um eine präzise Ausrichtung auf Wasserzeichen zu erreichen. Dieses Objekt erleichtert die Konstruktion komplexer Filter auf der Grundlage von Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild zusammen mit Text- oder Formatierungsattributen als Suchparameter verwenden, um einen hochgradigen Auswahlprozess zu ermöglichen.",
-      "step_3": "Nach der Ausführung der Suche erhalten Sie eine Sammlung identifizierter Wasserzeichen. Diese Wasserzeichen können einfach gelöscht werden.",
-      "step_4": "Behalten Sie das geänderte Dokument bei erfolgreichem Löschen des Wasserzeichens bei. Die API bietet Speicherflexibilität, sodass Sie entweder einen lokalen Dateipfad oder ein Stream-Objekt für die endgültige Ausgabe verwenden können."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** stellt {{EnvName}}-Entwicklern eine umfassende API für die programmgesteuerte Löschung spezifischer Wasserzeichen zur Verfügung, die in verschiedenen {{FileformatCap}}-Dokumenten eingebettet sind. Dieser Leitfaden befasst sich mit dem technischen Prozess:",
+      "step_1": "Starten Sie den Workflow, indem Sie die Klasse {{TextWatermarkerBold}} instanziieren und Ihre Datei {{FileformatCap}} als Konstruktorargument bereitstellen. Die Datei kann als Bytestream, Dateistream oder Pfadverweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
+      "step_2": "Um ein präzises Wasserzeichen-Targeting zu erreichen, nutzen Sie die Funktionen des {{TextSearchCriteriaBold}}-Objekts. Dieses Objekt erleichtert die Erstellung komplexer Filter basierend auf Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter neben Text oder Formatierungsattributen verwenden, um einen hochgradig detaillierten Auswahlprozess zu ermöglichen.",
+      "step_3": "Nach der Durchführung der Suche erhalten Sie eine Sammlung der identifizierten Wasserzeichen. Diese Wasserzeichen können leicht gelöscht werden.",
+      "step_4": "Nach erfolgreicher Löschung des Wasserzeichens behalten Sie das geänderte Dokument bei. Die API bietet Speicherflexibilität, sodass Sie entweder einen lokalen Dateipfad oder ein Stream-Objekt für die endgültige Ausgabe verwenden können."
     }
   },
   "more_features": {

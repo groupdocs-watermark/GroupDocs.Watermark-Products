@@ -4,6 +4,13 @@
     "productShortName": "GroupDocs.Watermark",
     "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
     "pricingUrl": "https://purchase.groupdocs.com/pricing/watermark/net/",
+    "textWatermarker": "Watermarker",
+    "textWatermarkerBold": "**Watermarker**",
+    "textWatermarkBold": "**Watermark**",
+    "textSearchBold": "**Search**",
+    "textSearchCriteriaBold": "**SearchCriteria**",
+    "textTextSearchCriteria": "TextSearchCriteria",
+    "textSearchCriteria": "SearchCriteria",
     "net": {
       "environmentName": ".NET",
       "productCode": "net",

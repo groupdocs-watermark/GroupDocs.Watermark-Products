@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:02
+date:  2024-05-03T13:37:08
 draft: false
 lang: de
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Effizientes Abrufen von Wasserzeichen in Word Dateien von GroupDocs.Watermark"
+    title: "Erhalten Sie effizient Wasserzeichen in Word-Dateien von GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** optimiert den Prozess des Abrufs von Wasserzeichen, die in verschiedene Geschäftsdokumentformate eingebettet sind. Integrieren Sie GroupDocs.Watermark nahtlos in Ihre Node.js via Java Anwendungen, um sie mit robusten Funktionen zur Erkennung von Wasserzeichen auszustatten.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** optimiert den Prozess des Abrufens von Wasserzeichen, die in verschiedene Geschäftsdokumentformate eingebettet sind. Integrieren Sie GroupDocs.Watermark nahtlos in Ihre Node.js via Java-Anwendungen, um sie mit robusten Funktionen zur Wasserzeichenerkennung auszustatten.
       
-      1. **Watermarker** und geben Sie den Word -Dateipfad, den Dateistream oder den Bytestream als Eingabe an. Diese Aktion lädt das Dokument für die Wasserzeichenanalyse.
-      2. **SearchCriteria**. Geben Sie ein Bild an, um ähnliche Bildwasserzeichen zu finden. Definieren Sie für Textwasserzeichen alternativ den Textinhalt, die Schrifteigenschaften, Farbattribute und andere relevante Parameter, um die Suchkriterien zu verfeinern.
-      3. **Get**-Methode des **Watermarker**-Objekts, um den Prozess zur Erkennung von Wasserzeichen innerhalb des geladenen Dokuments einzuleiten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.
-      4. Die abgerufene Sammlung von Wasserzeichenobjekten bietet Ihnen viele Möglichkeiten. Sie können unerwünschte Wasserzeichen entfernen oder ihre Eigenschaften ändern. Ändern Sie den Inhalt, verschieben Sie ein Wasserzeichen auf einer Seite und vieles mehr.
+      1. Um die Funktionalitäten von GroupDocs.Watermark zu nutzen, instanziieren Sie die Klasse **Watermarker** und geben Sie den Dateipfad, den Dateistream oder den Bytestream von Word als Eingabe an. Diese Aktion lädt das Dokument zur Wasserzeichenanalyse.
+      2. Verwenden Sie zur gezielten Wasserzeichenerkennung das Objekt **SearchCriteria**. Geben Sie ein Bild zum Auffinden ähnlicher Bildwasserzeichen an. Alternativ können Sie für Textwasserzeichen den Textinhalt, die Schriftarteigenschaften, die Farbattribute und andere relevante Parameter definieren, um die Suchkriterien zu verfeinern.
+      3. Verwenden Sie die Methode **Search** des Objekts **Watermarker**, um den Wasserzeichenerkennungsprozess im geladenen Dokument zu starten. Diese Funktion gibt eine Sammlung von Objekten zurück, die potenzielle Wasserzeichen darstellen, und ermöglicht so die weitere Verarbeitung.
+      4. Die abgerufene Sammlung von Wasserzeichenobjekten bietet Ihnen viele Möglichkeiten. Sie können unerwünschte Wasserzeichen entfernen oder ihre Eigenschaften ändern. Ändern Sie Inhalte, verschieben Sie ein Wasserzeichen auf einer Seite und vieles mehr.
    
     code:
       platform: "net"
@@ -67,16 +67,16 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Ruft die Textwasserzeichenliste für WORD ab
+        // Textwasserzeichenliste für WORD abrufen
 
-        // Watermarker-Klasse instantiieren
+        // Instanziieren Sie die Klasse Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
-        // Holen Sie sich Wasserzeichen nach Textkriterien
+        // Erhalten Sie Wasserzeichen nach Textkriterien
         const searchCriteria = new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);
 
-        // Informationen zu Wasserzeichen verwenden
+        // Verwenden Sie Wasserzeicheninformationen
         console.log(`Found ${watermarks.getCount()} possible watermark(s).`);
         
         ```            

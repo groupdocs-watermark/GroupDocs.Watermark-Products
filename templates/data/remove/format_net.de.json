@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Bildwasserzeichen im {{FileFormatUp}} -Dokument entfernen",
-    "comment_2": "Instantiieren Sie einen Wassermarker, der ein {{FileFormatUp}} Dokument übergibt",
-    "comment_3": "Wasserzeichen entfernen, die im Dokument gefunden wurden",
+    "comment_1": "Bildwasserzeichen im {{FileFormatUp}}-Dokument entfernen",
+    "comment_2": "Instanziieren Sie {{TextWatermarker}} und übergeben Sie das Dokument {{FileFormatUp}}",
+    "comment_3": "Entfernen Sie Wasserzeichen, die im Dokument gefunden wurden",
     "comment_4": "Speichern Sie das Dokument"
   },
   "steps": {
-    "title": "Programmgesteuertes Entfernen von Wasserzeichen aus {{FileformatCap}} Dokumenten mit {{EnvName}}",
+    "title": "Entfernen Sie Wasserzeichen programmgesteuert aus {{FileformatCap}}-Dokumenten mit {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** ermöglicht es {{EnvName}} Entwicklern, Wasserzeichen programmgesteuert aus verschiedenen {{FileformatCap}} Dokumenten zu entfernen. In diesem Handbuch wird der Prozess beschrieben:",
-      "step_1": "**Watermarker** angeben. Die Datei kann entweder als Bytestream, als Dateistream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
-      "step_2": "**SearchCriteria**-Objekts, um die spezifischen Wasserzeichen zu identifizieren, die entfernt werden müssen. Dieses Objekt ermöglicht das Filtern von Wasserzeichen auf der Grundlage von Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter zusammen mit Text- oder Formatierungsattributen für eine hochgranulare Suche verwenden.",
-      "step_3": "Nach einer erfolgreichen Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie den Entfernungsvorgang durchführen können.",
-      "step_4": "Wenn das Entfernen des Wasserzeichens abgeschlossen ist, behalten Sie das geänderte Dokument bei. Die API erleichtert die Speicherung entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** ermöglicht {{EnvName}}-Entwicklern das programmgesteuerte Entfernen von Wasserzeichen aus verschiedenen {{FileformatCap}}-Dokumenten. Dieser Leitfaden beschreibt den Prozess:",
+      "step_1": "Starten Sie den Workflow, indem Sie Ihre {{FileformatCap}}-Datei als Argument für den Klassenkonstruktor {{TextWatermarkerBold}} bereitstellen. Die Datei kann entweder als Byte-Stream, als Datei-Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.",
+      "step_2": "Nutzen Sie die Leistungsfähigkeit des {{TextSearchCriteriaBold}}-Objekts, um die spezifischen Wasserzeichen zu identifizieren, die entfernt werden müssen. Dieses Objekt ermöglicht das Filtern von Wasserzeichen basierend auf Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter neben Text oder Formatierungsattributen für eine hochgranulare Suche verwenden.",
+      "step_3": "Nach erfolgreicher Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle, sodass Sie den Entfernungsvorgang durchführen können.",
+      "step_4": "Behalten Sie nach Abschluss der Wasserzeichenentfernung das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt."
     }
   },
   "more_features": {

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: vi
 format: Word
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Thêm hình mờ vào tài liệu Word qua Java"
+    title: "Thêm Hình mờ vào Tài liệu Word qua Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** giúp các nhà phát triển Java dễ dàng thêm hình mờ các loại khác nhau vào các định dạng tệp doanh nghiệp phổ biến. Thêm thư viện của chúng tôi vào ứng dụng và tài liệu hình mờ của bạn trong một vài bước đơn giản như được liệt kê bên dưới.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** giúp nhà phát triển Java dễ dàng thêm nhiều loại hình mờ vào các định dạng tệp doanh nghiệp phổ biến. Thêm thư viện của chúng tôi vào ứng dụng và tài liệu hình mờ của bạn chỉ bằng một vài bước đơn giản như được liệt kê bên dưới.
       
-      1. **Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên truyền tệp Word cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.
-      2. **Watermark** thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.
-      3. Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, căn chỉnh trang (trên cùng, bên trái, trung tâm, v.v.), họ phông chữ và màu sắc, và nhiều thứ khác.
-      4. **Watermarker** để thêm hình mờ mới. Bạn có thể thêm nhiều hình mờ như bạn cần. Nên lưu tài liệu đã xử lý vào một vị trí khác.
+      1. Lớp chính của API của chúng tôi là **Watermarker**. Bạn cần khởi tạo nó trước khi xử lý tài liệu. Đừng quên chuyển tệp Word cho hàm tạo dưới dạng đường dẫn hoặc đối tượng luồng.
+      2. Bước tiếp theo là xây dựng đối tượng **Watermark** thuộc loại mong muốn. Nó có thể được đặt không chỉ trên một trang tài liệu cụ thể mà còn trong các phần tài liệu gốc như tệp đính kèm hoặc tiêu đề.
+      3. Đặt các thuộc tính hình mờ như chiều cao và chiều rộng, căn chỉnh trang (trên cùng, bên trái, giữa, v.v.), họ phông chữ và màu sắc, v.v.
+      4. Gọi phương thức **Watermarker** để thêm hình mờ mới. Bạn có thể thêm bao nhiêu hình mờ tùy thích. Nên lưu tài liệu đã xử lý vào một vị trí khác.
    
     code:
       platform: "net"
@@ -84,14 +84,14 @@ steps:
 
         // Thêm hình mờ văn bản vào WORD
 
-        // Chuyển tệp để được đánh dấu vào Watermarker
+        // Chuyển tệp được đóng dấu mờ tới Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Tạo hình mờ văn bản và thiết lập thuộc tính
         TextWatermark watermark = new TextWatermark("My Watermark", new Font("Arial", 36));
         watermark.setForegroundColor(Color.getRed());
 
-        // Lưu tệp có hình mờ
+        // Lưu tập tin có hình chìm mờ
         watermarker.add(watermark);
         watermarker.save("output.docx");
         

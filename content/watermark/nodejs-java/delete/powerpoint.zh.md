@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: zh
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint 使用 Node.js via Java 删除水印"
+    title: "使用 Node.js via Java 删除 Powerpoint 水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 为 Node.js via Java 开发人员提供了一个全面的 API，用于编程删除嵌入在各种 Powerpoint 文档中的特定水印。本指南深入探讨了技术流程：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 为 Node.js via Java 开发人员提供了全面的 API，用于以编程方式删除嵌入在各种 Powerpoint 文档中的特定水印。本指南深入探讨了技术流程：
       
-      1. **Watermarker**类并将您的 Powerpoint 文件作为构造函数参数来启动工作流程。该文件可以作为字节流、文件流或本地磁盘位置的路径引用提供。
-      2. **SearchCriteria**对象的功能。该对象便于根据先前嵌入在文档中的属性构造复杂的过滤器。您可以将图像与文本或格式属性一起用作搜索参数，以实现高度精细的选择过程。
-      3. 执行搜索后，您将收到一组已识别的水印。这些水印可以很容易地删除。
-      4. 成功删除水印后，保留修改后的文档。API 提供了存储灵活性，允许您使用本地文件路径或流对象来实现最终输出。
+      1. 通过实例化 **Watermarker** 类并提供 Powerpoint 文件作为构造函数参数来启动工作流程。该文件可以作为字节流、文件流或本地磁盘位置的路径引用提供。
+      2. 要实现精确的水印定位，请利用 **SearchCriteria** 对象的功能。该对象有助于根据先前嵌入文档中的属性构建复杂的过滤器。您可以将图像与文本或格式属性一起用作搜索参数，以实现高度精细的选择过程。
+      3. 执行搜索后，您将收到一组已识别的水印。这些水印可以轻松删除。
+      4. 成功删除水印后，保留修改后的文档。 API 提供了存储灵活性，允许您利用本地文件路径或流对象来进行最终输出。
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // 删除 Powerpoint 文档中的文字水印
+        // 删除 Powerpoint 文档中的文本水印
 
-        // 使用 Powerpoint 文档实例化水印
+        // 使用 Powerpoint 文档实例化 Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // 透明文本水印适合搜索条件
+        // 明文水印适合搜索条件
         const criteria = new groupdocs.watermark.TextFormattingSearchCriteria();
         criteria.setFontBold(true);
         const watermarks = watermarker.search(criteria);
         watermarks.clear();
 
-        // 保存已处理的文件
+        // 保存处理后的文件
         watermarker.save("output.pptx");
         
         ```            

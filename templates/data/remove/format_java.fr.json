@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Image claire en filigrane {{FileFormatUp}} du document",
-    "comment_2": "Transmettre le chemin du document {{FileFormatUp}} au constructeur Watermarker",
-    "comment_3": "Effacez le document en supprimant un filigrane",
+    "comment_1": "Effacer le filigrane de l'image {{FileFormatUp}} document",
+    "comment_2": "Transmettez le chemin du document {{FileFormatUp}} au constructeur {{TextWatermarker}}",
+    "comment_3": "Effacer le document en supprimant un filigrane",
     "comment_4": "Enregistrer le fichier effacé"
   },
   "steps": {
     "title": "Effacer les filigranes des documents {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifie le processus d'effacement des filigranes de vos documents commerciaux dans {{EnvName}} applications. Intégrez notre bibliothèque et procédez comme suit :",
-      "step_1": "**Watermarker** avec votre document {{FileformatCap}}. L'API accepte le document sous forme de flux ou de chemin de fichier local pour le traitement.",
-      "step_2": "**SearchCriteria** pour affiner l'ensemble de filigranes à effacer. Vous pouvez utiliser une image comme paramètre de recherche à côté du texte ou des attributs de mise en forme. Plus vos critères de recherche sont précis, plus les résultats seront précis.",
-      "step_3": "À la suite de la recherche, vous recevrez une liste des filigranes identifiés. Procédez en effaçant ces filigranes du document.",
-      "step_4": "Une fois les filigranes effacés, enregistrez le document final à l'aide d'un chemin de fichier local ou d'un objet de flux."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifie le processus de suppression des filigranes de vos documents professionnels dans les applications {{EnvName}}. Intégrez notre bibliothèque et suivez ces étapes :",
+      "step_1": "Commencez par initialiser la classe {{TextWatermarkerBold}} avec votre document {{FileformatCap}}. L'API accepte le document sous forme de flux ou de chemin de fichier local pour le traitement.",
+      "step_2": "Tirez parti de l'objet {{TextSearchCriteriaBold}} pour affiner l'ensemble des filigranes à effacer. Vous pouvez utiliser une image comme paramètre de recherche à côté du texte ou des attributs de formatage. Plus vos critères de recherche sont précis, plus les résultats seront précis.",
+      "step_3": "Suite à la recherche, vous recevrez une liste de filigranes identifiés. Continuez en supprimant ces filigranes du document.",
+      "step_4": "Une fois les filigranes effacés, enregistrez le document final en utilisant un chemin de fichier local ou un objet flux."
     }
   },
   "more_features": {

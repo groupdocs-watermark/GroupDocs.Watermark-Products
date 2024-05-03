@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:57
+date:  2024-05-03T13:37:04
 draft: false
 lang: zh
 format: Excel
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "通过 Java 向 Excel 文档添加水印"
+    title: "通过 Java 将水印添加到 Excel 文档"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 使 Java 开发人员可以轻松地向流行的商业文件格式添加各种类型的水印。只需几个简单步骤，即可将我们的库添加到您的应用程序和水印文档中，如下所列。
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 使 Java 开发人员可以轻松地将各种类型的水印添加到流行的商业文件格式中。只需几个简单的步骤即可将我们的库添加到您的应用程序和水印文档中，如下所示。
       
-      1. **水印** 。在处理文档之前，你需要对其进行实例化。不要忘记将 Excel 文件作为路径或流对象传递给构造函数。
-      2. **水印** 对象。它不仅可以放在特定的文档页面上，还可以放在附件或标题等本地文档部分中。
-      3. 设置水印属性，例如高度和宽度、页面对齐方式（上、左、中等）、字体系列和颜色等。
-      4. **Watermarker** 方法添加新水印。您可以根据需要添加任意数量的水印。建议将处理过的文档保存到其他位置。
+      1. 我们 API 的主类是 **Watermarker**。您需要在文档处理之前实例化它。不要忘记将 Excel 文件作为路径或流对象传递给构造函数。
+      2. 下一步是构造所需类型的 **Watermark** 对象。它不仅可以放置在特定文档页面上，还可以放置在附件或标题等本机文档部分中。
+      3. 设置水印属性，例如高度和宽度、页面对齐方式（顶部、左侧、中央等）、字体系列和颜色等等。
+      4. 调用 **Watermarker** 方法添加新水印。您可以根据需要添加任意数量的水印。建议将处理后的文档保存到其他位置。
    
     code:
       platform: "net"
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // 向 EXCEL 添加文字水印
+        // 添加文本水印到EXCEL
 
-        // 将要添加水印的文件传递给 Watermarker
+        // 将要加水印的文件传递给 Watermarker
         Watermarker watermarker = new Watermarker("input.xslx");
         
         // 创建文本水印并设置属性

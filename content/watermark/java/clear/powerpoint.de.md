@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: de
 format: Powerpoint
@@ -40,12 +40,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Löschen Sie Powerpoint Dokumente von Wasserzeichen mit Java"
+    title: "Entfernen Sie Wasserzeichen aus Powerpoint-Dokumenten mit Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** macht es einfach, Geschäftsdokumente von zuvor hinzugefügten Wasserzeichen zu löschen. Unterstützen Sie Ihre Java -Anwendung, indem Sie unsere Bibliothek installieren, und zwar in wenigen einfachen Schritten:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** macht es einfach, Geschäftsdokumente von zuvor hinzugefügten Wasserzeichen zu befreien. Stärken Sie Ihre Java-Anwendung, indem Sie unsere Bibliothek installieren und dies in wenigen einfachen Schritten tun:
       
-      1. **Watermarker** mit Powerpoint document. Unsere API unterstützt die Übergabe eines zu verarbeitenden Dokuments als Stream oder als lokalen Pfad.
-      2. **Suchkriterien**, um die Anzahl der zu verarbeitenden Wasserzeichen einzuschränken. Es ist möglich, ein Bild als Suchparameter sowie Text- oder Formatierungsfunktionen zu verwenden. Dann geben Sie spezifischere Suchparameter an, dann erhalten Sie ein genaueres Ergebnis.
+      1. Instanziieren Sie zunächst die Hauptklasse namens **Watermarker** mit dem Dokument Powerpoint. Unsere API unterstützt die Übergabe eines zu verarbeitenden Dokuments als Stream oder lokalen Pfad.
+      2. Verwenden Sie **SearchCriteria**, um die Menge der zu verarbeitenden Wasserzeichen einzuschränken. Es ist möglich, ein Bild als Suchparameter sowie Text- oder Formatierungsmerkmale zu verwenden. Geben Sie dann spezifischere Suchparameter an, erhalten Sie ein präziseres Ergebnis.
       3. Prozessliste der Dokumentwasserzeichen, die Sie als Suchergebnis erhalten haben. Löschen Sie das Dokument.
       4. Speichern Sie das Ergebnis nach dem Löschen des Dokuments als lokale Datei oder als Bytestream.
    
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Löschen Sie das Textwasserzeichen im Powerpoint -Dokument
+        // Klartext-Wasserzeichen im Powerpoint-Dokument
 
-        // Watermarker mit Powerpoint Dokument instanziieren
+        // Instanziieren Sie Watermarker mit dem Dokument Powerpoint
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // Spezifisches Wasserzeichen löschen
+        // Bestimmtes Wasserzeichen löschen
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 

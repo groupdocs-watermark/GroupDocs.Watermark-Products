@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:05
+date:  2024-05-03T13:37:12
 draft: false
 lang: zh
 format: Pdf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Pdf 水印通过 Java 搜索"
+    title: "Pdf 通过 Java 搜索水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 简化了在业务文档中定位水印的过程。将我们的软件包安装到您的 Java 应用程序中以充分利用其优势。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 简化了在业务文档中查找水印的过程。将我们的软件包安装到您的 Java 应用程序中以利用其优势。
       
-      1. **Watermarker**类的实例中。您可以提供文件路径、文件流或字节流。
-      2. **SearchCriteria**对象。例如，提供一张图片来搜索相似的图像水印。如果要搜索文本水印，请提供文本、字体、颜色和其他相关选项。
-      3. **水印**对象的**搜索**方法检索放置在文档中的水印。您将收到一组代表潜在水印的对象，以供进一步处理。
-      4. 最后，您可以根据需要自由操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。
+      1. 要利用我们的库功能，请将 Pdf 文件加载到 **Watermarker** 类的实例中。您可以提供文件路径、文件流或字节流。
+      2. 要缩小潜在水印的列表范围，请使用 **SearchCriteria** 对象。例如，提供图像来搜索相似的图像水印。如果搜索文本水印，请提供文本、字体、颜色和其他相关选项。
+      3. 使用 **Watermarker** 对象的 **Search** 方法检索放置在文档中的水印。您将收到代表潜在水印的对象集合，以供进一步处理。
+      4. 最后，您可以根据需要自由地操纵搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。
    
     code:
       platform: "net"
@@ -83,15 +83,15 @@ steps:
         ```java {style=abap}
         // 在 PDF 文档中搜索图像水印
 
-        // 通过 PDF 文档撰写水印
+        // 撰写 Watermarker 并传递 PDF 文档
         Watermarker watermarker = new Watermarker("input.pdf");
         
-        // 按图像哈希搜索水印
+        // 通过图像哈希搜索水印
         ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
         imageSearchCriteria.setMaxDifference(0.9);
         PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // 处理找到的水印
+        // 处理发现水印
         System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
         
         ```          

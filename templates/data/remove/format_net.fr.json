@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Supprimer le filigrane de l'image dans le document {{FileFormatUp}}",
-    "comment_2": "Instanciez un filigrane en transmettant le document {{FileFormatUp}}",
+    "comment_2": "Instancier {{TextWatermarker}} en passant le document {{FileFormatUp}}",
     "comment_3": "Supprimer les filigranes trouvés dans le document",
     "comment_4": "Enregistrez le document"
   },
   "steps": {
-    "title": "Supprimez les filigranes des documents {{FileformatCap}} par programmation à l'aide de {{EnvName}}",
+    "title": "Supprimez par programme les filigranes des documents {{FileformatCap}} à l'aide de {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** permet à {{EnvName}} développeurs de supprimer par programmation les filigranes de divers documents {{FileformatCap}}. Ce guide décrit le processus :",
-      "step_1": "**Watermarker**. Le fichier peut être fourni sous la forme d'un flux d'octets, d'un flux de fichiers ou d'une référence à un emplacement de disque local.",
-      "step_2": "**SearchCriteria** pour identifier les filigranes spécifiques à supprimer. Cet objet permet de filtrer les filigranes en fonction des propriétés précédemment intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche à côté du texte ou des attributs de mise en forme pour une recherche très granulaire.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** permet aux développeurs {{EnvName}} de supprimer par programme les filigranes de divers documents {{FileformatCap}}. Ce guide décrit le processus :",
+      "step_1": "Lancez le flux de travail en fournissant votre fichier {{FileformatCap}} comme argument au constructeur de classe {{TextWatermarkerBold}}. Le fichier peut être fourni sous forme de flux d'octets, de flux de fichiers ou de référence à un emplacement de disque local.",
+      "step_2": "Tirez parti de la puissance de l'objet {{TextSearchCriteriaBold}} pour identifier les filigranes spécifiques nécessitant une suppression. Cet objet permet de filtrer les filigranes en fonction des propriétés préalablement intégrées dans le document. Vous pouvez utiliser une image comme paramètre de recherche aux côtés du texte ou des attributs de formatage pour une recherche très granulaire.",
       "step_3": "Après une recherche réussie, vous recevrez une collection de filigranes pertinents. Ces filigranes offrent un contrôle granulaire, vous permettant d'effectuer l'opération de suppression.",
-      "step_4": "Une fois le filigrane supprimé, conservez le document modifié. L'API facilite le stockage à l'aide d'un chemin de fichier local ou d'un objet de flux."
+      "step_4": "Une fois la suppression du filigrane terminée, conservez le document modifié. L'API facilite le stockage en utilisant soit un chemin de fichier local, soit un objet de flux."
     }
   },
   "more_features": {

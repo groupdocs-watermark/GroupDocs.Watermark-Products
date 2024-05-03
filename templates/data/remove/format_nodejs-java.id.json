@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Hapus tanda air gambar di dokumen {{FileFormatUp}}",
-    "comment_2": "Dapatkan Watermarker yang melewati jalur {{FileFormatUp}} sebagai argumen",
-    "comment_3": "Hapus tanda air gambar dengan kriteria pencarian",
+    "comment_2": "Dapatkan {{TextWatermarker}} dengan meneruskan jalur {{FileFormatUp}} sebagai argumen",
+    "comment_3": "Hapus tanda air gambar berdasarkan kriteria pencarian",
     "comment_4": "Simpan file yang diproses"
   },
   "steps": {
-    "title": "Hapus Watermark dengan mudah dari {{FileformatCap}} oleh {{EnvName}}",
+    "title": "Menghapus Tanda Air dengan Mudah dari {{FileformatCap}} oleh {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** merampingkan proses penghapusan tanda air dari dokumen bisnis. Tingkatkan aplikasi {{EnvName}} Anda dengan mengintegrasikan perpustakaan kami dengan mulus dan mengikuti langkah-langkah sederhana berikut:",
-      "step_1": "**Watermarker**, dengan dokumen {{FileformatCap}}. API serbaguna kami memproses dokumen dengan mulus, baik yang disediakan sebagai aliran atau jalur lokal.",
-      "step_2": "**Kriteria pencari** untuk menentukan dengan tepat tanda air yang akan ditangani. Gunakan berbagai parameter seperti gambar, teks, atau fitur pemformatan untuk menyempurnakan pencarian Anda. Semakin rinci kriteria Anda, semakin akurat hasil Anda.",
-      "step_3": "Jalankan proses penghapusan pada daftar tanda air dokumen yang diambil melalui pencarian Anda. Menghapusnya dengan mudah dari dokumen.",
-      "step_4": "Setelah berhasil menghapus tanda air, simpan dokumen yang dihasilkan dengan aman sebagai file lokal atau aliran byte, pertahankan integritasnya."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** menyederhanakan proses penghapusan tanda air dari dokumen bisnis. Tingkatkan aplikasi {{EnvName}} Anda dengan mengintegrasikan perpustakaan kami secara lancar dan mengikuti langkah-langkah mudah berikut:",
+      "step_1": "Mulai proses dengan membuat instance kelas inti, {{TextWatermarkerBold}}, dengan dokumen {{FileformatCap}}. API serbaguna kami memproses dokumen dengan lancar, baik yang disediakan sebagai aliran atau jalur lokal.",
+      "step_2": "Manfaatkan {{TextSearchCriteriaBold}} untuk secara tepat menentukan tanda air yang ingin ditangani. Manfaatkan berbagai parameter seperti gambar, teks, atau fitur pemformatan untuk menyaring pencarian Anda. Semakin rinci kriteria Anda, semakin akurat hasil Anda.",
+      "step_3": "Jalankan proses penghapusan pada daftar tanda air dokumen yang diambil melalui pencarian Anda. Hapus dengan mudah dari dokumen.",
+      "step_4": "Setelah berhasil menghapus tanda air, simpan dokumen yang dihasilkan dengan aman sebagai file lokal atau aliran byte, dengan menjaga integritasnya."
     }
   },
   "more_features": {

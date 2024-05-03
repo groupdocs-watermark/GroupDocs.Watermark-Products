@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: de
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Programmgesteuertes Entfernen von Wasserzeichen aus Rtf Dokumenten mit .NET"
+    title: "Entfernen Sie Wasserzeichen programmgesteuert aus Rtf-Dokumenten mit .NET"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** ermöglicht es .NET Entwicklern, Wasserzeichen programmgesteuert aus verschiedenen Rtf Dokumenten zu entfernen. In diesem Handbuch wird der Prozess beschrieben:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** ermöglicht .NET-Entwicklern das programmgesteuerte Entfernen von Wasserzeichen aus verschiedenen Rtf-Dokumenten. Dieser Leitfaden beschreibt den Prozess:
       
-      1. **Watermarker** angeben. Die Datei kann entweder als Bytestream, als Dateistream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
-      2. **SearchCriteria**-Objekts, um die spezifischen Wasserzeichen zu identifizieren, die entfernt werden müssen. Dieses Objekt ermöglicht das Filtern von Wasserzeichen auf der Grundlage von Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter zusammen mit Text- oder Formatierungsattributen für eine hochgranulare Suche verwenden.
-      3. Nach einer erfolgreichen Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Steuerung, sodass Sie den Entfernungsvorgang durchführen können.
-      4. Wenn das Entfernen des Wasserzeichens abgeschlossen ist, behalten Sie das geänderte Dokument bei. Die API erleichtert die Speicherung entweder mithilfe eines lokalen Dateipfads oder eines Stream-Objekts.
+      1. Starten Sie den Workflow, indem Sie Ihre Rtf-Datei als Argument für den Klassenkonstruktor **Watermarker** bereitstellen. Die Datei kann entweder als Byte-Stream, als Datei-Stream oder als Verweis auf einen lokalen Festplattenspeicherort bereitgestellt werden.
+      2. Nutzen Sie die Leistungsfähigkeit des **SearchCriteria**-Objekts, um die spezifischen Wasserzeichen zu identifizieren, die entfernt werden müssen. Dieses Objekt ermöglicht das Filtern von Wasserzeichen basierend auf Eigenschaften, die zuvor in das Dokument eingebettet wurden. Sie können ein Bild als Suchparameter neben Text oder Formatierungsattributen für eine hochgranulare Suche verwenden.
+      3. Nach erfolgreicher Suche erhalten Sie eine Sammlung relevanter Wasserzeichen. Diese Wasserzeichen bieten eine detaillierte Kontrolle, sodass Sie den Entfernungsvorgang durchführen können.
+      4. Behalten Sie nach Abschluss der Wasserzeichenentfernung das geänderte Dokument bei. Die API ermöglicht die Speicherung entweder über einen lokalen Dateipfad oder ein Stream-Objekt.
    
     code:
       platform: "net"
@@ -67,12 +67,12 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Bildwasserzeichen im RTF -Dokument entfernen
+        // Bildwasserzeichen im RTF-Dokument entfernen
 
-        // Instantiieren Sie einen Wassermarker, der ein RTF Dokument übergibt
+        // Instanziieren Sie Watermarker und übergeben Sie das Dokument RTF
         using (Watermarker watermarker = new Watermarker("input.rtf"))
         {
-            // Wasserzeichen entfernen, die im Dokument gefunden wurden
+            // Entfernen Sie Wasserzeichen, die im Dokument gefunden wurden
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
             possibleWatermarks.Remove(watermarks[0]);

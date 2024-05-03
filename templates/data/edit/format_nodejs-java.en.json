@@ -1,8 +1,8 @@
 {
   "examples": {
     "comment_1": "Update image {{FileFormatUp}} watermark",
-    "comment_2": "Compose Watermarker for {{FileFormatUp}} file",
-    "comment_3": "Use SearchCriteria to find a particular image",
+    "comment_2": "Compose {{TextWatermarker}} for {{FileFormatUp}} file",
+    "comment_3": "Use {{TextSearchCriteria}} to find a particular image",
     "comment_4": "Update image content",
     "comment_5": "Save updated file"
   },
@@ -10,8 +10,8 @@
     "title": "Dynamic Watermark Edit for {{FileFormatUp}} in {{EnvName}}",
     "content": {
       "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers {{EnvName}} developers a powerful API for editing watermarks across diverse {{FileFormatUp}} documents. Here's a comprehensive guide to streamline your workflow:",
-      "step_1": "**Start the Process:** Begin by providing your {{FileFormatUp}} file as an argument to the **Watermarker** class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.",
-      "step_2": "**Pinpoint Watermarks:** Use the **SearchCriteria** object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.",
+      "step_1": "**Start the Process:** Begin by providing your {{FileFormatUp}} file as an argument to the {{TextWatermarkerBold}} class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.",
+      "step_2": "**Pinpoint Watermarks:** Use the {{TextSearchCriteriaBold}} object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.",
       "step_3": "**Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.",
       "step_4": "**Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object."
     }

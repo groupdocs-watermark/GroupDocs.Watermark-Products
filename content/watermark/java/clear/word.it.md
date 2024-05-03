@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: it
 format: Word
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Cancella i documenti Word dalle filigrane usando Java"
+    title: "Elimina le filigrane dai documenti Word utilizzando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica la cancellazione dei documenti aziendali dalle filigrane aggiunte in precedenza. Potenzia la tua applicazione Java installando la nostra libreria e fallo in pochi semplici passaggi:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** semplifica la rimozione delle filigrane aggiunte in precedenza dai documenti aziendali. Potenzia la tua applicazione Java installando la nostra libreria e fallo in pochi semplici passaggi:
       
-      1. **Watermarker** con il documento Word. La nostra API supporta il passaggio di un documento da elaborare come stream o percorso locale.
-      2. **SearchCriteria** per limitare il set di filigrane da elaborare. È possibile utilizzare un'immagine come parametro di ricerca oltre che come funzionalità di testo o di formattazione. Quindi fornisci parametri di ricerca più specifici, quindi ottieni risultati più precisi.
-      3. Elabora l'elenco delle filigrane del documento che hai ottenuto come risultato della ricerca. Cancella il documento.
+      1. Prima di tutto istanziare la classe principale chiamata **Watermarker** con il documento Word. La nostra API supporta il passaggio di un documento da elaborare come flusso o percorso locale.
+      2. Utilizza **SearchCriteria** per limitare il set di filigrane da elaborare. È possibile utilizzare un'immagine come parametro di ricerca così come il testo o le funzionalità di formattazione. Quindi fornisci parametri di ricerca più specifici, quindi ottieni risultati più precisi.
+      3. Elenco dei processi delle filigrane dei documenti ottenuti come risultato della ricerca. Cancella il documento.
       4. Dopo aver cancellato il documento, salva il risultato come file locale o flusso di byte.
    
     code:
@@ -82,7 +82,7 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Filigrana di testo in chiaro nel documento Word
+        // Cancella filigrana di testo nel documento Word
 
         // Crea un'istanza di Watermarker con il documento Word
         Watermarker watermarker = new Watermarker("input.docx");

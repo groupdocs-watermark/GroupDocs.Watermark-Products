@@ -1,18 +1,18 @@
 {
   "examples": {
     "comment_1": "Genera filigrana di testo nel file {{FileFormatUp}}",
-    "comment_2": "Fornisci il file da filigranare",
+    "comment_2": "Fornire il file a cui applicare la filigrana",
     "comment_3": "Genera un'istanza di filigrana di testo",
-    "comment_4": "Salva {{FileFormatUp}} risultati"
+    "comment_4": "Salva il risultato {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Migliora i tuoi documenti: genera filigrane per {{FileformatCap}} usando {{EnvName}}",
+    "title": "Migliora i tuoi documenti: genera filigrane per {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** è una libreria che semplifica l'aggiunta di filigrane a vari formati di file aziendali per {{EnvName}} sviluppatori. Integra la nostra libreria nella tua applicazione e aggiungi facilmente filigrane ai documenti seguendo questi passaggi:",
-      "step_1": "**Iniziare il tuo percorso con il watermarking:** Inizia conoscendo la classe **Watermarker**, la pietra angolare della nostra API. Per iniziare il processo, assicurati di crearne un'istanza prima dell'elaborazione del documento. Non trascurate l'importanza di fornire il file {{FileformatCap}} al costruttore, che si tratti di un percorso o di un oggetto stream.",
-      "step_2": "**Creazione di filigrane personalizzate:** Passa alla fase successiva creando un oggetto **Filigrana** personalizzato in base alle tue specifiche. Questo strumento versatile non si limita a pagine specifiche del documento; può anche essere integrato senza problemi in elementi nativi del documento come allegati o intestazioni.",
-      "step_3": "**Ottimizzazione degli attributi della filigrana:** Perfeziona la tua esperienza con la filigrana regolando proprietà come altezza, larghezza, allineamento della pagina, famiglia di caratteri e colore. Questo livello di personalizzazione garantisce che le filigrane si integrino perfettamente con i documenti.",
-      "step_4": "**Applicazione delle filigrane:** Utilizza il metodo **Watermarker** per applicare facilmente le filigrane personalizzate ai tuoi documenti. Che tu debba aggiungere una o più filigrane, questo processo offre flessibilità. Per una maggiore sicurezza, valuta la possibilità di salvare i documenti elaborati in una posizione separata."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** è una libreria che semplifica l'aggiunta di filigrane a vari formati di file aziendali per gli sviluppatori di {{EnvName}}. Integra la nostra libreria nella tua applicazione e filigrana facilmente i documenti seguendo questi passaggi:",
+      "step_1": "**Iniziare il tuo percorso con la filigrana:** Inizia familiarizzando con la classe {{TextWatermarkerBold}}, la pietra angolare della nostra API. Per iniziare il processo, assicurati di crearne un'istanza prima dell'elaborazione del documento. Non trascurare l'importanza di fornire il file {{FileformatCap}} al costruttore, sia che si tratti di un percorso o di un oggetto stream.",
+      "step_2": "**Creazione di filigrane personalizzate:** Passa alla fase successiva creando un oggetto {{TextWatermarkBold}} su misura per le tue specifiche. Questo strumento versatile non è limitato a pagine di documenti specifici; può anche essere perfettamente integrato negli elementi nativi del documento come allegati o intestazioni.",
+      "step_3": "**Perfezionamento degli attributi della filigrana:** perfeziona la tua esperienza di filigrana regolando proprietà quali altezza, larghezza, allineamento della pagina, famiglia di caratteri e colore. Questo livello di personalizzazione garantisce che le filigrane si fondano perfettamente con i tuoi documenti.",
+      "step_4": "**Applicazione delle filigrane:** utilizza il metodo {{TextWatermarkerBold}} per applicare facilmente le tue filigrane personalizzate ai tuoi documenti. Se devi aggiungere una o più filigrane, questo processo offre flessibilità. Per maggiore sicurezza, valuta la possibilità di salvare i documenti elaborati in una posizione separata."
     }
   },
   "more_features": {

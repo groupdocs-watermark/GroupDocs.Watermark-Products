@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Bild-Wasserzeichen in {{FileFormatUp}} -Datei generieren",
-    "comment_2": "Geben Sie den Quelldateipfad für den Watermarker-Konstruktor an",
+    "comment_1": "Bildwasserzeichen in der Datei {{FileFormatUp}} generieren",
+    "comment_2": "Geben Sie den Pfad der Quelldatei zum Konstruktor {{TextWatermarker}} an",
     "comment_3": "Generieren Sie eine Bildwasserzeicheninstanz mit einer Bilddatei",
-    "comment_4": "Ergebnis mit Wasserzeichen {{FileFormatUp}} speichern"
+    "comment_4": "Mit Wasserzeichen versehenes {{FileFormatUp}}-Ergebnis speichern"
   },
   "steps": {
-    "title": "Mühelos Wasserzeichen für {{FileformatCap}} Dokumente generieren",
+    "title": "Generieren Sie mühelos Wasserzeichen für {{FileformatCap}}-Dokumente",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}) :** Erweiterte Wasserzeichen-Bibliothek für {{EnvName}} Anwendungen. Machen Sie Ihre Lösung noch leistungsfähiger und sichern Sie Dokumente rechtzeitig mit Wasserzeichen.",
-      "step_1": "**Core Class: Watermarker.** Die Hauptklasse unserer API ist **Watermarker**. Sie müssen es vor der Dokumentenverarbeitung instanziieren. Vergessen Sie nicht, die Datei {{FileformatCap}} als Pfad- oder Stream-Objekt an den Konstruktor zu übergeben.",
-      "step_2": "**Erstellen Sie Ihr Wasserzeichen.** Der nächste Schritt besteht darin, ein Wasserzeichen-Objekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite platziert werden, sondern auch in systemeigenen Dokumentteilen wie Bildern oder Kopfzeilen.",
-      "step_3": "**Feinabstimmung des Aussehen.** Stellen Sie Wasserzeicheneigenschaften wie Höhe und Breite, obere, linke, mittige Ausrichtung, Schriftarten und Farben usw. ein.",
-      "step_4": "**Anwenden und Speichern.** Verwenden Sie die Methode **Watermarker**, um ein neues Wasserzeichen hinzuzufügen. Fühlen Sie sich frei, so viele Wasserzeichen hinzuzufügen, wie Sie benötigen. Sie können das Dokument mit Wasserzeichen an einem beliebigen Ort speichern."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Erweiterte Wasserzeichenbibliothek für {{EnvName}}-Anwendungen. Stärken Sie Ihre Lösung und sichern Sie Dokumente rechtzeitig mit Wasserzeichen.",
+      "step_1": "**Kernklasse: Watermarker.** Die Hauptklasse unserer API ist {{TextWatermarkerBold}}. Sie müssen es vor der Dokumentverarbeitung instanziieren. Vergessen Sie nicht, die Datei {{FileformatCap}} als Pfad oder Stream-Objekt an den Konstruktor zu übergeben.",
+      "step_2": "**Erstellen Sie Ihr Wasserzeichen.** Der nächste Schritt besteht darin, ein Wasserzeichenobjekt des gewünschten Typs zu erstellen. Es kann nicht nur auf einer bestimmten Dokumentseite, sondern auch in nativen Dokumentteilen wie Bildern oder Kopfzeilen platziert werden.",
+      "step_3": "**Optimierung der Darstellung.** Legen Sie Wasserzeicheneigenschaften wie Höhe und Breite, Ausrichtung oben, links, mittig, Schriftarten und Farben usw. fest.",
+      "step_4": "**Anwenden und Speichern.** Verwenden Sie die Methode {{TextWatermarkerBold}}, um ein neues Wasserzeichen hinzuzufügen. Sie können beliebig viele Wasserzeichen hinzufügen. Sie können das mit Wasserzeichen versehene Dokument an einem beliebigen Ort speichern."
     }
   },
   "more_features": {

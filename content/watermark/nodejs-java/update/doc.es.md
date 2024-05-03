@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:10
+date:  2024-05-03T13:37:17
 draft: false
 lang: es
 format: Doc
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Edición dinámica de marcas de agua para DOC en Node.js via Java"
+    title: "Edición dinámica de marca de agua para DOC en Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** ofrece a Node.js via Java desarrolladores una potente API para editar marcas de agua en diversos DOC documentos. Esta es una guía completa para agilizar tu flujo de trabajo:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** ofrece a los desarrolladores de Node.js via Java una potente API para editar marcas de agua en diversos documentos DOC. Aquí encontrará una guía completa para optimizar su flujo de trabajo:
       
-      1. **Inicie el proceso:** Comience proporcionando su archivo DOC como argumento para el constructor de la clase**Watermarker**. En función de sus requisitos, el archivo se puede obtener como una transmisión o desde una ubicación de disco local.
-      2. **Marcas de agua precisas:** Utilice el objeto **SearchCriteria** para identificar las marcas de agua que deben modificarse. Esta versátil herramienta permite seleccionar marcas de agua específicas en función de propiedades específicas.
-      3. **Refina con precisión:** Al ejecutar correctamente la búsqueda, tendrás acceso a una colección de marcas de agua relevantes. Disfrute de un control detallado de cada elemento, con la posibilidad de actualizar las dimensiones, el posicionamiento de la página, el contenido del texto, el color, los datos de las imágenes y mucho más.
-      4. **Persistencia perfecta:** Una vez que se hayan completado las actualizaciones de las marcas de agua, almacene de forma segura el documento modificado. La API ofrece opciones de almacenamiento flexibles, lo que permite guardarlo en una ruta de archivo local o como un objeto de transmisión.
+      1. **Inicie el proceso:** Comience proporcionando su archivo DOC como argumento para el constructor de clase **Watermarker**. Dependiendo de sus requisitos, el archivo se puede obtener como una secuencia o desde una ubicación de disco local.
+      2. **Identificar marcas de agua:** Utilice el objeto **SearchCriteria** para identificar las marcas de agua que necesitan modificación. Esta herramienta versátil permite la selección específica de marcas de agua en función de propiedades específicas.
+      3. **Refinar con precisión:** Tras la ejecución exitosa de la búsqueda, obtenga acceso a una colección de marcas de agua relevantes. Disfrute de un control granular sobre cada elemento, con la capacidad de actualizar dimensiones, posición de la página, contenido del texto, color, datos de imagen y más.
+      4. **Persistencia perfecta:** Una vez que se completen las actualizaciones de la marca de agua, almacene de forma segura el documento modificado. La API ofrece opciones de almacenamiento flexibles, lo que le permite guardar en una ruta de archivo local o como un objeto de transmisión.
    
     code:
       platform: "net"
@@ -72,7 +72,7 @@ steps:
         // Redacte Watermarker para el archivo DOC
         const watermarker = new groupdocs.watermark.Watermarker("input.doc");
 
-        // Usa SearchCriteria para encontrar una imagen en particular
+        // Utilice SearchCriteria para buscar una imagen en particular
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

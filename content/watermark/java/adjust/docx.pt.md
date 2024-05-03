@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: pt
 format: Docx
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Ajuste as marcas d'água do documento Docx usando Java"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permite que Java desenvolvedores ajustem facilmente marcas d'água em muitos documentos usando seus aplicativos. Aqui está um guia rápido:
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** permite que os desenvolvedores do Java ajustem facilmente marcas d'água em muitos documentos usando seus aplicativos. Aqui está um guia rápido:
       
-      1. **Watermarker**. Forneça bytes ou fluxo de arquivos ou um caminho de disco local.
-      2. **SearchCriteria** para identificar marcas d'água com as propriedades específicas adicionadas anteriormente ao documento.
-      3. Após a pesquisa, você receberá uma lista de marcas d'água relevantes. Em seguida, você pode ajustar suas propriedades, incluindo tamanho, alinhamento da página, texto, cor, conteúdo da imagem e muito mais. Isso oferece um alto grau de personalização para seus dados.
-      4. Depois de terminar de ajustar as marcas d'água, salve o documento atualizado. Você pode usar um caminho de arquivo local ou um stream para armazenar o resultado.
+      1. Primeiramente, você precisa passar o arquivo Docx como parâmetro do construtor da classe **Watermarker**. Forneça fluxo de bytes ou arquivos ou um caminho de disco local.
+      2. Em segundo lugar, localize as marcas d'água que precisam ser ajustadas. Use **SearchCriteria** para identificar marcas d'água com as propriedades específicas adicionadas anteriormente ao documento.
+      3. Após a pesquisa, você receberá uma lista de marcas d'água relevantes. Você pode então ajustar suas propriedades, incluindo tamanho, alinhamento de página, texto, cor, conteúdo da imagem e muito mais. Isso oferece um alto grau de personalização para seus dados.
+      4. Depois de terminar de ajustar as marcas d'água, salve o documento atualizado. Você pode usar um caminho de arquivo local ou fluxo para armazenar o resultado.
    
     code:
       platform: "net"
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Ajustar a marca d'água da imagem DOCX
+        // Ajustar marca d'água da imagem DOCX
 
-        // Instancie o Watermarker com DOCX
+        // Instancie Watermarker com DOCX
         Watermarker watermarker = new Watermarker("input.docx");
         
         // Inicialize o SearchCriteria para corresponder a uma imagem específica

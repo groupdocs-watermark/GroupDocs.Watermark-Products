@@ -1,17 +1,17 @@
 {
   "examples": {
-    "comment_1": "Filigrana di testo in chiaro nel documento {{FileformatCap}}",
-    "comment_2": "Crea un'istanza di Watermarker con il documento {{FileformatCap}}",
+    "comment_1": "Cancella filigrana di testo nel documento {{FileformatCap}}",
+    "comment_2": "Crea un'istanza di {{TextWatermarker}} con il documento {{FileformatCap}}",
     "comment_3": "Cancella filigrana specifica",
     "comment_4": "Salva il file elaborato"
   },
   "steps": {
-    "title": "Cancella i documenti {{FileformatCap}} dalle filigrane usando {{EnvName}}",
+    "title": "Elimina le filigrane dai documenti {{FileformatCap}} utilizzando {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica la cancellazione dei documenti aziendali dalle filigrane aggiunte in precedenza. Potenzia la tua applicazione {{EnvName}} installando la nostra libreria e fallo in pochi semplici passaggi:",
-      "step_1": "**Watermarker** con il documento {{FileformatCap}}. La nostra API supporta il passaggio di un documento da elaborare come stream o percorso locale.",
-      "step_2": "**SearchCriteria** per limitare il set di filigrane da elaborare. È possibile utilizzare un'immagine come parametro di ricerca oltre che come funzionalità di testo o di formattazione. Quindi fornisci parametri di ricerca più specifici, quindi ottieni risultati più precisi.",
-      "step_3": "Elabora l'elenco delle filigrane del documento che hai ottenuto come risultato della ricerca. Cancella il documento.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** semplifica la rimozione delle filigrane aggiunte in precedenza dai documenti aziendali. Potenzia la tua applicazione {{EnvName}} installando la nostra libreria e fallo in pochi semplici passaggi:",
+      "step_1": "Prima di tutto istanziare la classe principale chiamata {{TextWatermarkerBold}} con il documento {{FileformatCap}}. La nostra API supporta il passaggio di un documento da elaborare come flusso o percorso locale.",
+      "step_2": "Utilizza {{TextSearchCriteriaBold}} per limitare il set di filigrane da elaborare. È possibile utilizzare un'immagine come parametro di ricerca così come il testo o le funzionalità di formattazione. Quindi fornisci parametri di ricerca più specifici, quindi ottieni risultati più precisi.",
+      "step_3": "Elenco dei processi delle filigrane dei documenti ottenuti come risultato della ricerca. Cancella il documento.",
       "step_4": "Dopo aver cancellato il documento, salva il risultato come file locale o flusso di byte."
     }
   },

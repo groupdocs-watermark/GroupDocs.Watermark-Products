@@ -1,17 +1,17 @@
 {
   "examples": {
-    "comment_1": "在 {{FileFormatUp}} 中查找文字水印",
-    "comment_2": "使用 {{FileFormatUp}} 路径创建水印",
+    "comment_1": "在 {{FileFormatUp}} 中查找文本水印",
+    "comment_2": "使用 {{FileFormatUp}} 路径创建 {{TextWatermarker}}",
     "comment_3": "查找水印",
     "comment_4": "使用找到的水印信息"
   },
   "steps": {
-    "title": "使用 {{EnvName}} 在 {{FileformatCap}} 个文件中查找水印",
+    "title": "使用 {{EnvName}} 在 {{FileformatCap}} 文件中查找水印",
     "content": {
       "title": "**[{{ProdShortName}}]({{ProductUrl}})** 简化了在业务文档中查找水印的过程。将我们的软件包集成到您的 {{EnvName}} 应用程序中以释放其优势。",
-      "step_1": "**Watermarker**类实例中。您可以提供文件路径、文件流或字节流。",
-      "step_2": "**搜索条件对象**。例如，提供图像以查找相似的图像水印。如果要查找文字水印，请提供文本、字体、颜色和其他相关选项。",
-      "step_3": "**水印**对象的**搜索**方法检索文档中放置的水印。您将收到一组代表潜在水印的对象，以供进一步处理。",
+      "step_1": "要利用我们的库功能，请将 {{FileformatCap}} 文件加载到 {{TextWatermarkerBold}} 类实例中。您可以提供文件路径、文件流或字节流。",
+      "step_2": "要细化潜在水印列表，请使用 {{TextSearchCriteriaBold}} 对象。例如，提供图像来查找相似的图像水印。如果查找文本水印，请提供文本、字体、颜色和其他相关选项。",
+      "step_3": "使用 {{TextWatermarkerBold}} 对象的 {{TextSearchBold}} 方法检索文档中放置的水印。您将收到代表潜在水印的对象集合，以供进一步处理。",
       "step_4": "最后，您可以根据需要灵活地操作搜索结果。您可以删除找到的水印或编辑其属性，例如更改大小或文本。"
     }
   },

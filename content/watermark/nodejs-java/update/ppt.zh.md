@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:17
 draft: false
 lang: zh
 format: Ppt
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "在 Node.js via Java 中编辑 PPT 的动态水印"
+    title: "Node.js via Java 中 PPT 的动态水印编辑"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 为 Node.js via Java 开发人员提供了一个强大的 API，用于编辑各种 PPT 文档的水印。以下是简化工作流程的综合指南：
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 为 Node.js via Java 开发者提供了强大的 API，用于编辑不同 PPT 文档的水印。以下是简化工作流程的综合指南：
       
-      1. **开始流程：** 首先将您的 PPT 文件作为参数提供给 **Watermarker** 类构造函数。根据您的要求，该文件可以以流形式获取，也可以从本地磁盘位置获取。
-      2. **精确定位水印：** 使用**SearchCriteria**对象识别需要修改的水印。这个多功能工具允许根据特定属性进行有针对性的水印选择。
-      3. **精确优化：** 成功执行搜索后，即可访问一系列相关水印。享受对每个元素的精细控制，并能够更新尺寸、页面定位、文本内容、颜色、图像数据等。
-      4. **无缝保存：** 水印更新完成后，安全地存储修改后的文档。API 提供灵活的存储选项，允许您保存到本地文件路径或另存为流对象。
+      1. **开始流程：** 首先将您的 PPT 文件作为参数提供给 **Watermarker** 类构造函数。根据您的要求，文件可以作为流或本地磁盘位置获取。
+      2. **精确水印：** 使用 **SearchCriteria** 对象来识别需要修改的水印。这种多功能工具可以根据特定属性进行有针对性的水印选择。
+      3. **精确细化：** 成功执行搜索后，即可访问相关水印的集合。享受对每个元素的精细控制，能够更新尺寸、页面定位、文本内容、颜色、图像数据等。
+      4. **无缝持久性：** 水印更新完成后，安全地存储修改后的文档。该 API 提供灵活的存储选项，允许您保存到本地文件路径或作为流对象。
    
     code:
       platform: "net"
@@ -69,10 +69,10 @@ steps:
 
         // 更新图片 PPT 水印
 
-        // 为 PPT 文件撰写水印
+        // 为 PPT 文件编写 Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.ppt");
 
-        // 使用 SearchCriteria 查找特定图片
+        // 使用 SearchCriteria 查找特定图像
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:12
+date:  2024-05-03T13:37:19
 draft: false
 lang: vi
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Nhận hình mờ từ Pptx tệp bằng GroupDocs.Watermark"
+    title: "Nhận hình mờ từ các tệp Pptx bằng cách sử dụng GroupDocs.Watermark"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp một giải pháp toàn diện để đặt hình mờ trong các định dạng tài liệu kinh doanh phổ biến. Bằng cách tích hợp thư viện của chúng tôi vào Node.js via Java ứng dụng của bạn, bạn có thể trang bị cho chúng khả năng tìm kiếm hình mờ mạnh mẽ.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp giải pháp toàn diện để đặt hình mờ ở các định dạng tài liệu kinh doanh phổ biến. Bằng cách tích hợp thư viện của chúng tôi vào các ứng dụng Node.js via Java của bạn, bạn có thể trang bị cho chúng khả năng tìm kiếm hình mờ mạnh mẽ.
       
-      1. **Watermarker** và cung cấp đường dẫn tệp Pptx. Ngoài ra, bạn có thể sử dụng tệp được lưu dưới dạng luồng byte. Hành động này về cơ bản tải tài liệu đích để phân tích hình mờ toàn diện.
-      2. **SearchCriteria**. Bạn có thể chỉ định một hình ảnh để định vị hình mờ hình ảnh tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các tham số liên quan khác để tinh chỉnh tiêu chí tìm kiếm và đạt được kết quả chính xác hơn.
-      3. **Get** (hoặc quy ước đặt tên tương tự) của đối tượng**Watermarker** để bắt đầu quá trình lấy hình mờ trong tài liệu đã tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, tạo điều kiện xử lý thêm dựa trên yêu cầu cụ thể của bạn.
-      4. Bộ sưu tập kết quả hình mờ cho phép bạn kiểm soát các hình mờ được xác định trong tài liệu. Bạn có thể xóa hình mờ không mong muốn hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước, vị trí hoặc nội dung văn bản của chúng, để phù hợp với nhu cầu của bạn.
+      1. Để truy cập các chức năng do GroupDocs.Watermark cung cấp, hãy khởi tạo lớp **Watermarker** và cung cấp đường dẫn tệp Pptx. Ngoài ra, bạn có thể sử dụng tệp được lưu dưới dạng luồng byte. Hành động này về cơ bản sẽ tải tài liệu đích để phân tích hình mờ toàn diện.
+      2. Để nhận dạng hình mờ được nhắm mục tiêu, hãy tạo đối tượng **SearchCriteria**. Bạn có thể chỉ định một hình ảnh để định vị các hình mờ tương tự. Ngoài ra, đối với hình mờ văn bản, hãy xác định nội dung văn bản, thuộc tính phông chữ, thuộc tính màu sắc và các thông số liên quan khác để tinh chỉnh tiêu chí tìm kiếm và đạt được kết quả chính xác hơn.
+      3. Gọi phương thức **Search** (hoặc quy ước đặt tên tương tự) của đối tượng **Watermarker** để bắt đầu quá trình lấy hình mờ trong tài liệu được tải. Hàm này trả về một tập hợp các đối tượng đại diện cho hình mờ tiềm năng, tạo điều kiện thuận lợi cho việc xử lý tiếp theo dựa trên yêu cầu cụ thể của bạn.
+      4. Việc thu thập hình mờ kết quả cho phép bạn kiểm soát các hình mờ được xác định trong tài liệu. Bạn có thể xóa hình mờ không mong muốn hoặc tự động sửa đổi các thuộc tính của chúng, chẳng hạn như điều chỉnh kích thước, vị trí hoặc nội dung văn bản của chúng để phù hợp với nhu cầu của bạn.
    
     code:
       platform: "net"
@@ -67,18 +67,18 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Lấy hình mờ hình ảnh được đặt trong PPTX
+        // Lấy hình mờ được đặt trong PPTX
 
         // Tạo đối tượng Watermarker với đường dẫn nguồn
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
-        // Lấy hình mờ bằng hash hình ảnh tương tự
+        // Nhận hình mờ bằng hàm băm hình ảnh tương tự
         const imageSearchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
         imageSearchCriteria.setMaxDifference(0.9);
         const possibleWatermarks = watermarker.search(imageSearchCriteria);
 
-        // Xử lý hình mờ như bạn muốn
+        // Xử lý hình mờ theo ý muốn
         console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
         
         ```            

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: ko
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java 을 사용하여 Docx 문서에서 워터마크 지우기"
+    title: "Java을(를) 사용하여 Docx 문서에서 워터마크 지우기"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 Java 애플리케이션 내의 비즈니스 문서에서 워터마크를 지우는 프로세스를 간소화합니다.라이브러리를 통합하고 다음 단계를 따르세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 Java 애플리케이션 내의 비즈니스 문서에서 워터마크를 지우는 프로세스를 단순화합니다. 라이브러리를 통합하고 다음 단계를 따르세요.
       
-      1. **워터마커** 클래스를 초기화합니다.API는 문서를 처리를 위한 스트림 또는 로컬 파일 경로로 받아들입니다.
-      2. **SearchCriteria** 개체를 활용하여 지울 워터마크 세트를 수정하십시오.이미지를 텍스트 또는 서식 속성과 함께 검색 매개변수로 활용할 수 있습니다.검색 기준이 구체적일수록 더 정확한 결과를 얻을 수 있습니다.
-      3. 검색 후에는 식별된 워터마크 목록을 받게 됩니다.계속해서 문서에서 이러한 워터마크를 지우세요.
-      4. 워터마크가 지워지면 로컬 파일 경로 또는 스트림 객체를 사용하여 최종 문서를 저장합니다.
+      1. Docx 문서로 **Watermarker** 클래스를 초기화하는 것부터 시작하세요. API는 처리를 위해 문서를 스트림이나 로컬 파일 경로로 허용합니다.
+      2. **SearchCriteria** 개체를 활용하여 삭제를 위한 워터마크 세트를 구체화합니다. 텍스트 또는 서식 속성과 함께 이미지를 검색 매개변수로 활용할 수 있습니다. 검색 기준이 구체적일수록 결과가 더 정확해집니다.
+      3. 검색 후에는 식별된 워터마크 목록을 받게 됩니다. 문서에서 이러한 워터마크를 삭제하여 진행하세요.
+      4. 워터마크가 지워지면 로컬 파일 경로 또는 스트림 개체를 사용하여 최종 문서를 저장합니다.
    
     code:
       platform: "net"
@@ -83,14 +83,14 @@ steps:
         ```java {style=abap}
         // 클리어 이미지 워터마크 DOCX 문서
 
-        // DOCX 문서 경로를 워터마커 생성자에 전달
+        // DOCX 문서 경로를 Watermarker 생성자에 전달합니다.
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // 워터마크를 삭제하여 문서 지우기
+        // 워터마크를 삭제하여 문서를 지우세요
         PossibleWatermarkCollection possibleWatermarks = watermarker.search();
         possibleWatermarks.removeAt(0);
 
-        // 삭제한 파일 저장
+        // 삭제된 파일 저장
         watermarker.save("output.docx");
         
         ```        

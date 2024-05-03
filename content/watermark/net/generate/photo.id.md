@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:06
 draft: false
 lang: id
 format: Photo
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Tingkatkan Dokumen Anda: Hasilkan Watermark untuk Photo menggunakan .NET"
+    title: "Sempurnakan Dokumen Anda: Hasilkan Tanda Air untuk Photo menggunakan .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** adalah pustaka yang menyederhanakan penambahan tanda air ke berbagai format file bisnis untuk .NET pengembang. Integrasikan perpustakaan kami ke dalam aplikasi Anda dan dengan mudah menandai dokumen menggunakan langkah-langkah berikut:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** adalah perpustakaan yang menyederhanakan penambahan tanda air ke berbagai format file bisnis untuk pengembang .NET. Integrasikan perpustakaan kami ke dalam aplikasi Anda dan beri tanda air pada dokumen dengan mudah menggunakan langkah-langkah berikut:
       
-      1. **Memulai Perjalanan Watermarking Anda:** Mulailah dengan mengenalkan diri Anda dengan kelas **Watermarker**, landasan API kami. Untuk memulai proses, pastikan Anda membuat instance sebelum pemrosesan dokumen. Jangan mengabaikan pentingnya menyediakan file Photo ke konstruktor, apakah itu jalur atau objek aliran.
-      2. **Membuat Watermark Kustom:** Lanjutkan ke fase berikutnya dengan membuat objek **Watermark** yang disesuaikan dengan spesifikasi Anda. Alat serbaguna ini tidak terbatas pada halaman dokumen tertentu; itu juga dapat diintegrasikan dengan mulus ke dalam elemen dokumen asli seperti lampiran atau header.
-      3. **Menyesuaikan Atribut Tanda Air:** Sempurnakan pengalaman watermarking Anda dengan menyesuaikan properti seperti tinggi, lebar, keselarasan halaman, keluarga font, dan warna. Tingkat penyesuaian ini memastikan tanda air Anda menyatu dengan mulus dengan dokumen Anda.
-      4. **Menerapkan Tanda Air Anda:** Manfaatkan metode**Watermark** untuk dengan mudah menerapkan tanda air khusus Anda ke dokumen Anda. Apakah Anda perlu menambahkan satu atau beberapa tanda air, proses ini menawarkan fleksibilitas. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah.
+      1. **Memulai Perjalanan Watermarking Anda:** Mulailah dengan mengenal kelas **Watermarker**, landasan API kami. Untuk memulai proses, pastikan Anda membuat instance sebelum pemrosesan dokumen. Jangan mengabaikan pentingnya menyediakan file Photo ke konstruktor, baik itu jalur atau objek aliran.
+      2. **Membuat Tanda Air Khusus:** Lanjutkan ke fase berikutnya dengan membuat objek **Watermark** yang disesuaikan dengan spesifikasi Anda. Alat serbaguna ini tidak terbatas pada halaman dokumen tertentu; itu juga dapat diintegrasikan dengan mulus ke dalam elemen dokumen asli seperti lampiran atau header.
+      3. **Menyempurnakan Atribut Tanda Air:** Sempurnakan pengalaman penandaan air Anda dengan menyesuaikan properti seperti tinggi, lebar, perataan halaman, jenis font, dan warna. Tingkat penyesuaian ini memastikan tanda air menyatu sempurna dengan dokumen Anda.
+      4. **Menerapkan Tanda Air Anda:** Gunakan metode **Watermarker** untuk dengan mudah menerapkan tanda air khusus ke dokumen Anda. Baik Anda perlu menambahkan satu atau beberapa tanda air, proses ini menawarkan fleksibilitas. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen Anda yang sudah diproses di lokasi terpisah.
    
     code:
       platform: "net"
@@ -79,7 +79,7 @@ steps:
             watermark.BackgroundColor = Color.Blue;
             watermarker.Add(watermark);
 
-            // Simpan PHOTO hasil
+            // Simpan hasil PHOTO
             watermarker.Save("output.png");
         }
         

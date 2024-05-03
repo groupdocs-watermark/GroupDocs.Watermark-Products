@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:00
+date:  2024-05-03T13:37:07
 draft: false
 lang: id
 format: Powerpoint
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Dokumen Bisnis Aman: Hasilkan Watermark untuk Format Powerpoint"
+    title: "Dokumen Bisnis yang Aman: Hasilkan Tanda Air untuk Format Powerpoint"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) :** Suntikkan API kami ke aplikasi Anda dan buat tanda air untuk banyak format file yang didukung.
+      Tingkatkan Keamanan Dokumen Anda dengan **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** Suntikkan API kami ke aplikasi Anda dan buat tanda air untuk banyak format file yang didukung.
       
-      1. **Mulai Watermarking:** Mulai pemrosesan dokumen dengan kelas**Watermarker** yang menyediakan fitur utama kami. Buat instance dengan meneruskan ke konstruktor file Powerpoint yang seharusnya diamankan oleh tanda air yang dihasilkan.
-      2. **Buat objek Watermark utama:** Tingkatkan dokumen Anda dengan memahat objek**Watermark** yang dipesan lebih dahulu. Di luar halaman belaka, mereka berintegrasi dengan mulus ke elemen asli seperti lampiran atau header, menambahkan lapisan keamanan dan profesionalisme.
-      3. **Sempurnakan Atribut Tanda Air:** Sempurnakan tanda air Anda dengan presisi, sesuaikan dimensi, penyelarasan, dan skema warna. Setiap detail meningkatkan integritas dokumen, menjadikan file Anda jelas milik Anda.
-      4. **Terapkan dengan Presisi:** Manfaatkan metode**Watermarker** untuk menerapkan tanda air khusus Anda dengan sempurna. Baik tunggal atau ganda, setiap tanda air menambahkan lapisan perlindungan ekstra. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen yang diproses di lokasi terpisah dan aman.
+      1. **Memulai Watermarking:** Mulai pemrosesan dokumen dengan kelas **Watermarker** yang menyediakan fitur utama kami. Buat instance dengan meneruskan file Powerpoint ke konstruktor yang seharusnya diamankan dengan tanda air yang dihasilkan.
+      2. **Buat objek Tanda Air utama:** Sempurnakan dokumen Anda dengan membuat objek **Watermark** yang dipesan lebih dahulu. Lebih dari sekedar halaman, mereka terintegrasi dengan mulus ke dalam elemen asli seperti lampiran atau header, sehingga menambahkan lapisan keamanan dan profesionalisme.
+      3. **Perbaiki Atribut Tanda Air:** Sempurnakan tanda air Anda dengan presisi, penyesuaian dimensi, perataan, dan skema warna. Setiap detail meningkatkan integritas dokumen, menjadikan file Anda benar-benar milik Anda.
+      4. **Terapkan dengan Presisi:** Manfaatkan metode **Watermarker** untuk menerapkan tanda air khusus Anda dengan sempurna. Baik tunggal atau ganda, setiap tanda air menambahkan lapisan perlindungan ekstra. Untuk keamanan tambahan, pertimbangkan untuk menyimpan dokumen Anda yang sudah diproses di lokasi terpisah dan aman.
    
     code:
       platform: "net"
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Hasilkan tanda air teks untuk POWERPOINT
+        // Buat tanda air teks untuk POWERPOINT
 
-        // Berikan file sumber ke instance Watermarker
+        // Teruskan file sumber ke instance Watermarker
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // Hasilkan tanda air teks dan atur opsinya

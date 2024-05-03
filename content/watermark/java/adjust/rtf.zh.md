@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:04
+date:  2024-05-03T13:37:11
 draft: false
 lang: zh
 format: Rtf
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "使用 Java 调整 Rtf 个文档水印"
+    title: "使用 Java 调整 Rtf 文档水印"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 允许 Java 开发人员使用其应用程序轻松调整许多文档中的水印。以下是快速指南：
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 允许 Java 开发人员使用其应用程序轻松调整许多文档中的水印。这是一个快速指南：
       
-      1. **Watermarker**类构造函数的参数传递。提供字节或文件流或本地磁盘路径。
-      2. **SearchCriteria**来识别具有先前添加到文档的特定属性的水印。
-      3. 搜索完成后，您将收到相关水印的列表。然后，您可以调整它们的属性，包括大小、页面对齐方式、文本、颜色、图像内容等。这为您的数据提供了高度的自定义。
-      4. 调整完水印后，保存更新后的文档。您可以使用本地文件路径或流来存储结果。
+      1. 首先，您需要将 Rtf 文件作为 **Watermarker** 类构造函数的参数传递。提供字节或文件流或本地磁盘路径。
+      2. 其次，找到需要调整的水印。使用 **SearchCriteria** 来识别具有先前添加到文档中的特定属性的水印。
+      3. 搜索后，您将收到相关水印的列表。然后，您可以调整它们的属性，包括大小、页面对齐方式、文本、颜色、图像内容等。这为您的数据提供了高度的定制。
+      4. 完成水印调整后，保存更新的文档。您可以使用本地文件路径或流来存储结果。
    
     code:
       platform: "net"
@@ -81,18 +81,18 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 调整 RTF 图像水印
+        // 调整RTF图片水印
 
-        // 使用 RTF 实例化水印
+        // 使用 RTF 实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.rtf");
         
-        // 初始化搜索条件以匹配特定图像
+        // 初始化 SearchCriteria 以匹配特定图像
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
         for (PossibleWatermark watermark : watermarks)
         {
-            // 替换找到的图片
+            // 替换找到的图像
             watermark.setImageData(imageData);
         }
 

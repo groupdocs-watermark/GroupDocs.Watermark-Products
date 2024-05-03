@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:01
+date:  2024-05-03T13:37:08
 draft: false
 lang: pt
 format: Excel
@@ -42,12 +42,12 @@ steps:
     enable: true
     title: "Atualize marcas d'água em EXCEL via Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equipa Node.js via Java desenvolvedores com uma API robusta para atualizar programaticamente marcas d'água em vários documentos EXCEL. Este guia descreve o processo:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** equipa os desenvolvedores do Node.js via Java com uma API robusta para atualizar programaticamente marcas d'água em vários documentos do EXCEL. Este guia descreve o processo:
       
-      1. **Watermarker**. Dependendo de suas demandas, o arquivo pode ser fornecido como um stream ou uma referência a um local de disco local.
-      2. **SearchCriteria** para identificar as marcas d'água específicas que precisam ser modificadas. Esse objeto permite a identificação de marcas d'água com base nas propriedades desejadas.
-      3. Após a execução bem-sucedida da pesquisa, você receberá uma coleção de marcas d'água relevantes. Essas marcas d'água oferecem controle granular, permitindo que você atualize propriedades como dimensões, posicionamento da página, conteúdo de texto, esquema de cores, dados de imagem e muito mais.
-      4. Após a conclusão das atualizações da marca d'água, mantenha o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
+      1. Inicie o processo fornecendo seu arquivo EXCEL como argumento para o construtor da classe **Watermarker**. Dependendo de suas demandas, o arquivo pode ser fornecido como um fluxo ou uma referência a um local de disco local.
+      2. Posteriormente, aproveite o objeto **SearchCriteria** para identificar as marcas d'água específicas que requerem modificação. Este objeto permite a identificação de marcas d'água com base nas propriedades desejadas.
+      3. Após a execução bem-sucedida da pesquisa, você receberá uma coleção de marcas d'água relevantes. Essas marcas d'água oferecem controle granular, permitindo atualizar propriedades como dimensões, posicionamento de página, conteúdo de texto, esquema de cores, dados de imagem e muito mais.
+      4. Após a conclusão das atualizações da marca d’água, persista o documento modificado. A API facilita o armazenamento usando um caminho de arquivo local ou um objeto de fluxo.
    
     code:
       platform: "net"
@@ -69,7 +69,7 @@ steps:
 
         // Atualizar marca d'água de texto EXCEL
 
-        // Forneça uma instância Watermarker para o arquivo EXCEL
+        // Fornece instância Watermarker para arquivo EXCEL
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
 
         // Use TextSearchCriteria para encontrar marcas d'água de texto

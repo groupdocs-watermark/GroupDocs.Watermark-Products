@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:26:58
+date:  2024-05-03T13:37:05
 draft: false
 lang: es
 format: Powerpoint
@@ -40,13 +40,13 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Elimine las marcas de agua de Powerpoint documentos con Java"
+    title: "Borre documentos Powerpoint de marcas de agua usando Java"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilita la eliminación de las marcas de agua añadidas anteriormente en los documentos empresariales. Potencie su aplicación Java instalando nuestra biblioteca y hágalo siguiendo unos sencillos pasos:
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** facilita la eliminación de marcas de agua agregadas previamente en documentos comerciales. Potencia tu aplicación Java instalando nuestra biblioteca y hazlo en unos simples pasos:
       
-      1. **Watermarker** con el documento Powerpoint. Nuestra API permite pasar un documento para que se procese como flujo o ruta local.
-      2. **SearchCriteria** para limitar el conjunto de marcas de agua que se procesarán. Es posible utilizar una imagen como parámetro de búsqueda, así como funciones de formato o texto. Luego, proporciona parámetros de búsqueda más específicos y obtiene un resultado más preciso.
-      3. Lista de procesos de las marcas de agua del documento que ha obtenido como resultado de la búsqueda. Borre el documento.
+      1. En primer lugar, cree una instancia de la clase principal llamada **Watermarker** con el documento Powerpoint. Nuestra API admite pasar un documento para que se procese como una secuencia o una ruta local.
+      2. Utilice **SearchCriteria** para limitar el conjunto de marcas de agua que se procesarán. Es posible utilizar una imagen como parámetro de búsqueda, así como texto o funciones de formato. Luego, proporciona parámetros de búsqueda más específicos y obtiene resultados más precisos.
+      3. Lista de procesos de las marcas de agua de documentos que has obtenido como resultado de la búsqueda. Borre el documento.
       4. Después de borrar el documento, guarde el resultado como un archivo local o un flujo de bytes.
    
     code:
@@ -82,9 +82,9 @@ steps:
       content: |
         ```java {style=abap}
 
-        // Marca de agua de texto sin cifrar en el documento Powerpoint
+        // Borrar marca de agua de texto en el documento Powerpoint
 
-        // Instanciar Watermarker con un documento Powerpoint
+        // Crear una instancia de Watermarker con el documento Powerpoint
         Watermarker watermarker = new Watermarker("input.pptx");
         
         // Borrar marca de agua específica

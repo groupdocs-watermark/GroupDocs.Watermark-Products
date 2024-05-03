@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Löschen Sie das Bildwasserzeichen im {{FileFormatUp}} -Dokument",
-    "comment_2": "Ruft Watermarker ab und übergibt den Pfad {{FileFormatUp}} als Argument",
-    "comment_3": "Löschen Sie Bildwasserzeichen nach Suchkriterien",
+    "comment_1": "Bildwasserzeichen im {{FileFormatUp}}-Dokument löschen",
+    "comment_2": "Holen Sie sich {{TextWatermarker}} und übergeben Sie den Pfad {{FileFormatUp}} als Argument",
+    "comment_3": "Bildwasserzeichen nach Suchkriterien löschen",
     "comment_4": "Verarbeitete Datei speichern"
   },
   "steps": {
-    "title": "Löschen Sie mühelos Wasserzeichen von {{FileformatCap}} von {{EnvName}}",
+    "title": "Löschen Sie mühelos Wasserzeichen aus {{FileformatCap}} von {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** optimiert das Entfernen von Wasserzeichen aus Geschäftsdokumenten. Verbessern Sie Ihre {{EnvName}} -Anwendung, indem Sie unsere Bibliothek nahtlos integrieren und die folgenden einfachen Schritte befolgen:",
-      "step_1": "**Watermarker** mit dem {{FileformatCap}} -Dokument instanziieren. Unsere vielseitige API verarbeitet Dokumente nahtlos, unabhängig davon, ob sie als Stream oder als lokaler Pfad bereitgestellt werden.",
-      "step_2": "**SearchCriteria**, um die zu adressierenden Wasserzeichen genau zu lokalisieren. Verwenden Sie verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen, um Ihre Suche zu verfeinern. Je detaillierter Ihre Kriterien sind, desto genauer sind Ihre Ergebnisse.",
-      "step_3": "Führen Sie den Entfernungsvorgang für die Liste der Dokumentwasserzeichen aus, die Sie bei Ihrer Suche abgerufen haben. Löschen Sie sie mühelos aus dem Dokument.",
-      "step_4": "Speichern Sie das resultierende Dokument nach dem erfolgreichen Löschen der Wasserzeichen sicher als lokale Datei oder als Bytestream, wobei die Integrität gewahrt bleibt."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** optimiert den Prozess der Entfernung von Wasserzeichen aus Geschäftsdokumenten. Erweitern Sie Ihre {{EnvName}}-Anwendung durch die nahtlose Integration unserer Bibliothek und die folgenden einfachen Schritte:",
+      "step_1": "Starten Sie den Prozess, indem Sie die Kernklasse {{TextWatermarkerBold}} mit dem Dokument {{FileformatCap}} instanziieren. Unsere vielseitige API verarbeitet Dokumente nahtlos, unabhängig davon, ob sie als Stream oder als lokaler Pfad bereitgestellt werden.",
+      "step_2": "Nutzen Sie {{TextSearchCriteriaBold}}, um die zu behebenden Wasserzeichen genau zu lokalisieren. Nutzen Sie verschiedene Parameter wie Bilder, Text oder Formatierungsfunktionen, um Ihre Suche zu verfeinern. Je detaillierter Ihre Kriterien sind, desto genauer sind Ihre Ergebnisse.",
+      "step_3": "Führen Sie den Entfernungsvorgang für die Liste der durch Ihre Suche gefundenen Dokumentwasserzeichen aus. Löschen Sie sie mühelos aus dem Dokument.",
+      "step_4": "Speichern Sie das resultierende Dokument nach dem erfolgreichen Löschen der Wasserzeichen sicher als lokale Datei oder als Bytestream und bewahren Sie so seine Integrität."
     }
   },
   "more_features": {

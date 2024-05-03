@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:03
+date:  2024-05-03T13:37:10
 draft: false
 lang: ja
 format: Docx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java を使用して Docx 個のドキュメントウォーターマークを調整"
+    title: "Java を使用して Docx ドキュメントの透かしを調整します"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** を使用すると、Java 開発者はアプリケーションを使用して多くのドキュメントのウォーターマークを簡単に調整できます。クイックガイドは次のとおりです。
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** を使用すると、Java の開発者はアプリケーションを使用して多くのドキュメントの透かしを簡単に調整できます。簡単なガイドは次のとおりです。
       
-      1. **Watermarker** クラスコンストラクターのパラメーターとして Docx ファイルを渡す必要があります。バイトストリーム、ファイルストリーム、またはローカルディスクパスを指定してください。
-      2. **SearchCriteria** を使用して、以前に文書に追加された特定のプロパティを持つウォーターマークを識別します。
-      3. 検索すると、関連するウォーターマークのリストが表示されます。その後、サイズ、ページの配置、テキスト、色、画像コンテンツなどのプロパティを調整できます。これにより、データを高度にカスタマイズできます。
-      4. ウォーターマークの調整が完了したら、更新した文書を保存します。ローカルファイルパスまたはストリームを使用して結果を保存できます。
+      1. まず、Docx ファイルを **Watermarker** クラス コンストラクターのパラメーターとして渡す必要があります。バイト、ファイル ストリーム、またはローカル ディスク パスを指定します。
+      2. 次に、調整が必要なウォーターマークを見つけます。 **SearchCriteria** を使用して、ドキュメントに以前に追加された特定のプロパティを持つ透かしを識別します。
+      3. 検索後、関連する透かしのリストが表示されます。その後、サイズ、ページ配置、テキスト、色、画像コンテンツなどのプロパティを調整できます。これにより、データを高度にカスタマイズできます。
+      4. 透かしの調整が完了したら、更新されたドキュメントを保存します。ローカル ファイル パスまたはストリームを使用して結果を保存できます。
    
     code:
       platform: "net"
@@ -81,22 +81,22 @@ steps:
           
       content: |
         ```java {style=abap}
-        // DOCX 画像のウォーターマークを調整
+        // DOCX 画像の透かしを調整する
 
-        // DOCX でウォーターマーカーをインスタンス化
+        // DOCX を使用して Watermarker をインスタンス化します
         Watermarker watermarker = new Watermarker("input.docx");
         
-        // 特定の画像に一致するように検索条件を初期化します
+        // 特定の画像に一致するように SearchCriteria を初期化します。
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 
         for (PossibleWatermark watermark : watermarks)
         {
-            // 見つかった画像を置き換える
+            // 見つかった画像を置き換えます
             watermark.setImageData(imageData);
         }
 
-        // 調整したファイルを保存
+        // 調整したファイルを保存する
         watermarker.save("output.docx");
         
         ```

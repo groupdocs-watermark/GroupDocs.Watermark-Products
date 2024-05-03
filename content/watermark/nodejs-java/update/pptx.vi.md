@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:11
+date:  2024-05-03T13:37:17
 draft: false
 lang: vi
 format: Pptx
@@ -42,11 +42,11 @@ steps:
     enable: true
     title: "Chỉnh sửa hình mờ động cho PPTX trong Node.js via Java"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp cho Node.js via Java nhà phát triển một API mạnh mẽ để chỉnh sửa hình mờ trên PPTX tài liệu khác nhau. Dưới đây là hướng dẫn toàn diện để hợp lý hóa quy trình làm việc của bạn:
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** cung cấp cho nhà phát triển Node.js via Java một API mạnh mẽ để chỉnh sửa hình mờ trên các tài liệu PPTX đa dạng. Dưới đây là hướng dẫn toàn diện để hợp lý hóa quy trình làm việc của bạn:
       
-      1. **Bắt đầu quá trình:** Bắt đầu bằng cách cung cấp tệp PPTX của bạn dưới dạng đối số cho hàm tạo lớp **Watermarker**. Tùy thuộc vào yêu cầu của bạn, tệp có thể được lấy nguồn dưới dạng luồng hoặc từ vị trí đĩa cục bộ.
-      2. **Hình mờ chính xác:** Sử dụng đối tượng**Criteriera** để xác định hình mờ cần sửa đổi. Công cụ đa năng này cho phép lựa chọn hình mờ được nhắm mục tiêu dựa trên các thuộc tính cụ thể.
-      3. **Tinh chỉnh với độ chính xác:** Sau khi thực hiện tìm kiếm thành công, có quyền truy cập vào bộ sưu tập hình mờ có liên quan. Tận hưởng quyền kiểm soát chi tiết đối với từng yếu tố, với khả năng cập nhật kích thước, định vị trang, nội dung văn bản, màu sắc, dữ liệu hình ảnh và hơn thế nữa.
+      1. **Bắt đầu quá trình:** Bắt đầu bằng cách cung cấp tệp PPTX của bạn làm đối số cho hàm tạo của lớp **Watermarker**. Tùy thuộc vào yêu cầu của bạn, tệp có thể được lấy nguồn dưới dạng luồng hoặc từ vị trí đĩa cục bộ.
+      2. **Xác định hình mờ:** Sử dụng đối tượng **SearchCriteria** để xác định các hình mờ cần sửa đổi. Công cụ linh hoạt này cho phép lựa chọn hình mờ được nhắm mục tiêu dựa trên các thuộc tính cụ thể.
+      3. **Tinh chỉnh với độ chính xác:** Sau khi thực hiện tìm kiếm thành công, có quyền truy cập vào bộ sưu tập hình mờ có liên quan. Tận hưởng khả năng kiểm soát chi tiết đối với từng thành phần, với khả năng cập nhật kích thước, vị trí trang, nội dung văn bản, màu sắc, dữ liệu hình ảnh, v.v.
       4. **Tính bền vững liền mạch:** Sau khi cập nhật hình mờ hoàn tất, hãy lưu trữ tài liệu đã sửa đổi một cách an toàn. API cung cấp các tùy chọn lưu trữ linh hoạt, cho phép bạn lưu vào đường dẫn tệp cục bộ hoặc dưới dạng đối tượng luồng.
    
     code:
@@ -67,9 +67,9 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Cập nhật hình ảnh PPTX watermark
+        // Cập nhật hình mờ PPTX
 
-        // Soạn Watermarker cho tập tin PPTX
+        // Soạn Watermarker cho tệp PPTX
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
 
         // Sử dụng SearchCriteria để tìm một hình ảnh cụ thể

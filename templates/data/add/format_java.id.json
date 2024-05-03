@@ -1,18 +1,18 @@
 {
   "examples": {
-    "comment_1": "Tambahkan watermark gambar ke {{FileFormatUp}}",
-    "comment_2": "Berikan file yang akan diberi tanda air ke Watermarker",
-    "comment_3": "Berikan jalur ke gambar dengan watermark",
+    "comment_1": "Tambahkan tanda air gambar ke {{FileFormatUp}}",
+    "comment_2": "Berikan file yang akan diberi watermark ke {{TextWatermarker}}",
+    "comment_3": "Berikan jalur ke gambar dengan tanda air",
     "comment_4": "Simpan hasil"
   },
   "steps": {
-    "title": "Teknik Lanjutan: Menambahkan Watermark ke {{FileformatCap}} Dokumen melalui {{EnvName}}",
+    "title": "Teknik Tingkat Lanjut: Menambahkan Tanda Air ke Dokumen {{FileformatCap}} melalui {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**",
-      "step_1": "**Watermarker**. Langkah dasar ini menetapkan panggung untuk meningkatkan {{FileformatCap}} dokumen dengan tanda air. Berikan file {{FileformatCap}} ke konstruktor, baik sebagai jalur atau objek aliran.",
-      "step_2": "**Watermark** yang disesuaikan dengan spesifikasi Anda. Entitas serbaguna ini menawarkan penempatan yang tepat tidak hanya pada halaman dokumen yang ditunjuk tetapi juga dalam elemen asli seperti lampiran atau header.",
-      "step_3": "Perbaiki proses watermarking Anda dengan menyempurnakan properti seperti dimensi, penyelarasan, gaya font, dan warna. Tingkat penyesuaian ini memberdayakan Anda untuk membuat tanda air yang melengkapi estetika dokumen Anda dengan sempurna.",
-      "step_4": "**Watermarker** untuk menerapkan tanda air yang baru dibuat ke dokumen Anda. Nikmati fleksibilitas menambahkan beberapa tanda air sesuai kebutuhan Anda. Untuk menyimpan dokumen, pertimbangkan untuk menyimpannya di lokasi yang aman."
+      "title": "Menjelajahi Teknik Watermarking Tingkat Lanjut untuk Dokumen {{FileformatCap}} dengan **[{{ProdFullName}}]({{ProductUrl}})**",
+      "step_1": "Mulailah proses watermarking Anda dengan menginisialisasi kelas {{TextWatermarkerBold}}. Langkah dasar ini menetapkan tahapan untuk menyempurnakan dokumen {{FileformatCap}} dengan tanda air. Berikan file {{FileformatCap}} ke konstruktor, baik sebagai jalur atau objek aliran.",
+      "step_2": "Maju ke level berikutnya dengan membuat objek {{TextWatermarkBold}} yang disesuaikan dengan spesifikasi Anda. Entitas serbaguna ini menawarkan penempatan yang tepat tidak hanya pada halaman dokumen yang ditentukan namun juga dalam elemen asli seperti lampiran atau header.",
+      "step_3": "Sempurnakan proses watermarking Anda dengan menyempurnakan properti seperti dimensi, perataan, gaya font, dan warna. Tingkat penyesuaian ini memberdayakan Anda untuk membuat tanda air yang melengkapi estetika dokumen Anda dengan sempurna.",
+      "step_4": "Gunakan metode {{TextWatermarkerBold}} untuk menerapkan tanda air yang baru dibuat ke dokumen Anda. Nikmati fleksibilitas menambahkan beberapa tanda air sesuai kebutuhan Anda. Untuk menyimpan dokumen, pertimbangkan untuk menyimpannya di lokasi yang aman."
     }
   },
   "more_features": {

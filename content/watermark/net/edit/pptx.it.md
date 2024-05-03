@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-04-29T14:27:07
+date:  2024-05-03T13:37:14
 draft: false
 lang: it
 format: Pptx
@@ -40,14 +40,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Modifica programmaticamente le filigrane nei documenti Pptx con l'API .NET"
+    title: "Modifica a livello di codice le filigrane nei documenti Pptx con l'API .NET"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fornisce agli .NET sviluppatori una robusta API per la manipolazione programmatica delle filigrane all'interno di diversi documenti Pptx. Questa guida illustra il processo:
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** fornisce agli sviluppatori di .NET una solida API per manipolare a livello di codice le filigrane all'interno di diversi documenti Pptx. Questa guida descrive il processo:
       
-      1. **Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.
-      2. **SearchCriteria** per individuare le filigrane specifiche che richiedono modifiche. Questo oggetto consente l'identificazione delle filigrane precedentemente incorporate nel documento.
-      3. Una volta completata con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, che consente di modificare proprietà come dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati delle immagini e altro ancora.
-      4. Una volta completate le modifiche alla filigrana, il documento modificato viene mantenuto. L'API facilita l'archiviazione utilizzando un percorso di file locale o un oggetto stream.
+      1. Avvia il flusso di lavoro fornendo il tuo file Pptx come argomento al costruttore della classe **Watermarker**. Il file può essere fornito come flusso di byte, flusso di file o riferimento a una posizione del disco locale.
+      2. Successivamente, sfrutta l'oggetto **SearchCriteria** per individuare le filigrane specifiche che richiedono la modifica. Questo oggetto permette di identificare filigrane precedentemente incorporate nel documento.
+      3. Una volta eseguita con successo la ricerca, riceverai una raccolta di filigrane pertinenti. Queste filigrane offrono un controllo granulare, consentendoti di modificare proprietà quali dimensioni, posizionamento della pagina, contenuto del testo, combinazione di colori, dati di immagine e altro ancora.
+      4. Una volta completate le modifiche alla filigrana, rendere persistente il documento modificato. L'API facilita l'archiviazione utilizzando un percorso file locale o un oggetto flusso.
    
     code:
       platform: "net"
@@ -69,16 +69,16 @@ steps:
         ```csharp {style=abap}
         // Modifica la filigrana dell'immagine nel documento PPTX
 
-        // Inizializza Watermarker in base al file sorgente
+        // Inizializza Watermarker per file sorgente
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // Crea criteri di ricerca per la ricerca di filigrane nelle immagini
+            // Crea SearchCriteria per la ricerca delle filigrane delle immagini
             SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 
             foreach (PossibleWatermark watermark in watermarks)
             {
-                // Modifica filigrana dell'immagine
+                // Modifica la filigrana dell'immagine
                 watermark.ImageData = imageData;
             }
 
