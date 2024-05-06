@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:15
+date:  2024-05-06T23:13:41
 draft: false
 lang: ko
 format: Xlsx
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET을(를) 사용하여 Xlsx 워터마크를 효율적으로 찾습니다."
+    title: ".NET 을(를) 사용하여 Xlsx 워터마크를 효율적으로 찾습니다."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 다양한 비즈니스 문서 형식 내에서 워터마크를 프로그래밍 방식으로 찾기 위한 강력한 솔루션을 제공합니다. 우리 패키지를 귀하의 .NET 애플리케이션에 통합하여 워터마크 찾기 기능을 강화하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 는 다양한 비즈니스 문서 형식 내에서 워터마크를 프로그래밍 방식으로 찾기 위한 강력한 솔루션을 제공합니다. 우리 패키지를 귀하의 .NET 애플리케이션에 통합하여 워터마크 찾기 기능을 강화하세요.
       
       1. 라이브러리의 기능을 활용하려면 **Watermarker** 클래스를 인스턴스화하고 Xlsx 파일 경로, 파일 스트림 또는 바이트 스트림을 입력으로 제공합니다. 이 작업을 수행하면 워터마크 분석을 위한 문서가 로드됩니다.
       2. 타겟 워터마크 식별을 위해 **SearchCriteria** 객체를 활용하세요. 유사한 이미지 워터마크를 찾기 위한 이미지를 지정합니다. 또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개변수를 정의하여 검색 기준을 구체화합니다.
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // XLSX에 배치된 이미지 워터마크 찾기
+        // XLSX 에 배치된 이미지 워터마크 찾기
 
-        // XLSX 경로를 전달하는 Watermarker를 구성합니다.
+        // XLSX 경로를 전달하는 Watermarker 를 구성합니다.
         using (Watermarker watermarker = new Watermarker("input.xlsx"))
         {
             // 검색 옵션을 사용하여 워터마크 찾기

@@ -1,6 +1,6 @@
 {
   "examples": {
-    "comment_1": "清除图片水印{{FileFormatUp}}文档",
+    "comment_1": "清除图片水印 {{FileFormatUp}} 文档",
     "comment_2": "将 {{FileFormatUp}} 文档路径传递给 {{TextWatermarker}} 构造函数",
     "comment_3": "通过删除水印来清除文档",
     "comment_4": "保存清除的文件"

@@ -44,7 +44,7 @@
     "ext": "xslx",
     "head": {
       "title": "ลบลายน้ำจาก {{FileformatCap}} ด้วย {{EnvName}} API",
-      "description": "ลบ ลบ หรือแก้ไขลายน้ำจากไฟล์ {{FileformatCap}} ได้อย่างง่ายดายโดยใช้ API {{ProdFullName}}เพิ่มความสมบูรณ์ของเอกสารและการนำเสนอ"
+      "description": "ลบ ลบ หรือแก้ไขลายน้ำจากไฟล์ {{FileformatCap}} ได้อย่างง่ายดายโดยใช้ API {{ProdFullName}} เพิ่มความสมบูรณ์ของเอกสารและการนำเสนอ"
     },
     "header": {
       "title": "{{EnvName}} {{FileformatCap}} การจัดการลายน้ำ",

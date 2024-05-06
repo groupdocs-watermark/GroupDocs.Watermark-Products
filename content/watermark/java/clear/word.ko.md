@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: ko
 format: Word
@@ -42,10 +42,10 @@ steps:
     enable: true
     title: "Java을(를) 사용하여 워터마크의 Word 문서를 지웁니다."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**를 사용하면 이전에 추가된 워터마크가 포함된 비즈니스 문서를 쉽게 지울 수 있습니다. 라이브러리를 설치하고 몇 가지 간단한 단계를 통해 귀하의 Java 애플리케이션을 강화하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 를 사용하면 이전에 추가된 워터마크가 포함된 비즈니스 문서를 쉽게 지울 수 있습니다. 라이브러리를 설치하고 몇 가지 간단한 단계를 통해 귀하의 Java 애플리케이션을 강화하세요.
       
       1. 먼저 Word 문서를 사용하여 **Watermarker**라는 기본 클래스를 인스턴스화합니다. 우리 API는 스트림 또는 로컬 경로로 처리할 문서 전달을 지원합니다.
-      2. 처리할 워터마크 세트를 제한하려면 **SearchCriteria**를 사용하세요. 텍스트나 형식 지정 기능뿐만 아니라 이미지를 검색 매개변수로 사용할 수도 있습니다. 그러면 더 구체적인 검색 매개변수를 제공하고 더 정확한 결과를 얻을 수 있습니다.
+      2. 처리할 워터마크 세트를 제한하려면 **SearchCriteria** 를 사용하세요. 텍스트나 형식 지정 기능뿐만 아니라 이미지를 검색 매개변수로 사용할 수도 있습니다. 그러면 더 구체적인 검색 매개변수를 제공하고 더 정확한 결과를 얻을 수 있습니다.
       3. 검색결과로 얻은 문서 워터마크 목록을 처리합니다. 문서를 지웁니다.
       4. 문서를 지운 후 결과를 로컬 파일 또는 바이트 스트림으로 저장합니다.
    
@@ -84,7 +84,7 @@ steps:
 
         // Word 문서의 텍스트 워터마크 지우기
 
-        // Word 문서로 Watermarker를 인스턴스화합니다.
+        // Word 문서로 Watermarker 를 인스턴스화합니다.
         Watermarker watermarker = new Watermarker("input.docx");
         
         // 특정 워터마크 지우기

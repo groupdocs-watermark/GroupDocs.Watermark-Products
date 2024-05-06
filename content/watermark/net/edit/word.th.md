@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:06
+date:  2024-05-06T23:13:29
 draft: false
 lang: th
 format: Word
@@ -13,11 +13,11 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "แก้ไขลายน้ำในเอกสาร Word"
-head_description: "ปรับแต่งตำแหน่งลายน้ำและตรวจสอบความปลอดภัยของเอกสารด้วย GroupDocs.Watermark for .NETปรับแต่งลายน้ำ Word ในโซลูชันของคุณได้อย่างง่ายดาย"
+head_description: "ปรับแต่งตำแหน่งลายน้ำและตรวจสอบความปลอดภัยของเอกสารด้วย GroupDocs.Watermark for .NET ปรับแต่งลายน้ำ Word ในโซลูชันของคุณได้อย่างง่ายดาย"
 
 ############################# Header ############################
 title: "เพิ่มลายน้ำ Word: ความมั่นใจ .NET" 
-description: "ตรวจสอบความถูกต้องของเอกสาร Word และความสมบูรณ์ของแบรนด์ด้วย GroupDocs.Watermark for .NETแก้ไขลายน้ำโดยใช้โซลูชันของเราอย่างมั่นใจ"
+description: "ตรวจสอบความถูกต้องของเอกสาร Word และความสมบูรณ์ของแบรนด์ด้วย GroupDocs.Watermark for .NET แก้ไขลายน้ำโดยใช้โซลูชันของเราอย่างมั่นใจ"
 subtitle: "GroupDocs.Watermark for .NET" 
 
 header_actions:

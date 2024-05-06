@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:16
+date:  2024-05-06T23:13:42
 draft: false
 lang: ko
 format: Tif
@@ -42,9 +42,9 @@ steps:
     enable: true
     title: "비즈니스 문서 보호: Tif 워터마크 생성"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)로 문서 보안을 강화하세요:** - Node.js via Java을 위한 강력한 워터마크 생성 솔루션.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/) 로 문서 보안을 강화하세요:** - Node.js via Java 을 위한 강력한 워터마크 생성 솔루션.
       
-      1. **Node.js via Java 애플리케이션에서 보안 워터마킹 간소화:** **Watermarker** 클래스는 GroupDocs.Watermark API의 핵심 구성 요소 역할을 합니다. 이 라이브러리는 Tif을 포함한 다양한 문서 형식의 워터마크 생성을 단순화합니다. 시작하려면 문서를 처리하기 전에 Watermarker 인스턴스를 만드세요. 초기화 중에 생성자에 Tif 파일 경로 또는 스트림 객체를 제공합니다.
+      1. **Node.js via Java 애플리케이션에서 보안 워터마킹 간소화:** **Watermarker** 클래스는 GroupDocs.Watermark API 의 핵심 구성 요소 역할을 합니다. 이 라이브러리는 Tif 을 포함한 다양한 문서 형식의 워터마크 생성을 단순화합니다. 시작하려면 문서를 처리하기 전에 Watermarker 인스턴스를 만드세요. 초기화 중에 생성자에 Tif 파일 경로 또는 스트림 객체를 제공합니다.
       2. **강화된 보호를 위한 워터마크 생성:** 보안 요구 사항에 완벽하게 부합하는 워터마크를 강화하세요. 원하는 유형을 지정하는 **Watermark** 객체를 생성합니다. 기존의 페이지 배치와 달리 헤더나 첨부 파일과 같은 기본 문서 요소 내에 워터마크를 삽입하여 문서 보안을 강화하고 전문적인 느낌을 더할 수 있습니다.
       3. **최적의 효과를 위해 워터마크 모양을 미세 조정:** 워터마크의 시각적 측면을 제어합니다. 높이, 너비, 정렬(위쪽, 왼쪽, 가운데 등), 글꼴 모음, 색상 등의 속성을 사용자 정의하여 문서 적법성을 강화하는 시각적으로 효과적이고 일관된 결과를 얻을 수 있습니다.
       4. **워터마크 적용 및 보안 저장소**: **Watermarker** 방법을 사용하여 워터마크를 통합하세요. 보호 강화를 위해 필요한 경우 라이브러리를 사용하여 여러 워터마크를 추가할 수 있습니다. 원본 파일을 보존하고 워터마크가 표시된 문서를 보호하려면 수정된 Tif 문서를 별도의 안전한 위치에 저장하는 것이 좋습니다.

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:18
+date:  2024-05-06T23:13:44
 draft: false
 lang: ko
 format: Docx
@@ -40,12 +40,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java의 Docx에서 워터마크를 손쉽게 삭제하세요."
+    title: "Node.js via Java 의 Docx 에서 워터마크를 손쉽게 삭제하세요."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)**는 비즈니스 문서에서 워터마크를 제거하는 프로세스를 간소화합니다. 라이브러리를 원활하게 통합하고 다음과 같은 간단한 단계를 수행하여 귀하의 Node.js via Java 애플리케이션을 향상시키세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 는 비즈니스 문서에서 워터마크를 제거하는 프로세스를 간소화합니다. 라이브러리를 원활하게 통합하고 다음과 같은 간단한 단계를 수행하여 귀하의 Node.js via Java 애플리케이션을 향상시키세요.
       
-      1. Docx 문서를 사용하여 핵심 클래스인 **Watermarker**를 인스턴스화하여 프로세스를 시작합니다. 우리의 다재다능한 API는 스트림으로 제공되든 로컬 경로로 제공되든 문서를 원활하게 처리합니다.
-      2. **SearchCriteria**를 활용하여 해결해야 할 워터마크를 정확하게 찾아보세요. 이미지, 텍스트, 서식 기능과 같은 다양한 매개변수를 활용하여 검색을 세분화하세요. 기준이 자세할수록 결과가 더 정확해집니다.
+      1. Docx 문서를 사용하여 핵심 클래스인 **Watermarker** 를 인스턴스화하여 프로세스를 시작합니다. 우리의 다재다능한 API는 스트림으로 제공되든 로컬 경로로 제공되든 문서를 원활하게 처리합니다.
+      2. **SearchCriteria** 를 활용하여 해결해야 할 워터마크를 정확하게 찾아보세요. 이미지, 텍스트, 서식 기능과 같은 다양한 매개변수를 활용하여 검색을 세분화하세요. 기준이 자세할수록 결과가 더 정확해집니다.
       3. 검색을 통해 검색된 문서 워터마크 목록에 대해 제거 프로세스를 실행합니다. 문서에서 쉽게 삭제하세요.
       4. 워터마크가 성공적으로 삭제되면 결과 문서를 로컬 파일이나 바이트 스트림으로 안전하게 저장하여 무결성을 유지합니다.
    
@@ -69,7 +69,7 @@ steps:
 
         // DOCX 문서에서 이미지 워터마크 삭제
 
-        // DOCX 경로를 인수로 전달하여 Watermarker를 가져옵니다.
+        // DOCX 경로를 인수로 전달하여 Watermarker 를 가져옵니다.
         const watermarker = new groupdocs.watermark.Watermarker("input.docx");
         
         // 검색 기준으로 이미지 워터마크 지우기

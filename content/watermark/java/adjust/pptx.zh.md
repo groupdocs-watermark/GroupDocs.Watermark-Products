@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:11
+date:  2024-05-06T23:13:35
 draft: false
 lang: zh
 format: Pptx
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 调整PPTX图片水印
+        // 调整 PPTX图片水印
 
         // 使用 PPTX 实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.pptx");

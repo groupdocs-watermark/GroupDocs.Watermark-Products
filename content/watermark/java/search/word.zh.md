@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:28
 draft: false
 lang: zh
 format: Word
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "使用 Java 在 Word 文件中搜索水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**可以轻松搜索已放置在业务文档中的水印。下载我们的软件包并将其引入到您的 Java 应用程序中以利用其优势。
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 可以轻松搜索已放置在业务文档中的水印。下载我们的软件包并将其引入到您的 Java 应用程序中以利用其优势。
       
       1. 为了使用我们的库功能，您需要将 Word 文件加载到 **Watermarker** 类实例。可以仅提供文件路径、文件流或字节流。
       2. 要缩小可能水印的列表，请使用 **SearchCriteria** 对象。提供图像作为示例以获得相似的图像水印。如果要搜索文本水印，请提供文本、字体、颜色和其他选项。

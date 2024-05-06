@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:14
+date:  2024-05-06T23:13:39
 draft: false
 lang: id
 format: Xls

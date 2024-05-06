@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:10
+date:  2024-05-06T23:13:35
 draft: false
 lang: ko
 format: Pptx
@@ -40,12 +40,12 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java을(를) 사용하여 Pptx 문서 워터마크 조정"
+    title: "Java 을(를) 사용하여 Pptx 문서 워터마크 조정"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하면 Java 개발자가 애플리케이션을 사용하여 많은 문서에서 워터마크를 쉽게 조정할 수 있습니다. 빠른 가이드는 다음과 같습니다.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하면 Java 개발자가 애플리케이션을 사용하여 많은 문서에서 워터마크를 쉽게 조정할 수 있습니다. 빠른 가이드는 다음과 같습니다.
       
       1. 먼저, **Watermarker** 클래스 생성자의 매개변수로 Pptx 파일을 전달해야 합니다. 바이트나 파일 스트림 또는 로컬 디스크 경로를 제공합니다.
-      2. 둘째, 조정해야 할 워터마크를 찾습니다. 이전에 문서에 추가된 특정 속성이 있는 워터마크를 식별하려면 **SearchCriteria**를 사용하세요.
+      2. 둘째, 조정해야 할 워터마크를 찾습니다. 이전에 문서에 추가된 특정 속성이 있는 워터마크를 식별하려면 **SearchCriteria** 를 사용하세요.
       3. 검색하면 관련 워터마크 목록이 표시됩니다. 그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등을 포함한 속성을 조정할 수 있습니다. 이는 데이터에 대한 높은 수준의 사용자 정의를 제공합니다.
       4. 워터마크 조정을 마쳤으면 업데이트된 문서를 저장하세요. 로컬 파일 경로나 스트림을 사용하여 결과를 저장할 수 있습니다.
    
@@ -83,10 +83,10 @@ steps:
         ```java {style=abap}
         // PPTX 이미지 워터마크 조정
 
-        // PPTX을 사용하여 Watermarker를 인스턴스화합니다.
+        // PPTX 을 사용하여 Watermarker 를 인스턴스화합니다.
         Watermarker watermarker = new Watermarker("input.pptx");
         
-        // 특정 이미지와 일치하도록 SearchCriteria를 초기화합니다.
+        // 특정 이미지와 일치하도록 SearchCriteria 를 초기화합니다.
         SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
 

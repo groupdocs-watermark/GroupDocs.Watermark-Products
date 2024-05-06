@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:08
+date:  2024-05-06T23:13:31
 draft: false
 lang: th
 format: Powerpoint
@@ -13,11 +13,11 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "อัปเดตลายน้ำใน POWERPOINT ได้อย่างง่ายดาย"
-head_description: "อัปเดตลายน้ำอย่างมีประสิทธิภาพในรูปแบบเอกสาร POWERPOINT โดยใช้ GroupDocs.Watermark for Node.js via Javaขัดกระบวนการทางธุรกิจของคุณ"
+head_description: "อัปเดตลายน้ำอย่างมีประสิทธิภาพในรูปแบบเอกสาร POWERPOINT โดยใช้ GroupDocs.Watermark for Node.js via Java ขัดกระบวนการทางธุรกิจของคุณ"
 
 ############################# Header ############################
 title: "อัปเดตลายน้ำเอกสาร POWERPOINT ได้อย่างง่ายดาย" 
-description: "สัมผัสประสบการณ์การลบลายน้ำได้อย่างง่ายดายด้วย GroupDocs.Watermark for Node.js via Javaปกป้องเอกสารทางธุรกิจของคุณด้วยลายน้ำที่หลากหลายปรับแต่งขนาดลายน้ำ การจัดตำแหน่ง มุมการหมุน และตำแหน่ง และอื่นๆ"
+description: "สัมผัสประสบการณ์การลบลายน้ำได้อย่างง่ายดายด้วย GroupDocs.Watermark for Node.js via Java ปกป้องเอกสารทางธุรกิจของคุณด้วยลายน้ำที่หลากหลายปรับแต่งขนาดลายน้ำ การจัดตำแหน่ง มุมการหมุน และตำแหน่ง และอื่นๆ"
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java เป็นโซลูชันที่ใช้งานง่ายสำหรับการจัดการลายน้ำ POWERPOINT โดยใช้ Node.js via Javaด้วยเครื่องมือนี้ นักพัฒนาสามารถอัปเดตลายน้ำในเอกสารและรูปแบบไฟล์ต่างๆ ได้อย่างมีประสิทธิภาพ รวมถึง PDF, Microsoft Word, Excel, PowerPoint, Visio และรูปแบบอีเมล GroupDocs.Watermark รองรับระบบปฏิบัติการที่สำคัญทั้งหมดและ Node.js via Java เวอร์ชัน
+       GroupDocs.Watermark for Node.js via Java เป็นโซลูชันที่ใช้งานง่ายสำหรับการจัดการลายน้ำ POWERPOINT โดยใช้ Node.js via Java ด้วยเครื่องมือนี้ นักพัฒนาสามารถอัปเดตลายน้ำในเอกสารและรูปแบบไฟล์ต่างๆ ได้อย่างมีประสิทธิภาพ รวมถึง PDF, Microsoft Word, Excel, PowerPoint, Visio และรูปแบบอีเมล GroupDocs.Watermark รองรับระบบปฏิบัติการที่สำคัญทั้งหมดและ Node.js via Java เวอร์ชัน
 
 ############################# Steps ############################
 steps:
@@ -163,7 +163,7 @@ more_formats:
     enable: true
     title: "อัปเดตลายน้ำในรูปแบบไฟล์อื่น ๆ"
     exclude: "POWERPOINT"
-    description: "อัปเดตลายน้ำอย่างมีประสิทธิภาพใน PDF, Word, Excel และอื่น ๆ โดยใช้ GroupDocs.Watermark for Node.js via Javaเราสนับสนุนรูปแบบธุรกิจยอดนิยมทั้งหมด"
+    description: "อัปเดตลายน้ำอย่างมีประสิทธิภาพใน PDF, Word, Excel และอื่น ๆ โดยใช้ GroupDocs.Watermark for Node.js via Java เราสนับสนุนรูปแบบธุรกิจยอดนิยมทั้งหมด"
     items: 
         # format loop 1
         - name: "ลายน้ำ PDF"

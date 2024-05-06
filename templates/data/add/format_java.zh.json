@@ -1,6 +1,6 @@
 {
   "examples": {
-    "comment_1": "添加图片水印到{{FileFormatUp}}",
+    "comment_1": "添加图片水印到 {{FileFormatUp}}",
     "comment_2": "将要加水印的文件传递给 {{TextWatermarker}}",
     "comment_3": "提供带有水印的图像的路径",
     "comment_4": "保存结果"

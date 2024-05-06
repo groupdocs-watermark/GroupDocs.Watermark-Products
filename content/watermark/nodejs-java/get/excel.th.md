@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:09
+date:  2024-05-06T23:13:32
 draft: false
 lang: th
 format: Excel
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       ปลดล็อกศักยภาพของ GroupDocs.Watermark for Node.js via Java ในการจัดการลายน้ำใน Node.js via Javaสร้าง อัปเดต รับ และลบลายน้ำจากรูปแบบไฟล์ต่างๆ ได้อย่างง่ายดาย รวมถึง PDF, Word, Excel, PowerPoint และอื่นๆ
+       ปลดล็อกศักยภาพของ GroupDocs.Watermark for Node.js via Java ในการจัดการลายน้ำใน Node.js via Java สร้าง อัปเดต รับ และลบลายน้ำจากรูปแบบไฟล์ต่างๆ ได้อย่างง่ายดาย รวมถึง PDF, Word, Excel, PowerPoint และอื่นๆ
 
 ############################# Steps ############################
 steps:

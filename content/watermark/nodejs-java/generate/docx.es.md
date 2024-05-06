@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:16
+date:  2024-05-06T23:13:42
 draft: false
 lang: es
 format: Docx
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "Proteja documentos comerciales: genere Docx marcas de agua"
     content: |
-      Fortalezca la seguridad de los documentos con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):**: una potente solución de generación de marcas de agua para Node.js via Java.
+      Fortalezca la seguridad de los documentos con **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/):** una potente solución de generación de marcas de agua para Node.js via Java.
       
       1. **Simplifique la creación de marcas de agua seguras en sus aplicaciones Node.js via Java:** La clase **Watermarker** actúa como el componente principal de la API GroupDocs.Watermark. Esta biblioteca simplifica la generación de marcas de agua en varios formatos de documentos, incluido Docx. Para comenzar, cree una instancia de Watermarker antes de procesar su documento. Proporcione la ruta del archivo Docx o un objeto de secuencia al constructor durante la inicialización.
       2. **Genere marcas de agua para una protección mejorada:** Ofrezca marcas de agua que se alineen perfectamente con sus necesidades de seguridad. Construya un objeto **Watermark** especificando el tipo deseado. A diferencia de la ubicación de páginas tradicional, puede incrustar marcas de agua dentro de elementos nativos del documento, como encabezados o archivos adjuntos, fortaleciendo la seguridad del documento y agregando un toque profesional.

@@ -8,7 +8,7 @@
   "steps": {
     "title": "使用 {{EnvName}} 在 {{FileformatCap}} 文件中搜索水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})**可以轻松搜索已放置在业务文档中的水印。下载我们的软件包并将其引入到您的 {{EnvName}} 应用程序中以利用其优势。",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 可以轻松搜索已放置在业务文档中的水印。下载我们的软件包并将其引入到您的 {{EnvName}} 应用程序中以利用其优势。",
       "step_1": "为了使用我们的库功能，您需要将 {{FileformatCap}} 文件加载到 {{TextWatermarkerBold}} 类实例。可以仅提供文件路径、文件流或字节流。",
       "step_2": "要缩小可能水印的列表，请使用 {{TextSearchCriteriaBold}} 对象。提供图像作为示例以获得相似的图像水印。如果要搜索文本水印，请提供文本、字体、颜色和其他选项。",
       "step_3": "要获取放置在文档中的水印，请使用 {{TextWatermarkerBold}} 对象的方法 {{TextSearchBold}}。您将获得可作为水印处理的对象集合。",

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:11
+date:  2024-05-06T23:13:36
 draft: false
 lang: zh
 format: Pdf
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 清除图片水印PDF文档
+        // 清除图片水印 PDF 文档
 
         // 将 PDF 文档路径传递给 Watermarker 构造函数
         Watermarker watermarker = new Watermarker("input.pdf");

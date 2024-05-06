@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:19
+date:  2024-05-06T23:13:46
 draft: false
 lang: th
 format: Xlsx
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java เป็นโซลูชันที่คล่องตัวสำหรับการจัดการลายน้ำใน Node.js via Javaลดความซับซ้อนของกระบวนการจัดการลายน้ำในรูปแบบไฟล์ต่างๆ
+       GroupDocs.Watermark for Node.js via Java เป็นโซลูชันที่คล่องตัวสำหรับการจัดการลายน้ำใน Node.js via Java ลดความซับซ้อนของกระบวนการจัดการลายน้ำในรูปแบบไฟล์ต่างๆ
 
 ############################# Steps ############################
 steps:

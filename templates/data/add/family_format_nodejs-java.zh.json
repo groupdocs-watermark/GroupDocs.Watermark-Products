@@ -3,7 +3,7 @@
     "comment_1": "为 {{FileFormatUp}} 生成文本水印",
     "comment_2": "将源文件传递给 {{TextWatermarker}} 实例",
     "comment_3": "生成文本水印并设置其选项",
-    "comment_4": "获取{{FileFormatUp}}结果"
+    "comment_4": "获取 {{FileFormatUp}} 结果"
   },
   "steps": {
     "title": "保护商业文档：为 {{FileformatCap}} 格式生成水印",

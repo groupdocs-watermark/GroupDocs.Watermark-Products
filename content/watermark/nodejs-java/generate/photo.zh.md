@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:08
+date:  2024-05-06T23:13:31
 draft: false
 lang: zh
 format: Photo
@@ -76,7 +76,7 @@ steps:
         const  watermark = new groupdocs.watermark.TextWatermark
             ("My Watermark", groupdocs.watermark.new Font("Arial", 36));
 
-        // 获取PHOTO结果
+        // 获取 PHOTO 结果
         watermarker.add(watermark);
         watermarker.save("output.png");
         

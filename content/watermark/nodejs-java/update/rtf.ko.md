@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:17
+date:  2024-05-06T23:13:43
 draft: false
 lang: ko
 format: Rtf
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java의 RTF에 대한 동적 워터마크 편집"
+    title: "Node.js via Java 의 RTF에 대한 동적 워터마크 편집"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 RTF 문서에서 워터마크를 편집할 수 있는 강력한 API를 제공합니다. 작업 흐름을 간소화하기 위한 포괄적인 가이드는 다음과 같습니다.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 는 Node.js via Java 개발자에게 다양한 RTF 문서에서 워터마크를 편집할 수 있는 강력한 API를 제공합니다. 작업 흐름을 간소화하기 위한 포괄적인 가이드는 다음과 같습니다.
       
       1. **프로세스 시작:** RTF 파일을 **Watermarker** 클래스 생성자에 대한 인수로 제공하여 시작하세요. 요구 사항에 따라 파일을 스트림으로 또는 로컬 디스크 위치에서 가져올 수 있습니다.
       2. **정확한 워터마크:** **SearchCriteria** 개체를 사용하여 수정이 필요한 워터마크를 식별합니다. 이 다재다능한 도구를 사용하면 특정 속성을 기반으로 타겟 워터마크를 선택할 수 있습니다.
@@ -72,7 +72,7 @@ steps:
         // RTF 파일에 대한 Watermarker 작성
         const watermarker = new groupdocs.watermark.Watermarker("input.rtf");
 
-        // 특정 이미지를 찾으려면 SearchCriteria를 사용하세요.
+        // 특정 이미지를 찾으려면 SearchCriteria 를 사용하세요.
         const searchCriteria = 
             new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
         const watermarks = watermarker.search(searchCriteria);

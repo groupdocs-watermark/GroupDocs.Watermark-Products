@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:08
+date:  2024-05-06T23:13:31
 draft: false
 lang: ko
 format: Excel
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Node.js via Java을(를) 통해 EXCEL의 워터마크 업데이트"
+    title: "Node.js via Java 을(를) 통해 EXCEL 의 워터마크 업데이트"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 EXCEL 문서 내의 워터마크를 프로그래밍 방식으로 업데이트하기 위한 강력한 API를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 는 Node.js via Java 개발자에게 다양한 EXCEL 문서 내의 워터마크를 프로그래밍 방식으로 업데이트하기 위한 강력한 API 를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
       
       1. **Watermarker** 클래스 생성자에 대한 인수로 EXCEL 파일을 제공하여 프로세스를 시작하세요. 귀하의 요구에 따라 파일은 스트림이나 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
       2. 이어서, **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 식별합니다. 이 개체를 사용하면 원하는 속성을 기반으로 워터마크를 정확히 찾아낼 수 있습니다.
@@ -72,7 +72,7 @@ steps:
         // EXCEL 파일에 대한 Watermarker 인스턴스 제공
         const watermarker = new groupdocs.watermark.Watermarker("input.xslx");
 
-        // 텍스트 워터마크를 찾으려면 TextSearchCriteria를 사용하세요.
+        // 텍스트 워터마크를 찾으려면 TextSearchCriteria 를 사용하세요.
         const searchCriteria = 
             new groupdocs.watermark.TextSearchCriteria("test", false);
         const watermarks = watermarker.search(searchCriteria);

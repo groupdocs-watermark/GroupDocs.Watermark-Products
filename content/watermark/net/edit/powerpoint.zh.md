@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:06
+date:  2024-05-06T23:13:29
 draft: false
 lang: zh
 format: Powerpoint
@@ -72,7 +72,7 @@ steps:
         // 制作 Watermarker 提供 POWERPOINT 文件
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
-            // 构造TextSearchCriteria并获取文本水印
+            // 构造 TextSearchCriteria 并获取文本水印
             TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
             PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
 

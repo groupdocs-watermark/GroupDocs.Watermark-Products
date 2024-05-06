@@ -1,17 +1,17 @@
 {
   "examples": {
     "comment_1": "{{FileFormatUp}} 텍스트 워터마크 편집",
-    "comment_2": "{{FileFormatUp}} 파일을 제공하는 {{TextWatermarker}}를 만드세요.",
-    "comment_3": "{{TextTextSearchCriteria}}를 구성하고 텍스트 워터마크를 얻습니다.",
+    "comment_2": "{{FileFormatUp}} 파일을 제공하는 {{TextWatermarker}} 를 만드세요.",
+    "comment_3": "{{TextTextSearchCriteria}} 를 구성하고 텍스트 워터마크를 얻습니다.",
     "comment_4": "텍스트 워터마크 편집",
     "comment_5": "문서 저장"
   },
   "steps": {
-    "title": "{{EnvName}}을(를) 사용하여 {{FileformatCap}} 문서의 워터마크 편집",
+    "title": "{{EnvName}} 을(를) 사용하여 {{FileformatCap}} 문서의 워터마크 편집",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})**는 {{EnvName}} 개발자가 다양한 {{FileformatCap}} 문서 내에서 워터마크를 쉽게 편집할 수 있도록 지원합니다. 다음은 애플리케이션에서 API를 사용하는 방법에 대한 간단한 가이드입니다.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** 는 {{EnvName}} 개발자가 다양한 {{FileformatCap}} 문서 내에서 워터마크를 쉽게 편집할 수 있도록 지원합니다. 다음은 애플리케이션에서 API를 사용하는 방법에 대한 간단한 가이드입니다.",
       "step_1": "{{FileformatCap}} 파일을 {{TextWatermarkerBold}} 클래스 생성자에 매개변수로 전달하여 시작하세요. 파일을 바이트 스트림, 파일 스트림 또는 로컬 디스크 경로로 제공할 수 있습니다.",
-      "step_2": "다음으로, 편집이 필요한 특정 워터마크를 찾으세요. 이전에 문서에 추가된 해당 속성으로 워터마크를 식별하려면 {{TextSearchCriteriaBold}}를 활용하세요.",
+      "step_2": "다음으로, 편집이 필요한 특정 워터마크를 찾으세요. 이전에 문서에 추가된 해당 속성으로 워터마크를 식별하려면 {{TextSearchCriteriaBold}} 를 활용하세요.",
       "step_3": "검색하면 관련 워터마크 목록을 얻을 수 있습니다. 그런 다음 크기, 페이지 정렬, 텍스트, 색상, 이미지 콘텐츠 등과 같은 속성을 사용자 정의할 수 있습니다. 이를 통해 귀하는 귀하의 데이터를 광범위하게 제어할 수 있습니다.",
       "step_4": "워터마크 편집을 완료한 후 업데이트된 문서를 저장하세요. 로컬 파일 경로나 스트림을 활용하여 최종 결과를 저장할 수 있습니다."
     }

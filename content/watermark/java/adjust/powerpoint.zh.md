@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: zh
 format: Powerpoint
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // 调整POWERPOINT文本水印
+        // 调整 POWERPOINT 文本水印
 
         // 使用输入 POWERPOINT 文档实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.pptx");
 
-        // 初始化TextSearchCriteria并查找文本水印
+        // 初始化 TextSearchCriteria 并查找文本水印
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         

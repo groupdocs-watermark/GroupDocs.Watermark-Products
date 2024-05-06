@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:07
+date:  2024-05-06T23:13:30
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET을(를) 사용하여 Powerpoint 파일에서 워터마크 찾기"
+    title: ".NET 을(를) 사용하여 Powerpoint 파일에서 워터마크 찾기"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 간소화합니다. 우리 패키지를 귀하의 .NET 애플리케이션에 통합하여 그 이점을 활용하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 간소화합니다. 우리 패키지를 귀하의 .NET 애플리케이션에 통합하여 그 이점을 활용하세요.
       
       1. 라이브러리 기능을 활용하려면 Powerpoint 파일을 **Watermarker** 클래스 인스턴스에 로드하세요. 파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.
       2. 잠재적인 워터마크 목록을 구체화하려면 **SearchCriteria** 객체를 사용하세요. 예를 들어 유사한 이미지 워터마크를 찾으려면 이미지를 제공하세요. 텍스트 워터마크를 찾는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하세요.
@@ -67,9 +67,9 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // POWERPOINT에서 텍스트 워터마크 찾기
+        // POWERPOINT 에서 텍스트 워터마크 찾기
 
-        // POWERPOINT 경로를 사용하여 Watermarker를 생성합니다.
+        // POWERPOINT 경로를 사용하여 Watermarker 를 생성합니다.
         using (Watermarker watermarker = new Watermarker("input.pptx"))
         {
             // 워터마크 찾기

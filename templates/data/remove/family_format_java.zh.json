@@ -8,7 +8,7 @@
   "steps": {
     "title": "使用 {{EnvName}} 清除 {{FileformatCap}} 文档的水印",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})**可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 {{EnvName}} 应用程序的能力，并通过几个简单的步骤完成：",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 {{EnvName}} 应用程序的能力，并通过几个简单的步骤完成：",
       "step_1": "首先使用 {{FileformatCap}} 文档实例化名为 {{TextWatermarkerBold}} 的主类。我们的 API 支持将要处理的文档作为流或本地路径传递。",
       "step_2": "使用 {{TextSearchCriteriaBold}} 限制要处理的水印集。可以使用图像作为搜索参数以及文本或格式化特征。然后您提供更具体的搜索参数，然后您获得更精确的结果。",
       "step_3": "处理作为搜索结果获得的文档水印列表。清除文档。",

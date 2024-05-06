@@ -1,6 +1,6 @@
 {
   "examples": {
-    "comment_1": "调整{{FileFormatUp}}图片水印",
+    "comment_1": "调整 {{FileFormatUp}}图片水印",
     "comment_2": "使用 {{FileFormatUp}} 实例化 {{TextWatermarker}}",
     "comment_3": "初始化 {{TextSearchCriteria}} 以匹配特定图像",
     "comment_4": "替换找到的图像",

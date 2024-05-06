@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:10
+date:  2024-05-06T23:13:34
 draft: false
 lang: zh
 format: Jpg
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 添加图片水印到JPG
+        // 添加图片水印到 JPG
 
         // 将要加水印的文件传递给 Watermarker
         Watermarker watermarker = new Watermarker("input.jpg");

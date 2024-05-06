@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:09
+date:  2024-05-06T23:13:32
 draft: false
 lang: th
 format: Word
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       ฝึกฝนศิลปะการจัดการลายน้ำด้วย GroupDocs.Watermark for Node.js via Javaจัดการงานลายน้ำได้อย่างง่ายดายในรูปแบบไฟล์หลายรูปแบบรวมถึง PDF, Word, Excel และอื่น ๆ
+       ฝึกฝนศิลปะการจัดการลายน้ำด้วย GroupDocs.Watermark for Node.js via Java จัดการงานลายน้ำได้อย่างง่ายดายในรูปแบบไฟล์หลายรูปแบบรวมถึง PDF, Word, Excel และอื่น ๆ
 
 ############################# Steps ############################
 steps:

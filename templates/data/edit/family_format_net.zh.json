@@ -2,7 +2,7 @@
   "examples": {
     "comment_1": "编辑 {{FileFormatUp}} 文本水印",
     "comment_2": "制作 {{TextWatermarker}} 提供 {{FileFormatUp}} 文件",
-    "comment_3": "构造{{TextTextSearchCriteria}}并获取文本水印",
+    "comment_3": "构造 {{TextTextSearchCriteria}} 并获取文本水印",
     "comment_4": "编辑文字水印",
     "comment_5": "保存文档"
   },

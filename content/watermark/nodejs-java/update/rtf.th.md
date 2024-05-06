@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:17
+date:  2024-05-06T23:13:44
 draft: false
 lang: th
 format: Rtf
@@ -13,11 +13,11 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "อัปเดตลายน้ำ RTF ได้อย่างง่ายดาย"
-head_description: "ปรับแต่งลายน้ำในเอกสาร RTF ได้อย่างง่ายดายโดยใช้ GroupDocs.Watermark for Node.js via Javaมีส่วนร่วมกับโซลูชันของเราในตรรกะทางธุรกิจของคุณ"
+head_description: "ปรับแต่งลายน้ำในเอกสาร RTF ได้อย่างง่ายดายโดยใช้ GroupDocs.Watermark for Node.js via Java มีส่วนร่วมกับโซลูชันของเราในตรรกะทางธุรกิจของคุณ"
 
 ############################# Header ############################
 title: "อัปเดตลายน้ำในเอกสาร RTF ได้อย่างง่ายดาย" 
-description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการที่แม่นยำของคุณด้วย GroupDocs.Watermark for Node.js via Javaปกป้องเอกสารองค์กรของคุณโดยใช้ลายน้ำที่หลากหลายแก้ไของค์ประกอบลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมการหมุน และการวางตำแหน่งได้อย่างง่ายดาย"
+description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการที่แม่นยำของคุณด้วย GroupDocs.Watermark for Node.js via Java ปกป้องเอกสารองค์กรของคุณโดยใช้ลายน้ำที่หลากหลายแก้ไของค์ประกอบลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมการหมุน และการวางตำแหน่งได้อย่างง่ายดาย"
 subtitle: "GroupDocs.Watermark for Node.js via Java เอพีอี" 
 
 header_actions:
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for Node.js via Java นำเสนอการปรับแต่งลายน้ำอย่างราบรื่นในเอกสาร RTFเครื่องมือที่ยืดหยุ่นนี้ช่วยให้นักพัฒนาสามารถปรับแต่งและปรับแต่งลายน้ำได้อย่างง่ายดายตามความต้องการเฉพาะในรูปแบบไฟล์ต่างๆ รวมถึง PDF, Microsoft Word, Excel, PowerPoint, Visio, อีเมลและรูปแบบภาพ
+       GroupDocs.Watermark for Node.js via Java นำเสนอการปรับแต่งลายน้ำอย่างราบรื่นในเอกสาร RTF เครื่องมือที่ยืดหยุ่นนี้ช่วยให้นักพัฒนาสามารถปรับแต่งและปรับแต่งลายน้ำได้อย่างง่ายดายตามความต้องการเฉพาะในรูปแบบไฟล์ต่างๆ รวมถึง PDF, Microsoft Word, Excel, PowerPoint, Visio, อีเมลและรูปแบบภาพ
 
 ############################# Steps ############################
 steps:
@@ -160,7 +160,7 @@ more_formats:
     enable: true
     title: "อัปเดตลายน้ำในรูปแบบไฟล์หลายรูปแบบ"
     exclude: "RTF"
-    description: "ปรับแต่งลายน้ำได้อย่างง่ายดายใน PDF, Word, Excel และอื่น ๆ ด้วย GroupDocs.Watermark for Node.js via Javaขัดตรรกะทางธุรกิจของคุณ"
+    description: "ปรับแต่งลายน้ำได้อย่างง่ายดายใน PDF, Word, Excel และอื่น ๆ ด้วย GroupDocs.Watermark for Node.js via Java ขัดตรรกะทางธุรกิจของคุณ"
     items: 
         # format loop 1
         - name: "ลายน้ำ PDF"

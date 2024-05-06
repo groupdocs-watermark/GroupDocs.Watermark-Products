@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:07
+date:  2024-05-06T23:13:30
 draft: false
 lang: ko
 format: Image
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "보안 비즈니스 문서: Image 형식에 대한 워터마크 생성"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)로 문서 보안을 강화하세요.** 당사의 API를 애플리케이션에 삽입하고 지원되는 다양한 파일 형식에 대한 워터마크를 생성하세요.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 로 문서 보안을 강화하세요. 당사의 API를 애플리케이션에 삽입하고 지원되는 다양한 파일 형식에 대한 워터마크를 생성하세요.
       
       1. **워터마킹 시작:** 주요 기능을 제공하는 **Watermarker** 클래스로 문서 처리를 시작합니다. 생성된 워터마크로 보호되어야 하는 Image 파일을 생성자에 전달하여 인스턴스화합니다.
       2. **기본 워터마크 개체 만들기:** 맞춤형 **Watermark** 개체를 조각하여 문서를 향상시키세요. 단순한 페이지를 넘어 첨부 파일이나 헤더와 같은 기본 요소에 원활하게 통합되어 보안 및 전문성을 강화합니다.
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // IMAGE에 대한 텍스트 워터마크 생성
+        // IMAGE 에 대한 텍스트 워터마크 생성
 
         // 소스 파일을 Watermarker 인스턴스에 전달
         const watermarker = new groupdocs.watermark.Watermarker("input.jpeg");

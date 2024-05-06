@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:09
+date:  2024-05-06T23:13:33
 draft: false
 lang: ko
 format: Pdf
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "고급 기술: Java을(를) 통해 Pdf 문서에 워터마크 추가"
+    title: "고급 기술: Java 을(를) 통해 Pdf 문서에 워터마크 추가"
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하여 Pdf 문서에 대한 고급 워터마킹 기술 탐색
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하여 Pdf 문서에 대한 고급 워터마킹 기술 탐색
       
       1. **Watermarker** 클래스를 초기화하여 워터마킹 프로세스를 시작하세요. 이 기본 단계는 워터마크로 Pdf 문서를 향상시키기 위한 단계를 설정합니다. Pdf 파일을 생성자에 경로 또는 스트림 객체로 제공합니다.
       2. 귀하의 사양에 맞게 **Watermark** 개체를 제작하여 다음 단계로 진행하세요. 이러한 다목적 엔터티는 지정된 문서 페이지뿐만 아니라 첨부 파일이나 헤더와 같은 기본 요소 내에서도 정확한 배치를 제공합니다.
@@ -81,9 +81,9 @@ steps:
           
       content: |
         ```java {style=abap}
-        // PDF에 이미지 워터마크 추가
+        // PDF 에 이미지 워터마크 추가
 
-        // 워터마킹할 파일을 Watermarker에 전달하세요.
+        // 워터마킹할 파일을 Watermarker 에 전달하세요.
         Watermarker watermarker = new Watermarker("input.pdf");
         
         // 워터마크가 있는 이미지에 대한 경로 제공

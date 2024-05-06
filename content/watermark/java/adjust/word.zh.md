@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: zh
 format: Word
@@ -82,12 +82,12 @@ steps:
       content: |
         ```java {style=abap}
 
-        // 调整WORD文本水印
+        // 调整 WORD 文本水印
 
         // 使用输入 WORD 文档实例化 Watermarker
         Watermarker watermarker = new Watermarker("input.docx");
 
-        // 初始化TextSearchCriteria并查找文本水印
+        // 初始化 TextSearchCriteria 并查找文本水印
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         

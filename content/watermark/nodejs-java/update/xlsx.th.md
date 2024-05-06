@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:17
+date:  2024-05-06T23:13:44
 draft: false
 lang: th
 format: Xlsx
@@ -13,11 +13,11 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "อัปเดตลายน้ำ XLSX ตามความต้องการของคุณ"
-head_description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการที่แม่นยำของคุณด้วย GroupDocs.Watermark for Node.js via Javaเพิ่มศักยภาพทางตรรกะทางธุรกิจในแอปของคุณ"
+head_description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการที่แม่นยำของคุณด้วย GroupDocs.Watermark for Node.js via Java เพิ่มศักยภาพทางตรรกะทางธุรกิจในแอปของคุณ"
 
 ############################# Header ############################
 title: "อัปเดต XLSX สเปรดชีตลายน้ำตามความต้องการของคุณ" 
-description: "ปรับแต่งลายน้ำได้อย่างง่ายดายด้วย GroupDocs.Watermark for Node.js via Javaปกป้องเอกสารที่ละเอียดอ่อนของ บริษัท ของคุณด้วยลายน้ำที่แตกต่างกันปรับคุณสมบัติลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมหมุน และตำแหน่งตามความจำเป็น"
+description: "ปรับแต่งลายน้ำได้อย่างง่ายดายด้วย GroupDocs.Watermark for Node.js via Java ปกป้องเอกสารที่ละเอียดอ่อนของ บริษัท ของคุณด้วยลายน้ำที่แตกต่างกันปรับคุณสมบัติลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมหมุน และตำแหน่งตามความจำเป็น"
 subtitle: "GroupDocs.Watermark for Node.js via Java โซลูชั่น" 
 
 header_actions:
@@ -160,7 +160,7 @@ more_formats:
     enable: true
     title: "อัปเดตลายน้ำที่วางไว้ในรูปแบบอื่น ๆ"
     exclude: "XLSX"
-    description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการของคุณใน PDF, Word, Excel และอื่นๆ ด้วย GroupDocs.Watermark for Node.js via Javaรวมผลิตภัณฑ์ของเราไว้ในโซลูชันของคุณและได้รับประโยชน์อันมีค่า"
+    description: "ปรับแต่งลายน้ำให้เหมาะกับความต้องการของคุณใน PDF, Word, Excel และอื่นๆ ด้วย GroupDocs.Watermark for Node.js via Java รวมผลิตภัณฑ์ของเราไว้ในโซลูชันของคุณและได้รับประโยชน์อันมีค่า"
     items: 
         # format loop 1
         - name: "ลายน้ำ PDF"

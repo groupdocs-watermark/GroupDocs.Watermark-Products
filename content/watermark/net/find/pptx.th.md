@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:15
+date:  2024-05-06T23:13:41
 draft: false
 lang: th
 format: Pptx
@@ -35,7 +35,7 @@ about:
     link_title: "เรียนรู้เพิ่มเติม"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       GroupDocs.Watermark for .NET เป็นโซลูชันที่ครอบคลุมสำหรับการจัดการลายน้ำโดยใช้ .NETสร้าง แก้ไข ค้นหา และลบลายน้ำจากรูปแบบเอกสารต่างๆ เช่น PDF, Microsoft Word, Excel และอื่นๆ ได้อย่างง่ายดายมีส่วนร่วมในการค้นหาลายน้ำในแอปพลิเคชันของคุณโดยใช้ GroupDocs.Watermark for .NET
+       GroupDocs.Watermark for .NET เป็นโซลูชันที่ครอบคลุมสำหรับการจัดการลายน้ำโดยใช้ .NET สร้าง แก้ไข ค้นหา และลบลายน้ำจากรูปแบบเอกสารต่างๆ เช่น PDF, Microsoft Word, Excel และอื่นๆ ได้อย่างง่ายดายมีส่วนร่วมในการค้นหาลายน้ำในแอปพลิเคชันของคุณโดยใช้ GroupDocs.Watermark for .NET
 
 ############################# Steps ############################
 steps:

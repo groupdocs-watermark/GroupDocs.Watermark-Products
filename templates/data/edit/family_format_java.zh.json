@@ -1,8 +1,8 @@
 {
   "examples": {
-    "comment_1": "调整{{FileFormatUp}}文本水印",
+    "comment_1": "调整 {{FileFormatUp}} 文本水印",
     "comment_2": "使用输入 {{FileFormatUp}} 文档实例化 {{TextWatermarker}}",
-    "comment_3": "初始化{{TextTextSearchCriteria}}并查找文本水印",
+    "comment_3": "初始化 {{TextTextSearchCriteria}} 并查找文本水印",
     "comment_4": "调整文本水印属性",
     "comment_5": "保存更新后的文档"
   },

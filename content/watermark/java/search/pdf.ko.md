@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:12
+date:  2024-05-06T23:13:36
 draft: false
 lang: ko
 format: Pdf
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Pdf Java을(를) 통해 워터마크 검색"
+    title: "Pdf Java 을(를) 통해 워터마크 검색"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 단순화합니다. 이점을 활용하려면 Java 애플리케이션에 패키지를 설치하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 단순화합니다. 이점을 활용하려면 Java 애플리케이션에 패키지를 설치하세요.
       
       1. 라이브러리 기능을 활용하려면 Pdf 파일을 **Watermarker** 클래스의 인스턴스에 로드하세요. 파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.
       2. 잠재적 워터마크 목록의 범위를 좁히려면 **SearchCriteria** 객체를 활용하세요. 예를 들어 유사한 이미지 워터마크를 검색하려면 이미지를 제공하세요. 텍스트 워터마크를 검색하는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하세요.

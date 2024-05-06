@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:17
+date:  2024-05-06T23:13:43
 draft: false
 lang: th
 format: Ppt
@@ -13,11 +13,11 @@ platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "อัปเดตลายน้ำ PPT ด้วยความแม่นยำ"
-head_description: "ปรับแต่งลายน้ำในการนำเสนอด้วยความแม่นยำโดยใช้ GroupDocs.Watermark for Node.js via Javaรับรองความปลอดภัยของข้อมูลธุรกิจของคุณ"
+head_description: "ปรับแต่งลายน้ำในการนำเสนอด้วยความแม่นยำโดยใช้ GroupDocs.Watermark for Node.js via Java รับรองความปลอดภัยของข้อมูลธุรกิจของคุณ"
 
 ############################# Header ############################
 title: "อัปเดตลายน้ำการนำเสนอ PPT ด้วยความแม่นยำ" 
-description: "บรรลุความแม่นยำที่ไม่มีใครเทียบได้ในการปรับแต่งลายน้ำด้วย GroupDocs.Watermark for Node.js via Javaเสริมสร้างบันทึกธุรกิจของคุณด้วยลายน้ำที่หลากหลายอัปเดตคุณสมบัติลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมการหมุน และตำแหน่งตามความต้องการของคุณ"
+description: "บรรลุความแม่นยำที่ไม่มีใครเทียบได้ในการปรับแต่งลายน้ำด้วย GroupDocs.Watermark for Node.js via Java เสริมสร้างบันทึกธุรกิจของคุณด้วยลายน้ำที่หลากหลายอัปเดตคุณสมบัติลายน้ำ เช่น ขนาด การจัดตำแหน่ง มุมการหมุน และตำแหน่งตามความต้องการของคุณ"
 subtitle: "GroupDocs.Watermark for Node.js via Java" 
 
 header_actions:
@@ -160,7 +160,7 @@ more_formats:
     enable: true
     title: "อัปเดตลายน้ำในรูปแบบที่รองรับ"
     exclude: "PPT"
-    description: "ปรับแต่งลายน้ำใน PDF, Word, Excel และอื่น ๆ ด้วยความแม่นยำโดยใช้ GroupDocs.Watermark for Node.js via Javaรองรับรูปแบบธุรกิจทั้งหมด"
+    description: "ปรับแต่งลายน้ำใน PDF, Word, Excel และอื่น ๆ ด้วยความแม่นยำโดยใช้ GroupDocs.Watermark for Node.js via Java รองรับรูปแบบธุรกิจทั้งหมด"
     items: 
         # format loop 1
         - name: "ลายน้ำ PDF"

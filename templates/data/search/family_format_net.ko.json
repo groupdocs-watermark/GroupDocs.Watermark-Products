@@ -1,14 +1,14 @@
 {
   "examples": {
-    "comment_1": "{{FileFormatUp}}에서 텍스트 워터마크 찾기",
-    "comment_2": "{{FileFormatUp}} 경로를 사용하여 {{TextWatermarker}}를 생성합니다.",
+    "comment_1": "{{FileFormatUp}} 에서 텍스트 워터마크 찾기",
+    "comment_2": "{{FileFormatUp}} 경로를 사용하여 {{TextWatermarker}} 를 생성합니다.",
     "comment_3": "워터마크 찾기",
     "comment_4": "발견된 워터마크 정보 사용"
   },
   "steps": {
-    "title": "{{EnvName}}을(를) 사용하여 {{FileformatCap}} 파일에서 워터마크 찾기",
+    "title": "{{EnvName}} 을(를) 사용하여 {{FileformatCap}} 파일에서 워터마크 찾기",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})**는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 간소화합니다. 우리 패키지를 귀하의 {{EnvName}} 애플리케이션에 통합하여 그 이점을 활용하세요.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 는 비즈니스 문서 내에서 워터마크를 찾는 프로세스를 간소화합니다. 우리 패키지를 귀하의 {{EnvName}} 애플리케이션에 통합하여 그 이점을 활용하세요.",
       "step_1": "라이브러리 기능을 활용하려면 {{FileformatCap}} 파일을 {{TextWatermarkerBold}} 클래스 인스턴스에 로드하세요. 파일 경로, 파일 스트림 또는 바이트 스트림을 제공할 수 있습니다.",
       "step_2": "잠재적인 워터마크 목록을 구체화하려면 {{TextSearchCriteriaBold}} 객체를 사용하세요. 예를 들어 유사한 이미지 워터마크를 찾으려면 이미지를 제공하세요. 텍스트 워터마크를 찾는 경우 텍스트, 글꼴, 색상 및 기타 관련 옵션을 제공하세요.",
       "step_3": "문서 내에 배치된 워터마크를 검색하려면 {{TextWatermarkerBold}} 개체의 {{TextSearchBold}} 메서드를 사용하세요. 추가 처리를 위해 잠재적인 워터마크를 나타내는 개체 컬렉션을 받게 됩니다.",

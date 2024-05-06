@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:19
+date:  2024-05-06T23:13:46
 draft: false
 lang: ko
 format: Xlsx
@@ -40,11 +40,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "GroupDocs.Watermark을(를) 사용하여 Xlsx 파일에서 워터마크 가져오기"
+    title: "GroupDocs.Watermark 을(를) 사용하여 Xlsx 파일에서 워터마크 가져오기"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 널리 사용되는 비즈니스 문서 형식에 워터마크를 배치하기 위한 포괄적인 솔루션을 제공합니다. 우리 라이브러리를 귀하의 Node.js via Java 애플리케이션에 통합함으로써 귀하는 강력한 워터마크 검색 기능을 갖출 수 있습니다.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 는 널리 사용되는 비즈니스 문서 형식에 워터마크를 배치하기 위한 포괄적인 솔루션을 제공합니다. 우리 라이브러리를 귀하의 Node.js via Java 애플리케이션에 통합함으로써 귀하는 강력한 워터마크 검색 기능을 갖출 수 있습니다.
       
-      1. GroupDocs.Watermark에서 제공하는 기능에 액세스하려면 **Watermarker** 클래스를 인스턴스화하고 Xlsx 파일 경로를 제공하세요. 또한 바이트 스트림으로 저장된 파일을 사용할 수 있습니다. 이 작업은 기본적으로 포괄적인 워터마크 분석을 위해 대상 문서를 로드합니다.
+      1. GroupDocs.Watermark 에서 제공하는 기능에 액세스하려면 **Watermarker** 클래스를 인스턴스화하고 Xlsx 파일 경로를 제공하세요. 또한 바이트 스트림으로 저장된 파일을 사용할 수 있습니다. 이 작업은 기본적으로 포괄적인 워터마크 분석을 위해 대상 문서를 로드합니다.
       2. 타겟 워터마크 식별을 달성하려면 **SearchCriteria** 객체를 생성하세요. 유사한 이미지 워터마크를 찾기 위해 이미지를 지정할 수 있습니다. 또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개변수를 정의하여 검색 기준을 구체화하고 보다 정확한 결과를 얻을 수 있습니다.
       3. 로드된 문서 내에서 워터마크 가져오기 프로세스를 시작하려면 **Watermarker** 개체의 **Search** 메서드(또는 유사한 명명 규칙)를 호출합니다. 이 함수는 잠재적인 워터마크를 나타내는 개체 컬렉션을 반환하여 특정 요구 사항에 따라 추가 처리를 용이하게 합니다.
       4. 워터마크 결과 컬렉션을 사용하면 문서 내에서 식별된 워터마크를 제어할 수 있습니다. 필요에 따라 원하지 않는 워터마크를 제거하거나 크기, 위치, 텍스트 내용 조정 등 해당 속성을 동적으로 수정할 수 있습니다.
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // XLSX에 배치된 이미지 워터마크 가져오기
+        // XLSX 에 배치된 이미지 워터마크 가져오기
 
         // 소스 경로를 사용하여 Watermarker 객체를 생성합니다.
         const watermarker = new groupdocs.watermark.Watermarker("input.xlsx");

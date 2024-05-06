@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:28
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Java을(를) 사용하여 Powerpoint 파일에서 워터마크를 검색하세요."
+    title: "Java 을(를) 사용하여 Powerpoint 파일에서 워터마크를 검색하세요."
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**를 사용하면 비즈니스 문서에 이미 배치된 워터마크를 쉽게 검색할 수 있습니다. 패키지를 다운로드하고 이를 Java 애플리케이션에 포함시켜 그 이점을 활용하세요.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 를 사용하면 비즈니스 문서에 이미 배치된 워터마크를 쉽게 검색할 수 있습니다. 패키지를 다운로드하고 이를 Java 애플리케이션에 포함시켜 그 이점을 활용하세요.
       
       1. 우리의 라이브러리 기능을 사용하려면 Powerpoint 파일을 **Watermarker** 클래스 인스턴스에 로드해야 합니다. 파일 경로, 파일 스트림 또는 바이트 스트림만 제공할 수 있습니다.
       2. 가능한 워터마크 목록의 범위를 좁히려면 **SearchCriteria** 객체를 사용하세요. 유사한 이미지 워터마크를 얻으려면 예시로 이미지를 제공하세요. 텍스트 워터마크를 검색하려면 텍스트, 글꼴, 색상 및 기타 옵션을 제공하세요.

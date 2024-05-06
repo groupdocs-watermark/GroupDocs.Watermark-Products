@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: th
 format: Excel
@@ -13,7 +13,7 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "ลบลายน้ำจาก Excel ด้วย Java API"
-head_description: "ลบ ลบ หรือแก้ไขลายน้ำจากไฟล์ Excel ได้อย่างง่ายดายโดยใช้ API GroupDocs.Watermark for Javaเพิ่มความสมบูรณ์ของเอกสารและการนำเสนอ"
+head_description: "ลบ ลบ หรือแก้ไขลายน้ำจากไฟล์ Excel ได้อย่างง่ายดายโดยใช้ API GroupDocs.Watermark for Java เพิ่มความสมบูรณ์ของเอกสารและการนำเสนอ"
 
 ############################# Header ############################
 title: "Java Excel การจัดการลายน้ำ" 

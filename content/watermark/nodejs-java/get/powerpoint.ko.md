@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:08
+date:  2024-05-06T23:13:32
 draft: false
 lang: ko
 format: Powerpoint
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "GroupDocs.Watermark의 Powerpoint 파일에서 효율적으로 워터마크 가져오기"
     content: |
-      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)**는 다양한 비즈니스 문서 형식에 포함된 워터마크를 검색하는 프로세스를 간소화합니다. GroupDocs.Watermark을(를) Node.js via Java 애플리케이션에 원활하게 통합하여 강력한 워터마크 감지 기능을 강화하세요.
+      **[GroupDocs.Watermark for Node.js via Java](https://products.groupdocs.com/watermark/nodejs-java/)** 는 다양한 비즈니스 문서 형식에 포함된 워터마크를 검색하는 프로세스를 간소화합니다. GroupDocs.Watermark 을(를) Node.js via Java 애플리케이션에 원활하게 통합하여 강력한 워터마크 감지 기능을 강화하세요.
       
       1. GroupDocs.Watermark 기능을 활용하려면 **Watermarker** 클래스를 인스턴스화하고 Powerpoint 파일 경로, 파일 스트림 또는 바이트 스트림을 입력으로 제공합니다. 이 작업을 수행하면 워터마크 분석을 위한 문서가 로드됩니다.
       2. 타겟 워터마크 식별을 위해 **SearchCriteria** 객체를 활용하세요. 유사한 이미지 워터마크를 찾기 위한 이미지를 지정합니다. 또는 텍스트 워터마크의 경우 텍스트 내용, 글꼴 속성, 색상 속성 및 기타 관련 매개변수를 정의하여 검색 기준을 구체화합니다.
@@ -67,7 +67,7 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // POWERPOINT에 대한 텍스트 워터마크 목록 가져오기
+        // POWERPOINT 에 대한 텍스트 워터마크 목록 가져오기
 
         // Watermarker 클래스 인스턴스화
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");

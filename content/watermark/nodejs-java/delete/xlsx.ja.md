@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:18
+date:  2024-05-06T23:13:44
 draft: false
 lang: ja
 format: Xlsx
@@ -86,7 +86,7 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js via Java ウォーターマーク削除用API | GroupDocs.Watermark"
+  title: "Node.js via Java ウォーターマーク削除用 API | GroupDocs.Watermark"
   description: "Node.js via Java APIを統合すると、ドキュメントからウォーターマークを簡単に削除できるため、ドキュメントの明瞭さと美観が向上します。Node.js via Java 環境向けに調整されたこの API は、透かしのないきれいな文書を処理して表示する必要があるアプリケーションに最適です。"
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "ウォーターマークを削除"

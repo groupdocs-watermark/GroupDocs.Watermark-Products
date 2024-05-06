@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:08
+date:  2024-05-06T23:13:32
 draft: false
 lang: ko
 format: Powerpoint
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Powerpoint Node.js via Java을(를) 사용한 워터마크 삭제"
+    title: "Powerpoint Node.js via Java 을(를) 사용한 워터마크 삭제"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)**는 Node.js via Java 개발자에게 다양한 Powerpoint 문서에 포함된 특정 워터마크를 프로그래밍 방식으로 삭제할 수 있는 포괄적인 API를 제공합니다. 이 가이드에서는 기술 프로세스를 자세히 설명합니다.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/nodejs-java/)** 는 Node.js via Java 개발자에게 다양한 Powerpoint 문서에 포함된 특정 워터마크를 프로그래밍 방식으로 삭제할 수 있는 포괄적인 API를 제공합니다. 이 가이드에서는 기술 프로세스를 자세히 설명합니다.
       
       1. **Watermarker** 클래스를 인스턴스화하고 Powerpoint 파일을 생성자 인수로 제공하여 워크플로를 시작합니다. 파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 경로 참조로 제공될 수 있습니다.
       2. 정확한 워터마크 타겟팅을 달성하려면 **SearchCriteria** 개체의 기능을 활용하세요. 이 개체는 이전에 문서에 포함된 속성을 기반으로 복잡한 필터의 구성을 용이하게 합니다. 텍스트 또는 서식 속성과 함께 이미지를 검색 매개변수로 활용하여 매우 세부적인 선택 프로세스를 활성화할 수 있습니다.
@@ -69,7 +69,7 @@ steps:
 
         // Powerpoint 문서에서 텍스트 워터마크 삭제
 
-        // Powerpoint 문서로 Watermarker를 인스턴스화합니다.
+        // Powerpoint 문서로 Watermarker 를 인스턴스화합니다.
         const watermarker = new groupdocs.watermark.Watermarker("input.pptx");
         
         // 검색 조건에 적합한 일반 텍스트 워터마크

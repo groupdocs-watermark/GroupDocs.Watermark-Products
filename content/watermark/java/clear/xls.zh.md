@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:11
+date:  2024-05-06T23:13:36
 draft: false
 lang: zh
 format: Xls
@@ -81,7 +81,7 @@ steps:
           
       content: |
         ```java {style=abap}
-        // 清除图片水印XLS文档
+        // 清除图片水印 XLS 文档
 
         // 将 XLS 文档路径传递给 Watermarker 构造函数
         Watermarker watermarker = new Watermarker("input.xls");

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:14
+date:  2024-05-06T23:13:40
 draft: false
 lang: ko
 format: Rtf
@@ -40,9 +40,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: ".NET을(를) 사용하여 프로그래밍 방식으로 Rtf 문서에서 워터마크 제거"
+    title: ".NET 을(를) 사용하여 프로그래밍 방식으로 Rtf 문서에서 워터마크 제거"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자가 프로그래밍 방식으로 다양한 Rtf 문서에서 워터마크를 제거할 수 있도록 지원합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/net/)** 는 .NET 개발자가 프로그래밍 방식으로 다양한 Rtf 문서에서 워터마크를 제거할 수 있도록 지원합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
       
       1. Rtf 파일을 **Watermarker** 클래스 생성자에 대한 인수로 제공하여 워크플로를 시작합니다. 파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
       2. **SearchCriteria** 개체의 기능을 활용하여 제거가 필요한 특정 워터마크를 식별하세요. 이 개체를 사용하면 문서에 이전에 포함된 속성을 기반으로 워터마크를 필터링할 수 있습니다. 매우 세부적인 검색을 위해 텍스트 또는 서식 속성과 함께 이미지를 검색 매개변수로 활용할 수 있습니다.
@@ -69,7 +69,7 @@ steps:
         ```csharp {style=abap}
         // RTF 문서에서 이미지 워터마크 제거
 
-        // RTF 문서를 전달하는 Watermarker를 인스턴스화합니다.
+        // RTF 문서를 전달하는 Watermarker 를 인스턴스화합니다.
         using (Watermarker watermarker = new Watermarker("input.rtf"))
         {
             // 문서에서 발견된 워터마크 제거
@@ -86,7 +86,7 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "C# .NET API를 사용한 고급 워터마크 제거 | GroupDocs.Watermark"
+  title: "C# .NET API 를 사용한 고급 워터마크 제거 | GroupDocs.Watermark"
   description: "C# .NET API로 고급 워터마크 제거 기능을 활용하세요..NET 응용 프로그램과의 원활한 통합을 위해 설계된 이 API는 PDF 및 Office 문서에서 워터마크를 쉽게 제거하여 전문가용 고품질 무표시 출력을 보장합니다."
   image: "/img/watermark/features_remove.webp" # 500x500 px
   image_description: "워터마크 제거"

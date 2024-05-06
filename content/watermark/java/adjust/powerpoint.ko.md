@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: ko
 format: Powerpoint
@@ -42,10 +42,10 @@ steps:
     enable: true
     title: "Java을(를) 사용하여 Powerpoint 문서의 워터마크를 조정합니다."
     content: |
-      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)**를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 텍스트 워터마크를 쉽게 조정할 수 있습니다.
+      **[GroupDocs.Watermark for Java](https://products.groupdocs.com/watermark/java/)** 를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션에서 텍스트 워터마크를 쉽게 조정할 수 있습니다.
       
-      1. Powerpoint 파일을 **Watermarker**라는 API의 기본 객체에 로드하세요. 추가 처리를 위해 파일을 스트림이나 로컬 디스크의 경로로 제공할 수 있습니다.
-      2. 다음 단계는 조정해야 할 워터마크를 찾는 것입니다. **SearchCriteria**는 이전에 문서에 추가된 올바른 속성을 가진 워터마크를 식별하는 데 도움이 됩니다.
+      1. Powerpoint 파일을 **Watermarker** 라는 API의 기본 객체에 로드하세요. 추가 처리를 위해 파일을 스트림이나 로컬 디스크의 경로로 제공할 수 있습니다.
+      2. 다음 단계는 조정해야 할 워터마크를 찾는 것입니다. **SearchCriteria** 는 이전에 문서에 추가된 올바른 속성을 가진 워터마크를 식별하는 데 도움이 됩니다.
       3. **Search** 절차의 결과로 적합한 워터마크 목록을 가져옵니다. 크기, 페이지 정렬, 텍스트, 색상, 이미지 내용 등과 같은 발견된 워터마크 속성을 조정합니다. 데이터를 사용자 정의하는 방법은 많습니다.
       4. 워터마크 조정 프로세스가 완료되면 업데이트된 문서를 저장해야 합니다. 결과를 저장하려면 로컬 파일 경로, 파일 또는 바이트 스트림을 사용하십시오.
    
@@ -84,10 +84,10 @@ steps:
 
         // POWERPOINT 텍스트 워터마크 조정
 
-        // 입력 POWERPOINT 문서로 Watermarker를 인스턴스화합니다.
+        // 입력 POWERPOINT 문서로 Watermarker 를 인스턴스화합니다.
         Watermarker watermarker = new Watermarker("input.pptx");
 
-        // TextSearchCriteria를 초기화하고 텍스트 워터마크를 찾습니다.
+        // TextSearchCriteria 를 초기화하고 텍스트 워터마크를 찾습니다.
         TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
         PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
         

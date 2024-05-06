@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:14
+date:  2024-05-06T23:13:39
 draft: false
 lang: ko
 format: Xls
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: ".NET API를 사용하여 Xls 문서의 워터마크를 프로그래밍 방식으로 편집"
     content: |
-      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)**는 .NET 개발자에게 다양한 Xls 문서 내에서 워터마크를 프로그래밍 방식으로 조작하기 위한 강력한 API를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
+      **[GroupDocs.Watermark for .NET](https://products.groupdocs.com/watermark/net/)** 는 .NET 개발자에게 다양한 Xls 문서 내에서 워터마크를 프로그래밍 방식으로 조작하기 위한 강력한 API를 제공합니다. 이 가이드에서는 프로세스를 간략하게 설명합니다.
       
       1. Xls 파일을 **Watermarker** 클래스 생성자에 대한 인수로 제공하여 워크플로를 시작합니다. 파일은 바이트 스트림, 파일 스트림 또는 로컬 디스크 위치에 대한 참조로 제공될 수 있습니다.
       2. 그 후, **SearchCriteria** 객체를 활용하여 수정이 필요한 특정 워터마크를 찾아냅니다. 이 개체를 사용하면 이전에 문서에 포함된 워터마크를 식별할 수 있습니다.

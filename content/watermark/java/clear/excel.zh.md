@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-03T13:37:05
+date:  2024-05-06T23:13:27
 draft: false
 lang: zh
 format: Excel
@@ -42,7 +42,7 @@ steps:
     enable: true
     title: "使用 Java 清除 Excel 文档的水印"
     content: |
-      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)**可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 Java 应用程序的能力，并通过几个简单的步骤完成：
+      **[GroupDocs.Watermark](https://products.groupdocs.com/watermark/java/)** 可以轻松清除之前添加的水印的业务文档。通过安装我们的库来增强您的 Java 应用程序的能力，并通过几个简单的步骤完成：
       
       1. 首先使用 Excel 文档实例化名为 **Watermarker** 的主类。我们的 API 支持将要处理的文档作为流或本地路径传递。
       2. 使用 **SearchCriteria** 限制要处理的水印集。可以使用图像作为搜索参数以及文本或格式化特征。然后您提供更具体的搜索参数，然后您获得更精确的结果。
