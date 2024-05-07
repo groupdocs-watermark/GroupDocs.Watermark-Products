@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:39
+date:  2024-05-07T12:13:24
 draft: false
 lang: ko
 format: Ppt
@@ -35,7 +35,7 @@ about:
     link_title: "자세히 알아보기"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 425} 워터마크를 손쉽게 편집:** GroupDocs.Watermark for .NET .NET 라이브러리를 사용하여 문서 무결성과 보안을 손쉽게 유지할 수 있습니다.다양한 파일 유형의 워터마크를 정밀하고 제어하여 편집할 수 있습니다.
+       **Ppt 워터마크를 손쉽게 편집:** GroupDocs.Watermark for .NET .NET 라이브러리를 사용하여 문서 무결성과 보안을 손쉽게 유지할 수 있습니다.다양한 파일 유형의 워터마크를 정밀하고 제어하여 편집할 수 있습니다.
 
 ############################# Steps ############################
 steps:

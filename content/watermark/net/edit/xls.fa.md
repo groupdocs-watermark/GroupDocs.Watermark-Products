@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:39
+date:  2024-05-07T12:13:24
 draft: false
 lang: fa
 format: Xls
@@ -30,7 +30,7 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: "{۴۲۵} سدک"
+    title: "Xls سدک"
     link: "/watermark/net/"
     link_title: "بیشتر بدانید"
     picture: "about_watermark.svg" # 480 X 400

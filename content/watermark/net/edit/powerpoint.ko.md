@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:29
+date:  2024-05-07T12:13:17
 draft: false
 lang: ko
 format: Powerpoint
@@ -35,7 +35,7 @@ about:
     link_title: "자세히 알아보기"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 425} 개의 워터마크 배치 편집:** GroupDocs.Watermark for .NET 개발자와 함께 워터마크 배치 및 문서 보안을 정밀하게 제어할 수 있습니다.워크플로를 간소화하고 손쉽게 신뢰성을 보장하세요.
+       **Powerpoint 개의 워터마크 배치 편집:** GroupDocs.Watermark for .NET 개발자와 함께 워터마크 배치 및 문서 보안을 정밀하게 제어할 수 있습니다.워크플로를 간소화하고 손쉽게 신뢰성을 보장하세요.
 
 ############################# Steps ############################
 steps:

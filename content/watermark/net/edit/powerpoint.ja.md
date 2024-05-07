@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:29
+date:  2024-05-07T12:13:17
 draft: false
 lang: ja
 format: Powerpoint
@@ -35,7 +35,7 @@ about:
     link_title: "さらに詳しく"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 425} ウォーターマークの配置を編集:** GroupDocs.Watermark for .NET 開発者がウォーターマークの配置とドキュメントのセキュリティを正確に制御できます。ワークフローを合理化し、信頼性を簡単に確保できます。
+       **Powerpoint ウォーターマークの配置を編集:** GroupDocs.Watermark for .NET 開発者がウォーターマークの配置とドキュメントのセキュリティを正確に制御できます。ワークフローを合理化し、信頼性を簡単に確保できます。
 
 ############################# Steps ############################
 steps:

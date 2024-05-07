@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:29
+date:  2024-05-07T12:13:17
 draft: false
 lang: ko
 format: Word
@@ -35,7 +35,7 @@ about:
     link_title: "자세히 알아보기"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 425} 문서 보안 강화:** GroupDocs.Watermark for .NET 은 개발자가 문서 보안을 쉽게 강화할 수 있도록 합니다.특정 요구 사항에 맞게 자신 있게 워터마크를 편집하세요.
+       **Word 문서 보안 강화:** GroupDocs.Watermark for .NET 은 개발자가 문서 보안을 쉽게 강화할 수 있도록 합니다.특정 요구 사항에 맞게 자신 있게 워터마크를 편집하세요.
 
 ############################# Steps ############################
 steps:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-06T23:13:47
+date: 2024-05-07T12:13:28
 draft: false
 
 lang: ko
@@ -42,7 +42,7 @@ actions:
   description: "GroupDocs.Watermark 기능을 무료로 체험하거나 라이선스를 요청하세요"
 
 release:
-  title: "버전 {4.13} 출시"
+  title: "버전 {0} 출시"
   notes: "새 소식 보기"
   downloads: "다운로드"
 

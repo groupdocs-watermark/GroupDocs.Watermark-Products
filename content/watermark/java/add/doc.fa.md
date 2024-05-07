@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:33
+date:  2024-05-07T12:13:19
 draft: false
 lang: fa
 format: Doc
@@ -17,7 +17,7 @@ head_description: "با استفاده از Java به طور موثر واترم
 
 ############################# Header ############################
 title: "Java علامت گذاری برای DOC فایل" 
-description: "بررسی کنید که چگونه توسعه دهندگان {۲۹۰} می توانند از GroupDocs.Watermark برای وارد کردن، اصلاح و حذف واترمارک در DOC سند به سرعت و بدون زحمت استفاده کنند."
+description: "بررسی کنید که چگونه توسعه دهندگان DOC می توانند از GroupDocs.Watermark برای وارد کردن، اصلاح و حذف واترمارک در DOC سند به سرعت و بدون زحمت استفاده کنند."
 subtitle: "GroupDocs.Watermark for Java" 
 
 header_actions:

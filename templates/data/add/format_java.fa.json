@@ -47,7 +47,7 @@
     },
     "header": {
       "title": "Java علامت گذاری برای {{FileFormatUp}} فایل",
-      "description": "بررسی کنید که چگونه توسعه دهندگان {۲۹۰} می توانند از GroupDocs.Watermark برای وارد کردن، اصلاح و حذف واترمارک در {{FileFormatUp}} سند به سرعت و بدون زحمت استفاده کنند.",
+      "description": "بررسی کنید که چگونه توسعه دهندگان {{FileFormatUp}} می توانند از GroupDocs.Watermark برای وارد کردن، اصلاح و حذف واترمارک در {{FileFormatUp}} سند به سرعت و بدون زحمت استفاده کنند.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "دانلود در {{PackageStoreName}} به صورت رایگان"
     },

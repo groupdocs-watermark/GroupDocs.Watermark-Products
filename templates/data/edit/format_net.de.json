@@ -174,7 +174,7 @@
     },
     "about": {
       "title": "{{ProdFullName}} SDK",
-      "content": "**{ 425} Wasserzeichen bearbeiten:** Optimieren Sie Ihre Wasserzeichenkontrolle in {{EnvName}} Projekten mit {{ProdShortName}}. Vereinfachen Sie Ihren Arbeitsablauf und konzentrieren Sie sich auf Ihre Inhalte, während Sie gleichzeitig mühelos die Dokumentensicherheit gewährleisten."
+      "content": "**{{FileformatCap}} Wasserzeichen bearbeiten:** Optimieren Sie Ihre Wasserzeichenkontrolle in {{EnvName}} Projekten mit {{ProdShortName}}. Vereinfachen Sie Ihren Arbeitsablauf und konzentrieren Sie sich auf Ihre Inhalte, während Sie gleichzeitig mühelos die Dokumentensicherheit gewährleisten."
     },
     "formats": {
       "title": "Optimierte Wasserzeichenkontrolle in anderen Formaten",

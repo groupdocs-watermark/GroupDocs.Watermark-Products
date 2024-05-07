@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-06T23:13:47
+date: 2024-05-07T12:13:28
 draft: false
 
 lang: fa
@@ -134,7 +134,7 @@ formats:
     - color: "green"
       content: |
         ### فرمت های Microsoft Office و OpenDocument
-        * **{۳۴۵}:** PDF 
+        * **قابل حمل:** PDF 
         * **Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
         * **Excel:** XLSX, XLS, XLT, XLTM, XLSB, XLSM
         * **PowerPoint:** PPTX, PPT, PPTM, POTX, POTM, PPSM, PPSX

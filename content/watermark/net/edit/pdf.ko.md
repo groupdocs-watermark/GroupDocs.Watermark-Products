@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:39
+date:  2024-05-07T12:13:24
 draft: false
 lang: ko
 format: Pdf
@@ -35,7 +35,7 @@ about:
     link_title: "자세히 알아보기"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 357} s에서 워터마크 편집:** GroupDocs.Watermark for .NET Framework를 사용하여 다양한 형식의 콘텐츠를 보호하세요.다양한 도구를 사용하여 문서 요구 사항에 맞게 원활하게 조정하세요.
+       **Pdf 에서 워터마크 편집:** GroupDocs.Watermark for .NET Framework를 사용하여 다양한 형식의 콘텐츠를 보호하세요.다양한 도구를 사용하여 문서 요구 사항에 맞게 원활하게 조정하세요.
 
 ############################# Steps ############################
 steps:

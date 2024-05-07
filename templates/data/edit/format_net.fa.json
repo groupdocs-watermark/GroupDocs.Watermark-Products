@@ -173,7 +173,7 @@
       "action_title": "دانلود رایگان در {{PackageStoreName}}"
     },
     "about": {
-      "title": "{۴۲۵} سدک",
+      "title": "{{FileformatCap}} سدک",
       "content": "**ویرایش {{FileformatCap}} واترمارک:** کنترل واترمارک خود را در {{EnvName}} پروژه با {{ProdShortName}} بهینه کنید. گردش کار خود را ساده کنید و در عین حال امنیت اسناد بدون زحمت از امنیت اسناد خود تمرکز کنید."
     },
     "formats": {

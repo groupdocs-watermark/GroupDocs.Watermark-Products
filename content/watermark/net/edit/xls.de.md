@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-06T23:13:38
+date:  2024-05-07T12:13:23
 draft: false
 lang: de
 format: Xls
@@ -35,7 +35,7 @@ about:
     link_title: "Erfahre mehr"
     picture: "about_watermark.svg" # 480 X 400
     content: |
-       **{ 425} Wasserzeichen bearbeiten:** Optimieren Sie Ihre Wasserzeichenkontrolle in .NET Projekten mit GroupDocs.Watermark. Vereinfachen Sie Ihren Arbeitsablauf und konzentrieren Sie sich auf Ihre Inhalte, während Sie gleichzeitig mühelos die Dokumentensicherheit gewährleisten.
+       **Xls Wasserzeichen bearbeiten:** Optimieren Sie Ihre Wasserzeichenkontrolle in .NET Projekten mit GroupDocs.Watermark. Vereinfachen Sie Ihren Arbeitsablauf und konzentrieren Sie sich auf Ihre Inhalte, während Sie gleichzeitig mühelos die Dokumentensicherheit gewährleisten.
 
 ############################# Steps ############################
 steps:
