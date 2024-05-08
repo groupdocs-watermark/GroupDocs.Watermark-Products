@@ -118,7 +118,7 @@
       },
       "item_3": {
         "question": "Những loại giấy phép nào được cung cấp?",
-        "answer": "Cần giấy phép {{ProdShortName}}? Chúng tôi có những lựa chọn! Chọn từ các giấy phép dựa trên nhiều tùy chọn. Số lượng nhà phát triển trong nhóm của bạn Các vị trí triển khai như văn phòng đơn lẻ hoặc nơi làm việc từ xa. Phân phối khách hàng cuối có cần chia sẻ SDK/API với khách hàng không? Ngoài ra, có giấy phép sử dụng hàng tháng: Chỉ thanh toán cho những gì bạn sử dụng với các gói tính phí. Lặn sâu hơn và tìm ra [giá] hoàn hảo ({{PricingUrl}})."
+        "answer": "Cần giấy phép {{ProdShortName}}? Chúng tôi có những lựa chọn! Chọn từ các giấy phép dựa trên nhiều tùy chọn. Số lượng nhà phát triển trong nhóm của bạn Các vị trí triển khai như văn phòng đơn lẻ hoặc nơi làm việc từ xa. Phân phối khách hàng cuối có cần chia sẻ SDK/API với khách hàng không? Ngoài ra, có giấy phép sử dụng hàng tháng: Chỉ thanh toán cho những gì bạn sử dụng với các gói tính phí. Lặn sâu hơn và tìm ra [giá hoàn hảo]({{PricingUrl}})."
       }
     },
     "cloud_links": {
@@ -233,7 +233,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} hỗ trợ các hệ điều hành, khung và trình quản lý gói được liệt kê dưới đây",
-    "formats_description": "{{ProdFullName}} cung cấp xử lý các [định dạng tệp] sau đây ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} cung cấp xử lý các [định dạng tệp sau đây]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Một số trường hợp sử dụng của hoạt động {{ProdFullName}} điển hình",
     "code_title_sample_1": "Hình mờ bằng cách thêm hình ảnh vào tài liệu.",
     "code_samples_sample_1_content": "Để bảo vệ bất kỳ tài liệu nào, bạn có thể sử dụng [hình mờ hình ảnh]({{Sample1Url}}):",

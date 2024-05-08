@@ -96,7 +96,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/"
       features:
           # features loop
           - rows: "4"

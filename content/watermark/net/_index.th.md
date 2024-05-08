@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-06T23:13:47
+date: 2024-05-08T17:25:29
 draft: false
 
 lang: th
@@ -128,7 +128,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Watermark for .NET ให้การประมวลผล [รูปแบบไฟล์] ต่อไปนี้ (https://docs.groupdocs.com/watermark/net/supported-document-formats/)
+    GroupDocs.Watermark for .NET ให้การประมวลผล [รูปแบบไฟล์ ต่อไปนี้](https://docs.groupdocs.com/watermark/net/supported-document-formats/)
   groups:
     # group loop
     - color: "green"

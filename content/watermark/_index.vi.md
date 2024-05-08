@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-06T23:13:46
+date:  2024-05-08T17:25:28
 draft: false
 
 product: "Watermark"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/"
       features:
           # features loop
           - rows: "4"
@@ -345,7 +345,7 @@ faq:
 
     # items loop
     - question: "Những loại giấy phép nào được cung cấp?"
-      answer: "Cần giấy phép GroupDocs.Watermark? Chúng tôi có những lựa chọn! Chọn từ các giấy phép dựa trên nhiều tùy chọn. Số lượng nhà phát triển trong nhóm của bạn Các vị trí triển khai như văn phòng đơn lẻ hoặc nơi làm việc từ xa. Phân phối khách hàng cuối có cần chia sẻ SDK/API với khách hàng không? Ngoài ra, có giấy phép sử dụng hàng tháng: Chỉ thanh toán cho những gì bạn sử dụng với các gói tính phí. Lặn sâu hơn và tìm ra [giá] hoàn hảo (https://purchase.groupdocs.com/pricing/watermark/net/)."
+      answer: "Cần giấy phép GroupDocs.Watermark? Chúng tôi có những lựa chọn! Chọn từ các giấy phép dựa trên nhiều tùy chọn. Số lượng nhà phát triển trong nhóm của bạn Các vị trí triển khai như văn phòng đơn lẻ hoặc nơi làm việc từ xa. Phân phối khách hàng cuối có cần chia sẻ SDK/API với khách hàng không? Ngoài ra, có giấy phép sử dụng hàng tháng: Chỉ thanh toán cho những gì bạn sử dụng với các gói tính phí. Lặn sâu hơn và tìm ra [giá hoàn hảo](https://purchase.groupdocs.com/pricing/watermark/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

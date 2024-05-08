@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-07T12:13:28
+date: 2024-05-08T17:25:29
 draft: false
 
 lang: fa
@@ -128,7 +128,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Watermark for .NET پردازش [فرمت های فایل] زیر را فراهم می کند (https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for .NET پردازش [فرمت های فایل](https://docs.groupdocs.com/watermark/net/supported-document-formats/) زیر را فراهم می کند .
   groups:
     # group loop
     - color: "green"

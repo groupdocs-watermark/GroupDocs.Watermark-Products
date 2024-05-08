@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-06T23:13:47
+date: 2024-05-08T17:25:29
 draft: false
 
 lang: fr
@@ -128,7 +128,7 @@ formats:
   enable: true
   title: "Formats de fichiers pris en charge"
   description: |
-    GroupDocs.Watermark for .NET assure le traitement des [formats de fichiers] suivants (https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for .NET assure le traitement des [formats de fichiers suivants](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

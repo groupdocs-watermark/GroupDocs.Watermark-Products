@@ -233,7 +233,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} รองรับระบบปฏิบัติการ เฟรมเวิร์ก และผู้จัดการแพ็คเกจที่ระบุไว้ด้านล่าง",
-    "formats_description": "{{ProdFullName}} ให้การประมวลผล [รูปแบบไฟล์] ต่อไปนี้ ({{SupportedFormatsUrl}})",
+    "formats_description": "{{ProdFullName}} ให้การประมวลผล [รูปแบบไฟล์ ต่อไปนี้]({{SupportedFormatsUrl}})",
     "code_samples_description": "บางกรณีการใช้งานของการดำเนินการ {{ProdFullName}} ทั่วไป",
     "code_title_sample_1": "ลายน้ำโดยการเพิ่มรูปภาพลงในเอกสาร",
     "code_samples_sample_1_content": "เพื่อปกป้องเอกสารใด ๆ คุณสามารถใช้ [ลายน้ำภาพ]({{Sample1Url}}):",
@@ -401,7 +401,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} ผสานเข้ากับระบบปฏิบัติการต่างๆและผู้จัดการแพ็คเกจได้อย่างง่ายดาย",
-    "formats_description": "{{ProdFullName}} ช่วยให้คุณประมวลผลรูปแบบไฟล์ที่หลากหลาย[สำรวจรายการเต็ม]({{SupportedFormatsUrl}})",
+    "formats_description": "{{ProdFullName}} ช่วยให้คุณประมวลผลรูปแบบไฟล์ที่หลากหลาย [สำรวจรายการเต็ม]({{SupportedFormatsUrl}})",
     "code_samples_description": "ดูตัวอย่างโค้ดที่แสดงฟังก์ชันทั่วไป {{ProdFullName}}",
     "code_title_sample_1": "ลายน้ำในเอกสารที่มีรูปภาพ",
     "code_samples_sample_1_content": "ใช้ประโยชน์จาก {{ProdFullName}} เพื่อเพิ่มความปลอดภัยของเอกสารโดยการเพิ่มลายน้ำรูปภาพเรียนรู้เพิ่มเติม: [ลายน้ำรูปภาพ]({{Sample1Url}})",

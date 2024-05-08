@@ -233,7 +233,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} mendukung sistem operasi, kerangka kerja dan manajer paket yang tercantum di bawah ini",
-    "formats_description": "{{ProdFullName}} menyediakan pemrosesan [format file] berikut ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} menyediakan pemrosesan [format file berikut]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} tipikal",
     "code_title_sample_1": "Watermark dengan menambahkan gambar ke dokumen.",
     "code_samples_sample_1_content": "Untuk melindungi dokumen apa pun, Anda dapat menggunakan [image watermarks]({{Sample1Url}}):",

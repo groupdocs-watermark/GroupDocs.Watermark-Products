@@ -118,7 +118,7 @@
       },
       "item_3": {
         "question": "Quels sont les types de licences proposés ?",
-        "answer": "Vous avez besoin d'une licence {{ProdShortName}} ? Nous avons des options ! Choisissez parmi les licences proposées parmi de nombreuses options. Nombre de développeurs dans votre équipe. Lieux de déploiement tels que des bureaux uniques ou des lieux de travail distants. La distribution destinée aux clients finaux doit-elle partager le SDK/API avec les clients ? Il existe également une licence pour une utilisation mensuelle : ne payez que pour ce que vous utilisez avec les forfaits payants. Approfondissez vos connaissances et trouvez le [prix] idéal ({{PricingUrl}})."
+        "answer": "Vous avez besoin d'une licence {{ProdShortName}} ? Nous avons des options ! Choisissez parmi les licences proposées parmi de nombreuses options. Nombre de développeurs dans votre équipe. Lieux de déploiement tels que des bureaux uniques ou des lieux de travail distants. La distribution destinée aux clients finaux doit-elle partager le SDK/API avec les clients ? Il existe également une licence pour une utilisation mensuelle : ne payez que pour ce que vous utilisez avec les forfaits payants. Approfondissez vos connaissances et trouvez le [prix idéal]({{PricingUrl}})."
       }
     },
     "cloud_links": {
@@ -233,7 +233,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} prend en charge les systèmes d'exploitation, les frameworks et les gestionnaires de packages répertoriés ci-dessous",
-    "formats_description": "{{ProdFullName}} assure le traitement des [formats de fichiers] suivants ({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} assure le traitement des [formats de fichiers suivants]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Quelques cas d'utilisation d'opérations typiques de {{ProdFullName}}",
     "code_title_sample_1": "Filigrane en ajoutant une image à un document.",
     "code_samples_sample_1_content": "Pour protéger n'importe quel document, vous pouvez utiliser [filigranes d'image]({{Sample1Url}}) :",

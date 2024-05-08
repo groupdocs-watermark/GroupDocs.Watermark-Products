@@ -118,7 +118,7 @@
       },
       "item_3": {
         "question": "¿Qué tipos de licencia se proporcionan?",
-        "answer": "¿Necesitas una licencia {{ProdShortName}}? ¡Tenemos opciones! Elija entre las licencias en función de muchas opciones. Número de desarrolladores de tu equipo. Ubicaciones de implementación, como oficinas individuales o lugares de trabajo remotos. ¿La distribución para clientes finales necesita compartir el SDK/API con los clientes? Como alternativa, existe una licencia de uso mensual: paga solo por lo que usas con los planes con contador. Sumérgete más y encuentra el [precio] perfecto ({{PricingUrl}})."
+        "answer": "¿Necesitas una licencia {{ProdShortName}}? ¡Tenemos opciones! Elija entre las licencias en función de muchas opciones. Número de desarrolladores de tu equipo. Ubicaciones de implementación, como oficinas individuales o lugares de trabajo remotos. ¿La distribución para clientes finales necesita compartir el SDK/API con los clientes? Como alternativa, existe una licencia de uso mensual: paga solo por lo que usas con los planes con contador. Sumérgete más y encuentra el [precio perfecto]({{PricingUrl}})."
       }
     },
     "cloud_links": {

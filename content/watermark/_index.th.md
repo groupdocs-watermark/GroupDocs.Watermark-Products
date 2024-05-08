@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-06T23:13:46
+date:  2024-05-08T17:25:28
 draft: false
 
 product: "Watermark"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/"
       features:
           # features loop
           - rows: "4"

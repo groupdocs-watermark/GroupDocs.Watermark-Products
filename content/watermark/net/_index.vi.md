@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-06T23:13:47
+date: 2024-05-08T17:25:29
 draft: false
 
 lang: vi
@@ -128,7 +128,7 @@ formats:
   enable: true
   title: "Định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Watermark for .NET cung cấp xử lý các [định dạng tệp] sau đây (https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for .NET cung cấp xử lý các [định dạng tệp sau đây](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

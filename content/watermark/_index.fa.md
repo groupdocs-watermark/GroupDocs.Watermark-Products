@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-06T23:13:46
+date:  2024-05-08T17:25:28
 draft: false
 
 product: "Watermark"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/"
       features:
           # features loop
           - rows: "4"
@@ -345,7 +345,7 @@ faq:
 
     # items loop
     - question: "چه نوع مجوز ارائه شده است؟"
-      answer: "به مجوز GroupDocs.Watermark نیاز دارید؟ ما گزينه هاي داريم از بین مجوزها بر اساس بسیاری از گزینه ها انتخاب کنید. تعداد توسعه دهندگان در تیم شما مکان های استقرار مانند دفتر واحد یا محل کار از راه دور. آیا توزیع مشتری نهایی نیاز به اشتراک گذاری SDK/API با مشتریان دارد؟ متناوباً، مجوز برای استفاده ماهانه وجود دارد: فقط برای آنچه در برنامه های اندازه گیری شده استفاده می کنید پرداخت کنید. عمیق تر غواصی کنید و [قیمت] کامل (https://purchase.groupdocs.com/pricing/watermark/net/) را پیدا کنید."
+      answer: "به مجوز GroupDocs.Watermark نیاز دارید؟ ما گزينه هاي داريم از بین مجوزها بر اساس بسیاری از گزینه ها انتخاب کنید. تعداد توسعه دهندگان در تیم شما مکان های استقرار مانند دفتر واحد یا محل کار از راه دور. آیا توزیع مشتری نهایی نیاز به اشتراک گذاری SDK/API با مشتریان دارد؟ متناوباً، مجوز برای استفاده ماهانه وجود دارد: فقط برای آنچه در برنامه های اندازه گیری شده استفاده می کنید پرداخت کنید. عمیق تر غواصی کنید و [قیمت](https://purchase.groupdocs.com/pricing/watermark/net/) کامل  را پیدا کنید."
 
 ############################# Cloud Links ###############################
 cloud_links:

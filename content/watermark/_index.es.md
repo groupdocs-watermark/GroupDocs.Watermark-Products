@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-06T23:13:46
+date:  2024-05-08T17:25:28
 draft: false
 
 product: "Watermark"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/"
       features:
           # features loop
           - rows: "4"
@@ -345,7 +345,7 @@ faq:
 
     # items loop
     - question: "¿Qué tipos de licencia se proporcionan?"
-      answer: "¿Necesitas una licencia GroupDocs.Watermark? ¡Tenemos opciones! Elija entre las licencias en función de muchas opciones. Número de desarrolladores de tu equipo. Ubicaciones de implementación, como oficinas individuales o lugares de trabajo remotos. ¿La distribución para clientes finales necesita compartir el SDK/API con los clientes? Como alternativa, existe una licencia de uso mensual: paga solo por lo que usas con los planes con contador. Sumérgete más y encuentra el [precio] perfecto (https://purchase.groupdocs.com/pricing/watermark/net/)."
+      answer: "¿Necesitas una licencia GroupDocs.Watermark? ¡Tenemos opciones! Elija entre las licencias en función de muchas opciones. Número de desarrolladores de tu equipo. Ubicaciones de implementación, como oficinas individuales o lugares de trabajo remotos. ¿La distribución para clientes finales necesita compartir el SDK/API con los clientes? Como alternativa, existe una licencia de uso mensual: paga solo por lo que usas con los planes con contador. Sumérgete más y encuentra el [precio perfecto](https://purchase.groupdocs.com/pricing/watermark/net/)."
 
 ############################# Cloud Links ###############################
 cloud_links:

@@ -2,7 +2,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-07T12:13:19
+date:  2024-05-08T17:25:20
 draft: false
 lang: fa
 format: Doc
