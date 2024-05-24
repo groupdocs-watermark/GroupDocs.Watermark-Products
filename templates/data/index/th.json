@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet ดาวน์โหลด",
-        "description": "{{ProdShortName}} สำหรับ .NET เป็นไลบรารียอดนิยมที่มีการดาวน์โหลดมากกว่า 800,000 รายการบน NuGet"
+        "description": "{{ProdShortName}} สำหรับ .NET เป็นไลบรารียอดนิยมที่มีการดาวน์โหลดมากกว่า 500,000 รายการบน NuGet"
       },
       "item_3": {
         "title": "ดาวน์โหลด Maven",

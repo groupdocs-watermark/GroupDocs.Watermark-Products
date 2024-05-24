@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Підтримувані формати файлів"
   description: |
-    GroupDocs.Watermark for Java дозволяє обробляти широкий спектр форматів файлів. [Дивіться повний список](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java дозволяє обробляти широкий спектр форматів файлів. [Дивіться повний список](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Використовуйте GroupDocs.Watermark for Java для підвищення безпеки документів, додаючи водяні знаки зображення. Дізнайтеся більше: [Водяні знаки зображення](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="Як захистити файл водяним знаком зображення.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Завантажте вихідний документ у Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java дає вам змогу керувати наявними водяними знаками в документах. Знайдіть конкретні водяні знаки та [змініть їх властивості](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Пошук і модифікація водяних знаків.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Завантажити вихідний документ
         Watermarker watermarker = new Watermarker("document.pdf");
 

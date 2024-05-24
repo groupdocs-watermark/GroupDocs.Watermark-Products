@@ -51,7 +51,7 @@ code:
   title: "使用 TypeScript 向 PDF 添加水印"
   more: "更多例子"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "支持的文件格式"
   description: |
-    GroupDocs.Watermark for Node.js via Java 使您能够处理各种文件格式。[浏览完整列表](https://docs.groupdocs.com/watermark/net/supported-document-formats/)。
+    GroupDocs.Watermark for Node.js via Java 使您能够处理各种文件格式。[浏览完整列表](https://docs.groupdocs.com/watermark/java/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"

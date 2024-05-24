@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "支持的文件格式"
   description: |
-    GroupDocs.Watermark for Java 支持处理各种文件格式。[查看完整列表](https://docs.groupdocs.com/watermark/net/supported-document-formats/)。
+    GroupDocs.Watermark for Java 支持处理各种文件格式。[查看完整列表](https://docs.groupdocs.com/watermark/java/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         利用 GroupDocs.Watermark for Java 通过添加图像水印来增强文档安全性。了解更多：[图片水印](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/)。
         {{< landing/code title="如何通过图像水印保护文件。">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // 将源文档加载到 Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java 使您能够管理文档中的现有水印。找到特定的水印并 [修改其属性](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/)。
         {{< landing/code title="水印搜索和修改。">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // 加载源文档
         Watermarker watermarker = new Watermarker("document.pdf");
 

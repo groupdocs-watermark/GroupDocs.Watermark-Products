@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Format file yang didukung"
   description: |
-    GroupDocs.Watermark for Java memungkinkan pemrosesan berbagai format file. [Lihat daftar lengkapnya](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java memungkinkan pemrosesan berbagai format file. [Lihat daftar lengkapnya](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Manfaatkan GroupDocs.Watermark for Java untuk meningkatkan keamanan dokumen dengan menambahkan tanda air gambar. Pelajari lebih lanjut: [Tanda air gambar](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="Cara melindungi file dengan tanda air gambar.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Muat dokumen sumber ke Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java memberdayakan Anda untuk mengelola tanda air yang ada di dalam dokumen. Temukan tanda air tertentu dan [ubah propertinya](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Pencarian & modifikasi tanda air.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Muat dokumen sumber
         Watermarker watermarker = new Watermarker("document.pdf");
 

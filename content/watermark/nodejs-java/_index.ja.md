@@ -51,7 +51,7 @@ code:
   title: "タイプスクリプトで PDF にウォーターマークを追加"
   more: "その他の例"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "対応ファイル形式"
   description: |
-    GroupDocs.Watermark for Node.js via Java を使用すると、さまざまなファイル形式を処理できます。[全リストを見る](https://docs.groupdocs.com/watermark/net/supported-document-formats/)。
+    GroupDocs.Watermark for Node.js via Java を使用すると、さまざまなファイル形式を処理できます。[全リストを見る](https://docs.groupdocs.com/watermark/java/supported-document-formats/)。
   groups:
     # group loop
     - color: "green"

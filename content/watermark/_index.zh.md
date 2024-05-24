@@ -42,7 +42,7 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
+                    .NET Framework 4.5 or higher <br> .NET Core 3.0 or higher <br> .NET 5.0 or higher
       
           # features loop
           - rows: "1"
@@ -52,7 +52,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio <br> JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
           # features loop
           - rows: "1"
@@ -243,9 +243,9 @@ metrics:
       content: "该库能够处理 50 多种最流行的文件格式。"
 
     # items loop
-    - number: "800k"
+    - number: "500k"
       title: "NuGet 次下载"
-      content: ".NET 的 GroupDocs.Watermark 是一个受欢迎的库，在 NuGet 上的下载量超过80万次。"
+      content: ".NET 的 GroupDocs.Watermark 是一个受欢迎的库，在 NuGet 上的下载量超过50万次。"
 
     # items loop
     - number: "15k"

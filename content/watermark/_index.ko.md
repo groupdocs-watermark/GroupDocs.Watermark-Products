@@ -42,7 +42,7 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
+                    .NET Framework 4.5 or higher <br> .NET Core 3.0 or higher <br> .NET 5.0 or higher
       
           # features loop
           - rows: "1"
@@ -52,7 +52,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio <br> JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
           # features loop
           - rows: "1"
@@ -243,9 +243,9 @@ metrics:
       content: "라이브러리는 가장 널리 사용되는 50가지 이상의 파일 형식을 처리할 수 있습니다."
 
     # items loop
-    - number: "800k"
+    - number: "500k"
       title: "NuGet 개 다운로드"
-      content: ".NET 용 GroupDocs.Watermark 은 NuGet 에서 80만 회 이상 다운로드된 인기 라이브러리입니다."
+      content: ".NET 용 GroupDocs.Watermark 은 NuGet 에서 50만 회 이상 다운로드된 인기 라이브러리입니다."
 
     # items loop
     - number: "15k"

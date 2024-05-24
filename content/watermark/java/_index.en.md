@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Watermark for Java enables processing of a wide range of file formats. [See the complete list](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java enables processing of a wide range of file formats. [See the complete list](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Utilize GroupDocs.Watermark for Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="How to protect file by image watermark.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Load source document to Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Watermarks search & modification.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Load source document
         Watermarker watermarker = new Watermarker("document.pdf");
 

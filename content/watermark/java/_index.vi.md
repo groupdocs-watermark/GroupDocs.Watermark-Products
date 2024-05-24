@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Watermark for Java cho phép xử lý một loạt các định dạng tệp. [Xem danh sách đầy đủ](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java cho phép xử lý một loạt các định dạng tệp. [Xem danh sách đầy đủ](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Sử dụng GroupDocs.Watermark for Java để tăng cường bảo mật tài liệu bằng cách thêm hình mờ hình ảnh. Tìm hiểu thêm: [Hình mờ hình ảnh](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="Cách bảo vệ tệp bằng hình mờ hình ảnh.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Tải tài liệu nguồn vào Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java cho phép bạn quản lý hình mờ hiện có trong tài liệu. Xác định vị trí hình mờ cụ thể và [sửa đổi thuộc tính của chúng](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Tìm kiếm và sửa đổi hình mờ.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Tải tài liệu nguồn
         Watermarker watermarker = new Watermarker("document.pdf");
 

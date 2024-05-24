@@ -51,7 +51,7 @@ code:
   title: "Добавьте водяной знак в PDF с помощью TypeScript"
   more: "Больше примеров"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "Поддерживаемые форматы файлов"
   description: |
-    GroupDocs.Watermark for Node.js via Java позволяет обрабатывать файлы самых разных форматов. [Ознакомьтесь с полным списком](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java позволяет обрабатывать файлы самых разных форматов. [Ознакомьтесь с полным списком](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

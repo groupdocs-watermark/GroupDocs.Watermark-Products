@@ -42,7 +42,7 @@ supported_platforms:
           # features loop
           - rows: "4"
             content: |
-                    .NET Framework 4.6.2 or higher <br> .NET Core 2.0 or higher <br> .NET 6.0 or higher
+                    .NET Framework 4.5 or higher <br> .NET Core 3.0 or higher <br> .NET 5.0 or higher
       
           # features loop
           - rows: "1"
@@ -52,7 +52,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio <br> JetBrains Rider
+                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
           # features loop
           - rows: "1"
@@ -243,9 +243,9 @@ metrics:
       content: "La libreria è in grado di elaborare più di 50 dei formati di file più diffusi."
 
     # items loop
-    - number: "800k"
+    - number: "500k"
       title: "NuGet download"
-      content: "GroupDocs.Watermark for .NET è una libreria popolare con oltre 800.000 download su NuGet."
+      content: "GroupDocs.Watermark for .NET è una libreria popolare con oltre 500.000 download su NuGet."
 
     # items loop
     - number: "15k"

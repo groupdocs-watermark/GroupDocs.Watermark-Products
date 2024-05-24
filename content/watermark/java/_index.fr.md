@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Formats de fichiers pris en charge"
   description: |
-    GroupDocs.Watermark for Java permet de traiter un large éventail de formats de fichiers. [Voir la liste complète](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java permet de traiter un large éventail de formats de fichiers. [Voir la liste complète](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Utilisez GroupDocs.Watermark for Java pour améliorer la sécurité des documents en ajoutant des filigranes d'image. Pour en savoir plus : [Filigranes d'image](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="Comment protéger un fichier par filigrane d'image.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Charger le document source dans Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java vous permet de gérer les filigranes existants dans les documents. Localisez des filigranes spécifiques et [modifiez leurs propriétés](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Recherche et modification de filigranes.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Charger le document source
         Watermarker watermarker = new Watermarker("document.pdf");
 

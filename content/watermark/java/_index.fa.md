@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Watermark for Java پردازش طیف گسترده ای از فرمت های فایل را امکان پذیر می کند. [فهرست کامل را ببینید](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java پردازش طیف گسترده ای از فرمت های فایل را امکان پذیر می کند. [فهرست کامل را ببینید](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         از GroupDocs.Watermark for Java برای افزایش امنیت سند با افزودن واترمارک های تصویر استفاده کنید. بیشتر بدانید: [واترمارک های تصویر](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="نحوه محافظت از فایل با علامت تصویر.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // سند منبع را به Watermarker بارگیری کنید
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java شما را قادر می سازد تا علامت های موجود در اسناد را مدیریت کنید. علامت های خاص را پیدا کنید و [خواص آنها را تغییر دهید](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="جستجوی و اصلاح واترمارک ها.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // سند منبع را بارگیری کنید
         Watermarker watermarker = new Watermarker("document.pdf");
 

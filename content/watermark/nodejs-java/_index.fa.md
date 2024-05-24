@@ -51,7 +51,7 @@ code:
   title: "اضافه کردن واترمارک به PDF با TypeScript"
   more: "نمونه های بیشتر"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "فرمت های فایل پشتیبانی شده"
   description: |
-    GroupDocs.Watermark for Node.js via Java شما را قادر می سازد تا طیف متنوعی از فرمت های فایل را پردازش کنید. [لیست کامل را بررسی کنید](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java شما را قادر می سازد تا طیف متنوعی از فرمت های فایل را پردازش کنید. [لیست کامل را بررسی کنید](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

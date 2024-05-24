@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet 次下载",
-        "description": ".NET 的 {{ProdShortName}} 是一个受欢迎的库，在 NuGet 上的下载量超过80万次。"
+        "description": ".NET 的 {{ProdShortName}} 是一个受欢迎的库，在 NuGet 上的下载量超过50万次。"
       },
       "item_3": {
         "title": "Maven 下载",

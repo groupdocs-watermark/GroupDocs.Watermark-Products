@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "{{ProdShortName}} for .NET is a popular library with over 800,000 downloads on NuGet."
+        "description": "{{ProdShortName}} for .NET is a popular library with over 500,000 downloads on NuGet."
       },
       "item_3": {
         "title": "Maven downloads",

@@ -51,7 +51,7 @@ code:
   title: "Fügen Sie mit TypeScript ein Wasserzeichen zu PDF hinzu"
   more: "Mehr Beispiele"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "Unterstützte Dateiformate"
   description: |
-    GroupDocs.Watermark for Node.js via Java ermöglicht es Ihnen, eine Vielzahl von Dateiformaten zu verarbeiten. [Erkunden Sie die vollständige Liste](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java ermöglicht es Ihnen, eine Vielzahl von Dateiformaten zu verarbeiten. [Erkunden Sie die vollständige Liste](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet ダウンロード",
-        "description": ".NET の {{ProdShortName}} は NuGet で80万回以上ダウンロードされている人気のライブラリです。"
+        "description": ".NET の {{ProdShortName}} は NuGet で50万回以上ダウンロードされている人気のライブラリです。"
       },
       "item_3": {
         "title": "Maven のダウンロード",

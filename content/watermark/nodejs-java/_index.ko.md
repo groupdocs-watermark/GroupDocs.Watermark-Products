@@ -51,7 +51,7 @@ code:
   title: "타입스크립트로 PDF 에 워터마크 추가"
   more: "더 많은 예시"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "지원되는 파일 형식"
   description: |
-    GroupDocs.Watermark for Node.js via Java 를 사용하면 다양한 파일 형식을 처리할 수 있습니다.[전체 목록 보기](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java 를 사용하면 다양한 파일 형식을 처리할 수 있습니다.[전체 목록 보기](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

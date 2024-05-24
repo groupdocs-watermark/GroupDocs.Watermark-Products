@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Unterstützte Dateiformate"
   description: |
-    GroupDocs.Watermark for Java ermöglicht die Verarbeitung einer Vielzahl von Dateiformaten. [Vollständige Liste ansehen](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java ermöglicht die Verarbeitung einer Vielzahl von Dateiformaten. [Vollständige Liste ansehen](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Verwenden Sie GroupDocs.Watermark for Java, um die Dokumentensicherheit zu erhöhen, indem Sie Bildwasserzeichen hinzufügen. Weitere Informationen: [Bild-Wasserzeichen](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="So schützen Sie eine Datei mit einem Bildwasserzeichen.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Quelldokument in Watermarker laden
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java ermöglicht es Ihnen, vorhandene Wasserzeichen in Dokumenten zu verwalten. Suchen Sie nach bestimmten Wasserzeichen und [ändern Sie deren Eigenschaften](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Suche und Änderung von Wasserzeichen.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Quelldokument laden
         Watermarker watermarker = new Watermarker("document.pdf");
 

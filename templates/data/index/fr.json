@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet téléchargements",
-        "description": "{{ProdShortName}} pour .NET est une bibliothèque populaire qui compte plus de 800 000 téléchargements sur NuGet."
+        "description": "{{ProdShortName}} pour .NET est une bibliothèque populaire qui compte plus de 500 000 téléchargements sur NuGet."
       },
       "item_3": {
         "title": "Téléchargements de Maven",

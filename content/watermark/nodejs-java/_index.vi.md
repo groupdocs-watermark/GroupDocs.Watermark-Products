@@ -51,7 +51,7 @@ code:
   title: "Thêm hình mờ vào PDF với TypeScript"
   more: "Thêm ví dụ"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "Định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Watermark for Node.js via Java cho phép bạn xử lý một loạt các định dạng tập tin đa dạng. [Khám phá danh sách đầy đủ](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Node.js via Java cho phép bạn xử lý một loạt các định dạng tập tin đa dạng. [Khám phá danh sách đầy đủ](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

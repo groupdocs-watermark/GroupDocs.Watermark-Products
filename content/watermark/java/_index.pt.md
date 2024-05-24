@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "Formatos de arquivo suportados"
   description: |
-    GroupDocs.Watermark for Java permite o processamento de uma ampla variedade de formatos de arquivo. [Veja a lista completa](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    GroupDocs.Watermark for Java permite o processamento de uma ampla variedade de formatos de arquivo. [Veja a lista completa](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         Utilize GroupDocs.Watermark for Java para aprimorar a segurança do documento adicionando marcas d'água de imagens. Saiba mais: [Marcas d'água da imagem](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="Como proteger o arquivo pela marca d'água da imagem.">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // Carregar documento de origem no Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         O GroupDocs.Watermark for Java permite que você gerencie marcas d'água existentes em documentos. Localize marcas d'água específicas e [modifique suas propriedades](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/).
         {{< landing/code title="Pesquisa e modificação de marcas d'água.">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // Carregar documento de origem
         Watermarker watermarker = new Watermarker("document.pdf");
 

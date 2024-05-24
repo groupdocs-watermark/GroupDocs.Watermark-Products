@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet загрузок",
-        "description": "{{ProdShortName}} for .NET — популярная библиотека, которую загрузили более 800 000 раз на NuGet."
+        "description": "{{ProdShortName}} for .NET — популярная библиотека, которую загрузили более 500 000 раз на NuGet."
       },
       "item_3": {
         "title": "Загрузки Maven",

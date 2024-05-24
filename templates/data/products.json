@@ -51,7 +51,7 @@
       "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/java/",
       "docsUrl": "https://docs.groupdocs.com/watermark/java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/java/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/",
       "sample2Url": "https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/",
 
@@ -75,7 +75,7 @@
       "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.watermark",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/nodejs-java/",
       "docsUrl": "https://docs.groupdocs.com/watermark/nodejs-java/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/java/supported-document-formats/",
       "sample1Url": "https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/",
       "sample2Url": "https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/",
 

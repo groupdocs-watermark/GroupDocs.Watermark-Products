@@ -134,7 +134,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Watermark for Java ช่วยให้สามารถประมวลผลรูปแบบไฟล์ได้หลากหลาย[ดูรายการทั้งหมด](https://docs.groupdocs.com/watermark/net/supported-document-formats/)
+    GroupDocs.Watermark for Java ช่วยให้สามารถประมวลผลรูปแบบไฟล์ได้หลากหลาย[ดูรายการทั้งหมด](https://docs.groupdocs.com/watermark/java/supported-document-formats/)
   groups:
     # group loop
     - color: "green"
@@ -236,7 +236,7 @@ code_samples:
       content: |
         ใช้ GroupDocs.Watermark for Java เพื่อเพิ่มความปลอดภัยของเอกสารโดยการเพิ่มลายน้ำรูปภาพเรียนรู้เพิ่มเติม: [ลายน้ำรูปภาพ](https://docs.groupdocs.com/watermark/java/adding-image-watermarks/#add-image-watermark-from-local-file/)
         {{< landing/code title="วิธีป้องกันไฟล์ด้วยลายน้ำรูปภาพ">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // โหลดเอกสารต้นฉบับไปยัง Watermarker
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -257,7 +257,7 @@ code_samples:
       content: |
         GroupDocs.Watermark for Java ช่วยให้คุณจัดการลายน้ำที่มีอยู่ภายในเอกสารค้นหาลายน้ำเฉพาะและ [แก้ไขคุณสมบัติ](https://docs.groupdocs.com/watermark/java/modifying-found-watermark-properties/#replacing-text/)
         {{< landing/code title="การค้นหาและแก้ไขลายน้ำ">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // โหลดเอกสารต้นทาง
         Watermarker watermarker = new Watermarker("document.pdf");
 

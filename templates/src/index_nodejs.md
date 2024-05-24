@@ -53,7 +53,7 @@ code:
   title: "<% "{index-content-nodejs-java.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.nodejs-java.more_link" %>"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 

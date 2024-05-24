@@ -84,7 +84,7 @@
       },
       "item_2": {
         "title": "NuGet 개 다운로드",
-        "description": ".NET 용 {{ProdShortName}} 은 NuGet 에서 80만 회 이상 다운로드된 인기 라이브러리입니다."
+        "description": ".NET 용 {{ProdShortName}} 은 NuGet 에서 50만 회 이상 다운로드된 인기 라이브러리입니다."
       },
       "item_3": {
         "title": "메이븐 다운로드",

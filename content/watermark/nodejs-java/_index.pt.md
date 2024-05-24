@@ -51,7 +51,7 @@ code:
   title: "Adicione marca d'água a PDF com TypeScript"
   more: "Mais exemplos"
   more_link: "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
 
@@ -138,7 +138,7 @@ formats:
   enable: true
   title: "Formatos de arquivo suportados"
   description: |
-    O GroupDocs.Watermark for Node.js via Java permite que você processe uma grande variedade de formatos de arquivo. [Explore a lista completa](https://docs.groupdocs.com/watermark/net/supported-document-formats/).
+    O GroupDocs.Watermark for Node.js via Java permite que você processe uma grande variedade de formatos de arquivo. [Explore a lista completa](https://docs.groupdocs.com/watermark/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"

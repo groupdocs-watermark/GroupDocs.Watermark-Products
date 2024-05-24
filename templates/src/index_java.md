@@ -238,7 +238,7 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
         Watermarker watermarker = new Watermarker("document.pdf");
         
@@ -259,7 +259,7 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
         Watermarker watermarker = new Watermarker("document.pdf");
 
