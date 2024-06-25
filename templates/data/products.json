@@ -13,13 +13,13 @@
     "textSearchCriteria": "SearchCriteria",
     "net": {
       "environmentName": ".NET",
+      "environmentNameShort": ".NET",
       "productCode": "net",
       "productFullName": "GroupDocs.Watermark for .NET",
 
       "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "developmentEnvironment": "Microsoft Visual Studio, Xamarin, MonoDevelop",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
 
       "productUrl": "https://products.groupdocs.com/watermark/net/",
@@ -33,17 +33,16 @@
 
       "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/watermark/net/"
-
     },
     "java": {
       "environmentName": "Java",
+      "environmentNameShort": "Java",
       "productCode": "java",
       "productFullName": "GroupDocs.Watermark for Java",
 
       "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "developmentEnvironment": "NetBeans, Intellij IDEA, Eclipse, etc.",
       "runtime": "Java runtime: J2SE 6.0 and above",
 
       "productUrl": "https://products.groupdocs.com/watermark/java/",
@@ -57,17 +56,16 @@
 
       "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/watermark/java/"
-
     },
     "nodejs-java": {
       "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
       "productCode": "nodejs-java",
       "productFullName": "GroupDocs.Watermark for Node.js via Java",
 
       "programmingLanguage": "JavaScript",
       "srcFileExt": ".js",
       "syntax": "javascript",
-      "developmentEnvironment": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
       "runtime": "Node.js",
 
       "productUrl": "https://products.groupdocs.com/watermark/nodejs-java/",
@@ -81,7 +79,29 @@
 
       "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java/",
       "release_downloads": "https://releases.groupdocs.com/watermark/nodejs-java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productFullName": "GroupDocs.Watermark for Python via .NET",
 
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python",
+
+      "productUrl": "https://products.groupdocs.com/watermark/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-watermark-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/watermark/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/python-net/adding-image-watermarks/#add-image-watermark-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/python-net/modifying-found-watermark-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/watermark/python-net/"
     }
   }
 }

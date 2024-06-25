@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\index\\index_nodejs.yml" %>
+<% configRef "..\\configs\\index\\index_python.yml" %>
 <% include "..\\data\\platform_data.md" %>
 ---
 ############################# Static ############################
@@ -9,8 +9,8 @@ draft: false
 lang: <% lower ( get "lang") %>
 product: "Watermark"
 product_tag: "watermark"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -29,17 +29,17 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "<% "{index-content-nodejs-java.head_title}" %>"
-head_description: "<% "{index-content-nodejs-java.head_description}" %>"
+head_title: "<% "{index-content-python-net.head_title}" %>"
+head_description: "<% "{index-content-python-net.head_description}" %>"
 
 ############################# Header ############################
-title: "<% "{index-content-nodejs-java.title}" %>"
-description: "<% "{index-content-nodejs-java.description}" %>"
+title: "<% "{index-content-python-net.title}" %>"
+description: "<% "{index-content-python-net.description}" %>"
 words:
   for: "<% "{index-content.words_for}" %>"
 
 actions:
-  main: "<% "{index-content-nodejs-java.actions_main}" %>"
+  main: "<% "{index-content-python-net.actions_main}" %>"
   main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions.alt}" %>"
   alt_link: "<% get "PricesUrl" %>"
@@ -50,12 +50,12 @@ release:
   title: "<% "{index-content.release_title}" %>"
   notes: "<% "{index-content.release_notes}" %>"
   downloads: "<% "{index-content.release_downloads}" %>"
-  link: "<% "{products.nodejs-java.release_downloads}" %>"
+  link: "<% "{products.python-net.release_downloads}" %>"
 
 code:
-  title: "<% "{index-content-nodejs-java.code_title}" %>"
+  title: "<% "{index-content-python-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
-  more_link: "<% dict "products.nodejs-java.more_link" %>"
+  more_link: "<% dict "products.python-net.more_link" %>"
   install: "npm i @groupdocs/groupdocs.watermark"
   content: |
     ```javascript {style=abap}
@@ -80,29 +80,29 @@ code:
 overview:
   enable: true
   title: "<% "{index-content.overview_title}" %>"
-  description: "<% "{index-content-nodejs-java.overview_description}" %>"
+  description: "<% "{index-content-python-net.overview_description}" %>"
   features:
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_1.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_1.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_1.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_1.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_2.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_2.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_2.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_2.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_3.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_3.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_3.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_3.description}" %>"
 
     # feature loop
-    - title: "<% "{index-content-nodejs-java.overview_feature_4.title}" %>"
-      content: "<% "{index-content-nodejs-java.overview_feature_4.description}" %>"
+    - title: "<% "{index-content-python-net.overview_feature_4.title}" %>"
+      content: "<% "{index-content-python-net.overview_feature_4.description}" %>"
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "<% "{index-content.platforms.title}" %>"
-  description: "<% "{index-content-nodejs-java.platforms_description}" %>"
+  description: "<% "{index-content-python-net.platforms_description}" %>"
   items:
     # platform loop
     - title: "Windows"
@@ -143,7 +143,7 @@ formats:
   enable: true
   title: "<% "{index-content.formats_title}" %>"
   description: |
-    <% "{index-content-nodejs-java.formats_description}" %>
+    <% "{index-content-python-net.formats_description}" %>
   groups:
     # group loop
     - color: "green"
@@ -170,80 +170,80 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "<% "{index-content-nodejs-java.features.title}" %>"
-  description: "<% "{index-content-nodejs-java.features.description}" %>"
+  title: "<% "{index-content-python-net.features.title}" %>"
+  description: "<% "{index-content-python-net.features.description}" %>"
 
   items:
     # feature loop
     - icon: "watermark_add"
-      title: "<% "{index-content-nodejs-java.features.feature_1.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_1.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_1.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_1.content}" %>"
 
     # feature loop
     - icon: "watermark_style"
-      title: "<% "{index-content-nodejs-java.features.feature_2.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_2.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_2.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_2.content}" %>"
 
     # feature loop
     - icon: "hidden_print"
-      title: "<% "{index-content-nodejs-java.features.feature_3.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_3.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_3.content}" %>"
 
     # feature loop
     - icon: "image_only"
-      title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_4.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_4.content}" %>"
 
     # feature loop
     - icon: "image_frame"
-      title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_5.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_5.content}" %>"
 
     # feature loop
     - icon: "attachments"
-      title: "<% "{index-content-nodejs-java.features.feature_6.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_6.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_6.content}" %>"
 
     # feature loop
     - icon: "pdf_objects"
-      title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_7.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_7.content}" %>"
 
     # feature loop
     - icon: "doc_background"
-      title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_8.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_8.content}" %>"
 
     # feature loop
     - icon: "unreadable_characters"
-      title: "<% "{index-content-nodejs-java.features.feature_9.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_9.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_9.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_9.content}" %>"
 
     # feature loop
     - icon: "watermark_text_search"
-      title: "<% "{index-content-nodejs-java.features.feature_10.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_10.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_10.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_10.content}" %>"
 
     # feature loop
     - icon: "watermark_image_search"
-      title: "<% "{index-content-nodejs-java.features.feature_11.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_11.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_11.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_11.content}" %>"
 
     # feature loop
     - icon: "document_info"
-      title: "<% "{index-content-nodejs-java.features.feature_12.title}" %>"
-      content: "<% "{index-content-nodejs-java.features.feature_12.content}" %>"
+      title: "<% "{index-content-python-net.features.feature_12.title}" %>"
+      content: "<% "{index-content-python-net.features.feature_12.content}" %>"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.title}" %>"
-  description: "<% "{index-content-nodejs-java.code_samples_description}" %>"
+  description: "<% "{index-content-python-net.code_samples_description}" %>"
   items:
     # code sample loop
-    - title: "<% "{index-content-nodejs-java.code_title_sample_1}" %>"
+    - title: "<% "{index-content-python-net.code_title_sample_1}" %>"
       content: |
-        <% "{index-content-nodejs-java.code_samples_sample_1_content}" %>
+        <% "{index-content-python-net.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
@@ -262,9 +262,9 @@ code_samples:
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "<% "{index-content-nodejs-java.code_title_sample_2}" %>"
+    - title: "<% "{index-content-python-net.code_title_sample_2}" %>"
       content: |
-        <% "{index-content-nodejs-java.code_samples_sample_2_content}" %>
+        <% "{index-content-python-net.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>

@@ -13,7 +13,6 @@
 <% set "ProdFullName" (dict "products.{product}.productFullName") %>
 <% set "ProgLang" (dict "products.{product}.programmingLanguage") %>
 <% set "SrcFileExt" (dict "products.{product}.srcFileExt") %>
-<% set "DevelopmentEnvironment" (dict "products.{product}.developmentEnvironment") %>
 <% set "Runtime" (dict "products.{product}.runtime") %>
 <% set "ProductUrl" (dict "products.{product}.productUrl") %>
 <% set "PackageStoreName" (dict "products.{product}.packageStoreName") %>

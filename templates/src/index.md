@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\index\\index.yml" %>
+﻿<% configRef "..\\configs\\index\\index.yml" %>
 <% include "..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
@@ -118,6 +118,34 @@ supported_platforms:
             content: |
                     50+ file formats
 
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Watermark Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/watermark/python-net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -223,6 +251,31 @@ code_samples:
                         // <% "{index-content.code_samples.sample_index.comment_4}" %>
                         watermarker.add(watermark);
                         watermarker.save("result.docx");                        
+
+                    </code>
+
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        def run():
+
+                            # <% "{index-content.code_samples.sample_index.comment_1}" %>
+                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
+
+                                # <% "{index-content.code_samples.sample_index.comment_2}" %>
+                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
+
+                                # <% "{index-content.code_samples.sample_index.comment_3}" %>
+                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
+
+                                # <% "{index-content.code_samples.sample_index.comment_4}" %>
+                                watermarker.add(watermark)
+                                watermarker.save("result.docx")
 
                     </code>
 
