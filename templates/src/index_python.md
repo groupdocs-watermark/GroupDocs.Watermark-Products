@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\index\\index_python.yml" %>
+﻿<% configRef "..\\configs\\index\\index_python.yml" %>
 <% include "..\\data\\platform_data.md" %>
 ---
 ############################# Static ############################
@@ -56,24 +56,32 @@ code:
   title: "<% "{index-content-python-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.python-net.more_link" %>"
-  install: "npm i @groupdocs/groupdocs.watermark"
+  install: "pip install groupdocs-watermark-net"
   content: |
-    ```javascript {style=abap}
+    ```python {style=abap}
 
-    // <% "{index-content.code_comment_1}" %>
-    let loadOptions = new PdfLoadOptions();
-    let watermarker = 
-        new Watermarker("source.pdf", loadOptions);
+    import groupdocs.watermark as gw
+    import groupdocs.watermark.watermarks as gww
+    import groupdocs.watermark.options.pdf as gwop
+    import groupdocs.watermark.common as gwc
 
-    // <% "{index-content.code_comment_2}" %>
-    let textWatermark = 
-        new TextWatermark("Approved", new Font("Arial", 8));
+    # <% "{index-content.code_comment_1}" %>
+    pdf_lo = gwop.PdfLoadOptions()
+    with gw.Watermarker("source.pdf", pdf_lo) as watermarker:
+        options = gwop.PdfArtifactWatermarkOptions()
 
-    // <% "{index-content.code_comment_3}" %>
-    watermarker.add(textWatermark);
+        # <% "{index-content.code_comment_2}" %>
+        text_watermark = 
+            gww.TextWatermark("Approved", gww.Font("Arial", 8.0))
+        text_watermark.horizontal_alignment = 
+            gwc.HorizontalAlignment.RIGHT
 
-    // <% "{index-content.code_comment_4}" %>
-    watermarker.save("result.pdf");
+        # <% "{index-content.code_comment_3}" %>
+        watermarker.add(text_watermark, options)
+
+        # <% "{index-content.code_comment_4}" %>
+        watermarker.save("result.pdf")
+
     ```
 
 ############################# Overview ############################
@@ -245,20 +253,20 @@ code_samples:
       content: |
         <% "{index-content-python-net.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```javascript {style=abap}
-        // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        let watermarker = new Watermarker("document.pdf");
-        
-        // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        let watermark = new ImageWatermark("watermark.jpg");
+        ```python {style=abap}
 
-        // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
+        # <% "{index-content.code_samples.sample_1.comment_1}" %>
+        with groupdocs.watermark.Watermarker("document.pdf") as watermarker:
 
-        watermark.close();                                                                                               
-        watermarker.close();
+            # <% "{index-content.code_samples.sample_1.comment_2}" %>
+            watermark = groupdocs.watermark.watermarks.ImageWatermark("watermark.jpg")
+            watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+            watermark.vertical_alignment = gwgroupdocs.watermark.common.VerticalAlignment.CENTER
 
+            # <% "{index-content.code_samples.sample_1.comment_3}" %>
+            watermarker.add(watermark)
+            watermarker.save("result.pdf")
+       
         ```
         {{< /landing/code >}}
     # code sample loop
@@ -266,23 +274,22 @@ code_samples:
       content: |
         <% "{index-content-python-net.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```javascript {style=abap}   
-        // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        let watermarker = new Watermarker("document.pdf");
+        ```python {style=abap}
 
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        let searchCriteria = new TextSearchCriteria("test", false);                               
-        let watermarks = watermarker.search(searchCriteria); 
+        # <% "{index-content.code_samples.sample_2.comment_1}" %>
+        with groupdocs.watermark.Watermarker("document.pdf") as watermarker:
 
-        // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        watermarks.forEach((watermark)
-        {  
-            watermark.setText("New Text");
-        }
+            # <% "{index-content.code_samples.sample_2.comment_2}" %>
+            search_criteria = groupdocs.watermark.search.searchcriteria.TextSearchCriteria("annotation", False)
+            watermarks = watermarker.search(search_criteria)
+            
+            # <% "{index-content.code_samples.sample_2.comment_3}" %>
+            for watermark in watermarks:
+                watermark.text = "passed"
 
-        // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        watermarker.Save("document.pdf");
-        watermarker.close();
+            # <% "{index-content.code_samples.sample_2.comment_4}" %>
+            watermarker.save("result.pdf")
+
 
         ```
         {{< /landing/code >}}

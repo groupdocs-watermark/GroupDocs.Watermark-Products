@@ -409,87 +409,87 @@
     "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks]({{Sample2Url}})."
   },
   "index-content-python-net": {
-    "head_title": "{{EnvNameShort}} Watermarking Library | document watermarks",
-    "head_description": "{{EnvNameShort}} solution protect business documents with text and image watermarks. Popular formats like PDF, Word, Excel, PowerPoint are supported.",
-    "title": "Access to watermarking technology in {{EnvName}} solutions",
-    "description": "Protect your intellectual property and prevent unauthorized copying with this {{EnvNameShort}} solution. It allows users to easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images etc.",
-    "actions_main": "Use {{PackageStoreName}} to download for free",
-    "code_title": "Add watermark to PDF with {{ProgLang}}",
-    "overview_description": "{{EnvNameShort}} library for watermarking",
+    "head_title": "{{EnvNameShort}} Watermarking Library | Document Watermarks",
+    "head_description": "{{EnvNameShort}} protects business documents with text and image watermarks. File formats like PDF, Word, Excel, and PowerPoint are supported.",
+    "title": "Access {{EnvName}} Watermarking Technology",
+    "description": "Safeguard your data and prevent unauthorized copying with this {{EnvNameShort}} solution. Easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images, etc.",
+    "actions_main": "{{PackageStoreName}} download for free",
+    "code_title": "Add Watermark to PDF using {{ProgLang}}",
+    "overview_description": "{{EnvNameShort}} Library for Watermarking",
     "overview_feature_1": {
-      "title": "{{EnvNameShort}} File Watermarking",
-      "description": "Protect your business documents with {{ProdFullName}}. Add text, images, diagrams, or email attachments as watermarks to various file formats."
+      "title": "{{EnvNameShort}} Document Watermarking",
+      "description": "Secure your sensitive data with {{ProdFullName}}. Put text or images on various file formats as watermarks."
     },
     "overview_feature_2": {
-      "title": "Customize Watermarks for Your Needs",
-      "description": "{{ProdFullName}} provides extensive customization options for watermarks. Fine-tune text styles (bold, italic, font) and image properties (rotation, etc.) allow to customize documents processing."
+      "title": "Customize Watermarks",
+      "description": "Many customization options are available in {{ProdFullName}}. Set up text styles (bold, italic, font) or image properties like  size or rotation to tune document watermarking."
     },
     "overview_feature_3": {
-      "title": "Comprehensive Format Support",
-      "description": "{{ProdFullName}} seamlessly integrates with a wide range of file formats, including: PDF, MS Office like Word, Excel, PowerPoint, images such as JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. Empower documents processing to achieve business goals."
+      "title": "Popular File Formats Support",
+      "description": "{{ProdFullName}} supports wide range of file formats, including PDF, MS Office docs like Word, Excel, PowerPoint, and images such as JPEG, PNG, GIF, BMP, Visio diagrams, emails, etc. Enhance document processing to meet business goals."
     },
     "overview_feature_4": {
-      "title": "Powerful Watermark Search and Update",
-      "description": "Get and update existing watermarks in watermarked documents. Modify text, style, image content, or remove them entirely. {{ProdFullName}} provides wide range of the watermarks processing."
+      "title": "Watermark Search and Update",
+      "description": "Retrieve and update watermarks which are placed in documents. Modify text style, image content, or remove them entirely. {{ProdFullName}} offers a wide range of watermark processing capabilities."
     },
     "features": {
-      "title": "{{ProdFullName}}: Feature Set",
-      "description": "Empower robust document security through programmatic watermarking. Supports diverse file formats including: PDF, DOCX, XLSX, PPTX, and image formats (PNG, JPG, etc.).",
+      "title": "{{ProdFullName}} features",
+      "description": "Strengthen document security through programmatic watermarking. Process diverse file formats including PDF, DOCX, XLSX, PPTX, and image formats (PNG, JPG, etc.).",
       "feature_1": {
         "title": "Precise Watermarking Control",
-        "content": "Precisely manipulate watermarks by adding or removing them from specific sections, entire documents, or individual attachments and shapes within different file formats."
+        "content": "Precisely manage watermarks by adding or removing them from specific sections, entire documents, or individual attachments and shapes within different file formats."
       },
       "feature_2": {
-        "title": "Customization of Watermark Appearance",
+        "title": "Customize Watermark Appearance",
         "content": "Exert fine-grained control over watermark aesthetics by modifying attributes like color, font, opacity, rotation, and positioning within the document."
       },
       "feature_3": {
         "title": "Print PDF Watermarking",
-        "content": "Deploy a stealthy watermark that remains invisible during regular document viewing but becomes apparent only during the printing process, enhancing document security discreetly."
+        "content": "Add hidden watermarks into regular documents which become visible only during the printing process, enhancing document security discreetly."
       },
       "feature_4": {
         "title": "Specific Image Watermarking",
-        "content": "Watermark specific images within a document using our solution. Choose to embed watermarks in a designated section (e.g., page, slide) or across the entire document."
+        "content": "Watermark specific images within a document using our solution. Embed watermarks in a designated section (e.g., page, slide) or across the entire document."
       },
       "feature_5": {
-        "title": "Multi-Frame Images Watermarking",
-        "content": "Apply watermarks selectively to specific frames within a multi-frame image format, ensuring granular control over watermark placement."
+        "title": "Multi-Layer Image Watermarks",
+        "content": "Add watermarks precisely to specific frames within a multi-frame image format, achieving granular control over watermark placement."
       },
       "feature_6": {
         "title": "Comprehensive Content Protection",
-        "content": "Extend protection to various document elements like attachments within Excel documents and image shapes within Presentations, providing an additional layer of security."
+        "content": "Extend protection to various document elements like attachments within Excel documents and image shapes within presentations, providing an additional layer of security."
       },
       "feature_7": {
-        "title": "Advanced Watermarking in PDF",
-        "content": "Watermark different areas of PDFs, including Bleed Box, Art Box, Crop Box, Trim Box etc."
+        "title": "Advanced PDF Watermarking",
+        "content": "Watermark different areas of PDFs, including Bleed Box, Art Box, Crop Box, Trim Box, etc."
       },
       "feature_8": {
         "title": "Background Image Watermarking",
-        "content": "Manage watermarks within the background images of Spreadsheets and Presentations, offering additional customization options for visual security measures."
+        "content": "Manage watermarks within the background images of spreadsheets and presentations, offering additional customization options for visual security measures."
       },
       "feature_9": {
         "title": "Text Watermark with Unreadable Characters",
-        "content": "Employ unreadable characters within text watermarks embedded in Presentations, bolstering security by making unauthorized watermark extraction significantly more challenging."
+        "content": "Employ unreadable characters within text watermarks embedded in presentations, bolstering security by making unauthorized watermark extraction significantly more challenging."
       },
       "feature_10": {
         "title": "Advanced Watermark Search",
-        "content": "Utilize comprehensive search capabilities to locate watermarks within documents based on specific parameters or by combining various criteria, enabling efficient retrieval and management."
+        "content": "Use comprehensive search features to locate watermarks in documents based on specific parameters or by combining various criteria."
       },
       "feature_11": {
         "title": "Similar Image Watermark Detection",
-        "content": "Find similar watermark images within documents that visually resemble an source image."
+        "content": "Find similar watermark images within documents that visually resemble a source image."
       },
       "feature_12": {
-        "title": "Programmatic Document Information Extraction",
-        "content": "Extract valuable metadata programmatically, including page setup details and other document information for supported file formats."
+        "title": "Analyze Document Information",
+        "content": "Extract essential document data like page setup for further analysis."
       }
     },
-    "platforms_description": "{{ProdFullName}} readily integrates with various operating systems and package managers.",
+    "platforms_description": "{{ProdFullName}} seamlessly integrates with various operating systems and package managers.",
     "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Dive into code examples showcasing common {{ProdFullName}} functionalities",
+    "code_samples_description": "Explore code examples showcasing common {{ProdFullName}} functionalities.",
     "code_title_sample_1": "Watermark a Document with an Image",
-    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).",
+    "code_samples_sample_1_content": "Use {{ProdFullName}} to protect documents by adding image watermarks. [Learn more]({{Sample1Url}}).",
     "code_title_sample_2": "Search and Modify Existing Watermarks",
-    "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks]({{Sample2Url}})."
+    "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks and modify their properties. [Discover how]({{Sample2Url}})."
   }
 }

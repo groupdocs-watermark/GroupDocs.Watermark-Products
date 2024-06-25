@@ -96,9 +96,9 @@
       "packageUrl": "https://pypi.org/project/groupdocs-watermark-net/",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/watermark/python-net/",
       "docsUrl": "https://docs.groupdocs.com/watermark/python-net/",
-      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/python-net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/watermark/python-net/adding-image-watermarks/#add-image-watermark-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/watermark/python-net/modifying-found-watermark-properties/#replacing-text/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/watermark/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/watermark/net/modifing-found-watermark-properties/#replacing-text/",
 
       "more_link": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Python-via-.NET/",
       "release_downloads": "https://releases.groupdocs.com/watermark/python-net/"
