@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-26T07:20:49
+date: 2024-06-26T08:41:24
 draft: false
 
 lang: fa
@@ -249,7 +249,7 @@ code_samples:
     # code sample loop
     - title: "یک سند را با یک تصویر واترمارک کنید"
       content: |
-        از GroupDocs.Watermark for Python via .NET برای محافظت از اسناد با افزودن واترمارک تصویر استفاده کنید. [بیشتر بیاموزید] (https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/).
+        از GroupDocs.Watermark for Python via .NET برای محافظت از اسناد با افزودن واترمارک تصویر استفاده کنید. [بیشتر بیاموزید](https://docs.groupdocs.com/watermark/net/adding-image-watermarks/#add-image-watermark-from-local-file/).
         {{< landing/code title="نحوه محافظت از فایل با علامت تصویر.">}}
         ```python {style=abap}
 
