@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "Hình mờ tài liệu C # Java Node.js | thêm hình mờ",
+    "head_title": "Tài liệu Hình mờ C# Java Node.js Python | thêm hình mờ",
     "head_description": "Thêm hình mờ vào PDF, hình ảnh và tài liệu. Giải pháp đánh dấu hình mờ cho Microsoft Office, PDF, OpenDocument, Hình ảnh, v.v.",
     "title": "Giải pháp hình mờ tài liệu",
     "description_1": "Thêm hình mờ văn bản và hình ảnh cho tài liệu và hình ảnh của bạn.",
@@ -407,5 +407,89 @@
     "code_samples_sample_1_content": "Tận dụng {{ProdFullName}} để tăng cường bảo mật tài liệu bằng cách thêm hình mờ hình ảnh. Tìm hiểu thêm: [Hình mờ hình ảnh]({{Sample1Url}}).",
     "code_title_sample_2": "Tìm kiếm và sửa đổi hình mờ hiện có",
     "code_samples_sample_2_content": "{{ProdFullName}} cho phép bạn quản lý hình mờ tài liệu. Chọn hình mờ, sửa đổi thuộc tính của chúng. Khám phá cách: [Sửa đổi hình mờ]({{Sample2Url}})."
+  },
+  "index-content-python-net": {
+    "head_title": "Thư viện hình chìm mờ {{EnvNameShort}} | Hình mờ tài liệu",
+    "head_description": "{{EnvNameShort}} bảo vệ tài liệu kinh doanh bằng hình mờ văn bản và hình ảnh. Các định dạng tệp như PDF, Word, Excel và PowerPoint đều được hỗ trợ.",
+    "title": "Truy cập công nghệ hình mờ {{EnvName}}",
+    "description": "Bảo vệ dữ liệu của bạn và ngăn chặn việc sao chép trái phép bằng giải pháp {{EnvNameShort}} này. Dễ dàng thêm hình mờ vào tài liệu kinh doanh ở nhiều định dạng khác nhau, bao gồm PDF, Word, Excel, PowerPoint, hình ảnh, v.v.",
+    "actions_main": "{{PackageStoreName}} tải xuống miễn phí",
+    "code_title": "Thêm Hình mờ vào PDF bằng cách sử dụng {{ProgLang}}",
+    "overview_description": "Thư viện {{EnvNameShort}} dành cho hình chìm mờ",
+    "overview_feature_1": {
+      "title": "Hình mờ tài liệu {{EnvNameShort}}",
+      "description": "Bảo mật dữ liệu nhạy cảm của bạn với {{ProdFullName}}. Đặt văn bản hoặc hình ảnh trên các định dạng tệp khác nhau làm hình mờ."
+    },
+    "overview_feature_2": {
+      "title": "Tùy chỉnh hình mờ",
+      "description": "Nhiều tùy chọn tùy chỉnh có sẵn trong {{ProdFullName}}. Thiết lập kiểu văn bản (đậm, in nghiêng, phông chữ) hoặc các thuộc tính hình ảnh như kích thước hoặc xoay để điều chỉnh hình mờ tài liệu."
+    },
+    "overview_feature_3": {
+      "title": "Hỗ trợ các định dạng tệp phổ biến",
+      "description": "{{ProdFullName}} hỗ trợ nhiều định dạng tệp, bao gồm PDF, tài liệu MS Office như Word, Excel, PowerPoint và các hình ảnh như JPEG, PNG, GIF, BMP, sơ đồ Visio, email, v.v. bàn thắng."
+    },
+    "overview_feature_4": {
+      "title": "Tìm kiếm và cập nhật hình mờ",
+      "description": "Truy xuất và cập nhật hình mờ được đặt trong tài liệu. Sửa đổi kiểu văn bản, nội dung hình ảnh hoặc xóa chúng hoàn toàn. {{ProdFullName}} cung cấp nhiều khả năng xử lý hình mờ."
+    },
+    "features": {
+      "title": "Tính năng của {{ProdFullName}}",
+      "description": "Tăng cường bảo mật tài liệu thông qua hình mờ có lập trình. Xử lý các định dạng tệp đa dạng bao gồm PDF, DOCX, XLSX, PPTX và các định dạng hình ảnh (PNG, JPG, v.v.).",
+      "feature_1": {
+        "title": "Kiểm soát hình mờ chính xác",
+        "content": "Quản lý chính xác hình mờ bằng cách thêm hoặc xóa chúng khỏi các phần cụ thể, toàn bộ tài liệu hoặc các tệp đính kèm và hình dạng riêng lẻ trong các định dạng tệp khác nhau."
+      },
+      "feature_2": {
+        "title": "Tùy chỉnh hình mờ",
+        "content": "Thực hiện kiểm soát chi tiết đối với tính thẩm mỹ của hình mờ bằng cách sửa đổi các thuộc tính như màu sắc, phông chữ, độ mờ, xoay và định vị trong tài liệu."
+      },
+      "feature_3": {
+        "title": "In hình mờ PDF",
+        "content": "Thêm hình mờ ẩn vào tài liệu thông thường, hình mờ này chỉ hiển thị trong quá trình in, tăng cường bảo mật tài liệu một cách kín đáo."
+      },
+      "feature_4": {
+        "title": "Hình mờ hình ảnh cụ thể",
+        "content": "Tạo hình mờ cho các hình ảnh cụ thể trong tài liệu bằng giải pháp của chúng tôi. Nhúng hình mờ vào một phần được chỉ định (ví dụ: trang, trang trình bày) hoặc trên toàn bộ tài liệu."
+      },
+      "feature_5": {
+        "title": "Hình mờ hình ảnh nhiều lớp",
+        "content": "Thêm hình mờ chính xác vào các khung cụ thể trong định dạng hình ảnh nhiều khung, đạt được khả năng kiểm soát chi tiết đối với vị trí hình mờ."
+      },
+      "feature_6": {
+        "title": "Bảo vệ nội dung toàn diện",
+        "content": "Mở rộng khả năng bảo vệ cho các thành phần tài liệu khác nhau như tệp đính kèm trong tài liệu Excel và hình ảnh trong bản trình bày, cung cấp thêm lớp bảo mật."
+      },
+      "feature_7": {
+        "title": "Hình mờ PDF nâng cao",
+        "content": "Hình mờ các khu vực khác nhau của tệp PDF, bao gồm Bleed Box, Art Box, Crop Box, Trim Box, v.v."
+      },
+      "feature_8": {
+        "title": "Hình mờ hình nền",
+        "content": "Quản lý hình mờ trong ảnh nền của bảng tính và bản trình bày, cung cấp các tùy chọn tùy chỉnh bổ sung cho các biện pháp bảo mật trực quan."
+      },
+      "feature_9": {
+        "title": "Hình mờ văn bản có ký tự không thể đọc được",
+        "content": "Sử dụng các ký tự không thể đọc được trong hình mờ văn bản được nhúng trong bản trình bày, tăng cường bảo mật bằng cách khiến việc trích xuất hình mờ trái phép trở nên khó khăn hơn đáng kể."
+      },
+      "feature_10": {
+        "title": "Tìm kiếm hình mờ nâng cao",
+        "content": "Sử dụng các tính năng tìm kiếm toàn diện để định vị hình mờ trong tài liệu dựa trên các thông số cụ thể hoặc bằng cách kết hợp nhiều tiêu chí khác nhau."
+      },
+      "feature_11": {
+        "title": "Phát hiện hình mờ hình ảnh tương tự",
+        "content": "Tìm hình ảnh hình mờ tương tự trong tài liệu trông giống với hình ảnh nguồn."
+      },
+      "feature_12": {
+        "title": "Phân tích thông tin tài liệu",
+        "content": "Trích xuất dữ liệu tài liệu cần thiết như thiết lập trang để phân tích thêm."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} tích hợp liền mạch với nhiều hệ điều hành và trình quản lý gói khác nhau.",
+    "formats_description": "{{ProdFullName}} cho phép bạn xử lý nhiều định dạng tệp khác nhau. [Khám phá danh sách đầy đủ]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Khám phá các ví dụ mã giới thiệu các chức năng phổ biến của {{ProdFullName}}.",
+    "code_title_sample_1": "Hình mờ một tài liệu bằng hình ảnh",
+    "code_samples_sample_1_content": "Sử dụng {{ProdFullName}} để bảo vệ tài liệu bằng cách thêm hình mờ vào hình ảnh. [Tìm hiểu thêm]({{Sample1Url}}).",
+    "code_title_sample_2": "Tìm kiếm và sửa đổi hình mờ hiện có",
+    "code_samples_sample_2_content": "{{ProdFullName}} trao quyền cho bạn quản lý hình mờ tài liệu. Chọn hình mờ và sửa đổi thuộc tính của chúng. [Khám phá cách thực hiện]({{Sample2Url}})."
   }
 }

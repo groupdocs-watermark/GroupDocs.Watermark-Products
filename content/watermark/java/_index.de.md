@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-08T17:25:28
+date: 2024-06-26T07:20:48
 draft: false
 
 lang: de
@@ -22,6 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Java Wasserzeichen-Bibliothek | Wasserzeichen zu Dokumenten hinzufügen"

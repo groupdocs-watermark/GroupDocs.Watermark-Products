@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "文档水印 C# Java Node.js | 添加水印",
+    "head_title": "文档水印 C# Java Node.js Python |加水印",
     "head_description": "为 PDF、图像和文档添加水印。Microsoft Office、PDF、OpenDocument、图像等的水印解决方案",
     "title": "文档水印解决方案",
     "description_1": "为您的文档和图像添加文本和图像水印。",
@@ -407,5 +407,89 @@
     "code_samples_sample_1_content": "利用 {{ProdFullName}} 通过添加图像水印来增强文档安全性。了解更多：[图片水印]({{Sample1Url}})。",
     "code_title_sample_2": "搜索和修改现有水印",
     "code_samples_sample_2_content": "{{ProdFullName}} 允许您管理文档水印。选择水印，修改其属性。了解如何做：[修改水印]({{Sample2Url}})。"
+  },
+  "index-content-python-net": {
+    "head_title": "{{EnvNameShort}} 水印库 |文档水印",
+    "head_description": "{{EnvNameShort}} 使用文本和图像水印保护商业文档。支持 PDF、Word、Excel 和 PowerPoint 等文件格式。",
+    "title": "访问 {{EnvName}} 水印技术",
+    "description": "使用此 {{EnvNameShort}} 解决方案保护您的数据并防止未经授权的复制。轻松为各种格式的商业文档添加水印，包括PDF、Word、Excel、PowerPoint、图像等。",
+    "actions_main": "{{PackageStoreName}} 免费下载",
+    "code_title": "使用 {{ProgLang}} 添加水印到 PDF",
+    "overview_description": "用于水印的 {{EnvNameShort}} 库",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} 文档水印",
+      "description": "使用 {{ProdFullName}} 保护您的敏感数据。将文本或图像作为水印放置在各种文件格式上。"
+    },
+    "overview_feature_2": {
+      "title": "自定义水印",
+      "description": "{{ProdFullName}} 中提供了许多自定义选项。设置文本样式（粗体、斜体、字体）或图像属性（例如大小或旋转）以调整文档水印。"
+    },
+    "overview_feature_3": {
+      "title": "流行的文件格式支持",
+      "description": "{{ProdFullName}}支持多种文件格式，包括 PDF、Word、Excel、PowerPoint 等 MS Office 文档以及 JPEG、PNG、GIF、BMP、Visio 图表、电子邮件等图像。增强文档处理以满足业务需求目标。"
+    },
+    "overview_feature_4": {
+      "title": "水印搜索和更新",
+      "description": "检索和更新文档中放置的水印。修改文本样式、图像内容或完全删除它们。 {{ProdFullName}} 提供广泛的水印处理功能。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "通过程序化水印增强文档安全性。处理多种文件格式，包括 PDF、DOCX、XLSX、PPTX 和图像格式（PNG、JPG 等）。",
+      "feature_1": {
+        "title": "精确的水印控制",
+        "content": "通过在不同文件格式的特定部分、整个文档或单个附件和形状中添加或删除水印来精确管理水印。"
+      },
+      "feature_2": {
+        "title": "自定义水印外观",
+        "content": "通过修改文档中的颜色、字体、不透明度、旋转和位置等属性，对水印美观进行细粒度控制。"
+      },
+      "feature_3": {
+        "title": "打印 PDF 水印",
+        "content": "将隐藏水印添加到常规文档中，这些水印仅在打印过程中可见，从而谨慎地增强文档安全性。"
+      },
+      "feature_4": {
+        "title": "特定图像水印",
+        "content": "使用我们的解决方案为文档中的特定图像添加水印。将水印嵌入指定部分（例如页面、幻灯片）或整个文档。"
+      },
+      "feature_5": {
+        "title": "多层图像水印",
+        "content": "将水印精确添加到多帧图像格式中的特定帧，实现对水印放置的精细控制。"
+      },
+      "feature_6": {
+        "title": "全面的内容保护",
+        "content": "将保护范围扩展到各种文档元素，例如 Excel 文档中的附件和演示文稿中的图像形状，从而提供额外的安全层。"
+      },
+      "feature_7": {
+        "title": "高级 PDF 水印",
+        "content": "对PDF的不同区域添加水印，包括出血框、艺术框、裁剪框、裁切框等。"
+      },
+      "feature_8": {
+        "title": "背景图像水印",
+        "content": "管理电子表格和演示文稿背景图像中的水印，为视觉安全措施提供额外的自定义选项。"
+      },
+      "feature_9": {
+        "title": "带有不可读字符的文本水印",
+        "content": "在演示文稿中嵌入的文本水印中使用不可读的字符，通过使未经授权的水印提取更具挑战性来增强安全性。"
+      },
+      "feature_10": {
+        "title": "高级水印搜索",
+        "content": "使用全面的搜索功能根据特定参数或组合各种条件来查找文档中的水印。"
+      },
+      "feature_11": {
+        "title": "相似图像水印检测",
+        "content": "在文档中查找视觉上与源图像相似的相似水印图像。"
+      },
+      "feature_12": {
+        "title": "分析文档信息",
+        "content": "提取页面设置等基本文档数据以进行进一步分析。"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 与各种操作系统和包管理器无缝集成。",
+    "formats_description": "{{ProdFullName}} 使您能够处理各种文件格式。 [探索完整列表]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "探索展示常见 {{ProdFullName}} 功能的代码示例。",
+    "code_title_sample_1": "使用图像为文档添加水印",
+    "code_samples_sample_1_content": "使用 {{ProdFullName}} 通过添加图像水印来保护文档。 [了解更多]({{Sample1Url}})。",
+    "code_title_sample_2": "搜索和修改现有水印",
+    "code_samples_sample_2_content": "{{ProdFullName}} 使您能够管理文档水印。选择水印并修改其属性。 [了解如何]({{Sample2Url}})。"
   }
 }

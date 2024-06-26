@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-08T17:25:29
+date: 2024-06-26T07:20:49
 draft: false
 
 lang: th
@@ -22,6 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js ห้องสมุดลายน้ำ | ลายน้ำเอกสาร"
@@ -138,7 +141,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Watermark for Node.js via Java ช่วยให้คุณประมวลผลรูปแบบไฟล์ที่หลากหลาย[สำรวจรายการเต็ม](https://docs.groupdocs.com/watermark/java/supported-document-formats/)
+    GroupDocs.Watermark for Node.js via Java ช่วยให้คุณประมวลผลรูปแบบไฟล์ที่หลากหลาย [สำรวจรายการเต็ม](https://docs.groupdocs.com/watermark/java/supported-document-formats/)
   groups:
     # group loop
     - color: "green"

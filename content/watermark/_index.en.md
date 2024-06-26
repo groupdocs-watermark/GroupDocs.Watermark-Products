@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-25T14:18:04
+date:  2024-06-26T07:20:48
 draft: false
 
 product: "Watermark"
@@ -52,7 +52,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code <br> Microsoft Visual Code
+                    Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
           # features loop
           - rows: "1"
@@ -122,7 +122,7 @@ supported_platforms:
       color: "yellow"
       tag: "python-net"
       link: "/watermark/python-net/"
-      features_link: "https://docs.groupdocs.com/watermark/python-net/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
       features:
           # features loop
           - rows: "3"
@@ -268,8 +268,8 @@ code_samples:
 
                                 # Set watermark options
                                 watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.commonс.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.commonс.VerticalAlignment.CENTER
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
                                 # Add watermark and save processed file
                                 watermarker.add(watermark)

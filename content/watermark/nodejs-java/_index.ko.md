@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-08T17:25:29
+date: 2024-06-26T07:20:49
 draft: false
 
 lang: ko
@@ -22,6 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Node.js 워터마킹 라이브러리 | 문서 워터마크"

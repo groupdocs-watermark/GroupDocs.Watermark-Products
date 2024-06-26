@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "Filigrana del documento C# Java Node.js | aggiungi filigrana",
+    "head_title": "Documento Filigrana C# Java Node.js Python | aggiungi filigrana",
     "head_description": "Aggiungi filigrana a PDF, immagini e documenti. Soluzione di filigrana per Microsoft Office, PDF, OpenDocument, immagini e così via.",
     "title": "Soluzione Documents Watermark",
     "description_1": "Aggiungi filigrane di testo e immagini per i tuoi documenti e immagini.",
@@ -407,5 +407,89 @@
     "code_samples_sample_1_content": "Sfrutta {{ProdFullName}} per migliorare la sicurezza dei documenti aggiungendo filigrane alle immagini. Per saperne di più: [Filigrane dell'immagine]({{Sample1Url}}).",
     "code_title_sample_2": "Cerca e modifica filigrane esistenti",
     "code_samples_sample_2_content": "{{ProdFullName}} consente di gestire le filigrane dei documenti. Seleziona le filigrane, modifica le loro proprietà. Scopri come: [Modificare le filigrane]({{Sample2Url}})."
+  },
+  "index-content-python-net": {
+    "head_title": "{{EnvNameShort}} Libreria di filigrane | Filigrane dei documenti",
+    "head_description": "{{EnvNameShort}} protegge i documenti aziendali con filigrane di testo e immagini. Sono supportati formati di file come PDF, Word, Excel e PowerPoint.",
+    "title": "Accedi alla tecnologia di filigrana di {{EnvName}}",
+    "description": "Proteggi i tuoi dati e previeni la copia non autorizzata con questa soluzione {{EnvNameShort}}. Aggiungi facilmente filigrane ai documenti aziendali in vari formati, tra cui PDF, Word, Excel, PowerPoint, immagini, ecc.",
+    "actions_main": "Scarica {{PackageStoreName}} gratuitamente",
+    "code_title": "Aggiungi filigrana al PDF utilizzando {{ProgLang}}",
+    "overview_description": "Libreria {{EnvNameShort}} per la filigrana",
+    "overview_feature_1": {
+      "title": "{{EnvNameShort}} Filigrana del documento",
+      "description": "Proteggi i tuoi dati sensibili con {{ProdFullName}}. Inserisci testo o immagini in vari formati di file come filigrane."
+    },
+    "overview_feature_2": {
+      "title": "Personalizza filigrane",
+      "description": "Molte opzioni di personalizzazione sono disponibili in {{ProdFullName}}. Imposta gli stili del testo (grassetto, corsivo, carattere) o le proprietà dell'immagine come dimensioni o rotazione per ottimizzare la filigrana del documento."
+    },
+    "overview_feature_3": {
+      "title": "Supporto dei formati di file più diffusi",
+      "description": "{{ProdFullName}} supporta un'ampia gamma di formati di file, inclusi PDF, documenti MS Office come Word, Excel, PowerPoint e immagini come JPEG, PNG, GIF, BMP, diagrammi Visio, e-mail, ecc. Migliora l'elaborazione dei documenti per soddisfare le esigenze del business obiettivi."
+    },
+    "overview_feature_4": {
+      "title": "Ricerca e aggiornamento filigrana",
+      "description": "Recupera e aggiorna le filigrane inserite nei documenti. Modifica lo stile del testo, il contenuto dell'immagine o rimuovili completamente. {{ProdFullName}} offre un'ampia gamma di funzionalità di elaborazione della filigrana."
+    },
+    "features": {
+      "title": "Funzionalità di {{ProdFullName}}",
+      "description": "Rafforzare la sicurezza dei documenti attraverso la filigrana programmatica. Elabora diversi formati di file tra cui PDF, DOCX, XLSX, PPTX e formati di immagine (PNG, JPG, ecc.).",
+      "feature_1": {
+        "title": "Controllo preciso della filigrana",
+        "content": "Gestisci con precisione le filigrane aggiungendole o rimuovendole da sezioni specifiche, interi documenti o singoli allegati e forme all'interno di diversi formati di file."
+      },
+      "feature_2": {
+        "title": "Personalizza l'aspetto della filigrana",
+        "content": "Esercita un controllo capillare sull'estetica della filigrana modificando attributi come colore, carattere, opacità, rotazione e posizionamento all'interno del documento."
+      },
+      "feature_3": {
+        "title": "Stampa filigrana PDF",
+        "content": "Aggiungi filigrane nascoste ai normali documenti che diventano visibili solo durante il processo di stampa, migliorando la sicurezza dei documenti in modo discreto."
+      },
+      "feature_4": {
+        "title": "Filigrana di immagini specifiche",
+        "content": "Filigrana immagini specifiche all'interno di un documento utilizzando la nostra soluzione. Incorpora filigrane in una sezione designata (ad esempio, pagina, diapositiva) o nell'intero documento."
+      },
+      "feature_5": {
+        "title": "Filigrane di immagini multistrato",
+        "content": "Aggiungi filigrane con precisione a fotogrammi specifici all'interno di un formato immagine multi-fotogramma, ottenendo un controllo granulare sul posizionamento della filigrana."
+      },
+      "feature_6": {
+        "title": "Protezione completa dei contenuti",
+        "content": "Estendi la protezione a vari elementi del documento come allegati all'interno di documenti Excel e forme di immagine all'interno delle presentazioni, fornendo un ulteriore livello di sicurezza."
+      },
+      "feature_7": {
+        "title": "Filigrana PDF avanzata",
+        "content": "Filigrana su diverse aree dei PDF, tra cui Bleed Box, Art Box, Crop Box, Trim Box, ecc."
+      },
+      "feature_8": {
+        "title": "Filigrana dell'immagine di sfondo",
+        "content": "Gestisci le filigrane all'interno delle immagini di sfondo di fogli di calcolo e presentazioni, offrendo opzioni di personalizzazione aggiuntive per le misure di sicurezza visiva."
+      },
+      "feature_9": {
+        "title": "Filigrana di testo con caratteri illeggibili",
+        "content": "Utilizza caratteri illeggibili all'interno delle filigrane di testo incorporate nelle presentazioni, rafforzando la sicurezza rendendo l'estrazione non autorizzata delle filigrane molto più complessa."
+      },
+      "feature_10": {
+        "title": "Ricerca avanzata di filigrane",
+        "content": "Utilizza funzionalità di ricerca complete per individuare le filigrane nei documenti in base a parametri specifici o combinando vari criteri."
+      },
+      "feature_11": {
+        "title": "Rilevamento filigrana immagine simile",
+        "content": "Trova immagini di filigrana simili all'interno di documenti che assomigliano visivamente a un'immagine di origine."
+      },
+      "feature_12": {
+        "title": "Analizzare le informazioni del documento",
+        "content": "Estrai i dati essenziali del documento come l'impostazione della pagina per ulteriori analisi."
+      }
+    },
+    "platforms_description": "{{ProdFullName}} si integra perfettamente con vari sistemi operativi e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} ti consente di elaborare una vasta gamma di formati di file. [Esplora l'elenco completo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esplora esempi di codice che mostrano le funzionalità comuni di {{ProdFullName}}.",
+    "code_title_sample_1": "Filigrana un documento con un'immagine",
+    "code_samples_sample_1_content": "Utilizza {{ProdFullName}} per proteggere i documenti aggiungendo filigrane alle immagini. [Ulteriori informazioni]({{Sample1Url}}).",
+    "code_title_sample_2": "Cerca e modifica filigrane esistenti",
+    "code_samples_sample_2_content": "{{ProdFullName}} ti consente di gestire le filigrane dei documenti. Seleziona filigrane e modifica le loro proprietà. [Scopri come]({{Sample2Url}})."
   }
 }

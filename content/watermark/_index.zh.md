@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-08T17:25:28
+date:  2024-06-26T07:20:48
 draft: false
 
 product: "Watermark"
@@ -10,7 +10,7 @@ product_tag: "watermark"
 lang: zh
 
 ############################# Head ############################
-head_title: "文档水印 C# Java Node.js | 添加水印"
+head_title: "文档水印 C# Java Node.js Python |加水印"
 head_description: "为 PDF、图像和文档添加水印。Microsoft Office、PDF、OpenDocument、图像等的水印解决方案"
 
 ############################# Header ############################
@@ -110,6 +110,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> 任何其他文本编辑器
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Watermark Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/watermark/python-net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -221,6 +249,31 @@ code_samples:
                         // 添加水印并保存处理后的文件
                         watermarker.add(watermark);
                         watermarker.save("result.docx");                        
+
+                    </code>
+
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        def run():
+
+                            # 指定要添加水印的文档
+                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
+
+                                # 创建水印对象
+                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
+
+                                # 设置水印选项
+                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
+
+                                # 添加水印并保存处理后的文件
+                                watermarker.add(watermark)
+                                watermarker.save("result.docx")
 
                     </code>
 

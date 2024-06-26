@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-08T17:25:28
+date:  2024-06-26T07:20:48
 draft: false
 
 product: "Watermark"
@@ -10,7 +10,7 @@ product_tag: "watermark"
 lang: es
 
 ############################# Head ############################
-head_title: "Marca de agua del documento C# Java Node.js | agregar marca de agua"
+head_title: "Documento Marca de agua C# Java Node.js Python | agregar marca de agua"
 head_description: "Añade una marca de agua a PDF, imágenes y documentos. Solución de marcas de agua para Microsoft Office, PDF, OpenDocument, imágenes, etc."
 
 ############################# Header ############################
@@ -110,6 +110,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> Cualquier otro editor de texto
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Watermark Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/watermark/python-net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -221,6 +249,31 @@ code_samples:
                         // Agregue una marca de agua y guarde el archivo procesado
                         watermarker.add(watermark);
                         watermarker.save("result.docx");                        
+
+                    </code>
+
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        def run():
+
+                            # Especifique el documento al que desea añadir una marca de agua
+                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
+
+                                # Crear objeto de marca de agua
+                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
+
+                                # Definir las opciones de marca de agua
+                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
+
+                                # Agregue una marca de agua y guarde el archivo procesado
+                                watermarker.add(watermark)
+                                watermarker.save("result.docx")
 
                     </code>
 

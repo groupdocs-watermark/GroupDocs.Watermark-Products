@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-08T17:25:28
+date:  2024-06-26T07:20:48
 draft: false
 
 product: "Watermark"
@@ -10,7 +10,7 @@ product_tag: "watermark"
 lang: ko
 
 ############################# Head ############################
-head_title: "문서 워터마크 C# Java Node.js | 워터마크 추가"
+head_title: "문서 워터마크 C# Java Node.js Python | 워터 마크를 추가"
 head_description: "PDF, 이미지 및 문서에 워터마크를 추가합니다.Microsoft Office, PDF, OpenDocument, 이미지 등에 대한 워터마킹 솔루션"
 
 ############################# Header ############################
@@ -110,6 +110,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> 기타 모든 텍스트 편집기
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Watermark Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/watermark/python-net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -221,6 +249,31 @@ code_samples:
                         // 워터마크 추가 및 처리된 파일 저장
                         watermarker.add(watermark);
                         watermarker.save("result.docx");                        
+
+                    </code>
+
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        def run():
+
+                            # 워터마킹할 문서를 지정합니다.
+                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
+
+                                # 워터마크 오브젝트 만들기
+                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
+
+                                # 워터마크 옵션 설정
+                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
+
+                                # 워터마크 추가 및 처리된 파일 저장
+                                watermarker.add(watermark)
+                                watermarker.save("result.docx")
 
                     </code>
 

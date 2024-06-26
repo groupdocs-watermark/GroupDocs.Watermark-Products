@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-08T17:25:28
+date:  2024-06-26T07:20:48
 draft: false
 
 product: "Watermark"
@@ -10,7 +10,7 @@ product_tag: "watermark"
 lang: fa
 
 ############################# Head ############################
-head_title: "واترمارک سند C# Java Node.js | اضافه کردن واترمارک"
+head_title: "سند واترمارک C# Java Node.js Python | واترمارک اضافه کنید"
 head_description: "واترمارک را به PDF، تصاویر و اسناد اضافه کنید. راه حل علامت گذاری برای Microsoft Office، PDF، OpenDocument، تصاویر و غیره"
 
 ############################# Header ############################
@@ -110,6 +110,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> هر ویرایشگر متن دیگر
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    50+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Watermark Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/watermark/python-net/"
+      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -221,6 +249,31 @@ code_samples:
                         // اضافه کردن واترمارک و ذخیره فایل پردازش شده
                         watermarker.add(watermark);
                         watermarker.save("result.docx");                        
+
+                    </code>
+
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        def run():
+
+                            # سندی را که باید علامت گذاری شود مشخص کنید
+                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
+
+                                # ایجاد شی واترمارک
+                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
+
+                                # گزینه های واترمارک را تنظیم کنید
+                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
+
+                                # اضافه کردن واترمارک و ذخیره فایل پردازش شده
+                                watermarker.add(watermark)
+                                watermarker.save("result.docx")
 
                     </code>
 
