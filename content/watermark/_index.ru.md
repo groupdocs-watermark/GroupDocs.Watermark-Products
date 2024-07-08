@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Различные дополнительные функции"
       content: "Получите информацию о документе, обновите гиперссылки или фон страниц и т. д."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Защита документов водяными знаками"
   description: "GroupDocs.Watermark примеры типичных операционных кодов."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Создание водяного знака."
-      content: "Чтобы добавить водяной знак к документу, укажите путь к целевому файлу. Вы можете выбрать множество вариантов размещения индивидуального водяного знака на определенной странице."
+      content: |
+       "Чтобы добавить водяной знак к документу, укажите путь к целевому файлу. Вы можете выбрать множество вариантов размещения индивидуального водяного знака на определенной странице."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Укажите документ, на который будет нанесен водяной знак
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Укажите документ, на который будет нанесен водяной знак
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Создать объект водяного знака
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Создать объект водяного знака
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Настройка параметров водяных знаков
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Настройка параметров водяных знаков
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Добавьте водяной знак и сохраните обработанный файл
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Добавьте водяной знак и сохраните обработанный файл
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Укажите документ, на который будет нанесен водяной знак
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Укажите документ, на который будет нанесен водяной знак
+            // Создать объект водяного знака
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Настройка параметров водяных знаков
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Создать объект водяного знака
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Добавьте водяной знак и сохраните обработанный файл
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Укажите документ, на который будет нанесен водяной знак
+            const watermarker = new Watermarker("source.docx");
 
-                        // Настройка параметров водяных знаков
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Создать объект водяного знака
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Добавьте водяной знак и сохраните обработанный файл
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Настройка параметров водяных знаков
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Добавьте водяной знак и сохраните обработанный файл
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Укажите документ, на который будет нанесен водяной знак
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Укажите документ, на который будет нанесен водяной знак
+                    # Создать объект водяного знака
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Создать объект водяного знака
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Настройка параметров водяных знаков
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Настройка параметров водяных знаков
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Добавьте водяной знак и сохраните обработанный файл
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Добавьте водяной знак и сохраните обработанный файл
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Укажите документ, на который будет нанесен водяной знак
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Создать объект водяного знака
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Настройка параметров водяных знаков
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Добавьте водяной знак и сохраните обработанный файл
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

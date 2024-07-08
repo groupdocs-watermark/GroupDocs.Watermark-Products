@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "各种附加功能"
       content: "获取文档信息、更新超链接或页面背景等"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "通过水印保护文档"
   description: "GroupDocs.Watermark 典型的操作代码示例。"
-
   items:
-    # items loop
+    # code sample loop
     - title: "创建水印。"
-      content: "要向文档添加水印，请提供目标文件的路径。要在特定页面上获得自定义水印，您可以选择许多选项。"
+      content: |
+       "要向文档添加水印，请提供目标文件的路径。要在特定页面上获得自定义水印，您可以选择许多选项。"
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 指定要添加水印的文档
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // 指定要添加水印的文档
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // 创建水印对象
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // 创建水印对象
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // 设置水印选项
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // 设置水印选项
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // 添加水印并保存处理后的文件
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // 添加水印并保存处理后的文件
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 指定要添加水印的文档
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 指定要添加水印的文档
+            // 创建水印对象
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // 设置水印选项
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // 创建水印对象
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // 添加水印并保存处理后的文件
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // 指定要添加水印的文档
+            const watermarker = new Watermarker("source.docx");
 
-                        // 设置水印选项
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // 创建水印对象
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // 添加水印并保存处理后的文件
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // 设置水印选项
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // 添加水印并保存处理后的文件
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # 指定要添加水印的文档
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 指定要添加水印的文档
+                    # 创建水印对象
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // 创建水印对象
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # 设置水印选项
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // 设置水印选项
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # 添加水印并保存处理后的文件
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // 添加水印并保存处理后的文件
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # 指定要添加水印的文档
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # 创建水印对象
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # 设置水印选项
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # 添加水印并保存处理后的文件
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

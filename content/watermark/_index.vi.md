@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Các tính năng bổ sung khác nhau"
       content: "Nhận thông tin tài liệu, cập nhật siêu liên kết hoặc nền trang, v.v."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Bảo vệ tài liệu bằng hình mờ"
   description: "GroupDocs.Watermark ví dụ mã hoạt động điển hình."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Tạo hình mờ."
-      content: "Để thêm hình mờ vào tài liệu, hãy cung cấp đường dẫn đến tệp đích. Bạn có nhiều tùy chọn để chọn để có được hình mờ tùy chỉnh trên một trang cụ thể."
+      content: |
+       "Để thêm hình mờ vào tài liệu, hãy cung cấp đường dẫn đến tệp đích. Bạn có nhiều tùy chọn để chọn để có được hình mờ tùy chỉnh trên một trang cụ thể."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Tạo đối tượng hình mờ
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Tạo đối tượng hình mờ
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Đặt tùy chọn hình mờ
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Đặt tùy chọn hình mờ
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Thêm hình mờ và lưu tệp đã xử lý
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Thêm hình mờ và lưu tệp đã xử lý
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+            // Tạo đối tượng hình mờ
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Đặt tùy chọn hình mờ
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Tạo đối tượng hình mờ
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Thêm hình mờ và lưu tệp đã xử lý
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+            const watermarker = new Watermarker("source.docx");
 
-                        // Đặt tùy chọn hình mờ
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Tạo đối tượng hình mờ
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Thêm hình mờ và lưu tệp đã xử lý
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Đặt tùy chọn hình mờ
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Thêm hình mờ và lưu tệp đã xử lý
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Chỉ định tài liệu sẽ được đánh dấu hình mờ
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Chỉ định tài liệu sẽ được đánh dấu hình mờ
+                    # Tạo đối tượng hình mờ
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Tạo đối tượng hình mờ
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Đặt tùy chọn hình mờ
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Đặt tùy chọn hình mờ
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Thêm hình mờ và lưu tệp đã xử lý
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Thêm hình mờ và lưu tệp đã xử lý
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Chỉ định tài liệu sẽ được đánh dấu hình mờ
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Tạo đối tượng hình mờ
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Đặt tùy chọn hình mờ
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Thêm hình mờ và lưu tệp đã xử lý
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

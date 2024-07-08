@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "다양한 추가 기능"
       content: "문서 정보 가져오기, 하이퍼링크 또는 페이지 배경 업데이트 등"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "워터마크로 문서 보호"
   description: "GroupDocs.Watermark 일반적인 작업 코드 예제"
-
   items:
-    # items loop
+    # code sample loop
     - title: "워터마크 만들기."
-      content: "문서에 워터마크를 추가하려면 대상 파일의 경로를 입력합니다.특정 페이지에 사용자 지정 워터마크를 표시하려면 다양한 옵션을 선택할 수 있습니다."
+      content: |
+       "문서에 워터마크를 추가하려면 대상 파일의 경로를 입력합니다.특정 페이지에 사용자 지정 워터마크를 표시하려면 다양한 옵션을 선택할 수 있습니다."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 워터마킹할 문서를 지정합니다.
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // 워터마킹할 문서를 지정합니다.
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // 워터마크 오브젝트 만들기
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // 워터마크 오브젝트 만들기
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // 워터마크 옵션 설정
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // 워터마크 옵션 설정
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // 워터마크 추가 및 처리된 파일 저장
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // 워터마크 추가 및 처리된 파일 저장
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 워터마킹할 문서를 지정합니다.
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 워터마킹할 문서를 지정합니다.
+            // 워터마크 오브젝트 만들기
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // 워터마크 옵션 설정
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // 워터마크 오브젝트 만들기
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // 워터마크 추가 및 처리된 파일 저장
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // 워터마킹할 문서를 지정합니다.
+            const watermarker = new Watermarker("source.docx");
 
-                        // 워터마크 옵션 설정
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // 워터마크 오브젝트 만들기
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // 워터마크 추가 및 처리된 파일 저장
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // 워터마크 옵션 설정
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // 워터마크 추가 및 처리된 파일 저장
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # 워터마킹할 문서를 지정합니다.
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 워터마킹할 문서를 지정합니다.
+                    # 워터마크 오브젝트 만들기
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // 워터마크 오브젝트 만들기
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # 워터마크 옵션 설정
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // 워터마크 옵션 설정
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # 워터마크 추가 및 처리된 파일 저장
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // 워터마크 추가 및 처리된 파일 저장
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # 워터마킹할 문서를 지정합니다.
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # 워터마크 오브젝트 만들기
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # 워터마크 옵션 설정
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # 워터마크 추가 및 처리된 파일 저장
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Various additional features"
       content: "Get document info, update hyper-links or pages background etc."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Protect documents by watermarks"
   description: "GroupDocs.Watermark typical operations code examples."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Creating a watermark."
-      content: "To append a watermark to a document, provide path to target file. You have many options to choose in order to get a customized watermark on a specific page."
+      content: |
+       "To append a watermark to a document, provide path to target file. You have many options to choose in order to get a customized watermark on a specific page."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Specify the document to be watermarked
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Specify the document to be watermarked
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Create watermark object
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Create watermark object
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Set watermark options
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Set watermark options
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Add watermark and save processed file
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Add watermark and save processed file
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Specify the document to be watermarked
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Specify the document to be watermarked
+            // Create watermark object
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Set watermark options
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Create watermark object
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Add watermark and save processed file
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Specify the document to be watermarked
+            const watermarker = new Watermarker("source.docx");
 
-                        // Set watermark options
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Create watermark object
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Add watermark and save processed file
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Set watermark options
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Add watermark and save processed file
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Specify the document to be watermarked
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Specify the document to be watermarked
+                    # Create watermark object
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Create watermark object
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Set watermark options
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Set watermark options
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Add watermark and save processed file
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Add watermark and save processed file
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Specify the document to be watermarked
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Create watermark object
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Set watermark options
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Add watermark and save processed file
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

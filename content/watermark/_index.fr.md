@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Diverses fonctionnalités supplémentaires"
       content: "Obtenez des informations sur le document, mettez à jour les hyperliens ou l'arrière-plan des pages, etc."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Protégez les documents par des filigranes"
   description: "GroupDocs.Watermark exemples de code d'opérations typiques."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Création d'un filigrane."
-      content: "Pour ajouter un filigrane à un document, indiquez le chemin du fichier cible. Vous avez le choix entre de nombreuses options pour obtenir un filigrane personnalisé sur une page spécifique."
+      content: |
+       "Pour ajouter un filigrane à un document, indiquez le chemin du fichier cible. Vous avez le choix entre de nombreuses options pour obtenir un filigrane personnalisé sur une page spécifique."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Spécifiez le document à filigraner
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Spécifiez le document à filigraner
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Créer un objet en filigrane
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Créer un objet en filigrane
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Définir les options de filigrane
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Définir les options de filigrane
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Ajouter un filigrane et enregistrer le fichier traité
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Ajouter un filigrane et enregistrer le fichier traité
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Spécifiez le document à filigraner
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Spécifiez le document à filigraner
+            // Créer un objet en filigrane
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Définir les options de filigrane
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Créer un objet en filigrane
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Ajouter un filigrane et enregistrer le fichier traité
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Spécifiez le document à filigraner
+            const watermarker = new Watermarker("source.docx");
 
-                        // Définir les options de filigrane
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Créer un objet en filigrane
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Ajouter un filigrane et enregistrer le fichier traité
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Définir les options de filigrane
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Ajouter un filigrane et enregistrer le fichier traité
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Spécifiez le document à filigraner
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Spécifiez le document à filigraner
+                    # Créer un objet en filigrane
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Créer un objet en filigrane
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Définir les options de filigrane
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Définir les options de filigrane
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Ajouter un filigrane et enregistrer le fichier traité
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Ajouter un filigrane et enregistrer le fichier traité
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Spécifiez le document à filigraner
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Créer un objet en filigrane
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Définir les options de filigrane
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Ajouter un filigrane et enregistrer le fichier traité
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

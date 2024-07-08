@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "คุณสมบัติเพิ่มเติมต่างๆ"
       content: "รับข้อมูลเอกสารอัปเดตไฮเปอร์ลิงก์หรือพื้นหลังของหน้า ฯลฯ"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "ปกป้องเอกสารด้วยลายน้ำ"
   description: "GroupDocs.Watermark ตัวอย่างรหัสการดำเนินงานทั่วไป"
-
   items:
-    # items loop
+    # code sample loop
     - title: "การสร้างลายน้ำ"
-      content: "หากต้องการผนวกลายน้ำลงในเอกสาร ให้ระบุเส้นทางไปยังไฟล์เป้าหมายคุณมีตัวเลือกมากมายให้เลือกเพื่อให้ได้ลายน้ำที่กำหนดเองในหน้าเฉพาะ"
+      content: |
+       "หากต้องการผนวกลายน้ำลงในเอกสาร ให้ระบุเส้นทางไปยังไฟล์เป้าหมายคุณมีตัวเลือกมากมายให้เลือกเพื่อให้ได้ลายน้ำที่กำหนดเองในหน้าเฉพาะ"
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // ระบุเอกสารที่จะเป็นลายน้ำ
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // ระบุเอกสารที่จะเป็นลายน้ำ
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // สร้างวัตถุลายน้ำ
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // สร้างวัตถุลายน้ำ
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // ตั้งค่าตัวเลือกลายน้ำ
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // ตั้งค่าตัวเลือกลายน้ำ
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // ระบุเอกสารที่จะเป็นลายน้ำ
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // ระบุเอกสารที่จะเป็นลายน้ำ
+            // สร้างวัตถุลายน้ำ
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // ตั้งค่าตัวเลือกลายน้ำ
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // สร้างวัตถุลายน้ำ
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // ระบุเอกสารที่จะเป็นลายน้ำ
+            const watermarker = new Watermarker("source.docx");
 
-                        // ตั้งค่าตัวเลือกลายน้ำ
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // สร้างวัตถุลายน้ำ
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // ตั้งค่าตัวเลือกลายน้ำ
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # ระบุเอกสารที่จะเป็นลายน้ำ
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // ระบุเอกสารที่จะเป็นลายน้ำ
+                    # สร้างวัตถุลายน้ำ
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // สร้างวัตถุลายน้ำ
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # ตั้งค่าตัวเลือกลายน้ำ
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // ตั้งค่าตัวเลือกลายน้ำ
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # ระบุเอกสารที่จะเป็นลายน้ำ
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # สร้างวัตถุลายน้ำ
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # ตั้งค่าตัวเลือกลายน้ำ
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # เพิ่มลายน้ำและบันทึกไฟล์ที่ประมวลผล
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

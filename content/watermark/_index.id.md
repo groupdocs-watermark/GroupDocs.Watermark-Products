@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Berbagai fitur tambahan"
       content: "Dapatkan info dokumen, perbarui tautan hiper-atau halaman latar belakang dll."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Lindungi dokumen dengan tanda air"
   description: "GroupDocs.Watermark contoh kode operasi tipikal."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Membuat tanda air."
-      content: "Untuk menambahkan tanda air ke dokumen, berikan jalur ke file target. Anda memiliki banyak opsi untuk dipilih untuk mendapatkan tanda air yang disesuaikan pada halaman tertentu."
+      content: |
+       "Untuk menambahkan tanda air ke dokumen, berikan jalur ke file target. Anda memiliki banyak opsi untuk dipilih untuk mendapatkan tanda air yang disesuaikan pada halaman tertentu."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Tentukan dokumen yang akan diberi tanda air
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Tentukan dokumen yang akan diberi tanda air
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Buat objek watermark
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Buat objek watermark
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Mengatur opsi tanda air
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Mengatur opsi tanda air
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Tambahkan watermark dan simpan file yang diproses
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Tambahkan watermark dan simpan file yang diproses
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Tentukan dokumen yang akan diberi tanda air
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Tentukan dokumen yang akan diberi tanda air
+            // Buat objek watermark
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Mengatur opsi tanda air
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Buat objek watermark
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Tambahkan watermark dan simpan file yang diproses
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Tentukan dokumen yang akan diberi tanda air
+            const watermarker = new Watermarker("source.docx");
 
-                        // Mengatur opsi tanda air
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Buat objek watermark
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Tambahkan watermark dan simpan file yang diproses
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Mengatur opsi tanda air
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Tambahkan watermark dan simpan file yang diproses
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Tentukan dokumen yang akan diberi tanda air
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Tentukan dokumen yang akan diberi tanda air
+                    # Buat objek watermark
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Buat objek watermark
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Mengatur opsi tanda air
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Mengatur opsi tanda air
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Tambahkan watermark dan simpan file yang diproses
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Tambahkan watermark dan simpan file yang diproses
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Tentukan dokumen yang akan diberi tanda air
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Buat objek watermark
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Mengatur opsi tanda air
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Tambahkan watermark dan simpan file yang diproses
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

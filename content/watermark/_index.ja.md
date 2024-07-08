@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "さまざまな追加機能"
       content: "ドキュメント情報の取得、ハイパーリンクやページの背景の更新など"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "ウォーターマークで文書を保護"
   description: "GroupDocs.Watermark 一般的な操作コードの例。"
-
   items:
-    # items loop
+    # code sample loop
     - title: "ウォーターマークの作成。"
-      content: "ドキュメントにウォーターマークを追加するには、ターゲットファイルへのパスを指定します。特定のページにカスタマイズしたウォーターマークを適用するには、さまざまな選択肢があります。"
+      content: |
+       "ドキュメントにウォーターマークを追加するには、ターゲットファイルへのパスを指定します。特定のページにカスタマイズしたウォーターマークを適用するには、さまざまな選択肢があります。"
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 透かしを入れる文書を指定してください
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // 透かしを入れる文書を指定してください
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // ウォーターマークオブジェクトを作成
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // ウォーターマークオブジェクトを作成
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // ウォーターマークオプションを設定する
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // ウォーターマークオプションを設定する
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // ウォーターマークを追加して処理済みファイルを保存する
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // ウォーターマークを追加して処理済みファイルを保存する
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 透かしを入れる文書を指定してください
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 透かしを入れる文書を指定してください
+            // ウォーターマークオブジェクトを作成
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // ウォーターマークオプションを設定する
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // ウォーターマークオブジェクトを作成
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // ウォーターマークを追加して処理済みファイルを保存する
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // 透かしを入れる文書を指定してください
+            const watermarker = new Watermarker("source.docx");
 
-                        // ウォーターマークオプションを設定する
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // ウォーターマークオブジェクトを作成
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // ウォーターマークを追加して処理済みファイルを保存する
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // ウォーターマークオプションを設定する
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // ウォーターマークを追加して処理済みファイルを保存する
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # 透かしを入れる文書を指定してください
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 透かしを入れる文書を指定してください
+                    # ウォーターマークオブジェクトを作成
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // ウォーターマークオブジェクトを作成
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # ウォーターマークオプションを設定する
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // ウォーターマークオプションを設定する
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # ウォーターマークを追加して処理済みファイルを保存する
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // ウォーターマークを追加して処理済みファイルを保存する
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # 透かしを入れる文書を指定してください
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # ウォーターマークオブジェクトを作成
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # ウォーターマークオプションを設定する
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # ウォーターマークを追加して処理済みファイルを保存する
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

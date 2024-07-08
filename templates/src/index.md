@@ -173,111 +173,99 @@ features:
       title: "<% "{index-content.features.feature_4.title}" %>"
       content: "<% "{index-content.features.feature_4.content}" %>"
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "<% "{index-content.code_samples.index_title}" %>"
   description: "<% "{index-content.code_samples.index_description}" %>"
-
   items:
-    # items loop
+    # code sample loop
     - title: "<% "{index-content.code_samples.sample_index.title}" %>"
-      content: "<% "{index-content.code_samples.sample_index.content}" %>"
+      content: |
+       "<% "{index-content.code_samples.sample_index.content}" %>"
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // <% "{index-content.code_samples.sample_index.comment_4}" %>
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            // <% "{index-content.code_samples.sample_index.comment_2}" %>
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // <% "{index-content.code_samples.sample_index.comment_3}" %>
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // <% "{index-content.code_samples.sample_index.comment_4}" %>
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            const watermarker = new Watermarker("source.docx");
 
-                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // <% "{index-content.code_samples.sample_index.comment_2}" %>
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // <% "{index-content.code_samples.sample_index.comment_3}" %>
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // <% "{index-content.code_samples.sample_index.comment_4}" %>
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # <% "{index-content.code_samples.sample_index.comment_1}" %>
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
+                    # <% "{index-content.code_samples.sample_index.comment_2}" %>
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # <% "{index-content.code_samples.sample_index.comment_3}" %>
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # <% "{index-content.code_samples.sample_index.comment_4}" %>
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # <% "{index-content.code_samples.sample_index.comment_1}" %>
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # <% "{index-content.code_samples.sample_index.comment_2}" %>
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # <% "{index-content.code_samples.sample_index.comment_3}" %>
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # <% "{index-content.code_samples.sample_index.comment_4}" %>
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

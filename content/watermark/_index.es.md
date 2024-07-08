@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Diversas funciones adicionales"
       content: "Obtenga información del documento, actualice los hipervínculos o el fondo de las páginas, etc."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Proteja los documentos mediante marcas de agua"
   description: "GroupDocs.Watermark ejemplos de códigos de operaciones típicos."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Crear una marca de agua."
-      content: "Para añadir una marca de agua a un documento, proporcione la ruta al archivo de destino. Tiene muchas opciones entre las que elegir para obtener una marca de agua personalizada en una página específica."
+      content: |
+       "Para añadir una marca de agua a un documento, proporcione la ruta al archivo de destino. Tiene muchas opciones entre las que elegir para obtener una marca de agua personalizada en una página específica."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Especifique el documento al que desea añadir una marca de agua
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Especifique el documento al que desea añadir una marca de agua
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Crear objeto de marca de agua
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Crear objeto de marca de agua
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Definir las opciones de marca de agua
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Definir las opciones de marca de agua
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Agregue una marca de agua y guarde el archivo procesado
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Agregue una marca de agua y guarde el archivo procesado
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Especifique el documento al que desea añadir una marca de agua
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Especifique el documento al que desea añadir una marca de agua
+            // Crear objeto de marca de agua
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Definir las opciones de marca de agua
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Crear objeto de marca de agua
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Agregue una marca de agua y guarde el archivo procesado
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Especifique el documento al que desea añadir una marca de agua
+            const watermarker = new Watermarker("source.docx");
 
-                        // Definir las opciones de marca de agua
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Crear objeto de marca de agua
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Agregue una marca de agua y guarde el archivo procesado
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Definir las opciones de marca de agua
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Agregue una marca de agua y guarde el archivo procesado
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Especifique el documento al que desea añadir una marca de agua
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Especifique el documento al que desea añadir una marca de agua
+                    # Crear objeto de marca de agua
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Crear objeto de marca de agua
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Definir las opciones de marca de agua
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Definir las opciones de marca de agua
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Agregue una marca de agua y guarde el archivo procesado
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Agregue una marca de agua y guarde el archivo procesado
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Especifique el documento al que desea añadir una marca de agua
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Crear objeto de marca de agua
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Definir las opciones de marca de agua
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Agregue una marca de agua y guarde el archivo procesado
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:

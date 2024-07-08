@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-26T07:20:48
+date:  2024-07-08T15:37:04
 draft: false
 
 product: "Watermark"
@@ -171,111 +171,99 @@ features:
       title: "Verschiedene zusätzliche Funktionen"
       content: "Holen Sie sich Dokumentinformationen, aktualisieren Sie Hyperlinks oder den Seitenhintergrund usw."
 
-############################# Code Samples ###############################
+############################# Code samples ############################
 code_samples:
   enable: true
   title: "Dokumente durch Wasserzeichen schützen"
   description: "GroupDocs.Watermark Codebeispiele für typische Operationen."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Erstellen eines Wasserzeichens."
-      content: "Um ein Wasserzeichen an ein Dokument anzuhängen, geben Sie den Pfad zur Zieldatei an. Sie haben viele Optionen zur Auswahl, um ein benutzerdefiniertes Wasserzeichen auf einer bestimmten Seite zu erhalten."
+      content: |
+       "Um ein Wasserzeichen an ein Dokument anzuhängen, geben Sie den Pfad zur Zieldatei an. Sie haben viele Optionen zur Auswahl, um ein benutzerdefiniertes Wasserzeichen auf einer bestimmten Seite zu erhalten."
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}   
+            // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+            using (Watermarker watermarker = new Watermarker("source.docx"))
+            {
+                // Wasserzeichen-Objekt erstellen
+                TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        using (Watermarker watermarker = new Watermarker("source.docx"))
-                        {
-                          // Wasserzeichen-Objekt erstellen
-                          TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                // Wasserzeichenoptionen festlegen
+                watermark.ForegroundColor = Color.Red;
+                watermark.HorizontalAlignment = HorizontalAlignment.Center;
+                watermark.VerticalAlignment = VerticalAlignment.Center;
 
-                          // Wasserzeichenoptionen festlegen
-                          watermark.ForegroundColor = Color.Red;
-                          watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                          watermark.VerticalAlignment = VerticalAlignment.Center;
+                // Wasserzeichen hinzufügen und verarbeitete Datei speichern
+                watermarker.Add(watermark);
+                watermarker.Save("result.docx");
 
-                          // Wasserzeichen hinzufügen und verarbeitete Datei speichern
-                          watermarker.Add(watermark);
-                          watermarker.Save("result.docx");
-                        }                    
-                    </code>
+            }
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+            Watermarker watermarker = new Watermarker("source.docx");
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+            // Wasserzeichen-Objekt erstellen
+            TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        Watermarker watermarker = new Watermarker("source.docx");
+            // Wasserzeichenoptionen festlegen
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                        // Wasserzeichen-Objekt erstellen
-                        TextWatermark watermark = new TextWatermark("top secret", new Font("Arial", 36));
+            // Wasserzeichen hinzufügen und verarbeitete Datei speichern
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            watermarker.close();
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}  
+            // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+            const watermarker = new Watermarker("source.docx");
 
-                        // Wasserzeichenoptionen festlegen
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+            // Wasserzeichen-Objekt erstellen
+            const watermark = new TextWatermark("top secret", new Font("Arial", 36));
 
-                        // Wasserzeichen hinzufügen und verarbeitete Datei speichern
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");
-                        watermarker.close();
+            // Wasserzeichenoptionen festlegen
+            watermark.setForegroundColor(Color.getRed());
+            watermark.setHorizontalAlignment(HorizontalAlignment.Center);
+            watermark.setVerticalAlignment(VerticalAlignment.Center);
 
-                    </code>
+            // Wasserzeichen hinzufügen und verarbeitete Datei speichern
+            watermarker.add(watermark);
+            watermarker.save("result.docx");
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}  
+            def run():
+                # Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+                with groupdocs.watermark.Watermarker("source.docx") as watermarker:
+                    font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
 
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
+                    # Wasserzeichen-Objekt erstellen
+                    watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
 
-                        const watermarker = new Watermarker("source.docx");
-    
-                        // Wasserzeichen-Objekt erstellen
-                        const watermark = new TextWatermark("top secret", new Font("Arial", 36));
+                    # Wasserzeichenoptionen festlegen
+                    watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
+                    watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
+                    watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
 
-                        // Wasserzeichenoptionen festlegen
-                        watermark.setForegroundColor(Color.getRed());
-                        watermark.setHorizontalAlignment(HorizontalAlignment.Center);
-                        watermark.setVerticalAlignment(VerticalAlignment.Center);
+                    # Wasserzeichen hinzufügen und verarbeitete Datei speichern
+                    watermarker.add(watermark)
+                    watermarker.save("result.docx")
+            ```
 
-                        // Wasserzeichen hinzufügen und verarbeitete Datei speichern
-                        watermarker.add(watermark);
-                        watermarker.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        def run():
-
-                            # Geben Sie das Dokument an, das mit einem Wasserzeichen versehen werden soll
-                            with groupdocs.watermark.Watermarker("source.docx") as watermarker:
-                                font = groupdocs.watermark.watermarks.Font("Arial", 36.0)
-
-                                # Wasserzeichen-Objekt erstellen
-                                watermark = groupdocs.watermark.watermarks.TextWatermark("top secret", font)
-
-                                # Wasserzeichenoptionen festlegen
-                                watermark.foreground_color = groupdocs.watermark.watermarks.Color.red;
-                                watermark.horizontal_alignment = groupdocs.watermark.common.HorizontalAlignment.CENTER
-                                watermark.vertical_alignment = groupdocs.watermark.common.VerticalAlignment.CENTER
-
-                                # Wasserzeichen hinzufügen und verarbeitete Datei speichern
-                                watermarker.add(watermark)
-                                watermarker.save("result.docx")
-
-                    </code>
 
 ############################# Supported Formats ###############################
 formats:
