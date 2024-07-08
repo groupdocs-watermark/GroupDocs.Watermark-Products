@@ -182,7 +182,7 @@ code_samples:
     # code sample loop
     - title: "<% "{index-content.code_samples.sample_index.title}" %>"
       content: |
-       "<% "{index-content.code_samples.sample_index.content}" %>"
+       <% "{index-content.code_samples.sample_index.content}" %>
       samples:
         - language: "C#"
           color: "blue"
@@ -202,7 +202,6 @@ code_samples:
                 // <% "{index-content.code_samples.sample_index.comment_4}" %>
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

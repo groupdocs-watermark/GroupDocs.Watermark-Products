@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Tạo hình mờ."
       content: |
-       "Để thêm hình mờ vào tài liệu, hãy cung cấp đường dẫn đến tệp đích. Bạn có nhiều tùy chọn để chọn để có được hình mờ tùy chỉnh trên một trang cụ thể."
+       Để thêm hình mờ vào tài liệu, hãy cung cấp đường dẫn đến tệp đích. Bạn có nhiều tùy chọn để chọn để có được hình mờ tùy chỉnh trên một trang cụ thể.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Thêm hình mờ và lưu tệp đã xử lý
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "ウォーターマークの作成。"
       content: |
-       "ドキュメントにウォーターマークを追加するには、ターゲットファイルへのパスを指定します。特定のページにカスタマイズしたウォーターマークを適用するには、さまざまな選択肢があります。"
+       ドキュメントにウォーターマークを追加するには、ターゲットファイルへのパスを指定します。特定のページにカスタマイズしたウォーターマークを適用するには、さまざまな選択肢があります。
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // ウォーターマークを追加して処理済みファイルを保存する
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

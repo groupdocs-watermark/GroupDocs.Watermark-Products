@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Creating a watermark."
       content: |
-       "To append a watermark to a document, provide path to target file. You have many options to choose in order to get a customized watermark on a specific page."
+       To append a watermark to a document, provide path to target file. You have many options to choose in order to get a customized watermark on a specific page.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Add watermark and save processed file
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

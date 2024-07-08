@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Erstellen eines Wasserzeichens."
       content: |
-       "Um ein Wasserzeichen an ein Dokument anzuhängen, geben Sie den Pfad zur Zieldatei an. Sie haben viele Optionen zur Auswahl, um ein benutzerdefiniertes Wasserzeichen auf einer bestimmten Seite zu erhalten."
+       Um ein Wasserzeichen an ein Dokument anzuhängen, geben Sie den Pfad zur Zieldatei an. Sie haben viele Optionen zur Auswahl, um ein benutzerdefiniertes Wasserzeichen auf einer bestimmten Seite zu erhalten.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Wasserzeichen hinzufügen und verarbeitete Datei speichern
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

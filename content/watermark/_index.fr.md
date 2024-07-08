@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Création d'un filigrane."
       content: |
-       "Pour ajouter un filigrane à un document, indiquez le chemin du fichier cible. Vous avez le choix entre de nombreuses options pour obtenir un filigrane personnalisé sur une page spécifique."
+       Pour ajouter un filigrane à un document, indiquez le chemin du fichier cible. Vous avez le choix entre de nombreuses options pour obtenir un filigrane personnalisé sur une page spécifique.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Ajouter un filigrane et enregistrer le fichier traité
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

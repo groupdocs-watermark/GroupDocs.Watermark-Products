@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "워터마크 만들기."
       content: |
-       "문서에 워터마크를 추가하려면 대상 파일의 경로를 입력합니다.특정 페이지에 사용자 지정 워터마크를 표시하려면 다양한 옵션을 선택할 수 있습니다."
+       문서에 워터마크를 추가하려면 대상 파일의 경로를 입력합니다.특정 페이지에 사용자 지정 워터마크를 표시하려면 다양한 옵션을 선택할 수 있습니다.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // 워터마크 추가 및 처리된 파일 저장
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

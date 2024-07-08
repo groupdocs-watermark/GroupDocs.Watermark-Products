@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Membuat tanda air."
       content: |
-       "Untuk menambahkan tanda air ke dokumen, berikan jalur ke file target. Anda memiliki banyak opsi untuk dipilih untuk mendapatkan tanda air yang disesuaikan pada halaman tertentu."
+       Untuk menambahkan tanda air ke dokumen, berikan jalur ke file target. Anda memiliki banyak opsi untuk dipilih untuk mendapatkan tanda air yang disesuaikan pada halaman tertentu.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Tambahkan watermark dan simpan file yang diproses
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "Crear una marca de agua."
       content: |
-       "Para añadir una marca de agua a un documento, proporcione la ruta al archivo de destino. Tiene muchas opciones entre las que elegir para obtener una marca de agua personalizada en una página específica."
+       Para añadir una marca de agua a un documento, proporcione la ruta al archivo de destino. Tiene muchas opciones entre las que elegir para obtener una marca de agua personalizada en una página específica.
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // Agregue una marca de agua y guarde el archivo procesado
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"

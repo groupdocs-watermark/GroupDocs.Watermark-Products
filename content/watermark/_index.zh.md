@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T15:37:04
+date:  2024-07-08T16:36:26
 draft: false
 
 product: "Watermark"
@@ -180,7 +180,7 @@ code_samples:
     # code sample loop
     - title: "创建水印。"
       content: |
-       "要向文档添加水印，请提供目标文件的路径。要在特定页面上获得自定义水印，您可以选择许多选项。"
+       要向文档添加水印，请提供目标文件的路径。要在特定页面上获得自定义水印，您可以选择许多选项。
       samples:
         - language: "C#"
           color: "blue"
@@ -200,7 +200,6 @@ code_samples:
                 // 添加水印并保存处理后的文件
                 watermarker.Add(watermark);
                 watermarker.Save("result.docx");
-
             }
             ```
         - language: "Java"
