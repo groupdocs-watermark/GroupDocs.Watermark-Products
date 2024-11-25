@@ -96,7 +96,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/"
+      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
       features:
           # features loop
           - rows: "4"
@@ -124,7 +124,7 @@ supported_platforms:
       color: "yellow"
       tag: "python-net"
       link: "/watermark/python-net/"
-      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/python-net/system-requirements/"
       features:
           # features loop
           - rows: "3"

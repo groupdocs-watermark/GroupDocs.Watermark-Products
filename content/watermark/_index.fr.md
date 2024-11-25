@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-07-08T16:36:26
+date:  2024-11-25T09:49:28
 draft: false
 
 product: "Watermark"
@@ -94,7 +94,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/watermark/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/watermark/"
+      features_link: "https://docs.groupdocs.com/watermark/nodejs-java/system-requirements/"
       features:
           # features loop
           - rows: "4"
@@ -122,7 +122,7 @@ supported_platforms:
       color: "yellow"
       tag: "python-net"
       link: "/watermark/python-net/"
-      features_link: "https://docs.groupdocs.com/watermark/net/system-requirements/"
+      features_link: "https://docs.groupdocs.com/watermark/python-net/system-requirements/"
       features:
           # features loop
           - rows: "3"
