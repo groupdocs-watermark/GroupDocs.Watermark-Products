@@ -1,0 +1,19 @@
+inherits: ..\\languages-family-formats.yml
+
+dimensions:
+- alias: product
+  values: [python-net]
+- alias:  operation
+  values: [add]
+- alias:  url
+  values: [add]
+- alias:  fileformat
+  values: [excel, word, image, photo, powerpoint]
+
+generationRules:
+  include:
+  - fileformat[excel, word, image, photo, powerpoint]
+  
+outputPath: "watermark\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

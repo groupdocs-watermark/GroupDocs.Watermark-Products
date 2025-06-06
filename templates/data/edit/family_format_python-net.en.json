@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Edit {{FileFormatUp}} text watermark",
+    "comment_2": "Make {{TextWatermarker}} providing {{FileFormatUp}} file",
+    "comment_3": "Construct the {{TextTextSearchCriteria}} and get text watermarks",
+    "comment_4": "Edit text watermark",
+    "comment_5": "Save the document"
+  },
+  "steps": {
+    "title": "Edit watermarks in {{FileformatCap}} documents using {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** empowers {{EnvName}} developers to effortlessly edit watermarks within various {{FileformatCap}} documents. Here's a simplified guide how to use our API in your application:",
+      "step_1": "Begin by passing your {{FileformatCap}} file as a parameter to the {{TextWatermarkerBold}} class constructor. You can provide the file either as a byte stream, a file stream, or a local disk path.",
+      "step_2": "Next, locate the specific watermarks that require editing. Utilize the {{TextSearchCriteriaBold}} to identify watermarks with the corresponding properties previously added to the document.",
+      "step_3": "Following the search, you'll obtain a list of relevant watermarks. You can then customize their properties, such as size, page alignment, text, color, image content, and more. This grants you extensive control over your data.",
+      "step_4": "Once you've completed editing the watermarks, save the updated document. You can utilize a local file path or a stream to store the final result."
+    }
+  },
+  "more_features": {
+    "title": "Learn more about watermarks modification",
+    "description": "Empower your {{EnvName}} applications with our library and add, edit, remove, or search for watermarks within various file formats.",
+    "image_description": "Edit Watermark",
+    "feature_1": {
+      "title": "Watermark Files for Your Business",
+      "content": "Use {{ProdFullName}} to watermark files and documents. Add and manage watermarks without extra efforts implementing our API in your applications. Search, edit and remove previously added watermarks."
+    },
+    "feature_2": {
+      "title": "Fine-Tune Watermarks for Your Requirements",
+      "content": "Our API offers a comprehensive set of customization options. Effortlessly modify aspects like size, orientation, color scheme, font family, and more to create the ideal watermark."
+    },
+    "feature_3": {
+      "title": "Leverage Document-Specific Features",
+      "content": "Depending on the file format you're using, you can incorporate built-in functionalities. These may include document background, annotations, headers, or other elements to serve as watermark containers."
+    },
+    "code_1": {
+      "title": "Excel watermark text edit",
+      "content": "This example shows how to edit text for particular watermarks in Excel Worksheets",
+      "comment_1": "Load XLSX spreadsheet",
+      "comment_2": "Load spreadsheet content",
+      "comment_3": "Edit watermark inner text",
+      "comment_4": "Save output result"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Edit Watermarks in {{FileformatCap}} formats",
+      "description": "Customize and secure your documents effortlessly with {{ProdFullName}}. Enhance document integrity and edit {{FileformatCap}} watermarks with ease."
+    },
+    "header": {
+      "title": "Edit Your {{FileformatCap}} Spreadsheets Watermarks: {{EnvName}} Efficiency",
+      "description": "Elevate your document security with our customizable watermarking tool designed for {{EnvName}} efficiency. Edit Excel watermarks effortlessly.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Free {{PackageStoreName}} download"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Library",
+      "content": "**Edit {{FileformatCap}} Watermarks With Our Tool:** Our {{ProdFullName}} tools offer efficient strategies to enhance and protect your documents. With various features for {{EnvName}} developers, managing watermarks becomes a breeze, ensuring document security and authenticity."
+    },
+    "formats": {
+      "title": "Customize Your Watermarks in Other Formats",
+      "description": "Watermark a variety of document formats to your needs with {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Edit Watermarks in {{FileformatCap}} documents",
+      "description": "Refine watermark placement and ensure document security with {{ProdFullName}}. Tailor {{FileformatCap}} watermarks in your solutions effortlessly."
+    },
+    "header": {
+      "title": "Enhance {{FileformatCap}} Watermarks: {{EnvName}} Confidence",
+      "description": "Ensure {{FileformatCap}} documents authenticity and brand integrity with {{ProdFullName}}. Edit watermarks using our solution with confidence.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Enhance {{FileformatCap}} Document Security:** {{ProdFullName}} empowers developers to enhance document security with ease. Edit your watermarks to meet your specific requirements with confidence."
+    },
+    "formats": {
+      "title": "Enhance Other Formats Security",
+      "description": "{{ProdFullName}} offers efficient solutions to enhance document security across different formats."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Edit Watermarks in {{FileformatCap}} documents",
+      "description": "Simplify {{FileformatCap}} watermark editing and protect your documents with {{ProdFullName}} Library. Achieve precise control and versatility."
+    },
+    "header": {
+      "title": "Edit {{FileformatCap}} Watermarks Placement: {{EnvName}} Precision",
+      "description": "Achieve precise control over watermark placement and document security with {{ProdFullName}} Solution. Edit {{FileformatCap}} Watermarks precisely.",
+      "subtitle": "{{ProdFullName}} Library",
+      "action_title": "Download at {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Edit {{FileformatCap}} Watermarks Placement:** Achieve precision control over watermark placement and document security with {{ProdFullName}} Developers. Streamline your workflow and ensure authenticity effortlessly."
+    },
+    "formats": {
+      "title": "Refine Watermarks in Other Formats",
+      "description": "Edit watermarks in various document formats with {{ProdFullName}}."
+    }
+  }
+}
