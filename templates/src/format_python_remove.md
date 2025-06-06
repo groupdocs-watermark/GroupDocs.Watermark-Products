@@ -69,20 +69,21 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            possibleWatermarks.Remove(watermarks[0]);
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% get "fileformat" %>") as watermarker:
 
-            // <% "{examples.comment_4}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
-        }
-        
+            # <% "{examples.comment_3}" %>
+            search_criteria = gwss.ImageDctHashSearchCriteria("logo.png")
+
+            possible_watermarks = watermarker.search(search_criteria)
+            del possible_watermarks[i]
+
+            # <% "{examples.comment_4}" %>
+            watermarker.save("output.<% get "fileformat" %>")
         ```  
 
 ############################# More features ############################
@@ -112,21 +113,26 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
-        
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PresentationLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                PresentationContent content = watermarker.GetContent<PresentationContent>();
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
+        import groupdocs.watermark.options.presentation as gwop
 
-                //  <% "{more_features.code_1.comment_3}" %>
-                content.Slides[0].ImageFillFormat.BackgroundImage = null;
+        # <% "{more_features.code_1.comment_1}" %>
+        load_options = gwop.PresentationLoadOptions()
+        with gw.Watermarker("source.pptx", load_options) as watermarker:
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pptx");
-            }
+            # <% "{more_features.code_1.comment_2}" %>
+            search_criteria = gwss.TextSearchCriteria("Lorem ipsum")
 
+            # <% "{more_features.code_1.comment_3}" %>
+            watermarks = watermarker.search(search_criteria)
+
+            for i in range(len(watermarks) - 1, -1, -1):
+                if isinstance(watermarks[i], gws.HyperlinkPossibleWatermark):
+                    del watermarks[i]
+
+            # <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("result.pptx");
         ```
         {{< /landing/code >}}
 

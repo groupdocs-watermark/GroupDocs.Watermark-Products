@@ -69,25 +69,26 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% get "fileformat" %>") as watermarker:
 
-            foreach (PossibleWatermark watermark in watermarks)
-            {
-                // <% "{examples.comment_4}" %>
-                watermark.ImageData = imageData;
-            }
+            # <% "{examples.comment_3}" %>
+            search_criteria = gwss.ImageDctHashSearchCriteria("logo.png")
 
-            // <% "{examples.comment_5}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
-        }
-        
+            possible_watermarks = watermarker.search(search_criteria)
+                for watermark in possible_watermarks:
+                    try:
+                        # <% "{examples.comment_4}" %>
+                        watermark.ImageData = imageData
+                    except Exception as e:
+                        pass
+
+            # <% "{examples.comment_5}" %>
+            watermarker.save("output.<% get "fileformat" %>")
         ```     
 
 ############################# More features ############################
@@ -117,27 +118,35 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
+        # <% "{more_features.code_1.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.search.searchcriteria as gwss
+        import groupdocs.watermark.options.pdf as gwop
+
+        # <% "{more_features.code_1.comment_2}" %>
+        load_options = gwop.PdfLoadOptions()
+        with gw.Watermarker("source.pdf", load_options) as watermarker:
+
+            search_criteria = gwss.TextSearchCriteria("test", False)
+            search_criteria.pages = [1,5,8]
+
+            # <% "{more_features.code_1.comment_3}" %>
+            watermarks = watermarker.search(search_criteria)
+            for watermark in watermarks:
+                try:
+                    watermark.formatted_text_fragments.clear()
+                    watermark.formatted_text_fragments.add(
+                        "New text", 
+                        gww.Font("Calibri", 5.0, gww.FontStyle.bold), 
+                        gww.Color.white, 
+                        gww.Color.aqua
+                    )
+                except Exception as e:
+                    pass
         
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PdfLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pdf", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                PdfContent pdfContent = watermarker.GetContent<PdfContent>();
-
-                //  <% "{more_features.code_1.comment_3}" %>
-                foreach (PdfArtifact artifact in pdfContent.Pages[0].Artifacts)
-                {
-                    if (artifact.Image != null)
-                    {
-                        artifact.Image = new PdfWatermarkableImage(File.ReadAllBytes("test.png"));
-                    }
-                }
-
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pdf");
-            }
-
+            # <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("output.pdf")
         ```
         {{< /landing/code >}}
 

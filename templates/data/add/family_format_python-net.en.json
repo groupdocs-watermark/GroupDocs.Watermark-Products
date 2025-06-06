@@ -1,148 +1,148 @@
 {
   "examples": {
-    "comment_1": "Generate text watermark in {{FileFormatUp}} file",
-    "comment_2": "Provide file to be watermarked",
-    "comment_3": "Generate text watermark instance",
-    "comment_4": "Save {{FileFormatUp}} result"
+    "comment_1": "Add a text watermark to a {{FileFormatUp}} file",
+    "comment_2": "Select the file you want to watermark",
+    "comment_3": "Create a text watermark object",
+    "comment_4": "Save the updated {{FileFormatUp}} file"
   },
   "steps": {
-    "title": "Enhance Your Documents: Generate Watermarks for {{FileformatCap}} using {{EnvName}}",
+    "title": "Easily Add Watermarks: Python Watermarking for {{FileformatCap}} with {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a library that simplifies adding watermarks to various business file formats for {{EnvName}} developers. Integrate our library into your application and effortlessly watermark documents using these following steps:",
-      "step_1": "**Initiating Your Watermarking Journey:** Start by acquainting yourself with the {{TextWatermarkerBold}} class, the cornerstone of our API. To begin the process, ensure you instantiate it prior to document processing. Don't overlook the importance of providing the {{FileformatCap}} file to the constructor, whether it's a path or a stream object.",
-      "step_2": "**Crafting Custom Watermarks:** Move on to the next phase by creating a {{TextWatermarkBold}} object tailored to your specifications. This versatile tool isn't limited to specific document pages; it can also be seamlessly integrated into native document elements like attachments or headers.",
-      "step_3": "**Fine-tuning Watermark Attributes:** Refine your watermarking experience by adjusting properties such as height, width, page alignment, font family, and color. This level of customization ensures your watermarks blend seamlessly with your documents.",
-      "step_4": "**Applying Your Watermarks:** Utilize the {{TextWatermarkerBold}} method to effortlessly apply your custom watermarks to your documents. Whether you need to add one or multiple watermarks, this process offers flexibility. For added security, consider saving your processed documents in a separate location."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a Python library that makes it easy to add watermarks to many business file types. Follow these steps to quickly add watermarks to your documents in {{EnvName}}:",
+      "step_1": "**Get Started with Watermarking:** Begin by creating an instance of the {{TextWatermarkerBold}} class. Pass your {{FileformatCap}} file (as a path or stream) to the constructor to open it for watermarking.",
+      "step_2": "**Create Your Watermark:** Make a {{TextWatermarkBold}} object with your desired text and settings. You can add watermarks to any page or even to document elements like headers or attachments.",
+      "step_3": "**Customize the Watermark:** Adjust the watermark’s size, position, font, color, and alignment to fit your needs. This helps your watermark look just right in your document.",
+      "step_4": "**Apply and Save:** Use the {{TextWatermarkerBold}} method to add your watermark(s) to the document. Save the result, ideally to a new file for safety."
     }
   },
   "more_features": {
-    "title": "Deep dive into Adding Watermarks",
-    "description": "Leverage our powerful API to render, display, convert, and manage documents, slides, diagrams, and various other document types within .NET applications. GroupDocs.Watermark seamlessly integrates watermarking capabilities to enhance document security and copyright protection.",
+    "title": "Explore More Watermarking Features",
+    "description": "Use our Python API to add, view, convert, and manage watermarks in documents, slides, diagrams, and more. {{ProdFullName}} helps you protect your files and add copyright information easily.",
     "image_description": "Add Watermark",
     "feature_1": {
-      "title": "Watermark Your Documents Effortlessly",
-      "content": "{{ProdShortName}} empowers .NET developers to easily integrate watermarking into their applications. Add text, image, or dynamic watermarks to popular business documents and files effortlessly, ensuring your content is secure and branded consistently across all platforms."
+      "title": "Add Watermarks Easily",
+      "content": "{{ProdShortName}} lets Python developers quickly add text, image, or dynamic watermarks to business documents. Keep your files secure and branded with minimal effort."
     },
     "feature_2": {
-      "title": "Tailor Watermarks to Meet Your Needs",
-      "content": "Customize watermarks to match your specific requirements with extensive features supported by GroupDocs.Watermark. Adjust size, rotation, transparency, color, and font to ensure your watermark not only looks perfect but also enhances document security without obstructing important information."
+      "title": "Fully Customizable Watermarks",
+      "content": "Change watermark size, rotation, transparency, color, and font with {{ProdShortName}}. Make your watermark fit your document perfectly and keep important content visible."
     },
     "feature_3": {
-      "title": "Harness Native Document Features for Watermarking",
-      "content": "Utilize the inherent features of document formats for sophisticated watermarking. Whether it’s using native PDF annotations, MS Word backgrounds, or Excel headers and footers, GroupDocs.Watermark integrates deeply with document structures to apply watermarks that are both effective and minimally invasive."
+      "title": "Use Document Features for Watermarking",
+      "content": "Take advantage of built-in document features like PDF annotations, Word backgrounds, or Excel headers to add watermarks. {{ProdShortName}} works with document structures for effective, non-intrusive watermarking."
     },
     "code_1": {
-      "title": "Generate image watermark for DOCX",
-      "content": "This example shows how to apply image effects to the shape watermarks.",
-      "comment_1": "Load Word document",
-      "comment_2": "Set up watermark options",
-      "comment_3": "Generate watermark",
-      "comment_4": "Save updated document"
+      "title": "Add an Image Watermark to DOCX",
+      "content": "This example shows how to apply image effects to shape watermarks.",
+      "comment_1": "Open a Word document",
+      "comment_2": "Set watermark options",
+      "comment_3": "Create the watermark",
+      "comment_4": "Save the document with the watermark"
     }
   },
   "excel": {
     "ext": "xslx",
     "head": {
-      "title": "Generate Watermark for Excel Spreadsheets",
-      "description": "Automate image watermarking with .NET C# for consistent security. Handle large batches of images efficiently."
+      "title": "Add Watermarks to Excel Files",
+      "description": "Automatically add image watermarks to Excel files with Python. Process many files at once for consistent protection."
     },
     "header": {
-      "title": "Add Dynamic Watermarks in Excel Using .NET C#",
-      "description": "Automate the application of dynamic text or image watermarks across your Excel files using C#. Our tutorials show you how to maintain consistency and professionalism, with minimal manual intervention required.",
+      "title": "Add Watermarks to Excel with Python",
+      "description": "Easily add text or image watermarks to Excel files using Python. Our guides show you how to keep your spreadsheets professional and secure with little manual work.",
       "subtitle": "{{ProdFullName}} API",
-      "action_title": "Free {{PackageStoreName}} download"
+      "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} enables seamless integration of watermarks into Excel spreadsheets, providing businesses with the tools necessary to secure and personalize their documents. This C# library supports a variety of watermark types and allows for detailed customization, including opacity, rotation, and alignment adjustments. Additionally, it comes equipped with advanced search capabilities to detect and manage existing watermarks, ensuring your spreadsheets are protected against tampering and unauthorized disclosures."
+      "content": "{{ProdFullName}} lets you add watermarks to Excel spreadsheets in Python. You can use different watermark types and customize opacity, rotation, and alignment. The library also helps you find and manage existing watermarks to keep your files safe from tampering."
     },
     "formats": {
-      "title": "Embedding text and image Watermarks in Excel using {{ProgLang}}",
-      "description": "Utilize the GroupDocs.Watermark C# API to efficiently add custom watermarks to Excel spreadsheets. Enhance document security and corporate branding with tools designed for fast and flexible watermark integration."
+      "title": "Add Text and Image Watermarks to Excel with {{ProgLang}}",
+      "description": "Use {{ProdShortName}} to quickly add custom watermarks to Excel files. Improve document security and branding with flexible watermarking tools."
     }
   },
   "word": {
     "ext": "docx",
     "head": {
-      "title": "Generate Word Document Watermark",
-      "description": "Streamline Word document workflows with watermarks. Reflect your brand's integrity professionally."
+      "title": "Add Watermarks to Word Documents",
+      "description": "Easily add watermarks to Word files to protect your brand and content."
     },
     "header": {
-      "title": "Create dynamic Watermarks in Word and OpenOffice with C#",
-      "description": "Deploy watermarks strategically within your Word documents using our robust C# toolkit. Customize to fit brand standards or security requirements with ease.",
+      "title": "Create Watermarks in Word and OpenOffice with Python",
+      "description": "Add watermarks to your Word documents using our Python library. Customize them to match your brand or security needs.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} transforms your ability to watermark Microsoft Word documents. This versatile API integrates seamlessly into your development environment, enabling the addition of sophisticated text and image watermarks that can be positioned absolutely or relatively within the document. It supports DOC, DOCX, and RTF formats, providing flexibility across multiple Word versions. Enhance your documents with watermarks that are not only secure but also subtly blend with the content, preserving readability and layout integrity."
+      "content": "{{ProdFullName}} makes it simple to add text and image watermarks to Microsoft Word documents in Python. You can place watermarks exactly where you want, and it works with DOC, DOCX, and RTF files. Watermarks blend in with your content, keeping your documents readable and secure."
     },
     "formats": {
-      "title": "{{ProgLang}} Powered Watermarking in Word and OpenOffice",
-      "description": "Maximize the impact of your MS Word and OpenOffice documents with custom-designed watermarks that offer both protection and professionalism. Our C# API makes it simple to apply precise and appealing watermarks."
+      "title": "Watermark Word and OpenOffice Files with {{ProgLang}}",
+      "description": "Add professional watermarks to your Word and OpenOffice documents using our Python API. Protect your files and keep them looking great."
     }
   },
   "image": {
     "ext": "jpeg",
     "head": {
-      "title": "Watermarking images with .NET C#",
-      "description": "Learn to apply seamless watermarks on images using .NET C#. Protect your assets without compromising quality."
+      "title": "Watermark Images with Python",
+      "description": "Learn how to add watermarks to images in Python. Protect your pictures without losing quality."
     },
     "header": {
-      "title": "Rapid Custom Watermarking for Images Using {{EnvName}}",
-      "description": "Our .NET C# tool provides a swift solution for embedding watermarks into images. Support for extensive image formats ensures full coverage from photos to digital artwork.",
+      "title": "Quick Image Watermarking with {{EnvName}}",
+      "description": "Our Python tool lets you quickly add watermarks to images. Supports many formats, from photos to digital art.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is designed to automate the watermarking process for images, supporting a wide array of formats such as JPEG, PNG, BMP, and TIFF. This robust API allows for the quick insertion of text and image watermarks that are adjustable in opacity, size, and position, tailored to your specific requirements. Whether it's for protecting copyrights or enhancing marketing materials, our toolkit ensures that watermarks are applied with high fidelity and minimal impact on the original image quality."
+      "content": "{{ProdFullName}} helps you add watermarks to images in Python. It supports JPEG, PNG, BMP, TIFF, and more. You can change the watermark’s opacity, size, and position to fit your needs. Use it to protect your images or add branding, all while keeping the original quality."
     },
     "formats": {
-      "title": "Implement Watermarks Quickly Across Image Formats via {{ProgLang}}",
-      "description": "Enhance your image protection with our .NET C# toolkit, capable of handling various image formats with speed and efficiency. Tailor your watermarks to blend perfectly with your visual content."
+      "title": "Add Watermarks to Images with {{ProgLang}}",
+      "description": "Protect your images with our Python toolkit. Add watermarks to many image formats quickly and easily."
     }
   },
   "photo": {
     "ext": "png",
     "head": {
-      "title": "Watermark your Photos Quickly & Easily",
-      "description": "Quickly secure and claim copyright on your photos with .NET C# watermarks. Start protecting your work today."
+      "title": "Easily Watermark Your Photos",
+      "description": "Add watermarks to your photos in Python to protect your work and copyright."
     },
     "header": {
-      "title": "Fast and Easy Photo Watermarking with {{EnvName}}",
-      "description": "Our powerful C# library allows for rapid watermarking of your photos, helping you secure copyright and enhance brand identity without compromising image quality.",
+      "title": "Fast Photo Watermarking with {{EnvName}}",
+      "description": "Use our Python library to quickly add watermarks to your photos. Protect your copyright and brand without losing image quality.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} offers a powerful solution for photographer's services looking to protect their copyright and brand identity. This API enables the quick addition of text or graphic watermarks to photos across a variety of formats including JPEG, PNG, and RAW. Customize your watermarks for transparency, size, and position to blend seamlessly with the photo, maintaining aesthetic quality while asserting your legal rights and deterring unauthorized use."
+      "content": "{{ProdFullName}} is great for photographers who want to protect their work. Add text or image watermarks to photos in formats like JPEG, PNG, and RAW. Adjust transparency, size, and position so your watermark fits perfectly and your photo still looks good."
     },
     "formats": {
-      "title": "Safeguard Your Photos with Effective Watermarks {{ProgLang}}",
-      "description": "Secure and stylize your photographic content with customizable watermarks using our .NET C# API, designed to integrate seamlessly and preserve image quality."
+      "title": "Protect Your Photos with Watermarks in {{ProgLang}}",
+      "description": "Add custom watermarks to your photos using our Python API. Keep your images safe and looking professional."
     }
   },
   "powerpoint": {
     "ext": "pptx",
     "head": {
-      "title": "Create advanced Watermarks features for Presentations",
-      "description": "Use advanced techniques to create impactful watermarks for presentations. Ensure content security seamlessly."
+      "title": "Add Watermarks to Presentations",
+      "description": "Easily add watermarks to your PowerPoint slides for extra security."
     },
     "header": {
-      "title": "Innovate your presentations with advanced watermarking in C#",
-      "description": "Embed cutting-edge text and image watermarks into your PowerPoint slides using our C# API. Perfect for enhancing security and professional appeal in presentations.",
+      "title": "Advanced Watermarking for Presentations in Python",
+      "description": "Add text and image watermarks to PowerPoint slides with our Python API. Great for keeping your presentations secure and professional.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is engineered to facilitate the insertion of advanced watermarks in PowerPoint presentations efficiently. Whether you're dealing with confidential information or looking to augment your company’s branding on slides, our API offers robust watermarking solutions that can be adapted to individual slides or entire presentations. From simple text marks to elaborate logos, tailor your watermark’s appearance and placement to seamlessly integrate with your slide designs while providing an added layer of security."
+      "content": "{{ProdFullName}} lets you add advanced watermarks to PowerPoint presentations in Python. Protect confidential info or add your company’s logo to slides. You can add watermarks to single slides or the whole presentation, and adjust how they look and where they appear."
     },
     "formats": {
-      "title": "Protect and personalize Presentations with Watermarks in {{ProgLang}}",
-      "description": "Employ our C# toolkit to quickly apply custom watermarks that preserve the integrity and aesthetics of your PowerPoint presentations. Ideal for professional and educational environments."
+      "title": "Watermark Presentations with {{ProgLang}}",
+      "description": "Use our Python toolkit to quickly add watermarks to PowerPoint files. Keep your slides secure and looking sharp."
     }
   }
 }

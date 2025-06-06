@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\add\\format_python.yml" %>
+﻿<% configRef "..\\configs\\add\\format_python.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -69,20 +69,21 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.common as gwс
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            using (ImageWatermark watermark = new ImageWatermark("watermark.png"))
-            {
-                watermarker.Add(watermark);
-            }
-            // <% "{examples.comment_4}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
-        }
-        
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% get "fileformat" %>") as watermarker:
+
+            # <% "{examples.comment_3}" %>
+            watermark = gww.ImageWatermark("watermark.png")
+
+            watermarker.add(watermark)
+
+            # <% "{examples.comment_4}" %>
+            watermarker.save("output.<% get "fileformat" %>")
         ```  
 
 ############################# More features ############################
@@ -112,33 +113,28 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
-        
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PresentationLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                TextWatermark watermark = new TextWatermark("Protected image", new Font("Arial", 8));
-                watermark.HorizontalAlignment = HorizontalAlignment.Center;
-                watermark.VerticalAlignment = VerticalAlignment.Center;
-                watermark.RotateAngle = 45;
-                watermark.SizingType = SizingType.ScaleToParentDimensions;
-                watermark.ScaleFactor = 1;
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.options as gwo
+        import groupdocs.watermark.options.presentation as gwop
 
-                //  <% "{more_features.code_1.comment_3}" %>
-                PresentationContent content = watermarker.GetContent<PresentationContent>();
-                foreach (PresentationSlide slide in content.Slides)
-                {
-                    if (slide.ImageFillFormat.BackgroundImage != null)
-                    {
-                        slide.ImageFillFormat.BackgroundImage.Add(watermark);
-                    }
-                }
+        # <% "{more_features.code_1.comment_1}" %>
+        load_options = gwop.PresentationLoadOptions()
+        with gw.Watermarker("source.pptx", load_options) as watermarker:
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pptx");
-            }
+            # <% "{more_features.code_1.comment_2}" %>
+            with TextWatermark("Protected image", gww.Font("Arial", 8.0)) as watermark:
 
+                watermark.horizontal_alignment = gwс.HorizontalAlignment.CENTER
+                watermark.vertical_alignment = gwс.VerticalAlignment.CENTER
+                watermark.rotate_angle = 45
+                watermark.scale_factor = 1
+
+                # <% "{more_features.code_1.comment_3}" %>
+                watermarker.add(watermark)
+
+                # <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.pptx")
         ```
         {{< /landing/code >}}
 

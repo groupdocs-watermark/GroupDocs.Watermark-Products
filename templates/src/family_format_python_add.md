@@ -1,4 +1,4 @@
-<% configRef "..\\configs\\add\\family_format_python.yml" %>
+﻿<% configRef "..\\configs\\add\\family_format_python.yml" %>
 <% include "..\\data\\format_data.md" %>
 
 ---
@@ -69,22 +69,26 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.common as gwс
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            Font font = new Font("Arial", 19, FontStyle.Bold | FontStyle.Italic);
-            TextWatermark watermark = new TextWatermark("my watermark", font);
-            watermark.ForegroundColor = Color.Red;
-            watermark.BackgroundColor = Color.Blue;
-            watermarker.Add(watermark);
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% (dict "{fileformat}.ext") %>") as watermarker:
 
-            // <% "{examples.comment_4}" %>
-            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
-        }
-        
+            # <% "{examples.comment_3}" %>
+            font = gww.Font("Arial", 36.0)
+            watermark = gww.TextWatermark("top secret", font)
+            watermark.foreground_color = gww.Color.red
+            watermark.horizontal_alignment = gwс.HorizontalAlignment.CENTER
+            watermark.vertical_alignment = gwс.VerticalAlignment.CENTER
+            watermark.opacity = 0.4
+
+            watermarker.add(watermark)
+
+            # <% "{examples.comment_4}" %>
+            watermarker.save("output.<% (dict "{fileformat}.ext") %>")
         ```            
 
 
@@ -115,32 +119,31 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
-        
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new WordProcessingLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                using (ImageWatermark watermark = new ImageWatermark("logo.png"))
-                {
-                    WordProcessingImageEffects effects = new WordProcessingImageEffects();
-                    effects.Brightness = 0.7;
-                    effects.Contrast = 0.6;
-                    effects.ChromaKey = Color.Red;
-                    effects.BorderLineFormat.Enabled = true;
-                    effects.BorderLineFormat.Weight = 1;
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.options as gwo
+        import groupdocs.watermark.options.wordprocessing as gwow
 
-                    WordProcessingWatermarkSectionOptions options = new WordProcessingWatermarkSectionOptions();
-                    options.Effects = effects;
+        # <% "{more_features.code_1.comment_1}" %>
+        load_options = gwow.WordProcessingLoadOptions()
+        with gw.Watermarker("source.docx", load_options) as watermarker:
 
-                    //  <% "{more_features.code_1.comment_3}" %>
-                    watermarker.Add(watermark, options);
-                }
+            # <% "{more_features.code_1.comment_2}" %>
+            with gww.ImageWatermark("logo.png") as watermark:
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.docx");
-            }
+                effects = gwow.WordProcessingImageEffects()
+                effects.brightness = 0.7
+                effects.contrast = 0.6
+                effects.chroma_key = gww.Color.red
 
+                options = gwow.WordProcessingWatermarkSectionOptions()
+                options.Effects = effects;
+
+                # <% "{more_features.code_1.comment_3}" %>
+                watermarker.add(watermark, options)
+
+                # <% "{more_features.code_1.comment_4}" %>
+                watermarker.save("result.docx")
         ```
         {{< /landing/code >}}
 

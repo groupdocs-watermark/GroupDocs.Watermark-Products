@@ -69,20 +69,21 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-            imageSearchCriteria.MaxDifference = 0.9;
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% get "fileformat" %>") as watermarker:
 
-            // <% "{examples.comment_4}" %>
-            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
-        }
-        
+            # <% "{examples.comment_3}" %>
+            search_criteria = gwss.ImageDctHashSearchCriteria("watermark.jpeg")
+            search_criteria.MaxDifference = 0.9
+            possible_watermarks = watermarker.search(search_criteria)
+
+            # <% "{examples.comment_4}" %>
+            print("\nFound {0} possible watermark(s).".format(len(possible_watermarks)))
+       
         ```  
 
 ############################# More features ############################
@@ -112,25 +113,24 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
-        
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new SpreadsheetLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria("watermark.png");
-                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
+        import groupdocs.watermark.options.spreadsheet as gwos
 
-                //  <% "{more_features.code_1.comment_3}" %>
-                foreach (PossibleWatermark watermark in watermarks)
-                {
-                    //...
-                }
+        # <% "{more_features.code_1.comment_1}" %>
+        load_options = gwos.SpreadsheetLoadOptions()
+        with gw.Watermarker("source.xlsx", load_options) as watermarker:
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.xlsx");
-            }
+            # <% "{more_features.code_1.comment_2}" %>
+            criteria = gwss.ImageColorHistogramSearchCriteria("watermark.png")
+            criteria.MaxDifference = 0.5
+            criteria.bins_count = 2
 
+            # <% "{more_features.code_1.comment_3}" %>
+            possible_watermarks = watermarker.search(criteria)
+
+            # <% "{more_features.code_1.comment_4}" %>
+            print("Found {0} possible watermark(s).".format(len(possible_watermarks)))        
         ```
         {{< /landing/code >}}
 

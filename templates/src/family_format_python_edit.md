@@ -69,27 +69,25 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% (dict "{fileformat}.ext") %>") as watermarker:
 
-            foreach (PossibleWatermark watermark in watermarks)
-            {
-                 // <% "{examples.comment_4}" %>
-                 watermark.FormattedTextFragments.Clear();
-                 watermark.FormattedTextFragments.Add("passed", 
-                    new Font("Calibri", 19, FontStyle.Bold), Color.Red, Color.Aqua);
-            }
+            # <% "{examples.comment_3}" %>
+            search_criteria = gwss.TextSearchCriteria("test", False)
 
-            // <% "{examples.comment_5}" %>
-            watermarker.Save("output.<% (dict "{fileformat}.ext") %>");
-        }
-        
+            possible_watermarks = watermarker.search(search_criteria)
+                for watermark in possible_watermarks:
+                    try:
+                        # <% "{examples.comment_4}" %>
+                        watermark.text = "passed"
+                    except Exception as e:
+                        pass
+            
+            watermarker.save("output.<% (dict "{fileformat}.ext") %>")
         ```            
 
 ############################# More features ############################
@@ -119,27 +117,34 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
+        # <% "{more_features.code_1.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.watermarks as gww
+        import groupdocs.watermark.search.searchcriteria as gwss
+        import groupdocs.watermark.options.spreadsheet as gwos
+
+        # <% "{more_features.code_1.comment_2}" %>
+        with gw.Watermarker("source.xlsx") as watermarker:
+
+            search_criteria = gwss.TextSearchCriteria("test", False)
+            search_criteria.pages = [1,3]
+
+            # <% "{more_features.code_1.comment_3}" %>
+            watermarks = watermarker.search(search_criteria)
+            for watermark in watermarks:
+                try:
+                    watermark.formatted_text_fragments.clear()
+                    watermark.formatted_text_fragments.add(
+                       "passed", 
+                        gww.Font("Calibri", 19.0, gww.FontStyle.bold), 
+                        gww.Color.red, 
+                        gww.Color.aqua
+                    )
+                except Exception as e:
+                    pass
         
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new SpreadsheetLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                SpreadsheetContent content = watermarker.GetContent<SpreadsheetContent>();
-
-                //  <% "{more_features.code_1.comment_3}" %>
-                foreach (SpreadsheetShape shape in content.Worksheets[0].Shapes)
-                {
-                    if (shape.Text == "GroupDocs 2016")
-                    {
-                        shape.Text = "GroupDocs 2017";
-                    }
-                }
-
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.xlsx");
-            }
-
+            # <% "{more_features.code_1.comment_4}" %>
+            watermarker.save("output.xlsx")
         ```
         {{< /landing/code >}}
 

@@ -69,23 +69,19 @@ steps:
           
       content: |
         ```python {style=abap}
-        // <% "{examples.comment_1}" %>
+        # <% "{examples.comment_1}" %>
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% (dict "{fileformat}.ext") %>"))
-        {
-            // <% "{examples.comment_3}" %>
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search();
+        # <% "{examples.comment_2}" %>
+        with gw.Watermarker("input.<% (dict "{fileformat}.ext") %>") as watermarker:
 
-            // <% "{examples.comment_4}" %>
-            foreach (PossibleWatermark possibleWatermark in possibleWatermarks)
-            {
-                Console.WriteLine(possibleWatermark.Text);
-                Console.WriteLine(possibleWatermark.Width);
-                Console.WriteLine(possibleWatermark.Height);
-            }
-        }
-        
+            # <% "{examples.comment_3}" %>
+            search_criteria = gwss.TextSearchCriteria("test", False)
+            possible_watermarks = watermarker.search(search_criteria)
+
+            # <% "{examples.comment_4}" %>
+            print("\nFound {0} possible watermark(s).".format(len(possible_watermarks)))
         ```            
 
 ############################# More features ############################
@@ -115,22 +111,33 @@ more_features:
         <% "{more_features.code_1.content}" %>
         {{< landing/code title="Python">}}
         ```python {style=abap}
-        
-            //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new WordProcessingLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.docx", loadOptions))
-            {
-                //  <% "{more_features.code_1.comment_2}" %>
-                Regex regex = new Regex(@"^© \d{4}$");
+        import groupdocs.watermark as gw
+        import groupdocs.watermark.search.searchcriteria as gwss
+        import groupdocs.watermark.options.spreadsheet as gwos
 
-                //  <% "{more_features.code_1.comment_3}" %>
-                TextSearchCriteria textSearchCriteria = new TextSearchCriteria(regex);
-                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(textSearchCriteria);
+        # <% "{more_features.code_1.comment_1}" %>
+        load_options = gwos.SpreadsheetLoadOptions()
+        with gw.Watermarker("source.xlsx", load_options) as watermarker:
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
-            }
+            # <% "{more_features.code_1.comment_2}" %>
+            criteria = gwss.TextFormattingSearchCriteria()
+            criteria.foreground_color_range = gwss.ColorRange()
+            criteria.foreground_color_range.min_hue = -5.0
+            criteria.foreground_color_range.max_hue = 10.0
+            criteria.foreground_color_range.min_brightness = 0.01
+            criteria.foreground_color_range.max_brightness = 0.99
+            criteria.background_color_range = gwss.ColorRange()
+            criteria.background_color_range.is_empty = True
+            criteria.font_name = "Arial"
+            criteria.min_font_size = 19.0
+            criteria.max_font_size = 42.0
+            criteria.font_bold = True
 
+            # <% "{more_features.code_1.comment_3}" %>
+            possible_watermarks = watermarker.search(criteria)
+
+            # <% "{more_features.code_1.comment_4}" %>
+            print("Found {0} possible watermark(s).".format(len(possible_watermarks)))
         ```
         {{< /landing/code >}}
 

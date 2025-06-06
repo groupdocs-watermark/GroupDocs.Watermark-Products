@@ -1,203 +1,203 @@
 {
   "examples": {
-    "comment_1": "Find image watermarks placed in {{FileFormatUp}}",
-    "comment_2": "Construct {{TextWatermarker}} passing {{FileFormatUp}} path",
-    "comment_3": "Find watermarks using search options",
-    "comment_4": "Process watermarks info"
+    "comment_1": "Search for image watermarks inside {{FileFormatUp}}",
+    "comment_2": "Create a {{TextWatermarker}} instance using the path to {{FileFormatUp}}",
+    "comment_3": "Use search settings to find watermarks",
+    "comment_4": "Handle the found watermark results"
   },
   "steps": {
-    "title": "Efficiently Find {{FileformatCap}} Watermarks with {{EnvName}}",
+    "title": "Easily Detect {{FileformatCap}} Watermarks Using {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** offers a robust solution for programmatically finding watermarks within various business document formats. Integrate our package into your {{EnvName}} applications to empower them with watermark finding capabilities.",
-      "step_1": "To exploit the functionalities of our library, instantiate the {{TextWatermarkerBold}} class and provide the {{FileformatCap}} file path, file stream, or byte stream as input. This action loads the document for watermark analysis.",
-      "step_2": "For targeted watermark identification, leverage the {{TextSearchCriteriaBold}} object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other pertinent parameters to refine the search criteria.",
-      "step_3": "Employ the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.",
-      "step_4": "The retrieved collection of watermark objects grants you precise control. You can programmatically remove unwanted watermarks or dynamically modify their properties, such as adjusting their size or text content, to suit your specific requirements."
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** makes it easy to detect watermarks in different types of business documents. Add this tool to your {{EnvName}} project to enable watermark detection features.",
+      "step_1": "To begin, initialize the {{TextWatermarkerBold}} class and load your {{FileformatCap}} document using a file path, file stream, or byte array. This prepares the file for watermark search.",
+      "step_2": "To narrow your search, use the {{TextSearchCriteriaBold}} class. For image watermarks, provide a sample image. For text, set details like font, size, color, or other related attributes.",
+      "step_3": "Call the {{TextSearchBold}} method from the {{TextWatermarkerBold}} instance to start the search. It returns a list of found watermark items for you to work with.",
+      "step_4": "With the list of watermark items, you can remove or edit them as needed. For example, you might want to update their size or text."
     }
   },
   "more_features": {
-    "title": "Advanced Watermark Search Techniques Using C# with {{ProdShortName}}",
-    "description": "Delve into powerful watermark searching capabilities using the {{ProdShortName}} C# API, tailored for developers within the {{EnvName}} platform.",
-    "image_description": "C# Watermark Search",
+    "title": "Advanced Watermark Detection in Python with {{ProdShortName}}",
+    "description": "Explore powerful watermark search options in the {{ProdShortName}} Python API, designed for use in {{EnvName}} projects.",
+    "image_description": "Python Watermark Search",
     "feature_1": {
-      "title": "Streamlined Watermark Detection in C#",
-      "content": "Utilize {{ProdShortName}} to implement streamlined watermark detection within your C# applications. Benefit from advanced search functions to locate watermarks quickly and accurately."
+      "title": "Simple and Fast Watermark Detection",
+      "content": "Use {{ProdShortName}} to quickly find watermarks in your Python code. The smart search engine helps you locate watermarks with ease."
     },
     "feature_2": {
-      "title": "Precise Watermark Search with C#",
-      "content": "Enhance your document security protocols by precisely searching for watermarks in C#. Configure {{ProdShortName}} to find watermarks based on specific characteristics such as size, color, and placement."
+      "title": "Find Specific Watermarks with Accuracy",
+      "content": "Protect your files by finding watermarks based on color, size, or location. {{ProdShortName}} makes it easy to configure search filters in Python."
     },
     "feature_3": {
-      "title": "C# Integration for Effective Watermark Management",
-      "content": "Integrate {{ProdShortName}} into your C# projects to effectively manage document watermarks. Our API provides powerful tools to search, analyze, and report on watermark usage, ensuring compliance and brand consistency."
+      "title": "Python Tools for Full Watermark Control",
+      "content": "Add {{ProdShortName}} to your Python apps to search, inspect, and track watermark usage. Great for audits, branding, or content protection."
     },
     "code_1": {
-      "title": "C# Example: Comprehensive Watermark Search",
-      "content": "Explore this detailed example of how to use C# with {{ProdShortName}} for comprehensive watermark search capabilities, including handling multiple document types and complex search criteria.",
-      "comment_1": "Initialize the C# application and prepare the document loading mechanism",
-      "comment_2": "Set search parameters to target specific watermark attributes",
-      "comment_3": "Perform the search across documents and gather watermark details",
-      "comment_4": "Analyze and process watermark data for further administrative or compliance actions"
+      "title": "Python Sample: Full Watermark Detection Flow",
+      "content": "See how to use {{ProdShortName}} in Python to search through documents, handle multiple formats, and use complex filters.",
+      "comment_1": "Set up your Python app and load the document",
+      "comment_2": "Define what kind of watermark to look for",
+      "comment_3": "Run the search and gather watermark data",
+      "comment_4": "Use the found info for further steps like removal or review"
     }
   },
   "doc": {
     "head": {
-      "title": "Unveil Secret Watermarks in {{FileFormatUp}} documents",
-      "description": "Discover hidden watermarks in documents effortlessly with {{ProdFullName}}."
+      "title": "Detect Hidden Watermarks in {{FileFormatUp}} Files",
+      "description": "Easily find invisible watermarks in documents using {{ProdFullName}}."
     },
     "header": {
-      "title": "Find Hidden Watermarks Effortlessly in {{FileFormatUp}} documents",
-      "description": "Quickly uncover and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Find Watermarks in {{FileFormatUp}} Files with Ease",
+      "description": "Use {{ProdFullName}} to quickly detect and manage hidden watermarks.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download {{PackageStoreName}} package"
+      "action_title": "Download the {{PackageStoreName}} package"
     },
     "about": {
-      "title": "Get info {{ProdFullName}}",
-      "content": "{{ProdFullName}} is a powerful solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Easily involve watermark management into your applications with {{ProdFullName}}."
+      "title": "Learn About {{ProdFullName}}",
+      "content": "{{ProdFullName}} helps you handle watermarks in {{EnvName}}. You can create, find, edit, and delete watermarks in PDFs, Word, Excel, and more. Add watermark tools to your Python projects with {{ProdFullName}}."
     },
     "formats": {
-      "title": "Explore Supported Formats for Watermark Finding",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Supported File Formats for Watermark Search",
+      "description": "Quickly find and work with watermarks in many different document types."
     }
   },
   "docx": {
     "head": {
-      "title": "Discover Hidden Watermarks in {{FileFormatUp}} documents",
-      "description": "Effortlessly discover hidden watermarks in documents with {{ProdFullName}}."
+      "title": "Find Hidden Watermarks in {{FileFormatUp}} Documents",
+      "description": "Use {{ProdFullName}} to easily detect hidden watermarks in your files."
     },
     "header": {
-      "title": "Effortlessly Locate Hidden Watermarks in {{FileFormatUp}} documents",
-      "description": "Quickly locate and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Easily Find Watermarks in {{FileFormatUp}} Files",
+      "description": "Use {{ProdFullName}} to quickly spot and handle watermarks.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Free {{PackageStoreName}} Download"
+      "action_title": "Get the free {{PackageStoreName}} package"
     },
     "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "{{ProdFullName}} offers a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from a variety of document formats including PDF, Microsoft Word, Excel, and more. Seamlessly integrate watermark management into your applications with {{ProdFullName}}."
+      "title": "Explore {{ProdFullName}} Features",
+      "content": "{{ProdFullName}} gives you all the tools for watermark work in {{EnvName}}. It supports adding, removing, and detecting watermarks in formats like PDF, Word, Excel, and others. Bring watermark support into your apps with {{ProdFullName}}."
     },
     "formats": {
-      "title": "Discover Watermarks in Multiple File Formats",
-      "description": "Effortlessly identify and manage watermarks in multiple supported file formats."
+      "title": "Work with Watermarks in Many Formats",
+      "description": "Easily detect and manage watermarks across various file formats."
     }
   },
   "pdf": {
     "head": {
-      "title": "Uncover {{FileFormatUp}} Documents Hidden Watermarks",
-      "description": "Effortlessly uncover hidden watermarks within documents with {{ProdFullName}}."
+      "title": "Find Watermarks in {{FileFormatUp}} PDFs",
+      "description": "Easily detect watermarks in PDF documents using {{ProdFullName}}."
     },
     "header": {
-      "title": "Uncover {{FileFormatUp}} Documents Hidden Watermarks Instantly",
-      "description": "Quickly unveil and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Quickly Find Watermarks in {{FileFormatUp}} PDFs",
+      "description": "Use {{ProdFullName}} to scan and manage hidden PDF watermarks.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "{{PackageStoreName}} package for free"
+      "action_title": "Get the {{PackageStoreName}} package for free"
     },
     "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Integrate watermark search into your applications by {{ProdFullName}}."
+      "title": "What is {{ProdFullName}}?",
+      "content": "{{ProdFullName}} makes it easy to work with watermarks in {{EnvName}}. You can use it to create, detect, or delete watermarks in many file types like PDFs, Word docs, and spreadsheets. Add it to your Python workflow."
     },
     "formats": {
-      "title": "Uncover Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Find Watermarks in Many File Types",
+      "description": "Easily find and deal with watermarks in a wide variety of file formats."
     }
   },
   "ppt": {
     "head": {
-      "title": "Explore {{FileFormatUp}} Presentations Hidden Watermarks",
-      "description": "Explore hidden watermarks within documents effortlessly with {{ProdFullName}}."
+      "title": "Detect Watermarks in {{FileFormatUp}} Presentations",
+      "description": "Use {{ProdFullName}} to find watermarks in presentation files with ease."
     },
     "header": {
-      "title": "Effortlessly Explore {{FileFormatUp}} Presentations Hidden Watermarks",
-      "description": "Quickly explore and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Find Watermarks in {{FileFormatUp}} Slides Quickly",
+      "description": "Use {{ProdFullName}} to easily search and manage watermarks in presentations.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
+      "action_title": "Get it from {{PackageStoreName}} for free"
     },
     "about": {
-      "title": "{{ProdFullName}} Base Information",
-      "content": "{{ProdFullName}} offers a robust solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. {{ProdFullName}} provides watermark management for your applications."
+      "title": "All About {{ProdFullName}}",
+      "content": "{{ProdFullName}} gives you tools to manage watermarks in {{EnvName}}. Work with PDFs, Word, Excel, and more. Search, create, or delete watermarks in your Python apps easily with {{ProdFullName}}."
     },
     "formats": {
-      "title": "Explore Watermarks Across Multiple Formats",
-      "description": "Effortlessly identify and manage watermarks across a wide range of supported file formats."
+      "title": "Detect Watermarks in All Supported Formats",
+      "description": "Find and manage watermarks in many common document types."
     }
   },
   "pptx": {
     "head": {
-      "title": "Reveal Concealed Watermarks in {{FileFormatUp}} Presentations",
-      "description": "Reveal concealed watermarks within documents effortlessly with {{ProdFullName}}."
+      "title": "Find Hidden Watermarks in {{FileFormatUp}} Slides",
+      "description": "Use {{ProdFullName}} to reveal hidden watermarks in presentation files."
     },
     "header": {
-      "title": "Reveal Hidden Watermarks Instantly in {{FileFormatUp}} Presentations",
-      "description": "Quickly reveal and manage concealed watermarks with {{ProdFullName}}.",
+      "title": "Quickly Reveal Watermarks in {{FileFormatUp}} Presentations",
+      "description": "Easily detect and manage watermarks with {{ProdFullName}}.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Get from {{PackageStoreName}}"
+      "action_title": "Download from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Involve watermark search into your applications using {{ProdFullName}}."
+      "title": "{{ProdFullName}} Overview",
+      "content": "{{ProdFullName}} gives you full control over watermarks in {{EnvName}}. It works with many file types—PDF, Excel, Word—and integrates smoothly into Python apps."
     },
     "formats": {
-      "title": "Reveal Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Find Watermarks in All File Types",
+      "description": "Use {{ProdFullName}} to detect watermarks in multiple formats easily."
     }
   },
   "rtf": {
     "head": {
-      "title": "Detect Hidden Watermarks in {{FileFormatUp}} Documents",
-      "description": "Detect hidden watermarks within documents effortlessly with {{ProdFullName}}."
+      "title": "Spot Watermarks in {{FileFormatUp}} Documents",
+      "description": "Quickly detect watermarks in documents with {{ProdFullName}}."
     },
     "header": {
-      "title": "Detect and Manage Hidden Watermarks in {{FileFormatUp}} Documents",
-      "description": "Quickly detect and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Detect Watermarks in {{FileFormatUp}} Files",
+      "description": "Use {{ProdFullName}} to easily find and manage watermarks.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Download {{PackageStoreName}} package"
+      "action_title": "Get the {{PackageStoreName}} package"
     },
     "about": {
-      "title": "{{ProdFullName}} Information",
-      "content": "{{ProdFullName}} offers a robust solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Integrate watermark management into your applications via {{ProdFullName}} easily."
+      "title": "About {{ProdFullName}}",
+      "content": "{{ProdFullName}} makes watermark tasks simple in {{EnvName}}. It works with PDFs, Word, Excel, and more. Use it in your Python applications to search, edit, or remove watermarks."
     },
     "formats": {
-      "title": "Detect Watermarks Across Multiple Formats",
-      "description": "Effortlessly identify and manage watermarks across a wide range of supported file formats."
+      "title": "Supported Formats for Watermark Detection",
+      "description": "Use {{ProdFullName}} to find and manage watermarks across many formats."
     }
   },
   "xls": {
     "head": {
-      "title": "Spot Hidden {{FileFormatUp}} Spreadsheets Watermarks",
-      "description": "Spot hidden watermarks within documents effortlessly with {{ProdFullName}}."
+      "title": "Find Hidden Watermarks in {{FileFormatUp}} Sheets",
+      "description": "Use {{ProdFullName}} to quickly detect watermarks in spreadsheet files."
     },
     "header": {
-      "title": "Spot and Manage Hidden Watermarks in {{FileFormatUp}} Spreadsheets",
-      "description": "Quickly spot and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Detect and Manage Watermarks in {{FileFormatUp}} Sheets",
+      "description": "Easily search for watermarks with {{ProdFullName}}.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "Free {{PackageStoreName}} Download"
+      "action_title": "Free Download from {{PackageStoreName}}"
     },
     "about": {
-      "title": "Get info {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Add watermark search abilities into your applications using {{ProdFullName}}."
+      "title": "More on {{ProdFullName}}",
+      "content": "{{ProdFullName}} helps Python developers manage watermarks in {{EnvName}}. Use it for editing, removing, or locating watermarks in Excel, Word, PDF, and other formats."
     },
     "formats": {
-      "title": "Spot Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Watermark Search Across Formats",
+      "description": "Find and manage watermarks in many different supported formats."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Unmask Hidden {{FileFormatUp}} Spreadsheets Watermarks",
-      "description": "Unmask hidden watermarks within documents effortlessly with {{ProdFullName}}."
+      "title": "Detect Watermarks in {{FileFormatUp}} Excel Files",
+      "description": "Quickly find hidden watermarks using {{ProdFullName}} in Excel documents."
     },
     "header": {
-      "title": "Unmask Hidden {{FileFormatUp}} Spreadsheets Watermarks Instantly",
-      "description": "Quickly unmask and manage hidden watermarks with {{ProdFullName}}.",
+      "title": "Find Watermarks in {{FileFormatUp}} Spreadsheets",
+      "description": "Search and handle watermarks easily with {{ProdFullName}}.",
       "subtitle": "{{ProdFullName}}",
-      "action_title": "{{PackageStoreName}} package for free"
+      "action_title": "Download from {{PackageStoreName}} for Free"
     },
     "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Use {{ProdFullName}} to integrate watermark management into your applications."
+      "title": "What Can {{ProdFullName}} Do?",
+      "content": "{{ProdFullName}} makes it simple to manage watermarks using {{EnvName}}. Add it to your Python projects to detect, update, or remove watermarks in various formats like Word, Excel, and PDF."
     },
     "formats": {
-      "title": "Unmask Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Detect Watermarks in Supported File Types",
+      "description": "Use {{ProdFullName}} to detect watermarks in different document types with ease."
     }
   }
 }
