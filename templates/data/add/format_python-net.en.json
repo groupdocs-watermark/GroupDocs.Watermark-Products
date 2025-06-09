@@ -8,7 +8,7 @@
   "steps": {
     "title": "Quickly Add Watermarks to {{FileformatCap}} Files",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** A powerful Python library for {{EnvName}} that lets you add watermarks to your documents with ease.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** A powerful {{ProgLang}} library that lets you add watermarks to your documents with ease.",
       "step_1": "**Main Class: Watermarker.** Start by creating a {{TextWatermarkerBold}} object. Give it your {{FileformatCap}} file, either as a file path or a stream, to get started.",
       "step_2": "**Build Your Watermark.** Next, make a Watermark object of the type you want. You can place it on any page or even in document elements like images or headers.",
       "step_3": "**Adjust the Look.** Set up the watermark’s size, position, font, and color to match your needs.",
@@ -42,282 +42,282 @@
   },
   "doc": {
     "head": {
-      "title": "Watermark {{FileFormatUp}} Files with Python",
-      "description": "Add watermarks to {{FileFormatUp}} files in Python to keep your Word documents safe and organized."
+      "title": "Watermark {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Add watermarks to {{FileFormatUp}} files in {{ProgLang}} to keep your Word documents safe and organized."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} with Python Watermarks",
-      "description": "Use Python to add secure watermarks to {{FileFormatUp}} files—ideal for legal, business, and confidential Word documents.",
+      "title": "Protect {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Use {{ProgLang}} to add secure watermarks to {{FileFormatUp}} files—ideal for legal, business, and confidential Word documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add watermarks to {{FileFormatUp}} files in Python. Insert text or image watermarks, adjust their opacity, color, and position, and include details like dates, logos, or confidential stamps. This tool is perfect for legal, business, and sensitive documents, and works smoothly in Python environments. {{ProdShortName}} is a reliable way to keep your Word files secure and authentic."
+      "content": "{{ProdFullName}} lets you add watermarks to {{FileFormatUp}} files in {{ProgLang}}. Insert text or image watermarks, adjust their opacity, color, and position, and include details like dates, logos, or confidential stamps. This tool is perfect for legal, business, and sensitive documents, and works smoothly in {{ProgLang}} environments. {{ProdShortName}} is a reliable way to keep your Word files secure and authentic."
     },
     "formats": {
-      "title": "Python Watermarking for Word Files",
-      "description": "Use Python to add custom watermarks to {{FileFormatUp}} files, helping you protect and verify your Word documents."
+      "title": "{{ProgLang}} Watermarking for Word Files",
+      "description": "Use {{ProgLang}} to add custom watermarks to {{FileFormatUp}} files, helping you protect and verify your Word documents."
     }
   },
   "docx": {
     "head": {
-      "title": "Python Watermarking for {{FileFormatUp}} Files",
-      "description": "Add watermarks to {{FileFormatUp}} files in Python to keep your Word documents secure."
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Files",
+      "description": "Add watermarks to {{FileFormatUp}} files in {{ProgLang}} to keep your Word documents secure."
     },
     "header": {
-      "title": "Secure {{FileFormatUp}} with Python Watermarks",
-      "description": "Apply advanced watermarking to {{FileFormatUp}} files in Python—great for protecting your Word documents in any industry.",
+      "title": "Secure {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Apply advanced watermarking to {{FileFormatUp}} files in {{ProgLang}}—great for protecting your Word documents in any industry.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} brings powerful watermarking to {{FileFormatUp}} files in Python. Easily add watermarks that scale, move, and blend with your document. Use it for legal, business, or confidential files, and choose from text or image watermarks with flexible placement. {{ProdShortName}} supports the latest Python features for top-notch document protection."
+      "content": "{{ProdFullName}} brings powerful watermarking to {{FileFormatUp}} files. Easily add watermarks that scale, move, and blend with your document. Use it for legal, business, or confidential files, and choose from text or image watermarks with flexible placement. {{ProdShortName}} supports the latest {{ProgLang}} features for top-notch document protection."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Learn how to add secure, custom watermarks to {{FileFormatUp}} files in Python for better document safety and copyright control."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Learn how to add secure, custom watermarks to {{FileFormatUp}} files in {{ProgLang}} for better document safety and copyright control."
     }
   },
   "jpeg": {
     "head": {
-      "title": "Protect {{FileFormatUp}} Images with Python Watermarks",
-      "description": "Add watermarks to {{FileFormatUp}} images in Python to keep your pictures safe and secure."
+      "title": "Protect {{FileFormatUp}} Images with {{ProgLang}} Watermarks",
+      "description": "Add watermarks to {{FileFormatUp}} images in {{ProgLang}} to keep your pictures safe and secure."
     },
     "header": {
-      "title": "Advanced Python Watermarking for {{FileFormatUp}}",
-      "description": "Use Python to add flexible, secure watermarks to {{FileFormatUp}} images—perfect for artists and photographers.",
+      "title": "Advanced {{ProgLang}} Watermarking for {{FileFormatUp}}",
+      "description": "Use {{ProgLang}} to add flexible, secure watermarks to {{FileFormatUp}} images—perfect for artists and photographers.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} gives you the tools to watermark {{FileFormatUp}} images in Python. Add text, logos, or patterns, and adjust how they look so your watermark fits right in. Great for anyone who needs to protect their images online, {{ProdShortName}} keeps your work safe without lowering image quality."
+      "content": "{{ProdFullName}} gives you the tools to watermark {{FileFormatUp}} images in {{ProgLang}}. Add text, logos, or patterns, and adjust how they look so your watermark fits right in. Great for anyone who needs to protect their images online, {{ProdShortName}} keeps your work safe without lowering image quality."
     },
     "formats": {
-      "title": "Python Watermarking for {{FileFormatUp}} Images",
-      "description": "Add and manage watermarks in {{FileFormatUp}} images with Python to protect your digital content."
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Images",
+      "description": "Add and manage watermarks in {{FileFormatUp}} images with {{ProgLang}} to protect your digital content."
     }
   },
   "jpg": {
     "head": {
-      "title": "Python Watermarking for {{FileFormatUp}} Images",
-      "description": "Add watermarks to {{FileFormatUp}} images in Python to protect your digital photos."
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Images",
+      "description": "Add watermarks to {{FileFormatUp}} images in {{ProgLang}} to protect your digital photos."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} Images with Python",
-      "description": "Use Python to add strong watermarks to {{FileFormatUp}} images—ideal for copyright and ownership.",
+      "title": "Protect {{FileFormatUp}} Images with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add strong watermarks to {{FileFormatUp}} images—ideal for copyright and ownership.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add watermarks to JPG images in Python. Place text, logos, or graphics anywhere on your image, and adjust their look to match your needs. Protect your photos for personal or business use with {{ProdShortName}}, and keep your images safe from copying."
+      "content": "{{ProdFullName}} lets you add watermarks to JPG images in {{ProgLang}}. Place text, logos, or graphics anywhere on your image, and adjust their look to match your needs. Protect your photos for personal or business use with {{ProdShortName}}, and keep your images safe from copying."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add visible or hidden watermarks to {{FileFormatUp}} images for secure, recognizable content."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add visible or hidden watermarks to {{FileFormatUp}} images for secure, recognizable content."
     }
   },
   "pdf": {
     "head": {
-      "title": "Python Watermarks for {{FileFormatUp}} Documents",
-      "description": "Add watermarks to {{FileFormatUp}} files in Python to protect your important documents."
+      "title": "{{ProgLang}} Watermarks for {{FileFormatUp}} Documents",
+      "description": "Add watermarks to {{FileFormatUp}} files in {{ProgLang}} to protect your important documents."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} with Python Watermarks",
-      "description": "Use Python to add watermarks to {{FileFormatUp}} files—ideal for legal, financial, and official documents.",
+      "title": "Protect {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Use {{ProgLang}} to add watermarks to {{FileFormatUp}} files—ideal for legal, financial, and official documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a Python API for adding watermarks to {{FileFormatUp}} files. Customize your watermark’s text, images, and placement to fit any document. Use it to mark contracts, reports, or confidential files, and keep your PDFs secure and professional. {{ProdShortName}} supports transparency, rotation, and layering for advanced watermarking."
+      "content": "{{ProdFullName}} is a {{ProgLang}} API for adding watermarks to {{FileFormatUp}} files. Customize your watermark’s text, images, and placement to fit any document. Use it to mark contracts, reports, or confidential files, and keep your PDFs secure and professional. {{ProdShortName}} supports transparency, rotation, and layering for advanced watermarking."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Files with Python Watermarks",
-      "description": "Add custom watermarks to {{FileFormatUp}} files in Python to protect your sensitive and official documents."
+      "title": "Secure {{FileFormatUp}} Files with {{ProgLang}} Watermarks",
+      "description": "Add custom watermarks to {{FileFormatUp}} files in {{ProgLang}} to protect your sensitive and official documents."
     }
   },
   "png": {
     "head": {
-      "title": "Protect {{FileFormatUp}} with Python Watermarks",
-      "description": "Add watermarks to {{FileFormatUp}} images in Python for copyright and security."
+      "title": "Protect {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Add watermarks to {{FileFormatUp}} images in {{ProgLang}} for copyright and security."
     },
     "header": {
-      "title": "Python Watermarking for {{FileFormatUp}} Images",
-      "description": "Use Python to add advanced watermarks to {{FileFormatUp}} images—great for artists and designers.",
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Images",
+      "description": "Use {{ProgLang}} to add advanced watermarks to {{FileFormatUp}} images—great for artists and designers.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a Python toolkit for adding watermarks to {{FileFormatUp}} images. Add transparent or solid watermarks, position them anywhere, and keep your images safe from copying. With {{ProdShortName}}, you can use text or images as watermarks and control their look for personal or professional projects."
+      "content": "{{ProdShortName}} is a {{ProgLang}} toolkit for adding watermarks to {{FileFormatUp}} images. Add transparent or solid watermarks, position them anywhere, and keep your images safe from copying. With {{ProdShortName}}, you can use text or images as watermarks and control their look for personal or professional projects."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add subtle or bold watermarks to {{FileFormatUp}} images for flexible copyright protection."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add subtle or bold watermarks to {{FileFormatUp}} images for flexible copyright protection."
     }
   },
   "ppt": {
     "head": {
-      "title": "Python Watermarks for PowerPoint Files",
-      "description": "Add dynamic watermarks to PowerPoint files in Python to keep your presentations secure."
+      "title": "{{ProgLang}} Watermarks for PowerPoint Files",
+      "description": "Add dynamic watermarks to PowerPoint files in {{ProgLang}} to keep your presentations secure."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} with Python Watermarks",
-      "description": "Use Python to add custom watermarks to PowerPoint presentations—great for business and education.",
+      "title": "Protect {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Use {{ProgLang}} to add custom watermarks to PowerPoint presentations—great for business and education.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add watermarks to PowerPoint (PPT) files in Python. Add visible or hidden marks to your slides, and customize their style, size, and color. Perfect for keeping your presentations safe in business or school settings, {{ProdShortName}} works with all major Python versions."
+      "content": "{{ProdFullName}} lets you add watermarks to PowerPoint (PPT) files in {{ProgLang}}. Add visible or hidden marks to your slides, and customize their style, size, and color. Perfect for keeping your presentations safe in business or school settings, {{ProdShortName}} works with all major {{ProgLang}} versions."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Files with Python Watermarks",
-      "description": "Add advanced watermarks to PowerPoint files in Python to prevent misuse and protect your content."
+      "title": "Secure {{FileFormatUp}} Files with {{ProgLang}} Watermarks",
+      "description": "Add advanced watermarks to PowerPoint files in {{ProgLang}} to prevent misuse and protect your content."
     }
   },
   "pptx": {
     "head": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Protect your {{FileFormatUp}} presentations by adding watermarks in Python."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Protect your {{FileFormatUp}} presentations by adding watermarks in {{ProgLang}}."
     },
     "header": {
-      "title": "Advanced Python Watermarking for {{FileFormatUp}}",
-      "description": "Use Python to add strong watermarks to {{FileFormatUp}} files—ideal for business and education.",
+      "title": "Advanced {{ProgLang}} Watermarking for {{FileFormatUp}}",
+      "description": "Use {{ProgLang}} to add strong watermarks to {{FileFormatUp}} files—ideal for business and education.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a complete Python solution for watermarking {{FileFormatUp}} files. Add text, logos, or graphics as watermarks, and adjust their transparency, size, and position. Great for anyone who needs to protect their presentations, {{ProdShortName}} keeps your slides secure and looking good."
+      "content": "{{ProdFullName}} is a complete {{ProgLang}} solution for watermarking {{FileFormatUp}} files. Add text, logos, or graphics as watermarks, and adjust their transparency, size, and position. Great for anyone who needs to protect their presentations, {{ProdShortName}} keeps your slides secure and looking good."
     },
     "formats": {
-      "title": "Python Watermarking for {{FileFormatUp}} Files",
-      "description": "Add watermarks to {{FileFormatUp}} files in Python to keep your presentations safe from sharing or copying."
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Files",
+      "description": "Add watermarks to {{FileFormatUp}} files in {{ProgLang}} to keep your presentations safe from sharing or copying."
     }
   },
   "rtf": {
     "head": {
-      "title": "Python Watermarking for {{FileFormatUp}} Documents",
-      "description": "Add watermarks to {{FileFormatUp}} files in Python to keep your Word documents secure."
+      "title": "{{ProgLang}} Watermarking for {{FileFormatUp}} Documents",
+      "description": "Add watermarks to {{FileFormatUp}} files in {{ProgLang}} to keep your Word documents secure."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} with Python Watermarks",
-      "description": "Use Python to add secure, custom watermarks to {{FileFormatUp}} files—great for sensitive Word documents.",
+      "title": "Protect {{FileFormatUp}} with {{ProgLang}} Watermarks",
+      "description": "Use {{ProgLang}} to add secure, custom watermarks to {{FileFormatUp}} files—great for sensitive Word documents.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} gives you advanced tools to add watermarks to {{FileFormatUp}} documents in Python. Use visible or transparent marks, and adjust their font, color, size, and position. Perfect for legal, business, or confidential files, {{ProdShortName}} helps prevent copying and editing."
+      "content": "{{ProdFullName}} gives you advanced tools to add watermarks to {{FileFormatUp}} documents in {{ProgLang}}. Use visible or transparent marks, and adjust their font, color, size, and position. Perfect for legal, business, or confidential files, {{ProdShortName}} helps prevent copying and editing."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add strong and subtle watermarks to {{FileFormatUp}} files for better document security."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add strong and subtle watermarks to {{FileFormatUp}} files for better document security."
     }
   },
   "tif": {
     "head": {
-      "title": "Add Python Watermarks to {{FileFormatUp}} Images",
-      "description": "Use Python to add watermarks to {{FileFormatUp}} images and protect your photos."
+      "title": "Add {{ProgLang}} Watermarks to {{FileFormatUp}} Images",
+      "description": "Use {{ProgLang}} to add watermarks to {{FileFormatUp}} images and protect your photos."
     },
     "header": {
-      "title": "Advanced Watermarking for {{FileFormatUp}} with Python",
-      "description": "Add high-quality watermarks to {{FileFormatUp}} images in Python—great for photographers and archivists.",
+      "title": "Advanced Watermarking for {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Add high-quality watermarks to {{FileFormatUp}} images in {{ProgLang}}—great for photographers and archivists.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a Python toolkit for watermarking {{FileFormatUp}} images. Add text or image watermarks, adjust their look, and keep your high-resolution images safe. With batch processing and smart placement, {{ProdShortName}} is perfect for anyone who needs to protect lots of images at once."
+      "content": "{{ProdFullName}} is a {{ProgLang}} toolkit for watermarking {{FileFormatUp}} images. Add text or image watermarks, adjust their look, and keep your high-resolution images safe. With batch processing and smart placement, {{ProdShortName}} is perfect for anyone who needs to protect lots of images at once."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Images with Python Watermarks",
-      "description": "Add custom watermarks to {{FileFormatUp}} images in Python to prevent copying and keep your work safe."
+      "title": "Protect {{FileFormatUp}} Images with {{ProgLang}} Watermarks",
+      "description": "Add custom watermarks to {{FileFormatUp}} images in {{ProgLang}} to prevent copying and keep your work safe."
     }
   },
   "tiff": {
     "head": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Create and add watermarks to {{FileFormatUp}} images in Python to protect your digital files."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Create and add watermarks to {{FileFormatUp}} images in {{ProgLang}} to protect your digital files."
     },
     "header": {
-      "title": "Create Watermarks for {{FileFormatUp}} with Python",
-      "description": "Add strong, custom watermarks to {{FileFormatUp}} files in Python—ideal for digital archives and photographers.",
+      "title": "Create Watermarks for {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Add strong, custom watermarks to {{FileFormatUp}} files in {{ProgLang}}—ideal for digital archives and photographers.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a Python toolkit for adding watermarks to TIFF files. Choose text or image watermarks, set their opacity, size, and position, and keep your images safe. With features like watermark layering and smart formatting, {{ProdShortName}} is a must-have for anyone who needs to protect their image collections."
+      "content": "{{ProdFullName}} is a {{ProgLang}} toolkit for adding watermarks to TIFF files. Choose text or image watermarks, set their opacity, size, and position, and keep your images safe. With features like watermark layering and smart formatting, {{ProdShortName}} is a must-have for anyone who needs to protect their image collections."
     },
     "formats": {
-      "title": "Secure {{FileFormatUp}} Images with Python Watermarks",
-      "description": "Add and manage watermarks in {{FileFormatUp}} files in Python to keep your images safe and under your control."
+      "title": "Secure {{FileFormatUp}} Images with {{ProgLang}} Watermarks",
+      "description": "Add and manage watermarks in {{FileFormatUp}} files in {{ProgLang}} to keep your images safe and under your control."
     }
   },
   "webp": {
     "head": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add watermarks to {{FileFormatUp}} images for strong protection."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add watermarks to {{FileFormatUp}} images for strong protection."
     },
     "header": {
-      "title": "Create Watermarks for {{FileFormatUp}} with Python",
-      "description": "Add custom watermarks to {{FileFormatUp}} files in Python—great for artists and content creators.",
+      "title": "Create Watermarks for {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Add custom watermarks to {{FileFormatUp}} files in {{ProgLang}}—great for artists and content creators.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add watermarks to WEBP images in Python. Use text, logos, or digital signatures, and adjust their look to fit your needs. Perfect for anyone sharing images online, {{ProdShortName}} keeps your work safe and looking great."
+      "content": "{{ProdFullName}} lets you add watermarks to WEBP images in {{ProgLang}}. Use text, logos, or digital signatures, and adjust their look to fit your needs. Perfect for anyone sharing images online, {{ProdShortName}} keeps your work safe and looking great."
     },
     "formats": {
-      "title": "Protect {{FileFormatUp}} Images with Python Watermarks",
-      "description": "Add advanced, custom watermarks to {{FileFormatUp}} images in Python to protect your creative work."
+      "title": "Protect {{FileFormatUp}} Images with {{ProgLang}} Watermarks",
+      "description": "Add advanced, custom watermarks to {{FileFormatUp}} images in {{ProgLang}} to protect your creative work."
     }
   },
   "xls": {
     "head": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add and manage watermarks in {{FileFormatUp}} files for better Excel security."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add and manage watermarks in {{FileFormatUp}} files for better Excel security."
     },
     "header": {
-      "title": "Create Python Watermarks for {{FileFormatUp}} Files",
-      "description": "Add watermarks to {{FileFormatUp}} spreadsheets in Python—great for protecting financial and personal data.",
+      "title": "Create {{ProgLang}} Watermarks for {{FileFormatUp}} Files",
+      "description": "Add watermarks to {{FileFormatUp}} spreadsheets in {{ProgLang}}—great for protecting financial and personal data.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add watermarks to XLS files in Python. Use visible or hidden marks, and customize their look to fit your needs. Great for keeping financial or client data safe, {{ProdShortName}} works with all Python environments."
+      "content": "{{ProdFullName}} lets you add watermarks to XLS files in {{ProgLang}}. Use visible or hidden marks, and customize their look to fit your needs. Great for keeping financial or client data safe, {{ProdShortName}} works with all {{ProgLang}} environments."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add custom watermarks to {{FileFormatUp}} files and keep your Excel data secure."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add custom watermarks to {{FileFormatUp}} files and keep your Excel data secure."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add watermarks to {{FileFormatUp}} files and protect your Excel documents."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add watermarks to {{FileFormatUp}} files and protect your Excel documents."
     },
     "header": {
-      "title": "Protect {{FileFormatUp}} Sheets with Python",
-      "description": "Add custom watermarks to {{FileFormatUp}} files in Python—perfect for business and sensitive data.",
+      "title": "Protect {{FileFormatUp}} Sheets with {{ProgLang}}",
+      "description": "Add custom watermarks to {{FileFormatUp}} files in {{ProgLang}}—perfect for business and sensitive data.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} is a Python solution for adding and managing watermarks in XLSX files. Add text or image watermarks, automate watermarking based on file properties, and keep your Excel documents safe and professional. {{ProdShortName}} supports all modern Python features."
+      "content": "{{ProdFullName}} is a {{ProgLang}} solution for adding and managing watermarks in XLSX files. Add text or image watermarks, automate watermarking based on file properties, and keep your Excel documents safe and professional. {{ProdShortName}} supports all modern {{ProgLang}} features."
     },
     "formats": {
-      "title": "Add Watermarks to {{FileFormatUp}} with Python",
-      "description": "Use Python to add secure, advanced watermarks to {{FileFormatUp}} files and protect your Excel data."
+      "title": "Add Watermarks to {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Use {{ProgLang}} to add secure, advanced watermarks to {{FileFormatUp}} files and protect your Excel data."
     }
   }
 }

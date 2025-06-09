@@ -7,9 +7,9 @@
     "comment_5": "Save the modified document"
   },
   "steps": {
-    "title": "Modify watermarks in {{FileformatCap}} documents with {{EnvName}}",
+    "title": "Modify watermarks in {{FileformatCap}} documents with {{ProgLang}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** helps {{EnvName}} developers easily update watermarks in various {{FileformatCap}} files. Here's how you can use it in your project:",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** helps {{ProgLang}} developers easily update watermarks in various {{FileformatCap}} files. Here's how you can use it in your project:",
       "step_1": "First, open your {{FileformatCap}} file by passing it to the {{TextWatermarkerBold}} constructor. You can use a file path, byte stream, or file stream.",
       "step_2": "Then, find the watermarks you want to change using {{TextSearchCriteriaBold}}, which lets you search for watermark text or properties.",
       "step_3": "Once found, you can change details like text, font, size, position, color, and more. This gives you full control over how the watermark looks.",
@@ -18,7 +18,7 @@
   },
   "more_features": {
     "title": "Discover more ways to update watermarks",
-    "description": "With our library, {{EnvName}} apps can add, find, edit, or delete watermarks in many file types.",
+    "description": "With our library, {{ProgLang}} apps can add, find, edit, or delete watermarks in many file types.",
     "image_description": "Watermark Editing",
     "feature_1": {
       "title": "Watermark Your Files with Ease",
@@ -48,14 +48,14 @@
       "description": "With {{ProdFullName}}, you can easily adjust watermark settings to protect and personalize your documents."
     },
     "header": {
-      "title": "Update Watermarks in {{FileformatCap}} Spreadsheets Using {{EnvName}}",
-      "description": "Secure your Excel spreadsheets with our flexible watermark editing tools for {{EnvName}}.",
+      "title": "Update Watermarks in {{FileformatCap}} Spreadsheets Using {{ProgLang}}",
+      "description": "Secure your Excel spreadsheets with our flexible watermark editing tools for {{ProgLang}}.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Get it free on {{PackageStoreName}}"
     },
     "about": {
       "title": "{{ProdFullName}} Library",
-      "content": "**Quickly Edit {{FileformatCap}} Watermarks:** {{ProdFullName}} gives {{EnvName}} developers all the tools needed to manage watermarks with minimal effort, improving your document workflow and safety."
+      "content": "**Quickly Edit {{FileformatCap}} Watermarks:** {{ProdFullName}} gives {{ProgLang}} developers all the tools needed to manage watermarks with minimal effort, improving your document workflow and safety."
     },
     "formats": {
       "title": "Update Watermarks in Other Formats",
@@ -69,7 +69,7 @@
       "description": "Fine-tune watermark settings and improve document protection using {{ProdFullName}} for {{FileformatCap}}."
     },
     "header": {
-      "title": "Easily Update {{FileformatCap}} Watermarks with {{EnvName}}",
+      "title": "Easily Update {{FileformatCap}} Watermarks with {{ProgLang}}",
       "description": "Protect your brand and documents with {{ProdFullName}}. Quickly change watermarks in Word files.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download for free on {{PackageStoreName}}"
@@ -90,7 +90,7 @@
       "description": "Use {{ProdFullName}} to quickly change watermark content in {{FileformatCap}} presentations and keep your documents secure."
     },
     "header": {
-      "title": "Precise {{FileformatCap}} Watermark Editing in {{EnvName}}",
+      "title": "Precise {{FileformatCap}} Watermark Editing in {{ProgLang}}",
       "description": "Get full control over watermark layout and visibility in your presentations using {{ProdFullName}}.",
       "subtitle": "{{ProdFullName}} Library",
       "action_title": "Free download from {{PackageStoreName}}"

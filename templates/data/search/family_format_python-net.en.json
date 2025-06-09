@@ -6,9 +6,9 @@
     "comment_4": "Process the list of detected watermarks"
   },
   "steps": {
-    "title": "How to Detect Watermarks in {{FileformatCap}} Files via {{EnvName}}",
+    "title": "How to Detect Watermarks in {{FileformatCap}} Files via {{ProgLang}}",
     "content": {
-      "title": "With **[{{ProdShortName}}]({{ProductUrl}})**, identifying embedded watermarks in your business documents is simplified. Bring its capabilities into your {{EnvName}} workflows for seamless detection.",
+      "title": "With **[{{ProdShortName}}]({{ProductUrl}})**, identifying embedded watermarks in your business documents is simplified. Bring its capabilities into your {{ProgLang}} workflows for seamless detection.",
       "step_1": "Begin by loading the {{FileformatCap}} document into an instance of the {{TextWatermarkerBold}} class. Accepts input as a path, stream, or byte array.",
       "step_2": "Narrow your search using the {{TextSearchCriteriaBold}} object. To find image-based marks, use a sample image. For textual ones, specify characteristics such as content, style, or color.",
       "step_3": "Invoke the {{TextSearchBold}} method from the {{TextWatermarkerBold}} object to extract watermark data. A collection of watermark instances will be returned for inspection.",
@@ -17,7 +17,7 @@
   },
   "more_features": {
     "title": "Powerful Watermark Detection with {{ProdShortName}}",
-    "description": "Use {{ProdShortName}} in your {{EnvName}} projects to efficiently scan and locate watermark elements in diverse document types.",
+    "description": "Use {{ProdShortName}} in your {{ProgLang}} projects to efficiently scan and locate watermark elements in diverse document types.",
     "image_description": "Detecting Watermarks",
     "feature_1": {
       "title": "Advanced Detection with Smart Filters",
@@ -35,7 +35,7 @@
       "title": "Code Example: Detect Watermarks",
       "content": "See how to use {{ProdShortName}} to search documents for embedded watermark content using flexible detection rules.",
       "comment_1": "Open the target document from disk or stream",
-      "comment_2": "Specify what type of watermark to search for (e.g., hidden, image, text)",
+      "comment_2": "Define the specific watermark properties to be used in the search",
       "comment_3": "Perform the search and collect matches",
       "comment_4": "Work with the found results for further action"
     }
@@ -54,7 +54,7 @@
     },
     "about": {
       "title": "Overview of {{ProdFullName}}",
-      "content": "{{ProdFullName}} delivers a full-featured watermark toolkit for {{EnvName}} developers. Generate, modify, find, and remove watermark content from documents like Excel, Word, PDF, and more with minimal effort."
+      "content": "{{ProdFullName}} delivers a full-featured watermark toolkit for {{ProgLang}} developers. Generate, modify, find, and remove watermark content from documents like Excel, Word, PDF, and more with minimal effort."
     },
     "formats": {
       "title": "Multi-Format Watermark Search",
@@ -75,7 +75,7 @@
     },
     "about": {
       "title": "Learn About {{ProdFullName}}",
-      "content": "{{ProdFullName}} is a powerful utility for watermark operations in {{EnvName}}. Whether you're adding, removing, or searching for watermarks, it supports formats like DOCX, XLSX, PDF, and more."
+      "content": "{{ProdFullName}} is a powerful utility for watermark operations in {{ProgLang}}. Whether you're adding, removing, or searching for watermarks, it supports formats like DOCX, XLSX, PDF, and more."
     },
     "formats": {
       "title": "Cross-Format Detection Capabilities",
@@ -96,7 +96,7 @@
     },
     "about": {
       "title": "What is {{ProdFullName}}?",
-      "content": "{{ProdFullName}} empowers developers to handle watermark tasks in {{EnvName}}. Designed for flexibility, it handles watermark discovery, insertion, editing, and removal across formats like PPTX, DOCX, and PDF."
+      "content": "{{ProdFullName}} empowers developers to handle watermark tasks in {{ProgLang}}. Designed for flexibility, it handles watermark discovery, insertion, editing, and removal across formats like PPTX, DOCX, and PDF."
     },
     "formats": {
       "title": "Broad Format Compatibility",

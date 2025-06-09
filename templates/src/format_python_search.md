@@ -77,8 +77,7 @@ steps:
         with gw.Watermarker("input.<% get "fileformat" %>") as watermarker:
 
             # <% "{examples.comment_3}" %>
-            search_criteria = gwss.ImageDctHashSearchCriteria("watermark.jpeg")
-            search_criteria.MaxDifference = 0.9
+            search_criteria = gwss.TextSearchCriteria("Watermark text", False)
             possible_watermarks = watermarker.search(search_criteria)
 
             # <% "{examples.comment_4}" %>

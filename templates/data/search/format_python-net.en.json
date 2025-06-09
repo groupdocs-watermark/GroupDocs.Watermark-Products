@@ -1,14 +1,14 @@
 {
   "examples": {
-    "comment_1": "Search for image watermarks inside {{FileFormatUp}}",
+    "comment_1": "Search for text watermarks inside {{FileFormatUp}}",
     "comment_2": "Create a {{TextWatermarker}} instance using the path to {{FileFormatUp}}",
     "comment_3": "Use search settings to find watermarks",
     "comment_4": "Handle the found watermark results"
   },
   "steps": {
-    "title": "Easily Detect {{FileformatCap}} Watermarks Using {{EnvName}}",
+    "title": "Easily Detect {{FileformatCap}} Watermarks Using {{ProgLang}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** makes it easy to detect watermarks in different types of business documents. Add this tool to your {{EnvName}} project to enable watermark detection features.",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** makes it easy to detect watermarks in different types of business documents. Add this tool to your {{ProgLang}} project to enable watermark detection features.",
       "step_1": "To begin, initialize the {{TextWatermarkerBold}} class and load your {{FileformatCap}} document using a file path, file stream, or byte array. This prepares the file for watermark search.",
       "step_2": "To narrow your search, use the {{TextSearchCriteriaBold}} class. For image watermarks, provide a sample image. For text, set details like font, size, color, or other related attributes.",
       "step_3": "Call the {{TextSearchBold}} method from the {{TextWatermarkerBold}} instance to start the search. It returns a list of found watermark items for you to work with.",
@@ -16,25 +16,25 @@
     }
   },
   "more_features": {
-    "title": "Advanced Watermark Detection in Python with {{ProdShortName}}",
-    "description": "Explore powerful watermark search options in the {{ProdShortName}} Python API, designed for use in {{EnvName}} projects.",
-    "image_description": "Python Watermark Search",
+    "title": "Advanced Watermark Detection in {{ProgLang}} with {{ProdShortName}}",
+    "description": "Explore powerful watermark search options in the {{ProdShortName}} API, designed for use in {{ProgLang}} projects.",
+    "image_description": "{{ProgLang}} Watermark Search",
     "feature_1": {
       "title": "Simple and Fast Watermark Detection",
-      "content": "Use {{ProdShortName}} to quickly find watermarks in your Python code. The smart search engine helps you locate watermarks with ease."
+      "content": "Use {{ProdShortName}} to quickly find watermarks in your {{ProgLang}} code. The smart search engine helps you locate watermarks with ease."
     },
     "feature_2": {
       "title": "Find Specific Watermarks with Accuracy",
-      "content": "Protect your files by finding watermarks based on color, size, or location. {{ProdShortName}} makes it easy to configure search filters in Python."
+      "content": "Protect your files by finding watermarks based on color, size, or location. {{ProdShortName}} makes it easy to configure search filters in {{ProgLang}}."
     },
     "feature_3": {
-      "title": "Python Tools for Full Watermark Control",
-      "content": "Add {{ProdShortName}} to your Python apps to search, inspect, and track watermark usage. Great for audits, branding, or content protection."
+      "title": "{{ProgLang}} Tools for Full Watermark Control",
+      "content": "Add {{ProdShortName}} to your {{ProgLang}} apps to search, inspect, and track watermark usage. Great for audits, branding, or content protection."
     },
     "code_1": {
-      "title": "Python Sample: Full Watermark Detection Flow",
-      "content": "See how to use {{ProdShortName}} in Python to search through documents, handle multiple formats, and use complex filters.",
-      "comment_1": "Set up your Python app and load the document",
+      "title": "{{ProgLang}} Sample: Full Watermark Detection Flow",
+      "content": "See how to use {{ProdShortName}} in {{ProgLang}} to search through documents, handle multiple formats, and use complex filters.",
+      "comment_1": "Set up your {{ProgLang}} app and load the document",
       "comment_2": "Define what kind of watermark to look for",
       "comment_3": "Run the search and gather watermark data",
       "comment_4": "Use the found info for further steps like removal or review"
@@ -53,7 +53,7 @@
     },
     "about": {
       "title": "Learn About {{ProdFullName}}",
-      "content": "{{ProdFullName}} helps you handle watermarks in {{EnvName}}. You can create, find, edit, and delete watermarks in PDFs, Word, Excel, and more. Add watermark tools to your Python projects with {{ProdFullName}}."
+      "content": "{{ProdFullName}} helps you handle watermarks. You can create, find, edit, and delete watermarks in PDFs, Word, Excel, and more. Add watermark tools to your {{ProgLang}} projects with {{ProdFullName}}."
     },
     "formats": {
       "title": "Supported File Formats for Watermark Search",
@@ -73,7 +73,7 @@
     },
     "about": {
       "title": "Explore {{ProdFullName}} Features",
-      "content": "{{ProdFullName}} gives you all the tools for watermark work in {{EnvName}}. It supports adding, removing, and detecting watermarks in formats like PDF, Word, Excel, and others. Bring watermark support into your apps with {{ProdFullName}}."
+      "content": "{{ProdFullName}} gives you all the tools for watermark work in {{ProgLang}}. It supports adding, removing, and detecting watermarks in formats like PDF, Word, Excel, and others. Bring watermark support into your apps with {{ProdFullName}}."
     },
     "formats": {
       "title": "Work with Watermarks in Many Formats",
@@ -93,7 +93,7 @@
     },
     "about": {
       "title": "What is {{ProdFullName}}?",
-      "content": "{{ProdFullName}} makes it easy to work with watermarks in {{EnvName}}. You can use it to create, detect, or delete watermarks in many file types like PDFs, Word docs, and spreadsheets. Add it to your Python workflow."
+      "content": "{{ProdFullName}} makes it easy to work with watermarks in {{ProgLang}}. You can use it to create, detect, or delete watermarks in many file types like PDFs, Word docs, and spreadsheets. Add it to your {{ProgLang}} workflow."
     },
     "formats": {
       "title": "Find Watermarks in Many File Types",
@@ -113,7 +113,7 @@
     },
     "about": {
       "title": "All About {{ProdFullName}}",
-      "content": "{{ProdFullName}} gives you tools to manage watermarks in {{EnvName}}. Work with PDFs, Word, Excel, and more. Search, create, or delete watermarks in your Python apps easily with {{ProdFullName}}."
+      "content": "{{ProdFullName}} gives you tools to manage watermarks in {{ProgLang}}. Work with PDFs, Word, Excel, and more. Search, create, or delete watermarks in your {{ProgLang}} apps easily with {{ProdFullName}}."
     },
     "formats": {
       "title": "Detect Watermarks in All Supported Formats",
@@ -133,7 +133,7 @@
     },
     "about": {
       "title": "{{ProdFullName}} Overview",
-      "content": "{{ProdFullName}} gives you full control over watermarks in {{EnvName}}. It works with many file types—PDF, Excel, Word—and integrates smoothly into Python apps."
+      "content": "{{ProdFullName}} gives you full control over watermarks in {{ProgLang}}. It works with many file types—PDF, Excel, Word—and integrates smoothly into {{ProgLang}} apps."
     },
     "formats": {
       "title": "Find Watermarks in All File Types",
@@ -153,7 +153,7 @@
     },
     "about": {
       "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} makes watermark tasks simple in {{EnvName}}. It works with PDFs, Word, Excel, and more. Use it in your Python applications to search, edit, or remove watermarks."
+      "content": "{{ProdFullName}} makes watermark tasks simple in {{ProgLang}}. It works with PDFs, Word, Excel, and more. Use it in your {{ProgLang}} applications to search, edit, or remove watermarks."
     },
     "formats": {
       "title": "Supported Formats for Watermark Detection",
@@ -173,7 +173,7 @@
     },
     "about": {
       "title": "More on {{ProdFullName}}",
-      "content": "{{ProdFullName}} helps Python developers manage watermarks in {{EnvName}}. Use it for editing, removing, or locating watermarks in Excel, Word, PDF, and other formats."
+      "content": "{{ProdShortName}} helps {{ProgLang}} developers manage watermarks in {{ProgLang}}. Use it for editing, removing, or locating watermarks in Excel, Word, PDF, and other formats."
     },
     "formats": {
       "title": "Watermark Search Across Formats",
@@ -193,7 +193,7 @@
     },
     "about": {
       "title": "What Can {{ProdFullName}} Do?",
-      "content": "{{ProdFullName}} makes it simple to manage watermarks using {{EnvName}}. Add it to your Python projects to detect, update, or remove watermarks in various formats like Word, Excel, and PDF."
+      "content": "{{ProdFullName}} makes it simple to manage watermarks using {{ProgLang}}. Add it to your {{ProgLang}} projects to detect, update, or remove watermarks in various formats like Word, Excel, and PDF."
     },
     "formats": {
       "title": "Detect Watermarks in Supported File Types",

@@ -6,9 +6,9 @@
     "comment_4": "Save your updated document"
   },
   "steps": {
-    "title": "Easily Remove Watermarks from {{FileformatCap}} Files in {{EnvName}}",
+    "title": "Easily Remove Watermarks from {{FileformatCap}} Files in {{ProgLang}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** lets {{EnvName}} developers quickly clear watermarks from {{FileformatCap}} files. Here’s how you can do it:",
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** lets {{ProgLang}} developers quickly clear watermarks from {{FileformatCap}} files. Here’s how you can do it:",
       "step_1": "Start by passing your {{FileformatCap}} file to the {{TextWatermarkerBold}} constructor. You can use a file path, byte stream, or file stream.",
       "step_2": "Use the {{TextSearchCriteriaBold}} object to search for watermarks you want to remove. Filter by image, text, or formatting for precise results.",
       "step_3": "After searching, you’ll get a list of watermarks. Select and remove the ones you don’t need.",
@@ -16,11 +16,11 @@
     }
   },
   "more_features": {
-    "title": "Powerful Watermark Removal with {{ProgLang}} in {{EnvName}} | {{ProdShortName}}",
-    "description": "Take advantage of our {{ProgLang}} {{EnvName}} API to remove watermarks from PDFs and Office files. Get clean, professional documents ready for any use.",
+    "title": "Powerful Watermark Removal with {{ProgLang}} | {{ProdShortName}}",
+    "description": "Take advantage of our {{ProgLang}} API to remove watermarks from PDFs and Office files. Get clean, professional documents ready for any use.",
     "image_description": "Erase Watermark",
     "feature_1": {
-      "title": "Accurate Watermark Deletion in {{EnvName}}",
+      "title": "Accurate Watermark Deletion in {{ProgLang}}",
       "content": "Our {{ProgLang}} API is built for precise watermark removal, so your files keep their original look and formatting. Great for business, legal, or academic documents."
     },
     "feature_2": {
@@ -32,172 +32,172 @@
       "content": "Edit or remove watermarks as needed. The API gives you options to keep your documents looking just right for any requirement."
     },
     "code_1": {
-      "title": "Remove background watermark from a presentation",
-      "content": "This example shows how to delete a background image from a specific slide.",
+      "title": "Remove background from a presentation",
+      "content": "This example shows how to delete a hyperlink watermark.",
       "comment_1": "Open the presentation",
       "comment_2": "Access slide content",
-      "comment_3": "Remove the background watermark",
+      "comment_3": "Remove the hyperlink watermark",
       "comment_4": "Save the presentation"
     }
   },
   "doc": {
     "head": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Use our {{ProgLang}} {{EnvName}} API to clear watermarks from {{FileFormatUp}} files and keep your documents looking clean."
+      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Use our {{ProgLang}} API to clear watermarks from {{FileFormatUp}} files and keep your documents looking clean."
     },
     "header": {
-      "title": "{{ProgLang}} {{EnvName}} for {{FileFormatUp}} Watermark Removal",
-      "description": "With the {{ProdFullName}} {{ProgLang}} API, you can easily delete or edit watermarks in {{FileFormatUp}} files and keep your documents tidy.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "{{ProgLang}} for {{FileFormatUp}} Watermark Removal",
+      "description": "With the {{ProdFullName}} API, you can easily delete or edit watermarks in {{FileFormatUp}} files and keep your documents tidy.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Download free from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library gives you all the tools you need to manage watermarks in {{FileFormatUp}} files. Remove or adjust watermarks to keep your documents professional and well-formatted."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library gives you all the tools you need to manage watermarks in {{FileFormatUp}} files. Remove or adjust watermarks to keep your documents professional and well-formatted."
     },
     "formats": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Files in {{EnvName}}",
-      "description": "See how the {{ProdFullName}} {{ProgLang}} API can help you clear watermarks from {{FileFormatUp}} files for better document quality."
+      "title": "Remove Watermarks from {{FileFormatUp}} Files in {{ProgLang}}",
+      "description": "See how the {{ProdFullName}} API can help you clear watermarks from {{FileFormatUp}} files for better document quality."
     }
   },
   "docx": {
     "head": {
-      "title": "Quick {{FileFormatUp}} Watermark Removal with {{ProgLang}} in {{EnvName}}",
-      "description": "Easily remove watermarks from {{FileFormatUp}} files using our {{ProgLang}} {{EnvName}} API for clean, professional documents."
+      "title": "Quick {{FileFormatUp}} Watermark Removal with {{ProgLang}}",
+      "description": "Easily remove watermarks from {{FileFormatUp}} files using our {{ProgLang}} API for clean, professional documents."
     },
     "header": {
-      "title": "{{ProgLang}} {{EnvName}} for {{FileFormatUp}} Watermark Management",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to delete or edit watermarks in {{FileFormatUp}} files and keep your documents looking their best.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "{{ProgLang}} for {{FileFormatUp}} Watermark Management",
+      "description": "Use the {{ProdFullName}} API to delete or edit watermarks in {{FileFormatUp}} files and keep your documents looking their best.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library provides everything you need to manage watermarks in {{FileFormatUp}} files. Remove, edit, or adjust watermarks to maintain a clean and professional look."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library provides everything you need to manage watermarks in {{FileFormatUp}} files. Remove, edit, or adjust watermarks to maintain a clean and professional look."
     },
     "formats": {
-      "title": "Clear Watermarks from {{FileFormatUp}} Files in {{EnvName}}",
-      "description": "Learn how to use the {{ProdFullName}} {{ProgLang}} API to remove watermarks from {{FileFormatUp}} files and improve your document’s appearance."
+      "title": "Clear Watermarks from {{FileFormatUp}} Files in {{ProgLang}}",
+      "description": "Learn how to use the {{ProdFullName}} API to remove watermarks from {{FileFormatUp}} files and improve your document’s appearance."
     }
   },
   "pdf": {
     "head": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Documents with {{ProgLang}} in {{EnvName}}",
-      "description": "Quickly clear watermarks from {{FileFormatUp}} files using our {{ProgLang}} {{EnvName}} API for professional results."
+      "title": "Remove Watermarks from {{FileFormatUp}} Documents with {{ProgLang}}",
+      "description": "Quickly clear watermarks from {{FileFormatUp}} files using our {{ProgLang}} API for professional results."
     },
     "header": {
-      "title": "Delete Watermarks in {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to remove watermarks from {{FileFormatUp}} documents and keep your files clear and organized.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "Delete Watermarks in {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to remove watermarks from {{FileFormatUp}} documents and keep your files clear and organized.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Download free at {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library makes it easy to manage watermarks in {{FileFormatUp}} files. Remove or edit watermarks while keeping your documents looking sharp and well-structured."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library makes it easy to manage watermarks in {{FileFormatUp}} files. Remove or edit watermarks while keeping your documents looking sharp and well-structured."
     },
     "formats": {
-      "title": "Remove Watermarks from {{FileFormatUp}} with {{ProgLang}} in {{EnvName}}",
-      "description": "Find out how the {{ProdFullName}} {{ProgLang}} API can help you clear watermarks from {{FileFormatUp}} files for a polished, professional finish."
+      "title": "Remove Watermarks from {{FileFormatUp}} with {{ProgLang}}",
+      "description": "Find out how the {{ProdFullName}} API can help you clear watermarks from {{FileFormatUp}} files for a polished, professional finish."
     }
   },
   "ppt": {
     "head": {
       "title": "Remove Watermarks from Presentation {{FileFormatUp}} Files",
-      "description": "Easily clear watermarks from presentation files using our {{ProgLang}} {{EnvName}} API for clean, professional slides."
+      "description": "Easily clear watermarks from presentation files using our {{ProgLang}} API for clean, professional slides."
     },
     "header": {
-      "title": "{{FileFormatUp}} Presentation Watermark Removal with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to remove watermarks from {{FileFormatUp}} presentations and keep your slides looking great.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "{{FileFormatUp}} Presentation Watermark Removal with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to remove watermarks from {{FileFormatUp}} presentations and keep your slides looking great.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Download free from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library gives you full control over watermarks in presentation files. Remove, edit, or adjust watermarks to keep your slides clear and professional for any audience."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library gives you full control over watermarks in presentation files. Remove, edit, or adjust watermarks to keep your slides clear and professional for any audience."
     },
     "formats": {
-      "title": "Remove Watermarks from Presentations in {{EnvName}}",
-      "description": "See how the {{ProdFullName}} {{ProgLang}} API can help you manage and clear watermarks from {{FileFormatUp}} presentations for a polished look."
+      "title": "Remove Watermarks from Presentations in {{ProgLang}}",
+      "description": "See how the {{ProdFullName}} API can help you manage and clear watermarks from {{FileFormatUp}} presentations for a polished look."
     }
   },
   "pptx": {
     "head": {
-      "title": "Remove PowerPoint Watermarks with {{ProgLang}} in {{EnvName}}",
-      "description": "Quickly clear watermarks from PowerPoint slides using our {{ProgLang}} {{EnvName}} API for professional presentations."
+      "title": "Remove PowerPoint Watermarks with {{ProgLang}}",
+      "description": "Quickly clear watermarks from PowerPoint slides using our {{ProgLang}} API for professional presentations."
     },
     "header": {
-      "title": "Delete Watermarks from {{FileFormatUp}} Slides with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to remove watermarks from {{FileFormatUp}} slides and keep your presentations looking their best.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "Delete Watermarks from {{FileFormatUp}} Slides with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to remove watermarks from {{FileFormatUp}} slides and keep your presentations looking their best.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library gives you all the tools you need to manage watermarks in PowerPoint presentations. Remove or adjust watermarks to keep your slides clean and professional."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library gives you all the tools you need to manage watermarks in PowerPoint presentations. Remove or adjust watermarks to keep your slides clean and professional."
     },
     "formats": {
-      "title": "Clear Watermarks from PowerPoint in {{EnvName}}",
-      "description": "Learn how the {{ProdFullName}} {{ProgLang}} API can help you remove watermarks from {{FileFormatUp}} slides for a clean, professional result."
+      "title": "Clear Watermarks from PowerPoint in {{ProgLang}}",
+      "description": "Learn how the {{ProdFullName}} API can help you remove watermarks from {{FileFormatUp}} slides for a clean, professional result."
     }
   },
   "rtf": {
     "head": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Easily clear watermarks from {{FileFormatUp}} files using our {{ProgLang}} {{EnvName}} API for clean, professional documents."
+      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Easily clear watermarks from {{FileFormatUp}} files using our {{ProgLang}} API for clean, professional documents."
     },
     "header": {
-      "title": "Manage Watermarks in {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to delete or edit watermarks in {{FileFormatUp}} files and keep your documents looking their best.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "Manage Watermarks in {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to delete or edit watermarks in {{FileFormatUp}} files and keep your documents looking their best.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Download free from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library provides all the features you need to manage watermarks in {{FileFormatUp}} files. Remove, edit, or adjust watermarks to keep your documents clean and professional."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library provides all the features you need to manage watermarks in {{FileFormatUp}} files. Remove, edit, or adjust watermarks to keep your documents clean and professional."
     },
     "formats": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Files in {{EnvName}}",
-      "description": "See how the {{ProdFullName}} {{ProgLang}} API can help you clear watermarks from {{FileFormatUp}} files for a better document experience."
+      "title": "Remove Watermarks from {{FileFormatUp}} Files in {{ProgLang}}",
+      "description": "See how the {{ProdFullName}} API can help you clear watermarks from {{FileFormatUp}} files for a better document experience."
     }
   },
   "xls": {
     "head": {
       "title": "Remove Watermarks from Excel {{FileFormatUp}} Files",
-      "description": "Quickly clear watermarks from {{FileFormatUp}} spreadsheets using our {{ProgLang}} {{EnvName}} API for clean, professional data."
+      "description": "Quickly clear watermarks from {{FileFormatUp}} spreadsheets using our {{ProgLang}} API for clean, professional data."
     },
     "header": {
-      "title": "Delete Watermarks in {{FileFormatUp}} Spreadsheets with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to remove or edit watermarks in {{FileFormatUp}} spreadsheets and keep your data looking sharp.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "Delete Watermarks in {{FileFormatUp}} Spreadsheets with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to remove or edit watermarks in {{FileFormatUp}} spreadsheets and keep your data looking sharp.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Get it free at {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library gives you everything you need to manage watermarks in {{FileFormatUp}} spreadsheets. Remove, edit, or adjust watermarks to keep your data clear and professional."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library gives you everything you need to manage watermarks in {{FileFormatUp}} spreadsheets. Remove, edit, or adjust watermarks to keep your data clear and professional."
     },
     "formats": {
-      "title": "Clear Watermarks from {{FileFormatUp}} Spreadsheets in {{EnvName}}",
-      "description": "Learn how the {{ProdFullName}} {{ProgLang}} API can help you remove watermarks from {{FileFormatUp}} spreadsheets for better data presentation."
+      "title": "Clear Watermarks from {{FileFormatUp}} Spreadsheets in {{ProgLang}}",
+      "description": "Learn how the {{ProdFullName}} API can help you remove watermarks from {{FileFormatUp}} spreadsheets for better data presentation."
     }
   },
   "xlsx": {
     "head": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Easily clear watermarks from {{FileFormatUp}} spreadsheets using our {{ProgLang}} {{EnvName}} API for clean, professional data."
+      "title": "Remove Watermarks from {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Easily clear watermarks from {{FileFormatUp}} spreadsheets using our {{ProgLang}} API for clean, professional data."
     },
     "header": {
-      "title": "Manage Watermarks in {{FileFormatUp}} Files with {{ProgLang}} in {{EnvName}}",
-      "description": "Use the {{ProdFullName}} {{ProgLang}} API to delete or edit watermarks in {{FileFormatUp}} spreadsheets and keep your data looking its best.",
-      "subtitle": "{{ProdFullName}} {{ProgLang}} API",
+      "title": "Manage Watermarks in {{FileFormatUp}} Files with {{ProgLang}}",
+      "description": "Use the {{ProdFullName}} API to delete or edit watermarks in {{FileFormatUp}} spreadsheets and keep your data looking its best.",
+      "subtitle": "{{ProdFullName}} API",
       "action_title": "Download free from {{PackageStoreName}}"
     },
     "about": {
-      "title": "{{ProdFullName}} {{ProgLang}} library",
-      "content": "The {{ProdFullName}} {{ProgLang}} library provides all the tools you need to manage watermarks in {{FileFormatUp}} spreadsheets. Remove, edit, or adjust watermarks to keep your data clean and professional."
+      "title": "{{ProdFullName}} library",
+      "content": "The {{ProdFullName}} library provides all the tools you need to manage watermarks in {{FileFormatUp}} spreadsheets. Remove, edit, or adjust watermarks to keep your data clean and professional."
     },
     "formats": {
-      "title": "Remove Watermarks from {{FileFormatUp}} Spreadsheets in {{EnvName}}",
-      "description": "See how the {{ProdFullName}} {{ProgLang}} API can help you clear watermarks from {{FileFormatUp}} spreadsheets for a better data experience."
+      "title": "Remove Watermarks from {{FileFormatUp}} Spreadsheets in {{ProgLang}}",
+      "description": "See how the {{ProdFullName}} API can help you clear watermarks from {{FileFormatUp}} spreadsheets for a better data experience."
     }
   }
 }

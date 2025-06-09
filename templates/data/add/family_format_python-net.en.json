@@ -6,9 +6,9 @@
     "comment_4": "Save the updated {{FileFormatUp}} file"
   },
   "steps": {
-    "title": "Easily Add Watermarks: Python Watermarking for {{FileformatCap}} with {{EnvName}}",
+    "title": "Easily Add Watermarks: {{ProgLang}} Watermarking for {{FileformatCap}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a Python library that makes it easy to add watermarks to many business file types. Follow these steps to quickly add watermarks to your documents in {{EnvName}}:",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** is a library that makes it easy to add watermarks to many business file types. Follow these steps to quickly add watermarks to your documents in {{ProgLang}}:",
       "step_1": "**Get Started with Watermarking:** Begin by creating an instance of the {{TextWatermarkerBold}} class. Pass your {{FileformatCap}} file (as a path or stream) to the constructor to open it for watermarking.",
       "step_2": "**Create Your Watermark:** Make a {{TextWatermarkBold}} object with your desired text and settings. You can add watermarks to any page or even to document elements like headers or attachments.",
       "step_3": "**Customize the Watermark:** Adjust the watermark’s size, position, font, color, and alignment to fit your needs. This helps your watermark look just right in your document.",
@@ -17,11 +17,11 @@
   },
   "more_features": {
     "title": "Explore More Watermarking Features",
-    "description": "Use our Python API to add, view, convert, and manage watermarks in documents, slides, diagrams, and more. {{ProdFullName}} helps you protect your files and add copyright information easily.",
+    "description": "Use our {{ProgLang}} API to add, view, convert, and manage watermarks in documents, slides, diagrams, and more. {{ProdFullName}} helps you protect your files and add copyright information easily.",
     "image_description": "Add Watermark",
     "feature_1": {
       "title": "Add Watermarks Easily",
-      "content": "{{ProdShortName}} lets Python developers quickly add text, image, or dynamic watermarks to business documents. Keep your files secure and branded with minimal effort."
+      "content": "{{ProdShortName}} lets {{ProgLang}} developers quickly add text, image, or dynamic watermarks to business documents. Keep your files secure and branded with minimal effort."
     },
     "feature_2": {
       "title": "Fully Customizable Watermarks",
@@ -44,17 +44,17 @@
     "ext": "xslx",
     "head": {
       "title": "Add Watermarks to Excel Files",
-      "description": "Automatically add image watermarks to Excel files with Python. Process many files at once for consistent protection."
+      "description": "Automatically add image watermarks to Excel files with {{ProgLang}}. Process many files at once for consistent protection."
     },
     "header": {
-      "title": "Add Watermarks to Excel with Python",
-      "description": "Easily add text or image watermarks to Excel files using Python. Our guides show you how to keep your spreadsheets professional and secure with little manual work.",
+      "title": "Add Watermarks to Excel with {{ProgLang}}",
+      "description": "Easily add text or image watermarks to Excel files using {{ProgLang}}. Our guides show you how to keep your spreadsheets professional and secure with little manual work.",
       "subtitle": "{{ProdFullName}} API",
       "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}} library",
-      "content": "{{ProdFullName}} lets you add watermarks to Excel spreadsheets in Python. You can use different watermark types and customize opacity, rotation, and alignment. The library also helps you find and manage existing watermarks to keep your files safe from tampering."
+      "content": "{{ProdFullName}} lets you add watermarks to Excel spreadsheets in {{ProgLang}}. You can use different watermark types and customize opacity, rotation, and alignment. The library also helps you find and manage existing watermarks to keep your files safe from tampering."
     },
     "formats": {
       "title": "Add Text and Image Watermarks to Excel with {{ProgLang}}",
@@ -68,50 +68,50 @@
       "description": "Easily add watermarks to Word files to protect your brand and content."
     },
     "header": {
-      "title": "Create Watermarks in Word and OpenOffice with Python",
-      "description": "Add watermarks to your Word documents using our Python library. Customize them to match your brand or security needs.",
+      "title": "Create Watermarks in Word and OpenOffice with {{ProgLang}}",
+      "description": "Add watermarks to your Word documents using our {{ProgLang}} library. Customize them to match your brand or security needs.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} makes it simple to add text and image watermarks to Microsoft Word documents in Python. You can place watermarks exactly where you want, and it works with DOC, DOCX, and RTF files. Watermarks blend in with your content, keeping your documents readable and secure."
+      "content": "{{ProdFullName}} makes it simple to add text and image watermarks to Microsoft Word documents in {{ProgLang}}. You can place watermarks exactly where you want, and it works with DOC, DOCX, and RTF files. Watermarks blend in with your content, keeping your documents readable and secure."
     },
     "formats": {
       "title": "Watermark Word and OpenOffice Files with {{ProgLang}}",
-      "description": "Add professional watermarks to your Word and OpenOffice documents using our Python API. Protect your files and keep them looking great."
+      "description": "Add professional watermarks to your Word and OpenOffice documents using our {{ProgLang}} API. Protect your files and keep them looking great."
     }
   },
   "image": {
     "ext": "jpeg",
     "head": {
-      "title": "Watermark Images with Python",
-      "description": "Learn how to add watermarks to images in Python. Protect your pictures without losing quality."
+      "title": "Watermark Images with {{ProgLang}}",
+      "description": "Learn how to add watermarks to images in {{ProgLang}}. Protect your pictures without losing quality."
     },
     "header": {
-      "title": "Quick Image Watermarking with {{EnvName}}",
-      "description": "Our Python tool lets you quickly add watermarks to images. Supports many formats, from photos to digital art.",
+      "title": "Quick Image Watermarking with {{ProgLang}}",
+      "description": "Our {{ProgLang}} tool lets you quickly add watermarks to images. Supports many formats, from photos to digital art.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} helps you add watermarks to images in Python. It supports JPEG, PNG, BMP, TIFF, and more. You can change the watermark’s opacity, size, and position to fit your needs. Use it to protect your images or add branding, all while keeping the original quality."
+      "content": "{{ProdFullName}} helps you add watermarks to images in {{ProgLang}}. It supports JPEG, PNG, BMP, TIFF, and more. You can change the watermark’s opacity, size, and position to fit your needs. Use it to protect your images or add branding, all while keeping the original quality."
     },
     "formats": {
       "title": "Add Watermarks to Images with {{ProgLang}}",
-      "description": "Protect your images with our Python toolkit. Add watermarks to many image formats quickly and easily."
+      "description": "Protect your images with our {{ProgLang}} toolkit. Add watermarks to many image formats quickly and easily."
     }
   },
   "photo": {
     "ext": "png",
     "head": {
       "title": "Easily Watermark Your Photos",
-      "description": "Add watermarks to your photos in Python to protect your work and copyright."
+      "description": "Add watermarks to your photos in {{ProgLang}} to protect your work and copyright."
     },
     "header": {
-      "title": "Fast Photo Watermarking with {{EnvName}}",
-      "description": "Use our Python library to quickly add watermarks to your photos. Protect your copyright and brand without losing image quality.",
+      "title": "Fast Photo Watermarking with {{ProgLang}}",
+      "description": "Use our {{ProgLang}} library to quickly add watermarks to your photos. Protect your copyright and brand without losing image quality.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download {{PackageStoreName}} for free"
     },
@@ -121,7 +121,7 @@
     },
     "formats": {
       "title": "Protect Your Photos with Watermarks in {{ProgLang}}",
-      "description": "Add custom watermarks to your photos using our Python API. Keep your images safe and looking professional."
+      "description": "Add custom watermarks to your photos using our {{ProgLang}} API. Keep your images safe and looking professional."
     }
   },
   "powerpoint": {
@@ -131,18 +131,18 @@
       "description": "Easily add watermarks to your PowerPoint slides for extra security."
     },
     "header": {
-      "title": "Advanced Watermarking for Presentations in Python",
-      "description": "Add text and image watermarks to PowerPoint slides with our Python API. Great for keeping your presentations secure and professional.",
+      "title": "Advanced Watermarking for Presentations in {{ProgLang}}",
+      "description": "Add text and image watermarks to PowerPoint slides with our {{ProgLang}} API. Great for keeping your presentations secure and professional.",
       "subtitle": "{{ProdFullName}}",
       "action_title": "Download {{PackageStoreName}} for free"
     },
     "about": {
       "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} lets you add advanced watermarks to PowerPoint presentations in Python. Protect confidential info or add your company’s logo to slides. You can add watermarks to single slides or the whole presentation, and adjust how they look and where they appear."
+      "content": "{{ProdFullName}} lets you add advanced watermarks to PowerPoint presentations in {{ProgLang}}. Protect confidential info or add your company’s logo to slides. You can add watermarks to single slides or the whole presentation, and adjust how they look and where they appear."
     },
     "formats": {
       "title": "Watermark Presentations with {{ProgLang}}",
-      "description": "Use our Python toolkit to quickly add watermarks to PowerPoint files. Keep your slides secure and looking sharp."
+      "description": "Use our {{ProgLang}} toolkit to quickly add watermarks to PowerPoint files. Keep your slides secure and looking sharp."
     }
   }
 }
