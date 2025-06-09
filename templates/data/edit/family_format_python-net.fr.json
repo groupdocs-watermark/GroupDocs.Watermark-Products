@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Mettre à jour le texte du filigrane dans {{FileFormatUp}}",
+    "comment_2": "Créer un {{TextWatermarker}} à l'aide d'un fichier {{FileFormatUp}}",
+    "comment_3": "Configurer {{TextTextSearchCriteria}} pour trouver le texte du filigrane",
+    "comment_4": "Modifier le texte du filigrane",
+    "comment_5": "Enregistrer le document modifié"
+  },
+  "steps": {
+    "title": "Modifier les filigranes dans les documents {{FileformatCap}} avec {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** aide les développeurs {{ProgLang}} à actualiser les filigranes dans divers fichiers {{FileformatCap}}. Voici comment vous pouvez l'utiliser dans votre projet :",
+      "step_1": "Tout d'abord, ouvrez votre fichier {{FileformatCap}} en le passant au constructeur {{TextWatermarkerBold}}. Vous pouvez utiliser un chemin de fichier, un flux d'octets ou un flux de fichiers.",
+      "step_2": "Ensuite, trouvez les filigranes que vous souhaitez modifier à l'aide de {{TextSearchCriteriaBold}}, qui vous permet de rechercher du texte ou des propriétés de filigrane.",
+      "step_3": "Une fois trouvés, vous pouvez changer des détails comme le texte, la police, la taille, la position, la couleur, et plus encore. Cela vous donne un contrôle total sur l'apparence du filigrane.",
+      "step_4": "Après avoir effectué les modifications, enregistrez le document. Vous pouvez écrire le résultat dans un flux ou à un chemin de fichier."
+    }
+  },
+  "more_features": {
+    "title": "Découvrez d'autres façons de mettre à jour les filigranes",
+    "description": "Avec notre bibliothèque, les applications {{ProgLang}} peuvent ajouter, trouver, modifier ou supprimer des filigranes dans de nombreux types de fichiers.",
+    "image_description": "Édition de filigrane",
+    "feature_1": {
+      "title": "Filigrate vos fichiers sans difficulté",
+      "content": "Utilisez {{ProdFullName}} pour ajouter et gérer des filigranes dans vos documents. Recherchez, mettez à jour ou supprimez des filigranes selon vos besoins grâce à une API simple."
+    },
+    "feature_2": {
+      "title": "Personnalisez les filigranes selon vos besoins",
+      "content": "Ajustez les paramètres des filigranes tels que la police, la taille, l'orientation et la couleur à l'aide de notre API flexible pour obtenir exactement le résultat souhaité."
+    },
+    "feature_3": {
+      "title": "Utilisez les fonctionnalités spécifiques aux formats",
+      "content": "En fonction du format de fichier, vous pouvez utiliser des fonctionnalités natives telles que des en-têtes, des pieds de page, des annotations ou des zones d'arrière-plan comme zones de filigrane."
+    },
+    "code_1": {
+      "title": "Modifier le texte du filigrane dans Excel",
+      "content": "Ce code montre comment changer le texte du filigrane dans les feuilles de calcul Excel.",
+      "comment_1": "Ouvrir le fichier XLSX",
+      "comment_2": "Lire les données de la feuille de calcul",
+      "comment_3": "Changer le texte du filigrane",
+      "comment_4": "Enregistrer le résultat"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Modifier les filigranes dans les fichiers {{FileformatCap}}",
+      "description": "Avec {{ProdFullName}}, vous pouvez ajuster les paramètres des filigranes pour protéger et personnaliser vos documents."
+    },
+    "header": {
+      "title": "Mettre à jour les filigranes dans les feuilles de calcul {{FileformatCap}} avec {{ProgLang}}",
+      "description": "Sécurisez vos feuilles de calcul Excel avec nos outils flexibles d'édition de filigranes pour {{ProgLang}}.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Library",
+      "content": "**Modifiez rapidement les filigranes {{FileformatCap}} :** {{ProdFullName}} donne aux développeurs {{ProgLang}} tous les outils nécessaires pour gérer les filigranes avec un minimum d'effort, améliorant votre flux de travail et la sécurité de vos documents."
+    },
+    "formats": {
+      "title": "Mettre à jour les filigranes dans d'autres formats",
+      "description": "Personnalisez facilement les paramètres des filigranes dans différents formats de fichiers à l'aide de {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Modifier les filigranes dans les fichiers {{FileformatCap}}",
+      "description": "Affinez les paramètres des filigranes et améliorez la protection des documents en utilisant {{ProdFullName}} pour {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Mettre à jour facilement les filigranes {{FileformatCap}} avec {{ProgLang}}",
+      "description": "Protégez votre marque et vos documents avec {{ProdFullName}}. Modifiez rapidement les filigranes dans les fichiers Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Sécurisez vos documents {{FileformatCap}} :** Utilisez {{ProdFullName}} pour mettre à jour et gérer facilement les filigranes qui correspondent à vos besoins documentaires et à votre image de marque."
+    },
+    "formats": {
+      "title": "Filigrane d'autres formats de fichiers",
+      "description": "{{ProdFullName}} vous aide à protéger plusieurs types de fichiers avec des outils flexibles pour les filigranes."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Modifier les filigranes dans les fichiers {{FileformatCap}}",
+      "description": "Utilisez {{ProdFullName}} pour changer rapidement le contenu des filigranes dans les présentations {{FileformatCap}} et garder vos documents sécurisés."
+    },
+    "header": {
+      "title": "Édition précise des filigranes {{FileformatCap}} en {{ProgLang}}",
+      "description": "Obtenez un contrôle total sur la mise en page et la visibilité des filigranes dans vos présentations avec {{ProdFullName}}.",
+      "subtitle": "Bibliothèque {{ProdFullName}}",
+      "action_title": "Téléchargement gratuit depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Contrôlez la mise en page des filigranes dans les fichiers {{FileformatCap}} :** Avec {{ProdFullName}}, vous pouvez placer les filigranes exactement là où ils sont nécessaires et sécuriser facilement vos présentations."
+    },
+    "formats": {
+      "title": "Modifier les filigranes dans d'autres types de fichiers",
+      "description": "Utilisez {{ProdFullName}} pour travailler avec des filigranes dans différents formats de document."
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Détecter un filigrane de texte au format {{FileFormatUp}}",
+    "comment_2": "Initialiser {{TextWatermarker}} avec un fichier {{FileFormatUp}}",
+    "comment_3": "Exécuter la recherche de filigrane",
+    "comment_4": "Traiter la liste des filigranes détectés"
+  },
+  "steps": {
+    "title": "Comment détecter des filigranes dans les fichiers {{FileformatCap}} via {{ProgLang}}",
+    "content": {
+      "title": "Avec **[{{ProdShortName}}]({{ProductUrl}})**, identifier les filigranes intégrés dans vos documents professionnels est simplifié. Apportez ses capacités à vos flux de travail {{ProgLang}} pour une détection sans faille.",
+      "step_1": "Commencez par charger le document {{FileformatCap}} dans une instance de la classe {{TextWatermarkerBold}}. Accepte l'entrée sous forme de chemin, de flux ou de tableau d'octets.",
+      "step_2": "Affinez votre recherche en utilisant l'objet {{TextSearchCriteriaBold}}. Pour trouver des marques basées sur des images, utilisez une image de référence. Pour les marques textuelles, spécifiez des caractéristiques telles que le contenu, le style ou la couleur.",
+      "step_3": "Appelez la méthode {{TextSearchBold}} de l'objet {{TextWatermarkerBold}} pour extraire les données du filigrane. Une collection d'instances de filigranes sera renvoyée pour examen.",
+      "step_4": "Après récupération, vous pouvez gérer les résultats : supprimer les marques indésirables ou mettre à jour des détails tels que les dimensions ou le contenu du message."
+    }
+  },
+  "more_features": {
+    "title": "Détection Puissante des Filigranes avec {{ProdShortName}}",
+    "description": "Utilisez {{ProdShortName}} dans vos projets {{ProgLang}} pour scanner et localiser efficacement les éléments de filigrane dans divers types de documents.",
+    "image_description": "Détection des Filigranes",
+    "feature_1": {
+      "title": "Détection Avancée avec Filtres Intelligents",
+      "content": "Identifiez facilement les filigranes dans une large gamme de formats de documents. {{ProdShortName}} supporte le filtrage par traits visuels et textuels, y compris la forme, la transparence et plus encore."
+    },
+    "feature_2": {
+      "title": "Critères Flexibles pour la Recherche",
+      "content": "Définissez des paramètres de recherche de filigrane personnalisés avec {{ProdShortName}}. Cette précision permet une récupération ciblée des données de filigrane cachées ou personnalisées."
+    },
+    "feature_3": {
+      "title": "Accédez et Organisez les Filigranes Détectés",
+      "content": "Simplifiez l'audit des documents en récupérant tous les filigranes intégrés. Nos outils permettent une extraction, un affichage et une gestion efficaces des éléments trouvés."
+    },
+    "code_1": {
+      "title": "Exemple de Code : Détecter des Filigranes",
+      "content": "Découvrez comment utiliser {{ProdShortName}} pour rechercher des contenus de filigrane intégrés dans des documents en utilisant des règles de détection flexibles.",
+      "comment_1": "Ouvrez le document cible depuis le disque ou le flux",
+      "comment_2": "Définissez les propriétés spécifiques du filigrane à utiliser dans la recherche",
+      "comment_3": "Effectuez la recherche et collectez les correspondances",
+      "comment_4": "Travaillez avec les résultats trouvés pour une action ultérieure"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Détecter des Filigranes Invisibles dans les Tableurs {{FileformatCap}}",
+      "description": "Révélez rapidement et précisément les marques cachées dans les fichiers de tableurs avec {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Identifiez Instantanément les Filigranes dans les Tableurs {{FileformatCap}}",
+      "description": "Localisez et gérez les filigranes sans difficulté avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez {{PackageStoreName}} Maintenant – C'est Gratuit"
+    },
+    "about": {
+      "title": "Aperçu de {{ProdFullName}}",
+      "content": "{{ProdFullName}} offre une boîte à outils de filigrane complète pour les développeurs {{ProgLang}}. Générez, modifiez, trouvez et supprimez le contenu des filigranes de documents comme Excel, Word, PDF, et plus encore avec un minimum d'effort."
+    },
+    "formats": {
+      "title": "Recherche de Filigranes Multi-Formats",
+      "description": "Localisez le contenu des filigranes à travers tous les types de fichiers pris en charge par {{ProdShortName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Identifier les Filigranes Cachés dans les Documents {{FileformatCap}}",
+      "description": "Recherchez facilement les documents pour des filigranes cachés en utilisant {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Découvrez Rapidement les Filigranes dans les Docs {{FileformatCap}}",
+      "description": "Révélez et examinez le contenu caché des filigranes avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratuit avec {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En Savoir Plus sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} est un utilitaire puissant pour les opérations de filigrane dans {{ProgLang}}. Que vous ajoutiez, supprimiez ou cherchiez des filigranes, il prend en charge des formats tels que DOCX, XLSX, PDF, et plus."
+    },
+    "formats": {
+      "title": "Capacités de Détection Inter-Formats",
+      "description": "Support pour l'analyse des filigranes dans une gamme de types de fichiers largement utilisés."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Détecter des Marques Cachées dans les Présentations {{FileformatCap}}",
+      "description": "Détectez facilement des filigranes dissimulés dans les diapositives de présentation avec {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Révéler les Filigranes dans les Présentations {{FileformatCap}}",
+      "description": "Gérez les éléments de filigrane au sein des présentations avec les fonctionnalités fiables de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Essai Gratuit Disponible sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} permet aux développeurs de gérer les tâches de filigrane dans {{ProgLang}}. Conçu pour la flexibilité, il gère la découverte, l'insertion, l'édition et la suppression des filigranes dans des formats tels que PPTX, DOCX et PDF."
+    },
+    "formats": {
+      "title": "Large Compatibilité de Formats",
+      "description": "Profitez d'une détection de filigrane sans faille à travers plusieurs formats de présentation et de documents pris en charge."
+    }
+  }
+}

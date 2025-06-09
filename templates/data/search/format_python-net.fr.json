@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Recherchez des filigranes de texte dans {{FileFormatUp}}",
+    "comment_2": "Créez une instance de {{TextWatermarker}} en utilisant le chemin vers {{FileFormatUp}}",
+    "comment_3": "Utilisez les paramètres de recherche pour trouver des filigranes",
+    "comment_4": "Gérez les résultats de filigranes trouvés"
+  },
+  "steps": {
+    "title": "Détectez les filigranes {{FileformatCap}} avec {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilite la détection des filigranes dans différents types de documents professionnels. Ajoutez cet outil à votre projet {{ProgLang}} pour activer les fonctionnalités de détection des filigranes.",
+      "step_1": "Pour commencer, initialisez la classe {{TextWatermarkerBold}} et chargez votre document {{FileformatCap}} à l'aide d'un chemin de fichier, d'un flux de fichiers ou d'un tableau d'octets. Cela prépare le fichier pour la recherche de filigranes.",
+      "step_2": "Pour affiner votre recherche, utilisez la classe {{TextSearchCriteriaBold}}. Pour les filigranes d'image, fournissez une image échantillon. Pour le texte, définissez des détails tels que la police, la taille, la couleur ou d'autres attributs associés.",
+      "step_3": "Appelez la méthode {{TextSearchBold}} de l'instance {{TextWatermarkerBold}} pour commencer la recherche. Elle renvoie une liste d'éléments de filigrane trouvés sur laquelle vous pouvez travailler.",
+      "step_4": "Avec la liste des éléments de filigrane, vous pouvez les supprimer ou les modifier selon vos besoins. Par exemple, vous pouvez vouloir mettre à jour leur taille ou leur texte."
+    }
+  },
+  "more_features": {
+    "title": "Détection avancée de filigranes en {{ProgLang}} avec {{ProdShortName}}",
+    "description": "Découvrez des options puissantes de recherche de filigranes dans l'API {{ProdShortName}}, conçues pour être utilisées dans des projets {{ProgLang}}.",
+    "image_description": "Recherche de filigrane {{ProgLang}}",
+    "feature_1": {
+      "title": "Détection de filigranes simple et rapide",
+      "content": "Utilisez {{ProdShortName}} pour trouver rapidement des filigranes dans votre code {{ProgLang}}. Le moteur de recherche intelligent vous aide à localiser les filigranes efficacement."
+    },
+    "feature_2": {
+      "title": "Trouvez des filigranes spécifiques avec précision",
+      "content": "Protégez vos fichiers en trouvant des filigranes basés sur la couleur, la taille ou la localisation. {{ProdShortName}} facilite la configuration de filtres de recherche en {{ProgLang}}."
+    },
+    "feature_3": {
+      "title": "Outils {{ProgLang}} pour un contrôle total des filigranes",
+      "content": "Ajoutez {{ProdShortName}} à vos applications {{ProgLang}} pour rechercher, inspecter et suivre l'utilisation des filigranes. Idéal pour les audits, le branding ou la protection de contenu."
+    },
+    "code_1": {
+      "title": "Exemple {{ProgLang}} : Flux complet de détection de filigranes",
+      "content": "Découvrez comment utiliser {{ProdShortName}} en {{ProgLang}} pour rechercher dans les documents, gérer plusieurs formats et utiliser des filtres complexes.",
+      "comment_1": "Configurez votre application {{ProgLang}} et chargez le document",
+      "comment_2": "Définissez quel type de filigrane rechercher",
+      "comment_3": "Exécutez la recherche et recueillez les données de filigrane",
+      "comment_4": "Utilisez les informations trouvées pour d'autres étapes comme la suppression ou l'examen"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Détectez les filigranes cachés dans les fichiers {{FileFormatUp}}",
+      "description": "Trouvez facilement des filigranes invisibles dans les documents en utilisant {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Trouvez des filigranes dans les fichiers {{FileFormatUp}} avec facilité",
+      "description": "Utilisez {{ProdFullName}} pour détecter et gérer rapidement des filigranes cachés.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "En savoir plus sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} vous aide à gérer les filigranes. Vous pouvez créer, trouver, éditer et supprimer des filigranes dans des fichiers PDF, Word, Excel et plus encore. Ajoutez des outils de filigrane à vos projets {{ProgLang}} avec {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Formats de fichier pris en charge pour la recherche de filigranes",
+      "description": "Trouvez et travaillez rapidement avec des filigranes dans de nombreux types de documents différents."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Trouvez des filigranes cachés dans les documents {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour détecter facilement des filigranes cachés dans vos fichiers."
+    },
+    "header": {
+      "title": "Trouvez facilement des filigranes dans les fichiers {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour repérer et gérer rapidement des filigranes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez le package gratuit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Découvrez les fonctionnalités de {{ProdFullName}}",
+      "content": "{{ProdFullName}} vous offre tous les outils nécessaires pour travailler avec des filigranes en {{ProgLang}}. Il prend en charge l'ajout, la suppression et la détection de filigranes dans des formats tels que PDF, Word, Excel et autres. Apportez un support de filigrane dans vos applications avec {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Travaillez avec des filigranes dans de nombreux formats",
+      "description": "Détectez et gérez facilement des filigranes dans divers formats de fichiers."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Trouvez des filigranes dans des PDFs {{FileFormatUp}}",
+      "description": "Détectez facilement des filigranes dans des documents PDF en utilisant {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Trouvez rapidement des filigranes dans des PDFs {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour analyser et gérer les filigranes cachés dans les PDFs.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez le package {{PackageStoreName}} gratuitement"
+    },
+    "about": {
+      "title": "Qu'est-ce que {{ProdFullName}}?",
+      "content": "{{ProdFullName}} facilite la gestion des filigranes en {{ProgLang}}. Vous pouvez l'utiliser pour créer, détecter ou supprimer des filigranes dans de nombreux types de fichiers tels que les PDFs, les documents Word et les tableurs. Ajoutez-le à votre flux de travail {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Trouvez des filigranes dans de nombreux types de fichiers",
+      "description": "Trouvez et gérez facilement des filigranes dans une grande variété de formats de fichiers."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Détectez des filigranes dans des présentations {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour trouver des filigranes dans les fichiers de présentation avec aisance."
+    },
+    "header": {
+      "title": "Trouvez rapidement des filigranes dans des diapositives {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour rechercher et gérer facilement des filigranes dans des présentations.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tout savoir sur {{ProdFullName}}",
+      "content": "{{ProdFullName}} vous fournit des outils pour gérer les filigranes en {{ProgLang}}. Travaillez avec des fichiers PDF, Word, Excel et plus encore. Recherchez, créez ou supprimez des filigranes dans vos applications {{ProgLang}} facilement avec {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Détectez des filigranes dans tous les formats pris en charge",
+      "description": "Trouvez et gérez des filigranes dans de nombreux types de documents courants."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Trouvez des filigranes cachés dans les diapositives {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour révéler des filigranes cachés dans les fichiers de présentation."
+    },
+    "header": {
+      "title": "Révélez rapidement des filigranes dans des présentations {{FileFormatUp}}",
+      "description": "Détectez et gérez facilement des filigranes avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Aperçu de {{ProdFullName}}",
+      "content": "{{ProdFullName}} vous offre un contrôle total sur les filigranes en {{ProgLang}}. Il fonctionne avec de nombreux types de fichiers—PDF, Excel, Word—et s'intègre parfaitement dans les applications {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Trouvez des filigranes dans tous les types de fichiers",
+      "description": "Utilisez {{ProdFullName}} pour détecter des filigranes dans plusieurs formats facilement."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Repérez des filigranes dans des documents {{FileFormatUp}}",
+      "description": "Détectez rapidement des filigranes dans des documents avec {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Détectez des filigranes dans des fichiers {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour trouver et gérer facilement des filigranes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez le package {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "À propos de {{ProdFullName}}",
+      "content": "{{ProdFullName}} simplifie les tâches de filigrane en {{ProgLang}}. Il fonctionne avec des PDFs, des documents Word, des fichiers Excel et plus encore. Utilisez-le dans vos applications {{ProgLang}} pour rechercher, éditer ou supprimer des filigranes."
+    },
+    "formats": {
+      "title": "Formats pris en charge pour la détection des filigranes",
+      "description": "Utilisez {{ProdFullName}} pour trouver et gérer des filigranes dans de nombreux formats."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Trouvez des filigranes cachés dans des feuilles {{FileFormatUp}}",
+      "description": "Utilisez {{ProdFullName}} pour détecter rapidement des filigranes dans des fichiers de tableur."
+    },
+    "header": {
+      "title": "Détectez et gérez des filigranes dans des feuilles {{FileFormatUp}}",
+      "description": "Recherchez facilement des filigranes avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargement gratuit depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Plus sur {{ProdFullName}}",
+      "content": "{{ProdShortName}} aide les développeurs {{ProgLang}} à gérer les filigranes en {{ProgLang}}. Utilisez-le pour éditer, supprimer ou localiser des filigranes dans Excel, Word, PDF et d'autres formats."
+    },
+    "formats": {
+      "title": "Recherche de filigranes dans plusieurs formats",
+      "description": "Trouvez et gérez des filigranes dans de nombreux formats pris en charge différents."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Détectez des filigranes dans des fichiers Excel {{FileFormatUp}}",
+      "description": "Trouvez rapidement des filigranes cachés en utilisant {{ProdFullName}} dans des documents Excel."
+    },
+    "header": {
+      "title": "Trouvez des filigranes dans des tableurs {{FileFormatUp}}",
+      "description": "Recherchez et gérez facilement des filigranes avec {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Téléchargez gratuitement depuis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Que peut faire {{ProdFullName}}?",
+      "content": "{{ProdFullName}} simplifie la gestion des filigranes en utilisant {{ProgLang}}. Ajoutez-le à vos projets {{ProgLang}} pour détecter, mettre à jour ou supprimer des filigranes dans divers formats comme Word, Excel et PDF."
+    },
+    "formats": {
+      "title": "Détectez des filigranes dans des types de fichiers pris en charge",
+      "description": "Utilisez {{ProdFullName}} pour détecter des filigranes dans différents types de documents avec facilité."
+    }
+  }
+}

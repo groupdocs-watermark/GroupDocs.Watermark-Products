@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}ファイルの透かしテキストを更新",
+    "comment_2": "{{FileFormatUp}}ファイルを使用して{{TextWatermarker}}を作成",
+    "comment_3": "透かしテキストを見つけるために{{TextTextSearchCriteria}}を設定",
+    "comment_4": "透かしテキストを修正",
+    "comment_5": "修正されたドキュメントを保存"
+  },
+  "steps": {
+    "title": "{{ProgLang}}で{{FileformatCap}}ドキュメントの透かしを修正",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**は、{{ProgLang}}開発者がさまざまな{{FileformatCap}}ファイルの透かしを簡単に更新できるようにします。プロジェクトでの使用方法は次のとおりです：",
+      "step_1": "まず、{{TextWatermarkerBold}}コンストラクタに{{FileformatCap}}ファイルを渡して開きます。ファイルパス、バイトストリーム、またはファイルストリームを使用できます。",
+      "step_2": "次に、透かしテキストやプロパティを検索できる{{TextSearchCriteriaBold}}を使用して、変更したい透かしを見つけます。",
+      "step_3": "見つかったら、テキスト、フォント、サイズ、位置、色などの詳細を変更できます。これにより、透かしの外観が完全に制御できます。",
+      "step_4": "変更を加えたら、ドキュメントを保存します。結果をストリームまたはファイルパスに書き込むことができます。"
+    }
+  },
+  "more_features": {
+    "title": "透かしを更新する他の方法を見つける",
+    "description": "当社のライブラリを使えば、{{ProgLang}}アプリがさまざまなファイルタイプの透かしを追加、検索、編集、または削除できます。",
+    "image_description": "透かし編集",
+    "feature_1": {
+      "title": "ファイルに透かしを追加",
+      "content": "{{ProdFullName}}を使用して、ドキュメント内の透かしを追加および管理します。簡単なAPIを使用して、透かしを検索、更新、または必要に応じて削除できます。"
+    },
+    "feature_2": {
+      "title": "ニーズに合わせて透かしをカスタマイズ",
+      "content": "柔軟なAPIを使用してフォント、サイズ、向き、色などの透かし設定を調整し、希望の結果を得られます。"
+    },
+    "feature_3": {
+      "title": "フォーマット固有の機能を使用",
+      "content": "ファイルフォーマットに応じて、透かし領域としてヘッダー、フッター、注釈、または背景などのネイティブ機能を使用できます。"
+    },
+    "code_1": {
+      "title": "Excelでテキスト透かしを編集",
+      "content": "このコードでは、Excelスプレッドシート内の透かしテキストを変更する方法を示しています。",
+      "comment_1": "XLSXファイルを開く",
+      "comment_2": "スプレッドシートデータを読み込む",
+      "comment_3": "透かしテキストを変更",
+      "comment_4": "結果を保存"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "{{FileformatCap}}ファイルの透かしを編集",
+      "description": "{{ProdFullName}}を使用すると、透かし設定を簡単に調整してドキュメントを保護およびパーソナライズできます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}を使用した{{FileformatCap}}スプレッドシートの透かしの更新",
+      "description": "柔軟な透かし編集ツールを使用して、Excelスプレッドシートを保護します。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}で無料入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}ライブラリ",
+      "content": "**{{FileformatCap}}透かしを迅速に編集：** {{ProdFullName}}は、{{ProgLang}}開発者に透かしを管理するためのすべてのツールを提供し、ドキュメントのワークフローと安全性を向上させます。"
+    },
+    "formats": {
+      "title": "他のフォーマットの透かしを更新",
+      "description": "{{ProdFullName}}を使用して、さまざまなファイルフォーマットで透かし設定を簡単にカスタマイズします。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}}ファイルの透かしを編集",
+      "description": "{{ProdFullName}}を使用して、透かし設定を微調整し、ドキュメントの保護を向上させます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}で{{FileformatCap}}の透かしを簡単に更新",
+      "description": "{{ProdFullName}}を使用して、ブランドとドキュメントを保護します。Wordファイルの透かしを迅速に変更できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**{{FileformatCap}}ドキュメントの保護：** {{ProdFullName}}を使用して、ドキュメントのニーズとブランディングに合った透かしを簡単に更新および管理できます。"
+    },
+    "formats": {
+      "title": "他のファイルフォーマットの透かし",
+      "description": "{{ProdFullName}}は、柔軟な透かしツールを使用して複数のファイル型を保護します。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{FileformatCap}}ファイルの透かしを編集",
+      "description": "{{ProdFullName}}を使用して、{{FileformatCap}}プレゼンテーションの透かし内容を迅速に変更し、ドキュメントを安全に保ちます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}での正確な{{FileformatCap}}透かし編集",
+      "description": "{{ProdFullName}}を使用して、プレゼンテーション内の透かしレイアウトと可視性を完全に制御できます。",
+      "subtitle": "{{ProdFullName}}ライブラリ",
+      "action_title": "{{PackageStoreName}}から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**{{FileformatCap}}ファイル内の透かしレイアウトを制御：** {{ProdFullName}}を使用すると、透かしを正確に配置し、プレゼンテーションを簡単に保護できます。"
+    },
+    "formats": {
+      "title": "他のファイルタイプの透かしを編集",
+      "description": "{{ProdFullName}}を使用して、異なるドキュメントフォーマットの透かしに取り組みます。"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Erkennen Sie Textwasserzeichen im {{FileFormatUp}}-Format",
+    "comment_2": "Initialisieren Sie {{TextWatermarker}} mit einer {{FileFormatUp}}-Datei",
+    "comment_3": "Führen Sie die Wasserzeichensuche durch",
+    "comment_4": "Verarbeiten Sie die Liste der erkannten Wasserzeichen"
+  },
+  "steps": {
+    "title": "So erkennen Sie Wasserzeichen in {{FileformatCap}}-Dateien mit {{ProgLang}}",
+    "content": {
+      "title": "Mit **[{{ProdShortName}}]({{ProductUrl}})** wird das Identifizieren eingebetteter Wasserzeichen in Ihren Geschäftsdokumenten vereinfacht. Integrieren Sie seine Fähigkeiten in Ihre {{ProgLang}}-Workflows für eine nahtlose Erkennung.",
+      "step_1": "Beginnen Sie damit, das {{FileformatCap}}-Dokument in eine Instanz der {{TextWatermarkerBold}}-Klasse zu laden. Dies akzeptiert Eingaben als Pfad, Stream oder Byte-Array.",
+      "step_2": "Verfeinern Sie Ihre Suche mit dem {{TextSearchCriteriaBold}}-Objekt. Um bildbasierte Marken zu finden, verwenden Sie ein Beispielbild. Für textuelle Marken geben Sie Eigenschaften wie Inhalt, Stil oder Farbe an.",
+      "step_3": "Rufen Sie die Methode {{TextSearchBold}} vom {{TextWatermarkerBold}}-Objekt auf, um Wasserzeichendaten zu extrahieren. Eine Sammlung von Wasserzeicheninstanzen wird zur Überprüfung zurückgegeben.",
+      "step_4": "Nach dem Abrufen können Sie die Ergebnisse verwalten: unerwünschte Marken entfernen oder Details wie Abmessungen oder Nachrichteninhalte aktualisieren."
+    }
+  },
+  "more_features": {
+    "title": "Leistungsstarke Wasserzeichenerkennung mit {{ProdShortName}}",
+    "description": "Nutzen Sie {{ProdShortName}} in Ihren {{ProgLang}}-Projekten, um Wasserzeichenelemente in verschiedenen Dokumenttypen effizient zu scannen und zu lokalisieren.",
+    "image_description": "Erkennung von Wasserzeichen",
+    "feature_1": {
+      "title": "Erweiterte Erkennung mit intelligenten Filtern",
+      "content": "Identifizieren Sie Wasserzeichen leicht in einer Vielzahl von Dokumentformaten. {{ProdShortName}} unterstützt das Filtern nach visuellen und textlichen Eigenschaften, einschließlich Form, Transparenz und mehr."
+    },
+    "feature_2": {
+      "title": "Flexible Suchkriterien",
+      "content": "Definieren Sie personalisierte Wasserzeichensuchparameter mit {{ProdShortName}}. Diese Präzision ermöglicht das gezielte Abrufen versteckter oder benutzerdefinierter Wasserzeichendaten."
+    },
+    "feature_3": {
+      "title": "Zugriff und Organisation erkannter Wasserzeichen",
+      "content": "Vereinfachen Sie die Dokumentenprüfung, indem Sie alle eingebetteten Wasserzeichen abrufen. Unsere Werkzeuge ermöglichen eine effiziente Extraktion, Anzeige und Verwaltung der gefundenen Elemente."
+    },
+    "code_1": {
+      "title": "Codebeispiel: Wasserzeichen erkennen",
+      "content": "Erfahren Sie, wie Sie {{ProdShortName}} verwenden, um Dokumente nach eingebettetem Wasserzeicheninhalt mit flexiblen Erkennungsregeln zu durchsuchen.",
+      "comment_1": "Öffnen Sie das Ziel-Dokument vom Datenträger oder Stream",
+      "comment_2": "Definieren Sie die spezifischen Wasserzeichenattribute, die in der Suche verwendet werden sollen",
+      "comment_3": "Führen Sie die Suche durch und sammeln Sie Übereinstimmungen",
+      "comment_4": "Verarbeiten Sie die gefundenen Ergebnisse für weitere Aktionen"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Erkennen Sie unsichtbare Wasserzeichen in {{FileformatCap}}-Tabellenkalkulationen",
+      "description": "Enthüllen Sie versteckte Marken in Tabellenkalkulationsdateien schnell und genau mit {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Identifizieren Sie sofort Wasserzeichen in {{FileformatCap}}-Tabellenkalkulationen",
+      "description": "Lokalisieren und verwalten Sie Wasserzeichen nahtlos mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Laden Sie jetzt {{PackageStoreName}} herunter – Es ist kostenlos"
+    },
+    "about": {
+      "title": "Übersicht über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet ein voll ausgestattetes Wasserzeichen-Toolkit für {{ProgLang}}-Entwickler. Erstellen, ändern, finden und entfernen Sie Wasserzeicheninhalte aus Dokumenten wie Excel, Word, PDF und mehr mit minimalem Aufwand."
+    },
+    "formats": {
+      "title": "Multi-Format Wasserzeichensuche",
+      "description": "Lokalisieren Sie Wasserzeicheninhalte in allen von {{ProdShortName}} unterstützten Dateitypen."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Identifizieren Sie versteckte Wasserzeichen in {{FileformatCap}}-Dokumenten",
+      "description": "Durchsuchen Sie Dokumente schnell nach verborgenen Wasserzeichen mit {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Entdecken Sie schnell Wasserzeichen in {{FileformatCap}}-Docs",
+      "description": "Enthüllen und überprüfen Sie versteckte Wasserzeicheninhalte mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos mit {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Erfahren Sie mehr über {{ProdFullName}}",
+      "content": "{{ProdFullName}} ist ein leistungsstarkes Dienstprogramm für Wasserzeichenoperationen in {{ProgLang}}. Ob Sie Wasserzeichen hinzufügen, entfernen oder suchen, es unterstützt Formate wie DOCX, XLSX, PDF und mehr."
+    },
+    "formats": {
+      "title": "Übergreifende Erkennungsfähigkeiten",
+      "description": "Unterstützung für die Wasserzeichenanalyse in einer Vielzahl von weit verbreiteten Dateitypen."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Erkennen Sie versteckte Marken in {{FileformatCap}}-Präsentationen",
+      "description": "Erkennen Sie leicht verborgene Wasserzeichen in Präsentationsfolien mit {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Enthüllen Sie Wasserzeichen in {{FileformatCap}}-Präsentationen",
+      "description": "Verwalten Sie Wasserzeichenelemente innerhalb von Präsentationsunterlagen mit den zuverlässigen Funktionen von {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlose Testversion erhältlich bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} ermöglicht Entwicklern die Durchführung von Wasserzeichenaufgaben in {{ProgLang}}. Entwickelt für Flexibilität, verarbeitet es die Entdeckung, Einfügung, Bearbeitung und Entfernung von Wasserzeichen in Formaten wie PPTX, DOCX und PDF."
+    },
+    "formats": {
+      "title": "Breite Format-Kompatibilität",
+      "description": "Genießen Sie nahtlose Wasserzeichenerkennung über mehrere unterstützte Präsentations- und Dokumentformate hinweg."
+    }
+  }
+}

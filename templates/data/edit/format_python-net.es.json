@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Actualizar la marca de agua de imagen en un archivo {{FileFormatUp}}",
+    "comment_2": "Crear una instancia de {{TextWatermarker}} con el archivo de entrada",
+    "comment_3": "Utilizar {{TextSearchCriteria}} para localizar marcas de agua basadas en imágenes",
+    "comment_4": "Aplicar cambios a la marca de agua de imagen",
+    "comment_5": "Exportar el archivo {{FileFormatUp}} actualizado"
+  },
+  "steps": {
+    "title": "Usar la API de {{ProgLang}} para Modificar Marcas de Agua en Documentos {{FileformatCap}}",
+    "content": {
+      "title": "Con **[{{ProdFullName}}]({{ProductUrl}})**, los desarrolladores de {{ProgLang}} pueden modificar el contenido de marcas de agua en varios documentos {{FileformatCap}}. Aquí hay una guía rápida:",
+      "step_1": "Comienza cargando el documento {{FileformatCap}} utilizando la clase {{TextWatermarkerBold}}, aceptando rutas de archivo, flujos de memoria o matrices de bytes como entrada.",
+      "step_2": "Construye un objeto {{TextSearchCriteriaBold}} para buscar elementos de marcas de agua existentes en tu documento, ya sean textuales o gráficos.",
+      "step_3": "Una vez identificados, la herramienta proporciona una colección de instancias de marcas de agua coincidentes que puedes actualizar: ajusta parámetros como color, alineación, fuente o incluso datos de imágenes incrustadas.",
+      "step_4": "Finaliza el proceso guardando tu documento revisado en el disco o en cualquier flujo de salida compatible usando los métodos de guardado integrados."
+    }
+  },
+  "more_features": {
+    "title": "Aumenta la Productividad con Herramientas Avanzadas de Marcas de Agua",
+    "description": "Acelera la marca y protección de documentos en {{ProgLang}} con nuestra dinámica API de marcas de agua. Inserta, detecta, modifica o elimina capas de marcas de agua con un esfuerzo mínimo.",
+    "image_description": "Flujo de Trabajo Avanzado de Edición de Marcas de Agua",
+    "feature_1": {
+      "title": "Control Integrado de Marcas de Agua",
+      "content": "Aporta un control completo del ciclo de vida de la marca de agua a tus aplicaciones {{ProgLang}} utilizando {{ProdFullName}}. Evita tareas repetitivas automatizando la configuración, actualizaciones y eliminación de marcas de agua."
+    },
+    "feature_2": {
+      "title": "Ajuste Preciso de Atributos de Marca de Agua",
+      "content": "Toma control total sobre la estética de la marca de agua: redimensiona, cambia el color, rota o reposiciona según cualquier requisito visual con nuestra superficie de API flexible."
+    },
+    "feature_3": {
+      "title": "Aprovechar las Características de Formato Nativo",
+      "content": "Adáptate a cualquier formato de archivo al incrustar marcas de agua en encabezados, pies de página, anotaciones o fondos. Nuestra API respeta las estructuras nativas para una integración óptima."
+    },
+    "code_1": {
+      "title": "Modificación de Marca de Agua en un Archivo PDF",
+      "content": "Demuestra cómo cambiar las propiedades de la marca de agua en un documento PDF.",
+      "comment_1": "Abrir archivo PDF",
+      "comment_2": "Leer contenido de la marca de agua",
+      "comment_3": "Aplicar actualización de la marca de agua",
+      "comment_4": "Guardar resultado editado"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Modifica Marcas de Agua en Archivos {{FileformatCap}} con Confianza",
+      "description": "Con la API {{ProdFullName}}, realiza cambios precisos en las marcas de agua {{FileformatCap}} mientras mantienes el diseño y la marca."
+    },
+    "header": {
+      "title": "Actualiza Marcas de Agua en Archivos {{FileformatCap}} Usando {{ProgLang}}",
+      "description": "Mejora y protege tus archivos a través de una edición fluida de marcas de agua usando la API {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Consigue la última versión de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Plataforma",
+      "content": "**Edición de Marcas de Agua Simplificada:** Usa {{ProdFullName}} para optimizar la gestión de marcas de agua en archivos {{FileformatCap}} a través de tus aplicaciones {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Edición de Marcas de Agua entre Formatos",
+      "description": "Modifica fácilmente marcas de agua en múltiples tipos de documentos con la API {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Edición de Marcas de Agua Personalizadas en Archivos {{FileformatCap}}",
+      "description": "Personaliza el contenido de marca de agua en archivos {{FileformatCap}} con las herramientas de {{ProdFullName}} para satisfacer necesidades de marca."
+    },
+    "header": {
+      "title": "Personaliza Marcas de Agua {{FileformatCap}} en Tus Proyectos {{ProgLang}}",
+      "description": "Edita y gestiona marcas de agua en varios tipos de documentos con {{ProdFullName}}.",
+      "subtitle": "Conjunto de APIs {{ProdFullName}}",
+      "action_title": "Accede a través de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Herramientas de Marcas de Agua Flexibles:** Adapta y personaliza el marcado en diversos formatos utilizando {{ProdFullName}} en tu flujo de trabajo {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Control de Marcas de Agua para Otros Formatros",
+      "description": "Utiliza herramientas coherentes de edición de marcas de agua en todos los tipos de archivo compatibles usando {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Edición Precisa de Marcas de Agua en {{FileformatCap}} Usando {{ProdShortName}}",
+      "description": "Usa {{ProdFullName}} para modificar contenido de marcas de agua en documentos {{FileformatCap}} de manera eficiente."
+    },
+    "header": {
+      "title": "Edita Marcas de Agua {{FileformatCap}} Suavemente con Herramientas {{ProgLang}}",
+      "description": "Personaliza marcas de agua en PDFs y más con el kit de herramientas de desarrollo {{ProdFullName}}.",
+      "subtitle": "Herramientas {{ProdFullName}}",
+      "action_title": "Pruébalo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Herramientas",
+      "content": "**Actualiza Marcas de Agua en Documentos PDF:** Aprovecha el marco {{ProdFullName}} para ajustar marcas de agua mientras mantienes un formato profesional."
+    },
+    "formats": {
+      "title": "Ajuste de Marcas de Agua en Varios Formatos",
+      "description": "Disfruta de un amplio soporte de formatos para marcas de agua utilizando la fiable API de {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Edición Rápida y Precisa de Marcas de Agua en {{FileformatCap}}",
+      "description": "Acelera la edición de marcas de agua en archivos {{FileformatCap}} utilizando {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Edición Avanzada de Marcas de Agua para {{FileformatCap}} con el Poder de {{ProgLang}}",
+      "description": "Protege y personaliza las diapositivas utilizando la API fácil de integrar de {{ProdFullName}}.",
+      "subtitle": "Biblioteca {{ProdFullName}}",
+      "action_title": "Descargar a través de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Biblioteca",
+      "content": "**Ajustes Rápidos de Marcas de Agua:** Realiza cambios en tiempo real a las marcas de agua en documentos {{FileformatCap}} utilizando nuestras herramientas compatibles con {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Soporte de Marcas de Agua Multi-Formato",
+      "description": "Aplica flujos de trabajo de marcas de agua similares en otros tipos de documentos con {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Soluciones de Marca de Agua Personalizadas para {{FileformatCap}}",
+      "description": "Modifica marcas de agua {{FileformatCap}} según los requisitos de tu negocio utilizando {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Marcas de Agua Personalizables {{FileformatCap}} en {{ProgLang}}",
+      "description": "Afina las características de marca de agua en tus archivos empresariales utilizando {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Accede al paquete desde {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Control de Marca de Agua Personalizado:** Adapta la ubicación, estilo y visibilidad de marcas de agua según las demandas de tu flujo de trabajo utilizando {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Marcas de Agua Personalizadas a Través de Formatos",
+      "description": "Edita marcas de agua en distintos formatos con ajustes específicos utilizando {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Manejo Profesional de Marcas de Agua en Documentos {{FileformatCap}}",
+      "description": "Construye una marca limpia y consistente en tus documentos {{FileformatCap}} utilizando {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Marcas de Agua Refinadas {{FileformatCap}} para Proyectos {{ProgLang}}",
+      "description": "Ofrece experiencias documentales con marca y acabado elegante utilizando las herramientas de marcas de agua de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Consigue el producto en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Integración de Marcas de Agua de Alta Calidad:** Asegura una edición limpia de marcas de agua y branding con las herramientas {{ProdFullName}} para {{FileformatCap}}."
+    },
+    "formats": {
+      "title": "Soluciones de Marca a Través de Formatos",
+      "description": "Mantén la consistencia de estilo entre tipos de archivos utilizando nuestras herramientas de gestión de marcas de agua flexibles."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Revisiones Efectivas de Marcas de Agua en {{FileformatCap}}",
+      "description": "Mejora la protección de datos editando marcas de agua {{FileformatCap}} utilizando {{ProdShortName}} para {{ProgLang}}."
+    },
+    "header": {
+      "title": "Optimización de Marcas de Agua {{FileformatCap}} para Proyectos {{ProgLang}}",
+      "description": "Mejora la claridad del contenido y la marca utilizando las capacidades de marca de agua de {{ProdShortName}}.",
+      "subtitle": "{{ProdFullName}} Suite",
+      "action_title": "Acceso gratuito a través de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Mejora de Marcas de Agua en Hojas de Cálculo:** Mejora la confianza en el contenido y la visibilidad de marca en hojas de cálculo utilizando las herramientas de marcas de agua de {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Marcado Uniforme para Otros Formatos",
+      "description": "Expande las capacidades de marca de agua a todos los formatos soportados utilizando {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Edición de Marca de Agua Segura en Documentos {{FileformatCap}}",
+      "description": "Asegura la seguridad del contenido y calidad profesional con control de marcas de agua en {{FileformatCap}} utilizando {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Actualizaciones Seguras y Simples de Marcas de Agua {{FileformatCap}} en {{ProgLang}}",
+      "description": "Empodera tus proyectos {{ProgLang}} con edición de marcas de agua segura y confiable gracias a {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Biblioteca",
+      "action_title": "Consíguelo de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Suite",
+      "content": "**Personalización de Marcas de Agua para Hojas de Cálculo:** Gestiona la visibilidad y el estilo de marcas de agua con confianza en archivos {{FileformatCap}} con {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Herramientas de Marcas de Agua entre Tipos",
+      "description": "Protege y unifica la marca entre tipos de documentos utilizando los componentes de {{ProdFullName}}."
+    }
+  }
+}

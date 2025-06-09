@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Mendeteksi watermark teks dalam format {{FileFormatUp}}",
+    "comment_2": "Inisialisasi {{TextWatermarker}} dengan file {{FileFormatUp}}",
+    "comment_3": "Eksekusi pencarian watermark",
+    "comment_4": "Proses daftar watermark yang terdeteksi"
+  },
+  "steps": {
+    "title": "Cara Mendeteksi Watermark dalam Berkas {{FileformatCap}} Melalui {{ProgLang}}",
+    "content": {
+      "title": "Dengan **[{{ProdShortName}}]({{ProductUrl}})**, mengidentifikasi watermark yang tertanam dalam dokumen bisnis Anda menjadi lebih sederhana. Integrasikan kemampuannya ke dalam alur kerja {{ProgLang}} Anda untuk deteksi yang tanpa hambatan.",
+      "step_1": "Mulai dengan memuat dokumen {{FileformatCap}} ke dalam instance kelas {{TextWatermarkerBold}}. Menerima input sebagai jalur, stream, atau array byte.",
+      "step_2": "Persempit pencarian Anda menggunakan objek {{TextSearchCriteriaBold}}. Untuk menemukan tanda berbasis gambar, gunakan gambar contoh. Untuk yang berbasis teks, tetapkan karakteristik seperti konten, gaya, atau warna.",
+      "step_3": "Panggil metode {{TextSearchBold}} dari objek {{TextWatermarkerBold}} untuk mengekstrak data watermark. Sebuah koleksi instance watermark akan dikembalikan untuk diteliti.",
+      "step_4": "Setelah pengambilan, Anda dapat mengelola hasilnya: menghapus tanda yang tidak diinginkan, atau memperbarui detail seperti dimensi atau konten pesan."
+    }
+  },
+  "more_features": {
+    "title": "Deteksi Watermark yang Kuat dengan {{ProdShortName}}",
+    "description": "Gunakan {{ProdShortName}} dalam proyek {{ProgLang}} Anda untuk secara efisien memindai dan menemukan elemen watermark dalam berbagai jenis dokumen.",
+    "image_description": "Mendeteksi Watermark",
+    "feature_1": {
+      "title": "Deteksi Lanjutan dengan Filter Cerdas",
+      "content": "Identifikasi watermark dengan mudah dalam berbagai format dokumen. {{ProdShortName}} mendukung penyaringan berdasarkan sifat visual dan tekstual termasuk bentuk, transparansi, dan lainnya."
+    },
+    "feature_2": {
+      "title": "Kriteria Fleksibel untuk Pencarian",
+      "content": "Tentukan parameter pencarian watermark yang dipersonalisasi dengan {{ProdShortName}}. Presisi ini memungkinkan pengambilan data watermark yang tersembunyi atau dikustomisasi."
+    },
+    "feature_3": {
+      "title": "Akses dan Atur Watermark yang Terdeteksi",
+      "content": "Permudah audit dokumen dengan mengambil semua watermark yang tertanam. Alat kami memungkinkan ekstraksi, tampilan, dan pengelolaan item yang ditemukan dengan efisien."
+    },
+    "code_1": {
+      "title": "Contoh Kode: Mendeteksi Watermark",
+      "content": "Lihat cara menggunakan {{ProdShortName}} untuk mencari dokumen yang berisi konten watermark menggunakan aturan deteksi yang fleksibel.",
+      "comment_1": "Buka dokumen target dari disk atau stream",
+      "comment_2": "Tentukan propertis watermark khusus yang akan digunakan dalam pencarian",
+      "comment_3": "Lakukan pencarian dan kumpulkan hasilnya",
+      "comment_4": "Bekerja dengan hasil yang ditemukan untuk tindakan lebih lanjut"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Mendeteksi Watermark Tersembunyi dalam Spreadsheet {{FileformatCap}}",
+      "description": "Ungkap tanda tersembunyi dalam file spreadsheet dengan {{ProdShortName}} secara cepat dan akurat."
+    },
+    "header": {
+      "title": "Segera Identifikasi Watermark dalam Spreadsheet {{FileformatCap}}",
+      "description": "Temukan dan kelola watermark tanpa hambatan menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download {{PackageStoreName}} Sekarang – Gratis"
+    },
+    "about": {
+      "title": "Ikhtisar {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberikan toolkit watermark fitur lengkap untuk pengembang {{ProgLang}}. Buat, ubah, temukan, dan hapus konten watermark dari dokumen seperti Excel, Word, PDF, dan banyak lagi dengan sedikit usaha."
+    },
+    "formats": {
+      "title": "Pencarian Watermark Multi-Format",
+      "description": "Temukan konten watermark di semua jenis file yang didukung oleh {{ProdShortName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Identifikasi Watermark Tersembunyi dalam Dokumen {{FileformatCap}}",
+      "description": "Cari dokumen untuk watermark yang tersembunyi dengan menggunakan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Segera Temukan Watermark dalam Dokumen {{FileformatCap}}",
+      "description": "Ungkap dan tinjau konten watermark tersembunyi menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratis dengan {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Pelajari Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} adalah utilitas kuat untuk operasi watermark dalam {{ProgLang}}. Baik Anda menambahkan, menghapus, atau mencari watermark, ini mendukung format seperti DOCX, XLSX, PDF, dan lebih banyak lagi."
+    },
+    "formats": {
+      "title": "Kemampuan Deteksi Lintas Format",
+      "description": "Dukungan untuk analisis watermark dalam berbagai jenis file yang banyak digunakan."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Mendeteksi Tanda Tersembunyi dalam Presentasi {{FileformatCap}}",
+      "description": "Dengan mudah mendeteksi watermark tersembunyi dalam slide presentasi dengan {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Ungkap Watermark dalam Presentasi {{FileformatCap}}",
+      "description": "Kelola elemen watermark dalam slide presentasi dengan fitur andalan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Uji Coba Gratis Tersedia di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memberdayakan pengembang untuk menangani tugas watermark dalam {{ProgLang}}. Dirancang untuk fleksibilitas, ini menangani penemuan, penyisipan, pengeditan, dan penghapusan watermark di berbagai format seperti PPTX, DOCX, dan PDF."
+    },
+    "formats": {
+      "title": "Kompatibilitas Format yang Luas",
+      "description": "Nikmati deteksi watermark yang mulus di berbagai format presentasi dan dokumen yang didukung."
+    }
+  }
+}

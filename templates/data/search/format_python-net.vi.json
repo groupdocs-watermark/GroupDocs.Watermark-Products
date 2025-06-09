@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Tìm kiếm watermark văn bản trong {{FileFormatUp}}",
+    "comment_2": "Tạo một instance của {{TextWatermarker}} bằng cách sử dụng đường dẫn đến {{FileFormatUp}}",
+    "comment_3": "Sử dụng cài đặt tìm kiếm để tìm các watermark",
+    "comment_4": "Xử lý kết quả watermark đã tìm thấy"
+  },
+  "steps": {
+    "title": "Phát hiện Watermark {{FileformatCap}} Bằng {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** giúp phát hiện watermark trong nhiều loại tài liệu thương mại khác nhau. Thêm công cụ này vào dự án {{ProgLang}} của bạn để kích hoạt các tính năng phát hiện watermark.",
+      "step_1": "Đầu tiên, khởi tạo lớp {{TextWatermarkerBold}} và tải tài liệu {{FileformatCap}} của bạn bằng cách sử dụng đường dẫn tập tin, dòng tập tin hoặc mảng byte. Điều này chuẩn bị tệp để tìm kiếm watermark.",
+      "step_2": "Để thu hẹp tìm kiếm, sử dụng lớp {{TextSearchCriteriaBold}}. Với watermark hình ảnh, cung cấp một hình mẫu. Đối với văn bản, thiết lập các chi tiết như phông chữ, kích thước, màu sắc hoặc các thuộc tính liên quan khác.",
+      "step_3": "Gọi phương thức {{TextSearchBold}} từ instance {{TextWatermarkerBold}} để bắt đầu tìm kiếm. Nó trả về một danh sách các mục watermark đã tìm thấy để bạn làm việc.",
+      "step_4": "Với danh sách các mục watermark, bạn có thể xóa hoặc chỉnh sửa chúng theo nhu cầu. Ví dụ, bạn có thể muốn cập nhật kích thước hoặc văn bản của chúng."
+    }
+  },
+  "more_features": {
+    "title": "Phát hiện Watermark Nâng cao trong {{ProgLang}} với {{ProdShortName}}",
+    "description": "Khám phá các tùy chọn tìm kiếm watermark mạnh mẽ trong API {{ProdShortName}}, được thiết kế cho các dự án {{ProgLang}}.",
+    "image_description": "Tìm kiếm Watermark {{ProgLang}}",
+    "feature_1": {
+      "title": "Phát hiện Watermark Đơn giản và Nhanh chóng",
+      "content": "Sử dụng {{ProdShortName}} để nhanh chóng tìm kiếm watermark trong mã {{ProgLang}} của bạn. Công cụ tìm kiếm thông minh giúp bạn xác định các watermark một cách hiệu quả."
+    },
+    "feature_2": {
+      "title": "Tìm Watermark Cụ thể với Độ chính xác",
+      "content": "Bảo vệ các tệp của bạn bằng cách tìm watermark dựa vào màu sắc, kích thước hoặc vị trí. {{ProdShortName}} giúp bạn dễ dàng cấu hình các bộ lọc tìm kiếm trong {{ProgLang}}."
+    },
+    "feature_3": {
+      "title": "Công cụ {{ProgLang}} để Kiểm soát Hoàn toàn Watermark",
+      "content": "Thêm {{ProdShortName}} vào ứng dụng {{ProgLang}} của bạn để tìm kiếm, kiểm tra và theo dõi việc sử dụng watermark. Tuyệt vời cho việc thanh tra, thương hiệu hoặc bảo vệ nội dung."
+    },
+    "code_1": {
+      "title": "Mẫu {{ProgLang}}: Quy trình Phát hiện Watermark Toàn diện",
+      "content": "Xem cách sử dụng {{ProdShortName}} trong {{ProgLang}} để tìm kiếm qua các tài liệu, xử lý nhiều định dạng và sử dụng các bộ lọc phức tạp.",
+      "comment_1": "Thiết lập ứng dụng {{ProgLang}} của bạn và tải tài liệu",
+      "comment_2": "Xác định loại watermark cần tìm",
+      "comment_3": "Thực hiện tìm kiếm và thu thập dữ liệu watermark",
+      "comment_4": "Sử dụng thông tin đã tìm thấy cho các bước tiếp theo như xóa hoặc xem xét"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Phát hiện Watermark ẩn trong các tệp {{FileFormatUp}}",
+      "description": "Nhanh chóng tìm kiếm watermark vô hình trong các tài liệu bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Tìm kiếm Watermark trong các tệp {{FileFormatUp}} một cách hiệu quả",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện và quản lý các watermark ẩn một cách nhanh chóng.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tìm hiểu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp bạn quản lý các watermark. Bạn có thể tạo, tìm, chỉnh sửa và xóa watermark trong PDF, Word, Excel và nhiều định dạng khác. Thêm công cụ watermark vào dự án {{ProgLang}} của bạn với {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Các định dạng tệp được hỗ trợ cho tìm kiếm watermark",
+      "description": "Nhanh chóng tìm và làm việc với các watermark trong nhiều loại tài liệu khác nhau."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Tìm Watermark ẩn trong các tài liệu {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện nhanh chóng các watermark ẩn trong các tệp của bạn."
+    },
+    "header": {
+      "title": "Nhanh chóng tìm Watermark trong các tệp {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện và xử lý các watermark một cách nhanh chóng.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Khám phá các tính năng của {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho bạn tất cả các công cụ để làm việc với watermark trong {{ProgLang}}. Nó hỗ trợ thêm, xóa và phát hiện watermark trong các định dạng như PDF, Word, Excel và nhiều định dạng khác. Đưa sự hỗ trợ watermark vào ứng dụng của bạn với {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Làm việc với Watermark trong nhiều định dạng",
+      "description": "Nhanh chóng phát hiện và xử lý watermark trong nhiều định dạng tệp khác nhau."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Tìm Watermark trong các PDF {{FileFormatUp}}",
+      "description": "Nhanh chóng phát hiện watermark trong các tài liệu PDF bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Nhanh chóng tìm Watermark trong các PDF {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để quét và quản lý các watermark ẩn trong PDF.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận gói {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} là gì?",
+      "content": "{{ProdFullName}} giúp làm việc với các watermark trong {{ProgLang}} một cách hiệu quả. Bạn có thể sử dụng nó để tạo, phát hiện hoặc xóa watermark trong nhiều loại tệp như PDF, tài liệu Word và bảng tính. Thêm nó vào quá trình công việc của bạn trong {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Tìm Watermark trong nhiều loại tệp",
+      "description": "Nhanh chóng tìm và xử lý watermark trong nhiều định dạng tệp khác nhau."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Phát hiện Watermark trong các bài thuyết trình {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để tìm watermark trong các tệp bài thuyết trình một cách dễ dàng."
+    },
+    "header": {
+      "title": "Nhanh chóng tìm Watermark trong các slide {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để dễ dàng tìm kiếm và quản lý các watermark trong các bài thuyết trình.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tất cả về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho bạn các công cụ để quản lý watermark trong {{ProgLang}}. Làm việc với PDF, Word, Excel và nhiều định dạng khác. Tìm kiếm, tạo hoặc xóa watermark trong các ứng dụng {{ProgLang}} của bạn dễ dàng với {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Phát hiện Watermark trong tất cả các định dạng hỗ trợ",
+      "description": "Tìm và quản lý watermark trong nhiều loại tài liệu phổ biến."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Tìm Watermark ẩn trong các slide {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện các watermark ẩn trong các tệp bài thuyết trình."
+    },
+    "header": {
+      "title": "Nhanh chóng phát hiện Watermark trong các bài thuyết trình {{FileFormatUp}}",
+      "description": "Dễ dàng phát hiện và quản lý watermark với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tổng quan về {{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp bạn có toàn quyền kiểm soát các watermark trong {{ProgLang}}. Nó làm việc với nhiều loại tệp—PDF, Excel, Word—và tích hợp mượt mà vào các ứng dụng {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Tìm Watermark trong tất cả các loại tệp",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện watermark trong nhiều định dạng một cách dễ dàng."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Phát hiện Watermark trong các tài liệu {{FileFormatUp}}",
+      "description": "Nhanh chóng phát hiện watermark trong các tài liệu bằng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Phát hiện Watermark trong các tệp {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để nhanh chóng tìm kiếm và quản lý watermark.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận gói {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Về {{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp các nhiệm vụ liên quan đến watermark trở nên đơn giản trong {{ProgLang}}. Nó hoạt động với các định dạng PDF, Word, Excel và nhiều định dạng khác. Sử dụng nó trong các ứng dụng {{ProgLang}} của bạn để tìm kiếm, chỉnh sửa hoặc xóa watermark."
+    },
+    "formats": {
+      "title": "Các định dạng được hỗ trợ cho phát hiện watermark",
+      "description": "Sử dụng {{ProdFullName}} để tìm và quản lý watermark trên nhiều định dạng."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Tìm Watermark ẩn trong các trang tính {{FileFormatUp}}",
+      "description": "Sử dụng {{ProdFullName}} để nhanh chóng phát hiện watermark trong các tệp bảng tính."
+    },
+    "header": {
+      "title": "Phát hiện và quản lý Watermark trong các trang tính {{FileFormatUp}}",
+      "description": "Dễ dàng tìm kiếm các watermark với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tìm hiểu thêm về {{ProdFullName}}",
+      "content": "{{ProdShortName}} giúp các nhà phát triển {{ProgLang}} quản lý watermark trong {{ProgLang}}. Sử dụng nó để chỉnh sửa, xóa hoặc tìm kiếm watermark trong Excel, Word, PDF và các định dạng khác."
+    },
+    "formats": {
+      "title": "Tìm kiếm watermark qua nhiều định dạng",
+      "description": "Tìm và quản lý watermark trong nhiều định dạng được hỗ trợ khác nhau."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Phát hiện Watermark trong các tệp Excel {{FileFormatUp}}",
+      "description": "Nhanh chóng tìm các watermark ẩn bằng {{ProdFullName}} trong các tài liệu Excel."
+    },
+    "header": {
+      "title": "Tìm Watermark trong các trang tính {{FileFormatUp}}",
+      "description": "Tìm kiếm và xử lý watermark một cách dễ dàng với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống từ {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}} có thể làm gì?",
+      "content": "{{ProdFullName}} giúp dễ dàng quản lý watermark bằng {{ProgLang}}. Thêm vào các dự án {{ProgLang}} của bạn để phát hiện, cập nhật hoặc xóa watermark trong nhiều định dạng như Word, Excel và PDF."
+    },
+    "formats": {
+      "title": "Phát hiện Watermark trong các loại tệp được hỗ trợ",
+      "description": "Sử dụng {{ProdFullName}} để phát hiện watermark trong nhiều loại tài liệu với ease."
+    }
+  }
+}

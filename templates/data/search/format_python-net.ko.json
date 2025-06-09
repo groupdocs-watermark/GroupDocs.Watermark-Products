@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 내 텍스트 워터마크 검색",
+    "comment_2": "{{FileFormatUp}}의 경로를 사용하여 {{TextWatermarker}} 인스턴스 생성",
+    "comment_3": "워터마크를 찾기 위한 검색 설정 사용",
+    "comment_4": "발견된 워터마크 결과 처리"
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileformatCap}} 워터마크 감지",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**는 다양한 비즈니스 문서에서 워터마크를 감지하는 것을 가능하게 합니다. 이 도구를 {{ProgLang}} 프로젝트에 추가하여 워터마크 감지 기능을 활성화하세요.",
+      "step_1": "{{FileformatCap}} 문서를 파일 경로, 파일 스트림 또는 바이트 배열을 사용하여 로드하기 위해 {{TextWatermarkerBold}} 클래스를 초기화합니다. 이로써 워터마크 검색을 위한 파일 준비가 완료됩니다.",
+      "step_2": "검색 범위를 좁히기 위해 {{TextSearchCriteriaBold}} 클래스를 사용하세요. 이미지 워터마크의 경우 샘플 이미지를 제공하고, 텍스트의 경우 폰트, 크기, 색상 및 기타 속성을 설정합니다.",
+      "step_3": "{{TextWatermarkerBold}} 인스턴스에서 {{TextSearchBold}} 메서드를 호출하여 검색을 시작합니다. 이는 찾아진 워터마크 항목 목록을 반환합니다.",
+      "step_4": "워터마크 항목의 목록을 통해 필요에 따라 항목을 제거하거나 수정할 수 있습니다. 예를 들어, 크기나 텍스트를 업데이트할 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}}의 {{ProgLang}}에서의 고급 워터마크 감지",
+    "description": "{{ProdShortName}} API의 강력한 워터마크 검색 옵션을 탐색하세요. 이는 {{ProgLang}} 프로젝트에서 사용하기 위해 설계되었습니다.",
+    "image_description": "{{ProgLang}} 워터마크 검색",
+    "feature_1": {
+      "title": "간단하고 빠른 워터마크 감지",
+      "content": "{{ProdShortName}}를 사용하여 {{ProgLang}} 코드 내에서 워터마크를 빠르게 찾으세요. 스마트 검색 엔진이 워터마크를 손쉽게 찾도록 도와줍니다."
+    },
+    "feature_2": {
+      "title": "정확하게 특정 워터마크 찾기",
+      "content": "색상, 크기 또는 위치를 기반으로 워터마크를 찾아 파일을 보호하세요. {{ProdShortName}}는 {{ProgLang}}에서 검색 필터를 구성하는 것을 용이하게 만듭니다."
+    },
+    "feature_3": {
+      "title": "{{ProgLang}}를 위한 완벽한 워터마크 제어 도구",
+      "content": "{{ProdShortName}}를 {{ProgLang}} 애플리케이션에 추가하여 워터마크의 사용을 검색, 검사 및 추적하세요. 감사, 브랜딩 또는 콘텐츠 보호에 적합합니다."
+    },
+    "code_1": {
+      "title": "{{ProgLang}} 샘플: 전체 워터마크 감지 흐름",
+      "content": "{{ProdShortName}}를 {{ProgLang}}에서 사용하여 문서를 검색하고, 여러 형식을 처리하며, 복잡한 필터를 사용하는 방법을 확인하세요.",
+      "comment_1": "{{ProgLang}} 앱을 설정하고 문서 로드",
+      "comment_2": "어떤 종류의 워터마크를 찾을지 정의",
+      "comment_3": "검색을 실행하고 워터마크 데이터를 수집",
+      "comment_4": "가져온 정보를 제거 또는 검토와 같은 추가 단계에 사용"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 파일에서 숨겨진 워터마크 감지",
+      "description": "{{ProdFullName}}을 사용하여 문서 내 보이지 않는 워터마크를 쉽게 찾으세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 숨겨진 워터마크를 빠르게 감지하고 관리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해 알아보기",
+      "content": "{{ProdFullName}}는 워터마크를 처리할 수 있게 해줍니다. PDFs, Word, Excel 등에서 워터마크를 생성, 찾기, 편집 및 삭제할 수 있습니다. {{ProdFullName}}를 사용하여 {{ProgLang}} 프로젝트에 워터마크 도구를 추가하세요."
+    },
+    "formats": {
+      "title": "워터마크 검색을 위한 지원되는 파일 형식",
+      "description": "여러 가지 문서 유형에서 워터마크를 빠르게 찾아 작업하세요."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서에서 숨겨진 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 파일 내 숨겨진 워터마크를 쉽게 감지하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 워터마크를 빠르게 찾아 처리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료 {{PackageStoreName}} 패키지 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 기능 탐색",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 워터마크 작업을 위한 모든 도구를 제공합니다. PDF, Word, Excel 등에서 워터마크를 추가, 제거 및 감지하는 것을 지원합니다. {{ProdFullName}}를 사용하여 앱에 워터마크 지원을 가져오세요."
+    },
+    "formats": {
+      "title": "다양한 형식에서 워터마크 작업하기",
+      "description": "여러 형식에서 워터마크를 쉽게 감지하고 관리하세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} PDF에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 PDF 문서에서 워터마크를 쉽게 감지하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} PDF에서 워터마크 빠르게 찾기",
+      "description": "{{ProdFullName}}을 사용하여 숨겨진 PDF 워터마크를 스캔하고 관리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}란?",
+      "content": "{{ProdFullName}}은 {{ProgLang}}에서 워터마크 작업을 쉽게 만듭니다. 여러 파일 유형의 워터마크를 생성, 감지 또는 삭제하는 데 사용할 수 있습니다. {{ProdFullName}}을 {{ProgLang}} 작업 흐름에 추가하세요."
+    },
+    "formats": {
+      "title": "다양한 파일 유형에서 워터마크 찾기",
+      "description": "폭넓은 다양한 파일 형식에서 워터마크를 쉽게 찾고 처리하세요."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} 발표에서 워터마크 감지",
+      "description": "{{ProdFullName}}을 사용하여 프레젠테이션 파일에서 워터마크를 쉽게 찾아보세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 슬라이드에서 워터마크 바로 찾기",
+      "description": "{{ProdFullName}}을 사용하여 발표 자료에서 워터마크를 쉽게 검색하고 관리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대한 모든 것",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 워터마크를 관리할 도구를 제공합니다. PDF, Word, Excel 등과 함께 작업하세요. {{ProdFullName}}을 사용하여 {{ProgLang}} 앱에서 워터마크를 검색, 생성 또는 삭제하세요."
+    },
+    "formats": {
+      "title": "모든 지원 형식에서 워터마크 감지",
+      "description": "많은 일반적인 문서 유형에서 워터마크를 찾고 관리하세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}} 슬라이드에서 숨겨진 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 발표 파일 내 숨겨진 워터마크를 공개하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 프레젠테이션에서 워터마크 쉽게 찾아보기",
+      "description": "{{ProdFullName}}을 사용하여 워터마크를 쉽게 감지하고 관리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 개요",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 워터마크를 완벽하게 제어할 수 있게 해 줍니다. PDF, Excel, Word 등 다양한 파일 유형과 함께 작동하며 {{ProgLang}} 앱에 매끄럽게 통합됩니다."
+    },
+    "formats": {
+      "title": "모든 파일 유형에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 여러 형식에서 워터마크를 쉽게 감지하세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 문서 내 워터마크를 빠르게 감지하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 감지",
+      "description": "{{ProdFullName}}을 사용하여 워터마크를 쉽게 찾고 관리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} 패키지 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대해",
+      "content": "{{ProdFullName}}은 {{ProgLang}}에서 워터마크 작업을 쉽게 만듭니다. PDF, Word, Excel 등과 함께 작업하세요. {{ProgLang}} 애플리케이션에서 워터마크를 검색, 편집 또는 제거하는 데 사용하세요."
+    },
+    "formats": {
+      "title": "워터마크 감지를 위한 지원 형식",
+      "description": "{{ProdFullName}}을 사용하여 많은 형식에서 워터마크를 찾고 관리하세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}} 시트에서 숨겨진 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 스프레드시트 파일 내의 워터마크를 빠르게 감지하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 시트에서 워터마크 감지 및 관리",
+      "description": "{{ProdFullName}}을 사용하여 워터마크를 쉽게 검색하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}에 대한 추가 정보",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자가 워터마크를 관리하는 데 도움이 됩니다. Excel, Word, PDF 및 기타 형식에서 워터마크를 편집, 제거 또는 찾기 위해 사용하세요."
+    },
+    "formats": {
+      "title": "형식 간의 워터마크 검색",
+      "description": "여러 지원 형식에서 워터마크를 찾고 관리하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Excel 파일에서 워터마크 감지",
+      "description": "{{ProdFullName}}을 사용하여 Excel 문서 내 숨겨진 워터마크를 빠르게 찾으세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 스프레드시트에서 워터마크 찾기",
+      "description": "{{ProdFullName}}을 사용하여 워터마크를 쉽게 검색하고 처리하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}의 기능은?",
+      "content": "{{ProdFullName}}은 {{ProgLang}}를 사용하여 워터마크를 관리하는 것을 간단하게 만듭니다. 워터마크를 감지, 업데이트 또는 제거하기 위해 {{ProgLang}} 프로젝트에 추가하세요."
+    },
+    "formats": {
+      "title": "지원되는 파일 유형에서 워터마크 감지",
+      "description": "{{ProdFullName}}을 사용하여 다양한 문서 유형에서 워터마크를 손쉽게 감지하세요."
+    }
+  }
+}

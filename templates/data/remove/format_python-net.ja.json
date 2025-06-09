@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ファイルから画像の透かしを削除する",
+    "comment_2": "あなたの {{FileFormatUp}} ファイルで {{TextWatermarker}} インスタンスを作成する",
+    "comment_3": "検出された透かしを見つけて削除する",
+    "comment_4": "更新したドキュメントを保存する"
+  },
+  "steps": {
+    "title": "{{ProgLang}} で {{FileformatCap}} ファイルから透かしを削除する方法",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** は、{{ProgLang}} 開発者が {{FileformatCap}} ファイルから透かしを迅速に取り除くことを可能にします。方法は以下の通りです：",
+      "step_1": "{{TextWatermarkerBold}} コンストラクタにあなたの {{FileformatCap}} ファイルを渡して始めます。ファイルパス、バイトストリーム、またはファイルストリームを使用できます。",
+      "step_2": "{{TextSearchCriteriaBold}} オブジェクトを使用して、削除したい透かしを検索します。画像、テキスト、または書式でフィルタリングし、正確な結果を得ます。",
+      "step_3": "検索の後、透かしのリストが表示されます。必要ないものを選択して削除します。",
+      "step_4": "完了したら、ドキュメントをファイルまたはストリームとして保存します。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProgLang}} での強力な透かし削除 | {{ProdShortName}}",
+    "description": "{{ProgLang}} API を活用して PDF および Office ファイルから透かしを削除しましょう。どんな用途にも対応したクリーンでプロフェッショナルなドキュメントを手に入れましょう。",
+    "image_description": "透かしを消去",
+    "feature_1": {
+      "title": "{{ProgLang}} での正確な透かし削除",
+      "content": "{{ProgLang}} API は正確な透かしの削除のために作られているため、ファイルは元の外観や書式を保つことができます。ビジネス、法務、あるいは学術ドキュメントに最適です。"
+    },
+    "feature_2": {
+      "title": "{{ProgLang}} を使用したバッチ透かし削除",
+      "content": "一度に多くのファイルから透かしを削除して、ワークフローを速度化します。大規模なドキュメントコレクションの効率的な処理に最適です。"
+    },
+    "feature_3": {
+      "title": "柔軟な透かしの編集と削除",
+      "content": "必要に応じて透かしを編集または削除できます。API では、ドキュメントを要求に合わせて適切に保つオプションが提供されます。"
+    },
+    "code_1": {
+      "title": "プレゼンテーションから背景を削除する",
+      "content": "この例では、ハイパーリンクの透かしを削除する方法を示します。",
+      "comment_1": "プレゼンテーションを開く",
+      "comment_2": "スライドの内容にアクセスする",
+      "comment_3": "ハイパーリンクの透かしを削除する",
+      "comment_4": "プレゼンテーションを保存する"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{ProgLang}} で {{FileFormatUp}} ファイルから透かしを削除する",
+      "description": "{{ProgLang}} API を使用して {{FileFormatUp}} ファイルの透かしをクリアし、ドキュメントをクリーンに保ちます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 透かし削除のための {{ProgLang}}",
+      "description": "{{ProdFullName}} APIを使用すると、{{FileFormatUp}}ファイルの透かしを容易に削除または編集で、ドキュメントを整理できます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、{{FileFormatUp}} ファイルの透かしを管理するためのすべてのツールを提供します。透かしを削除または調整して、プロフェッショナルで整ったドキュメントを保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} ファイルからの透かし削除",
+      "description": "{{ProdFullName}} API がどのように {{FileFormatUp}} ファイルの透かしをクリアして、より良いドキュメントクオリティを提供できるかを確認してください。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 透かしを素早く削除する {{ProgLang}}",
+      "description": "私たちの {{ProgLang}} API を使用して {{FileFormatUp}} ファイルから透かしを簡単に削除し、クリーンでプロフェッショナルなドキュメントを作成します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} 透かし管理",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} ファイルの透かしを削除または編集し、ドキュメントを最高の状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは {{FileFormatUp}} ファイルの透かしを管理するために必要なすべてを提供します。透かしを削除、編集または調整して、クリーンでプロフェッショナルな外観を維持します。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} ファイルからの透かしのクリア",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} ファイルから透かしを削除する方法を学び、ドキュメントの外観を向上させます。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} 文書から透かしを削除する {{ProgLang}}",
+      "description": "私たちの {{ProgLang}} API を使用して {{FileFormatUp}} ファイルから透かしを迅速にクリアし、プロにふさわしい結果を得ます。"
+    },
+    "header": {
+      "title": "{{ProgLang}} で {{FileFormatUp}} ファイルの透かしを削除",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} 文書から透かしを削除し、ファイルをクリアで整理された状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、{{FileFormatUp}} ファイルの透かしを管理することを容易にします。透かしを削除または編集して、ドキュメントをシャープで整然とした状態に保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} の透かしを削除",
+      "description": "{{ProdFullName}} API がどのように {{FileFormatUp}} ファイルから透かしをクリアして、洗練されたプロフェッショナルな仕上げを提供できるかを確認してください。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}} プレゼンテーションファイルから透かしを削除する",
+      "description": "私たちの {{ProgLang}} API を使ってプレゼンテーションファイルから透かしを簡単にクリアし、クリーンでプロフェッショナルなスライドを作成します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} プレゼンテーションの透かし削除 {{ProgLang}}",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} プレゼンテーションから透かしを削除し、スライドを素晴らしい状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、プレゼンテーションファイル内の透かしを完全にコントロールするための機能を提供します。透かしを削除、編集、または調整して、すべての聴衆に適したクリアでプロフェッショナルなスライドを保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} でのプレゼンテーションからの透かし削除",
+      "description": "{{ProdFullName}} API がどのように {{FileFormatUp}} プレゼンテーションの透かしを管理およびクリアする手助けになるかを確認してください。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}} での PowerPoint の透かしを削除",
+      "description": "私たちの {{ProgLang}} API を使用して、PowerPoint スライドから透かしを迅速にクリアし、プロフェッショナルなプレゼンテーションを作成します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} スライドからの透かし削除",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} スライドから透かしを削除し、プレゼンテーションを最高の状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} で無料入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは PowerPoint プレゼンテーションの透かしを管理するために必要なすべてのツールを提供します。透かしを削除または調整して、スライドをクリーンでプロフェッショナルな状態に保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での PowerPoint の透かし削除",
+      "description": "{{ProdFullName}} API がどのように {{FileFormatUp}} スライドから透かしを削除するためのサポートを提供できるのかを確認してください。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}} ファイルから透かしを削除する {{ProgLang}}",
+      "description": "私たちの {{ProgLang}} API を使用して {{FileFormatUp}} ファイルから透かしを簡単にクリアし、クリーンでプロフェッショナルなドキュメントを作成します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} ファイル内の透かし管理",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} ファイル内の透かしを削除または編集し、ドキュメントを最適な状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、{{FileFormatUp}} ファイルの透かしを管理するために必要なすべての機能を提供します。透かしを削除、編集、または調整して、ドキュメントをクリーンでプロフェッショナルに保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} ファイルからの透かし削除",
+      "description": "{{ProdFullName}} API があなたの {{FileFormatUp}} ファイルの経験を改善するためにどのように透かしをクリアするのかを確認してください。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Excel {{FileFormatUp}} ファイルから透かしを削除する",
+      "description": "私たちの {{ProgLang}} API を使用して {{FileFormatUp}} スプレッドシートから透かしを迅速にクリアし、クリーンでプロフェッショナルなデータを作成します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} スプレッドシートの透かし削除",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} スプレッドシートの透かしを削除または編集し、データをシャープな状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} で無料入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、{{FileFormatUp}} スプレッドシートの透かしを管理するために必要なすべてを提供します。透かしを削除、編集、または調整し、データをクリアでプロフェッショナルに保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} スプレッドシートからの透かし削除",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} スプレッドシートから透かしを削除する方法を学び、データのプレゼンテーションを向上させます。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} ファイルから透かしを削除する {{ProgLang}}",
+      "description": "私たちの {{ProgLang}} API を使用して {{FileFormatUp}} スプレッドシートから透かしを簡単にクリアし、クリーンでプロフェッショナルなデータを作成します。"
+    },
+    "header": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} ファイル内の透かし管理",
+      "description": "{{ProdFullName}} API を使用して {{FileFormatUp}} スプレッドシート内の透かしを削除または編集し、データを最適な状態に保ちます。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}} から無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ライブラリ",
+      "content": "{{ProdFullName}} ライブラリは、{{FileFormatUp}} スプレッドシートの透かしを管理するために必要なすべてのツールを提供します。透かしを削除、編集、または調整し、データをクリーンでプロフェッショナルに保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} での {{FileFormatUp}} スプレッドシートからの透かし削除",
+      "description": "{{ProdFullName}} API が {{FileFormatUp}} スプレッドシートから透かしをクリアするのを助ける方法を確認してください。"
+    }
+  }
+}

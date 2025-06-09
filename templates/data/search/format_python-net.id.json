@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Cari watermark teks di dalam {{FileFormatUp}}",
+    "comment_2": "Buat instansi {{TextWatermarker}} menggunakan jalur menuju {{FileFormatUp}}",
+    "comment_3": "Gunakan pengaturan pencarian untuk menemukan watermark",
+    "comment_4": "Tangani hasil watermark yang ditemukan"
+  },
+  "steps": {
+    "title": "Deteksi Watermark {{FileformatCap}} Menggunakan {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memudahkan Anda mendeteksi watermark dalam berbagai jenis dokumen bisnis. Tambahkan alat ini ke proyek {{ProgLang}} Anda untuk mengaktifkan fitur deteksi watermark.",
+      "step_1": "Pertama, inisialisasi kelas {{TextWatermarkerBold}} dan muat dokumen {{FileformatCap}} Anda menggunakan jalur file, aliran file, atau array byte. Ini menyiapkan file untuk pencarian watermark.",
+      "step_2": "Untuk mempersempit pencarian Anda, gunakan kelas {{TextSearchCriteriaBold}}. Untuk watermark gambar, berikan gambar contoh. Untuk teks, tentukan detail seperti font, ukuran, warna, atau atribut terkait lainnya.",
+      "step_3": "Panggil metode {{TextSearchBold}} dari instansi {{TextWatermarkerBold}} untuk memulai pencarian. Ini mengembalikan daftar item watermark yang ditemukan untuk Anda kerjakan.",
+      "step_4": "Dengan daftar item watermark, Anda dapat menghapus atau mengeditnya sesuai kebutuhan. Misalnya, Anda mungkin ingin memperbarui ukuran atau teks mereka."
+    }
+  },
+  "more_features": {
+    "title": "Deteksi Watermark Lanjutan di {{ProgLang}} dengan {{ProdShortName}}",
+    "description": "Jelajahi opsi pencarian watermark yang kuat dalam API {{ProdShortName}}, dirancang untuk digunakan dalam proyek {{ProgLang}}.",
+    "image_description": "Pencarian Watermark {{ProgLang}}",
+    "feature_1": {
+      "title": "Deteksi Watermark yang Sederhana dan Cepat",
+      "content": "Gunakan {{ProdShortName}} untuk dengan cepat menemukan watermark dalam kode {{ProgLang}} Anda. Mesin pencarian cerdas membantu Anda melokalisasi watermark tanpa kesulitan."
+    },
+    "feature_2": {
+      "title": "Temukan Watermark Tertentu dengan Akurasi",
+      "content": "Lindungi file Anda dengan menemukan watermark berdasarkan warna, ukuran, atau lokasi. {{ProdShortName}} memudahkan untuk mengonfigurasi filter pencarian dalam {{ProgLang}}."
+    },
+    "feature_3": {
+      "title": "Alat {{ProgLang}} untuk Kontrol Penuh Watermark",
+      "content": "Tambahkan {{ProdShortName}} ke aplikasi {{ProgLang}} Anda untuk mencari, memeriksa, dan melacak penggunaan watermark. Sangat bagus untuk audit, branding, atau perlindungan konten."
+    },
+    "code_1": {
+      "title": "Contoh {{ProgLang}}: Alur Deteksi Watermark Lengkap",
+      "content": "Lihat bagaimana menggunakan {{ProdShortName}} dalam {{ProgLang}} untuk mencari melalui dokumen, menangani berbagai format, dan menggunakan filter kompleks.",
+      "comment_1": "Siapkan aplikasi {{ProgLang}} Anda dan muat dokumen",
+      "comment_2": "Tentukan jenis watermark yang ingin dicari",
+      "comment_3": "Jalankan pencarian dan kumpulkan data watermark",
+      "comment_4": "Gunakan informasi yang ditemukan untuk langkah-langkah selanjutnya seperti penghapusan atau peninjauan"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Deteksi Watermark Tersembunyi di Berkas {{FileFormatUp}}",
+      "description": "Dengan mudah temukan watermark tak terlihat dalam dokumen menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Temukan Watermark di Berkas {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk cepat mendeteksi dan mengelola watermark tersembunyi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh paket {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Pelajari Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} membantu Anda menangani watermark. Anda bisa membuat, menemukan, mengedit, dan menghapus watermark di PDF, Word, Excel, dan lainnya. Tambahkan alat watermark ke proyek {{ProgLang}} Anda dengan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Format Berkas yang Didukung untuk Pencarian Watermark",
+      "description": "Dengan cepat temukan dan bekerja dengan watermark dalam berbagai tipe dokumen."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Temukan Watermark Tersembunyi di Dokumen {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk mendeteksi watermark tersembunyi di berkas Anda."
+    },
+    "header": {
+      "title": "Dengan Mudah Temukan Watermark di Berkas {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk cepat mendeteksi dan menangani watermark.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan paket {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "Jelajah Fitur {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberi Anda semua alat untuk bekerja dengan watermark dalam {{ProgLang}}. Ini mendukung penambahan, penghapusan, dan deteksi watermark dalam format seperti PDF, Word, Excel, dan lainnya. Bawa dukungan watermark ke dalam aplikasi Anda dengan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Bekerja dengan Watermark di Banyak Format",
+      "description": "Dengan mudah deteksi dan kelola watermark di berbagai format berkas."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Temukan Watermark di PDF {{FileFormatUp}}",
+      "description": "Dengan mudah deteksi watermark di dokumen PDF menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Cepat Temukan Watermark di PDF {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk memindai dan mengelola watermark PDF yang tersembunyi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan paket {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "Apa itu {{ProdFullName}}?",
+      "content": "{{ProdFullName}} membuat Anda mudah bekerja dengan watermark dalam {{ProgLang}}. Anda dapat menggunakannya untuk membuat, mendeteksi, atau menghapus watermark dalam banyak tipe berkas seperti PDF, dokumen Word, dan spreadsheet. Tambahkan ke alur kerja {{ProgLang}} Anda."
+    },
+    "formats": {
+      "title": "Temukan Watermark di Banyak Jenis Berkas",
+      "description": "Dengan mudah temukan dan tangani watermark dalam berbagai format berkas."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Deteksi Watermark di Presentasi {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk menemukan watermark dalam berkas presentasi dengan mudah."
+    },
+    "header": {
+      "title": "Cepat Temukan Watermark di Slide {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk dengan mudah mencari dan mengelola watermark dalam presentasi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan dari {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Semua Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberi Anda alat untuk mengelola watermark dalam {{ProgLang}}. Bekerja dengan PDF, Word, Excel, dan lainnya. Cari, buat, atau hapus watermark dalam aplikasi {{ProgLang}} Anda dengan mudah menggunakan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Deteksi Watermark dalam Semua Format yang Didukung",
+      "description": "Temukan dan kelola watermark dalam banyak jenis dokumen umum."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Temukan Watermark Tersembunyi di Slide {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk mengungkap watermark tersembunyi dalam berkas presentasi."
+    },
+    "header": {
+      "title": "Cepat Ungkap Watermark di Presentasi {{FileFormatUp}}",
+      "description": "Dengan mudah deteksi dan kelola watermark dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Ikhtisar {{ProdFullName}}",
+      "content": "{{ProdFullName}} memberi Anda kontrol penuh atas watermark dalam {{ProgLang}}. Ini bekerja dengan banyak jenis berkas—PDF, Excel, Word—dan terintegrasi dengan baik ke dalam aplikasi {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Temukan Watermark di Semua Jenis Berkas",
+      "description": "Gunakan {{ProdFullName}} untuk secara mudah mendeteksi watermark dalam berbagai format."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Deteksi Watermark di Dokumen {{FileFormatUp}}",
+      "description": "Dengan cepat deteksi watermark dalam dokumen menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Deteksi Watermark di Berkas {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk dengan mudah menemukan dan mengelola watermark.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan paket {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tentang {{ProdFullName}}",
+      "content": "{{ProdFullName}} menjadikan tugas watermark sederhana dalam {{ProgLang}}. Ini bekerja dengan PDF, Word, Excel, dan lainnya. Gunakan dalam aplikasi {{ProgLang}} Anda untuk mencari, mengedit, atau menghapus watermark."
+    },
+    "formats": {
+      "title": "Format yang Didukung untuk Deteksi Watermark",
+      "description": "Gunakan {{ProdFullName}} untuk menemukan dan mengelola watermark di banyak format."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Temukan Watermark Tersembunyi di Sheet {{FileFormatUp}}",
+      "description": "Gunakan {{ProdFullName}} untuk cepat mendeteksi watermark dalam berkas spreadsheet."
+    },
+    "header": {
+      "title": "Deteksi dan Kelola Watermark di Sheet {{FileFormatUp}}",
+      "description": "Dengan mudah cari watermark dengan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh Gratis dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Lebih Lanjut tentang {{ProdFullName}}",
+      "content": "{{ProdShortName}} membantu pengembang {{ProgLang}} mengelola watermark dalam {{ProgLang}}. Gunakan untuk mengedit, menghapus, atau menemukan watermark dalam Excel, Word, PDF, dan format lainnya."
+    },
+    "formats": {
+      "title": "Pencarian Watermark di Berbagai Format",
+      "description": "Temukan dan kelola watermark dalam banyak format yang berbeda."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Deteksi Watermark di Berkas Excel {{FileFormatUp}}",
+      "description": "Dengan cepat temukan watermark tersembunyi menggunakan {{ProdFullName}} dalam dokumen Excel."
+    },
+    "header": {
+      "title": "Temukan Watermark di Spreadsheet {{FileFormatUp}}",
+      "description": "Cari dan tangani watermark dengan mudah menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh dari {{PackageStoreName}} secara gratis"
+    },
+    "about": {
+      "title": "Apa yang Dapat Dilakukan {{ProdFullName}}?",
+      "content": "{{ProdFullName}} memudahkan untuk mengelola watermark menggunakan {{ProgLang}}. Tambahkan ke proyek {{ProgLang}} Anda untuk mendeteksi, memperbarui, atau menghapus watermark dalam berbagai format seperti Word, Excel, dan PDF."
+    },
+    "formats": {
+      "title": "Deteksi Watermark di Jenis Berkas yang Didukung",
+      "description": "Gunakan {{ProdFullName}} untuk mendeteksi watermark dalam berbagai jenis dokumen dengan mudah."
+    }
+  }
+}

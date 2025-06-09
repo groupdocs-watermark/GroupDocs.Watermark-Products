@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Rileva il watermark del testo nel formato {{FileFormatUp}}",
+    "comment_2": "Inizializza {{TextWatermarker}} con un file {{FileFormatUp}}",
+    "comment_3": "Esegui la ricerca del watermark",
+    "comment_4": "Elabora l'elenco dei watermark rilevati"
+  },
+  "steps": {
+    "title": "Come rilevare watermark in file {{FileformatCap}} tramite {{ProgLang}}",
+    "content": {
+      "title": "Con **[{{ProdShortName}}]({{ProductUrl}})**, identificare watermark integrati nei tuoi documenti aziendali è semplificato. Integra le sue capacità nei tuoi flussi di lavoro {{ProgLang}} per una rilevazione senza problemi.",
+      "step_1": "Inizia caricando il documento {{FileformatCap}} in un'istanza della classe {{TextWatermarkerBold}}. Accetta input come percorso, stream o array di byte.",
+      "step_2": "Raffina la tua ricerca utilizzando l'oggetto {{TextSearchCriteriaBold}}. Per trovare marchi basati su immagini, utilizza un'immagine di esempio. Per quelli testuali, specifica caratteristiche come contenuto, stile o colore.",
+      "step_3": "Invoca il metodo {{TextSearchBold}} dall'oggetto {{TextWatermarkerBold}} per estrarre i dati del watermark. Verrà restituita una collezione di istanze di watermark da ispezionare.",
+      "step_4": "Dopo il recupero, puoi gestire i risultati: rimuovere marchi indesiderati o aggiornare dettagli come dimensioni o contenuto del messaggio."
+    }
+  },
+  "more_features": {
+    "title": "Rilevamento avanzato dei watermark con {{ProdShortName}}",
+    "description": "Utilizza {{ProdShortName}} nei tuoi progetti {{ProgLang}} per scansionare e localizzare in modo efficiente gli elementi watermark in diversi tipi di documento.",
+    "image_description": "Rilevamento dei Watermark",
+    "feature_1": {
+      "title": "Rilevamento avanzato con filtri intelligenti",
+      "content": "Identifica con precisione i watermark in un'ampia gamma di formati di documento. {{ProdShortName}} supporta il filtraggio per caratteristiche visive e testuali tra cui forma, trasparenza e altro."
+    },
+    "feature_2": {
+      "title": "Criteri di ricerca flessibili",
+      "content": "Definisci parametri di ricerca per watermark personalizzati con {{ProdShortName}}. Questa precisione consente un recupero mirato di dati di watermark nascosti o personalizzati."
+    },
+    "feature_3": {
+      "title": "Accesso e organizzazione dei watermark rilevati",
+      "content": "Semplifica l'audit dei documenti recuperando tutti i watermark integrati. I nostri strumenti consentono un'estrazione, visualizzazione e gestione efficienti degli elementi trovati."
+    },
+    "code_1": {
+      "title": "Esempio di codice: Rileva watermark",
+      "content": "Scopri come utilizzare {{ProdShortName}} per cercare documenti contenenti watermark integrati utilizzando regole di rilevamento flessibili.",
+      "comment_1": "Apri il documento target dal disco o dallo stream",
+      "comment_2": "Definisci le proprietà specifiche del watermark da utilizzare nella ricerca",
+      "comment_3": "Esegui la ricerca e raccogli le corrispondenze",
+      "comment_4": "Lavora con i risultati trovati per ulteriori azioni"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Scopri Watermark Non Visibili in Fogli di Calcolo {{FileformatCap}}",
+      "description": "Rivela rapidamente e con precisione i segni nascosti nei file di fogli di calcolo con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Identifica immediatamente i Watermark nei Fogli di Calcolo {{FileformatCap}}",
+      "description": "Localizza e gestisci i watermark senza problemi usando {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Scarica subito {{PackageStoreName}} - È gratis"
+    },
+    "about": {
+      "title": "Panoramica di {{ProdFullName}}",
+      "content": "{{ProdFullName}} fornisce un toolkit completo per watermark per sviluppatori {{ProgLang}}. Genera, modifica, trova e rimuovi contenuti watermark da documenti come Excel, Word, PDF e altro con un intervento minimo."
+    },
+    "formats": {
+      "title": "Ricerca Watermark Multi-Formato",
+      "description": "Localizza contenuti watermark attraverso tutti i formati di file supportati da {{ProdShortName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Identifica Watermark Nascosti in Documenti {{FileformatCap}}",
+      "description": "Cerca documenti per watermark nascosti con facilità usando {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Scopri rapidamente Watermark in Documenti {{FileformatCap}}",
+      "description": "Rivela e rivedi contenuti watermark nascosti usando {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratis con {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Scopri {{ProdFullName}}",
+      "content": "{{ProdFullName}} è un potente strumento per operazioni sui watermark in {{ProgLang}}. Che tu stia aggiungendo, rimuovendo o cercando watermark, supporta formati come DOCX, XLSX, PDF e altro."
+    },
+    "formats": {
+      "title": "Capacità di Rilevamento Cross-Formato",
+      "description": "Supporto per l'analisi dei watermark in una gamma di formati di file ampiamente utilizzati."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Rileva Marchi Nascosti in Presentazioni {{FileformatCap}}",
+      "description": "Scopri facilmente watermark nascosti nelle diapositive delle presentazioni con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Rivela Watermark in Presentazioni {{FileformatCap}}",
+      "description": "Gestisci gli elementi watermark all'interno dei deck di diapositive con le affidabili funzionalità di {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Prova gratuita disponibile su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Che Cos'è {{ProdFullName}}?",
+      "content": "{{ProdFullName}} consente agli sviluppatori di gestire operazioni sui watermark in {{ProgLang}}. Progettato per la flessibilità, gestisce scoperta, inserimento, modifica e rimozione di watermark attraverso formati come PPTX, DOCX e PDF."
+    },
+    "formats": {
+      "title": "Ampia Compatibilità di Formato",
+      "description": "Goditi un rilevamento senza soluzione di continuità dei watermark attraverso più formati di presentazione e documento supportati."
+    }
+  }
+}

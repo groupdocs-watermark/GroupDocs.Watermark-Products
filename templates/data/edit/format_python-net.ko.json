@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일의 이미지 워터마크 업데이트",
+    "comment_2": "{{TextWatermarker}} 인스턴스를 입력 파일과 함께 생성",
+    "comment_3": "이미지 기반 워터마크를 찾기 위해 {{TextSearchCriteria}} 사용",
+    "comment_4": "이미지 워터마크에 변경 사항 적용",
+    "comment_5": "업데이트된 {{FileFormatUp}} 파일 내보내기"
+  },
+  "steps": {
+    "title": "{{ProgLang}} API를 사용하여 {{FileformatCap}} 문서에서 워터마크 수정",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**를 사용하여 {{ProgLang}} 개발자가 다양한 {{FileformatCap}} 문서에서 워터마크 내용을 수정할 수 있습니다. 빠른 안내는 다음과 같습니다:",
+      "step_1": "{{TextWatermarkerBold}} 클래스를 사용하여 {{FileformatCap}} 문서를 로드하며, 파일 경로, 메모리 스트림 또는 바이트 배열을 입력으로 받습니다.",
+      "step_2": "문서에서 기존 워터마크 요소를 찾기 위해 {{TextSearchCriteriaBold}} 객체를 작성합니다. 여기에는 텍스트 또는 그래픽 요소가 포함됩니다.",
+      "step_3": "식별되면, 도구는 업데이트할 수 있는 일치하는 워터마크 인스턴스의 컬렉션을 제공합니다. 색상, 정렬, 글꼴 또는 임베디드 이미지 데이터와 같은 매개변수를 조정하세요.",
+      "step_4": "변경된 문서를 디스크 또는 지원되는 출력 스트림에 저장하여 프로세스를 완료합니다."
+    }
+  },
+  "more_features": {
+    "title": "고급 워터마킹 도구로 생산성 향상",
+    "description": "{{ProgLang}}에서 문서 브랜딩과 보호를 가속화하는 동적 워터마킹 API입니다. 최소한의 노력으로 워터마크 레이어를 삽입, 감지, 수정 또는 삭제할 수 있습니다.",
+    "image_description": "고급 워터마크 편집 작업 흐름",
+    "feature_1": {
+      "title": "통합된 워터마크 제어",
+      "content": "{{ProdFullName}}를 사용하여 {{ProgLang}} 애플리케이션에서 전체 워터마크 생애 주기 제어를 제공합니다. 워터마크 설정, 업데이트 및 제거를 자동화하여 반복 작업을 피하세요."
+    },
+    "feature_2": {
+      "title": "워터마크 속성의 정밀 조정",
+      "content": "워터마크의 미적 요소를 완벽하게 제어하세요—크기 조정, 색상 변경, 회전 또는 재배치하여 모든 시각적 요구 사항을 충족할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "네이티브 형식 기능 활용",
+      "content": "헤더, 푸터, 주석 또는 배경에 워터마크를 포함시켜 모든 파일 형식에 적응하세요. 우리의 API는 최적의 통합을 위해 네이티브 구조를 존중합니다."
+    },
+    "code_1": {
+      "title": "PDF 파일에서 워터마크 수정",
+      "content": "PDF 문서에서 워터마크 속성을 변경하는 방법을 보여줍니다.",
+      "comment_1": "PDF 파일 열기",
+      "comment_2": "워터마크 내용 읽기",
+      "comment_3": "워터마크 업데이트 적용",
+      "comment_4": "편집된 결과 저장"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileformatCap}} 파일의 워터마크를 자신 있게 수정하기",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileformatCap}} 워터마크에 세밀한 변화를 주면서 레이아웃과 브랜딩을 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}를 사용하여 {{FileformatCap}} 파일의 워터마크 업데이트",
+      "description": "{{ProdFullName}} API를 활용하여 파일을 향상시키고 보호하는 원활한 워터마크 편집.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 최신 버전 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 플랫폼",
+      "content": "**워터마크 편집 간소화:** {{ProdFullName}}을 사용하여 {{ProgLang}} 애플리케이션 내에서 {{FileformatCap}} 파일의 워터마크 관리를 효율적으로 수행하세요."
+    },
+    "formats": {
+      "title": "크로스 포맷 워터마크 편집",
+      "description": "{{ProdFullName}} API를 사용하여 다양한 문서 유형에서 워터마크를 쉽게 수정할 수 있습니다."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileformatCap}} 파일에서 맞춤형 워터마크 편집",
+      "description": "{{ProdFullName}} 도구를 사용하여 {{FileformatCap}} 파일의 워터마크 내용을 브랜딩 요구사항에 맞춰 조정하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 프로젝트에서 {{FileformatCap}} 워터마크 맞춤",
+      "description": "{{ProdFullName}}를 사용하여 다양한 문서 유형에서 워터마크를 편집 및 관리해보세요.",
+      "subtitle": "{{ProdFullName}} API 제품군",
+      "action_title": "{{PackageStoreName}}를 통해 접근하기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**유연한 워터마크 도구:** {{ProdFullName}}를 활용하여 {{ProgLang}} 워크플로우 전반에 걸쳐 여러 형식의 워터마킹을 조정하고 개인화하세요."
+    },
+    "formats": {
+      "title": "다른 형식에 대한 워터마크 제어",
+      "description": "{{ProdFullName}}를 사용하여 모든 지원되는 파일 유형에서 일관된 워터마크 편집 도구를 활용하세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProdShortName}}를 사용한 {{FileformatCap}}의 정확한 워터마크 편집",
+      "description": "{{ProdFullName}}을 사용하여 {{FileformatCap}} 문서에서 워터마크 내용을 효율적으로 수정하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 도구로 {{FileformatCap}} 워터마크 부드럽게 편집",
+      "description": "{{ProdFullName}} 개발 툴킷을 사용하여 PDF를 포함한 워터마크를 커스터마이즈하세요.",
+      "subtitle": "{{ProdFullName}} 도구",
+      "action_title": "{{PackageStoreName}}에서 무료로 시도하기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 도구",
+      "content": "**PDF 문서에서 워터마크 업데이트:** {{ProdFullName}} 프레임워크를 활용하여 전문적인 포맷을 유지하면서 워터마크를 조정하세요."
+    },
+    "formats": {
+      "title": "여러 형식에서의 워터마크 조정",
+      "description": "{{ProdFullName}}의 신뢰할 수 있는 API를 통해 워터마킹을 위한 폭넓은 형식 지원을 누리세요."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileformatCap}} 워터마크 편집을 빠르고 정확하게",
+      "description": "{{ProdFullName}}을 사용하여 {{FileformatCap}} 파일에서 워터마크 편집 속도를 높이세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 힘으로 {{FileformatCap}} 고급 워터마크 편집",
+      "description": "{{ProdFullName}} 통합 API를 통해 슬라이드를 보호하고 개인화하세요.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}}에서 다운로드하기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "**신속한 워터마크 조정:** {{ProgLang}} 호환 도구를 사용하여 {{FileformatCap}} 문서에서 실시간으로 워터마크 변경을 수행하세요."
+    },
+    "formats": {
+      "title": "다양한 형식의 워터마크 지원",
+      "description": "{{ProdFullName}}을 통해 다른 문서 유형에서 유사한 워터마킹 작업 흐름을 적용하세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileformatCap}}에 대한 맞춤형 워터마크 솔루션",
+      "description": "{{ProdFullName}}을 사용하여 비즈니스 요구 사항에 맞게 {{FileformatCap}} 워터마크를 수정하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}에서 {{FileformatCap}} 워터마킹 맞춤 설정",
+      "description": "{{ProdFullName}}을 사용하여 비즈니스 파일의 워터마크 속성을 세밀하게 조정하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 패키지 접근하기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**맞춤형 워터마크 제어:** 워크플로우 요구 사항에 맞춰 워터마크 배치, 스타일 및 가시성을 조정하세요 {{ProdFullName}}을 사용하여."
+    },
+    "formats": {
+      "title": "형식 전반에 걸친 맞춤형 워터마킹",
+      "description": "{{ProdFullName}}을 사용하여 형식 전반에서 워터마크를 편집하세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileformatCap}} 문서에서 전문적인 워터마크 처리",
+      "description": "{{ProdFullName}}를 사용하여 {{FileformatCap}} 문서에 깔끔하고 일관된 브랜딩을 구축하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 프로젝트를 위한 정제된 {{FileformatCap}} 워터마킹",
+      "description": "{{ProdFullName}}의 워터마킹 도구를 사용하여 브랜딩이 잘 되어 있는 문서 경험을 제공합니다.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 얻기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**고품질 워터마크 통합:** {{FileformatCap}}을 위한 {{ProdFullName}} 도구로 쾌적한 워터마크 편집 및 브랜딩을 보장하세요."
+    },
+    "formats": {
+      "title": "형식 간 브랜딩 솔루션",
+      "description": "유연한 워터마크 관리 도구를 사용하여 파일 유형 전반에 걸쳐 스타일 일관성을 유지하세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileformatCap}} 워터마크 수정의 효율성이 높아졌습니다.",
+      "description": "{{ProdShortName}}을 사용하여 {{ProgLang}}를 위한 {{FileformatCap}} 워터마크를 수정하여 데이터 보호를 강화하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 프로젝트를 위한 최적화된 {{FileformatCap}} 워터마킹",
+      "description": "{{ProdShortName}} 워터마크 기능을 사용하여 콘텐츠의 명확성과 브랜딩을 개선하세요.",
+      "subtitle": "{{ProdFullName}} 제품군",
+      "action_title": "{{PackageStoreName}}를 통해 무료 접근하기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**스프레드시트 워터마크 개선:** {{ProdShortName}} 워터마크 도구를 사용하여 스프레드시트 내 콘텐츠 신뢰성과 브랜드 가시성을 향상시키세요."
+    },
+    "formats": {
+      "title": "다른 형식에 대한 일관된 워터마킹",
+      "description": "{{ProdFullName}}을 사용하여 모든 지원되는 형식으로 워터마크 기능을 확장하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileformatCap}} 문서에서 자신 있는 워터마크 편집",
+      "description": "{{ProdFullName}}를 사용하여 {{FileformatCap}}에서 워터마크 컨트롤로 콘텐츠 보안과 전문적인 품질을 보장하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}에서 안전하고 간단한 {{FileformatCap}} 워터마크 업데이트",
+      "description": "{{ProdFullName}}를 통해 {{ProgLang}} 프로젝트에 안전하고 신뢰할 수 있는 워터마크 편집 기능을 제공합니다.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}}에서 가져오기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 제품군",
+      "content": "**스프레드시트를 위한 워터마크 사용자화:** {{FileformatCap}} 파일 내 워터마크 가시성과 스타일을 자신 있게 관리하세요 {{ProdShortName}}으로."
+    },
+    "formats": {
+      "title": "형식 간 워터마크 도구",
+      "description": "{{ProdFullName}} 구성 요소를 사용하여 문서 유형 전반에 걸쳐 브랜드 보호와 통합을 수행하세요."
+    }
+  }
+}

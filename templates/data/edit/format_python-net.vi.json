@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Cập nhật watermark hình ảnh trong tệp {{FileFormatUp}}",
+    "comment_2": "Tạo một thể hiện {{TextWatermarker}} với tệp đầu vào",
+    "comment_3": "Sử dụng {{TextSearchCriteria}} để xác định các watermark dựa trên hình ảnh",
+    "comment_4": "Áp dụng thay đổi cho watermark hình ảnh",
+    "comment_5": "Xuất tệp {{FileFormatUp}} đã cập nhật"
+  },
+  "steps": {
+    "title": "Sử dụng API {{ProgLang}} để Chỉnh sửa Watermark trong Tài liệu {{FileformatCap}}",
+    "content": {
+      "title": "Với **[{{ProdFullName}}]({{ProductUrl}})**, các nhà phát triển {{ProgLang}} có thể thay đổi nội dung watermark trong nhiều tài liệu {{FileformatCap}} khác nhau. Dưới đây là một hướng dẫn nhanh: ",
+      "step_1": "Bắt đầu bằng cách tải tài liệu {{FileformatCap}} bằng cách sử dụng lớp {{TextWatermarkerBold}}, chấp nhận các đường dẫn tệp, dòng bộ nhớ hoặc mảng byte làm đầu vào.",
+      "step_2": "Xây dựng một đối tượng {{TextSearchCriteriaBold}} để tìm kiếm các phần tử watermark hiện có trong tài liệu của bạn, bất kể là văn bản hay đồ họa.",
+      "step_3": "Khi đã xác định, công cụ sẽ cung cấp một tập hợp các thể hiện watermark đã khớp mà bạn có thể cập nhật—điều chỉnh các tham số như màu sắc, căn chỉnh, phông chữ hoặc thậm chí dữ liệu hình ảnh nhúng.",
+      "step_4": "Hoàn thành quá trình bằng cách lưu tài liệu đã sửa đổi của bạn vào ổ đĩa hoặc bất kỳ dòng xuất hỗ trợ nào bằng cách sử dụng các phương thức lưu tích hợp."
+    }
+  },
+  "more_features": {
+    "title": "Tăng hiệu suất với các công cụ watermarking nâng cao",
+    "description": "Thúc đẩy thương hiệu và bảo vệ tài liệu trong {{ProgLang}} với API watermarking động của chúng tôi. Chèn, phát hiện, chỉnh sửa hoặc xóa các lớp watermark với nỗ lực tối thiểu.",
+    "image_description": "Quy trình chỉnh sửa Watermark Nâng cao",
+    "feature_1": {
+      "title": "Kiểm soát Watermark Tích hợp",
+      "content": "Mang lại toàn bộ kiểm soát vòng đời watermark cho các ứng dụng {{ProgLang}} của bạn bằng cách sử dụng {{ProdFullName}}. Tránh những công việc lặp đi lặp lại bằng cách tự động hóa việc thiết lập, cập nhật và xóa watermark."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh chính xác các thuộc tính Watermark",
+      "content": "Kiểm soát hoàn toàn các yếu tố thẩm mỹ của watermark—thay đổi kích thước, thay đổi màu, xoay hoặc điều chỉnh vị trí để đáp ứng bất kỳ yêu cầu hình ảnh nào với bề mặt API linh hoạt của chúng tôi."
+    },
+    "feature_3": {
+      "title": "Tận dụng các tính năng định dạng gốc",
+      "content": "Thích ứng với bất kỳ định dạng tệp nào bằng cách nhúng watermark vào tiêu đề, chân trang, chú thích hoặc nền. API của chúng tôi tôn trọng cấu trúc gốc để tích hợp tối ưu."
+    },
+    "code_1": {
+      "title": "Chỉnh sửa Watermark trong một tệp PDF",
+      "content": "Minh họa cách thay đổi các thuộc tính watermark trong tài liệu PDF.",
+      "comment_1": "Mở tệp PDF",
+      "comment_2": "Đọc nội dung watermark",
+      "comment_3": "Áp dụng cập nhật watermark",
+      "comment_4": "Lưu kết quả đã chỉnh sửa"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Chỉnh sửa Watermark trong các tệp {{FileformatCap}} với Độ tin cậy",
+      "description": "Với API {{ProdFullName}}, thực hiện các thay đổi chính xác cho các watermark {{FileformatCap}} trong khi bảo tồn bố cục và thương hiệu."
+    },
+    "header": {
+      "title": "Cập nhật Watermark trong các tệp {{FileformatCap}} Sử dụng {{ProgLang}}",
+      "description": "Nâng cao và bảo vệ các tệp của bạn thông qua chỉnh sửa watermark liền mạch bằng API {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận phiên bản mới nhất từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Nền tảng",
+      "content": "**Chỉnh sửa Watermark Đơn giản:** Sử dụng {{ProdFullName}} để đơn giản hóa việc quản lý watermark trong các tệp {{FileformatCap}} trong các ứng dụng {{ProgLang}} của bạn."
+    },
+    "formats": {
+      "title": "Chỉnh sửa Watermark qua nhiều định dạng",
+      "description": "Dễ dàng chỉnh sửa watermark trong nhiều loại tài liệu với API {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Chỉnh sửa Watermark tùy chỉnh trong các tệp {{FileformatCap}}",
+      "description": "Tùy chỉnh nội dung watermark trong các tệp {{FileformatCap}} bằng các công cụ {{ProdFullName}} để đáp ứng nhu cầu thương hiệu."
+    },
+    "header": {
+      "title": "Tùy chỉnh Watermark {{FileformatCap}} trong các Dự án {{ProgLang}} của bạn",
+      "description": "Chỉnh sửa và quản lý watermark trên nhiều loại tài liệu khác nhau một cách dễ dàng với {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Bộ API",
+      "action_title": "Truy cập qua {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Các công cụ Watermark Linh hoạt:** Thích ứng và cá nhân hóa việc watermark qua các định dạng bằng cách sử dụng {{ProdFullName}} trong quy trình {{ProgLang}} của bạn."
+    },
+    "formats": {
+      "title": "Kiểm soát Watermark cho các Định dạng Khác",
+      "description": "Sử dụng các công cụ chỉnh sửa watermark đồng nhất trên tất cả các loại tệp hỗ trợ bằng {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Chỉnh sửa Watermark Chính xác trong {{FileformatCap}} Sử dụng {{ProdShortName}}",
+      "description": "Sử dụng {{ProdFullName}} để hiệu quả chỉnh sửa nội dung watermark trong các tài liệu {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Chỉnh sửa Watermark {{FileformatCap}} Một cách Mượt mà với Các công cụ {{ProgLang}}",
+      "description": "Tùy chỉnh các watermark trong PDF và hơn thế nữa với bộ công cụ phát triển {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Công cụ",
+      "action_title": "Dùng thử miễn phí từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Tools",
+      "content": "**Cập nhật Watermark trong Tài liệu PDF:** Tận dụng khung {{ProdFullName}} để điều chỉnh watermark trong khi duy trì định dạng chuyên nghiệp."
+    },
+    "formats": {
+      "title": "Điều chỉnh Watermark trong Nhiều Định dạng",
+      "description": "Tận hưởng hỗ trợ đa định dạng cho watermark bằng cách sử dụng API đáng tin cậy của {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Chỉnh sửa Watermark {{FileformatCap}} Nhanh chóng và Chính xác",
+      "description": "Thúc đẩy quá trình chỉnh sửa watermark trong các tệp {{FileformatCap}} bằng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Chỉnh sửa Watermark Đadvanced cho {{FileformatCap}} với Năng lực {{ProgLang}}",
+      "description": "Bảo vệ và cá nhân hóa các slide bằng API dễ tích hợp của {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Tải xuống qua {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thư viện",
+      "content": "**Chỉnh sửa Watermark Nhanh chóng:** Thực hiện các thay đổi theo thời gian thực đối với watermark trong các tài liệu {{FileformatCap}} bằng các công cụ tương thích với {{ProgLang}} của chúng tôi."
+    },
+    "formats": {
+      "title": "Hỗ trợ Watermark Đa Định dạng",
+      "description": "Áp dụng các quy trình watermark tương tự trên các loại tài liệu khác với {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Giải pháp Watermark Tùy chỉnh cho {{FileformatCap}}",
+      "description": "Điều chỉnh các watermark {{FileformatCap}} theo yêu cầu kinh doanh của bạn bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Watermark {{FileformatCap}} Có thể Tùy chỉnh trong {{ProgLang}}",
+      "description": "Tinh chỉnh các tính năng watermark trên các tệp kinh doanh của bạn bằng cách sử dụng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Truy cập gói từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Kiểm soát Watermark Tùy chỉnh:** Điều chỉnh vị trí, phong cách và tính khả thi của watermark theo yêu cầu quy trình làm việc của bạn bằng cách sử dụng {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Watermark Tùy chỉnh Qua Các Định dạng",
+      "description": "Chỉnh sửa các watermark qua các định dạng với các thay đổi được nhắm đến bằng {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Xử lý Watermark Chuyên nghiệp trong Các Tài liệu {{FileformatCap}}",
+      "description": "Xây dựng thương hiệu sạch và nhất quán vào các tài liệu {{FileformatCap}} của bạn bằng cách sử dụng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Watermark {{FileformatCap}} Tinh tế cho Các Dự án {{ProgLang}}",
+      "description": "Mang đến trải nghiệm tài liệu đã thương hiệu và tinh tế với các công cụ watermarking của {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Nhận tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Tích hợp Watermark Chất lượng Cao:** Đảm bảo việc chỉnh sửa và thương hiệu watermark rõ ràng với các công cụ {{ProdFullName}} cho {{FileformatCap}}."
+    },
+    "formats": {
+      "title": "Giải pháp Thương hiệu Đáp ứng qua Định dạng",
+      "description": "Duy trì tính nhất quán về phong cách trên các loại tệp bằng các công cụ quản lý watermark linh hoạt của chúng tôi."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Sửa đổi Watermark {{FileformatCap}} Hiệu quả",
+      "description": "Nâng cao bảo vệ dữ liệu bằng cách chỉnh sửa watermark {{FileformatCap}} bằng {{ProdShortName}} cho {{ProgLang}}."
+    },
+    "header": {
+      "title": "Watermark {{FileformatCap}} Tối ưu cho Các Dự án {{ProgLang}}",
+      "description": "Cải thiện độ rõ nội dung và thương hiệu bằng khả năng watermark của {{ProdShortName}}.",
+      "subtitle": "{{ProdFullName}} Suite",
+      "action_title": "Truy cập miễn phí qua {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Nâng cao Watermark trong Bảng tính:** Cải thiện độ tin cậy nội dung và khả năng nhìn thấy thương hiệu trong bảng tính bằng các công cụ watermark của {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Watermark Đồng nhất cho Các Định dạng Khác",
+      "description": "Mở rộng khả năng watermark cho tất cả các định dạng hỗ trợ bằng {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Chỉnh sửa Watermark Tự tin trong Các Tài liệu {{FileformatCap}}",
+      "description": "Đảm bảo an ninh nội dung và chất lượng chuyên nghiệp với việc kiểm soát watermark trong {{FileformatCap}} bằng {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Cập nhật Watermark {{FileformatCap}} An toàn và Đơn giản trong {{ProgLang}}",
+      "description": "Tăng cường các dự án {{ProgLang}} của bạn với việc chỉnh sửa watermark an toàn và đáng tin cậy nhờ {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Nhận từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Suite",
+      "content": "**Tùy chỉnh Watermark cho Bảng tính:** Quản lý sự hiện diện và phong cách của watermark một cách tự tin trên các tệp {{FileformatCap}} với {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Công cụ Watermark Qua Các Loại Tệp",
+      "description": "Bảo vệ và thống nhất thương hiệu trên các loại tài liệu bằng các thành phần của {{ProdFullName}}."
+    }
+  }
+}

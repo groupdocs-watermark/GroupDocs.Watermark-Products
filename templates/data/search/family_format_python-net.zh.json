@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "检测 {{FileFormatUp}} 格式中的文本水印",
+    "comment_2": "使用 {{FileFormatUp}} 文件初始化 {{TextWatermarker}}",
+    "comment_3": "执行水印搜索",
+    "comment_4": "处理检测到的水印列表"
+  },
+  "steps": {
+    "title": "如何通过 {{ProgLang}} 检测 {{FileformatCap}} 文件中的水印",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 使在商业文档中识别嵌入式水印变得简单。将其功能融入您的 {{ProgLang}} 工作流程，实现无缝检测。",
+      "step_1": "首先，将 {{FileformatCap}} 文档加载到 {{TextWatermarkerBold}} 类的实例中。可以接受的输入方式包括路径、流或字节数组。",
+      "step_2": "使用 {{TextSearchCriteriaBold}} 对象缩小搜索范围。要查找基于图像的标记，使用示例图像；对于文本水印，指定内容、样式或颜色等特征。",
+      "step_3": "调用 {{TextSearchBold}} 方法，从 {{TextWatermarkerBold}} 对象提取水印数据。将返回一系列水印实例以供检查。",
+      "step_4": "获取结果后，您可以管理它们：删除不需要的标记，或更新尺寸、内容等详细信息。"
+    }
+  },
+  "more_features": {
+    "title": "借助 {{ProdShortName}} 强大的水印检测",
+    "description": "在您的 {{ProgLang}} 项目中使用 {{ProdShortName}}，高效扫描和定位各种文档类型中的水印元素。",
+    "image_description": "检测水印",
+    "feature_1": {
+      "title": "智能过滤器的高级检测",
+      "content": "轻松识别各种文档格式中的水印。{{ProdShortName}} 支持通过视觉和文本特征（包括形状、透明度等）进行过滤。"
+    },
+    "feature_2": {
+      "title": "灵活的搜索标准",
+      "content": "使用 {{ProdShortName}} 定义个性化的水印搜索参数。这种精准度使隐蔽或定制水印数据的检索变得更为高效。"
+    },
+    "feature_3": {
+      "title": "访问和整理检测到的水印",
+      "content": "通过提取所有嵌入水印简化文档审计。我们的工具能够高效提取、显示和管理找到的项目。"
+    },
+    "code_1": {
+      "title": "代码示例：检测水印",
+      "content": "查看如何使用 {{ProdShortName}} 根据灵活的检测规则搜索文档中的嵌入水印内容。",
+      "comment_1": "从磁盘或流中打开目标文档",
+      "comment_2": "定义搜索中使用的特定水印属性",
+      "comment_3": "执行搜索并收集匹配项",
+      "comment_4": "利用找到的结果进行进一步操作"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "检测 {{FileformatCap}} 电子表格中的隐藏水印",
+      "description": "迅速而准确地揭示电子表格文件中的隐藏标记，使用 {{ProdShortName}}。"
+    },
+    "header": {
+      "title": "即时识别 {{FileformatCap}} 电子表格中的水印",
+      "description": "使用 {{ProdFullName}} 无缝定位和管理水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "立即下载 {{PackageStoreName}} - 免费"
+    },
+    "about": {
+      "title": "关于 {{ProdFullName}} 的概述",
+      "content": "{{ProdFullName}} 为 {{ProgLang}} 开发者提供全面的水印工具包。生成、修改、查找和移除文档中的水印内容，如Excel、Word、PDF等，操作简单。"
+    },
+    "formats": {
+      "title": "多格式水印搜索",
+      "description": "在所有由 {{ProdShortName}} 支持的文件类型中查找水印内容。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "识别 {{FileformatCap}} 文档中的隐藏水印",
+      "description": "使用 {{ProdShortName}} 轻松搜索文档中的隐藏水印。"
+    },
+    "header": {
+      "title": "快速查找 {{FileformatCap}} 文档中的水印",
+      "description": "使用 {{ProdFullName}} 揭示和审查隐藏的水印内容。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "免费获取 {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "了解 {{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一款强大的水印操作工具，适用于 {{ProgLang}}。无论您是添加、删除还是搜索水印，它支持 DOCX、XLSX、PDF 等格式。"
+    },
+    "formats": {
+      "title": "跨格式检测能力",
+      "description": "支持对多种广泛使用的文件类型进行水印分析。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "检测 {{FileformatCap}} 演示文稿中的隐藏标记",
+      "description": "使用 {{ProdShortName}} 轻松检测演示幻灯片中的隐蔽水印。"
+    },
+    "header": {
+      "title": "揭示 {{FileformatCap}} 演示文稿中的水印",
+      "description": "使用 {{ProdFullName}} 的可靠功能管理幻灯片中的水印元素。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费试用"
+    },
+    "about": {
+      "title": "什么是 {{ProdFullName}}？",
+      "content": "{{ProdFullName}} 使开发者能够处理 {{ProgLang}} 中的水印任务。旨在提供灵活性，它支持在 PPTX、DOCX 和 PDF 等格式中进行水印发现、插入、编辑和删除。"
+    },
+    "formats": {
+      "title": "广泛的格式兼容性",
+      "description": "在多个支持的演示和文档格式之间实现无缝水印检测。"
+    }
+  }
+}

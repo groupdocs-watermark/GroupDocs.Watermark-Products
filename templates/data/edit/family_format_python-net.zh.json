@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "更新{{FileFormatUp}}中的水印文本",
+    "comment_2": "使用{{FileFormatUp}}文件创建{{TextWatermarker}}",
+    "comment_3": "设置{{TextTextSearchCriteria}}以查找水印文本",
+    "comment_4": "修改水印文本",
+    "comment_5": "保存修改后的文档"
+  },
+  "steps": {
+    "title": "使用{{ProgLang}}修改{{FileformatCap}}文档中的水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**帮助{{ProgLang}}开发者高效更新各种{{FileformatCap}}文件中的水印。以下是如何在您的项目中使用它：",
+      "step_1": "首先，通过将文件传递给{{TextWatermarkerBold}}构造函数打开您的{{FileformatCap}}文件。您可以使用文件路径、字节流或文件流。",
+      "step_2": "接下来，使用{{TextSearchCriteriaBold}}查找您想要更改的水印，这可以让您搜索水印文本或属性。",
+      "step_3": "一旦找到，您可以更改文本、字体、大小、位置、颜色等细节，这让您对水印的外观拥有完全的控制。",
+      "step_4": "修改后，保存文档。您可以将结果写入流或文件路径。"
+    }
+  },
+  "more_features": {
+    "title": "发现更新水印的更多方法",
+    "description": "使用我们的库，{{ProgLang}}应用程序可以在多种文件类型中添加、查找、编辑或删除水印。",
+    "image_description": "水印编辑",
+    "feature_1": {
+      "title": "便捷地为文件添加水印",
+      "content": "使用{{ProdFullName}}为您的文档添加和管理水印。使用简易的API根据需要搜索、更新或删除水印。"
+    },
+    "feature_2": {
+      "title": "根据需要自定义水印",
+      "content": "使用我们的灵活API调整水印设置，如字体、大小、方向和颜色，以获得所需的结果。"
+    },
+    "feature_3": {
+      "title": "使用特定格式的功能",
+      "content": "根据文件格式，您可以使用诸如页眉、页脚、注释或背景等本地功能作为水印区域。"
+    },
+    "code_1": {
+      "title": "在Excel中编辑文本水印",
+      "content": "以下代码展示了如何在Excel电子表格中更改水印文本。",
+      "comment_1": "打开XLSX文件",
+      "comment_2": "读取电子表格数据",
+      "comment_3": "更改水印文本",
+      "comment_4": "保存结果"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "编辑{{FileformatCap}}文件中的水印",
+      "description": "使用{{ProdFullName}}，您可以轻松调整水印设置以保护和个性化您的文档。"
+    },
+    "header": {
+      "title": "使用{{ProgLang}}更新{{FileformatCap}}电子表格中的水印",
+      "description": "使用我们的灵活水印编辑工具为您的Excel电子表格提供安全保护。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在{{PackageStoreName}}免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}库",
+      "content": "**快速编辑{{FileformatCap}}水印：** {{ProdFullName}}为{{ProgLang}}开发者提供所需的所有工具，以最小的努力管理水印，从而改善您的文档工作流程和安全性。"
+    },
+    "formats": {
+      "title": "更新其他格式中的水印",
+      "description": "使用{{ProdFullName}}轻松自定义不同文件格式中的水印设置。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "编辑{{FileformatCap}}文件中的水印",
+      "description": "使用{{ProdFullName}}微调水印设置，以提高文档保护。"
+    },
+    "header": {
+      "title": "使用{{ProgLang}}轻松更新{{FileformatCap}}水印",
+      "description": "使用{{ProdFullName}}保护您的品牌和文档。快速更改Word文件中的水印。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在{{PackageStoreName}}免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**保护您的{{FileformatCap}}文档：** 使用{{ProdFullName}}轻松更新和管理符合您文档需求和品牌的水印。"
+    },
+    "formats": {
+      "title": "水印其他文件格式",
+      "description": "{{ProdFullName}}帮助您使用灵活的水印工具保护多种文件类型。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "编辑{{FileformatCap}}文件中的水印",
+      "description": "使用{{ProdFullName}}快速更改{{FileformatCap}}演示文稿中的水印内容，并确保您的文档安全。"
+    },
+    "header": {
+      "title": "在{{ProgLang}}中精确编辑{{FileformatCap}}水印",
+      "description": "使用{{ProdFullName}}完全控制演示文稿中水印的布局和可见性。",
+      "subtitle": "{{ProdFullName}}库",
+      "action_title": "从{{PackageStoreName}}免费下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**控制{{FileformatCap}}文件中的水印布局：** 使用{{ProdFullName}}，您可以将水印放置在确切需要的位置，并轻松保护您的演示文稿。"
+    },
+    "formats": {
+      "title": "编辑其他文件类型中的水印",
+      "description": "使用{{ProdFullName}}处理不同文档格式中的水印。"
+    }
+  }
+}

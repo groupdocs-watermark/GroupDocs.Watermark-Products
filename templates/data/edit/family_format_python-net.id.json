@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Perbarui teks watermark di {{FileFormatUp}}",
+    "comment_2": "Buat {{TextWatermarker}} menggunakan file {{FileFormatUp}}",
+    "comment_3": "Atur {{TextTextSearchCriteria}} untuk menemukan teks watermark",
+    "comment_4": "Modifikasi teks watermark",
+    "comment_5": "Simpan dokumen yang dimodifikasi"
+  },
+  "steps": {
+    "title": "Modifikasi watermark di dokumen {{FileformatCap}} dengan {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** membantu pengembang {{ProgLang}} untuk memperbarui watermark di berbagai file {{FileformatCap}}. Berikut adalah cara menggunakannya dalam proyek Anda:",
+      "step_1": "Pertama, buka file {{FileformatCap}} Anda dengan meneruskannya ke konstruktor {{TextWatermarkerBold}}. Anda dapat menggunakan jalur file, stream byte, atau stream file.",
+      "step_2": "Kemudian, temukan watermark yang ingin Anda ubah menggunakan {{TextSearchCriteriaBold}}, yang memungkinkan Anda mencari teks atau properti watermark.",
+      "step_3": "Setelah ditemukan, Anda dapat mengubah detail seperti teks, font, ukuran, posisi, warna, dan banyak lagi. Ini memberi Anda kontrol penuh atas tampilan watermark.",
+      "step_4": "Setelah melakukan perubahan, simpan dokumen. Anda dapat menulis hasilnya ke stream atau jalur file."
+    }
+  },
+  "more_features": {
+    "title": "Temukan lebih banyak cara untuk memperbarui watermark",
+    "description": "Dengan pustaka kami, aplikasi {{ProgLang}} dapat menambah, menemukan, mengedit, atau menghapus watermark di banyak tipe file.",
+    "image_description": "Pengeditan Watermark",
+    "feature_1": {
+      "title": "Watermark File Anda dengan Mudah",
+      "content": "Gunakan {{ProdFullName}} untuk menambah dan mengelola watermark di dokumen Anda. Cari, perbarui, atau hapus watermark sesuai kebutuhan menggunakan API yang sederhana."
+    },
+    "feature_2": {
+      "title": "Kustomisasi Watermark Sesuai Kebutuhan Anda",
+      "content": "Sesuaikan pengaturan watermark seperti font, ukuran, orientasi, dan warna menggunakan API kami yang fleksibel untuk mendapatkan hasil yang Anda inginkan."
+    },
+    "feature_3": {
+      "title": "Gunakan Fitur Spesifik Format",
+      "content": "Bergantung pada format file, Anda dapat menggunakan fitur asli seperti header, footer, anotasi, atau latar belakang sebagai area watermark."
+    },
+    "code_1": {
+      "title": "Edit Watermark Teks di Excel",
+      "content": "Kode ini menunjukkan cara mengubah teks watermark di spreadsheet Excel.",
+      "comment_1": "Buka file XLSX",
+      "comment_2": "Baca data spreadsheet",
+      "comment_3": "Ubah teks watermark",
+      "comment_4": "Simpan hasil"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Edit Watermark di file {{FileformatCap}}",
+      "description": "Dengan {{ProdFullName}}, Anda dapat dengan mudah menyesuaikan pengaturan watermark untuk melindungi dan mempersonalisasi dokumen Anda."
+    },
+    "header": {
+      "title": "Perbarui Watermark di Spreadsheet {{FileformatCap}} Menggunakan {{ProgLang}}",
+      "description": "Amankan spreadsheet Excel Anda dengan alat pengeditan watermark kami yang fleksibel untuk {{ProgLang}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Dapatkan gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Library",
+      "content": "**Edit Watermark {{FileformatCap}} dengan Cepat:** {{ProdFullName}} memberikan pengembang {{ProgLang}} semua alat yang diperlukan untuk mengelola watermark dengan usaha minimal, meningkatkan alur kerja dan keamanan dokumen Anda."
+    },
+    "formats": {
+      "title": "Perbarui Watermark di Format Lain",
+      "description": "Sesuaikan pengaturan watermark dengan mudah di berbagai format file menggunakan {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Edit Watermark di file {{FileformatCap}}",
+      "description": "Sesuaikan pengaturan watermark dan tingkatkan perlindungan dokumen menggunakan {{ProdFullName}} untuk {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Perbarui Watermark {{FileformatCap}} dengan Mudah Menggunakan {{ProgLang}}",
+      "description": "Lindungi merek dan dokumen Anda dengan {{ProdFullName}}. Cepat ubah watermark di file Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Unduh gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Amankan Dokumen {{FileformatCap}} Anda:** Gunakan {{ProdFullName}} untuk cepat memperbarui dan mengelola watermark yang sesuai dengan kebutuhan dokumen dan branding Anda."
+    },
+    "formats": {
+      "title": "Watermark Format File Lain",
+      "description": "{{ProdFullName}} membantu Anda melindungi beberapa tipe file dengan alat watermark yang fleksibel."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Edit Watermark di file {{FileformatCap}}",
+      "description": "Gunakan {{ProdFullName}} untuk cepat mengubah konten watermark di presentasi {{FileformatCap}} dan menjaga keamanan dokumen Anda."
+    },
+    "header": {
+      "title": "Pengeditan Watermark {{FileformatCap}} yang Tepat di {{ProgLang}}",
+      "description": "Dapatkan kontrol penuh atas tata letak dan visibilitas watermark di presentasi Anda menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Library",
+      "action_title": "Unduhan gratis dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Kontrol Tata Letak Watermark di File {{FileformatCap}}:** Dengan {{ProdFullName}}, Anda dapat menempatkan watermark tepat di tempat yang dibutuhkan dan mengamankan presentasi Anda dengan mudah."
+    },
+    "formats": {
+      "title": "Edit Watermark di Tipe File Lain",
+      "description": "Gunakan {{ProdFullName}} untuk bekerja dengan watermark di berbagai format dokumen."
+    }
+  }
+}

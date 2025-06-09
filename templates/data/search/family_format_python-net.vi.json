@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Phát hiện watermark văn bản trong định dạng {{FileFormatUp}}",
+    "comment_2": "Khởi tạo {{TextWatermarker}} với tệp {{FileFormatUp}}",
+    "comment_3": "Thực thi tìm kiếm watermark",
+    "comment_4": "Xử lý danh sách các watermark đã phát hiện"
+  },
+  "steps": {
+    "title": "Cách phát hiện Watermark trong các tệp {{FileformatCap}} thông qua {{ProgLang}}",
+    "content": {
+      "title": "Với **[{{ProdShortName}}]({{ProductUrl}})**, việc xác định watermark nhúng trong tài liệu doanh nghiệp của bạn trở nên đơn giản hơn. Mang lại khả năng của nó vào trong quy trình {{ProgLang}} của bạn để phát hiện mượt mà.",
+      "step_1": "Bắt đầu bằng cách tải tài liệu {{FileformatCap}} vào một thể hiện của lớp {{TextWatermarkerBold}}. Chấp nhận đầu vào dưới dạng đường dẫn, luồng hoặc mảng byte.",
+      "step_2": "Hạn chế tìm kiếm của bạn bằng cách sử dụng đối tượng {{TextSearchCriteriaBold}}. Để tìm các dấu hiệu dựa trên hình ảnh, hãy sử dụng một hình ảnh mẫu. Đối với các dấu hiệu văn bản, hãy chỉ định các thuộc tính như nội dung, kiểu dáng hoặc màu sắc.",
+      "step_3": "Gọi phương thức {{TextSearchBold}} từ đối tượng {{TextWatermarkerBold}} để trích xuất dữ liệu watermark. Một tập hợp các thể hiện watermark sẽ được trả về để xem xét.",
+      "step_4": "Sau khi lấy dữ liệu, bạn có thể quản lý kết quả: loại bỏ các dấu hiệu không mong muốn, hoặc cập nhật các chi tiết như kích thước hoặc nội dung thông điệp."
+    }
+  },
+  "more_features": {
+    "title": "Phát hiện Watermark mạnh mẽ với {{ProdShortName}}",
+    "description": "Sử dụng {{ProdShortName}} trong các dự án {{ProgLang}} của bạn để quét và xác định hiệu quả các yếu tố watermark trong nhiều loại tài liệu khác nhau.",
+    "image_description": "Phát hiện Watermark",
+    "feature_1": {
+      "title": "Phát hiện nâng cao với bộ lọc thông minh",
+      "content": "Nhận diện watermark trong nhiều định dạng tài liệu khác nhau. {{ProdShortName}} hỗ trợ lọc theo các đặc điểm hình ảnh và văn bản bao gồm hình dạng, độ trong suốt, và nhiều hơn nữa."
+    },
+    "feature_2": {
+      "title": "Tiêu chí tìm kiếm linh hoạt",
+      "content": "Định nghĩa các tham số tìm kiếm watermark cá nhân hóa với {{ProdShortName}}. Độ chính xác này cho phép truy xuất có mục tiêu dữ liệu watermark ẩn hoặc tùy chỉnh."
+    },
+    "feature_3": {
+      "title": "Truy cập và tổ chức các watermark đã phát hiện",
+      "content": "Đơn giản hóa việc kiểm tra tài liệu bằng cách truy xuất tất cả các watermark nhúng. Các công cụ của chúng tôi cho phép trích xuất, hiển thị và quản lý hiệu quả các mục đã tìm thấy."
+    },
+    "code_1": {
+      "title": "Ví dụ mã: Phát hiện Watermark",
+      "content": "Xem cách sử dụng {{ProdShortName}} để tìm kiếm tài liệu cho nội dung watermark nhúng bằng cách sử dụng các quy tắc phát hiện linh hoạt.",
+      "comment_1": "Mở tài liệu mục tiêu từ đĩa hoặc luồng",
+      "comment_2": "Định nghĩa các thuộc tính watermark cụ thể để sử dụng trong tìm kiếm",
+      "comment_3": "Thực hiện tìm kiếm và thu thập các kết quả phù hợp",
+      "comment_4": "Làm việc với các kết quả đã tìm thấy để thực hiện hành động tiếp theo"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Phát hiện Watermark ẩn trong các bảng tính {{FileformatCap}}",
+      "description": "Tiết lộ các dấu hiệu ẩn trong các tệp bảng tính với {{ProdShortName}} nhanh chóng và chính xác."
+    },
+    "header": {
+      "title": "Xác định ngay lập tức các Watermark trong bảng tính {{FileformatCap}}",
+      "description": "Định vị và quản lý các watermark một cách mượt mà bằng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} ngay - Miễn phí"
+    },
+    "about": {
+      "title": "Tổng quan về {{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp một bộ công cụ watermark đầy đủ chức năng cho các nhà phát triển {{ProgLang}}. Tạo, sửa đổi, tìm và loại bỏ nội dung watermark từ các tài liệu như Excel, Word, PDF và nhiều hơn nữa với nỗ lực tối thiểu."
+    },
+    "formats": {
+      "title": "Tìm kiếm Watermark đa định dạng",
+      "description": "Xác định nội dung watermark trên tất cả các loại tệp được hỗ trợ bởi {{ProdShortName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Xác định Watermark ẩn trong các tài liệu {{FileformatCap}}",
+      "description": "Tìm kiếm tài liệu cho các watermark ẩn một cách nhanh chóng bằng {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Khám phá Watermark nhanh chóng trong các tài liệu {{FileformatCap}}",
+      "description": "Tiết lộ và xem xét nội dung watermark ẩn bằng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Miễn phí với {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Tìm hiểu về {{ProdFullName}}",
+      "content": "{{ProdFullName}} là một tiện ích mạnh mẽ cho các thao tác watermark trong {{ProgLang}}. Dù bạn đang thêm, loại bỏ hay tìm kiếm watermark, nó hỗ trợ các định dạng như DOCX, XLSX, PDF và nhiều hơn nữa."
+    },
+    "formats": {
+      "title": "Khả năng phát hiện đa định dạng",
+      "description": "Hỗ trợ phân tích watermark trong nhiều loại tệp phổ biến."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Phát hiện các dấu hiệu ẩn trong các bài trình bày {{FileformatCap}}",
+      "description": "Dễ dàng phát hiện các watermark ẩn trong các slide trình bày với {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Tiết lộ Watermark trong các bài trình bày {{FileformatCap}}",
+      "description": "Quản lý các yếu tố watermark trong các bộ slide với các tính năng đáng tin cậy của {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dùng thử miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Là Gì?",
+      "content": "{{ProdFullName}} trao quyền cho các nhà phát triển để xử lý các thao tác watermark trong {{ProgLang}}. Được thiết kế cho tính linh hoạt, nó xử lý việc phát hiện, chèn, chỉnh sửa và loại bỏ watermark trên nhiều định dạng như PPTX, DOCX và PDF."
+    },
+    "formats": {
+      "title": "Khả năng tương thích định dạng rộng",
+      "description": "Thưởng thức việc phát hiện watermark liền mạch trên nhiều định dạng tài liệu và trình bày được hỗ trợ."
+    }
+  }
+}

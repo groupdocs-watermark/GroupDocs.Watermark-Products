@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "向 {{FileFormatUp}} 文件添加图像水印。",
+    "comment_2": "将文件路径传递给 {{TextWatermarker}} 构造函数。",
+    "comment_3": "使用您的图像文件创建图像水印。",
+    "comment_4": "保存带水印的 {{FileFormatUp}} 文件。"
+  },
+  "steps": {
+    "title": "快速向 {{FileformatCap}} 文件添加水印",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** 一个强大的 {{ProgLang}} 库，可以帮助您轻松向文档添加水印。",
+      "step_1": "**主要类：Watermarker.** 首先创建一个 {{TextWatermarkerBold}} 对象。将您的 {{FileformatCap}} 文件作为文件路径或流传递给它，以便开始。",
+      "step_2": "**构建您的水印.** 接下来，创建您想要的水印类型的 Watermark 对象。您可以将其放置在任何页面上，甚至在文档元素中，如图像或页眉。",
+      "step_3": "**调整外观.** 设置水印的大小、位置、字体和颜色，以满足您的需求。",
+      "step_4": "**添加并保存.** 使用 {{TextWatermarkerBold}} 方法插入您的水印。您可以添加任意数量的水印，然后将文件保存到所需的位置。"
+    }
+  },
+  "more_features": {
+    "title": "发现更多水印工具",
+    "description": "{{ProdFullName}} 为您提供了在多种文件类型中添加和自定义水印的高级选项。使用灵活、易于使用的功能保护您的文档和图像。",
+    "image_description": "全方位的水印工具",
+    "feature_1": {
+      "title": "全页面铺贴",
+      "content": "使用平铺水印覆盖整个文档。这使得水印难以移除，保护您的文件，同时保持布局的完整性。"
+    },
+    "feature_2": {
+      "title": "自定义颜色",
+      "content": "为您的水印选择任意颜色，以匹配您的品牌或文档风格。根据需要让水印突出或融入。"
+    },
+    "feature_3": {
+      "title": "额外的安全选项",
+      "content": "通过分层水印增强文档安全性。结合可见和隐藏的标记，防止复制，并确保只有合适的人能访问您的文件。"
+    },
+    "code_1": {
+      "title": "向 PowerPoint 添加水印",
+      "content": "此示例演示如何在 PPTX 幻灯片的背景上添加水印。",
+      "comment_1": "打开 PPTX 文件。",
+      "comment_2": "设置水印细节。",
+      "comment_3": "将水印应用于幻灯片背景。",
+      "comment_4": "保存更新的演示文稿。"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加水印，以保持您的 Word 文件安全和有序。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加安全水印——非常适用于法律、商业和机密的 Word 文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使您能够在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加水印。插入文本或图像水印，调整其不透明度、颜色和位置，并包括日期、徽标或机密印章等详细信息。该工具非常适合法律、商业和敏感文档，并在 {{ProgLang}} 环境下流畅运行。{{ProdShortName}} 是确保您的 Word 文件安全和真实的可靠方法。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} 为 Word 文件添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加自定义水印，帮助您保护和验证您的 Word 文档。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 文件添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加水印，以确保您的 Word 文档安全。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "在 {{ProgLang}} 中对 {{FileFormatUp}} 文件应用高级水印——非常适合保护您在任何行业中的 Word 文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为 {{FileFormatUp}} 文件带来强大的水印功能。轻松添加可缩放、可移动并与文档融合的水印。适用于法律、商业或机密文件，您可以选择文本或图像水印，自由放置。{{ProdShortName}} 支持最新的 {{ProgLang}} 功能，以实现一流的文档保护。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "了解如何在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加安全的自定义水印，以增强文档安全性和版权控制。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 图像",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加水印，以保护您的图片安全。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 添加高级 {{ProgLang}} 水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加灵活、安全的水印——非常适合艺术家和摄影师。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 为您提供在 {{ProgLang}} 中为 {{FileFormatUp}} 图像添加水印的工具。添加文本、徽标或图案，并调整其外观，以便您的水印正好合适。非常适合任何需要在网上保护自己图像的人，{{ProdShortName}} 可以在不降低图像质量的情况下保护您的作品。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 图像添加水印",
+      "description": "使用 {{ProgLang}} 在 {{FileFormatUp}} 图像中添加和管理水印，以保护您的数字内容。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 图像添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加水印，以保护您的数字照片。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 图像",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加强大的水印——非常适合版权和所有权。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使您能够在 {{ProgLang}} 中为 JPG 图像添加水印。将文本、徽标或图形放置在图像上的任何地方，并根据需要调整其外观。使用 {{ProdShortName}} 保护您的个人或商业照片，并保持图像不被复制。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加可见或隐形的水印，以保护安全且易于识别的内容。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 文档添加水印",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加水印，以保护您的重要文档。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加水印——非常适合法律、金融和官方文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一个 {{ProgLang}} API，用于向 {{FileFormatUp}} 文件添加水印。自定义您的水印文本、图像和位置，以适应任何文档。用于标记合同、报告或机密文件，保持您的 PDF 安全且专业。{{ProdShortName}} 支持透明度、旋转和分层，适用于高级水印处理。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 文件",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加自定义水印，以保护您的敏感和官方文档。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 图像添加水印，以保护版权和安全。"
+    },
+    "header": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 图像添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加高级水印——非常适合艺术家和设计师。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}} 是一个 {{ProgLang}} 工具包，用于向 {{FileFormatUp}} 图像添加水印。添加透明或实心水印，将其放置在任意位置，保持图像安全，防止复制。借助 {{ProdShortName}}，您可以使用文本或图像作为水印，控制其外观，以便用于个人或专业项目。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加细腻或醒目的水印，以实现灵活的版权保护。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{ProgLang}} 为 PowerPoint 文件添加水印",
+      "description": "在 {{ProgLang}} 中向 PowerPoint 文件添加动态水印，以保护您的演示文稿。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "使用 {{ProgLang}} 为 PowerPoint 演示文稿添加自定义水印——非常适合商业和教育。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使您能够在 {{ProgLang}} 中为 PowerPoint (PPT) 文件添加水印。向幻灯片添加可见或隐形的标记，自定义其样式、大小和颜色。非常适合在商业或学校环境中保护您的演示文稿，{{ProdShortName}} 兼容所有主要的 {{ProgLang}} 版本。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 文件",
+      "description": "在 {{ProgLang}} 中为 PowerPoint 文件添加高级水印，以防止滥用并保护您的内容。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "通过在 {{ProgLang}} 中添加水印来保护您的 {{FileFormatUp}} 演示文稿。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 提供高级 {{ProgLang}} 水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加强大的水印——非常适合商业和教育。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一个完整的 {{ProgLang}} 解决方案，可以为 {{FileFormatUp}} 文件添加水印。添加文本、徽标或图形作为水印，并调整透明度、大小和位置。非常适用于需要保护演示文稿的用户，{{ProdShortName}} 确保您的幻灯片安全且外观美观。"
+    },
+    "formats": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 文件添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加水印，以防止共享或复制您的演示文稿。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{ProgLang}} 为 {{FileFormatUp}} 文档添加水印",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加水印，以保护您的 Word 文档。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}}",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加安全的自定义水印——非常适用于敏感的 Word 文档。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 提供了高级工具，能在 {{ProgLang}} 中为 {{FileFormatUp}} 文档添加水印。可以使用可见或透明的标记，调整其字体、颜色、大小和位置。非常适合法律、商业或机密文件，{{ProdShortName}} 有助于防止复制和编辑。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "利用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加强大且细腻的水印，以提升文档安全性。"
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 图像添加水印",
+      "description": "使用 {{ProgLang}} 向 {{FileFormatUp}} 图像添加水印，以保护您的照片。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 提供高级水印与 {{ProgLang}}",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 图像添加高质量水印——非常适合摄影师和档案管理员。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一个 {{ProgLang}} 工具包，用于在 {{FileFormatUp}} 图像中添加水印。添加文本或图形水印，调整其外观，确保您的高分辨率图像安全。通过批处理和智能定位，{{ProdShortName}} 适合任何需要同时保护大量图像的人。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 图像",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 图像添加自定义水印，防止复制并保护您的作品。"
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "创建并添加水印到 {{FileFormatUp}} 图像中，使用 {{ProgLang}} 保护您的数字文件。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 创建水印与 {{ProgLang}}",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加强大的自定义水印——非常适合数字档案和摄影师。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一个 {{ProgLang}} 工具包，用于向 TIFF 文件添加水印。选择文本或图像水印，设置其不透明度、大小和位置，帮您保护图像。借助水印分层和智能格式化等功能，{{ProdShortName}} 是任何需要保护其图像集合的用户的必备工具。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 图像",
+      "description": "在 {{ProgLang}} 中管理 {{FileFormatUp}} 文件中的水印，确保您的图像安全，受您控制。"
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 向 {{FileFormatUp}} 图像添加水印，以提供强有力的保护。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 创建水印与 {{ProgLang}}",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加自定义水印——非常适合艺术家和内容创作者。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 让您在 {{ProgLang}} 中为 WEBP 图像添加水印。使用文本、徽标或数字签名，并调整其外观以符合您的需求。非常适合任何在线分享图像的人，{{ProdShortName}} 确保您的作品安全且外观出色。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 水印保护 {{FileFormatUp}} 图像",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 图像添加先进的自定义水印，以保护您的创意作品。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 在 {{FileFormatUp}} 文件中添加和管理水印，以提高 Excel 的安全性。"
+    },
+    "header": {
+      "title": "为 {{FileFormatUp}} 文件创建 {{ProgLang}} 水印",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 电子表格添加水印——非常适合保护财务和个人数据。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 使您能够在 {{ProgLang}} 中为 XLS 文件添加水印。使用可见或隐形的标记，并根据需要自定义它们的外观。非常适合保护财务或客户数据，{{ProdShortName}} 兼容所有 {{ProgLang}} 环境。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加自定义水印，确保您的 Excel 数据安全。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "通过在 {{ProgLang}} 中添加水印来保护您的 {{FileFormatUp}} 演示文稿。"
+    },
+    "header": {
+      "title": "使用 {{ProgLang}} 保护 {{FileFormatUp}} 工作表",
+      "description": "在 {{ProgLang}} 中为 {{FileFormatUp}} 文件添加自定义水印——非常适合商业和敏感数据。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} 是一个 {{ProgLang}} 解决方案，可以在 XLSX 文件中添加和管理水印。添加文本或图像水印，根据文件属性自动化水印过程，保持您的 Excel 文档安全且专业。{{ProdShortName}} 支持所有现代 {{ProgLang}} 功能。"
+    },
+    "formats": {
+      "title": "使用 {{ProgLang}} 为 {{FileFormatUp}} 添加水印",
+      "description": "使用 {{ProgLang}} 为 {{FileFormatUp}} 文件添加安全的高级水印，以保护您的 Excel 数据。"
+    }
+  }
+}

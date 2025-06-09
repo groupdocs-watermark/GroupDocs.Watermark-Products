@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Cập nhật văn bản watermark trong {{FileFormatUp}}",
+    "comment_2": "Tạo một {{TextWatermarker}} bằng cách sử dụng tệp {{FileFormatUp}}",
+    "comment_3": "Thiết lập {{TextTextSearchCriteria}} để tìm văn bản watermark",
+    "comment_4": "Chỉnh sửa văn bản watermark",
+    "comment_5": "Lưu tài liệu đã chỉnh sửa"
+  },
+  "steps": {
+    "title": "Chỉnh sửa watermark trong tài liệu {{FileformatCap}} với {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** hỗ trợ các nhà phát triển {{ProgLang}} cập nhật watermark trong nhiều tệp {{FileformatCap}} khác nhau. Dưới đây là cách bạn có thể sử dụng nó trong dự án của bạn:",
+      "step_1": "Đầu tiên, mở tệp {{FileformatCap}} của bạn bằng cách truyền nó vào bộ tạo {{TextWatermarkerBold}}. Bạn có thể sử dụng đường dẫn tệp, luồng byte, hoặc luồng tệp.",
+      "step_2": "Tiếp theo, tìm các watermark bạn muốn thay đổi bằng cách sử dụng {{TextSearchCriteriaBold}}, cho phép bạn tìm kiếm văn bản hoặc thuộc tính watermark.",
+      "step_3": "Khi đã tìm thấy, bạn có thể thay đổi các chi tiết như văn bản, phông chữ, kích thước, vị trí, màu sắc, và nhiều hơn nữa. Điều này giúp bạn kiểm soát hoàn toàn cách watermark hiển thị.",
+      "step_4": "Sau khi thực hiện các thay đổi, lưu tài liệu. Bạn có thể ghi kết quả vào một luồng hoặc một đường dẫn tệp."
+    }
+  },
+  "more_features": {
+    "title": "Khám phá thêm cách để cập nhật watermark",
+    "description": "Thư viện của chúng tôi giúp các ứng dụng {{ProgLang}} có thể thêm, tìm, chỉnh sửa hoặc xóa watermark trong nhiều loại tệp.",
+    "image_description": "Chỉnh sửa Watermark",
+    "feature_1": {
+      "title": "Watermark Tài liệu của Bạn một Cách Dễ Dàng",
+      "content": "Sử dụng {{ProdFullName}} để thêm và quản lý watermark trong tài liệu của bạn. Tìm kiếm, cập nhật hoặc xóa watermark khi cần thiết bằng một API đơn giản."
+    },
+    "feature_2": {
+      "title": "Tùy Chỉnh Watermark theo Nhu Cầu của Bạn",
+      "content": "Điều chỉnh các cài đặt watermark như phông chữ, kích thước, hướng và màu sắc bằng API linh hoạt của chúng tôi để đạt được kết quả chính xác như mong muốn."
+    },
+    "feature_3": {
+      "title": "Sử Dụng Các Tính Năng Theo Định Dạng",
+      "content": "Tùy thuộc vào định dạng tệp, bạn có thể sử dụng các tính năng gốc như tiêu đề, chân trang, chú thích, hoặc nền làm vùng watermark."
+    },
+    "code_1": {
+      "title": "Chỉnh sửa Watermark Văn bản trong Excel",
+      "content": "Đoạn mã này cho thấy cách thay đổi văn bản watermark trong bảng tính Excel.",
+      "comment_1": "Mở tệp XLSX",
+      "comment_2": "Đọc dữ liệu bảng tính",
+      "comment_3": "Thay đổi văn bản watermark",
+      "comment_4": "Lưu kết quả"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Chỉnh sửa Watermark trong các tệp {{FileformatCap}}",
+      "description": "Với {{ProdFullName}}, bạn có thể dễ dàng điều chỉnh các cài đặt watermark để bảo vệ và cá nhân hóa tài liệu của bạn."
+    },
+    "header": {
+      "title": "Cập nhật Watermark trong Bảng tính {{FileformatCap}} Sử dụng {{ProgLang}}",
+      "description": "Bảo vệ bảng tính Excel của bạn với các công cụ chỉnh sửa watermark linh hoạt của chúng tôi dành cho {{ProgLang}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Nhận miễn phí trên {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Thư viện",
+      "content": "**Chỉnh sửa Watermark {{FileformatCap}} Nhanh Chóng:** {{ProdFullName}} cung cấp cho các nhà phát triển {{ProgLang}} tất cả công cụ cần thiết để quản lý watermark với nỗ lực tối thiểu, cải thiện quy trình làm việc và an toàn tài liệu của bạn."
+    },
+    "formats": {
+      "title": "Cập nhật Watermark trong Các Định Dạng Khác",
+      "description": "Dễ dàng tùy chỉnh các cài đặt watermark trên nhiều định dạng tệp khác nhau bằng {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Chỉnh sửa Watermark trong các tệp {{FileformatCap}}",
+      "description": "Điều chỉnh cài đặt watermark và cải thiện bảo vệ tài liệu bằng {{ProdFullName}} cho {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Cập nhật Watermark {{FileformatCap}} Dễ Dàng với {{ProgLang}}",
+      "description": "Bảo vệ thương hiệu và tài liệu của bạn với {{ProdFullName}}. Nhanh chóng thay đổi watermark trong các tệp Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống miễn phí trên {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Bảo vệ Tài liệu {{FileformatCap}} của Bạn:** Sử dụng {{ProdFullName}} để dễ dàng cập nhật và quản lý watermark phù hợp với nhu cầu và thương hiệu tài liệu của bạn."
+    },
+    "formats": {
+      "title": "Watermark Các Định Dạng Tệp Khác",
+      "description": "{{ProdFullName}} giúp bạn bảo vệ nhiều loại tệp với các công cụ watermark linh hoạt."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Chỉnh sửa Watermark trong các tệp {{FileformatCap}}",
+      "description": "Sử dụng {{ProdFullName}} để nhanh chóng thay đổi nội dung watermark trong các bản trình bày {{FileformatCap}} và giữ cho tài liệu của bạn an toàn."
+    },
+    "header": {
+      "title": "Chỉnh sửa Watermark Chính xác trong {{FileformatCap}} bằng {{ProgLang}}",
+      "description": "Có toàn quyền kiểm soát bố cục và khả năng hiển thị watermark trong các bản trình bày của bạn bằng {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Thư viện",
+      "action_title": "Tải xuống miễn phí từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Kiểm Soát Bố Cục Watermark trong Các Tệp {{FileformatCap}}:** Với {{ProdFullName}}, bạn có thể đặt watermark chính xác ở vị trí cần thiết và bảo mật các bản trình bày của mình một cách dễ dàng."
+    },
+    "formats": {
+      "title": "Chỉnh sửa Watermark trong Các Định Dạng Tệp Khác",
+      "description": "Sử dụng {{ProdFullName}} để làm việc với watermark trong các định dạng tài liệu khác nhau."
+    }
+  }
+}

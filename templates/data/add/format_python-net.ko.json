@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일에 이미지 워터마크 추가하기",
+    "comment_2": "{{TextWatermarker}} 생성자에게 파일 경로 전달하기",
+    "comment_3": "이미지 파일을 사용하여 이미지 워터마크 만들기",
+    "comment_4": "워터마크가 포함된 {{FileFormatUp}} 파일 저장하기"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} 파일에 워터마크 빠르게 추가하기",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** 문서에 워터마크를 추가할 수 있는 강력한 {{ProgLang}} 라이브러리입니다.",
+      "step_1": "**주 클래스: Watermarker.** 먼저 {{TextWatermarkerBold}} 객체를 생성합니다. 시작하려면 {{FileformatCap}} 파일을 파일 경로나 스트림으로 전달하세요.",
+      "step_2": "**워터마크 만들기.** 원하는 유형의 워터마크 객체를 만드세요. 문서의 모든 페이지나 이미지, 헤더와 같은 요소에 배치할 수 있습니다.",
+      "step_3": "**모양 조정하기.** 워터마크의 크기, 위치, 글꼴 및 색상을 조정하여 필요에 맞춥니다.",
+      "step_4": "**추가하고 저장하기.** {{TextWatermarkerBold}} 메서드를 사용하여 워터마크를 삽입합니다. 원하는 만큼 추가한 후, 원하는 장소에 파일을 저장하세요."
+    }
+  },
+  "more_features": {
+    "title": "더 많은 워터마킹 도구 발견하기",
+    "description": "{{ProdFullName}}는 다양한 파일 형식에서 워터마크를 추가하고 사용자 정의할 수 있는 고급 옵션을 제공합니다. 유연하고 사용하기 쉬운 기능으로 문서와 이미지를 보호하세요.",
+    "image_description": "올인원 워터마킹",
+    "feature_1": {
+      "title": "전체 페이지 타일링",
+      "content": "타일된 워터마크로 전체 문서를 덮으세요. 이렇게 하면 워터마크를 제거하기가 어려워지고 레이아웃을 손상시키지 않으면서 파일을 안전하게 유지할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "사용자 정의 색상",
+      "content": "브랜드나 문서 스타일에 맞는 색상을 선택하세요. 워터마크가 두드러지게 하거나 필요에 따라 조화롭게 만들 수 있습니다."
+    },
+    "feature_3": {
+      "title": "추가 보안 옵션",
+      "content": "다층 워터마크로 문서 보안을 강화하세요. 가시적 및 숨겨진 마크를 결합하여 복사를 방지하고 올바른 사람만 파일에 접근할 수 있도록 합니다."
+    },
+    "code_1": {
+      "title": "PowerPoint에 워터마크 추가하기",
+      "content": "이 샘플은 PPTX 슬라이드 배경에 워터마크를 추가하는 방법을 보여줍니다.",
+      "comment_1": "PPTX 파일 열기",
+      "comment_2": "워터마크 세부정보 설정하기",
+      "comment_3": "슬라이드 배경에 워터마크 적용하기",
+      "comment_4": "업데이트된 프레젠테이션 저장하기"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 파일에 워터마크 추가하기",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 워터마크를 추가하여 워드 문서를 안전하고 정리된 상태로 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 워터마크로 {{FileFormatUp}} 보호하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 안전한 워터마크를 추가하세요. 법률, 비즈니스 및 기밀 문서에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}를 사용하면 {{ProgLang}}에서 {{FileFormatUp}} 파일에 워터마크를 추가할 수 있습니다. 텍스트 또는 이미지 워터마크를 삽입하고 투명도, 색상 및 위치를 조정하며 날짜, 로고 또는 기밀 스탬프와 같은 세부정보를 포함할 수 있습니다. 이 도구는 법률, 비즈니스 및 민감한 문서에 적합하며 {{ProgLang}} 환경에서 원활하게 작동합니다. {{ProdShortName}}은 워드 파일을 안전하고 진정성 있게 유지하는 신뢰할 수 있는 방법입니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}의 워드 파일을 위한 워터마킹",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 사용자 정의 워터마크를 추가하여 워드 문서를 보호하고 검증하세요."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 파일을 위한 워터마킹",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 워터마크를 추가하여 워드 문서를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 워터마크로 {{FileFormatUp}} 보호하기",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 고급 워터마킹을 적용하세요. 모든 산업에서 워드 문서를 보호하는 데 훌륭합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{FileFormatUp}} 파일에 강력한 워터마킹을 제공합니다. 문서와 잘 어울리도록 크기, 위치 및 투명도를 쉽게 조정하면서 텍스트 또는 이미지 워터마크를 추가하세요. 법률, 비즈니스 또는 기밀 파일에 사용하기 좋으며 유연한 배치를 가진 텍스트 또는 이미지 워터마크 중에서 선택할 수 있습니다. {{ProdShortName}}은 최신 {{ProgLang}} 기능을 지원하여 최고 수준의 문서 보호를 제공합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 안전하고 사용자 정의된 워터마크를 추가하여 문서 안전성과 저작권 관리를 향상하세요."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 이미지 보호를 위한 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 이미지에 워터마크를 추가하여 사진을 안전하게 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}}를 위한 고급 워터마킹",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 유연하고 안전한 워터마크를 추가하세요. 아티스트와 사진 작가에게 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 {{FileFormatUp}} 이미지를 전반적으로 워터마킹할 수 있는 도구를 제공합니다. 텍스트, 로고 또는 패턴을 추가하고 워터마크가 자연스럽게 보이도록 조정하여 온라인에서 이미지를 보호하세요. {{ProdShortName}}은 고화질 이미지를 손상시키지 않고도 작업을 안전하게 유지합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 이미지 워터마킹",
+      "description": "{{ProgLang}}을 사용하여 {{FileFormatUp}} 이미지에서 워터마크를 추가 및 관리하여 디지털 콘텐츠를 보호하세요."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 이미지 워터마킹",
+      "description": "{{ProgLang}}로 {{FileFormatUp}} 이미지에 워터마크를 추가하여 디지털 사진을 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}를 사용한 {{FileFormatUp}} 이미지 보호",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 강력한 워터마크를 추가하세요. 저작권 및 소유권 보호에 이상적입니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}를 사용하면 {{ProgLang}}에서 JPG 이미지에 워터마크를 추가할 수 있습니다. 이미지의 어느 위치에든 텍스트, 로고 또는 그래픽을 배치하고 필요에 맞게 모양을 조정하세요. 개인적 또는 비즈니스 용도로 사진을 보호하는 데 적합한 {{ProdShortName}}을 사용하여 이미지를 안전하게 유지하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 가시적 또는 숨겨진 워터마크를 추가하여 안전하고 인지 가능한 콘텐츠를 생성하세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 문서용 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 워터마크를 추가하여 중요한 문서를 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 워터마크로 {{FileFormatUp}} 보호하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 워터마크를 추가하세요. 법률, 금융 및 공식 문서에 이상적입니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}은 {{FileFormatUp}} 파일에 워터마크를 추가하기 위한 {{ProgLang}} API입니다. 문서에 맞게 워터마크의 텍스트, 이미지 및 배치를 사용자 정의하세요. 계약서, 보고서 또는 기밀 파일을 표시하고 PDF를 안전하고 전문적으로 유지하는 데 사용하세요. {{ProdShortName}}은 투명성, 회전 및 레이어링을 지원하여 고급 워터마킹이 가능합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 파일 보안을 위한 워터마크",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 사용자 정의 워터마크를 추가하여 민감하고 공식 문서를 보호하세요."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 보호를 위한 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 이미지에 워터마크를 추가하여 저작권 및 보안을 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 이미지를 위한 워터마킹",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 고급 워터마크를 추가하세요. 아티스트와 디자이너에게 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}}는 {{ProgLang}}에서 {{FileFormatUp}} 이미지에 워터마크를 추가하기 위한 유틸리티입니다. 투명하거나 고체 워터마크를 추가하고 원하는 위치에 배치하며, 복사로부터 이미지를 보호하세요. 개인적 또는 전문 프로젝트를 위한 텍스트나 이미지를 워터마크로 사용할 수 있는 {{ProdShortName}}을 통해 시각적으로 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 미세하거나 두드러진 워터마크를 추가하여 유연한 저작권 보호를 제공합니다."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{ProgLang}}의 PowerPoint 파일을 위한 워터마크",
+      "description": "{{ProgLang}}에서 PowerPoint 파일에 동적 워터마크를 추가하여 프레젠테이션을 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 워터마크로 {{FileFormatUp}} 보호하기",
+      "description": "{{ProgLang}}를 사용하여 PowerPoint 프레젠테이션에 사용자 정의 워터마크를 추가하세요. 비즈니스와 교육에 매우 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}을 사용하여 PowerPoint(PPT) 파일에 워터마크를 추가할 수 있습니다. 슬라이드에 가시적 또는 숨겨진 표시를 추가하고 스타일, 크기 및 색상을 조정하세요. 비즈니스나 학교 환경에서 프레젠테이션을 안전하게 유지하는 데 적합하며, 모든 주요 {{ProgLang}} 버전과 호환됩니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 파일에 대한 보안 워터마크",
+      "description": "{{ProgLang}}를 사용하여 PowerPoint 파일에 고급 워터마크를 추가하여 악용을 방지하고 콘텐츠를 보호하세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 프레젠테이션에 워터마크를 추가하여 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}}에 대한 고급 워터마킹",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 강력한 워터마크를 추가하세요. 비즈니스와 교육에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}은 {{FileFormatUp}} 파일에 워터마크를 추가하기 위한 완전한 {{ProgLang}} 솔루션입니다. 워터마크로 텍스트, 로고 또는 그래픽을 추가하고 투명도, 크기 및 위치를 조정하세요. 프레젠테이션을 보호해야 하는 누구에게나 적합하며, {{ProdShortName}}은 슬라이드를 안전하고 보기 좋게 유지합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 파일에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 워터마크를 추가하여 프레젠테이션을 공유하거나 복사하는 것을 방지하세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 문서용 워터마킹",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 워터마크를 추가하여 워드 문서를 안전하게 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}} 워터마크로 {{FileFormatUp}} 보호하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 안전하고 사용자 정의된 워터마크를 추가하세요. 민감한 워드 문서에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 {{FileFormatUp}} 문서에 워터마크를 추가할 수 있는 고급 도구입니다. 가시적 또는 투명한 마크를 사용하고 글꼴, 색상, 크기 및 위치를 조정하세요. 법률, 비즈니스 또는 기밀 파일에 적합하며, {{ProdShortName}}은 복사 및 편집을 방지합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 강력하고 미세한 워터마크를 추가하여 문서 보안을 향상하세요."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 이미지에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 워터마크를 추가하여 사진을 보호하세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}}의 고급 워터마킹 {{ProgLang}}",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 고품질 워터마크를 추가하세요. 사진 작가와 보관자에게 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 {{FileFormatUp}} 이미지를 워터마킹할 수 있는 도구입니다. 텍스트 또는 이미지 워터마크를 추가하고 그 모양을 조정하여 고해상도 이미지를 안전하게 유지하세요. 배치 처리 및 스마트 배치 기능을 통해 여러 이미지를 동시에 보호해야 하는 누구에게나 적합합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 이미지를 보호하기 위한 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 이미지에 사용자 정의 워터마크를 추가하여 복사를 방지하고 작업을 안전하게 유지하세요."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 워터마크를 생성하고 추가하여 디지털 파일을 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}를 사용해 {{FileFormatUp}}를 위한 워터마크 생성하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 강력하고 사용자 정의된 워터마크를 추가하세요. 디지털 아카이브와 사진 작가를 위한 이상적인 선택입니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 TIFF 파일에 워터마크를 추가하기 위한 {{ProgLang}} 도구입니다. 텍스트 또는 이미지 워터마크를 선택하고 불투명도, 크기 및 위치를 설정하여 이미지를 안전하게 유지하세요. 워터마크 레이어링 및 스마트 포맷팅 기능을 통해 이미지 컬렉션을 보호해야 하는 모든 사람에게 필수 도구입니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 이미지를 보호하는 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일의 워터마크를 추가하고 관리하여 이미지를 안전하게 유지하세요."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 이미지에 워터마크를 추가하여 강력한 보호를 제공합니다."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}를 위한 워터마크 생성하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 사용자 정의 워터마크를 추가하세요. 아티스트와 콘텐츠 제작자에게 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}를 사용하면 {{ProgLang}}에서 WEBP 이미지에 워터마크를 추가할 수 있습니다. 텍스트, 로고 또는 디지털 서명을 사용하고, 필요에 맞게 모양을 조정하세요. 온라인에서 이미지를 공유하는 모든 사람에게 적합하며, {{ProdShortName}}은 작업을 안전하게 유지하면서도 매력적으로 만들 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 이미지 보호를 위한 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 이미지에 고급 워터마크를 추가하여 창작 작업을 보호하세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 워터마크를 추가하고 관리하여 보안성을 향상하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 파일을 위한 워터마크 생성하기",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 스프레드시트에 워터마크를 추가하세요. 재무 및 개인 데이터를 보호하기에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}에서 XLS 파일에 워터마크를 추가할 수 있는 도구입니다. 가시적 또는 숨겨진 마크를 사용하고 필요에 맞춰 모양을 사용자 정의하세요. 재무 또는 클라이언트 데이터를 안전하게 유지할 수 있는 {{ProdShortName}}은 모든 {{ProgLang}} 환경에서 작동합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 사용자 정의 워터마크를 추가하여 Excel 데이터를 안전하게 보호하세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 워터마크를 추가하여 Excel 문서를 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 시트를 보호하기 위한 워터마크",
+      "description": "{{ProgLang}}에서 {{FileFormatUp}} 파일에 사용자 정의 워터마크를 추가하세요. 비즈니스 및 민감한 데이터에 적합합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 XLSX 파일에 워터마크를 추가하고 관리하기 위한 {{ProgLang}} 솔루션입니다. 텍스트 또는 이미지 워터마크를 추가하고 파일 속성을 기반으로 워터마킹을 자동화하여 Excel 문서를 안전하고 전문적으로 유지하세요. {{ProdShortName}}은 최신 {{ProgLang}} 기능을 모두 지원합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}에 워터마크 추가하기",
+      "description": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일에 안전하고 고급 워터마크를 추가하여 Excel 데이터를 보호하세요."
+    }
+  }
+}

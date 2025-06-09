@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Eliminar la marca de agua de un archivo {{FileformatCap}}",
+    "comment_2": "Abrir el archivo {{FileformatCap}} con una instancia de {{TextWatermarker}}",
+    "comment_3": "Buscar y eliminar las marcas de agua seleccionadas",
+    "comment_4": "Guardar el archivo actualizado en la ubicación deseada"
+  },
+  "steps": {
+    "title": "Cómo eliminar marcas de agua de archivos {{FileformatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** facilita la eliminación de marcas de agua de documentos empresariales. Agrega nuestra biblioteca a tu proyecto {{ProgLang}} y sigue estos pasos:",
+      "step_1": "Comienza creando un objeto {{TextWatermarkerBold}} con tu archivo {{FileformatCap}}. Puedes usar una ruta de archivo o un flujo como entrada.",
+      "step_2": "Utiliza {{TextSearchCriteriaBold}} para filtrar las marcas de agua que deseas eliminar. Puedes buscar por texto, imagen o formato. Cuantos más detalles proporciones, más precisa será tu búsqueda.",
+      "step_3": "Revisa las marcas de agua encontradas y elimina las que no necesites del documento.",
+      "step_4": "Una vez terminado, guarda el documento limpio como un archivo o flujo."
+    }
+  },
+  "more_features": {
+    "title": "Eliminación eficiente de marcas de agua con {{ProgLang}} en {{ProgLang}}",
+    "description": "Nuestra API {{ProgLang}} te ayuda a eliminar rápidamente marcas de agua de archivos PDF y de oficina, manteniendo tus documentos limpios y originales.",
+    "image_description": "Eliminar marca de agua",
+    "feature_1": {
+      "title": "Eliminación precisa de marcas de agua",
+      "content": "La API {{ProgLang}} te permite remover marcas de agua sin dañar el diseño o la calidad de tu documento. Está diseñada para desarrolladores que necesitan resultados confiables."
+    },
+    "feature_2": {
+      "title": "Eliminar marcas de agua en bloque",
+      "content": "Elimina fácilmente marcas de agua de muchos archivos a la vez. Esto es perfecto para empresas que necesitan procesar muchos documentos de forma rápida y segura."
+    },
+    "feature_3": {
+      "title": "Edición avanzada para marcas de agua",
+      "content": "Utiliza opciones avanzadas para ajustar o editar marcas de agua antes de eliminarlas. Esto te ayuda a mantener tus documentos con un aspecto profesional y seguro."
+    },
+    "code_1": {
+      "title": "Eliminar marca de agua de texto de Excel",
+      "content": "Este ejemplo muestra cómo eliminar marcas de agua de texto con formato especial en archivos de Excel.",
+      "comment_1": "Abrir el archivo de Excel",
+      "comment_2": "Buscar la marca de agua",
+      "comment_3": "Eliminar la marca de agua",
+      "comment_4": "Guardar el XLSX limpio"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Eliminar marcas de agua de {{FileformatCap}} con {{ProgLang}}",
+      "description": "Utiliza nuestra API {{ProgLang}} para eliminar rápidamente marcas de agua de archivos {{FileformatCap}}, manteniendo tus datos claros y organizados."
+    },
+    "header": {
+      "title": "{{ProgLang}} para eliminación de marcas de agua de {{FileformatCap}}",
+      "description": "Elimina o edita fácilmente marcas de agua en archivos {{FileformatCap}} con nuestras herramientas, diseñadas para precisión y simplicidad.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Descarga el paquete gratuito de {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "La biblioteca {{ProdFullName}} te proporciona todo lo que necesitas para gestionar marcas de agua en archivos {{FileformatCap}}. Elimina o edita marcas para mantener tus hojas de cálculo limpias y profesionales."
+    },
+    "formats": {
+      "title": "Eliminar fácilmente marcas de agua de {{FileformatCap}} en {{ProgLang}}",
+      "description": "Ve cómo usar la API {{ProdFullName}} para remover marcas de agua de hojas {{FileformatCap}} para reportes claros y precisos."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Eliminar marcas de agua de {{FileformatCap}} con {{ProgLang}}",
+      "description": "Elimina o edita rápidamente marcas de agua en archivos {{FileformatCap}} usando nuestra API {{ProgLang}} para documentos limpios y profesionales."
+    },
+    "header": {
+      "title": "Eliminador de marcas de agua {{FileformatCap}} para {{ProgLang}}",
+      "description": "Usa la API {{ProdFullName}} para eliminar marcas de agua de archivos {{FileformatCap}}, manteniendo tus documentos legales y comerciales ordenados.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Obténlo gratis en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "Con {{ProdFullName}}, puedes encontrar y eliminar fácilmente marcas de agua en archivos de Word. Detecta, cambia o elimina tanto marcas de agua de texto como de imagen mientras mantienes intacto el diseño de tu documento."
+    },
+    "formats": {
+      "title": "Gestión de marcas de agua en {{FileformatCap}} con {{ProgLang}}",
+      "description": "Descubre cómo gestionar y eliminar marcas de agua en archivos {{FileformatCap}} utilizando nuestra API {{ProgLang}} para una mejor calidad del documento."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Eliminar marcas de agua de diapositivas {{FileformatCap}} con {{ProgLang}}",
+      "description": "Elimina fácilmente marcas de agua de diapositivas {{FileformatCap}} utilizando nuestra API {{ProgLang}} para presentaciones limpias y profesionales."
+    },
+    "header": {
+      "title": "Limpiador de marcas de agua {{ProgLang}} {{FileformatCap}}",
+      "description": "Usa la API {{ProdFullName}} para eliminar marcas de agua de presentaciones {{FileformatCap}}, manteniendo tus diapositivas ordenadas y legibles.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Descarga desde {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "La biblioteca {{ProdFullName}} te ayuda a eliminar marcas de agua de presentaciones {{FileformatCap}}. Elimina marcas no deseadas para mantener tus diapositivas claras y profesionales, ideal para negocios, enseñanza o capacitación."
+    },
+    "formats": {
+      "title": "Limpiar presentaciones {{FileformatCap}} en {{ProgLang}}",
+      "description": "Aprende a usar la API {{ProdFullName}} para eliminar marcas de agua de diapositivas {{FileformatCap}} para un aspecto pulido y libre de distracciones."
+    }
+  }
+}

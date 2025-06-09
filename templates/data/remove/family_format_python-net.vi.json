@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Xóa watermark văn bản khỏi tệp {{FileformatCap}}",
+    "comment_2": "Mở tệp {{FileformatCap}} với một thể hiện {{TextWatermarker}}",
+    "comment_3": "Tìm và loại bỏ các watermark đã chọn",
+    "comment_4": "Lưu tệp đã cập nhật vào vị trí bạn chọn"
+  },
+  "steps": {
+    "title": "Cách Xóa Watermark khỏi Tệp {{FileformatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** giúp bạn xóa watermark khỏi tài liệu kinh doanh của mình. Thêm thư viện của chúng tôi vào dự án {{ProgLang}} của bạn và làm theo các bước sau:",
+      "step_1": "Bắt đầu bằng cách tạo một đối tượng {{TextWatermarkerBold}} với tệp {{FileformatCap}} của bạn. Bạn có thể sử dụng đường dẫn tệp hoặc một luồng để nhập vào.",
+      "step_2": "Sử dụng {{TextSearchCriteriaBold}} để lọc các watermark bạn muốn xóa. Bạn có thể tìm kiếm theo văn bản, hình ảnh hoặc định dạng. Càng nhiều chi tiết bạn cung cấp, tìm kiếm của bạn càng chính xác.",
+      "step_3": "Duyệt qua các watermark đã tìm thấy và loại bỏ những cái không cần thiết khỏi tài liệu.",
+      "step_4": "Khi hoàn tất, lưu tài liệu đã được làm sạch dưới dạng tệp hoặc luồng."
+    }
+  },
+  "more_features": {
+    "title": "Xóa Watermark Hiệu Quả với {{ProgLang}} trong {{ProgLang}}",
+    "description": "API {{ProgLang}} của chúng tôi giúp bạn nhanh chóng xóa watermark khỏi PDF và các tệp văn phòng, giữ cho tài liệu của bạn sạch sẽ và nguyên bản.",
+    "image_description": "Xóa Watermark",
+    "feature_1": {
+      "title": "Xóa Watermark Chính Xác",
+      "content": "API {{ProgLang}} cho phép bạn xóa watermark mà không làm hỏng bố cục hoặc chất lượng tài liệu của bạn. Nó được thiết kế cho các nhà phát triển cần kết quả đáng tin cậy."
+    },
+    "feature_2": {
+      "title": "Xóa Watermark theo Lô",
+      "content": "Dễ dàng xóa watermark từ nhiều tệp cùng một lúc. Điều này hoàn hảo cho các công ty cần xử lý nhiều tài liệu nhanh chóng và an toàn."
+    },
+    "feature_3": {
+      "title": "Chỉnh Sửa Nâng Cao cho Watermark",
+      "content": "Sử dụng các tùy chọn nâng cao để điều chỉnh hoặc chỉnh sửa watermark trước khi xóa chúng. Điều này giúp bạn giữ cho tài liệu của mình trông chuyên nghiệp và an toàn."
+    },
+    "code_1": {
+      "title": "Xóa watermark văn bản khỏi Excel",
+      "content": "Ví dụ này cho thấy cách xóa watermark văn bản với định dạng đặc biệt trong tệp Excel.",
+      "comment_1": "Mở tệp Excel",
+      "comment_2": "Tìm kiếm watermark",
+      "comment_3": "Xóa watermark",
+      "comment_4": "Lưu XLSX đã làm sạch"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Xóa Watermarks khỏi {{FileformatCap}} với {{ProgLang}}",
+      "description": "Sử dụng API {{ProgLang}} của chúng tôi để nhanh chóng xóa watermark khỏi các tệp {{FileformatCap}}, giữ cho dữ liệu của bạn rõ ràng và có tổ chức."
+    },
+    "header": {
+      "title": "{{ProgLang}} cho Xóa Watermark {{FileformatCap}}",
+      "description": "Dễ dàng xóa hoặc chỉnh sửa watermark trong các tệp {{FileformatCap}} với công cụ của chúng tôi, được thiết kế để chính xác và đơn giản.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Tải xuống gói miễn phí {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thư viện {{ProdFullName}}",
+      "content": "Thư viện {{ProdFullName}} cung cấp cho bạn mọi thứ cần thiết để quản lý watermark trong các tệp {{FileformatCap}}. Xóa hoặc chỉnh sửa đánh dấu để giữ cho bảng tính của bạn sạch sẽ và chuyên nghiệp."
+    },
+    "formats": {
+      "title": "Dễ Dàng Xóa Watermark {{FileformatCap}} trong {{ProgLang}}",
+      "description": "Xem cách sử dụng API {{ProdFullName}} để xóa watermark khỏi các bảng tính {{FileformatCap}} để có báo cáo rõ ràng và chính xác."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Xóa Watermarks khỏi {{FileformatCap}} với {{ProgLang}}",
+      "description": "Nhanh chóng xóa hoặc chỉnh sửa watermark trong các tệp {{FileformatCap}} bằng cách sử dụng API {{ProgLang}} của chúng tôi cho các tài liệu sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "Trình Xóa Watermark {{FileformatCap}} cho {{ProgLang}}",
+      "description": "Sử dụng API {{ProdFullName}} để xóa watermark khỏi các tệp {{FileformatCap}}, giữ cho tài liệu pháp lý và kinh doanh của bạn gọn gàng.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thư viện {{ProdFullName}}",
+      "content": "Với {{ProdFullName}}, bạn có thể dễ dàng tìm và xóa watermark trong các tệp Word. Phát hiện, thay đổi hoặc xóa cả watermark văn bản và hình ảnh trong khi vẫn giữ nguyên bố cục của tài liệu."
+    },
+    "formats": {
+      "title": "Quản Lý Watermark trong {{FileformatCap}} với {{ProgLang}}",
+      "description": "Khám phá cách quản lý và xóa watermark trong các tệp {{FileformatCap}} bằng cách sử dụng API {{ProgLang}} của chúng tôi để cải thiện chất lượng tài liệu."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Xóa Watermarks khỏi Slides {{FileformatCap}} với {{ProgLang}}",
+      "description": "Dễ dàng xóa watermark khỏi Slides {{FileformatCap}} bằng cách sử dụng API {{ProgLang}} của chúng tôi cho các bài thuyết trình sạch sẽ và chuyên nghiệp."
+    },
+    "header": {
+      "title": "Trình Xóa Watermark {{ProgLang}} {{FileformatCap}}",
+      "description": "Sử dụng API {{ProdFullName}} để xóa watermark khỏi các bài thuyết trình {{FileformatCap}}, giữ cho các slide của bạn gọn gàng và dễ đọc.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Tải xuống từ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Thư viện {{ProdFullName}}",
+      "content": "Thư viện {{ProdFullName}} giúp bạn xóa watermark khỏi các bài thuyết trình {{FileformatCap}}. Xóa các dấu hiệu không mong muốn để giữ cho các slide của bạn trong sạch và chuyên nghiệp—tuyệt vời cho doanh nghiệp, giảng dạy hoặc đào tạo."
+    },
+    "formats": {
+      "title": "Dọn Dẹp Các Bài Thuyết Trình {{FileformatCap}} trong {{ProgLang}}",
+      "description": "Tìm hiểu cách sử dụng API {{ProdFullName}} để xóa watermark khỏi các slide {{FileformatCap}} để có một cái nhìn bóng bẩy, không phân tâm."
+    }
+  }
+}

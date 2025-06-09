@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Aggiungi un watermark immagine a un file {{FileFormatUp}}",
+    "comment_2": "Passa il percorso del file al costruttore {{TextWatermarker}}",
+    "comment_3": "Crea un watermark immagine utilizzando il tuo file immagine",
+    "comment_4": "Salva il file {{FileFormatUp}} con il watermark"
+  },
+  "steps": {
+    "title": "Aggiungi rapidamente watermark ai file {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Una potente libreria {{ProgLang}} che ti consente di aggiungere watermark ai tuoi documenti.",
+      "step_1": "**Classe principale: Watermarker.** Inizia creando un oggetto {{TextWatermarkerBold}}. Fornisci il tuo file {{FileformatCap}}, sia come percorso di file che come stream.",
+      "step_2": "**Crea il tuo watermark.** Successivamente, crea un oggetto Watermark del tipo desiderato. Puoi posizionarlo su qualsiasi pagina o anche in elementi del documento come immagini o intestazioni.",
+      "step_3": "**Regola l'aspetto.** Imposta le dimensioni, la posizione, il font e il colore del watermark in base alle tue esigenze.",
+      "step_4": "**Aggiungi e salva.** Usa il metodo {{TextWatermarkerBold}} per inserire il watermark. Aggiungi quanti più watermark desideri e poi salva il file dove preferisci."
+    }
+  },
+  "more_features": {
+    "title": "Scopri di più sugli strumenti di watermarking",
+    "description": "{{ProdFullName}} ti offre opzioni avanzate per aggiungere e personalizzare watermark in molti tipi di file. Proteggi i tuoi documenti e immagini con funzionalità flessibili e facili da usare.",
+    "image_description": "Watermarking All-in-One",
+    "feature_1": {
+      "title": "Pavimentazione a piena pagina",
+      "content": "Copri l'intero documento con watermark a tessere. Questo rende difficile rimuovere i watermark e mantiene i tuoi file protetti senza rovinare il layout."
+    },
+    "feature_2": {
+      "title": "Colori personalizzati",
+      "content": "Scegli qualsiasi colore per il tuo watermark in modo da abbinarsi al tuo marchio o stile del documento. Fai risaltare il tuo watermark o amalgamalolo come necessario."
+    },
+    "feature_3": {
+      "title": "Opzioni di sicurezza avanzate",
+      "content": "Aumenta la sicurezza del tuo documento con watermark sovrapposti. Combina segni visibili e nascosti per prevenire la copiatura e assicurarti che solo le persone giuste possano accedere ai tuoi file."
+    },
+    "code_1": {
+      "title": "Aggiungi un watermark a PowerPoint",
+      "content": "Questo esempio mostra come inserire un watermark come sfondo delle diapositive PPTX.",
+      "comment_1": "Apri un file PPTX",
+      "comment_2": "Imposta i dettagli del watermark",
+      "comment_3": "Applica il watermark agli sfondi delle diapositive",
+      "comment_4": "Salva la presentazione aggiornata"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Watermark per file {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Aggiungi watermark a file {{FileFormatUp}} in {{ProgLang}} per mantenere i tuoi documenti Word sicuri e organizzati."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark sicuri a file {{FileFormatUp}}—ideale per documenti Word legali, aziendali e confidenziali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti consente di aggiungere watermark a file {{FileFormatUp}} in {{ProgLang}}. Inserisci watermark di testo o immagine, regola la loro opacità, colore e posizione, e includi dettagli come date, loghi o timbri confidenziali. Questo strumento è perfetto per documenti legali, aziendali e sensibili, e funziona senza problemi negli ambienti {{ProgLang}}. {{ProdShortName}} è un modo affidabile per mantenere i tuoi file Word sicuri e autentici."
+    },
+    "formats": {
+      "title": "Watermark {{ProgLang}} per file Word",
+      "description": "Usa {{ProgLang}} per aggiungere watermark personalizzati a file {{FileFormatUp}}, aiutandoti a proteggere e verificare i tuoi documenti Word."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Watermarking {{ProgLang}} per file {{FileFormatUp}}",
+      "description": "Aggiungi watermark a file {{FileFormatUp}} in {{ProgLang}} per mantenere sicuri i tuoi documenti Word."
+    },
+    "header": {
+      "title": "Sicurezza {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Applica watermark avanzati a file {{FileFormatUp}} in {{ProgLang}}—ottimo per proteggere i documenti Word in qualsiasi settore.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} porta un watermarking potente a file {{FileFormatUp}}. Aggiungi facilmente watermark che si scalano, si muovono e si fondono con il tuo documento. Usalo per file legali, aziendali o confidenziali, e scegli tra watermark di testo o immagine con posizionamento flessibile. {{ProdShortName}} supporta le ultime funzionalità {{ProgLang}} per una protezione documentale di alto livello."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Scopri come aggiungere watermark sicuri e personalizzati a file {{FileFormatUp}} in {{ProgLang}} per migliorare la sicurezza dei documenti e il controllo del copyright."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Proteggi le immagini {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark a immagini {{FileFormatUp}} in {{ProgLang}} per mantenere le tue immagini sicure."
+    },
+    "header": {
+      "title": "Watermarking avanzato {{ProgLang}} per {{FileFormatUp}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark flessibili e sicuri a immagini {{FileFormatUp}}—ideale per artisti e fotografi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti offre gli strumenti per watermarkare immagini {{FileFormatUp}} in {{ProgLang}}. Aggiungi testo, loghi o motivi e regola il loro aspetto in modo che il tuo watermark si integri perfettamente. Ottimo per chiunque protegga le proprie immagini online, {{ProdShortName}} mantiene il tuo lavoro al sicuro senza compromettere la qualità dell'immagine."
+    },
+    "formats": {
+      "title": "Watermarking {{ProgLang}} per immagini {{FileFormatUp}}",
+      "description": "Aggiungi e gestisci watermark in immagini {{FileFormatUp}} con {{ProgLang}} per proteggere il tuo contenuto digitale."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Watermarking {{ProgLang}} per immagini {{FileFormatUp}}",
+      "description": "Aggiungi watermark a immagini {{FileFormatUp}} in {{ProgLang}} per proteggere le tue foto digitali."
+    },
+    "header": {
+      "title": "Proteggi le immagini {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere forti watermark a immagini {{FileFormatUp}}—ideale per diritti d'autore e proprietà.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti consente di aggiungere watermark a immagini JPG in {{ProgLang}}. Posiziona testo, loghi o grafiche ovunque sulla tua immagine e regola il loro aspetto in base alle tue esigenze. Proteggi le tue foto per uso personale o commerciale con {{ProdShortName}}, e mantieni le tue immagini al sicuro da copie non autorizzate."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark visibili o nascosti a immagini {{FileFormatUp}} per contenuti sicuri e riconoscibili."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Watermark {{ProgLang}} per file {{FileFormatUp}}",
+      "description": "Aggiungi watermark a file {{FileFormatUp}} in {{ProgLang}} per proteggere i tuoi documenti importanti."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark a file {{FileFormatUp}}—ideale per documenti legali, finanziari e ufficiali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} è un'API {{ProgLang}} per aggiungere watermark a file {{FileFormatUp}}. Personalizza il testo, le immagini e la posizione del tuo watermark per adattarlo a qualsiasi documento. Usalo per contratti, rapporti o file riservati, e mantieni i tuoi PDF sicuri e professionali. {{ProdShortName}} supporta trasparenza, rotazione e sovrapposizione per watermarking avanzato."
+    },
+    "formats": {
+      "title": "Proteggi i file {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark personalizzati a file {{FileFormatUp}} in {{ProgLang}} per proteggere i tuoi documenti sensibili e ufficiali."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Proteggi {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark a immagini {{FileFormatUp}} in {{ProgLang}} per diritti d'autore e sicurezza."
+    },
+    "header": {
+      "title": "Watermarking {{ProgLang}} per immagini {{FileFormatUp}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark avanzati a immagini {{FileFormatUp}}—ottimo per artisti e designer.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}} è un toolkit {{ProgLang}} per aggiungere watermark a immagini {{FileFormatUp}}. Aggiungi watermark trasparenti o solidi, posizionali ovunque e mantieni le tue immagini al sicuro. Con {{ProdShortName}}, puoi utilizzare testo o immagini come watermark e controllare il loro aspetto per progetti personali o professionali."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark sottili o bold a immagini {{FileFormatUp}} per una protezione flessibile dei diritti d'autore."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Watermarking {{ProgLang}} per file PowerPoint",
+      "description": "Aggiungi watermark dinamici ai file PowerPoint in {{ProgLang}} per mantenere sicure le tue presentazioni."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark personalizzati a presentazioni PowerPoint—ottimo per affari e istruzione.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti permette di aggiungere watermark a file PowerPoint (PPT) in {{ProgLang}}. Aggiungi segni visibili o nascosti alle tue diapositive e personalizza il loro stile, dimensione e colore. Perfetto per mantenere le tue presentazioni sicure in ambito aziendale o scolastico, {{ProdShortName}} funziona con tutte le versioni principali di {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Proteggi i file {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark avanzati ai file PowerPoint in {{ProgLang}} per prevenire usi impropri e proteggere i tuoi contenuti."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Proteggi le tue presentazioni {{FileFormatUp}} aggiungendo watermark in {{ProgLang}}."
+    },
+    "header": {
+      "title": "Watermarking avanzato {{ProgLang}} per {{FileFormatUp}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark forti a file {{FileFormatUp}}—ideale per affari e istruzione.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} è una soluzione completa {{ProgLang}} per watermarkare file {{FileFormatUp}}. Aggiungi testo, loghi o grafiche come watermark e regola la loro trasparenza, dimensione e posizione. Ottimo per chiunque debba proteggere le proprie presentazioni, {{ProdShortName}} mantiene le tue diapositive sicure e dall'aspetto professionale."
+    },
+    "formats": {
+      "title": "Watermarking {{ProgLang}} per file {{FileFormatUp}}",
+      "description": "Aggiungi watermark a file {{FileFormatUp}} in {{ProgLang}} per rendere le tue presentazioni sicure da condivisione o copia."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Watermarking {{ProgLang}} per file {{FileFormatUp}}",
+      "description": "Aggiungi watermark a file {{FileFormatUp}} in {{ProgLang}} per mantenere sicuri i tuoi documenti Word."
+    },
+    "header": {
+      "title": "Proteggi {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark sicuri e personalizzati a file {{FileFormatUp}}—ottimo per documenti Word sensibili.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti offre strumenti avanzati per aggiungere watermark a documenti {{FileFormatUp}} in {{ProgLang}}. Usa segni visibili o trasparenti e regola il font, il colore, le dimensioni e la posizione. Perfetto per file legali, aziendali o confidenziali, {{ProdShortName}} aiuta a prevenire la copiatura e la modifica."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark forti e sottili a file {{FileFormatUp}} per migliorare la sicurezza dei documenti."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Aggiungi watermark {{ProgLang}} a immagini {{FileFormatUp}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark a immagini {{FileFormatUp}} e proteggere le tue foto."
+    },
+    "header": {
+      "title": "Watermarking avanzato per {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Aggiungi watermark di alta qualità a immagini {{FileFormatUp}} in {{ProgLang}}—ideale per fotografi e archivisti.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} è un toolkit {{ProgLang}} per watermarkare immagini {{FileFormatUp}}. Aggiungi watermark di testo o immagine, regola il loro aspetto e mantieni le tue immagini ad alta risoluzione al sicuro. Con l'elaborazione batch e posizionamenti intelligenti, {{ProdShortName}} è perfetto per chiunque debba proteggere numerose immagini contemporaneamente."
+    },
+    "formats": {
+      "title": "Proteggi immagini {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark personalizzati a immagini {{FileFormatUp}} in {{ProgLang}} per prevenire la copiatura e mantenere il tuo lavoro sicuro."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Crea e aggiungi watermark a immagini {{FileFormatUp}} in {{ProgLang}} per proteggere i tuoi file digitali."
+    },
+    "header": {
+      "title": "Crea watermark per {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Aggiungi watermark forti e personalizzati a file {{FileFormatUp}} in {{ProgLang}}—ideale per archivi digitali e fotografi.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} è un toolkit {{ProgLang}} per aggiungere watermark a file TIFF. Scegli watermark di testo o immagine, imposta la loro opacità, dimensione e posizione, e mantieni le tue immagini al sicuro. Con funzionalità come sovrapposizione di watermark e formattazione intelligente, {{ProdShortName}} è un must per chiunque debba proteggere le proprie collezioni di immagini."
+    },
+    "formats": {
+      "title": "Sicurezza delle immagini {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi e gestisci watermark in file {{FileFormatUp}} in {{ProgLang}} per mantenere le tue immagini sicure e sotto controllo."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark a immagini {{FileFormatUp}} per una forte protezione."
+    },
+    "header": {
+      "title": "Crea watermark per {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Aggiungi watermark personalizzati a file {{FileFormatUp}} in {{ProgLang}}—ottimo per artisti e creatori di contenuti.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti consente di aggiungere watermark a immagini WEBP in {{ProgLang}}. Usa testo, loghi o firme digitali e regola il loro aspetto in base alle tue esigenze. Perfetto per chiunque condivida immagini online, {{ProdShortName}} mantiene il tuo lavoro al sicuro e dall'aspetto professionale."
+    },
+    "formats": {
+      "title": "Proteggi le immagini {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark avanzati e personalizzati a immagini {{FileFormatUp}} in {{ProgLang}} per proteggere il tuo lavoro creativo."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere e gestire watermark in file {{FileFormatUp}} per una migliore sicurezza in Excel."
+    },
+    "header": {
+      "title": "Crea watermark {{ProgLang}} per file {{FileFormatUp}}",
+      "description": "Aggiungi watermark a fogli di calcolo {{FileFormatUp}} in {{ProgLang}}—ottimo per proteggere dati finanziari e personali.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ti consente di aggiungere watermark a file XLS in {{ProgLang}}. Usa segni visibili o nascosti e personalizza il loro aspetto in base alle tue esigenze. Ottimo per mantenere i dati finanziari o dei clienti al sicuro, {{ProdShortName}} funziona con tutti gli ambienti {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark personalizzati a file {{FileFormatUp}} e mantenere i tuoi dati Excel sicuri."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark a file {{FileFormatUp}} e proteggere i tuoi documenti Excel."
+    },
+    "header": {
+      "title": "Proteggi fogli {{FileFormatUp}} con watermark {{ProgLang}}",
+      "description": "Aggiungi watermark personalizzati a file {{FileFormatUp}} in {{ProgLang}}—perfetto per dati aziendali e sensibili.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Ottienilo gratis su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} è una soluzione {{ProgLang}} per aggiungere e gestire watermark in file XLSX. Aggiungi watermark di testo o immagine, automatizza il watermarking in base alle proprietà del file e mantieni i tuoi documenti Excel sicuri e professionali. {{ProdShortName}} supporta tutte le funzionalità moderne {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Aggiungi watermark a {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Usa {{ProgLang}} per aggiungere watermark sicuri e avanzati a file {{FileFormatUp}} e proteggere i tuoi dati Excel."
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}ファイルの画像ウォーターマークを更新",
+    "comment_2": "入力ファイルを使用して{{TextWatermarker}}インスタンスを作成",
+    "comment_3": "{{TextSearchCriteria}}を使用して画像ベースのウォーターマークを特定",
+    "comment_4": "画像ウォーターマークに変更を適用",
+    "comment_5": "更新された{{FileFormatUp}}ファイルをエクスポート"
+  },
+  "steps": {
+    "title": "{{FileformatCap}}ドキュメント内のウォーターマークを変更するための{{ProgLang}} APIの使用",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**を使用すると、{{ProgLang}}開発者はさまざまな{{FileformatCap}}ドキュメント内のウォーターマークコンテンツを変更できます。簡単な手順は次のとおりです：",
+      "step_1": "{{TextWatermarkerBold}}クラスを使用して{{FileformatCap}}ドキュメントを読み込み、ファイルパス、メモリストリーム、またはバイト配列を入力として受け入れます。",
+      "step_2": "ドキュメント内の既存のウォーターマーク要素（テキストまたはグラフィカル）を検索するために{{TextSearchCriteriaBold}}オブジェクトを構築します。",
+      "step_3": "特定されたら、ツールは更新できるウォーターマークのインスタンスコレクションを提供し、色、配置、フォント、または組み込みイメージデータなどのパラメータを調整できます。",
+      "step_4": "組み込みの保存メソッドを使用して、改訂されたドキュメントをディスクまたはサポートされている出力ストリームに保存して、プロセスを完了します。"
+    }
+  },
+  "more_features": {
+    "title": "高度なウォーターマーキングツールで生産性を向上",
+    "description": "{{ProgLang}}でドキュメントのブランディングと保護を加速する動的なウォーターマーキングAPIを使用します。ウォーターマークのレイヤーを挿入、検出、変更、または削除してください。",
+    "image_description": "高度なウォーターマーク編集ワークフロー",
+    "feature_1": {
+      "title": "統合されたウォーターマーク制御",
+      "content": "{{ProdFullName}}を使用して、{{ProgLang}}アプリケーションにウォーターマークライフサイクルの完全な制御を導入します。ウォーターマークのセットアップ、更新、削除を自動化して繰り返しの作業を回避します。"
+    },
+    "feature_2": {
+      "title": "ウォーターマーク属性の精密調整",
+      "content": "ウォーターマークの美観を完全に制御し、サイズ変更、再着色、回転、または再配置して、あらゆる視覚的要件を満たすことができる柔軟なAPIを提供します。"
+    },
+    "feature_3": {
+      "title": "ネイティブフォーマット機能の活用",
+      "content": "ウォーターマークをヘッダー、フッター、注釈、または背景に埋め込むことで、任意のファイル形式に適応します。私たちのAPIは、最適な統合のためにネイティブ構造を尊重します。"
+    },
+    "code_1": {
+      "title": "PDFファイルのウォーターマークを変更",
+      "content": "PDFドキュメント内のウォーターマークプロパティを変更する方法を示します。",
+      "comment_1": "PDFファイルを開く",
+      "comment_2": "ウォーターマークコンテンツを読み込む",
+      "comment_3": "ウォーターマークの更新を適用",
+      "comment_4": "編集された結果を保存"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileformatCap}}ファイルのウォーターマークを自信を持って変更",
+      "description": "{{ProdFullName}} APIを使用して、レイアウトとブランディングを保ちながら、{{FileformatCap}}ウォーターマークを正確に変更します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}を使用して{{FileformatCap}}ファイルのウォーターマークを更新",
+      "description": "{{ProdFullName}} APIを使用して、シームレスにウォーターマークを編集してファイルを強化できます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}から最新バージョンを取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}プラットフォーム",
+      "content": "**ウォーターマーク編集を簡素化：** {{ProgLang}}アプリケーション全体で{{FileformatCap}}ファイルのウォーターマーク管理を効率化するために{{ProdFullName}}を使用します。"
+    },
+    "formats": {
+      "title": "クロスフォーマットウォーターマーク編集",
+      "description": "{{ProdFullName}} APIを使用して、複数のドキュメントタイプのウォーターマークを簡単に変更できます。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileformatCap}}ファイルのカスタムウォーターマーク編集",
+      "description": "{{ProdFullName}}ツールを使用して、ブランディングのニーズに合わせて{{FileformatCap}}ファイルのウォーターマークコンテンツを調整します。"
+    },
+    "header": {
+      "title": "あなたの{{ProgLang}}プロジェクトで{{FileformatCap}}ウォーターマークをカスタマイズ",
+      "description": "{{ProdFullName}}を使用して、さまざまなドキュメントタイプのウォーターマークを編集および管理します。",
+      "subtitle": "{{ProdFullName}} APIスイート",
+      "action_title": "{{PackageStoreName}}からアクセス"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**柔軟なウォーターマークツール：** {{ProdFullName}}を使用して、{{ProgLang}}ワークフロー全体でさまざまなフォーマットのウォーターマークを適応させてパーソナライズします。"
+    },
+    "formats": {
+      "title": "他のフォーマットのウォーターマーク制御",
+      "description": "{{ProdFullName}}を使用して、すべてのサポートされるファイルタイプで一貫したウォーターマーク編集ツールを利用します。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProdShortName}}を使用した{{FileformatCap}}での正確なウォーターマーク編集",
+      "description": "{{ProdFullName}}を使用して、{{FileformatCap}}ドキュメント内のウォーターマークコンテンツを効率的に変更します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}ツールで{{FileformatCap}}ウォーターマークをスムーズに編集",
+      "description": "{{ProdFullName}}開発ツールキットを使用して、PDFやその他の形式でウォーターマークをカスタマイズします。",
+      "subtitle": "{{ProdFullName}}ツール",
+      "action_title": "{{PackageStoreName}}から無料でお試しください"
+    },
+    "about": {
+      "title": "{{ProdFullName}}ツール",
+      "content": "**PDFドキュメントのウォーターマークを更新：** {{ProdFullName}}フレームワークを活用して、プロフェッショナルなフォーマットを維持しながらウォーターマークを調整します。"
+    },
+    "formats": {
+      "title": "さまざまなフォーマットでのウォーターマーク調整",
+      "description": "{{ProdFullName}}の信頼性の高いAPIを使用して、ウォーターマーキングに広範なフォーマットサポートを楽しみます。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "迅速かつ正確な{{FileformatCap}}ウォーターマーク編集",
+      "description": "{{ProdFullName}}を使用して{{FileformatCap}}ファイルのウォーターマーク編集を加速します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}の力で{{FileformatCap}}の高度なウォーターマーク編集",
+      "description": "{{ProdFullName}}の統合が簡単なAPIを使用して、スライドを保護およびパーソナライズします。",
+      "subtitle": "{{ProdFullName}}ライブラリ",
+      "action_title": "{{PackageStoreName}}からダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}ライブラリ",
+      "content": "**迅速なウォーターマーク調整：** {{ProgLang}}互換のツールを使用して、{{FileformatCap}}ドキュメント内のウォーターマークをリアルタイムで変更します。"
+    },
+    "formats": {
+      "title": "マルチフォーマットウォーターマークサポート",
+      "description": "{{ProdFullName}}を使用して、他のドキュメントタイプで同様のウォーターマーキングワークフローを適用します。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileformatCap}}のためのカスタマイズされたウォーターマークソリューション",
+      "description": "{{ProdFullName}}を使用して、ビジネス要件に合わせて{{FileformatCap}}のウォーターマークを変更します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}でのカスタマイズ可能な{{FileformatCap}}ウォーターマーク",
+      "description": "{{ProdFullName}}を使用して、ビジネスファイル全体でウォーターマークの機能を微調整します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}からパッケージにアクセス"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**カスタマイズされたウォーターマーク制御：** ワークフローの要件に応じて、{{ProdFullName}}を使用してウォーターマークの配置、スタイル、可視性を適応させます。"
+    },
+    "formats": {
+      "title": "フォーマット間のカスタムウォーターマーキング",
+      "description": "{{ProdFullName}}を使用して、フォーマット全体でウォーターマークを編集し、ターゲットを絞った調整を行います。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileformatCap}}ドキュメントでのプロフェッショナルなウォーターマーク管理",
+      "description": "{{ProdFullName}}を使用して、{{FileformatCap}}ドキュメントにクリーンで一貫したブランディングを施します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}プロジェクトのための洗練された{{FileformatCap}}ウォーターマーキング",
+      "description": "{{ProdFullName}}のウォーターマークツールを使用して、ブランディングが施された洗練されたドキュメント体験を提供します。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}で手に入れよう"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**高品質なウォーターマーク統合：** {{FileformatCap}}用の{{ProdFullName}}ツールで、クリーンなウォーターマーク編集とブランディングを確保します。"
+    },
+    "formats": {
+      "title": "フォーマット全体のブランディングソリューション",
+      "description": "柔軟なウォーターマーク管理ツールを使用して、ファイルタイプ全体でスタイルの一貫性を維持します。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileformatCap}}ウォーターマークの効率的な修正",
+      "description": "{{ProgLang}}のための{{ProdShortName}}を使用して、{{FileformatCap}}ウォーターマークを編集してデータ保護を強化します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}プロジェクトのための最適化された{{FileformatCap}}ウォーターマーキング",
+      "description": "{{ProdShortName}}ウォーターマーク機能を使用してコンテンツの明確さとブランディングを向上させます。",
+      "subtitle": "{{ProdFullName}}スイート",
+      "action_title": "{{PackageStoreName}}からの無料アクセス"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**スプレッドシートのウォーターマークを向上：** {{ProdShortName}}ウォーターマークツールを使用して、スプレッドシート内のコンテンツの信頼性とブランドの可視性を向上させます。"
+    },
+    "formats": {
+      "title": "他のフォーマットのための均一なウォーターマーキング",
+      "description": "{{ProdFullName}}を使用して、すべてのサポートされているフォーマットにウォーターマーク機能を拡張します。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileformatCap}}ドキュメントにおける自信を持ったウォーターマーク編集",
+      "description": "{{ProdFullName}}を使用して、{{FileformatCap}}におけるウォーターマーク制御でコンテンツのセキュリティとプロフェッショナルな品質を確保します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}での安全で簡単な{{FileformatCap}}ウォーターマークの更新",
+      "description": "{{ProdFullName}}を利用して、あなたの{{ProgLang}}プロジェクトに安全で信頼性のあるウォーターマーク編集機能を提供します。",
+      "subtitle": "{{ProdFullName}}ライブラリ",
+      "action_title": "{{PackageStoreName}}から取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}スイート",
+      "content": "**スプレッドシート用のウォーターマークカスタマイズ：** {{FileformatCap}}ファイル全体でウォーターマークの可視性とスタイルを自信をもって管理します。"
+    },
+    "formats": {
+      "title": "タイプ間のウォーターマークツール",
+      "description": "{{ProdFullName}}コンポーネントを使用して、ドキュメントタイプ全体でのブランディングを保護し統一します。"
+    }
+  }
+}

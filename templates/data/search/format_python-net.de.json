@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Suche nach Text-Wasserzeichen in {{FileFormatUp}}",
+    "comment_2": "Erstelle eine {{TextWatermarker}} Instanz mit dem Pfad zu {{FileFormatUp}}",
+    "comment_3": "Verwende Suchkriterien, um Wasserzeichen zu finden",
+    "comment_4": "Verarbeite die gefundenen Wasserzeichen-Ergebnisse"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} Wasserzeichen mit {{ProgLang}} erkennen",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** ermöglicht es dir, Wasserzeichen in verschiedenen Geschäftsdokumenten zu erkennen. Integriere dieses Tool in dein {{ProgLang}}-Projekt, um die Funktionen zur Wasserzeichenerkennung zu aktivieren.",
+      "step_1": "Zu Beginn initialisiere die {{TextWatermarkerBold}}-Klasse und lade dein {{FileformatCap}}-Dokument mit einem Dateipfad, einem Dateistream oder einem Byte-Array. Dies bereitet die Datei für die Wasserzeichensuche vor.",
+      "step_2": "Um deine Suche einzugrenzen, nutze die {{TextSearchCriteriaBold}}-Klasse. Für Wasserzeichen in Bildern gib ein Beispielbild an. Für Text setze Details wie Schriftart, Größe, Farbe oder andere verwandte Attribute.",
+      "step_3": "Rufe die {{TextSearchBold}}-Methode aus der {{TextWatermarkerBold}}-Instanz auf, um die Suche zu starten. Sie gibt eine Liste gefundener Wasserzeichen-Elemente zurück, mit denen du arbeiten kannst.",
+      "step_4": "Mit der Liste der Wasserzeichen-Elemente kannst du sie nach Bedarf entfernen oder bearbeiten. Beispielsweise möchtest du möglicherweise ihre Größe oder den Text aktualisieren."
+    }
+  },
+  "more_features": {
+    "title": "Erweiterte Wasserzeichenerkennung in {{ProgLang}} mit {{ProdShortName}}",
+    "description": "Entdecke leistungsstarke Wasserzeichensuchoptionen in der {{ProdShortName}} API, die für den Einsatz in {{ProgLang}}-Projekten entwickelt wurde.",
+    "image_description": "{{ProgLang}} Wasserzeichen Suche",
+    "feature_1": {
+      "title": "Einfache und schnelle Wasserzeichenerkennung",
+      "content": "Verwende {{ProdShortName}}, um schnell Wasserzeichen in deinem {{ProgLang}}-Code zu finden. Die intelligente Suchmaschine hilft dir, Wasserzeichen präzise zu lokalisieren."
+    },
+    "feature_2": {
+      "title": "Finde spezifische Wasserzeichen mit Genauigkeit",
+      "content": "Schütze deine Dateien, indem du Wasserzeichen basierend auf Farbe, Größe oder Position findest. {{ProdShortName}} erleichtert die Konfiguration von Suchfiltern in {{ProgLang}}."
+    },
+    "feature_3": {
+      "title": "{{ProgLang}} Tools für vollständige Wasserzeichenkontrolle",
+      "content": "Füge {{ProdShortName}} deinen {{ProgLang}}-Apps hinzu, um Wasserzeichen zu suchen, zu inspizieren und deren Nutzung zu verfolgen. Ideal für Audits, Branding oder den Schutz von Inhalten."
+    },
+    "code_1": {
+      "title": "{{ProgLang}} Beispiel: Vollständiger Wasserzeichenerkennungsprozess",
+      "content": "Sieh dir an, wie du {{ProdShortName}} in {{ProgLang}} verwenden kannst, um Dokumente zu durchsuchen, mit mehreren Formaten umzugehen und komplexe Filter zu verwenden.",
+      "comment_1": "Richte deine {{ProgLang}}-App ein und lade das Dokument",
+      "comment_2": "Definiere, nach welchem Wasserzeichen du suchen möchtest",
+      "comment_3": "Führe die Suche aus und sammle die Wasserzeichendaten",
+      "comment_4": "Nutze die gefundenen Informationen für weitere Schritte wie Entfernung oder Überprüfung"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Versteckte Wasserzeichen in {{FileFormatUp}} Dateien erkennen",
+      "description": "Finde unsichtbare Wasserzeichen in Dokumenten mit {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} Dateien",
+      "description": "Verwende {{ProdFullName}}, um schnell versteckte Wasserzeichen zu erkennen und zu verwalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Lade das {{PackageStoreName}}-Paket herunter"
+    },
+    "about": {
+      "title": "Erfahre mehr über {{ProdFullName}}",
+      "content": "{{ProdFullName}} hilft dir, Wasserzeichen zu handhaben. Du kannst Wasserzeichen in PDFs, Word, Excel und mehr erstellen, finden, bearbeiten und löschen. Füge Wasserzeichen-Tools zu deinen {{ProgLang}}-Projekten mit {{ProdFullName}} hinzu."
+    },
+    "formats": {
+      "title": "Unterstützte Dateiformate für die Wasserzeichensuche",
+      "description": "Finde und arbeite schnell mit Wasserzeichen in vielen verschiedenen Dokumenttypen."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Finde versteckte Wasserzeichen in {{FileFormatUp}} Dokumenten",
+      "description": "Verwende {{ProdFullName}}, um versteckte Wasserzeichen in deinen Dateien zu erkennen."
+    },
+    "header": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} Dateien",
+      "description": "Verwende {{ProdFullName}}, um schnell Wasserzeichen zu erkennen und zu verwalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Hole dir das kostenlose {{PackageStoreName}}-Paket"
+    },
+    "about": {
+      "title": "Entdecke die Funktionen von {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet alle Werkzeuge zur Wasserzeichenbearbeitung in {{ProgLang}}. Es unterstützt das Hinzufügen, Entfernen und Erkennen von Wasserzeichen in Formaten wie PDF, Word, Excel und anderen. Integriere die Wasserzeichenerkennung in deine Apps mit {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Arbeite mit Wasserzeichen in vielen Formaten",
+      "description": "Finde und verwalte Wasserzeichen einfach in verschiedenen Dateiformaten."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} PDFs",
+      "description": "Erkenne Wasserzeichen in PDF-Dokumenten mit {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} PDFs schnell",
+      "description": "Verwende {{ProdFullName}}, um versteckte PDF-Wasserzeichen zu scannen und zu verwalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Hole dir das {{PackageStoreName}}-Paket kostenlos"
+    },
+    "about": {
+      "title": "Was ist {{ProdFullName}}?",
+      "content": "{{ProdFullName}} macht die Arbeit mit Wasserzeichen in {{ProgLang}} einfach. Du kannst damit Wasserzeichen in vielen Dateitypen wie PDF, Word-Dokumenten und Tabellenkalkulationen erstellen, erkennen oder löschen. Integriere es in deinen {{ProgLang}}-Workflow."
+    },
+    "formats": {
+      "title": "Finde Wasserzeichen in vielen Dateitypen",
+      "description": "Finde und bearbeite Wasserzeichen in einer Vielzahl von Dateiformaten einfach."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Erkenne Wasserzeichen in {{FileFormatUp}} Präsentationen",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in Präsentationsdateien einfach zu finden."
+    },
+    "header": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} Folien schnell",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in Präsentationen einfach zu suchen und zu verwalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Hole es kostenlos von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Alles über {{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet dir Werkzeuge zur Verwaltung von Wasserzeichen in {{ProgLang}}. Arbeite mit PDFs, Word, Excel und mehr. Suche, erstelle oder lösche Wasserzeichen in deinen {{ProgLang}}-Apps leicht mit {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Erkenne Wasserzeichen in allen unterstützten Formaten",
+      "description": "Finde und verwalte Wasserzeichen in vielen gängigen Dokumenttypen."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Finde versteckte Wasserzeichen in {{FileFormatUp}} Folien",
+      "description": "Verwende {{ProdFullName}}, um versteckte Wasserzeichen in Präsentationsdateien zu enthüllen."
+    },
+    "header": {
+      "title": "D enthülle Wasserzeichen in {{FileFormatUp}} Präsentationen schnell",
+      "description": "Erkenne und verwalte Wasserzeichen einfach mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Lade von {{PackageStoreName}} herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Übersicht",
+      "content": "{{ProdFullName}} gibt dir die vollständige Kontrolle über Wasserzeichen in {{ProgLang}}. Es funktioniert mit vielen Dateitypen—PDF, Excel, Word—und integriert sich nahtlos in {{ProgLang}}-Apps."
+    },
+    "formats": {
+      "title": "Finde Wasserzeichen in allen Dateiformaten",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in mehreren Formaten einfach zu erkennen."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Entdecke Wasserzeichen in {{FileFormatUp}} Dokumenten",
+      "description": "Erkenne Wasserzeichen in Dokumenten schnell mit {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileFormatUp}} Dateien erkennen",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen einfach zu finden und zu verwalten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Hole dir das {{PackageStoreName}}-Paket"
+    },
+    "about": {
+      "title": "Über {{ProdFullName}}",
+      "content": "{{ProdFullName}} macht Wasserzeichenaufgaben einfach in {{ProgLang}}. Es funktioniert mit PDFs, Word, Excel und mehr. Nutze es in deinen {{ProgLang}}-Anwendungen, um Wasserzeichen zu suchen, zu bearbeiten oder zu entfernen."
+    },
+    "formats": {
+      "title": "Unterstützte Formate zur Wasserzeichenerkennung",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in vielen Formaten zu finden und zu verwalten."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Finde versteckte Wasserzeichen in {{FileFormatUp}} Tabellen",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in Tabellenkalkulationsdateien schnell zu erkennen."
+    },
+    "header": {
+      "title": "Erkenne und verwalte Wasserzeichen in {{FileFormatUp}} Tabellen",
+      "description": "Suche einfach nach Wasserzeichen mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenloser Download von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Mehr über {{ProdFullName}}",
+      "content": "{{ProdShortName}} hilft {{ProgLang}}-Entwicklern, Wasserzeichen in {{ProgLang}} zu verwalten. Verwende es zum Bearbeiten, Entfernen oder Finden von Wasserzeichen in Excel, Word, PDF und anderen Formaten."
+    },
+    "formats": {
+      "title": "Wasserzeichensuche über Formate hinweg",
+      "description": "Finde und verwalte Wasserzeichen in vielen verschiedenen unterstützten Formaten."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Erkenne Wasserzeichen in {{FileFormatUp}} Excel-Dateien",
+      "description": "Finde versteckte Wasserzeichen schnell mit {{ProdFullName}} in Excel-Dokumenten."
+    },
+    "header": {
+      "title": "Finde Wasserzeichen in {{FileFormatUp}} Tabellenkalkulationen",
+      "description": "Durchsuche und bearbeite Wasserzeichen einfach mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Kostenlos von {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "Was kann {{ProdFullName}} tun?",
+      "content": "{{ProdFullName}} erleichtert das Verwalten von Wasserzeichen mit {{ProgLang}}. Füge es deinen {{ProgLang}}-Projekten hinzu, um Wasserzeichen in verschiedenen Formaten wie Word, Excel und PDF zu erkennen, zu aktualisieren oder zu entfernen."
+    },
+    "formats": {
+      "title": "Erkenne Wasserzeichen in unterstützten Dateitypen",
+      "description": "Verwende {{ProdFullName}}, um Wasserzeichen in verschiedenen Dokumenttypen einfach zu erkennen."
+    }
+  }
+}

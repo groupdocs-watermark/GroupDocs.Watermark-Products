@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Aktualisieren Sie den Wasserzeichen-Text in {{FileFormatUp}}",
+    "comment_2": "Erstellen Sie einen {{TextWatermarker}} mit einer {{FileFormatUp}}-Datei",
+    "comment_3": "Richten Sie {{TextTextSearchCriteria}} ein, um Wasserzeichen-Text zu finden",
+    "comment_4": "Ändern Sie den Wasserzeichen-Text",
+    "comment_5": "Speichern Sie das geänderte Dokument"
+  },
+  "steps": {
+    "title": "Wasserzeichen in {{FileformatCap}}-Dokumenten mit {{ProgLang}} ändern",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** unterstützt {{ProgLang}}-Entwickler beim Aktualisieren von Wasserzeichen in verschiedenen {{FileformatCap}}-Dateien. So können Sie es in Ihrem Projekt verwenden:",
+      "step_1": "Zunächst öffnen Sie Ihre {{FileformatCap}}-Datei, indem Sie sie an den {{TextWatermarkerBold}}-Konstruktor übergeben. Sie können einen Dateipfad, einen Byte-Stream oder einen Datei-Stream verwenden.",
+      "step_2": "Dann suchen Sie die Wasserzeichen, die Sie ändern möchten, mithilfe von {{TextSearchCriteriaBold}}, mit dem Sie nach Wasserzeichen-Text oder -Eigenschaften suchen können.",
+      "step_3": "Sobald Sie fündig geworden sind, können Sie Details wie Text, Schriftart, Größe, Position, Farbe und mehr ändern. So haben Sie die volle Kontrolle über das Erscheinungsbild des Wasserzeichens.",
+      "step_4": "Nachdem Sie die Änderungen vorgenommen haben, speichern Sie das Dokument. Sie können das Ergebnis in einen Stream oder einen Dateipfad schreiben."
+    }
+  },
+  "more_features": {
+    "title": "Entdecken Sie weitere Möglichkeiten zur Aktualisierung von Wasserzeichen",
+    "description": "Mit unserer Bibliothek können {{ProgLang}}-Apps Wasserzeichen in vielen Dateitypen hinzufügen, finden, bearbeiten oder löschen.",
+    "image_description": "Wasserzeichenbearbeitung",
+    "feature_1": {
+      "title": "Wasserzeichen in Ihren Dateien verwalten",
+      "content": "Verwenden Sie {{ProdFullName}}, um Wasserzeichen in Ihren Dokumenten hinzuzufügen und zu verwalten. Suchen, aktualisieren oder entfernen Sie Wasserzeichen nach Bedarf mithilfe einer einfachen API."
+    },
+    "feature_2": {
+      "title": "Wasserzeichen an Ihre Bedürfnisse anpassen",
+      "content": "Passen Sie Wasserzeichen-Einstellungen wie Schriftart, Größe, Ausrichtung und Farbe mit unserer flexiblen API an, um genau das Ergebnis zu erhalten, das Sie wünschen."
+    },
+    "feature_3": {
+      "title": "Nutzen Sie format-spezifische Funktionen",
+      "content": "Je nach Dateiformat können Sie native Funktionen wie Kopfzeilen, Fußzeilen, Anmerkungen oder Hintergründe als Wasserzeichenbereiche verwenden."
+    },
+    "code_1": {
+      "title": "Textwasserzeichen in Excel bearbeiten",
+      "content": "Dieser Code zeigt, wie man den Wasserzeichen-Text in Excel-Tabellenblättern ändert.",
+      "comment_1": "Öffnen Sie die XLSX-Datei",
+      "comment_2": "Lesen Sie die Tabellendaten",
+      "comment_3": "Ändern Sie den Wasserzeichen-Text",
+      "comment_4": "Speichern Sie das Ergebnis"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Wasserzeichen in {{FileformatCap}}-Dateien bearbeiten",
+      "description": "Mit {{ProdFullName}} können Sie die Wasserzeichen-Einstellungen anpassen, um Ihre Dokumente zu schützen und zu personalisieren."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileformatCap}}-Tabellenkalkulationen mit {{ProgLang}} aktualisieren",
+      "description": "Sichern Sie Ihre Excel-Tabellen mit unseren flexiblen Werkzeugen zur Wasserzeichenbearbeitung für {{ProgLang}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Jetzt kostenlos auf {{PackageStoreName}} erhalten"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Bibliothek",
+      "content": "**Wasserzeichen in {{FileformatCap}} schnell bearbeiten:** {{ProdFullName}} bietet {{ProgLang}}-Entwicklern alle notwendigen Werkzeuge zur Verwaltung von Wasserzeichen mit minimalem Aufwand, wodurch Sie Ihren Dokumenten-Workflow und die Sicherheit verbessern."
+    },
+    "formats": {
+      "title": "Wasserzeichen in anderen Formaten aktualisieren",
+      "description": "Passen Sie die Wasserzeichen-Einstellungen einfach über verschiedene Dateiformate hinweg mit {{ProdFullName}} an."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Wasserzeichen in {{FileformatCap}}-Dateien bearbeiten",
+      "description": "Optimieren Sie die Wasserzeichen-Einstellungen und verbessern Sie den Dokumentenschutz mit {{ProdFullName}} für {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Wasserzeichen in {{FileformatCap}}-Dateien einfach aktualisieren mit {{ProgLang}}",
+      "description": "Schützen Sie Ihre Marke und Dokumente mit {{ProdFullName}}. Ändern Sie Wasserzeichen in Word-Dateien schnell.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Jetzt kostenlos auf {{PackageStoreName}} herunterladen"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Sichern Sie Ihre {{FileformatCap}}-Dokumente:** Verwenden Sie {{ProdFullName}}, um Wasserzeichen einfach zu aktualisieren und zu verwalten, die Ihren Dokumentenanforderungen und Ihrer Markenrichtlinie entsprechen."
+    },
+    "formats": {
+      "title": "Wasserzeichen in anderen Dateiformaten",
+      "description": "{{ProdFullName}} hilft Ihnen, mehrere Dateitypen mit flexiblen Werkzeugen für Wasserzeichen zu schützen."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Wasserzeichen in {{FileformatCap}}-Dateien bearbeiten",
+      "description": "Verwenden Sie {{ProdFullName}}, um schnell den Wasserzeicheninhalt in {{FileformatCap}}-Präsentationen zu ändern und Ihre Dokumente zu sichern."
+    },
+    "header": {
+      "title": "Präzise Wasserzeichenbearbeitung in {{FileformatCap}} mit {{ProgLang}}",
+      "description": "Erhalten Sie die volle Kontrolle über das Layout und die Sichtbarkeit von Wasserzeichen in Ihren Präsentationen mit {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Bibliothek",
+      "action_title": "Kostenlos herunterladen von {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Kontrollieren Sie das Wasserzeichen-Layout in {{FileformatCap}}-Dateien:** Mit {{ProdFullName}} können Sie Wasserzeichen genau dort platzieren, wo Sie sie benötigen, und Ihre Präsentationen mühelos sichern."
+    },
+    "formats": {
+      "title": "Wasserzeichen in anderen Dateitypen bearbeiten",
+      "description": "Verwenden Sie {{ProdFullName}}, um mit Wasserzeichen in verschiedenen Dokumentformaten zu arbeiten."
+    }
+  }
+}

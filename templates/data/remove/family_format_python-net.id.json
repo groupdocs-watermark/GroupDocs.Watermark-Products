@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Hapus watermark teks dari file {{FileformatCap}}",
+    "comment_2": "Buka file {{FileformatCap}} dengan instance {{TextWatermarker}}",
+    "comment_3": "Temukan dan hapus watermark yang dipilih",
+    "comment_4": "Simpan file yang diperbarui di lokasi yang Anda pilih"
+  },
+  "steps": {
+    "title": "Cara Menghapus Watermark dari File {{FileformatCap}} di {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** memungkinkan Anda menghapus watermark dari dokumen bisnis Anda. Tambahkan perpustakaan kami ke proyek {{ProgLang}} Anda dan ikuti langkah-langkah berikut:",
+      "step_1": "Mulailah dengan membuat objek {{TextWatermarkerBold}} menggunakan file {{FileformatCap}} Anda. Anda bisa menggunakan jalur file atau stream sebagai input.",
+      "step_2": "Gunakan {{TextSearchCriteriaBold}} untuk memfilter watermark yang ingin Anda hapus. Anda bisa mencari berdasarkan teks, gambar, atau format. Semakin banyak detail yang Anda berikan, semakin akurat pencarian Anda.",
+      "step_3": "Telusuri watermark yang ditemukan dan hapus yang tidak diperlukan dari dokumen.",
+      "step_4": "Setelah selesai, simpan dokumen yang sudah bersih sebagai file atau stream."
+    }
+  },
+  "more_features": {
+    "title": "Penghapusan Watermark yang Efisien dengan {{ProgLang}}",
+    "description": "API {{ProgLang}} kami membantu Anda menghapus watermark dari PDF dan file kantor dengan cepat, menjaga dokumen Anda tetap bersih dan asli.",
+    "image_description": "Hapus Watermark",
+    "feature_1": {
+      "title": "Penghapusan Watermark yang Akurat",
+      "content": "API {{ProgLang}} memungkinkan Anda menghapus watermark tanpa merusak tata letak atau kualitas dokumen Anda. Ini dirancang untuk pengembang yang membutuhkan hasil yang terpercaya."
+    },
+    "feature_2": {
+      "title": "Hapus Watermark secara Massal",
+      "content": "Secara mudah hapus watermark dari banyak file sekaligus. Ini sempurna untuk perusahaan yang perlu memproses banyak dokumen dengan cepat dan aman."
+    },
+    "feature_3": {
+      "title": "Edit Lanjutan untuk Watermark",
+      "content": "Gunakan opsi lanjutan untuk menyempurnakan atau mengedit watermark sebelum menghapusnya. Ini membantu menjaga dokumen Anda tetap terlihat profesional dan aman."
+    },
+    "code_1": {
+      "title": "Hapus watermark teks dari Excel",
+      "content": "Contoh ini menunjukkan cara menghapus watermark teks dengan format khusus dalam file Excel.",
+      "comment_1": "Buka file Excel",
+      "comment_2": "Cari watermark",
+      "comment_3": "Hapus watermark",
+      "comment_4": "Simpan XLSX yang telah dibersihkan"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Hapus Watermark dari {{FileformatCap}} dengan {{ProgLang}}",
+      "description": "Gunakan API {{ProgLang}} kami untuk dengan cepat menghapus watermark dari file {{FileformatCap}}, menjaga data Anda tetap jelas dan terorganisir."
+    },
+    "header": {
+      "title": "{{ProgLang}} untuk Penghapusan Watermark {{FileformatCap}}",
+      "description": "Secara mudah hapus atau edit watermark dalam file {{FileformatCap}} dengan alat kami, dirancang untuk akurasi dan kesederhanaan.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Unduh paket gratis {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Perpustakaan {{ProdFullName}}",
+      "content": "Perpustakaan {{ProdFullName}} memberikan Anda semua yang Anda butuhkan untuk mengelola watermark dalam file {{FileformatCap}}. Hapus atau edit tanda untuk menjaga spreadsheet Anda bersih dan profesional."
+    },
+    "formats": {
+      "title": "Secara Mudah Hapus Watermark {{FileformatCap}} di {{ProgLang}}",
+      "description": "Lihat bagaimana menggunakan API {{ProdFullName}} untuk menghapus watermark dari lembar {{FileformatCap}} untuk laporan yang jelas dan akurat."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Hapus Watermark dari {{FileformatCap}} dengan {{ProgLang}}",
+      "description": "Dengan cepat hapus atau edit watermark dalam file {{FileformatCap}} menggunakan API {{ProgLang}} kami untuk dokumen yang bersih dan profesional."
+    },
+    "header": {
+      "title": "Penghapus Watermark {{FileformatCap}} untuk {{ProgLang}}",
+      "description": "Gunakan API {{ProdFullName}} untuk menghapus watermark dari file {{FileformatCap}}, menjaga dokumen hukum dan bisnis Anda tetap rapi.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Dapatkan gratis di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Perpustakaan {{ProdFullName}}",
+      "content": "Dengan {{ProdFullName}}, Anda dapat dengan mudah menemukan dan menghapus watermark dalam file Word. Deteksi, ubah, atau hapus watermark teks dan gambar sambil menjaga tata letak dokumen Anda tetap utuh."
+    },
+    "formats": {
+      "title": "Manajemen Watermark di {{FileformatCap}} dengan {{ProgLang}}",
+      "description": "Temukan cara mengelola dan menghapus watermark dalam file {{FileformatCap}} menggunakan API {{ProgLang}} kami untuk kualitas dokumen yang lebih baik."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Hapus Watermark dari Slide {{FileformatCap}} dengan {{ProgLang}}",
+      "description": "Secara mudah hapus watermark dari slide {{FileformatCap}} menggunakan API {{ProgLang}} kami untuk presentasi yang bersih dan profesional."
+    },
+    "header": {
+      "title": "Pembersih Watermark {{ProgLang}} {{FileformatCap}}",
+      "description": "Gunakan API {{ProdFullName}} untuk menghapus watermark dari presentasi {{FileformatCap}}, menjaga slide Anda tetap rapi dan mudah dibaca.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Unduh dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Perpustakaan {{ProdFullName}}",
+      "content": "Perpustakaan {{ProdFullName}} membantu Anda menghapus watermark dari presentasi {{FileformatCap}}. Hapus tanda yang tidak diinginkan untuk menjaga slide Anda tetap jelas dan profesional—bagus untuk bisnis, pengajaran, atau pelatihan."
+    },
+    "formats": {
+      "title": "Bersihkan Presentasi {{FileformatCap}} di {{ProgLang}}",
+      "description": "Pelajari cara menggunakan API {{ProdFullName}} untuk menghapus watermark dari slide {{FileformatCap}} untuk tampilan yang rapi dan tanpa gangguan."
+    }
+  }
+}

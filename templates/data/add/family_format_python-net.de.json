@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Fügen Sie ein Text-Wasserzeichen zu einer {{FileFormatUp}}-Datei hinzu",
+    "comment_2": "Wählen Sie die Datei aus, die Sie mit einem Wasserzeichen versehen möchten",
+    "comment_3": "Erstellen Sie ein Text-Wasserzeichen-Objekt",
+    "comment_4": "Speichern Sie die aktualisierte {{FileFormatUp}}-Datei"
+  },
+  "steps": {
+    "title": "Wasserzeichen hinzufügen: {{ProgLang}} Wasserzeichen für {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ist eine Bibliothek, die das Hinzufügen von Wasserzeichen zu vielen Geschäftsdokumenttypen erleichtert. Befolgen Sie diese Schritte, um schnell Wasserzeichen in Ihren Dokumenten in {{ProgLang}} hinzuzufügen:",
+      "step_1": "**Erste Schritte mit Wasserzeichen:** Beginnen Sie, indem Sie eine Instanz der {{TextWatermarkerBold}}-Klasse erstellen. Übergeben Sie Ihre {{FileformatCap}}-Datei (als Pfad oder Stream) an den Konstruktor, um sie für die Wasserzeichenbearbeitung zu öffnen.",
+      "step_2": "**Erstellen Sie Ihr Wasserzeichen:** Erstellen Sie ein {{TextWatermarkBold}}-Objekt mit Ihrem gewünschten Text und den entsprechenden Einstellungen. Sie können Wasserzeichen auf beliebigen Seiten oder sogar auf Dokumentelementen wie Kopfzeilen oder Anhängen hinzufügen.",
+      "step_3": "**Passen Sie das Wasserzeichen an:** Passen Sie die Größe, Position, Schriftart, Farbe und Ausrichtung des Wasserzeichens an, um Ihren Anforderungen gerecht zu werden. Dies hilft, dass Ihr Wasserzeichen perfekt in Ihr Dokument passt.",
+      "step_4": "**Anwenden und Speichern:** Verwenden Sie die Methode {{TextWatermarkerBold}}, um Ihr(e) Wasserzeichen zum Dokument hinzuzufügen. Speichern Sie das Ergebnis idealerweise in einer neuen Datei zur Sicherheit."
+    }
+  },
+  "more_features": {
+    "title": "Entdecken Sie Weitere Wasserzeichen-Funktionen",
+    "description": "Nutzen Sie unsere {{ProgLang}}-API, um Wasserzeichen in Dokumenten, Folien, Diagrammen und mehr hinzuzufügen, anzuzeigen, zu konvertieren und zu verwalten. {{ProdFullName}} hilft Ihnen, Ihre Dateien zu schützen und Copyright-Informationen einfach hinzuzufügen.",
+    "image_description": "Wasserzeichen hinzufügen",
+    "feature_1": {
+      "title": "Wasserzeichen einfach hinzufügen",
+      "content": "{{ProdShortName}} ermöglicht es {{ProgLang}}-Entwicklern, Text-, Bild- oder dynamische Wasserzeichen schnell zu Geschäftsdokumenten hinzuzufügen. Halten Sie Ihre Dateien sicher und gebrandet mit minimalem Aufwand."
+    },
+    "feature_2": {
+      "title": "Vollständig anpassbare Wasserzeichen",
+      "content": "Ändern Sie die Größe, Drehung, Transparenz, Farbe und Schriftart des Wasserzeichens mit {{ProdShortName}}. Gestalten Sie Ihr Wasserzeichen so, dass es perfekt zu Ihrem Dokument passt, während wichtige Inhalte sichtbar bleiben."
+    },
+    "feature_3": {
+      "title": "Dokumentfunktionen für Wasserzeichen nutzen",
+      "content": "Nutzen Sie integrierte Dokumentfunktionen wie PDF-Anmerkungen, Word-Hintergründe oder Excel-Kopfzeilen, um Wasserzeichen hinzuzufügen. {{ProdShortName}} arbeitet mit Dokumentstrukturen für effektives, nicht störendes Wasserzeichnen."
+    },
+    "code_1": {
+      "title": "Fügen Sie ein Bild-Wasserzeichen zu DOCX hinzu",
+      "content": "Dieses Beispiel zeigt, wie man Bildeffekte auf Formwasserzeichen anwendet.",
+      "comment_1": "Öffnen Sie ein Word-Dokument",
+      "comment_2": "Stellen Sie die Wasserzeichenoptionen ein",
+      "comment_3": "Erstellen Sie das Wasserzeichen",
+      "comment_4": "Speichern Sie das Dokument mit dem Wasserzeichen"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu Excel-Dateien hinzu",
+      "description": "Fügen Sie mit {{ProgLang}} automatisch Bild-Wasserzeichen zu Excel-Dateien hinzu. Verarbeiten Sie viele Dateien gleichzeitig für einen konsistenten Schutz."
+    },
+    "header": {
+      "title": "Wasserzeichen zu Excel mit {{ProgLang}} hinzufügen",
+      "description": "Fügen Sie einfach Text- oder Bild-Wasserzeichen zu Excel-Dateien mit {{ProgLang}} hinzu. Unsere Anleitungen zeigen Ihnen, wie Sie Ihre Tabellen professionell und sicher halten, ohne viel manuellen Aufwand.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Laden Sie {{PackageStoreName}} kostenlos herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}}-Bibliothek",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, Wasserzeichen zu Excel-Tabellen in {{ProgLang}} hinzuzufügen. Sie können verschiedene Wasserzeichenarten verwenden und Opazität, Drehung und Ausrichtung anpassen. Die Bibliothek hilft Ihnen auch, vorhandene Wasserzeichen zu finden und zu verwalten, um Ihre Dateien vor Manipulationen zu schützen."
+    },
+    "formats": {
+      "title": "Fügen Sie Text- und Bildwasserzeichen zu Excel mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProdShortName}}, um benutzerdefinierte Wasserzeichen schnell zu Excel-Dateien hinzuzufügen. Verbessern Sie die Dokumentensicherheit und Branding mit flexiblen Wasserzeichen-Tools."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu Word-Dokumenten hinzu",
+      "description": "Fügen Sie einfach Wasserzeichen zu Word-Dateien hinzu, um Ihre Marke und Inhalte zu schützen."
+    },
+    "header": {
+      "title": "Wasserzeichen in Word und OpenOffice mit {{ProgLang}} erstellen",
+      "description": "Fügen Sie Wasserzeichen zu Ihren Word-Dokumenten mit unserer {{ProgLang}}-Bibliothek hinzu. Passen Sie sie an Ihre Marken- oder Sicherheitsbedürfnisse an.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Laden Sie {{PackageStoreName}} kostenlos herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} macht es einfach, Text- und Bild-Wasserzeichen zu Microsoft Word-Dokumenten in {{ProgLang}} hinzuzufügen. Sie können Wasserzeichen genau dort platzieren, wo Sie möchten, und es funktioniert mit DOC, DOCX und RTF-Dateien. Wasserzeichen fügen sich nahtlos in Ihren Inhalt ein, wodurch Ihre Dokumente lesbar und sicher bleiben."
+    },
+    "formats": {
+      "title": "Wasserzeichen für Word- und OpenOffice-Dateien mit {{ProgLang}}",
+      "description": "Fügen Sie professionelle Wasserzeichen zu Ihren Word- und OpenOffice-Dokumenten mit unserer {{ProgLang}}-API hinzu. Schützen Sie Ihre Dateien und halten Sie sie ansprechend."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Wasserzeichen für Bilder mit {{ProgLang}}",
+      "description": "Erfahren Sie, wie Sie Wasserzeichen zu Bildern in {{ProgLang}} hinzufügen. Schützen Sie Ihre Bilder, ohne die Qualität zu verlieren."
+    },
+    "header": {
+      "title": "Schnelles Bild-Wasserzeichnen mit {{ProgLang}}",
+      "description": "Unser {{ProgLang}}-Tool ermöglicht es Ihnen, schnell Wasserzeichen zu Bildern hinzuzufügen. Unterstützt viele Formate, von Fotos bis digitale Kunst.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Laden Sie {{PackageStoreName}} kostenlos herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} hilft Ihnen, Wasserzeichen zu Bildern in {{ProgLang}} hinzuzufügen. Es unterstützt JPEG, PNG, BMP, TIFF und mehr. Sie können die Opazität, Größe und Position des Wasserzeichens anpassen, um Ihre Bedürfnisse zu erfüllen. Nutzen Sie es, um Ihre Bilder zu schützen oder Branding hinzuzufügen, während die Originalqualität erhalten bleibt."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu Bildern mit {{ProgLang}} hinzu",
+      "description": "Schützen Sie Ihre Bilder mit unserem {{ProgLang}}-Toolkit. Fügen Sie schnell und einfach Wasserzeichen zu vielen Bildformaten hinzu."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Wasserzeichen einfach zu Ihren Fotos hinzufügen",
+      "description": "Fügen Sie Ihren Fotos in {{ProgLang}} Wasserzeichen hinzu, um Ihre Arbeit und Urheberrechte zu schützen."
+    },
+    "header": {
+      "title": "Schnelles Foto-Wasserzeichnen mit {{ProgLang}}",
+      "description": "Verwenden Sie unsere {{ProgLang}}-Bibliothek, um schnell Wasserzeichen zu Ihren Fotos hinzuzufügen. Schützen Sie Ihre Urheberrechte und Marke, ohne die Bildqualität zu verlieren.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Laden Sie {{PackageStoreName}} kostenlos herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist ideal für Fotografen, die ihre Arbeiten schützen möchten. Fügen Sie Text- oder Bild-Wasserzeichen zu Fotos in Formaten wie JPEG, PNG und RAW hinzu. Passen Sie Transparenz, Größe und Position an, damit Ihr Wasserzeichen perfekt passt und Ihr Foto weiterhin gut aussieht."
+    },
+    "formats": {
+      "title": "Schützen Sie Ihre Fotos mit Wasserzeichen in {{ProgLang}}",
+      "description": "Fügen Sie benutzerdefinierte Wasserzeichen zu Ihren Fotos mit unserer {{ProgLang}}-API hinzu. Halten Sie Ihre Bilder sicher und professionell."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu Präsentationen hinzu",
+      "description": "Fügen Sie einfach Wasserzeichen zu Ihren PowerPoint-Folien für zusätzliche Sicherheit hinzu."
+    },
+    "header": {
+      "title": "Erweitertes Wasserzeichnen für Präsentationen in {{ProgLang}}",
+      "description": "Fügen Sie Text- und Bild-Wasserzeichen zu PowerPoint-Folien mit unserer {{ProgLang}}-API hinzu. Ideal, um Ihre Präsentationen sicher und professionell zu halten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Laden Sie {{PackageStoreName}} kostenlos herunter"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, erweiterte Wasserzeichen zu PowerPoint-Präsentationen in {{ProgLang}} hinzuzufügen. Schützen Sie vertrauliche Informationen oder fügen Sie das Logo Ihres Unternehmens zu Folien hinzu. Sie können Wasserzeichen auf einzelnen Folien oder der gesamten Präsentation hinzufügen und anpassen, wie sie aussehen und wo sie erscheinen."
+    },
+    "formats": {
+      "title": "Wasserzeichen für Präsentationen mit {{ProgLang}}",
+      "description": "Verwenden Sie unser {{ProgLang}}-Toolkit, um schnell Wasserzeichen zu PowerPoint-Dateien hinzuzufügen. Halten Sie Ihre Folien sicher und ansprechend."
+    }
+  }
+}

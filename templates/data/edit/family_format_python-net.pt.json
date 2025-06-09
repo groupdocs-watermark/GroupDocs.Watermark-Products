@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "Atualizar texto da marca d'água em {{FileFormatUp}}",
+    "comment_2": "Criar um {{TextWatermarker}} usando um arquivo {{FileFormatUp}}",
+    "comment_3": "Configurar {{TextTextSearchCriteria}} para localizar texto de marca d'água",
+    "comment_4": "Modificar texto da marca d'água",
+    "comment_5": "Salvar o documento modificado"
+  },
+  "steps": {
+    "title": "Modificar marcas d'água em documentos {{FileformatCap}} com {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** ajuda desenvolvedores {{ProgLang}} a atualizar marcas d'água em diversos arquivos {{FileformatCap}}. Veja como usá-lo em seu projeto:",
+      "step_1": "Primeiro, abra seu arquivo {{FileformatCap}} passando-o para o construtor {{TextWatermarkerBold}}. Você pode usar um caminho de arquivo, fluxo de bytes ou fluxo de arquivo.",
+      "step_2": "Em seguida, encontre as marcas d'água que deseja alterar usando {{TextSearchCriteriaBold}}, que permite pesquisar texto ou propriedades da marca d'água.",
+      "step_3": "Uma vez encontradas, você pode alterar detalhes como texto, fonte, tamanho, posição, cor e mais. Isso lhe dá controle total sobre a aparência da marca d'água.",
+      "step_4": "Após realizar as alterações, salve o documento. Você pode gravar o resultado em um fluxo ou em um caminho de arquivo."
+    }
+  },
+  "more_features": {
+    "title": "Descubra mais maneiras de atualizar marcas d'água",
+    "description": "Com nossa biblioteca, aplicativos {{ProgLang}} podem adicionar, encontrar, editar ou excluir marcas d'água em muitos tipos de arquivos.",
+    "image_description": "Edição de Marcas d'Água",
+    "feature_1": {
+      "title": "Marque Seus Arquivos com Facilidade",
+      "content": "Use {{ProdFullName}} para adicionar e gerenciar marcas d'água em seus documentos. Pesquise, atualize ou remova marcas d'água conforme necessário usando uma API simples."
+    },
+    "feature_2": {
+      "title": "Personalize Marcas d'Água para Atender Suas Necessidades",
+      "content": "Ajuste as configurações da marca d'água, como fonte, tamanho, orientação e cor usando nossa API flexível para obter exatamente o resultado que deseja."
+    },
+    "feature_3": {
+      "title": "Use Recursos Específicos do Formato",
+      "content": "Dependendo do formato do arquivo, você pode usar recursos nativos como cabeçalhos, rodapés, anotações ou fundos como áreas de marca d'água."
+    },
+    "code_1": {
+      "title": "Editar Texto de Marca d'Água no Excel",
+      "content": "Este código mostra como alterar o texto da marca d'água em planilhas do Excel.",
+      "comment_1": "Abrir arquivo XLSX",
+      "comment_2": "Ler dados da planilha",
+      "comment_3": "Alterar texto da marca d'água",
+      "comment_4": "Salvar o resultado"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Editar Marcas d'Água em arquivos {{FileformatCap}}",
+      "description": "Com {{ProdFullName}}, você pode ajustar facilmente as configurações da marca d'água para proteger e personalizar seus documentos."
+    },
+    "header": {
+      "title": "Atualizar Marcas d'Água em Planilhas {{FileformatCap}} Usando {{ProgLang}}",
+      "description": "Proteja suas planilhas Excel com nossas ferramentas flexíveis de edição de marcas d'água para {{ProgLang}}.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Baixe grátis no {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Biblioteca",
+      "content": "**Editar Rápido Marcas d'Água em {{FileformatCap}}:** {{ProdFullName}} fornece a desenvolvedores {{ProgLang}} todas as ferramentas necessárias para gerenciar marcas d'água com o mínimo de esforço, melhorando o fluxo de trabalho e a segurança do seu documento."
+    },
+    "formats": {
+      "title": "Atualizar Marcas d'Água em Outros Formatos",
+      "description": "Personalize facilmente as configurações da marca d'água em diferentes formatos de arquivo usando {{ProdFullName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Editar Marcas d'Água em arquivos {{FileformatCap}}",
+      "description": "Ajuste as configurações da marca d'água e melhore a proteção do documento usando {{ProdFullName}} para {{FileformatCap}}."
+    },
+    "header": {
+      "title": "Atualize Facilmente Marcas d'Água em {{FileformatCap}} com {{ProgLang}}",
+      "description": "Proteja sua marca e documentos com {{ProdFullName}}. Altere rapidamente marcas d'água em arquivos do Word.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Baixe gratuitamente no {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Proteja Seus Documentos {{FileformatCap}}:** Use {{ProdFullName}} para atualizar e gerenciar facilmente marcas d'água que atendam às necessidades do seu documento e à sua marca."
+    },
+    "formats": {
+      "title": "Marca d'Água em Outros Formatos de Arquivo",
+      "description": "{{ProdFullName}} ajuda a proteger vários tipos de arquivos com ferramentas flexíveis de marca d'água."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Editar Marcas d'Água em arquivos {{FileformatCap}}",
+      "description": "Use {{ProdFullName}} para alterar rapidamente o conteúdo da marca d'água em apresentações {{FileformatCap}} e manter seus documentos seguros."
+    },
+    "header": {
+      "title": "Edição Precisa de Marcas d'Água em {{FileformatCap}} em {{ProgLang}}",
+      "description": "Tenha controle total sobre o layout e a visibilidade das marcas d'água em suas apresentações usando {{ProdFullName}}.",
+      "subtitle": "Biblioteca {{ProdFullName}}",
+      "action_title": "Download gratuito do {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Controle o Layout da Marca d'Água em Arquivos {{FileformatCap}}:** Com {{ProdFullName}}, você pode posicionar marcas d'água exatamente onde necessário e proteger suas apresentações facilmente."
+    },
+    "formats": {
+      "title": "Editar Marcas d'Água em Outros Tipos de Arquivo",
+      "description": "Use {{ProdFullName}} para trabalhar com marcas d'água em diferentes formatos de documentos."
+    }
+  }
+}

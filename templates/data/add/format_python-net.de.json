@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Fügen Sie ein Bildwasserzeichen zu einer {{FileFormatUp}}-Datei hinzu",
+    "comment_2": "Übergeben Sie den Dateipfad an den {{TextWatermarker}}-Konstruktor",
+    "comment_3": "Erstellen Sie ein Bildwasserzeichen mit Ihrer Bilddatei",
+    "comment_4": "Speichern Sie die {{FileFormatUp}}-Datei mit dem Wasserzeichen"
+  },
+  "steps": {
+    "title": "Wasserzeichen schnell zu {{FileformatCap}}-Dateien hinzufügen",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Eine leistungsstarke {{ProgLang}}-Bibliothek, die es Ihnen ermöglicht, Wasserzeichen zu Ihren Dokumenten hinzuzufügen.",
+      "step_1": "**Hauptklasse: Watermarker.** Beginnen Sie mit der Erstellung eines {{TextWatermarkerBold}}-Objekts. Geben Sie Ihre {{FileformatCap}}-Datei entweder als Dateipfad oder Stream an, um zu beginnen.",
+      "step_2": "**Erstellen Sie Ihr Wasserzeichen.** Erstellen Sie als Nächstes ein Wasserzeichenobjekt des gewünschten Typs. Sie können es auf jeder Seite oder sogar in Dokumentelementen wie Bildern oder Kopfzeilen platzieren.",
+      "step_3": "**Passen Sie das Erscheinungsbild an.** Richten Sie die Größe, Position, Schriftart und Farbe des Wasserzeichens nach Ihren Bedürfnissen ein.",
+      "step_4": "**Hinzufügen und Speichern.** Verwenden Sie die {{TextWatermarkerBold}}-Methode, um Ihr Wasserzeichen einzufügen. Fügen Sie so viele hinzu, wie Sie möchten, und speichern Sie die Datei an einem Ort Ihrer Wahl."
+    }
+  },
+  "more_features": {
+    "title": "Entdecken Sie weitere Wasserzeichen-Tools",
+    "description": "{{ProdFullName}} bietet Ihnen erweiterte Optionen zum Hinzufügen und Anpassen von Wasserzeichen in vielen Dateitypen. Schützen Sie Ihre Dokumente und Bilder mit flexiblen, benutzerfreundlichen Funktionen.",
+    "image_description": "All-in-One Wasserzeichen",
+    "feature_1": {
+      "title": "Vollseitige Kachelung",
+      "content": "Decken Sie Ihr gesamtes Dokument mit gekachelten Wasserzeichen ab. Dadurch wird es erschwert, Wasserzeichen zu entfernen und Ihre Dateien bleiben geschützt, ohne das Layout zu ruinieren."
+    },
+    "feature_2": {
+      "title": "Benutzerdefinierte Farben",
+      "content": "Wählen Sie jede Farbe für Ihr Wasserzeichen, die zu Ihrer Marke oder Ihrem Dokumentenstil passt. Lassen Sie Ihr Wasserzeichen auffallen oder sich nach Bedarf einfügen."
+    },
+    "feature_3": {
+      "title": "Zusätzliche Sicherheitsoptionen",
+      "content": "Erhöhen Sie die Sicherheit Ihrer Dokumente mit schichtbaren Wasserzeichen. Kombinieren Sie sichtbare und unsichtbare Markierungen, um Kopieren zu verhindern, und stellen Sie sicher, dass nur die richtigen Personen Zugriff auf Ihre Dateien haben."
+    },
+    "code_1": {
+      "title": "Fügen Sie ein Wasserzeichen in PowerPoint hinzu",
+      "content": "Dieses Beispiel zeigt, wie man ein Wasserzeichen im Hintergrund von PPTX-Folien platziert.",
+      "comment_1": "Öffnen Sie eine PPTX-Datei",
+      "comment_2": "Legen Sie die Details des Wasserzeichens fest",
+      "comment_3": "Wenden Sie das Wasserzeichen auf die Folienhintergründe an",
+      "comment_4": "Speichern Sie die aktualisierte Präsentation"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Wasserzeichen für {{FileFormatUp}}-Dateien mit {{ProgLang}}",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre Word-Dokumente sicher und organisiert zu halten."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Verwenden Sie {{ProgLang}}, um sichere Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen – ideal für rechtliche, geschäftliche und vertrauliche Word-Dokumente.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzuzufügen. Fügen Sie Text- oder Bildwasserzeichen hinzu, passen Sie deren Opazität, Farbe und Position an und fügen Sie Details wie Daten, Logos oder vertrauliche Stempel hinzu. Dieses Tool eignet sich hervorragend für rechtliche, geschäftliche und sensible Dokumente und funktioniert reibungslos in {{ProgLang}}-Umgebungen. {{ProdShortName}} ist eine zuverlässige Möglichkeit, Ihre Word-Dateien sicher und authentisch zu halten."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Wasserzeichen für Word-Dateien",
+      "description": "Verwenden Sie {{ProgLang}}, um benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen, damit Sie Ihre Word-Dokumente schützen und überprüfen können."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Dateien",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre Word-Dokumente zu sichern."
+    },
+    "header": {
+      "title": "Sichern Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Wenden Sie fortschrittliche Wasserzeichen auf {{FileFormatUp}}-Dateien in {{ProgLang}} an – ideal zum Schutz Ihrer Word-Dokumente in jeder Branche.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bringt leistungsstarke Wasserzeichen für {{FileFormatUp}}-Dateien. Fügen Sie problemlos Wasserzeichen hinzu, die skaliert, bewegt und in Ihr Dokument integriert werden können. Verwenden Sie es für rechtliche, geschäftliche oder vertrauliche Dateien und wählen Sie zwischen Text- oder Bildwasserzeichen mit flexibler Platzierung. {{ProdShortName}} unterstützt die neuesten {{ProgLang}}-Funktionen für erstklassigen Dokumentenschutz."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Erfahren Sie, wie Sie sichere, benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzufügen, um die Dokumentensicherheit und den Urheberrechtsschutz zu verbessern."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Schützen Sie {{FileFormatUp}}-Bilder mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu, um Ihre Bilder sicher zu halten."
+    },
+    "header": {
+      "title": "Fortgeschrittenes {{ProgLang}} Wasserzeichen für {{FileFormatUp}}",
+      "description": "Verwenden Sie {{ProgLang}}, um flexible, sichere Wasserzeichen zu {{FileFormatUp}}-Bildern hinzuzufügen - perfekt für Künstler und Fotografen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} gibt Ihnen die Werkzeuge, um {{FileFormatUp}}-Bilder in {{ProgLang}} zu beschriften. Fügen Sie Text, Logos oder Muster hinzu und passen Sie deren Erscheinungsbild an, sodass Ihr Wasserzeichen genau passt. Ideal für jeden, der seine Bilder online schützen muss, hält {{ProdShortName}} Ihre Arbeit sicher, ohne die Bildqualität zu beeinträchtigen."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Bilder",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Bildern mit {{ProgLang}} hinzu und verwalten Sie diese, um Ihre digitalen Inhalte zu schützen."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Bilder",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu, um Ihre digitalen Fotos zu schützen."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}}-Bilder mit {{ProgLang}}",
+      "description": "Verwenden Sie {{ProgLang}}, um starke Wasserzeichen zu {{FileFormatUp}}-Bildern hinzuzufügen - ideal für Urheberrecht und Eigentum.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} erlaubt Ihnen, Wasserzeichen zu JPG-Bildern in {{ProgLang}} hinzuzufügen. Platzieren Sie Text, Logos oder Grafiken überall auf Ihrem Bild und passen Sie deren Erscheinungsbild an Ihre Bedürfnisse an. Schützen Sie Ihre Fotos für persönliche oder geschäftliche Zwecke mit {{ProdShortName}} und halten Sie Ihre Bilder vor Kopien sicher."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um sichtbare oder unsichtbare Wasserzeichen zu {{FileFormatUp}}-Bildern hinzuzufügen, um sichere und erkennbare Inhalte zu erstellen."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Dokumente",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre wichtigen Dokumente zu schützen."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Verwenden Sie {{ProgLang}}, um Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen - ideal für rechtliche, finanzielle und offizielle Dokumente.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist eine {{ProgLang}}-API zum Hinzufügen von Wasserzeichen zu {{FileFormatUp}}-Dateien. Passen Sie den Text, die Bilder und die Platzierung Ihres Wasserzeichens an, um jedem Dokument gerecht zu werden. Verwenden Sie es, um Verträge, Berichte oder vertrauliche Dateien zu kennzeichnen und Ihre PDFs sicher und professionell zu halten. {{ProdShortName}} unterstützt Transparenz, Drehung und Schichtung für fortgeschrittenes Wasserzeichen."
+    },
+    "formats": {
+      "title": "Sichern Sie {{FileFormatUp}}-Dateien mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre sensiblen und offiziellen Dokumente zu schützen."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Schützen Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} für Urheberrecht und Sicherheit hinzu."
+    },
+    "header": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Bilder",
+      "description": "Verwenden Sie {{ProgLang}}, um fortgeschrittene Wasserzeichen zu {{FileFormatUp}}-Bildern hinzuzufügen - großartig für Künstler und Designer.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}} ist ein {{ProgLang}}-Toolkit zum Hinzufügen von Wasserzeichen zu {{FileFormatUp}}-Bildern. Fügen Sie transparente oder feste Wasserzeichen hinzu, positionieren Sie diese überall und halten Sie Ihre Bilder vor Kopien sicher. Mit {{ProdShortName}} können Sie Text oder Bilder als Wasserzeichen verwenden und deren Erscheinungsbild für private oder berufliche Projekte steuern."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um subtile oder kräftige Wasserzeichen zu {{FileFormatUp}}-Bildern für flexiblen Urheberrechtsschutz hinzuzufügen."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{ProgLang}} Wasserzeichen für PowerPoint-Dateien",
+      "description": "Fügen Sie dynamische Wasserzeichen zu PowerPoint-Dateien in {{ProgLang}} hinzu, um Ihre Präsentationen zu sichern."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Verwenden Sie {{ProgLang}}, um benutzerdefinierte Wasserzeichen zu PowerPoint-Präsentationen hinzuzufügen - großartig für Unternehmen und Bildung.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, Wasserzeichen zu PowerPoint (PPT)-Dateien in {{ProgLang}} hinzuzufügen. Fügen Sie sichtbare oder unsichtbare Markierungen zu Ihren Folien hinzu und passen Sie deren Stil, Größe und Farbe an. Perfekt, um Ihre Präsentationen in geschäftlichen oder schulischen Umgebungen zu schützen, {{ProdShortName}} funktioniert mit allen gängigen {{ProgLang}}-Versionen."
+    },
+    "formats": {
+      "title": "Sichern Sie {{FileFormatUp}}-Dateien mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie fortschrittliche Wasserzeichen zu PowerPoint-Dateien in {{ProgLang}} hinzu, um Missbrauch zu verhindern und Ihre Inhalte zu schützen."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Schützen Sie Ihre {{FileFormatUp}}-Präsentationen, indem Sie in {{ProgLang}} Wasserzeichen hinzufügen."
+    },
+    "header": {
+      "title": "Fortgeschrittenes {{ProgLang}} Wasserzeichen für {{FileFormatUp}}",
+      "description": "Verwenden Sie {{ProgLang}}, um starke Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen - ideal für Unternehmen und Bildung.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist eine umfassende {{ProgLang}}-Lösung zum Wasserzeichen von {{FileFormatUp}}-Dateien. Fügen Sie Text, Logos oder Grafiken als Wasserzeichen hinzu und passen Sie deren Transparenz, Größe und Position an. Ideal für jeden, der seine Präsentationen schützen muss, hält {{ProdShortName}} Ihre Folien sicher und ansprechend."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Dateien",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre Präsentationen vor dem Teilen oder Kopieren zu schützen."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{ProgLang}} Wasserzeichen für {{FileFormatUp}}-Dokumente",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu, um Ihre Word-Dokumente zu sichern."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}} mit {{ProgLang}}-Wasserzeichen",
+      "description": "Verwenden Sie {{ProgLang}}, um sichere, benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen - großartig für sensible Word-Dokumente.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} bietet Ihnen fortschrittliche Werkzeuge, um Wasserzeichen zu {{FileFormatUp}}-Dokumenten in {{ProgLang}} hinzuzufügen. Verwenden Sie sichtbare oder transparente Markierungen und passen Sie deren Schriftart, Farbe, Größe und Position an. Perfekt für rechtliche, geschäftliche oder vertrauliche Dateien hilft {{ProdShortName}}, Kopieren und Bearbeiten zu verhindern."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um starke und subtile Wasserzeichen zu {{FileFormatUp}}-Dateien für eine bessere Dokumentensicherheit hinzuzufügen."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Fügen Sie {{ProgLang}}-Wasserzeichen zu {{FileFormatUp}}-Bildern hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um Wasserzeichen zu {{FileFormatUp}}-Bildern hinzuzufügen und Ihre Fotos zu schützen."
+    },
+    "header": {
+      "title": "Fortgeschrittenes Wasserzeichen für {{FileFormatUp}} mit {{ProgLang}}",
+      "description": "Fügen Sie hochwertige Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu - ideal für Fotografen und Archivare.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist ein {{ProgLang}}-Toolkit zum Wasserzeichen von {{FileFormatUp}}-Bildern. Fügen Sie Text- oder Bildwasserzeichen hinzu, passen Sie deren Aussehen an und halten Sie Ihre hochauflösenden Bilder sicher. Mit Batch-Verarbeitung und intelligenter Platzierung ist {{ProdShortName}} ideal für alle, die viele Bilder gleichzeitig schützen müssen."
+    },
+    "formats": {
+      "title": "Schützen Sie {{FileFormatUp}}-Bilder mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu, um das Kopieren zu verhindern und Ihre Arbeit sicher zu halten."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Erstellen und fügen Sie Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu, um Ihre digitalen Dateien zu schützen."
+    },
+    "header": {
+      "title": "Wasserzeichen für {{FileFormatUp}} mit {{ProgLang}} erstellen",
+      "description": "Fügen Sie starke, benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu - ideal für digitale Archive und Fotografen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist ein {{ProgLang}}-Toolkit zum Hinzufügen von Wasserzeichen zu TIFF-Dateien. Wählen Sie Text- oder Bildwasserzeichen, stellen Sie deren Opazität, Größe und Position ein und halten Sie Ihre Bilder sicher. Mit Funktionen wie Wasserzeichen-Schichtung und intelligenter Formatierung ist {{ProdShortName}} ein Muss für jeden, der seine Sammlungen schützen muss."
+    },
+    "formats": {
+      "title": "Sichern Sie {{FileFormatUp}}-Bilder mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie Wasserzeichen in {{FileFormatUp}}-Dateien mit {{ProgLang}} hinzu, um Ihre Bilder sicher zu halten und unter Ihrer Kontrolle zu behalten."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um Wasserzeichen zu {{FileFormatUp}}-Bildern für starken Schutz hinzuzufügen."
+    },
+    "header": {
+      "title": "Wasserzeichen für {{FileFormatUp}} mit {{ProgLang}} erstellen",
+      "description": "Fügen Sie benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu - großartig für Künstler und Inhaltsersteller.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, Wasserzeichen zu WEBP-Bildern in {{ProgLang}} hinzuzufügen. Verwenden Sie Text, Logos oder digitale Signaturen und passen Sie deren Erscheinungsbild an Ihre Bedürfnisse an. Ideal für jeden, der Bilder online teilt, hält {{ProdShortName}} Ihre Arbeit sicher und ansprechend."
+    },
+    "formats": {
+      "title": "Schützen Sie {{FileFormatUp}}-Bilder mit {{ProgLang}}-Wasserzeichen",
+      "description": "Fügen Sie fortschrittliche, benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Bildern in {{ProgLang}} hinzu, um Ihre kreativen Arbeiten zu schützen."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um Wasserzeichen in {{FileFormatUp}}-Dateien hinzuzufügen und zu verwalten, um die Sicherheit von Excel zu verbessern."
+    },
+    "header": {
+      "title": "Erstellen Sie {{ProgLang}}-Wasserzeichen für {{FileFormatUp}}-Dateien",
+      "description": "Fügen Sie Wasserzeichen zu {{FileFormatUp}}-Tabellen in {{ProgLang}} hinzu - ideal zum Schutz von finanziellen und persönlichen Daten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ermöglicht es Ihnen, Wasserzeichen zu XLS-Dateien in {{ProgLang}} hinzuzufügen. Verwenden Sie sichtbare oder unsichtbare Markierungen und passen Sie deren Erscheinungsbild an Ihre Bedürfnisse an. Ideal zum Schutz von finanziellen oder Kundendaten funktioniert {{ProdShortName}} mit allen {{ProgLang}}-Umgebungen."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen und Ihre Excel-Daten zu schützen."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen und Ihre Excel-Dokumente zu schützen."
+    },
+    "header": {
+      "title": "Schützen Sie {{FileFormatUp}}-Tabellen mit {{ProgLang}}",
+      "description": "Fügen Sie benutzerdefinierte Wasserzeichen zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzu - perfekt für geschäftliche und sensible Daten.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Erhalten Sie es kostenlos bei {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} ist eine {{ProgLang}}-Lösung zum Hinzufügen und Verwalten von Wasserzeichen in XLSX-Dateien. Fügen Sie Text- oder Bildwasserzeichen hinzu, automatisieren Sie das Wasserzeichnen basierend auf Dateieigenschaften und halten Sie Ihre Excel-Dokumente sicher und professionell. {{ProdShortName}} unterstützt alle modernen {{ProgLang}}-Funktionen."
+    },
+    "formats": {
+      "title": "Fügen Sie Wasserzeichen zu {{FileFormatUp}} mit {{ProgLang}} hinzu",
+      "description": "Verwenden Sie {{ProgLang}}, um sichere, fortschrittliche Wasserzeichen zu {{FileFormatUp}}-Dateien hinzuzufügen und Ihre Excel-Daten zu schützen."
+    }
+  }
+}

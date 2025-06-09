@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Elimina il watermark dell'immagine da un file {{FileFormatUp}}",
+    "comment_2": "Crea un'istanza di {{TextWatermarker}} con il tuo file {{FileFormatUp}}",
+    "comment_3": "Trova e rimuovi il watermark rilevato",
+    "comment_4": "Salva il documento aggiornato"
+  },
+  "steps": {
+    "title": "Rimuovi i watermarks da file {{FileformatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** consente agli sviluppatori {{ProgLang}} di rimuovere rapidamente i watermarks da file {{FileformatCap}}. Ecco come puoi farlo:",
+      "step_1": "Inizia passando il tuo file {{FileformatCap}} al costruttore di {{TextWatermarkerBold}}. Puoi utilizzare un percorso di file, uno stream di byte o uno stream di file.",
+      "step_2": "Utilizza l'oggetto {{TextSearchCriteriaBold}} per cercare i watermarks che vuoi rimuovere. Filtra per immagine, testo o formattazione per risultati precisi.",
+      "step_3": "Dopo la ricerca, otterrai un elenco di watermarks. Seleziona e rimuovi quelli che non ti servono.",
+      "step_4": "Quando hai finito, salva il documento su un file o uno stream."
+    }
+  },
+  "more_features": {
+    "title": "Rimozione Potente dei Watermark con {{ProgLang}} | {{ProdShortName}}",
+    "description": "Sfrutta la nostra API {{ProgLang}} per rimuovere i watermarks da PDF e file Office. Ottieni documenti puliti e professionali pronti per ogni uso.",
+    "image_description": "Cancella Watermark",
+    "feature_1": {
+      "title": "Cancellazione Accurata dei Watermark in {{ProgLang}}",
+      "content": "La nostra API {{ProgLang}} è progettata per la rimozione precisa dei watermarks, in modo che i tuoi file mantengano il loro aspetto e la loro formattazione originali. Ideale per documenti aziendali, legali o accademici."
+    },
+    "feature_2": {
+      "title": "Rimozione Batch dei Watermark con {{ProgLang}}",
+      "content": "Accelera il tuo flusso di lavoro rimuovendo i watermarks da molti file contemporaneamente. Perfetto per gestire grandi collezioni di documenti in modo efficiente."
+    },
+    "feature_3": {
+      "title": "Modifica e Cancellazione Flessibile dei Watermark",
+      "content": "Modifica o rimuovi i watermarks secondo necessità. L'API ti offre opzioni per mantenere i tuoi documenti in perfette condizioni per qualsiasi esigenza."
+    },
+    "code_1": {
+      "title": "Rimuovi lo sfondo da una presentazione",
+      "content": "Questo esempio mostra come eliminare un watermark ipertestuale.",
+      "comment_1": "Apri la presentazione",
+      "comment_2": "Accedi al contenuto della diapositiva",
+      "comment_3": "Rimuovi il watermark ipertestuale",
+      "comment_4": "Salva la presentazione"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza la nostra API {{ProgLang}} per rimuovere i watermarks dai file {{FileFormatUp}} e mantenere i tuoi documenti puliti."
+    },
+    "header": {
+      "title": "{{ProgLang}} per la Rimozione dei Watermark {{FileFormatUp}}",
+      "description": "Con l'API {{ProdFullName}}, puoi facilmente eliminare o modificare i watermarks nei file {{FileFormatUp}} e mantenere i tuoi documenti in ordine.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Scarica gratuitamente da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} ti offre tutti gli strumenti necessari per gestire i watermarks nei file {{FileFormatUp}}. Rimuovi o adatta i watermarks per mantenere i tuoi documenti professionali e ben formattati."
+    },
+    "formats": {
+      "title": "Rimuovi i Watermarks dai File {{FileFormatUp}} in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dai file {{FileFormatUp}} per una migliore qualità dei documenti."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Rimozione Rapida dei Watermark {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Rimuovi facilmente i watermarks dai file {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} per documenti puliti e professionali."
+    },
+    "header": {
+      "title": "{{ProgLang}} per la Gestione dei Watermark {{FileFormatUp}}",
+      "description": "Utilizza l'API {{ProdFullName}} per eliminare o modificare i watermarks nei file {{FileFormatUp}} e mantenere i tuoi documenti al massimo.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Ottienilo gratuitamente su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} fornisce tutto il necessario per gestire i watermarks nei file {{FileFormatUp}}. Rimuovi, modifica o adatta i watermarks per mantenere un aspetto pulito e professionale."
+    },
+    "formats": {
+      "title": "Elimina i Watermarks dai File {{FileFormatUp}} in {{ProgLang}}",
+      "description": "Scopri come utilizzare l'API {{ProdFullName}} per rimuovere i watermarks dai file {{FileFormatUp}} e migliorare l'aspetto del tuo documento."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai Documenti {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Rimuovi rapidamente i watermarks dai file {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} per risultati professionali."
+    },
+    "header": {
+      "title": "Elimina i Watermarks dai File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per rimuovere i watermarks dai documenti {{FileFormatUp}} e mantenere i tuoi file chiari e organizzati.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Scarica gratuitamente su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} semplifica la gestione dei watermarks nei file {{FileFormatUp}}. Rimuovi o modifica i watermarks mantenendo i tuoi documenti con un aspetto nitido e ben strutturato."
+    },
+    "formats": {
+      "title": "Rimuovi Watermarks da {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dai file {{FileFormatUp}} per una finitura curata e professionale."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai File di Presentazione {{FileFormatUp}}",
+      "description": "Rimuovi facilmente i watermarks dai file di presentazione utilizzando la nostra API {{ProgLang}} per diapositive pulite e professionali."
+    },
+    "header": {
+      "title": "Rimozione del Watermark delle Presentazioni {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per rimuovere i watermarks dalle presentazioni {{FileFormatUp}} e mantenere le tue diapositive in ottime condizioni.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Scarica gratuitamente da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} ti offre il controllo completo sui watermarks nei file di presentazione. Rimuovi, modifica o adatta i watermarks per mantenere le tue diapositive chiare e professionali per qualsiasi pubblico."
+    },
+    "formats": {
+      "title": "Rimuovi i Watermarks dalle Presentazioni in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a gestire e rimuovere i watermarks dalle presentazioni {{FileFormatUp}} per un aspetto curato."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Rimuovi i Watermarks da PowerPoint con {{ProgLang}}",
+      "description": "Rimuovi rapidamente i watermarks dalle diapositive di PowerPoint utilizzando la nostra API {{ProgLang}} per presentazioni professionali."
+    },
+    "header": {
+      "title": "Elimina i Watermarks dalle Diapositive {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per rimuovere i watermarks dalle diapositive {{FileFormatUp}} e mantenere le tue presentazioni al meglio.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Ottienilo gratuitamente su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} ti fornisce tutti gli strumenti necessari per gestire i watermarks nelle presentazioni PowerPoint. Rimuovi o modifica i watermarks per mantenere le tue diapositive pulite e professionali."
+    },
+    "formats": {
+      "title": "Rimuovi i Watermarks da PowerPoint in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dalle diapositive {{FileFormatUp}} per un risultato pulito e professionale."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Rimuovi facilmente i watermarks dai file {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} per documenti puliti e professionali."
+    },
+    "header": {
+      "title": "Gestisci i Watermarks nei File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per eliminare o modificare i watermarks nei file {{FileFormatUp}} e mantenere i tuoi documenti al meglio.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Scarica gratuitamente da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} fornisce tutte le funzionalità necessarie per gestire i watermarks nei file {{FileFormatUp}}. Rimuovi, modifica o adatta i watermarks per mantenere i tuoi documenti puliti e professionali."
+    },
+    "formats": {
+      "title": "Rimuovi i Watermarks dai File {{FileFormatUp}} in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dai file {{FileFormatUp}} per un'esperienza documentale migliore."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai File Excel {{FileFormatUp}}",
+      "description": "Rimuovi rapidamente i watermarks dai fogli di calcolo {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} per dati puliti e professionali."
+    },
+    "header": {
+      "title": "Elimina i Watermarks nei Fogli di Calcolo {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per rimuovere o modificare i watermarks nei fogli di calcolo {{FileFormatUp}} e mantenere i tuoi dati nitidi.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Ottienilo gratuitamente su {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} ti fornisce tutto il necessario per gestire i watermarks nei fogli di calcolo {{FileFormatUp}}. Rimuovi, modifica o adatta i watermarks per mantenere i tuoi dati chiari e professionali."
+    },
+    "formats": {
+      "title": "Rimuovi i Watermarks dai Fattori di Calcolo {{FileFormatUp}} in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dai fogli di calcolo {{FileFormatUp}} per una presentazione dei dati migliore."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Rimuovi i Watermarks dai File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Rimuovi facilmente i watermarks dai fogli di calcolo {{FileFormatUp}} utilizzando la nostra API {{ProgLang}} per dati puliti e professionali."
+    },
+    "header": {
+      "title": "Gestisci i Watermarks nei File {{FileFormatUp}} con {{ProgLang}}",
+      "description": "Utilizza l'API {{ProdFullName}} per eliminare o modificare i watermarks nei fogli di calcolo {{FileFormatUp}} e mantenere i tuoi dati al meglio.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Scarica gratuitamente da {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Libreria {{ProdFullName}}",
+      "content": "La libreria {{ProdFullName}} fornisce tutti gli strumenti necessari per gestire i watermarks nei fogli di calcolo {{FileFormatUp}}. Rimuovi, modifica o adatta i watermarks per mantenere i dati puliti e professionali."
+    },
+    "formats": {
+      "title": "Rimuovi Watermarks dai Fogli di Calcolo {{FileFormatUp}} in {{ProgLang}}",
+      "description": "Scopri come l'API {{ProdFullName}} può aiutarti a rimuovere i watermarks dai fogli di calcolo {{FileFormatUp}} per una migliore esperienza con i dati."
+    }
+  }
+}

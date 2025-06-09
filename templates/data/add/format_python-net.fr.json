@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Ajoutez un filigrane image à un fichier {{FileFormatUp}}",
+    "comment_2": "Passez le chemin du fichier au constructeur {{TextWatermarker}}",
+    "comment_3": "Créez un filigrane image à l'aide de votre fichier image",
+    "comment_4": "Enregistrez le fichier {{FileFormatUp}} avec le filigrane"
+  },
+  "steps": {
+    "title": "Ajoutez rapidement des filigranes aux fichiers {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Une bibliothèque puissante {{ProgLang}} qui vous permet d'ajouter des filigranes à vos documents.",
+      "step_1": "**Classe principale : Watermarker.** Commencez par créer un objet {{TextWatermarkerBold}}. Donnez-lui votre fichier {{FileformatCap}}, soit en tant que chemin de fichier soit en tant que flux, pour commencer.",
+      "step_2": "**Construisez votre filigrane.** Ensuite, créez un objet Watermark du type que vous souhaitez. Vous pouvez le placer sur n'importe quelle page ou même dans des éléments de document comme des images ou des en-têtes.",
+      "step_3": "**Ajustez l'apparence.** Configurez la taille, la position, la police et la couleur du filigrane en fonction de vos besoins.",
+      "step_4": "**Ajoutez et enregistrez.** Utilisez la méthode {{TextWatermarkerBold}} pour insérer votre filigrane. Ajoutez-en autant que nécessaire, puis enregistrez le fichier où vous le souhaitez."
+    }
+  },
+  "more_features": {
+    "title": "Découvrez d'autres outils de filigrane",
+    "description": "{{ProdFullName}} vous offre des options avancées pour ajouter et personnaliser des filigranes dans de nombreux types de fichiers. Protégez vos documents et images avec des fonctionnalités flexibles et faciles à utiliser.",
+    "image_description": "Filtrage tout-en-un",
+    "feature_1": {
+      "title": "Tiling pleine page",
+      "content": "Couvrez l'ensemble de votre document avec des filigranes en mosaïque. Cela rend difficile la suppression des filigranes et protège vos fichiers sans altérer la mise en page."
+    },
+    "feature_2": {
+      "title": "Couleurs personnalisées",
+      "content": "Choisissez n'importe quelle couleur pour votre filigrane afin de l'adapter à votre marque ou au style de votre document. Faites en sorte que votre filigrane se démarque ou s'intègre selon vos besoins."
+    },
+    "feature_3": {
+      "title": "Options de sécurité supplémentaires",
+      "content": "Renforcez la sécurité de vos documents grâce à des filigranes superposés. Combinez des marques visibles et cachées pour empêcher la copie et pour vous assurer que seules les bonnes personnes peuvent accéder à vos fichiers."
+    },
+    "code_1": {
+      "title": "Ajouter un filigrane à PowerPoint",
+      "content": "Cet exemple montre comment placer un filigrane sur l'arrière-plan des diapositives PPTX.",
+      "comment_1": "Ouvrez un fichier PPTX",
+      "comment_2": "Définissez les détails du filigrane",
+      "comment_3": "Appliquez le filigrane aux arrière-plans des diapositives",
+      "comment_4": "Enregistrez la présentation mise à jour"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Filigrane de fichiers {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Ajoutez des filigranes aux fichiers {{FileFormatUp}} en {{ProgLang}} pour garder vos documents Word sécurisés et organisés."
+    },
+    "header": {
+      "title": "Protégez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes sécurisés à des fichiers {{FileFormatUp}}—idéal pour des documents Word légaux, commerciaux et confidentiels.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous permet d'ajouter des filigranes à des fichiers {{FileFormatUp}} en {{ProgLang}}. Insérez des filigranes textuels ou image, ajustez leur opacité, couleur et position, et incluez des détails comme des dates, des logos ou des tampons de confidentialité. Cet outil est parfait pour les documents juridiques, commerciaux et sensibles, et fonctionne sans accroc dans des environnements {{ProgLang}}. {{ProdShortName}} est une solution fiable pour garder vos fichiers Word sécurisés et authentiques."
+    },
+    "formats": {
+      "title": "Filigranage {{ProgLang}} pour fichiers Word",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes personnalisés à des fichiers {{FileFormatUp}}, vous aidant ainsi à protéger et vérifier vos documents Word."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Filigranage {{ProgLang}} pour fichiers {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux fichiers {{FileFormatUp}} en {{ProgLang}} pour garder vos documents Word sécurisés."
+    },
+    "header": {
+      "title": "Sécurisez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Appliquez un filigranage avancé aux fichiers {{FileFormatUp}} en {{ProgLang}}—parfait pour protéger vos documents Word dans tous les secteurs.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} apporte un filigranage puissant aux fichiers {{FileFormatUp}}. Ajoutez facilement des filigranes qui s'adaptent, se déplacent et se fondent dans votre document. Utilisez-le pour des fichiers légaux, commerciaux ou confidentiels, et choisissez parmi des filigranes textuels ou d'image avec un placement flexible. {{ProdShortName}} prend en charge les dernières fonctionnalités {{ProgLang}} pour une protection optimale des documents."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Apprenez à ajouter des filigranes sécurisés et personnalisés aux fichiers {{FileFormatUp}} en {{ProgLang}} pour une meilleure sécurité des documents et un contrôle des droits d'auteur."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Protégez les images {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes aux images {{FileFormatUp}} en {{ProgLang}} pour garder vos images sécurisées."
+    },
+    "header": {
+      "title": "Filigranage avancé {{ProgLang}} pour {{FileFormatUp}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes flexibles et sécurisés aux images {{FileFormatUp}}—parfait pour artistes et photographes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous donne les outils pour appliquer un filigrane aux images {{FileFormatUp}} en {{ProgLang}}. Ajoutez du texte, des logos ou des motifs, et ajustez leur apparence pour que votre filigrane s'intègre parfaitement. Idéal pour quiconque doit protéger ses images en ligne, {{ProdShortName}} garde votre travail en sécurité sans diminuer la qualité de l'image."
+    },
+    "formats": {
+      "title": "Filigranage {{ProgLang}} pour les images {{FileFormatUp}}",
+      "description": "Ajoutez et gérez des filigranes dans des images {{FileFormatUp}} avec {{ProgLang}} pour protéger votre contenu numérique."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Filigranage {{ProgLang}} pour les images {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux images {{FileFormatUp}} en {{ProgLang}} pour protéger vos photos numériques."
+    },
+    "header": {
+      "title": "Protégez les images {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes forts aux images {{FileFormatUp}}—idéal pour le droit d'auteur et la propriété.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous permet d'ajouter des filigranes aux images JPG en {{ProgLang}}. Placez du texte, des logos ou des graphiques n'importe où sur votre image, et ajustez leur apparence pour correspondre à vos besoins. Protégez vos photos à des fins personnelles ou professionnelles avec {{ProdShortName}}, et gardez vos images à l'abri de la copie."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes visibles ou invisibles aux images {{FileFormatUp}} afin de sécuriser un contenu reconnaissable."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Filigranes {{ProgLang}} pour les documents {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux fichiers {{FileFormatUp}} en {{ProgLang}} pour protéger vos documents importants."
+    },
+    "header": {
+      "title": "Protégez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes aux fichiers {{FileFormatUp}}—idéal pour des documents légaux, financiers et officiels.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est une API {{ProgLang}} pour ajouter des filigranes aux fichiers {{FileFormatUp}}. Personnalisez le texte, les images et le placement de votre filigrane pour s'adapter à n'importe quel document. Utilisez-le pour marquer des contrats, des rapports ou des fichiers confidentiels, et gardez vos PDF sécurisés et professionnels. {{ProdShortName}} prend en charge la transparence, la rotation et la superposition pour un filigranage avancé."
+    },
+    "formats": {
+      "title": "Sécurisez les fichiers {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes personnalisés aux fichiers {{FileFormatUp}} en {{ProgLang}} pour protéger vos documents sensibles et officiels."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Protégez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes aux images {{FileFormatUp}} en {{ProgLang}} pour des droits d'auteur et une sécurité."
+    },
+    "header": {
+      "title": "Filigranage {{ProgLang}} pour les images {{FileFormatUp}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes avancés aux images {{FileFormatUp}}—idéal pour artistes et designers.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}} est un kit {{ProgLang}} pour ajouter des filigranes aux images {{FileFormatUp}}. Ajoutez des filigranes transparents ou solides, positionnez-les n'importe où, et gardez vos images à l'abri de la copie. Avec {{ProdShortName}}, vous pouvez utiliser des textes ou des images comme filigranes et contrôler leur apparence pour des projets personnels ou professionnels."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes subtils ou audacieux aux images {{FileFormatUp}} pour une protection flexible des droits d'auteur."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Filigranes {{ProgLang}} pour les fichiers PowerPoint",
+      "description": "Ajoutez des filigranes dynamiques aux fichiers PowerPoint en {{ProgLang}} pour garder vos présentations sécurisées."
+    },
+    "header": {
+      "title": "Protégez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes personnalisés aux présentations PowerPoint—idéal pour les affaires et l'éducation.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous permet d'ajouter des filigranes aux fichiers PowerPoint (PPT) en {{ProgLang}}. Ajoutez des marques visibles ou invisibles à vos diapositives, et personnalisez leur style, taille et couleur. Parfait pour garder vos présentations sécurisées dans un contexte professionnel ou scolaire, {{ProdShortName}} fonctionne avec toutes les principales versions de {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Sécurisez les fichiers {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes avancés aux fichiers PowerPoint en {{ProgLang}} pour empêcher les abus et protéger votre contenu."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Protégez vos présentations {{FileFormatUp}} en ajoutant des filigranes en {{ProgLang}}."
+    },
+    "header": {
+      "title": "Filigranage avancé {{ProgLang}} pour {{FileFormatUp}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes puissants aux fichiers {{FileFormatUp}}—idéal pour les affaires et l'éducation.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est une solution complète {{ProgLang}} pour le filigranage des fichiers {{FileFormatUp}}. Ajoutez des textes, des logos ou des graphiques comme filigranes, et ajustez leur transparence, taille et position. Idéal pour quiconque doit protéger ses présentations, {{ProdShortName}} garde vos diapositives sécurisées et attrayantes."
+    },
+    "formats": {
+      "title": "{{ProgLang}} Filigranage pour les fichiers {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux fichiers {{FileFormatUp}} en {{ProgLang}} pour garder vos présentations à l'abri des partages ou des copies."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{ProgLang}} Filigranage pour les documents {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux fichiers {{FileFormatUp}} en {{ProgLang}} pour garder vos documents Word sécurisés."
+    },
+    "header": {
+      "title": "Protégez {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes sécurisés et personnalisés aux fichiers {{FileFormatUp}}—parfait pour des documents Word sensibles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous offre des outils avancés pour ajouter des filigranes aux documents {{FileFormatUp}} en {{ProgLang}}. Utilisez des marques visibles ou transparentes, et ajustez leur police, couleur, taille et position. Parfait pour des fichiers légaux, commerciaux ou confidentiels, {{ProdShortName}} aide à prévenir la copie et l'édition."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes puissants et subtils aux fichiers {{FileFormatUp}} pour une meilleure sécurité documentaire."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Ajoutez des filigranes {{ProgLang}} aux images {{FileFormatUp}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes aux images {{FileFormatUp}} et protéger vos photos."
+    },
+    "header": {
+      "title": "Filigranage avancé pour {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Ajoutez des filigranes de haute qualité aux images {{FileFormatUp}} en {{ProgLang}}—génial pour les photographes et archivistes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est un kit {{ProgLang}} pour ajouter des filigranes aux images {{FileFormatUp}}. Ajoutez des filigranes textuels ou d'image, ajustez leur apparence, et gardez vos images haute résolution sécurisées. Avec un traitement par lots et un placement intelligent, {{ProdShortName}} est parfait pour tous ceux qui doivent protéger de nombreuses images à la fois."
+    },
+    "formats": {
+      "title": "Protégez les images {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes personnalisés aux images {{FileFormatUp}} en {{ProgLang}} pour empêcher la copie et garder votre travail en sécurité."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Créez et ajoutez des filigranes aux images {{FileFormatUp}} en {{ProgLang}} pour protéger vos fichiers numériques."
+    },
+    "header": {
+      "title": "Créez des filigranes pour {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Ajoutez des filigranes forts et personnalisés aux fichiers {{FileFormatUp}} en {{ProgLang}}—idéal pour les archives numériques et les photographes.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est un kit {{ProgLang}} pour ajouter des filigranes aux fichiers TIFF. Choisissez des filigranes textuels ou d'image, réglez leur opacité, taille et position, et gardez vos images en sécurité. Avec des fonctionnalités telles que la superposition de filigranes et le formatage intelligent, {{ProdShortName}} est indispensable pour quiconque doit protéger ses collections d'images."
+    },
+    "formats": {
+      "title": "Sécurisez les images {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez et gérez des filigranes dans des fichiers {{FileFormatUp}} en {{ProgLang}} pour garder vos images en sécurité et sous votre contrôle."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes aux images {{FileFormatUp}} pour une protection forte."
+    },
+    "header": {
+      "title": "Créez des filigranes pour {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Ajoutez des filigranes personnalisés aux fichiers {{FileFormatUp}} en {{ProgLang}}—idéal pour les artistes et créateurs de contenu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous permet d'ajouter des filigranes aux images WEBP en {{ProgLang}}. Utilisez du texte, des logos ou des signatures numériques, et ajustez leur apparence pour répondre à vos besoins. Parfait pour quiconque partage des images en ligne, {{ProdShortName}} garde votre travail en sécurité et attrayant."
+    },
+    "formats": {
+      "title": "Protégez les images {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes avancés et personnalisés aux images {{FileFormatUp}} en {{ProgLang}} pour protéger votre travail créatif."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter et gérer des filigranes dans des fichiers {{FileFormatUp}} pour une meilleure sécurité Excel."
+    },
+    "header": {
+      "title": "Créez des filigranes {{ProgLang}} pour les fichiers {{FileFormatUp}}",
+      "description": "Ajoutez des filigranes aux feuilles de calcul {{FileFormatUp}} en {{ProgLang}}—idéal pour protéger les données financières et personnelles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} vous permet d'ajouter des filigranes aux fichiers XLS en {{ProgLang}}. Utilisez des marques visibles ou invisibles et personnalisez leur apparence pour répondre à vos besoins. Idéal pour garder des données financières ou clients en sécurité, {{ProdShortName}} fonctionne avec tous les environnements {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes personnalisés aux fichiers {{FileFormatUp}} et garder vos données Excel sécurisées."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes aux fichiers {{FileFormatUp}} et protéger vos documents Excel."
+    },
+    "header": {
+      "title": "Protégez les feuilles {{FileFormatUp}} avec des filigranes {{ProgLang}}",
+      "description": "Ajoutez des filigranes personnalisés aux fichiers {{FileFormatUp}} en {{ProgLang}}—parfait pour des données sensibles et professionnelles.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Obtenez-le gratuitement sur {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} est une solution {{ProgLang}} pour ajouter et gérer des filigranes dans les fichiers XLSX. Ajoutez des filigranes textuels ou d'image, automatisez le filigranage en fonction des propriétés des fichiers, et gardez vos documents Excel sécurisés et professionnels. {{ProdShortName}} prend en charge toutes les fonctionnalités modernes de {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Ajoutez des filigranes à {{FileFormatUp}} avec {{ProgLang}}",
+      "description": "Utilisez {{ProgLang}} pour ajouter des filigranes sécurisés et avancés aux fichiers {{FileFormatUp}} et protéger vos données Excel."
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "Thêm một hình ảnh làm watermark vào một tệp {{FileFormatUp}}",
+    "comment_2": "Truyền đường dẫn tệp vào chung cho {{TextWatermarker}}",
+    "comment_3": "Tạo một watermark hình ảnh bằng tệp hình ảnh của bạn",
+    "comment_4": "Lưu tệp {{FileFormatUp}} với watermark"
+  },
+  "steps": {
+    "title": "Nhanh chóng thêm Watermark vào tệp {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** Một thư viện {{ProgLang}} mạnh mẽ cho phép bạn thêm watermark vào tài liệu của bạn.",
+      "step_1": "**Lớp chính: Watermarker.** Bắt đầu bằng cách tạo một đối tượng {{TextWatermarkerBold}}. Cung cấp cho nó tệp {{FileformatCap}} của bạn, dưới dạng đường dẫn tệp hoặc luồng, để bắt đầu.",
+      "step_2": "**Xây dựng watermark của bạn.** Tiếp theo, tạo một đối tượng Watermark của loại bạn muốn. Bạn có thể đặt nó trên bất kỳ trang nào hoặc thậm chí trong các phần của tài liệu như hình ảnh hoặc tiêu đề.",
+      "step_3": "**Điều chỉnh diện mạo.** Thiết lập kích thước, vị trí, font chữ và màu sắc của watermark để phù hợp với nhu cầu của bạn.",
+      "step_4": "**Thêm và lưu.** Sử dụng phương thức {{TextWatermarkerBold}} để chèn watermark của bạn. Thêm bất kỳ số lượng nào bạn muốn, sau đó lưu tệp ở bất kỳ đâu bạn thích."
+    }
+  },
+  "more_features": {
+    "title": "Khám phá thêm các công cụ Watermark",
+    "description": "{{ProdFullName}} cung cấp các tùy chọn nâng cao để thêm và tùy chỉnh watermark trong nhiều định dạng tệp. Bảo vệ tài liệu và hình ảnh của bạn với các tính năng linh hoạt và dễ sử dụng.",
+    "image_description": "Watermark tất cả trong một",
+    "feature_1": {
+      "title": "Lợp toàn trang",
+      "content": "Bao phủ toàn bộ tài liệu của bạn bằng các watermark lặp lại. Điều này làm cho việc loại bỏ watermark trở nên khó khăn và giữ cho tệp của bạn được bảo vệ mà không làm hỏng bố cục."
+    },
+    "feature_2": {
+      "title": "Màu tùy chỉnh",
+      "content": "Chọn bất kỳ màu nào cho watermark của bạn để phù hợp với thương hiệu hoặc kiểu tài liệu của bạn. Tạo cho watermark của bạn nổi bật hoặc hòa mình vào như cần thiết."
+    },
+    "feature_3": {
+      "title": "Tùy chọn bảo mật bổ sung",
+      "content": "Nâng cao bảo mật tài liệu của bạn với các watermark chồng lớp. Kết hợp các dấu hiệu rõ ràng và ẩn để ngăn chặn việc sao chép và đảm bảo chỉ những người phù hợp có thể truy cập tài liệu của bạn."
+    },
+    "code_1": {
+      "title": "Thêm Watermark vào PowerPoint",
+      "content": "Mẫu này cho thấy cách đặt watermark trên nền của các trang PPTX.",
+      "comment_1": "Mở một tệp PPTX",
+      "comment_2": "Thiết lập chi tiết watermark",
+      "comment_3": "Áp dụng watermark vào nền các trang",
+      "comment_4": "Lưu bài thuyết trình đã cập nhật"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Watermark tệp {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}} để giữ cho tài liệu Word của bạn an toàn và có tổ chức."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark bảo mật vào các tệp {{FileFormatUp}}—lý tưởng cho các tài liệu Word hợp pháp, kinh doanh và bí mật.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}}. Chèn watermark văn bản hoặc hình ảnh, điều chỉnh độ mờ, màu sắc và vị trí, và bao gồm các chi tiết như ngày tháng, logo hoặc con dấu bí mật. Công cụ này là lựa chọn hoàn hảo cho các tài liệu hợp pháp, kinh doanh và nhạy cảm, và hoạt động suôn sẻ trong môi trường {{ProgLang}}. {{ProdShortName}} là một cách đáng tin cậy để giữ cho các tệp Word của bạn an toàn và xác thực."
+    },
+    "formats": {
+      "title": "Watermark {{ProgLang}} cho các tệp Word",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark tùy chỉnh vào các tệp {{FileFormatUp}}, giúp bạn bảo vệ và xác minh tài liệu Word của mình."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Watermark {{ProgLang}} cho tệp {{FileFormatUp}}",
+      "description": "Thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}} để giữ cho tài liệu Word của bạn an toàn."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Áp dụng watermark nâng cao cho các tệp {{FileFormatUp}} trong {{ProgLang}}—tuyệt vời cho việc bảo vệ tài liệu Word của bạn trong bất kỳ ngành nào.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} mang đến khả năng watermark mạnh mẽ cho các tệp {{FileFormatUp}}. Dễ dàng thêm các watermark có thể mở rộng, di chuyển và hòa vào tài liệu của bạn. Sử dụng nó cho các tệp hợp pháp, kinh doanh hoặc bí mật, và chọn từ các watermark văn bản hoặc hình ảnh với vị trí linh hoạt. {{ProdShortName}} hỗ trợ các tính năng mới nhất của {{ProgLang}} để bảo vệ tài liệu hàng đầu."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Tìm hiểu cách thêm watermark bảo mật, tùy chỉnh vào các tệp {{FileFormatUp}} trong {{ProgLang}} để đảm bảo an toàn tài liệu và kiểm soát bản quyền."
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "Bảo vệ hình ảnh {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} để giữ cho hình ảnh của bạn an toàn và bảo mật."
+    },
+    "header": {
+      "title": "Watermark {{ProgLang}} nâng cao cho {{FileFormatUp}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark linh hoạt và bảo mật cho hình ảnh {{FileFormatUp}}—tuyệt vời cho nghệ sĩ và nhiếp ảnh gia.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho bạn công cụ để watermark hình ảnh {{FileFormatUp}} trong {{ProgLang}}. Thêm văn bản, logo hoặc họa tiết, và điều chỉnh cách chúng trông để watermark của bạn phù hợp. Tuyệt vời cho bất kỳ ai cần bảo vệ hình ảnh trực tuyến của mình, {{ProdShortName}} giữ cho công việc của bạn an toàn mà không làm giảm chất lượng hình ảnh."
+    },
+    "formats": {
+      "title": "Watermark {{ProgLang}} cho hình ảnh {{FileFormatUp}}",
+      "description": "Thêm và quản lý watermark trong hình ảnh {{FileFormatUp}} bằng {{ProgLang}} để bảo vệ nội dung kỹ thuật số của bạn."
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "Watermark {{ProgLang}} cho hình ảnh {{FileFormatUp}}",
+      "description": "Thêm watermark vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} để bảo vệ ảnh kỹ thuật số của bạn."
+    },
+    "header": {
+      "title": "Bảo vệ hình ảnh {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark mạnh mẽ vào hình ảnh {{FileFormatUp}}—lý tưởng cho việc bản quyền và quyền sở hữu.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào hình ảnh JPG trong {{ProgLang}}. Đặt văn bản, logo hoặc đồ họa ở bất kỳ đâu trên hình ảnh của bạn và điều chỉnh diện mạo của chúng để phù hợp với nhu cầu của bạn. Bảo vệ ảnh của bạn cho mục đích cá nhân hoặc kinh doanh với {{ProdShortName}}, và giữ cho hình ảnh của bạn an toàn khỏi việc sao chép."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark rõ ràng hoặc ẩn vào hình ảnh {{FileFormatUp}} cho nội dung an toàn, dễ nhận diện."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Watermark {{ProgLang}} cho tài liệu {{FileFormatUp}}",
+      "description": "Thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}} để bảo vệ các tài liệu quan trọng của bạn."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark vào các tệp {{FileFormatUp}}—lý tưởng cho tài liệu hợp pháp, tài chính và chính thức.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} là một API {{ProgLang}} để thêm watermark vào các tệp {{FileFormatUp}}. Tùy chỉnh văn bản, hình ảnh và vị trí của watermark của bạn để phù hợp với bất kỳ tài liệu nào. Sử dụng nó để đánh dấu các hợp đồng, báo cáo hoặc tài liệu bí mật và giữ cho các PDF của bạn an toàn và chuyên nghiệp. {{ProdShortName}} hỗ trợ độ trong suốt, xoay và xếp chồng cho watermark nâng cao."
+    },
+    "formats": {
+      "title": "Bảo vệ tệp {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark tùy chỉnh vào các tệp {{FileFormatUp}} trong {{ProgLang}} để bảo vệ các tài liệu nhạy cảm và chính thức của bạn."
+    }
+  },
+  "png": {
+    "head": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} cho bản quyền và bảo mật."
+    },
+    "header": {
+      "title": "Watermark {{ProgLang}} cho hình ảnh {{FileFormatUp}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark nâng cao vào hình ảnh {{FileFormatUp}}—tuyệt vời cho nghệ sĩ và nhà thiết kế.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}} là một bộ công cụ {{ProgLang}} để thêm watermark vào hình ảnh {{FileFormatUp}}. Thêm watermark trong suốt hoặc đặc, đặt chúng ở bất kỳ đâu và giữ cho hình ảnh của bạn an toàn khỏi việc sao chép. Với {{ProdShortName}}, bạn có thể sử dụng văn bản hoặc hình ảnh làm watermark và kiểm soát diện mạo của chúng cho các dự án cá nhân hoặc chuyên nghiệp."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark nhẹ nhàng hoặc nổi bật vào hình ảnh {{FileFormatUp}} cho bảo vệ bản quyền linh hoạt."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Watermark {{ProgLang}} cho tệp PowerPoint",
+      "description": "Thêm watermark động vào các tệp PowerPoint trong {{ProgLang}} để giữ cho các bài thuyết trình của bạn an toàn."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark tùy chỉnh vào các bài thuyết trình PowerPoint—tuyệt vời cho doanh nghiệp và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào các tệp PowerPoint (PPT) trong {{ProgLang}}. Thêm các dấu rõ ràng hoặc ẩn vào các trang của bạn và tùy chỉnh phong cách, kích thước và màu sắc của chúng. Tuyệt vời cho việc giữ an toàn cho các bài thuyết trình của bạn trong môi trường doanh nghiệp hoặc học đường, {{ProdShortName}} hoạt động với tất cả các phiên bản quan trọng của {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Bảo vệ tệp {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark nâng cao vào các tệp PowerPoint trong {{ProgLang}} để ngăn chặn việc lạm dụng và bảo vệ nội dung của bạn."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Bảo vệ các bài thuyết trình {{FileFormatUp}} của bạn bằng cách thêm watermark trong {{ProgLang}}."
+    },
+    "header": {
+      "title": "Watermark {{ProgLang}} nâng cao cho {{FileFormatUp}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark mạnh mẽ vào các tệp {{FileFormatUp}}—lý tưởng cho doanh nghiệp và giáo dục.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} là một giải pháp hoàn chỉnh {{ProgLang}} cho việc watermark các tệp {{FileFormatUp}}. Thêm văn bản, logo hoặc đồ họa làm watermark, và điều chỉnh độ trong suốt, kích thước và vị trí của chúng. Tuyệt vời cho bất kỳ ai cần bảo vệ bài thuyết trình của mình, {{ProdShortName}} giữ cho các trang trình bày của bạn an toàn và đẹp mắt."
+    },
+    "formats": {
+      "title": "Watermark {{ProgLang}} cho các tệp {{FileFormatUp}}",
+      "description": "Thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}} để giữ cho các bài thuyết trình của bạn an toàn khỏi việc chia sẻ hoặc sao chép."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Watermark {{ProgLang}} cho tài liệu {{FileFormatUp}}",
+      "description": "Thêm watermark vào các tệp {{FileFormatUp}} trong {{ProgLang}} để giữ cho tài liệu Word của bạn an toàn."
+    },
+    "header": {
+      "title": "Bảo vệ {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark bảo mật, tùy chỉnh vào các tệp {{FileFormatUp}}—tuyệt vời cho các tài liệu Word nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cung cấp cho bạn các công cụ nâng cao để thêm watermark vào tài liệu {{FileFormatUp}} trong {{ProgLang}}. Sử dụng các dấu rõ ràng hoặc trong suốt và điều chỉnh font, màu, kích thước và vị trí của chúng. Tuyệt vời cho các tệp hợp pháp, kinh doanh hoặc bí mật, {{ProdShortName}} giúp ngăn chặn việc sao chép và chỉnh sửa."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark mạnh mẽ và nhẹ nhàng vào các tệp {{FileFormatUp}} để tăng cường an ninh tài liệu."
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "Thêm Watermark {{ProgLang}} vào hình ảnh {{FileFormatUp}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark vào hình ảnh {{FileFormatUp}} và bảo vệ ảnh của bạn."
+    },
+    "header": {
+      "title": "Watermark nâng cao cho {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Thêm watermark chất lượng cao vào hình ảnh {{FileFormatUp}} trong {{ProgLang}}—tuyệt vời cho nhiếp ảnh gia và nhà lưu trữ.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} là một bộ công cụ {{ProgLang}} cho việc watermark hình ảnh {{FileFormatUp}}. Thêm watermark văn bản hoặc hình ảnh, điều chỉnh diện mạo của chúng và giữ cho hình ảnh độ phân giải cao của bạn an toàn. Với xử lý hàng loạt và định vị thông minh, {{ProdShortName}} là lựa chọn hoàn hảo cho bất kỳ ai cần bảo vệ nhiều hình ảnh cùng lúc."
+    },
+    "formats": {
+      "title": "Bảo vệ hình ảnh {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark tùy chỉnh vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} để ngăn chặn việc sao chép và giữ cho công việc của bạn an toàn."
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Tạo và thêm watermark vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} để bảo vệ tệp số của bạn."
+    },
+    "header": {
+      "title": "Tạo Watermark cho {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Thêm watermark mạnh mẽ, tùy chỉnh vào các tệp {{FileFormatUp}} trong {{ProgLang}}—lý tưởng cho các kho lưu trữ số và nhiếp ảnh gia.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} là một bộ công cụ {{ProgLang}} để thêm watermark vào các tệp TIFF. Chọn watermark văn bản hoặc hình ảnh, thiết lập độ trong suốt, kích thước và vị trí, và giữ cho hình ảnh của bạn an toàn. Với các tính năng như xếp chồng watermark và định dạng thông minh, {{ProdShortName}} là một công cụ cần thiết cho bất kỳ ai cần bảo vệ bộ sưu tập hình ảnh của họ."
+    },
+    "formats": {
+      "title": "Bảo vệ hình ảnh {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm và quản lý watermark trong các tệp {{FileFormatUp}} trong {{ProgLang}} để giữ cho hình ảnh của bạn an toàn và dưới sự kiểm soát của bạn."
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark vào hình ảnh {{FileFormatUp}} cho bảo vệ mạnh mẽ."
+    },
+    "header": {
+      "title": "Tạo Watermark cho {{FileFormatUp}} với {{ProgLang}}",
+      "description": "Thêm watermark tùy chỉnh vào các tệp {{FileFormatUp}} trong {{ProgLang}}—tuyệt vời cho nghệ sĩ và nhà sáng tạo nội dung.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào hình ảnh WEBP trong {{ProgLang}}. Sử dụng văn bản, logo hoặc chữ ký số và điều chỉnh diện mạo của chúng để phù hợp với nhu cầu của bạn. Tuyệt vời cho bất kỳ ai chia sẻ hình ảnh trực tuyến, {{ProdShortName}} giữ cho công việc của bạn an toàn và đẹp mắt."
+    },
+    "formats": {
+      "title": "Bảo vệ hình ảnh {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark nâng cao, tùy chỉnh vào hình ảnh {{FileFormatUp}} trong {{ProgLang}} để bảo vệ công việc sáng tạo của bạn."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm và quản lý watermark trong các tệp {{FileFormatUp}} nhằm nâng cao bảo mật Excel."
+    },
+    "header": {
+      "title": "Tạo Watermark {{ProgLang}} cho các tệp {{FileFormatUp}}",
+      "description": "Thêm watermark vào các bảng tính {{FileFormatUp}} trong {{ProgLang}}—tuyệt vời cho việc bảo vệ dữ liệu tài chính và cá nhân.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào các tệp XLS trong {{ProgLang}}. Sử dụng các dấu rõ ràng hoặc ẩn và tùy chỉnh diện mạo của chúng để phù hợp với nhu cầu của bạn. Tuyệt vời cho việc giữ an toàn dữ liệu tài chính hoặc thông tin khách hàng, {{ProdShortName}} hoạt động với tất cả các môi trường {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark tùy chỉnh vào các tệp {{FileFormatUp}} và giữ cho dữ liệu Excel của bạn an toàn."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark vào các tệp {{FileFormatUp}} và bảo vệ tài liệu Excel của bạn."
+    },
+    "header": {
+      "title": "Bảo vệ các trang {{FileFormatUp}} với Watermark {{ProgLang}}",
+      "description": "Thêm watermark tùy chỉnh vào các tệp {{FileFormatUp}} trong {{ProgLang}}—hoàn hảo cho doanh nghiệp và dữ liệu nhạy cảm.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Nhận miễn phí tại {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} là một giải pháp {{ProgLang}} cho việc thêm và quản lý watermark trong các tệp XLSX. Thêm watermark văn bản hoặc hình ảnh, tự động hóa watermark hóa dựa trên thuộc tính tệp, và giữ cho tài liệu Excel của bạn an toàn và chuyên nghiệp. {{ProdShortName}} hỗ trợ tất cả các tính năng hiện đại của {{ProgLang}}."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào {{FileFormatUp}} bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProgLang}} để thêm watermark bảo mật, nâng cao vào các tệp {{FileFormatUp}} và bảo vệ dữ liệu Excel của bạn."
+    }
+  }
+}

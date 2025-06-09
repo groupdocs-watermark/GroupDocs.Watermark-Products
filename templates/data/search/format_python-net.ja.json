@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}内のテキスト透かしを検索",
+    "comment_2": "{{FileFormatUp}}へのパスを使って{{TextWatermarker}}インスタンスを作成",
+    "comment_3": "透かしを見つけるために検索設定を使用",
+    "comment_4": "見つかった透かしの結果を処理"
+  },
+  "steps": {
+    "title": "{{ProgLang}}を使用して{{FileformatCap}}透かしを検出",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**を使用することで、さまざまなビジネス文書内の透かしを検出できます。このツールを{{ProgLang}}プロジェクトに追加して、透かし検出機能を有効にします。",
+      "step_1": "{{FileformatCap}}文書をファイルパス、ファイルストリーム、またはバイト配列を使用してロードするために、{{TextWatermarkerBold}}クラスを初期化します。これにより、透かし検索のためのファイルが準備されます。",
+      "step_2": "検索を絞り込むには、{{TextSearchCriteriaBold}}クラスを使用します。画像透かしの場合はサンプル画像を提供します。テキストの場合は、フォント、サイズ、色、または関連する属性の詳細を設定します。",
+      "step_3": "{{TextWatermarkerBold}}インスタンスから{{TextSearchBold}}メソッドを呼び出して検索を開始します。これにより、作業可能な見つかった透かし項目のリストが返されます。",
+      "step_4": "透かし項目のリストを使用して、必要に応じてそれらを削除または編集できます。たとえば、サイズやテキストを更新することが考えられます。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}}を使用した{{ProgLang}}での高度な透かし検出",
+    "description": "{{ProdShortName}} APIでの強力な透かし検索オプションを探索し、{{ProgLang}}プロジェクトでの使用に最適化されています。",
+    "image_description": "{{ProgLang}}透かし検索",
+    "feature_1": {
+      "title": "シンプルで迅速な透かし検出",
+      "content": "{{ProdShortName}}を使用して、{{ProgLang}}コード内で透かしを迅速に見つけます。スマート検索エンジンが透かしを簡単に特定します。"
+    },
+    "feature_2": {
+      "title": "正確に特定の透かしを見つける",
+      "content": "カラー、サイズ、または位置に基づいて透かしを見つけて、ファイルを保護します。{{ProdShortName}}を使えば、{{ProgLang}}で検索フィルターを簡単に設定できます。"
+    },
+    "feature_3": {
+      "title": "{{ProgLang}}ツールで完全な透かし管理",
+      "content": "{{ProdShortName}}を{{ProgLang}}アプリに追加して、透かしの検索、確認、使用状況の追跡ができます。監査、ブランディング、またはコンテンツ保護に最適です。"
+    },
+    "code_1": {
+      "title": "{{ProgLang}}サンプル：透かし検出の完全な流れ",
+      "content": "{{ProgLang}}での{{ProdShortName}}の使用方法を確認し、文書内で検索し、複数のフォーマットを扱い、複雑なフィルターを使用します。",
+      "comment_1": "{{ProgLang}}アプリを設定し、文書をロード",
+      "comment_2": "探す透かしの種類を定義",
+      "comment_3": "検索を実行し、透かしデータを収集",
+      "comment_4": "見つかった情報を使用して、削除やレビューなどの次のステップに進む"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}}ファイル内の隠れ透かしを検出",
+      "description": "{{ProdFullName}}を使用して文書内の見えない透かしを簡単に見つけます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}ファイル内の透かしを検出",
+      "description": "{{ProdFullName}}を使用して、隠れた透かしを素早く特定し管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}パッケージをダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は透かしの管理を支援します。PDF、Word、Excelなどのファイル内で透かしを作成、発見、編集、削除できます。{{ProdFullName}}を使用して{{ProgLang}}プロジェクトに透かしツールを追加しましょう。"
+    },
+    "formats": {
+      "title": "透かし検索に対応するファイル形式",
+      "description": "さまざまな文書タイプで透かしを素早く見つけて処理します。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}}文書内の隠れ透かしを見つける",
+      "description": "{{ProdFullName}}を使用してファイル内の隠れ透かしを簡単に検出します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}ファイル内の透かしを検出",
+      "description": "{{ProdFullName}}を使用して透かしを素早く特定し管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}パッケージを取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}の機能を探索",
+      "content": "{{ProdFullName}}は{{ProgLang}}向けの透かし作業に必要なすべてのツールを提供します。PDF、Word、Excelなどのフォーマットで透かしを追加、削除、および検出することができます。{{ProdFullName}}を使用してアプリに透かしのサポートを追加しましょう。"
+    },
+    "formats": {
+      "title": "多くの形式で透かしを管理",
+      "description": "さまざまなファイル形式全体で透かしを簡単に検出および管理します。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} PDF内の透かしを見つける",
+      "description": "{{ProdFullName}}を使用してPDF文書内の透かしを簡単に検出します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}} PDF内の透かしを素早く見つける",
+      "description": "{{ProdFullName}}を使用して隠れたPDF透かしをスキャンし管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}パッケージを取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は{{ProgLang}}で透かしを扱うのを簡単にします。PDF、Word文書、スプレッドシートなどのさまざまなファイルタイプで透かしを作成、検出、削除できます。{{ProgLang}}のワークフローに追加しましょう。"
+    },
+    "formats": {
+      "title": "さまざまなファイルタイプの透かしを見つける",
+      "description": "さまざまなファイル形式で透かしを簡単に見つけて対処できます。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{FileFormatUp}}プレゼンテーション内の透かしを検出",
+      "description": "{{ProdFullName}}を使用してプレゼンテーションファイル内の透かしを簡単に見つけます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}スライド内の透かしを素早く見つける",
+      "description": "{{ProdFullName}}を使用してプレゼンテーション内で透かしを簡単に検索して管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}から無料で取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}のすべて",
+      "content": "{{ProdFullName}}は{{ProgLang}}で透かしを管理するためのツールを提供します。PDF、Word、Excelなどと連携し、透かしを検索、作成、または削除することができます。{{ProdFullName}}を通じて、あなたの{{ProgLang}}アプリケーションで透かしを簡単に扱えます。"
+    },
+    "formats": {
+      "title": "すべての対応形式での透かしを検出",
+      "description": "多くの一般的な文書タイプで透かしを見つけて管理します。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{FileFormatUp}}スライド内の隠れ透かしを見つける",
+      "description": "{{ProdFullName}}を使用してプレゼンテーションファイル内の隠れ透かしを明らかにします。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}プレゼンテーション内の透かしを素早く検出",
+      "description": "{{ProdFullName}}を使って透かしを簡単に見つけて管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}からダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}の概要",
+      "content": "{{ProdFullName}}は{{ProgLang}}内で透かしを完全に管理する機能を提供します。PDF、Excel、Wordなど、多くのファイルタイプで動作し、{{ProgLang}}アプリに適切に統合します。"
+    },
+    "formats": {
+      "title": "すべてのファイルタイプで透かしを見つける",
+      "description": "{{ProdFullName}}を使用してさまざまな形式で透かしを簡単に検出します。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{FileFormatUp}}文書内の透かしを見つける",
+      "description": "{{ProdFullName}}を使用して文書内の透かしを迅速に検出します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}ファイル内の透かしを検出",
+      "description": "{{ProdFullName}}を使用して簡単に透かしを見つけ管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}パッケージを取得"
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}における透かしタスクを簡単にします。PDF、Word、Excelなどのさまざまなファイルで動作します。{{ProgLang}}アプリケーションで透かしを検索、編集、または削除するために使用してください。"
+    },
+    "formats": {
+      "title": "透かし検出に対応する形式",
+      "description": "{{ProdFullName}}を使用して多くの形式で透かしを見つけて管理します。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{FileFormatUp}}シート内の隠れ透かしを見つける",
+      "description": "{{ProdFullName}}を使用してスプレッドシートファイル内の透かしを迅速に検出します。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}シート内の透かしを検出して管理",
+      "description": "{{ProdFullName}}を使用して透かしを簡単に検索します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}からの無料ダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdShortName}}は{{ProgLang}}開発者が{{ProgLang}}で透かしを管理するのを支援します。Excel、Word、PDFなどの形式で透かしを編集、削除、または検出するためのツールを提供します。"
+    },
+    "formats": {
+      "title": "多くの形式での透かし検索",
+      "description": "さまざまな対応形式で透かしを見つけて管理します。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Excelファイル内の透かしを検出",
+      "description": "{{ProdFullName}}を使用してExcel文書内の隠れた透かしを迅速に見つけます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}スプレッドシート内の透かしを見つける",
+      "description": "{{ProdFullName}}を使用して透かしを簡単に検索および管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}からダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}には何ができるか？",
+      "content": "{{ProdFullName}}は{{ProgLang}}を使用して透かしを管理するのを簡単にします。PDF、Word、Excelなどのさまざまな形式で透かしを検出、更新、または削除できるようにあなたの{{ProgLang}}プロジェクトに追加しましょう。"
+    },
+    "formats": {
+      "title": "対応ファイルタイプでの透かしを検出",
+      "description": "{{ProdFullName}}を使用してさまざまな文書タイプで透かしを簡単に検出します。"
+    }
+  }
+}

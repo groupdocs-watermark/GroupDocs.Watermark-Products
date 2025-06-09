@@ -1,0 +1,204 @@
+{
+  "examples": {
+    "comment_1": "Perbarui watermark gambar dalam file {{FileFormatUp}}",
+    "comment_2": "Buat instance {{TextWatermarker}} dengan file input",
+    "comment_3": "Gunakan {{TextSearchCriteria}} untuk menemukan watermark berbasis gambar",
+    "comment_4": "Terapkan perubahan pada watermark gambar",
+    "comment_5": "Ekspor file {{FileFormatUp}} yang telah diperbarui"
+  },
+  "steps": {
+    "title": "Gunakan API {{ProgLang}} untuk Memodifikasi Watermark dalam Dokumen {{FileformatCap}}",
+    "content": {
+      "title": "Dengan **[{{ProdFullName}}]({{ProductUrl}})**, pengembang {{ProgLang}} dapat memodifikasi konten watermark dalam berbagai dokumen {{FileformatCap}}. Berikut adalah langkah cepat: ",
+      "step_1": "Mulailah dengan memuat dokumen {{FileformatCap}} menggunakan kelas {{TextWatermarkerBold}}, yang menerima jalur file, arus memori, atau array byte sebagai input.",
+      "step_2": "Buat objek {{TextSearchCriteriaBold}} untuk mencari elemen watermark yang ada dalam dokumen Anda, baik yang bersifat tekstual maupun grafis.",
+      "step_3": "Setelah teridentifikasi, alat ini memberikan koleksi instansi watermark yang cocok untuk diperbarui—sesuaikan parameter seperti warna, penyelarasan, font, atau bahkan data gambar yang disematkan.",
+      "step_4": "Selesaikan proses dengan menyimpan dokumen yang telah direvisi ke disk atau arus output yang didukung menggunakan metode simpan bawaan."
+    }
+  },
+  "more_features": {
+    "title": "Tingkatkan Produktivitas dengan Alat Watermarking Lanjutan",
+    "description": "Percepat branding dan perlindungan dokumen dalam {{ProgLang}} dengan API watermarking dinamis kami. Sisipkan, deteksi, modifikasi, atau hapus lapisan watermark dengan usaha minimal.",
+    "image_description": "Alur Kerja Pengeditan Watermark Lanjutan",
+    "feature_1": {
+      "title": "Kontrol Watermark Terintegrasi",
+      "content": "Bawa kontrol siklus hidup watermark penuh ke aplikasi {{ProgLang}} Anda menggunakan {{ProdFullName}}. Hindari tugas berulang dengan mengotomatiskan pengaturan, pembaruan, dan penghapusan watermark."
+    },
+    "feature_2": {
+      "title": "Penyetelan Presisi Atribut Watermark",
+      "content": "Ambil kontrol penuh atas estetika watermark—ubah ukuran, warna, putar, atau posisikan kembali sesuai kebutuhan visual menggunakan antarmuka API fleksibel kami."
+    },
+    "feature_3": {
+      "title": "Manfaatkan Fitur Format Asli",
+      "content": "Beradaptasi dengan format file apa pun dengan menyematkan watermark ke dalam header, footer, anotasi, atau latar belakang. API kami menghormati struktur asli untuk integrasi optimal."
+    },
+    "code_1": {
+      "title": "Memodifikasi Watermark dalam File PDF",
+      "content": "Menunjukkan cara mengubah properti watermark dalam dokumen PDF.",
+      "comment_1": "Buka file PDF",
+      "comment_2": "Baca konten watermark",
+      "comment_3": "Terapkan pembaruan watermark",
+      "comment_4": "Simpan hasil yang telah diedit"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Modifikasi Watermark dalam File {{FileformatCap}} dengan Percaya Diri",
+      "description": "Dengan API {{ProdFullName}}, buat perubahan tepat pada watermark {{FileformatCap}} sambil mempertahankan tata letak dan branding."
+    },
+    "header": {
+      "title": "Perbarui Watermark dalam File {{FileformatCap}} Menggunakan {{ProgLang}}",
+      "description": "Tingkatkan dan lindungi file Anda dengan pengeditan watermark yang mulus menggunakan API {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Dapatkan versi terbaru dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Platform",
+      "content": "**Pengeditan Watermark Jadi Mudah:** Gunakan {{ProdFullName}} untuk menyederhanakan manajemen watermark dalam file {{FileformatCap}} di seluruh aplikasi {{ProgLang}} Anda."
+    },
+    "formats": {
+      "title": "Pengeditan Watermark Lintas Format",
+      "description": "Dengan mudah memodifikasi watermark dalam berbagai jenis dokumen menggunakan API {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Pengeditan Watermark Kustom dalam File {{FileformatCap}}",
+      "description": "Sesuaikan konten watermark dalam file {{FileformatCap}} dengan alat {{ProdFullName}} untuk memenuhi kebutuhan branding."
+    },
+    "header": {
+      "title": "Sesuaikan Watermark {{FileformatCap}} dalam Proyek {{ProgLang}} Anda",
+      "description": "Edit dan kelola watermark di berbagai jenis dokumen dengan mudah menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} API Suite",
+      "action_title": "Akses melalui {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Alat Watermark yang Fleksibel:** Sesuaikan dan personalkan watermark di berbagai format menggunakan {{ProdFullName}} dalam alur kerja {{ProgLang}} Anda."
+    },
+    "formats": {
+      "title": "Kontrol Watermark untuk Format Lain",
+      "description": "Manfaatkan alat pengeditan watermark yang konsisten di semua jenis file yang didukung menggunakan {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Pengeditan Watermark Tepat dalam {{FileformatCap}} Menggunakan {{ProdShortName}}",
+      "description": "Gunakan {{ProdFullName}} untuk memodifikasi konten watermark dalam dokumen {{FileformatCap}} secara efisien."
+    },
+    "header": {
+      "title": "Edit Watermark {{FileformatCap}} dengan Lancar Menggunakan Alat {{ProgLang}}",
+      "description": "Sesuaikan watermark dalam PDF dan lebih dari itu dengan toolkit pengembangan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Tools",
+      "action_title": "Coba gratis dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Tools",
+      "content": "**Perbarui Watermark dalam Dokumen PDF:** Manfaatkan kerangka kerja {{ProdFullName}} untuk mengatur watermark sambil mempertahankan format profesional."
+    },
+    "formats": {
+      "title": "Penyesuaian Watermark dalam Berbagai Format",
+      "description": "Nikmati dukungan luas untuk watermarking menggunakan API {{ProdFullName}} yang andal."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Pengeditan Watermark {{FileformatCap}} yang Cepat dan Akurat",
+      "description": "Percepat pengeditan watermark Anda dalam file {{FileformatCap}} menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Pengeditan Watermark Lanjutan untuk {{FileformatCap}} dengan Kekuatan {{ProgLang}}",
+      "description": "Lindungi dan personalkan slide menggunakan API {{ProdFullName}} yang mudah diintegrasikan.",
+      "subtitle": "{{ProdFullName}} Library",
+      "action_title": "Unduh melalui {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Library",
+      "content": "**Penyesuaian Watermark yang Cepat:** Lakukan perubahan waktu nyata pada watermark dalam dokumen {{FileformatCap}} menggunakan alat yang kompatibel dengan {{ProgLang}} kami."
+    },
+    "formats": {
+      "title": "Dukungan Watermark Multi-Format",
+      "description": "Terapkan alur kerja watermarking serupa di berbagai jenis dokumen menggunakan {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Solusi Watermark Kustom untuk {{FileformatCap}}",
+      "description": "Modifikasi watermark {{FileformatCap}} sesuai dengan kebutuhan bisnis Anda menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Watermark {{FileformatCap}} yang Dapat Disesuaikan dalam {{ProgLang}}",
+      "description": "Tingkatkan fitur watermark di seluruh file bisnis Anda dengan menggunakan {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Akses paket dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**Kontrol Watermark yang Disesuaikan:** Sesuaikan penempatan, gaya, dan visibilitas watermark sesuai kebutuhan alur kerja Anda menggunakan {{ProdFullName}}."
+    },
+    "formats": {
+      "title": "Pengeditan Watermark Kustom di Berbagai Format",
+      "description": "Edit watermark di berbagai format dengan penyesuaian yang terarah menggunakan {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Penanganan Watermark Profesional dalam Dokumen {{FileformatCap}}",
+      "description": "Bangun branding yang bersih dan konsisten ke dalam dokumen {{FileformatCap}} Anda menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Pengeditan Watermark {{FileformatCap}} yang Halus untuk Proyek {{ProgLang}}",
+      "description": "Sajikan pengalaman dokumen yang bermerek dan dipoles dengan alat watermarking {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "Dapatkan di {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**Integrasi Watermark Berkualitas Tinggi:** Pastikan pengeditan watermark yang bersih dan branding dengan alat {{ProdFullName}} untuk {{FileformatCap}}."
+    },
+    "formats": {
+      "title": "Solusi Branding Lintas Format",
+      "description": "Pertahankan konsistensi gaya di seluruh jenis file menggunakan alat manajemen watermark fleksibel kami."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Revisi Watermark {{FileformatCap}} yang Efisien",
+      "description": "Tingkatkan perlindungan data dengan mengedit watermark {{FileformatCap}} menggunakan {{ProdShortName}} untuk {{ProgLang}}."
+    },
+    "header": {
+      "title": "Pengeditan Watermark {{FileformatCap}} yang Dioptimalkan untuk Proyek {{ProgLang}}",
+      "description": "Tingkatkan kejelasan konten dan branding menggunakan kemampuan watermark {{ProdShortName}}.",
+      "subtitle": "{{ProdFullName}} Suite",
+      "action_title": "Akses gratis melalui {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} SDK",
+      "content": "**Tingkatkan Watermark Spreadsheet:** Tingkatkan kepercayaan konten dan visibilitas merek dalam spreadsheet menggunakan alat watermark {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Watermark Seragam untuk Format Lain",
+      "description": "Perluas kemampuan watermark ke semua format yang didukung menggunakan {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Pengeditan Watermark yang Percaya Diri dalam Dokumen {{FileformatCap}}",
+      "description": "Pastikan keamanan konten dan kualitas profesional dengan kontrol watermark dalam {{FileformatCap}} menggunakan {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Pembaruan Watermark {{FileformatCap}} yang Aman dan Sederhana dalam {{ProgLang}}",
+      "description": "Memberdayakan proyek {{ProgLang}} Anda dengan pengeditan watermark yang aman dan dapat diandalkan yang didukung oleh {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}} Library",
+      "action_title": "Ambil dari {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Suite",
+      "content": "**Kustomisasi Watermark untuk Spreadsheet:** Kelola visibilitas dan gaya watermark dengan percaya diri di seluruh file {{FileformatCap}} menggunakan {{ProdShortName}}."
+    },
+    "formats": {
+      "title": "Alat Watermark Lintas Tipe",
+      "description": "Lindungi dan satukan branding di seluruh jenis dokumen menggunakan komponen {{ProdFullName}}."
+    }
+  }
+}

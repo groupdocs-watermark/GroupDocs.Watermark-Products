@@ -1,0 +1,323 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}ファイルに画像の透かしを追加する",
+    "comment_2": "{{TextWatermarker}}のコンストラクタにファイルパスを渡す",
+    "comment_3": "画像ファイルを使用して画像の透かしを作成する",
+    "comment_4": "透かし付きの{{FileFormatUp}}ファイルを保存する"
+  },
+  "steps": {
+    "title": "{{FileformatCap}}ファイルに透かしを素早く追加する",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}}):** あなたの文書に透かしを追加する強力な{{ProgLang}}ライブラリです。",
+      "step_1": "**メインクラス: Watermarker.** 最初に、{{TextWatermarkerBold}}オブジェクトを作成します。{{FileformatCap}}ファイルをファイルパスまたはストリームとして渡して開始します。",
+      "step_2": "**透かしを作成する.** 次に、必要なタイプのWatermarkオブジェクトを作成します。任意のページや画像、ヘッダーなどの文書要素に配置できます。",
+      "step_3": "**外観を調整する.** 透かしのサイズ、位置、フォント、色を設定してニーズに合わせます。",
+      "step_4": "**追加して保存する.** {{TextWatermarkerBold}}メソッドを使用して透かしを挿入します。必要なだけ追加し、好きな場所にファイルを保存します。"
+    }
+  },
+  "more_features": {
+    "title": "さらなる透かし機能を発見する",
+    "description": "{{ProdFullName}}は、さまざまなファイルタイプで透かしを追加しカスタマイズするための高度なオプションを提供します。柔軟で使いやすい機能で文書や画像を保護します。",
+    "image_description": "オールインワン透かし機能",
+    "feature_1": {
+      "title": "全ページタイル",
+      "content": "タイル状の透かしで文書全体を覆います。これにより、透かしを削除しにくくし、レイアウトを損なうことなくファイルを保護します。"
+    },
+    "feature_2": {
+      "title": "カスタムカラー",
+      "content": "ブランドや文書スタイルに合わせて任意の色を選択できます。透かしを目立たせたり、必要に応じてなじませたりできます。"
+    },
+    "feature_3": {
+      "title": "追加のセキュリティオプション",
+      "content": "レイヤー透かしで文書のセキュリティを強化します。目に見えるマークと隠されたマークを組み合わせてコピーを防止し、適切な人だけがファイルにアクセスできるようにします。"
+    },
+    "code_1": {
+      "title": "PowerPointに透かしを追加する",
+      "content": "このサンプルはPPTXスライドの背景に透かしを追加する方法を示しています。",
+      "comment_1": "PPTXファイルを開く",
+      "comment_2": "透かしの詳細を設定",
+      "comment_3": "スライドの背景に透かしを適用",
+      "comment_4": "更新したプレゼンテーションを保存"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}ファイルの透かし",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに透かしを追加し、Word文書を安全かつ整理された状態に保ちます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}透かしによる{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}を使って{{FileFormatUp}}ファイルに安全な透かしを追加します。法的、ビジネス、機密なWord文書に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}を使って、{{ProgLang}}で{{FileFormatUp}}ファイルに透かしを追加できます。透かしをテキストまたは画像として挿入し、透明度、色、位置を調整し、日付、ロゴ、機密印刷の詳細などを含めることができます。このツールは法的、ビジネス、およびセンシティブな文書に最適で、{{ProgLang}}環境でスムーズに動作します。{{ProdShortName}}はWordファイルを安全かつ本物に保つ信頼できる方法です。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}のWordファイルに対する透かし",
+      "description": "{{ProgLang}}を用いて{{FileFormatUp}}ファイルにカスタム透かしを追加し、Word文書を保護および検証します。"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}ファイルの透かし",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに透かしを追加し、Word文書を安全に保ちます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}透かしによる{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに高度な透かし機能を適用します。どの業界でもWord文書を保護するために最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{FileFormatUp}}ファイルに強力な透かし機能を提供します。透かしを自由にスケーリング、移動、ブレンドできるようにします。法的、ビジネス、機密ファイルに使用でき、テキストまたは画像の透かしを自由に選んで配置できます。{{ProdShortName}}は最新の{{ProgLang}}機能に対応しており、最高レベルの文書保護を実現します。"
+    },
+    "formats": {
+      "title": "{{FileFormatUp}}に対する{{ProgLang}}による透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに安全でカスタムな透かしを追加し、文書の安全性と著作権の管理を向上させます。"
+    }
+  },
+  "jpeg": {
+    "head": {
+      "title": "{{FileFormatUp}}画像を{{ProgLang}}透かしで保護する",
+      "description": "{{ProgLang}}で{{FileFormatUp}}画像に透かしを追加し、写真を安全に保ちます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の高度な透かし",
+      "description": "{{ProgLang}}を使って、{{FileFormatUp}}画像に柔軟で安全な透かしを追加します。アーティストや写真家に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}で{{FileFormatUp}}画像に透かしを追加するためのツールを提供します。テキスト、ロゴ、またはパターンを追加し、透かしがぴったり合うように外観を調整します。オンラインで画像を保護したい方にとって、{{ProdShortName}}は高画質を損なうことなく作品を守ります。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}の{{FileFormatUp}}画像への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像で透かしを追加、管理し、デジタルコンテンツを保護します。"
+    }
+  },
+  "jpg": {
+    "head": {
+      "title": "{{ProgLang}}の{{FileFormatUp}}画像に透かしを追加",
+      "description": "{{ProgLang}}で{{FileFormatUp}}の画像に透かしを追加し、デジタル写真を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}画像の保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像に強力な透かしを追加します。著作権や所有権に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}でJPG画像に透かしを追加することを可能にします。テキスト、ロゴ、またはグラフィックを画像の任意の場所に配置し、外観をニーズに合わせて調整します。個人またはビジネス用途での写真を保護するために、{{ProdShortName}}を使用して画像を安全に保ちましょう。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使って、{{FileFormatUp}}画像に可視または隠れた透かしを追加し、セキュアで認識可能なコンテンツを提供します。"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}文書の透かし",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに透かしを追加し、重要な文書を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに透かしを追加します。法的、財務、公式文書に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は{{ProgLang}}のAPIで、{{FileFormatUp}}ファイルに透かしを追加します。透かしのテキスト、画像、配置をカスタマイズして任意の文書に対応できます。契約書、報告書、または機密文書を印付けるために使用し、PDFを安全かつプロフェッショナルに保ちましょう。{{ProdShortName}}は透明度、回転、およびレイヤー機能に対応し、先進的な透かし機能を提供します。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}透かしによる{{FileFormatUp}}ファイルの保護",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルにカスタム透かしを追加し、機密かつ公式な文書を保護します。"
+    }
+  },
+  "png": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}で{{FileFormatUp}}画像に透かしを追加し、著作権およびセキュリティを維持します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}の{{FileFormatUp}}画像への透かし",
+      "description": "{{ProgLang}}を使用して、{{FileFormatUp}}画像に高度な透かしを追加します。アーティストやデザイナーに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdShortName}}は{{ProgLang}}のツールキットで、{{FileFormatUp}}画像に透かしを追加します。透明または不透明な透かしを追加し、任意の位置に配置して、コピーから保護します。{{ProdShortName}}を使用すると、テキストまたは画像を透かしとして使用し、個人またはプロジェクトのニーズに応じて外観をコントロールできます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像に微細または大胆な透かしを追加し、柔軟な著作権保護を提供します。"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "{{ProgLang}}によるPowerPointファイルの透かし",
+      "description": "{{ProgLang}}でPowerPointファイルに動的な透かしを追加し、プレゼンテーションを保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}を使ってPowerPointプレゼンテーションにカスタム透かしを追加します。ビジネスや教育に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}でPowerPoint（PPT）ファイルに透かしを追加できるツールです。スライドに目に見えるまたは隠れたマークを追加し、そのスタイル、サイズ、色をカスタマイズします。ビジネスや学校でプレゼンテーションを安全に保つために最適で、{{ProdShortName}}はすべての主要な{{ProgLang}}バージョンで動作します。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}ファイルの保護",
+      "description": "{{ProgLang}}でPowerPointファイルに高度な透かしを追加し、不正使用を防ぎ、コンテンツを保護します。"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}ファイルに透かしを追加",
+      "description": "{{ProgLang}}で透かしを追加して{{FileFormatUp}}プレゼンテーションを保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の高度な透かし",
+      "description": "{{ProgLang}}を使って{{FileFormatUp}}ファイルに強力な透かしを追加します。ビジネスや教育に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{FileFormatUp}}ファイルに透かしを追加するための完全な{{ProgLang}}ソリューションです。透かしをテキスト、ロゴ、またはグラフィックとして追加し、透明度、サイズ、位置を調整します。プレゼンテーションを保護したい方に最適で、{{ProdShortName}}はスライドを安全に保ち、見映えも良くします。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}ファイルへの透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに透かしを追加し、プレゼンテーションを共有やコピーから保護します。"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}文書の透かし",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに透かしを追加し、Word文書を安全に保ちます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の保護",
+      "description": "{{ProgLang}}で安全でカスタムな透かしを{{FileFormatUp}}ファイルに追加することができます。機密のWord文書に最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}で{{FileFormatUp}}文書に透かしを追加するための高度なツールを提供します。見えるまたは透明なマークを使用し、それらのフォント、色、サイズ、位置を調整します。法的、ビジネス、機密ファイルに最適で、{{ProdShortName}}はコピーや編集を防ぎます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して強力または微細な透かしを{{FileFormatUp}}ファイルに追加し、文書のセキュリティを向上させます。"
+    }
+  },
+  "tif": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}画像への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像に透かしを追加し、写真を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の高度な透かし",
+      "description": "{{ProgLang}}で{{FileFormatUp}}画像に高品質な透かしを追加します。フォトグラファーやアーカイビストに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}で{{FileFormatUp}}画像に透かしを追加するためのツールキットです。テキストまたは画像の透かしを追加し、その外観を調整して高解像度の画像を安全に保ちます。バッチ処理とスマート配置により、物理的な画像を守る必要がある人々に最適です。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}画像の保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像にカスタム透かしを追加し、コピーを防ぎ、作品を安全に保ちます。"
+    }
+  },
+  "tiff": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像に透かしを追加し、デジタルファイルを保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の透かし作成",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルに強力なカスタム透かしを追加します。デジタルアーカイブやフォトグラファーに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、TIFFファイルに透かしを追加するための{{ProgLang}}ツールキットです。テキストまたは画像の透かしを選択し、透明度、サイズ、および位置を設定し、画像を安全に保ちます。透かしのレイヤリングやスマートフォーマッティングなどの機能を利用すれば、画像コレクションを保護する必要がある人々には欠かせません。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}画像の保護",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに透かしを追加および管理し、画像を安全に保ち、コントロール下に置きます。"
+    }
+  },
+  "webp": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}画像に透かしを追加し、強力な保護を提供します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}の透かし作成",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルにカスタム透かしを追加します。アーティストやコンテンツクリエイターに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}を使用して、{{ProgLang}}でWEBP画像に透かしを追加します。テキスト、ロゴ、またはデジタル署名を使用し、ニーズに合った外観を調整します。オンラインで画像を共有する方には最適で、{{ProdShortName}}は作品を安全に保ち、素晴らしい見た目を保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}画像の保護",
+      "description": "{{ProgLang}}を使って{{FileFormatUp}}画像に高度でカスタムな透かしを追加し、創造的な作品を保護します。"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに透かしを追加および管理し、Excelのセキュリティを高めます。"
+    },
+    "header": {
+      "title": "{{FileFormatUp}}ファイルのための{{ProgLang}}透かし作成",
+      "description": "{{ProgLang}}で{{FileFormatUp}}スプレッドシートに透かしを追加します。財務情報や個人データを保護するのに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}を使用して、{{ProgLang}}でXLSファイルに透かしを追加できます。目に見えるまたは隠れたマークを使用し、その外観をカスタマイズしてニーズに合わせます。財務またはクライアントのデータを安全に保つために、{{ProdShortName}}はすべての{{ProgLang}}環境で動作します。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して適切な透かしを追加し、Excelデータを安全に保ちます。"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに透かしを追加し、Excel文書を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}が提供する{{FileFormatUp}}シートの保護",
+      "description": "{{ProgLang}}で{{FileFormatUp}}ファイルにカスタム透かしを追加します。ビジネスおよび機密データに最適です。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料で入手"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、XLSXファイルに透かしを追加および管理するための{{ProgLang}}ソリューションです。テキストまたは画像の透かしを追加し、ファイルのプロパティに基づいて透かしを自動化し、Excel文書を安全かつプロフェッショナルに保ちます。{{ProdShortName}}はすべての最新の{{ProgLang}}機能をサポートしています。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}による{{FileFormatUp}}への透かし",
+      "description": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルに安全で高度な透かしを追加し、Excelデータを保護します。"
+    }
+  }
+}

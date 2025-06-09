@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}ファイルにテキスト透かしを追加",
+    "comment_2": "透かしを追加したいファイルを選択",
+    "comment_3": "テキスト透かしオブジェクトを作成",
+    "comment_4": "更新した{{FileFormatUp}}ファイルを保存"
+  },
+  "steps": {
+    "title": "{{ProgLang}}を使った透かしの追加: {{FileformatCap}}向けの手順",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**は、さまざまなビジネスファイルタイプに透かしを追加するためのライブラリです。{{ProgLang}}で文書に透かしを迅速に追加するための手順は次のとおりです。",
+      "step_1": "**透かしの開始:** {{TextWatermarkerBold}}クラスのインスタンスを作成します。透かしを追加するために、{{FileformatCap}}ファイルのパスまたはストリームをコンストラクタに渡して開きます。",
+      "step_2": "**透かしを作成:** 希望のテキストと設定を持つ{{TextWatermarkBold}}オブジェクトを作成します。任意のページや文書要素（ヘッダーや付属文書など）に透かしを追加できます。",
+      "step_3": "**透かしをカスタマイズ:** 必要に応じて透かしのサイズ、位置、フォント、色、整列を調整します。これにより、文書内で透かしがちょうどよく見えるようになります。",
+      "step_4": "**適用して保存:** {{TextWatermarkerBold}}メソッドを使用して、文書に透かしを追加します。結果を保存する際は、安全のため新しいファイルに保存することをお勧めします。"
+    }
+  },
+  "more_features": {
+    "title": "透かし機能をさらに探る",
+    "description": "{{ProgLang}} APIを使用して、文書、スライド、図面などの透かしを追加、表示、変換、管理します。{{ProdFullName}}は、ファイルを保護し、著作権情報を簡単に追加します。",
+    "image_description": "透かしの追加",
+    "feature_1": {
+      "title": "簡単に透かしを追加",
+      "content": "{{ProdShortName}}は、{{ProgLang}}開発者がビジネス文書にテキスト、画像、または動的透かしを迅速に追加できるようにします。最小限の労力でファイルを安全に保ち、ブランドを維持できます。"
+    },
+    "feature_2": {
+      "title": "完全にカスタマイズ可能な透かし",
+      "content": "{{ProdShortName}}を使用して、透かしのサイズ、回転、透明度、色、フォントを変更できます。文書に完璧に合うように透かしを調整し、重要なコンテンツを鮮明に保ちます。"
+    },
+    "feature_3": {
+      "title": "文書機能を利用した透かし",
+      "content": "PDF注釈、Wordの背景、Excelのヘッダーなど、組み込みの文書機能を活用して透かしを追加してください。{{ProdShortName}}は文書の構造と連携し、効果的で非侵害的な透かしを提供します。"
+    },
+    "code_1": {
+      "title": "DOCXに画像透かしを追加",
+      "content": "この例では、シェイプ透かしに画像効果を適用する方法を示します。",
+      "comment_1": "Word文書を開く",
+      "comment_2": "透かしオプションを設定",
+      "comment_3": "透かしを作成",
+      "comment_4": "透かし付きの文書を保存"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "Excelファイルに透かしを追加",
+      "description": "{{ProgLang}}を使用してExcelファイルに画像透かしを自動的に追加します。多くのファイルを一度に処理し、一貫した保護を提供します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}でExcelに透かしを追加",
+      "description": "{{ProgLang}}を使用してExcelファイルにテキストまたは画像透かしを簡単に追加できます。私たちのガイドで、最小限の手作業でスプレッドシートを専門的かつ安全に保つ方法を示します。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "無料で{{PackageStoreName}}をダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}ライブラリ",
+      "content": "{{ProdFullName}}を使用すると、{{ProgLang}}でExcelスプレッドシートに透かしを追加できます。異なる透かしタイプを使用し、不透明度、回転、整列をカスタマイズできます。このライブラリは、既存の透かしを見つけて管理するのにも役立ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}でExcelにテキストおよび画像透かしを追加",
+      "description": "{{ProdShortName}}を使用して、Excelファイルにカスタム透かしを迅速に追加します。柔軟な透かしツールで文書のセキュリティとブランドを向上させます。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Word文書に透かしを追加",
+      "description": "ブランドとコンテンツを保護するために、Wordファイルに透かしを簡単に追加できます。"
+    },
+    "header": {
+      "title": "{{ProgLang}}を使用したWordとOpenOfficeでの透かしの作成",
+      "description": "私たちの{{ProgLang}}ライブラリを使用して、Word文書に透かしを追加します。ブランドまたはセキュリティニーズに応じてカスタマイズできます。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}をダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}でMicrosoft Word文書にテキストと画像の透かしを簡単に追加します。透かしを正確な位置に配置でき、DOC、DOCX、およびRTFファイルに対応しています。透かしはコンテンツに溶け込み、文書を読みやすくかつ安全に保ちます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}を使用したWordとOpenOfficeファイルの透かし",
+      "description": "私たちの{{ProgLang}} APIを使用して、WordおよびOpenOffice文書にプロフェッショナルな透かしを追加します。ファイルを保護し、素晴らしい外観を保ちました。"
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}で画像に透かしを追加",
+      "description": "{{ProgLang}}で画像に透かしを追加する方法を学びます。画質を損なうことなく写真を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}での迅速な画像透かし",
+      "description": "私たちの{{ProgLang}}ツールを使用すれば、画像に迅速に透かしを追加できます。写真からデジタルアートまで多くのフォーマットに対応。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}をダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}で画像に透かしを追加するのに役立ちます。JPEG、PNG、BMP、TIFFなどをサポート。透かしの不透明度、サイズ、位置を自由に変更し、ニーズに合わせて調整できます。これを使用して、画像を保護したり、ブランディングを追加したりしながら、元の品質を保ってください。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}で画像に透かしを追加",
+      "description": "私たちの{{ProgLang}}ツールキットを使用して、画像フォーマットに迅速かつ簡単に透かしを追加します。"
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "写真に簡単に透かしを追加",
+      "description": "{{ProgLang}}で写真に透かしを追加し、自作品と著作権を保護します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}での迅速な写真透かし",
+      "description": "私たちの{{ProgLang}}ライブラリを使用して、写真に迅速に透かしを追加します。著作権とブランドを保護し、画質を損なうことなく。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}をダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、制作物を保護したい写真家に最適です。JPEG、PNG、RAWなどのフォーマットでテキストまたは画像透かしを追加します。透過性、サイズ、位置を調整して、透かしが完璧にフィットし、写真が美しく見えるようにします。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}を使用して写真を保護する透かし",
+      "description": "私たちの{{ProgLang}} APIを使用して、写真にカスタム透かしを追加します。画像を安全に保ち、プロフェッショナルに見せます。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "プレゼンテーションに透かしを追加",
+      "description": "PowerPointスライドに透かしを簡単に追加して、追加のセキュリティを確保します。"
+    },
+    "header": {
+      "title": "{{ProgLang}}でのプレゼンテーション用の高度な透かし",
+      "description": "私たちの{{ProgLang}} APIを使用して、PowerPointスライドにテキストと画像の透かしを追加します。プレゼンテーションを安全かつプロフェッショナルに保つのに最適。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "無料で{{PackageStoreName}}をダウンロード"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}は、{{ProgLang}}でPowerPointプレゼンテーションに高度な透かしを追加することができます。機密情報を保護したり、スライドに会社のロゴを追加したりできます。単独のスライドまたは全体のプレゼンテーションに透かしを追加でき、見た目や表示位置を調整できます。"
+    },
+    "formats": {
+      "title": "{{ProgLang}}を使用してプレゼンテーションに透かし",
+      "description": "私たちの{{ProgLang}}ツールキットを使用して、PowerPointファイルに素早く透かしを追加します。スライドを安全に保ち、シャープな外観を維持します。"
+    }
+  }
+}

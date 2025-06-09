@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}形式のテキスト透かしを検出する",
+    "comment_2": "{{FileFormatUp}}ファイルで{{TextWatermarker}}を初期化する",
+    "comment_3": "透かし検索を実行する",
+    "comment_4": "検出された透かしのリストを処理する"
+  },
+  "steps": {
+    "title": "{{ProgLang}}を使用して{{FileformatCap}}ファイル内の透かしを検出する方法",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**を使用することで、ビジネス文書内の埋め込まれた透かしを簡単に特定できます。その機能を{{ProgLang}}のワークフローに統合して、シームレスに検出しましょう。",
+      "step_1": "{{TextWatermarkerBold}}クラスのインスタンスに{{FileformatCap}}文書を読み込むことから始めます。入力としてパス、ストリーム、またはバイト配列を受け付けます。",
+      "step_2": "{{TextSearchCriteriaBold}}オブジェクトを使用して検索を絞り込みます。画像ベースの透かしを見つけるには、サンプル画像を使用します。テキストの場合は、コンテンツ、スタイル、または色などの特性を指定します。",
+      "step_3": "{{TextWatermarkerBold}}オブジェクトから{{TextSearchBold}}メソッドを呼び出して、透かしデータを抽出します。調査のために透かしインスタンスのコレクションが返されます。",
+      "step_4": "取得後、結果を管理できます：不要なマークを削除したり、サイズやメッセージ内容などの詳細を更新できます。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}}による強力な透かし検出",
+    "description": "{{ProgLang}}プロジェクトに{{ProdShortName}}を使用して、さまざまな文書タイプ内の透かし要素を効率的にスキャンして特定します。",
+    "image_description": "透かしを検出する",
+    "feature_1": {
+      "title": "スマートフィルターによる高度な検出",
+      "content": "幅広い文書形式で透かしを特定できます。{{ProdShortName}}は、形状、透明度などの視覚的およびテキスト的特性によるフィルタリングをサポートしています。"
+    },
+    "feature_2": {
+      "title": "検索のための柔軟な基準",
+      "content": "{{ProdShortName}}を使用してカスタマイズされた透かし検索パラメータを定義します。この精密さにより、隠されたりカスタマイズされた透かしデータのターゲット取得が可能になります。"
+    },
+    "feature_3": {
+      "title": "検出された透かしのアクセスと整理",
+      "content": "すべての埋め込まれた透かしを取得することで文書監査を簡素化します。当社のツールは、発見したアイテムの効率的な抽出、表示、および管理を可能にします。"
+    },
+    "code_1": {
+      "title": "コード例：透かしを検出する",
+      "content": "{{ProdShortName}}を使用して柔軟な検出ルールで埋め込まれた透かしコンテンツを文書内で検索する方法を見てみましょう。",
+      "comment_1": "ディスクまたはストリームからターゲット文書を開く",
+      "comment_2": "検索に使用する具体的な透かしの属性を定義する",
+      "comment_3": "検索を実行し、一致を収集する",
+      "comment_4": "見つかった結果を操作してあらゆるアクションを行う"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "{{FileformatCap}}スプレッドシート内の隠れた透かしを検出する",
+      "description": "{{ProdShortName}}を使用して、スプレッドシートファイル内の隠れたマークを迅速かつ正確に明らかにします。"
+    },
+    "header": {
+      "title": "{{FileformatCap}}スプレッドシート内の透かしをすぐに特定する",
+      "description": "{{ProdFullName}}を使用して透かしをシームレスに特定し、管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "今すぐ{{PackageStoreName}}をダウンロード - 無料です"
+    },
+    "about": {
+      "title": "{{ProdFullName}}の概要",
+      "content": "{{ProdFullName}}は、{{ProgLang}}開発者向けのフル機能の透かしツールキットを提供します。Excel、Word、PDFなどの文書から透かしコンテンツを生成、変更、検出、削除するのに最小限の労力で実現します。"
+    },
+    "formats": {
+      "title": "マルチフォーマット透かし検索",
+      "description": "{{ProdShortName}}がサポートするすべてのファイルタイプにわたる透かしコンテンツを特定します。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}}文書内の隠れた透かしを特定する",
+      "description": "{{ProdShortName}}を使用して文書内の隠れた透かしを検索します。"
+    },
+    "header": {
+      "title": "{{FileformatCap}}ドキュメント内の透かしを迅速に明らかにする",
+      "description": "{{ProdFullName}}を使用して隠れた透かしコンテンツを表示および確認します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料"
+    },
+    "about": {
+      "title": "{{ProdFullName}}について",
+      "content": "{{ProdFullName}}は、{{ProgLang}}での透かし操作を行うための強力なユーティリティです。透かしを追加、削除、または検索する場合に、DOCX、XLSX、PDFなどの形式をサポートします。"
+    },
+    "formats": {
+      "title": "クロスフォーマット検出機能",
+      "description": "広く使用されているファイルタイプでの透かし分析をサポートしています。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{FileformatCap}}プレゼンテーション内の隠れたマークを検出する",
+      "description": "{{ProdShortName}}を使用してプレゼンテーションスライド内の隠れた透かしを簡単に検出します。"
+    },
+    "header": {
+      "title": "{{FileformatCap}}プレゼンテーション内の透かしを明らかにする",
+      "description": "{{ProdFullName}}の信頼できる機能を使ってスライドデッキ内の透かし要素を管理します。",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}で無料トライアルあり"
+    },
+    "about": {
+      "title": "{{ProdFullName}}とは？",
+      "content": "{{ProdFullName}}は、{{ProgLang}}での透かし作業を担当する開発者を支援します。柔軟性を重視して設計されており、透かしの発見、挿入、編集、および削除をPPTX、DOCX、PDFなどの形式で処理します。"
+    },
+    "formats": {
+      "title": "広範なフォーマット互換性",
+      "description": "複数のサポートされているプレゼンテーションおよび文書形式でシームレスな透かし検出を楽しんでください。"
+    }
+  }
+}

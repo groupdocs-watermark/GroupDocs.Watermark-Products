@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일에 텍스트 워터마크 추가",
+    "comment_2": "워터마크를 추가할 파일 선택",
+    "comment_3": "텍스트 워터마크 객체 생성",
+    "comment_4": "업데이트된 {{FileFormatUp}} 파일 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}로 워터마크 추가하기",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**는 다양한 비즈니스 파일 형식에 워터마크를 추가하는 경우를 간편하게 만들어주는 라이브러리입니다. {{ProgLang}}에서 문서에 워터마크를 빠르게 추가하려면 다음 단계를 따르십시오:",
+      "step_1": "**워터마킹 시작하기:** {{TextWatermarkerBold}} 클래스의 인스턴스를 생성하는 것으로 시작합니다. 생성자에 워터마크를 추가할 {{FileformatCap}} 파일을 경로 또는 스트림으로 전달하여 엽니다.",
+      "step_2": "**워터마크 만들기:** 원하는 텍스트와 설정으로 {{TextWatermarkBold}} 객체를 만드세요. 각 페이지나 문서의 헤더 및 첨부 파일과 같은 요소에 워터마크를 추가할 수 있습니다.",
+      "step_3": "**워터마크 사용자 정의:** 워터마크의 크기, 위치, 글꼴, 색상 및 정렬을 조정하여 필요에 맞게 조정하십시오. 이는 문서에 워터마크를 적절히 보이게 합니다.",
+      "step_4": "**적용 및 저장:** {{TextWatermarkerBold}} 메서드를 사용하여 문서에 워터마크를 추가합니다. 결과를 저장하고, 안전을 위해 새 파일에 저장하는 것이 좋습니다."
+    }
+  },
+  "more_features": {
+    "title": "추가 워터마킹 기능 탐색",
+    "description": "우리의 {{ProgLang}} API를 사용하여 문서, 슬라이드, 다이어그램 등에서 워터마크를 추가하고, 보기, 변환 및 관리하십시오. {{ProdFullName}}은 파일을 보호하고 저작권 정보를 쉽게 추가할 수 있도록 도와줍니다.",
+    "image_description": "워터마크 추가",
+    "feature_1": {
+      "title": "워터마크를 쉽게 추가하세요",
+      "content": "{{ProdShortName}}는 {{ProgLang}} 개발자가 비즈니스 문서에 텍스트, 이미지 또는 동적 워터마크를 빠르게 추가할 수 있게 해줍니다. 최소한의 노력으로 파일을 안전하고 브랜드화하세요."
+    },
+    "feature_2": {
+      "title": "완전한 사용자 정의가 가능한 워터마크",
+      "content": "{{ProdShortName}}로 워터마크의 크기, 회전, 투명도, 색상 및 글꼴을 변경할 수 있습니다. 워터마크를 문서에 완벽하게 맞추고 중요한 콘텐츠는 가시성을 유지하세요."
+    },
+    "feature_3": {
+      "title": "워터마킹을 위한 문서 기능 사용하기",
+      "content": "PDF 주석, 워드 배경 또는 엑셀 헤더와 같은 내장 문서 기능을 활용하여 워터마크를 추가할 수 있습니다. {{ProdShortName}}은 효과적이고 비침해적인 워터마킹을 위해 문서 구조와 함께 작동합니다."
+    },
+    "code_1": {
+      "title": "DOCX에 이미지 워터마크 추가",
+      "content": "이 예제는 형태 워터마크에 이미지 효과를 적용하는 방법을 보여줍니다.",
+      "comment_1": "워드 문서 열기",
+      "comment_2": "워터마크 옵션 설정",
+      "comment_3": "워터마크 생성",
+      "comment_4": "워터마크가 포함된 문서 저장"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Excel 파일에 워터마크 추가",
+      "description": "{{ProgLang}}으로 Excel 파일에 자동으로 이미지 워터마크를 추가하세요. 여러 파일을 동시에 처리하여 일관된 보호를 제공합니다."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 Excel에 워터마크 추가",
+      "description": "{{ProgLang}}을 사용하여 Excel 파일에 텍스트 또는 이미지 워터마크를 쉽게 추가하세요. 우리의 가이드는 최소한의 수작업으로 스프레드시트를 전문적이고 안전하게 유지하는 방법을 알려줍니다.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "무료로 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}}는 {{ProgLang}}으로 Excel 스프레드시트에 워터마크를 추가할 수 있습니다. 다양한 워터마크 유형을 사용하고 불투명도, 회전 및 정렬을 사용자 정의할 수 있습니다. 이 라이브러리는 기존 워터마크를 찾아서 관리하는 데도 도움이 되어 파일을 변조로부터 보호할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}으로 Excel에 텍스트 및 이미지 워터마크 추가",
+      "description": "{{ProdShortName}}을 사용하여 Excel 파일에 맞춤형 워터마크를 빠르게 추가하세요. 유연한 워터마킹 도구로 문서 보안 및 브랜드화를 향상시키세요."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "워드 문서에 워터마크 추가",
+      "description": "브랜드와 콘텐츠를 보호하기 위해 워드 파일에 워터마크를 쉽게 추가하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 워드 및 오픈오피스에서 워터마크 생성",
+      "description": "우리의 {{ProgLang}} 라이브러리를 사용하여 워드 문서에 워터마크를 추가하세요. 브랜드나 보안 요구에 맞게 사용자 정의하세요.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료로 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}으로 Microsoft Word 문서에 텍스트 및 이미지 워터마크를 쉽게 추가할 수 있게 해줍니다. 원하는 위치에 워터마크를 배치할 수 있으며, DOC, DOCX 및 RTF 파일에서 작동합니다. 워터마크는 콘텐츠와 잘 어우러져 문서의 가독성과 보안을 유지합니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}으로 워드 및 오픈오피스 파일에 워터마크 추가",
+      "description": "우리의 {{ProgLang}} API를 사용하여 워드 및 오픈오피스 문서에 전문적인 워터마크를 추가하세요. 파일을 보호하고 멋지게 유지하세요."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "{{ProgLang}}로 이미지에 워터마크 추가",
+      "description": "{{ProgLang}}로 이미지에 워터마크를 추가하는 방법을 배우세요. 품질 손실 없이 사진을 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 간편한 이미지 워터마킹",
+      "description": "우리의 {{ProgLang}} 도구를 사용하여 이미지를 빠르게 워터마크합니다. 사진에서 디지털 아트까지 다양한 형식을 지원합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료로 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}으로 이미지에 워터마크를 추가할 수 있게 해줍니다. JPEG, PNG, BMP, TIFF 등을 지원합니다. 필요에 따라 워터마크의 투명도, 크기 및 위치를 변경할 수 있습니다. 원본 품질을 유지하면서 이미지를 보호하거나 브랜드를 추가할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}으로 이미지에 워터마크 추가",
+      "description": "우리의 {{ProgLang}} 도구 키트를 사용하여 다양한 이미지 형식에 워터마크를 빠르고 쉽게 추가하세요."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "사진에 워터마크 쉽게 추가하기",
+      "description": "{{ProgLang}}를 사용하여 사진에 워터마크를 추가하여 작업과 저작권을 보호하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 빠른 사진 워터마킹",
+      "description": "우리의 {{ProgLang}} 라이브러리를 사용하여 사진에 워터마크를 빠르게 추가하세요. 저작권과 브랜드를 보호하면서 이미지 품질을 유지합니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료로 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 자신의 작업을 보호하려는 사진작가에게 최적입니다. JPEG, PNG, RAW와 같은 형식의 사진에 텍스트 또는 이미지 워터마크를 추가할 수 있습니다. 워터마크의 투명도, 크기 및 위치를 조정하여 완벽하게 맞추고 사진의 외관도 유지하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}으로 사진에 워터마크 추가",
+      "description": "우리의 {{ProgLang}} API를 사용하여 사진에 맞춤형 워터마크를 추가하세요. 이미지를 안전하고 전문적으로 유지하세요."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "프레젠테이션에 워터마크 추가",
+      "description": "파워포인트 슬라이드에 워터마크를 쉽게 추가하여 보안을 강화하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}로 프레젠테이션을 위한 고급 워터마킹",
+      "description": "우리의 {{ProgLang}} API를 사용하여 파워포인트 슬라이드에 텍스트 및 이미지 워터마크를 추가하세요. 프레젠테이션을 안전하고 전문적으로 유지하는 데 좋습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "무료로 {{PackageStoreName}} 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}}는 {{ProgLang}}으로 파워포인트 프레젠테이션에 고급 워터마크를 추가할 수 있게 해줍니다. 기밀 정보를 보호하거나 회사 로고를 슬라이드에 추가하세요. 단일 슬라이드나 전체 프레젠테이션에 워터마크를 추가하고 모습과 위치를 조정할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}으로 프레젠테이션에 워터마크 추가",
+      "description": "우리의 {{ProgLang}} 도구 키트를 사용하여 파워포인트 파일에 빠르게 워터마크를 추가하세요. 슬라이드를 안전하고 멋지게 유지하세요."
+    }
+  }
+}

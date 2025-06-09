@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Añadir una marca de agua de texto a un archivo {{FileFormatUp}}",
+    "comment_2": "Selecciona el archivo que deseas marcar con una marca de agua",
+    "comment_3": "Crea un objeto de marca de agua de texto",
+    "comment_4": "Guarda el archivo {{FileFormatUp}} actualizado"
+  },
+  "steps": {
+    "title": "Añadir Marcas de Agua: {{ProgLang}} Marca de Agua para {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** es una biblioteca que facilita la adición de marcas de agua a muchos tipos de archivos empresariales. Sigue estos pasos para añadir rápidamente marcas de agua a tus documentos en {{ProgLang}}:",
+      "step_1": "**Comienza con la Marca de Agua:** Empieza creando una instancia de la clase {{TextWatermarkerBold}}. Pasa tu archivo {{FileformatCap}} (como una ruta o un flujo) al constructor para abrirlo para la marcación con agua.",
+      "step_2": "**Crea Tu Marca de Agua:** Crea un objeto {{TextWatermarkBold}} con el texto y las configuraciones deseadas. Puedes añadir marcas de agua a cualquier página o incluso a elementos del documento como encabezados o adjuntos.",
+      "step_3": "**Personaliza la Marca de Agua:** Ajusta el tamaño, la posición, la fuente, el color y la alineación de la marca de agua según tus necesidades. Esto ayuda a que tu marca de agua se vea adecuada en tu documento.",
+      "step_4": "**Aplica y Guarda:** Usa el método {{TextWatermarkerBold}} para añadir tus marcas de agua al documento. Guarda el resultado, idealmente en un nuevo archivo por motivos de seguridad."
+    }
+  },
+  "more_features": {
+    "title": "Explora Más Características de Marcado con Agua",
+    "description": "Utiliza nuestra API {{ProgLang}} para añadir, ver, convertir y gestionar marcas de agua en documentos, diapositivas, diagramas y más. {{ProdFullName}} te ayuda a proteger tus archivos y añadir información de derechos de autor de forma sencilla.",
+    "image_description": "Añadir Marca de Agua",
+    "feature_1": {
+      "title": "Añadir Marcas de Agua Rápidamente",
+      "content": "{{ProdShortName}} permite a los desarrolladores {{ProgLang}} añadir rápidamente marcas de agua de texto, imagen o dinámicas a documentos empresariales. Mantén tus archivos seguros y con marca con un esfuerzo mínimo."
+    },
+    "feature_2": {
+      "title": "Marcas de Agua Totalmente Personalizables",
+      "content": "Cambia el tamaño, la rotación, la transparencia, el color y la fuente de la marca de agua con {{ProdShortName}}. Haz que tu marca de agua se ajuste perfectamente a tu documento y manten el contenido importante visible."
+    },
+    "feature_3": {
+      "title": "Utiliza Características del Documento para Marcas de Agua",
+      "content": "Aprovecha las características integradas del documento como anotaciones PDF, fondos de Word o encabezados de Excel para añadir marcas de agua. {{ProdShortName}} trabaja con estructuras de documentos para un marcado con agua eficaz y no intrusivo."
+    },
+    "code_1": {
+      "title": "Añadir una Marca de Agua de Imagen a DOCX",
+      "content": "Este ejemplo muestra cómo aplicar efectos de imagen a marcas de agua de forma.",
+      "comment_1": "Abre un documento de Word",
+      "comment_2": "Establece las opciones de la marca de agua",
+      "comment_3": "Crea la marca de agua",
+      "comment_4": "Guarda el documento con la marca de agua"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Añadir Marcas de Agua a Archivos de Excel",
+      "description": "Añade automáticamente marcas de agua de imagen a archivos de Excel con {{ProgLang}}. Procesa muchos archivos a la vez para una protección consistente."
+    },
+    "header": {
+      "title": "Añadir Marcas de Agua a Excel con {{ProgLang}}",
+      "description": "Añade fácilmente marcas de agua de texto o imagen a archivos de Excel usando {{ProgLang}}. Nuestras guías te muestran cómo mantener tus hojas de cálculo profesionales y seguras con poco trabajo manual.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Descargar {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "Biblioteca {{ProdFullName}}",
+      "content": "{{ProdFullName}} te permite añadir marcas de agua a hojas de cálculo de Excel en {{ProgLang}}. Puedes utilizar diferentes tipos de marcas de agua y personalizar la opacidad, la rotación y la alineación. La biblioteca también te ayuda a encontrar y gestionar marcas de agua existentes para mantener tus archivos seguros contra manipulaciones."
+    },
+    "formats": {
+      "title": "Añadir Marcas de Agua de Texto e Imagen a Excel con {{ProgLang}}",
+      "description": "Utiliza {{ProdShortName}} para añadir rápidamente marcas de agua personalizadas a archivos de Excel. Mejora la seguridad del documento y la marca con herramientas flexibles de marcado con agua."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Añadir Marcas de Agua a Documentos de Word",
+      "description": "Añade marcas de agua a archivos de Word para proteger tu marca y contenido."
+    },
+    "header": {
+      "title": "Crear Marcas de Agua en Word y OpenOffice con {{ProgLang}}",
+      "description": "Añade marcas de agua a tus documentos de Word usando nuestra biblioteca {{ProgLang}}. Personalízalas para que coincidan con tus necesidades de marca o seguridad.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} facilita la adición de marcas de agua de texto e imagen a documentos de Microsoft Word en {{ProgLang}}. Puedes colocar marcas de agua exactamente donde quieras, y funciona con archivos DOC, DOCX y RTF. Las marcas de agua se integran con tu contenido, manteniendo tus documentos legibles y seguros."
+    },
+    "formats": {
+      "title": "Marcar Archivos de Word y OpenOffice con {{ProgLang}}",
+      "description": "Añade marcas de agua profesionales a tus documentos de Word y OpenOffice utilizando nuestra API {{ProgLang}}. Protege tus archivos y mantenlos luciendo bien."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Marca de Agua en Imágenes con {{ProgLang}}",
+      "description": "Aprende cómo añadir marcas de agua a imágenes en {{ProgLang}}. Protege tus fotos sin perder calidad."
+    },
+    "header": {
+      "title": "Marcado de Imágenes Rápido con {{ProgLang}}",
+      "description": "Nuestra herramienta {{ProgLang}} te permite añadir rápidamente marcas de agua a imágenes. Soporta muchos formatos, desde fotos hasta arte digital.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} te ayuda a añadir marcas de agua a imágenes en {{ProgLang}}. Soporta JPEG, PNG, BMP, TIFF y más. Puedes cambiar la opacidad, el tamaño y la posición de la marca de agua para que se ajuste a tus necesidades. Utilízalo para proteger tus imágenes o añadir marca, todo mientras mantienes la calidad original."
+    },
+    "formats": {
+      "title": "Añadir Marcas de Agua a Imágenes con {{ProgLang}}",
+      "description": "Protege tus imágenes con nuestra caja de herramientas {{ProgLang}}. Añade marcas de agua a muchos formatos de imagen rápida y fácilmente."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Añade Fácilmente Marcas de Agua a Tus Fotos",
+      "description": "Añade marcas de agua a tus fotos en {{ProgLang}} para proteger tu trabajo y derechos de autor."
+    },
+    "header": {
+      "title": "Marcado Rápido de Fotos con {{ProgLang}}",
+      "description": "Usa nuestra biblioteca {{ProgLang}} para añadir rápidamente marcas de agua a tus fotos. Protege tus derechos de autor y marca sin perder calidad de imagen.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} es ideal para fotógrafos que quieren proteger su trabajo. Añade marcas de agua de texto o imagen a fotos en formatos como JPEG, PNG y RAW. Ajusta la transparencia, el tamaño y la posición para que tu marca de agua encaje perfectamente y tu foto siga luciendo bien."
+    },
+    "formats": {
+      "title": "Protege Tus Fotos con Marcas de Agua en {{ProgLang}}",
+      "description": "Añade marcas de agua personalizadas a tus fotos usando nuestra API {{ProgLang}}. Mantén tus imágenes seguras y con apariencia profesional."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Añadir Marcas de Agua a Presentaciones",
+      "description": "Añade fácilmente marcas de agua a tus diapositivas de PowerPoint para mayor seguridad."
+    },
+    "header": {
+      "title": "Marcado Avanzado para Presentaciones en {{ProgLang}}",
+      "description": "Añade marcas de agua de texto e imagen a diapositivas de PowerPoint con nuestra API {{ProgLang}}. Ideal para mantener tus presentaciones profesionales y seguras.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargar {{PackageStoreName}} gratis"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} te permite añadir marcas de agua avanzadas a presentaciones de PowerPoint en {{ProgLang}}. Protege información confidencial o añade el logotipo de tu empresa a las diapositivas. Puedes añadir marcas de agua a diapositivas individuales o a toda la presentación, y ajustar cómo se ven y dónde aparecen."
+    },
+    "formats": {
+      "title": "Marca Presentaciones con {{ProgLang}}",
+      "description": "Utiliza nuestra caja de herramientas {{ProgLang}} para añadir rápidamente marcas de agua a archivos de PowerPoint. Mantén tus diapositivas seguras y con buen aspecto."
+    }
+  }
+}

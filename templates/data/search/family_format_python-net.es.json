@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "Detectar marcas de agua de texto en formato {{FileFormatUp}}",
+    "comment_2": "Inicializar {{TextWatermarker}} con archivo {{FileFormatUp}}",
+    "comment_3": "Ejecutar búsqueda de marcas de agua",
+    "comment_4": "Procesar la lista de marcas de agua detectadas"
+  },
+  "steps": {
+    "title": "Cómo detectar marcas de agua en archivos {{FileformatCap}} a través de {{ProgLang}}",
+    "content": {
+      "title": "Con **[{{ProdShortName}}]({{ProductUrl}})**, identificar marcas de agua incrustadas en sus documentos comerciales es más sencillo. Integre sus capacidades en sus flujos de trabajo de {{ProgLang}} para una detección sin complicaciones.",
+      "step_1": "Comience cargando el documento {{FileformatCap}} en una instancia de la clase {{TextWatermarkerBold}}. Acepta la entrada como una ruta, un flujo o un arreglo de bytes.",
+      "step_2": "Reduzca su búsqueda utilizando el objeto {{TextSearchCriteriaBold}}. Para encontrar marcas basadas en imágenes, use una imagen de muestra. Para las textuales, especifica características como contenido, estilo o color.",
+      "step_3": "Invocar el método {{TextSearchBold}} del objeto {{TextWatermarkerBold}} para extraer datos de marcas de agua. Se devolverá una colección de instancias de marcas de agua para su inspección.",
+      "step_4": "Después de la recuperación, puede gestionar los resultados: eliminar marcas no deseadas, o actualizar detalles como dimensiones o contenido del mensaje."
+    }
+  },
+  "more_features": {
+    "title": "Detección de Marcas de Agua Poderosa con {{ProdShortName}}",
+    "description": "Utilice {{ProdShortName}} en sus proyectos de {{ProgLang}} para escanear y localizar elementos de marcas de agua en diversos tipos de documentos de manera eficiente.",
+    "image_description": "Detección de Marcas de Agua",
+    "feature_1": {
+      "title": "Detección Avanzada con Filtros Inteligentes",
+      "content": "Identifique sin esfuerzo marcas de agua en una amplia variedad de formatos de documentos. {{ProdShortName}} admite filtrado por rasgos visuales y textuales, incluidos forma, transparencia y más."
+    },
+    "feature_2": {
+      "title": "Criterios Flexibles para la Búsqueda",
+      "content": "Defina parámetros de búsqueda de marcas de agua personalizados con {{ProdShortName}}. Esta precisión permite la recuperación dirigida de datos de marcas de agua ocultas o personalizadas."
+    },
+    "feature_3": {
+      "title": "Acceda y Organice las Marcas de Agua Detectadas",
+      "content": "Facilite la auditoría de documentos al recuperar todas las marcas de agua incrustadas. Nuestras herramientas permiten la extracción, visualización y gestión eficientes de los elementos encontrados."
+    },
+    "code_1": {
+      "title": "Ejemplo de Código: Detectar Marcas de Agua",
+      "content": "Vea cómo utilizar {{ProdShortName}} para buscar documentos en busca de contenido de marcas de agua incrustadas utilizando reglas de detección flexibles.",
+      "comment_1": "Abra el documento objetivo desde el disco o flujo",
+      "comment_2": "Defina las propiedades específicas de la marca de agua que se utilizarán en la búsqueda",
+      "comment_3": "Realice la búsqueda y recoja coincidencias",
+      "comment_4": "Trabaje con los resultados encontrados para más acciones"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Detectar Marcas de Agua Ocultas en Hojas de Cálculo {{FileformatCap}}",
+      "description": "Revele rápidamente marcas ocultas en archivos de hojas de cálculo con {{ProdShortName}} de manera precisa."
+    },
+    "header": {
+      "title": "Identifique Instantáneamente Marcas de Agua en Hojas de Cálculo {{FileformatCap}}",
+      "description": "Ubique y gestione marcas de agua sin complicaciones utilizando {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Descargue {{PackageStoreName}} Ahora – Es Gratis"
+    },
+    "about": {
+      "title": "Descripción General de {{ProdFullName}}",
+      "content": "{{ProdFullName}} ofrece un conjunto de herramientas completo para marcas de agua para desarrolladores de {{ProgLang}}. Genere, modifique, encuentre y elimine contenido de marcas de agua de documentos como Excel, Word, PDF y más con un esfuerzo mínimo."
+    },
+    "formats": {
+      "title": "Búsqueda de Marcas de Agua en Múltiples Formatos",
+      "description": "Ubique contenido de marcas de agua en todos los tipos de archivos compatibles con {{ProdShortName}}."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Identificar Marcas de Agua Ocultas en Documentos {{FileformatCap}}",
+      "description": "Busque documentos en busca de marcas de agua ocultas con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Descubra Rápidamente Marcas de Agua en Documentos {{FileformatCap}}",
+      "description": "Revele y revise el contenido de marcas de agua ocultas utilizando {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Gratis con {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Aprenda sobre {{ProdFullName}}",
+      "content": "{{ProdFullName}} es una potente utilidad para operaciones de marcas de agua en {{ProgLang}}. Ya sea que esté agregando, eliminando o buscando marcas de agua, admite formatos como DOCX, XLSX, PDF y más."
+    },
+    "formats": {
+      "title": "Capacidades de Detección entre Formatos",
+      "description": "Soporte para análisis de marcas de agua en una variedad de tipos de archivos ampliamente utilizados."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Detectar Marcas Ocultas en Presentaciones {{FileformatCap}}",
+      "description": "Detecte fácilmente marcas de agua ocultas en diapositivas de presentación con {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Revele Marcas de Agua en Presentaciones {{FileformatCap}}",
+      "description": "Gestione elementos de marcas de agua dentro de las presentaciones con las características confiables de {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Prueba Gratis Disponible en {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "¿Qué es {{ProdFullName}}?",
+      "content": "{{ProdFullName}} empodera a los desarrolladores para manejar tareas relacionadas con marcas de agua en {{ProgLang}}. Diseñado para flexibilidad, maneja el descubrimiento, la inserción, la edición y la eliminación de marcas de agua en formatos como PPTX, DOCX y PDF."
+    },
+    "formats": {
+      "title": "Amplia Compatibilidad de Formato",
+      "description": "Disfrute de la detección de marcas de agua sin problemas en múltiples formatos de presentación y documentos compatibles."
+    }
+  }
+}

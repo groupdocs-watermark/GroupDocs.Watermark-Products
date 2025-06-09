@@ -1,0 +1,148 @@
+{
+  "examples": {
+    "comment_1": "Thêm một watermark văn bản vào tệp {{FileFormatUp}}",
+    "comment_2": "Chọn tệp mà bạn muốn thêm watermark",
+    "comment_3": "Tạo một đối tượng watermark văn bản",
+    "comment_4": "Lưu tệp {{FileFormatUp}} đã cập nhật"
+  },
+  "steps": {
+    "title": "Thêm Watermark: Watermarking {{ProgLang}} cho {{FileformatCap}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** là một thư viện giúp thêm watermark vào nhiều loại tệp kinh doanh. Làm theo các bước sau để nhanh chóng thêm watermark vào tài liệu của bạn trong {{ProgLang}}:",
+      "step_1": "**Bắt đầu với Watermarking:** Bắt đầu bằng cách tạo một thể hiện của lớp {{TextWatermarkerBold}}. Truyền tệp {{FileformatCap}} của bạn (dưới dạng đường dẫn hoặc luồng) vào trình khởi tạo để mở nó cho việc thêm watermark.",
+      "step_2": "**Tạo Watermark của bạn:** Tạo một đối tượng {{TextWatermarkBold}} với văn bản và cài đặt mong muốn của bạn. Bạn có thể thêm watermark vào bất kỳ trang nào hoặc thậm chí vào các phần của tài liệu như đầu trang hoặc tệp đính kèm.",
+      "step_3": "**Tùy chỉnh Watermark:** Điều chỉnh kích thước, vị trí, kiểu chữ, màu sắc và căn chỉnh của watermark để phù hợp với nhu cầu của bạn. Điều này giúp watermark trông thật hoàn hảo trong tài liệu của bạn.",
+      "step_4": "**Áp dụng và Lưu:** Sử dụng phương thức {{TextWatermarkerBold}} để thêm watermark(s) của bạn vào tài liệu. Lưu lại kết quả, lý tưởng là vào một tệp mới để bảo đảm."
+    }
+  },
+  "more_features": {
+    "title": "Khám Phá Thêm Các Tính Năng Watermarking",
+    "description": "Sử dụng API {{ProgLang}} của chúng tôi để thêm, xem, chuyển đổi và quản lý watermark trong tài liệu, slide, sơ đồ và nhiều hơn nữa. {{ProdFullName}} giúp bạn bảo vệ tệp và thêm thông tin bản quyền một cách dễ dàng.",
+    "image_description": "Thêm Watermark",
+    "feature_1": {
+      "title": "Thêm Watermark Một Cách Dễ Dàng",
+      "content": "{{ProdShortName}} cho phép các nhà phát triển {{ProgLang}} nhanh chóng thêm watermark văn bản, hình ảnh hoặc động vào các tài liệu kinh doanh. Giữ cho tệp của bạn an toàn và mang thương hiệu với nỗ lực tối thiểu."
+    },
+    "feature_2": {
+      "title": "Watermark Đầy Đủ Tùy Chỉnh",
+      "content": "Thay đổi kích cỡ, độ xoay, độ trong suốt, màu sắc và kiểu chữ của watermark bằng {{ProdShortName}}. Làm cho watermark của bạn phù hợp hoàn hảo với tài liệu và giữ cho nội dung quan trọng rõ ràng."
+    },
+    "feature_3": {
+      "title": "Sử Dụng Các Tính Năng Tài Liệu Để Watermarking",
+      "content": "Tận dụng các tính năng tài liệu tích hợp như chú thích PDF, nền Word, hoặc đầu trang Excel để thêm watermark. {{ProdShortName}} hoạt động với cấu trúc tài liệu để tạo watermark hiệu quả, không gây ảnh hưởng."
+    },
+    "code_1": {
+      "title": "Thêm Watermark Hình Ảnh vào DOCX",
+      "content": "Ví dụ này cho thấy cách áp dụng hiệu ứng hình ảnh cho watermark hình dạng.",
+      "comment_1": "Mở một tài liệu Word",
+      "comment_2": "Đặt các tùy chọn watermark",
+      "comment_3": "Tạo watermark",
+      "comment_4": "Lưu tài liệu với watermark"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "Thêm Watermark vào Tệp Excel",
+      "description": "Tự động thêm watermark hình ảnh vào tệp Excel bằng {{ProgLang}}. Xử lý nhiều tệp cùng một lúc để bảo vệ nhất quán."
+    },
+    "header": {
+      "title": "Thêm Watermark vào Excel bằng {{ProgLang}}",
+      "description": "Dễ dàng thêm watermark văn bản hoặc hình ảnh vào tệp Excel bằng {{ProgLang}}. Hướng dẫn của chúng tôi sẽ cho bạn thấy cách giữ cho bảng tính của bạn chuyên nghiệp và an toàn mà không cần làm việc thủ công nhiều.",
+      "subtitle": "API {{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "Thư viện {{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark vào bảng tính Excel trong {{ProgLang}}. Bạn có thể sử dụng các loại watermark khác nhau và tùy chỉnh độ trong suốt, độ xoay và căn chỉnh. Thư viện cũng giúp bạn tìm và quản lý các watermark tồn tại để giữ cho tệp của bạn an toàn khỏi bị giả mạo."
+    },
+    "formats": {
+      "title": "Thêm Watermark Văn Bản và Hình Ảnh vào Excel bằng {{ProgLang}}",
+      "description": "Sử dụng {{ProdShortName}} để nhanh chóng thêm watermark tùy chỉnh vào tệp Excel. Cải thiện bảo mật tài liệu và thương hiệu với các công cụ watermarking linh hoạt."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "Thêm Watermark vào Tài Liệu Word",
+      "description": "Dễ dàng thêm watermark vào các tệp Word để bảo vệ thương hiệu và nội dung của bạn."
+    },
+    "header": {
+      "title": "Tạo Watermark trong Word và OpenOffice bằng {{ProgLang}}",
+      "description": "Thêm watermark vào tài liệu Word của bạn bằng thư viện {{ProgLang}} của chúng tôi. Tùy chỉnh chúng để phù hợp với thương hiệu hoặc nhu cầu bảo mật của bạn.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp dễ dàng thêm watermark văn bản và hình ảnh vào tài liệu Microsoft Word trong {{ProgLang}}. Bạn có thể đặt watermark tại vị trí chính xác mà bạn muốn, và nó hoạt động với các tệp DOC, DOCX và RTF. Watermark hòa quyện với nội dung của bạn, giữ cho tài liệu của bạn đọc được và an toàn."
+    },
+    "formats": {
+      "title": "Watermark Tệp Word và OpenOffice bằng {{ProgLang}}",
+      "description": "Thêm watermark chuyên nghiệp vào tài liệu Word và OpenOffice của bạn bằng API {{ProgLang}} của chúng tôi. Bảo vệ tệp của bạn và giữ cho chúng trông tuyệt vời."
+    }
+  },
+  "image": {
+    "ext": "jpeg",
+    "head": {
+      "title": "Watermark Ảnh Bằng {{ProgLang}}",
+      "description": "Học cách thêm watermark vào hình ảnh trong {{ProgLang}}. Bảo vệ hình ảnh của bạn mà không mất chất lượng."
+    },
+    "header": {
+      "title": "Watermark Ảnh Nhanh Chóng với {{ProgLang}}",
+      "description": "Công cụ {{ProgLang}} của chúng tôi cho phép bạn nhanh chóng thêm watermark vào hình ảnh. Hỗ trợ nhiều định dạng, từ ảnh đến nghệ thuật số.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} giúp bạn thêm watermark vào hình ảnh trong {{ProgLang}}. Nó hỗ trợ JPEG, PNG, BMP, TIFF, và nhiều hơn nữa. Bạn có thể thay đổi độ trong suốt, kích thước và vị trí của watermark sao cho phù hợp với nhu cầu của bạn. Sử dụng nó để bảo vệ hình ảnh hoặc thêm thương hiệu, tất cả trong khi giữ nguyên chất lượng ban đầu."
+    },
+    "formats": {
+      "title": "Thêm Watermark vào Hình Ảnh với {{ProgLang}}",
+      "description": "Bảo vệ hình ảnh của bạn với bộ công cụ {{ProgLang}} của chúng tôi. Thêm watermark vào nhiều định dạng hình ảnh nhanh chóng và dễ dàng."
+    }
+  },
+  "photo": {
+    "ext": "png",
+    "head": {
+      "title": "Dễ Dàng Thêm Watermark Vào Ảnh Của Bạn",
+      "description": "Thêm watermark vào ảnh của bạn trong {{ProgLang}} để bảo vệ công việc và bản quyền của bạn."
+    },
+    "header": {
+      "title": "Thêm Watermark Ảnh Nhanh Chóng với {{ProgLang}}",
+      "description": "Sử dụng thư viện {{ProgLang}} của chúng tôi để nhanh chóng thêm watermark vào ảnh của bạn. Bảo vệ bản quyền và thương hiệu mà không làm mất chất lượng hình ảnh.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} rất tuyệt vời cho các nhiếp ảnh gia muốn bảo vệ công việc của họ. Thêm watermark văn bản hoặc hình ảnh vào ảnh ở các định dạng như JPEG, PNG, và RAW. Điều chỉnh độ trong suốt, kích cỡ và vị trí sao cho watermark phù hợp hoàn hảo và ảnh của bạn vẫn nhìn đẹp."
+    },
+    "formats": {
+      "title": "Bảo Vệ Ảnh Của Bạn Với Watermark trong {{ProgLang}}",
+      "description": "Thêm watermark tùy chỉnh vào ảnh của bạn bằng API {{ProgLang}} của chúng tôi. Giữ cho hình ảnh của bạn an toàn và trông chuyên nghiệp."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "Thêm Watermark vào Thuyết Trình",
+      "description": "Dễ dàng thêm watermark vào slide PowerPoint của bạn để tăng cường bảo mật."
+    },
+    "header": {
+      "title": "Watermark Nâng Cao cho Thuyết Trình trong {{ProgLang}}",
+      "description": "Thêm watermark văn bản và hình ảnh vào slide PowerPoint bằng API {{ProgLang}} của chúng tôi. Tuyệt vời để giữ cho các bài thuyết trình của bạn an toàn và chuyên nghiệp.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Tải xuống {{PackageStoreName}} miễn phí"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} cho phép bạn thêm watermark nâng cao vào các bài thuyết trình PowerPoint trong {{ProgLang}}. Bảo vệ thông tin bí mật hoặc thêm logo công ty của bạn vào các slide. Bạn có thể thêm watermark vào các slide đơn lẻ hoặc toàn bộ bài thuyết trình, và điều chỉnh cách chúng trông và vị trí xuất hiện."
+    },
+    "formats": {
+      "title": "Watermark Các Bài Thuyết Trình với {{ProgLang}}",
+      "description": "Sử dụng bộ công cụ {{ProgLang}} của chúng tôi để nhanh chóng thêm watermark vào các tệp PowerPoint. Giữ cho các slide của bạn an toàn và trông sắc nét."
+    }
+  }
+}

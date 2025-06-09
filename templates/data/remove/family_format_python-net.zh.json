@@ -1,0 +1,106 @@
+{
+  "examples": {
+    "comment_1": "从 {{FileformatCap}} 文件中删除文本水印",
+    "comment_2": "使用 {{TextWatermarker}} 实例打开 {{FileformatCap}} 文件",
+    "comment_3": "查找并移除选中的水印",
+    "comment_4": "将更新后的文件保存到您选择的位置"
+  },
+  "steps": {
+    "title": "如何在 {{ProgLang}} 中从 {{FileformatCap}} 文件中移除水印",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** 可以帮助您轻松地从商务文档中清除水印。在您的 {{ProgLang}} 项目中添加我们的库并按照以下步骤操作：",
+      "step_1": "首先，创建一个 {{TextWatermarkerBold}} 对象，传入您的 {{FileformatCap}} 文件。您可以使用文件路径或流作为输入。",
+      "step_2": "使用 {{TextSearchCriteriaBold}} 来过滤您想要移除的水印。您可以按文本、图像或格式进行搜索。提供的细节越多，搜索结果越准确。",
+      "step_3": "遍历找到的水印，移除文档中您不需要的水印。",
+      "step_4": "完成后，将清理后的文档保存为文件或流。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProgLang}} 高效移除水印",
+    "description": "我们的 {{ProgLang}} API 可帮助您快速从 PDF 和办公文件中移除水印，保持文档的清晰和原始。",
+    "image_description": "清除水印",
+    "feature_1": {
+      "title": "精准的水印删除",
+      "content": "{{ProgLang}} API 允许您删除水印，而不会损坏文档的布局或质量。此工具专为需要可靠结果的开发者设计。"
+    },
+    "feature_2": {
+      "title": "批量删除水印",
+      "content": "可以轻松从多个文件中同时清除水印。这非常适合需要快速安全处理大量文档的公司。"
+    },
+    "feature_3": {
+      "title": "水印的高级编辑",
+      "content": "使用高级选项在删除水印之前进行微调或编辑。这有助于保持文档的专业外观和安全性。"
+    },
+    "code_1": {
+      "title": "从 Excel 中删除文本水印",
+      "content": "此示例展示了如何删除 Excel 文件中特殊格式的文本水印。",
+      "comment_1": "打开 Excel 文件",
+      "comment_2": "搜索水印",
+      "comment_3": "删除水印",
+      "comment_4": "保存清理后的 XLSX 文件"
+    }
+  },
+  "excel": {
+    "ext": "xslx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileformatCap}} 中删除水印",
+      "description": "利用我们的 {{ProgLang}} API 快速清除 {{FileformatCap}} 文件中的水印，保持数据清晰有序。"
+    },
+    "header": {
+      "title": "{{ProgLang}} 用于 {{FileformatCap}} 水印删除",
+      "description": "使用我们的工具轻松删除或编辑 {{FileformatCap}} 文件中的水印，确保精准和简便。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "下载免费的 {{PackageStoreName}} 包"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 库",
+      "content": "{{ProdFullName}} 库为您提供管理 {{FileformatCap}} 文件中水印所需的一切。移除或编辑水印，保持电子表格的整洁与专业。"
+    },
+    "formats": {
+      "title": "在 {{ProgLang}} 中轻松删除 {{FileformatCap}} 水印",
+      "description": "了解如何使用 {{ProdFullName}} API 从 {{FileformatCap}} 表中移除水印，确保报告清晰准确。"
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileformatCap}} 中删除水印",
+      "description": "使用我们的 {{ProgLang}} API 快速删除或编辑 {{FileformatCap}} 文件中的水印，以实现清晰、专业的文档。"
+    },
+    "header": {
+      "title": "{{FileformatCap}} 水印清除器，适用于 {{ProgLang}}",
+      "description": "利用 {{ProdFullName}} API 从 {{FileformatCap}} 文件中清除水印，保持法律和商务文件的整洁。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "在 {{PackageStoreName}} 免费获取"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 库",
+      "content": "通过 {{ProdFullName}}，您可以轻松查找并移除 Word 文件中的水印。在保持文档布局完好的同时，检测、修改或删除文本和图像水印。"
+    },
+    "formats": {
+      "title": "在 {{FileformatCap}} 中的水印管理，适用于 {{ProgLang}}",
+      "description": "发现如何使用我们的 {{ProgLang}} API 管理和移除 {{FileformatCap}} 文件中的水印，以提升文档质量。"
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "使用 {{ProgLang}} 从 {{FileformatCap}} 幻灯片中删除水印",
+      "description": "轻松使用我们的 {{ProgLang}} API 清除 {{FileformatCap}} 幻灯片中的水印，以获得干净、专业的演示文稿。"
+    },
+    "header": {
+      "title": "{{ProgLang}} {{FileformatCap}} 水印清除工具",
+      "description": "使用 {{ProdFullName}} API 从 {{FileformatCap}} 演示文稿中移除水印，保持幻灯片整洁易读。",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "从 {{PackageStoreName}} 下载"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 库",
+      "content": "{{ProdFullName}} 库可以帮助您从 {{FileformatCap}} 演示文稿中移除水印。删除不需要的标记，以保持幻灯片的清晰和专业，非常适合商业、教学或培训场合。"
+    },
+    "formats": {
+      "title": "在 {{ProgLang}} 中清理 {{FileformatCap}} 演示文稿",
+      "description": "学习如何使用 {{ProdFullName}} API 从 {{FileformatCap}} 幻灯片中移除水印，以获得精致、无干扰的外观。"
+    }
+  }
+}

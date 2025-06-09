@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "ลบลายน้ำภาพจากไฟล์ {{FileFormatUp}}",
+    "comment_2": "สร้างอินสแตนซ์ {{TextWatermarker}} ด้วยไฟล์ {{FileFormatUp}} ของคุณ",
+    "comment_3": "ค้นหาและลบลายน้ำที่ตรวจจับได้",
+    "comment_4": "บันทึกเอกสารที่อัปเดตของคุณ"
+  },
+  "steps": {
+    "title": "ลบลายน้ำจากไฟล์ {{FileformatCap}} ใน {{ProgLang}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** ช่วยให้นักพัฒนา {{ProgLang}} สามารถลบลายน้ำจากไฟล์ {{FileformatCap}} ได้อย่างรวดเร็ว นี่คือวิธีการที่คุณสามารถทำได้:",
+      "step_1": "เริ่มต้นโดยการส่งไฟล์ {{FileformatCap}} ของคุณไปยังตัวสร้าง {{TextWatermarkerBold}} คุณสามารถใช้เส้นทางไฟล์, สตรีมไบต์ หรือสตรีมไฟล์ได้",
+      "step_2": "ใช้วัตถุ {{TextSearchCriteriaBold}} ค้นหาลายน้ำที่คุณต้องการลบ กรองโดยภาพ, ข้อความ, หรือรูปแบบเพื่อนำเสนอผลลัพธ์ที่แม่นยำ",
+      "step_3": "หลังจากค้นหา คุณจะได้รับรายชื่อของลายน้ำ เลือกและลบเอาที่ยังไม่ต้องการ",
+      "step_4": "เมื่อเสร็จสิ้น บันทึกเอกสารลงในไฟล์หรือสตรีม"
+    }
+  },
+  "more_features": {
+    "title": "การลบลายน้ำอย่างทรงพลังด้วย {{ProgLang}} | {{ProdShortName}}",
+    "description": "ใช้ประโยชน์จาก API {{ProgLang}} ของเราเพื่อลบลายน้ำจากไฟล์ PDF และ Office พร้อมเอกสารที่สะอาดและเป็นมืออาชีพสำหรับการใช้งานใด ๆ",
+    "image_description": "ลบลายน้ำ",
+    "feature_1": {
+      "title": "การลบลายน้ำที่แม่นยำใน {{ProgLang}}",
+      "content": "API {{ProgLang}} ของเราถูกสร้างขึ้นมาสำหรับการลบลายน้ำที่แม่นยำ เพื่อให้ไฟล์ของคุณรักษารูปแบบและดูลักษณะเดิมได้ดี เหมาะสำหรับเอกสารทางธุรกิจ, กฎหมาย หรือวิชาการ"
+    },
+    "feature_2": {
+      "title": "การลบลายน้ำเป็นกลุ่มด้วย {{ProgLang}}",
+      "content": "เพิ่มความเร็วในการทำงานโดยการลบลายน้ำจากไฟล์จำนวนมากในครั้งเดียว เหมาะสำหรับการจัดการคอลเลกชันเอกสารขนาดใหญ่ได้อย่างมีประสิทธิภาพ"
+    },
+    "feature_3": {
+      "title": "การแก้ไขและลบลายน้ำอย่างยืดหยุ่น",
+      "content": "แก้ไขหรือลบลายน้ำตามต้องการ API ให้คุณเลือกได้เพื่อให้เอกสารของคุณดูเรียบร้อยตามความต้องการ"
+    },
+    "code_1": {
+      "title": "ลบพื้นหลังจากการนำเสนอ",
+      "content": "ตัวอย่างนี้แสดงให้เห็นว่าการลบลายน้ำไฮเปอร์ลิงก์ทำได้อย่างไร",
+      "comment_1": "เปิดการนำเสนอ",
+      "comment_2": "เข้าถึงเนื้อหาสไลด์",
+      "comment_3": "ลบลายน้ำไฮเปอร์ลิงก์",
+      "comment_4": "บันทึกการนำเสนอ"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ใช้ API {{ProgLang}} ของเราเพื่อลบลายน้ำจากไฟล์ {{FileFormatUp}} และรักษาให้เอกสารของคุณดูสะอาด"
+    },
+    "header": {
+      "title": "{{ProgLang}} สำหรับการลบลายน้ำจาก {{FileFormatUp}}",
+      "description": "ด้วย API {{ProdFullName}} คุณสามารถลบหรือแก้ไขลายน้ำในไฟล์ {{FileFormatUp}} และรักษาให้เอกสารของคุณดูเรียบร้อย",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "ดาวน์โหลดฟรีจาก {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} มอบเครื่องมือทั้งหมดที่คุณต้องการในการจัดการลายน้ำในไฟล์ {{FileFormatUp}} ลบหรือตั้งค่าใหม่ลายน้ำเพื่อให้เอกสารของคุณดูเป็นมืออาชีพและมีการจัดรูปแบบที่ดี"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ใน {{ProgLang}}",
+      "description": "ดูว่า API {{ProdFullName}} สามารถช่วยให้คุณลบลายน้ำจากไฟล์ {{FileFormatUp}} เพื่อคุณภาพเอกสารที่ดีขึ้นได้อย่างไร"
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "ลบลายน้ำ {{FileFormatUp}} ได้อย่างรวดเร็วด้วย {{ProgLang}}",
+      "description": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ได้อย่างรวดเร็วโดยใช้ API {{ProgLang}} ของเราเพื่อเอกสารที่สะอาดและเป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "{{ProgLang}} สำหรับการจัดการลายน้ำใน {{FileFormatUp}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบหรือแก้ไขลายน้ำในไฟล์ {{FileFormatUp}} และรักษาให้เอกสารของคุณดูดีที่สุด",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "รับฟรีที่ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} มีทุกสิ่งที่คุณต้องการในการจัดการลายน้ำในไฟล์ {{FileFormatUp}} ลบ แก้ไข หรือปรับลายน้ำเพื่อรักษารูปลักษณ์ที่สะอาดและเป็นมืออาชีพ"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ใน {{ProgLang}}",
+      "description": "เรียนรู้วิธีการใช้ API {{ProdFullName}} เพื่อให้ลบลายน้ำจากไฟล์ {{FileFormatUp}} และปรับปรุงรูปลักษณ์ของเอกสารของคุณ"
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "ลบลายน้ำจากเอกสาร {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ได้อย่างรวดเร็วโดยใช้ API {{ProgLang}} ของเราเพื่อผลลัพธ์ที่เป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "ลบลายน้ำในไฟล์ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบลายน้ำจากเอกสาร {{FileFormatUp}} และรักษาให้ไฟล์ของคุณสะอาดและเป็นระเบียบ",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "ดาวน์โหลดฟรีที่ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} ทำให้คุณจัดการลายน้ำในไฟล์ {{FileFormatUp}} ได้ง่าย ลบหรือแก้ไขลายน้ำขณะรักษานํ้าให้เอกสารของคุณดูคมชัดและมีโครงสร้างที่ดี"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจาก {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ค้นหาว่า API {{ProdFullName}} สามารถช่วยคุณลบลายน้ำจากไฟล์ {{FileFormatUp}} ได้อย่างไรเพื่อผลลัพธ์ที่เป็นมืออาชีพ"
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "ลบลายน้ำจากไฟล์นำเสนอ {{FileFormatUp}}",
+      "description": "ลบลายน้ำจากไฟล์นำเสนอได้อย่างง่ายดายโดยใช้ API {{ProgLang}} ของเราเพื่อสไลด์ที่สะอาดและเป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "การลบลายน้ำจากการนำเสนอ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบลายน้ำจากการนำเสนอ {{FileFormatUp}} และรักษาสไลด์ของคุณให้ดูดี",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "ดาวน์โหลดฟรีจาก {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} ให้คุณควบคุมลายน้ำในไฟล์การนำเสนอได้อย่างเต็มที่ ลบ แก้ไข หรือปรับลายน้ำเพื่อรักษาสไลด์ของคุณให้ชัดเจนและเป็นมืออาชีพสำหรับผู้ชมทุกคน"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากการนำเสนอใน {{ProgLang}}",
+      "description": "ดูว่า API {{ProdFullName}} จะช่วยคุณจัดการและลบลายน้ำจากการนำเสนอไฟล์ {{FileFormatUp}} ได้อย่างไรเพื่อรูปลักษณ์ที่สวยงาม"
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "ลบลายน้ำจาก PowerPoint ด้วย {{ProgLang}}",
+      "description": "ลบลายน้ำจากสไลด์ PowerPoint ได้อย่างรวดเร็วโดยใช้ API {{ProgLang}} ของเราเพื่อการนำเสนอที่เป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "ลบลายน้ำจากสไลด์ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบลายน้ำจากสไลด์ {{FileFormatUp}} และรักษาการนำเสนอของคุณให้ดีที่สุด",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "รับฟรีที่ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} มอบเครื่องมือทั้งหมดที่คุณต้องการในการจัดการลายน้ำในการนำเสนอ PowerPoint ลบหรือปรับลายน้ำเพื่อให้สไลด์ของคุณดูสะอาดและเป็นมืออาชีพ"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจาก PowerPoint ใน {{ProgLang}}",
+      "description": "เรียนรู้ว่า API {{ProdFullName}} สามารถช่วยคุณลบลายน้ำจากสไลด์ {{FileFormatUp}} เพื่อผลลัพธ์ที่สะอาดและเป็นมืออาชีพ"
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ได้อย่างง่ายดายโดยใช้ API {{ProgLang}} ของเราเพื่อเอกสารที่สะอาดและเป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "จัดการลายน้ำในไฟล์ {{FileFormatUp}} กับ {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบหรือแก้ไขลายน้ำในไฟล์ {{FileFormatUp}} และรักษาให้เอกสารของคุณดูดีที่สุด",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "ดาวน์โหลดฟรีจาก {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} จัดเตรียมฟีเจอร์ทั้งหมดที่คุณต้องการในการจัดการลายน้ำในไฟล์ {{FileFormatUp}} ลบ แก้ไข หรือปรับลายน้ำเพื่อรักษาให้เอกสารของคุณสะอาดและเป็นมืออาชีพ"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ใน {{ProgLang}}",
+      "description": "ดูว่า API {{ProdFullName}} สามารถช่วยให้คุณลบลายน้ำจากไฟล์ {{FileFormatUp}} เพื่อประสบการณ์เอกสารที่ดีขึ้นได้อย่างไร"
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "ลบลายน้ำจากไฟล์ Excel {{FileFormatUp}}",
+      "description": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ได้อย่างรวดเร็วโดยใช้ API {{ProgLang}} ของเราเพื่อข้อมูลที่สะอาดและเป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "ลบลายน้ำในสเปรดชีต {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบหรือแก้ไขลายน้ำในสเปรดชีต {{FileFormatUp}} และรักษาข้อมูลของคุณให้ชัดเจน",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "รับฟรีที่ {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} มอบเครื่องมือทุกอย่างที่คุณต้องการในการจัดการลายน้ำในสเปรดชีต {{FileFormatUp}} ลบ แก้ไข หรือปรับลายน้ำเพื่อให้ข้อมูลของคุณดูสะอาดและเป็นมืออาชีพ"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากสเปรดชีต {{FileFormatUp}} ใน {{ProgLang}}",
+      "description": "เรียนรู้ว่า API {{ProdFullName}} สามารถช่วยคุณลบลายน้ำจากสเปรดชีต {{FileFormatUp}} เพื่อการนำเสนอข้อมูลที่ดีกว่า"
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "ลบลายน้ำจากไฟล์ {{FileFormatUp}} ด้วย {{ProgLang}}",
+      "description": "ลบลายน้ำจากสเปรดชีต {{FileFormatUp}} ได้อย่างง่ายดายโดยใช้ API {{ProgLang}} ของเราเพื่อข้อมูลที่สะอาดและเป็นมืออาชีพ"
+    },
+    "header": {
+      "title": "จัดการลายน้ำในไฟล์ {{FileFormatUp}} กับ {{ProgLang}}",
+      "description": "ใช้ API {{ProdFullName}} เพื่อลบหรือแก้ไขลายน้ำในสเปรดชีต {{FileFormatUp}} และรักษาข้อมูลของคุณให้ดีที่สุด",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "ดาวน์โหลดฟรีจาก {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} ไลบรารี",
+      "content": "ไลบรารี {{ProdFullName}} ให้เครื่องมือทั้งหมดที่คุณต้องการในการจัดการลายน้ำในสเปรดชีต {{FileFormatUp}} ลบ แก้ไข หรือปรับลายน้ำเพื่อให้ข้อมูลของคุณดูสะอาดและเป็นมืออาชีพ"
+    },
+    "formats": {
+      "title": "ลบลายน้ำจากสเปรดชีต {{FileFormatUp}} ใน {{ProgLang}}",
+      "description": "ดูว่า API {{ProdFullName}} สามารถช่วยคุณลบลายน้ำจากสเปรดชีต {{FileFormatUp}} เพื่อประสบการณ์การทำงานที่ดีกว่าได้อย่างไร"
+    }
+  }
+}

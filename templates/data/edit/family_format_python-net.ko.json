@@ -1,0 +1,107 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}}에서 워터마크 텍스트 업데이트",
+    "comment_2": "{{FileFormatUp}} 파일을 사용하여 {{TextWatermarker}} 생성",
+    "comment_3": "워터마크 텍스트를 찾기 위해 {{TextTextSearchCriteria}} 설정",
+    "comment_4": "워터마크 텍스트 수정",
+    "comment_5": "수정된 문서 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}을 사용하여 {{FileformatCap}} 문서의 워터마크 수정",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})**은 {{ProgLang}} 개발자가 다양한 {{FileformatCap}} 파일에서 워터마크를 업데이트할 수 있도록 도와줍니다. 사용 방법은 다음과 같습니다:",
+      "step_1": "먼저, {{TextWatermarkerBold}} 생성자에 {{FileformatCap}} 파일을 전달하여 열어야 합니다. 파일 경로, 바이트 스트림 또는 파일 스트림을 사용할 수 있습니다.",
+      "step_2": "그런 다음, 워터마크 텍스트나 속성을 검색할 수 있게 해주는 {{TextSearchCriteriaBold}}를 사용하여 변경하고자 하는 워터마크를 찾습니다.",
+      "step_3": "찾은 후에는 텍스트, 글꼴, 크기, 위치, 색상 등과 같은 세부 정보를 변경할 수 있습니다. 이를 통해 워터마크의 모양을 완전히 제어할 수 있습니다.",
+      "step_4": "변경한 후에는 문서를 저장해야 합니다. 결과를 스트림이나 파일 경로에 쓸 수 있습니다."
+    }
+  },
+  "more_features": {
+    "title": "워터마크 업데이트 방법 더 알아보기",
+    "description": "우리 라이브러리를 사용하면 {{ProgLang}} 앱에서 다양한 파일 형식에 대해 워터마크를 추가, 검색, 편집 또는 삭제할 수 있습니다.",
+    "image_description": "워터마크 편집",
+    "feature_1": {
+      "title": "간편하게 파일에 워터마크 추가",
+      "content": "{{ProdFullName}}을 사용하여 문서에서 워터마크를 추가하고 관리하십시오. 간단한 API를 사용하여 필요에 따라 워터마크를 검색, 업데이트 또는 제거할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "필요에 맞게 워터마크 사용자화",
+      "content": "유연한 API를 사용하여 글꼴, 크기, 방향, 색상과 같은 워터마크 설정을 조정하여 원하는 결과를 얻을 수 있습니다."
+    },
+    "feature_3": {
+      "title": "형식별 기능 활용",
+      "content": "파일 형식에 따라 머리글, 바닥글, 주석 또는 배경과 같은 워터마크 영역으로 사용할 수 있는 기본 기능을 사용할 수 있습니다."
+    },
+    "code_1": {
+      "title": "Excel에서 텍스트 워터마크 편집",
+      "content": "이 코드는 Excel 스프레드시트에서 워터마크 텍스트를 변경하는 방법을 보여줍니다.",
+      "comment_1": "XLSX 파일 열기",
+      "comment_2": "스프레드시트 데이터 읽기",
+      "comment_3": "워터마크 텍스트 변경",
+      "comment_4": "결과 저장"
+    }
+  },
+  "excel": {
+    "ext": "xlsx",
+    "head": {
+      "title": "{{FileformatCap}} 파일에서 워터마크 편집",
+      "description": "{{ProdFullName}}을 사용하여 워터마크 설정을 쉽게 조정하여 문서를 보호하고 개인화할 수 있습니다."
+    },
+    "header": {
+      "title": "{{ProgLang}}을 사용하여 {{FileformatCap}} 스프레드시트에서 워터마크 업데이트",
+      "description": "{{ProgLang}}에 대한 유연한 워터마크 편집 도구로 Excel 스프레드시트를 안전하게 유지하십시오.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "**{{FileformatCap}} 워터마크를 신속하게 편집:** {{ProdFullName}}은 {{ProgLang}} 개발자에게 최소한의 노력으로 워터마크를 관리할 수 있는 모든 도구를 제공하여 문서 작업 흐름과 안전성을 향상시킵니다."
+    },
+    "formats": {
+      "title": "다른 형식에서 워터마크 업데이트",
+      "description": "{{ProdFullName}}을 사용하여 다양한 파일 형식에서 워터마크 설정을 쉽게 사용자화할 수 있습니다."
+    }
+  },
+  "word": {
+    "ext": "docx",
+    "head": {
+      "title": "{{FileformatCap}} 파일에서 워터마크 편집",
+      "description": "{{ProdFullName}}을 사용하여 워터마크 설정을 세밀하게 조정하고 문서 보호를 향상시킬 수 있습니다."
+    },
+    "header": {
+      "title": "{{ProgLang}}으로 {{FileformatCap}} 워터마크를 쉽게 업데이트",
+      "description": "{{ProdFullName}}으로 브랜드와 문서를 보호하십시오. Word 파일에서 워터마크를 신속하게 변경할 수 있습니다.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "**{{FileformatCap}} 문서 보호:** {{ProdFullName}}을 사용하여 문서 필요와 브랜드에 맞는 워터마크를 간편하게 업데이트하고 관리할 수 있습니다."
+    },
+    "formats": {
+      "title": "다른 파일 형식에 워터마크 추가",
+      "description": "{{ProdFullName}}은 유연한 워터마크 도구를 통해 여러 파일 유형을 보호하는 데 도움을 줍니다."
+    }
+  },
+  "powerpoint": {
+    "ext": "pptx",
+    "head": {
+      "title": "{{FileformatCap}} 파일에서 워터마크 편집",
+      "description": "{{ProdFullName}}을 사용하여 {{FileformatCap}} 프레젠테이션에서 워터마크 콘텐츠를 신속하게 변경하고 문서를 안전하게 유지하십시오."
+    },
+    "header": {
+      "title": "{{ProgLang}}에서 {{FileformatCap}} 워터마크 정밀 편집",
+      "description": "{{ProdFullName}}을 사용하여 프레젠테이션에서 워터마크의 레이아웃과 가시성을 완전히 제어하십시오.",
+      "subtitle": "{{ProdFullName}} 라이브러리",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} API",
+      "content": "**{{FileformatCap}} 파일에서 워터마크 레이아웃 제어:** {{ProdFullName}}을 사용하여 필요한 위치에 워터마크를 정확하게 배치하고 손쉽게 프레젠테이션을 보호할 수 있습니다."
+    },
+    "formats": {
+      "title": "다른 문서 형식의 워터마크 편집",
+      "description": "{{ProdFullName}}을 사용하여 다양한 문서 형식의 워터마크로 작업할 수 있습니다."
+    }
+  }
+}

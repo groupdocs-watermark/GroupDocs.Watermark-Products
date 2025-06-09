@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일에서 이미지 워터마크 삭제",
+    "comment_2": "당신의 {{FileFormatUp}} 파일로 {{TextWatermarker}} 인스턴스 생성",
+    "comment_3": "감지된 워터마크 찾기 및 제거",
+    "comment_4": "업데이트된 문서 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 {{FileformatCap}} 파일의 워터마크를 제거하기",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})**를 사용하면 {{ProgLang}} 개발자가 {{FileformatCap}} 파일에서 워터마크를 신속하게 지울 수 있습니다. 방법은 다음과 같습니다:",
+      "step_1": "{{TextWatermarkerBold}} 생성자에 {{FileformatCap}} 파일을 전달하여 시작합니다. 파일 경로, 바이트 스트림 또는 파일 스트림을 사용할 수 있습니다.",
+      "step_2": "제거하고자 하는 워터마크를 검색하기 위해 {{TextSearchCriteriaBold}} 객체를 사용합니다. 정확한 결과를 위해 이미지, 텍스트 또는 형식으로 필터링합니다.",
+      "step_3": "검색 후 워터마크 목록을 받게 됩니다. 필요한 항목을 선택하고 제거합니다.",
+      "step_4": "작업이 끝나면 문서를 파일이나 스트림에 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{ProgLang}}로 강력한 워터마크 제거 | {{ProdShortName}}",
+    "description": "{{ProgLang}} API를 활용하여 PDF와 오피스 파일에서 워터마크를 제거하세요. 어떤 용도에도 적합한 깔끔하고 전문적인 문서를 얻으세요.",
+    "image_description": "워터마크 지우기",
+    "feature_1": {
+      "title": "{{ProgLang}}에서의 정확한 워터마크 삭제",
+      "content": "우리의 {{ProgLang}} API는 정밀한 워터마크 제거를 위해 설계되어 원래의 외관과 형식을 유지합니다. 비즈니스, 법률 또는 학술 문서에 이상적입니다."
+    },
+    "feature_2": {
+      "title": "{{ProgLang}}로 배치 워터마크 제거",
+      "content": "여러 파일에서 한 번에 워터마크를 제거하여 작업 흐름을 가속화합니다. 대규모 문서 집합을 효율적으로 처리하는 데 적합합니다."
+    },
+    "feature_3": {
+      "title": "유연한 워터마크 편집 및 삭제",
+      "content": "필요에 따라 워터마크를 수정하거나 제거하세요. 이 API는 모든 요구 사항에 맞게 문서의 외관을 유지할 수 있는 옵션을 제공합니다."
+    },
+    "code_1": {
+      "title": "프레젠테이션의 배경 제거",
+      "content": "이 예제는 하이퍼링크 워터마크를 삭제하는 방법을 보여줍니다.",
+      "comment_1": "프레젠테이션 열기",
+      "comment_2": "슬라이드 콘텐츠 접근",
+      "comment_3": "하이퍼링크 워터마크 제거",
+      "comment_4": "프레젠테이션 저장"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 제거하기 {{ProgLang}}로",
+      "description": "우리의 {{ProgLang}} API를 사용해 {{FileFormatUp}} 파일에서 워터마크를 제거하고 문서를 깔끔하게 유지하세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 워터마크 제거",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 파일의 워터마크를 쉽게 삭제하거나 편집하여 문서를 깔끔하게 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 {{FileFormatUp}} 파일의 워터마크를 관리하는 데 필요한 모든 도구를 제공합니다. 문서를 전문적이고 잘 정리된 상태로 유지하기 위해 워터마크를 제거하거나 조정할 수 있습니다."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 파일의 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 파일의 워터마크를 제거하여 문서 품질을 향상시키는 방법을 확인하세요."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "{{FileFormatUp}} 워터마크 제거 {{ProgLang}}로",
+      "description": "우리의 {{ProgLang}} API를 사용하여 {{FileFormatUp}} 파일의 워터마크를 쉽게 제거하고 전문적인 문서를 만드세요."
+    },
+    "header": {
+      "title": "{{ProgLang}}의 {{FileFormatUp}} 워터마크 관리",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 파일에서 워터마크를 삭제하거나 편집하여 문서의 외관을 최상으로 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 {{FileFormatUp}} 파일의 워터마크를 관리하는 데 필요한 모든 것을 제공합니다. 문서를 깨끗하고 전문적으로 유지하기 위해 워터마크를 제거, 편집 또는 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}에서  {{FileFormatUp}} 파일의 워터마크 제거하기",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 파일에서 워터마크를 제거하고 문서 외관을 개선하는 방법을 알아보세요."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "{{FileFormatUp}} 문서에서 워터마크 제거 {{ProgLang}}로",
+      "description": "우리의 {{ProgLang}} API를 사용하여 {{FileFormatUp}} 파일에서 워터마크를 신속하게 제거하십시오. 전문적인 결과를 보장합니다."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 삭제 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 문서에서 워터마크를 제거하고 파일을 깔끔하게 정리하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리를 통해 {{FileFormatUp}} 파일의 워터마크를 쉽게 관리할 수 있습니다. 문서를 날카롭고 잘 구성된 상태로 유지하기 위해 워터마크를 제거하거나 편집하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}}의 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 파일에서 워터마크를 제거하여 깔끔하고 전문적인 마무리를 돕는 방법을 알아보세요."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "프레젠테이션 {{FileFormatUp}} 파일에서 워터마크 제거",
+      "description": "우리의 {{ProgLang}} API를 사용하여 프레젠테이션 파일에서 워터마크를 쉽게 제거하고 전문적인 슬라이드를 얻으세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 프레젠테이션의 워터마크 제거 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 프레젠테이션에서 워터마크를 제거하고 슬라이드를 깔끔하게 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 프레젠테이션 파일의 워터마크를 완벽하게 관리할 수 있는 기능을 제공합니다. 청중을 위한 명확하고 전문적인 슬라이드를 위해 워터마크를 제거, 편집 또는 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 프레젠테이션에서 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 프레젠테이션의 워터마크를 관리하고 제거하여 세련된 외관을 만드는 방법을 확인하세요."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "{{ProgLang}}로 파워포인트 워터마크 제거하기",
+      "description": "우리의 {{ProgLang}} API를 사용하여 파워포인트 슬라이드에서 워터마크를 신속하게 제거하고 전문적인 프레젠테이션을 만드세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 슬라이드에서 워터마크 제거 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 슬라이드에서 워터마크를 제거하고 프레젠테이션의 외관을 최상으로 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료로 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 파워포인트 프레젠테이션의 워터마크를 관리할 수 있는 모든 도구를 제공합니다. 깨끗하고 전문적인 슬라이드를 유지하기 위해 워터마크를 제거하거나 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}에서 파워포인트의 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 슬라이드에서 워터마크를 제거하여 깔끔하고 전문적인 결과를 만드는 방법을 알아보세요."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "RTF {{FileFormatUp}} 파일에서 워터마크 제거 {{ProgLang}}로",
+      "description": "우리의 {{ProgLang}} API를 사용하여 {{FileFormatUp}} 파일에서 워터마크를 쉽게 제거하고 깔끔한 문서를 만드세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일의 워터마크 관리 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 파일에서 워터마크를 삭제하거나 편집하여 문서의 최상의 외관을 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 {{FileFormatUp}} 파일의 워터마크 관리에 필요한 모든 기능을 제공합니다. 문서를 깔끔하고 전문적으로 유지하기 위해 워터마크를 제거, 편집 또는 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 파일의 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 파일에서 워터마크를 제거하여 더 나은 문서 경험을 제공하는 방법을 확인하세요."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Excel {{FileFormatUp}} 파일에서 워터마크 제거",
+      "description": "우리의 {{ProgLang}} API를 사용하여 {{FileFormatUp}} 스프레드시트에서 워터마크를 신속하게 제거하고 깔끔하고 전문적인 데이터를 만드세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 스프레드시트에서 워터마크 삭제 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 스프레드시트에서 워터마크를 제거하거나 편집하여 데이터를 선명하게 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 받기"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 {{FileFormatUp}} 스프레드시트의 워터마크를 관리하는 데 필요한 모든 것을 제공합니다. 깨끗하고 전문적인 데이터를 유지하기 위해 워터마크를 제거, 편집 또는 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 스프레드시트에서 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 스프레드시트에서 워터마크를 제거하여 데이터 프레젠테이션을 향상시키는 방법을 알아보세요."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} 파일에서 워터마크 제거 {{ProgLang}}로",
+      "description": "우리의 {{ProgLang}} API를 사용하여 {{FileFormatUp}} 스프레드시트에서 워터마크를 쉽게 제거하고 깔끔하고 전문적인 데이터를 만들세요."
+    },
+    "header": {
+      "title": "{{FileFormatUp}} 파일의 워터마크 관리 {{ProgLang}}로",
+      "description": "{{ProdFullName}} API를 사용하여 {{FileFormatUp}} 스프레드시트에서 워터마크를 삭제하거나 편집하여 데이터를 최상의 상태로 유지하세요.",
+      "subtitle": "{{ProdFullName}} API",
+      "action_title": "{{PackageStoreName}}에서 무료 다운로드"
+    },
+    "about": {
+      "title": "{{ProdFullName}} 라이브러리",
+      "content": "{{ProdFullName}} 라이브러리는 {{FileFormatUp}} 스프레드시트에서 워터마크를 관리하는 데 필요한 모든 도구를 제공합니다. 데이터를 깔끔하고 전문적으로 유지하기 위해 워터마크를 제거, 편집 또는 조정하세요."
+    },
+    "formats": {
+      "title": "{{ProgLang}}로 {{FileFormatUp}} 스프레드시트의 워터마크 제거",
+      "description": "{{ProdFullName}} API가 {{FileFormatUp}} 스프레드시트에서 워터마크를 제거하여 더 나은 데이터 경험을 제공하는 방법을 확인하세요."
+    }
+  }
+}
